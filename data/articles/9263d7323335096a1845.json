@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38806",
+  "title": "Blackboard Intelligence Can Surpass Autoregressive on Globally Constrained Problems",
+  "text": "arXiv:2609.38806v2 Announce Type: cross\nAbstract: Next-token prediction has driven remarkable progress in large language models, yet a growing body of evidence suggests that they can struggle on problems governed by complex global constraints. In this work, we focus on this regime and ask whether some of these limitations arise from the inference interface induced by next-token prediction itself. We study this question through blackboard intelligence: an inference-time perspective in which a model works on a fixed, revisable canvas and searches over candidate solution states rather than committing to a causal, left-to-right trajectory. We instantiate this idea with diffusion language models, whose any-order prediction interface naturally exposes predictions over partially filled solution states. Our key observation is that mean confidence, a simple model-internal quantity available from the standard masked diffusion objective, provides a useful proxy for global coherence and can guide inference-time search and revision. Empirically, across ZebraLogic, Nurse Rostering, and Job-Shop Scheduling, Blackboard consistently improves inference while holding the fine-tuned LLaDA-8B-Instruct checkpoint fixed and substantially outperforms same-scale autoregressive baselines, reaching 90.4% accuracy on ZebraLogic-Hard, 76.4% exact feasibility on Nurse Rostering, and 80.2% optimality on JSSP. Stronger autoregressive search and refinement also fail to close the gap on ZebraLogic-Hard, while Blackboard surpasses tested frontier LLMs there and on JSSP despite their substantially greater scale and strong test-time reasoning. We open-source our codebase at https://github.com/jwoosang1/blackboard-intelligence.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9263d7323335096a1845",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38997",
+  "title": "Settle: Learning When to Stop Reasoning",
+  "text": "arXiv:2609.38997v1 Announce Type: new\nAbstract: Reasoning models often continue generating after their answers have settled. Settle learns when to stop from answer stability in completed traces. It trains the existing end-of-reasoning token while keeping other predictions close to the base model, and requires only ordinary decoding at inference. On MATH-500 with Qwen3-4B, Settle reduces token count by 40% with a 0.5-percentage-point decrease in accuracy. It gains 6.16 percentage points over supervised fine-tuning on the same traces shortened at their first stable answer, at nearly identical token counts. Its stopping score predicts whether a correct answer will remain correct. Settle extends the accuracy-token-count Pareto frontier of the evaluated stopping methods.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "03b89c438df00f4e1cd7",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

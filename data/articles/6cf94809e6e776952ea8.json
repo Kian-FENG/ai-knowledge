@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38371",
+  "title": "TALK-Dem: Benchmarking Embodied Task Planning under Dementia-Associated Communication Patterns",
+  "text": "arXiv:2609.38371v1 Announce Type: cross\nAbstract: Existing LLM-driven robot task planners rely on a taken-for-granted assumption of an ideal user whose instructions are clear, complete, and task-focused. However, when interacting with real-world users, especially those experiencing cognitive impairments, such as people living with dementia (PLWD), the planners often make mistakes and even pose physical safety risks. We proposed TALK-Dem (Talking Attributes and Linguistic Knowledge in Dementia), the first benchmark for evaluating LLM-driven robot task planning under dementia-associated verbal communication. TALK-Dem contains 4,800 instructions and covers five typical communication patterns, including Referential Imprecision, Object Substitution, Empty Speech, Topic Drift, and Intrusion, at three intensity levels. Experiments across six open-weight LLMs reveal a substantial robustness gap. Across communication patterns, open-weight models exhibited performance drops of up to 22.3 percentage points compared to ideal instructions. This revealed a critical gap and even danger for real-world applications, especially in assistive robotics, where locally deployable models are necessary due to privacy concerns and connectivity constraints. To mitigate this issue, we proposed the Context-Aware Retrieval from Experience (CARE) method, which retrieves relevant previously resolved tasks to provide task-specific interpretation and planning context. CARE generally outperformed standard prompting baselines across the six open-weight models, improving average task success by 18.1 percentage points over the vanilla prompt. These results highlighted the importance of both evaluating communication robustness and developing effective adaptation strategies for locally deployable assistive robots. The TALK-Dem dataset is publicly available at https://anonymous.4open.science/r/TALK-Dem-A6B3/.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "6cf94809e6e776952ea8",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39189",
+  "title": "ViLegalExpert: A Large-Scale Benchmark for Vietnamese Legal Retrieval and Question Answering from Real-World Consultations",
+  "text": "arXiv:2609.39189v1 Announce Type: new\nAbstract: Trustworthy Legal AI requires systems that can answer legal questions while grounding their responses in authoritative sources. However, existing Vietnamese legal benchmarks provide limited coverage of real-world legal consultations. We introduce \\textbf{ViLegalExpert}, a large-scale benchmark constructed from authentic citizen--lawyer consultations, containing over \\textbf{172K} questions across \\textbf{34 legal domains}, together with professional answers and expert-verified legal evidence. ViLegalExpert supports legal information retrieval, extractive QA, and abstractive QA. Experiments with representative retrieval methods and language models reveal substantial challenges in evidence retrieval and grounded answer generation. While pretrained models perform strongly on QA, hybrid retrieval achieves the best retrieval performance. These results demonstrate the difficulty of mapping naturally expressed legal questions to authoritative provisions and establish ViLegalExpert as a challenging benchmark for reliable Vietnamese Legal AI.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "dc1f4d7356e1dccb1d7a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

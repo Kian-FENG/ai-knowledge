@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.06324",
+  "title": "A Ticket from Marginals to Joints: Coupled-Noise Distillation for One-Step Block Generation in Diffusion Language Models",
+  "text": "arXiv:2609.06324v4 Announce Type: replace\nAbstract: Can a diffusion language model generate a coherent token block in one forward pass? Masked models already predict every position at once, but each prediction is the marginal distribution given the visible context, so the tokens can be mutually inconsistent and later steps revise those already committed. We introduce CONDOR (Coupled-Noise Distillation for One-Step Readout), trained from scratch to map different noise samples to different coherent blocks. Initially, random noise is not naturally paired with a target. Winner-take-all supervision lets different samples specialize, and self-distillation trains the one-pass output to match the refined coherent block. TinyStories experiments show diverse, coherent continuations over successive blocks, one forward pass each. Qualitative MNIST experiments show that the same approach can extend to multimodal generation, such as text-to-image and unconditional text-and-image generation.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "bc8b5801933964dc1de4",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

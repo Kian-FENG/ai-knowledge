@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2605.10851",
+  "title": "Generalizing the Turing Test to Interactive Agents",
+  "text": "arXiv:2605.10851v2 Announce Type: replace-cross\nAbstract: We initiate the study of the Generalized Turing Test (GTT), a formal generalization of Turing's imitation game from humans to arbitrary interactive agents. For agents $A$ and $B$, $A$ passes the GTT against $B$ if an instance of $B$, acting as a distinguisher, cannot reliably distinguish an $A$ instructed to imitate $B$ from another instance of $B$; if so, we write $A \\geq B$. We study the theoretical and empirical consequences of this idea. On the theory side, we prove sufficient conditions under which this \"Turing Comparator\" is transitive. We introduce natural variants with querying (the imitator can first interact with a specimen of the target), a Universal Turing Test with arbitrary distinguishers and targets, and complexity-theoretic variants that control interaction length. As a proof of concept, we evaluate the GTT and its variants across nine large language models. Remarkably, Turing Scores recover a clear model stratification consistent with standard external benchmarks despite being derived entirely from pairwise imitation games. Transcript analysis reveals that models use both stylistic signatures and substantive STEM and logic-based probes. Together, these results suggest indistinguishability could provide a meaningful signal for comparing agents, yielding an inherently adaptive form of evaluation that does not rely on fixed benchmarks.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "32dbe1049df202bd8d05",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://arxiv.org/abs/2609.38799",
+  "title": "Overlap, Unique and Conflict: Can LLMs Extract What They Can Recognize?",
+  "text": "arXiv:2609.38799v1 Announce Type: new\nAbstract: Understanding multi-perspective alternative narratives requires identifying how their information agrees, conflicts, or differs across sources. Existing work on cross-text relations largely focuses on categorizing relations between predefined text pairs, such as entailment or contradiction, rather than directly extracting such information from full narratives. To address this gap, we introduce Overlap-Unique-Conflict (OUC) extraction, a cross-narrative task that extracts all overlapping, conflicting, and unique clauses from two narratives. To support this study, we construct a benchmark of approximately 22K narrative pairs and 140K OUC instances spanning factual, argumentative, and political discourse. Evaluating 14 open-source LLMs (0.6B-35B), we find that unique information is far easier to extract than overlap and conflict: the strongest model, Gemma-4-31B, reaches only 61.13% F1-score on overlap and 48.58% on conflict, against more than 75% on unique. Further diagnostic analysis reveals that this difficulty does not stem from relation recognition alone, but rather from a failure to pair and extract the corresponding clauses from full narratives, especially in smaller models. Nevertheless, learning these extractions with task-specific supervision narrows the gap considerably: a fine-tuned Qwen-3-8B gains 15-28% absolute over its baseline and surpasses models roughly four times its size (e.g., Qwen-3.6-35B) on several tasks. Even so, overlap and conflict remain well below satisfactory, leaving cross-narrative clause extraction an open challenge.",
+  "published_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f11b7910ddad1ff85ed0",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:34:26.644013+00:00"
+}

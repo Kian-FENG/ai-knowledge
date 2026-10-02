@@ -1,0 +1,17 @@
+{
+  "url": "https://arxiv.org/abs/2609.38995",
+  "title": "When Clipping Reverses Correction: Failure Dynamics of Pointwise Forward-KL On-Policy Self-Distillation",
+  "text": "arXiv:2609.38995v1 Announce Type: new\nAbstract: On-policy self-distillation (OPSD) trains a student on its own generated responses using feedback from the same model conditioned on privileged information. On mathematical reasoning, the original OPSD study finds that stylistic tokens can dominate the training signal over math-related tokens, and that pointwise clipping of the forward KL objective stabilizes training. Pointwise clipping caps each vocabulary-wise forward KL term at a fixed threshold before summing over the vocabulary. Follow-up studies have adopted this clipping, but its effect on training has not been directly examined. In matched training runs differing only in whether clipping is applied, we observe that clipped runs produce substantially more repetitions that persist to the end of the response than their unclipped counterparts. We trace this failure to the clipped objective. We prove that the clipped objective can fail to correct the student toward the teacher and can instead push clipped and unclipped token probabilities away from its teacher. Our training runs agree with this analysis: inside repetitions, the clipped student places less probability than its teacher on leaving the repetition, and more on continuing it, whereas the unclipped runs stay close to their teachers.",
+  "published_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "3a4c61e6fbd9f924de7a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:34:26.644013+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "raw_path": "raw/2026-10-02/16489e387e57e93d938959a8f0c2c6724e2be2fe2566835936b22d4ed25f9d00.body",
+  "sha256": "16489e387e57e93d938959a8f0c2c6724e2be2fe2566835936b22d4ed25f9d00",
+  "source_url": "https://lmsys.org/blog/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-02T01:34:25.885814+00:00",
+  "source_id": "lmsys",
+  "status": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "532991",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Fri, 02 Oct 2026 01:34:27 GMT",
+    "Etag": "W/\"81b0a97d3473539202789a032c03792e\"",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "X-Matched-Path": "/blog",
+    "X-Nextjs-Prerender": "1",
+    "X-Nextjs-Stale-Time": "300",
+    "X-Vercel-Cache": "HIT",
+    "X-Vercel-Id": "sfo1::p7j8s-1790904867205-59bb6101f521",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://www.lmsys.org/blog/",
+  "truncated": false
+}

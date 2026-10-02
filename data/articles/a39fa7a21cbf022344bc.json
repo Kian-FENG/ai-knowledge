@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39481",
+  "title": "About the Influence of Workflow Topology on Task Intensity Prediction through Graph Learning",
+  "text": "arXiv:2609.39481v1 Announce Type: new\nAbstract: Efficient resource provisioning for large-scale workflows on cloud infrastructures is a critical performance engineering challenge. These workflows are often structured as directed acyclic graphs (DAGs), where under-provisioning can cause critical bottlenecks and over-provisioning leads to unnecessary costs. Accurate, task-level prediction of resource intensity (e.g., CPU load and memory usage) is essential for mitigating these issues. While task-level features are commonly used for prediction, the performance impact of the workflow's overall topological structure is often overlooked or assumed. The central question of our work is: To what extent does what part of the DAG topology influence task-level resource intensity, and what is the most effective way to model this influence?\nThis paper presents a comprehensive benchmark to systematically quantify the impact of graph topology on task intensity prediction. We evaluate and compare a spectrum of modeling approaches. Our findings demonstrate that topology is a critical feature for accurate prediction. Models incorporating important topological information, even through simple handcrafted features, significantly outperform baseline models. We show that graph-native models provide the highest accuracy, achieving low mean absolute errors for both CPU and memory predictions, and can still be combined with simple topological features that they do not learn for better performance.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "a39fa7a21cbf022344bc",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

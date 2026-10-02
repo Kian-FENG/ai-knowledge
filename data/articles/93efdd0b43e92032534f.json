@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.40159",
+  "title": "Reinforcement Learning-Guided Graph Transformations for SpTRSV Optimization",
+  "text": "arXiv:2609.40159v1 Announce Type: new\nAbstract: Sparse triangular solve (SpTRSV) is a fundamental kernel in numerous scientific and engineering applications. However, the data dependencies inherent in sparse triangular matrices significantly limit the available parallelism and make efficient workload distribution challenging. Recent graph transformation techniques address these limitations by modifying the dependency graph of the input matrix to improve parallel execution. Existing graph transformation strategies, however, rely on manually designed heuristics, making their development and adaptation to different optimization objectives challenging. This work proposes a reinforcement learning-guided graph transformation framework for SpTRSV, in which graph transformation is formulated as a sequential decision-making problem and an RL agent learns matrix-dependent transformation policies. Experimental results on real-world sparse matrices demonstrate level reductions of up to 94% and reductions of up to 80% in the coefficient of variation of level costs, while modifying only 1.50% of the rows in the highest case. On average, the RL- guided graph transformation achieves a 23% reduction in the number of levels and a 29% reduction in the coefficient of variation of level costs while rewriting only 0.82% of the matrix rows. Although the heuristic strategies generally achieve more aggressive level reduction(between 31% and 46%), the RL-based approach achieves the largest average reduction in the coefficient of variation of level costs, demonstrating its ability to balance competing graph transformation objectives. The results further show that the learned policies can be transferred to previously unseen matrices through curriculum learning and fine-tuning, while zero-shot experiments provide insights into the limitations of generalizing graph transformation policies across different sparsity patterns.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "93efdd0b43e92032534f",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

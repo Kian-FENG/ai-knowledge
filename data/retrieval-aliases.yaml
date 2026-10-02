@@ -1,0 +1,48 @@
+groups:
+- - OpenAI
+  - ChatGPT
+  - Codex
+- - Anthropic
+  - Claude
+- - DeepSeek
+  - 深度求索
+  - 深求
+- - Qwen
+  - 通义
+  - 千问
+  - 阿里
+  - Alibaba
+- - Kimi
+  - Moonshot AI
+  - Moonshot
+  - 月之暗面
+- - SGLang
+  - sgl-project
+- - vLLM
+  - vllm-project
+- - Dynamo
+  - ai-dynamo
+  - NVIDIA Dynamo
+- - AI Infra
+  - AI基础设施
+  - 推理基础设施
+- - MaaS
+  - 模型服务
+  - 模型即服务
+- - KV cache
+  - KV缓存
+  - 键值缓存
+- - disaggregation
+  - PD分离
+  - 解耦
+- - speculative decoding
+  - 推测解码
+  - 投机解码
+- - inference
+  - 推理
+- - pricing
+  - 价格
+  - 定价
+- - startup
+  - 初创
+  - 新公司

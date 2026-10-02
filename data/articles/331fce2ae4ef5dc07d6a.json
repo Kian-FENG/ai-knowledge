@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39034",
+  "title": "Switching Linear Attention",
+  "text": "arXiv:2609.39034v1 Announce Type: cross\nAbstract: Designing expressive sequence layers with efficient inference remains a central challenge in modern machine learning. Standard softmax attention achieves excellent sequence modeling performance through rich nonlinear token interactions, but it requires a key-value cache that grows linearly with sequence length, limiting its scalability. Linear attention enables efficient recurrent computation with a constant memory footprint, yet its reduced expressivity often yields inferior modeling performance. We introduce Switching Linear Attention (SwiLA), a novel sequence layer that bridges this gap by enhancing representational capacity while retaining the fixed-size recurrent state of linear attention. We derive the SwiLA recurrence from the test-time regression framework, casting the state update rule as online expectation-maximization in a mixture of linear regressions model. At test time, each output dimension dynamically selects among multiple linear attention components based on the input. Across associative recall, in-context language learning, and language modeling benchmarks, SwiLA shows strong performance and narrows the gap to softmax attention, even surpassing it in several settings.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "331fce2ae4ef5dc07d6a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

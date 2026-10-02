@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38291",
+  "title": "HARDE: Optimizing Agent Harnesses for Runtime Risk Detection and Execution Control",
+  "text": "arXiv:2609.38291v1 Announce Type: cross\nAbstract: Large language model (LLM) agents are vulnerable to safety risks such as injected malicious instructions or misleading information, motivating runtime defenses that prevent unsafe action in execution across diverse risks while preserving benign-task utility. Existing system-level defenses either focus on risk detection rather than timely prevention or rely on predefined rules with limited flexibility across diverse risks. We propose a risk-aware harness that integrates LLM-based monitoring for flexible risk detection and structures monitor-guided execution around three core modules: trigger, monitor, and feedback, enabling targeted safety interventions while limiting disruption to benign task execution. To adapt the harness to different risks and deployment settings, we introduce HARDE, a two-stage harness optimization framework that first performs isolated probing of each module to derive an optimization guide, then uses this guide to iteratively optimize the harness based on safety and utility feedback. Experiments across three attack benchmarks show that HARDE improves runtime safety while preserving utility, outperforming manually designed harnesses and naive optimization baselines. Our analysis shows that effective runtime defense benefits from complementary safety mechanisms, attack-aware harness optimization, and harness designs matched to monitor capabilities. Our code is available at https://github.com/Liuz233/HARDE.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "1965b5c2d5d9a37f9eb0",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2608.03239",
+  "title": "Relational Priors as Convergence Pressure in LLM-Based Multi-Agent Systems",
+  "text": "arXiv:2608.03239v2 Announce Type: replace\nAbstract: Large language model-based multi-agent systems (LLM-MAS) are designed through roles, debate protocols, and aggregation rules. These choices create implicit expectations of trust, skepticism, deference, or collaboration. We make inter-agent relations explicit as signed pairwise priors, rendered in natural language and added to system prompts while keeping the task protocol fixed. Across commons governance and multi-agent debate, these priors change how readily agents coordinate or agree, a pattern we call convergence pressure. More positive relations generally improve sustainability within the GovSim relational-prior sweep and increase consensus on subjective questions. These improvements over negative relations differ from gains over no-prior prompting. On objective QA, fully positive priors usually yield lower final-answer accuracy than the no-prior baseline, and some conditions produce more frequent but less accurate consensus. Effects depend on model backbone, relation type, and topology; explicitly neutral relations also produce different outcomes from omitting relational framing. Relational priors are therefore task-specific interventions and diagnostic probes of sensitivity to social framing. Evaluate them against a no-prior baseline using the task's primary metric, report accuracy and consensus correctness alongside agreement on objective tasks, and keep no-prior prompting as the default for accuracy-centric tasks unless validation supports a relational prior.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "1a4d69bc54fc0502dc7e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

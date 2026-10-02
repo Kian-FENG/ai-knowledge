@@ -1,0 +1,17 @@
+{
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc2",
+  "title": "v0.31.0rc2",
+  "text": "[Bugfix][Mamba] Keep the prompt-end prefill checkpoint under sparse r…",
+  "published_at": null,
+  "updated_at": "2026-09-30T00:33:58+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f0eaec654f7f1f43621c",
+  "source_id": "vllm",
+  "source_name": "vLLM",
+  "section": 3,
+  "raw_path": "raw/2026-10-02/24b36aa9a6ac03266adac4a3de22038433d682b46edfa209c177d8c646c0f90d.body",
+  "source_sha256": "24b36aa9a6ac03266adac4a3de22038433d682b46edfa209c177d8c646c0f90d",
+  "fetched_at": "2026-10-02T01:30:27.540125+00:00"
+}

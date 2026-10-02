@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.22107",
+  "title": "Fusion Anything: A Generalized Multimodal Foundation Model",
+  "text": "arXiv:2609.22107v2 Announce Type: replace-cross\nAbstract: Making prediction with multimodal data is widely used in diverse scenarios. Existing multimodal fusion models, once deployed, can only handle predefined modalities (e.g., vision, text and audio) and single task, making it difficult to quickly adapt to new downstream applications. Therefore, a natural yet aggressive question arises - whether there exists a general multimodal fusion model that can be applied to arbitrary modality combinations and arbitrary prediction tasks. We argue that a unified multimodal fusion model should not depend on specific modalities and should instead encode transferable patterns of multimodal correlation. To this end, we propose a simple and effective learning paradigm based on training on large-scale synthetic multimodal datasets generated with Structural Multimodal Causal Models (SMCMs), which formally characterizes the generative processes of real-world multimodal data. Building on this framework, we propose the Fusion Anything Model (FAM), a foundation model for generalized multimodal data fusion. By constructing large-scale synthetic multimodal data with diverse correlation patterns, our model encodes transferable multimodal correlations during training and activates appropriate associations through in-context examples during inference. Extensive experiments on 18 real-world datasets spanning 12 modalities and 11 prediction tasks demonstrate that our model achieves competitive performance with specialized models without task-specific adaptation.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "6bc0b9ff77f2068d2a55",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

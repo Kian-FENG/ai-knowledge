@@ -1,0 +1,13 @@
+timezone: Asia/Shanghai
+daily_hour: 8
+lookback_days: 14
+max_items: 24
+sections:
+- MaaS市场与产品形态
+- AI公司发展与新公司
+- 模型能力与技术演进
+- AI Infra社区与工程趋势
+- 模型与AI Infra论文
+- GPU与供应链
+max_response_bytes: 8000000
+timeout_seconds: 15

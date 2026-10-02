@@ -1,0 +1,115 @@
+sources:
+- id: openai
+  name: OpenAI News
+  url: https://openai.com/news/rss.xml
+  kind: feed
+  section: 0
+  enabled: true
+- id: deepmind
+  name: Google DeepMind
+  url: https://deepmind.google/blog/rss.xml
+  kind: feed
+  section: 2
+  enabled: true
+- id: sglang
+  name: SGLang
+  url: https://github.com/sgl-project/sglang/releases.atom
+  kind: feed
+  section: 3
+  enabled: true
+- id: vllm
+  name: vLLM
+  url: https://github.com/vllm-project/vllm/releases.atom
+  kind: feed
+  section: 3
+  enabled: true
+- id: dynamo
+  name: NVIDIA Dynamo
+  url: https://github.com/ai-dynamo/dynamo/releases.atom
+  kind: feed
+  section: 3
+  enabled: true
+- id: flashinfer
+  name: FlashInfer
+  url: https://github.com/flashinfer-ai/flashinfer/releases.atom
+  kind: feed
+  section: 3
+  enabled: true
+- id: mooncake
+  name: Mooncake
+  url: https://github.com/kvcache-ai/Mooncake/releases.atom
+  kind: feed
+  section: 3
+  enabled: true
+- id: vllm-blog
+  name: vLLM Blog
+  url: https://vllm.ai/blog
+  kind: web
+  section: 3
+  enabled: true
+- id: lmsys
+  name: LMSYS / SGLang Blog
+  url: https://lmsys.org/blog/
+  kind: web
+  section: 3
+  enabled: true
+- id: arxiv
+  name: arXiv model and infra papers
+  url: https://rss.arxiv.org/rss/cs.CL+cs.DC
+  kind: feed
+  section: 4
+  enabled: true
+- id: anthropic
+  name: Anthropic
+  url: https://www.anthropic.com/news
+  kind: web
+  section: 0
+  enabled: true
+- id: deepseek
+  name: DeepSeek
+  url: https://www.deepseek.com/en/news/
+  kind: web
+  section: 2
+  enabled: true
+- id: qwen
+  name: Alibaba / Qwen
+  url: https://qwen.ai/blog
+  kind: web
+  section: 2
+  enabled: true
+- id: kimi
+  name: Moonshot AI / Kimi
+  url: https://www.kimi.com/en/blog/
+  kind: web
+  section: 2
+  enabled: true
+- id: zhipu
+  name: Z.ai / 智谱
+  url: https://z.ai/
+  kind: web
+  section: 1
+  enabled: true
+- id: minimax
+  name: MiniMax
+  url: https://www.minimax.io/news
+  kind: web
+  section: 1
+  enabled: true
+- id: mistral
+  name: Mistral AI
+  url: https://mistral.ai/news
+  kind: web
+  section: 1
+  enabled: true
+- id: nvidia
+  name: NVIDIA technical blog
+  url: https://developer.nvidia.com/blog/
+  kind: web
+  section: 5
+  enabled: true
+- id: volantis
+  name: Volantis（公司新闻稿）
+  url: https://volantissemi.ai/
+  kind: web
+  section: 1
+  enabled: true

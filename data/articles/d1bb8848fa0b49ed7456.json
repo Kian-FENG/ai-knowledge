@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2504.05008",
+  "title": "Voices of Freelance Professional Writers on AI: Limitations, Expectations, and Fears",
+  "text": "arXiv:2504.05008v3 Announce Type: replace\nAbstract: The rapid development of AI-driven tools, particularly large language models (LLMs), is reshaping professional writing. Still, key aspects of their adoption such as language support, ethics, and long-term impact on writers' voice and creativity remain underexplored. In this work, we carried out a questionnaire (N = 301) and an interactive task (N = 36) targeting freelance professional writers regularly using AI. We examined AI-assisted writing practices across 25+ languages, ethical concerns, and user expectations. Our findings reveal that adoption is shaped more by peer influence and professional outlook than demographics, that multilingual writers face both performance and perception barriers to equitable AI use, and that job security concerns are widespread and adoption-independent.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d1bb8848fa0b49ed7456",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

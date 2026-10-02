@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39250",
+  "title": "Client and Training Data Selection for Computationally Efficient Synchronized Federated Learning",
+  "text": "arXiv:2609.39250v1 Announce Type: cross\nAbstract: Federated learning (FL) is a promising paradigm of machine learning, which preserves user privacy by enabling learning without sharing raw data with a cloud server. Straggling clients have been a problem for FL as they introduce delays in aggregating the local models and hence, the convergence of the global model. Therefore, it is important to have a mechanism that ensures fast convergence of the global model as well as good FL participation rate. Another issue for the convergence of a model in FL is the non-independent and identically distributed (non-iid) data across the clients. Prior approaches based on probabilistic client selection do not work well under non-iid data especially when the number of clients is small. We show scenarios where such approaches fail and propose a joint client-training data selection algorithm for fast convergence of FL models. Our experiments on CIFAR-100 dataset show that convergence of the FL model can be significantly improved over prior works that can consider non-iid data and heterogeneous computation and higher model accuracy.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e2621891159f96d55c6d",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

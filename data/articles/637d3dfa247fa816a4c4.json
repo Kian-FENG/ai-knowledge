@@ -1,0 +1,18 @@
+{
+  "url": "https://openai.com/index/albertsons-reimagining-retail",
+  "title": "How Albertsons Companies is reimagining retail from the inside out",
+  "text": "阅读官网全文后的记录：Albertsons 扩大与 OpenAI 合作，使用 ChatGPT Enterprise 和 API。Safeway 的 ChatGPT 体验支持按食谱、图片或清单选品及构建购物车，结账转至 Safeway。推广到其他旗下品牌仍是计划。",
+  "published_at": "2026-10-01T16:00:00+00:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "browser-read; source-notes archived",
+  "date_precision": "timestamp",
+  "id": "637d3dfa247fa816a4c4",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-02/d58bcca5c1c116bee4504bc3cbb80745aa388e71085deec7b29ba0b4d2a655e8.txt",
+  "source_sha256": "d58bcca5c1c116bee4504bc3cbb80745aa388e71085deec7b29ba0b4d2a655e8",
+  "fetched_at": "2026-10-02T01:39:12.607432+00:00",
+  "retrieval_method": "web-reader-notes"
+}

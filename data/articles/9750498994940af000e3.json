@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38406",
+  "title": "Evaluating Whether LLMs Can Reliably Connect the DOTs?",
+  "text": "arXiv:2609.38406v1 Announce Type: new\nAbstract: Access to real-world information is often noisy and fragmented. Constructing a coherent narrative from such fragments requires models to reconstruct missing spans within a broader storyline, commonly referred to as text infilling, while preserving consistency with both the local context and the global storyline. Despite using text infilling as a pre-training objective in many Large Language Models (LLMs), their actual performance on real-world narrative infilling remains underexplored. In this paper, we address this gap by introducing a multi-domain benchmark of ~9.2K instances for narrative infilling, constructed by masking one to three sentences across four narrative types: encyclopedic text, commonsense stories, news articles, and visual narratives. Using this benchmark, we evaluate 20 instruction-tuned open-source LLMs ranging from 1.5B to 70B parameters across varying levels of instruction specificity and reasoning guidance. Outputs are assessed using standard automatic metrics and a qualitative framework covering five narrative dimensions. Results show that model scale does not reliably predict infilling quality: Gemma-2-2B achieves the highest qualitative score (4.02/5), outperforming models over ten times larger, including DeepSeek-Qwen-32B (3.77/5, 6.6%) and LLaMA-3.3-70B (3.71/5, 8.3%). We further find that explicit reasoning offers limited benefits as chain-of-thought reasoning yields only a marginal improvement (+0.6%). Additionally, short narratives and domain characteristics emerge as stronger predictors of task difficulty than infill position alone for narrative infilling in current LLMs.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9750498994940af000e3",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

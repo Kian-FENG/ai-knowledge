@@ -1,0 +1,26 @@
+{
+  "id": "20261002T013628-2ffcefe4",
+  "started_at": "2026-10-02T01:36:28.449843+00:00",
+  "finished_at": "2026-10-02T01:36:30.930426+00:00",
+  "sources": [
+    {
+      "source_id": "arxiv",
+      "name": "arXiv model and infra papers",
+      "status": "ok",
+      "saved": 313,
+      "unchanged": 0,
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "needs_fulltext": 313,
+      "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+      "candidates": 313,
+      "listing_is_complete": false
+    }
+  ],
+  "selected_sources": [
+    "arxiv"
+  ],
+  "lookback_days": 14,
+  "per_source_limit": 500
+}

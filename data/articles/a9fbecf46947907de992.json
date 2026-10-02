@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.40041",
+  "title": "MGhana-ST: A Low-Resource Speech Translation Dataset for Ghanaian Languages and an Analysis of Multilingual Training Trade-offs",
+  "text": "arXiv:2609.40041v1 Announce Type: new\nAbstract: We present MGhana-ST, a speech translation dataset for four low-resource Ghanaian language varieties: Ga, Twi (Akuapem and Asante), Ewe, and Fante. MGhana-ST is an ongoing annotation effort; the experiments here use a fixed subset of about 16.1 hours of paired speech and English translations. The audio is curated from two existing Ghanaian speech resources. Unlike in those resources, the English translations are produced directly from audio by 37 native-speaker annotators and include verbal and non-verbal event annotations.\nUsing Whisper-small, we compare monolingual and multilingual training under severe data scarcity, reporting means over three seeds. Flat multilingual training benefits no variety in this regime. Ga and Twi are unchanged within seed variance (+0.51 and +0.06 BLEU against monolingual standard deviations of 1.63 and 2.20), while Ewe declines by 6.99 BLEU and Fante by 5.11. The degrading varieties are Ewe, which is linguistically distinct and drawn from a different source corpus, and Fante, the least-resourced. Comparing empirical cross-lingual transfer with typology-based similarity, we find that transfer BLEU identifies closely interacting language pairs better than URIEL similarity, though neither predicts which varieties benefit from joint training.\nWe also report a methodological finding. An earlier single-run analysis found positive transfer for three of four varieties; this did not survive replication across seeds. For Ga and Twi, monolingual baselines trained on 1.6 to 6.2 hours of audio have seed standard deviations roughly five and thirty times those of the multilingual models (0.35 and 0.07 BLEU). When the monolingual condition is noisier, a single-run comparison can show apparent transfer of this size from seed variation alone. We release MGhana-ST to support research on African language speech technology and low-resource speech translation.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "a9fbecf46947907de992",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

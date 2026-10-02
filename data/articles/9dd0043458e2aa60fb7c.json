@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2608.26537",
+  "title": "IBLTs Measure Before They Decode: Self-Sizing Set Reconciliation for Database Consistency Verification",
+  "text": "arXiv:2608.26537v4 Announce Type: replace-cross\nAbstract: Cross-system data replication pipelines cannot confirm end-to-end consistency from the local guarantees of each hop, so the two endpoints must be compared directly on a periodic basis. Once the rows of a fixed snapshot are normalized into fingerprints, the task reduces to finding the symmetric difference of the two sets. An Invertible Bloom Lookup Table (IBLT) reconciles the sets with communication that grows only with the difference cardinality $d$, independent of table size, but its capacity must be fixed while $d$ is still unknown. Across 41,603 production reconciliations over 90 days, nonzero $d$ spans about seven orders of magnitude, and no reliable empirical constant exists.\nWe show that the count array of an IBLT has already measured $d$ before decoding. The measurement is in-band: it is carried by the recovery sketch itself and adds no bytes dedicated to estimation. A mapping-aware theorem extends the construction to Irregular, Rateless, and MET IBLTs. The protocol reads the estimate only after a decoding failure; we prove that the failure-conditioned lower quantile bounds the risk of underestimation, which gives the second-round capacity a configurable success-probability guarantee. The resulting self-sizing protocol attempts recovery with a small first-round sketch and stops on success; on failure it reads $d$, sizes the second round, and completes reconciliation in at most two rounds. Against a controlled oracle, communication is 1.29-1.47 times that of a scheme given $d$ in advance. Production workload characterization, relational-database replay, and a cross-city KV deployment confirm the end-to-end mechanism. In production on an Oracle-MySQL link, all completed runs succeeded within two rounds, over 90% on the 1-RTT fast path with a single 16 KB sketch.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9dd0043458e2aa60fb7c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

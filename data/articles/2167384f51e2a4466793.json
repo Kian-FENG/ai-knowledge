@@ -1,0 +1,18 @@
+{
+  "url": "https://openai.com/index/the-den-family-social",
+  "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+  "text": "阅读官网全文后的记录：OpenAI 客户案例称 The Den 使用 ChatGPT Work 连接 Gmail、Slack 和 Google Drive，收集资料并准备申请文件。管理团队自述每周节省10–15小时；人员仍检查结果和做最终决定。",
+  "published_at": "2026-10-01T00:00:00+00:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "browser-read; source-notes archived",
+  "date_precision": "timestamp",
+  "id": "2167384f51e2a4466793",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-02/c46b606eddf4b288b155721898375eee2491eb8a256244443836d7bc4c1918b1.txt",
+  "source_sha256": "c46b606eddf4b288b155721898375eee2491eb8a256244443836d7bc4c1918b1",
+  "fetched_at": "2026-10-02T01:39:12.608199+00:00",
+  "retrieval_method": "web-reader-notes"
+}

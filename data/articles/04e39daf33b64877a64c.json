@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39422",
+  "title": "FissionReady: Joint Workload and Power Scheduling for Data Centers Powered by Small Modular Reactors",
+  "text": "arXiv:2609.39422v1 Announce Type: new\nAbstract: Data centers are increasingly exploring small modular nuclear reactors (SMRs) as a carbon-free power source, but variable datacenter demand and negative grid prices require the SMR plant to load-follow rather than run at constant output. Load following is uniquely challenging and complex for SMR plants due to underlying nuclear physics. We propose FissionReady, a datacenter scheduler that tracks each module's fuel age, xenon state, and remaining flexibility to determine per-module operating envelopes, then coordinates load-following, batch deferral, and grid purchasing through a two-timescale optimization. FissionReady achieves zero involuntary shutdowns and zero batch deadline misses while reducing water consumption by roughly one-third and grid cost by roughly half compared to a same-sized base configuration.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "04e39daf33b64877a64c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

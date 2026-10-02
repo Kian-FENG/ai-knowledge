@@ -1,0 +1,26 @@
+{
+  "raw_path": "raw/2026-10-02/af5d54430c52be2593cc5e9056d686e220186893582d425b1fa5ccd84d032c5f.body",
+  "sha256": "af5d54430c52be2593cc5e9056d686e220186893582d425b1fa5ccd84d032c5f",
+  "source_url": "https://z.ai/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-02T01:34:27.519647+00:00",
+  "source_id": "zhipu",
+  "status": 200,
+  "headers": {
+    "Date": "Fri, 02 Oct 2026 01:34:28 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "acw_tc=0a3d3edd17909048681384005e5c46ef66863a44882146cb32f759200e10c4;path=/;HttpOnly;Max-Age=1800",
+    "Last-Modified": "Tue, 29 Sep 2026 09:13:58 GMT",
+    "ETag": "W/\"6abb8156-3d6f\"",
+    "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Encoding": "gzip",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  },
+  "final_url": "https://chat.z.ai/",
+  "truncated": false
+}

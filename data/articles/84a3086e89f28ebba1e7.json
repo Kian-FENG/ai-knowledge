@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38420",
+  "title": "What Was Said, Not What Was 'Thought': Type-6 Logic for CoT Verification",
+  "text": "arXiv:2609.38420v1 Announce Type: cross\nAbstract: We introduce Type-6 logic, a variant of dynamic epistemic logic augmented with two operators (uncertainty and recurrence), designed to model the inferential dynamics of contemporary large language model (LLM) chain-of-thought (CoT) reasoning. Type-6 accounts for common LLM reasoning pathologies such as unlicensed revision, enthymemes, loopbacks, and unverifiable/incorrect claims. We propose a verifier based on Type-6 logic that builds a graph out the trace, and checks it against Type-6's axioms and inference rules. We evaluate our framework on LLM-generated CoTs four splits spanning formal and informal reasoning. Our verifier detects structurally unsound reasoning steps that surface-level heuristics miss, and allows for easy visualisation of the model's reasoning process. In our corpus, our verifier shows that derived contradiction is the most common hard-fail category in CoT, and that only about 3\\% of the propositions of a trace have impact on the final derivation. Ablation studies show that other verification methods (LLMs-as-judges, other neurosymbolic approaches, etc.) cannot be considered interchangeable: for example, agreement between LLMs-as-judges and LINC is $\\kappa \\approx 0.034$, and this persists within a method across underlying models. Type-6, however, is the most agreed-with method amongst the ones we tested. We prove our verifier runs on average-case linear time; and release our logic specification and artefacts.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "84a3086e89f28ebba1e7",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

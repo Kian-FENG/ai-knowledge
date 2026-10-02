@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38357",
+  "title": "Evaluating Language Model Safety Across Long Adversarial Conversations",
+  "text": "arXiv:2609.38357v1 Announce Type: new\nAbstract: Conversational safety evaluations often test language models with a single harmful prompt, even though real-world systems interact with users through long, adaptive conversations. This study examines whether models continue to respond safely when an adversarial user persists across multiple turns. We evaluate three open-weight, instruction-tuned models on two harmful prompts across different conversation lengths and random seeds. In each setting, a second language model acts as a persistent adversarial user, while a safety classifier labels every response as safe or unsafe. Across all model-prompt combinations, first-turn safe-response rates ranged from 85% to 100%. By depth 11, they dropped to 38-61%, and by depth 101, to 15-44%. This decline appeared across models and continued well beyond the short interactions typically used in multi-turn safety evaluations. These results provide proof-of-concept evidence that strong single-turn safety does not necessarily persist during sustained adversarial interaction. They highlight the need for long-horizon evaluations and conversation-level safeguards that account for risk accumulating across turns.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "12a1a2b017607eabd335",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

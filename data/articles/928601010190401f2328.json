@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2607.04085",
+  "title": "FedSPM: Routing-Enabled Federated Learning under Dual Heterogeneity via Semiparametric Mixture",
+  "text": "arXiv:2607.04085v2 Announce Type: replace-cross\nAbstract: Routing-prediction federated learning has emerged as a new paradigm that reframes inter-client heterogeneity as a resource for system-level intelligence: at inference time, the server routes each external query to the best-matched client for prediction. Existing approaches, however, typically treat each client as internally homogeneous, overlooking latent subpopulations within local data. For example, patients with the same diagnosis at one hospital may exhibit morphologically distinct disease subtypes. The coexistence of inter-client and intra-client heterogeneity, which we call dual heterogeneity, can impair both routing and prediction. To address this challenge, we propose FedSPM, a routing-enabled semiparametric mixture framework that represents each client using client-specific latent components. Each component combines a predictive distribution for classification with a feature distribution for routing. To flexibly model feature distributions while effectively sharing information across clients, FedSPM models their density ratios relative to a common nonparametric measure estimated via empirical likelihood. We develop a federated expectation-maximization algorithm that optimizes a tractable surrogate and prove convergence of the exact profiled objective at the standard $\\mathcal{O}(1/\\sqrt{T})$ rate when the surrogate errors are properly controlled. Experiments on controlled benchmarks and real-world medical data demonstrate consistent improvements in routing and prediction under dual heterogeneity. Code is available at https://github.com/zijianwang0510/FedSPM.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "928601010190401f2328",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2607.15870",
+  "title": "How Much Human Label Variation Does Formal Semantic Structure Explain?: Group-Level Effects and Item-Level Ceilings in NLI",
+  "text": "arXiv:2607.15870v2 Announce Type: replace\nAbstract: Human label variation in natural language inference is increasingly treated as signal rather than noise, but how much of it formal semantic structure explains has not been measured directly. We measure it on the 3,113 SNLI and MNLI items of ChaosNLI, using a rule-based operator and monotonicity tagger validated against MED (0.883 agreement at the edit site, 0.807 on the sentence-level summary our analyses consume), three preregistered analysis blocks, and full reporting of negative results. Three bounds emerge. First, a group-level boundary: hypotheses that are not purely upward monotone show reliably higher label entropy (Cliff's delta = -0.284), and rank-based tests defend the effect against operator-presence and length reductions, though a bounded-outcome sensitivity check weakens the regression form of the length defense. Second, an item-level ceiling: the same formal profiles explain only 3.3 to 3.6 percent of entropy variance and reach a median-split AUC of 0.606, too weak to identify high-disagreement items. Third, composition invariance: across the boundary, three high-powered preregistered contrasts on validated error shares and explanation-type shares (VariErr, LiTEx) all return null results. In this sample, formal semantic structure shifts how much annotators disagree by a small amount and does not detectably change what they disagree about. ChaosNLI-S/M consists of items selected for low original agreement, and every claim is conditioned on that scope. All analyses were preregistered in a version-controlled research log, whose audit trail, including one corrected interpretation rule, the paper discloses.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b9b1bd71b4843bf3c03b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

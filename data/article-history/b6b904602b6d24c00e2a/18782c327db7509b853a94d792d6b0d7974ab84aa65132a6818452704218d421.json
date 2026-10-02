@@ -1,0 +1,17 @@
+{
+  "url": "https://arxiv.org/abs/2609.38490",
+  "title": "Personalized State-Transition-Aware Memory for Clinical Agents",
+  "text": "arXiv:2609.38490v1 Announce Type: new\nAbstract: Large language model (LLM) agents that reason over clinical records must track changes in a patient's state while preserving the history needed to understand them. Simply accumulating memories leaves it unclear which information still applies, whereas overwriting earlier memories can erase evidence needed to reconstruct treatment history and clinical trajectories. We introduce STAM, a state-transition-aware memory framework that records state changes as new clinical entries arrive. STAM combines semantic retrieval with typed clinical relations to identify affected memories, maintaining current information in Active and superseded or resolved information in History. At read time, a query-dependent gate selectively serves historical memory. Across four longitudinal clinical benchmarks, we evaluate STAM with downstream question answering, direct state-maintenance diagnostics, and comparisons at approximately matched context lengths.",
+  "published_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b6b904602b6d24c00e2a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:34:26.644013+00:00"
+}

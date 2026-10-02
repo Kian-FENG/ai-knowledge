@@ -1,0 +1,197 @@
+## Page-Type Schemas — single source of truth for scripts/validate.py.
+##
+## scripts/validate.py loads the per-type `required`/`optional`/`id_prefix`/`type`
+## contract from here, plus the `enforcement:`, `facet_fields:`, and per-type
+## `constraints:` blocks. Edit this file (not validate.py) to evolve the schema.
+
+## --- Enforcement switches ----------------------------------------------------
+## error    = a violation fails `validate.py` (exit 1).
+## advisory = a violation prints a WARNING but does not fail.
+##
+## This is a FRESH wiki: the tag vocabulary (tags/tags.yaml) is a starter set and
+## will grow with every ingest, so `tags_membership` starts ADVISORY (and
+## tags/tags.yaml sets `allow_freeform: true`). Once the vocabulary has matured
+## and the unknown-tag set is drained (see scripts/migrate_tags.py), flip
+## `tags_membership` to `error` and `allow_freeform` to false to make the
+## controlled vocabulary strict — exactly as a mature wiki should.
+enforcement:
+  facet_vocab: error          # values of facet-backed FIELDS must come from tags.yaml
+  reproducibility_minimum: advisory  # techniques MAY carry a repro floor (see constraints)
+  tags_membership: advisory   # start lenient on a fresh wiki; flip to `error` once vocab matures
+  experiment_grounding: error # confidence:experimental => a body `## Evidence` section
+
+## --- Evidence-grounding contract ---------------------------------------------
+## Legacy confidence:experimental and evidence_kind:measured require substantive
+## evidence. Verification is independent of evidence kind; source-checked and
+## replicated pages require structured evidence locators and a verification note.
+experiment_grounding:
+  trigger: {confidence: experimental}
+  required: []                 # no extra required frontmatter fields
+  required_section: "Evidence"
+  recommended: [sources]
+
+## --- Facet field -> tags.yaml facet key --------------------------------------
+## When a page carries one of these frontmatter fields, each value must be a
+## member of the named tags.yaml facet (checked at `facet_vocab` level above).
+## `domain` is validated separately (always an ERROR) against tags/domains.yaml.
+facet_fields:
+  lifecycle: lifecycle
+  evidence_kind: evidence_kind
+  verification: verification
+  confidence: confidence
+  reproducibility: reproducibility
+  source_category: source_categories
+
+## --- Reproducibility ladder (low -> high) ------------------------------------
+## Optional metadata on `technique` (and any page with runnable detail): how
+## reproducible the described method is, from a bare idea to a benchmarked run.
+reproducibility_ladder:
+  - concept
+  - pseudocode
+  - snippet
+  - runnable
+  - benchmarked
+
+## --- Per-type schemas --------------------------------------------------------
+## Eight general knowledge-management types. `id` is `<type>-<slug>` and unique.
+types:
+  concept:
+    id_prefix: concept-
+    type: concept
+    required: [id, title, type, domain, lifecycle, tags, created, updated]
+    optional: [summary, last_verified, specializes, specialized_by,
+               applies_to, related, sources, aliases, confidence]
+
+  source:
+    id_prefix: source-
+    type: source
+    required: [id, title, type, domain, lifecycle, tags, created, updated]
+    optional: [summary, last_verified, source, url, source_category,
+               relevance, related, sources, aliases, confidence]
+
+  paper:
+    id_prefix: paper-
+    type: paper
+    required: [id, title, type, domain, lifecycle, tags, created, updated]
+    optional: [summary, last_verified, authors, venue, year, arxiv, url,
+               source, related, sources, specializes, aliases, confidence]
+
+  entity:
+    id_prefix: entity-
+    type: entity
+    required: [id, title, type, domain, lifecycle, tags, created, updated]
+    optional: [summary, last_verified, entity_kind, url, related, sources, aliases]
+
+  note:
+    # research notes are dated by content; created/updated optional.
+    id_prefix: note-
+    type: note
+    required: [id, title, type, domain, lifecycle, tags]
+    optional: [summary, created, updated, last_verified, specializes,
+               related, sources, source, relevance, confidence]
+
+  comparison:
+    id_prefix: comparison-
+    type: comparison
+    required: [id, title, type, domain, lifecycle, tags]
+    optional: [summary, created, updated, last_verified, specializes,
+               related, sources, confidence]
+
+  technique:
+    id_prefix: technique-
+    type: technique
+    required: [id, title, type, domain, lifecycle, tags]
+    optional: [summary, created, updated, last_verified, reproducibility,
+               prerequisites, related, sources, specializes, specialized_by,
+               applies_to, aliases, confidence]
+    constraints:
+      # Advisory floor: a technique page should be at least a sketch, not empty.
+      reproducibility_minimum: concept
+
+  pattern:
+    id_prefix: pattern-
+    type: pattern
+    required: [id, title, type, domain, lifecycle, tags]
+    optional: [summary, created, updated, last_verified, symptoms,
+               candidate_techniques, related, sources, specializes, confidence]
+
+# Shared fields are available on every page type.
+common_optional:
+  - evidence_kind
+  - verification
+  - verification_note
+  - evidence
+  - reviewed_by
+  - reviewed_at
+  - reviewed_content_sha256
+  - supersedes
+---
+id: ''
+title: ''
+type: source
+lifecycle: draft
+domain: []
+tags: []
+created: null
+updated: null
+evidence_kind: unknown
+verification: unchecked
+summary: TODO one-line summary
+related: []
+sources: []
+source: ''
+source_category: blog
+url: ''
+relevance: primary
+---
+
+# {{title}}
+
+## Key Takeaways
+
+TODO
+
+## Detailed Notes
+
+TODO
+
+## Evidence
+
+- TODO evidence: cite a source and its section or page.
+
+## Questions Raised
+
+TODO
+---
+id: ''
+title: ''
+type: note
+lifecycle: draft
+domain: []
+tags: []
+created: null
+updated: null
+evidence_kind: unknown
+verification: unchecked
+summary: TODO one-line summary
+related: []
+sources: []
+---
+
+# {{title}}
+
+## What Is New
+
+TODO
+
+## Synthesis
+
+TODO
+
+## Evidence
+
+- TODO evidence: cite a source and its section or page.
+
+## Related Notes
+
+TODO

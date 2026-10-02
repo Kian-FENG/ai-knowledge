@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-02/a33038793dc38155b9c28a916c18c33e068b30001253e89bfb51ec96a823b970.body",
+  "sha256": "a33038793dc38155b9c28a916c18c33e068b30001253e89bfb51ec96a823b970",
+  "source_url": "https://www.minimax.io/news",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-02T01:34:27.597018+00:00",
+  "source_id": "minimax",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Security-Policy": "frame-ancestors 'none';",
+    "X-Frame-Options": "DENY",
+    "Vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "alb_receive_time": "1790904868.668",
+    "alb_request_id": "2da6ec752896b19635f761504d57430c58f7110a",
+    "Expires": "Fri, 02 Oct 2026 01:34:28 GMT",
+    "Cache-Control": "max-age=0, no-cache, no-store",
+    "Pragma": "no-cache",
+    "Date": "Fri, 02 Oct 2026 01:34:28 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "Transfer-Encoding",
+    "Akamai-GRN": "0.d56b1102.1790904868.23a0045",
+    "Access-Control-Allow-Origin": "*",
+    "X-From": "ak"
+  },
+  "final_url": "https://www.minimax.io/news",
+  "truncated": false
+}

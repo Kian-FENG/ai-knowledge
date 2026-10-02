@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38612",
+  "title": "StreamDecisionBench: Evaluating Decisions in Force on Evolving Language Streams",
+  "text": "arXiv:2609.38612v2 Announce Type: new\nAbstract: Language models increasingly make real-time decisions in applications that apply the latest answer until a newer one arrives. A late answer can prolong an outdated decision, such as a call recorder still running while a customer reads out card details, an error offline accuracy misses. We make three contributions. First, we release StreamDecisionBench (SDB), a dataset of eight streaming scenarios in four application families, with executable reference decisions derived from public rules. Second, we propose an evaluation protocol and a metric, in-force accuracy: the share of time the applied decision is correct across update intervals of 0.5-8 s. It reflects accuracy and latency jointly, attributing each error to judgment, latency or both. Third, we evaluate thirteen single-model settings, and this attribution separates speed-limited from judgment-limited models: slower, more accurate models lose 42-51% of the time to outdated answers, a fast model 34% to wrong ones. We therefore test hybrids in which a slow model corrects a fast one; with the right pairing and configuration, a hybrid outperforms every single model. However, even the best evaluated system keeps a correct decision in force only about two-thirds of the time, leaving a substantial gap for real-time use.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d3a6315003aff0d989f7",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

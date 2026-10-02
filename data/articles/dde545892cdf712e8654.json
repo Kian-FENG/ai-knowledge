@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.37044",
+  "title": "Learning from Think-Mode Advantage via On-Policy Distillation",
+  "text": "arXiv:2609.37044v2 Announce Type: replace\nAbstract: Explicit intermediate reasoning gives large language models (LLMs) a stronger problem-solving mode. We study learning from this think-mode advantage via on-policy distillation (OPD). OPD preserves student-generated trajectories and provides dense token-level teacher targets at student-visited prefixes. Privileged reasoning is used during distillation rather than student inference. Uniform ThinkOPD, a natural think-enabled OPD baseline, conditions a fixed teacher on one shared think trace and uniformly distills every sibling student response. Although its prefixes are on-policy, the trace need not follow a route compatible with every complete response: the same privileged trace can induce different teacher-student discrepancies even when responses reach the same outcome. We summarize this interaction with trace-response divergence (TRD) and introduce ThinkOPD, which routes supervision at the response level by combining group-relative reward gain with a TRD-based compatibility proxy. Final response weights are normalized within each rollout group. Across mathematical reasoning and code generation, ThinkOPD outperforms Uniform ThinkOPD in both same-model settings and both cross-model teacher-student pairs, and it exceeds representative rationale and self-distillation baselines in a controlled comparison. Controlled interventions show that outcome benefit and the TRD-based proxy provide complementary routing signals in this setting. Think-enabled OPD provides a controlled setting for studying how teacher advantage becomes transferable along student responses.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "dde545892cdf712e8654",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

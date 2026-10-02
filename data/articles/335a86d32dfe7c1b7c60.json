@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2604.14121",
+  "title": "Correct Prediction, Wrong Steps? Consensus Reasoning Knowledge Graph for Robust Chain-of-Thought Synthesis",
+  "text": "arXiv:2604.14121v5 Announce Type: replace\nAbstract: Large language models (LLMs) have become increasingly used for various tasks, often coupled with Chain-of-Thought (CoT) prompting to boost accuracy. Recent work has shown that high label-prediction accuracy does not guarantee correct intermediate reasoning, and the causes of *reasoning flaws* vary from sample to sample, yet existing remedies either focus on a single domain or assume that one flaw type applies uniformly across samples. A simple mitigation method is to provide the model with the correct answer, but we show that this yields no consistent improvement in reasoning quality. This indicates that the problem cannot be fixed by LLMs' awareness of answers, and must instead be addressed through the *structure* of reasoning. Motivated by this, we propose **CRAFT** (Consensus Reasoning knowledge graph Aggregation for Flaw-aware Trace synthesis), which aggregates the consensus components shared across multiple candidate reasoning traces to synthesize improved ones. **CRAFT** consistently improves label-prediction accuracy on both logical and mathematical reasoning benchmarks, outperforming most baselines, while its post-processed traces achieve higher quality under fine-grained benchmark evaluation.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "335a86d32dfe7c1b7c60",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

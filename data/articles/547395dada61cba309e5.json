@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.07596",
+  "title": "I Don't Miss You, but I Do: Self-Explanation Faithfulness of Modality Missingness in Vision-Language Models",
+  "text": "arXiv:2609.07596v2 Announce Type: replace-cross\nAbstract: Vision-language models (VLMs) are increasingly used in settings where some input modalities may be unavailable, yet we know little about whether they can faithfully explain how such missing information affects their own predictions. We introduce an interventional protocol for evaluating self-explanations of modality dynamics: models state what each modality alone would support, whether restoring a missing modality would change their answer, and whether the available evidence is sufficient; we then execute the corresponding intervention and compare these claims with realized behavior. We evaluate ten VLMs spanning open-weight and proprietary models across four tasks covering mixed, redundant, and unique modality regimes. We find a systematic tendency to overstate the sufficiency of available evidence. Models substantially underestimate the effect of restoring missing modalities: executed change exceeds predicted change in 78 of 80 model-task-condition settings, with task-level median executed change rates reaching 70.1\\% while median predicted rates remain at most 9.6\\%. Insufficiency claims have low recall, leaving many cases in which behavior changes despite a stated claim of sufficiency. Retrospective self-explanations show the same tendency, over-crediting single-input sufficiency in mixed regimes and interchangeability in redundant ones. Together, these results show that VLMs systematically mischaracterize how their predictions depend on available and missing evidence, motivating executable interventions as a behavioral test of multimodal self-explanations.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "547395dada61cba309e5",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39715",
+  "title": "Exploring Adaptive Byzantine Quorum Systems to Improve Latency in the WAN",
+  "text": "arXiv:2609.39715v1 Announce Type: new\nAbstract: Quorum systems enforce strict consistency in Byzantine fault-tolerant (BFT) state machine replication: Before a value is decided, a subset of replicas (called quorum) must exchange votes for the value. In wide-area networks, the size and composition of a quorum determines the speed at which replicas can make progress and thus impacts the latency perceived by clients. A variety of quorum constructions has been proposed, e.g., threshold, weighted, grid and others, but the literature offers little in the way of an apples-to-apples comparison. Each construction typically lives inside a different protocol implementation, so the influence of quorum design on client latency cannot be easily separated from other implementation effects, especially the use of optimization techniques. In this paper, we close that gap by extending BFT-SMaRt with a modular quorum-system abstraction that allows a variety of quorum constructions to live inside the same framework and interact with the same set of optimization techniques. Via our framework, we explore the impact of different quorum system constructions on client-observed latency in wide-area BFT replication using network simulation.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "0194dca769ed4e03c286",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

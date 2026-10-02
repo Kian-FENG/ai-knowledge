@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38486",
+  "title": "Anthropomorphism in the age of Large Language Models: An overview of potential risks and mitigations",
+  "text": "arXiv:2609.38486v1 Announce Type: cross\nAbstract: Large Language Models (LLMs) and more broadly Artificial Intelligence (AI) systems are often described and understood in human-like terms, a phenomenon known as \\emph{anthropomorphism}. This paper provides a synthesis of recent literature on anthropomorphism in AI, covering theoretical frameworks, the role of language in framing AI as human-like, the various risks of anthropomorphizing machines, and strategies to mitigate these issues. After examining why we tend to anthropomorphize AI systems and whether we are right to do so, we highlight the impact of linguistic framing on anthropomorphism. Then, we introduce a conceptual taxonomy of risks associated with AI anthropomorphism. This taxonomy groups twenty-one concerns within five analytical categories: epistemic, affective, human agency, normative, and societal and institutional risks. Finally, we relate these concerns to proposed interventions in design, communication, education, and governance. We argue that a better understanding of AI systems requires concepts and theories grounded in their organization and demonstrated capacities. The linguistic shaping of anthropomorphic perceptions should form part of this scientific effort, since our descriptions influence both how these systems are understood and the roles we allow them to occupy in society.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "5c9c0bc928070466bf6c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

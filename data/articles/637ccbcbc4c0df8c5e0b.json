@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.05797",
+  "title": "Safety Monitors Mostly Catch What the Model Already Refuses",
+  "text": "arXiv:2609.05797v3 Announce Type: replace\nAbstract: Safety monitors are evaluated by recall on harmful prompts, regardless of whether the target model would answer them. Yet a monitor matters most on the prompts the model does answer. We measure recall on exactly those prompts, defined by sampling the target model and judging its responses. Across four text guards, two activation probes, and Latent Guard, recall at a 1% false positive rate falls sharply on this subset: at a common threshold, every monitor catches the requests the model refuses 1.1 to 6.4 times as often as the requests it answers. Standard metrics hide this; AUROC stays above 0.85 for most monitors. Rewriting each request to be less explicit, with intent held fixed and verified, raises compliance 28-fold and lowers every monitor's flag rate. Of the requests newly answered after rewriting, 44 to 93% slip past the monitor, depending on which is used, and most of their completions are graded harmful. We trace the gap to explicitness itself. As wording softens with intent fixed, the target model's harm and refusal readings fall and it answers; the guards' harm readings fall too, and steering a guard along explicitness alone flips its verdict. Model and monitors miss the same prompts, and stacking monitors does not recover them. Fine-tuning a guard on the rewrites at every level of explicitness, on both sides of the label, raises recall on answered requests from .24 to .89 while transferring to unseen benchmarks; hard negatives, the natural alternative, teach the guard to discount indirect phrasing instead.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "637ccbcbc4c0df8c5e0b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

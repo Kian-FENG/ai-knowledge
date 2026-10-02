@@ -1,0 +1,17 @@
+{
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc1",
+  "title": "v0.31.0rc1: [CI/Build] Skip the snapshot runtime on CUDA 12.x images (#59118)",
+  "text": "Signed-off-by: khluu khluu000@gmail.com\nCo-authored-by: Claude Opus 5.5 noreply@anthropic.com\n(cherry picked from commit aedaba8)",
+  "published_at": null,
+  "updated_at": "2026-09-29T03:18:39+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "485a72695274dcc8a5aa",
+  "source_id": "vllm",
+  "source_name": "vLLM",
+  "section": 3,
+  "raw_path": "raw/2026-10-02/24b36aa9a6ac03266adac4a3de22038433d682b46edfa209c177d8c646c0f90d.body",
+  "source_sha256": "24b36aa9a6ac03266adac4a3de22038433d682b46edfa209c177d8c646c0f90d",
+  "fetched_at": "2026-10-02T01:30:27.540125+00:00"
+}

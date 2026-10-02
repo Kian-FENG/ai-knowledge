@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2603.28005",
+  "title": "Atomic and Holistic LLM Judges for Reference-Grounded Support Labels: A Prompt-Controlled Comparison",
+  "text": "arXiv:2603.28005v2 Announce Type: replace\nAbstract: When an LLM judge only has to assign a three-way support label to a candidate answer given a reference, does asking it to decompose the answer into atomic claims help, and at what cost? We compare four single-call designs that share the judge model, the inputs, and the level of instruction detail: candidate-side atomic decomposition, a matched holistic rubric, reference-side decomposition that checks whether each reference claim is covered, and a bidirectional combination. Support labels are constructed from TruthfulQA, ASQA, and QAMPARI references (200 questions and 400 rows per dataset). All four designs are run with Opus-4.6, GPT-4.1, and Gemini Flash Lite; Sonnet-4.6 is added for the candidate-side and holistic designs. Candidate-side decomposition is weak where the label depends on completeness: the holistic rubric is more accurate on ASQA and QAMPARI for every judge while using fewer tokens. Reference-side decomposition is 12.5-21.3 points more accurate than holistic on ASQA for 28-29% more tokens, and stays near the holistic ceiling on QAMPARI at 63-69% more. On TruthfulQA misconceptions, candidate-side decomposition is competitive and significantly better for two judges. On a 60-row single-author subset whose labels are looser than strict reference completeness, candidate-side decomposition edges ahead of holistic for every judge, reversing the construction-label order. What a judge decomposes should follow what the label measures.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "14f28f125aa40954590e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

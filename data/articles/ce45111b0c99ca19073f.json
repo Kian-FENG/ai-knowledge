@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2601.19918",
+  "title": "Lowest Span Confidence: Zero-Shot Hallucination Detection from a Single LLM Response",
+  "text": "arXiv:2601.19918v2 Announce Type: replace\nAbstract: Hallucinations in Large Language Models (LLMs), i.e., plausible but non-factual generations, pose a significant challenge to reliable deployment in high-stakes environments. However, many existing hallucination detectors require expensive repeated sampling for consistency checks or access to model-internal states unavailable in common API-based scenarios. To this end, we propose an efficient zero-shot metric called Lowest Span Confidence (LSC) for hallucination detection under minimal resource assumptions. Concretely, LSC evaluates the local confidence of adjacent complete-word spans. By selecting the lowest aggregated confidence across neighboring words whose token widths can vary, LSC captures localized uncertainty associated with factual inconsistency. This boundary-aligned smoothing reduces the global dilution of perplexity and the sensitivity of minimum token probability to isolated noise. Our main evaluation spans four model families {Llama-2, Qwen2.5, Gemma-2, Mistral} and seven benchmarks {NQ, TriviaQA, SQuAD, CoQA, HotpotQA, RAGTruth, FELM}. Additional analyses examine word reconstruction, span width, and the role of adjacency in preserving local confidence. Across these settings, LSC is competitive with methods that use multiple responses or model-internal information while requiring only one response and its output token probabilities, without training a separate detector or using an auxiliary model.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "ce45111b0c99ca19073f",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

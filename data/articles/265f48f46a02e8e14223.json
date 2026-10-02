@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39927",
+  "title": "AdaGEPA: Adaptive Feedback Allocation for Reflective Prompt Optimization",
+  "text": "arXiv:2609.39927v1 Announce Type: new\nAbstract: Prompt optimization improves the performance of language-model systems on downstream tasks by refining their prompts. Classical methods evaluate prompts on task examples and use the resulting feedback to guide prompt revisions through reflection. However, when feedback selection does not account for the prompt's weaknesses, these revisions may improve performance on selected examples without yielding broader task improvements. To address this issue, we propose AdaGEPA, an adaptive feedback-allocation method that uses the prompt's performance and task structure to select examples for the next prompt revision. Our method replaces at most one example in each feedback minibatch to target an identified weakness while preserving the remaining feedback context. Across our main experiments on six downstream benchmarks, AdaGEPA achieves higher mean validation scores than non-adaptive feedback selection under matched rollout budgets. AdaGEPA also finds high-performing prompts earlier across several tasks. In the initial Schema-Guided Dialogue (SGD) study, its half-budget prompts outperform the non-adaptive baseline's full-budget prompts in joint goal accuracy on new dialogues from services seen and unseen during search. Overall, our findings highlight the potential of adaptive feedback allocation to improve both the effectiveness and rollout-budget efficiency of reflective prompt optimization.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "265f48f46a02e8e14223",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

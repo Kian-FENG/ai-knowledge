@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2512.23439",
+  "title": "Bitcoin-IPC: Scaling Bitcoin with a Network of Proof-of-Stake Subnets",
+  "text": "arXiv:2512.23439v5 Announce Type: replace\nAbstract: Despite holding over $1.7T in value, Bitcoin scales poorly: Layer-1 (L1) processes only a few transactions per second, and Layer-2 (L2) solutions suffer from operational and liquidity fragmentation that requires external bridges for cross-chain connectivity.\nWe present Bitcoin-IPC, a protocol that horizontally scales Bitcoin via permissionless, interconnected, programmable Proof-of-Stake L2 subnets staked in L1 BTC. Subnets leverage Bitcoin L1 for interconnectivity, settlement, and security, including Sybil protection, equivocating validator slashing, unilateral exit for honest stake, long-range attack protection, and compromised subnet firewalling. Bitcoin-IPC cross-subnet transfers involve only source/destination subnet validators and L1, with no external bridges or per-path liquidity lock-up. Embedded and batched in Bitcoin's witness mechanism, cross-subnet settlements can approach 6 vB per transfer, 23x less than a native L1 payment. Filling Bitcoin blocks with such batches corresponds to L1 monetary throughput of about 273 transfers per second, without modifying Bitcoin.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e5867318ef3eb2dcb557",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

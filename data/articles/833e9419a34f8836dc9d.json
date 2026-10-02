@@ -1,0 +1,17 @@
+{
+  "url": "https://openai.com/form/codex-originals",
+  "title": "Are you a Codex Original?",
+  "text": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+  "published_at": "2026-09-28T00:00:00+00:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "833e9419a34f8836dc9d",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-02/9a33c68f719b2874ec6dcbf7c32741c3e698d316a8750aa3d3ab96696a8eba27.body",
+  "source_sha256": "9a33c68f719b2874ec6dcbf7c32741c3e698d316a8750aa3d3ab96696a8eba27",
+  "fetched_at": "2026-10-02T01:30:27.538849+00:00"
+}

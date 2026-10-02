@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38232",
+  "title": "When Does a Spoken Agent Have Enough Evidence to Act? The PACT-SLM Contract Test",
+  "text": "arXiv:2609.38232v1 Announce Type: cross\nAbstract: Streaming spoken agents may take an external action before the available speech supports it, yet final-turn scores do not reveal whether each observed prefix supports that action. We introduce the Partial Speech Action Contract for Turn Taking in Speech Language Models (PACT-SLM), a controlled evaluation that assigns a first valid action time and measures action identity and timing separately. The primary diagnostic contains 80 paired contrast groups from four held-out semantic families and 1,600 prefix predictions across clean and 15 dB noise renderings. After correcting a mismatch between randomized branch codes and semantic labels, a refitted WavLM Base Plus probe reaches 26.03% pooled post-onset semantic-label accuracy (95% group-bootstrap interval: 22.14%-29.68%), exposes an action on 18.99% of pre-onset prefixes, and predicts 5.94% of complete trajectories exactly. It exceeds matched text, scalar-acoustic, and shuffled-representation probes in post-onset label accuracy, but its score is at the 96th percentile of 100 within-prefix label permutations and below the 97.5th-percentile reference (26.73%). Elapsed time is more onset-exact than WavLM Base Plus (36.25% vs. 23.13%) but less accurate about action identity (9.92% vs. 26.03%). These results show that action identity and timing measure distinct aspects of partial-speech decision behavior.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "7f70a427627278681a8b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

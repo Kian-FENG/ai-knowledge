@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2511.10661",
+  "title": "Sequential Bayesian Evaluation of Large Language Model Behavior",
+  "text": "arXiv:2511.10661v2 Announce Type: replace\nAbstract: It is increasingly important to evaluate the characteristics of systems based on large language models (LLMs). Evaluations in this context often rely on a curated benchmark set of input prompts provided to the LLM, where the output for each prompt may be assigned a binary or ordinal score and the aggregation of scores across prompts is then used as a summary evaluation. In this paper, we develop a Bayesian approach for quantifying the uncertainty that arises in such evaluation metrics as a result of the stochasticity of the LLM-based systems; the same prompt may exhibit different outcomes on repeated runs. Our framework leads naturally to a sequential evaluation, in which we leverage the Bayesian model to preferentially select which prompts in the benchmark to use next, enabling more cost-effective LLM evaluations. We demonstrate this approach through four case studies: pairwise LLM preferences in interactive dialogue (MT-Bench), refusal rates on adversarial inputs (JailbreakBench), embodied agentic reasoning (ALFWorld), and agentic web-search Q&A (GAIA). Our results illustrate how a Bayesian approach can provide insightful uncertainty quantification about the behavior of blackbox LLM-based systems in a manner that is not accessible via deterministic or single-run evaluations.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "61733bb728dd7a200a29",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

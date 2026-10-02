@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38898",
+  "title": "K2P: Label-Free Knowledge to Prompt Distillation",
+  "text": "arXiv:2609.38898v1 Announce Type: cross\nAbstract: Knowledge distillation can transfer reasoning from stronger teachers to frozen students through reusable prompts, but avoiding weight updates does not eliminate supervision. Without ground-truth answers, teacher solutions are unverified, and agreement with the teacher can reward shared mistakes. We introduce Knowledge-to-Prompt (K2P) for label-free knowledge distillation to prompts. K2P synthesizes reusable instructions from teacher solutions, refines them using paired teacher and student responses, and guides search and selection with answer agreement. It retains candidates that adaptive search may undervalue and selects on reserved questions. Deployment uses only the frozen student and selected prompt. Our theory separates generation and selection gaps and gives conditions under which agreement-guided construction yields accuracy guarantees despite imperfect teacher references. Across reasoning tasks and students, K2P outperforms label-free alternatives overall and remains competitive with supervised prompt optimization. Ablations and archive diagnostics assess the contributions of teacher solutions and refinement, while revealing the limits of agreement-guided selection.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f9c4c5d7c90e3f95a78c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

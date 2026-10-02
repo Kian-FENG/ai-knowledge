@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39853",
+  "title": "Cognitive Enhancement: Rethinking the Necessity of Role-Playing for Large Language Models",
+  "text": "arXiv:2609.39853v1 Announce Type: new\nAbstract: Role-playing prompting has become a popular yet simple technique for improving LLM reasoning and output quality. However, whether it consistently boosts performance across diverse domains remains unclear, as systematic validation is lacking. To fill this gap, we run multi-model, cross-domain, and multilingual experiments on MMLU and MMLU-Redux. We find that gains from role-play prompting depend heavily on model capacity, knowledge domain, and prompt language. Drawing on metacognition theory, we propose the persona-related cognitive alignment hypothesis: role-play works only when the LLM correctly grasps the designated persona and its associated knowledge domain. We test this hypothesis through persona information richness ablation, layer-wise entropy divergence analysis, and latent thought-space deflection observation. To reduce persona cognitive bias and stabilize role-play performance, we propose \\textbf{M}ixed-\\textbf{L}anguage \\textbf{C}oncatenate \\textbf{P}rediction \\textbf{(MLCP}), a simple, training-free, and efficient multilingual prompt concatenation strategy. It aggregates semantically equivalent role prompts to enrich complementary representational cues. Extensive experiments show that MLCP consistently outperforms vanilla role-play prompting across all tested LLMs.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "59761399bacac696892b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

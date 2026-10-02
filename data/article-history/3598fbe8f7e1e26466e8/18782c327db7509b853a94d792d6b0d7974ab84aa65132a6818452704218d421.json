@@ -1,0 +1,17 @@
+{
+  "url": "https://arxiv.org/abs/2609.38972",
+  "title": "Making LLMs Say What They Think: Measuring and Improving CoT-Interpretability Alignment",
+  "text": "arXiv:2609.38972v1 Announce Type: new\nAbstract: Chain-of-thought (CoT) traces often serve as a proxy for how Large Language Models (LLMs) arrive at their answers. However, growing evidence shows that models' CoT often fails to reflect their internal computations and can be changed without affecting their final answers. In this work, we measure and improve the alignment between the reasoning described in an LLM's CoT and what it computes internally. We propose CoT-Interpretability Alignment (CIA), a metric that measures the agreement between a model's CoT traces and its internal reasoning strategies as detected by interpretability tools. We evaluate CIA on three tasks (two-hop question answering, hint intervention, and integer multiplication) across three LLMs, finding that LLMs exhibit limited alignment across all tasks (44.8-75.9%). We then experiment with improving CIA via post-training, setting both the task accuracy and parametric faithfulness signals as a reward. Experiments show that we can substantially improve CoT parametric faithfulness while maintaining or improving the task accuracy. We provide rich analysis, such as their generalization patterns. Our work provides both a framework for auditing CoT parametric faithfulness and a pathway toward making models' explicit reasoning more trustworthy. Code and data are available at https://github.com/yihuaihong/CIA-minimal-repro.",
+  "published_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "3598fbe8f7e1e26466e8",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:34:26.644013+00:00"
+}

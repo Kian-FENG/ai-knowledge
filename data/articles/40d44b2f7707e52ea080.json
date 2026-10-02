@@ -1,0 +1,17 @@
+{
+  "url": "https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.7.0rc4",
+  "title": "Release v0.7.0rc4",
+  "text": "Full Changelog: v0.7.0rc3...v0.7.0rc4",
+  "published_at": null,
+  "updated_at": "2026-09-21T23:02:19+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "40d44b2f7707e52ea080",
+  "source_id": "flashinfer",
+  "source_name": "FlashInfer",
+  "section": 3,
+  "raw_path": "raw/2026-10-02/a3549fb8b69a92b4be5d1b9ca8d761be77eaaac5efd479450c45bce2a32d0d93.body",
+  "source_sha256": "a3549fb8b69a92b4be5d1b9ca8d761be77eaaac5efd479450c45bce2a32d0d93",
+  "fetched_at": "2026-10-02T01:30:29.540988+00:00"
+}

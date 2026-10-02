@@ -1,0 +1,17 @@
+{
+  "url": "https://openai.com/index/two-years-of-openai-academy",
+  "title": "Two years of OpenAI Academy",
+  "text": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+  "published_at": "2026-09-23T16:00:00+00:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "52e46e8371e1f69996c0",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-02/9a33c68f719b2874ec6dcbf7c32741c3e698d316a8750aa3d3ab96696a8eba27.body",
+  "source_sha256": "9a33c68f719b2874ec6dcbf7c32741c3e698d316a8750aa3d3ab96696a8eba27",
+  "fetched_at": "2026-10-02T01:30:27.538849+00:00"
+}

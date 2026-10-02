@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38446",
+  "title": "What Pretraining and Midtraining Make Learnable from Rewards?",
+  "text": "arXiv:2609.38446v1 Announce Type: cross\nAbstract: A reward can identify a correct answer while leaving the computation needed for new inputs undetermined. We study how pretraining and midtraining supply the information and computation that make reward adaptation effective. In sequential state computation and contextual memory, we characterize mechanisms that agree on every training reward yet demand different held-out answers. Task-independent source observations resolve this ambiguity. We construct finite sampled Adam paths from specified random initializations through source prediction and reward adaptation in the same parameters, proving how prediction acquires execution or retrieval and rewards learn their task-specific use. Experiments with pretrained Qwen2.5 checkpoints test this division of labor. Across eight worlds, Sequential models trained with correct source and first-operation supervision reach 82.61% success, versus 44.15% for a private-random source control. Memory replay preserves retrieval during reward adaptation, and an independent eight-world confirmation achieves 75.32% task success versus 49.86% after matched alternative-retrieval training. GSM8K and HotpotQA separate accuracy at reward entry, subsequent gain and final performance. Together, these results connect information acquisition, executable computation and reward-guided task learning.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "a4c62bd1d4c815799454",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

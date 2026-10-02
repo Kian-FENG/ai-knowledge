@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-02",
+  "packet_sha256": "b2819db470e9b0273f942a12f4f265c373f272f93c66b592864480bae2a31532",
+  "overview": "本次为初始化后的首份试运行日报，精选6个事件。已核对的信号集中于企业工作流采用、零售交易入口、推理内存体系和系统正确性；中国公司、GPU供应链及部分动态网页覆盖仍不足。论文按本期公告收录，并保留早于公告日的实际投稿日期，不将旧模型发布重复写成今日新闻。",
+  "source_checks": [
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "RSS及两篇选中官网全文已读；直接HTTP正文403，使用可用网页读取，归档阅读笔记。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "官网新闻列表及Barclays原文已读；日期级事件明确标注边界不确定。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "已检查官网Research & News，首页未见本窗口新条目；未宣称覆盖所有渠道。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "已检查官网Research列表，首页未见本窗口新研究；未覆盖全部产品渠道。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "官网入口可抓取但动态页面未返回可读文章列表，本窗口覆盖不足。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "已补取当前cs.CL+cs.DC RSS全部313条，取消本次本地截断；两篇选题核对摘要和投稿日，未逐篇全文审阅。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "releases Atom 已检查，本窗口无新条目；未完成所有社区PR和博客深读。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "Atom含v0.31.0rc3预发布更新；说明不足以推导实测收益，未列为技术突破。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "releases Atom已检查，本窗口无新条目。"
+    },
+    {
+      "source_id": "volantis",
+      "status": "checked",
+      "note": "已读公司发布的PR Newswire原文，融资与未来交付计划分开。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "执行中英文10月1日新公司/融资检索，回查Volantis公司新闻稿；其他发现未充分核验，未收录。"
+    }
+  ],
+  "items": [
+    {
+      "event_key": "openai-albertsons-safeway-20261001",
+      "section": 0,
+      "title": "OpenAI 将购物助手接入零售交易流程",
+      "article_ids": [
+        "637d3dfa247fa816a4c4"
+      ],
+      "facts": [
+        "OpenAI 于10月1日披露与 Albertsons 的扩展合作，覆盖员工工具和消费者购物体验。",
+        "Safeway 体验可在 ChatGPT 中根据食谱、图片或清单帮助选品、构建购物车，再引导到 Safeway 结账；扩展至其他品牌仍属计划。"
+      ],
+      "analysis": "判断：竞争入口从回答购物问题延伸到选品与交易衔接。应观察购物车转化、复购和零售系统集成成本，不能仅凭发布判断商业效果。",
+      "locators": {
+        "637d3dfa247fa816a4c4": "Bringing Safeway grocery shopping into ChatGPT；A 360-degree partnership"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "openai-den-work-20261001",
+      "section": 0,
+      "title": "ChatGPT Work 客户案例突出跨应用资料整合",
+      "article_ids": [
+        "2167384f51e2a4466793"
+      ],
+      "facts": [
+        "OpenAI 发布 The Den 案例：团队连接 Gmail、Slack、Google Drive，用于组织资料和准备申请文件，仍由人员审核。",
+        "管理团队自述每周节省10–15小时，属于单一客户披露，未独立测量。"
+      ],
+      "analysis": "判断：中小企业的采用动机可能来自具体行政流程的时间回收，而非模型榜单。需观察效果能否跨客户复现，以及授权配置与纠错成本。",
+      "locators": {
+        "2167384f51e2a4466793": "Turning scattered information into an action plan；客户案例自述"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "anthropic-barclays-scale-20261001",
+      "section": 1,
+      "title": "Anthropic 扩大 Barclays 部署，代码与运营成为采用场景",
+      "article_ids": [
+        "c08402b8f22a4b159df3"
+      ],
+      "facts": [
+        "Anthropic 10月1日宣布 Barclays 扩展合作，涉及软件开发、旧系统现代化及运营。公司披露知识助手已有逾16,000名员工采用。",
+        "Claude Code 在2026年底覆盖50%开发人员是目标，不能表述为已完成。页面仅披露日期，08:00窗口边界不确定。"
+      ],
+      "analysis": "判断：采用规模要与治理、系统改造和工作流结合评估。员工采用数不等于稳定活跃人数或利润提升；后续应观察使用留存和可比生产率。",
+      "locators": {
+        "c08402b8f22a4b159df3": "开篇 rollout 目标；Claude powers knowledge assistance"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "volantis-series-a-20261001",
+      "section": 1,
+      "title": "新增跟踪：Volantis 为光子推理系统融资8,800万美元",
+      "article_ids": [
+        "f61726ece8d567dac6f2"
+      ],
+      "facts": [
+        "Volantis 于10月1日发布公司新闻稿，宣布8,800万美元A轮融资，由 Lachy Groom 与 Abstract Ventures 共同领投。",
+        "A-1 以光子互连连接计算与内存，计划2027年向客户交付；新闻稿性能数字属于设计主张，本期未将其视为实测。"
+      ],
+      "analysis": "判断：该路线把推理成本问题指向内存容量与带宽协同。量产、软件兼容和客户负载测试仍待验证；融资不是技术成熟度证明。",
+      "locators": {
+        "f61726ece8d567dac6f2": "公司新闻稿开篇；A New Approach to Photonic Interconnects；Investment and Commercialization"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "vosti-arxiv-announcement-20261001",
+      "section": 4,
+      "title": "Vosti：推理系统的确定性成为独立验证目标",
+      "article_ids": [
+        "d588500bba1a81786489"
+      ],
+      "facts": [
+        "本期 arXiv 公告收录 Vosti；原始投稿是9月30日，并非10月1日首次投稿。",
+        "摘要提出固定模型与部署配置下的逐位一致 logits 规范，并报告对调度、KV cache 与部分 GPU kernel 的验证方法。本期仅阅读摘要与投稿记录。"
+      ],
+      "analysis": "判断：系统优化除了吞吐，也需要可解释的正确性契约。论文主张还需全文审阅和复现，不能推断所有 vLLM/SGLang 配置均不可靠。",
+      "locators": {
+        "d588500bba1a81786489": "Abstract；Submission history，v1；arXiv RSS公告日期"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "kv-provenance-arxiv-announcement-20261001",
+      "section": 4,
+      "title": "共享 KV cache 研究关注跨配置复用的来源一致性",
+      "article_ids": [
+        "e41903f59de20d18f410"
+      ],
+      "facts": [
+        "本期 arXiv 公告收录该论文，原始投稿时间为9月30日。作者研究共享缓存键是否保留 adapter、权重配置和隔离域等信息。",
+        "摘要报告在特定 vLLM/SGLang 配置下观察到错误复用，并提出 provenance contract。本期未阅读全文测试矩阵或独立复现。"
+      ],
+      "analysis": "判断：多租户和多模型服务的共享缓存收益应与隔离正确性一起评估。后续重点看社区修复版本、默认配置和可复現测试，不将论文个案扩大为普遍漏洞结论。",
+      "locators": {
+        "e41903f59de20d18f410": "Abstract；Submission history，v1；arXiv RSS公告日期"
+      },
+      "reviewed": true
+    }
+  ]
+}

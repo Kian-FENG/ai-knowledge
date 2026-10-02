@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.40064",
+  "title": "From Tweets to Trades: Analyzing the Influence of Public Mood over Stock Market Performance in Turkiye",
+  "text": "arXiv:2609.40064v1 Announce Type: new\nAbstract: Purpose: This study examines whether domain-specific public mood is associated with stock-market dynamics and whether these relationships vary across communication domains and market conditions. It distinguishes public mood from investor sentiment and investigates whether heterogeneous sources of public communication exhibit different relationships with market behaviour.\nDesign: The study analyses 610,422 posts published by 176 curated X accounts between January 2022 and December 2023, covering Politics and Government, Economy and Finance, and Media and Society. Posts are classified using fine-tuned Turkish transformer models under three domain-specific and one pooled regime. Public mood measures are constructed at daily, weekly, and monthly frequencies and examined alongside BIST100 and BIST30 market measures using correlation, Granger causality, vector autoregression, and impulse response analyses across the full period and selected market conditions.\nFindings: Public mood is not associated with the direction of stock-market returns but is associated with the magnitude of price movements, particularly for Media and Society and pooled communication. These relationships become stronger at longer aggregation frequencies. Predictive relationships are concentrated in Economy and Finance communication, while their magnitude and direction vary across market conditions, particularly during the 2023 election period. The pooled measure largely reflects the most active communication domain.\nOriginality: The study contributes to behavioral-finance research by incorporating communication - domain heterogeneity into the analysis of public mood and market dynamics. It also demonstrates how aggregating heterogeneous sources can obscure domain-specific relationships between public communication and financial markets.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f4095207c1ffe5687908",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

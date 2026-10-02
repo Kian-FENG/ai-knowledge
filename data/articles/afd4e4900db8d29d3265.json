@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2511.11689",
+  "title": "Generative AI Purpose-built for Social and Mental Health: A Real-World Pilot",
+  "text": "arXiv:2511.11689v4 Announce Type: replace-cross\nAbstract: Generative AI chatbots built for mental health could extend access to care, but evidence from real-world use is limited. We report a single-arm, naturalistic pilot of a foundation model trained for mental health, among 299 US adults with at least moderate depressive or anxiety symptoms who were followed for up to 12 months. Depression and anxiety symptoms fell by 10 weeks (Cohen's d 0.93 and 0.79), with loneliness, behavioral activation, and social interaction improving. Clinicians confirmed that automated safeguards were escalated appropriately. Participants fell into non-responding (57.2%), improving (37.1%) and rapidly improving (5.7%) trajectories. Early working alliance and greater engagement were associated with better outcomes. The AI deployed ten identified intervention families whose delivery varied with baseline anxiety and depression, with the overall ratio of clinical to non-clinical content increasing according to severity without survey information access. These findings support the feasibility of purpose-built AI for mental health.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "afd4e4900db8d29d3265",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

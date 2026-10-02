@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2606.20487",
+  "title": "OctoNest: Adaptive Cross-Device Execution through Stateful Control",
+  "text": "arXiv:2606.20487v2 Announce Type: replace\nAbstract: Computer use agents are expanding from single-device operation toward cross-device systems that coordinate tasks across heterogeneous environments. Execution conditions are often only partially known at planning time and revealed through interaction. Failures may require intra-device modality switching or inter-device reassignment; failing to distinguish these cases can lead to repeated failures or premature termination. However, existing systems primarily scale up single-device agents without sufficiently distinguishing device-level and modality-specific execution conditions. We propose OctoNest, which coordinates stateful cross-device orchestration and iterative device-local modality control. Device Agents refine subtasks and select modalities, while an Orchestrator uses execution feedback to revise plans and device assignments. We also introduce CAPEBench, comprising 158 instances from 23 cross-device seed tasks with controlled perturbations. OctoNest leads all three quality metrics, improving Perfect Pass over the strongest baseline by 18.35 percentage points and reducing token cost per perfect pass by 39.8\\%. Further analyses support the complementary roles of local refinement and global revision and demonstrate CAPEBench's ability to distinguish control limitations under changing execution conditions.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "c339ec53b1be0aaedafa",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

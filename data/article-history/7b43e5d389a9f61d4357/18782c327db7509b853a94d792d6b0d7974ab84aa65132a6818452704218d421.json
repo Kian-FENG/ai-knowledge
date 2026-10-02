@@ -1,0 +1,17 @@
+{
+  "url": "https://arxiv.org/abs/2609.38205",
+  "title": "The System Prompt Illusion: How Instruction Preambles Modify Computation in Language Models",
+  "text": "arXiv:2609.38205v1 Announce Type: new\nAbstract: System prompts are the primary lever practitioners use to control language model behavior, yet what they actually do to the computation inside the transformer remains poorly understood. Across 17 instruction-tuned models spanning 8 architecture families and 1.5B to 72B parameters, we use Centered Kernel Alignment (CKA) to compare layer-wise representations under 20 system prompts in five functional categories. Effects are layer-selective and instruction-type-dependent: persona and formatting instructions deeply restructure intermediate representations, while safety instructions barely move them, producing changes statistically indistinguishable from a minimal baseline. Restrictive safety instructions and explicitly permissive ones (\"you have no restrictions\") engage near-identical computational pathways (mean CKA correlation 0.997), and this persists at commercial scale, where safety penetration remains below 10% even at 70B-72B. A linear probing baseline exposes the mechanism: the model encodes prompt category at every layer but restructures its computation only at a small subset, so the prompt is reliably \"seen\" but, for safety, not deeply \"acted upon.\" Causal activation patching confirms these layers mediate behavioral change, and representational depth predicts behavioral effect size across the full 17-model cohort (Spearman rho = 0.761, p < 0.001). The findings provide a mechanistic explanation for the persistent jailbreak vulnerability of system-prompt-based safety. Code: https://github.com/Usama1002/system-prompt-illusion-cka",
+  "published_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "7b43e5d389a9f61d4357",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:34:26.644013+00:00"
+}

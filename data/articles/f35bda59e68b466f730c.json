@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2603.00326",
+  "title": "Vectorized Dynamic Histograms for Sparse Oblique Forests",
+  "text": "arXiv:2603.00326v2 Announce Type: replace-cross\nAbstract: Sparse oblique (SPO), part of the top-ranked configuration of Google's Yggdrasil Decision Forests (YDF), improve the accuracy while maintaining interpretability of Random Forests (RF) and Gradient Boosted Trees (GBT) by scanning a sparse linear combination of features instead of a single feature. Because projections are sampled at runtime, training is significantly slower, as pre-run optimizations such as presorting cannot be used. We overhaul SPO training in YDF, first by fixing inefficiencies in the released version, achieving 2-5x speedup, then by devising two novel methods, one aimed at GBTs and the other at RFs: (1) Hierarchical AVX2 and AVX-512-vectorized histogram filling speeds up typical GBT-depth trees by up to 1.6x in SPO-GBT and 2x for SPO-RF, and (2) runtime-dynamic histograms between vectorized histograms and exact splits, speeds up deeper, RF depth-typical trees (depths 16 to purity) by up to 1.6x with no detectable effect on accuracy. Our optimizations bring SPO-RF training time on par with YDF's axis-aligned RF. We extensively evaluate on 8 natural and 11 synthetic datasets of up to 10.5 million rows and 1.6 million features, from depth 6 to purity, and open-source the implementation.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f35bda59e68b466f730c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

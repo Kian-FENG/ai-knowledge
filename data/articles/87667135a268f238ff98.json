@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38722",
+  "title": "Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes",
+  "text": "arXiv:2609.38722v1 Announce Type: cross\nAbstract: LLM watermarking has become an effective approach to distinguishing AI-generated text from human-written text by embedding detectable patterns during generation. However, a small post-generation edit may change the meaning of the text without removing its overall watermark signal, creating a risk that the modified content is still attributed to the original model. We propose Anchor-ECC, which incorporates the error-correcting code (ECC) constraints and explicit boundary anchors into the watermark structure and pairs them with a dynamic-programming decoder to detect and localize post-generation edits. Across Qwen3-8B, Mistral-7B-Instruct-v0.3, and OPT-125M, the approximate-hard setting achieves about 99.7% block-level true positive rate (TPR) with at most 7.6% false alarm rate (FAR) for edit detection under mixed insertions, deletions, and substitutions, while preserving the distinction between watermarked outputs and unwatermarked text. Additional quality experiments identify lower-perplexity configurations that retain strong edit-detection performance. Together, these results extend LLM watermarking from source identification to local integrity verification while supporting configurable trade-offs between detection reliability and generation quality.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "87667135a268f238ff98",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

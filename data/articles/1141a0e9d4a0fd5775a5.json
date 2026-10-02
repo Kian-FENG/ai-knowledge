@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.40035",
+  "title": "OPTS-TTPO: Enhancing Finite-Sample Policy-Gradient Learning with Tree Search",
+  "text": "arXiv:2609.40035v1 Announce Type: new\nAbstract: The policy-gradient theorem gives the exact gradient under the current policy, but finite on-policy samples may miss rare high-return trajectories. We study whether tree search improves their coverage within a fixed budget while controlling gradient bias. We introduce On-Policy Parallel Tree Search (OPTS) and Tree Trajectory Policy Optimization (TTPO) using on-policy tree trajectories, which sample new suffixes from the current policy at visited states. This needs no action-distribution correction, although branching changes state visitation. Our Branch Aggregation Lemma shows that branch-weighted tree statistics recover chain expectations when branch choices and weights are fixed before outgoing transitions are sampled. OPTS selects expansion states using estimated performance differences. Under deterministic dynamics, exact values, and max-backup advantages, the induced search policy's expected return improves monotonically with the budget. We bound the gradient bias from adaptive expansion and show that max backup assigns prefix credit to actions leading to better discovered suffixes. Against a finite chain reference, TTPG's measured bias stays near its no-branching level, while NaivePG's bias grows from 0.1251 to 0.4884. At matched budgets, reward- and value-guided OPTS improve correct-answer coverage and majority-vote accuracy over independent sampling. At matched branch counts, OPTS + TTPG gains coverage with a modest bias increase relative to Fixed-branch + TTPG. Under matched interaction or rollout budgets, OPTS-TTPO improves MuJoCo tail returns over PPO by up to 28.6%, achieves a 34-22-1 win-loss-tie record against PPO on Atari-57 under the last-100-log mean-return metric, and improves micro-averaged avg@32 and pass@32 over PPO across all four Qwen3 models.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "1141a0e9d4a0fd5775a5",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

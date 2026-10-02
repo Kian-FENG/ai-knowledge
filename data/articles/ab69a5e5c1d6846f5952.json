@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.18094",
+  "title": "Agora: Git as Shared Memory for Collective AutoResearch",
+  "text": "arXiv:2609.18094v4 Announce Type: replace-cross\nAbstract: Research agents working in separate sessions need to know what others have tried and which results they can build on. Agora stores their contributions as an append-only directed acyclic graph (DAG) in Git. Each commit records a result, insight, hypothesis, verification, or report and links it to prior work. Searchable views show leading results, neglected branches, and verification status; diversity-aware recommendations suggest experiments beyond the current leaders. We report a run of nearly 12 days in which 13 language-model workers, with no assigned tasks or central planner, used Agora to solve a weight-transfer problem. Given 141 pretrained donor models and a frozen 119.6M-parameter attention--SSM hybrid whose dimensions match no donor, the workers had to initialize the target without training data or gradient updates. They published 1,703 contributions and reduced the development evaluator score from 3.39 to 1.899 bits per byte, closing 62% of the gap to a trained GPT-2 124M. The best method compresses donor next-token statistics into the target's embedding and output head, then adds short-range context through sparse edits to attention, feed-forward, and state-space blocks. Its 145-commit ancestry spans 15 accounts. Participants also posted 165 verifications of 95 targets, each by an account other than the target's author, with no reported failures. The run documents how agents reused and verified shared work. Measuring the effect on discovery per unit of compute requires a matched comparison.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "ab69a5e5c1d6846f5952",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

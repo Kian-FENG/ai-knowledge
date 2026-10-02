@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2510.24155",
+  "title": "Distributed Stochastic Momentum Tracking with Local Updates: Achieving Optimal Communication Complexities",
+  "text": "arXiv:2510.24155v3 Announce Type: replace-cross\nAbstract: We propose Local Momentum Tracking (LMT), a novel distributed stochastic gradient method for solving distributed optimization problems over networks. To reduce communication overhead, LMT enables each agent to perform multiple local updates between consecutive communication rounds. Specifically, LMT integrates local updates with the momentum tracking strategy and the Loopless Chebyshev Acceleration (LCA) technique. We demonstrate that LMT achieves linear speedup with respect to the number of local updates as well as the number of agents for minimizing smooth objective functions with and without the Polyak-{\\L}ojasiewicz (PL) condition. In particular, LMT outperforms existing distributed stochastic gradient methods with local updates, and notably attains the optimal communication complexities with sufficiently many local updates $Q\\geq Q^*$. For a moderate number of local updates $Q=\\mathcal{O}(1)$, the performance of LMT matches the best known result for $Q=1$ under smooth nonconvex objectives, and improves upon it under the PL condition. For $Q=1$, we further establish minimax performance lower bounds over two comparison families. For smooth objectives, LMT matches the lower bound. For PL objectives, LMT attains the minimax-optimal dependence on the spectral gap, up to logarithmic factors. To our knowledge, LMT is the first distributed stochastic gradient method with local updates that enjoys such properties.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "c2c2444f1ab8a824c74d",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

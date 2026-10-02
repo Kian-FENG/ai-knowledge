@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2603.18822",
+  "title": "Structure of Basic Human Values in Russian Social Media",
+  "text": "arXiv:2603.18822v2 Announce Type: replace\nAbstract: What is known about the values of national populations rests almost entirely on questionnaires, which prompt respondents to rate researcher-supplied descriptions of each motivation. Social media instead records values as they are invoked spontaneously, in communication addressed to a real audience. We measure value expression in broadly sampled, heterogeneous Russian-language social-media data, where value-relevant content is sparse and often ambiguous, and read the result against the survey-based profile of the same population. To address subjectivity in value interpretation, we compare alternative LLM-prompt configurations against expert judgments and use error-driven calibration to select a theory-based operationalization. Using VKontakte data collected from one million randomly generated user IDs, comprising 7.5 million public text posts, we develop a multi-stage framework combining candidate selection, repeated LLM annotation, and transfer to an XLM-RoBERTa encoder for large-scale prediction (a macro PR-AUC of .60 on the expert benchmark, with continuous scores positively correlated with graded expert confidence across all ten values). The circular structure proposed by Schwartz is largely recovered (congruence .95 at the post level, .94 at the user level). The aggregate profile agrees with survey findings at the anchors - Benevolence highest and broadly distributed across users, Power lowest - but shows relatively elevated Hedonism and relatively low Universalism. Universalism is further displaced structurally, co-expressed with Security and Tradition and concentrated in the output of highly active users.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "823b3f9844495702e8bd",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

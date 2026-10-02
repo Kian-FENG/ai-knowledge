@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.16787",
+  "title": "Many Processors, Still One Computer: The Nested Parallel von Neumann Architecture and Nested BSP",
+  "text": "arXiv:2609.16787v2 Announce Type: replace\nAbstract: The contest in large-scale AI computing is no longer whether one processor can be made stronger, but whether a million of them can still behave as a single computer. This paper argues that two extensions are required. First, classic BSP, nested recursively, becomes a plan that holds at every scale: each superstep consists of parallel work, then exchange and aggregation, then a barrier, and at every layer the participating units are peers. Second, the von Neumann single-machine architecture, extended past its master--slave habit, becomes the Nested Parallel von Neumann Architecture: a nest of peer-equal layers, from chip package to autonomous zone, joined end to end by one memory-semantic interconnect, the Unified Bus. The software nest and the hardware nest correspond layer by layer, and the $\\tau$ Scaling law folds time at every layer. We examine which workloads the nested structure serves, AI training above all but much of classic HPC as well, and describe the hardware decisions that make the nesting physical. Many processors, still one computer.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "082417658f28310070db",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

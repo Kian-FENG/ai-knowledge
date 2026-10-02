@@ -1,0 +1,100 @@
+companies:
+- id: openai
+  name: OpenAI
+  region: US
+  urls:
+  - https://openai.com/news/
+- id: anthropic
+  name: Anthropic
+  region: US
+  urls:
+  - https://www.anthropic.com/news
+  - https://www.anthropic.com/research
+- id: deepseek
+  name: DeepSeek
+  region: CN
+  urls:
+  - https://www.deepseek.com/en/news/
+  - https://github.com/deepseek-ai
+- id: alibaba-qwen
+  name: Alibaba / Qwen
+  region: CN
+  note: Qwen 是阿里模型/产品品牌，非独立公司
+  urls:
+  - https://qwen.ai/blog
+  - https://github.com/QwenLM
+- id: moonshot-kimi
+  name: Moonshot AI / Kimi
+  region: CN
+  urls:
+  - https://www.kimi.com/en/blog/
+  - https://github.com/MoonshotAI
+- id: google-deepmind
+  name: Google DeepMind
+  urls:
+  - https://deepmind.google/discover/blog/
+- id: zhipu
+  name: 智谱 / Z.ai
+  urls:
+  - https://z.ai/
+  - https://github.com/zai-org
+- id: minimax
+  name: MiniMax
+  urls:
+  - https://www.minimax.io/news
+- id: mistral
+  name: Mistral AI
+  urls:
+  - https://mistral.ai/news
+- id: bytedance
+  name: ByteDance / Seed
+  urls:
+  - https://seed.bytedance.com/
+- id: tencent
+  name: Tencent / Hunyuan
+  urls:
+  - https://hunyuan.tencent.com/
+- id: meta
+  name: Meta AI
+  urls:
+  - https://ai.meta.com/blog/
+- id: xai
+  name: xAI
+  urls:
+  - https://x.ai/news
+- id: nvidia
+  name: NVIDIA
+  urls:
+  - https://developer.nvidia.com/blog/
+- id: volantis
+  name: Volantis
+  region: US
+  urls:
+  - https://volantissemi.ai/
+  source_page: reference/entities/volantis.md
+  tracking_since: '2026-10-02'
+communities:
+- name: SGLang
+  urls:
+  - https://github.com/sgl-project/sglang/releases
+  - https://lmsys.org/blog/
+- name: vLLM
+  urls:
+  - https://github.com/vllm-project/vllm/releases
+  - https://vllm.ai/blog
+- name: Dynamo
+  urls:
+  - https://github.com/ai-dynamo/dynamo/releases
+  - https://docs.nvidia.com/dynamo/latest/reference/releases
+- name: Mooncake
+  urls:
+  - https://github.com/kvcache-ai/Mooncake
+- name: FlashInfer
+  urls:
+  - https://github.com/flashinfer-ai/flashinfer/releases
+discovery:
+  enabled: true
+  queries:
+  - new AI startup launch funding foundation model agent infrastructure
+  - 中国 AI 新公司 成立 融资 模型 智能体 推理
+  rules: 每日主动发现；优先官网、创始人原文、论文/仓库和可靠报道。核实后新增实体，不限已有名单。融资传闻保留归因。

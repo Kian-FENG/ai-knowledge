@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.40181",
+  "title": "Index-Translate: A Multilingual Translation Model Family -- Text, Speech, Controlled Dubbing, and Long-Document Translation",
+  "text": "arXiv:2609.40181v1 Announce Type: new\nAbstract: We introduce Index-Translate, a multilingual translation model family that combines a shared multilingual foundation with specialized training for general translation, instruction following, speech translation, controlled dubbing, and long-document translation. It includes three model sizes, 2B, 9B, and 35B-A3B, and supports translation in 150 languages, with multilingual instruction following. Evaluations on general translation and complex translation instructions show that Index-Translate outperforms translation models of comparable size and achieves performance comparable to 100B-scale translation models and frontier models. Index-Echo provides end-to-end speech-to-text and speech-to-speech translation, outperforming existing end-to-end models and achieving performance comparable to frontier omni models. Index-Homura extends the family to syllable-controlled dubbing. Index-NativeLong introduces native long-document translation with a dedicated task formulation and benchmark. These capabilities support diverse translation tasks, including multilingual content production.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d94a87d65bed3c967cd2",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

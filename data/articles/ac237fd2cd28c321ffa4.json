@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38627",
+  "title": "Marking Contour Tones in Yor\\`{u}b\\'{a}: A Typographic and Computational Proposal",
+  "text": "arXiv:2609.38627v2 Announce Type: new\nAbstract: Yor\\`ub\\'a is a tonal language in which contour tones pose persistent orthographic challenges. These are especially notable for personal names and lexical items whose conventional spellings avoid vowel lengthening that would otherwise provide a host syllable for the second tone. A particular concern is a class of names in which the conventional spelling does not just omit tonal information but inverts the meaning of said name, sometimes asserting the opposite of what the name intends. This paper describes the problem, illustrates the inadequacy of current solutions, and proposes the adoption of the caron and circumflex marks. These are symbols with precedent in Yor\\`ub\\'a phonological scholarship since Olmsted (1951), used as orthographic conventions on single vowels to encode rising and falling contour tones, making them accessible for the first time through standard keyboard input and computational text processing. The proposal is supported by an implementation in the WriteYoruba keyboard and the TTSYoruba speech synthesizer, whose architecture and listener evaluation are reported separately (Tubosun et al., 2026).",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "ac237fd2cd28c321ffa4",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

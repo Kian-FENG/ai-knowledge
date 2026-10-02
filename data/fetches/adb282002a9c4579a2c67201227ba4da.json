@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-02/50f1a455ec29c351514bd6a533d06d8656b3b2344b57b330915e19ef687a5960.body",
+  "sha256": "50f1a455ec29c351514bd6a533d06d8656b3b2344b57b330915e19ef687a5960",
+  "source_url": "https://www.kimi.com/en/blog/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-02T01:34:27.312970+00:00",
+  "source_id": "kimi",
+  "status": 200,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Fri, 02 Oct 2026 01:34:27 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "x-internal-adhoc-canary": "424436839",
+    "x-middleware-rewrite": "/en-cn/blog/",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "x-nextjs-cache": "HIT",
+    "x-nextjs-prerender": "1",
+    "x-nextjs-stale-time": "300",
+    "X-Powered-By": "Next.js",
+    "Cache-Control": "s-maxage=60, stale-while-revalidate=31535940",
+    "ETag": "\"wg6ng7sg3d2swf\"",
+    "Content-Encoding": "gzip",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "server-timing": "inner; dur=10"
+  },
+  "final_url": "https://www.kimi.com/en/blog/",
+  "truncated": false
+}

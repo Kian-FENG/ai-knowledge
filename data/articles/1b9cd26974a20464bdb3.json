@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39803",
+  "title": "From Pilots to Production: Lessons in Cross-Institutional Federated Training and Artificial Intelligence for Science",
+  "text": "arXiv:2609.39803v1 Announce Type: new\nAbstract: Many of the most valuable scientific datasets cannot be centralized: they are proprietary, export-controlled, classified, or bound by data-sovereignty restrictions. This inverts the usual paradigm: the model must move to the data, making federated artificial intelligence (AI) core infrastructure for open science. We synthesize lessons from U.S. Department of Energy national laboratories, industry deployments, and the open-source community into a structured account of moving federated AI from pilot demonstrations to dependable, multi-site production. The lessons come from five concurrent efforts spanning leadership-class supercomputers and cloud infrastructure in regulated settings. We organize them around an adapted \\textit{five-domain readiness frame} and a stratified view of the stack beneath a trained model: data architecture, privacy and security controls, trust and verification, governance and socio-technical factors, and operations, the layers that decide whether a pilot becomes dependable. The question shifts from ``can we train it?'' to ``can we operate it, audit it, and change it safely?'' We report systems lessons in memory efficiency, reliability, and synchronization; set out what privacy, security, and decentralized trust require in production, and what is not yet validated there; and identify cross-cutting open problems (asynchronous federation, leakage auditing, verification standards, and harmonized data contracts) that we argue warrant a dedicated, international, open-science working group.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "1b9cd26974a20464bdb3",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39978",
+  "title": "LatencyLab: A DPDK-Based P4 Pipeline Latency Measurement Framework for FPGA SmartNICs",
+  "text": "arXiv:2609.39978v1 Announce Type: new\nAbstract: P4-programmable FPGA SmartNICs place packet processing directly on the wire, but open FPGA P4 toolflows do not expose timestamping at the pipeline boundary, so the latency a P4 program adds on the target FPGA is rarely measured. This paper presents LatencyLab, a DPDK-based measurement framework for FPGA P4 pipeline latency that needs neither PHC/PTP support on the datapath nor clock synchronization. The FPGA's two ports share a network segment, so the switch multicasts a copy of each probe packet to both: one copy passes through the VitisNetP4 pipeline, the other through a matched bypass path. A kernel-bypass DPDK receiver busy-polls both ports and timestamps every packet with the CPU timestamp counter (TSC) as it is retrieved from the NIC's receive circular buffer. The arrival-time difference of the two copies isolates the pipeline latency after calibration against a null bitstream carrying the same traffic; transmit time cancel in the subtraction. We evaluate four VitisNetP4 programs on an AMD Alveo U280, probing each with a 20,000-packet trace measured ten times per session over five independent sessions, all TSC-timestamped and reflected for hardware timestamping. The measured latency distributions are tight and reproducible: 99% of packets fall within 20 ns of the median, session medians repeating within 1 to 2 ns (FiveTuple 107/137 ns, Forward 149 ns, RemoveHeader 177 ns, Checksum 364 ns at 250 MHz). Two independent checks agree with the framework: a kernel-free reflector returns every probe pair to a ConnectX-5 NIC whose adapter clock reproduces the measured distributions within a few nanoseconds, quantile by quantile, and every measured packet falls 18 to 22 clock cycles below the vendor's worst-case latency bound.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "61258ea5f2ecd3ef5f7e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

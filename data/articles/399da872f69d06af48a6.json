@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.31688",
+  "title": "Don't Repeat Yourself: Self-Supervised Fine-Tuning for Coverage",
+  "text": "arXiv:2609.31688v2 Announce Type: replace\nAbstract: In verifiable domains such as math and coding, finding one correct solution among many attempts can matter more than the pass rate of each attempt. Post-training can concentrate large language model outputs around a few modes, while increasing sampling temperature has limited effectiveness. We introduce Don't Repeat Yourself Supervised Fine-Tuning (DRY-SFT), a post-training method that increases output diversity and coverage: the probability of at least one correct solution among many attempts. DRY-SFT has two stages. First, for each problem, sequentially generate K solutions, showing the model all prior attempts and asking for a different solution. Second, fine-tune on each attempt independently, removing prior attempts from the context. The process uses no reward, verifier, or correctness filter. On HumanEval+, MBPP+, and DS-1000, DRY-SFT raises pass@100 by 10.8, 12.5, and 12.4 percentage points, respectively, at a small cost to pass@1. Structural diversity, measured by abstract syntax tree edit distance among passing solutions, rises significantly on all three benchmarks. DRY-SFT also solves 244 of 600 problems that the base model did not solve in the same 200 attempts. Across nine open-weight models, lower structural diversity of the base model significantly predicts larger DRY-SFT gains, indicating that the method is especially effective on more mode-collapsed models.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "399da872f69d06af48a6",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

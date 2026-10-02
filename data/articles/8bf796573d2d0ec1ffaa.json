@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38878",
+  "title": "Audio Token Attention Is Predictable Before the Language Model Runs",
+  "text": "arXiv:2609.38878v1 Announce Type: cross\nAbstract: A large audio language model (LALM) turns a minute of speech into 750-1,500 tokens and prefills every one. Image-token pruning often cuts after the language model's first layers, where image tokens draw little attention. Audio tokens draw much more attention there, and their ranking is still far from final, so audio needs a ranking before the language model runs. Surprisingly, the attention an audio token will receive across the language model is already linearly predictable from its encoder output, before the language model runs. A linear map, fitted in closed form without labels, predicts this all-layer attention ranking at $\\rho \\geq .69$ on eleven of thirteen LALMs. Our method, Triage, cuts audio tokens by this prediction and, on multiple choice, cuts again at layer 2, correcting the prediction with the attention observed there. Triage sets its compression without labels, under two budgets that limit how far its output may differ from the model's own full-audio output. At the conservative budget, its word error rate and accuracy stay within .04 of full audio. At the aggressive budget, Triage beats every baseline in all twelve transcription cases. On multiple choice, at 2.2-5x compression, it outperforms DART, the strongest baseline on average, by .043 in mean accuracy. Because it cuts before the language model, it raises the audio that fits in Qwen2.5-Omni-3B's context window from 21.8 to about 62 minutes. At its most compressive point, Triage lets one GPU serve 4x as many concurrent 5-minute streams of that model. Project page: https://audio-triage.github.io",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "8bf796573d2d0ec1ffaa",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

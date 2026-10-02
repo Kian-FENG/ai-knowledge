@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39272",
+  "title": "An Island-Based Parallel Biased Random-Key Genetic Algorithm for the Three-Dimensional Trailer Loading Problem",
+  "text": "arXiv:2609.39272v1 Announce Type: cross\nAbstract: The Three-Dimensional Trailer Loading Problem (3D-TLP) involves determining the optimal placement and orientation of heterogeneous items within the confined space of a trailer while maximizing volume utilization and satisfying a wide range of complex logistical and safety constraints. The 3D-TLP is NP-hard, rendering exact optimization approaches computationally impractical for large-scale industrial applications. To address this challenge, we propose an enhanced Biased Random-Key Genetic Algorithm (BRKGA) accelerated through a novel island-based parallelization framework, PANGEA. The proposed method combines the search efficiency and robustness of BRKGA with a multi-population evolutionary scheme for genetic algorithms. This island-model strategy promotes population diversity, mitigates premature convergence, and significantly reduces computational times. The proposed solution was validated in a real trailer loading process, providing an effective solution approach for real-world large-scale logistics.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9616028a3c30409dca0e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

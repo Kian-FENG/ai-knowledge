@@ -1,0 +1,33 @@
+{
+  "raw_path": "raw/2026-10-02/16e8b1c9236f06cf1a2a7f4a2fbe68e7f3a342f98cb2d7d2a77401dd0faf5763.body",
+  "sha256": "16e8b1c9236f06cf1a2a7f4a2fbe68e7f3a342f98cb2d7d2a77401dd0faf5763",
+  "source_url": "https://www.prnewswire.com/news-releases/volantis-raises-88m-series-a-to-demolish-the-ai-memory-wall-with-photonics-302895940.html",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-02T01:37:09.493031+00:00",
+  "source_id": "volantis",
+  "status": 200,
+  "headers": {
+    "Date": "Fri, 02 Oct 2026 01:37:10 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Server": "cloudflare",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "last-modified": "Thu, 01 Oct 2026 13:01:13 GMT",
+    "set-cookie": "__cf_bm=9qID_RX.zmLzpSJmHsMIP1_0vg7RFBvQ9a8D93rX4g0-1790905030.4116325-1.0.1.1-LK0msDKhsQvcTqNeR3VukV8Yma1KsX0Tlt0vcYMC2oEWUzCF9Pn5SsN85KJ2WjnE3G5O.fx5lOgg0kukZkJLJDYAbMQ58R6w4YgZA7s1_VX2ZSiELnG0mSZB.I89AaIL; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.prnewswire.com; Expires=Fri, 02 Oct 2026 02:07:10 GMT",
+    "x-xss-protection": "1; mode=block",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "access-control-allow-origin": "https://app.zoominfo.com; *.prnewswire.com; *.multivu.com; *.vocusdr.com; *.prweb.com",
+    "via": "1.1 google",
+    "Server-Timing": "cfEdge;dur=10,cfOrigin;dur=0",
+    "Age": "45091",
+    "expires": "Fri, 02 Oct 2026 01:42:10 GMT",
+    "Cache-Control": "public, max-age=300",
+    "cf-cache-status": "HIT",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a43ffaf81d7aebe7-SJC"
+  },
+  "final_url": "https://www.prnewswire.com/news-releases/volantis-raises-88m-series-a-to-demolish-the-ai-memory-wall-with-photonics-302895940.html",
+  "truncated": false
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://arxiv.org/abs/2609.38630",
+  "title": "Strong Multilingual Privacy Tagging at Encoder Speed",
+  "text": "arXiv:2609.38630v1 Announce Type: new\nAbstract: Privacy redaction must remove personal information while preserving relationships expressed in text. We develop a multilingual named-entity tagger with fine-grained distinctions supporting varied redaction policies and methods for cheaply learning additional distinctions. We fine-tune a multilingual encoder with an affine span-tagging head on frontier-model annotations in 35 languages, replay mapped human gold with coverage-aware masking so unannotated types are not treated as negatives, and repair subword boundaries with a learned +/-1-character adjustment. On 1,283 human-gold test segments in seven languages, best measured redaction F1 is 88.8, against 69.1 for published GLiNER2 with 11 unrepresentable types excluded from its task (68.8 without that exemption), 67.8 for GLiNER2 adapted to the new training data, 57.3 for Microsoft Presidio and 35.8 for the best published OpenAI Privacy Filter fine-tune. Adding about 50,000 annotated training sentences and increasing human-gold replay improves exact typed-span F1 from 74.5 to 76.3 on Ont3, our 31-type frontier-annotated NER evaluation of 1,201 development segments. Mapped-gold replay alone raises human-gold F1 by ten points without loss on frontier-annotated text; boundary adjustment adds 1.7 exact typed-span F1 points on Ont3. Local LLMs fitting on a single 96-GB GPU underperformed as prompted annotators and frozen encoders, with encoding 30-95 times slower than XLM-R inference and prompted annotation roughly 180-1,100 times slower in the evaluated configurations. The encoder architecture delivers 4.9 times GLiNER2's CPU throughput. We release code, prompts and training recipes, with data-acquisition scripts and source links.",
+  "published_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "71a464d2c911e4066909",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:34:26.644013+00:00"
+}

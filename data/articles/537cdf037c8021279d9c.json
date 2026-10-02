@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38723",
+  "title": "Towards Efficient HPC Systems for Agents: Challenges and Opportunities",
+  "text": "arXiv:2609.38723v1 Announce Type: new\nAbstract: Coding agents have become real users of high-performance computing (HPC) systems, yet today's HPC abstractions, interfaces, and policies remain designed for human-driven workflows. In our measurement, users running coding agents are only 19.5% of the observed population, but account for 55.8% of job submissions, 29.1% of CPU core-hours, and 42.7% of GPU-hours. Agents are not simply faster humans. They issue commands at 20.8x the human rate, decompose work into fine-grained explore-modify-execute loops, and pursue open-ended goals through trial-and-error campaigns that continue through nights and weekends. These behaviors strain abstractions built for human timescales, surfacing as control-plane pressure on the scheduler, metadata-intensive I/O on bandwidth-provisioned filesystems, repeated rediscovery of what earlier sessions already learned, and new prompt-injection and policy-enforcement surfaces. Neither banning agents nor treating them as ordinary users is sustainable. We instead argue for co-design, that facilities should treat agents as first-class principals where agents become facility-aware tenants. We outline the resulting challenges and opportunities in compute, storage, agent memory, and safety.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "537cdf037c8021279d9c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

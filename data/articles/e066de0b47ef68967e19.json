@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.40185",
+  "title": "Provably Tractable NFA-Constrained Language Generation via HMMs",
+  "text": "arXiv:2609.40185v1 Announce Type: new\nAbstract: Constrained generation aims to sample from language models (LMs) conditioned on hard constraints. Existing constrained-generation techniques for nondeterministic finite automaton (NFA) constraints either distort the distribution or sacrifice efficiency. Theoretically, this task reduces to counting the length-$n$ sequences accepted by an NFA (#NFA), and the exact #NFA problem is #P-complete. Recent work has shown that #NFA admits a fully polynomial randomized approximation scheme (FPRAS). Inspired by this result, we propose NFA-LM, a polynomial-time engine for NFA-constrained generation with theoretical guarantees under mild assumptions. Experiments show that NFA-LM efficiently generates high-quality outputs with theoretically bounded approximation error.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e066de0b47ef68967e19",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

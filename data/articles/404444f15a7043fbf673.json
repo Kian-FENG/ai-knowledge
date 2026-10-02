@@ -1,0 +1,17 @@
+{
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc3",
+  "title": "v0.31.0rc3: [Model Runner V2] Support randomized dummy inputs (#58411)",
+  "text": "Signed-off-by: Robert Shaw robshaw@redhat.com\nCo-authored-by: Robert Shaw robshaw@redhat.com\nCo-authored-by: Claude Opus 5.5 noreply@anthropic.com\nCo-authored-by: mergify[bot] <37929162+mergify[bot]@users.noreply.github.com>\nCo-authored-by: Nick Hill nickhill123@gmail.com\n(cherry picked from commit e5e38ba)",
+  "published_at": null,
+  "updated_at": "2026-10-01T07:54:39+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "404444f15a7043fbf673",
+  "source_id": "vllm",
+  "source_name": "vLLM",
+  "section": 3,
+  "raw_path": "raw/2026-10-02/24b36aa9a6ac03266adac4a3de22038433d682b46edfa209c177d8c646c0f90d.body",
+  "source_sha256": "24b36aa9a6ac03266adac4a3de22038433d682b46edfa209c177d8c646c0f90d",
+  "fetched_at": "2026-10-02T01:30:27.540125+00:00"
+}

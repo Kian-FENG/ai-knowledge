@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39846",
+  "title": "When a Kindergartener Solves Calculus: Measuring Capability Leakage in Role-Prompted Reasoning Models",
+  "text": "arXiv:2609.39846v1 Announce Type: new\nAbstract: We investigate the problem of role-capability leakage (RCL), in which a role-prompted reasoning model generates convincing in-role text while continuing to exhibit capabilities on benchmarks that exceed those implied by the assigned role. For example, when a model is prompted to assume the role of a kindergarten student, one might expect its performance on a mathematics benchmark to reflect kindergarten-level ability rather than expert-level proficiency in solving calculus problems. We introduce RoleCapBench, a curriculum-grounded benchmark for evaluating RCL across six educational roles and four assessment levels spanning elementary school through A-level, and use it to evaluate three open-weight reasoning models. We find that although the models can generate stylistically convincing in-role responses, they consistently fail to align their underlying capabilities with their assigned roles. Naive role prompting yields strong role-voice scores of 1.218--1.389 while retaining above-role accuracy of 0.811--0.898. RCL persists across a range of prompting conditions, including prompts that explicitly instruct the model to match the role's capability level. To mitigate this problem, we propose Injection, an inference-time intervention that combines explicit, role-specific capability guidelines with a guiding prefilled response prefix. Injection improves role-capability alignment across models, reducing above-role accuracy by up to 0.562 while preserving in-role accuracy with a marginal drop of less than 0.058 across most models. All artifacts, including scripts and evaluation data, will be released upon acceptance.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d599e9b3bcc7e11713e0",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

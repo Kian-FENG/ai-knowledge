@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2607.00588",
+  "title": "A Dominant Self-Conditioning Direction Drives Repetition in Unconditional Continuous Diffusion Language Models",
+  "text": "arXiv:2607.00588v2 Announce Type: replace\nAbstract: Continuous diffusion language models offer an alternative to autoregressive generation, but their generations may suffer from repetition. We find that unconditional generations from ELF, a recent family of continuous diffusion language models, are more repetitive than human text, while Gen-PPL, a common likelihood-based metric, gives lower perplexity to repetitive generations and can conceal this problem while biasing quality evaluation. Our analysis links this behavior to a self-conditioning feedback loop in which clean-embedding predictions are repeatedly carried into subsequent denoising steps, driving representations toward an effectively one-dimensional contractive attractor associated with repetition. Based on this mechanism, we introduce Attractor-Contrast-Escape (ACE), a training-free inference-time intervention that estimates a repetition direction by contrasting denoising paths trapped in repetition with paths relatively free of repetition and subtracts it from the self-conditioning feedback during denoising. Using a direction estimated only once on ELF-B, ACE reduces mean 4-gram self-repetition rate from 7.28% to 4.48%, while retaining competitive results on several text-quality metrics beyond Gen-PPL. The direction remains effective across ELF sizes and inference configurations, and ACE also generalizes to other unconditional self-conditioned continuous diffusion language models. These results identify self-conditioning feedback as a source of repetition in continuous diffusion language models and show that ACE can directly mitigate this repetition during inference.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "80261b5ea38c490b062c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

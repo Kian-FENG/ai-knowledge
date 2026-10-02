@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38389",
+  "title": "The Geometry of Harmfulness in Multi-Turn Attacks",
+  "text": "arXiv:2609.38389v1 Announce Type: cross\nAbstract: Large language models (LLMs) remain vulnerable to adversarial attacks that circumvent safety alignment to elicit harmful outputs. It remains unclear how harmfulness and refusal representations evolve over the course of multi-turn attacks, and why single-turn defenses are less effective in multi-turn settings. This work investigates how the geometry and temporal dynamics of harmfulness and refusal representations evolve across multi-turn attacks. We analyzed hidden-state representations from three instruction-tuned LLMs (Llama-3.1-8B-Instruct, Qwen2.5-7B-Instruct, and Gemma-2-9B-it) using three multi-turn attack frameworks (Crescendo, ActorAttack, and X-Teaming), and examined representation behavior across conversation turns, model layers, and token positions under various context configurations. Across models and frameworks, we found that (1) each attack framework traverses different geometric directions, yet each achieves comparable success in eliciting harmful outputs; (2) multi-turn harmfulness directions became increasingly linearly separable at the end-of-turn token position across turns in middle to late model layers; and (3) harmfulness representations are weakly aligned with refusal-related representations. The results indicate that multi-turn attacks do not succeed by suppressing the model's internal representation of harmfulness. Instead, harmfulness representations become increasingly separable across conversation turns, while remaining only weakly aligned with refusal-related representations. The findings are one possible explanation for why static single-turn safety probes may degrade in multi-turn settings, and suggest that robust defenses must consider temporal representation dynamics rather than identifying harmfulness with isolated or single-turn prompts.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9ffde4260a463f62d40e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

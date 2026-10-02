@@ -1,0 +1,17 @@
+{
+  "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+  "title": "Introducing SynthID Bio",
+  "text": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+  "published_at": "2026-09-30T15:03:07+00:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c696e8b1f34224735a5b",
+  "source_id": "deepmind",
+  "source_name": "Google DeepMind",
+  "section": 2,
+  "raw_path": "raw/2026-10-02/cb614ece8bab5b9bf2a553029cdae20dfeb1dc49455c1193b50a46d6169410f2.body",
+  "source_sha256": "cb614ece8bab5b9bf2a553029cdae20dfeb1dc49455c1193b50a46d6169410f2",
+  "fetched_at": "2026-10-02T01:30:27.539408+00:00"
+}

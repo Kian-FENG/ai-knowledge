@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.36266",
+  "title": "Quantifying Teleportation Overhead in Distributed Unitary Coupled-Cluster Ans\\\"atze",
+  "text": "arXiv:2609.36266v2 Announce Type: replace-cross\nAbstract: Distributed quantum computing (DQC) has been proposed as a way to scale quantum algorithms for practical applications beyond monolithic quantum processor architectures. Among these applications, quantum chemistry is widely regarded as one of the most promising use cases for quantum computing. In this work, we estimate the distributed-resource requirements of unitary coupled-cluster (UCC) ans\\\"atze for quantum chemistry, focusing on unitary coupled-cluster singles and doubles (UCCSD), unitary pair coupled-cluster doubles (UpCCD), and unitary pair coupled-cluster with generalized singles and doubles (UpCCGSD) circuits for hydrogen chains. We focus on a teleportation-based approach to DQC, quantitatively comparing a naive distribution method to the output of the TeleSABRE algorithm. For both approaches, we estimate the cost of handling nonlocal two-qubit gates across a fixed midpoint or quarter-point partition, reporting Bell-pair/classical-communication costs in teleportation. Across Jordan-Wigner and Bravyi-Kitaev, we find that UpCCD with spin-blocked Jordan-Wigner ordering gives the most favorable scaling, while UCCSD incurs substantially larger distributed-resource requirements.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "a95d042c97b0acb55a16",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

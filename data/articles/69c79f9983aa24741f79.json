@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2608.10615",
+  "title": "Simplex Relaxation for Discrete Diffusion",
+  "text": "arXiv:2608.10615v2 Announce Type: replace\nAbstract: Discrete diffusion models for categorical generation are defined by a corruption kernel, which determines the intermediate state space and the associated reverse prediction problem. Within this family, uniform diffusion has been extensively developed, with recent work connecting its categorical corruption process to continuous representations and dynamics. Motivated by this view, we ask whether uniform discrete diffusion can be augmented with an explicit continuous state while leaving its categorical corruption process unchanged. We introduce Simplax, an exact Dirichlet--categorical augmentation that couples each corrupted categorical state with an auxiliary simplex-valued variable while preserving the uniform diffusion process as its categorical marginal. This augmentation yields a tractable Rao--Blackwellized reverse-bridge objective and a stochastic reverse sampler, while retaining the corrupted categorical state as the denoiser input. Empirically, Simplax improves the generative perplexity--entropy tradeoff on unconditional OpenWebText generation. On Sudoku, a model trained exclusively on $30$-clue puzzles achieves the highest accuracy among the compared methods across all evaluated clue densities, including the minimum uniquely solvable $17$-clue regime, and also achieves the highest validity in unconditional generation.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "69c79f9983aa24741f79",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

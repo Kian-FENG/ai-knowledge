@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39496",
+  "title": "When the Right Answer Is Missing: An Arithmetic-Dependent Rejection Bottleneck in Jev",
+  "text": "arXiv:2609.39496v1 Announce Type: cross\nAbstract: Typed decision models such as Jev offer an efficient alternative to generative LLMs in decision-making workflows by selecting directly from predefined options. When candidate sets contain no valid answer, TypeSafe recommends including an \"other\" or \"none-of-the-above\" option to enable rejection. In this report, however, we identify an arithmetic-dependent rejection bottleneck: Jev reliably selects correct numerical answers when available but frequently accepts incorrect alternatives when they are absent despite an explicit rejection option. On paired arithmetic problems, answer-present accuracy reaches 99%, while correct rejection falls to 7%. Moreover, this gap persists across numerical magnitudes, operation depths, contextual formulations, and rejection labels, and extends to scenarios such as time calculation and capacity rounding. Yet native Boolean verification achieves 99% exact-match accuracy on the same answer-absent arithmetic cases, showing that categorical rejection can fail even when the model successfully verifies candidate correctness. Finally, we show that a simple decision threshold selected on separate development problems raises arithmetic rejection accuracy from 7% to 79% while retaining 97% answer-present accuracy, substantially mitigating the failure without retraining or additional inference.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d76d53be8ef5943f3135",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

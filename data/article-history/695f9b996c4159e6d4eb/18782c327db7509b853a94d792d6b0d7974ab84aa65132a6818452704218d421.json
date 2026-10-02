@@ -1,0 +1,17 @@
+{
+  "url": "https://arxiv.org/abs/2609.38831",
+  "title": "Forging LLM Authorship Fingerprints with Targeted Rewriting",
+  "text": "arXiv:2609.38831v1 Announce Type: new\nAbstract: Model-attribution classifiers can often identify which language model produced a text, making model-specific writing patterns a signal of provenance. Accurate attribution on unmodified text, however, does not show whether the prediction still identifies the original source after deliberate rewriting. We formulate this problem as targeted fingerprint transfer: rewriting one model's output so that attribution classifiers assign it to a chosen target model. We study summarization, where different models receive the same document and express the same underlying content, providing a controlled setting for conditional generation. We introduce ForgePrint, a search-then-distil framework that first searches for rewrites that move attribution toward a target fingerprint, then distils the selected rewrites into a one-pass 4B Student model. On CNN/DM, the Student reaches 70.2% target success rate, outperforming both its Teacher (54.1%) and the strongest of six published rewriting baselines (39.3%), against held-out classifiers that are never queried by the attack. It also reaches 68.3% target success when transferring summaries from an open model toward chosen commercial models. These results show that fingerprint detectability should not be conflated with source authenticity, and that text-only attribution can provide misleading evidence of model identity under targeted rewriting, even when it is accurate on unmodified text.",
+  "published_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "695f9b996c4159e6d4eb",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:34:26.644013+00:00"
+}

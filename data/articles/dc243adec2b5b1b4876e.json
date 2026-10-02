@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.36760",
+  "title": "QuantMLA: Function-Aligned Dual-Path Quantization for Low-Bit MLA KV Caching",
+  "text": "arXiv:2609.36760v2 Announce Type: replace-cross\nAbstract: Multi-Head Latent Attention (MLA) enables expressive multi-head attention with compact caches for its content and decoupled RoPE paths, yet cache memory still scales linearly with context length and batch size. In this work, we establish a systematic model of MLA's dual-path quantization errors, characterizing their distinct effects on attention-output distortion and explaining the pronounced amplification of RoPE-path errors. Guided by this analysis, we introduce QuantMLA, a function-aligned framework for low-bit dual-path quantization. We derive path-specific transformation spaces that preserve full-precision computation while remaining fully fusible into model parameters offline, eliminating online transformation overhead. Within these spaces, QuantMLA learns path-specific transformations with function-aligned objectives: attention-output reconstruction captures the content path's coupled matching and aggregation errors, while positional QK reconstruction preserves the RoPE-induced component of the attention logits and admits a theoretical bound on output distortion. Across four MLA model families, QuantMLA enables, to our knowledge, the first reported joint INT4 caching of the content and RoPE caches with minimal accuracy degradation. Further compressing the content cache to INT2 while retaining the RoPE key cache at INT4 maintains competitive performance on challenging reasoning and code benchmarks. We develop a native low-bit MLA attention kernel that integrates unpacking and dequantization directly into attention computation. The physical cache layout provides 3.59x compression at 128K context, while a cache-pressure serving workload achieves 5.168x higher whole-job output throughput than BF16. The code will be released upon acceptance.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "dc243adec2b5b1b4876e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

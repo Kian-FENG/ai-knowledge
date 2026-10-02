@@ -1,0 +1,139 @@
+types:
+  concept:
+    id_prefix: concept-
+    required:
+    - id
+    - title
+    - type
+    - domain
+    - lifecycle
+    - tags
+    - created
+    - updated
+    - evidence_kind
+    - verification
+  source:
+    id_prefix: source-
+    required:
+    - id
+    - title
+    - type
+    - domain
+    - lifecycle
+    - tags
+    - created
+    - updated
+    - evidence_kind
+    - verification
+  paper:
+    id_prefix: paper-
+    required:
+    - id
+    - title
+    - type
+    - domain
+    - lifecycle
+    - tags
+    - created
+    - updated
+    - evidence_kind
+    - verification
+  entity:
+    id_prefix: entity-
+    required:
+    - id
+    - title
+    - type
+    - domain
+    - lifecycle
+    - tags
+    - created
+    - updated
+    - evidence_kind
+    - verification
+  technique:
+    id_prefix: technique-
+    required:
+    - id
+    - title
+    - type
+    - domain
+    - lifecycle
+    - tags
+    - created
+    - updated
+    - evidence_kind
+    - verification
+  pattern:
+    id_prefix: pattern-
+    required:
+    - id
+    - title
+    - type
+    - domain
+    - lifecycle
+    - tags
+    - created
+    - updated
+    - evidence_kind
+    - verification
+  note:
+    id_prefix: note-
+    required:
+    - id
+    - title
+    - type
+    - domain
+    - lifecycle
+    - tags
+    - created
+    - updated
+    - evidence_kind
+    - verification
+  comparison:
+    id_prefix: comparison-
+    required:
+    - id
+    - title
+    - type
+    - domain
+    - lifecycle
+    - tags
+    - created
+    - updated
+    - evidence_kind
+    - verification
+lifecycle:
+- draft
+- reviewed
+- published
+- deprecated
+evidence_kind:
+- unknown
+- reported
+- derived
+- measured
+verification:
+- unchecked
+- source-checked
+- replicated
+entity_kind:
+- company
+- product
+- model
+- community
+- organization
+- person
+source_category:
+- official
+- release
+- paper
+- model-card
+- earnings
+- filing
+- interview
+- industry-report
+- news
+- blog
+- transcript
+- other

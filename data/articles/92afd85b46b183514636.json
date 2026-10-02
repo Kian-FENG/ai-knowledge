@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39799",
+  "title": "Darpan: A Digital Twin Framework for the Next-Generation Computing Continuum",
+  "text": "arXiv:2609.39799v1 Announce Type: new\nAbstract: Computing-continuum applications distribute work across devices, edge systems, fog resources, and clouds. While a placement, scheduling, or recovery decision is being made, resource availability, network conditions, and application progress may change, so the decision can be invalid by the time it is executed. Existing runtimes enact predetermined decisions, whereas simulation tools compare alternatives in preconfigured environments; neither explores alternative outcomes directly from the current state of a running application. We propose a Digital Twin framework, called Darpan, that supports both physical and digital execution: the physical side runs real applications and continuously observes their runtime state, while the digital side maintains a continuously updated, executable virtual counterpart based on these physical observations. Darpan evaluates candidate decisions independently from the same starting point and returns the selected decision to the physical side, where its feasibility is validated against the latest physical state before actual execution. Across real Directed Acyclic Graph (DAG) workloads, Darpan predicts physical response time with a mean absolute error of 0.485 s and retains 93.1% scale-out efficiency at 40 nodes. In the state-change trials, Darpan takes about 2 ms on average from state capture to rejection of an invalidated decision, stopping the request before data transfer and avoiding unnecessary physical execution overhead. Under the same physical-DAG budget, Darpan-generated experience enables a weaker Proximal Policy Optimization (PPO) scheduler to outperform two state-of-the-art Deep Reinforcement Learning (DRL) schedulers by 29.1% and 20.2%.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "92afd85b46b183514636",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

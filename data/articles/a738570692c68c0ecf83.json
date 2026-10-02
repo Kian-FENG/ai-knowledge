@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38861",
+  "title": "TRACE: Target-Aware Retrieval, Attributed Evidence, and Contract-Constrained Extraction for LitTraceQA",
+  "text": "arXiv:2609.38861v1 Announce Type: new\nAbstract: Finding a relevant paper is not the same as producing a verifiable answer from it. LitTraceQA requires canonical paper identifiers, exact evidence at the page or object level, and typed answers that match the evaluator. We call the separation between source access and scorer-visible correctness the grounding contract gap. TRACE - Target-Aware Retrieval, Attributed Evidence, and Contract-Constrained Extraction - addresses this gap with target-grouped retrieval, independent typed evidence localization, multimodal table extraction, schema-driven table construction, and fail-closed validation. It indexes 27,487 papers through passage, object, alias, citation, and dense representations while retaining the question target behind each signal. For tables, TRACE predicts the observation unit before extracting values and assembles rows with evaluator-compatible key normalization. Our audited selected clean-track artifact scores 0.760613 on the official 71-question test set, including 0.9728 paper F1, 0.6847 evidence F1, 0.9800 multiple-choice accuracy, 0.5423 table-row F1, and 0.3508 macro cell accuracy. On 11 public-development table records, a clean baseline and coordinate-aware visual fill obtain row F1 of 0.291 and 0.411, respectively; this diagnostic comparison includes fallback outputs and is not an official-test claim. Remaining errors chiefly concern locator, observation-unit, row-key, and source-value identity.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "a738570692c68c0ecf83",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

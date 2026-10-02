@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38981",
+  "title": "Vosti: Specifying, Implementing, and Verifying Deterministic LLM Inference",
+  "text": "arXiv:2609.38981v1 Announce Type: new\nAbstract: LLM inference systems may vary batch composition, prompt chunking, prefill/decode execution, and KV-cache reuse, eviction, or recomputation. These optimizations should not affect system outputs. Production systems, including vLLM's batch-invariant mode and SGLang's deterministic mode, target this goal but lack a formal system-level specification.\nWe formalize deterministic LLM inference: under a fixed model and deployment configuration, requests with the same prompt and initial sampler state produce bitwise-identical logits at corresponding output positions across executions. Our tests find that these production modes produce different logits under some execution variations. To address this limitation, we present Vosti, an inference engine designed and verified against this specification. Vosti chooses kernels independently of runtime engine state and ties cached KV values to their logical token prefixes. Its proof decomposes at the engine/GPU kernel boundary: a Verus inductive proof establishes that scheduling and the paged, prefix-sharing KV-cache preserve output logits, while a Triton analyzer proves bitwise-equal selected kernel outputs across batches, query lengths, and paged KV-cache layouts. Vosti produces bitwise-identical logits across every tested execution variation and achieves performance comparable to vLLM's batch-invariant mode on decode-heavy workloads, while providing a stronger, formally verified determinism guarantee.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d588500bba1a81786489",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

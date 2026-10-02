@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2608.03756",
+  "title": "LegalPincite: Multi-level Legal Information Retrieval Dataset",
+  "text": "arXiv:2608.03756v2 Announce Type: cross\nAbstract: A common task in legal Information Retrieval (IR) is to find relevant legal sources from case-law collections. While legal practice often requires pinpoint citations (pincites) to specific case paragraphs, most existing public legal IR datasets lack paragraph-level citation annotations. Yet, publicly available datasets with such information contain data leakage in the query text and exclude paragraphs that are neither citing nor cited from the corpora, creating an unrealistic and oversimplified retrieval setting, potentially leading to inflated performance. To address these limitations, we contribute a large-scale legal IR dataset constructed from Court of Justice of the European Union (CJEU) judgments. The dataset contains: (i) masked case/paragraph queries, with removed citation information; (ii) a corpus that includes all paragraphs; and (iii) case- and paragraph-level ground truth citations, with partial human expert validation. Our dataset supports both the development and rigorous evaluation of legal IR methods, at multiple query-document levels (case-to-case, paragraph-to-case, and paragraph-to-paragraph retrieval). Link to dataset and code: https://huggingface.co/datasets/theresiavr/legalpincite",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "19dce004684e1c41ac1a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.38802",
+  "title": "Uncovering Uncontrolled Repetition through Residual Stream Dynamics",
+  "text": "arXiv:2609.38802v1 Announce Type: new\nAbstract: Uncontrolled repetition can prolong autoregressive generation in large language models (LLMs) and enable resource consumption attacks. Prior analyses of repetitive generation have identified strongly activated features in intermediate and late layers. However, how uncontrolled repetition activity emerges and develops before becoming prominent in these layers remains insufficiently understood. In this paper, we investigate this question primarily in large vision-language models (LVLMs), which support a richer set of uncontrolled repetitions through both visual and textual inputs. We propose Tokenwise Residual Comparison (TRC), a method that identifies and localizes anomalies associated with repetition from residual dynamics during generation. TRC compares attention and multilayer perceptron writes to the residual stream across generated tokens to identify patterns associated with repetition. It then selectively suppresses coordinates in the residual stream at the identified layer. Experiments show that TRC effectively mitigates uncontrolled repetition, reducing loop rates by 57\\% on average. Our analysis further shows that repetition semantics emerge in shallow layers and propagate through the residual stream, disrupting normal representations. TRC also generalizes to large language models (LLMs) and large reasoning models (LRMs), where it consistently captures analogous repetition dynamics and achieves effective mitigation. Our work broadens the study of repetitive generation from its prominent internal representations to earlier opportunities for intervention, providing insights for mitigating resource consumption attacks.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "7ecd4a20e0c600ff166d",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39341",
+  "title": "Understanding as No-Arbitrage: Bounded Dutch Books as a Definition and Training Objective for Language Models",
+  "text": "arXiv:2609.39341v1 Announce Type: cross\nAbstract: Does a language model merely predict tokens, or does it understand what it says? We make this question measurable by defining \"understanding\" through the lens of no-arbitrage. A model understands a vocabulary to a certain degree if a computationally bounded trader cannot extract guaranteed profit by betting against the model's probabilities on logically related claims (a \"Dutch book\"). We establish three theoretical results: first, because full logical coherence is computationally intractable, understanding is inherently graded, not absolute. Second, we prove that the exact optimum of standard next-token prediction is inherently incoherent across different question formats; the flaw lies in the training objective, not the architecture. Third, we show that uncertainty accumulates predictably along reasoning chains, making unjustified overconfidence an arbitrage opportunity in itself. To address this, we introduce Arbitr, a training framework where an adversarial trader penalizes the model for logical inconsistencies, paired with a calibration anchor to prevent uninformative collapse. Across five pre-registered experiments on Qwen2.5 and Phi-3.5 models, we demonstrate that standard models are highly exploitable across different phrasings. Arbitr reduces this exploitability by orders of magnitude without sacrificing task accuracy, and the effect successfully transfers to unseen logical patterns and new model families. Crucially, we uncover a scaling illusion: at 7B parameters, near-zero measured incoherence often coincides with extreme, unjustified confidence. We conclude that while Arbitr enforces rigorous logical consistency, coherence is a necessary condition for knowledge, but not a sufficient one",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "db00120685d5502ab188",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

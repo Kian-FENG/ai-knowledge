@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39631",
+  "title": "Kirin: Cloud-native WebAssembly Service Orchestration",
+  "text": "arXiv:2609.39631v1 Announce Type: new\nAbstract: Modern cloud computing infrastructure relies heavily on virtualization to provide workload isolation and resource efficiency. While containers have become the dominant deployment primitive due to their fast orchestration compared to traditional virtual machines, they still introduce non-trivial overhead. WebAssembly (Wasm) has emerged as an alternative isolation technology, offering a lightweight execution model. Because of compatibility limitations, WebAssembly has mainly been applied to Function-as-a-Service (FaaS) and Edge Computing scenarios, where it has attracted growing research interest.\nHowever, recent advances in the WebAssembly ecosystem have significantly matured the technology, raising the question of whether it can serve as a viable replacement for containers in cloud-native workloads. In this paper, we present Kirin, an orchestrator for cloud-native WebAssembly services. It supports core orchestration responsibilities, including resource scheduling, lifecycle management, scaling, and request routing. We evaluate Kirin against container-based deployments for several service workloads and demonstrate promising results, particularly in service lifecycle management. Simultaneously, we confirm known limitations in CPU-intensive workloads. However, for typical service workloads, Kirin demonstrates competitive performance, suggesting that WebAssembly is a viable candidate for broader adoption as a cloud-native deployment technology.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "95dc6fe3513054de983a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

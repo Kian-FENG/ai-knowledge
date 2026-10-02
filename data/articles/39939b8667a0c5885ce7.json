@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39514",
+  "title": "Spike-driven Vision-Language-Action Model",
+  "text": "arXiv:2609.39514v1 Announce Type: new\nAbstract: Vision-language-action (VLA) models bridge multimodal understanding and robotic control, advancing the dominant paradigm for embodied intelligence. However, most existing models rely on large Transformers, whose latency and energy costs hinder deployment on resource-constrained platforms. Through sparse event-driven computation, spiking neural networks offer a promising paradigm for high-performance and energy-efficient computing. Here, we propose the first Spike-driven VLA framework enabling end-to-end direct training for robotic manipulation, which mainly comprises three core components. First, we develop spiking visual and instruction encoders for multimodal perception, encoding visual observations and language instructions into sparse, reliable spike representations for subsequent cross-modal fusion. Then, we introduce Multi-Winner Spike Fusion for instruction-guided scene understanding, using bidirectional top-$k$ winner-take-all spike routing to suppress background interference and yield fused memory. Finally, we propose a Spike Action Chunking Transformer that incorporates spiking cross-attention over the fused memory and the current robot state, enabling efficient end-to-end generation of continuous action chunks for robotic control. Extensive experiments on LIBERO and Meta-World demonstrate that Spike-driven VLA achieves competitive performance with fewer parameters and lower estimated inference energy than conventional VLA models. This work establishes a foundational framework for neuromorphic VLA modeling, paving the way for future advances in resource-efficient embodied intelligence.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "39939b8667a0c5885ce7",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

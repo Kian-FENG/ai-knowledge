@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.39913",
+  "title": "The Concrete-Arbitrary Gap: Kinship Reasoning in LLMs Is Not Indifferent to Presentation",
+  "text": "arXiv:2609.39913v1 Announce Type: new\nAbstract: We test whether large language models solve formally matched kinship problems equally well when relations are expressed in familiar vocabulary or by explicitly defined nonce predicates. Across 500 paired graphs, concrete accuracy exceeds arbitrary accuracy by 35.6 percentage points in local Qwen3.8-27B, 26.6 in Gemma 4 26B-A4B, 12.0 in Gemma 4 31B, and 5.4 in Qwen3.8-Max. All four paired gaps are statistically resolved. Reasoning budgets and prompt-language interventions can substantially reduce the difference, showing that it is modifiable rather than a fixed incapacity. The minimal conclusion is behavioral: on these tasks, the models' manifested relational competence is not indifferent to presentation. Explicit definitions provide the formal relations but do not make nonce predicates as usable as familiar vocabulary embedded in learned linguistic associations.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "af11bbb3d87de82aeed3",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

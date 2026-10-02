@@ -1,0 +1,17 @@
+{
+  "url": "https://arxiv.org/abs/2609.38510",
+  "title": "DEdit: Iterative Draft Editing for Speculative Decoding",
+  "text": "arXiv:2609.38510v1 Announce Type: new\nAbstract: Speculative decoding accelerates autoregressive LLMs by having a lightweight drafter propose tokens that the target model verifies in parallel. Diffusion-based drafters further reduce drafting latency by proposing multiple tokens at once. However, these tokens are predicted independently, so a single early error causes prefix verification to discard the rest of the draft, even when it contains useful downstream predictions. We introduce DEdit, a diffusion-based drafter that can not only draft by conventional parallel unmasking but also iteratively edit its draft through token-to-token predictions. Through editing, later predictions can serve as bidirectional context for repairing earlier errors and extending the accepted prefix. To teach the model to repair errors while preserving correct predictions, we propose ProposalMix, a training scheme that mixes draft predictions with ground-truth tokens based on first-pass confidence during training. Across seven benchmarks on Qwen3-4B and Qwen3-8B, DEdit achieves the highest macro-average token acceptance and speedup among the evaluated drafters, reaching macro-average speedups of $5.72\\times$ and $5.97\\times$ over autoregressive generation under greedy decoding, respectively. Further analysis shows that acceptance improves with more editing passes and wider drafting windows, and that ProposalMix halves harmful edits that shorten the accepted prefix. Moreover, restricting the editor to causal attention lowers acceptance, especially on highly predictable outputs, indicating that future context is a key source of these gains.",
+  "published_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "753c4ced8a763847bae4",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:34:26.644013+00:00"
+}

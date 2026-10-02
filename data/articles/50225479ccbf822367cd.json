@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.16099",
+  "title": "SWB-DM: A Calibrated Sliced-Wasserstein-Barycenter Aggregator with Delayed-Momentum Caching for Byzantine-Robust Federated Learning under Partial Participation",
+  "text": "arXiv:2609.16099v2 Announce Type: replace-cross\nAbstract: Robust aggregation methods for federated learning quietly rest on a fragile assumption: that whoever shows up in a given round is a fair sample of the full population. In practice, they rarely are. When only a handful of clients participate per round, even a modest fraction of adversaries can dominate that sample and silently invalidate the finite-sample guarantees that coordinate-wise median, Krum, Bulyan, and trimmed mean all depend on.\nWe introduce SWB-DM to address this directly. SWB treats each slice of a client update as a one-dimensional distribution, computes a trimmed Wasserstein barycenter across clients, and recovers coordinate identity via a medoid-based gauge-fixing step -- a heuristic we developed and do not claim it belongs to standard optimal-transport theory. DeMoA-style delayed momentum then caches updates across the full client population each round, decoupling robustness from whoever happened to be sampled. Trim ratio calibration is not cosmetic: under-trimming causes collapse at corruption levels a properly calibrated model survives.\nAcross 448 CIFAR-10 configurations, plus CIFAR-100, FEMNIST, and a 500-client scalability run, we find several mechanistically distinct failure modes. Even-sample coordinate-wise median degrades to a deterministic wrong answer. Krum silently violates its own n greater than 2f+2 precondition and diverges without warning. Bulyan's n greater than or equal to 4f+3 threshold produces a sharp pass/fail boundary. On attacks, IPM defeats order-statistic defenses -- including SWB -- more reliably than ALIE, confirmed through delta-space measurements against a convergence bound.\nSWB-DM's cache carries a real warm-up cost, but extending all baselines to the same round budget shows its CIFAR-10 gains are disproportionately large. On CIFAR-100, FLTrust benefits more -- for reasons entirely unrelated to caching.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "50225479ccbf822367cd",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.34284",
+  "title": "Over-Personalization Is a Decision Failure: Generation-Induced Apply Bias in LLMs",
+  "text": "arXiv:2609.34284v2 Announce Type: replace\nAbstract: Personalized LLMs must decide, for each stored preference, whether the current context calls for applying or suppressing it, which we call its applicability. They frequently over-personalize, applying preferences the context rules out, yet existing benchmarks score only the final response and cannot tell where this failure arises. We decompose preference handling into three stages and measure each separately: (1) knowing whether a preference applies, (2) deciding on an explicit Apply/Suppress label, and (3) generating a response consistent with that label. Using linear probes, we first show that this applicability signal remains decodable from hidden states during generation. By making the decision explicit, we then find that in most settings wrong decisions faithfully followed outnumber correct decisions lost in generation. We thus locate the failure in the decision, which breaks once the model is also asked to answer. To determine whether this reflects lost sensitivity or a response bias, we propose ABIDE (Apply-Bias Investigation via Decision-score), which adapts signal detection theory to Apply-vs-Suppress decision scores read directly from logits. ABIDE reveals a generation-induced Apply bias: merely stating an answer-generation objective shifts the decision score toward Apply while sensitivity is largely preserved, and the shift persists under controls for prompt structure, cascades across preference slots, and prompt wording. Finally, we show that subtracting a single bias scalar, estimated on a held-out split, from the decision score at decoding time reduces leakage while largely preserving fulfillment.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "566d4275b5191321d947",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

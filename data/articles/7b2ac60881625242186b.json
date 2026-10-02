@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2609.32868",
+  "title": "ASCEND: Personal AI Agents for Autonomous Scientific Computing Across HPC Clusters and GPU Workstations",
+  "text": "arXiv:2609.32868v3 Announce Type: replace\nAbstract: Traditional scientific computing requires researchers to translate intent into environment configuration, resource requests, and executable jobs, then diagnose failures from scheduler state and logs. We present ASCEND (Autonomous Scientific Computing Engine and Novel Discovery), an AI-powered agent interface that supports several placements of the agent and, in the arrangement used for every case here, runs it on the researcher's own laptop, reaching Slurm-managed clusters and a GPU workstation over a multiplexed authenticated connection, with site policies checked by locally executed tools. The language model agent (Claude Code or Codex, selected at each launch) is hosted remotely and proposes actions but holds no credentials. No facility-scale service is required: an account on each resource suffices, and the public installer lets users link their own clusters or workstations. We report four recorded cases: 1) The agent closed a failure-recovery loop on a planted tensor-device fault, diagnosing, repairing and resubmitting with job-level artifacts preserved. 2) It reproduced the published evaluation of a weather-forecasting model from released forecasts, recovering an evaluation protocol the paper does not fully state and matching the published curves to 2.1 percent on z500 and 2.4 percent on t850. 3) It parallelized a released 12,693-line geophysical solver under a requirement of bit-for-bit identity with the serial build, cutting runtime from about twelve hours to two. 4) That requirement exposed two instances of undefined behaviour in the solver; both were repaired and reported upstream. Separately, the deployed policy validator rejected 29 of 30 constructed violations and held the last for approval, while denying 3 of 14 legitimate requests. Autonomy was exercised under author supervision using the Claude Code runtime; a controlled end-to-end recovery benchmark remains outstanding.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "7b2ac60881625242186b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}

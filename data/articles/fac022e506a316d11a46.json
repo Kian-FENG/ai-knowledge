@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2505.06596",
+  "title": "Deterministic Self-Stabilizing BFS Construction in Constant Space",
+  "text": "arXiv:2505.06596v2 Announce Type: replace\nAbstract: In this paper, we resolve a long-standing question in self-stabilization by demonstrating that it is indeed possible to construct a spanning tree in a semi-uniform network using constant memory per node. We introduce a self-stabilizing synchronous algorithm that builds a breadth-first search (BFS) spanning tree with only $O(1)$ bits of memory per node, converging in $2^\\epsilon$ time units, where $\\epsilon$ denotes the eccentricity of the distinguish node. Crucially, our approach operates without any prior knowledge of global network parameters such as maximum degree, diameter, or total node count. In contrast to traditional self-stabilizing methods, such as pointer-to-neighbor communication or distance-to-root computation, that are unsuitable under strict memory constraints, our solution employs an innovative constant-space token dissemination mechanism. This mechanism effectively eliminates cycles and rectifies deviations in the BFS structure, ensuring both correctness and memory efficiency. The proposed algorithm not only meets the stringent requirements of memory-constrained distributed systems but also opens new avenues for research in self-stabilizing protocols under severe resource limitations.",
+  "published_at": null,
+  "announced_at": "2026-10-01T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "fac022e506a316d11a46",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-02/18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421.body",
+  "source_sha256": "18782c327db7509b853a94d792d6b0d7974ab84aa65132a6818452704218d421",
+  "fetched_at": "2026-10-02T01:36:28.450412+00:00"
+}
