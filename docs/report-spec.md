@@ -31,6 +31,8 @@
 
 链接须指向支持该条事实的原始页面。优先官网、release note、模型卡、论文、法定披露；
 可靠媒体用于发现、独立观察和当事方未披露信息，保留归因。社交帖、转载不自动多源证实。
+`lead: true` 的候选（网页新链接、页面变化、Hugging Face 新仓库、Techmeme 等聚合线索）
+没有正文，不能作为证据；打开原文并 import 后引用正式文章。
 技术主张尽量追至论文/源码/官方文档，涉及数字要有定位与口径。
 
 先完整读取拟引用资料。feed-content、abstract 支持的事实仅限其明确内容；涉及方法、
@@ -49,6 +51,8 @@
   "overview": "2–4 句中文概述变化及覆盖限制。",
   "source_checks": [
     {"source_id": "anthropic", "status": "checked", "note": "查看官网并核对本期发布，写明实际覆盖范围"},
+    {"source_id": "qwen", "status": "checked", "note": "浏览器打开博客列表，本窗口无新文章"},
+    {"source_id": "reuters-ai-exclusives", "status": "checked", "note": "按窗口执行 watchlist 检索，回查原文 2 条"},
     {"source_id": "startup-discovery", "status": "checked", "note": "本次发现检索和回查的来源范围"}
   ],
   "items": [
@@ -69,6 +73,8 @@
 `reviewed: true` 由完成原文审阅的 Agent 填写，不是自动采集标记。
 source_checks 的 status 为 checked/failed/not-checked；失败不能标成没有新闻。
 报告生成器验证证据 ID、窗口、重复事件和字段；不声称自动判断事实支持关系。
+覆盖说明按来源组列出每个来源的状态、漏采窗口和列表上限，并列出 watchlist
+`discovery.searches` 的执行结果；没有 source_checks 记录的检索显示 not-checked。
 报告保留 Markdown、JSON、manifest、packet，修订归档至 revisions/。不输出 PDF。
 
 周报必须填写 `period: "weekly"`。有收录事件时，还需 `outlook` 字符串数组，逐项列出

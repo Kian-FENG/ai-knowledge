@@ -1,100 +1,249 @@
+# 公司、社区与新公司发现清单（Agent 使用；采集器读取 data/sources.yaml）。
+# sources 指向 data/sources.yaml 的来源 ID；browser 列出 HTTP 采集不可用、需要用浏览器
+# 打开核查的入口；channels 记录首发渠道（多为公众号或社交平台），只能经媒体与检索发现。
 companies:
 - id: openai
   name: OpenAI
   region: US
   urls:
   - https://openai.com/news/
+  - https://developers.openai.com/api/docs/changelog
+  sources: [openai, openai-api-changelog]
+  browser:
+  - https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+  note: 订阅与套餐调整常只在帮助中心发布；该站对采集器返回 403
 - id: anthropic
   name: Anthropic
   region: US
   urls:
   - https://www.anthropic.com/news
   - https://www.anthropic.com/research
+  sources: [anthropic, anthropic-research, anthropic-sitemap]
+  note: 威胁情报报告、事件评估等页面可能不在 Newsroom，由站点地图发现新 URL
 - id: deepseek
   name: DeepSeek
   region: CN
   urls:
   - https://www.deepseek.com/en/news/
+  - https://api-docs.deepseek.com/updates
+  - https://api-docs.deepseek.com/zh-cn/quick_start/pricing
   - https://github.com/deepseek-ai
+  sources: [deepseek, deepseek-api-changelog, deepseek-pricing, deepseek-hf]
+  channels: [官方用户群通知, 团队成员社交平台]
+  note: 灰度内测与招聘多首发于用户群或员工社交账号，需经媒体转载与检索发现
 - id: alibaba-qwen
-  name: Alibaba / Qwen
+  name: Alibaba / Qwen / 阿里云
   region: CN
-  note: Qwen 是阿里模型/产品品牌，非独立公司
+  note: Qwen 是阿里模型/产品品牌，非独立公司；千问办公、阿里云、高德属于集团业务
   urls:
   - https://qwen.ai/blog
   - https://github.com/QwenLM
+  - https://www.alibabacloud.com/en/press-room
+  sources: [qwen-hf]
+  browser:
+  - https://qwen.ai/blog
+  - https://www.alibabacloud.com/en/press-room
+  channels: [阿里云公众号, 千问公众号]
 - id: moonshot-kimi
   name: Moonshot AI / Kimi
   region: CN
   urls:
   - https://www.kimi.com/en/blog/
   - https://github.com/MoonshotAI
+  sources: [kimi, kimi-hf]
 - id: google-deepmind
-  name: Google DeepMind
+  name: Google / Google DeepMind
+  region: US
   urls:
   - https://deepmind.google/discover/blog/
+  - https://blog.google/innovation-and-ai/technology/ai/
+  - https://cloud.google.com/blog
+  sources: [deepmind, google-ai-blog, google-cloud-blog]
 - id: zhipu
   name: 智谱 / Z.ai
+  region: CN
   urls:
-  - https://z.ai/
+  - https://docs.z.ai/release-notes/new-released
+  - https://docs.bigmodel.cn/cn/update/new-releases
   - https://github.com/zai-org
+  sources: [zhipu, zhipu-cn, zhipu-hf]
+  note: z.ai 首页只跳转聊天页；渠道销售等商业动态需经媒体发现
 - id: minimax
   name: MiniMax
+  region: CN
   urls:
+  - https://www.minimax.io/news
+  sources: [minimax-hf]
+  browser:
   - https://www.minimax.io/news
 - id: mistral
   name: Mistral AI
+  region: EU
   urls:
   - https://mistral.ai/news
+  sources: [mistral]
 - id: bytedance
-  name: ByteDance / Seed
+  name: ByteDance / Seed / 豆包
+  region: CN
   urls:
   - https://seed.bytedance.com/
+  sources: [bytedance-seed-hf]
+  browser:
+  - https://seed.bytedance.com/en/blog
+  channels: [豆包与火山引擎公众号]
 - id: tencent
-  name: Tencent / Hunyuan
+  name: Tencent / 混元 / 腾讯文档 / 微信
+  region: CN
   urls:
   - https://hunyuan.tencent.com/
-- id: meta
-  name: Meta AI
+  - https://www.tencent.com/en-us/media/news.html
+  sources: [tencent-newsroom, tencent-hf]
+  channels: [腾讯文档公众号, 微信公众号, 混元公众号]
+  note: 产品更新（腾讯文档、WorkBuddy、微信 AI 功能）与组织人事多不在集团新闻页
+- id: ant-group
+  name: 蚂蚁集团 / inclusionAI / 灵波
+  region: CN
+  sources: [ant-hf, robbyant-hf]
+- id: jd
+  name: 京东 / JoyAI
+  region: CN
+  sources: [jd-hf]
+  channels: [京东科技公众号]
+- id: xiaomi
+  name: Xiaomi MiMo
+  region: CN
+  sources: [xiaomi-hf]
+- id: modelbest
+  name: 面壁智能 / OpenBMB
+  region: CN
   urls:
+  - https://github.com/OpenBMB
+  sources: [openbmb-hf]
+  channels: [面壁智能公众号]
+- id: meta
+  name: Meta
+  region: US
+  urls:
+  - https://about.fb.com/news/
   - https://ai.meta.com/blog/
+  sources: [meta-newsroom, meta-ai-blog]
+  note: Muse 等消费级产品首发 Newsroom（about.fb.com），不是 ai.meta.com
 - id: xai
   name: xAI
+  region: US
   urls:
+  - https://x.ai/news
+  browser:
   - https://x.ai/news
 - id: nvidia
   name: NVIDIA
+  region: US
   urls:
+  - https://nvidianews.nvidia.com/
+  - https://blogs.nvidia.com/
   - https://developer.nvidia.com/blog/
+  sources: [nvidia-newsroom, nvidia-blog, nvidia]
+  channels: [高管社交平台与演讲]
+- id: amd
+  name: AMD
+  region: US
+  sources: [amd-ir]
+- id: amazon
+  name: Amazon / AWS
+  region: US
+  sources: [amazon-news]
+- id: qualcomm
+  name: Qualcomm
+  region: US
+  urls:
+  - https://www.qualcomm.com/news/releases
+  browser:
+  - https://www.qualcomm.com/news/releases
+- id: samsung
+  name: Samsung Electronics
+  region: KR
+  sources: [samsung-newsroom]
+- id: sk-hynix
+  name: SK hynix
+  region: KR
+  sources: [skhynix-newsroom]
+- id: asml
+  name: ASML
+  region: EU
+  browser:
+  - https://www.asml.com/en/news/press-releases
+- id: tsmc
+  name: TSMC
+  region: TW
+  browser:
+  - https://pr.tsmc.com/english/latest-news
 - id: volantis
   name: Volantis
   region: US
   urls:
   - https://volantissemi.ai/
+  sources: [volantis]
   source_page: reference/entities/volantis.md
   tracking_since: '2026-10-02'
 communities:
 - name: SGLang
   urls:
   - https://github.com/sgl-project/sglang/releases
-  - https://lmsys.org/blog/
+  - https://www.sglang.io/blog
+  sources: [sglang, sglang-blog]
 - name: vLLM
   urls:
   - https://github.com/vllm-project/vllm/releases
   - https://vllm.ai/blog
+  sources: [vllm, vllm-blog]
 - name: Dynamo
   urls:
   - https://github.com/ai-dynamo/dynamo/releases
   - https://docs.nvidia.com/dynamo/latest/reference/releases
+  sources: [dynamo]
 - name: Mooncake
   urls:
   - https://github.com/kvcache-ai/Mooncake
+  sources: [mooncake]
 - name: FlashInfer
   urls:
   - https://github.com/flashinfer-ai/flashinfer/releases
+  sources: [flashinfer]
+- name: PyTorch Foundation
+  urls:
+  - https://pytorch.org/blog/
+  sources: [pytorch-blog]
 discovery:
   enabled: true
+  rules: >-
+    每日主动发现；优先官网、创始人原文、论文/仓库和可靠报道。核实后新增实体，不限已有名单。
+    融资传闻保留归因。下列检索由 Agent 用自己的搜索工具按报告窗口执行（限定时间范围），
+    结果只是线索，须打开原发媒体或一手来源并 import 后才能引用。news.google.com 的
+    robots.txt 禁止自动抓取 /rss，所以这些查询不进入 collect。
   queries:
   - new AI startup launch funding foundation model agent infrastructure
   - 中国 AI 新公司 成立 融资 模型 智能体 推理
-  rules: 每日主动发现；优先官网、创始人原文、论文/仓库和可靠报道。核实后新增实体，不限已有名单。融资传闻保留归因。
+  searches:
+  - id: reuters-ai-exclusives
+    query: 'site:reuters.com (exclusive OR sources OR "familiar with") (OpenAI OR Anthropic OR Nvidia OR DeepSeek OR ByteDance OR Alibaba OR Tencent OR Huawei OR Cambricon OR HBM OR "AI chip" OR "AI model")'
+    note: 2026-09-06 至 09-13 回测命中样例 #10 #31 #32 #48 全部 4 条路透报道；techmeme-river 只收录其中被 Techmeme 选中的部分
+  - id: bloomberg-ai
+    query: 'site:bloomberg.com (OpenAI OR Anthropic OR Nvidia OR ByteDance OR Alibaba OR Tencent OR DeepSeek OR "AI chip" OR "AI model")'
+    note: 回测命中 #29 #40；#2 #25 未检出，需按公司名补查
+  - id: ft-nyt-wsj-ai
+    query: '(site:ft.com OR site:nytimes.com OR site:wsj.com) (OpenAI OR Anthropic OR Nvidia OR DeepSeek OR "AI chip" OR "AI model")'
+  - id: china-ai-companies-zh
+    query: '(大模型 OR 人工智能 OR 智能体 OR 算力 OR AI芯片) (腾讯 OR 阿里 OR 字节 OR 百度 OR DeepSeek OR 月之暗面 OR 智谱 OR MiniMax OR 华为 OR 寒武纪 OR 京东 OR 蚂蚁 OR 小米)'
+    note: 公众号首发的产品、人事、招聘新闻（样例 #1 #5 #16 #21 #23 #24 #39）多经此类转载被发现
+  - id: china-ai-policy-zh
+    query: '(工信部 OR 国家数据局 OR 网信办 OR 最高法 OR 证监会 OR 发改委 OR 外交部) (人工智能 OR 算力 OR 大模型 OR 词元 OR 智能体 OR 芯片)'
+  - id: china-chips-zh
+    query: '(HBM OR 存储芯片 OR AI芯片 OR GPU OR 光刻机 OR 算力集群) (涨价 OR 出口管制 OR 产能 OR 订单 OR 发布 OR 融资)'
+  - id: embodied-world-models-zh
+    query: '(具身智能 OR 人形机器人 OR 世界模型) (发布 OR 融资 OR 开源 OR 上市 OR IPO)'
+    note: 样例 #22 #34 #39
+  - id: supply-chain-en
+    query: '(HBM OR "High-NA" OR CoWoS OR "export controls" OR "memory prices" OR "chip prices") (AI OR chip OR chips OR memory)'
+  - id: newsroom-fallback
+    query: 'site:qualcomm.com/news OR site:asml.com/en/news OR site:pr.tsmc.com OR site:x.ai/news OR site:qwen.ai OR site:minimax.io'
+    note: 官网拦截采集器或需 JS 时的发现兜底；逐个 site 查询更可靠。回测可找到 9/8 高通—亚马逊与 ASML—TSMC 公告

@@ -1,115 +1,977 @@
+# 机器采集源。字段与采集行为见 docs/ingest-automation.md；端点核验记录见
+# docs/source-remediation-2026-10-02.md。checked_at 为端点最近一次实测日期（北京时间）。
+#
+# kind:   feed=RSS/Atom；web=网页（有 link_pattern 时发现新链接，否则检测正文变化）；
+#         sitemap=站点地图新 URL；hf-models=Hugging Face 模型列表新仓库。
+# group:  official/infra/research/government/media/aggregator；aggregator 结果只是线索，不能作证据。
+# fetch:  browser 表示 JS 渲染或拒绝本采集器，collect 不抓取，由 Agent 用浏览器核查。
+# poll_hours: `collect --due` 的最短间隔，按 feed 实测保留时长设置（约为保留时长一半以内）。
+# include: 关键词过滤（标题与摘要）；ASCII 词按单词边界匹配。
+
+keywords:
+  ai_en: &ai_en [AI, A.I., artificial intelligence, OpenAI, Anthropic, Claude, Gemini, DeepMind, Nvidia, GPU, GPUs, TPU, HBM, chip, chips, chipmaker, semiconductor, semiconductors, data center, data centers, datacenter, LLM, model, models, agent, agents, robotics, humanoid, xAI, Grok, Mistral, DeepSeek, Qwen, Alibaba, Tencent, ByteDance, Huawei, TSMC, ASML, SK Hynix, Micron, export control, export controls, compute, inference, Copilot, superintelligence, AGI]
+  ai_zh: &ai_zh [AI, AIGC, 人工智能, 大模型, 智能体, Agent, 算力, 智算, 芯片, GPU, HBM, 半导体, 光刻, 具身, 人形机器人, 世界模型, OpenAI, Anthropic, Claude, DeepSeek, 千问, 通义, Qwen, Kimi, 月之暗面, 智谱, MiniMax, 豆包, 混元, 文心, 英伟达, 寒武纪, 昇腾, 词元, Token, 数据中心, 多模态, 开源模型, 阿里云, 腾讯云, 华为云, 火山引擎, 百度智能云, 出口管制, 实体清单, 断供, 制裁, 禁运]
+
 sources:
+# ---------- 公司与产品一手来源 ----------
 - id: openai
   name: OpenAI News
   url: https://openai.com/news/rss.xml
   kind: feed
+  group: official
   section: 0
+  poll_hours: 24
   enabled: true
+  checked_at: '2026-10-02'
+  note: 全量 RSS（2015 年起）；Pro 订阅限制等帮助中心公告不在 RSS，help.openai.com 对采集器返回 403
+- id: openai-api-changelog
+  name: OpenAI API Changelog
+  url: https://developers.openai.com/api/docs/changelog
+  kind: web
+  group: official
+  section: 0
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 页面正文变化检测；Agents API、GPT-Live 等 API 变更
+- id: anthropic
+  name: Anthropic Newsroom
+  url: https://www.anthropic.com/news
+  kind: web
+  group: official
+  section: 0
+  poll_hours: 24
+  link_pattern: '^https://www\.anthropic\.com/news/[^/?]+$'
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 新链接发现；文章日期需打开原文核对
+- id: anthropic-research
+  name: Anthropic Research
+  url: https://www.anthropic.com/research
+  kind: web
+  group: official
+  section: 2
+  poll_hours: 24
+  link_pattern: '^https://www\.anthropic\.com/research/(?!team/)[^/?]+$'
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 安全事件评估等研究页不出现在 Newsroom（如 2026-09-09 四起事件评估）
+- id: anthropic-sitemap
+  name: Anthropic 站点地图
+  url: https://www.anthropic.com/sitemap.xml
+  kind: sitemap
+  group: official
+  section: 0
+  poll_hours: 24
+  link_pattern: '^https://www\.anthropic\.com/(?!legal/|careers|jobs)'
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 发现不在 news/research 列表的新页面（如根路径的威胁情报报告）；lastmod 是更新时间，不是发布时间
+- id: deepseek
+  name: DeepSeek Research & News
+  url: https://www.deepseek.com/en/news/
+  kind: web
+  group: official
+  section: 2
+  poll_hours: 24
+  link_pattern: '^https://www\.deepseek\.com/en/news/[^/]+/$'
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 新链接发现；列表锚文本含发布日期
+- id: deepseek-api-changelog
+  name: DeepSeek API Change Log
+  url: https://api-docs.deepseek.com/updates
+  kind: web
+  group: official
+  section: 2
+  poll_hours: 12
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 正文变化检测；路由与停服调整可能只在此页更新（如 V4 Pro 9/14 后继续提供）
+- id: deepseek-pricing
+  name: DeepSeek 模型与价格
+  url: https://api-docs.deepseek.com/zh-cn/quick_start/pricing
+  kind: web
+  group: official
+  section: 0
+  poll_hours: 12
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 正文变化检测；人民币定价与闲时价格
+- id: deepseek-hf
+  name: DeepSeek · Hugging Face
+  url: https://huggingface.co/api/models?author=deepseek-ai&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 新公开仓库；createdAt 是建库时间，可能早于公开发布
+- id: qwen
+  name: Alibaba / Qwen Blog
+  url: https://qwen.ai/blog
+  kind: web
+  group: official
+  section: 2
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 列表需 JS 渲染，HTTP 只得到标题“Qwen”；用浏览器核查，并参考 qwen-hf 与检索清单 newsroom-fallback
+- id: qwen-hf
+  name: Qwen · Hugging Face
+  url: https://huggingface.co/api/models?author=Qwen&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: kimi
+  name: Moonshot AI / Kimi Blog
+  url: https://www.kimi.com/en/blog/
+  kind: web
+  group: official
+  section: 2
+  poll_hours: 24
+  link_pattern: '^https://www\.kimi\.com/en/blog/[a-z0-9-]+/?$'
+  enabled: true
+  checked_at: '2026-10-02'
+  note: HTML 含文章链接但不含日期，日期需打开文章核对
+- id: kimi-hf
+  name: Moonshot AI · Hugging Face
+  url: https://huggingface.co/api/models?author=moonshotai&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: zhipu
+  name: Z.ai 发布记录
+  url: https://docs.z.ai/release-notes/new-released
+  kind: web
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 原 z.ai 首页跳转到聊天页、无新闻；此页有带日期的模型发布记录，正文变化检测
+- id: zhipu-cn
+  name: 智谱开放平台发布记录
+  url: https://docs.bigmodel.cn/cn/update/new-releases
+  kind: web
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 国内平台模型与产品发布记录，正文变化检测
+- id: zhipu-hf
+  name: 智谱 · Hugging Face
+  url: https://huggingface.co/api/models?author=zai-org&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: minimax
+  name: MiniMax News
+  url: https://www.minimax.io/news
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 列表需 JS 渲染，HTTP 只见 3 个精选链接；用浏览器核查，并参考 minimax-hf 与检索清单 newsroom-fallback
+- id: minimax-hf
+  name: MiniMax · Hugging Face
+  url: https://huggingface.co/api/models?author=MiniMaxAI&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: mistral
+  name: Mistral AI
+  url: https://mistral.ai/news/rss
+  kind: feed
+  group: official
+  section: 1
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 由网页入口改为官方 RSS；条目只有短摘要
+- id: meta-newsroom
+  name: Meta Newsroom
+  url: https://about.fb.com/news/feed/
+  kind: feed
+  group: official
+  section: 0
+  poll_hours: 24
+  include: [AI, Muse, Llama, agent, agents, superintelligence, model, models, compute, data center, data centers]
+  enabled: true
+  checked_at: '2026-10-02'
+  note: Muse 等产品首发于此而非 ai.meta.com；feed 仅 10 条（约 8 天）
+- id: meta-ai-blog
+  name: AI at Meta Blog
+  url: https://ai.meta.com/blog/
+  kind: web
+  group: official
+  section: 2
+  poll_hours: 24
+  link_pattern: '^https://ai\.meta\.com/blog/[a-z0-9-]+/?$'
+  enabled: true
+  checked_at: '2026-10-02'
 - id: deepmind
   name: Google DeepMind
   url: https://deepmind.google/blog/rss.xml
   kind: feed
+  group: official
   section: 2
+  poll_hours: 24
   enabled: true
+  checked_at: '2026-10-02'
+- id: google-ai-blog
+  name: Google AI Blog
+  url: https://blog.google/innovation-and-ai/technology/ai/rss/
+  kind: feed
+  group: official
+  section: 0
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: google-cloud-blog
+  name: Google Cloud Blog
+  url: https://cloudblog.withgoogle.com/rss/
+  kind: feed
+  group: official
+  section: 5
+  poll_hours: 24
+  include: [AI, TPU, Ironwood, Gemini, inference, GPU, model, models, agent, agents, Vertex]
+  enabled: true
+  checked_at: '2026-10-02'
+- id: tencent-newsroom
+  name: Tencent Newsroom
+  url: https://www.tencent.com/en-us/media/news.html
+  kind: web
+  group: official
+  section: 1
+  poll_hours: 24
+  link_pattern: '^https://www\.tencent\.com/(?!newsroom/|investors/|zh-|en-us/|about|culture|attachments)[a-z0-9-]{16,}/$'
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 集团新闻；腾讯文档、微信等产品更新多首发于公众号，需靠中文媒体与检索发现
+- id: tencent-hf
+  name: Tencent · Hugging Face
+  url: https://huggingface.co/api/models?author=tencent&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: bytedance-seed
+  name: ByteDance Seed Blog
+  url: https://seed.bytedance.com/en/blog
+  kind: web
+  group: official
+  section: 2
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 列表需 JS 渲染；参考 bytedance-seed-hf
+- id: bytedance-seed-hf
+  name: ByteDance Seed · Hugging Face
+  url: https://huggingface.co/api/models?author=ByteDance-Seed&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: alibaba-cloud
+  name: Alibaba Cloud Press Room
+  url: https://www.alibabacloud.com/en/press-room
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 新闻稿列表需 JS 渲染；千问办公等产品动态主要靠中文媒体与检索发现
+- id: ant-hf
+  name: 蚂蚁 inclusionAI · Hugging Face
+  url: https://huggingface.co/api/models?author=inclusionAI&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: robbyant-hf
+  name: 蚂蚁灵波 robbyant · Hugging Face
+  url: https://huggingface.co/api/models?author=robbyant&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: LingBot-World 等世界模型
+- id: jd-hf
+  name: 京东 jdopensource · Hugging Face
+  url: https://huggingface.co/api/models?author=jdopensource&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: xiaomi-hf
+  name: Xiaomi MiMo · Hugging Face
+  url: https://huggingface.co/api/models?author=XiaomiMiMo&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: openbmb-hf
+  name: 面壁 OpenBMB · Hugging Face
+  url: https://huggingface.co/api/models?author=openbmb&sort=createdAt&direction=-1&limit=50
+  kind: hf-models
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: MiniCPM 系列；面壁新闻多首发于公众号
+- id: xai
+  name: xAI News
+  url: https://x.ai/news
+  kind: web
+  group: official
+  section: 0
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-02'
+  note: Cloudflare 对采集器返回 403；用浏览器或检索清单 newsroom-fallback 核查
+- id: nvidia-newsroom
+  name: NVIDIA Newsroom
+  url: https://nvidianews.nvidia.com/releases.xml
+  kind: feed
+  group: official
+  section: 5
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: nvidia-blog
+  name: NVIDIA Blog
+  url: https://blogs.nvidia.com/feed/
+  kind: feed
+  group: official
+  section: 5
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 公司博客（Robotaxi、Physical AI 等），与技术博客不同
+- id: amd-ir
+  name: AMD Press Releases
+  url: https://ir.amd.com/news-events/press-releases/rss
+  kind: feed
+  group: official
+  section: 5
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 条目只有标题，需打开原文
+- id: amazon-news
+  name: About Amazon
+  url: https://www.aboutamazon.com/rss/feed.rss
+  kind: feed
+  group: official
+  section: 5
+  poll_hours: 12
+  include: [AI, AWS, Trainium, Inferentia, chip, chips, data center, data centers, Anthropic, Bedrock, Qualcomm, model, models, agent, agents, Nova]
+  enabled: true
+  checked_at: '2026-10-02'
+  note: feed 仅约 41 小时
+- id: qualcomm
+  name: Qualcomm Newsroom
+  url: https://www.qualcomm.com/news/releases
+  kind: web
+  group: official
+  section: 5
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 新闻页需 JS 渲染，IR RSS 返回 Cloudflare 403；用浏览器或检索清单 newsroom-fallback 核查
+- id: samsung-newsroom
+  name: Samsung Newsroom
+  url: https://news.samsung.com/global/feed
+  kind: feed
+  group: official
+  section: 5
+  poll_hours: 24
+  include: [AI, HBM, memory, DRAM, NAND, semiconductor, foundry, chip, chips, Exynos, data center, investment, Mistral, 2nm, High-NA, EUV]
+  enabled: true
+  checked_at: '2026-10-02'
+- id: skhynix-newsroom
+  name: SK hynix Newsroom
+  url: https://news.skhynix.com/en/feed/
+  kind: feed
+  group: official
+  section: 5
+  poll_hours: 12
+  enabled: true
+  checked_at: '2026-10-02'
+  note: feed 仅 10 条（约 2 天）
+- id: asml
+  name: ASML News
+  url: https://www.asml.com/en/news/press-releases
+  kind: web
+  group: official
+  section: 5
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 新闻页与 IR 页对采集器超时或 403；用浏览器或检索清单 newsroom-fallback 核查
+- id: tsmc
+  name: TSMC Newsroom
+  url: https://pr.tsmc.com/english/latest-news
+  kind: web
+  group: official
+  section: 5
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-02'
+  note: Cloudflare 403；用浏览器或检索清单 newsroom-fallback 核查
+- id: volantis
+  name: Volantis（公司新闻稿）
+  url: https://volantissemi.ai/
+  kind: web
+  group: official
+  section: 1
+  poll_hours: 24
+  link_pattern: '^https://volantissemi\.ai/news-insights/[^/?]+$'
+  enabled: true
+  checked_at: '2026-10-02'
+
+# ---------- AI Infra 社区与工程 ----------
 - id: sglang
-  name: SGLang
+  name: SGLang Releases
   url: https://github.com/sgl-project/sglang/releases.atom
   kind: feed
+  group: infra
   section: 3
+  poll_hours: 24
   enabled: true
+- id: sglang-blog
+  name: SGLang Blog
+  url: https://www.sglang.io/blog
+  kind: web
+  group: infra
+  section: 3
+  poll_hours: 24
+  link_pattern: '^https://www\.sglang\.io/blog/[^/?]+$'
+  enabled: true
+  checked_at: '2026-10-02'
+  note: SGLang 文章已迁到 sglang.io
+- id: lmsys
+  name: LMSYS Blog
+  url: https://lmsys.org/blog/
+  kind: web
+  group: infra
+  section: 3
+  enabled: false
+  checked_at: '2026-10-02'
+  note: 列表需 JS 渲染且无 RSS；SGLang 文章改由 sglang-blog 跟踪
 - id: vllm
-  name: vLLM
+  name: vLLM Releases
   url: https://github.com/vllm-project/vllm/releases.atom
   kind: feed
+  group: infra
   section: 3
-  enabled: true
-- id: dynamo
-  name: NVIDIA Dynamo
-  url: https://github.com/ai-dynamo/dynamo/releases.atom
-  kind: feed
-  section: 3
-  enabled: true
-- id: flashinfer
-  name: FlashInfer
-  url: https://github.com/flashinfer-ai/flashinfer/releases.atom
-  kind: feed
-  section: 3
-  enabled: true
-- id: mooncake
-  name: Mooncake
-  url: https://github.com/kvcache-ai/Mooncake/releases.atom
-  kind: feed
-  section: 3
+  poll_hours: 24
   enabled: true
 - id: vllm-blog
   name: vLLM Blog
   url: https://vllm.ai/blog
   kind: web
+  group: infra
   section: 3
+  poll_hours: 24
+  link_pattern: '^https://vllm\.ai/blog/[^/?]+$'
   enabled: true
-- id: lmsys
-  name: LMSYS / SGLang Blog
-  url: https://lmsys.org/blog/
-  kind: web
+  checked_at: '2026-10-02'
+- id: dynamo
+  name: NVIDIA Dynamo
+  url: https://github.com/ai-dynamo/dynamo/releases.atom
+  kind: feed
+  group: infra
   section: 3
+  poll_hours: 24
   enabled: true
+- id: flashinfer
+  name: FlashInfer
+  url: https://github.com/flashinfer-ai/flashinfer/releases.atom
+  kind: feed
+  group: infra
+  section: 3
+  poll_hours: 24
+  enabled: true
+- id: mooncake
+  name: Mooncake
+  url: https://github.com/kvcache-ai/Mooncake/releases.atom
+  kind: feed
+  group: infra
+  section: 3
+  poll_hours: 24
+  enabled: true
+- id: nvidia
+  name: NVIDIA Technical Blog
+  url: https://developer.nvidia.com/blog/feed/
+  kind: feed
+  group: infra
+  section: 3
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 由网页入口改为官方 RSS（100 条）
+- id: pytorch-blog
+  name: PyTorch Foundation Blog
+  url: https://pytorch.org/feed/
+  kind: feed
+  group: infra
+  section: 3
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 基金会成员与治理公告（如寒武纪加入）；全文 RSS
+
+# ---------- 论文、评测与研究机构 ----------
 - id: arxiv
   name: arXiv model and infra papers
   url: https://rss.arxiv.org/rss/cs.CL+cs.DC
   kind: feed
+  group: research
   section: 4
+  poll_hours: 24
+  gap_check: false
   enabled: true
-- id: anthropic
-  name: Anthropic
-  url: https://www.anthropic.com/news
+  note: 每日批量替换的公告 feed，漏采判断不适用；日期为公告日
+- id: metr
+  name: METR
+  url: https://metr.org/blog/
   kind: web
-  section: 0
-  enabled: true
-- id: deepseek
-  name: DeepSeek
-  url: https://www.deepseek.com/en/news/
-  kind: web
+  group: research
   section: 2
+  poll_hours: 24
+  link_pattern: '^https://metr\.org/blog/\d{4}-\d{2}-\d{2}-[^/?]+/?$'
   enabled: true
-- id: qwen
-  name: Alibaba / Qwen
-  url: https://qwen.ai/blog
+  checked_at: '2026-10-02'
+  note: 全文 feed.xml 解压后超过 8 MB 上限，改为博客列表新链接发现；链接含发布日期
+- id: uk-aisi
+  name: UK AI Security Institute Blog
+  url: https://www.aisi.gov.uk/blog
   kind: web
+  group: research
   section: 2
+  poll_hours: 24
+  link_pattern: '^https://www\.aisi\.gov\.uk/blog/[a-z0-9-]+$'
   enabled: true
-- id: kimi
-  name: Moonshot AI / Kimi
-  url: https://www.kimi.com/en/blog/
+  checked_at: '2026-10-02'
+- id: artificial-analysis
+  name: Artificial Analysis Articles
+  url: https://artificialanalysis.ai/articles
   kind: web
+  group: research
   section: 2
+  poll_hours: 24
+  link_pattern: '^https://artificialanalysis\.ai/articles/[a-z0-9-]+$'
   enabled: true
-- id: zhipu
-  name: Z.ai / 智谱
-  url: https://z.ai/
+  checked_at: '2026-10-02'
+  note: 第三方指数与评测文章；引用时记录指数版本与方法
+- id: artificial-analysis-changelog
+  name: Artificial Analysis Changelog
+  url: https://artificialanalysis.ai/changelog
   kind: web
-  section: 1
+  group: research
+  section: 2
+  poll_hours: 24
   enabled: true
-- id: minimax
-  name: MiniMax
-  url: https://www.minimax.io/news
-  kind: web
-  section: 1
-  enabled: true
-- id: mistral
-  name: Mistral AI
-  url: https://mistral.ai/news
-  kind: web
-  section: 1
-  enabled: true
-- id: nvidia
-  name: NVIDIA technical blog
-  url: https://developer.nvidia.com/blog/
-  kind: web
+  checked_at: '2026-10-02'
+  note: 正文变化检测；新模型入榜与方法更新
+- id: semianalysis
+  name: SemiAnalysis
+  url: https://newsletter.semianalysis.com/feed
+  kind: feed
+  group: research
   section: 5
+  poll_hours: 24
   enabled: true
-- id: volantis
-  name: Volantis（公司新闻稿）
-  url: https://volantissemi.ai/
-  kind: web
+  checked_at: '2026-10-02'
+  note: Substack feed 含免费部分；付费正文不可读，引用时注明阅读范围
+
+# ---------- 政府、监管与司法 ----------
+- id: cisa
+  name: CISA News
+  url: https://www.cisa.gov/news.xml
+  kind: feed
+  group: government
   section: 1
+  poll_hours: 24
   enabled: true
+  checked_at: '2026-10-02'
+  note: 条目只有标题，需打开原文（如 9/8 CISA/NSA/FBI 蒸馏联合声明）
+- id: nist
+  name: NIST News
+  url: https://www.nist.gov/news-events/news/rss.xml
+  kind: feed
+  group: government
+  section: 1
+  poll_hours: 24
+  include: [AI, artificial intelligence, CAISI, model, models, agent, agents]
+  enabled: true
+  checked_at: '2026-10-02'
+- id: bis
+  name: US BIS News & Updates
+  url: https://www.bis.gov/news-updates
+  kind: web
+  group: government
+  section: 5
+  poll_hours: 24
+  link_pattern: '^https://www\.bis\.gov/(press-release|news-updates)/[^?]+$'
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 出口管制新闻稿
+- id: miit
+  name: 工业和信息化部
+  url: https://www.miit.gov.cn/
+  kind: web
+  group: government
+  section: 5
+  poll_hours: 24
+  link_pattern: '^https?://www\.miit\.gov\.cn/(zwgk/zcwj/wjfb|zwgk/zcjd|gzcy/yjzj)/.*art_[0-9a-f]{32}\.html$'
+  include: [人工智能, 算力, 智算, 信息通信, 数据, 智能, 芯片, 集成电路, 电子信息, 软件, 网络, 5G, 6G, 大模型, 机器人, 十五五]
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 文件发布列表需 JS；首页为服务端渲染，含最新政策文件、解读与意见征集链接
+- id: spc
+  name: 最高人民法院
+  url: https://www.court.gov.cn/index.html
+  kind: web
+  group: government
+  section: 1
+  poll_hours: 24
+  link_pattern: '^https://www\.court\.gov\.cn/(zixun|fabu)/xiangqing/\d+\.html$'
+  include: [人工智能, AI, 算法, 数据, 网络, 个人信息, 知识产权, 科技, 平台, 智能, 深度合成, 换脸]
+  enabled: true
+  checked_at: '2026-10-02'
+- id: mfa
+  name: 外交部例行记者会
+  url: https://www.mfa.gov.cn/web/wjdt_674879/fyrbt_674889/
+  kind: web
+  group: government
+  section: 1
+  poll_hours: 24
+  link_pattern: '/fyrbt_674889/\d{6}/t\d{8}_\d+\.shtml$'
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 每个工作日一条实录；有 AI、芯片、出口管制议题时检索全文中的相关答问
+- id: gov-cn-policy
+  name: 中国政府网 政策
+  url: https://www.gov.cn/zhengce/
+  kind: web
+  group: government
+  section: 1
+  poll_hours: 24
+  link_pattern: '^https://www\.gov\.cn/zhengce/(content/)?\d{6}/content_\d+\.htm$'
+  include: [人工智能, 算力, 数据, 数字, 智能, 科技, 信息, 网络, 芯片, 集成电路, 新质生产力, 十五五]
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 政策库 zhengceku 对采集器返回 403，使用政策首页
+- id: chongqing-dsjj
+  name: 重庆市大数据应用发展管理局
+  url: https://dsjj.cq.gov.cn/
+  kind: web
+  group: government
+  section: 5
+  poll_hours: 24
+  link_pattern: '^https://dsjj\.cq\.gov\.cn/.+/t\d{8}_\d+\.html$'
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 词元经济行动计划征求意见稿（9/10）发布于此；cq.gov.cn 意见征集路径为 404
+- id: nda
+  name: 国家数据局
+  url: https://www.nda.gov.cn/
+  kind: web
+  group: government
+  section: 1
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 站点要求 TLS 版本高于本机 Python（LibreSSL 2.8.3）支持范围，HTTP 采集失败
+
+# ---------- 媒体直连 feed（多数只保留 1–2 天，需按 poll_hours 频繁采集） ----------
+- id: techcrunch-ai
+  name: TechCrunch AI
+  url: https://techcrunch.com/category/artificial-intelligence/feed/
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 8
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留约 29 小时（19 条）
+- id: the-decoder
+  name: The Decoder
+  url: https://the-decoder.com/feed/
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 8
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留约 25 小时（10 条）
+- id: the-verge-ai
+  name: The Verge AI
+  url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+  kind: feed
+  group: media
+  section: 0
+  poll_hours: 8
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留约 29 小时（10 条）
+- id: the-information
+  name: The Information
+  url: https://www.theinformation.com/feed
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 8
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留约 28 小时；正文付费，feed 只有摘要
+- id: bloomberg-tech
+  name: Bloomberg Technology
+  url: https://feeds.bloomberg.com/technology/news.rss
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 4
+  include: *ai_en
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留约 15 小时（20 条）；正文付费
+- id: ft-tech
+  name: Financial Times Technology
+  url: https://www.ft.com/technology?format=rss
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 8
+  include: *ai_en
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留约 35 小时；正文付费
+- id: ft-ai
+  name: Financial Times AI
+  url: https://www.ft.com/artificial-intelligence?format=rss
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 12
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留约 57 小时
+- id: nyt-tech
+  name: New York Times Technology
+  url: https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 24
+  include: *ai_en
+  enabled: true
+  checked_at: '2026-10-02'
+- id: scmp-tech
+  name: SCMP Tech
+  url: https://www.scmp.com/rss/36/feed/
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 24
+  include: *ai_en
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 英文中国科技报道
+- id: mit-tech-review
+  name: MIT Technology Review
+  url: https://www.technologyreview.com/feed/
+  kind: feed
+  group: media
+  section: 2
+  poll_hours: 24
+  include: *ai_en
+  enabled: true
+  checked_at: '2026-10-02'
+- id: ars-ai
+  name: Ars Technica AI
+  url: https://arstechnica.com/ai/feed/
+  kind: feed
+  group: media
+  section: 2
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: toms-hardware
+  name: Tom's Hardware
+  url: https://www.tomshardware.com/feeds.xml
+  kind: feed
+  group: media
+  section: 5
+  poll_hours: 12
+  include: [AI, HBM, TSMC, ASML, export control, export controls, data center, datacenter, DRAM, NAND, memory prices, Huawei, SMIC, wafer, foundry, Blackwell, Rubin, Instinct, tariff, tariffs]
+  enabled: true
+  checked_at: '2026-10-02'
+  note: GPU 与供应链；实测保留约 51 小时
+- id: qbitai
+  name: 量子位
+  url: https://www.qbitai.com/feed
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 8
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留约 1.5 天（10 条）；feed 只有副标题，需打开原文
+- id: huxiu
+  name: 虎嗅
+  url: https://www.huxiu.com/rss/0.xml
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 4
+  timeout: 30
+  include: *ai_zh
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 审计时保留约 10 小时；10:40 复测时 GET 无响应体超时，属间歇故障
+- id: ithome
+  name: IT之家
+  url: https://www.ithome.com/rss/
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 4
+  limit: 100
+  include: *ai_zh
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留 14–25 小时（60 条）
+- id: 36kr
+  name: 36氪
+  url: https://www.36kr.com/feed
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 6
+  include: *ai_zh
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 必须用 www 域名，36kr.com/feed 返回反爬页；日期格式为“YYYY-MM-DD HH:MM:SS +0800”
+- id: tmtpost
+  name: 钛媒体
+  url: https://www.tmtpost.com/rss.xml
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 6
+  timeout: 30
+  include: *ai_zh
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留约 20 小时；2026-10-02 首次全量采集 15 秒超时
+- id: leiphone
+  name: 雷峰网
+  url: https://www.leiphone.com/feed
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 12
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 20 条全文批量更新（单次约 1.4 MB），更新集中、间隔不规律
+- id: geekpark
+  name: 极客公园
+  url: https://www.geekpark.net/rss
+  kind: feed
+  group: media
+  section: 0
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-02'
+- id: zhidx
+  name: 智东西
+  url: https://zhidx.com/rss
+  kind: feed
+  group: media
+  section: 5
+  poll_hours: 12
+  enabled: true
+  checked_at: '2026-10-02'
+  note: AI 与芯片产业；实测保留约 2.6 天
+- id: c114
+  name: C114 通信网
+  url: https://www.c114.com.cn/
+  kind: web
+  group: media
+  section: 5
+  poll_hours: 12
+  link_pattern: '^https?://www\.c114\.com\.cn/(news|market|topic)/\d+/a\d+\.html$'
+  include: [算力, 人工智能, AI, 大模型, 智算, 数据中心, 词元, Token, 芯片, 光模块, 光互连, 中国电信, 中国移动, 中国联通, 十五五]
+  enabled: true
+  checked_at: '2026-10-02'
+  note: GB 编码页面；运营商研究报告与工信部政策报道
+- id: mydrivers
+  name: 快科技（驱动之家）
+  url: https://rss.mydrivers.com/rss.aspx?Tid=1
+  kind: feed
+  group: media
+  section: 1
+  poll_hours: 6
+  limit: 100
+  include: *ai_zh
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 实测保留约 23 小时（100 条）；常转载人事、授权政策和国产芯片快讯
+- id: jiqizhixin
+  name: 机器之心
+  url: https://www.jiqizhixin.com/
+  kind: web
+  group: media
+  section: 1
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 无 RSS，首页跳转数据服务页；文章多首发公众号
+
+# ---------- 聚合发现：只产生线索，事实须打开原发媒体或一手来源 ----------
+- id: techmeme-river
+  name: Techmeme River
+  url: https://www.techmeme.com/river
+  kind: web
+  group: aggregator
+  section: 1
+  poll_hours: 12
+  link_pattern: '^https://(www\.)?(reuters|bloomberg|ft|wsj|nytimes|cnbc|axios|theinformation|semafor|scmp|washingtonpost|businessinsider)\.com/.+/.+|^https://asia\.nikkei\.com/.+/.+'
+  include: *ai_en
+  enabled: true
+  checked_at: '2026-10-02'
+  note: 列出约 6 天内的科技头条并直链原发媒体（Reuters、Bloomberg、FT、WSJ、NYT 等）；reuters.com 对采集器返回 401，路透独家主要靠此发现

@@ -11,9 +11,10 @@ docs/report-spec.md 和 docs/research-focus.md。每周六北京时间 08:00 生
    按 prompts/daily.md 的来源核查步骤补齐网页正文、公司动态、Infra、论文和新公司发现。
    日报可帮助发现事件，事实仍需追至原始出处。失败、截断和未查范围写入覆盖说明。
    尚未关闭的周不生成正式周报；机器离线造成缺失时明确标注。
-3. 运行 `scripts/ai-news packet --period weekly`，读取返回的证据包。核对窗口、来源健康、
-   全部候选标题和拟收录文章；text_truncated 时读取完整文章。通过 import 归档补充材料后
-   重新生成 packet，使用真实的 packet_sha256 与 article_ids。
+3. 运行 `scripts/ai-news packet --period weekly --brief`，读取返回的证据包。核对窗口、
+   来源健康、漏采窗口（coverage.gaps）和拟收录文章；候选较多时以本周日报为事件索引，
+   再按 `--group` 分组查看候选标题。text_truncated 时读取完整文章；lead 条目须先找到原文
+   并 import。通过 import 归档补充材料后重新生成 packet，使用真实的 packet_sha256 与 article_ids。
 4. 合并同一事件在一周内的重复报道与后续更新，保留时间线和仍有争议的部分。六个栏目，
    最多 24 个事件，优先有产业影响的变化。周度 overview 解释主要趋势、公司竞争变化、
    模型与 Infra 对能力/成本/供给的影响；各条区分事实与判断，数字保留口径和归因。

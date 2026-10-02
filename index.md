@@ -6,6 +6,7 @@
 - [按领域](queries/by-domain.md) · [按类型](queries/by-type.md) · [按来源](queries/by-source.md)
 - [公司与社区跟踪表](data/watchlist.yaml)
 - [日报规范](docs/report-spec.md) · [每日流程](prompts/daily.md)
+- [来源采集说明](docs/ingest-automation.md) · [来源修复记录](docs/source-remediation-2026-10-02.md)
 
 ## Knowledge pages
 

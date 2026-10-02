@@ -25,13 +25,17 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 scripts/python scripts/query.py "AI Infra 推理成本" --json
 scripts/ai-news collect --days 14 --limit 60
-scripts/ai-news packet
+scripts/ai-news collect --due --summary   # 高频定时任务，只抓到期来源
+scripts/ai-news packet --brief
 scripts/ai-news packet --period weekly
 bash tests/run.sh
 ```
 
 `collect` 采集和归档，`packet` 组织证据；中文分析由执行 `prompts/daily.md` 的
 Agent 完成，`report` 验证并渲染编辑 JSON。单独运行采集命令不会生成可信的分析。
+来源分为一手、Infra、研究、政府、媒体和聚合六组，媒体 feed 多数只保留 1–2 天，需要
+按[采集说明](docs/ingest-automation.md)安装每 2 小时一次的 `collect --due`。各来源实测
+与样例覆盖对照见[来源修复记录](docs/source-remediation-2026-10-02.md)。
 
 知识入口：[index](index.md)。Agent 入口：[SKILL](SKILL.md)。
 日报保存到 `reports/daily/YYYY/MM/YYYY-MM-DD/report.md`；周报保存到
