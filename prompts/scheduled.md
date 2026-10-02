@@ -20,5 +20,8 @@
    本地链接。周六可合并为一条通知。相同状态保持安静；实际通知后分别更新
    data/notification-state/daily.json 和 weekly.json。来源不足时明确说明，不能凑新闻。
 5. 仅在本地保存报告与证据；不自动提交 Git、推送、发送邮件或发布到其他账户。
+6. 高频媒体采集不由本入口负责：launchd 每 2 小时运行 `scripts/ai-news collect --due`
+   （见 docs/ingest-automation.md）。status 的 recent_gaps 非空或 due_sources 长期积压时，
+   说明高频采集未运行，在通知中提示用户。
 
 该文件定义执行流程；只有在 Codex 中启用对应自动化后才会按时触发。

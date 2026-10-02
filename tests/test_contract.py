@@ -8,7 +8,9 @@ import shutil
 import sys
 import tempfile
 import unittest
+import yaml
 from unittest.mock import patch
+from urllib.error import HTTPError
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import wiki_core as w
 import news
@@ -258,5 +260,155 @@ class DailyContract(unittest.TestCase):
         news.report_folder('daily','2026-10-02').mkdir(parents=True)
         with self.assertRaisesRegex(ValueError,'already exists'):news.migrate_reports()
         self.assertTrue((self.root/'reports/daily/2026-10-01').exists())
+
+
+NOW=datetime(2026,10,2,3,0,tzinfo=timezone.utc)  # 11:00 Beijing; daily window 10-01 00:00Z to 10-02 00:00Z
+
+def rss(*items):
+    rows=''.join(f'<item><title>{t}</title><link>{u}</link><pubDate>{d}</pubDate><description>{x}</description></item>' for t,u,d,x in items)
+    return f'<?xml version="1.0"?><rss><channel>{rows}</channel></rss>'
+
+class CollectContract(unittest.TestCase):
+    setUp = WikiContract.setUp
+    tearDown = WikiContract.tearDown
+    def configure(self,*rows):
+        defaults={'section':1,'group':'media','kind':'feed','enabled':True}
+        w.atomic_write(self.root/'data/sources.yaml',yaml.safe_dump({'sources':[dict(defaults,**r) for r in rows]},allow_unicode=True))
+    def serve(self,pages,calls=None):
+        def fake(req,timeout=None):
+            if calls is not None:calls.append(req.full_url)
+            if req.full_url not in pages:raise HTTPError(req.full_url,404,'Not Found',{},io.BytesIO(b''))
+            body=pages[req.full_url]
+            class Response(io.BytesIO):
+                headers={'Content-Type':'text/html'};status=200
+                def geturl(self):return req.full_url
+            return Response(body.encode() if isinstance(body,str) else body)
+        return patch.object(news,'urlopen',side_effect=fake)
+    def collect(self,pages,**kw):
+        with self.serve(pages),patch.object(news,'now',return_value=kw.pop('at',NOW)):return news.collect(**kw)
+    def test_config_requires_group_and_valid_options(self):
+        self.configure({'id':'a','name':'A','url':'https://example.org/feed','group':'blogs'})
+        with self.assertRaisesRegex(ValueError,'group'):news.validate_config()
+        self.configure({'id':'a','name':'A','url':'https://example.org/feed','link_pattern':'('})
+        with self.assertRaisesRegex(ValueError,'link_pattern'):news.validate_config()
+        self.configure({'id':'a','name':'A','url':'https://example.org/feed','poll_hours':0})
+        with self.assertRaisesRegex(ValueError,'poll_hours'):news.validate_config()
+    def test_repository_sources_validate(self):
+        shutil.copyfile(SOURCE/'data/sources.yaml',self.root/'data/sources.yaml')
+        self.assertGreater(news.validate_config()['sources'],50)
+        self.assertTrue(all(s.get('group') in news.GROUPS for s in news.sources()))
+    def test_chinese_feed_date_and_gbk_page(self):
+        self.assertEqual(news.parse_date('2026-09-30 19:38:45  +0800'),'2026-09-30T19:38:45+08:00')
+        page='<html><head><meta charset="gb2312"></head><body><a href="/news/1/a1.html">算力新闻</a></body></html>'.encode('gb18030')
+        text,charset=news.decode(page,{})
+        self.assertEqual(charset,'gb18030');self.assertIn('算力新闻',text)
+    def test_keyword_filter_and_feed_gap_reach_report(self):
+        self.configure({'id':'wire','name':'Wire','url':'https://example.org/feed','include':['AI','芯片']})
+        w.json_write(self.root/news.STATE,{'wire':{'last_ok_at':'2026-10-01T10:00:00+00:00','last_attempt_at':'2026-10-01T10:00:00+00:00'}})
+        feed=rss(('New AI chip','https://example.org/a','Thu, 01 Oct 2026 22:00:00 GMT','x'),
+                 ('Said and paid','https://example.org/b','Thu, 01 Oct 2026 21:00:00 GMT','no keyword'),
+                 ('国产芯片涨价','https://example.org/c','Thu, 01 Oct 2026 20:00:00 GMT','x'))
+        run=self.collect({'https://example.org/feed':feed})
+        result=run['sources'][0]
+        self.assertEqual(result['filtered'],1);self.assertEqual(result['saved'],2)
+        self.assertEqual(result['gap']['to'],'2026-10-01T20:00:00+00:00')
+        with patch.object(news,'now',return_value=NOW):
+            pkt,_=news.packet()
+            self.assertEqual(pkt['coverage']['gaps'][0]['source_id'],'wire')
+            w.atomic_write(self.root/'data/watchlist.yaml',yaml.safe_dump({'discovery':{'searches':[{'id':'wire-exclusives','query':'site:example.org'},{'id':'policy','query':'x'}]}}))
+            ed={'date':pkt['window']['date'],'packet_sha256':pkt['packet_sha256'],'overview':'测试窗口。','items':[],
+                'source_checks':[{'source_id':'wire-exclusives','status':'checked','note':'按窗口检索，未发现新独家'}]}
+            path=self.root/'editorial.json';w.json_write(path,ed)
+            text=(self.root/news.report(str(path))['report_path']).read_text()
+        self.assertIn('可能漏采 2026-10-01T10:00 至 2026-10-01T20:00',text)
+        self.assertIn('- wire-exclusives：checked；按窗口检索，未发现新独家。',text);self.assertIn('- policy：not-checked；本次未执行。',text)
+    def test_search_results_are_leads_not_evidence(self):
+        self.configure({'id':'agg','name':'Aggregator','url':'https://news.example.org/rss?q=ai','group':'aggregator'})
+        self.collect({'https://news.example.org/rss?q=ai':rss(('Exclusive: deal - Wire','https://news.example.org/a/1','Thu, 01 Oct 2026 22:00:00 GMT','Exclusive: deal Wire'))})
+        article=news.load_articles()[0]
+        self.assertTrue(article['lead']);self.assertEqual(article['extraction'],'metadata-only');self.assertEqual(article['summary'],'Exclusive: deal Wire')
+        with patch.object(news,'now',return_value=NOW):pkt,_=news.packet()
+        ed={'date':pkt['window']['date'],'packet_sha256':pkt['packet_sha256'],'overview':'测试。','source_checks':[],
+            'items':[{'event_key':'deal','title':'交易','section':1,'article_ids':[article['id']],'facts':['据报道。'],'analysis':'判断。','reviewed':True,'locators':{article['id']:'标题'}}]}
+        with self.assertRaisesRegex(ValueError,'Source text is missing'):news.validate_editorial(ed,pkt)
+    def test_listing_baseline_then_new_link_becomes_lead(self):
+        self.configure({'id':'lab','name':'Lab','url':'https://lab.example.org/news','kind':'web','group':'official','link_pattern':r'/news/[a-z0-9-]+$'})
+        page='<a href="/news/old-post">Old</a><a href="/about">About</a>'
+        first=self.collect({'https://lab.example.org/news':page},at=NOW-timedelta(days=1))['sources'][0]
+        self.assertEqual(first['status'],'needs-review');self.assertTrue(first['baseline']);self.assertEqual(news.load_articles(),[])
+        page='<a href="/news/new-model">New model <span>Sep 30</span></a>'+page
+        # Discovered at 07:00 Beijing, inside the 10-02 daily window that closes at 08:00.
+        second=self.collect({'https://lab.example.org/news':page},at=NOW-timedelta(hours=4))['sources'][0]
+        self.assertEqual((second['status'],second['new_links'],second['leads']),('ok',1,1))
+        lead=news.load_articles()[0]
+        self.assertEqual((lead['url'],lead['date_basis'],lead['title']),('https://lab.example.org/news/new-model','discovered','New model Sep 30'))
+        with patch.object(news,'now',return_value=NOW):pkt,_=news.packet()
+        self.assertTrue(pkt['articles'][0]['date_boundary_uncertain']);self.assertEqual(pkt['coverage']['leads'],1)
+        third=self.collect({'https://lab.example.org/news':'<p>Rendering placeholder</p>'},at=NOW+timedelta(hours=1))['sources'][0]
+        self.assertEqual(third['status'],'failed')
+        self.assertEqual(json.loads((self.root/news.STATE).read_text())['lab']['raw_path'],second['raw_path'])
+    def test_page_change_detection_creates_one_lead_per_version(self):
+        self.configure({'id':'log','name':'Change Log','url':'https://docs.example.org/updates','kind':'web','group':'official'})
+        base='<main>'+'<p>Date: 2026-09-01 Model A released with a documented context window.</p>'*5+'</main>'
+        self.collect({'https://docs.example.org/updates':base},at=NOW-timedelta(days=1))
+        same=self.collect({'https://docs.example.org/updates':base},at=NOW-timedelta(hours=12))['sources'][0]
+        self.assertFalse(same['changed']);self.assertEqual(news.load_articles(),[])
+        changed=base.replace('<main>','<main><p>Date: 2026-10-01 Model A kept after user demand.</p>')
+        result=self.collect({'https://docs.example.org/updates':changed})['sources'][0]
+        self.assertTrue(result['changed']);self.assertIn('+Date: 2026-10-01 Model A kept after user demand.',result['diff'])
+        lead=news.load_articles()[0]
+        self.assertTrue(lead['lead']);self.assertIn('kept after user demand',lead['summary']);self.assertEqual(lead['text'],'')
+    def test_due_mode_respects_poll_hours_and_browser_sources_are_not_fetched(self):
+        self.configure({'id':'fast','name':'Fast','url':'https://fast.example.org/feed','poll_hours':4},
+                       {'id':'slow','name':'Slow','url':'https://slow.example.org/feed','poll_hours':24},
+                       {'id':'js','name':'JS','url':'https://js.example.org/','kind':'web','group':'official','fetch':'browser'})
+        recent=(NOW-timedelta(hours=5)).isoformat()
+        w.json_write(self.root/news.STATE,{'fast':{'last_attempt_at':recent},'slow':{'last_attempt_at':recent},'js':{'last_attempt_at':recent}})
+        calls=[]
+        with self.serve({'https://fast.example.org/feed':rss()},calls),patch.object(news,'now',return_value=NOW):
+            self.assertEqual(news.due_sources(),['fast'])
+            run=news.collect(due=True)
+            self.assertEqual([r['source_id'] for r in run['sources']],['fast'])
+            runs=len(list((self.root/'data/runs').glob('*.json')))
+            self.assertIsNone(news.collect(due=True)['id'])
+            self.assertEqual(len(list((self.root/'data/runs').glob('*.json'))),runs)
+            run=news.collect(selected=['js'])
+        self.assertEqual([c for c in calls if not c.endswith('/robots.txt')],['https://fast.example.org/feed'])
+        self.assertEqual(run['sources'][0]['status'],'needs-browser')
+    def test_scheduled_collection_obeys_robots_txt(self):
+        self.configure({'id':'closed','name':'Closed','url':'https://closed.example.org/rss/search?q=ai'},
+                       {'id':'open','name':'Open','url':'https://open.example.org/feed'})
+        calls=[]
+        pages={'https://closed.example.org/robots.txt':'User-agent: *\nDisallow: /\nAllow: /$\n','https://open.example.org/feed':rss()}
+        with self.serve(pages,calls),patch.object(news,'now',return_value=NOW):run=news.collect()
+        status={r['source_id']:r for r in run['sources']}
+        self.assertEqual(status['closed']['status'],'failed');self.assertIn('robots.txt',status['closed']['error'])
+        self.assertEqual(status['open']['status'],'ok')
+        self.assertNotIn('https://closed.example.org/rss/search?q=ai',calls)
+    def test_feed_scan_never_replaces_agent_imported_records(self):
+        self.configure({'id':'wire','name':'Wire','url':'https://example.org/feed'})
+        raw=w.archive(b'notes','notes.txt','https://example.org/a')
+        imported={'url':'https://example.org/a','title':'Read','text':'Agent notes from the full page.','published_at':'2026-10-01T10:00:00+00:00',
+                  'date_basis':'published','extraction':'browser-read; source-notes archived','retrieval_method':'web-reader-notes'}
+        aid,_=news.save_article(imported,news.sources()[0],raw)
+        self.collect({'https://example.org/feed':rss(('Read','https://example.org/a','Thu, 01 Oct 2026 10:00:00 GMT','Short AI summary'))})
+        article=json.loads((self.root/'data/articles'/(aid+'.json')).read_text())
+        self.assertEqual(article['text'],'Agent notes from the full page.')
+        self.assertFalse((self.root/'data/article-history'/aid).exists())
+    def test_same_url_in_two_feeds_keeps_richer_text(self):
+        self.configure({'id':'short','name':'Short','url':'https://a.example.org/feed'},{'id':'long','name':'Long','url':'https://b.example.org/feed'})
+        item=lambda text:rss(('AI launch','https://example.org/post','Thu, 01 Oct 2026 10:00:00 GMT',text))
+        pages={'https://a.example.org/feed':item('Short AI note'),'https://b.example.org/feed':item('A much longer AI article body with details.')}
+        for _ in range(2):self.collect(pages)
+        article=news.load_articles()[0]
+        self.assertEqual(article['source_id'],'long');self.assertIn('much longer',article['text'])
+        self.collect(pages,selected=['short'])
+        self.assertEqual(news.load_articles()[0]['source_id'],'long')
+    def test_truncation_counts_only_entries_not_already_archived(self):
+        self.configure({'id':'wire','name':'Wire','url':'https://example.org/feed'})
+        items=[(f'AI item {i}',f'https://example.org/{i}',f'Thu, 01 Oct 2026 {10+i}:00:00 GMT','x') for i in range(5)]
+        self.assertEqual(self.collect({'https://example.org/feed':rss(*items)},limit=3)['sources'][0]['truncated'],2)
+        self.assertEqual(self.collect({'https://example.org/feed':rss(*items)},limit=5)['sources'][0]['truncated'],0)
+        self.assertEqual(self.collect({'https://example.org/feed':rss(*items)},limit=3)['sources'][0]['truncated'],0)
 
 if __name__=='__main__':unittest.main()

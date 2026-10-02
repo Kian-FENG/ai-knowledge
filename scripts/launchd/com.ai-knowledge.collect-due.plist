@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- 每 2 小时运行 `scripts/ai-news collect --due`，只抓取已到 poll_hours 的来源。
+     安装与卸载见 docs/ingest-automation.md；路径按本机仓库位置填写。 -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.ai-knowledge.collect-due</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/kian/workspace/ai-knowledge/scripts/ai-news</string>
+    <string>collect</string>
+    <string>--due</string>
+    <string>--summary</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/kian/workspace/ai-knowledge</string>
+  <key>StartInterval</key>
+  <integer>7200</integer>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/kian/workspace/ai-knowledge/.cache/collect-due.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/kian/workspace/ai-knowledge/.cache/collect-due.log</string>
+</dict>
+</plist>
