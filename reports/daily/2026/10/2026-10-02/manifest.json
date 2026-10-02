@@ -3,9 +3,10 @@
   "status": "analyzed",
   "packet_sha256": "b2819db470e9b0273f942a12f4f265c373f272f93c66b592864480bae2a31532",
   "editorial_sha256": "d4217ce04935200497daef33e1a08c66993516017d1481914591439047f81de4",
-  "report_path": "reports/daily/2026-10-02/report.md",
+  "report_path": "reports/daily/2026/10/2026-10-02/report.md",
   "packet_path": "data/packets/2026-10-02/b2819db470e9b0273f942a12f4f265c373f272f93c66b592864480bae2a31532.json",
   "events": 6,
   "generated_at": "2026-10-02T01:39:12.659521+00:00",
-  "timezone": "Asia/Shanghai"
+  "timezone": "Asia/Shanghai",
+  "period": "daily"
 }

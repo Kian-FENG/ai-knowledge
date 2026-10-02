@@ -1,4 +1,4 @@
-"""Auditable collection → packet → reviewed editorial → daily Markdown.
+"""Auditable collection → packet → reviewed editorial → daily/weekly Markdown.
 The agent supplies analysis. Collection never fabricates an editorial report.
 """
 from __future__ import annotations
@@ -184,6 +184,9 @@ def validate_config():
         canonical(src['url'])
         if src['kind'] not in ('feed','web') or src['section'] not in range(len(settings()['sections'])):raise ValueError('Invalid source configuration')
     ZoneInfo(settings()['timezone'])
+    for key in ('daily_hour','weekly_hour'):
+        if not isinstance(settings().get(key),int) or not 0<=settings()[key]<=23:raise ValueError('Invalid '+key)
+    if not isinstance(settings().get('weekly_weekday'),int) or not 0<=settings()['weekly_weekday']<=6:raise ValueError('Invalid weekly_weekday')
     return {'status':'success','sources':len(ids),'timezone':settings()['timezone']}
 
 
@@ -238,16 +241,82 @@ def collect(days=14,limit=60,selected=None):
     return run
 
 
-def due_window(report_date=None):
+def due_window(report_date=None,period='daily'):
+    if period not in ('daily','weekly'):raise ValueError('Invalid report period')
     cfg=settings()
     local=now().astimezone(ZoneInfo(cfg['timezone']))
+    span=7 if period=='weekly' else 1
+    hour=cfg[period+'_hour']
     if report_date:
-        end=datetime.fromisoformat(report_date).replace(hour=cfg['daily_hour'],tzinfo=ZoneInfo(cfg['timezone']))
+        if not re.fullmatch(r'\d{4}-\d{2}-\d{2}',report_date):raise ValueError('Report date must be YYYY-MM-DD')
+        end=datetime.fromisoformat(report_date).replace(hour=hour,tzinfo=ZoneInfo(cfg['timezone']))
+        if period=='weekly' and end.weekday()!=cfg['weekly_weekday']:raise ValueError('Weekly report date must be the configured weekday (Saturday)')
         if end>local:raise ValueError('Cannot report a window that has not closed')
     else:
-        end=local.replace(hour=cfg['daily_hour'],minute=0,second=0,microsecond=0)
-        if end>local:end-=timedelta(days=1)
-    return {'date':end.date().isoformat(),'timezone':cfg['timezone'],'start':(end-timedelta(days=1)).isoformat(),'end':end.isoformat()}
+        end=local.replace(hour=hour,minute=0,second=0,microsecond=0)
+        if period=='weekly':end-=timedelta(days=(end.weekday()-cfg['weekly_weekday'])%7)
+        if end>local:end-=timedelta(days=span)
+    return {'period':period,'date':end.date().isoformat(),'timezone':cfg['timezone'],'start':(end-timedelta(days=span)).isoformat(),'end':end.isoformat()}
+
+
+def report_folder(period,date_value):
+    if period not in ('daily','weekly') or not re.fullmatch(r'\d{4}-\d{2}-\d{2}',date_value):raise ValueError('Invalid report location')
+    datetime.fromisoformat(date_value)
+    return w.ROOT/'reports'/period/date_value[:4]/date_value[5:7]/date_value
+
+
+def report_indices():
+    """Called under the workspace write lock after report publication/migration."""
+    root=w.ROOT/'reports'
+    overview=['# AI 产业报告索引','','所有日期按北京时间；周报按窗口结束日所属年份、月份归档。','']
+    for period,label in (('daily','日报'),('weekly','周报')):
+        lines=['# '+label+'索引','']
+        manifests=[]
+        for path in sorted((root/period).glob('*/*/*/manifest.json'),reverse=True):
+            manifest=json.loads(path.read_text())
+            manifests.append((path,manifest))
+        bucket=None
+        for path,manifest in manifests:
+            date_value=manifest['date']
+            if bucket!=date_value[:7]:
+                bucket=date_value[:7];lines+=['## '+bucket,'']
+            relative_path=(path.parent/'report.md').relative_to(root/period).as_posix()
+            lines+=[f'- [{date_value}]({relative_path}) · {manifest["events"]} 个事件 · {manifest["status"]}']
+        if not manifests:lines+=['尚无已生成报告。','']
+        w.atomic_write(root/period/'index.md','\n'.join(lines).rstrip()+'\n')
+        overview+=[f'- [{label}]({period}/index.md) · {len(manifests)} 份']
+    w.atomic_write(root/'index.md','\n'.join(overview)+'\n')
+
+
+def migrate_reports():
+    """Move legacy flat report folders without rewriting report text/evidence."""
+    plans=[]
+    with w.write_lock():
+        for period in ('daily','weekly'):
+            for folder in sorted((w.ROOT/'reports'/period).glob('????-??-??')):
+                if not folder.is_dir():continue
+                target=report_folder(period,folder.name)
+                if target.exists():raise ValueError('Migration target already exists: '+w.relative(target))
+                updates=[]
+                for path in folder.rglob('manifest.json'):
+                    manifest=json.loads(path.read_text())
+                    old=w.relative(folder)+'/'
+                    value=manifest.get('report_path','')
+                    if value.startswith(old):manifest['report_path']=w.relative(target)+'/'+value[len(old):]
+                    manifest.setdefault('period',period)
+                    updates.append((path.relative_to(folder),manifest))
+                plans.append((folder,target,updates))
+        for folder,target,updates in plans:
+            target.parent.mkdir(parents=True,exist_ok=True)
+            folder.rename(target)
+            for relative_path,manifest in updates:w.json_write(target/relative_path,manifest)
+        local=now().astimezone(ZoneInfo(settings()['timezone']))
+        for period in ('daily','weekly'):
+            month=w.ROOT/'reports'/period/local.strftime('%Y')/local.strftime('%m')
+            month.mkdir(parents=True,exist_ok=True)
+            if not any(month.iterdir()):w.atomic_write(month/'.gitkeep','')
+        report_indices()
+    return {'moved':[w.relative(target) for _,target,_ in plans],'index':'reports/index.md'}
 
 
 def load_articles():
@@ -267,8 +336,8 @@ def latest_health():
     return latest
 
 
-def packet(report_date=None):
-    window=due_window(report_date)
+def packet(report_date=None,period='daily'):
+    window=due_window(report_date,period)
     start,end=(datetime.fromisoformat(window[k]) for k in ('start','end'))
     entries=[]
     excluded={'undated':0,'future':0,'out_of_window':0}
@@ -291,12 +360,14 @@ def packet(report_date=None):
                   'health':[{k:h.get(k) for k in ('source_id','status','truncated','unknown_date','error')} for h in run['sources']]}
     version=hashlib.sha256(json.dumps(evidence_key,sort_keys=True).encode()).hexdigest()
     pkt={'window':window,'coverage':coverage,'articles':entries,'packet_sha256':version,'generated_at':now().isoformat()}
-    target=w.ROOT/'data/packets'/window['date']/(version+'.json')
+    date_value=window['date']
+    target=w.ROOT/'data/packets'/period/date_value[:4]/date_value[5:7]/date_value/(version+'.json')
     if not target.exists():w.json_write(target,pkt)
     return pkt,target
 
 
 def validate_editorial(ed,pkt):
+    if ed.get('period','daily')!=pkt['window']['period']:raise ValueError('Editorial period does not match evidence')
     if ed.get('date')!=pkt['window']['date'] or ed.get('packet_sha256')!=pkt['packet_sha256']:raise ValueError('Editorial date/packet does not match current evidence; regenerate the packet and review')
     if not isinstance(ed.get('overview'),str) or not ed['overview'].strip():raise ValueError('Chinese overview required')
     available={a['id']:a for a in pkt['articles']}
@@ -317,19 +388,21 @@ def validate_editorial(ed,pkt):
     if not isinstance(ed.get('source_checks'),list):raise ValueError('source_checks required')
     for check in ed['source_checks']:
         if check.get('status') not in ('checked','failed','not-checked') or not check.get('source_id') or not check.get('note'):raise ValueError('Invalid source coverage check')
+    if pkt['window']['period']=='weekly' and ed['items']:
+        if not isinstance(ed.get('outlook'),list) or not ed['outlook'] or any(not isinstance(x,str) or not x.strip() for x in ed['outlook']):raise ValueError('Weekly report requires outlook observations')
     return available
 
 
-def report(editorial=None,report_date=None):
-    pkt,packet_path=packet(report_date)
+def report(editorial=None,report_date=None,period='daily'):
+    pkt,packet_path=packet(report_date,period)
     date_value=pkt['window']['date']
-    folder=w.ROOT/'reports/daily'/date_value
+    folder=report_folder(period,date_value)
     if editorial:
         ed=json.loads(Path(editorial).read_text())
         available=validate_editorial(ed,pkt)
     else:
         if pkt['articles']:raise ValueError('Candidate evidence exists: Agent editorial review required before report')
-        ed={'date':date_value,'packet_sha256':pkt['packet_sha256'],'overview':'当前窗口没有已归档且日期合格的候选；不代表行业没有新闻。','items':[],'source_checks':[]}
+        ed={'period':period,'date':date_value,'packet_sha256':pkt['packet_sha256'],'overview':'当前窗口没有已归档且日期合格的候选；不代表行业没有新闻。','items':[],'source_checks':[]}
         available={}
     content_digest=hashlib.sha256(json.dumps(ed,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
     manifest_path=folder/'manifest.json'
@@ -341,7 +414,8 @@ def report(editorial=None,report_date=None):
         for name in ('report.md','editorial.json','manifest.json'):
             if (folder/name).exists():w.atomic_write(history/name,(folder/name).read_bytes())
     window=pkt['window']
-    lines=[f'# AI 产业分析日报（{date_value.replace("-", ".")}）','',f'统计窗口：{window["start"]} 至 {window["end"]}（北京时间，右端不含）。','',ed['overview'],'']
+    label='周报' if period=='weekly' else '日报'
+    lines=[f'# AI 产业分析{label}（{date_value.replace("-", ".")}）','',f'统计窗口：{window["start"]} 至 {window["end"]}（北京时间，右端不含）。','',ed['overview'],'']
     for section,title in enumerate(settings()['sections']):
         lines += [f'## {section+1}. {title}','']
         selected=[i for i in ed['items'] if i['section']==section]
@@ -356,7 +430,10 @@ def report(editorial=None,report_date=None):
                 lines += [f'- [{a["source_name"]} · {a["title"]}]({a["url"]})；{label}：{effective_date(a)}；定位：{item["locators"][aid]}；阅读范围：{a["extraction"]}；ID：`{aid}`。']
                 if a.get('date_boundary_uncertain'):lines+=['  日期仅精确到天，无法确认 08:00 边界。']
             lines+=['']
-    lines+=['## 覆盖与证据说明','','- 事实摘录与分析由 Agent 核验；结构校验不证明事实正确或模型能力已被独立复现。',f'- 候选 {len(pkt["articles"])} 条，精选 {len(ed["items"])} 个事件；未注明日期 {pkt["coverage"]["excluded"]["undated"]} 条不进入日报。','- RSS/Atom/API 只覆盖其暴露的近期条目；不声称全网覆盖。','']
+    if period=='weekly':
+        lines+=['## 下周观察','']+['- '+x for x in ed.get('outlook',[])]+['']
+        if not ed.get('outlook'):lines+=['本期证据不足，暂不形成观察判断。','']
+    lines+=['## 覆盖与证据说明','','- 事实摘录与分析由 Agent 核验；结构校验不证明事实正确或模型能力已被独立复现。',f'- 候选 {len(pkt["articles"])} 条，精选 {len(ed["items"])} 个事件；未注明日期 {pkt["coverage"]["excluded"]["undated"]} 条不进入本期报告。','- RSS/Atom/API 只覆盖其暴露的近期条目；不声称全网覆盖。','']
     checks={x['source_id']:x for x in ed['source_checks']}
     for src in sources():
         health=next((x for x in pkt['coverage']['source_health'] if x['source_id']==src['id']),None)
@@ -367,9 +444,10 @@ def report(editorial=None,report_date=None):
         lines+=[f'- {src["name"]}：{status}；{note}；已知截断 {trunc} 条。']
     discovery=checks.get('startup-discovery',{'status':'not-checked','note':'本次未完成新公司开放检索'})
     lines += [f'- 新公司发现：{discovery["status"]}；{discovery["note"]}。','',f'证据包：`{w.relative(packet_path)}`；采集 run：`{pkt["coverage"]["run_id"]}`。','']
-    manifest={'date':date_value,'status':'analyzed' if ed['items'] else 'empty','packet_sha256':pkt['packet_sha256'],'editorial_sha256':content_digest,'report_path':w.relative(folder/'report.md'),'packet_path':w.relative(packet_path),'events':len(ed['items']),'generated_at':now().isoformat(),'timezone':window['timezone']}
+    manifest={'period':period,'date':date_value,'window':window,'status':'analyzed' if ed['items'] else 'empty','packet_sha256':pkt['packet_sha256'],'editorial_sha256':content_digest,'report_path':w.relative(folder/'report.md'),'packet_path':w.relative(packet_path),'events':len(ed['items']),'generated_at':now().isoformat(),'timezone':window['timezone']}
     with w.write_lock():
         w.transaction({w.relative(folder/'report.md'):'\n'.join(lines),w.relative(folder/'editorial.json'):json.dumps(ed,ensure_ascii=False,indent=2)+'\n',w.relative(manifest_path):json.dumps(manifest,ensure_ascii=False,indent=2)+'\n'})
+        report_indices()
     return manifest
 
 
@@ -378,9 +456,10 @@ def main():
     sub=p.add_subparsers(dest='action',required=True)
     sub.add_parser('validate')
     sub.add_parser('status')
+    sub.add_parser('migrate-reports')
     c=sub.add_parser('collect');c.add_argument('--days',type=int,default=14);c.add_argument('--limit',type=int,default=60);c.add_argument('--source',action='append')
     for name in ('packet','report'):
-        sp=sub.add_parser(name);sp.add_argument('--date')
+        sp=sub.add_parser(name);sp.add_argument('--date');sp.add_argument('--period',choices=('daily','weekly'),default='daily')
         if name=='report':sp.add_argument('--editorial')
     i=sub.add_parser('import');i.add_argument('file');i.add_argument('--source',required=True)
     f=sub.add_parser('fetch');f.add_argument('url');f.add_argument('--source',required=True)
@@ -388,11 +467,12 @@ def main():
     try:
         if a.action=='validate':result=validate_config()
         elif a.action=='collect':result=collect(a.days,a.limit,a.source)
-        elif a.action=='status':result={'health':latest_health(),'articles':len(load_articles()),'due_window':due_window()}
+        elif a.action=='status':result={'health':latest_health(),'articles':len(load_articles()),'due_window':due_window(),'weekly_due_window':due_window(period='weekly')}
+        elif a.action=='migrate-reports':result=migrate_reports()
         elif a.action=='packet':
-            pkt,path=packet(a.date)
+            pkt,path=packet(a.date,a.period)
             result={'path':str(path),'window':pkt['window'],'articles':len(pkt['articles']),'packet_sha256':pkt['packet_sha256']}
-        elif a.action=='report':result=report(a.editorial,a.date)
+        elif a.action=='report':result=report(a.editorial,a.date,a.period)
         elif a.action=='fetch':
             src=next(s for s in sources() if s['id']==a.source)
             text,raw=fetch(a.url,src['id'])

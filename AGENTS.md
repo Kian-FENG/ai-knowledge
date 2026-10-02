@@ -35,11 +35,16 @@
   不因搜不到而断言不存在；显式检查草稿才用 `--include-unpublished`。
 - “最新”先查库再核对在线一手资料；注明 as-of。未知日期不能当成当天新闻。
 
-## Daily report and commands
+## Daily/weekly reports and commands
 
 从本项目运行 `scripts/python`（优先 `.venv`，Python 3.9+、PyYAML）。
-`scripts/ai-news` 是日报采集入口，`prompts/daily.md` 是每日 Agent 完整流程。
+`scripts/ai-news` 是报告采集入口，`prompts/daily.md`、`prompts/weekly.md` 是完整流程。
+定时任务从 `prompts/scheduled.md` 进入，按顺序检查日报和到期周报。
 报告以 Asia/Shanghai 定日；每天北京时间 08:00，窗口为前一天 08:00 至当天 08:00。
+每周六北京时间 08:00 生成周报，窗口为上周六 08:00 至本周六 08:00。
+报告归档到 reports/<daily|weekly>/YYYY/MM/YYYY-MM-DD/，按窗口结束日分年、月。
+报告索引是 reports/index.md；packet/report 使用 --period daily|weekly，默认 daily。
+日报与周报通知状态分别放 data/notification-state/daily.json、weekly.json。
 错过运行时补最近到期窗口；已完成且证据未变化的窗口不重复生成。
 
 - 校验：`scripts/python scripts/validate.py --require-migrated reference --require-migrated research`

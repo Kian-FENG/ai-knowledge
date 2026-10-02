@@ -183,4 +183,80 @@ class DailyContract(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Source text is missing'):
             news.validate_editorial(ed,pkt)
 
+    def test_weekly_cutoff_and_seven_day_window(self):
+        with patch.object(news,'now',return_value=datetime(2026,10,2,23,59,tzinfo=timezone.utc)):
+            self.assertEqual(news.due_window(period='weekly')['date'],'2026-09-26')
+        with patch.object(news,'now',return_value=datetime(2026,10,3,0,0,tzinfo=timezone.utc)):
+            window=news.due_window(period='weekly')
+            self.assertEqual(window['date'],'2026-10-03')
+            self.assertEqual(window['start'],'2026-09-26T08:00:00+08:00')
+            self.assertEqual(datetime.fromisoformat(window['end'])-datetime.fromisoformat(window['start']),timedelta(days=7))
+
+    def test_weekly_cross_year_and_missed_run(self):
+        with patch.object(news,'now',return_value=datetime(2027,1,4,12,tzinfo=timezone.utc)):
+            window=news.due_window(period='weekly')
+            self.assertEqual(window['date'],'2027-01-02')
+            self.assertEqual(window['start'],'2026-12-26T08:00:00+08:00')
+            self.assertTrue(str(news.report_folder('weekly',window['date'])).endswith('weekly/2027/01/2027-01-02'))
+
+    def test_weekly_explicit_date_rejects_incomplete_or_wrong_day(self):
+        with patch.object(news,'now',return_value=datetime(2026,10,2,12,tzinfo=timezone.utc)):
+            with self.assertRaisesRegex(ValueError,'Saturday'):news.due_window('2026-10-02','weekly')
+            with self.assertRaisesRegex(ValueError,'not closed'):news.due_window('2026-10-03','weekly')
+            with self.assertRaisesRegex(ValueError,'YYYY-MM-DD'):news.due_window('2026-10-01T08:00:00')
+
+    def test_weekly_packet_includes_earlier_days_and_excludes_previous_week(self):
+        with patch.object(news,'now',return_value=datetime(2026,10,3,1,tzinfo=timezone.utc)):
+            raw=w.archive(b'source','article.txt')
+            for day in (25,26,29):
+                news.save_article({'url':f'https://example.org/{day}','title':str(day),'text':'Archived source text','published_at':f'2026-09-{day}T08:00:00+08:00','date_basis':'published'},news.sources()[0],raw)
+            daily,_=news.packet();weekly,_=news.packet(period='weekly')
+            self.assertEqual(daily['articles'],[])
+            self.assertEqual({a['title'] for a in weekly['articles']},{'26','29'})
+
+    def test_daily_weekly_reports_and_edits_are_separate(self):
+        with patch.object(news,'now',return_value=datetime(2026,10,3,1,tzinfo=timezone.utc)):
+            aid=self.article();daily,_=news.packet();weekly,_=news.packet(period='weekly')
+            ed=self.editorial(daily,aid)
+            with self.assertRaisesRegex(ValueError,'period'):news.validate_editorial(ed,weekly)
+            path=self.root/'editorial.json';w.json_write(path,ed)
+            d=news.report(path)
+            ed=self.editorial(weekly,aid);ed['period']='weekly'
+            with self.assertRaisesRegex(ValueError,'outlook'):news.validate_editorial(ed,weekly)
+            ed['outlook']=['观察新功能能否在相同负载下稳定工作。'];w.json_write(path,ed)
+            result=news.report(path,period='weekly')
+            self.assertEqual(d['report_path'],'reports/daily/2026/10/2026-10-03/report.md')
+            self.assertEqual(result['report_path'],'reports/weekly/2026/10/2026-10-03/report.md')
+            content=(self.root/result['report_path']).read_text()
+            self.assertIn('AI 产业分析周报',content);self.assertIn('下周观察',content)
+            self.assertTrue(news.report(path,period='weekly')['unchanged'])
+            old_hash=result['editorial_sha256'];ed['overview']='补充后的周度判断。';w.json_write(path,ed)
+            news.report(path,period='weekly')
+            self.assertEqual((self.root/result['report_path']).parent.joinpath('revisions',old_hash,'report.md').read_text(),content)
+            self.assertTrue((self.root/d['report_path']).exists())
+            self.assertIn('2026/10/2026-10-03/report.md',(self.root/'reports/weekly/index.md').read_text())
+
+    def test_legacy_migration_preserves_text_evidence_and_revisions(self):
+        old=self.root/'reports/daily/2026-10-02';old.mkdir(parents=True)
+        (old/'report.md').write_text('Original report with source links.\n')
+        (old/'editorial.json').write_text('{"unchanged":true}\n')
+        manifest={'date':'2026-10-02','report_path':'reports/daily/2026-10-02/report.md','packet_path':'data/packets/old.json','events':1,'status':'analyzed'}
+        w.json_write(old/'manifest.json',manifest)
+        w.json_write(old/'revisions/abc/manifest.json',manifest)
+        news.migrate_reports()
+        target=self.root/'reports/daily/2026/10/2026-10-02'
+        self.assertEqual((target/'report.md').read_text(),'Original report with source links.\n')
+        moved=json.loads((target/'manifest.json').read_text())
+        self.assertEqual(moved['packet_path'],'data/packets/old.json')
+        self.assertEqual(moved['report_path'],'reports/daily/2026/10/2026-10-02/report.md')
+        self.assertTrue((target/'revisions/abc/manifest.json').exists())
+        self.assertFalse(old.exists());self.assertEqual(news.migrate_reports()['moved'],[])
+
+    def test_migration_refuses_collision_before_moving_anything(self):
+        for date_value in ('2026-10-01','2026-10-02'):
+            (self.root/'reports/daily'/date_value).mkdir(parents=True)
+        news.report_folder('daily','2026-10-02').mkdir(parents=True)
+        with self.assertRaisesRegex(ValueError,'already exists'):news.migrate_reports()
+        self.assertTrue((self.root/'reports/daily/2026-10-01').exists())
+
 if __name__=='__main__':unittest.main()

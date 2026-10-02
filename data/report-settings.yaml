@@ -1,5 +1,7 @@
 timezone: Asia/Shanghai
 daily_hour: 8
+weekly_hour: 8
+weekly_weekday: 5  # Monday=0; Saturday=5
 lookback_days: 14
 max_items: 24
 sections:
