@@ -15,6 +15,8 @@ specializes 只允许 concept ID，specialized_by 由读者生成。
 
 query JSON 状态为 success/empty/invalid-input；get_page 返回 metadata、body、freshness，
 未发布或缺失为 not-found。所有工具和六个索引默认只含 published。
+query 可只传 `--domain/--type/--tag/--confidence` 过滤器；此时按路径排序，分数为 0，
+仍遵守 `-n` 上限。没有关键词也没有过滤器视为 invalid-input，不隐式列出全库。
 --tfidf 为词法向量，--semantic 仅兼容别名；中文 bigram 与可维护的词组别名共同召回。
 所有日期采用真实日期，staleness 以 last_verified 和 data/refresh-cutoff.yaml 计算，
 可传 --as-of；不拿 created/updated 当核验日期。

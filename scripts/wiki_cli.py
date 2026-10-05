@@ -20,7 +20,7 @@ def main(command=None):
     command = command or Path(sys.argv[0]).stem
     p = argparse.ArgumentParser(prog=command)
     if command == 'query':
-        p.add_argument('query')
+        p.add_argument('query', nargs='?', default='')
         for flag in ('domain','type','tag','confidence'):
             p.add_argument('--'+flag, action='append', default=[])
         p.add_argument('-n', type=int, default=5)
@@ -56,6 +56,9 @@ def main(command=None):
         a = sub.add_parser('archive')
         a.add_argument('file')
         a.add_argument('--source-url')
+        # Accept JSON before or after the subcommand without resetting a root flag.
+        for parser in sub.choices.values():
+            parser.add_argument('--json', action='store_true', default=argparse.SUPPRESS)
     elif command == 'validate':
         p.add_argument('--require-migrated', action='append', default=[])
     elif command in ('staleness_report','reliability_report','orphan_report','capability_report'):

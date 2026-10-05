@@ -453,14 +453,18 @@ def tokens(text):
 
 
 def search(query, filters=None, n=5, include=False, tfidf=False, expand=False):
-    if not query.strip() or n < 1:
-        raise ValueError('Nonempty query and positive -n required')
+    filters = filters or {}
+    has_filters = any(filters.get(key) for key in ('domain', 'type', 'tags', 'confidence'))
+    if (not query.strip() and not has_filters) or n < 1:
+        raise ValueError('Query text or a filter, and positive -n required')
     corpus = pages()
     candidates = {k: p for k, p in corpus.items() if include or p['metadata'].get('lifecycle') == 'published'}
-    for key, values in (filters or {}).items():
+    for key, values in filters.items():
         if values:
             candidates = {k: p for k, p in candidates.items() if set(values) & set(p['metadata'].get(key, []) if isinstance(p['metadata'].get(key), list) else [p['metadata'].get(key)])}
     terms = set(tokens(query))
+    if query.strip() and not terms:
+        raise ValueError('Query must contain searchable text')
     expanded_query = query.casefold()
     for group in config('data/retrieval-aliases.yaml')['groups']:
         if any(v.casefold() in expanded_query for v in group):
@@ -477,9 +481,11 @@ def search(query, filters=None, n=5, include=False, tfidf=False, expand=False):
     for path, counts in documents.items():
         p, m = candidates[path], candidates[path]['metadata']
         overlap = terms & set(counts)
-        if not overlap:
+        if terms and not overlap:
             continue
-        if tfidf:
+        if not terms:
+            score = 0
+        elif tfidf:
             vec = {t: (1 + math.log(c)) * (math.log((len(documents) + 1) / (df[t] + 1)) + 1) for t, c in counts.items()}
             score = sum(vec[t] * qvec[t] for t in overlap) / (math.sqrt(sum(v*v for v in vec.values())) * math.sqrt(sum(v*v for v in qvec.values())))
         else:

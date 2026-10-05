@@ -1,0 +1,19 @@
+{
+  "project": "MacBook-LLM-Wiki",
+  "host": "WorkingMacBook",
+  "host_id": "remote-control:env_e_6a69bd3d25cc8328a57eec7358f43dd4",
+  "repository_path": "/Users/kian/workspace/llm-wiki",
+  "source_path": "/Users/kian/.codex/skills/llm-wiki/SKILL.md",
+  "thread_id": "01a0ff79-e9d9-7661-ae02-1ef80bf8829e",
+  "thread_title": "查找 Anthropic 类似 GPT Workspace 的功能",
+  "source_turn_started_at": "2026-10-03T01:56:19+00:00",
+  "retrieved_at": "2026-10-05T02:58:28.117154+00:00",
+  "retrieval_method": "read_thread command output; historical snapshot, not a live filesystem read",
+  "snapshot_path": "docs/upstream/macbook-llm-wiki-skill-2026-10-04.md",
+  "sha256": "64c3a22a5ff55283a78c184d20bbb9f0b6f3b51e90e2b54b1b8c8a73e76b6e15",
+  "limitations": [
+    "No repository revision or current remote filesystem verification available.",
+    "Installed user skill may differ from repository SKILL.md.",
+    "Legacy confidence ranking conflicts with the ai-knowledge evidence contract and is not adopted."
+  ]
+}

@@ -12,11 +12,19 @@
 在本项目聊天中直接说：
 
 - `ingest <URL 或本地文件>，更新相关公司、模型和趋势页`
+- `批量入库这个目录中的资料，跳过重复来源`
 - `query OpenAI 和 Anthropic 最近的产品形态有什么变化？`
+- `把这篇文章入库，然后比较它与已有模型评测结论的差异`
 - `比较 DeepSeek、Qwen、Kimi 的最新模型能力，注明测试口径`
 - `分析 SGLang、vLLM、Dynamo 本周进展及推理成本影响`
 - `生成今天的 AI 产业分析日报`
 - `生成最近一期已到期的 AI 产业分析周报`
+
+Agent 使用同一知识库完成两种工作：ingest 负责原文归档、去重、综合、审核发布，
+query 负责检索已发布页、阅读证据并回答。纯查询默认只读；组合请求先入库再回查。
+入口为 [SKILL.md](SKILL.md)，共同规则为 [AGENTS.md](AGENTS.md)，具体步骤见
+[入库工作流](docs/workflows.md)与[查询工作流](prompts/query.md)。
+`.agents/skills/ai-knowledge` 链接到项目根，使用同一份技能入口。
 
 ## 运行
 
@@ -24,6 +32,7 @@
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 scripts/python scripts/query.py "AI Infra 推理成本" --json
+scripts/python scripts/query.py --type entity --domain companies --json
 scripts/ai-news collect --days 14 --limit 60
 scripts/ai-news collect --due --summary   # 高频定时任务，只抓到期来源
 scripts/ai-news packet --brief

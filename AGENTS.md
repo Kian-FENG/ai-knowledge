@@ -26,6 +26,11 @@
 
 ## Ingest and query
 
+- 本 Agent 同时承担 ingest 与 query。`SKILL.md` 负责按意图分流，本文定义共同契约；
+  [workflows](docs/workflows.md) 定义入库步骤，[query](prompts/query.md) 定义检索回答步骤。
+  “入库/收录/ingest/更新知识库”执行完整入库；“查询/解释/比较/query”默认只读。
+  “读这篇并回答”属于 query；“入库后回答”先发布再回查。仅给链接且意图不明时先阅读，
+  不因查到新资料就自动入库。日报/周报继续使用各自 prompt。
 - 遵循 [workflows](docs/workflows.md) 的原文归档、查重、综合、关联、审核、发布流程。
   使用 `_templates/`；`draft → reviewed → published`，弃用页保留为 deprecated。
   编辑审核后的内容会使 fingerprint 失效。已有 ingest 授权足以完成正常发布。
@@ -33,6 +38,8 @@
   `specializes` 写 concept ID；反向关系派生。冲突保留双方来源与适用时间。
 - 从 `SKILL.md` 开始 query → get_page → trace sources → answer；默认只读 published。
   不因搜不到而断言不存在；显式检查草稿才用 `--include-unpublished`。
+- ingest 完成后用默认 query 和 get_page 回查本次页面及证据链，确认已发布且可检索；
+  汇报新建、更新、去重跳过和未完成项。query 不写页、不改核验日期、不重建索引。
 - “最新”先查库再核对在线一手资料；注明 as-of。未知日期不能当成当天新闻。
 
 ## Daily/weekly reports and commands

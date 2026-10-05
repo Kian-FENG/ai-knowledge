@@ -1,0 +1,116 @@
+---
+name: llm-wiki
+description: Use when the user asks about anything in AI/ML — foundations & theory, model architectures (transformers, attention, SSMs, diffusion, MoE), training & alignment (pretraining, finetuning, RLHF/DPO), inference & serving, systems & hardware, agents (tool use, orchestration, MCP, RAG), evaluation & interpretability, safety & alignment, applications (multimodal, vision, speech, code), or AI research/engineering practice. A structured, cross-referenced general AI knowledge base at /Users/kian/workspace/llm-wiki. Query it via scripts/query.py, get_page.py, grep_wiki.py, and the queries/*.md indices before answering from memory. For low-level LLM inference-optimization work — kernels, quantization, KV cache, speculative decoding, serving/parallelism, or PPU (ZW810E/M890P) ↔ CUDA (Hopper/Blackwell) — prefer the specialized `inference-wiki` skill; this general wiki defers to it on that area.
+argument-hint: "[natural-language-question] | [--tag X --type concept --domain agents] | [page-id]"
+---
+
+# Wiki — General AI Knowledge Base
+
+A structured, cross-referenced knowledge base spanning the whole field of AI,
+organized along a 10-area **domain axis**: `foundations · architectures ·
+training · inference · systems · agents · evaluation · safety · applications ·
+meta`. Pages are typed (concept, source, paper, entity, technique, pattern, note,
+comparison), carry YAML frontmatter, link via Obsidian `[[wikilinks]]`, and are
+tracked for freshness. Query the structured KB **before** answering from memory.
+
+## When To Use This Skill
+
+- **Foundations** — ML/DL theory, optimization, learning paradigms, statistics, information theory.
+- **Architectures** — transformers, attention variants (MHA/GQA/MQA/MLA), SSMs/Mamba, diffusion, MoE, embeddings, positional encoding.
+- **Training** — pretraining, finetuning, alignment (RLHF/DPO/RL), data curation, scaling laws, distributed training.
+- **Inference** — serving, kernels, quantization, KV cache, speculative decoding, batching, parallelism.
+- **Systems** — hardware/accelerators, compilers, distributed systems, infra.
+- **Agents** — tool use, orchestration, memory, planning, multi-agent, harness design, MCP, RAG, context engineering.
+- **Evaluation** — benchmarks, evals, metrics, interpretability, probing.
+- **Safety** — alignment, robustness, adversarial, security, privacy, governance.
+- **Applications** — multimodal, vision, speech, code, search, science, robotics.
+- **Meta** — research/engineering practice, tooling, knowledge management.
+
+Every page carries a `domain` (subject area). Retrieval has **no** domain bias —
+all areas rank equally.
+
+> **Relationship to `inference-wiki`.** This is the *general* AI knowledge base;
+> inference optimization is 1 of its 10 domains. For deep LLM
+> **inference-optimization, kernel, quantization, KV-cache, speculative-decoding,
+> serving/parallelism, PPU, or CUDA** questions, prefer the specialized
+> `inference-wiki` skill — it holds the first-hand PPU/CUDA corpus and concept
+> spine. Use this wiki for everything else across the field of AI, and for broad
+> cross-domain synthesis. The two are separate repos with identical tooling, so
+> always run scripts from *this* wiki's path (below), not inference-wiki's.
+
+## How To Query
+
+The wiki repo lives at `/Users/kian/workspace/llm-wiki`. Before running commands,
+`cd /Users/kian/workspace/llm-wiki`. Scripts auto-resolve paths from the repo
+root (no env var).
+
+### Path 1 — Faceted keyword search (preferred)
+
+```bash
+python3 scripts/query.py "speculative decoding"
+python3 scripts/query.py --tag rlhf --type technique
+python3 scripts/query.py "attention" --domain architectures -n 15
+python3 scripts/query.py --type paper --domain safety --paths-only
+```
+
+Filters (repeatable; OR within a flag, AND across flags; alias-normalized):
+`--domain`, `--type`, `--tag`, `--confidence`, `-n`, `--compact`, `--paths-only`.
+The positional query is optional when a filter is given. `--tag moe` matches
+`mixture-of-experts`; `--tag rag` matches `retrieval-augmented-generation`.
+`--semantic` blends a TF-IDF cosine signal; `--expand` appends graph neighbors.
+
+### Path 2 — Fetch a page by id / title / path
+
+```bash
+python3 scripts/get_page.py concept-speculative-decoding
+python3 scripts/get_page.py reference/concepts/attention.md --follow-sources
+python3 scripts/get_page.py concept-transformer --body-only
+```
+
+`--follow-sources` resolves `specializes` / `sources` / `related` to their files
+(and flags dangling references), so you can trace a claim in one hop.
+
+### Path 3 — Frontmatter-aware regex over page bodies
+
+```bash
+python3 scripts/grep_wiki.py "chain.of.thought" --only reference -i
+python3 scripts/grep_wiki.py lora qlora --any
+```
+
+Strips YAML frontmatter before matching; reports `relpath:lineno: line`.
+Default AND across patterns; `--any` = OR; `--only reference|research`.
+
+### Path 4 — Pre-built cross-reference indices (`queries/`)
+
+Auto-generated by `scripts/generate-indices.py` (do not hand-edit):
+
+- `by-domain.md` — reference pages grouped by subject-area domain.
+- `by-type.md` — every page grouped by page type.
+- `by-concept.md` — each concept with the pages that `specializes` it.
+- `by-technique.md` — method/technique tag → pages.
+- `by-pattern.md` — pattern symptoms → candidate techniques.
+- `by-source.md` — ingested source summaries by domain.
+
+### Path 5 — Primer, schema, examples (`docs/retrieval/`)
+
+- `docs/retrieval/primer.md` — topic map: the 10 domains, page types, canonical structure. Read first when the question is broad.
+- `docs/retrieval/schema.md` — frontmatter schema, domain axis, confidence ladder, controlled vocabulary, aliases.
+- `docs/retrieval/examples.md` — worked query patterns: question → command sequence → synthesis.
+
+## Output Pattern
+
+When answering from this KB:
+
+1. **Cite pages** by path and id (e.g. `reference/concepts/attention.md`, `concept-attention`).
+2. **Follow `sources:`/`specializes:`** to trace claims to their grounding.
+3. **Respect `confidence`** — `verified` > `source-reported` > `inferred` > `experimental`; call out `inferred`/`experimental` claims.
+4. **Note freshness** when a page's `last_verified` predates the refresh cutoff (`data/refresh-cutoff.yaml`).
+
+## Authoring & Maintenance
+
+- Validate: `python3 scripts/validate.py` (0 errors required).
+- Regenerate indices after any frontmatter change: `python3 scripts/generate-indices.py`.
+- Discover recent sources across the eight active watch topics: `python3 scripts/source_discovery.py poll --dry-run --source hf_daily --topic inference --limit 5`; persistent daily runs use `bash scripts/refresh-sources.sh`.
+- Review candidates: `python3 scripts/source_discovery.py list --status new`; reports separate relevance, evidence quality, topic coverage prior, priority, and advice.
+- Promote only after explicit acceptance: `python3 scripts/promote_sources.py promote <canonical-id> --draft`; inference candidates use `--all-routes` to create schema-compatible drafts in both llm-wiki and inference-wiki.
+- Full workflows (Ingest, Batch Ingest, Query, Lint) live in `AGENTS.md`/`CLAUDE.md`. This SKILL.md is the **retrieval entry point**; `AGENTS.md` is the **workflow contract**.
