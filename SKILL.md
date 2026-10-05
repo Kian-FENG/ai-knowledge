@@ -30,7 +30,7 @@ description: 研究 AI 行业趋势、产品形态、美国和中国 AI 公司�
   的 archive → deduplicate → draft → synthesize/link → review → finalize → validate。
 - “日报/每天自动报告”：执行 [daily prompt](prompts/daily.md)；“周报/每周报告”：执行
   [weekly prompt](prompts/weekly.md)。两者遵守
-  [report spec](docs/report-spec.md)。日报使用北京时间，事实与分析分开。
+  [report spec](docs/report-spec.md)。日报使用新加坡时间，每天 06:00 截止，事实与分析分开。
 - 比较模型或 Infra 时加载 [研究口径](docs/research-focus.md)；理解元数据时读取
   [schema](docs/retrieval/schema.md)。不为简单查询加载所有文档。
 

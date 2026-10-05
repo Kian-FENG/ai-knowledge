@@ -1,9 +1,9 @@
 # ai-knowledge
 
 本地 AI 产业研究 Agent，沿用 LLM-Wiki 的入库与检索流程，参考 AI-News 的
-“采集 → 证据包 → Agent 编辑核验 → 报告”流程，每天北京时间 08:00 生成日报，
+“采集 → 证据包 → Agent 编辑核验 → 报告”流程，每天新加坡时间 06:00 生成日报，
 每周六北京时间 08:00 生成周报。定时触发由 Codex 自动化执行
-[统一入口](prompts/scheduled.md)：每天处理日报，周六同次处理周报，漏跑时补最近到期周期。
+[统一入口](prompts/scheduled.md)：每天 06:00 处理日报，周六 08:00 再检查周报，漏跑时补最近到期周期。
 启用状态和运行要求见[定时计划](docs/report-schedule.md)。
 
 重点覆盖 OpenAI、Anthropic、DeepSeek、Qwen/阿里、Kimi/月之暗面及新公司；

@@ -12,3 +12,7 @@
 ## 2026-10-02 — 信息渠道修复
 
 按渠道审计与逐条在线核查修复来源：智谱改为发布记录页，DeepSeek 增加 Change Log、价格页与 Hugging Face，Anthropic 增加 Research 与站点地图，Meta 改为 Newsroom，Qwen/MiniMax 等 JS 或拦截页标记为浏览器核查。新增一手、政府、研究、中英文媒体与 Techmeme 聚合来源，共 94 个（93 个启用）。采集器支持按来源轮询间隔、漏采窗口、网页新链接与页面变化线索、关键词过滤和 robots.txt。Google News RSS 回测效果好但 robots.txt 禁止，改为 Agent 检索清单。首次全量采集 42 ok、38 建立快照、10 需浏览器、3 失败（2 项已修）。未改动已发布知识页。首次采集时 feed 扫描覆盖了 4 条已导入证据（原保护只认 full-text），已修复并从 article-history 恢复。详见 docs/source-remediation-2026-10-02.md。
+
+## 2026-10-04 — 日报截止时间调整
+
+按用户要求将日报改为新加坡时间（Asia/Singapore）每天 06:00 截止，窗口为前一天 06:00 至当天 06:00；周报保留周六 08:00。同步配置、Agent 流程与报告时间标注；历史报告和原始证据保持原窗口。本机未找到已保存的 Codex 自动化配置，实际触发状态尚未确认，定时计划文档已注明。

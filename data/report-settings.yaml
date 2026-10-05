@@ -1,5 +1,5 @@
-timezone: Asia/Shanghai
-daily_hour: 8
+timezone: Asia/Singapore
+daily_hour: 6
 weekly_hour: 8
 weekly_weekday: 5  # Monday=0; Saturday=5
 lookback_days: 14

@@ -1,7 +1,9 @@
 # 日报与周报定时入口
 
 工作目录 `/Users/kian/workspace/ai-knowledge`。使用 ai-knowledge 技能，读取 AGENTS.md。
-计划每天北京时间（Asia/Shanghai）08:00 触发；周六同一次运行顺序完成日报和周报。
+计划每天新加坡时间（Asia/Singapore）06:00 触发日报；周六 08:00 再触发一次检查周报。
+周报仍为每周六北京时间 08:00 截止，与新加坡时间 08:00 相同。
+周六 06:00 时本周窗口尚未结束，不能提前生成本周周报；08:00 运行时跳过已完成且证据未变的日报。
 首次计划运行与首期周报为 2026-10-03。定时任务不回填这个日期之前的历史周报。
 
 1. 执行 `scripts/ai-news status`，分别读取 due_window 与 weekly_due_window。

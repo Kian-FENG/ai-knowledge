@@ -577,7 +577,7 @@ def report_folder(period,date_value):
 def report_indices():
     """Called under the workspace write lock after report publication/migration."""
     root=w.ROOT/'reports'
-    overview=['# AI 产业报告索引','','所有日期按北京时间；周报按窗口结束日所属年份、月份归档。','']
+    overview=['# AI 产业报告索引','','报告日期按各自统计窗口的时区计算，并按窗口结束日所属年份、月份归档；历史窗口见各期报告。','']
     for period,label in (('daily','日报'),('weekly','周报')):
         lines=['# '+label+'索引','']
         manifests=[]
@@ -743,7 +743,9 @@ def report(editorial=None,report_date=None,period='daily'):
             if (folder/name).exists():w.atomic_write(history/name,(folder/name).read_bytes())
     window=pkt['window']
     label='周报' if period=='weekly' else '日报'
-    lines=[f'# AI 产业分析{label}（{date_value.replace("-", ".")}）','',f'统计窗口：{window["start"]} 至 {window["end"]}（北京时间，右端不含）。','',ed['overview'],'']
+    zone_label={'Asia/Singapore':'新加坡时间','Asia/Shanghai':'北京时间'}.get(window['timezone'],window['timezone'])
+    cutoff=datetime.fromisoformat(window['end']).strftime('%H:%M')
+    lines=[f'# AI 产业分析{label}（{date_value.replace("-", ".")}）','',f'统计窗口：{window["start"]} 至 {window["end"]}（{zone_label}，右端不含）。','',ed['overview'],'']
     for section,title in enumerate(settings()['sections']):
         lines += [f'## {section+1}. {title}','']
         selected=[i for i in ed['items'] if i['section']==section]
@@ -756,7 +758,7 @@ def report(editorial=None,report_date=None,period='daily'):
                 a=available[aid]
                 label={'updated':'更新时间','announced':'源站公告时间'}.get(a['date_basis'],'发布时间')
                 lines += [f'- [{a["source_name"]} · {a["title"]}]({a["url"]})；{label}：{effective_date(a)}；定位：{item["locators"][aid]}；阅读范围：{a["extraction"]}；ID：`{aid}`。']
-                if a.get('date_boundary_uncertain'):lines+=['  日期仅精确到天，无法确认 08:00 边界。']
+                if a.get('date_boundary_uncertain'):lines+=[f'  日期仅精确到天，无法确认 {cutoff} 边界。']
             lines+=['']
     if period=='weekly':
         lines+=['## 下周观察','']+['- '+x for x in ed.get('outlook',[])]+['']
