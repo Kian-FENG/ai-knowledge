@@ -3,10 +3,34 @@
     "2026-10-02": {
       "packet_sha256": "b2819db470e9b0273f942a12f4f265c373f272f93c66b592864480bae2a31532",
       "editorial_sha256": "d4217ce04935200497daef33e1a08c66993516017d1481914591439047f81de4"
+    },
+    "2026-10-04": {
+      "packet_sha256": "ee0177f602553aab175d555376201d65aae9d1610bc64c5b04b52f171641d49d",
+      "editorial_sha256": "86c15a0e20222bd1a1fc3e18d4320ae18c734002379e74d1fe5d6317466c4ed0",
+      "notified_at": "2026-10-05T03:32:54.153801+00:00",
+      "research_commit": "ba83adbd4ee6b43884c7e9eec3199cae20af0a63",
+      "git_remote_synced": true
     }
   },
   "failed_source_ids": [
-    "qwen"
+    "alibaba-cloud",
+    "bytedance-seed",
+    "geekpark",
+    "huxiu",
+    "ithome",
+    "jiqizhixin",
+    "leiphone",
+    "minimax",
+    "nda",
+    "qbitai",
+    "qwen",
+    "tmtpost"
   ],
-  "updated_at": "2026-10-02T01:40:57.478770+00:00"
+  "updated_at": "2026-10-05T03:32:54.153801+00:00",
+  "git_sync": {
+    "date": "2026-10-04",
+    "research_commit": "ba83adbd4ee6b43884c7e9eec3199cae20af0a63",
+    "remote_synced": true,
+    "notified_at": "2026-10-05T03:32:54.153801+00:00"
+  }
 }
