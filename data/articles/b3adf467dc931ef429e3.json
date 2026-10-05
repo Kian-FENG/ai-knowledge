@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/microsoft-debuts-voice-ai-compete-elevenlabs",
+  "title": "Microsoft Debuts Voice AI to Compete with ElevenLabs",
+  "text": "Microsoft on Thursday launched speech-generating AI that the company says is both cheaper and more accurate than competing models from the likes of ElevenLabs, SpaceXAI and Google. Microsoft aims to produce voice models to power features such as transcribing conference calls in its Teams app or ...",
+  "published_at": "2026-10-02T11:15:48+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-04T16:47:08+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b3adf467dc931ef429e3",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210.body",
+  "source_sha256": "e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210",
+  "fetched_at": "2026-10-05T03:11:17.582182+00:00"
+}

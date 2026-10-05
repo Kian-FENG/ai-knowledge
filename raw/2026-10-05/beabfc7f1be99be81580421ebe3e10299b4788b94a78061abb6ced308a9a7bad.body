@@ -1,0 +1,379 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=gb2312" />
+    <title>C114通信网</title>
+    <meta name="author" content="c114" />
+	<meta name="keywords" content="通信,工信部,运营商,移动,电信,联通,设备商,华为,中兴,爱立信,NSN,阿朗,ASB,烽火,大唐,终端,智能手机,苹果,三星,诺基亚,LTE,4G,3G,TD,宽带,FTTH,PON,IPRAN,PTN,芯片,云计算,数据,运维,机房,信息安全"/>
+	<meta name="description" content="C114是中国较早成立的专业通信行业垂直门户网站，是中国通信领域历史很久、规模很大、覆盖面很广的网络媒体。C114通信网全面、及时报道包括中国移动、电信、联通、华为、中兴、爱立信等国内外运营商、设备商资讯以及行业新动态；C114通信人家园是国内很大的通信专业社区。"/>
+    <link rel="stylesheet" type="text/css" href="css/index_2025.css" />
+    
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="js/index_2025.js"></script>
+    <script type="text/javascript" src="js/function-18.js"></script>
+    <base target="_blank" />
+    
+    <script type="text/javascript">browserCheck();</script>
+    
+</head>
+
+<body>
+    <div class="page_container">
+        <div class="container">
+            <!--导航-->
+            <div class="navigation">
+                <div class="navigation_l">
+                    <ul>
+                        <li><a href="https://www.c114.com.cn/">C114</a></li> |
+                        <li><a href="https://www.txrjy.com/forum.php">通信人家园</a></li> |
+                        <li><a href="https://en.c114.com.cn/">English</a></li> |
+                        <li class="show_code">公众号矩阵</li>
+                    </ul>
+                </div>
+                <div class="navigation_r">
+                    <div class="form">
+                        <form method="get" action="//www.c114.com.cn/search" name="top-search">
+                            <input class="sub" value="" type="submit">
+                            <input class="sub_input" name="q" type="text" maxlength="100" class="k" placeholder="搜索">
+                            <input type="hidden" name="s" value="">
+                            <input type="hidden" name="stp" value="">
+                        </form>
+                    </div>
+                    <div class="navigation_other">
+                        <ul>
+                            <li><a href="mailto:tougao@c114.com.cn">投稿</a></li> |
+                            <li><a href="https://www.txrjy.com/c114-report.php">举报</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navigation_hidden">
+                    <div class="navigation_hidden_opacity"></div>
+                    <div class="navigation_hidden_code">
+                        <div class="hidden_code_child">
+                            <img src="https://app.c114.com.cn/images/code-6.png">
+                            <span>量子大观</span>
+                        </div>
+                        <div class="hidden_code_child">
+                            <img src="images/txr.jpg">
+                            <span>通信人家园</span>
+                        </div>
+                        <div class="hidden_code_child">
+                            <img src="https://app.c114.com.cn/images/code-1.png">
+                            <span>C114通信网</span>
+                        </div>
+                        <div class="hidden_code_child">
+                            <img src="https://app.c114.com.cn/images/code-4.png">
+                            <span>光互连</span>
+                        </div>
+                        <div class="hidden_code_child">
+                            <img src="images/dvbcn.jpg">
+                            <span>DVBCN中广5G</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			
+			<style>
+			.fscreen1{position:relative;}
+				.fscreen1 p{position:absolute;top:6px;right:8px;color:#fff;}
+			</style>
+            <!-- <div class="advertisement mt fscreen1" id="fscreen1"><p></p><a href=""><img src="/default_inc/a/images/lt-2601302.jpg"></a><img src="" style="display:none;"/></div> -->
+			<script>
+			var ad1 = $('#fscreen1');
+			var adTime = $('#fscreen1 p');
+			var mtime = 5;
+			function FullScreen(){
+				adTime.html(mtime);
+				if(mtime < 1){
+					ad1.hide();
+					return ;
+				}
+				mtime--;
+				setTimeout(FullScreen,1000);
+			}
+			//FullScreen();
+			</script>
+
+            <!--广告-->
+            <div class="advertisement mt">
+                <div class="advertisement_img_most advertisement_img"><a href="https://www.c114.com.cn/topic/6729.html"><img src="/default_inc/a/images/c-260914.jpg" border="0" width="875" height="80" /></a></div>
+                <div class="advertisement_img"><a href="https://www.yofc.com/"><img src="/default_inc/a/images/cf-260831.jpg" border="0" width="300" height="80" /></a></div>
+            </div>
+
+            <!--菜单-->
+            <div class="menu mt">
+                <div class="menu_l">
+                    <img src="images/c114.png" alt="">
+                </div>
+                <div class="menu_r">
+                    <ul>
+                        <li><a href="https://www.c114.com.cn/">首页</a></li>
+                        <li><a href="https://www.c114.com.cn/video/">视频</a></li>
+                        <li><a href="https://www.c114.com.cn/wireless/">6G</a></li>
+                        <li><a href="https://www.c114.com.cn/ftth/">光通信</a></li>
+                        <li><a href="https://www.c114.com.cn/news/50.html">测试</a></li>
+                        <li><a href="https://www.c114.com.cn/quantum/">量子信息</a></li>
+                        <li><a href="https://www.c114.com.cn/satellite/">卫星互联网</a></li>
+                        <li><a href="https://www.c114.com.cn/la/">数智低空</a></li>
+                        <li><a href="https://www.c114.com.cn/ai/">Cloud&AI</a></li>
+                        <li class="menu_more">
+                            <a>更多 +</a>
+                            <div class="menu_more_box">
+                                <div class="menu_more_child"><a href="https://www.c114.com.cn/news/550.html">政策</a></div>
+                                <div class="menu_more_child"><a href="https://www.c114.com.cn/local/">运营商</a></div>
+                                <div class="menu_more_child"><a href="https://www.c114.com.cn/news/18.html">设备商</a></div>
+                                <div class="menu_more_child"><a href="https://www.c114.com.cn/news/51.html">终端</a></div>
+                                <div class="menu_more_child"><a href="https://www.c114.com.cn/news/24.html">财经</a></div>
+                                <div class="menu_more_child"><a href="https://www.c114.com.cn/market/">市场</a></div>
+                                <div class="menu_more_child"><a href="https://www.c114.com.cn/expo/">会展</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="advertisement mt"><a href="https://qdrl.qq.com/YfKj17X8"><img src="/default_inc/a/images/qq-260924.jpg" width="1200"></a></div>
+
+			<!--内容-->
+            <div class="page_content mt">
+                <!--左边-->
+                <div class="page_content_l">
+                    <!--广告-->
+                    <!-- <div class="advertisement mb1"></div> -->
+                    <div class="content_l_list">
+                        <div class="content_l_list_title"><a href="https://www.c114.com.cn/local/">运营商动态</a></div>
+                        <div class="content_l_list_top content_l_list_top_two"><a
+                                href="https://www.c114.com.cn/news/117.html"><span>电信</span></a><a href="https://www.c114.com.cn/news/118.html"><span>移动</span></a><a href="https://www.c114.com.cn/news/119.html"><span>联通</span></a><a
+                                href="https://www.c114.com.cn/news/4564.html"><span>铁塔</span></a><a
+                                href="https://www.c114.com.cn/swrh/"><span>广电</span></a></div>
+                        <div class="content_l_list_box">
+                            <ul>
+								<li class="ysygg"><a href="https://www.c114.com.cn/local/ysygg.asp">【四大运营商+铁塔领导班子一览】</a></li>
+                                <li><a href="https://www.c114.com.cn/local/3884/a1316107.html">一图看懂中国电信2026上半年财报</a></li><li><a href="https://www.c114.com.cn/local/3884/a1315986.html">一图看懂中国联通2026上半年财报</a></li><li><a href="https://www.c114.com.cn/local/3884/a1315982.html">一图看懂中国移动2026上半年财报</a></li><li><a href="https://www.c114.com.cn/local/2787/a1318718.html">辽宁移动联合华为打造“基于5G-A超级上行演进的Mobile AI体验保障体系”荣获ICT中国（2026）案例一等奖</a></li><li><a href="https://www.c114.com.cn/local/2787/a1318716.html">3000M宽带携手大上行在沪首发，中国联通“智家全家享”套餐再提速</a></li><li><a href="https://www.c114.com.cn/local/2787/a1318714.html">湖南移动在工信部5G网络质量测评中斩获六大奖项</a></li>
+                            </ul>
+                        </div>
+                    </div>
+					<div class="content_l_list mt"><div class="content_l_list_title"><a href="https://www.c114.com.cn/topic/6603.html">对话</a></div><div class="content_l_list_top"><a href="https://www.c114.com.cn/video/5918/a1312491.html"><img src="//image.c114.com.cn/cover/a1312492.jpg" alt="AI时代，连接的价值正在被重新定义"><span>烽火通信中国区总裁花汝霞 | AI时代，连接的价值正在被重新定义</span></a></div><div class="content_l_list_box"><ul><li><a href="https://www.c114.com.cn/video/5918/a1312082.html">GSMA大中华区总裁斯寒 | 剧透MWC26 上海，读懂Mobile AI与Token时代</a></li><li><a href="https://www.c114.com.cn/video/5918/a1311698.html">Sparring Partners x 中国电信王越 | Physical AI驱动通信网络能力新时代</a></li></ul></div></div><div class="content_l_list mt"><div class="content_l_list_title"><a href="https://www.c114.com.cn/quantum/">量子信息</a></div><div class="content_l_list_top"><a href="https://www.c114.com.cn/quantum/5285/a1318557.html"><img src="//image.c114.com.cn/cover/a1318557.jpg" alt="专访天工旺量子：量子直接通信可对抗未来的“量子攻击”"><span>专访天工旺量子：量子直接通信可对抗未来的“量子攻击”</span></a></div><div class="content_l_list_box"><ul><li><a href="https://www.c114.com.cn/quantum/5285/a1318489.html">北京大学官网悄然出现“量子科技学院”</a></li><li><a href="https://www.c114.com.cn/quantum/5285/a1318384.html">坤煜量子CEO况亮：量子成像将是未来视觉传感的基座技术</a></li><li><a href="https://www.c114.com.cn/quantum/5285/a1318346.html">安徽785万量子政务项目公示5名中标人</a></li><li><a href="https://www.c114.com.cn/quantum/5285/a1318136.html">IBM量子工厂的10亿美元政府补贴，正式签订协议</a></li></ul></div></div><div class="content_l_list mt"><div class="content_l_list_title"><a href="https://www.c114.com.cn/la/6544.html">低空瞭望</a></div><div class="content_l_list_top"><a href="https://www.c114.com.cn/la/6544/a1318428.html"><img src="//image.c114.com.cn/cover/a1318428.jpg" alt="我国首款吨级纯电eSTOL无人机成功首飞"><span>我国首款吨级纯电eSTOL无人机成功首飞</span></a></div><div class="content_l_list_box"><ul><li><a href="https://www.c114.com.cn/la/6544/a1318427.html">第一批国家新兴产业发展示范基地创建对象名单公布！9家低空企业入选“国家队”</a></li><li><a href="https://www.c114.com.cn/la/6544/a1318426.html">民航局、国家数据局联合印发《民航数据治理体系建设实施方案》：构建低空经济等领域公共数据资源目录</a></li><li><a href="https://www.c114.com.cn/la/6544/a1318425.html">飞行汽车出海！汇天与阿联酋共建全球首个个人低空飞行监管沙盒</a></li><li><a href="https://www.c114.com.cn/la/6544/a1318424.html">新版民航法颁布后，首张型号合格证（TC）诞生！</a></li></ul></div></div>
+                </div>
+                <!--中间-->
+                <div class="page_content_center">
+                    <!-- <div class="content_c_list_b0">
+                        <div class="marquee">
+                            <a class="marquee_img"><img src="images/china_mobile.png"/></a>
+                            <marquee Scrollamount="3" onmouseout="start();" onmouseover="stop();">
+                                <b>·</b><a href="https://www.c114.com.cn/news/103/a1314430.html">全力护航WAIC 2026 中国移动上海公司为“智能伙伴”筑牢“数智底座”</a> 
+                            </marquee>
+                        </div>
+                    </div> -->
+                    <!--轮播图-->
+                    <div class="carousel">
+                        <ul class="carousel-list">
+                            <li class="carousel-item"><a href="https://www.c114.com.cn/news/6541/a1318691.html"><img src="//image.c114.com.cn/cover/a1318685.jpg" alt="北京邮电大学教授张平：卫星互联网发展，不能继续走技术堆叠的老路"><span>北京邮电大学教授张平：卫星互联网发展，不能继续走技术堆叠的老路</span></a></li><li class="carousel-item"><a href="https://www.c114.com.cn/news/6541/a1318692.html"><img src="//image.c114.com.cn/cover/a1318682.jpg" alt="7800万！中国联通启动手机直连试验星在轨交付服务招标"><span>7800万！中国联通启动手机直连试验星在轨交付服务招标</span></a></li><li class="carousel-item"><a href="https://www.c114.com.cn/news/6541/a1318693.html"><img src="//image.c114.com.cn/cover/a1318626.jpg" alt="【光互连观察】50G-PON，走到哪一步了？"><span>【光互连观察】50G-PON，走到哪一步了？</span></a></li>
+                        </ul>
+                        <div class="carousel-control prev"> &lsaquo; </div>
+                        <div class="carousel-control next"> &rsaquo; </div>
+                        <div class="carousel-dots"></div>
+                    </div>
+                    <!--头条-->
+                    <div class="content_c_top">
+                        <h1 class="content_c_top_title"><a href="https://www.c114.com.cn/news/6564/a1318684.html">7800万！中国联通启动手机直连试验星在轨交付服务招标</a></h1><h2 class="content_c_top_title"><a href="https://www.c114.com.cn/ftth/5472/a1318626.html">【光互连观察】50G-PON，走到哪一步了？</a></h2><h3 class="content_c_top_title"><a href="https://www.c114.com.cn/news/6564/a1318687.html">北京邮电大学教授张平：卫星互联网发展，不能继续走技术堆叠的老路</a></h3><h4 class="content_c_top_title"><a href="https://www.c114.com.cn/news/6564/a1318607.html">寒意阵阵！前8个月电信业务收入累计完成1.16万亿，同比下降2.2%</a></h4><h5 class="content_c_top_title"><a href="https://www.c114.com.cn/news/16/a1318608.html">我国已累计建成投产6个国产万卡智算集群</a></h5>
+                    </div>
+                    <div class="content_c_list">
+                        <div class="content_c_list_img"><a href="https://www.c114.com.cn/news/2022.html"><img src="images/yys.png"></a></div>
+                        <div class="content_c_list_box">
+                            <ul class="scroll-list"><li><a href="https://www.c114.com.cn/news/654/a1318709.html">中信科移动王希：星地融合 创新发展，共筑NTN手机直连卫星新生态</a></li><li><a href="https://www.c114.com.cn/news/654/a1318539.html">夯实低空应用底座 大唐联仪全场景测试体系护航智能网联无人机“可靠飞”</a></li><li><a href="https://www.c114.com.cn/news/654/a1318531.html">专访中信科移动王震：锚定三大技术演进方向 夯实6G全域智联基座</a></li><li><a href="https://www.c114.com.cn/news/654/a1318507.html">中信科移动HiNet 2.0智能体解决方案，驱动网络运维迈向自智新纪元</a></li><li><a href="https://www.c114.com.cn/news/654/a1318463.html">中信科移动：5G+AI筑牢非煤矿山数字底座，赋能智能化转型</a></li></ul>
+                        </div>
+                    </div>
+                    <div class="mt"><a href="https://www.ptexpo.com.cn/index.html"><img src="/default_inc/a/images/pt-260901.jpg" width="610"></a></div>
+                    <!--中间的列表-->
+                    <div class="page_content_center_list mt">
+                        <div class="common_title">
+                            <div class="name"><a href="https://www.c114.com.cn/news/roll.asp">热点新闻</a></div>
+                            <a href="https://www.c114.com.cn/news/roll.asp" class="more">更多 > </a>
+                        </div>
+                        <div class="page_content_center_list_box">
+							<div class="center_list"><a href="https://www.c114.com.cn/news/16/a1318753.html"><img src="//image.c114.com.cn/cover/a1318753.jpg" alt="为智能体时代铺轨：GSMA开放生态项目启动，聚焦一群Agent如何共同把事情做好"><div class="text"><div class="title">为智能体时代铺轨：GSMA开放生态项目启动，聚焦一群Agent如何共同把事情做好</div><div class="text_bottom"><div class="time">10/2 09:58</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/126/a1318748.html"><img src="//image.c114.com.cn/cover/a0.gif" alt="华为Mate 90系列发布：从“芯”开始旗舰体验再跨越，售价5999元起"><div class="text"><div class="title">华为Mate 90系列发布：从“芯”开始旗舰体验再跨越，售价5999元起</div><div class="text_bottom"><div class="time">10/1 14:37</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/126/a1318746.html"><img src="//image.c114.com.cn/cover/a1318746.png" alt="华为余承东：鸿蒙终端数突破9000万，可获取应用和元服务超45万"><div class="text"><div class="title">华为余承东：鸿蒙终端数突破9000万，可获取应用和元服务超45万</div><div class="text_bottom"><div class="time">10/1 14:36</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/16/a1318706.html"><img src="//image.c114.com.cn/cover/a1318706.jpg" alt="思特奇旗下App涉诈"><div class="text"><div class="title">思特奇旗下App涉诈</div><div class="text_bottom"><div class="time">9/30 12:59</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/ftth/5472/a1318701.html"><img src="//image.c114.com.cn/cover/a1318701.jpg" alt="AT&T与康宁达成多年度光纤光缆供应协议：合同总价值超30亿美元"><div class="text"><div class="title">AT&T与康宁达成多年度光纤光缆供应协议：合同总价值超30亿美元</div><div class="text_bottom"><div class="time">9/30 11:21</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/ai/5339/a1318563.html"><img src="//image.c114.com.cn/cover/a1318563.jpg" alt="腾讯专有云发布精品案例集：全栈云基座支撑9大核心行业"><div class="text"><div class="title">腾讯专有云发布精品案例集：全栈云基座支撑9大核心行业</div><div class="text_bottom"><div class="time">9/30 10:33</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/118/a1318698.html"><img src="//image.c114.com.cn/cover/a1318698.jpg" alt="中国移动新一代人工智能超节点设备集采，规模为20480卡"><div class="text"><div class="title">中国移动新一代人工智能超节点设备集采，规模为20480卡</div><div class="text_bottom"><div class="time">9/30 10:04</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/118/a1318688.html"><img src="//image.c114.com.cn/cover/a1318688.gif" alt="中国移动冷冻水型列间空调集采：规模为29126项，最高限价9亿元"><div class="text"><div class="title">中国移动冷冻水型列间空调集采：规模为29126项，最高限价9亿元</div><div class="text_bottom"><div class="time">9/30 10:00</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/16/a1318680.html"><img src="//image.c114.com.cn/cover/a1318680.jpg" alt="UWA发布《AItoH生态图谱与应用研究报告》，加速AI智慧家庭走向规模化商用"><div class="text"><div class="title">UWA发布《AItoH生态图谱与应用研究报告》，加速AI智慧家庭走向规模化商用</div><div class="text_bottom"><div class="time">9/30 09:05</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/51/a1318676.html"><img src="//image.c114.com.cn/cover/a1318676.png" alt="搭建“3+2游戏技术版图”：iQOO16正式发布，国补到手价5499元起"><div class="text"><div class="title">搭建“3+2游戏技术版图”：iQOO16正式发布，国补到手价5499元起</div><div class="text_bottom"><div class="time">9/29 21:28</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/119/a1318632.html"><img src="//image.c114.com.cn/cover/a1318632.jpg" alt="中国联通启动手机直连试验星在轨交付服务招标，最高限价7800万元"><div class="text"><div class="title">中国联通启动手机直连试验星在轨交付服务招标，最高限价7800万元</div><div class="text_bottom"><div class="time">9/29 10:57</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/123/a1318616.html"><img src="//image.c114.com.cn/cover/a1318616.jpg" alt="芯联集成：硅光、VCSEL光互连芯片持续放量 前三季营收预计77.66亿元"><div class="text"><div class="title">芯联集成：硅光、VCSEL光互连芯片持续放量 前三季营收预计77.66亿元</div><div class="text_bottom"><div class="time">9/29 10:47</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/16/a1318612.html"><img src="//image.c114.com.cn/cover/a1318612.png" alt="我国电碳算协同运营系统降低算力用电成本达到30%"><div class="text"><div class="title">我国电碳算协同运营系统降低算力用电成本达到30%</div><div class="text_bottom"><div class="time">9/29 09:38</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/117/a1318610.html"><img src="//image.c114.com.cn/cover/a1318610.gif" alt="中国电信国产化万卡智算池建设集采：阿里云入围"><div class="text"><div class="title">中国电信国产化万卡智算池建设集采：阿里云入围</div><div class="text_bottom"><div class="time">9/29 09:31</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/16/a1318608.html"><img src="//image.c114.com.cn/cover/a1318608.png" alt="我国已累计建成投产6个国产万卡智算集群"><div class="text"><div class="title">我国已累计建成投产6个国产万卡智算集群</div><div class="text_bottom"><div class="time">9/29 09:23</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/51/a1318580.html"><img src="//image.c114.com.cn/cover/a1318580.png" alt="荣耀Magic9系列发布，全明星阵容，售价4499元起"><div class="text"><div class="title">荣耀Magic9系列发布，全明星阵容，售价4499元起</div><div class="text_bottom"><div class="time">9/28 18:30</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/51/a1318575.html"><img src="//image.c114.com.cn/cover/a1318575.jpg" alt="鸿蒙智行最好开的车：智界RX携极致驾控性能、L3级架构正式上市，售价25.98万元起"><div class="text"><div class="title">鸿蒙智行最好开的车：智界RX携极致驾控性能、L3级架构正式上市，售价25.98万元起</div><div class="text_bottom"><div class="time">9/28 17:14</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/51/a1318569.html"><img src="//image.c114.com.cn/cover/a1318569.jpg" alt="奇瑞尹同跃：智界全系累计交付即将突破20万辆，团队已很有保时捷味道"><div class="text"><div class="title">奇瑞尹同跃：智界全系累计交付即将突破20万辆，团队已很有保时捷味道</div><div class="text_bottom"><div class="time">9/28 16:32</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/126/a1318566.html"><img src="//image.c114.com.cn/cover/a1318566.jpg" alt="以用户感知为锚点：华为张东提5G-A网络创新三大方向"><div class="text"><div class="title">以用户感知为锚点：华为张东提5G-A网络创新三大方向</div><div class="text_bottom"><div class="time">9/28 16:28</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/quantum/5285/a1318557.html"><img src="//image.c114.com.cn/cover/a1318557.jpg" alt="专访天工旺量子：量子直接通信可对抗未来的“量子攻击”"><div class="text"><div class="title">专访天工旺量子：量子直接通信可对抗未来的“量子攻击”</div><div class="text_bottom"><div class="time">9/28 15:37</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/16/a1318513.html"><img src="//image.c114.com.cn/cover/a1318513.jpg" alt="从算力底座到AI合伙人：联想如何与运营商共拓Token经营"><div class="text"><div class="title">从算力底座到AI合伙人：联想如何与运营商共拓Token经营</div><div class="text_bottom"><div class="time">9/28 11:15</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/wireless/2935/a1318510.html"><img src="//image.c114.com.cn/cover/a1318510.jpg" alt="爱瑞无线锚定空天地一体化与2030年6G商用"><div class="text"><div class="title">爱瑞无线锚定空天地一体化与2030年6G商用</div><div class="text_bottom"><div class="time">9/28 11:11</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/news/126/a1318505.html"><img src="//image.c114.com.cn/cover/a1318505.png" alt="西班牙AMETIC主席Francisco Hortigüela：“Fiber Ready+POL”助力行业数字化转型"><div class="text"><div class="title">西班牙AMETIC主席Francisco Hortigüela：“Fiber Ready+POL”助力行业数字化转型</div><div class="text_bottom"><div class="time">9/28 10:23</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/satellite/2515/a1318494.html"><img src="//image.c114.com.cn/cover/a1318494.jpg" alt="中信卫星陈极珺：低轨不是替代，高低轨融合才是未来"><div class="text"><div class="title">中信卫星陈极珺：低轨不是替代，高低轨融合才是未来</div><div class="text_bottom"><div class="time">9/28 09:28</div></div></div></a></div><div class="center_list"><a href="https://www.c114.com.cn/quantum/5285/a1318489.html"><img src="//image.c114.com.cn/cover/a1318489.jpg" alt="北京大学官网悄然出现“量子科技学院”"><div class="text"><div class="title">北京大学官网悄然出现“量子科技学院”</div><div class="text_bottom"><div class="time">9/28 08:51</div></div></div></a></div>
+                        </div>
+                    </div>
+                </div>
+                <!--右边-->
+                <div class="page_content_r">
+                    <!--广告-->
+					<div class="advertisement mb1"><a href="http://www.hengxin.com/"><img src="/default_inc/a/images/hx-2507172.gif" border="0" width="300" height="80" /></a></div>
+					<div class="advertisement mb1"><a href="http://www.cict.com"><img src="/default_inc/a/images/xk-260920.gif" border="0" width="300" height="80" /></a></div>
+                    <!--专题列表-->
+                    <div class="topic_list">
+                        <div class="common_title">
+                            <div class="name"><a href="https://www.c114.com.cn/topic/">专题推荐</a></div>
+                            <a href="https://www.c114.com.cn/topic/" class="more">更多 > </a>
+                        </div>
+                        <div class="topic_list_box">
+							<div class="topic_box"><a href="https://www.c114.com.cn/topic/6757.html"><img src="//image.c114.com.cn/cover/a1318115.jpg" alt="2026年中国国际信息通信展览会"><div class="text"><div class="title">2026年中国国际信息通信展览会</div><div class="text_bottom"><div class="time">9月22日</div></div></div></a></div><div class="topic_box"><a href="https://www.c114.com.cn/topic/6765.html"><img src="//image.c114.com.cn/cover/a1318189.jpg" alt="第三届5G-A万兆网产业论坛"><div class="text"><div class="title">第三届5G-A万兆网产业论坛</div><div class="text_bottom"><div class="time">9月23日</div></div></div></a></div><div class="topic_box"><a href="https://www.c114.com.cn/topic/6738.html"><img src="//image.c114.com.cn/cover/a1317423.png" alt="AI WAN 中国行"><div class="text"><div class="title">AI WAN 中国行</div><div class="text_bottom"><div class="time">9月11日</div></div></div></a></div><div class="topic_box"><a href="https://www.c114.com.cn/topic/6749.html"><img src="//image.c114.com.cn/cover/a1317480.jpg" alt="纤连山海·光启未来｜亨通光电亮相2026 CIOE中国光博会"><div class="text"><div class="title">纤连山海·光启未来｜亨通光电亮相2026 CIOE中国光博会</div><div class="text_bottom"><div class="time">9月10日</div></div></div></a></div>
+                        </div>
+                    </div>
+                    <!--最新视频-->
+                    <div class="video mt">
+                        <div class="common_title">
+                            <div class="name name_two"><a href="https://www.c114.com.cn/video/"><span>最新视频</span></a></div>
+                            <a href="https://www.c114.com.cn/video/" class="more">更多 > </a>
+                        </div>
+                        <div class="video_list">
+                            <div class="video_list_top">
+								<a href="https://www.c114.com.cn/video/5918/a1318564.html"><img src="//image.c114.com.cn/cover/a1318564.jpg" alt="从流量到 Token 经营，AI WAN重构算网底座"><span>从流量到 Token 经营，AI WAN重构算网底座</span></a>
+                            </div>
+                            <div class="video_list_box">
+                                <ul><li><a href="https://www.c114.com.cn/video/5918/a1318458.html">联瑞电子：携时间同步卡解决方案亮相北京通信展</a></li><li><a href="https://www.c114.com.cn/video/5919/a1318386.html">中国信科亮相2026中国国际信息通信展，三大硬核实力连接智能未来</a></li><li><a href="https://www.c114.com.cn/video/5918/a1318380.html">PTEXPO26现场专访 | 亨鑫科技王申竹：深耕无线覆盖，布局空天地一体化通信</a></li><li><a href="https://www.c114.com.cn/video/5918/a1318164.html">华为蔡骏：智感领航、安全筑基，加速AI时代广域网络焕新</a></li></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--直播回放-->
+                    <div class="live mt">
+                        <div class="common_title">
+                            <div class="name name_two"><a href="https://www.c114.com.cn/live/"><span>直播/回放</span></a></div>
+                            <a href="https://www.c114.com.cn/live/" class="more">更多 > </a>
+                        </div>
+                        <div class="video_list">
+                            <div class="video_list_top video_list_top2">
+								<a href="https://www.c114.com.cn/live/t1104.html"><div class="live_video_text_time"><div class="state">回放</div><div class="time">9.23 8:50</div></div><img src="//image.c114.com.cn/cover/a1318055.jpg" alt="第三届5G-A万兆网产业论坛"><div class="live_column"><span class="title">第三届5G-A万兆网产业论坛</span></div></a>
+                            </div>
+                            <div class="video_list_box">
+                                <ul><li><a href="https://www.c114.com.cn/live/t1101.html">2026年中国国际信息通信展览会开幕式与主论坛</a></li><li><a href="https://www.c114.com.cn/live/t1098.html">2026中国算力大会</a></li><li><a href="https://www.c114.com.cn/live/t1097.html">AI+新型光纤应用论坛</a></li><li><a href="https://www.c114.com.cn/live/t1091.html">2026中国联通合作伙伴大会</a></li></ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--通信人家园-->
+                    <div class="txr_home mt">
+                        <div class="common_title">
+                            <div class="name"><a href="https://www.txrjy.com/forum.php">通信人家园</a></div>
+                            <a href="https://www.txrjy.com/forum.php" class="more">更多 > </a>
+                        </div>
+                        <div class="txr_list">
+                            <div id="c114-index-2025"></div>
+                        </div>
+                        <!-- <div class="txr_more">
+                            <a href="https://www.txrjy.com/forum.php">更多热议话题</a>
+                        </div> -->
+                    </div>
+                    <!--会展-->
+                    <div class="convention mt">
+                        <div class="common_title">
+                            <div class="name"><a href="https://www.c114.com.cn/expo/">会展</a></div>
+                            <a href="https://www.c114.com.cn/expo/" class="more">更多 > </a>
+                        </div>
+                        <div class="video_list">
+                            <div class="video_list_top">
+                                <div class="topic">专题</div>
+								<a href="https://www.c114.com.cn/topic/6765.html"><img src="//image.c114.com.cn/cover/c6765.jpg" alt="第三届5G-A万兆网产业论坛"><span class="align_center">第三届5G-A万兆网产业论坛</span></a>
+                            </div>
+                            <div class="video_list_box">
+                                <div class="recent_exhibitions">近期展会</div>
+                                <ul>
+									<li><a href="https://www.c114.com.cn/expo/e/1763.html">2026中国国际大数据产业博览会</a><span>2026-8-28</span></li><li><a href="https://www.c114.com.cn/expo/e/1762.html">中国国际社会公共安全产品博览会</a><span>2026-11-3</span></li><li><a href="https://www.c114.com.cn/expo/e/1761.html">IOTE 2026 第二十五届国际物联网展&#12539;深圳站</a><span>2026-8-26</span></li><li><a href="https://www.c114.com.cn/expo/e/1760.html">中国（上海）国际技术进出口交易会（简称上交会CSITF）</a><span>2026-6-11</span></li>
+								</ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--广告box-->
+                    <div class="advertisement advertisement_list">
+                        <div class="advertisement_box"><a href="http://www.dcw.org.cn/industry/9968.html"><img src="default_inc/a/images/hz-260715.jpg"/></a></div>
+                        <div class="advertisement_box"><a href="https://www.ptexpo.com.cn/index.html"><img src="default_inc/a/images/hz-251210.png"/></a></div>
+                        <div class="advertisement_box"><a href="https://www.cioe.cn/"><img src="/expo/images_a/cioe-251128.gif"/></a></div>
+                        <div class="advertisement_box"><a href="https://www.pwdexpo.com/"><img src="default_inc/a/images/hz-260320.gif"/></a></div>
+                        <div class="advertisement_box"><a href="http://yshz.cn/8GnSoa"><img src="default_inc/a/images/hz-260330.jpg"/></a></div>
+                        <div class="advertisement_box"><a href="https://infocomm-china.expotec.com.cn/Reg/login/ifc?lng=cn&trace_code=Media-Ccid"><img src="/expo/images_a/inf-260126.gif" width="300" height="60"/></a></div>
+                        <div class="advertisement_box"><a href="https://chengdu.icef.com.cn"><img src="default_inc/a/images/ice-260511.jpg"/></a></div>
+                        <div class="advertisement_box"><a href="https://reed.infosalons.com.cn/reg/OVCEXPO26/Web/Visitor/index.html#/login?lang=zh-CN&type=YBVC0Q"><img src="default_inc/a/images/hz-260304.gif"/></a></div>
+                        <div class="advertisement_box"><a href="https://www.ieaefair.com/"><img src="default_inc/a/images/hz-260302.jpg"/></a></div>
+                        <div class="advertisement_box"><a href="https://dwz.cn/xOs6InPw"><img src="default_inc/a/images/hz-260311.gif"/></a></div>
+                        <div class="advertisement_box"><a href="https://www.factec.com.cn"><img src="default_inc/a/images/hz-260306.gif"/></a></div>
+                        <div class="advertisement_box"><a href="https://iicieexpo.com/"><img src="default_inc/a/images/hz-260209.png" width="300" height="60"/></a></div>
+                        <div class="advertisement_box"><a href="https://www.securitychina.com.cn/Home"><img src="default_inc/a/images/hz-260401.gif"/></a></div>
+                    </div>
+                </div>
+            </div>
+            <!--合作伙伴-->
+            <div class="Flink1">
+                <div class="Flink1_title">合作伙伴</div>
+                <h4>[战略合作]</h4>
+                <div><a>人民邮电出版社</a><a>TD-SCDMA技术论坛</a><a href="http://www.rachina.org.cn" class="last">中国无线电协会</a></div>
+                <h4>[合作媒体]</h4>
+                <div><a href="http://it.sohu.com">搜狐IT</a><a href="http://tech.ifeng.com">凤凰网科技</a><a
+                        href="http://tech.qq.com">腾讯科技</a><a href="http://it.hexun.com">和讯科技</a><a
+                        href="https://www.36kr.com/">36氪</a><a href="http://www.cww.net.cn">通信世界网</a><a
+                        href="http://tech.huanqiu.com/original/">环球网科技</a><a href="http://www.ebrun.com">亿邦动力网</a><a
+                        href="http://www.sootoo.com/">速途网</a><a href="http://www.enicn.com/">ENI经济和信息化网</a><a
+                        href="http://www.ccidcom.com">通信产业网</a><a href="http://www.cena.com.cn">中国电子报</a><a
+                        href="http://biz.tom.com/">TOM商业</a><a href="http://zhidx.com/">智东西</a><a
+                        href="http://www.ithome.com">IT之家</a><a href="http://www.rfidworld.com.cn">RFID世界网</a><a
+                        href="http://www.it168.com/">IT168</a><a href="https://www.e-works.net.cn/">数字化企业网</a><a
+                        href="http://www.ccidnet.com">赛迪网</a><a href="http://www.zhiding.cn">至顶网</a><a
+                        href="http://www.fromgeek.com">极客网</a><a href="http://www.urgc.net">环球专网通信</a><a
+                        href="https://www.ofweek.com/">维科网</a><a href="http://www.idcquan.com/">中国IDC圈</a><a
+                        href="https://www.iimedia.cn/">艾媒网</a><a href="http://phone.cnmo.com">手机中国</a><a
+                        href="http://www.iot101.com">物联网智库</a><a href="/links" class="last">更多</a></div>
+            </div>
+        </div>
+        <div class="foot">
+            <div class="container">
+                <div class="foot_box">
+                    <div class="foot_l">
+                        <div class="foot-1"><img src="https://www.c114.com.cn/images/18/logo2.png"></div>
+                        <div class="foot-2">
+                            <p class="foot_mr"><a class="foot_href_big"
+                                    href="https://www.c114.com.cn/aboutus/c114.asp">C114简介</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="foot_href_big"
+                                    href="https://www.c114.com.cn/aboutus/contact.asp">联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp; <a class="foot_href_big"
+                                    href="sitemap.html">网站地图</a></p>
+                            <p class="foot_mr">Copyright&copy;1999-2025 c114 All Rights Reserved <a
+                                    href="https://beian.miit.gov.cn">沪ICP备12002291号-4</a></p>
+                            <p><a href="https://www.c114.com.cn/aboutus/copyright.asp">C114通信网版权所有</a>
+                                举报电话：021-54451141 <a href="http://www.txrjy.com/thread-1059359-1-1.html">用户注销</a></p>
+                        </div>
+                    </div>
+                    <div class="foot-3">
+                        <p><a href="https://www.shjbzx.cn/"><img src="images/b-1.png"></a></p>
+                        <p><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000772"><img src="images/b-2.png"></a></p>
+                        <p><a href="https://www.piyao.org.cn/"><img src="images/b-3.png"></a></p>
+                        <p><a href="http://wap.scjgj.sh.gov.cn/businessCheck/verifKey.do?showType=extShow&serial=9031000020160406143826000000522929-SAIC_SHOW_310000-20120228134828980571&signData=MEUCIQD3lf5BuLIFpVrWK8yaYE3PX5yd7T475hm4euruV4NKhwIgS16nzxDBLihgeQMyJgI/Q/Ww/rQj0EQrgoSzBN6YUlA="><img
+                                    src="images/b-4.png"></a></p>
+                        <p><a><img src="images/b-5.png"></a></p>
+                        <p><a href="https://beian.miit.gov.cn/"><img src="images/b-6.png"></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chat_fixed">
+        <div class="chat_fixed_box">
+            <div class="chat_fixed_child"><a href="https://weibo.com/1892507065"><img src="images/weibo.png" /></a>
+            </div>
+            <div class="chat_fixed_child"><a href="https://www.txrjy.com/thread-675151-1-1.html"><img
+                        src="images/chat.png" /></a></div>
+            <div class="chat_fixed_child"><a href="https://app.c114.com.cn/"><img src="images/app.png" /></a></div>
+            <div class="chat_fixed_child go_top"><img src="images/go_top.png" /></div>
+        </div>
+    </div>
+    <script src="https://www.txrjy.com/plugins/c114/c114-index-2025.js?2026-10-5 11:07:25"></script>
+    
+    
+    <div style="display:none">
+        <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?3d113c8324b108865d5f578fa799f678";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script>
+    </div>
+    <img src="//www.c114.com.cn/counter/?t=CN&e=5314" style="display:none"/>
+    
+    
+    <script type="text/javascript" src="js/bbs-hit.js"></script>
+    <!--2026-10-5 11:07:25-->    
+</body>
+
+</html>

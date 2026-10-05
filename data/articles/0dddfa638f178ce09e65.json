@@ -1,0 +1,17 @@
+{
+  "title": "Changes to Gemini model access and limits",
+  "url": "https://support.google.com/gemini/answer/17004136",
+  "text": "Source: https://support.google.com/gemini/answer/17004136\nTitle: Changes to Gemini model access and limits\nReading: Entire rendered help page read with web tool; source-notes snapshot, not original HTTP response.\nPublication and last-update dates: not shown.\nEffective dates: The help page says access changes start taking effect on October 9, 2026 for personal accounts without an AI subscription. AI Plus subscribers should receive an email with their effective date.\nAccess after the change: No plan: Flash-Lite only. AI Plus: Flash-Lite and Flash. AI Pro and AI Ultra: Flash-Lite, Flash and Pro. Paid Pro/Ultra also offer Deep Think.\nScope: Gemini Apps personal accounts. This does not establish API, Workspace or enterprise model access.\nResearch limit: No claim that this page was first published in the current news window; prices, rollout completion and adoption effects not verified.\n",
+  "published_at": null,
+  "date_basis": "unknown",
+  "extraction": "official-help-page-read; agent-source-notes",
+  "raw_path": "raw/2026-10-05/9509f8630a3c14456dd5e021e4eebe71ae6967cb8b6c9f58d53e6a875e23a1f0.txt",
+  "imported": true,
+  "id": "0dddfa638f178ce09e65",
+  "source_id": "google-ai-blog",
+  "source_name": "Google AI Blog",
+  "section": 0,
+  "source_sha256": "9509f8630a3c14456dd5e021e4eebe71ae6967cb8b6c9f58d53e6a875e23a1f0",
+  "fetched_at": "2026-10-05T03:19:33.028222+00:00",
+  "date_precision": "timestamp"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-04/ai-whistleblowers-google-openai-meta-to-face-new-york-city-council",
+  "title": "AI Whistleblowers, Google, OpenAI, Meta to Face New York City Council",
+  "text": "Former Anthropic researcher Jacob Coxon, who warned that artificial intelligence could become too powerful for humans to control, will testify Monday at a New York City Council hearing alongside representatives of some of the world’s biggest AI companies.",
+  "published_at": "2026-10-04T20:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a4f29ee6d816fa2e19d2",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/70b5dfc163dae6c57185058a6cf10fc2e00414019442a3819e6ae1e4321d2e2e.body",
+  "source_sha256": "70b5dfc163dae6c57185058a6cf10fc2e00414019442a3819e6ae1e4321d2e2e",
+  "fetched_at": "2026-10-05T03:11:19.581691+00:00"
+}

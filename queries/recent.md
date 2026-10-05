@@ -2,6 +2,14 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-05
+
+- `entity` [[reference/entities/halluminate|Halluminate：知识工作评测与强化学习环境公司]]
+- `paper` [[reference/papers/rrsi-agent-harnesses-2609-24972|RRSI：约束 Agent harness 自我改进的过拟合]]
+- `source` [[reference/sources/gemini-model-access-october-2026|Gemini 个人账户模型访问分层：10月生效安排]]
+- `source` [[reference/sources/halluminate-series-a-20261001|Halluminate：融资与金融知识工作 RL 环境]]
+- `source` [[reference/sources/us-super-intelligence-force-20261004|美国 Super Intelligence Force 成立的媒体披露]]
+
 ## 2026-10-02
 
 - `entity` [[reference/entities/volantis|Volantis：推理光子互连公司]]

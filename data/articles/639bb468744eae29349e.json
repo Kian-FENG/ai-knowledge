@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155334.htm",
+  "title": "全球首款！研扬发布Panther Lake无风扇迷你主机：AirJet超声波散热",
+  "text": "快科技10月4日消息，据报道，工业计算厂商研扬（Aaeon）正式发布全球首款搭载英特尔Panther Lake处理器的无风扇迷你主机——UP Xtreme PTL Edge Air。\n该机型最大的亮点是采用了Frore Systems的AirJet固态主动散热技术，以超声波振膜取代传统风扇，运行噪音低于21dBA。\nAirJet的核心是一层MEMS压电薄膜，它以超声波频率振动，产生高速脉冲气流，将热量从设备内部排出。由于没有任何旋转部件，该方案不仅实现了近乎无声的运行，还彻底消除了传统风扇固有的振动，这对工业机器人和精密医疗设备至关重要。\n借助这一技术，UP Xtreme PTL Edge Air比采用传统风扇和散热器的版本薄了35%、轻了43%，机身厚度仅35.8mm，重量约710克。\n处理器最高可选英特尔酷睿Ultra X7 358H（Panther Lake架构）。该芯片为16核设计，包含4个性能核、8个能效核和4个低功耗能效核，最高睿频4.8GHz，基础功耗25W。\n图形与AI算力方面，该平台同样配置到位，集成12个Xe核心的Arc B390核显，NPU算力与平台AI总算力最高可达180 TOPS。用户也可选择Ultra 7 356H或Ultra 5 325。\n接口配置面向工业场景：提供2个USB4 Type-C（40Gbps）、2 个 USB 3.2 Gen2 Type-A、双 2.5GbE 网口、2 个 COM 串口（RS-232/422/485）以及一组40-Pin GPIO，支持四屏同显。内部提供2条DDR5-7200 SODIMM内存插槽（最高128GB）和2个M.2 2280 NVMe盘位。\nAirJet散热方案也带来了取舍，整机功耗增加约6%，工作温度范围收窄至-10°C至+45°C。\n该产品主要面向嵌入式与工业市场，可预装Windows IoT Enterprise或Ubuntu 24.04 LTS。研扬尚未公布具体售价，需直接联系厂商获取报价。",
+  "published_at": "2026-10-04T14:34:22+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "639bb468744eae29349e",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/bc716252c2cc029f5b2091823ffd007211677810c79488fc7a6f79bd0a535823.body",
+  "source_sha256": "bc716252c2cc029f5b2091823ffd007211677810c79488fc7a6f79bd0a535823",
+  "fetched_at": "2026-10-05T03:11:36.736088+00:00"
+}

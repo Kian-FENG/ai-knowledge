@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+  "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+  "text": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally.  Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, […]",
+  "published_at": "2026-10-02T13:00:39+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "cecaa627e24bd9730bc2",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-05/5e33b8d6f267cacb058e6a655e0fef5231b03cef800bf10fc6fd756890ff5473.body",
+  "source_sha256": "5e33b8d6f267cacb058e6a655e0fef5231b03cef800bf10fc6fd756890ff5473",
+  "fetched_at": "2026-10-05T03:10:48.080073+00:00"
+}

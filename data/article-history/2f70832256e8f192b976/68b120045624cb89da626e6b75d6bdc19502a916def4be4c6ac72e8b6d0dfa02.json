@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/openai-fires-three-safety-researchers",
+  "title": "OpenAI Fires Three Safety Researchers",
+  "text": "OpenAI said it fired three safety employees for mishandling corporate information, which a person familiar with the matter said included sensitive information with an outside organization that does AI evaluations.\n“We have parted ways with three individuals for violating our policies on ...",
+  "published_at": "2026-10-01T19:31:26+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-01T20:59:00+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2f70832256e8f192b976",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-02/68b120045624cb89da626e6b75d6bdc19502a916def4be4c6ac72e8b6d0dfa02.body",
+  "source_sha256": "68b120045624cb89da626e6b75d6bdc19502a916def4be4c6ac72e8b6d0dfa02",
+  "fetched_at": "2026-10-02T03:11:05.036007+00:00"
+}

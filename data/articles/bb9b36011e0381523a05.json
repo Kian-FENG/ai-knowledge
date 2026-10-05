@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/02/technology/russian-propaganda-ai-war-songs.html",
+  "title": "Russia’s Latest Propaganda? A.I.-Generated War Songs.",
+  "text": "Russians are creating and spreading music glorifying the invasion of Ukraine, using platforms built in the United States.",
+  "published_at": "2026-10-02T14:40:25+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "bb9b36011e0381523a05",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/d9e13938ea9e1626b1954c1fe0f421292d7c06bbb497cd71fc9db14cc6f489f4.body",
+  "source_sha256": "d9e13938ea9e1626b1954c1fe0f421292d7c06bbb497cd71fc9db14cc6f489f4",
+  "fetched_at": "2026-10-05T03:11:18.867770+00:00"
+}

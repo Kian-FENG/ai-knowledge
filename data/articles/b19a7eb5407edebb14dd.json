@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+  "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+  "text": "New helpful little guy just dropped. | Photo: Allison Johnson / The Verge\nIt's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding.\nBut unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work.\nOpenAI announced Dots earlier this week. Like Muse, Dots have blobby, anthropomorphic avatars and customizable names. In the future, OpenAI says you'll be able to have multiple Dots, but right now you get one. I named mine Dotty McDotface.\nThe interface looks similar to Muse's; you chat with the agent in one window and follow its work in another as it  …\nRead the full story at The Verge.",
+  "published_at": "2026-10-02T14:00:00-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-02T13:56:00-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b19a7eb5407edebb14dd",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-05/181efdba83367840ad767ebc39fa44676c86549cdeccf50d8f005f7bb926b12a.body",
+  "source_sha256": "181efdba83367840ad767ebc39fa44676c86549cdeccf50d8f005f7bb926b12a",
+  "fetched_at": "2026-10-05T03:11:17.133903+00:00"
+}

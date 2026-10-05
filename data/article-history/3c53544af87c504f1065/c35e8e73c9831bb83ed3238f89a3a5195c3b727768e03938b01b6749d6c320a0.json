@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+  "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+  "text": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035. As these machines enter roads, factories, warehouses and other environments shared with people, […]",
+  "published_at": "2026-09-21T16:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3c53544af87c504f1065",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-02/c35e8e73c9831bb83ed3238f89a3a5195c3b727768e03938b01b6749d6c320a0.body",
+  "source_sha256": "c35e8e73c9831bb83ed3238f89a3a5195c3b727768e03938b01b6749d6c320a0",
+  "fetched_at": "2026-10-02T03:10:53.658960+00:00"
+}

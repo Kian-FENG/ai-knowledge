@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0"><channel><title>智东西</title>
+<description>智东西：智能产业第一媒体！</description>
+<link>https://zhidx.com</link>
+<pubDate>Mon, 05 Oct 2026 11:11:36 +0800</pubDate>
+<language>zh-cn</language>
+<generate>https://zhidx.com/rss</generate>
+<item><title><![CDATA[颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/9abec9885566f15f0fb9e4bb0689e451/6ac27800/uploads/2026/10/6ac0dea213eb5_6ac0dea2110e8_6ac0dea2110b7_toutut-.png"><strong>智东西</strong><br />
+<strong>作者 | 程茜</strong><br />
+<strong>编辑 | 漠影</strong></p>
+<p class="p1">MiniMax M3.1-Flash，这个在国庆前夕上线并开启公测的模型，成了假期里颇受关注的新宠。M3.1-Flash被玩出了新花样，3D网页、动效设计、品牌广告、教学动画，开发者们用模型制作出了各种各样炫酷的短片和应用。</p>
+<p class="p1">长久以来，业界的固有看法是，打造精致好看、可直接运行的前端小应用和高质量 UI 交互网页，是旗舰大模型的专属能力，而轻量 Flash 模型大多只负责简单兜底任务。想要手搓出界面精致、拿来即用的应用，往往只能押注高成本的旗舰模型，比如海外爆火的 Claude 系列高阶主力模型 Opus 5.5。</p>
+<p class="p1">但 M3.1‑Flash 的出现证明，Flash 模型已经将高质量前端交互能力做到了旗舰模型级别。这次，我们用动效视频、鸡尾酒动画和像素巫师等任务，看看 M3.1-Flash 能不能接住那些让 Opus 5.5 出圈的前端需求。</p>
+<h2 class="p1"><strong>一、实测对比 M3.1-Flash 、Opus 5.5，结果超出预期</strong></h2>
+<p class="p1">我们先来感受一下 M3.1‑Flash 的实力。</p>
+<p class="p1">首先我们输入了一个提示词，让 M3.1‑Flash “做一条约 1 分钟、有高级感的程序化动画，讲大π键和小π键，以高中化学竞赛知识为主，动效衔接要巧妙，其余自由发挥。”</p>
+<p class="p1">下面就是模型生成的动画效果，背景为黑色，主要内容采用了黄色、绿色、白色光点相呼应，再辅以相应的文字解析和光点变化，将大π键和小π键的相应知识点串联起来，可以直接作为教学辅助素材。</p>
+<p><img class="alignnone wp-image-598855 size-full" src="https://oss.zhidx.com/1e1bd0c9cc72788aee18625ced35d3bd/6ac27800/uploads/2026/10/6ac0dd7bb01b0_6ac0dd7bad50d_6ac0dd7bacf0f_2026-10-03-13-25-15.2026-10-03-13_26_50.gif" alt="颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5" width="800" height="445" /></p>
+<p class="p1">我们再尝试用 M3.1‑Flash 生成一个“星空列车”。可以看到，模型生成的效果中，左侧是列车移动的主要画面，背景有星空、星球等元素，右侧为控制区，可选择摄影机视角、运行参数等各项内容，互动性非常高。</p>
+<p class="p1">当我点击右侧对应选项时，左侧画面会实时响应，如调整摄像机拍摄角度、列车运行的速度等，几乎可以作为游戏的场景原型。</p>
+<p><img class="alignnone size-medium wp-image-598856" src="https://oss.zhidx.com/05f573ad88eaeee61466e3f1172dfa87/6ac27800/uploads/2026/10/6ac0dd8d41ac1_6ac0dd8d3ee82_6ac0dd8d3ee1d_2026-10-03-13-34-57.2026-10-03-13_37_42.gif?x-oss-process=image/resize,m_fill,w_600,h_283" alt="颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5" width="600" height="283" /></p>
+<p class="p1">同一个提示词下，我们再来对比M3.1‑Flash与Opus 5.5的生成效果，把作品放在一起看。</p>
+<p class="p1">输入一个开放性提示词，要求模型“制作一个动态十足的15秒动画视频，展示你作为动画设计师的惊人才华，就像为你的作品集制作简历。”</p>
+<p class="p1">X上也有不少网友晒出Opus 5.5的类似案例，先来看下效果。</p>
+<p class="p1">可以看出，Opus 5.5在15秒内高密度输出多种MG动效：字体动效、几何形态变形、粒子点阵、旋转弧线、简易3D图形、色彩切换，堪称其“炫技之作”。</p>
+<p><img class="alignnone size-medium wp-image-598857" src="https://oss.zhidx.com/c3212e8571a5ee58a260642bbb68c6e5/6ac27800/uploads/2026/10/6ac0dd9bad026_6ac0dd9baa1c5_6ac0dd9baa17c_2026-10-02-16-51-36.2026-10-02-16_52_40.gif?x-oss-process=image/resize,m_fill,w_539,h_300" alt="颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5" width="539" height="300" /></p>
+<p class="p1">再来看下M3.1‑Flash‑Preview的实测效果，整体同样呈现出丰富的动效演示效果，文字渲染没有出现扭曲、糊化。并且其全程维持一套统一配色与图形语言，节奏偏舒缓。</p>
+<p><img class="alignnone size-medium wp-image-598858" src="https://oss.zhidx.com/3ede2e6d31bb16e047ebe82fb3d7f900/6ac27800/uploads/2026/10/6ac0dda8622b8_6ac0dda85f3f5_6ac0dda85f39b_2026-10-02-16-54-03.2026-10-02-17_10_56_%E5%89%AF%E6%9C%AC.gif?x-oss-process=image/resize,m_fill,w_540,h_300" alt="颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5" width="540" height="300" /></p>
+<p class="p1">▲M3.1-Flash生成效果</p>
+<p class="p1">接下来的案例是要求模型“使用JavaScript或HTML来制作一个动画，展示整个制作过程——从开始到结束，从空杯子到完成后的鸡尾酒。这个动画应该类似于说明视频的风格，能够显示食材和所需用量。整个动画预计时长约为30秒。”</p>
+<p class="p1">Opus 5.5 生成的结果，整体是科普讲解视频，把图片和自然语言直接转化为带时序动画的可运行前端程序。从空杯子到调好鸡尾酒完整流程、展示原料+用量、解说视频风格、时长 30 秒都契合需求，不过其中开发者提示词中出现了拼写错误，模型的生成结果中也没有进行识别修正。</p>
+<p><img class="alignnone wp-image-598859 size-full" src="https://oss.zhidx.com/c5dced18882ba52af2b63e08a123b619/6ac27800/uploads/2026/10/6ac0ddb76e3fc_6ac0ddb76a9b7_6ac0ddb76a945_2026-10-02-17-12-55.2026-10-02-17_14_05.gif" alt="颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5" width="800" height="701" /></p>
+<p class="p1">▲Claude Opus 5.5生成效果</p>
+<p class="p1">相比之下，M3.1‑Flash的生成效果让人惊喜，步骤更加完整，有添加冰块、橙汁到最后装饰完整的鸡尾酒制作六步分解过程。美中不足的是，和Opus 5.5生成的效果类似，盛鸡尾酒的杯子和橙汁瓶等比例，和现实相比有不合理之处。</p>
+<p><img class="wp-image-598860 size-full alignnone" src="https://oss.zhidx.com/0d860eaeff331e290f66ae94254a1e91/6ac27800/uploads/2026/10/6ac0ddbecb658_6ac0ddbec860e_6ac0ddbec85b8_2026-10-03-03-13-53.2026-10-03-03_17_10.gif" alt="颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5" width="1000" height="508" /></p>
+<p class="p1">▲M3.1-Flash-Preview生成效果</p>
+<p class="p1">除了动画效果，M3.1‑Flash还制作了一个网页，将每个步骤所需的具体用料、制作过程的注意事项单独罗列了出来，且制作过程的演示还有播放控制、倍速按钮。</p>
+<p><img class="alignnone wp-image-598861 size-full" src="https://oss.zhidx.com/2cf4a8af98ba71fd295361c065c3a733/6ac27800/uploads/2026/10/6ac0ddc4a4627_6ac0ddc4a19ce_6ac0ddc4a198c_ScreenShot_2026-10-02_172406_148-%E6%8B%B7%E8%B4%9D.png" alt="颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5" width="2280" height="2149" /></p>
+<p>▲M3.1-Flash-Preview生成效果</p>
+<p class="p1">第三个案例是让模型“创建一个独立完整的HTML文件，使用原生JavaScript与Canvas 2D渲染一名正在释放法术的像素风巫师。”</p>
+<p class="p1">两个模型生成的效果整体都是复古像素画风、颗粒感明确，其通过低分辨率像素块构成人物、特效，施法伴随魔法粒子、闪光、光晕类动态效果。</p>
+<p><img class="alignnone wp-image-598862 size-full" src="https://oss.zhidx.com/22a25ecaedf4d0798eb00fc50172d095/6ac27800/uploads/2026/10/6ac0ddc7bd2c0_6ac0ddc7ba848_6ac0ddc7ba7f9_2026-10-02-17-28-28.2026-10-02-17_29_57.gif" alt="颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5" width="1000" height="751" /></p>
+<p class="p1">▲Claude Opus 5.5生成效果</p>
+<p class="p1">不同点在于，Opus 5.5的整体画面主体聚焦在施法核心动作，背景简单，代码轻量化，M3.1-Flash自主做了视觉增强，巫师施法时的动效元素更丰富，还追加了星空背景。</p>
+<p><img class="alignnone wp-image-598863 size-full" src="https://oss.zhidx.com/4874c3c0bd76cfe0b1e48fbd0336aa9e/6ac27800/uploads/2026/10/6ac0ddcb0ec18_6ac0ddcb0bf3f_6ac0ddcb0bee1_2026-10-02-17-30-17.2026-10-02-17_30_58.gif" alt="颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5" width="1000" height="558" /></p>
+<p>▲M3.1-Flash-Preview生成效果</p>
+<p>实际上，在测试这款Flash模型前，我以为它和Opus 5.5这类旗舰模型还会有较大差距。但实测下来却有些意外，不少原本我以为只有旗舰模型才能完成的前端效果，M3.1‑Flash同样可以复现，部分细节处理甚至偶有惊喜。</p>
+<p>对比传统Flash类模型，MiniMax的这款新作让我们看到，Flash模型也可以读懂用户的诉求，主动推演、补全设计细节，直接闭环交付一套完整可用的视觉交互成品。</p>
+<h2><strong>二、当前端能力成为胜负手</strong></h2>
+<p class="p1">M3.1-Flash在实测中的表现，让人看到了Flash模型在前端任务上更多的可能。要把一个交互作品做好，模型既要写出能够运行的代码，也要理解用户想要什么样的画面，并让布局、动效和操作方式配合起来。</p>
+<p class="p1">这也正是前端能力值得关注的地方。对于前端任务，视觉理解与代码实现能否衔接十分关键。参考画面中的布局和空间关系，需要落实到代码中；页面运行后出现的错位、遮挡，也需要通过实际画面发现，再找到对应的代码进行调整。</p>
+<p class="p1">M3.1-Flash的越级表现，源于MiniMax的多模态技术积累和M3系列的原生多模态训练路线。M3系列模型支持1M上下文窗口，且从预训练阶段就进行文本、图像、视频语义空间的多模态混合训练，让不同模态数据的语义空间实现更天然、更高度的融合。这使得其多模态理解能力固定在原生模型内，而非后期附加模块，可以规避语义割裂、适配不统一等痛点。</p>
+<p><img class="alignnone wp-image-598864 size-full" src="https://oss.zhidx.com/b2737e40945f73320e128ad5b94a802d/6ac27800/uploads/2026/10/6ac0de693a894_6ac0de6937ace_6ac0de6937aa3_image.png" alt="颠覆刻板印象！Flash 模型卷前端，效果硬刚 Opus 5.5" width="2360" height="1090" /></p>
+<p class="p1">MiniMax在多模态领域的积累，从视频模型上也可见一斑。下半年发布的MiniMax H3实现了对文本、图像、视频、声音组成的多模态上下文的统一理解，能够输出原生双声道音视频，具备商用级的多场景内容生成能力。</p>
+<p class="p1">H3开源一个月内，下载量超过2400万次，产生超过300个公开衍生模型，成为2026年全球下载量最高的模型之一。模型使用中的建议和反馈，也是多模态技术演进的宝贵资产。</p>
+<p class="p1">积累已久的多模态算法、训练数据与技术经验，构筑了MiniMax的技术壁垒，同时在不同模态间形成技术反哺。其成熟的多模态能力正反过来提升文本模型能力，让文本模型在轻量化基础上，具备更强的跨模态理解、逻辑推理与闭环创作能力，最终实现M3.1-Flash的突破。</p>
+<p class="p1">这种底层技术的迭代与能力互通，恰好契合当下大模型行业的竞争演变规律。放到现在AI应用持续普及的节点，前端输出能力已然成为大模型竞争的赛点。</p>
+<p class="p1">从技术维度来看，高质量的输出对模型综合能力要求较高，包括代码、多模态感知、指令理解、长程执行、审美判断。完成任务时，模型需要多模块协同，在长程工作里保持逻辑、风格、功能一致，快速交付成品。</p>
+<p class="p1">此外，审美也是AI落地的差异化竞争力。AI工具层出不穷，用户需求已经升级为能精准匹配创意、高质量落地的高阶诉求，模板化、一眼可辨AI的内容无法满足市场与用户的个性化、精致化需求。这就要求模型能捕捉用户提示词中的核心创意、设计调性、风格偏好与功能诉求，生成更具有个性化、精致的产品。</p>
+<p class="p1">模型的审美水平、可视化呈现效果，也直接决定了其在UI设计、网页开发、可视化大屏、互动页面、营销视觉等商业场景的适配能力与落地价值。尤其对于有开发需求的非专业开发者而言，M3.1‑Flash可降低各团队的重复工作量。例如，设计师可依托模型快速迭代打磨视觉草稿，营销人员能高效输出活动页面与视觉初稿，缩短需求到物料的交付周期，提升从想法到可预览成品的转化效率。</p>
+<p class="p1">从本次实测看，M3.1-Flash已在多组前端任务中展现出与Opus 5.5竞争的实力，能够完成复杂动效和交互页面，并主动补全设计细节。交出这些成果的M3.1-Flash目前仍处于公测阶段，其展现出能力与任务完成度，也让MiniMax未来在文本模型上交出的答卷更加值得期待。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598854.html</link>
+<pubDate>Sat, 03 Oct 2026 19:20:57 +0800</pubDate>
+<source>智东西</source>
+<author>程茜</author>
+</item>
+<item><title><![CDATA[顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/17501b87e6d72b6404dcf7905a309f88/6ac27800/uploads/2026/10/6abde1d1b5184_6abde1d1b2246_6abde1d1b2219_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-1041321.png"><strong>智东西<br />
+</strong><strong>作者 |  杨京丽<br />
+</strong><strong>编辑 |  心缘</strong></p>
+<p>智东西10月1日报道，刚刚，华为发布最新旗舰手机<span style="color: #0f59a4"><strong>Mate90系列</strong></span>。Mate90系列全系搭载<span style="color: #0f59a4"><strong>旗舰韬芯片</strong></span>，并首发<span style="color: #0f59a4"><strong>第二代玲珑屏、第三代红枫原色影像和鸿蒙7系统</strong></span>。华为还围绕性能、影像、通信和AI能力进行了全面升级。</p>
+<p><img class="alignnone size-full wp-image-598785" src="https://oss.zhidx.com/d6612bee463c945491ab0a62c7873b0f/6ac27800/uploads/2026/10/6abdc75aafcbc_6abdc75aacad9_6abdc75aacaa9_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-102840.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1512" height="652" /></p>
+<p>性能方面，Mate90相比Mate80<span style="color: #0f59a4"><strong>提升27%</strong></span>，Mate90 Pro相比Mate80 Pro<span style="color: #0f59a4"><strong>提升20%</strong></span>，Mate90 Pro Max相比Mate80 Pro Max<span style="color: #0f59a4"><strong>提升31%</strong></span>。</p>
+<p>芯片方面，Mate90搭载麒麟9030，Mate90 Pro搭载麒麟9035。Mate90 Pro Max的12GB版搭载麒麟9050，16GB版以及Pro Max典藏版、RS非凡大师版搭载麒麟9050 Pro逻辑折叠τ芯片。</p>
+<p>华为常务董事、产品投资评审委员会主任、终端BG董事长余承东称，麒麟9050 Pro的<span style="color: #0f59a4"><strong>CPU多核性能提升23%，GPU渲染性能提升40%，NPU性能提升140%</strong></span>，支持<span style="color: #0f59a4"><strong>端侧运行30B MoE大模型。</strong></span></p>
+<p><img class="alignnone size-full wp-image-598830" src="https://oss.zhidx.com/0e248689b20fe2f0f10f6547ef1e9b74/6ac27800/uploads/2026/10/6abde6cf31085_6abde6cf265bd_6abde6cf2657f_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-124938.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1180" height="470" /></p>
+<p>通信方面，Mate90 Pro Max支持<span style="color: #0f59a4"><strong>四卡三待</strong></span>，通过两张实体SIM卡与两张eSIM的组合，最多可让三个号码同时待机，方便用户兼顾工作、生活和境外通信需求。</p>
+<p><img class="alignnone size-full wp-image-598790" src="https://oss.zhidx.com/df5b320b41af229d4d3b50a3fb59e8fd/6ac27800/uploads/2026/10/6abdc76a4bb2f_6abdc76a42f6e_6abdc76a42f3d_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-102510.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1510" height="554" /></p>
+<p>影像方面，Mate90系列全系搭载第三代红枫原色摄像头，<span style="color: #0f59a4"><strong>色彩准确度提升37%</strong></span>。Pro Max及典藏版进一步搭载18EV超高动态主摄和2亿像素长焦，华为还推出支持<span style="color: #0f59a4"><strong>10倍连续光学变焦</strong></span>的睿影Z10模块相机，可搭配Pro Max典藏版和RS非凡大师版使用。</p>
+<p>AI也是此次升级的重点。鸿蒙7带来小艺帮记、触发式AI和小艺图库助手，支持信息整理、任务执行和一句话成片。借助麒麟9050 Pro的端侧AI能力，用户还可以在没有网络时进行AI离线修图。</p>
+<p><img class="alignnone size-full wp-image-598819" src="https://oss.zhidx.com/b2f7b50c5134736694f48c422f18b04e/6ac27800/uploads/2026/10/6abddba9720a2_6abddba96f31e_6abddba96f2f5_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-105658.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1510" height="650" /></p>
+<p>价格方面，Mate90起售价<span style="color: #0f59a4"><strong>5999元</strong></span>，Mate90 Pro起售价<span style="color: #0f59a4"><strong>6999元</strong></span>，Mate90 Pro Max起售价<span style="color: #0f59a4"><strong>9499元</strong></span>，Mate90 Pro Max典藏版起售价<span style="color: #0f59a4"><strong>10999元</strong></span>，Mate90 RS非凡大师版起售价<span style="color: #0f59a4"><strong>12999元</strong></span>。睿影Z10模块相机售价<span style="color: #0f59a4"><strong>5999元</strong></span>，华为Mate90 Pro Max典藏版相机套装价格<span style="color: #0f59a4"><strong>19499元</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598812" src="https://oss.zhidx.com/8fb47c87af0e8613991118a4c7206604/6ac27800/uploads/2026/10/6abddb8d66af9_6abddb8d60edc_6abddb8d60ead_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-111241.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1502" height="594" /></p>
+<p>▲华为Mate90价格</p>
+<p><img class="alignnone size-full wp-image-598811" src="https://oss.zhidx.com/3434073d29f3ff1f34fe6edfca0f0d37/6ac27800/uploads/2026/10/6abddb8b5d1c5_6abddb8b5a2a8_6abddb8b5a26b_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-111253.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1504" height="568" /></p>
+<p>▲华为Mate90 Pro价格</p>
+<p><img class="alignnone size-full wp-image-598810" src="https://oss.zhidx.com/a5aef5ddf810fba1cd676fbf4b06dce5/6ac27800/uploads/2026/10/6abddb8991d56_6abddb898ebef_6abddb898ebbf_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-111305.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1500" height="574" /></p>
+<p>▲华为Mate90 Pro Max价格</p>
+<p><img class="alignnone size-full wp-image-598809" src="https://oss.zhidx.com/55fa8fdda377e7cea02c73dfa7ad25bb/6ac27800/uploads/2026/10/6abddb87c22bd_6abddb87bedec_6abddb87bedab_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-111318.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1492" height="592" /></p>
+<p>▲华为Mate90 Pro Max典藏版价格</p>
+<p><img class="alignnone size-full wp-image-598808" src="https://oss.zhidx.com/63bf92d1901c8a677f3c5f96496dda82/6ac27800/uploads/2026/10/6abddb8618df2_6abddb86160bc_6abddb8615ff4_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-111330.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1516" height="614" /></p>
+<p>▲华为Mate90 RS非凡大师价格</p>
+<p><img class="alignnone size-full wp-image-598806" src="https://oss.zhidx.com/b5c956add6d59864d8c44919d0ca2f16/6ac27800/uploads/2026/10/6abddb8257e33_6abddb8254a97_6abddb8254a70_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-111410.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1502" height="560" /></p>
+<p>▲华为Mate90 Pro Max典藏版相机套装价格</p>
+<h2><strong>一、全系搭载旗舰τ芯片，支持四卡三待</strong></h2>
+<p>华为Mate90系列采用金属中框、哑光金属背板和全金属一体化机身，后置摄像头采用悬浮星环造型，镜头盖板引入高硬度、高折射率的宝石级材质。</p>
+<p>耐用性方面，Mate90系列全系支持IP68、IP69级防尘抗水，最高可实现6米防水，并搭载第三代昆仑玻璃，耐摔能力相比上一代提升50%。</p>
+<p><img class="alignnone size-full wp-image-598797" src="https://oss.zhidx.com/70012370e682fbf429f6745786dc30d9/6ac27800/uploads/2026/10/6abdc77fd1863_6abdc77fce7c8_6abdc77fce799_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-101345.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1504" height="606" /></p>
+<p>屏幕方面，Mate90 Pro和Pro Max首发第二代玲珑屏，采用双层OLED架构，峰值亮度达到12000 nits，较上一代提升50%。</p>
+<p><img class="alignnone size-full wp-image-598793" src="https://oss.zhidx.com/74a83d2d12bb69a8e12b86ac1c50bf31/6ac27800/uploads/2026/10/6abdc77240119_6abdc7723cfa7_6abdc7723cf79_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-101834.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1506" height="664" /></p>
+<p>性能方面，Mate90系列全系搭载旗舰τ芯片，Mate90搭载麒麟9030，Mate90 Pro搭载麒麟9035，Pro Max及更高版本搭载麒麟9050 Pro。</p>
+<p>麒麟9030采用灵犀CPU、马良GPU和达芬奇架构NPU，图片加载速度提升一倍，3DGS渲染平均帧率提升28%，NPU响应速度提升59%。Mate90 Pro搭载的麒麟9035芯片，CPU、GPU和NPU性能相比上代Mate80 Pro全面提升，其中NPU AI处理器的提升51%。</p>
+<p><img class="alignnone size-full wp-image-598826" src="https://oss.zhidx.com/e857a90af147fe17bd22756dd36ec1e8/6ac27800/uploads/2026/10/6abddf281964b_6abddf2814598_6abddf2814562_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-121742.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1822" height="562" /></p>
+<p>Pro Max搭载的麒麟9050 Pro则采用“逻辑折叠”架构，配备9核16线程灵犀CPU、马良GPU和达芬奇架构NPU，多核性能提升23%，GPU渲染性能提升40%，NPU性能提升140%。</p>
+<p><img class="alignnone size-full wp-image-598792" src="https://oss.zhidx.com/70709c48d6eb3ab31cac7446c9ffb0e4/6ac27800/uploads/2026/10/6abdc7703ad0d_6abdc77037d12_6abdc77037cc8_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-102218.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1490" height="464" /></p>
+<p>这种架构通过垂直堆叠和高密度互联，提升芯片内部不同模块之间的数据传输效率。麒麟9050 Pro的晶体管密度达到每平方毫米2.38亿个，较上一代提升28%；芯片拥有500万个信号传输键合点，连接数超过5000万，传输带宽达到125TB/s，关键路径时延下降30%。</p>
+<p><img class="alignnone size-full wp-image-598842" src="https://oss.zhidx.com/449872ea6f3d6d26ef88bf6bb8b4aa2d/6ac27800/uploads/2026/10/6abdf7e5cd2b4_6abdf7e5ca820_6abdf7e5ca7f2_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-140357.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1448" height="448" /></p>
+<p>此外，麒麟9050 Pro支持端侧运行30B MoE大模型，即使在没有网络的情况下，也可以完成AI离线修图，场景理解能力提升47%。</p>
+<p>通信方面，Mate90系列支持5G、Wi-Fi 7+、天通卫星通信和北斗卫星消息。其中，Mate90 Pro Max还支持四卡三待，最多可让三张SIM卡同时待机，适合同时使用多张国内或海外SIM卡的用户，一部手机即可满足多号码使用需求。</p>
+<p>续航方面，Mate90 Pro Max采用6800mAh大电池，并结合雪绒VC超强散热和低功耗微核，通过软硬协同进一步延长使用时间。华为称，Mate90 Pro Max支持长视频播放45小时、短视频播放23小时，户外运动导航可持续25小时，覆盖影音娱乐和户外探索等多种使用场景。</p>
+<p><img class="alignnone size-full wp-image-598786" src="https://oss.zhidx.com/2d9603ae78fc837927c7b80dc521cfd8/6ac27800/uploads/2026/10/6abdc75f0da1c_6abdc75f0a8f5_6abdc75f0a8ba_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-102744.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1518" height="762" /></p>
+<h2><strong>二、5000万像素超光变主摄，Pro Max配2亿像素超大底长焦</strong></h2>
+<p>Mate90系列全系搭载第三代红枫原色摄像头，色彩准确度提升37%，并配备RYYB传感器和连续可变光圈，进光量相比传统RGGB方案提升40%以上。</p>
+<p>具体来看，Mate90搭载5000万像素超光变主摄，采用1/1.56英寸RYYB传感器，支持F1.4-F4.0连续可变光圈；Mate90 Pro升级为1/1.28英寸超聚光大底主摄，并支持5厘米近距离对焦。</p>
+<p><img class="alignnone size-full wp-image-598783" src="https://oss.zhidx.com/8ff284c77ed0083db01064ea47da2ddc/6ac27800/uploads/2026/10/6abdc751b96e3_6abdc751b6441_6abdc751b6405_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-103033.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1506" height="596" /></p>
+<p>Mate90 Pro Max和典藏版的影像配置进一步提高，搭载5000万像素18EV超高动态主摄，以及2亿像素超大底长焦。该长焦支持4倍光学变焦、8倍光学品质变焦，并配备CIPA 7.5级防抖。</p>
+<p><img class="alignnone size-full wp-image-598782" src="https://oss.zhidx.com/dbb9f6508e1fc50a68b3164e2432531c/6ac27800/uploads/2026/10/6abdc74cb3ce3_6abdc74cb0832_6abdc74cb03d0_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-103248.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1520" height="672" /></p>
+<p>在长焦视频方面，Mate90 Pro Max的长焦视频清晰度提升34%，防抖能力提升41%。华为还针对人像、夜景人像、长焦人像和高动态人像进行了专项优化。</p>
+<p>值得一提的是，华为同步推出了睿影Z10 10倍连续光学变焦模块相机。该模块搭载1英寸超大底传感器，覆盖24毫米至240毫米全焦段，光圈范围为F2.0-F4.5，支持直接调用手机ISP和存储能力，进一步覆盖专业长焦拍摄需求。</p>
+<p><img class="alignnone size-full wp-image-598824" src="https://oss.zhidx.com/7b2e9ace1b9cbb94ab1b696abf0808e2/6ac27800/uploads/2026/10/6abdde335c3ba_6abdde335402d_6abdde3353ff3_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-121421.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="2702" height="1100" /></p>
+<h2><strong>三、鸿蒙7重点升级AI能力，小艺从智能助手变成智能体</strong></h2>
+<p>Mate90系列搭载HarmonyOS 7操作系统，系统体验围绕智能交互、智慧影像和鸿蒙星河互联全面升级。</p>
+<p><img class="alignnone size-full wp-image-598817" src="https://oss.zhidx.com/a5459894ed3dee2204a0bd980e4b1ef2/6ac27800/uploads/2026/10/6abddba2c0858_6abddba2bd955_6abddba2bd921_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-105954.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1514" height="686" /></p>
+<p>在智能交互方面，小艺支持小艺帮记、长按导航条快速唤起服务，以及覆盖多场景的触发式AI。用户可以让小艺完成任务、拨打电话、整理信息，也可以直接询问复杂问题并获得分析建议。</p>
+<p>安全方面，鸿蒙7搭载星盾安全体系，加入风险网页检测、境外转打检测等功能，并获得卓越级智能终端设备AI安全认证。</p>
+<p><img class="alignnone size-full wp-image-598818" src="https://oss.zhidx.com/e4e70db86681507301886edb6cffa4db/6ac27800/uploads/2026/10/6abddba6b1936_6abddba6ae742_6abddba6ae716_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-105751.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1504" height="670" /></p>
+<p>影像方面，鸿蒙7加入X-MAGE智拍、AI辅助构图、小艺图库助手等功能。小艺图库助手支持一句话生成视频，还能对照片进行整理和智能创作；系统也支持3D动态照片、电影运镜智能编排等能力。</p>
+<p>在AI视觉交互方面，鸿蒙7支持智感旋转、智感握姿等功能，系统可以根据用户的握持和使用状态自动调整交互方式，让单手操作更加自然。</p>
+<h2><strong>四、华为Mate90 RS非凡大师版三款配色，搭载麒麟9050 Pro芯片</strong></h2>
+<p>华为还带来了Mate90 RS非凡大师版。Mate90 RS采用高亮态玄武架构和双面昆仑玻璃，后盖加入光敏玻璃与动态光栅设计，提供瑞红、皓白、玄黑三款配色。</p>
+<p>配置方面，Mate90 RS搭载麒麟9050 Pro逻辑折叠τ芯片，配备全彩玲珑屏，支持天通卫星通信和北斗卫星消息，并支持四卡三待。</p>
+<p><img class="alignnone size-full wp-image-598827" src="https://oss.zhidx.com/1ba00ebdeab28fff7e83f19c9ca65cb3/6ac27800/uploads/2026/10/6abde13ce4cff_6abde13cd8d5d_6abde13cd8d2a_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-122621.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1814" height="752" /></p>
+<p>影像方面，Mate90 RS搭载18EV超高动态主摄、2亿像素长焦和第三代红枫原色摄像头，同时支持搭配睿影Z10模块相机，进一步拓展长焦拍摄能力。</p>
+<p><img class="alignnone size-full wp-image-598813" src="https://oss.zhidx.com/254c5a016112d6c4d06731f947277ff6/6ac27800/uploads/2026/10/6abddb8fd5ccf_6abddb8fd3007_6abddb8fd2fe1_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-110854.png" alt="顶配18999元！华为新旗舰外挂巨炮相机，余承东解读逻辑折叠韬芯片" width="1512" height="660" /></p>
+<h2><strong>结语：软硬芯云协同更新，高端旗舰体验升级</strong></h2>
+<p>可以看到，Mate90系列在芯片、屏幕、影像、通信和系统体验等方面都带来了全面升级。麒麟9030、麒麟9035和麒麟9050 Pro覆盖不同产品定位，鸿蒙7则进一步把AI能力融入日常交互、影像创作和设备互联。</p>
+<p>从第三代红枫原色影像系统，到18EV超高动态主摄和睿影Z10模块相机，再到四卡三待、双卫星通信和超长续航，Mate90系列继续强化华为在高端手机市场的差异化优势。凭借软硬芯云协同能力，华为正在为消费者带来更强性能、更好影像和更智能的旗舰体验。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598781.html</link>
+<pubDate>Thu, 01 Oct 2026 14:42:10 +0800</pubDate>
+<source>智东西</source>
+<author>杨 京丽</author>
+</item>
+<item><title><![CDATA[谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/8f52b587e26b9a4ac6a6b6bb1f620924/6ac27800/uploads/2026/10/6abda7ed2a29f_6abda7ed26f59_6abda7ed26f08_exec-70ea6dd6-9783-4658-bbe9-9e043c88643b.png?x-oss-process=image/resize,m_fill,w_1024,h_437"><strong>智东西<br />
+</strong><strong>编译 |  杨京丽<br />
+</strong><strong>编辑 |  心缘</strong></p>
+<p>智东西10月1日消息，今天凌晨，谷歌发布新一代旗舰模型<span style="color: #0f59a4"><strong>Gemini 4 Argon</strong></span>，重点面向<span style="color: #0f59a4"><strong>软件工程、法律与金融等企业知识工作</strong></span>，以及<span style="color: #0f59a4"><strong>网络安全防御</strong></span>等复杂、长周期任务。</p>
+<p>在衡量<span style="color: #0f59a4"><strong>长程软件工程能力</strong></span>的DeepSWE v1.1测试、评估金融、编程、法律和税务等<span style="color: #0f59a4"><strong>企业知识工作</strong></span>的Vals Index、测试<span style="color: #0f59a4"><strong>企业端到端自动化执行能力</strong></span>的AutomationBench，以及考察<span style="color: #0f59a4"><strong>长视频理解能力</strong></span>的LVBench中，Gemini 4 Argon均<span style="color: #0f59a4"><strong>领先GPT-6 Astra、Claude Fable 5.1和Claude Opus 5.5等模型</strong></span>；在评估<span style="color: #0f59a4"><strong>漏洞修复能力</strong></span>的CWE-bench v1中，Argon以68%的成绩<span style="color: #0f59a4"><strong>与GPT-6 Astra并列第一</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598760" src="https://oss.zhidx.com/88f4fc96b3f9eb8c01b6dc728f7649d7/6ac27800/uploads/2026/10/6abdab1512ec1_6abdab150fda9_6abdab150fd77_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-082650.png" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1058" height="1334" /></p>
+<p>在Text Arena的模型成本与得分对比中，Gemini 4 Argon High以<span style="color: #0f59a4"><strong>1525分和每百万Token 8美元</strong></span>的混合价格，进入成本-性能前沿。</p>
+<p><img class="alignnone size-full wp-image-598753" src="https://oss.zhidx.com/cf72c54f2a419cc65ab389e47d9dd33b/6ac27800/uploads/2026/10/6abda14ab23cc_6abda14aaf0dd_6abda14aaf0b3_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-073955.png" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1102" height="878" /></p>
+<p>目前，在Artificial Analysis Intelligence Index中，Gemini 4 Argon得分53分，仅<span style="color: #0f59a4"><strong>落后于Claude Opus 5.5和Claude Sonnet 5.5</strong></span>，得分<span style="color: #0f59a4"><strong>与Claude Fable 5.1、GPT-6 Astra并列</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598754" src="https://oss.zhidx.com/14e9ba927927853096016f342eb10828/6ac27800/uploads/2026/10/6abda14d80eb6_6abda14d7dd91_6abda14d7dd4f_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-073240.png" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="2284" height="948" /></p>
+<p>▲Gemini 4 Argon在Artificial Analysis上测评情况（图源：Artificial Analysis）</p>
+<p>不过，彭博社援引知情人士称，部分谷歌员工认为，Gemini 4虽然在行业基准测试中表现亮眼，但<span style="color: #0f59a4"><strong>在实际工作中并不总能达到同等水平</strong></span>，尤其是在<span style="color: #0f59a4"><strong>部分编程任务上仍较为吃力</strong></span>，这与谷歌当天发布的测试成绩形成反差。</p>
+<p>Gemini 4 Argon现已通过“Fairwind计划”向一批经过筛选的网络安全防御团队开放。谷歌计划先收集早期测试反馈、继续完善安全护栏，随后逐步向开发者、企业和消费者开放，首批用户将包括<span style="color: #0f59a4"><strong>付费API客户和Google AI Ultra订阅者</strong></span>。</p>
+<p>Argon API初始价格为<span style="color: #0f59a4"><strong>每百万输入Token 2美元（约合人民币13.4元）</strong></span>、<span style="color: #0f59a4"><strong>每百万输出Token 10美元（约合人民币67元）</strong></span>，缓存输入Token价格在输入Token基础上降低95%，即<span style="color: #0f59a4"><strong>每百万Token约0.1美元（约合人民币0.67元）</strong></span>。</p>
+<p>根据Artificial Analysis，按折扣定价，Gemini 4 Argon的每任务成本为1.99美元，较GPT-6 Astra（max）<span style="color: #0f59a4"><strong>降低40%</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598773" src="https://oss.zhidx.com/e0560ad8610adeb79ba691dea824dd37/6ac27800/uploads/2026/10/6abdb3ceddfeb_6abdb3cedafca_6abdb3cedaf9c_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261001091239.jpg" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1320" height="597" /></p>
+<p>▲Gemini 4 Argon每任务成本与其他模型对比（图源：Artificial Analysis）</p>
+<p>谷歌首席执行官桑达尔·皮查伊（Sundar Pichai）称，外界对下一代模型的讨论很多，因此希望尽早展示Gemini 4 Argon。谷歌内部团队已广泛将其用于编程、量子计算等工作，反馈良好。</p>
+<p><img class="alignnone wp-image-598762" src="https://oss.zhidx.com/eedbb2df747602b4b0f9d5be49579c0d/6ac27800/uploads/2026/10/6abdaec6af96e_6abdaec6abe1b_6abdaec6abdd7_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-085102.png" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1000" height="462" /></p>
+<p>▲皮查伊发文官宣Gemini 4 Argon（图源：X）</p>
+<p>一位X用户认为，Gemini 4对提示词格外敏感，输出内容和风格受提示词影响的程度超过其他模型，默认风格不佳，但增加一句提示词就容易改善。他还展示了用不同提示词复刻《乐高星球大战》关卡的效果。</p>
+<p><img class="alignnone wp-image-598771" src="https://oss.zhidx.com/0d77eab15e7b79686dda768dad4216ee/6ac27800/uploads/2026/10/6abdb3cceef3b_6abdb3ccec379_6abdb3ccec34a_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261001091302.jpg" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1000" height="1066" /></p>
+<p>▲开发者对于Gemini 4 Argon的评价（图源：X）</p>
+<p>另一位开发者认为，在一次生成细节丰富、美感出色的3D场景方面，Gemini 4 Argon尚未达到Opus 5的水平。Gemini 4 Argon在画面细节上，效果略显粗糙。</p>
+<p><img class="alignnone size-full wp-image-598772" src="https://oss.zhidx.com/b7266c605628958834dc0aab95adf6f3/6ac27800/uploads/2026/10/6abdb3cdcbebf_6abdb3cdc8da6_6abdb3cdc8d77_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261001091254.jpg" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1279" height="2126" /></p>
+<p>▲开发者对比Gemini 4 Argon（上）和Claude Opus 5（下）的生成效果（图源：X）</p>
+<h2><strong>一、输出上限提升至100万Token，编程能力与企业任务测试突出</strong></h2>
+<p>Gemini 4 Argon将模型输出Token上限从此前的6.4万Tokens提升至100万Tokens，成为目前业内输出容量最高的模型之一。更大的输出空间允许模型在单次任务中深度思考，并生成数十万甚至上百万Token，用于处理大型代码库、复杂研究和多步骤企业流程。</p>
+<p>编程方面，Gemini 4 Argon在衡量真实世界长期软件工程能力的DeepSWE v1.1测试中取得77.9%的成绩，刷新该测试的最好纪录。</p>
+<p><img class="alignnone size-full wp-image-598748" src="https://oss.zhidx.com/696adb2f7d3ace54f2101dab21224ed9/6ac27800/uploads/2026/10/6abda143371c6_6abda143341f1_6abda143341c5_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-075312.png" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1090" height="736" /></p>
+<p>在覆盖金融、编程、法律和税务等工作的Vals Index中，Argon排名第一。Argon还在Vals Finance Agent v2测试（多步骤金融研究）、Harvey法律Agent测试（法律研究与起草）中取得领先成绩。</p>
+<p><img class="alignnone size-full wp-image-598747" src="https://oss.zhidx.com/6214a2ec2de18b6a09f168f3df4c00ab/6ac27800/uploads/2026/10/6abda1422dafa_6abda1422ac06_6abda1422abd5_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-075325.png" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1114" height="736" /></p>
+<p>在Zapier用于评估企业端到端自动化执行能力的AutomationBench中，Argon得分51.3%，位列第一，明显领先GPT-6 Astra、Claude Fable 5.1、Claude Opus 5.5等模型。</p>
+<p><img class="alignnone size-full wp-image-598744" src="https://oss.zhidx.com/3aa029e0a398c6fd00fbee1587e4abbc/6ac27800/uploads/2026/10/6abda13f331c4_6abda13f2fe58_6abda13f2faa4_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-075350.png" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1090" height="736" /></p>
+<p>Argon的多模态能力也被用于长视频和专业图表分析。在评估长视频理解能力的LVBench中，该模型得分91.7%，达到现有模型最优水平。</p>
+<h2><strong>二、深入谷歌内部工作流，完成量子算法优化与大规模代码迁移</strong></h2>
+<p>在谷歌内部，数千名员工已将Gemini 4 Argon用于日常调试、算法设计、研究和大规模代码迁移等工作。</p>
+<p>谷歌举例称，Argon曾帮助量子计算研究人员优化量子算法的时空资源，在数分钟内将一项公开基线结果提升40%。另外，一组Argon Agent分析了覆盖谷歌整个服务器集群的性能分析遥测数据，自主识别并实施数据中心内存优化方案。相关方案部署后，可释放超过300TiB内存，预计总节省量将达到500TiB至1PiB。</p>
+<p>Argon Agent还参与了谷歌内部C/C++代码向Rust的迁移，覆盖数万行的核心库代码，以及超过80万行的Fuchsia Zircon内核。考虑到相关系统的重要性，谷歌称，所有大规模重写都必须经过自动化和人工审计、仿真测试及代码审查，确认安全后才能部署到生产环境。</p>
+<p>以开源视频解码器libgav1为例，Argon Agent通过多轮性能分析和实验，重写了约3.2万行SIMD代码，使编译器能够自动完成向量化。迁移后的Rust版本在保持视频输出完全一致的情况下，运行速度达到原Rust版本的2.7倍，性能进一步接近经过优化的C++版本。</p>
+<h2><strong>三、强化网络安全能力，可自主发现和修复漏洞</strong></h2>
+<p>谷歌还针对网络安全防御能力对Gemini 4 Argon进行了专项训练。Argon可以自主发现、验证并修复软件漏洞。对于经过信任认证的网络安全防御团队和谷歌内部团队，谷歌将提供不带网络安全护栏的Argon版本，以便其发挥完整的漏洞分析和防御能力。</p>
+<p>网络安全公司Wiz已通过“Scan for Good”项目使用Argon，为关键公共基础设施免费发现和修复高风险暴露。谷歌称，在一次早期测试中，Argon发现了一个影响全球医院所使用医疗软件的严重漏洞，该漏洞可能导致敏感个人信息暴露，且此前的前沿模型没有识别出这一风险。</p>
+<p>在评估漏洞修复能力的CWE-bench v1中，Argon以68%的成绩并列第一，得分与Grok 4.7和GPT-6 Astra相当。</p>
+<p><img class="alignnone size-full wp-image-598749" src="https://oss.zhidx.com/a693a093f3fc4b7a205b6e56d53cb4dc/6ac27800/uploads/2026/10/6abda14446c2c_6abda14443a4e_6abda14443a25_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-075301.png" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1338" height="734" /></p>
+<p>谷歌内部的综合漏洞基准测试显示，Argon可以在覆盖20种编程语言的复杂代码库中发现多类安全暴露。在Wiz的黑盒渗透测试中，Argon在识别真实网站攻击面、发现漏洞以及生成概念验证方面，也超过了此前的Gemini 3.8 Flash Cyber。</p>
+<p><img class="alignnone size-full wp-image-598750" src="https://oss.zhidx.com/9f6edd5a626d6e2f51e810b455d2cd74/6ac27800/uploads/2026/10/6abda146330b2_6abda146301c9_6abda1463019c_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-075252.png" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1360" height="732" /></p>
+<h2><strong>四、扩大安全测试，重点防范模型滥用与提示注入</strong></h2>
+<p>在正式扩大开放前，谷歌将继续强化四类前沿安全能力。</p>
+<p>防范滥用方面，Argon会拒绝可能用于网络攻击以及化学、生物、放射性和核武器攻击的有害请求，同时保留合法的双重用途科学研究能力。谷歌还在加强对模型内部激活状态的监测，以识别潜在的滥用行为。</p>
+<p>Argon在防御间接提示注入方面也取得进展。此类攻击会通过恶意指令或外部上下文劫持模型行为。经过自动化红队测试和对抗训练后，Argon在Gray Swan的间接提示注入测试中取得领先成绩。</p>
+<p><img class="alignnone size-full wp-image-598751" src="https://oss.zhidx.com/05e0408b020c0079da4f2833d409d8f9/6ac27800/uploads/2026/10/6abda1477fecd_6abda1477ccc9_6abda1477cc8e_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-01-075239.png" alt="谷歌反击！Gemini 4 Argon性能比肩Astra，成本仅60%" width="1338" height="738" /></p>
+<p>监测目标偏离方面，为防止Argon在执行任务时越过边界、采取超出用户意图的行动，谷歌部署了目标偏离缓解机制，对Argon的思维链和行为进行监测，并在必要时停止执行。谷歌还使用类似系统监测模型训练过程，并在发现异常时向专门的事件响应团队发出警报。</p>
+<p>强化系统环境方面，随着前沿模型的能力不断增强，安全测试也需要与模型能力相匹配的安全环境。按照Agent控制路线图，谷歌将在高风险训练或评估开始前，对沙盒环境进行隔离和封闭，以进一步强化安全性。</p>
+<h2><strong>结语：瞄准复杂Agent任务，实际效果仍待验证</strong></h2>
+<p>Gemini 4 Argon在长周期软件工程、金融和法律Agent任务、长视频理解及网络安全防御等测试中取得多项领先成绩，100万Token输出上限也增强了其处理大型代码库和复杂工作流的能力。</p>
+<p>不过，当前多数成绩仍来自谷歌披露的内部案例和基准测试，模型尚未全面开放。Argon在真实使用中的稳定性、调用成本、漏洞修复可靠性及安全边界，仍需等待开发者和企业用户进一步验证。</p>
+<p>来源：谷歌、Arena、X</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598743.html</link>
+<pubDate>Thu, 01 Oct 2026 09:43:42 +0800</pubDate>
+<source>智东西</source>
+<author>杨 京丽</author>
+</item>
+<item><title><![CDATA[OpenAI Dot怎么用？10个案例带你看明白]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/94c812ddaa96f54f77e3562cc449a321/6ac27800/uploads/2026/09/6abcd6ab50323_6abcd6ab4d524_6abcd6ab4d4ea_%E9%BB%91.png"><strong>AI应用风向标（公众号：ZhidxcomAI）</strong><br />
+<strong>作者｜毕伟豪</strong><br />
+<strong> 编辑｜漠影</strong></p>
+<p>智东西9月30日报道，今天，OpenAI发布了全天候个人智能体Dot，对标Muse和Grok Bot，拥有独立云端电脑，7×24小时持续运行，拥有多个入口，并可以与ChatGPT联通。</p>
+<p>由于还没有全面上线，因此很多用户并不清楚这个Dot到底能做什么，海外博主Peter Yang在发布会结束后上传了内测的视频，用10个真实案例演示了Dot的功能，同时将其与Muse和Grok Bot进行了对比。</p>
+<p><img class="alignnone size-full wp-image-598660" src="https://oss.zhidx.com/e2d2bcc01de2b5b48a5cd461a6249ef0/6ac27800/uploads/2026/09/6abcd3225c650_6abcd322594bd_6abcd32259473_c99d94de598e4d6ba6d64aff44c70ed0.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1808" height="1122" /></p>
+<p>Peter Yang坦言Dot和Muse并不是同一赛道的产品，它更像是针对Grok Bot设计的，相比而言，Muse更倾向于消费者的日常需求，比如打电话、订机票或者买蛋糕，但Dot明显是为工作场景设计的。</p>
+<p>同时，Peter Yang认为Dot的出现，很可能是OpenAI为了解决ChatGPT客户端功能越来越复杂这一问题而做的。</p>
+<p>从Peter Yang的个人体验上看，ChatGPT最新的UI设计已经越来越远离了最初的简洁性，过多的功能和会话需要一个统一的指挥来进行梳理，这也是Dot的最大价值。</p>
+<p>下面是我们整理的Peter Yang所展示的真实案例。</p>
+<h2><strong>一、自己翻账找漏洞，Dot揪出1万美元差额</strong></h2>
+<p>新版ChatGPT应用最上方有一个Dot的置顶会话，点击就可以进入Dot页面，用户可以给自己的Dot起名字、换形象。</p>
+<p>点进Dot的个人页，还能看到语音呼叫、Slack连接等入口，邮件接入目前暂不可用。它同时连接两台电脑，一台云端电脑7×24小时运行，另一台则连接用户自己的电脑，下方菜单中有所有的对话记录。</p>
+<p><img class="alignnone size-full wp-image-598646" src="https://oss.zhidx.com/392b8f516c9581f05f9939c1c7c48b89/6ac27800/uploads/2026/09/6abcceb26d178_6abcceb26a1bf_6abcceb26a17e_2b4e55fefd63ce3a24afe1209399d391.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1378" height="824" /></p>
+<p>10个案例里，Peter Yang认为最有价值的一个，是让Dot帮他做一次赞助收入审计。</p>
+<p>Peter Yang自己经营着一家公司，赞助收入是主要的营收来源。对一人公司来说，赞助从谈合作、签合同、开票到收款，任何一个环节漏掉，都会直接变成收入损失。</p>
+<p>Peter Yang让Dot做的事情就是把公司的账目和相关信息全部翻一遍，主动找出异常。结果，Dot一次就发现了5个问题。</p>
+<p>比如，赞助商Riverside的一笔合作已经完成，却迟迟没有开票，需要尽快补上，否则这笔收入很容易被遗漏。Google一侧的赞助账目也出现了对不上的情况，前后竟然有1万美元的差额。</p>
+<p><img class="alignnone size-full wp-image-598659" src="https://oss.zhidx.com/2d134f10446456ea3cd67a21feef5a85/6ac27800/uploads/2026/09/6abcd2d8db29a_6abcd2d8d6165_6abcd2d8d6119_4574e45bcc9a04191e3a002feb8615b4.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1644" height="854" /></p>
+<p>更夸张的是，Peter Yang还提到，Dot此前甚至帮他发现过一个被自己错过的赞助机会，金额达到了五位数。</p>
+<p>这也是他认为Dot最有价值的地方，它可以主动翻找零散信息，把原本容易被忽略的问题直接摆到用户面前。</p>
+<p>按照这个思路，Dot甚至可以长期承担一个“赞助经理”的角色，持续盯着合同、账单和收款状态。</p>
+<h2><strong>二、不自己干活，Dot充当首席幕僚</strong></h2>
+<p>第二个案例中，Peter Yang让Dot推进一个健身App开发任务，它需要读懂代码库并生成6张App Store截图，再把项目推进到可上架状态。</p>
+<p>Dot并没有亲自干活，它把代码相关任务交给Build线程，然后自己另开线程调用ChatGPT的图像能力生成截图，遇到Bug也交给Build线程排查修复。</p>
+<p><img class="alignnone size-full wp-image-598655" src="https://oss.zhidx.com/d389bbf956de83d51ad73d7b2c937dc9/6ac27800/uploads/2026/09/6abcd1d1275aa_6abcd1d123f18_6abcd1d123ee0_8daae5ff8cee05590963eb8fe70f6ad1.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1642" height="872" /></p>
+<p>Peter Yang还给Dot下过一个很有意思的指令：“我们做点有意思的事吧，你还能做什么？给我Top 5的选择。”结合此前ChatGPT里的对话，Dot给出了5个非常具体的建议，包括开发付费产品、制作并发布视频、审计赞助收入、推进App上线等。</p>
+<p>这让Peter Yang发现，Dot更像一个总调度，负责理解目标、拆分任务，再把活分给不同线程，最后收回结果。</p>
+<p>Peter Yang将其形容为“首席幕僚”，也即不要让Dot亲自干活，让它调度其他ChatGPT线程干活，或者让它去梳理已有的会话和资产，去做出推荐。</p>
+<h2><strong>三、半小时读完1800多条评论，处理海量信息很靠谱</strong></h2>
+<p>调研海量信息，是Dot展现Agent能力最明显的场景之一。</p>
+<p>Peter Yang让Dot翻完了近6个月的YouTube评论，从300多条视频、1800多条评论中，找出5个能帮助频道增长的方向。</p>
+<p>Dot花了约半小时，给出的核心判断是：让“惊艳的演示”更容易被复现和信任。 同时，它还进一步提出了展示真实成本、确保教程开箱即用等具体改进项。</p>
+<p><img class="alignnone size-full wp-image-598654" src="https://oss.zhidx.com/e0a9c05ac88f570176b543e4ff0148cc/6ac27800/uploads/2026/09/6abcd197a739b_6abcd197a4594_6abcd197a454e_3f49ba672a4fe10fa625bf469f89e4c7.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1636" height="870" /></p>
+<p>社区管理也一样，Peter Yang让Dot读完历史帖子，再给自己的社区管理能力打分并提出建议。约7分钟后，Dot给出了A-，还提出了3条“拿A的路径”。</p>
+<p><img class="alignnone size-full wp-image-598651" src="https://oss.zhidx.com/26e026940a718921eb22b15b864d4885/6ac27800/uploads/2026/09/6abcd107181fe_6abcd107149cb_6abcd1071499c_6e3dd3f4591874d579cfd7d0cd0b4967.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1646" height="874" /></p>
+<p>在Slack里，Peter Yang又让Dot调研其他课程，帮助朋友优化课程设计。6分钟后，Dot给出的核心建议是：不要只卖课程，要突出学员最终能获得的成果。</p>
+<p><img class="alignnone size-full wp-image-598650" src="https://oss.zhidx.com/683b9374e39ec1b29dedf64b6225e6bc/6ac27800/uploads/2026/09/6abcd0aabedda_6abcd0aabba58_6abcd0aabba21_57c78febc2097964819f1d8077a0b056.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1654" height="874" /></p>
+<p>Peter Yang还把同一个热点调研任务同时交给Dot和Grok Bot，两边找出了不同的推文，他认为效果都不错，很难说哪个更好。</p>
+<p><img class="alignnone size-full wp-image-598649" src="https://oss.zhidx.com/1660f37862f65d3d217fd0c9385d2651/6ac27800/uploads/2026/09/6abcd08352191_6abcd08349804_6abcd083497c5_bfa920a6840fb8a77be8f5d2616c68a0.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1630" height="744" /></p>
+<p>最后，Dot又分析了他的Substack数据和历史记录，直接操作浏览器查看数据面板，给出了会员购买路径、newsletter推荐等5项增长建议。</p>
+<p>从这些案例看，Dot的优势并不在某一个具体任务，而在于能同时处理大量信息、操作网页，再把结果整理成可执行的结论。</p>
+<h2><strong>四、自己提建议，结合信息制作梗图</strong></h2>
+<p>全新付费产品的主意，是Dot自己提出来的。</p>
+<p>Peter Yang抱着“看看它能做出什么”的心态放手让它去做。没过多久，Dot就发来一句“网站已就绪，请审阅”，并交付了一个名为“PM工作台”的产品：售价99美元，包含4个互动工作流，并直接做成了ChatGPT在线网页。</p>
+<p>第一版让Peter Yang觉得太无聊，对此他只提了一个要求：“大改，再配点抓人的图。”</p>
+<p>第二版网页很快变成了一个面向产品经理的数字工具箱，加入了客户证据、竞品情报等模块，还能直接体验证据简报、竞品扫描、干系人汇报、PRD红队评审等工作流。</p>
+<p><img class="alignnone size-full wp-image-598656" src="https://oss.zhidx.com/b91e50fb6143e99b8d679a1818e9fce9/6ac27800/uploads/2026/09/6abcd2004919a_6abcd20045f58_6abcd20045f26_f106376a569432c3458003639ea2688d.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1646" height="866" /></p>
+<p>不过，在Peter Yang这个老产品经理看来，产品能做出来，不等于真能卖出去。 他认为至少这个案例里，Dot还需要大量反馈，才能把一个想法打磨成真正能赚钱的产品。</p>
+<p>但Dot的主动性给Peter Yang留下了深刻印象：“它的主动劲，我是真喜欢。”</p>
+<p>梗图则是另一个有意思的尝试。Peter Yang让Dot结合自己和社区的背景，直接生成5张“神梗图”，还特意补了一句：“别让我失望。”</p>
+<p>Dot很快抓住了社区里的内部梗，做出了很多有意思的梗图，其中一张还拿Peter Yang和朋友对AI工具的不同态度做梗图。</p>
+<p><img class="alignnone size-full wp-image-598652" src="https://oss.zhidx.com/cac19f9b3aacaa253a48a6306f9d5f18/6ac27800/uploads/2026/09/6abcd13fbd913_6abcd13fb8f9b_6abcd13fb8f51_b4a8741734f454f1628a512a93aaaba1.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1646" height="820" /></p>
+<p>这两个案例放在一起，能看出Dot比较特别的一点，它不仅能执行明确任务，还会主动提出建议、结合长期上下文做一些带个人色彩的创意。</p>
+<p><img class="alignnone size-full wp-image-598653" src="https://oss.zhidx.com/6751f2e3f0c5143351662c852d197947/6ac27800/uploads/2026/09/6abcd16e366bb_6abcd16e3300c_6abcd16e32fd1_feddf892d2b4af6d67fdb989a5bd04e0.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1650" height="870" /></p>
+<h2><strong>五、翻车现场：任务会失败，界面也越来越复杂</strong></h2>
+<p>Dot并不是每次都能顺利完成任务。Peter Yang曾让Dot根据一段与Mickey的访谈转录稿，调用预设技能写一篇Newsletter文章。结果卡在Substack登录鉴权等工具问题上，任务基本失败。</p>
+<p>真正让Peter Yang在意的，是Dot似乎没有明确告诉他任务失败了。也许它在某个角落提过，但当多个线程同时运行时，很难第一时间搞清楚究竟卡在哪里。</p>
+<p><img class="alignnone size-full wp-image-598657" src="https://oss.zhidx.com/ed456cc97ec7d3c21202c0ddf6ae1082/6ac27800/uploads/2026/09/6abcd24747cad_6abcd2474515f_6abcd2474511e_c0cb8840c1e7ecc8a64c139e5d075cfc.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1646" height="858" /></p>
+<p>OpenAI发布会现场也出现过类似情况。ChatGPT团队产品负责人Holly Li让一个名叫Dottie的Dot为虚构音乐App准备上线工作，但演示过程中迟迟没有回应，主持人只能调侃：“我猜Dot今天早上有点慢。”</p>
+<p>在Peter Yang看来，比较理想的使用方式是：让Dot当管理者，自己当经理。 让多个ChatGPT线程同时干活，Dot负责跟踪进度、汇报结果，用户只需要继续下指令。</p>
+<p>但更大的问题，可能来自ChatGPT本身。</p>
+<p>过去几个月，Peter Yang一直把ChatGPT当作默认工作台，但随着语音、Computer Use、Browser Use、Codex、Pages、Sites、定时任务等功能不断加入，线程、入口和开关越来越多。</p>
+<p>这也是Peter Yang认为Dot可能存在的另一层价值：当ChatGPT越来越复杂，Dot可以成为一个统一的指挥入口。</p>
+<p><img class="alignnone size-full wp-image-598658" src="https://oss.zhidx.com/3d83970c150e5f4fc747d131f3d3cea0/6ac27800/uploads/2026/09/6abcd28460a85_6abcd2845d46a_6abcd2845d418_e91cfaaba3d3bc2c37a1e8e05198dd6d.png" alt="OpenAI Dot怎么用？10个案例带你看明白" width="1648" height="854" /></p>
+<p>甚至不需要频繁打开界面，直接通过语音告诉Dot要做什么即可。但Peter Yang也提出了一个值得OpenAI警惕的问题：如果一个天天使用AI工具的人都开始觉得界面复杂，普通用户可能更难找到自己需要的功能。</p>
+<h2><strong>结语：常驻Agent的第一份答卷，工作场景之争才刚开始</strong></h2>
+<p>10个案例放在一起看，Dot真正有意思的地方，不是又多了一个会聊天的AI，而是它开始替人盯事、找问题、派活、跟进结果：能翻出1万美元账目差额，能调度其他线程做App，也能半小时翻完1800多条评论，甚至会自己提出一个99美元的产品。</p>
+<p>这也构成了Dot目前最独特的价值：它不是一个单独干活的Agent，而更像是ChatGPT里的“工作中枢”——把已有的对话、工具、线程和任务串起来，替用户持续管理一摊事情。</p>
+<p>当然，它离“放心交给它”还有距离：会翻车，也不一定能及时汇报失败；而ChatGPT不断增加的功能，也让管理这些能力本身变得越来越复杂。</p>
+<p>但产业竞争的方向已经很清楚：Agent下一步比拼的，不只是“谁能把一件事做好”，而是谁能成为用户长期在线的工作入口，真正把一摊事情接过去。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598499.html</link>
+<pubDate>Wed, 30 Sep 2026 20:20:31 +0800</pubDate>
+<source>智东西</source>
+<author>毕 伟豪</author>
+</item>
+<item><title><![CDATA[快手调整AI组织架构，任命可灵CEO]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/dc7e400dbc573531fc1cbdbc3a79555f/6ac27800/uploads/2026/09/6abce97fa1d1f_6abce97f9efbf_6abce97f9ef89_%E6%96%B0%E6%99%BA%E4%B8%9C%E8%A5%BF%E5%A4%B4%E6%9D%A1%E5%A4%B4%E5%9B%BE%E6%A8%A1%E6%9D%BF.png?x-oss-process=image/resize,m_fill,w_1024,h_436"><strong>智东西</strong><br />
+<strong>作者 | 李水青</strong><br />
+<strong>编辑 | 心缘</strong></p>
+<p>智东西9月30日获悉，今日，快手发布公告，宣布创始人兼CEO<span style="color: #0f59a4;"><strong>程一笑</strong></span>将兼任<span style="color: #0f59a4;"><strong>社区科学线负责人</strong></span>；原社区科学线负责人<span style="color: #0f59a4;"><strong>于越</strong></span>转任<span style="color: #0f59a4;"><strong>可灵AI公司董事兼CEO</strong></span>，未来将专注于可灵AI的经营管理。</p>
+<p>据公开信息可知，于越（本名：盖坤）毕业于清华大学，是国内搜广推领域顶尖算法专家。他曾任职于阿里妈妈，职级达到P10（资深技术总监级别）；而后于2020年加入快手，历任高级副总裁、社区科学线负责人、主站线业务负责人，主导了快手可灵AI视频大模型的技术研发工作。</p>
+<p><img class="alignnone size-full wp-image-598704" src="https://oss.zhidx.com/15fbd1fcb183009372887e62fd8855d7/6ac27800/uploads/2026/09/6abce99bb371a_6abce99bb0471_6abce99bb042e_562c11dfa9ec8a1363272f3d335f868fa0ec09fa6ae3_%E5%89%AF%E6%9C%AC.jpg" alt="快手调整AI组织架构，任命可灵CEO" width="862" height="602" />▲于越</p>
+<p>同时，快手另一份公告宣布<span style="color: #0f59a4;"><strong>成立跨事业部虚拟组织「企业AI生产力」</strong></span>。这一组织将负责基础办公系统基座的稳定运行，统筹通用Agent、企业上下文体系和企业信息系统的统一建设。</p>
+<p>该组织由<span style="color: #0f59a4;"><strong>综合支持与效率线下的智能办公平台部</strong></span>与<span style="color: #0f59a4;"><strong>研发线下的AI生产力中心</strong></span>组成，由智能办公平台部负责人<span style="color: #0f59a4;"><strong>王诩</strong></span>牵头。</p>
+<p>快手公告称，AI正在重塑企业的工作方式与生产效率。为在组织层面夯实AI能力底座，快手整合AI基建相关组织及职能，通过统一基建底座、打通数据与系统壁垒，进一步<span style="color: #0f59a4;"><strong>推动组织AI转型，提升产研效率。</strong></span></p>
+<p>此前，程一笑在公司15周年司庆讲话中曾谈道：“AI早已不是某个独立的技术模块，而是快手整艘大船的新引擎。”他在内部会议上提出要“打造AI-Native的团队”，强调工作流要基于AI进行重构。</p>
+<p>目前，快手公司的AI产品矩阵包括：<span style="color: #0f59a4;"><strong>面向用户体验，</strong></span>推出OneRec、OneSearch等生成式推荐与搜索体系；<span style="color: #0f59a4;"><strong>面向组织生产力，</strong></span>打造通用生产力智能体MyFlicker与数据分析智能体Data Agent，以及以快手万擎为代表的企业级大模型服务平台；<span style="color: #0f59a4;"><strong>面向业务运营，</strong></span>落地灵顺、OpsBuddy等运营智能体。与此同时，生成式AI能力已深入应用于用户理解、内容与商品匹配、广告投放等商业核心环节。</p>
+<p>此次「企业AI生产力」组织的成立，正是其试图将这些能力从技术能力走向组织能力的关键一步。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598701.html</link>
+<pubDate>Wed, 30 Sep 2026 18:54:59 +0800</pubDate>
+<source>智东西</source>
+<author>李水青</author>
+</item>
+<item><title><![CDATA[硅谷扔出“巨内核”，中国团队祭出“超级算子”，万亿参数模型效率战打响！]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/45180dec87d011671f4e4975740d4955/6ac27800/uploads/2026/09/6abcbe3c998a6_6abcbe3c96a1b_6abcbe3c969e7_%E6%96%B0%E6%99%BA%E4%B8%9C%E8%A5%BF%E5%A4%B4%E6%9D%A1%E5%A4%B4%E5%9B%BE%E6%A8%A1%E6%9D%BF.png?x-oss-process=image/resize,m_fill,w_1024,h_436"><strong>智东西</strong><br />
+<strong>作者 | 李水青</strong><br />
+<strong>编辑 | 漠影</strong></p>
+<p><span style="color: #0f59a4;"><strong>2.8万亿参数的大模型，究竟要怎么跑快？</strong></span></p>
+<p>近日，海内外团队盯上了全球最大参数量的开源模型——<span style="color: #0f59a4;"><strong>Kimi K3</strong></span>。K3凭借2.8万亿总参数、104B激活参数，刷新了开源模型的性能上限。但<span style="color: #0f59a4;"><strong>普通的AI服务器难以承载这么大参数量的模型</strong></span>，Kimi官方推荐64卡甚至更大规模的AI服务器才能装得下。有业内人士表示，一般未经优化的超节点跑Kimi K3，初始性能可能仅在<span style="color: #0f59a4;"><strong>10 tokens/s左右。</strong></span></p>
+<p><img class="alignnone size-full wp-image-598611" src="https://oss.zhidx.com/eed69f0bdbcb83440117a0a01dac5d7f/6ac27800/uploads/2026/09/6abcbe1c46786_6abcbe1c43718_6abcbe1c436d8_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-09-30_134833_453.jpg" alt="硅谷扔出“巨内核”，中国团队祭出“超级算子”，万亿参数模型效率战打响！" width="1000" height="551" /><br />
+面对如何让2.8万亿参数的Kimi K3跑得更快这一难题，国内外团队几乎同时交出了答卷。</p>
+<p>9月21日，<span style="color: #0f59a4;"><strong>浪潮信息</strong></span>在AICC 2026发布<span style="color: #0f59a4;"><strong>元脑SD200 Ultra超节点AI服务器</strong></span>，通过紧耦合128芯本土AI芯片，单机承载2.8万亿参数Kimi K3，Token生成时延首破<span style="color: #0f59a4;"><strong>5.85毫秒。</strong></span></p>
+<p><img class="alignnone size-full wp-image-598614" src="https://oss.zhidx.com/32508d19cb7ee487d8ad2c76e273ec9c/6ac27800/uploads/2026/09/6abcbe2e230bd_6abcbe2e1d6c7_6abcbe2e1d645_1.jpeg" alt="硅谷扔出“巨内核”，中国团队祭出“超级算子”，万亿参数模型效率战打响！" width="1280" height="720" /></p>
+<p>9月23日，海外TPU推理优化团队<span style="color: #0f59a4;"><strong>Inferact</strong></span>开源<span style="color: #0f59a4;"><strong>tpu-megakernels</strong></span>，用16颗谷歌TPU v7芯片把整个K3装进一个kernel（内核），配合DSpark投机解码，低并发Decode（解码）吞吐达到<span style="color: #0f59a4;"><strong>709 tokens/s。</strong></span></p>
+<p><img class="alignnone size-full wp-image-598613" src="https://oss.zhidx.com/b7c0a8b1d4f626b4ae14f599102bd9f9/6ac27800/uploads/2026/09/6abcbe1e338ba_6abcbe1e309c8_6abcbe1e30994_ScreenShot_2026-09-30_134439_179.png" alt="硅谷扔出“巨内核”，中国团队祭出“超级算子”，万亿参数模型效率战打响！" width="1312" height="1120" /><br />
+一个用本土芯片做商业化超节点，一个用Google TPU做开源推理项目，<span style="color: #0f59a4;"><strong>指向了同一个技术思路：打破算子边界，把大模型推理的计算过程融合到极致。</strong></span></p>
+<p>大模型推理的竞争，正从模型算法层，深入到系统软件、芯片互联和内存管理层。</p>
+<h2><strong>一、万亿MoE太难跑，海内外团队同时盯上算子融合</strong></h2>
+<p>万亿参数大模型推理为什么慢？</p>
+<p>很多人以为是算力不够，而实际瓶颈更在于<span style="color: #0f59a4;"><strong>数据搬运</strong></span>和<span style="color: #0f59a4;"><strong>内存带宽。</strong></span></p>
+<p>据知名半导体行研机构SemiAnalysis分析，K3一次前向计算的HBM带宽需求约1.5TB，896个专家需要分布到多张芯片上，每次前向还会触发超过120次All-to-All通信。即便芯片具备强大算力，数据传输跟不上节奏，大量计算能力也会被白白闲置。</p>
+<p>对于Decode（解码）阶段而言，问题尤其明显。每生成一个Token，模型都需要持续读取大量权重。vLLM、TensorRT-LLM等传统推理框架往往需要启动大量Kernel，每个Kernel完成自己的加载、计算和写回，然后再启动下一个Kernel。</p>
+<p>于是，计算之间出现了大量<span style="color: #0f59a4;"><strong>细小的“空泡”</strong></span>。这些碎片化空泡累积起来，就是<span style="color: #0f59a4;"><strong>实际速度与理论峰值之间的鸿沟。</strong></span></p>
+<p>既然kernel边界是浪费来源，那是否可以尝试消灭边界？</p>
+<p>Inferact的思路是整个模型就是“<span style="color: #0f59a4;"><strong>一个kernel</strong></span>”。其megakernel方案使用Google Pallas，把K3的92个MoE层放进一个Pallas调用，在一个Kernel内部完成整个解码过程。当前层计算时，下一层权重就可以通过异步DMA提前从HBM搬运到片上VMEM。</p>
+<p>这套打法成立的关键是<span style="color: #0f59a4;"><strong>TPU v7</strong></span>的架构特性。每个TensorCore自带64 MiB VMEM，数据进入VMEM后，其生命周期可以由程序显式控制。于是，Kernel作者可以主动安排哪些权重提前搬运，哪些激活继续驻留，哪些数据在使用结束后立即释放。换句话说，Inferact做的是把整个模型看成一个连续的数据流。</p>
+<p><img class="alignnone size-full wp-image-598625" src="https://oss.zhidx.com/3a02f93ff58035e96e9722bff1802add/6ac27800/uploads/2026/09/6abcc01d47e18_6abcc01d3ba81_6abcc01d3ba48_ScreenShot_2026-09-30_155352_357.png" alt="硅谷扔出“巨内核”，中国团队祭出“超级算子”，万亿参数模型效率战打响！" width="2326" height="594" /></p>
+<p>浪潮信息没有把整个模型彻底压成一个Kernel。</p>
+<p>团队把<span style="color: #0f59a4;"><strong>众多基础算子融合成超级算子</strong></span>，用系统级紧耦合架构榨取整体效率。针对K3推理特点，他们把KDA、Gated MLA、MoE中众多基础算子融合为计算与通信协同执行的大算子，算子数量降低10倍，模型推理性能提升3倍以上。</p>
+<p><img class="alignnone size-full wp-image-598618" src="https://oss.zhidx.com/b966c418aabbf3e0a4d57daf13f3a98c/6ac27800/uploads/2026/09/6abcbe3ae2b30_6abcbe3adffe7_6abcbe3adffbc_5.png" alt="硅谷扔出“巨内核”，中国团队祭出“超级算子”，万亿参数模型效率战打响！" width="1280" height="686" /></p>
+<p>具体来看，<span style="color: #0f59a4;"><strong>第一步是把小算子“焊成”大算子，减少中间停靠。</strong></span>按片上存储容量划分数据块，让前一步的结果直接留在寄存器或片上缓存中供后一步使用，减少kernel launch次数，也避免中间结果反复写入和读取HBM。</p>
+<p><span style="color: #0f59a4;"><strong>第二步，把通信和计算融合，让数据传输和计算同步进行。</strong></span>超级算子按照Tile（数据块）组织流水线，通过异步搬运和多缓冲机制，让下一块数据预取、当前数据计算和上一块结果写回同时进行。跨芯片通信也按照Tile推进，把通信延迟尽可能藏到计算过程里。</p>
+<p>可以看到，前者把整个Decode过程放进一个megakernel，后者把大量细粒度算子融合成超级算子。</p>
+<p>它们共同指向的，是传统“一个Op（算子）对应一个Kernel”的计算方式正在松动。</p>
+<h2><strong>二、用K3优化K3：让AI参与超级算子优化</strong></h2>
+<p>超级算子能够减少推理过程中的数据搬运与等待，但其设计和优化本身也是一项复杂的工程。数据如何复用、计算与通信如何衔接、不同阶段如何形成流水，都需要结合具体模型和硬件条件进行设计与验证。</p>
+<p>这些工作需要大量人工投入。能否让AI参与其中，提高超级算子的生成与优化效率？</p>
+<p>为此，浪潮信息在元脑SD200 Ultra适配Kimi K3的过程中引入“<span style="color: #0f59a4;"><strong>超级算子智能体</strong></span>”，让Kimi K3参与自身的推理优化。针对K3的推理特点，智能体生成通算融合、Tile级流水的超级算子，推动计算、通信与数据搬运协同执行。</p>
+<p><img class="alignnone size-full wp-image-598615" src="https://oss.zhidx.com/114c08153c76b493923070d64f4bd514/6ac27800/uploads/2026/09/6abcbe30bc1b9_6abcbe30b92ae_6abcbe30b9266_2.png" alt="硅谷扔出“巨内核”，中国团队祭出“超级算子”，万亿参数模型效率战打响！" width="1280" height="693" /><br />
+浪潮信息首席AI战略官刘军在采访中打了个比方：过去大模型推理由数百个算子串联执行，如同绿皮火车途经数百个小站，反复启停装卸数据，整体效率低下；而超级算子就像一站直达的高铁，省去中间停靠开销。</p>
+<p>刘军谈道，以往行业清楚这套模式的短板，但人工算子优化调度的工作量巨大。如今Agent带来解法，浪潮信息采用“<span style="color: #0f59a4;"><strong>用K3优化K3</strong></span>”的思路，依托超节点系统架构，由AI智能体自动生成超级算子，再经由模型校验迭代，性能较此前再度提升<span style="color: #0f59a4;"><strong>50%</strong></span>，形成循环加速。</p>
+<p>可以看到，模型已经不只是被优化的对象，也开始成为优化基础设施的工具。这可能会成为下一代推理优化的重要范式。</p>
+<h2><strong>三、芯片一张牌，系统一张牌：超节点打的是系统战</strong></h2>
+<p>Agent时代，Token消耗增长数百万倍。据Gartner 2026年3月报告，一个Agent工作流每任务消耗的Token量是标准聊天机器人的5到30倍；高盛预测，到2030年全球Token消耗量将较2026年增长24倍，达到每月约120000万亿Token。</p>
+<p><img class="alignnone size-full wp-image-598612" src="https://oss.zhidx.com/0276a942e23d5e5985e2d208321bfc5f/6ac27800/uploads/2026/09/6abcbe1d19d5b_6abcbe1d16e0e_6abcbe1d16dcb_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-09-30_134824_636.jpg" alt="硅谷扔出“巨内核”，中国团队祭出“超级算子”，万亿参数模型效率战打响！" width="1000" height="691" /><br />
+需求侧爆发，算力供给如何接住？</p>
+<p>这里可以看到<span style="color: #0f59a4;"><strong>两个典型困境。</strong></span></p>
+<p><span style="color: #0f59a4;"><strong>第一个是Kimi K3代表的“向上”。</strong></span>模型越来越大，推理能力越来越强，长上下文、复杂推理、多Agent协同越来越多，单机越来越难承载，算力系统需要不断突破模型能力上限。</p>
+<p><span style="color: #0f59a4;"><strong>第二个是DeepSeek代表的“向广”。</strong></span>当越来越多用户开始调用低成本模型，Token需求会迅速扩张。模型本身可能已经足够便宜，但如果算力供给跟不上，低价Token就很难持续。</p>
+<p>浪潮信息的回答是<span style="color: #0f59a4;"><strong>Capability AI Compute（能力型智算）</strong></span>加<span style="color: #0f59a4;"><strong>Capacity AI Compute（容量型智算）</strong></span>，两条线齐头并进。</p>
+<p>向上，<span style="color: #0f59a4;"><strong>SD200 Ultra</strong></span>用5.85ms/token、单用户170 tokens/s，让前沿模型跑得起、跑得快。向广，<span style="color: #0f59a4;"><strong>HC2000多元算力机组</strong></span>用DirectCom 2.0极速架构，Prefill、Decode、FFN按负载匹配多元芯片，同等投资Token产能提升10倍。</p>
+<p><img class="alignnone size-full wp-image-598626" src="https://oss.zhidx.com/7485667164eacbc5e3aba578f60cdf23/6ac27800/uploads/2026/09/6abcc07d69de8_6abcc07d6645b_6abcc07d66422_%E5%9B%BE%E7%89%878.png" alt="硅谷扔出“巨内核”，中国团队祭出“超级算子”，万亿参数模型效率战打响！" width="900" height="383" /></p>
+<p>中国玩家的护城河在哪里？</p>
+<p>单看芯片，其与NVIDIA仍有差距，单卡算力、生态、工具链都有明显短板。但到了超节点层面，靠系统级创新可以追平甚至超越单卡更强但系统松散的方案。</p>
+<p>以浪潮信息SD200 Ultra为例，其用3D Hyper Mesh架构紧耦合128芯本土AI芯片，提供8TB统一编址显存和64TB内存，通信时延低至0.69微秒。通过对称内存技术，首次在基于本土AI芯片的超节点上实现GPU显存直连，AllReduce通信时间降低3.5倍。</p>
+<p>刘军谈道，超节点最基本的特征是显存要统一寻址，这一点做到了，才能把这么大的模型放进去，否则就只能叫节点集群，还是需要把模型拆分成若干段。</p>
+<p>总的来说，芯片是一张牌，系统工程则是另一张牌。</p>
+<p>当芯片之间能够形成更紧密的连接，内存能够形成统一空间，通信可以藏进计算过程，算子又可以由AI持续优化，单芯片性能之外的系统红利就开始释放。对于本土算力而言，这条路径尤其重要。</p>
+<h2><strong>结语：万亿模型推理需求爆发，效率革命才刚刚开始</strong></h2>
+<p>AI算力竞争，正从造出更快的芯片变为把现有芯片组织到极致。Inferact用16颗TPU证明一个kernel可以装下2.8万亿参数；浪潮信息用128颗本土芯片证明系统级紧耦合加超级算子，可以让本土算力跑进第一梯队。</p>
+<p>两条路线，一个方向。大模型推理的效率革命，才刚刚开始。对中国AI产业，这个方向的特殊意义在于，在芯片工艺受限的约束下，系统级创新是确定性最高的追赶路径。浪潮信息迈出的这一步，值得被更多人看见。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598610.html</link>
+<pubDate>Wed, 30 Sep 2026 18:00:47 +0800</pubDate>
+<source>智东西</source>
+<author>李水青</author>
+</item>
+<item><title><![CDATA[北京Token工厂冲刺港交所！年收入暴涨178%]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/88d4e37773ba04928f2467937a712753/6ac27800/uploads/2026/09/6abcd46f9e77d_6abcd46f9b856_6abcd46f9b826_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-09-30-172009.png"></p>
+<p data-pm-slice="1 1 []"><strong>智东西</strong><br />
+<strong>作者 |  陈骏达<br />
+</strong><strong>编辑 |  心缘</strong></p>
+<p data-pm-slice="1 1 []">智东西9月30日报道，9月29日，北京AI Infra公司<span style="color: #0f59a4;"><strong>九章云极</strong></span>向港交所递交上市申请，拟在港交所主板上市，中国银河国际证券为独家保荐人。</p>
+<p data-pm-slice="1 1 []"><img class="aligncenter size-full wp-image-598584" src="https://oss.zhidx.com/ac59395b00607f3f10ef631e047aa5ff/6ac27800/uploads/2026/09/6abcb565eba4c_6abcb565e8b93_6abcb565e8b5a_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-09-30-150756.png" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="923" height="778" /></p>
+<p>九章云极成立于2013年2月，总部位于北京，早期业务为数据科学平台，后转型为AI算力基础设施供应商，提供一站式智算中心（AIDC）基础设施解决方案和按需云计算服务。该公司正推进Token工厂战略，以顺应模型规模化应用的趋势，<strong><span style="color: #0f59a4;">未来计划将Token工厂打造为核心引擎。</span></strong></p>
+<p>根据灼识咨询的资料，按2025年收入计，九章云极在中国智算服务商中<strong><span style="color: #0f59a4;">排名第九</span></strong>，是<strong><span style="color: #0f59a4;">前十名中唯一的“智算新云”</span></strong>，即中国最大的智算新云。</p>
+<p><img class="aligncenter size-full wp-image-598634" src="https://oss.zhidx.com/bac774f6e3bffa1ddfa05f9793cb0e72/6ac27800/uploads/2026/09/6abcc1a89b9fe_6abcc1a898a44_6abcc1a898a08_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260930160011_888_43.png" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="1198" height="749" /></p>
+<p>成立以来，九章云极一共完成14轮融资，其投资方中有不少北京国资，包括北京国管、顺禧基金、中关村资本、中关村科学城等。</p>
+<p>截至目前，该公司本次港股发行规模、发行价及拟募资金额尚未披露。招股书显示，募资将主要用于四个方面：提升研发能力、扩充AIDC项目算力资源（主要通过采购硬件设备）、拓展销售渠道及强化品牌建设，以及补充营运资金。</p>
+<h2><strong>一、2025年收入10.98亿元，年复合增长率达221.5%</strong></h2>
+<p>九章云极的收入正随智算需求爆发而快速增长，<strong><span style="color: #0f59a4;">从2023年到2025年收入增长933%</span></strong>。2023年、2024年和2025年，其收入分别为1.06亿元、3.96亿元和10.98亿元，年复合增长率达221.5%；2025年同比增长177.7%；2026年上半年，其收入为5.88亿元，同比增长92.0%。报告期内，其三年半总收入为21.88亿元。</p>
+<p>盈利方面，2023年、2024年和2025年，九章云极净亏损分别为3.94亿元、4.58亿元和3.36亿元，<strong><span style="color: #0f59a4;">三年累计亏损约11.88亿元；2026年上半年净亏损10.95亿元</span></strong>，其中10.68亿元来自附带优先权的金融负债公允价值变动等非经营性因素。</p>
+<p><img class="aligncenter size-full wp-image-598596" src="https://oss.zhidx.com/b0a48102466c2a585e71211a6216dcbf/6ac27800/uploads/2026/09/6abcbad45c0cd_6abcbad459125_6abcbad4590e2_5d788d99-93b0-4e4d-99e7-6be9a3da3252-1.png" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="1448" height="969" /></p>
+<p>▲九章云极营收、净利润及研发开支变化（智东西制图）</p>
+<p>剔除该等因素后，其经调整净亏损（非国际财务报告准则计量）分别为1.94亿元、2.06亿元、9130万元，2026年上半年进一步收窄至1488万元，亏损呈持续收窄趋势。</p>
+<p>研发开支方面，2023年、2024年和2025年分别为1.12亿元、1.03亿元和1.22亿元，2026年上半年为6678.5万元，三年半研发投入合计约4亿元。</p>
+<p>从收入结构来看，九章云极的收入主要来自智算基础设施解决方案和智算云服务两大业务线。2025年，其智算基础设施解决方案收入为10.02亿元，占总收入的91.2%；智算云服务收入为7761.4万元，占7.1%；逐步退出的AIFS软件服务收入占比已降至1.7%。</p>
+<p>到2026年上半年，智算云服务收入占比升至26.1%（1.54亿元），智算基础设施解决方案占比降至73.8%（4.34亿元）。</p>
+<p><img class="aligncenter size-full wp-image-598586" src="https://oss.zhidx.com/948ab3282dd08a32eca3d6b07d5bc03b/6ac27800/uploads/2026/09/6abcb5bc3a000_6abcb5bc36f30_6abcb5bc36eee_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-09-30-150922.png" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="1213" height="519" /></p>
+<p>毛利率方面，2023年、2024年和2025年，九章云极综合毛利率分别为40.6%、11.7%和17.4%；2026年上半年回升至31.0%。<span style="color: #0f59a4;"><strong>与同行业可比公司相比，九章云极的毛利率水平处于行业中上游水平。</strong></span>2026年上半年其31.0%的毛利率，要高于优刻得（28.36%）、七牛云（18.03%）、派欧云（17.7%）等企业。</p>
+<p><img class="aligncenter size-full wp-image-598678" src="https://oss.zhidx.com/cec60a505d4cc7704cc5f8dee2d712e6/6ac27800/uploads/2026/09/6abcde6d79445_6abcde6d76226_6abcde6d761f8_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-09-30-180305.png" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="1280" height="617" /></p>
+<p>运营数据方面，截至最后实际可行日期，九章云极的可控算力分布在中国七个省份，总规模超过29000 PFLOPS，累计交付算力超过31000 PFLOPS，已通过两大业务线服务超过150家企业客户。</p>
+<p>其智算云服务企业客户数量从2024年的2个增至2025年的75个，2026年上半年达84个；计算资源利用率从2025年的56.0%提升至2026年上半年的79.6%；智算基础设施解决方案已交付AIDC项目3个、5个和6个（2023年至2025年），2025年已交付算力达17690 PFLOPS。</p>
+<p>现金流方面，其经营现金流仍为净流出，截至2026年6月30日负债净额为26.44亿元。</p>
+<h2><strong>二、共有两大业务板块，研发人员占比51.5%</strong></h2>
+<p>九章云极的定位是<strong><span style="color: #0f59a4;">“智算新云”</span></strong>，即区别于超大规模云厂商的AI原生基础设施提供商。其业务采用双引擎模式：智算基础设施解决方案主要是AIDC的架构设计、硬件采购及集成部署，智算云服务则通过算力池向企业客户和开发者变现。</p>
+<p><img class="aligncenter size-full wp-image-598599" src="https://oss.zhidx.com/4fdde64e6cf15dd5367198c0ec69ddbc/6ac27800/uploads/2026/09/6abcbb8890e45_6abcbb888de4f_6abcbb888de07_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-09-30-153404.png" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="1394" height="750" /></p>
+<p>其技术底座是专有计算操作系统Alaya NeW OS。根据灼识咨询的资料，该系统是中国首个在算力调度、模型训练、模型推理及数据处理四个关键领域均获中国信通院认证的AI操作系统。</p>
+<p>九章云极还推出了“一度算力”标准，以标准化算力计量单位（DCU）计量算力、按实际算力消耗而非预留物理容量计费，是中国智算行业首个此类可量化计费单位。2026年，其Alaya Token托管式模型推理服务通过中国信通院高质量Token云服务能力评估，截至最后实际可行日期已订立约十份合约。</p>
+<p>截至2026年6月30日，九章云极共有303名全职员工，<strong><span style="color: #0f59a4;">其中研发人员156人，占员工总数的51.5%</span></strong>；销售及营销人员80人，占26.4%；行政人员67人，占22.1%。截至最后实际可行日期，公司拥有125项注册专利，并参与制定了多项中国大模型行业技术标准。</p>
+<p>该公司创始人、董事长兼总经理方磊是核心技术带头人之一。他在2000年获清华大学电子工程学士学位，2004年5月获美国雪城大学电气工程硕士学位，2008年5月获美国弗吉尼亚理工学院暨州立大学电气工程博士学位。</p>
+<p><img class="aligncenter size-full wp-image-598600" src="https://oss.zhidx.com/5be891bd7f8658d8077bbaaa36fbb778/6ac27800/uploads/2026/09/6abcbbd605034_6abcbbd602050_6abcbbd602007_202441913428580.jpeg" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="4128" height="2752" /></p>
+<p>▲九章云极创始人、董事长兼总经理方磊</p>
+<p>2008年5月，他加入微软总部软件卓越中心任研究软件开发工程师，是Windows Azure数据中心监控与诊断服务的核心团队成员，2011年2月转入微软必应基础设施团队，利用机器学习提升索引效率，直至后续创立九章云极。</p>
+<h2><strong>三、前五大客户、供应商集中度均超80%</strong></h2>
+<p>九章云极的客户包括地方政府及其部门、国有企业、民营企业、科技公司及研究机构等，主要通过智算基础设施解决方案和智算云服务采购其产品和服务。</p>
+<p>2025年，其前五大客户贡献收入9.67亿元，<strong><span style="color: #0f59a4;">占总收入的88.0%</span></strong>；2026年上半年前五大客户收入占比仍达80.8%。客户集中度较高，主要与AIDC项目单体金额大、以大型机构客户为主的业务特征有关。</p>
+<p><img class="aligncenter size-full wp-image-598607" src="https://oss.zhidx.com/bea12e6615ddd54ee220e1b8d3f13aec/6ac27800/uploads/2026/09/6abcbdcd9ba99_6abcbdcd9662e_6abcbdcd965f1_%E5%9B%BE%E7%89%872.png" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="3487" height="14202" /></p>
+<p>供应商方面，九章云极主要向中国硬件供应商、技术服务提供商及AIDC租赁服务提供商采购。2025年，其向前五大供应商采购金额为13.86亿元，占年度采购总额的84.8%；2026年上半年前五大供应商采购占比为74.5%。</p>
+<p><img class="aligncenter size-full wp-image-598602" src="https://oss.zhidx.com/6da7c681db7d3e5f627ecd4474dbdf9d/6ac27800/uploads/2026/09/6abcbd12f1c0f_6abcbd12e99db_6abcbd12e99ad_%E5%9B%BE%E7%89%871.png" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="4039" height="11252" /></p>
+<p>招股书显示，该公司主要通过长期安排获取算力而非自建持有设施：设施所有方及计算基础设施基金为设施建设提供资金，九章云极提供硬件采购、架构设计、系统部署及持续运营管理的全套能力，以此降低前期资本投入、快速扩展区域产能。</p>
+<h2><strong>四、已完成14轮融资，两位联合创始人分别持股6.86%</strong></h2>
+<p>自2015年9月以来，九章云极已完成天使轮I至E轮及Pre-IPO轮<strong><span style="color: #0f59a4;">共14轮融资</span></strong>，投资方包括红点中国、赛富（SAIF）、广发乾和、中电海河、中关村龙门基金、北京市人工智能产业投资基金、卓源亚洲、银泰集团、黄山文旅、华峰集团、东方富海等众多机构。</p>
+<p>2025年11月的E轮融资中，北京市人工智能产业投资基金等入局；2026年6月完成的Pre-IPO融资中，卓源亚洲智宇、杭州银宸（银泰系）各注资1.2亿元，蔷薇资产注资5000万元，该轮合计融资近5亿元。</p>
+<p><img class="aligncenter size-full wp-image-598642" src="https://oss.zhidx.com/4c56fa0a9eb70f254836a107957122b2/6ac27800/uploads/2026/09/6abcca1f1d5a4_6abcca1f129f9_6abcca1f129c9_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260930163628_891_43.jpg" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="2230" height="1262" /></p>
+<p>股权结构方面，方磊与联合创始人尚明栋于2017年签订一致行动协议（分歧时以方磊意见为准），截至最后实际可行日期，方磊直接持股6.86%，尚明栋持股6.86%，员工激励平台轩辕智通持股5.79%，三方构成单一最大股东集团，合计持股约19.51%。</p>
+<p>机构股东方面，北京前沿系（前沿生态及中关村前沿）合计持股约8.48%，赛富系实体合计持股约7.95%，红点驰辰持股4.13%，华峰系合计持股约3.53%，中电海河、中关村龙门、苏襄基金、杭州银宸分别持股2.22%、2.64%、2.47%、2.18%。</p>
+<p>以下是上市后九章云极的股权架构：</p>
+<p><img class="aligncenter size-full wp-image-598638" src="https://oss.zhidx.com/f68b4b7fac20c0979e5045310aa6ad36/6ac27800/uploads/2026/09/6abcc58daffcd_6abcc58daa27c_6abcc58daa240_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260930160013_890_43.png" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="2448" height="1168" /></p>
+<p>薪酬方面，2025年九章云极创始人方磊与联合创始人尚明栋拿到最高薪酬，分别为149.5万元人民币。</p>
+<p><img class="aligncenter size-full wp-image-598644" src="https://oss.zhidx.com/77d6a43c218e1bd0bf748ef1afbc285c/6ac27800/uploads/2026/09/6abccb3f10155_6abccb3f0700b_6abccb3f06fd3_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-09-30-164002.png" alt="北京Token工厂冲刺港交所！年收入暴涨178%" width="940" height="811" /></p>
+<h2><strong>结语：智算基础设施转型见效，仍面临盈利困境</strong></h2>
+<p>整体来看，九章云极是一家完成从AI基础软件（AIFS）向智算基础设施战略转型、正处于快速放量阶段的AI基础设施公司。</p>
+<p>不过，他们也面临着新兴AI基础设施企业的共同挑战，智算云服务未来毛利率能否持续改善，将影响其后续盈利表现。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598489.html</link>
+<pubDate>Wed, 30 Sep 2026 13:01:23 +0800</pubDate>
+<source>智东西</source>
+<author>陈 骏达</author>
+</item>
+<item><title><![CDATA[机器人“拜师”苏绣！最细的活，最硬的考题]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/fcb1fe4152b3c282ec5f926a99c3ae4e/6ac27800/uploads/2026/09/6abca94a61df6_6abca94a5f323_6abca94a5f2ec_%E6%9C%AA%E5%91%BD%E5%90%8D%E7%9A%84%E8%AE%BE%E8%AE%A1-80.png"></p>
+<h2><strong>智东西</strong><br />
+<strong>作者 | 刘俐杉</strong><br />
+<strong>编辑 | 许丽思</strong></h2>
+<p>听说机器人甚至已经学会刺绣了？</p>
+<p>如果让机器人搬运重物、抓取零件，你可能早已见怪不怪，让它搭积木、夹豆子、拧瓶盖，也已经不算什么新鲜事了。</p>
+<p>但今天上午，临界点发布的一段视频，让灵巧手的“手上功夫”又往前了一步。</p>
+<p>镜头里，灵巧手捏着一枚绣花针，将细线穿过针孔，随着针尖的起落，手指在丝线中穿梭。直至镜头拉近，你还会看到灵巧手面对一幅苏绣，与苏绣老师配合完成合绣。更加值得注意的是，<strong><span style="color: #0f59a4">整段视频均为实拍，没有加入任何CG动画。</span></strong></p>
+<p style="text-align: center"><iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=117358538588607&amp;bvid=BV1NHad6EEsY&amp;cid=42330423903&amp;p=1" width="300" height="150" frameborder="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p>智东西9月30日报道，今天，临界点（AGILINK）旗舰灵巧手 OmniHand 3 Ultra 开始向苏绣传承人拜师学艺，<span style="color: #0f59a4"><strong>上绷、劈丝、穿针、捻线、挑线、合绣……</strong></span>一整套高度依赖手指配合、力度控制的精细传统工艺，被搬入了机器人灵巧手的课堂。</p>
+<p>这项技艺对于熟练的苏绣老师来说，是日复一日练出来的手上功夫，对于普通人来说，那是一项需要高度集中注意力的精细活，但对于机器人而言，它不仅要拿稳针线，还要控制好力度和位置，更要在一个动作结束后，准确衔接下一个动作。</p>
+<p>镜头里看到的是一针一线，镜头外考验的却是灵巧手处理真实世界细微变化的能力。</p>
+<p>苏绣，正在给灵巧手上一堂不一样的课。</p>
+<h2><strong><b>一、在苏绣的一针一线中,考验灵巧手的综合能力</b></strong></h2>
+<p>最难的考题往往是最细的活。</p>
+<p>苏绣真正难的地方，不只是“东西小”。丝线和绸面本身细小柔软，连人手都要小心处理。机器人不能把它“抓死”，否则材料状态就变了，但也不能抓得太松，它必须在稳稳拿住的同时，完成穿针、引线等一连串细微动作。</p>
+<p>从具体的操作来看，<span style="color: #0f59a4"><strong><b>嵌绳</b></strong>，</span>需用指尖捏住细绳；<span style="color: #0f59a4"><strong><b>卷轴，</b></strong></span>要整只手掌压平绸面；<strong><span style="color: #0f59a4">上绷扇，</span></strong>靠虎口撑开扇面；<span style="color: #0f59a4"><strong><b>穿绷绳，</b></strong></span>以指腹夹线穿过一排小孔。</p>
+<p style="text-align: center"><iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=117358538523474&amp;bvid=BV11Had67EKN&amp;cid=42330358495&amp;p=1" width="300" height="150" frameborder="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p>看起来只是几个简单的动作，实际上，对于灵巧手而言，从指尖到掌心，每一个部位都需要参与，并且不同的手指承担着不同的任务。</p>
+<p>由此看来，此次的考题考验的是灵巧手的综合控制能力：多指独立运动、力度控制、精细微调，以及对接触状态的持续感知。</p>
+<p><span style="color: #0f59a4"><strong><b>此次“拜师学艺”的主角正是临界点的旗舰灵巧手，OmniHand 3 Ultra。</b></strong></span></p>
+<p>OmniHand 3 Ultra采用接近真实人手的尺寸比例，拥有21个主动自由度，并采用全直驱传动。</p>
+<p>这些能力与苏绣的操作要求恰好一一对应，<span style="color: #0f59a4"><strong><b>21个主动自由度</b></strong></span>意味着能够独立完成更多的手指动作；<span style="color: #0f59a4"><strong><b>接近真实人手的比例，</b></strong></span>让灵巧手能够更轻松地形成与传统手工艺相近的操作姿态；而<span style="color: #0f59a4"><strong><b>全直驱</b></strong></span>则为手指的精细操作控制提供了硬件基础。</p>
+<p>此外，触觉也是灵巧手要完成苏绣这类任务的另一关键能力。该灵巧手配备了<span style="color: #0f59a4"><strong><b>指尖视触觉传感器，</b></strong></span>以及覆盖指尖、指腹到掌面的<span style="color: #0f59a4"><strong><b>全手触觉，</b></strong></span>让机器人不只是“看见”丝线，还可以知道手指与材料接触后发生了什么，是否有捏住针线、力度是否合适、针线的位置是否发生偏移……</p>
+<p><img class="size-full wp-image-598487 aligncenter" src="https://oss.zhidx.com/2f13900893b7604fdbf1697df4fbf60f/6ac27800/uploads/2026/09/6abc85edc8278_6abc85edc4d0d_6abc85edc4cd5_%E6%8D%8F%E9%92%88.gif" alt="机器人“拜师”苏绣！最细的活，最硬的考题" width="426" height="240" /></p>
+<p>尤其面对柔性材料，材料会随着接触与施力发生变化，机器人的动作也需要随之改变。而苏绣这一任务正是将灵巧手的自由度、触觉能力放在真实的精细操作中进行验证。</p>
+<h2><strong><b>二、从劈丝到合绣，灵巧手如何学习苏绣</b></strong></h2>
+<p>真正进入苏绣后，最直观的变化是，灵巧手面对的每一个动作都开始变得“有条件”。</p>
+<p>比如劈丝。一根线并不是简单地“一分为二”，而是要经过一劈二、二劈四、四劈八、八劈十六。线股越来越细之后，各股之间的张力和位置会互相影响，<strong><span style="color: #0f59a4">前一次劈丝形成的状态，又会决定下一次应该怎么操作。</span></strong></p>
+<p>在这一过程中，OmniHand 3 Ultra 自己完成了前两三次操作，后续则由苏绣老师通过示范以及人机协作的方式，一起完成后续操作。这也让此次“拜师”有了更具体的含义，机器人不是单纯观看一段演示，而是在真实操作中学习和配合。</p>
+<p>穿针则是另一种难题。<span style="color: #0f59a4"><strong><b>绣花针针孔不过0.15毫米，</b></strong></span>机器人要在极小空间里完成对准，再将线送入并牵引，同时还要应对手、针和线之间持续变化的牵引力，这对实时力控提出极高要求。</p>
+<p><img class="size-full wp-image-598486 aligncenter" src="https://oss.zhidx.com/48a22f14c3ea2cc2884069ef20a9289f/6ac27800/uploads/2026/09/6abc85bda76ed_6abc85bd9c4c0_6abc85bd9c47d_%E7%A9%BF%E9%92%88.gif" alt="机器人“拜师”苏绣！最细的活，最硬的考题" width="426" height="240" /></p>
+<p><strong><span style="color: #0f59a4">捻线和挑线</span></strong>又进一步考验动态控制。与指尖之间的点接触相比，指腹是面接触，会发生形变，而这种形变又会影响针的位置。因此，两个指腹不仅要控制力度，还要同步控制位置，而且要尽可能保证每一次动作的一致性。<img class="size-full wp-image-598491 aligncenter" src="https://oss.zhidx.com/a3715e55315b610dc513b43a8f2d7c65/6ac27800/uploads/2026/09/6abc8a5af282c_6abc8a5ae8131_6abc8a5ae80fe_%E6%8D%BB%E7%BA%BF%E6%8C%91%E7%BA%BF.gif" alt="机器人“拜师”苏绣！最细的活，最硬的考题" width="426" height="240" /></p>
+<p><strong><span style="color: #0f59a4">挑线时，</span></strong>部分手指需要完成动作，其他手指则要保持稳定；相关操作还结合前期遥操作数据和强化学习优化策略。</p>
+<p><strong><span style="color: #0f59a4">到了合绣，</span></strong>问题进一步变成了连续动作之间如何衔接。前一针形成的状态会成为后一针的操作条件，一次操作结束后，机器人还需要为下一次操作留下合适的位置和余量，当出现操作、定位等偏差时，还需要依靠指尖的精细操作进行调整适应。</p>
+<p>（动图）</p>
+<p>这样看来，苏绣的难度真正在于它同时叠加了<span style="color: #0f59a4"><strong><b>柔性材料、微小尺度、多指协同、动态力控和连续操作等</b></strong></span>多个要求。</p>
+<p>也正因如此，苏绣与搬运重物、夹豆子等操作对象相对稳定的机器人任务存在明显差异，机器人面对的是一连串相互影响的精细操作。</p>
+<h2><strong><b>三、学习苏绣，不只是让灵巧手多一门手艺</b></strong></h2>
+<p>对于临界点而言，让OmniHand 3 Ultra学习苏绣，显然不只是为了让灵巧手多掌握一项传统技艺。</p>
+<p>苏绣提供的更像是一套考题。其中很多动作，很难简单拆解成一条固定轨迹。针、线、绸面都在随着操作不断变化，机器人需要根据当下的接触状态，持续调整手指的位置和力度。这种能力正是机器人处理真实世界复杂操作时所需要的。</p>
+<p>因此，苏绣这一任务背后真正的价值在于，灵巧手能否通过这样的任务，学会人手处理细小柔软还易形变的物体的方式。</p>
+<p>除了学习以外，这类任务还给灵巧手提供了一个更加集中、复杂的验证场景。自由度能否支撑完成任务、触觉能否及时反馈、手指的协调度如何、多个动作能否无缝衔接……这些能力指标都能在苏绣这一套足够复杂的任务中得到检验。</p>
+<p>但若觉得这些能力只能用在苏绣上，那就大错特错了。</p>
+<p>无论是在家庭场景中对衣物、线束等柔性物体的整理和操作，还是在工业场景中，拧螺丝、零部件装配、精密抓取等精细任务，都需要机器人根据物体状态不断调整动作。</p>
+<p>因此，苏绣本身也许并不是临界点认为灵巧手最终要进入的应用场景，但在苏绣中验证出的感知、触觉、控制能力，却可以迁移到更多的场景中。</p>
+<h2><strong><b>结语：做最细的活，是灵巧手走向现实落地的必经路</b></strong></h2>
+<p>一根丝线、一枚绣花针，到一整套苏绣动作，临界点让灵巧手学习的，看上去只是一门传统手艺，深究到底，这其实是在验证机器人能否真正掌握人手处理复杂对象的方式。</p>
+<p>对于人来说，很多动作经过长期练习后已成为习惯，但对于机器人来说，每一个细微动作，都需要实时获取信息、判断变化，并做出相应调整。</p>
+<p>这也是灵巧手不断走向真实世界必须补上的一课。真正困难的任务是它在面对材料和环境变化的同时，是否能够把一连串的细微动作稳定地做好。</p>
+<p>苏绣只是其中一个场景，未来灵巧手能否向人手学习，将从复杂人手动作中习得的能力，迁移至更多样的任务，仍需经过更多真实场景的验证。</p>
+<p>这场从“手”开始的具身智能落地竞赛，才刚刚开始。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598485.html</link>
+<pubDate>Wed, 30 Sep 2026 12:10:47 +0800</pubDate>
+<source>智东西</source>
+<author>刘 俐杉</author>
+</item>
+<item><title><![CDATA[Muse凭啥让小扎AI口碑翻盘？一文看懂]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/15c3c3320640ba5deaa071bbeb32475d/6ac27800/uploads/2026/09/6abb92a911745_6abb92a90e97a_6abb92a90e91f_%E5%98%8E%E5%98%8E%E5%98%8E.png"><strong>AI应用风向标（公众号：ZhidxcomAI）</strong><br />
+<strong>作者｜毕伟豪</strong><br />
+<strong> 编辑｜心缘</strong></p>
+<p>智东西9月30日报道，过去三周，Meta发布的一款App成了<strong><span style="color: #0f59a4;">科技圈最大的变量</span></strong>。</p>
+<p>该应用上线后仅10天就<span style="color: #0f59a4;"><strong>登顶美国App Store免费应用总榜</strong></span>，将ChatGPT甩在身后，第12天，据第三方估算其全球安装量达到280万。</p>
+<p><img class="alignnone size-full wp-image-598316" src="https://oss.zhidx.com/6f7083dc2677b3187113ac632fffe7bf/6ac27800/uploads/2026/09/6abb9870eb631_6abb9870e68e6_6abb9870e68af_c08ee864f59869f2536414de3944ece8.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="726" height="278" /></p>
+<p>资本市场也反映出它的火爆，美国当地时间9月21日，<span style="color: #0f59a4;"><strong>Meta单日股价上涨11.43%</strong></span>，市值一天增加接近2000亿美元，此后Meta股价整体呈上涨趋势，价格稳定在700美元（约合人民币4697.31元）以上。</p>
+<p><img class="alignnone size-full wp-image-598321" src="https://oss.zhidx.com/93cc03bb5ac5899e4f98f8ad7615e758/6ac27800/uploads/2026/09/6abb9a1f7c20d_6abb9a1f78f9d_6abb9a1f78f6c_dd2410bc6768e758054f766931437908.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="1308" height="1142" /></p>
+<p>前面这款爆火的APP，就是Meta于9月8日发布的个人AI助手Muse，它给每个用户配上了<span style="color: #0f59a4;"><strong>独立的云端虚拟机</strong></span>，用户通过手机就能浏览网页、操作应用、发邮件、订机票、下单购物，关掉App后云端还可以继续工作。</p>
+<p><img class="alignnone size-full wp-image-598262" src="https://oss.zhidx.com/1ae4090766ee9e9e03cc0d51cada8764/6ac27800/uploads/2026/09/6abb7e272ecd8_6abb7e272c265_6abb7e272c230_38065e866202ce721b9beba9bfc98683.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="1174" height="1038" /></p>
+<p>Muse走红后，<span style="color: #0f59a4;"><strong>不少AI公司也纷纷紧跟潮流</strong></span>，OpenAI即将推出对标Muse的个人助手、Manus发布独立应用Cue，Grok Bot、Instinct也早已走在了虚拟机这一方向上，与此同时，据新浪科技报道，字节跳动也在内测个人助理方向的产品。</p>
+<p>一款看起来只是AI助手的App，为什么能同时扰动惊动用户、资本市场和AI公司三方风云，让Personal Agent成为新的焦点词汇？</p>
+<h2><strong>一、Muse爆火始末：把OpenClaw变成了普通人都能用的AI助理</strong></h2>
+<p>Muse上线后，很快就有人发现，它和此前爆火的OpenClaw有一种很强的相似感。</p>
+<p>“龙虾之父”Peter Steinberger还在社交平台上在线求邀请码，表示对Muse对Soul文件很好奇。</p>
+<p><img class="alignnone size-full wp-image-598294" src="https://oss.zhidx.com/5ff59fd38ef824ac3f3997954c0cc3d7/6ac27800/uploads/2026/09/6abb8d639f5fc_6abb8d639c23d_6abb8d639c206_8895433fa3528e6bb98e4d0358d23f06.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="1178" height="346" /></p>
+<p>这种相似并不只是“都能操作电脑”。OpenClaw真正让AI圈兴奋的地方，是它把Agent的权限进一步打开，让AI可以进入真实的电脑环境，调用浏览器、文件、终端以及各种外部服务，替用户持续完成一件事情。</p>
+<p>比如订机票、处理邮件、买东西，甚至运行代码、管理其他AI工具。只要给Agent足够的权限，它就不再只是回答问题，而是可以真正替用户操作电脑。</p>
+<p><img class="alignnone size-full wp-image-598287" src="https://oss.zhidx.com/72baf972296f78f8526953387f0990e6/6ac27800/uploads/2026/09/6abb8c2aaa43e_6abb8c2aa766c_6abb8c2aa7639_c7c89a0570d89dfc26e5cdf95d6a50d2.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="2208" height="1534" /></p>
+<p>但这套能力过去更多属于极客玩家，即使是最近更新的OpenClaw，也依然保留着较高的上手难度。</p>
+<p>用户需要自己准备运行环境、配置模型和工具，还要处理账号、权限、安全等问题。而随着Agent逐渐进入普通用户场景，大厂推出的成熟产品受安全、隐私和第三方平台限制，真正“完成任务”的能力事实上是受限的，越来越多的产品倾向于办公这种和文件打交道的场景。</p>
+<p>而对于Muse来说，用户需要做的事情越来越简单，只需要告诉它“我要完成什么”。Muse真正做的，是把OpenClaw这类产品已经验证过的Agent能力，进一步做了一次消费级封装。</p>
+<p>过去，用户需要先理解Agent是什么、怎么配置、有哪些权限，Muse则把这些东西藏到了产品背后。用户只需要打开App或者WhatsApp，交代一件事，剩下的搜索、网页操作、信息整理和任务推进，都由Agent自己完成。</p>
+<p>所以，Muse与OpenClaw的差别，与其说是“谁多了一个能力”，不如说是同一套个人Agent范式，拥有了完全不同的使用门槛。</p>
+<p>这一点甚至引发了Muse是否“就是OpenClaw套壳”的讨论。早期用户发现，两者的工作区和配置文件存在不少相似之处，包括SOUL.md等文件。</p>
+<p><img class="alignnone size-full wp-image-598292" src="https://oss.zhidx.com/032cdefc1d097dab6da1c94ea71b948f/6ac27800/uploads/2026/09/6abb8cc4516f2_6abb8cc44e8cb_6abb8cc44e89b_9106a8958680b73faa92635042f29a5e.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="982" height="1186" /></p>
+<p>对此，Meta超级智能实验室产品负责人Nat Friedman公开表示，Muse本身是“从零开始”开发的，但产品设计确实深受OpenClaw影响。他还提到，团队希望做一个类似OpenClaw、但能够更加安全、可靠、易用，并最终扩展到数十亿人的产品。</p>
+<p>这也解释了Muse为什么会让很多AI玩家觉得熟悉。真正的变化在于，OpenClaw把Agent能力交给了极客，Muse则试图把这套能力交给所有消费者。</p>
+<p>比如，用户想去看一场演唱会，可以直接告诉Muse：“帮我安排下个月的行程。”</p>
+<p>它不会只返回一份旅行攻略，而是自己搜索航班、比较价格、查酒店、规划路线，甚至继续完成预订。如果航班涨价或者酒店没房，它还能重新调整方案；涉及付款、发送邮件等敏感操作时，再回来让用户确认。</p>
+<p>用户在Instagram收藏了一条菜谱视频，Muse也可以把它整理成购物清单；邮箱里有一堆待处理事项，它可以帮忙整理；甚至还有人分享用Muse注册Claude账号的教程。</p>
+<p><img class="alignnone size-full wp-image-598315" src="https://oss.zhidx.com/ea278eba2e4ec51280f1d80fbcbbb159/6ac27800/uploads/2026/09/6abb97cfbeaaa_6abb97cfbbb64_6abb97cfbbb32_351d488024ed4b7cd758e0502045de7f.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="1248" height="838" /></p>
+
+<p>而要让普通用户真的敢把邮件、账号、购物甚至支付交给AI，光有一个Agent还不够，Meta还得解决一个更底层的问题：AI到底应该运行在哪里？</p>
+<p>答案就是Muse Secure VM。</p>
+<p>按照Meta官方介绍，Muse运行在一台独立的云端虚拟机中，拥有自己的浏览器、存储和算力，Agent与用户数据都运行在隔离环境里。Meta还设置了独立的Sentinel Agent，对Muse访问互联网和执行敏感操作进行控制，并在发送邮件、购买商品等操作前要求用户确认。</p>
+<p>一个真正的Personal Agent，不能只有聊天窗口。它需要浏览器访问网站，需要存储空间处理文件和用户资料，还需要一个可以持续运行的环境，让用户关掉App之后，任务仍然能够继续。</p>
+<p>Meta真正封装起来的，也正是这一整套复杂度：电脑、工具、权限和运行环境。</p>
+<p>于是，OpenClaw时代需要用户自己搭建和管理的东西，被Muse变成了一个普通用户打开App就可以直接使用的服务。</p>
+<p>这也体现了Muse的产品逻辑：把已经被OpenClaw验证过的“AI替你干活”做成一个足够简单、足够安全、足够接近普通人日常生活的产品。</p>
+<p>而这可能也是Muse能够迅速破圈的一个重要原因——它把“拥有一个自己的AI助理”这件事，从极客能力变成了消费产品。</p>
+<h2><strong>二、能干活、易上手、免费、邀请码和Meta流量，共同推高Muse热度</strong></h2>
+<p>但能干活和门槛低能解释Muse为什么值得关注，却还解释不了它为什么能在上线不到两周后冲上美国App Store总榜第一，Muse上线初期的一系列运营和传播策略，起到了重要的放大作用。</p>
+<p>首先是免费，Muse上线初期提供了大量免费基础能力，用户不需要为第一次尝试付出成本，免费意味着用户可以先用起来，再决定它到底有没有长期价值。</p>
+<p>其次是邀请码，上线初期的邀请码机制制造了一定的稀缺感，用户之间出现了明显的传播效应。新用户注册后可以通过邀请码获得更多Token，也进一步刺激了用户分享。</p>
+<p><img class="alignnone size-full wp-image-598325" src="https://oss.zhidx.com/6b840166b2614476be055e79c2ace22a/6ac27800/uploads/2026/09/6abb9b978f508_6abb9b978c8d3_6abb9b978c892_2d5532c33021b98bd070bb6f529e8f08.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="944" height="620" /></p>
+<p>但真正让这股热度被快速放大的，还是Meta本身的分发能力。</p>
+<p>Meta旗下拥有Facebook、Instagram、WhatsApp、Messenger等庞大的产品矩阵，Muse天然拥有其他初创Agent产品很难获得的用户触达能力。Muse上线第二天，Meta就开始在自家产品中进行推广；此后，Meta还持续通过旗下产品和社交媒体扩大曝光。</p>
+<p><img class="alignnone size-full wp-image-598297" src="https://oss.zhidx.com/d723b9f94ee511d0762c78b406dfb2f4/6ac27800/uploads/2026/09/6abb8ee97e9be_6abb8ee9765ea_6abb8ee9765b7_ade2868b0920320b2a1bef63de235fba.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="1192" height="1066" /></p>
+<p>Meta首席AI官Alexandr Wang本人也持续在社交媒体上为Muse造势，发布用户案例、转发使用反馈和各种相关内容，让Muse不断出现在AI用户的视野里。</p>
+<p>不过，Muse的爆火并不能简单归结为“Meta砸钱投流”，Meta自身的流量更像是放大器，而不是Muse爆火的全部答案。</p>
+<p>Muse用户在社区中所展示的案例十分“接地气”，也是爆火的原因之一。不是造了个什么网页，不是开发了什么游戏，而是省下了多少保险费用、帮忙订了便宜的酒店、机票等等这些生活中的场景，非常易于传播。</p>
+<p>重要的是，Muse本身是一款非常容易被普通用户理解和传播的产品。 准确地说，Muse让原本属于开发者和AI玩家的Agent能力，以一种更加轻量、更加容易理解的产品形态进入了大众消费者的使用场景，和用户的日常生活更加紧密地结合。</p>
+<h2><strong>三、Muse还有三道关卡：权限、安全和准入</strong></h2>
+<p>Agent产品一直绕不开安全问题，过去，人们担心的是Agent运行在什么环境里、数据会不会泄露，以及本地部署和云端部署之间的安全差异。Muse的爆火，又一次撩拨了安全红线：</p>
+<p>当AI拥有一台云端电脑之后，它到底应该拿到多高的权限？出了问题谁来负责？而当它真正进入第三方平台时，对方又是否允许它这么做？</p>
+<p><img class="alignnone size-full wp-image-598283" src="https://oss.zhidx.com/03919ed6006e63bca98c2b77504f6b1c/6ac27800/uploads/2026/09/6abb8b406664c_6abb8b4063b76_6abb8b4063b47_49c9baf248cea65a77d827f387f99c40.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="1492" height="886" /></p>
+<p>第一道限制，是权限。Muse目前允许用户对任务设置不同的读取和写入权限，也可以随时断开某项服务。换句话说，Muse在用户授权和Agent执行之间留出了一层控制机制。</p>
+<p>第二道限制，是安全。Muse的解法是通过Secure VM隔离运行环境，并对凭证和敏感操作进行额外保护，例如避免直接向Agent暴露用户凭证，以及在涉及敏感操作时要求用户确认。</p>
+<p>购物是Muse最典型的Agent场景之一。</p>
+<p>比如用户让Muse帮忙买东西，真正困难的是后面的登录、填写信息、结账和付款。尤其涉及真实资金后，任何一次操作失误，都可能直接变成用户的经济损失。</p>
+<p>Meta做了一套比较完整的产品设计。如果用户是在已经保存支付信息的网站上购物，到了付款环节，Muse会弹出人工审核，并把商品、金额等完整购买信息交给用户确认。</p>
+<p>对于此前没有购物记录的网站，Muse则通过内置钱包保存支付信息，并宣布与Stripe Link合作，未来将接入Shop Pay。付款时，系统会生成一个一次性卡号，把这个临时卡号传给商家。</p>
+<p>每笔交易都需要用户进行人工审核，而且这组支付信息还会绑定具体商家和金额，只在有限时间内有效。</p>
+<p>这样一来，即便Agent在执行任务时遭遇提示词注入，或者支付信息被攻击者窃取，拿到的也不是真实信用卡。</p>
+<p><img class="alignnone size-full wp-image-598284" src="https://oss.zhidx.com/23a49ab3cdfc60076ddc984409a937ec/6ac27800/uploads/2026/09/6abb8b45ad211_6abb8b45a9f59_6abb8b45a9f18_5a630423dadc37a76b23c53e71b97544.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="1634" height="824" /></p>
+<p>不过，只要Agent拥有真实的浏览器、账号和操作权限，安全风险就不可能完全消失，Meta官方也声明了这一点。</p>
+<p>第三道限制，则来自第三方生态。Muse即使拥有自己的云端电脑，也不意味着它可以自由进入互联网里的所有服务。</p>
+<p>电商、支付和社交平台都有自己的账号体系、反爬机制以及Agent政策。无论是传统的内置浏览器、无头浏览器，还是Computer Use，本质上都会面对平台愿不愿意让AI替用户完成操作的问题。</p>
+<p>9月20日晚起，Amazon开始拦截Muse在其平台上的浏览和下单行为；而同一天，Shopify CEO Tobias Lütke则公开表示将与Muse合作，支持Agent在Shopify商家店铺中完成结账。</p>
+<p><img class="alignnone size-full wp-image-598285" src="https://oss.zhidx.com/9d58b363d2b218d49e6b61ce836038ce/6ac27800/uploads/2026/09/6abb8b7c4ef94_6abb8b7c49c7e_6abb8b7c49c33_5ae103a9366991eb92ca17d7c814189c.png" alt="Muse凭啥让小扎AI口碑翻盘？一文看懂" width="1814" height="1130" /><img /></p>
+<p>两个截然不同的动作，恰好说明了Muse下一阶段真正需要解决的问题：Agent能不能成为用户的执行入口，不只取决于自己有多强，还取决于互联网里的其他服务商愿不愿意向它开放权限。</p>
+<h2><strong>结语：Personal Agent走入厂商、大众和资本视野</strong></h2>
+<p>事实上，Muse的爆火，还不足以证明Personal Agent已经成为下一个确定性的风口。</p>
+<p>但它至少把一套完整的Agent能力，以一种非常直白的方式摆到了普通消费者面前。</p>
+<p>当AI拥有一台自己的电脑，可以替你浏览网页、处理文件、发邮件、购物、订机票和酒店，问题也随之发生变化：</p>
+<p>你愿不愿意把自己的信息交给AI？又愿不愿意把一件完整的事情，真正交给它去完成？</p>
+<p>这可能才是Personal Agent走向大众之后真正需要回答的问题。</p>
+<p>接下来，决定这类产品能走多远的，也不只是模型有多聪明，还包括AI能够获得多少权限、能够进入多少应用，以及用户愿意在多大程度上信任它。</p>
+<p>而从Muse近期引发的市场和行业反应来看，Personal Agent已经从开发者和AI玩家的小范围实验，开始进入厂商、大众用户和资本都在关注的视野。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598234.html</link>
+<pubDate>Wed, 30 Sep 2026 10:18:58 +0800</pubDate>
+<source>智东西</source>
+<author>毕 伟豪</author>
+</item>
+<item><title><![CDATA[刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/0dde51f5541b6ee9701e54cc83f3ce97/6ac27800/uploads/2026/09/6abc1eefcd848_6abc1eefcac3f_6abc1eefcac06_%E5%A4%B4%E5%9B%BE.jpg"><strong>智东西</strong><br />
+<strong>作者 | 王涵</strong><br />
+<strong>编辑 | 心缘</strong></p>
+<p>智东西9月30日报道，今天凌晨，OpenAI联合创始人兼CEO Sam Altman在OpenAI DevDay 2026上一口气发布了<span style="color: #0f59a4"><strong>21项产品、功能与更新</strong></span>，包括全天候个人智能体Dot、协作空间ChatGPT Spaces、GPT-6.1 Sol等。</p>
+<p>其中，<span style="color: #0f59a4"><strong>全天候个人智能体Dot</strong></span>，定位类似Meta的个人智能体产品Muse，<span style="color: #0f59a4"><strong>由GPT-6 Astra驱动</strong></span>，7×24小时持续运行，拥有独立云端电脑、浏览器和代码编写测试能力。</p>
+<p>有意思的是，不知是巧合还是故意，马斯克的SpaceXAI公司已经抢注了Dot.com域名，搜这个域名会重定向到Grok网页。</p>
+<p>今日起，OpenAI Dot向ChatGPT Pro Business、Premium和Enterprise用户开放，包含在现有订阅中，对话不计入使用量配额。</p>
+<p><img class="alignnone size-full wp-image-598415" src="https://oss.zhidx.com/9c6f881a6e2a147a723b576ff6c8489b/6ac27800/uploads/2026/09/6abc123541f87_6abc12353f2ad_6abc12353f24a_%E6%88%AA%E5%B1%8F2026-09-30-01.04.38.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>协作空间<span style="color: #0f59a4"><strong>ChatGPT Spaces</strong></span>则可以让用户、队友与多个智能体在同一动态页面中共同工作，用户@Dot即可派活。</p>
+<p><img class="alignnone size-full wp-image-598416" src="https://oss.zhidx.com/6038fd5a1be05396225d0f38c3a55ba1/6ac27800/uploads/2026/09/6abc125169587_6abc125166121_6abc1251660d2_%E6%88%AA%E5%B1%8F2026-09-30-01.10.22.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p><span style="color: #0f59a4"><strong style="color: #0f59a4">GPT-6.1 Sol</strong></span>也同时发布，该模型在编程和专业任务上的表现与GPT‑6 Astra相当<span style="color: #0f59a4"><strong>，但价格仅为其1/5</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598465" src="https://oss.zhidx.com/7a4524483450a30992d8e99b8f36cce8/6ac27800/uploads/2026/09/6abc3139d06ae_6abc3139cd7ee_6abc3139cd7b6_%E4%BB%B7%E6%A0%BC.jpg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="554" /></p>
+<p>与模型一起更新的，还有8倍速推理模式<span style="color: #0f59a4"><strong>Ultrafast</strong></span>（最高300token/s）、低延迟<span style="color: #0f59a4"><strong>Decisions API</strong></span>（毫秒级响应）、新增<span style="color: #0f59a4"><strong>Pro 500订阅计划</strong></span>（月费500美元）、重新开放的<span style="color: #0f59a4"><strong>Pro 200订阅计划</strong></span>（月费200美元）。</p>
+<p><img class="alignnone size-full wp-image-598417" src="https://oss.zhidx.com/4bc978d005bc20159f0d14ae97b69dc5/6ac27800/uploads/2026/09/6abc1284bec7b_6abc1284bc07a_6abc1284bc034_%E6%88%AA%E5%B1%8F2026-09-30-01.21.40.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>此外，OpenAI还发布了<span style="color: #0f59a4"><strong>8项开发者能力</strong></span>：Codex Harness开源、Codex云端化、Codex安全云、Agents API公测、OpenAI私有智能、Sign in with ChatGPT、Plugin Extensions、OpenAI Marketplace。</p>
+<p>平台与生态更新另有<strong><span style="color: #0f59a4">6项</span></strong>，覆盖ChatGPT Sites增强、插件发现与提交流程优化、AWS Bedrock托管Agent、与微软Agent 365集成、与Base Ten合作开放开源模型等。</p>
+<p>在主旨演讲尾声，Altman邀请被开发者称为“重置之神”的<span style="color: #0f59a4"><strong>“Tibo” </strong></span>Thibault Sottiaux在现场按下“重置键”，<span style="color: #0f59a4"><strong>为全世界所有ChatGPT用户重置了账户额度。</strong></span></p>
+<p><img class="alignnone size-full wp-image-598418" src="https://oss.zhidx.com/252de147f14a2c86bdaa0e2893b091c6/6ac27800/uploads/2026/09/6abc1333b89af_6abc1333b5c98_6abc1333b5c63_tibo.jpg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="551" /></p>
+<p>另据彭博社今日报道，知情人士透露，OpenAI在推迟IPO后，计划在新一轮过桥融资中至少筹集<span style="color: #0f59a4"><strong>300亿美元（约合人民币2011亿元）</strong></span>，寻求的投前估值约为<span style="color: #0f59a4"><strong>1.4万亿美元（约合人民币93848亿元）</strong></span>。</p>
+<p>如果融资顺利，其估值可能重新超过Anthropic最近一轮私募市场融资时的<span style="color: #0f59a4"><strong>9650亿美元</strong></span>估值。</p>
+<h2>一、Dot：全天候智能体，“最真实的AI形态”</h2>
+<p>Sam Altman在开场主题演讲中，将Dot定位为<span style="color: #0f59a4"><strong>“我们一直为自己设想的最真实的AI形态”</strong></span>。</p>
+<p>Dot由GPT‑6 Astra驱动，是<span style="color: #0f59a4"><strong>7×24小时持续运行的智能体</strong></span>，能主动查看夜间信息、清晨推送紧急事项、更新日历、筛选反馈，帮助用户找回注意力。</p>
+<p>通过OpenAI的插件生态，Dot可以连接<span style="color: #0f59a4"><strong>4000多款应用</strong></span>。无论通过ChatGPT、短信、Slack还是Teams，用户都能随时联系到自己的Dot。</p>
+<p><img class="alignnone size-full wp-image-598419" src="https://oss.zhidx.com/c875b85f83dfec00b6cd3419ec9e243d/6ac27800/uploads/2026/09/6abc1355a87a1_6abc1355a5239_6abc1355a51f4_%E6%88%AA%E5%B1%8F2026-09-30-01.09.30.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>在能力上，Dot依托Astra模型驱动，可承担端到端的复杂工程项目，如监控bug报告、修复问题、起草PR、规划预算周期、诊断APP性能瓶颈并构建修复方案扥过任务。</p>
+<p>同时，每个Dot拥有<span style="color: #0f59a4"><strong>独立的云端电脑、浏览器和代码编写测试能力</strong></span>。用户可以随时打开Dot的电脑，检查它的工作；也可以授权Dot连接并使用用户自己的设备，直接在工作环境中与Dot协作。</p>
+<p><img class="alignnone size-full wp-image-598468" src="https://oss.zhidx.com/1659123d9f836731df60dd91355f2cdb/6ac27800/uploads/2026/09/6abc3ac2718c3_6abc3ac26ed5a_6abc3ac26ed07_1.gif" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="633" /></p>
+<p>在应用场景方面，Dot可以是科学家，它会了解用户的研究问题，以及评估证据的方法。获得新数据后，它会重新运行分析，探究意外结果，并更新论文中的图表。当研究发现发生变化时，它会修改相应的解释，并标出需要用户审阅的内容。</p>
+<p><img class="alignnone size-full wp-image-598471" src="https://oss.zhidx.com/2ce76dbdd84b0f6b45c9a386cd9eca08/6ac27800/uploads/2026/09/6abc3b82f362d_6abc3b82f0acc_6abc3b82f0a7d_4.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="637" /></p>
+<p>如果用户是一名内容创作者，Dot会了解其表达风格和受众关心的内容。收到新的访谈文字稿后，Dot会找出适合剪辑的片段，准备节目笔记，并起草社交媒体帖子供用户审批。它还会将用户的修改同步到各份材料中，并逐渐了解哪些内容能引起共鸣，让用户有更多时间专注创作。</p>
+<p><img class="alignnone size-full wp-image-598472" src="https://oss.zhidx.com/3ce1054ccfd19ebadca7c8275a81f6bf/6ac27800/uploads/2026/09/6abc3bf3d51c5_6abc3bf3d1c28_6abc3bf3d1be3_6.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="740" /></p>
+<p>此外，Altman给出了一个很有代表性的示例：将App从即将关闭的旧版API上迁移出来。</p>
+<p>这个任务在传统工作方式下需要协调多人、耗费大量时间，而Dot能够自动追踪代码库中的依赖关系、识别所有需要修改的组件、编写代码、运行测试，最终为团队生成待审核的拉取请求。</p>
+<p>这意味着过去需要数天甚至数周的项目级工程任务，现在可以被压缩到极短的时间内完成。</p>
+<p>除个人版外，OpenAI还发布了<span style="color: #0f59a4"><strong>企业版Specialist Dot（preview）</strong></span>，定位是由公司配置的虚拟队友，可规模化处理会计、营销、法律等密集型工作。企业可设定目标和上下文、审查产出并反馈改进，反馈在全公司共享。</p>
+<p>目前，据Altman透露，OpenAI内部已对这一模式进行了多角色测试，效果显著。OpenAI正在与微软合作，<span style="color: #0f59a4"><strong>将Specialist Dot集成到Agent 365中</strong></span>，使企业能够通过现有的微软管理工具统一管控这些智能体。</p>
+<h2>二、ChatGPT Spaces：人和智能体协同工作，还能多人协作</h2>
+<p>Altman认为，目前“几乎所有生产力软件都不是为AI和人类高效协作而设计的”。因此，OpenAI推出<span style="color: #0f59a4"><strong>ChatGPT Spaces</strong><strong>——一个用户、队友与智能体共同工作的协作空间。</strong></span></p>
+<p>Space是一个动态页面，用户可以在其中撰写计划、进行研究、创建图像、生成数据或构建全新产品。</p>
+<p><img class="alignnone size-full wp-image-598423" src="https://oss.zhidx.com/1521722cd962a6573a2236857c2b8143/6ac27800/uploads/2026/09/6abc16991fc7c_6abc1699128b9_6abc16991287d_space1.jpeg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1600" height="910" /></p>
+<p>Dot可以直接在页面中与用户协同工作，例如用户可以邀请一个Dot跟踪项目进度。在评论中@一个Dot，它便会立即参与进来并开始处理任务。</p>
+<p><img class="alignnone size-full wp-image-598424" src="https://oss.zhidx.com/a6723d1d6da95d881c5cefdf380ffefa/6ac27800/uploads/2026/09/6abc16bacc837_6abc16bac983e_6abc16bac9809_%E5%92%8Cdot%E5%8D%8F%E4%BD%9C.jpeg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1144" height="1144" /></p>
+<p>用户还可以为页面设定具体指令，例如“检查API平台的Slack频道并每日更新发现”，让Dot自动维护页面内容的时效性。Space中的所有页面与文件统一存放于一个类似云端硬盘的空间中。</p>
+<p>在协作体验方面，Space支持<span style="color: #0f59a4"><strong>用户与多个Dot在同一页面同时工作</strong></span>，即将推出的演示文稿功能将允许团队与多个Agent在ChatGPT内实时协作编辑一份演示文稿。</p>
+<p>在产品演示环节，Dot可以自动更新Launch评审时间到日历、自动分析隔夜用户反馈、主动推送设计团队的最新修改稿供用户审阅。</p>
+<p>通过语音对话，用户可以快速获取用户测试进展并随手委派整理FAQ等任务，Dot凭借对用户工作上下文的完整了解，能够直接完成这些工作。</p>
+<p>在Space中，用户能够<span style="color: #0f59a4"><strong>直接@Dot</strong></span>将数据表格转换为动态柱状图并支持实时筛选和定期自动更新。在Slack中，用户也可以将任务线程直接转发给Dot委派处理。</p>
+<p>OpenAI内部实际运营案例显示，工程师的Dot能够在反馈频道中自动发现bug、展开调查并直接提交修复PR—，这种方式每天帮助OpenAI工程师修复数十个bug。</p>
+<p><img class="alignnone size-full wp-image-598422" src="https://oss.zhidx.com/672e30df94a6ba165599c3eb1ab7e470/6ac27800/uploads/2026/09/6abc1505e2c5a_6abc1505dda79_6abc1505dda1a_%E6%88%AA%E5%B1%8F2026-09-30-01.17.00.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>此外，Dot还能直接调用Codex在笔记本上构建APP并部署到iPhone模拟器，用户可以全程监督并继续委派收尾工作。</p>
+<h2>三、GPT-6.1 Sol：性能比肩Astra，价格却是其五分之一</h2>
+<p>除了新产品外，新模型<span style="color: #0f59a4"><strong>GPT-6.1 Sol</strong></span>也正式发布。Altman称，GPT-6.1 Sol在某些方面甚至比Astra更聪明，将成为开发者的“日常主力模型”。</p>
+<p><img class="alignnone size-full wp-image-598425" src="https://oss.zhidx.com/e2f9f48e2493a45afaec5db0c0a71b17/6ac27800/uploads/2026/09/6abc16da54c38_6abc16da51b5c_6abc16da51aed_%E6%88%AA%E5%B1%8F2026-09-30-01.21.59.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>但在价格上，GPT-6.1 Sol的价格仅为Astra的<span style="color: #0f59a4"><strong>1/5</strong></span>，输入2美元/百万token ，输出10美元/百万token同时标准输入还有95%的折扣。</p>
+<p><img class="alignnone size-full wp-image-598426" src="https://oss.zhidx.com/c0c580acdd8f01bb4c831cfe9eb46bc0/6ac27800/uploads/2026/09/6abc171f76da6_6abc171f72068_6abc171f7201d_%E6%88%AA%E5%B1%8F2026-09-30-01.22.06.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>编程方面，在复杂软件工程能力测试DeepSWE v1.1中，GPT‑6.1 Sol达到与<span style="color: #0f59a4"><strong>GPT‑6 Astra相当的水平</strong></span>，同时以更低的推理强度和成本，比GPT‑6 Sol的最高得分<span style="color: #0f59a4"><strong>高出6.4%</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598458" src="https://oss.zhidx.com/72b7a5974e97b17510fb2a8def0cde7c/6ac27800/uploads/2026/09/6abc227092f44_6abc22708fb7c_6abc22708fb20_%E6%88%AA%E5%B1%8F2026-09-30-04.31.43_%E5%89%AF%E6%9C%AC.jpg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="984" /></p>
+<p>专业工作方面，在专业问题回答测试GDP.pdf中，在所测试的各档推理设置下，GPT‑6.1 Sol的得分<span style="color: #0f59a4"><strong>均高于带回退机制的Opus 5.5</strong></span>，而单任务成本<span style="color: #0f59a4"><strong>不到其一半</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598459" src="https://oss.zhidx.com/b8833d9825a46bd4f69d1ca17aae25cc/6ac27800/uploads/2026/09/6abc22715448d_6abc227150fc9_6abc227150f90_copy_%E5%89%AF%E6%9C%AC.jpg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="972" /></p>
+<p>在多步骤工作流测试AutomationBench中，GPT‑6.1 Sol在中等推理强度下的得分<span style="color: #0f59a4"><strong>比Opus 5.5高2.2%</strong></span>，成本则约为其1/3。这一得分也比相同设置下的GPT‑6 Sol<span style="color: #0f59a4"><strong>高出4.8%</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598454" src="https://oss.zhidx.com/15005200c18d8f89fab6c2dc3ffeb38b/6ac27800/uploads/2026/09/6abc226d742e8_6abc226d66a5c_6abc226d669fd_3.jpg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="1049" /></p>
+<p>需要与计算机应用交互的任务方面，在OSWorld 2.0测试中，最高推理强度下，GPT‑6.1 Sol的得分比GPT‑6 Sol<span style="color: #0f59a4"><strong>高7%</strong></span>，成本却不到其一半。在最高推理强度下，它与Astra的得分差距<span style="color: #0f59a4"><strong>缩小至2.1%以内</strong></span>，单任务成本约为其1/7。</p>
+<p><img class="alignnone size-full wp-image-598455" src="https://oss.zhidx.com/e3230280c6630e1b0201666a4b3cba82/6ac27800/uploads/2026/09/6abc226e52848_6abc226e4f185_6abc226e4f150_4.jpg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="1002" /></p>
+<p>Terminal-Bench Science 0.1评估包括数据分析、模拟和定理证明在内的科学工作流。在最高推理强度下，GPT‑6.1 Sol的得分<span style="color: #0f59a4"><strong>超过GPT‑6 Sol两倍</strong></span>，单任务成本却不到其一半。</p>
+<p><img class="alignnone size-full wp-image-598456" src="https://oss.zhidx.com/e36db264197da12b25b74452871b4fd5/6ac27800/uploads/2026/09/6abc226f0abef_6abc226f07c35_6abc226f07bf2_5.jpg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="972" /></p>
+<p>在最高推理强度下，GPT‑6.1 Sol的平均单任务成本为5.47美元，而Opus 5.5为23.21美元，Astra为23.80美元。</p>
+<p>GPT‑6.1 Sol在高难度提示下的事实准确性也有所提升。在超高推理强度下，它的<span style="color: #0f59a4"><strong>事实错误率为4.1%</strong></span>，低于GPT‑6 Sol的4.5%，更接近相同设置下Astra的4.0%，而单任务成本比Astra低约83%。</p>
+<p><img class="alignnone size-full wp-image-598457" src="https://oss.zhidx.com/54ddc6687923039d8a037e8088f1106b/6ac27800/uploads/2026/09/6abc226fb8eb7_6abc226fb56e8_6abc226fb56af_6.jpg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="977" /></p>
+<p>同时本次模型更新了<span style="color: #0f59a4"><strong>Ultrafast高速推理模式</strong></span>，这一模式将模型响应速度提升至标准版的8倍（每秒300个token），价格为标准版的6倍。</p>
+<p>该模式适用于API、ChatGPT和Codex三大平台，初期支持Astra模型，后续将扩展至GPT-6.1 Sol。</p>
+<p><img class="alignnone size-full wp-image-598427" src="https://oss.zhidx.com/60233f87a338d681db8401860c6c9359/6ac27800/uploads/2026/09/6abc1790c3e4a_6abc1790c1441_6abc1790c13da_%E6%88%AA%E5%B1%8F2026-09-30-01.23.00.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>在大会现场的演示中，同一任务在Ultrafast模式下的完成速度远超常规版——使用Ultrafast的火箭已完成发射，常规版火箭仍在构建中。</p>
+<p><img class="alignnone size-full wp-image-598444" src="https://oss.zhidx.com/15838a74ae5e925b31ced7417f587225/6ac27800/uploads/2026/09/6abc1a66cad3a_6abc1a66c5c5c_6abc1a66c5c10_2026-09-3001.23.08-ezgif.com-video-to-gif-converter.gif" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="500" height="275" /></p>
+<p>在研究自我优化方面，通过让模型以持续循环的方式寻找框架中的改进机会，OpenAI成功将延迟降低超一半。</p>
+<p><img class="alignnone size-full wp-image-598430" src="https://oss.zhidx.com/e456f7ab0ef90be6fe1181c05ef5716a/6ac27800/uploads/2026/09/6abc17fce0929_6abc17fcdd58b_6abc17fcdd534_%E6%88%AA%E5%B1%8F2026-09-30-01.27.13.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>更重要的是，模型帮助显著提升了Astra在桌面和浏览器导航中的安全性与对齐度。通过训练模型在危险场景中的拒答能力，Astra在行业标准的计算机使用压力测试中达到了领先水平。</p>
+<p><img class="alignnone size-full wp-image-598432" src="https://oss.zhidx.com/a392501148b7abf848b119defa6408f5/6ac27800/uploads/2026/09/6abc1808a76e3_6abc1808a466c_6abc1808a4615_%E6%88%AA%E5%B1%8F2026-09-30-01.27.49.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>在自主研究能力方面，OpenAI团队透露称，今年1月的时候，模型在耗时一天以上的任务中绝大多数都以失败告终。而到了7月，借助Ultrafast的高速推理能力，模型已能独立完成超过1/3的时长一天的研究任务，全程无需人工干预。</p>
+<p><img class="alignnone size-full wp-image-598434" src="https://oss.zhidx.com/ebc9e5de914a788b976e072cc93a4013/6ac27800/uploads/2026/09/6abc181534f1f_6abc181531b47_6abc181531adf_%E6%88%AA%E5%B1%8F2026-09-30-01.28.33.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>在科学贡献层面，据OpenAI团队接受Astra已帮助解决了100多个持续数十年的数学难题，正在加速针对耐药菌的新型抗生素研发，辅助研究古代语言和历史，开发更好的可再生能源并提高能源效率等。</p>
+<p><img class="alignnone size-full wp-image-598433" src="https://oss.zhidx.com/d7a7de9140d93fc9f255ffbe104b1ece/6ac27800/uploads/2026/09/6abc180f6be52_6abc180f68b45_6abc180f68ac7_%E6%88%AA%E5%B1%8F2026-09-30-01.28.03.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>此外，OpenAI预览了<span style="color: #0f59a4"><strong>Decisions API</strong></span>，该API让模型在零点几秒的时间内做出响应，几乎是无感体验。</p>
+<p>其技术原理是在Luna模型中加了一组预定义选项（如请求路由、图像分类、Agent下一步行动决策），通过将模型注意力集中在特定选择上，实现极低的延迟，同时保持图像理解、多语言支持和安全保护等核心能力。</p>
+<p><img class="alignnone size-full wp-image-598428" src="https://oss.zhidx.com/4fb6e474f9df9999590f29f012ccee5d/6ac27800/uploads/2026/09/6abc179878dd8_6abc179876334_6abc1798762c9_%E6%88%AA%E5%B1%8F2026-09-30-01.24.18.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>伴随新模型的发布，OpenAI推出了全新的<span style="color: #0f59a4"><strong>Pro 500订阅计划</strong></span>，该计划提供最高使用量限制，使用量为Plus级别的25倍，并包含Ultrafast模式的访问权限，同时可用于“使用ChatGPT登录”的合作伙伴应用。</p>
+<p>原有的<span style="color: #0f59a4"><strong>Pro 200计划</strong></span>今日重新开放，保留所有前沿模型访问权，GPT-6.1 Sol作为日常驱动模型。</p>
+<p><img class="alignnone size-full wp-image-598429" src="https://oss.zhidx.com/1610530320e845dd1ccc2c7a17b5e984/6ac27800/uploads/2026/09/6abc17f5d984b_6abc17f5d67cf_6abc17f5d6780_%E6%88%AA%E5%B1%8F2026-09-30-01.23.47.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<h2>四、开发者工具升级：Codex云端化、Agents API公测，Astra现场演示自主玩游戏</h2>
+<p>在开发者工具部分，OpenAI发布了多项面向开发者的基础设施级更新。</p>
+<p><span style="color: #0f59a4"><strong>Codex Harness开源：</strong></span>驱动Codex和Dot的核心框架现已实现开源。这个框架经过了大量优化，能够在最少token消耗下实现最快速度和最高准确率。</p>
+<p><img class="alignnone size-full wp-image-598435" src="https://oss.zhidx.com/2abb148ca331d9da0bc60581e275a23d/6ac27800/uploads/2026/09/6abc193bddf26_6abc193bd57dc_6abc193bd5790_%E6%88%AA%E5%B1%8F2026-09-30-01.29.44.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p><span style="color: #0f59a4"><strong>Codex云端化（今日上线）：</strong></span>Codex现在已经完全在云端运行。用户可以在手机上启动一个任务，然后在浏览器或桌面上无缝续接，进度不会丢失。即使关闭笔记本电脑，Agent也会在云端持续工作。</p>
+<p><img class="alignnone size-full wp-image-598442" src="https://oss.zhidx.com/70577d9015cd46429645a684d8f5868f/6ac27800/uploads/2026/09/6abc1986f202a_6abc1986ef4d8_6abc1986ef4a1_%E4%BA%91.jpg" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1000" height="490" /></p>
+<p><span style="color: #0f59a4"><strong>Codex安全云（今日上线）：</strong></span>Codex安全云是一款面向防御者的基础设施加固工具。它在云端环境中可以持续运行，主动发现漏洞并准备经过验证的修复方案供用户审阅。新增功能包括自动去重、定时扫描和全新界面。</p>
+<p><img class="alignnone size-full wp-image-598437" src="https://oss.zhidx.com/540d4e2d6f0c8172f3ead0657bd2fd1e/6ac27800/uploads/2026/09/6abc194ada687_6abc194ad745c_6abc194ad73eb_%E6%88%AA%E5%B1%8F2026-09-30-01.30.41.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p><span style="color: #0f59a4"><strong>Agents API（公开测试版）：</strong></span>OpenAI正式发布Agents API，包含Harness托管、内存、多Agent控制等组件，与驱动Codex和Dot的底层技术完全同源。该API还支持Computer Use。</p>
+<p><img class="alignnone size-full wp-image-598439" src="https://oss.zhidx.com/596a15d63e220316e62f09f6eb88e2bc/6ac27800/uploads/2026/09/6abc195899527_6abc1958961d3_6abc195896192_%E6%88%AA%E5%B1%8F2026-09-30-01.31.42.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p><span style="color: #0f59a4"><strong>OpenAI私有智能（预览）：</strong></span>ZDR结合私有安全处理技术，能够在完全不存储客户内容的前提下提供前沿模型的安全能力；私有推理则在推理阶段即实现隐私保护。</p>
+<p><img class="alignnone size-full wp-image-598440" src="https://oss.zhidx.com/68df93bce915486ef07bbd488ae3ab7b/6ac27800/uploads/2026/09/6abc195f6a800_6abc195f678e8_6abc195f678a4_%E6%88%AA%E5%B1%8F2026-09-30-01.32.26.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>在基础设施性能方面，OpenAI公布，Responses API在过去一年中实现了100倍增长，可靠性保持在99%以上；首个token时间缩短了45%；工具调用和工作流速度提升了超过30%。</p>
+<p><img class="alignnone size-full wp-image-598441" src="https://oss.zhidx.com/1772a93b8d7fe00ca852576474afd360/6ac27800/uploads/2026/09/6abc1965bd5c2_6abc1965ba068_6abc1965ba022_%E6%88%AA%E5%B1%8F2026-09-30-01.33.04.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1294" height="714" /></p>
+<p>此外，OpenAI与AWS合作，在Bedrock平台上推出了由OpenAI驱动的托管Agent，AWS客户可以在其现有应用和数据旁边直接构建OpenAI Agent，同时访问OpenAI前沿模型并使用Codex和ChatGPT Work。</p>
+<p>在现场，OpenAI团队演示了<span style="color: #0f59a4"><strong>新版Codex CLI</strong></span>，以及各项开发者功能的使用效果。</p>
+<p>Codex CLI推出了全新的终端界面，并引入了由GPT Live驱动的双向语音对话能力——开发者可以用自然语言直接与终端实时交互，无需打字即可完成指令下达与结果确认。</p>
+<p>例如，Astra可以将场地照片实时转化为3D世界，并借助Ultrafast模式进行现场语音指挥，实现实时修改场景内容。通过Codex CLI的双向音频能力—，用户可以用自然语言直接与终端对话。</p>
+<p><img class="alignnone size-full wp-image-598445" src="https://oss.zhidx.com/8c8bdb3a8d222abb86e7ecbbd368276c/6ac27800/uploads/2026/09/6abc1b4b128e5_6abc1b4b04c13_6abc1b4b04bc6_2026-09-3001.36.12-ezgif.com-video-to-gif-converter.gif" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="500" height="275" /></p>
+<p>此外，CLI新增了/agents视图，开发者可以在命令行中直接查看和管理多个Agent的运行状态、任务进度和输出结果。</p>
+<p>在现场，OpenAI团队用语音指令构建了一个抽取观众赠送门票的应用，几乎瞬间完成，并可即时语音修改。</p>
+<p><img class="alignnone size-full wp-image-598446" src="https://oss.zhidx.com/a961905c67e3b52f6e4c954db90d5daf/6ac27800/uploads/2026/09/6abc1c6e91770_6abc1c6e8c6ed_6abc1c6e8c6a8_2026-09-3001.37.33-ezgif.com-video-to-gif-converter.gif" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="600" height="331" /></p>
+<p>最令人印象深刻的是Astra自主玩游戏环节，Astra通过浏览器使用功能自主学会了操作太空飞行游戏，自行选择飞船并操作键盘闯关。</p>
+<p><img class="alignnone size-full wp-image-598447" src="https://oss.zhidx.com/1c2337c81fb37a43c352a6a093a48742/6ac27800/uploads/2026/09/6abc1deec9419_6abc1deebe6e4_6abc1deebe665_2026-09-3001.39.59-ezgif.com-video-to-gif-converter.gif" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="500" height="275" /></p>
+<p>与Hugging Face合作的可编程机器人Lavender，集成了Astra视觉、GPT Image 2.5图像生成和GPT Live 1语音能力，能够实时观察现场观众并绘制画像，还对语音指令做出响应。OpenAI团队透露，这个机器人昨晚仅用几个小时便通过Codex完成集成。</p>
+<p><img class="alignnone size-full wp-image-598443" src="https://oss.zhidx.com/56da689f8e7954559ea038ad13b6a01a/6ac27800/uploads/2026/09/6abc19e685685_6abc19e682750_6abc19e6826f1_%E6%88%AA%E5%B1%8F2026-09-30-01.44.54.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1310" height="722" /></p>
+<h2>五、分发与商业化：ChatGPT登录、插件扩展与Marketplace正式推出</h2>
+<p>在平台与开发者工具之外，Altman着重介绍了OpenAI在分发与商业化方面的布局。</p>
+<p><span style="color: #0f59a4"><strong>使用ChatGPT登录（Sign in with ChatGPT）今日上线：</strong></span>用户使用ChatGPT凭据登录开发者的应用后，即可使用其订阅中包含的token，开发者无需承担用户的初始token成本。</p>
+<p><img class="alignnone size-full wp-image-598448" src="https://oss.zhidx.com/d866e1c3475e8fc69c4f94ab8c9f348a/6ac27800/uploads/2026/09/6abc1e5b80810_6abc1e5b7d6db_6abc1e5b7d677_%E6%88%AA%E5%B1%8F2026-09-30-01.47.04.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1310" height="722" /></p>
+<p><span style="color: #0f59a4"><strong>插件扩展（Plugin Extensions）：</strong></span>OpenAI正式推出插件扩展机制，开发者能够构建几乎完整的应用程序，原生融入ChatGPT体验，并通过OpenAI渠道分发。</p>
+<p><img class="alignnone size-full wp-image-598449" src="https://oss.zhidx.com/30b9d513f0d3e00b0df63347337ca1ee/6ac27800/uploads/2026/09/6abc1e631805d_6abc1e631490c_6abc1e63148b4_%E6%88%AA%E5%B1%8F2026-09-30-01.47.09.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1310" height="722" /></p>
+<p><span style="color: #0f59a4"><strong>ChatGPT Sites增强：</strong></span>截至目前，在过去几个月中，已有数百万个各类型站点通过ChatGPT Sites创建。现在这些站点可支持连接的插件与数据，团队成员可以使用自己的凭据登录并携带自己的Agent，体验根据用户身份动态变化。</p>
+<p><span style="color: #0f59a4"><strong>插件发现与提交流程优化：</strong></span>在发现机制上，ChatGPT能够在对话流程中智能识别并推荐可能帮助解决用户问题的插件，用户在对话中即可直接连接使用。在提交流程上，开发者可以跟踪评审状态、查看需要修复的问题、申请人工审核，更新插件工具时也无需从头重新提交整个流程。</p>
+<p><img class="alignnone size-full wp-image-598450" src="https://oss.zhidx.com/4875b837eccdf5cd136f0d6657577c5b/6ac27800/uploads/2026/09/6abc1e6a5e2c6_6abc1e6a5b3a3_6abc1e6a5b340_%E6%88%AA%E5%B1%8F2026-09-30-01.49.10.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1310" height="722" /></p>
+<p><span style="color: #0f59a4"><strong>OpenAI Marketplace（今日上线）：</strong></span>OpenAI Marketplace正式发布，首发拥有30多家合作伙伴，包括Code Rabbit、Notion、Purcell等。</p>
+<p><img class="alignnone size-full wp-image-598451" src="https://oss.zhidx.com/903e7e008edafe187b61203411bb78a9/6ac27800/uploads/2026/09/6abc1e71579af_6abc1e715482e_6abc1e71547d5_%E6%88%AA%E5%B1%8F2026-09-30-01.49.20.png" alt="刚刚，OpenAI版Muse来了！GPT-6.1价格打骨折，被曝要融资超2000亿" width="1310" height="722" /></p>
+<p>企业客户可以将现有OpenAI承诺额度用于购买第三方产品。反过来，开发者也可以在自己的OpenAI承诺额度内消费Marketplace中的产品。</p>
+<p>此外，通过与Base Ten的合作，用户从今日起可以直接在Marketplace中访问开源模型。</p>
+<h2>结语：OpenAI加码开发者生态，用户粘性或成AI下半场的关键因素</h2>
+<p>在这场开发者大会上，Sam Altman和OpenAI团队成员从个人智能体讲到到协作空间，再从新模型和开发者云，讲到到插件生态与Marketplace，整场大会几乎没有喘息的时间，信息量直接拉满。</p>
+<p>通过不断地产品更新迭代，开发者接入门槛在下降，留在生态里的理由在增加。</p>
+<p>对OpenAI来说，这有助于把影响力从模型层扩展到应用层、分发层和交易层。对开发者来说，选择OpenAI的理由也多了一层：这里有用户、渠道和变现可能，也有持续迭代的工具链。</p>
+<p>如今AI竞争走向下半场，用户以及开发者的粘性，或将成为AI产品生存的关键。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598414.html</link>
+<pubDate>Wed, 30 Sep 2026 07:18:31 +0800</pubDate>
+<source>智东西</source>
+<author>王 涵</author>
+</item>
+<item><title><![CDATA[刚刚，iQOO掏出年度旗舰，自研电竞芯片性能提升15%，首款电竞平板也来了]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/a31fbffd6b2c4c9da202e32f9022325e/6ac27800/uploads/2026/09/6abbc2984a164_6abbc298474f0_6abbc298474b3_%E6%89%8B%E6%9C%BA.jpg"><strong>智东西</strong><br />
+<strong>作者 | 陈骏达</strong><br />
+<strong>编辑 | 心缘</strong></p>
+<p>智东西9月29日报道，刚刚，vivo旗下iQOO品牌发布了年度旗舰手机iQOO 16，这台手机搭载了第六代骁龙8超级至尊版，全球首发了由iQOO和三星显示联合研发的2K 165Hz三星珠峰屏，并基于iQOO搭建的“3+2游戏技术版图”，提升了手机在视效、操控、直播和跨端游戏等维度的体验。</p>
+<p>同时，iQOO还发布了其首款电竞平板iQOO Pad Ultra，这款产品同样采用第六代骁龙8超级至尊版，并搭配iQOO自研电竞芯片Q4和全新一代Monster超核引擎，还通过五重风冷散热系统、新一代超感触控引擎和自研Q-flex操控技术提升游戏体验。</p>
+<p>先来看iQOO 16。屏幕是玩家感受性能的关键窗口。iQOO 16的这块三星珠峰屏在安卓阵营首次采用三星M16发光材料与2K LEAD 2.0技术，拥有2K分辨率、165Hz高刷和2800nits全局峰值亮度，功耗比同尺寸1.5K屏还低31%。</p>
+<p><img class="aligncenter size-full wp-image-598396" src="https://oss.zhidx.com/7401e37e7e0743661cfc05413ac86cf6/6ac27800/uploads/2026/09/6abbc1611f8a6_6abbc1611c825_6abbc1611c7a2_%E5%B1%8F%E5%B9%95.jpg" alt="刚刚，iQOO掏出年度旗舰，自研电竞芯片性能提升15%，首款电竞平板也来了" width="2643" height="1248" /></p>
+<p>芯片方面，iQOO16是业界首批采用第六代骁龙8超级至尊版的设备。在16GB+1TB版本中，这颗芯片还可以与LPDDR5X Ultra Pro协同，提供更强大的性能。</p>
+<p><img class="aligncenter size-full wp-image-598398" src="https://oss.zhidx.com/2c7dd7b3cf006182426f05bd0142c60c/6ac27800/uploads/2026/09/6abbc195d6925_6abbc195d347b_6abbc195d344c_%E8%8A%AF%E7%89%87.jpg" alt="刚刚，iQOO掏出年度旗舰，自研电竞芯片性能提升15%，首款电竞平板也来了" width="2642" height="1362" /></p>
+<p>面向游戏场景，iQOO16搭载的自研电竞芯片Q4扮演了“手机独立显卡”的角色，其性能提升15%、缓存速度提升19%、AI算力提升19%，支持全场景光线追踪、游戏超分和超帧。</p>
+<p>Q-flex操控技术则将优化直接嵌入游戏渲染管线，让画面生产与系统消费同步，实现更低的触控时延、更稳定的响应和更高精度。</p>
+<p>影像方面，iQOO16采用1/1.3英寸的5000万像素超感光大底主摄，同时配备5000万像素索尼超级潜望长焦和5000万像素低畸变超广角镜头，并搭载vivo自研超光影HDR技术，实现更细腻的色彩和更高的还原度。</p>
+<p><img class="aligncenter size-full wp-image-598400" src="https://oss.zhidx.com/5fd032f0e098a82f5f4b86f351d91f2b/6ac27800/uploads/2026/09/6abbc2400161a_6abbc23ff2295_6abbc23ff225b_yingx.jpg" alt="刚刚，iQOO掏出年度旗舰，自研电竞芯片性能提升15%，首款电竞平板也来了" width="2637" height="584" /></p>
+<p>续航方面，iQOO16搭载了8400mAh的蓝海大电池，支持100W有线快充。</p>
+<p>iQOO16提供了四个版本，12GB+256GB版本国补后到手价为5499元，其他版本可使用500元全国地补，12GB+512GB版本到手价6299元；16GB+512GB版本到手价6999元；16GB+1TB版本到手价7999元。</p>
+<p>再来看被iQOO称为电竞新物种的电竞平板iQOO Pad Ultra。该平板采用8.8英寸OLED屏幕，重298克、机身厚度5.74mm，握持体验有所提升。iQOO Pad Ultra芯片配置与iQOO16基本一致，电池容量则来到了9020mAh，支持66W超快闪充。</p>
+<p><img class="aligncenter size-full wp-image-598399" src="https://oss.zhidx.com/f295ab21f9a12216383712f9f88a890c/6ac27800/uploads/2026/09/6abbc1e6a79f6_6abbc1e6a3c3e_6abbc1e6a3bf9_%E5%B9%B3%E6%9D%BF.jpg" alt="刚刚，iQOO掏出年度旗舰，自研电竞芯片性能提升15%，首款电竞平板也来了" width="2637" height="1543" /></p>
+<p>为了提供更好的游戏体验，iQOO Pad Ultra在散热上做了不少设计，采用的五重风冷散热系统内置30×30mm、0.94CFM大尺寸风扇，风量较iQOO15 Ultra提升300%。这台设备的平板散热材料总面积达到23253mm²，拥有双层VC均热板。</p>
+<p>iQOO Pad Ultra还支持了PC游戏模拟器、PC串流和3A云游戏等功能，提供更丰富的游戏选项。</p>
+<p>iQOO Pad Ultra共有4个版本可供选择，12GB+256GB版本6499元，首销期间叠加国补到手价5499元起；16GB+256GB版本7199元；16GB+512GB版本7999元，16GB+1TB版本8999元。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598378.html</link>
+<pubDate>Tue, 29 Sep 2026 21:42:54 +0800</pubDate>
+<source>智东西</source>
+<author>陈 骏达</author>
+</item>
+<item><title><![CDATA[刚刚，DeepSeek Harness桌面端上线，梁文锋开送Token了]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/046988b34638d7d90b5e6cd77f809aa9/6ac27800/uploads/2026/09/6abbb6fec4bc5_6abbb6fec1cbb_6abbb6fec1c70_e134ae6c5a94e2ce621fe6fd1feee486_%E5%89%AF%E6%9C%AC.jpg"><strong>智东西</strong><br />
+<strong>作者 | 江宇</strong><br />
+<strong>编辑 | 漠影</strong></p>
+<p>智东西9月29日报道，今日，<span style="color: #0f59a4;"><strong>DeepSeek正式推出DeepSeek Harness v0.2预览版</strong></span>，并提供开箱即用的macOS和Windows<span style="color: #0f59a4;"><strong>桌面端</strong></span>安装包。</p>
+<p><img class="alignnone size-full wp-image-598366" src="https://oss.zhidx.com/a14615c38dcf03ce411fedf19ddbca5f/6ac27800/uploads/2026/09/6abbb47a40f42_6abbb47a3dee3_6abbb47a3de84_e8ffa8f397a00442e7cd4ff58a0cf320.png" alt="刚刚，DeepSeek Harness桌面端上线，梁文锋开送Token了" width="1000" height="635" /></p>
+<p>▲DeepSeek Harness v0.2预览版界面</p>
+<p>用户前往DeepSeek Harness官网下载安装后，按照引导即可直接使用，无需再自行配置开发环境。</p>
+<p>这是DeepSeek Harness自8月13日晚推出开发者预览版v0.1并同步开源后的又一次重要更新。</p>
+<p>此次v0.2进一步补齐了<span style="color: #0f59a4;"><strong>桌面端产品体验</strong></span>，不仅<span style="color: #0f59a4;"><strong>预置日常办公和开发中的常用功能</strong></span>，还新增<span style="color: #0f59a4;"><strong>插件安装与管理页面、自动化任务</strong></span>等能力。</p>
+<p>DeepSeek同时披露，按照官方模型API用户口径统计，目前<span style="color: #0f59a4;"><strong>约60%</strong></span>的DeepSeek Harness用户使用了第三方插件。</p>
+<p>符合条件的DeepSeek用户使用账号登录桌面端后，还可限时领取<span style="color: #0f59a4;"><strong>6元</strong></span>体验赠金。</p>
+<p><img class="alignnone size-full wp-image-598367" src="https://oss.zhidx.com/44dc75bc621a9a9ee9f661c528876880/6ac27800/uploads/2026/09/6abbb4b2e5ef1_6abbb4b2e3132_6abbb4b2e30fe_d5a83490a69ab40f2079e7e07e954efd.png" alt="刚刚，DeepSeek Harness桌面端上线，梁文锋开送Token了" width="554" height="256" /></p>
+<p>根据典型Agent任务的实际用量比例及DeepSeek V4.1 Flash非高峰时段价格估算，6元额度约可覆盖共计1.2亿缓存命中输入token、148万缓存未命中输入token及52万输出token，实际可用量随任务和使用时段而变化。</p>
+<h2><strong>一、Mac、Windows直接安装，文件和代码都能在侧栏预览</strong></h2>
+<p>相比此前面向开发者的预览版本，此次更新一个明显变化是进一步降低使用门槛。DeepSeek Harness v0.2目前已经提供macOS和Windows安装包。用户安装完成后，即可在桌面端直接使用其Agent能力。</p>
+<p><span style="color: #0f59a4;"><strong>新版重点调整了文件展示、内容预览和代码变更展示体验，同时完善了自动化任务的设置与管理，并提供多种Agent工作过程展示方式。</strong></span></p>
+<p>具体来看，用户可以直接向DeepSeek Harness提供文档、表格或PDF文件，让其进行资料整理、数据分析、图表生成以及演示文稿制作，也可以让它修改项目和运行代码，辅助完成开发任务。</p>
+<p><img class="alignnone size-full wp-image-598368" src="https://oss.zhidx.com/e2674510d56155c22164bc65c72aee4a/6ac27800/uploads/2026/09/6abbb50d3d505_6abbb50d387ea_6abbb50d387ac_640.gif" alt="刚刚，DeepSeek Harness桌面端上线，梁文锋开送Token了" width="1079" height="739" /></p>
+<p>任务执行过程中，生成的文件以及每轮代码修改会集中出现在对话内。用户可以直接在<span style="color: #0f59a4;"><strong>侧栏预览文件、查看代码以及修改前后的差异</strong></span>，也可以继续通过对话要求Agent修改，或者调用本地应用进一步编辑文件。</p>
+<p><img class="alignnone size-full wp-image-598369" src="https://oss.zhidx.com/226e4111552973d65b8d0b56020b15b2/6ac27800/uploads/2026/09/6abbb55c54d33_6abbb55c500a4_6abbb55c5006f_2.gif" alt="刚刚，DeepSeek Harness桌面端上线，梁文锋开送Token了" width="1079" height="739" /></p>
+<p>换句话说，DeepSeek Harness此次正在把此前偏Coding Agent的使用方式，继续向文件处理、办公和通用桌面任务延伸。</p>
+<h2><strong>二、不用敲命令装插件，还能定时让Agent自己干活</strong></h2>
+<p><span style="color: #0f59a4;"><strong>插件</strong></span>是此次v0.2更新的另一项重点。DeepSeek Harness延续了“一切皆插件”的设计理念，从单个工具到完整交互界面，都可以通过插件方式接入。</p>
+<p>新版新增了独立的插件管理页面。过去需要通过命令行处理的插件安装，现在可以<span style="color: #0f59a4;"><strong>直接在页面中输入插件包名，也就是对应的npm包名完成安装</strong></span>。</p>
+<p>在同一页面内，用户还可以<span style="color: #0f59a4;"><strong>停用、卸载插件</strong></span>，并<span style="color: #0f59a4;"><strong>查看插件介绍和来源</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598370" src="https://oss.zhidx.com/8f3b6b9f4dcb22a237082f1f51ced002/6ac27800/uploads/2026/09/6abbb59099442_6abbb59095b5d_6abbb59095b23_3.gif" alt="刚刚，DeepSeek Harness桌面端上线，梁文锋开送Token了" width="1079" height="739" /></p>
+<p>此外，在实验性的“<span style="color: #0f59a4;"><strong>创造模式</strong></span>”中，用户甚至可以直接通过自然语言描述自己的需求，让DeepSeek Harness自行编写或者修改插件。</p>
+<p><img class="alignnone size-full wp-image-598371" src="https://oss.zhidx.com/0f4b588140793b09cf88e1ee1c510155/6ac27800/uploads/2026/09/6abbb5cd59e7d_6abbb5cd55a7e_6abbb5cd55a3f_851a3d1324565c74e14b7d796308ab88.png" alt="刚刚，DeepSeek Harness桌面端上线，梁文锋开送Token了" width="1000" height="861" /></p>
+<p>生成后的插件可以即时生效、持续保存，并进入插件管理页面统一管理。</p>
+<p><img class="alignnone size-full wp-image-598372" src="https://oss.zhidx.com/07e2e69169d1f340d2dad5a3c234cf30/6ac27800/uploads/2026/09/6abbb5e2e6d0d_6abbb5e2e40b1_6abbb5e2e4075_4.gif" alt="刚刚，DeepSeek Harness桌面端上线，梁文锋开送Token了" width="1079" height="739" /></p>
+<p><span style="color: #0f59a4;"><strong>新版还内置了可按需开启的自动化任务插件。</strong></span></p>
+<p>开启这一功能后，用户可以把重复性工作设置为<span style="color: #0f59a4;"><strong>定时执行任务</strong></span>，并查看历史运行记录、调整执行频率或者修改任务指令。</p>
+<h2><strong>三、下一步瞄准长期记忆、浏览器操作和多人协作</strong></h2>
+<p><span style="color: #0f59a4;"><strong>DeepSeek还首次较为集中地披露了Harness后续的产品路线</strong></span>。官方称，在使用DeepSeek官方API的用户中，按照日均活跃用户、日均会话数等指标统计，DeepSeek Harness已经成为最受DeepSeek用户欢迎的Coding Agent产品。</p>
+<p>接下来，团队计划继续<span style="color: #0f59a4;"><strong>改进沙箱功能与安全性</strong></span>，并<span style="color: #0f59a4;"><strong>完善智能体团队功能</strong></span>，同时加入<span style="color: #0f59a4;"><strong>个性化长期记忆、浏览器及其他GUI软件自动化操作、远程与移动端使用、会话分享和多人协作</strong></span>等能力。</p>
+<p>其中，<span style="color: #0f59a4;"><strong>插件生态</strong></span>依然是DeepSeek Harness后续建设重点。</p>
+<p>据DeepSeek统计，按照官方模型API用户口径，目前约60%的Harness用户已经使用第三方插件。DeepSeek团队后续计划<span style="color: #0f59a4;"><strong>建设官方插件市场</strong></span>，同时逐步稳定插件API，减少破坏性更新，并降低开发者跨版本适配成本。</p>
+<p>DeepSeek还提到，Harness将与后续DeepSeek模型共同迭代，包括针<span style="color: #0f59a4;"><strong>对新模型持续进行适配，并在模型训练过程中优化模型在Harness中的实际表现</strong></span>。</p>
+<h2><strong>结语：从Coding Agent，走向更大的工作入口</strong></h2>
+<p>从8月的v0.1开发者预览版，到此次可以直接下载安装的v0.2桌面端，DeepSeek Harness的门槛正在快速降低。</p>
+<p>代码能力仍然是它的重要基础，但文件处理、插件管理、定时任务已经明显把使用范围推向更日常的电脑工作。再加上官方预告的长期记忆、浏览器及GUI自动化、移动端和多人协作，Harness接下来要补的已经是一套更完整的通用Agent产品形态。</p>
+<p>尤其值得关注的是插件。约60%的用户已经主动使用第三方插件，说明这个仍处预览阶段的产品，其开放生态已经有了一定使用基础。</p>
+<p>随着官方插件市场和插件API进一步完善，也让人更期待DeepSeek Harness“一切皆插件”的思路，最终能把Agent的能力边界扩展到多远。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598364.html</link>
+<pubDate>Tue, 29 Sep 2026 21:40:27 +0800</pubDate>
+<source>智东西</source>
+<author>江 宇</author>
+</item>
+<item><title><![CDATA[美团万亿模型悄悄上线，我用它复刻了Muse前端]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/22014d535a7c81a4bb71c11b3ecfe9e6/6ac27800/uploads/2026/09/6abbaa8547f33_6abbaa8544f11_6abbaa8544ec2_31f77b40ccc494c749e93184185edf3c_%E5%89%AF%E6%9C%AC.jpg"><strong>智东西<br />
+</strong><strong>作者 | 江宇<br />
+</strong><strong>编辑 | 心缘</strong></p>
+<p>智东西9月30日报道，9月25日，美团LongCat团队上线了新一代<span style="color: #0f59a4;"><strong>预览版模型LongCat-2.5-Preview</strong></span>，并在OpenCode开放了<span style="color: #0f59a4;"><strong>为期两周的限时免费体验</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598350" src="https://oss.zhidx.com/bc66428eae144d704405780fbf140469/6ac27800/uploads/2026/09/6abbabdd96a92_6abbabdd93c19_6abbabdd93be1_ce00f42a005b7d34bdfb80ea85867883.jpg" alt="美团万亿模型悄悄上线，我用它复刻了Muse前端" width="1000" height="1566" /></p>
+<p><span style="color: #0f59a4;"><strong>具体能力如何？我们将LongCat-2.5-Preview接入Claude Code，连续测试了三个Coding任务</strong></span>：复刻Meta Muse App、制作SpaceX星舰升空动画，以及开发一款3D赛车游戏。从整体体验来看，一句话概括：<span style="color: #0f59a4;"><strong>能用、够省，但还不够快。</strong></span></p>
+<p><img class="alignnone size-full wp-image-598360" src="https://oss.zhidx.com/85911d8a418ef469f6de6445ab4feae3/6ac27800/uploads/2026/09/6abbadff1bf85_6abbadff17289_6abbadff17250_17e6373fa95dbe8b2c4daf4266680fff.png" alt="美团万亿模型悄悄上线，我用它复刻了Muse前端" width="1000" height="486" /></p>
+<p>该模型<span style="color: #0f59a4;"><strong>总参数达到1.6万亿</strong></span>，每次推理激活约480亿参数，支持<span style="color: #0f59a4;"><strong>100万Token上下文窗口</strong></span>和<span style="color: #0f59a4;"><strong>原生多模态</strong></span>能力，主要面向长周期任务，可操作终端、浏览器、GUI、电子表格和设计工具等。值得一提的是，上一代LongCat-2.0是在国产算力集群上完成大规模训练的，并实现万亿参数MoE模型的稳定训练与推理。</p>
+<p>回到模型价格，LongCat API开放平台新用户完成实名认证后，可<span style="color: #0f59a4;"><strong>免费领取1000万Token</strong></span>。目前LongCat平台还提供<span style="color: #0f59a4;"><strong>5000万Token新手资源包</strong></span>，售价<span style="color: #0f59a4;"><strong>9.9元</strong></span>，均可用于LongCat-2.0和LongCat-2.5-Preview。</p>
+<p>LongCat-2.5-Preview <span style="color: #0f59a4;"><strong>API也在进行限时折扣</strong></span>：缓存未命中的输入价格由5元/百万Token降至<span style="color: #0f59a4;"><strong>2元</strong></span>，缓存命中输入由0.1元降至<span style="color: #0f59a4;"><strong>0.04元</strong></span>，输出由20元降至<span style="color: #0f59a4;"><strong>8元</strong></span>。</p>
+<p data-pm-slice="1 1 []">我们最初在OpenCode体验时，由于用户较多，模型一度无法及时响应。OpenCode评论区中也已经出现首批开发者“省流”测试案例，比如让模型制作“<span style="color: #0f59a4;"><strong>鹈鹕骑自行车</strong></span>”的动画，成品存在一些动作与姿势的细节问题。</p>
+<p><img class="alignnone size-full wp-image-598352" src="https://oss.zhidx.com/b74403dc4faf8c9ae122e87042234aa8/6ac27800/uploads/2026/09/6abbac3110cf9_6abbac310d1fa_6abbac310d1bc_5a2eec34069ddb13445aada7c3d68cbd.png" alt="美团万亿模型悄悄上线，我用它复刻了Muse前端" width="1000" height="822" /></p>
+<p data-pm-slice="1 1 []">因此，我们随后改用API，将LongCat-2.5-Preview接入Claude Code继续测试。面对连续、多步骤的Coding任务，它的实际表现究竟如何？下面直接看实测。</p>
+<h2><strong>一、复刻现象级App Muse，核心交互基本跑通</strong></h2>
+<p>首先，我们复刻了一款近期走红的App——<span style="color: #0f59a4;"><strong>Meta Muse</strong></span>。Muse上线后仅10天便登顶美国App Store免费应用总榜，一度超过ChatGPT。</p>
+<p><img class="alignnone size-full wp-image-598353" src="https://oss.zhidx.com/2ba58aafc4862163d9c02a45410d62f5/6ac27800/uploads/2026/09/6abbacc816984_6abbacc813902_6abbacc8138be_e3fd388eeaf8142e589ffcabec0c1ee4.jpg" alt="美团万亿模型悄悄上线，我用它复刻了Muse前端" width="1000" height="674" /></p>
+<p>▲Muse实机界面（图源：APP Store）</p>
+<p>其产品设计同样有辨识度：整个界面保持极简聊天形态，Agent执行浏览网页、填写文件、付款审批等任务时，相关结果会直接<span style="color: #0f59a4;"><strong>以卡片形式嵌入聊天流</strong></span>中。</p>
+<p>我们因此要求LongCat参考Muse界面，复刻其主要视觉和交互逻辑，包括Chat、Ideas、Goals、Connectors等页面，以及Browser Card、File Card、Approval Card等组件，并完整跑通一次电影票预订流程。</p>
+<p>从最终效果看，Muse实机画面中的主要设计元素基本得到保留。</p>
+<p><img class="alignnone size-full wp-image-598354" src="https://oss.zhidx.com/30ec42c153803c0183fa46790534ab6b/6ac27800/uploads/2026/09/6abbad0baf40c_6abbad0ba7d2e_6abbad0ba7cf9_c9dba4967ead045384b2db11de93111b.png" alt="美团万亿模型悄悄上线，我用它复刻了Muse前端" width="1000" height="984" /></p>
+<p>顶部是居中的Agent头像，左侧为菜单按钮；聊天区域采用灰色AI气泡和浅蓝色用户气泡；Browser Card、文件卡片和支付确认卡片均直接嵌入对话中，底部则保留极简输入框。不仅视觉结构较为接近，几个主要页面也可以实际切换。</p>
+<p>在电影票实验，用户确定场次后，聊天流会出现选座Browser Card，随后进入支付确认步骤；点击Allow后，Agent继续返回订票结果。</p>
+<p><img class="alignnone size-full wp-image-598355" src="https://oss.zhidx.com/a8eb9000cad625777247db33c489a78f/6ac27800/uploads/2026/09/6abbad19b0e00_6abbad19ae05e_6abbad19ae027_ec2ba2dd27e274e2cd1ba5e2a914abed.jpg" alt="美团万亿模型悄悄上线，我用它复刻了Muse前端" width="1000" height="660" /></p>
+<p>整个流程都在同一聊天界面内完成，与Muse的主要交互逻辑基本一致。不过，这项任务的<span style="color: #0f59a4;"><strong>思考时间较长</strong></span>。其中一次连续思考时间达到约10分钟，整个项目最终完成耗时也超过30分钟。</p>
+<p><img class="alignnone size-full wp-image-598359" src="https://oss.zhidx.com/6bd8e0acf7430abf493f84f1d29806fb/6ac27800/uploads/2026/09/6abbadedc60ee_6abbadedc2d7c_6abbadedc2d36_d61d6ef1d40c6d6b8bc6d5fe88c59bed.png" alt="美团万亿模型悄悄上线，我用它复刻了Muse前端" width="1000" height="450" /></p>
+<h2><strong>二、代码模拟星舰升空，主要动态效果均有实现</strong></h2>
+<p>第二个任务，选择了刚刚发生的事件。近日，SpaceX第14次星舰试飞从美国得州Starbase基地点火升空。</p>
+<p>我们要求LongCat使用前端代码制作一个<span style="color: #0f59a4;"><strong>实时运行的星舰发射动画</strong></span>，不调用MP4、GIF或预渲染视频，主要通过Three.js、WebGL、Shader和粒子系统完成火箭、喷流、烟雾、动态光照和镜头运动。</p>
+<p>最终项目中，LongCat用程序化几何体搭建了Starship和Super Heavy，并加入发射塔、发射台和地面设施。</p>
+<p><img class="alignnone size-full wp-image-598356" src="https://oss.zhidx.com/4c808da6bb70d6bf2f8a9d2e832b98e3/6ac27800/uploads/2026/09/6abbad5c25719_6abbad5c208ed_6abbad5c2088d_%E5%BD%95%E5%B1%8F2026-09-29-%E4%B8%8B%E5%8D%885.58.41.gif" alt="美团万亿模型悄悄上线，我用它复刻了Muse前端" width="400" height="250" /></p>
+<p>发动机部分使用多个喷流源模拟发动机集群，同时加入火焰；烟雾则分成白色蒸汽、灰色烟雾和贴近地面的尘土三层。项目还实现了动态光照、Camera Shake、镜头上仰、冲击波以及发射状态UI等效果。</p>
+<p>火箭先在发射台保持静止，随后点火、产生烟雾并缓慢离开发射台，之后逐渐加速，镜头同步向上抬升。</p>
+<p>从最终画面来看，火箭、发射塔、尾焰、烟雾和镜头跟随等核心元素都已经具备，能够完整实现一次星舰点火升空过程。不过与我预期的视觉效果相比，最终成品在场景丰富度、烟雾层次和3D材质细节上仍有提升空间。</p>
+<h2><strong>三、搭建3D赛车Demo，竞速玩法完整落地</strong></h2>
+<p>第三个任务，我们让LongCat制作一款可以实际游玩的3D赛车游戏Demo。</p>
+<p>提示词要求项目具备3圈比赛、3辆AI赛车、WASD控制、漂移、氮气、碰撞反馈和Checkpoint机制，同时加入排名、速度、圈数、计时器等游戏UI。最终Demo已经可以实际运行。</p>
+<p>玩家可以控制赛车完成加速、刹车和转向，AI车辆也能够沿赛道参与比赛；漂移、氮气、圈数、排名以及计时等基础机制均有实现。</p>
+<p><img class="alignnone size-full wp-image-598357" src="https://oss.zhidx.com/cf6b3b2637d6e91584e98ccb9a15278c/6ac27800/uploads/2026/09/6abbadb771106_6abbadb76e546_6abbadb76e4ee_%E5%BD%95%E5%B1%8F2026-09-29-%E4%B8%8B%E5%8D%887.06.34.gif" alt="美团万亿模型悄悄上线，我用它复刻了Muse前端" width="400" height="250" /></p>
+<p>主观体验上，<span style="color: #0f59a4;"><strong>这一任务中LongCat-2.5-Preview的速度与完成度低于我们此前体验的DeepSeek-V4.1-Flash，高于MiMo-V2.6</strong></span>。</p>
+<p>试玩过程中，我们发现了一个控制问题：按D键时，赛车实际向左转。LongCat随后检查代码，将问题定位到Three.js坐标系与车辆朝向之间的关系，并耗时3分钟修改了`steer`的符号逻辑。</p>
+<p><img class="alignnone size-full wp-image-598358" src="https://oss.zhidx.com/6b907b28dff2431567e9751dbf280eb2/6ac27800/uploads/2026/09/6abbadd563dc2_6abbadd561148_6abbadd561104_bcda737f1d5a489b59b6957ca83beea4.png" alt="美团万亿模型悄悄上线，我用它复刻了Muse前端" width="1000" height="994" /></p>
+<p>除此以外，<span style="color: #0f59a4;"><strong>赛道本身也相对简单</strong></span>。实际体验中，弯道较多，直道、坡道等路况的区分并不明显。</p>
+<h2><strong>结语：国模牌桌再添一员，LongCat存在感上来了</strong></h2>
+<p>三项测试中，LongCat-2.5-Preview都完成了可实际运行的项目。当天共使用798.56万Token，由于缓存命中不计入资源包消耗，实际扣除约78.98万Token。按照当前1000万Token免费用的新手礼包，价格优势比较明显。速度方面，三个任务耗时均超过30分钟。</p>
+<p>相比国内头部模型，LongCat此前的市场声量并不算高。但这次预览版不仅保留了原生多模态能力，在Coding和长任务执行上也已经展现出较完整的能力。</p>
+<p>国产模型的竞争正在从参数、榜单延伸到Coding、Agent、多模态和真实任务执行。LongCat-2.5-Preview已经给出了一次阶段性答卷，接下来可以关注正式版在速度、稳定性和复杂任务能力上的进一步表现。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598348.html</link>
+<pubDate>Tue, 29 Sep 2026 20:24:57 +0800</pubDate>
+<source>智东西</source>
+<author>江 宇</author>
+</item>
+<item><title><![CDATA[让Token像土豆一样便宜，要闯哪四关？]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/3669ed387d333e69551e4681938470d6/6ac27800/uploads/2026/09/6abb23f08469e_6abb23f081643_6abb23f081609_%E5%A4%B4%E5%9B%BE.png">进入2026年下半年，全球算力涨价潮持续发酵。</p>
+<p><span style="color: #0f59a4"><strong>“让全世界更多的人，像享受土豆一样，享受Token。”</strong></span></p>
+<p>9月19日，央视《对话》走进远景乌兰察布星河基地，远景科技集团创始人张雷用这个比方，提出了一个看似简单的问题：<span style="color: #0f59a4"><strong>AI怎样才能更普惠？</strong></span></p>
+<p>这句“AI土豆论”很快在算力圈引发讨论，背后是全行业共同的成本焦虑：<span style="color: #0f59a4"><strong>AI算力的门槛，实在太高了。</strong></span></p>
+<p>就在节目播出三天后，小米发布MiMo-V2.6，并公开了全程直播的“炼丹”账本，把这份昂贵具象化：MiMo-V2.6的Pro与Flash两个版本，仅强化学习后训练阶段就跑了不到6天，合计烧掉了<span style="color: #0f59a4"><strong>347万美元</strong></span>，<span style="color: #0f59a4"><strong>约合人民币2344万元</strong></span>。</p>
+<p>这还只是后训练环节。据测算，训练万亿参数大模型GPT-4约需95天，<span style="color: #0f59a4"><strong>总能耗高达38.2吉瓦时</strong></span>，相当于<span style="color: #0f59a4"><strong>日均消耗4万户家庭的用电量</strong></span>。黄仁勋在2025年的电话会上曾分享，部署1GW的AI算力，含AI芯片在内的建设成本<span style="color: #0f59a4"><strong>约500亿美元</strong></span>，而其中电力成本已占到数据中心运营成本的<span style="color: #0f59a4"><strong>六成以上</strong></span>。</p>
+<p>高昂的能源与基建成本，正成为AI从精英化走向普惠的核心门槛。</p>
+<p>张雷提出的“AI土豆论”背后，是一套重构算力成本逻辑的思路：<span style="color: #0f59a4"><strong>算力的本质是电力换智能，要让Token便宜，不能只盯着芯片和算法迭代，还要从能源基础设施端找答案。</strong></span></p>
+<p>今年8月正式投产的<span style="color: #0f59a4"><strong>远景乌兰察布星河基地</strong></span>，正是这套思路的首次大规模落地。</p>
+<p>园区总规划容量<span style="color: #0f59a4"><strong>超2GW</strong></span>，拥有<span style="color: #0f59a4"><strong>全球最大的AI算力超级单体</strong></span>，全面建成后将成为<span style="color: #0f59a4"><strong>全球Token 产出能力最强的AI数据中心</strong></span>。</p>
+<p>远景要做的，是把风光发电、电网、储能、供电、散热乃至计算负荷纳入同一套调度系统，用一套<span style="color: #0f59a4"><strong>“AI电力系统”</strong></span>从底层压降Token成本。</p>
+<p>这不是单点技术的突破，而是一场全链路的系统工程。从充沛的绿色电力到普惠Token，中间还有<span style="color: #0f59a4"><strong>四道系统关</strong></span>。</p>
+<h2>一、第一关：破误区——便宜绿电不等于算力竞争力</h2>
+<p>乌兰察布坐拥全国顶级的风光资源，加上全年冷凉的气候，天然适配大规模AI计算对低价电力、低冷却成本的需求。但找到便宜的电，离交付便宜的算力还差得远。</p>
+<p>这里还有一个行业普遍忽略的误区：国家要求2025年底国家枢纽节点新建数据中心<span style="color: #0f59a4"><strong>绿电占比超80%</strong></span>，但达成这一指标的路径不止一种，购买绿证是常见做法，但绿证并不等于绿电直连。远景星河基地选择<span style="color: #0f59a4"><strong>自建风场、自建输电线路、自建储能</strong></span>，目标是<span style="color: #0f59a4"><strong>实现80%甚至以上的绿电直连占比</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-598132" src="https://oss.zhidx.com/87fbf2f7f0d671443dbdf5223c603ebe/6ac27800/uploads/2026/09/6abb21a1b76b0_6abb21a1b4a24_6abb21a1b49f2_%E5%9B%BE%E7%89%87-2.png" alt="让Token像土豆一样便宜，要闯哪四关？" width="1000" height="564" /></p>
+<p>算电协同的核心矛盾在于<span style="color: #0f59a4"><strong>供需错配</strong></span>。</p>
+<p>风光发电随天气波动，计算任务却有刚性交付期限；GPU集群功率可以短时间内快速起落，供电与散热系统却必须实时响应、稳定可靠。哪怕全年绿电总量充足，也必须解决每个时段的供需匹配问题。如果为了供电可靠性堆砌过多储能、备用电源和冷却设施，又会大幅推高投资与运营成本，吃掉低价绿电带来的成本优势。</p>
+<p>远景动力AIDC产品线联席总经理杨堃此前提出，<span style="color: #0f59a4"><strong>绿电是算力竞争力的必要条件，但远非充分条件</strong></span>。从绿电到算力竞争力，中间隔着一整套需要被“打通”的系统。不解决全链条系统问题，资源优势很难转化为可用、经济的算力。</p>
+<p>对投资者和运营商而言，真正要算的是整个系统的长期成本账：电能否按时接入、设备能否稳定运行、供电与冷却能否匹配、昂贵的芯片能否满负荷发挥性能。发电侧的低成本，只有经过全链路的传导，才能最终转化为客户拿到手的算力成本优势。</p>
+<p><img class="alignnone size-full wp-image-598133" src="https://oss.zhidx.com/72ca1d66593e9d2bbd8d8e3acc162c79/6ac27800/uploads/2026/09/6abb21a4908d5_6abb21a48d705_6abb21a48d6d5_%E5%9B%BE%E7%89%87-3.png" alt="让Token像土豆一样便宜，要闯哪四关？" width="1000" height="502" /></p>
+<p>▲远景AI电力系统</p>
+<p>因此，远景<span style="color: #0f59a4"><strong>把能源供给、电力架构、计算负荷和冷却纳入一体化设计</strong></span>。在统一架构下分期建设，让供电能力与算力交付节奏相匹配，并为后续扩容和设备升级留出空间。</p>
+<p>总的来说，Token成本有两头：一头是投入，另一头是有效产出。电价更低、转换损耗更少、基础设施配置更合理，可以降低投入；供电和散热跟得上，减少基础设施约束带来的等待、限功率与中断，则有助于释放已有设备的计算能力。</p>
+<p><span style="color: #0f59a4"><strong>因此，AI电力系统的价值，不只是省下多少电费，还在于能否在既定功率、空间和可靠性约束下，支撑更多有效计算。最终比较的，应是相同模型、任务与服务等级下的单位产出成本，而不只是一度电多少钱。</strong></span></p>
+<h2>第二关：建预测——从天气预报到可执行的调度计划</h2>
+<p>气象数据与能源电力业务的深度融合，正在催生一个规模可观、增长迅速的产业新蓝海。</p>
+<p>中国气象服务协会会长许小峰此前指出，新能源发电出力的随机性、波动性和间歇性特征，决定了气象服务已从过去的辅助性保障，升级为新型电力系统安全稳定运行的刚性需求。</p>
+<p>“风越大，任务越多。”在远景星河基地控制中心，张雷向央视解释能源与计算之间的双向互动逻辑。</p>
+<p><img class="alignnone size-full wp-image-598134" src="https://oss.zhidx.com/d4d5d0513048c1445a5548914b3f3b93/6ac27800/uploads/2026/09/6abb21a647e4f_6abb21a644f88_6abb21a644f53_%E5%9B%BE%E7%89%87-4.png" alt="让Token像土豆一样便宜，要闯哪四关？" width="1000" height="567" /></p>
+<p>这意味着，对于具备调整空间的计算任务，能源供给本身也可以成为任务排程的依据。在客户授权、交付期限和运行安全的边界内，部分非紧急任务可以向绿电更充裕、电价更低的时段转移，从而最大化绿电利用率，降低整体成本。</p>
+<p>但要做到这一点，<span style="color: #0f59a4"><strong>首先需要对未来的风光出力作出预测，并把预测的不确定性纳入调度</strong></span>。</p>
+<p>这正是气象大模型的价值所在。</p>
+<p>凭借<span style="color: #0f59a4"><strong>分钟级、5公里分辨率</strong></span>的全球45天气象预测，“远景天机”气象大模型可系统结合场站条件与设备特性，把风速、太阳辐射等气象数据转化为风电、光伏的出力预测，提前预判绿电充裕与短缺的时段，以此安排储能充放电、电网补充量与计算任务调度。</p>
+<p>近期，在国际榜单WeatherBench 2评测中，<span style="color: #0f59a4"><strong>“远景天机”与谷歌WeatherNext 2同处第一梯队</strong></span>，在风速等与新能源出力密切相关的指标上表现突出。</p>
+<p><img class="alignnone size-full wp-image-598135" src="https://oss.zhidx.com/775bbd09d96049c03af10cb12c3e7fb0/6ac27800/uploads/2026/09/6abb21ab27f3c_6abb21ab252cf_6abb21ab252a1_%E5%9B%BE%E7%89%87-5.jpg" alt="让Token像土豆一样便宜，要闯哪四关？" width="1000" height="600" /></p>
+<p><strong>▲</strong>WeatherBench 2评测结果，蓝色越深成绩越好，“远景天机”位列第一梯队</p>
+<p>预测的价值，不是消除天气的不确定性，而是让系统更早准备，并在变化发生时及时修正。而在此基础上，“远景天枢”能源大模型支撑的<span style="color: #0f59a4"><strong>一体化调控系统</strong></span>，把发电、储能、电网条件、计算负荷和散热需求放在一起全局优化，随着天气预测和设备状态的实时变化，持续修正运行计划。</p>
+<p>底层的EnOS智能物联操作系统则<span style="color: #0f59a4"><strong>打通所有设备的数据与控制链路</strong></span>，由各层级控制系统执行相应动作，核心的快速保护仍由专用硬件承担。</p>
+<p>这三层能力各司其职：<span style="color: #0f59a4"><strong>预测层提前判断趋势，调控层制定最优策略，设备层保障可靠执行</strong></span>。</p>
+<p>例如，当大模型预测未来某个时段风光出力会下降之后，系统就会提前考虑储能预留多少电量、由电网获取多少补充；如果客户有可调整的计算任务，则可以进一步探索改变执行时段，而不是等供电紧张时临时应对。</p>
+<p>算电融合由此形成双向关系：<span style="color: #0f59a4"><strong>能源实时感知算力，算力实时理解能源</strong></span>。目标是在保障业务交付的前提下，更充分地利用绿电，减少不必要的资源配置与运行成本。</p>
+<h2>第三关：提效率——从供电到冷却的全链路协同</h2>
+<p>电进入园区，系统优化还要继续深入供配电、计算与冷却。</p>
+<p>高密度GPU集群需要在有限空间内获得更大的供电功率，同时应对快速负荷变化和更集中的散热需求。单纯增加供电设备数量，会占用更多空间，也可能增加转换环节和系统复杂度。</p>
+<p>这也是星河基地建设12万平米“算力超级单体”的核心原因。</p>
+<p>在远景能源高级副总裁、储能产品线总裁黄志勇看来，<span style="color: #0f59a4"><strong>大不是目的，本质是把更多GPU集中到同一个物理空间里</strong></span>——大模型训练就像一千个人同时做一道拆成一千份的数学题，每个人算完自己的部分还要不断交换结果，如果分散在不同楼里，物理距离、通信成本和网络时延都会大幅增加。</p>
+<p>在此基础上，远景通过<span style="color: #0f59a4"><strong>三层优化</strong></span>，实现了<span style="color: #0f59a4"><strong>同等面积下算力输出规模可达传统数据中心的10倍</strong></span>：</p>
+<ul>
+<li>一是算电冷统一规划，为高密度GPU集群集中部署创造条件；</li>
+<li>二是通过储能、固态变压器（SST）和新型供电架构，在保障可靠性的前提下让供电及备用设施更紧凑，减少非算力空间，把更多面积留给计算设备；</li>
+<li>三是绿电直供和新的供电架构拓宽电力“水管”、减少转换损耗，让更多电力高效送达GPU。</li>
+</ul>
+<p><img class="alignnone size-full wp-image-598136" src="https://oss.zhidx.com/c3c8c5519d8e975b7b4b974e63737ecb/6ac27800/uploads/2026/09/6abb21ac4e54d_6abb21ac4b83a_6abb21ac4b803_%E5%9B%BE%E7%89%87-6.png" alt="让Token像土豆一样便宜，要闯哪四关？" width="1000" height="538" /></p>
+<p>▲远景乌兰察布星河基地固态变压器</p>
+<p>其中，固态变压器（SST）是当前支撑高密度AI计算的新型供电关键设备。相比传统工频变压器，它将中压交流电转换为直流电，配合800V直流供电架构，减少中间转换环节、降低损耗和设备占地，让有限的电力与空间支撑更多计算。</p>
+<p>远景算力中心工程总监弋萌向央视介绍，固态变压器是<span style="color: #0f59a4"><strong>实现电力和算力协同的“能量路由器”</strong></span>，这套方案可以<span style="color: #0f59a4"><strong>把10千伏高压电一步转换成服务器能用的800伏直流电</strong></span>，砍掉传统供电中的多层转换设备。按设计，其供电效率可<span style="color: #0f59a4"><strong>达98.5%以上</strong></span>，占地面积可<span style="color: #0f59a4"><strong>减少一半以上</strong></span>，用铜量<span style="color: #0f59a4"><strong>最高可减少80%</strong></span>。</p>
+<p>SST不是孤军奋战。在这套AI电力系统中，储能的定位也早已超越了传统认知。</p>
+<p><img class="alignnone size-full wp-image-598137" src="https://oss.zhidx.com/799099fd841d92729993c2bf31ad5a68/6ac27800/uploads/2026/09/6abb21b206bed_6abb21b20407b_6abb21b204040_%E5%9B%BE%E7%89%87-7.png" alt="让Token像土豆一样便宜，要闯哪四关？" width="1000" height="561" /></p>
+<p>▲远景乌兰察布星河基地储能柜</p>
+<p>在黄志勇看来，此前行业对储能的认知普遍局限于电量调节、故障备用等最基础的底层功能。在远景的架构中，<span style="color: #0f59a4"><strong>储能是支撑全域系统稳定、经济、高效运行的核心调控单元</strong></span>。</p>
+<p>在星河基地，储能要与供电架构和控制系统协同，精准缓冲GPU负荷的瞬时剧烈波动，平抑功率冲击。储能的价值不只看容量，更看系统站位、调控任务和全域协同能力。</p>
+<p>此外，远景强调的优势，还包括<span style="color: #0f59a4"><strong>新型直流配电系统的控制与保护设计</strong></span>：通过电力电子系统建模、控制稳定性分析和故障保护仿真，验证SST、储能及计算负荷如何协同。单台设备的高效率，只有与系统可靠性结合，才能形成持续运行的能力。</p>
+<p>冷却也可以从被动跟随温度，转向提前准备，目标是让电高效送达、波动得到缓冲、散热及时跟上，在同一供电条件下支撑更多计算；供电系统小型化、低电流化为液冷腾出空间，供电效率每提升一点，散热预算就宽松一点。两套链路不再各自为战，而是<span style="color: #0f59a4"><strong>在同一套系统内联合设计、联合调度</strong></span>。</p>
+<p>这也正是AI电力系统的核心逻辑：它不是几台高效设备的简单叠加，而是<span style="color: #0f59a4"><strong>贯通“墙外”的能源输送与“墙内”的高效供配、计算和冷却</strong></span>，从规划设计到运行调控进行系统优化。</p>
+<p>通过端到端设计、前置电网合规仿真与验证，缩短电力接入周期；通过预测、调度与控制协同，让供电能力更好地匹配算力交付和持续运行的需求。</p>
+<h2>第四关：可复制——从场景验证到规模化落地</h2>
+<p>星河基地的投产，是这套AI电力系统第一次在真实的AI负荷场景下接受检验——核心超级单体建筑面积12万平方米，园区总规划容量超过2GW。这里的面积约相当于17个标准足球场，相关设施全面建成后，最多可支持百万枚AI加速芯片运行。</p>
+<p><img class="alignnone size-full wp-image-598138" src="https://oss.zhidx.com/a57e60e685cc5e1d0bc4e93f77a71b99/6ac27800/uploads/2026/09/6abb21ba737d4_6abb21ba70b5b_6abb21ba70aff_%E5%9B%BE%E7%89%87-8.jpg" alt="让Token像土豆一样便宜，要闯哪四关？" width="1000" height="562" /></p>
+<p>▲远景乌兰察布星河基地</p>
+<p>但超大规模并非最核心的挑战。星河基地真正的突破，在于用更高的系统要求证明：<span style="color: #0f59a4"><strong>只有当大规模集群获得匹配的供电、散热与运行保障，风光资源才能真正转化为实实在在的计算能力。</strong></span></p>
+<p>提供这套能力的价值，最终在于可复制。</p>
+<p>黄志勇明确表示，远景希望复制的不是一栋完全相同的建筑，而是一套<span style="color: #0f59a4"><strong>AI基础设施交付能力</strong></span>。客户可以带自己的GPU、服务器、模型和算法进来，远景把土地、绿电、基础设施、供配电、制冷和AI电力系统准备好，就像一座“五星级酒店”，水、电、暖和基础服务已经具备，客户带着自己的核心资产入住。</p>
+<p>但与传统的机房出租不同，这家“酒店”真正的核心不是房间，而是让绿电稳定、经济地变成算力的那套AI电力系统——客户看重的，是这套系统能否让昂贵的芯片持续满负荷运转。</p>
+<p>《对话》节目中，来自腾讯的工程师介绍，选择乌兰察布，既看重当地冷凉气候和风电资源，也看重星河基地承载大规模集群及持续扩展的能力。他表示，希望将腾讯的云计算、AI能力，与远景的新能源和AI电力系统能力结合起来。</p>
+<p>事实上，远景的参与不只停留在发电侧，而是延伸至输电、机房内部能量管理、直流供电与功率管理，最终深度匹配客户的计算和模型需求。</p>
+<p>这背后是远景角色的悄然转变：从提供电力设备的硬件厂商，进化为参与定义计算基础设施如何建设、运行和扩展的整体解决方案提供商。</p>
+<p>这套能力并非凭空而来，而是来自工程化的持续积累。</p>
+<p><img class="alignnone size-full wp-image-598139" src="https://oss.zhidx.com/499b91cc708695bf8b8fa7d90c9de904/6ac27800/uploads/2026/09/6abb21bb3703e_6abb21bb33cbc_6abb21bb33c8e_%E5%9B%BE%E7%89%87-9.png" alt="让Token像土豆一样便宜，要闯哪四关？" width="1000" height="636" /></p>
+<p>▲远景赤峰绿氢零碳产业园</p>
+<p>在内蒙古，远景早在离网场景验证过同一套能力：赤峰离网绿色氢氨园区去年率先完成了高波动新能源条件下的全链路调度验证，打通新能源出力预测、电力调度与工业负荷调度，实现全链路高动态的实时调度。</p>
+<p>到了乌兰察布，远景面对的是更高密度、更大规模的AI负荷，系统优化需要进一步深入供电、计算与冷却之间。</p>
+<p>两类场景的经验，还要靠持续运行和客户反馈，才能沉淀为可复制的能力，并在不同项目中因地制宜地适配。AIDC这类项目考验的是合作伙伴能否长期兑现交付与运营——而不只是设备性能。</p>
+<p>土豆的普惠，背后有一整套成熟的农业生产与流通体系；Token的普惠，同样不能只靠某一种芯片、某一个模型或某一项供电技术。</p>
+<p>远景星河提供的，是能源与基础设施这一侧的工程回答：<span style="color: #0f59a4"><strong>让高比例绿电可靠接入，让供电与冷却匹配计算，让系统经验能够面向不同客户持续复制。</strong></span></p>
+<p>它最终要接受的检验，不是园区有多大、设备参数有多亮眼，而是能否在满足客户业务要求的前提下，持续降低有效计算的成本。</p>
+<p><span style="color: #0f59a4"><strong>让AI像土豆一样普惠，需要的不只是更便宜的电，更是一套能把能源优势转化为计算价值的系统。</strong></span></p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598120.html</link>
+<pubDate>Tue, 29 Sep 2026 18:00:47 +0800</pubDate>
+<source>智东西</source>
+<author>王 涵</author>
+</item>
+<item><title><![CDATA[曝OpenAI紧急叫停新模型发布！]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/27d71662474c1ee03a3121aabdda47ad/6ac27800/uploads/2026/09/6abb801abc21d_6abb801ab9508_6abb801ab94d4_ScreenShot_2026-09-29_100906_838.png"><strong>智东西</strong><br />
+<strong>编译 | 程茜</strong><br />
+<strong>编辑 | 心缘</strong></p>
+<p class="p1">智东西9月29日消息，刚刚，据外媒《华尔街日报》报道，因内部测试期间研究人员发现安全隐患，OpenAI决定<span style="color: #0f59a4;"><strong>取消新一代模型GPT‑6.1 Astra</strong></span>的发布计划。新模型原计划在10月内推出。</p>
+<p>《华尔街日报》称，OpenAI此次取消新模型发布，是迄今为止最明确的信号之一，智能体行为失控可能阻碍整个AI行业的高速发展。</p>
+<p class="p1">OpenAI安全系统负责人萨奇·贾因（Saachi Jain）在一份声明中说，尽管GPT‑6.1 Astra在无人干预完成复杂任务、文本创作能力上相比前代有所提升，但在<span style="color: #0f59a4;"><strong>关键安全指标上出现退步</strong></span>，没有达到OpenAI对外发布的对齐标准，主要包括以下两项：</p>
+<p class="p1"><strong><span style="color: #0f59a4;">欺骗行为倾向上升</span></strong>：模型不会如实向用户报告自己已经完成、或是尚未完成的操作，存在隐瞒自身行为的情况。</p>
+<p class="p1"><strong><span style="color: #0f59a4;">任务权限管控失效</span></strong>：在没有获得用户许可的前提下，模型会擅自继续执行任务，即便存在潜在风险，也会自行调用外部工具和第三方服务。</p>
+<p class="p1">他补充说：“我们希望确保我们的模型开发过程是安全的，无论是在公司内部进行还是将其交付给用户时都是如此。但当我们将这些模型交付给用户时，我们对安全性的要求非常高。”</p>
+<p>上周日，OpenAI宣布<span style="color: #0f59a4;"><strong>已暂停其最新一代大模型的训练、评估及涉及工具调用的推理</strong></span>。此前内部测试中，有Agent突破隔离沙箱，私自对外访问外部聊天机器人服务。</p>
+<p><img class="alignnone wp-image-598088 size-full" src="https://oss.zhidx.com/729c02637d2e29ae47bfe7733fe22100/6ac27800/uploads/2026/09/6abb183888394_6abb183885142_6abb183885111_ScreenShot_2026-09-29_094519_409.png" alt="曝OpenAI紧急叫停新模型发布！" width="1344" height="1092" /></p>
+<p class="p1">▲OpenAI发布事件博客</p>
+<p>贾因透露，GPT-6.1 Astra不属于上述被暂停训练的模型。</p>
+<p>《华尔街日报》称，这一公告发布正值OpenAI年度开发者大会DevDay前夕，明天OpenAI将举办第四届开发者大会。往年，OpenAI都会借这场大会发布新模型与服务。</p>
+<p>值得一提的是，就在今天凌晨，和OpenAI共同呼吁放缓前沿模型研究的Anthropic发布了Claude 5.5系列第二款模型<strong><span style="color: #0f59a4;">Claude Sonnet 5.5</span></strong>，号称新模型速度提升超30%，多数任务成本降低近30%。</p>
+<p class="p1">今年夏季，全行业接连曝出大模型“失控”事件。</p>
+<p class="p1">今年早些时候，OpenAI数百个内部智能体在一次网络安全测试中，入侵了Hugging Face。此后，澳大利亚政府、联合国等重要机构发现，OpenAI的智能体也曾使用类似但程度较轻的手段尝试访问其网站。</p>
+<p class="p1">上周六工程师罗文·霍华德-琼斯（Rowan Howard-Jones）发布的一份独立研究报告显示，今年6月，OpenAI的Agent在4月至6月底期间，使用包括绕过网站设置的阻止其请求的过滤器在内的技术，对联合国贸易和发展署的一个公开数据中心进行了超过16000次扫描。</p>
+<p class="p1">不过多数已公开的智能体安全事件，涉及的都是<strong><span style="color: #0f59a4;">OpenAI原本就不打算对外发布的内部模型</span></strong>。</p>
+<p class="p1">因此近几周，业界对大模型安全的关注度升级。</p>
+<p class="p1">9月中旬，OpenAI与Anthropic罕见联手呼吁企业放缓前沿AI模型研发，投入资源建立安全标准，并透露自身也会调低内部AI研发节奏。</p>
+<p><img class="alignnone wp-image-598052 size-full" src="https://oss.zhidx.com/064bed9fe27914108df1d87af9575abf/6ac27800/uploads/2026/09/6abb122a10232_6abb122a0d3a5_6abb122a0d36b_ScreenShot_2026-09-29_091919_040.png" alt="曝OpenAI紧急叫停新模型发布！" width="1182" height="1152" /></p>
+<p class="p1">▲OpenAI联合创始人、CEO Sam Altman转发Anthropic联合创始人、CEO Dario Amodei推文</p>
+<p>就在昨天，英伟达也宣布推出NVIDIA开放智能体安全平台，从智能体测试到部署的各个环节强化AI安全，并针对运行智能体的软件、硬件、计算和机器人系统，实施全栈治理与管控。</p>
+<p class="p1">贾因透露，OpenAI接下来的重点是开展多项深度复盘，定位GPT-6.1 Astra问题的根源。他们的工作内容包括确保强化学习环境能够奖励模型产生正确行为，并对模型开发全流程开展排查。</p>
+<p class="p1">《华尔街日报》称，OpenAI内部正在排查近几个月发现的多起智能体安全事件，解决背后的安全隐患，相关举措包括<strong><span style="color: #0f59a4;">部署一套全新监控系统</span></strong>，更快识别AI智能体的异常行为；同时要求工程师在测试AI系统时，启用更强的安全防护机制。</p>
+<h2 class="p1"><strong>结语：模型狂飙、安全跟不上，OpenAI踩下模型发布刹车</strong></h2>
+<p>随着智能体具备自主规划、多轮持续执行任务的能力，风险边界随之外溢，模型可自主调用工具、跨系统操作，一旦出现目标对齐失效、行为漂移，潜在影响可能波及企业的业务系统、数据接口等。</p>
+<p>如今大模型相关安全事件频发，Anthropic联合创始人、CEO Dario Amodei曾在博客中称，要充分化解AI的相关风险，需要更加审慎的态度，不只是投入资源做好风险防范，还要控制能力迭代的节奏，让风险防控工作有时间跟上技术发展。</p>
+<p>此次OpenAI或取消新模型发布，凸显出前沿AI能力加速突破与安全治理节奏落后的深层矛盾。</p>
+<p>来源：《华尔街日报》</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598046.html</link>
+<pubDate>Tue, 29 Sep 2026 11:33:46 +0800</pubDate>
+<source>智东西</source>
+<author>程茜</author>
+</item>
+<item><title><![CDATA[14人、估值671亿，造出Meta Muse劲敌]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/1c9f6f92258741af8b3d720654a23e18/6ac27800/uploads/2026/09/6abb2f38e79bf_6abb2f38e4c93_6abb2f38e4c4e_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-09-29-1121271.png"><strong>智东西<br />
+</strong><strong>编译 |  杨京丽<br />
+</strong><strong>编辑 |  李水青</strong></p>
+<p>智东西9月29日消息，昨日，美国个人AI Agent创企、Meta Muse热门竞争对手Instinct宣布，已完成新一轮<span style="color: #0f59a4"><strong>10亿美元（约合人民币67.1亿元）</strong></span>融资，投后估值达到<span style="color: #0f59a4"><strong>100亿美元（约合人民币671亿元）</strong></span>。本轮融资由红杉资本、Benchmark Capital和Coatue共同参与。</p>
+<p>今年8月，据《华尔街日报》报道，Instinct正在寻求以<span style="color: #0f59a4"><strong>25亿美元估值（约合人民币168亿元）</strong></span>完成<span style="color: #0f59a4"><strong>2.5亿美元（约合人民币16.8亿元）</strong></span>B轮融资。当时报道称，该公司自2025年成立以来已筹集约<span style="color: #0f59a4"><strong>3.5亿美元（约合人民币23.5亿元）</strong></span>。</p>
+<p>此次完成10亿美元新融资，意味着Instinct的估值在短时间内<span style="color: #0f59a4"><strong>提升至原来的4倍</strong></span>，反映出资本市场大举押注能够自动执行现实任务的个人AI助手。</p>
+<p>Instinct于2025年在美国旧金山成立，背后公司为Spear Street Technology，目前仅有14名员工。其创始人诺亚·辛（Noah Shinn）今年23岁，2023年从<span style="color: #0f59a4"><strong>美国东北大学</strong></span>辍学，此前学习化学与计算机科学，并参与过机器学习和大语言模型相关研究，后加入<span style="color: #0f59a4"><strong>客服AI公司Sierra</strong></span>，成为该公司的早期员工。</p>
+<p><img class="alignnone wp-image-598039" src="https://oss.zhidx.com/601ecb91d104371402d4f4a0584ec5d5/6ac27800/uploads/2026/09/6abb085e507e0_6abb085e4d374_6abb085e4d334_1682550516802.jpg" alt="14人、估值671亿，造出Meta Muse劲敌" width="1000" height="1001" /></p>
+<p>▲Instinct创始人诺亚·辛（图源：X）</p>
+<p>Instinct是该公司<span style="color: #0f59a4"><strong>面向个人用户开发的AI Agent产品</strong></span>，目前处于早期访问阶段，用户可以通过短信、电话等方式向它发出指令，由其连接邮箱、消息、日历、屏幕、音频和位置等数据，并<span style="color: #0f59a4"><strong>操作手机和电脑</strong></span>完成日常事务。</p>
+<p><img class="alignnone wp-image-598170" src="https://oss.zhidx.com/410b3ef4f5d6ac2ff33bd9416a142138/6ac27800/uploads/2026/09/6abb294fe5096_6abb294fe1e10_6abb294fe1ddb_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-09-29-105748.png" alt="14人、估值671亿，造出Meta Muse劲敌" width="1000" height="1634" /></p>
+<p>▲用户让Instinct帮忙预定餐厅（图源：Instinct）</p>
+<p>Instinct个人助手与Meta的个人AI Agent产品Muse相似，两款产品都能<span style="color: #0f59a4"><strong>代替用户操作手机或者电脑</strong></span>，连接邮箱、日历等应用，替用户完成购物、出行、预约和邮件处理等事务。</p>
+<p>近期，Meta Muse凭借安全隔离的常驻执行Agent架构爆火，推动AI从问答走向自主办事。</p>
+<p>不同之处在于，Muse背靠Meta的社交与消息生态，并运行在专门的<span style="color: #0f59a4"><strong>Muse Secure VM</strong></span>（Muse安全虚拟机）中，面向更广泛的消费者，而Instinct则允许用户通过短信或电话向Agent发出指令，再由Agent处理高复杂度事务，包括<span style="color: #0f59a4"><strong>代打电话、预约服务和跨Agent协调</strong></span>。</p>
+
+<p>过去几个月，Instinct陆续推出多项产品更新。<span style="color: #0f59a4"><strong>Instinct Concierge服务</strong></span>主要面向高复杂度事务提供管家式AI服务，可以代替用户拨打电话、预订不接受线上预约的餐厅、登记牙医候诊名单，以及处理有线电视账单等问题。</p>
+<p>通过<span style="color: #0f59a4"><strong>Trusted Person Network（可信个人网络）</strong></span>，用户的Instinct可以与其他Instinct互相沟通，代表用户协调日程和计划。不同Instinct之间还可以协作处理相关事务，支持直接分享PDF、图片和表格等文件。</p>
+<p>Instinct还支持在iMessage中<span style="color: #0f59a4"><strong>分享位置</strong></span>，识别用户抵达某地的时间，并结合个人偏好提出建议或回答问题。</p>
+<p>Instinct称，从产品推出之初，Instinct就已采用<span style="color: #0f59a4"><strong>隔离沙盒、短时本地凭证和身份签名工具执行</strong></span>等机制，并持续改进。Instinct最新推出的主动检测系统，还能在Agent生成回复的过程中识别细微、复杂的幻觉，并在Instinct生成或执行回复之前将其拦截。</p>
+<p>不过，Instinct完成高权限任务时，用户需要向其开放邮箱、日历、账户和其他个人数据，部分早期用户因此担心Agent可能在没有充分确认的情况下执行敏感操作。《华尔街日报》还提到，Instinct的服务条款允许公司使用用户数据训练AI模型。辛称，团队正在快速迭代产品，并针对早期版本可能执行的不当操作增加限制。</p>
+<h2><strong>结语：资本押注个人Agent，用户更关注权限问题</strong></h2>
+<p>当前，Instinct面临的竞争对手包括ChatGPT的工作类功能及近期快速走红的Meta Muse。此类产品爆火说明，用户对能够直接操作应用、处理日常事务的个人AI助手需求正在升温。相比传统聊天机器人，这类产品将能力延伸到任务执行能力、应用连接范围和持续跟进效率。</p>
+<p>随着AI开始“替用户完成任务”，权限控制、责任边界和数据使用方式将成为个人AI助手能否大规模普及的关键。Instinct在一个月内估值从25亿美元跃升至100亿美元，显示资本市场正在押注个人Agent成为下一类入口型产品。对于用户而言，稳定完成任务只是第一步，如何让Agent在授权范围内行动、保护个人数据并留下可追溯记录，同样值得关注。</p>
+<p>来源：Instinct、《华尔街日报》</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598030.html</link>
+<pubDate>Tue, 29 Sep 2026 11:32:53 +0800</pubDate>
+<source>智东西</source>
+<author>杨 京丽</author>
+</item>
+<item><title><![CDATA[Manus 2.0突然发布！挑战Meta Muse]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/1c0d679cb005eb25b62653284e9168a9/6ac27800/uploads/2026/09/6abaf732a5570_6abaf732a2901_6abaf732a28c4_%E5%A4%B4%E5%9B%BE.png"><strong>智东西<br />
+</strong><strong>作者 |  王涵</strong><br />
+<strong>编辑｜心缘</strong></p>
+<p>智东西9月29日报道，昨夜，明星Agent公司蝴蝶效应（Manus）推出Manus 2.0版本，还甩出一个多Agent群聊应用Cue。</p>
+<p><img class="alignnone size-full wp-image-598018" src="https://oss.zhidx.com/2e18784cb0cd6844839c6a13e3a2cf2f/6ac27800/uploads/2026/09/6abaf63bc7ace_6abaf63bc4a58_6abaf63bc4a09_%E5%8F%91%E5%B8%83.jpg" alt="Manus 2.0突然发布！挑战Meta Muse" width="1000" height="876" /></p>
+<p>蝴蝶效应刚在今年9月1日宣布Manus正式恢复独立运营，此次2.0的发布可以说是其<span style="color: #0f59a4"><strong>恢复独立运营以来的第一次大版本更新</strong></span>。</p>
+<p>值得注意的是，本次发布的新版本是海外版，蝴蝶效应在推文中称其“正在组建团队开发面向国内市场的产品”。</p>
+<p>据其博客介绍，Manus 2.0采用<span style="color: #0f59a4"><strong>自研Agent框架Cascade</strong></span>，依托这套框架，用户创建的项目从起步阶段就能保持轻量化，仅在任务有实际需求时，再调用对应的专业能力。</p>
+<p>在一项测试配置中，与Manus之前的系统相比，Cascade的<span style="color: #0f59a4"><strong>Token消耗减少23.2%</strong></span>，任务完成时间<span style="color: #0f59a4"><strong>缩短28.2%</strong></span>，运行成本<span style="color: #0f59a4"><strong>降低32%</strong></span>。这说明该架构下，任务完成的效果更好，损耗更少。</p>
+<p><img class="alignnone size-full wp-image-598010" src="https://oss.zhidx.com/26eb1e8d9281a265c8bfd3dadc643b24/6ac27800/uploads/2026/09/6abaf61d7ca20_6abaf61d79f32_6abaf61d79ee4_1.jpg" alt="Manus 2.0突然发布！挑战Meta Muse" width="1000" height="563" /></p>
+<p>目前，Manus 2.0现已在网页端、桌面端和移动端上线。Cue已在网页端、桌面端和移动端上线，iOS版本将在通过App Store审核后推出。不过，Cue仍处于抢先体验阶段，用户需凭邀请码才可免费使用。</p>
+<h2>一、一句话远程操控电脑，让AI全天候替你跑项目</h2>
+<p>不少项目的运行需求，已超出单台设备的承载上限。例如多人游戏的搭建需要笔记本闭合后仍保持在线的服务节点，各类自动化任务也要求可全天候稳定运行的算力载体。</p>
+<p>面对此类需求，用户可以选用<span style="color: #0f59a4"><strong>云电脑（Cloud Computer）功能</strong></span>，为自身项目搭建专属运行环境，既可支撑游戏后端服务，也能保障自动化流程长期持续运转。</p>
+<p><img class="alignnone size-full wp-image-598011" src="https://oss.zhidx.com/a5597dc0ddcfe0c78e3da8fedbf99165/6ac27800/uploads/2026/09/6abaf61e12bff_6abaf61e0fe51_6abaf61e0fe0d_2.jpg" alt="Manus 2.0突然发布！挑战Meta Muse" width="1000" height="563" /></p>
+<p>此前，用户只能通过定时任务，让Manus在预设时间启动作业。而新增的<span style="color: #0f59a4"><strong>Automations自动化能力</strong></span>上线后，只要已接入服务中出现指定事件，Manus即可自动触发任务执行。</p>
+<p><span style="color: #0f59a4"><strong>新邮件、广告数据变动、日历提醒、Slack消息、Notion内容更新等，都能成为任务触发条件。</strong></span>用户只需输入一段提示指令，告知Manus需要监测的事件与后续操作，系统便可自动构建并运行完整工作流。</p>
+<p><img class="alignnone size-full wp-image-598012" src="https://oss.zhidx.com/e704f49246f6b8f212cc544598d45350/6ac27800/uploads/2026/09/6abaf61ea9264_6abaf61ea62f3_6abaf61ea62b6_3.jpg" alt="Manus 2.0突然发布！挑战Meta Muse" width="1000" height="563" /></p>
+<p>在远程操作方面，Computer Use功能可以让用户无需再手机界面点击确认，就可以<span style="color: #0f59a4"><strong>一句话向Manus下达指令</strong></span>。</p>
+<p>例如，用户可以指令Manus在电脑的发布会文件夹中找到PPT并发送出去，用户能够同时在手机上实时查看桌面操作，也可以一句话转换文件格式。</p>
+<p>在完成连接与授权的会话中，Manus仅在电脑上<span style="color: #0f59a4"><strong>独立可见的工作区</strong></span>执行操作，仅访问用户许可的文件、浏览器与应用。用户可以一边处理其他事务，一边让Manus帮忙测试应用；即便离开设备，任务也能继续运行，全程操作权限都掌握在用户手中。</p>
+<p><img class="alignnone size-full wp-image-598016" src="https://oss.zhidx.com/afe5dfcdf989cf484121b026e9b5976e/6ac27800/uploads/2026/09/6abaf6228e0a3_6abaf6228ac91_6abaf6228ac4f_8.jpg" alt="Manus 2.0突然发布！挑战Meta Muse" width="1000" height="563" /></p>
+<p>在Manus 2.0中，其桌面应用升级为Manus Studio，定义为一个由<span style="color: #0f59a4"><strong>人与AI共享的工作空间</strong></span>。</p>
+<p>每类工作都需要各自的专业工具，但如果把所有能力都塞进每一个任务，同样的工作只会变得更慢、更贵。所以Studio只引入项目真正需要的能力，让Manus的上下文始终聚焦在手头的工作上。</p>
+<p>Studio在<span style="color: #0f59a4"><strong>日常办公和专业创作两方面</strong></span>都迎来了重大升级，包括文档、表格、PDF、幻灯片，以及网站、代码、游戏和视频。</p>
+<p><img class="alignnone size-full wp-image-598013" src="https://oss.zhidx.com/55b91a3a29baa82e5d1b83fea064ddd4/6ac27800/uploads/2026/09/6abaf61f6448d_6abaf61f61656_6abaf61f61625_4.jpg" alt="Manus 2.0突然发布！挑战Meta Muse" width="1000" height="563" /></p>
+<h2>二、零剪辑经验也能出片，支持手动精修</h2>
+<p>同时，Manus推出了专业环境<span style="color: #0f59a4"><strong>视频编辑器（Video Editor）</strong></span>。据介绍，视频编辑器专为30到60秒的短篇产品广告、AI UGC、数据动态图表、教程、Vlog以及以动效视频等任务打造，<span style="color: #0f59a4"><strong>完全不需要用户有剪辑经验</strong></span>。</p>
+<p>在Studio环境中，Game Dev可以直接向用户开放时间线编辑权限。视频中用到的片段、图片、文字、动效与音频均可以拆解为独立素材。用户可替换配乐、导入自有素材、调整动画时序，待效果满意后再导出成片。用户也可以直接让Manus在此基础上继续修改。</p>
+<p><img class="alignnone size-full wp-image-598021" src="https://oss.zhidx.com/9940bb64bd18b77d7f4be49b6b7e8f71/6ac27800/uploads/2026/09/6abaf6b861050_6abaf6b85e0d6_6abaf6b85e074_xSrrPlRGmNoAsLFC-ezgif.com-video-to-gif-converter.gif" alt="Manus 2.0突然发布！挑战Meta Muse" width="500" height="333" /></p>
+<p>与此同时，这款视频编辑器搭载<span style="color: #0f59a4"><strong>Alchemy模式</strong></span>。用户只需提出初步创意构想，Manus便可承接创意策划工作，同步调用视频生成与代码生成能力。</p>
+<p>该模式带来的画质提升效果显著：创意表达更具新意，画面细节处理更为精细，动态效果更考究，剪辑节奏也更为流畅。据Manus团队推荐，在优先追求成片品质的场景下，用户可选用Alchemy模式，生成后，用户依旧能在时间线中对作品做精细化调整。</p>
+<h2>三、低门槛做多人联机游戏，支持竞速、对抗、竞技及3D游戏</h2>
+<p>除视频制作外，Manus还推出了<span style="color: #0f59a4"><strong>游戏开发（Game Dev）专业环境</strong></span>。</p>
+<p>Game Dev可同时调用视频、图像与编程模型。在<span style="color: #0f59a4"><strong>Max Ultra模式</strong></span>下，用户制作的游戏画面观感出色，玩法运行流畅，操作手感也更为到位。用户可从现成可运行模板起步，初次使用就能体验基于自身创意打造的游戏。</p>
+<p>在创作过程中，编辑面板支持用户一边实时预览游戏运行状态，一边管理素材、修改代码，手动调整角色移动逻辑、美术资源与场景内容。例如，用户可以直接选中村民角色，将其发色改为银色，其余内容不受影响。</p>
+<p><img class="alignnone size-full wp-image-598015" src="https://oss.zhidx.com/ec97df9d5fef83425e841cad98ee2edb/6ac27800/uploads/2026/09/6abaf620f02a5_6abaf620ed23c_6abaf620ed1fc_7.jpg" alt="Manus 2.0突然发布！挑战Meta Muse" width="1000" height="563" /></p>
+<p>当作品开发完成后，用户可将其发布为网页版本，他人点击链接即可直接游玩；与此同时，用户也可以直接邀请好友一同参与。</p>
+<p>多人联机一直是这类项目开发中的难点，因为联机功能需要一台全天候在线、可供所有玩家接入的服务器，并且涉及托管、网络部署与运维等多方面专业工作。</p>
+<p>依托Game Dev功能，多人联机游戏的整套联机配置门槛很低，用户仅需几步点击操作：依次进入配置、多人联机选项，选定云电脑并完成采购，后续工作交由Manus处理。此类功能<span style="color: #0f59a4"><strong>支持竞速、对抗、竞技及3D类游戏</strong></span>。更重要的是，好友进入游戏后的游玩反馈，可以为用户迭代下一版作品提供参考。</p>
+<h2>四、Agent群聊分工协作，还能接电话、扫码点餐</h2>
+<p>除了上述功能更新外，Manus同时发布了<span style="color: #0f59a4"><strong>全新独立应用Cue</strong></span>，这是一款专为<span style="color: #0f59a4"><strong>个人智能Agent</strong></span>打造的应用，同时适配手机与桌面端，和Manus共享同一套底层基础设施。从功能看来，与Meta的Muse有些相似。</p>
+<p>在Cue中，每个Agent都拥有<span style="color: #0f59a4"><strong>专属邮箱、电话号码、钱包与独立电脑环境</strong></span>，能够互相发送消息、在用户设定预算范围内完成支付，并依托自身算力环境端到端执行完整任务。它也可以代为接听来电，并在Cue中生成通话摘要供用户查阅。</p>
+<p><img class="alignnone size-full wp-image-598017" src="https://oss.zhidx.com/ce57d8c98eb3fec3f203516370b05c41/6ac27800/uploads/2026/09/6abaf623a81f2_6abaf623a2989_6abaf623a2933_9.jpg" alt="Manus 2.0突然发布！挑战Meta Muse" width="1000" height="563" /></p>
+<p>用户还可借助Cue组建<span style="color: #0f59a4"><strong>Agent协作团队</strong></span>，只需将多个Agent加入同一个群聊，设定共同目标，它们便会分工接力协同工作。</p>
+<p>例如，一个Agent调研发布会场地，第二个整理候选场地清单，第三个负责起草PPT。整体方向由用户把控，最终结果也交由用户确认拍板。</p>
+<p>除复杂项目协作外，Cue也支持对接各类日常线下服务。例如，用户只需扫描二维码，对应的Agent就可以协助点餐或线上排队取号。</p>
+<h2>结语：个人智能体混战，Manus能否突出重围？</h2>
+<p>去年，Manus横空出世，让市场第一次清晰看到个人智能体的潜力。但一年半过去，竞争格局已经截然不同。</p>
+<p>在国内，大厂凭借入口、生态和补贴快速铺开，WorkBuddy、豆包、千问工作等占据大部分用户心智和市场份额。在海外，Meta的Muse也已经打出口碑，占据了一定市场。</p>
+<p>在这种格局下，Manus 2.0选择不在通用入口上硬碰，而是往云电脑、自动化、视频生成、游戏开发和Agent协作这些更垂直、更重执行的方向走。</p>
+<p>群龙环伺，Manus想要突出重围，或许还需要在任务完成度、成本以及用户体验打出差异化。</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598008.html</link>
+<pubDate>Tue, 29 Sep 2026 09:35:27 +0800</pubDate>
+<source>智东西</source>
+<author>王 涵</author>
+</item>
+<item><title><![CDATA[Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/d1c7d801c2b1519523865589b8214487/6ac27800/uploads/2026/09/6abaf68c9cd2d_6abaf68c99eff_6abaf68c99ece_221.png"><strong>智东西</strong><br />
+<strong>作者 | 程茜</strong><br />
+<strong>编辑 | 心缘</strong></p>
+<p class="p2">智东西9月29日消息，今日凌晨，Anthropic发布Claude 5.5系列第二款模型Claude Sonnet 5.5，主打快速、高性价比。</p>
+<p class="p2">Anthropic在博客中透露，相比Claude Sonnet 5，新模型速度提升超30%，成本降低近30%，更擅长处理日常任务，如修复错误、创建文档、制作幻灯片和电子表格等。</p>
+<p><img class="alignnone wp-image-597983 size-full" src="https://oss.zhidx.com/6c662f4e728810edfb7a407835111c31/6ac27800/uploads/2026/09/6abaf1ff9f2e1_6abaf1ff99a2d_6abaf1ff999f5_ScreenShot_2026-09-29_070212_606.png" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="1420" height="1076" /></p>
+<p class="p2">先来看几项关键指标，Sonnet 5.5在多项指标中可对标Opus 5.5，相比Sonnet 5有数倍提升。Anthropic称，这是首个仅通过截图就能赢得《口袋妖怪红》游戏的Sonnet模型。在Artificial Analysis上，Sonnet 5.5在AI分析指数上得分为56，仅次于Opus 5.5的58分，该榜单上，Claude系列模型包揽前三席。</p>
+<p><img class="alignnone wp-image-597970 size-full" src="https://oss.zhidx.com/7d7b1a2ef2df394babfdeda2ef2cc265/6ac27800/uploads/2026/09/6abaeff5d8dd2_6abaeff5d618f_6abaeff5d6151_HTUuFucbYAAx-9o.jpeg" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="2342" height="2007" /></p>
+<p class="p2">价格方面，Claude Sonnet 5.5定价与上一代相同，即每百万输入token 2美元，每百万输出token 10美元，每百万token的缓存读取操作需0.20美元。不过，其博客提到，模型在实际完成任务时，单任务成本比Claude Sonnet 5要低30%。</p>
+<p><img class="alignnone wp-image-598268 size-full" src="https://oss.zhidx.com/d89727f9996858f47c2312d766803267/6ac27800/uploads/2026/09/6abb805b24680_6abb805b21625_6abb805b215ef_ScreenShot_2026-09-29_072808_965.png" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="1036" height="386" /></p>
+<p class="p2">官方放出的案例显示，Sonnet 5.5复原魔方时仅花费10秒、0.11美元就完成任务。</p>
+<p><img class="alignnone wp-image-597974 size-full" src="https://oss.zhidx.com/f926c682a15b285c7a14caf84c73563e/6ac27800/uploads/2026/09/6abaf06b96485_6abaf06b933bf_6abaf06b93377_2026-09-29-06-32-12.2026-09-29-06_32_58.gif" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="1000" height="557" /></p>
+<p class="p2">Artificial Analysis的榜单显示，Sonnet 5.5单任务输出token数量更多，其单任务成本为7.60美元，比Sonnet 5的单任务成本高出约50%，接近于Opus 5.5的7.63美元。</p>
+<p><img class="alignnone wp-image-597971 size-full" src="https://oss.zhidx.com/283a1033e03d7e96b9c8c9fb8ec0ebf3/6ac27800/uploads/2026/09/6abaf00244eaa_6abaf0023fbad_6abaf0023fb7b_ScreenShot_2026-09-29_063104_317.png" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="1916" height="926" /></p>
+<p>不少开发者实测发现，Sonnet 5.5的成本非常高，“建议坚持使用Opus 5.5”。</p>
+<p><img class="alignnone wp-image-597997 size-full" src="https://oss.zhidx.com/5b722f5223c631da75d529dd4ccd4863/6ac27800/uploads/2026/09/6abaf30b805cc_6abaf30b7b78b_6abaf30b7b738_ScreenShot_2026-09-29_064648_093-%E6%8B%B7%E8%B4%9D.png" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="1262" height="390" /></p>
+<p class="p2">Claude Sonnet 5.5现已在全平台上线，包括AWS、谷歌云以及微软Azure。开发者可在Claude 平台通过模型标识符claude-sonnet-5-5接入使用。 如果原先在Sonnet模型上关闭思考功能，迁移至Sonnet 5.5前，需要切换至新的between_tools参数配置，该配置可保持前置思考功能处于关闭状态。</p>
+<p class="p2">Anthropic还透露，其专为高并发和成本敏感的应用而设计的Claude Haiku 5.5，将在未来几周发布。</p>
+<h2 class="p2"><strong>一、数位开发者实测对比，效果惊艳但烧不起，一款射击游戏花费上千元</strong></h2>
+<p>不少开发者实测对比了Sonnet 5和Sonnet 5.5，两代模型之间的性能提升幅度肉眼可见。</p>
+<p class="p2">官方案例，知名开发者@_re_pete对比了Sonnet 5和Sonnet 5.5生成落叶模拟器的效果。可以看出，Sonnet 5.5的落叶飘落效果更自然，整体画面更和谐。</p>
+<p><img class="alignnone wp-image-597975 size-full" src="https://oss.zhidx.com/8b9b773c0b7e4d0f45490dad0eb5c629/6ac27800/uploads/2026/09/6abaf0b3f06b5_6abaf0b3eba35_6abaf0b3eb9ee_2026-09-29-06-33-30.2026-09-29-06_41_03.gif" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="987" height="1169" /></p>
+<p class="p2">在不到一分钟内，开发者@kevin_t_ngo让Sonnet 5.5通过JavaScript动画展示了恐龙的历史，其还对比了Sonnet 5和Sonnet 5.5的生成结果。Sonnet 5.5生成的动画主题形象明确，还能添加配套文字，生成带叙事感的完整插画。</p>
+<p><img class="alignnone wp-image-597976 size-full" src="https://oss.zhidx.com/610aa72634587fb981072fa2b1603db9/6ac27800/uploads/2026/09/6abaf0f63f580_6abaf0f63c5cb_6abaf0f63c57f_2026-09-29-06-35-46.2026-09-29-06_39_02.gif" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="1000" height="543" /></p>
+<p class="p2">另一开发者对比了Sonnet 5.5与GPT-6 Sol、GPT-6 Astra的效果，其与GPT-6 Astra的差距并不大。Sonnet 5.5、GPT-6 Astra在生成骑自行车动作时没有出现太大瑕疵。</p>
+<p><img class="alignnone wp-image-597977" src="https://oss.zhidx.com/7dc0203062febf710593e8cdfdb3a3e6/6ac27800/uploads/2026/09/6abaf157781eb_6abaf15771f78_6abaf15771f1e_2026-09-29-06-44-47.2026-09-29-06_47_57.gif" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="600" height="970" /></p>
+<p class="p2">不过效果惊艳背后，用户实测发现Sonnet 5.5的成本并不低。</p>
+<p class="p2">BridgeMind使用Sonnet 5.5制作了一款射击游戏，它称新模型表现机器出色，生成的游戏堪称神作，但构建成本要达到177美元（约合人民币1187元），耗时49分钟完成。</p>
+<p><img class="alignnone wp-image-597978 size-full" src="https://oss.zhidx.com/7576312d7198508de0fc8a291e29856b/6ac27800/uploads/2026/09/6abaf19edeff1_6abaf19edc366_6abaf19edc2fc_2026-09-29-06-41-18.2026-09-29-06_42_14.gif" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="1000" height="575" /></p>
+<p class="p2">在下面开发者制作的城市模拟器案例中，Sonnet 5.5的效果明显比Sonnet 5更好，Sonnet 5.5的输出token数量为38万，花费了9.23美元，Sonnet 5为12万，花费4.85美元。</p>
+<p><img class="alignnone wp-image-597979 size-full" src="https://oss.zhidx.com/5d0f5f5b39273ee67dea58b17295bc83/6ac27800/uploads/2026/09/6abaf1c6b7abf_6abaf1c6b2b79_6abaf1c6b2b37_2026-09-29-06-42-28.2026-09-29-06_44_34.gif" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="600" height="795" /></p>
+<p class="p2">另一开发者使用Sonnet 5.5制作了一个果酱西瓜浏览器动画，最终预计的API使用成本约为8.20美元，其中代码与推理2.80美元、缓存上下文数据3.6美元、缓存写入操作1.8美元、常规输入token 0.02美元，其中2/3的资源都被用于处理上下文相关任务。</p>
+<p><img class="alignnone wp-image-597980 size-full" src="https://oss.zhidx.com/84eaebb29982db1b802c12a30acf7941/6ac27800/uploads/2026/09/6abaf1dc3ff97_6abaf1dc3d16f_6abaf1dc3d0fc_2026-09-29-06-48-14.2026-09-29-06_58_30.gif" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="800" height="404" /></p>
+<h2 class="p2"><strong>二、多项测试可对标Opus 5.5，Anthropic建议开发者调节档位降成本</strong></h2>
+<p class="p2">从Anthropic发布的基准测试来看，Sonnet 5.5在多项指标中已经超越其性能更高的Opus 5.5模型。</p>
+<p class="p2">具体来看，该基准测试对比了Sonnet 5.5、Sonnet 5、Opus 5.5、GPT-6 Sol四大模型在智能体编程、知识工作、多学科推理、电脑操作、图表识别等方面的性能。</p>
+<p class="p2">和上代Sonnet 5对比，Sonnet 5.5在编程、图表识别上的分数提升了数倍；和GPT-6 Sol对比，Sonnet 5.5在智能体编程、知识工作、图表识别上都更优；Sonnet 5.5在主动编程领域上的分数甚至超过Claude Opus 5.5，其他几项与之相当。</p>
+<p class="p2">下图是各模型在不同投入等级下的得分与单任务成本的对比曲线，数据点越靠近图表左上角，代表每花费一美元所能获得的模型能力越强。</p>
+<p><img class="alignnone wp-image-597968 size-full" src="https://oss.zhidx.com/3cf3f32d1ee0dfbff3d86172c1963c20/6ac27800/uploads/2026/09/6abaefc6ae1e8_6abaefc6ab504_6abaefc6ab4d4_ScreenShot_2026-09-29_061655_948.png" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="1366" height="940" /></p>
+<p class="p2">在多项基准测试中，低/中等投入档位下的Sonnet 5.5能超越Sonnet 5的最高得分，而单任务成本仅为后者的约十分之一。 Sonnet 5.5在较低投入档位运行时，单任务成本更低，与Opus 5.5形成互补；拉高投入档位后，它可以达到接近Opus的性能，同时成本处于相近水平。</p>
+<p><img class="alignnone wp-image-598003 size-full" src="https://oss.zhidx.com/4541216a30df2a7dd259d247348ed10c/6ac27800/uploads/2026/09/6abaf427013db_6abaf426ed847_6abaf426ed811_ScreenShot_2026-09-29_061704_666.png" alt="Claude Sonnet 5.5深夜空降！一半价格击败Opus，开发者实测账单暴涨" width="1366" height="924" /></p>
+<p class="p2">编程是Sonnet 5.5性能提升的一个突出场景。在智能体编程基准FrontierCode的高投入档位下，它的得分比同档位Sonnet 5高出10分左右，单任务成本仅约后者的1/15。</p>
+<p class="p2">CursorBench基于Cursor真实编程会话任务开展测试，在该基准上，Sonnet 5.5的最高分与Opus 5.5差距仅约2分。</p>
+<p class="p2">很多早期测试者称，在直接对比测试中，Sonnet 5.5能够将工具调用合并在一起，从而减少操作步骤、降低成本。</p>
+<p class="p2">Sonnet 5.5在多项知识工作任务上均取得性能提升。GDPval-AA基准覆盖44个职业、9大行业的真实业务任务，在该测试中，Sonnet 5.5得分与Opus 5.5几乎持平，相比Sonnet 5高出约400分。在电脑操作与图表识别能力上，它的表现也十分接近Opus 5.5；而在长周期知识工作场景，其性能明显优于Sonnet 5和GPT-6 Sol。</p>
+<p class="p2">价格方面，开发者调整投入档位，可在成本、响应速度与任务整体质量之间做权衡。在Claude Code以及Anthropic官方应用中，默认投入档位为中等（Medium）；开发者平台Claude Platform默认档位为高（High）。</p>
+<p class="p2">Anthropic官方称，档位较低时，Claude响应更快、消耗Token更少，适合常规事务处理；档位调高后，Claude会进行更长时间的推理，并对输出结果做更全面的自检核验。</p>
+<h2 class="p2"><strong>三、大多数对齐性指标，与Sonnet 5相当</strong></h2>
+<p class="p2">在其自动化行为审计中，Sonnet 5.5在大多数对齐性指标上均优于或达到与Sonnet 5相同的水平。由于其网络安全能力与Opus 5相当，因此它是首个具备网络安全防护措施和回退机制的Sonnet模型。其生物学安全防护机制与Sonnet 5相同。这两种安全防护机制都针对的是少数高风险操作；常规的软件开发和大多数生命科学领域的操作并未受到影响。</p>
+<p class="p2">Anthropic研究人员在博客中透露，Sonnet 5.5并未突破其模型能力的前沿上限，因此他们将模型的对齐评估，聚焦于一组适用于所有能力等级模型的特定风险，包括损害用户利益、误导用户，以及被用于高风险恶意场景时产生协同危害。</p>
+<p class="p2">研究人员开展自动化行为审计，在约1850个场景下对Claude进行测试。</p>
+<p class="p2">结果显示，在对齐性、抗滥用能力与诚实度的大部分指标上，Sonnet 5.5相比Sonnet 5均有提升或持平。 在其新推出的隔离防护评估中，Sonnet 5.5尝试突破沙箱的概率接近本次测试中表现最优的Opus 5.5；并且在所有Anthropic模型里，它去试探容器防护边界的概率最低。他们没有发现Sonnet 5.5会去执行与用户意图相冲突的目标。</p>
+<p class="p2">网络安全方面，Sonnet 5.5的网络安全相关能力相对Sonnet 5有提升，因此研究人员为其部署了与Opus 5.5相近的安全防护机制。用户仍然可以在常规软件开发流程中，利用模型查找并修复代码漏洞；但高风险网络安全任务会自动降级回Sonnet 5处理。</p>
+<p class="p2">Sonnet 5.5沿用与Sonnet 5相同的生物相关安全防护机制。该防护体系针对有害请求；绝大多数科研、教育以及临床工作不受影响，但部分微生物学与病毒学相关请求可能出现误拦截。</p>
+<p class="p2">在模型蒸馏防护方面，Sonnet 5.5是首款内置安全分类器以抵御推理提取攻击的Sonnet系列模型，并扩展了保留思考链路（preserved thinking）机制：Claude的推理思考过程无法脱离生成该内容的账号单独剥离。</p>
+<p class="p2">此外，Claude Sonnet 5.5版本也提供了不保存任何数据功能的版本。</p>
+<h2><strong>结语：Claude中端主力模型性能暴涨，但成本是个坎</strong></h2>
+<p>Sonnet 5.5的升级，标志着Anthropic的主力中端大模型正在快速收窄与旗舰模型之间的能力差距。这或许会改变企业落地大模型的选型思路，不必一味追求最高规格旗舰，可采用主力模型承担绝大多数常规任务、旗舰模型仅处理高难度复杂任务的分层调用架构，在能力与成本之间找到更优平衡点。</p>
+<p>不过综合开发者的实测结果来看，Sonnet 5.5在成本端并未实现大幅缩减。一旦面对复杂Agent任务，用户往往需要拉高投入等级来换取足够性能，此时单任务开销会明显抬升。</p>
+<p>来源：Anthropic、X</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/597967.html</link>
+<pubDate>Tue, 29 Sep 2026 09:33:58 +0800</pubDate>
+<source>智东西</source>
+<author>程茜</author>
+</item>
+<item><title><![CDATA[年亏2818亿！Anthropic IPO招股书曝光]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/01aee9758db701c53819a614665640c4/6ac27800/uploads/2026/09/6abb14f24838b_6abb14f244b7e_6abb14f244b44_%E6%96%B0%E6%99%BA%E4%B8%9C%E8%A5%BF%E5%A4%B4%E6%9D%A1%E5%A4%B4%E5%9B%BE%E6%A8%A1%E6%9D%BF.png?x-oss-process=image/resize,m_fill,w_1024,h_436"><strong>智东西</strong><br />
+<strong>编译 | 李水青</strong><br />
+<strong>编辑 | 心缘</strong></p>
+<p>智东西9月29日报道，今日，据路透社根据其看到的Anthropic公司IPO招股书报道，Anthropic在2025年<span style="color: #0f59a4;"><strong>净亏损达420亿美元</strong></span>（约合人民币2818.4亿元），并计划在未来几年内斥资<span style="color: #0f59a4;"><strong>5180亿美元</strong></span>（约合人民币34760.4亿元）用于云计算、计算和基础设施建设。</p>
+<p><img class="alignnone size-full wp-image-598068" src="https://oss.zhidx.com/d3c79493f6a9d78dc85f445e0102aff0/6ac27800/uploads/2026/09/6abb1512d843e_6abb1512d53df_6abb1512d5399_ScreenShot_2026-09-29_092603_758.png" alt="年亏2818亿！Anthropic IPO招股书曝光" width="1660" height="680" /></p>
+<p>此前今年6月初，Anthropic官方确认已向SEC<a href="https://mp.weixin.qq.com/s/JgcDZT652my7R0ojOdToKQ">机密提交IPO招股书草案</a>，文件至今未公开。</p>
+<p>根据路透社披露信息，该公司2025年的收入是上一年的<span style="color: #0f59a4;"><strong>12倍</strong></span>，达到近<span style="color: #0f59a4;"><strong>46亿美元</strong><span style="color: #333333;">（约合人民币308.7亿元）</span></span>，但运营亏损却达<span style="color: #0f59a4;"><strong>80.6亿美元</strong><span style="color: #333333;">（约合人民币540.9亿元）</span></span>，该亏损不包括主要与之前融资相关的各项负债减值。</p>
+<p>同时，Anthropic去年在计算和基础设施方面花费了<span style="color: #0f59a4;"><strong>73.3亿美元</strong></span>（约合人民币491.9亿元），增至2024年的<span style="color: #0f59a4;"><strong>3</strong><strong>倍</strong></span>，占其126.5亿美元（约合人民币848.9亿元）总运营支出的一半以上。</p>
+<p>路透社再次确认Anthropic公开出售的估值可能超过<span style="color: #0f59a4;"><strong>2万亿美元</strong></span>（约合人民币13.4万亿元）。这一数值将超越SpaceX在今年6月创下的1.77万亿美元（约合人民币11.93万亿元）IPO纪录，<a href="https://mp.weixin.qq.com/s/llUHoAMOR45neLN8PG9iCQ">冲刺史上最大IPO。</a></p>
+<p>路透社此前援引消息人士报道称， Anthropic的公开市场上市可能会推迟到11月美国中期选举之后。</p>
+<p>目前，Anthropic拒绝回应外媒的置评请求。</p>
+<h2><strong>一、预期估值冲2万亿美元，净亏420亿含340亿会计费用，曝客户依赖</strong></h2>
+<p>据路透社报道，Anthropic的预期估值目标达2万亿美元（约合人民币13.4万亿元），比其5月份估计的9650亿美元（约合人民币6.5万亿元）估值高出一倍多。</p>
+<p>近420亿美元（约合人民币2818.4亿元）的净亏损包括约340亿美元（约合人民币2279.8亿元）的会计费用。这340亿美元来自可转换优先股的公允价值变动，属于非现金会计损失，不是公司实际烧出去的运营现金。</p>
+<p>路透社看到，Anthropic在招股书中提到，去年其近四分之一的收入来自两家客户，作为风险因素的一部分，该公司警告称，其许多最大的客户没有签订长期合同，可能会削减或停止支出。</p>
+<p>路透社看到的招股书显示，截至12月31日，Anthropic公司拥有现金、现金等价物和短期投资总额为202.8亿美元（约合人民币1359.8亿元）。</p>
+<h2><strong>二、一边呼吁放慢AI，一边火速发新模型：Anthropic上市前矛盾冲刺</strong></h2>
+<p>Anthropic最大的挑战者仍然是OpenAI，两家公司在商业客户、人才和华盛顿的影响力方面展开了激烈的竞争。</p>
+<p>OpenAI已于6月秘密提交了IPO申请，据媒体报道预计将于2027年初上市。</p>
+<p>Anthropic由一群因在公司治理和AI安全方面与竞争对手存在分歧而离职的研究人员于2021年创立。该公司于2023年3月发布了首个大语言模型，直接与OpenAI展开竞争。</p>
+<p>分析师预计，美国第一家上市的纯AI公司将为AI行业建立估值基准，并吸引那些多年来一直等待纯粹投资该技术的投资者。</p>
+<p>亚马逊和谷歌是Anthropic早期两位最重要的战略合作伙伴。这两家科技巨头都向这家初创公司投资了数十亿美元，同时还提供了训练和部署Claude模型所需的云基础设施。</p>
+<p>此前，Anthropic因反对将其AI模型用于自主武器、大规模监控，与美国白宫、国防部产生冲突，五角大楼将其列入黑名单。白宫这一举措在8月被美国联邦法官裁定叫停。</p>
+<p>当下正值Anthropic研究发现，日益自主的AI模型可能存在巨大安全问题，引发人们担忧。Anthropic首席执行官Dario Amodei呼吁全球AI界放慢发布新功能的步伐，以消除这些担忧。</p>
+<p>尽管如此，Anthropic上周还是推出了新的Opus 5.5模型，以应对OpenAI自发布GPT-6 Astra以来取得的强劲发展势头。</p>
+<h2><strong>结语：SpaceX打头阵，Anthropic IPO迎AI热情“压力测试”</strong></h2>
+<p>Anthropic的IPO进程紧随马斯克的SpaceX之后。后者IPO时估值达到1.77万亿美元，6月12日上市首日股票飙升19%至160美元，目前交易价格在147美元左右。</p>
+<p>外媒认为，这一业绩可能会让投资者在评估高增长公司仍然过高的估值时有所顾虑。其出售将进一步检验市场对AI交易的热情是否经得起更严格的审视。</p>
+<p>此次上市将使更多美国公众投资者参与到AI领域的竞争中来，而此前这场竞争一直由风险投资公司、主权财富基金和大型科技公司主导。</p>
+<p>来源：路透社</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/598061.html</link>
+<pubDate>Tue, 29 Sep 2026 09:31:43 +0800</pubDate>
+<source>智东西</source>
+<author>李水青</author>
+</item>
+<item><title><![CDATA[刚刚，苏姿丰买下李飞飞世界模型公司！花了550亿]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/5bc75fdd73370f2d98b1b40809a823b1/6ac27800/uploads/2026/09/6abaeddde2784_6abaeddddf1d0_6abaeddddf197_33c4a91ec6c4ca3a2b056b7159e6f62c.jpg"><strong>智东西</strong><br />
+<strong> 编译 | 江宇</strong><br />
+<strong> 编辑 | 心缘</strong></p>
+<p>智东西9月29日报道，今天凌晨，<span style="color: #0f59a4;"><strong>AMD宣布与“AI教母”李飞飞创办的空间智能公司World Labs签署最终收购协议</strong></span>，交易全部以股票完成，<span style="color: #0f59a4;"><strong>价值约82亿美元</strong></span>（约合人民币550.26亿元）。</p>
+<p><img class="alignnone size-full wp-image-597972" src="https://oss.zhidx.com/5c9f4b67d04444ed1abf27df5ca5fb11/6ac27800/uploads/2026/09/6abaf042ae156_6abaf042ab2ca_6abaf042ab292_ec94f2debaf3051557b31615d1fec50e.jpg" alt="刚刚，苏姿丰买下李飞飞世界模型公司！花了550亿" width="1000" height="1260" /></p>
+<p>▲（图源：苏姿丰）</p>
+<p><span style="color: #0f59a4;"><strong>交易完成后，李飞飞将加入AMD，担任执行副总裁兼首席科学家，直接向AMD董事长兼CEO苏姿丰（Lisa Su）汇报</strong></span>。World Labs团队则将继续推进AI模型研究。</p>
+<p>按照计划，这笔交易预计于2026年底前完成，目前仍需获得监管批准并满足其他惯例成交条件。</p>
+<p>李飞飞称，加入AMD是World Labs“下一阶段”的选择，希望借助更大规模的工程和硬件资源，加速空间智能和物理世界AI研究。</p>
+<p><img class="alignnone size-full wp-image-597962" src="https://oss.zhidx.com/a796172ba2cb370534abe46ec4f0bd92/6ac27800/uploads/2026/09/6abaedfc7947f_6abaedfc7601e_6abaedfc75fd7_952edac15f65355e814f7a63f07e76e4.png" alt="刚刚，苏姿丰买下李飞飞世界模型公司！花了550亿" width="1000" height="1668" /></p>
+<p>▲（图源：李飞飞）</p>
+<p>AMD称，此次收购将为其带来一支AI模型研究团队，帮助公司更深入理解新兴AI模型和应用对计算基础设施的需求，并据此推进未来AI硬件、软件和系统的研发。</p>
+<h2><strong>一、李飞飞加入AMD任首席科学家，World Labs团队整体并入</strong></h2>
+<p>AMD在公告中提到，随着AI进一步进入推理、机器人、仿真和物理AI等领域，其对计算基础设施的需求也变得更加多样化。World Labs在先进模型研发方面的经验，将帮助AMD了解AI工作负载如何演进，并进一步影响其未来技术路线图。</p>
+<p>苏姿丰称，构建下一代AI计算平台，需要深入理解模型本身如何演进。李飞飞及World Labs团队在模型研究方面的经验，<span style="color: #0f59a4;"><strong>将被用于AMD未来硬件、软件和系统的开发</strong></span>。</p>
+<p>交易完成后，李飞飞将担任AMD执行副总裁兼首席科学家。<span style="color: #0f59a4;"><strong>World Labs联合创始人Justin Johnson和Ben Mildenhall也将与李飞飞一起，继续领导World Labs团队。</strong></span></p>
+<p><span style="color: #0f59a4;"><strong>李飞飞在随后发布的长文中称，她将继续同时参与AMD在AI领域的技术工作</strong></span>。</p>
+<p>她还提到，World Labs如果希望进一步扩大研究规模和影响范围，就需要“<span style="color: #0f59a4;"><strong>更靠近硬件</strong></span>”。双方希望将软件和硬件、基础模型及应用结合起来，并继续建设覆盖硬件、软件、模型和数据平台的开放AI体系。</p>
+<h2><strong>二、双方早有合作，去年已在AMD GPU上训练和优化模型</strong></h2>
+<p>此次收购并非双方第一次合作。苏姿丰是World Labs的早期投资人之一。</p>
+<p>李飞飞透露，World Labs与AMD自创立早期就保持联系，并于去年进一步建立技术合作关系。</p>
+<p>双方最初的合作重点，包括在AMD GPU上进行模型训练和推理优化。</p>
+<p>World Labs称，随着双方团队合作深入，逐渐发现，将World Labs的模型研究及应用能力，与AMD的软件和硬件体系结合在一起，是一个自然的选择。AMD此次也明确提到，收购World Labs的一个重要目的，是让模型研究能力进一步参与其AI基础设施设计。</p>
+<p>World Labs此前的投资方阵容中，就包括AMD、英伟达、英特尔资本、Adobe、Autodesk、Salesforce Ventures、Samsung Ventures、淡马锡、a16z、NEA、Databricks、Zoom等一众产业巨头和投资机构。此前披露的投资方中，还出现过梅西旗下投资机构Play Time。</p>
+<h2><strong>三、成立两年押注空间智能，9月刚发布新模型Atlas</strong></h2>
+<p>World Labs成立于2024年，总部位于旧金山，是一家专注于前沿AI研究及产品的公司，由李飞飞联合Justin Johnson、Ben Mildenhall和Christoph Lassner等人创办。</p>
+<p>World Labs重点押注的是<span style="color: #0f59a4;"><strong>空间智能和物理智能</strong></span>。其目标是让AI能够对现实世界中的物体、场所及其空间和时间关系进行建模和推理，并进一步用于内容创作、机器人、科学研究等场景。</p>
+<p>World Labs目前研发的模型，可以根据文本、图像和视频输入生成、重建和模拟交互式3D环境，同时还在布局机器人学习和仿真技术。</p>
+<p>其<span style="color: #0f59a4;"><strong>首款产品Marble</strong></span>基于生成式3D世界模型，可以根据图像、视频、文本以及3D布局创建具备空间一致性的3D世界。</p>
+<p><span style="color: #0f59a4;"><strong>就在本月初，World Labs发布了新一代世界模型Atlas</strong></span>。Atlas可以执行世界生成、空间重建和模拟等任务，能力包括摄像机控制生成、空间重建、时空模拟和图像生成等。</p>
+<p><img class="alignnone size-full wp-image-597963" src="https://oss.zhidx.com/1e0523bfede27f3f1bfe26151f72b2e2/6ac27800/uploads/2026/09/6abaee075810d_6abaee0755538_6abaee07554fd_3254ae6a4d315ccdb5fe13c5493abeea.jpg" alt="刚刚，苏姿丰买下李飞飞世界模型公司！花了550亿" width="1000" height="1271" /></p>
+<p>▲（图源：李飞飞）</p>
+<p>李飞飞此次进一步阐释，Atlas采用一种全新的全能模型架构，可以根据输入的2D图像预测新的摄像机视角，并将生成模型与多视角几何结合，用于解决计算机视觉中的稀疏重建问题。</p>
+<p>目前，World Labs已经看到Atlas被用于<span style="color: #0f59a4;"><strong>机器人强化学习环境、场景生成，以及房地产、设计和建筑</strong></span>等领域的现实世界重建。</p>
+<p>今年7月，World Labs还通过收购<span style="color: #0f59a4;"><strong>美国机器人仿真创企SceniX</strong></span>，进一步建设机器人仿真能力。</p>
+<p><img class="alignnone size-full wp-image-597964" src="https://oss.zhidx.com/6962102175b376479c4a5256bd616d30/6ac27800/uploads/2026/09/6abaee1ae6895_6abaee1ae35b7_6abaee1ae358c_c804e09726dac2d60fb05a0b1e60a84b.png" alt="刚刚，苏姿丰买下李飞飞世界模型公司！花了550亿" width="1000" height="986" /></p>
+<p>▲（图源：李飞飞）</p>
+<h2><strong>结语：AMD补上前沿模型研究拼图</strong></h2>
+<p>对AMD而言，82亿美元买下World Labs，相当于在GPU、软件和系统之外进一步补入一支前沿模型研究力量；对李飞飞团队而言，则意味着空间智能研究获得了更直接的硬件和工程资源。</p>
+<p>当AI的竞争进一步延伸到机器人、模拟和物理世界，芯片厂商仍需理解下一代模型究竟会怎样计算、怎样理解三维世界，以及怎样真正进入现实环境。World Labs，正好处在这条链路的上游。</p>
+<p>来源：AMD、World Labs</p>
+<img src="https://oss.zhidx.com/69dae281041d3ce5f5f1b1a65b3d8e69/6ac27800/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/597959.html</link>
+<pubDate>Tue, 29 Sep 2026 07:30:55 +0800</pubDate>
+<source>智东西</source>
+<author>江 宇</author>
+</item>
+</channel></rss>

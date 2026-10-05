@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+  "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+  "text": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing […]",
+  "published_at": "2026-09-21T18:00:07+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9d552a651ead7d3a495e",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-02/c35e8e73c9831bb83ed3238f89a3a5195c3b727768e03938b01b6749d6c320a0.body",
+  "source_sha256": "c35e8e73c9831bb83ed3238f89a3a5195c3b727768e03938b01b6749d6c320a0",
+  "fetched_at": "2026-10-02T03:10:53.658960+00:00"
+}

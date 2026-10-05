@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/chinese-state-backed-firm-funded-purchase-nvidia-chips",
+  "title": "Chinese State-Backed Firm Funded Purchase of Nvidia Chips",
+  "text": "A state-backed Chinese financing company has revealed in documents filed with regulators that it funded the purchase of Nvidia chips subject to U.S. export restrictions, Bloomberg reported on Friday.\nSemi-Tech Leasing Group, owned by several local government entities, has provided another ...",
+  "published_at": "2026-10-02T07:49:43+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-04T16:47:08+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "bbbee365b4b6c8742be6",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210.body",
+  "source_sha256": "e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210",
+  "fetched_at": "2026-10-05T03:11:17.582182+00:00"
+}

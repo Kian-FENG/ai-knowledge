@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+  "title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
+  "text": "NASA and IBM have released the Lunar Foundation Model, one of the first open-source AI models for lunar science. Trained on nearly 2 million tile bundles, mostly from 17 years of Lunar Reconnaissance Orbiter data, it cuts the error in predicting polar ice deposits.\nThe article NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science appeared first on The Decoder.",
+  "published_at": "2026-10-04T10:10:12+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "74d2a4537bd7b78c9d92",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/cc5da15e85488853a6616a2dfad426b5424233efd16e55b3a1698432ceff1840.body",
+  "source_sha256": "cc5da15e85488853a6616a2dfad426b5424233efd16e55b3a1698432ceff1840",
+  "fetched_at": "2026-10-05T03:11:15.708785+00:00"
+}

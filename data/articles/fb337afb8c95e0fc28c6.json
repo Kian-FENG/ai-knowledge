@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-217-year-old-napoleonic-code-in-just-six-hours-single-prompt-ai-run-solves-24-rows-of-custom-symbols-from-a-single-image-reveals-lost-troop-orders",
+  "title": "ChatGPT-6 Astra cracks 217-year-old Napoleonic code in just six hours",
+  "text": "An AI engineer used GPT-6 Astra to reveal the contents of a cipher that hadn’t been read since the Napoleonic Wars. Carter Church, an engineer at cybersecurity company SentinelOne, used Astra to crack the message hidden in 217-year-old code which had sat unsolved among Cryptiana's Unsolved Historical Ciphers list for decades. OpenAI’s LLM unpicked it within six hours, says Church, and it did so after only being fed a single image and prompt. You can download the “full solution package, with a script that regenerates the reading,” directly from Carter Church’s blog (download link in the first paragraph).\nI used GPT-6 Astra to break an unsolved cipher to one of Napoleon's generals that had gone unread for 217 years. What makes this impressive isn't actually the codebreaking, but that Astra completed the entire multi-modal workflow in ~6 hours from a single image and goal.1/6🧵 https://t.co/vyiGKOsrHqSeptember 30, 2026\nThe message that was deciphered wasn’t directly from Napoleon. It actually came from the headquarters of Eugène de Beauharnais, Viceroy of Italy (Napoleon’s stepson), but isn’t signed by any particular individual. In can be summed up as a troop briefing, sent to French General Auguste de Marmont, relaying Napoleon's orders. Marmont would have deciphered it using some official military codebook from the era, but since that date in 1809, it is unlikely anyone has read the message again.\nInterestingly, Church observes that this freshly deciphered text fills in some missing context from Napoleon’s 1865 memoir. That tome includes part of Napoleon’s order relating to preparation for the Austrian invasion, but breaks off mid-sentence, saying Marmont mustn't be held back by \"a handful of ...\" This page from Cryptiana's Unsolved Historical Ciphers completes this sentence with “a gathering of rabble.”\nAs per Church’s commentary on the encoded letter to Marshal Marmont, the page begins with a plain text introductory line (in French of course), This is followed by 24 rows of numbers, letters and invented symbols. Astra made short work of this 19th century military secret, and in approximately six hours, all was revealed. One of the clues it used to solve the cipher was a partial key previously unconnected with this letter. Eventually its multi-modal processing “cracked the rest with its own simulated-annealing solver,” says Church.\nIf you are in any doubt about the veracity of Astra’s work, this freshly deciphered letter from Cryptiana's Unsolved Historical Ciphers has now been marked as solved by Satoshi Tomokiyo, who maintains that online database. Moreover, Carter explains the solution is “mechanically testable against the ciphertext,” and you can check that using the published solution package, linked in the intro.",
+  "published_at": "2026-10-04T13:08:46+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "fb337afb8c95e0fc28c6",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-05/a459b7a440f55f04f8290d9ac891010007899a58557f14349f778ffe82ed365f.body",
+  "source_sha256": "a459b7a440f55f04f8290d9ac891010007899a58557f14349f778ffe82ed365f",
+  "fetched_at": "2026-10-05T03:11:21.115987+00:00"
+}

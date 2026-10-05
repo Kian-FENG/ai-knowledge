@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+  "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+  "text": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action.\"\nThe change comes just weeks after Inc's Jason Aten found that Meta's Muse AI somehow knew the contents of his messages, despite not giving the chatbot explicit permission to access them on his iPhone or Mac. Meta spokesperson Andy Stone pushed back on this report, saying access to Messages is \"entirely opt-in. …\nRead the full story at The Verge.",
+  "published_at": "2026-10-02T16:08:40-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-02T16:08:55-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ac153d8f7821405e727c",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-05/181efdba83367840ad767ebc39fa44676c86549cdeccf50d8f005f7bb926b12a.body",
+  "source_sha256": "181efdba83367840ad767ebc39fa44676c86549cdeccf50d8f005f7bb926b12a",
+  "fetched_at": "2026-10-05T03:11:17.133903+00:00"
+}

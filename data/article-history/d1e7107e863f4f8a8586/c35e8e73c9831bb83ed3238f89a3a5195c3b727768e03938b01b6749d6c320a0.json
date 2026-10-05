@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
+  "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+  "text": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start.  To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google […]",
+  "published_at": "2026-09-24T14:00:50+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d1e7107e863f4f8a8586",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-02/c35e8e73c9831bb83ed3238f89a3a5195c3b727768e03938b01b6749d6c320a0.body",
+  "source_sha256": "c35e8e73c9831bb83ed3238f89a3a5195c3b727768e03938b01b6749d6c320a0",
+  "fetched_at": "2026-10-02T03:10:53.658960+00:00"
+}

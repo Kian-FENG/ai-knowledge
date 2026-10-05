@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/chinas-token-resellers-create-anthropic-gray-market",
+  "title": "How China’s Token Resellers Create an Anthropic Gray Market",
+  "text": "In Beijing’s Haidian District, a bustling hub for local universities and tech companies, six out of the roughly 30 tenants in one run-of-the-mill office building are all in the same business, according to one occupant of the building: selling Chinese customers access to Anthropic’s Claude and other models from U.S. AI companies.\nThey’re not supposed to do that. Anthropic doesn’t offer its services in China for national security reasons, but the demand for Claude tokens is off the charts. The company has been among the most vocal in accusing Chinese AI labs of extracting its models’ capabilities in what it has called an “industrial-scale, covert campaign” aided by fake or stolen accounts, credit cards and identities.",
+  "published_at": "2026-10-02T13:00:37+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-02T13:01:07+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "20f7db4f64ee8bafd330",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210.body",
+  "source_sha256": "e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210",
+  "fetched_at": "2026-10-05T03:11:17.582182+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-trends/article/3369590/how-us-china-risc-v-collaboration-deepening-despite-chip-rivalry",
+  "title": "How US-China RISC-V collaboration is deepening despite chip rivalry",
+  "text": "As global adoption of the open-source RISC-V chip architecture accelerates, US intellectual property provider MIPS is collaborating with Chinese firms at an unprecedented level, according to a senior executive, highlighting how cross-border cooperation persists despite intense tech rivalry between Washington and Beijing.\nMIPS, which was acquired by US chipmaker GlobalFoundries last year, was driving RISC-V standardisation “very closely with China”, chief technology officer Yankin Tanurhan said...",
+  "published_at": "2026-10-03T13:00:16+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2b45030eafa829b87a36",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/4190e58dac4d117d69631fa46a478f26d7550c50f4d178cae54e13560ca5c0ec.body",
+  "source_sha256": "4190e58dac4d117d69631fa46a478f26d7550c50f4d178cae54e13560ca5c0ec",
+  "fetched_at": "2026-10-05T03:11:19.487376+00:00"
+}

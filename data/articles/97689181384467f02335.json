@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-suspends-part-of-the-oss-vrp-bug-bounty-program-due-to-an-influx-of-invalid-ai-submissions-product-vulnerability-submissions-ended-october-1",
+  "title": "Google freezes open-source bug bounty program amid flood of invalid AI slop submissions",
+  "text": "Google has officially suspended product vulnerability submissions to its Open Source Software Vulnerability Reward Program (OSS VRP) — a bug bounty program — over an influx of invalid AI-driven reports. The company, in an official X post on October 1, encouraged participants to explore other VRP programs and committed to providing an update by the first quarter of 2027, while it reformats and works on this aspect of the program in the meantime.\nGo deeper with TH Premium: AI shortages\n(Image credit: Nvidia)\nAI data centers are swallowing the world's memory and storage supply\nDemand for data center CPUs has surged, and AI agents are responsible\nChip scarcity assaults auto industry amid the worsening Nexperia and DRAM crisis\nThe custom AI ASIC state of play\nThe suspension went into effect on October 1 — the day of the announcement — and does not affect product vulnerabilities submitted before that date. Google said it may still accept reports covering product vulnerabilities through the Cloud VRP, “for some Google Cloud repos impacting Google Cloud products.” The suspension also does not affect OSS VRP supply chain reports. In a similar case, Linux ended support for older network drivers due to an influx of false AI-generated bug reports.\nOSS VRP is a specialized Google security bounty program that incentivizes independent researchers to find and responsibly disclose security flaws across Google's open-source ecosystem. Under this program, product vulnerability submissions focus on code defects, logic flaws, or design bugs within Google's public repositories. This was usually painstaking, manual work requiring skill. However, the rise of large language models (LLMs) and automated AI bug-hunting scripts has nearly eliminated the cost and effort the task required, leading to an influx of low-effort, AI-generated bug reports.\nGoogle engineers and open-source maintainers were reportedly being overwhelmed by thousands of these poorly written reports that claimed to find bugs but were actually completely invalid or unexploitable hallucinations. They ended up spending too much time manually validating code instead of actually fixing real, critical vulnerabilities. This is what has led to the suspension of the program.\nSimilar scenarios have been playing out across the industry. Earlier this month, Linux maintainers said they were “completely overwhelmed” by CVE finds after AI-powered bug hunters pushed the Linux kernel to a record 2,000 vulnerabilities per release. Intel also suspended its bug bounty program that paid up to $100,000 per flaw. The company did not officially confirm AI-generated reports as the reason for the move, but experts suspect this is the case.",
+  "published_at": "2026-10-03T12:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "97689181384467f02335",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-05/a459b7a440f55f04f8290d9ac891010007899a58557f14349f778ffe82ed365f.body",
+  "source_sha256": "a459b7a440f55f04f8290d9ac891010007899a58557f14349f778ffe82ed365f",
+  "fetched_at": "2026-10-05T03:11:21.115987+00:00"
+}

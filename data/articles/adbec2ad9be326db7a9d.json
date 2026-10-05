@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+03 Oct 2026\n+New language model evaluation results available\n+Ling 3.1 Flash\n+Intelligence Index: 41\n+InclusionAI performance results now available\n+Ling 3.1 Flash\n-Claude Sonnet 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)\n-New language model evaluation results available\n-Claude Sonnet 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)\n+Claude Sonnet 5.5 (Low, Default Fallback)\n+Intelligence Index: 36\n+New language model evaluation results available\n+Claude Sonnet 5.5 (Medium, Default Fallback)\n-Claude Sonnet 5.5 (Adaptive Reasoning, High Effort, Default Fallback)\n+Claude Sonnet 5.5 (High, Default Fallback)\n-Claude Sonnet 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)\n+Claude Sonnet 5.5 (Xhigh, Default Fallback)\n-Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)\n+Claude Sonnet 5.5 (Max, Default Fallback)\n-Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)Claude Sonnet 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)\n+Claude Sonnet 5.5 (Max, Default Fallback)Claude Sonnet 5.5 (Low, Default Fallback)\n-Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)Claude Sonnet 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)\n+Claude Sonnet 5.5 (Max, Default Fallback)Claude Sonnet 5.5 (Low, Default Fallback)\n-Claude Sonnet 5.5 (Adaptive Reasoning, High Effort, Default Fallback)Claude Sonnet 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)Claude Sonnet 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)Claude Sonnet 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)Claude Sonnet 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)\n+Claude Sonnet 5.5 (High, Default Fallback)Claude Sonnet 5.5 (Low, Default Fallback)Claude Sonnet 5.5 (Xhigh, Default Fallback)Claude Sonnet 5.5 (Max, Default Fallback)Claude Sonnet 5.5 (Medium, Default Fallback)\n-Claude Opus 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)\n+Claude Opus 5.5 (Low, Default Fallback)\n-Claude Opus 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)\n+Claude Opus 5.5 (Low, Default Fallback)\n-Nebius performance results now available\n-Kimi K3 (Low)\n-Claude Opus 5.5 (Adaptive Reasoning, High Effort, Default Fallback)\n+Claude Opus 5.5 (High, Default Fallback)\n-Claude Opus 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)\n+Claude Opus 5.5 (Low, Default Fallback)\n-Claude Opus 5.5 (Adaptive Reasoning, Xhigh Effort, Default Fallback)\n+Claude Opus 5.5 (Xhigh, Default Fallback)\n-Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)\n+Claude Opus 5.5 (Max, Default Fallback)\n-Claude Opus 5.5 (Adaptive Reasoning, Medium Effort, Default Fallback)",
+  "id": "adbec2ad9be326db7a9d",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-05/28d7aa364cffce9c74dd1a25601cdfca4d10b4205a86dd5ccb7bd405ebba9371.body",
+  "source_sha256": "28d7aa364cffce9c74dd1a25601cdfca4d10b4205a86dd5ccb7bd405ebba9371",
+  "fetched_at": "2026-10-05T03:11:07.854198+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-05T03:11:07.854198+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

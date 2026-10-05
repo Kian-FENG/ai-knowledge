@@ -1,0 +1,287 @@
+{
+  "period": "daily",
+  "date": "2026-10-04",
+  "packet_sha256": "ee0177f602553aab175d555376201d65aae9d1610bc64c5b04b52f171641d49d",
+  "overview": "本期筛选67条候选，收录1条有明确本期日期的联邦AI协调机构成立披露；事实保留媒体归因，原始社交公告及执行细则尚待核实。公开重点公司和Infra版本未核实到本窗口新发布，中国动态网页及付费媒体覆盖不足。另新增5个已发布知识页：Gemini访问分层、RRSI、Halluminate来源与实体，以及本期政策披露；其中背景资料与未知发布日期材料均未冒充当天新闻。实际初稿生成于 2026-10-04T20:23:17-07:00（America/Los_Angeles；UTC 2026-10-05T03:23:17+00:00），晚于18:00开始执行计划，本次补最近到期窗口。\n\n覆盖补充：本次命令每源保存上限60（按来源配置可更高），未报本地截断或已知列表上限警报；API/feed自身近期保留限制仍存在。历史漏采涉及The Decoder、The Verge、Bloomberg及快科技，具体起止已保留在同目录research-audit.json；与本期窗口重叠的机器gap为0。多数未选候选仅筛选标题/已存feed内容，付费全文、公众号、用户群及全部论文全文未完成；不能将栏目为空理解为行业没有变化。 机器来源状态中的“检查于”时间沿用Asia/Singapore显示；报告统计窗口与归档日期仍按America/Los_Angeles，最终修订时间见manifest.generated_at（UTC）。",
+  "source_checks": [
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "读取官网News近期列表，最新可见10月2日指南，未见本窗口条目；ChatGPT帮助中心release notes最新10月2日。仅覆盖公开网页。"
+    },
+    {
+      "source_id": "openai-api-changelog",
+      "status": "checked",
+      "note": "采集并打开官方API changelog；本期packet没有该来源日期合格候选。未声称覆盖私有灰度通知。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "读取Newsroom日期列表，最新可见10月2日培训公告，未见本窗口新条目。"
+    },
+    {
+      "source_id": "anthropic-research",
+      "status": "checked",
+      "note": "打开Research近期列表并结合采集快照检查；未见本窗口日期合格条目。"
+    },
+    {
+      "source_id": "anthropic-sitemap",
+      "status": "checked",
+      "note": "机器扫描官方站点地图，新链接属于发现线索；无本窗口日期合格正式文章，未逐条阅读全文。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "读取Research & News采集原文，未见本窗口公告。"
+    },
+    {
+      "source_id": "deepseek-api-changelog",
+      "status": "checked",
+      "note": "网页工具访问超时；机器采集原文可读并已解压核查，最新标题日期为9月10日V4.1 Flash，页面未变。"
+    },
+    {
+      "source_id": "deepseek-pricing",
+      "status": "checked",
+      "note": "机器检测价格页无变化；未发现可定位到本期的调价公告，未覆盖用户群或所有时段实际计费。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "网页提取无正文；真实浏览器加载Qwen博客后仅见导航与页脚，没有可读日期列表。已执行site:qwen.ai补检索并扫描官方HF，仍不能确认博客动态。"
+    },
+    {
+      "source_id": "qwen-hf",
+      "status": "checked",
+      "note": "自动扫描官方公开仓库，未形成本窗口日期合格的新发布证据；仓库发现不等于模型发布。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "读取官方研究博客，最新可见K3/PerceptionBench日期7月16日，未见本窗口新研究。未覆盖全部Kimi产品渠道。"
+    },
+    {
+      "source_id": "kimi-hf",
+      "status": "checked",
+      "note": "官方HF公开列表扫描未形成本期合格发布证据，不推断产品无变化。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "实际阅读官方releases Atom版本/时间；最近可见v0.5.21更新时间10月2日19:42 UTC。无本窗口合格条目；预发布不当作GA，不推导性能增益。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "实际阅读官方releases Atom版本/时间；最近可见v0.31.0更新时间10月2日22:18 UTC。无本窗口合格条目；预发布不当作GA，不推导性能增益。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "实际阅读releases Atom和官方版本文档；v1.5.0-motif-3-dev.1是开发预览，Atom更新时间10月2日。正式v1.5.0文档标发布日期9月18日，Atom更新时间9月21日，两种日期不混用；均早于本窗口。无本期合格条目。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "实际阅读官方releases Atom版本/时间；最近可见v0.7.1rc3更新时间10月3日18:07 UTC，即洛杉矶11:07，早于本窗口。无本窗口合格条目；预发布不当作GA，不推导性能增益。"
+    },
+    {
+      "source_id": "mooncake",
+      "status": "checked",
+      "note": "实际阅读官方releases Atom版本/时间；最近可见v0.3.14-rc1更新时间9月7日。无本窗口合格条目；预发布不当作GA，不推导性能增益。"
+    },
+    {
+      "source_id": "sglang-blog",
+      "status": "checked",
+      "note": "读取博客采集原文日期列表，最新可见9月23日Unified Radix Cache，未见本窗口文章。"
+    },
+    {
+      "source_id": "vllm-blog",
+      "status": "checked",
+      "note": "采集器robots失败后用网页工具打开同一官方博客，最近可见9月29日分离式服务文章，未见本窗口新文；采集故障仍保留在run记录。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "cs.CL+cs.DC RSS本次0条，XML注明周末不发布；另执行窗口论文检索和RRSI原始摘要/版本回查。未覆盖所有学科、全部论文或全文；RRSI是9月背景。"
+    },
+    {
+      "source_id": "google-ai-blog",
+      "status": "checked",
+      "note": "机器扫描Google官方动态；补读Gemini官方帮助页，发布日期未知，归档并入库但排除新闻。NASA/IBM媒体线索回查首发是9月10日。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "failed",
+      "note": "已打开同一官方Press Room，动态列表只返回空标题，未取得文章与日期。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "failed",
+      "note": "已打开官方News，仅返回模型导航与页脚，未取得新闻日期列表；HF扫描不能替代产品动态。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "failed",
+      "note": "已打开官方博客，页面提取无正文；公众号和产品灰度覆盖不足。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "已读官方News，最新可见9月28日Team Bots。马斯克改名报道原始社交帖未核实，不列为产品变化。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "checked",
+      "note": "打开官方发布列表，未见本窗口可核实新发布；未覆盖所有地区新闻。"
+    },
+    {
+      "source_id": "asml",
+      "status": "checked",
+      "note": "官方入口跳转投资者新闻列表，近期可见9月8日公告，无本窗口新条目。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "打开官方latest news，最新可见9月10日营收公告，无本窗口新条目。"
+    },
+    {
+      "source_id": "nda",
+      "status": "failed",
+      "note": "同一官方网站网页工具返回空正文，无法核查动态。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "打开官方入口只得到导航/介绍，未读到带日期的文章，公众号覆盖不足。"
+    },
+    {
+      "source_id": "miit",
+      "status": "checked",
+      "note": "采集器robots失败后网页工具打开同一官方网站并核查近期日期列表；最新可见9月30日，无本期合格AI政策。"
+    },
+    {
+      "source_id": "qbitai",
+      "status": "failed",
+      "note": "采集器robots禁止或无法读取robots；网页工具已尝试同一feed，仍返回获取错误。本期获取失败，不能表述为没有新闻。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "采集器robots禁止或无法读取robots；网页工具已尝试同一feed，仍返回获取错误。本期获取失败，不能表述为没有新闻。"
+    },
+    {
+      "source_id": "ithome",
+      "status": "failed",
+      "note": "采集器robots禁止或无法读取robots；网页工具已尝试同一feed，仍返回获取错误。本期获取失败，不能表述为没有新闻。"
+    },
+    {
+      "source_id": "tmtpost",
+      "status": "failed",
+      "note": "采集器robots禁止或无法读取robots；网页工具已尝试同一feed，仍返回获取错误。本期获取失败，不能表述为没有新闻。"
+    },
+    {
+      "source_id": "leiphone",
+      "status": "failed",
+      "note": "采集器robots禁止或无法读取robots；网页工具已尝试同一feed，仍返回获取错误。本期获取失败，不能表述为没有新闻。"
+    },
+    {
+      "source_id": "geekpark",
+      "status": "failed",
+      "note": "采集器robots禁止或无法读取robots；网页工具已尝试同一feed，仍返回获取错误。本期获取失败，不能表述为没有新闻。"
+    },
+    {
+      "source_id": "techcrunch-ai",
+      "status": "checked",
+      "note": "选题原文已读，核对10月4日08:15 PDT发表时间；仅采用联邦AI协调小组成立的有限披露。原始Truth Social帖网页/浏览器均未取得正文。漏洞赏金暂停发生在10月1日，排除。其他feed候选未逐篇深读。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "按10月3–4日执行路透域名AI公司/芯片发现检索，未返回可读本期一手新事件；不代表路透无报道。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "按10月3–4日执行Bloomberg域名检索，未获得合格一手正文；feed摘要已筛选，独立观察、BI评测口径未阅读全文。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "按10月3–4日执行FT/NYT/WSJ发现检索；NYT robots受限，付费媒体候选未取得足够全文，本期未采用。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "按10月3–4日检索中文头部AI公司与产品，结果多为旧材料/索引；用户群、公众号、招聘和灰度渠道未充分覆盖。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "按窗口检索工信部/国家数据局/网信办等AI政策，命中多为旧政策；部分政府网页获取失败。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "按窗口检索HBM/GPU/光刻机/产能/价格；回查Vertiv原公告在9月24日；华为视频和芯片数量主张未读取原始发言，未采用。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "按窗口检索具身/人形机器人/世界模型发布融资，主要返回旧公告；没有足够本期新增证据。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "按窗口检索HBM/CoWoS/出口管制/存储价格，没有核实到适合本期的原始新增事件。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "执行高通/ASML/TSMC/xAI/Qwen/MiniMax域名兜底检索并打开官方入口；Qwen/阿里/MiniMax/Seed动态内容仍不足。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "执行中英文10月3–4日新公司/融资检索，回查Halluminate官网与10月1日A轮公告，核实身份和业务后新增跟踪；回查Trillium介绍日期10月1日，均排除本期新闻。Extend Robotics官网可读但融资日期未充分核实；Spendrule官网失败。索引聚合日期不作为成立/融资日期。"
+    },
+    {
+      "source_id": "the-decoder",
+      "status": "checked",
+      "note": "已筛选机器归档的feed候选；部分选题回查原文，其他全文未逐篇审阅。本次恢复采集检测到历史漏采，结束在本期窗口之前；run与research-audit.json保留from/to，机器未发现与本期重叠的gap，不证明本期完整覆盖。"
+    },
+    {
+      "source_id": "the-verge-ai",
+      "status": "checked",
+      "note": "已筛选机器归档的feed候选；部分选题回查原文，其他全文未逐篇审阅。本次恢复采集检测到历史漏采，结束在本期窗口之前；run与research-audit.json保留from/to，机器未发现与本期重叠的gap，不证明本期完整覆盖。"
+    },
+    {
+      "source_id": "bloomberg-tech",
+      "status": "checked",
+      "note": "已筛选机器归档的feed候选；部分选题回查原文，其他全文未逐篇审阅。本次恢复采集检测到历史漏采，结束在本期窗口之前；run与research-audit.json保留from/to，机器未发现与本期重叠的gap，不证明本期完整覆盖。"
+    },
+    {
+      "source_id": "mydrivers",
+      "status": "checked",
+      "note": "已筛选机器归档的feed候选；部分选题回查原文，其他全文未逐篇审阅。本次恢复采集检测到历史漏采，结束在本期窗口之前；run与research-audit.json保留from/to，机器未发现与本期重叠的gap，不证明本期完整覆盖。"
+    }
+  ],
+  "items": [
+    {
+      "event_key": "us-super-intelligence-force-announcement-20261004",
+      "section": 1,
+      "title": "美国联邦 AI 协调小组成立消息：执行细则待核实",
+      "article_ids": [
+        "ee9cfb9e6e636de26ebc"
+      ],
+      "facts": [
+        "TechCrunch 报道特朗普宣布成立由 Jay Clayton 领导的联邦 AI 协调小组。",
+        "相对既有库新增政策协调动向；这里只确认媒体所述宣布，原始社交帖和执行文件未取得可读正文。"
+      ],
+      "analysis": "判断（derived）：如果跨部门协调机制落实，模型公司和关键基础设施提供者可能面对更集中的政策对接，安全评估与竞争目标也可能共同影响产品部署。反例是机构仅作协调而不改变具体规则；因此不从成立消息推断新义务、采购合同或行业成本。后续观察正式章程、公开参与程序及具体执行文件。",
+      "locators": {
+        "ee9cfb9e6e636de26ebc": "Anthony Ha；8:15 AM PDT October 4 2026；正文开篇。有限事实摘要，原始社交帖未读到。"
+      },
+      "reviewed": true
+    }
+  ]
+}

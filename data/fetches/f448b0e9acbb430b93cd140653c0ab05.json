@@ -1,0 +1,24 @@
+{
+  "raw_path": "raw/2026-10-05/46abc26934032721396cee5be7553e7fb8088b326b17b8f17d8d214a935ce9fc.body",
+  "sha256": "46abc26934032721396cee5be7553e7fb8088b326b17b8f17d8d214a935ce9fc",
+  "source_url": "https://www.aboutamazon.com/rss/feed.rss",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-05T03:10:51.845437+00:00",
+  "source_id": "amazon-news",
+  "status": 200,
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/xml",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Date": "Mon, 05 Oct 2026 03:07:49 GMT",
+    "Via": "1.1 0b82da754e14e7c29d033ea83184b104.cloudfront.net (CloudFront)",
+    "Age": "183",
+    "X-Cache": "Hit from cloudfront",
+    "X-Amz-Cf-Pop": "MIA50-P8",
+    "X-Amz-Cf-Id": "pMOumMUH8t2SjD1cCJ7ual9KbiwAiInRpAfEMH0-Vv65EXsonNdt8g=="
+  },
+  "final_url": "https://www.aboutamazon.com/rss/feed.rss",
+  "truncated": false,
+  "charset": "utf-8"
+}

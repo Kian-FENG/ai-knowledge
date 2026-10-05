@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-war/article/3369526/hong-kong-users-caught-offguard-anthropic-tightens-vpn-access-claude",
+  "title": "Hong Kong users caught off guard as Anthropic tightens VPN access to Claude",
+  "text": "US artificial intelligence company Anthropic appears to have stepped up enforcement of geographical restrictions on its Claude models in Hong Kong, with local users reporting abrupt account suspensions after accessing the service through virtual private networks (VPNs).\nA wave of complaints surfaced on social media platforms X and Reddit on Thursday, as users who had operated accounts for months using VPNs found them suddenly disabled.\nOne Hong Kong-based user posted on the “r/claude” subreddit...",
+  "published_at": "2026-10-02T05:44:12+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7d8d0524442b56f6b0a6",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/4190e58dac4d117d69631fa46a478f26d7550c50f4d178cae54e13560ca5c0ec.body",
+  "source_sha256": "4190e58dac4d117d69631fa46a478f26d7550c50f4d178cae54e13560ca5c0ec",
+  "fetched_at": "2026-10-05T03:11:19.487376+00:00"
+}

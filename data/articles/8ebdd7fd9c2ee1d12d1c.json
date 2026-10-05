@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0rc5",
+  "title": "v0.31.0rc5: [Misc] Add Transformers version upper bound in requirements (#59614)",
+  "text": "Signed-off-by: Isotr0py Isotr0py@outlook.com\nCo-authored-by: Harry Mellor 19981378+hmellor@users.noreply.github.com\n(cherry picked from commit 58b3298)",
+  "published_at": null,
+  "announced_at": null,
+  "updated_at": "2026-10-02T22:18:12+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8ebdd7fd9c2ee1d12d1c",
+  "source_id": "vllm",
+  "source_name": "vLLM Releases",
+  "section": 3,
+  "raw_path": "raw/2026-10-05/3e5524a49e1d330b633b7ff8edba81f54102e60bc13eaaeff3ce78081e740ab7.body",
+  "source_sha256": "3e5524a49e1d330b633b7ff8edba81f54102e60bc13eaaeff3ce78081e740ab7",
+  "fetched_at": "2026-10-05T03:10:57.505665+00:00"
+}

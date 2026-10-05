@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+  "title": "Meta open sources code to let you make Muse AI gadgets",
+  "text": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or putting Muse on a small touchscreen device to make what looks kind of like a DIY Muse Charm.\n\"Muse gadgets are open source devices you build yourself,\" Meta says. \"Program an off-the-shelf ESP32 board or set up a Raspberry Pi with our SDKs, then connect Muse to your displays, buttons, sensors, actuators, and whatever else you've got lying on your workbench. …\nRead the full story at The Verge.",
+  "published_at": "2026-10-02T17:08:37-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-02T17:08:37-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "038134d95b4f933ef0d5",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-05/181efdba83367840ad767ebc39fa44676c86549cdeccf50d8f005f7bb926b12a.body",
+  "source_sha256": "181efdba83367840ad767ebc39fa44676c86549cdeccf50d8f005f7bb926b12a",
+  "fetched_at": "2026-10-05T03:11:17.133903+00:00"
+}

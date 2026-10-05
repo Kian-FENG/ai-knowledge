@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+  "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+  "text": "Apple says it is changing its macOS privacy settings to stop third-party app developers from misusing them to access message histories.\nFriday's announcement comes two weeks after tech columnist Jason Aten said that Meta’s new general-purpose AI agent Muse sent him an unsolicited notification referencing a thread between him and a co-worker over Apple Messages. Aten said he never granted Muse permissions to read his messages and had assumed they were off-limits. Social media last week blew up with masses of people who agreed and said the incident showed that AI assistants given access to calendars, emails, messages, shopping accounts, and other resources are akin to a skill saw or other power tool. While potentially useful, they can do real damage if not used carefully.\nHe said/she said\nMeta CTO David Singleton joined the fray with a rebuttal that appeared solid. For Muse to access Apple Messages, a user must manually give it two privileges. One is full-disk access, a macOS system-level permission. The other is to enable a Messages connector setting in Muse.\nRead full article\nComments",
+  "published_at": "2026-10-02T23:03:16+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4be7cfcbd6cc6cf19a77",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-05/8156c8579c8b753da712dfffc4e2b30c31be4bb5e23eea11c900f6c3357d4979.body",
+  "source_sha256": "8156c8579c8b753da712dfffc4e2b30c31be4bb5e23eea11c900f6c3357d4979",
+  "fetched_at": "2026-10-05T03:11:20.849369+00:00"
+}

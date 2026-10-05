@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/video-games/console-gaming/sony-brings-ai-powered-upscaling-to-the-standard-ps5-new-qssr-technology-to-deliver-a-taste-of-the-ps5-pro-experience-streamlined-neural-network-tech-built-with-amd",
+  "title": "Sony brings AI-powered upscaling to the standard PS5",
+  "text": "The PlayStation 5 is getting AI-driven upscaling, giving base console owners access to the technology that was previously available on the more powerful PlayStation 5 Pro. In a blog post, Sony introduced Quick Spectral Super Resolution (QSSR), a new version of its AI upscaling technology for the PS5, with Marvel’s Wolverine and Ghost of Yōtei being the first games to support it.\nSony originally introduced PlayStation Spectral Super Resolution (PSSR) as a highlight feature when it launched the PS5 Pro. The technology uses AI to analyze frames on a pixel-by-pixel basis and reconstruct them at a higher resolution. This helps improve image detail and temporal stability while allowing games to render internally at a lower resolution. However, the computational requirements of PSSR meant that the feature was not available on the standard PS5.\nAccording to Sony, QSSR uses a streamlined neural-network architecture and a hand-tuned implementation intended to maximize performance on the PS5. The company describes it as a new performance tier of AI upscaling rather than a direct replacement for PSSR, which remains the “gold standard” solution on the PS5 Pro.\nSony does not intend to limit the new upscaling tech to its own studios, as the QSSR library will be offered to all PlayStation developers. This will allow more PS5 games to adopt the technology in the future and give developers an option for balancing rendering resolution, performance, and image quality on the aging console hardware.\nJasmin Patry, Lead Rendering Engineer at Sucker Punch Productions, said, “QSSR excels at resolving the fine details in our characters and environments and does so with a level of temporal stability that hasn’t been possible on the PS5 console until now. We’ve long wished that all PS5 players could experience the incredible image quality that PSSR brings to PS5 Pro, and QSSR is a positive step towards that goal!”\nWith Sony continuing to improve its upscaling technology in collaboration with AMD under Project Amethyst, PS5 owners can expect sharper and more stable visuals in supported games without having to upgrade their hardware. That said, QSSR won't turn the standard PS5 into a PS5 Pro; rather, it can be best described as an important software-level upgrade for the console.",
+  "published_at": "2026-10-02T14:10:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5e2f5346a8add1749a12",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-05/a459b7a440f55f04f8290d9ac891010007899a58557f14349f778ffe82ed365f.body",
+  "source_sha256": "a459b7a440f55f04f8290d9ac891010007899a58557f14349f778ffe82ed365f",
+  "fetched_at": "2026-10-05T03:11:21.115987+00:00"
+}

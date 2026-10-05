@@ -1,0 +1,17 @@
+{
+  "title": "Trump unveils his new Super Intelligence Force",
+  "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+  "text": "Read main article body and publication timestamp. TechCrunch reports Trump announced a Super Intelligence Force led by Jay Clayton to coordinate federal AI efforts. Original Truth Social post was linked but returned no readable body via web and browser; charter and operational details remain unverified.",
+  "published_at": "2026-10-04T15:15:10+00:00",
+  "date_basis": "published",
+  "extraction": "main-article-read; limited-fact-extract",
+  "raw_path": "raw/2026-10-05/c65e8ae7e8bf5b5035912b2074023482702cb2e2a5a197c3b5efc7d602436289.body",
+  "imported": true,
+  "id": "ee9cfb9e6e636de26ebc",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "source_sha256": "c65e8ae7e8bf5b5035912b2074023482702cb2e2a5a197c3b5efc7d602436289",
+  "fetched_at": "2026-10-05T03:16:55.962187+00:00",
+  "date_precision": "timestamp"
+}

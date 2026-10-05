@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/lambda-secures-1-billion-gpu-loan",
+  "title": "Lambda Secures $1 Billion GPU Loan",
+  "text": "AI cloud company Lambda said it has secured its first delayed draw term loan at over $1 billion to purchase more than 30,000 Nvidia graphics processing units. The fixed-rate facility carries an interest rate of 6.78%.\nPrivately held Lambda said in an announcement late on Thursday the facility ...",
+  "published_at": "2026-10-02T17:17:07+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-04T16:47:08+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0a0bf28d384d7bc61da2",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210.body",
+  "source_sha256": "e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210",
+  "fetched_at": "2026-10-05T03:11:17.582182+00:00"
+}

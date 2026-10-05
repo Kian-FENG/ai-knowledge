@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4011299198898310?f=rss",
+  "title": "Truist比较Meta Muse与OpenAI Dots：Meta先赢在分发，OpenAI更偏企业和复杂任务",
+  "text": "Truist Securities认为，Meta正在新兴AI Agent市场取得早期优势，但这种优势主要来自其庞大的消费者用户基础和广告生态，而不是底层模型能力本身。相比之下，OpenAI和Google在开放式推理等能力上可能更强，但在产品定位和分发方式上，与Meta走的是不同路线。Meta的Muse和OpenAI新推出的Dots分别从两个方向切入市场。Muse首先面向普通消费者，并开始向小企业扩张；Dots则初期更偏向开发者和重度用户。两款产品都属于能够持续运行的AI Agent，可以使用电脑、记忆和已连接的应用程序，自主执行任务。（新浪财经）",
+  "published_at": "2026-10-04T17:10:19+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9533ad5051118bf85a8b",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/602be1a5d0c62884b39d0f61b8655eba174fa5c8e543f96b890fcd1db1871ced.body",
+  "source_sha256": "602be1a5d0c62884b39d0f61b8655eba174fa5c8e543f96b890fcd1db1871ced",
+  "fetched_at": "2026-10-05T03:11:24.017783+00:00"
+}

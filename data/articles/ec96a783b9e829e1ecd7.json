@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/openai-hires-top-trump-ai-official-work-national-security",
+  "title": "OpenAI Hires Top Trump AI Official to Work on National Security",
+  "text": "OpenAI is continuing to fill out its leadership bench with former Trump administration officials.\nThomas Lind, who previously led AI policy at the Office of the National Cyber Director, joined OpenAI this week, an OpenAI spokesperson confirmed. ONCD is a key office within the White House that played a leading role in putting together a June executive order on AI.\nLind will lead cyber and strategic risk on OpenAI’s national security policy team, which is led by Sasha Baker, the former deputy Under Secretary of Defense for Policy in the Biden administration.",
+  "published_at": "2026-10-02T19:00:48+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-02T19:01:16+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ec96a783b9e829e1ecd7",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210.body",
+  "source_sha256": "e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210",
+  "fetched_at": "2026-10-05T03:11:17.582182+00:00"
+}

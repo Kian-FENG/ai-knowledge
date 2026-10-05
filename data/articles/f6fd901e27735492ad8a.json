@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-war/article/3369557/china-stockpiles-asml-lithography-tools-spurring-us-calls-complete-export-ban",
+  "title": "China stockpiles ASML lithography tools, spurring US calls for complete export ban",
+  "text": "Chinese semiconductor plants amassed hundreds of immersion lithography machines worth billions of dollars in recent years, according to former US officials, who urged Washington and its allies to shut down further exports.\nChinese-owned fabs had acquired an estimated 343 immersion deep ultraviolet (DUV) lithography systems by early 2026, said a report published in late September by the Centre for Technology & Statecraft (CTS), a Washington research group established in August.\nCo-authored by...",
+  "published_at": "2026-10-02T12:00:11+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f6fd901e27735492ad8a",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/4190e58dac4d117d69631fa46a478f26d7550c50f4d178cae54e13560ca5c0ec.body",
+  "source_sha256": "4190e58dac4d117d69631fa46a478f26d7550c50f4d178cae54e13560ca5c0ec",
+  "fetched_at": "2026-10-05T03:11:19.487376+00:00"
+}

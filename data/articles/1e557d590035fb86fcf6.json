@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/muse-gadgets-turns-ai-hardware-into-an-open-source-diy-project/",
+  "title": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project",
+  "text": "Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" a USB-C device for smart home control. The open-source approach also helps Meta figure out which AI hardware form factors people actually want.\nThe article \"Muse Gadgets\" turns AI hardware into an open-source DIY project appeared first on The Decoder.",
+  "published_at": "2026-10-03T14:28:51+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1e557d590035fb86fcf6",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/cc5da15e85488853a6616a2dfad426b5424233efd16e55b3a1698432ceff1840.body",
+  "source_sha256": "cc5da15e85488853a6616a2dfad426b5424233efd16e55b3a1698432ceff1840",
+  "fetched_at": "2026-10-05T03:11:15.708785+00:00"
+}

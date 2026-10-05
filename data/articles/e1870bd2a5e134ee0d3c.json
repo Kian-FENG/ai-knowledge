@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155320.htm",
+  "title": "Arm放大招！TLBID技术有望让高核心数CPU性能飙升",
+  "text": "快科技10月4日消息，据报道，Arm本周向Linux内核提交了一组初始补丁，开始支持即将推出的TLBI Domains（TLBID） 功能，旨在提升高核心数Arm处理器的性能。\nTLB是处理器缓存虚拟地址到物理地址转换结果的关键结构。 在多核系统中，当操作系统需要使部分地址映射失效时，通常需要向所有CPU核心发送TLB失效指令，这在核心数量多时会产生明显的同步与通信开销。\nTLBID的核心改进是允许操作系统只针对部分CPU核心执行TLB失效，而不必每次都覆盖整个系统。Arm正在完善相关内核支持，使TLBI指令仅发送到进程实际运行过的CPU核心，避免全系统TLB清理带来的开销。\n该技术主要面向高核心数的Arm服务器处理器。 对于在大量核心间运行的服务器工作负载，避免不必要的全系统TLB失效，有望显著减少处理器间的同步开销。不过Arm尚未公布实际性能测试数据，具体收益有待后续硬件验证。\n除Linux内核外，ARM64架构的TLBID支持还需编译工具链提供指令支持，目前依赖LLVM 23及更新版本，或GNU Binutils 2.46及更新版本。该功能尚未纳入Arm架构参考手册，距离实际芯片落地可能还有较长时间。\n随着架构规范、编译器和内核支持逐步完善，未来搭载TLBID的高核心数Arm服务器处理器有望利用更精细的TLB失效机制，降低大规模多核系统中的内存管理开销。",
+  "published_at": "2026-10-04T11:23:00+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e1870bd2a5e134ee0d3c",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/bc716252c2cc029f5b2091823ffd007211677810c79488fc7a6f79bd0a535823.body",
+  "source_sha256": "bc716252c2cc029f5b2091823ffd007211677810c79488fc7a6f79bd0a535823",
+  "fetched_at": "2026-10-05T03:11:36.736088+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-03/us-ai-task-force-to-report-on-technology-s-risks-wsj-reports",
+  "title": "Trump Taps Clayton for AI Task Force in Response to Safety Fears",
+  "text": "President Donald Trump said he appointed Jay Clayton, his director of national intelligence, to help lead a White House task force on artificial intelligence as the fast-moving technology raises concerns about its safety risks.",
+  "published_at": "2026-10-03T23:38:35+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1aee67d2a9d9b321c81f",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/70b5dfc163dae6c57185058a6cf10fc2e00414019442a3819e6ae1e4321d2e2e.body",
+  "source_sha256": "70b5dfc163dae6c57185058a6cf10fc2e00414019442a3819e6ae1e4321d2e2e",
+  "fetched_at": "2026-10-05T03:11:19.581691+00:00"
+}

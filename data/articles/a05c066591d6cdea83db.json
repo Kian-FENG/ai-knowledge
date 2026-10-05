@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155342.htm",
+  "title": "紧急！蓝宝石RX 7000全系推送安全更新：八款显卡集体中招",
+  "text": "快科技10月4日消息，据报道，AMD核心合作伙伴蓝宝石近日为旗下Radeon RX 7000系列桌面显卡推送了vBIOS安全更新。\n此次更新覆盖RX 7600、RX 7600 XT、RX 7650 GRE、RX 7700 XT、RX 7800 XT、RX 7900 GRE、RX 7900 XT及RX 7900 XTX共计八款型号，几乎囊括RDNA 3桌面显卡全家桶。\n蓝宝石确认，此次更新用于修复其与AMD合作发现的安全问题。不过官方并未披露漏洞的具体细节，未发布CVE编号，也未说明漏洞的严重程度或攻击机制。\n这种GPU vBIOS安全更新在近年相当罕见，通常仅在安全补丁场景下才会发布。\n更新前，用户需确保已安装AMD Adrenalin Edition显卡驱动，并预留15至20分钟完成操作。下载对应型号固件后，以管理员身份运行更新程序，AMD Radeon固件更新工具会自动检测显卡并提示是否有新固件。\n值得注意的是，RX/PRO 7000系列工具会自动运行两遍，第一遍在常规模式，第二遍在安全模式，结束后需重启系统。\n蓝宝石也明确指出，这些固件文件仅适用于蓝宝石自家型号，不可用于其他品牌的Radeon显卡。用户可在Adrenalin软件中查看固件版本以确认更新完成。\n目前AMD尚未就此漏洞发布详细公告，建议相关用户尽快更新。",
+  "published_at": "2026-10-04T15:08:17+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a05c066591d6cdea83db",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/bc716252c2cc029f5b2091823ffd007211677810c79488fc7a6f79bd0a535823.body",
+  "source_sha256": "bc716252c2cc029f5b2091823ffd007211677810c79488fc7a6f79bd0a535823",
+  "fetched_at": "2026-10-05T03:11:36.736088+00:00"
+}

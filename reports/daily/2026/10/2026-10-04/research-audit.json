@@ -1,0 +1,104 @@
+{
+  "window": {
+    "period": "daily",
+    "date": "2026-10-04",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-03T18:00:00-07:00",
+    "end": "2026-10-04T18:00:00-07:00"
+  },
+  "run_id": "20261005T031037-0317125b",
+  "started_at": "2026-10-05T03:09:41+00:00",
+  "as_of": "2026-10-05T03:29:35.642881+00:00",
+  "preexisting_paths": 788,
+  "branch": "main",
+  "upstream": "origin/main",
+  "baseline_head": "23c47702747dd0c3806d5a0a82e3fb7f53b4c980",
+  "candidate_review": "全量候选标题与已存feed内容筛选；仅选题原文和记录的排除项深读，其他候选因无足够研究价值或正文/一手证据不足未采用。",
+  "selected_event_keys": [
+    "us-super-intelligence-force-announcement-20261004"
+  ],
+  "excluded_examples": [
+    {
+      "id": "3c73b1c264470bd3d0bb",
+      "reason": "Vertiv–KES官方公告9月24日且交易预计Q4完成，媒体10月4日重述不能作为本期已完成收购。"
+    },
+    {
+      "id": "562acc36900e89036c82",
+      "reason": "Google OSS漏洞赏金暂停自10月1日生效，旧事件。"
+    },
+    {
+      "id": "3f1c442082110b473791",
+      "reason": "RRSI v1 9月21日、v2 9月23日，作为背景入库。"
+    },
+    {
+      "id": "74d2a4537bd7b78c9d92",
+      "reason": "NASA/IBM原公告9月10日，旧事件。"
+    },
+    {
+      "id": "1243373f19a805f759e7",
+      "reason": "Gemini官方帮助页发布日期未知，生效从10月9日起；只归档背景，不作为当天首发。"
+    }
+  ],
+  "recent_gaps": [
+    {
+      "from": "2026-10-02T03:11:04.051068+00:00",
+      "to": "2026-10-03T09:19:23+00:00",
+      "detected_at": "2026-10-05T03:11:15.708785+00:00",
+      "source_id": "the-decoder"
+    },
+    {
+      "from": "2026-10-02T03:11:04.712517+00:00",
+      "to": "2026-10-02T08:00:00-04:00",
+      "detected_at": "2026-10-05T03:11:17.133903+00:00",
+      "source_id": "the-verge-ai"
+    },
+    {
+      "from": "2026-10-02T03:11:05.283928+00:00",
+      "to": "2026-10-03T23:38:35+00:00",
+      "detected_at": "2026-10-05T03:11:19.581691+00:00",
+      "source_id": "bloomberg-tech"
+    },
+    {
+      "from": "2026-10-02T03:11:14.108851+00:00",
+      "to": "2026-10-04T08:32:51+08:00",
+      "detected_at": "2026-10-05T03:11:36.736088+00:00",
+      "source_id": "mydrivers"
+    }
+  ],
+  "window_gaps": [],
+  "limits": "本次没有本地候选截断或已知列表上限警报；API/feed保留范围有限且存在历史漏采，不能据此推断全覆盖。付费媒体、公众号、用户群、未选候选全文及所有论文全文未完成。",
+  "knowledge_new": 5,
+  "knowledge_updated": 0,
+  "new_company": "Halluminate",
+  "background_not_daily_events": [
+    "Gemini模型访问分层（日期未知）",
+    "RRSI（9月）",
+    "Halluminate（10月1日）"
+  ],
+  "validation": {
+    "knowledge_pages": 12,
+    "knowledge_validation": "passed",
+    "offline_tests": 49,
+    "offline_test_result": "passed",
+    "source_configuration": "passed; 94 total / 93 enabled",
+    "published_query_and_get_page": "5/5 passed"
+  },
+  "git_scope": {
+    "exclude_preexisting_unrelated": true,
+    "include_unchanged_archived_dependencies": [
+      "raw/2026-10-02/2b0db596e418d8381dd641c6d784a1efe436d40fd55645fbebe7baa271d2b076.body",
+      "raw/2026-10-02/5b29de1cb09211b5f819761ca400236c0f59189a6a45c5a8ea1519528418a7d1.body",
+      "raw/2026-10-02/675c9f6f680a8c46292bf1d981225afec4af0296c88881bffc5f44678eaf83ca.body",
+      "raw/2026-10-02/68b120045624cb89da626e6b75d6bdc19502a916def4be4c6ac72e8b6d0dfa02.body",
+      "raw/2026-10-02/7866b3294701bcf198f41613f5f2840a06d17eca32108d44949e88d60dbbb32f.body",
+      "raw/2026-10-02/c35e8e73c9831bb83ed3238f89a3a5195c3b727768e03938b01b6749d6c320a0.body",
+      "raw/2026-10-02/e041129b1a96b8ffc9354f591b6ca3c93e1d0370ff79a5fcdc4daeb9ee11d8e1.body",
+      "raw/2026-10-02/fc651277a11367776eecfead577bfd701f38721975c37ac637ba955a78d6b162.body"
+    ],
+    "archived_dependency_reason": "本次新保存的来源/文章版本直接引用这些不可变原文；hash与运行前基线一致，仅补齐证据链，不包含既有无关候选或状态。",
+    "excluded_tracked_article_paths": [
+      "data/articles/8ed1ee557c89a79ae636.json",
+      "data/articles/9b2f8ba750283adbd5d7.json"
+    ]
+  }
+}

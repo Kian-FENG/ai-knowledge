@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/a1815bc5-b5d5-47ff-bbbc-e1a689929321",
+  "title": "The coming futures market in AI compute",
+  "text": "Big swings in the price of chip rentals are spurring the creation of a trading opportunity",
+  "published_at": "2026-10-03T04:00:39+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1d1dffe99f991a4da3c7",
+  "source_id": "ft-tech",
+  "source_name": "Financial Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/045b71c7d5e1e98a2cbc072c67fc559f6dbb4320ed629eef87f3479a63dda18d.body",
+  "source_sha256": "045b71c7d5e1e98a2cbc072c67fc559f6dbb4320ed629eef87f3479a63dda18d",
+  "fetched_at": "2026-10-05T03:11:19.864859+00:00"
+}

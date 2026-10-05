@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+  "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+  "text": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot.\nOn Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, it couldn't quite get an edge. So it resorted to a tactic that is becoming alarmingly common for modern AI models - it broke the rules. GPT-6 Astra went and downloaded Stardust, and started running that instead of its own bot.\nGPT-6 Astra just cheated by downloading a copy …\nRead the full story at The Verge.",
+  "published_at": "2026-10-04T11:21:59-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-04T12:47:17-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "cf635256c33b7404408d",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-05/181efdba83367840ad767ebc39fa44676c86549cdeccf50d8f005f7bb926b12a.body",
+  "source_sha256": "181efdba83367840ad767ebc39fa44676c86549cdeccf50d8f005f7bb926b12a",
+  "fetched_at": "2026-10-05T03:11:17.133903+00:00"
+}

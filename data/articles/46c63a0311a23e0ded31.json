@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+  "title": "An OpenAI safety employee has quit and is sounding the alarm",
+  "text": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic.\nIt's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwork to warn about how dangerous the thing they helped build is. They did, after all, make this mess. But that doesn't mean we should discount their warnings.\nRobinson says that the culture in industry is fundamentally broken. That this is a deeper issue than simply slapping a few new rules or regulations on how we handle training models. Silicon …\nRead the full story at The Verge.",
+  "published_at": "2026-10-03T10:31:56-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-03T10:31:56-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "46c63a0311a23e0ded31",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-05/181efdba83367840ad767ebc39fa44676c86549cdeccf50d8f005f7bb926b12a.body",
+  "source_sha256": "181efdba83367840ad767ebc39fa44676c86549cdeccf50d8f005f7bb926b12a",
+  "fetched_at": "2026-10-05T03:11:17.133903+00:00"
+}

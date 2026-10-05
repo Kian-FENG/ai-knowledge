@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/pc-components/storage/biwins-cl-100-mini-is-a-particularly-puny-but-potent-ssd-for-portable-gaming-15-x-17-mm-in-size-and-up-to-2tb-in-capacity",
+  "title": "BiWin's CL 100 Mini is a particularly puny but potent SSD for portable gaming",
+  "text": "Owning a PC gaming handheld is quite handy, but sometimes involves playing uncalled-for matches of Tetris with the internal storage, especially as games get larger. Storage expansion often comes by way of microSD cards, which can be added without opening the console, but can be slower than NVMe SSDs. BiWin's CL 100 Mini NVMe SSD tackles both those problems, arriving in a 15 x 17 mm form factor with custom casing. It's effectively the size of a microSD card.\nThe diminutive unit was spotted earlier in the year, but hadn't been given a name or selling price until recently. The unit is currently bespoke to BiWin's OneXPlayer consoles (OneXFly Apex/Air, OneXPlayer 3, X1 Air, X2 Mini, and Super V/X) as well as the GPD Win5. These systems have hardware slots specifically for this size drive that you could insert like an SD card. For comparison, the M.2 2230 drive inside the Steam Deck and other portables is, unsurprisingly, 22 x 30 mm — much larger, and it requires opening the machine, plus one of those annoying little M.2 screws.\n512 GB at Amazon UK\n1 TB at Amazon UK\n2TB unit only available from third-party sellers at Amazon UK\nDrive reader at Amazon UK\nDespite the physical format being manufacturer-specific, the CL 100 Mini appears to be a standard NVMe 1.4 drive with a PCIe 4.0 interface. The installation instructions are simple. The Silicon Motion SM2268XT2 controller is a standard NVMe affair, and it's also used in standard M.2 2280 Crucial and Kingston drives, among others.\n(Image credit: BiWin / Amazon)\nDespite being connected to only one slab of Samsung V8 TLC NAND, it can still reach 3700 MB/s on sequential reads and 3400 MB/s for writes, both excellent figures as far as the needs of gamers are concerned. If you want to use the BiWin CL100 Mini as an external drive, the company offers a mini-SSD reader with a USB-C port, though speeds are limited to around 3000 MB/s in either direction.\nYou can get the drive from the BiWin store on Amazon, in 512 GB for 139.99€ and 1 TB for 259.99€. There's also a 2 TB unit advertised, though that one is only available from third-party sellers for an arguably disproportionate 699.99€. The smaller units are roughly in line with equivalent M.2-2230 units from reputable manufacturers. Meanwhile, the reader unit is priced at 79.99€.",
+  "published_at": "2026-10-02T14:30:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0cfa3bb1ddcd3af40266",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-05/a459b7a440f55f04f8290d9ac891010007899a58557f14349f778ffe82ed365f.body",
+  "source_sha256": "a459b7a440f55f04f8290d9ac891010007899a58557f14349f778ffe82ed365f",
+  "fetched_at": "2026-10-05T03:11:21.115987+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/california-man-arrested-smuggling-nvidia-chips-china",
+  "title": "U.S. Arrests Man for Smuggling Nvidia Chips to China",
+  "text": "U.S. authorities arrested a California man on Thursday for smuggling more than $300 million worth of servers containing restricted Nvidia AI chips to China. Greg Lui, the owner of Earthmade Computer Inc, a privately held company based in San Gabriel Valley, allegedly worked with conspirators ...",
+  "published_at": "2026-10-02T07:55:00+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-04T16:47:08+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f9a251171e9b7a1e0c49",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210.body",
+  "source_sha256": "e5309e9b84f037ae3cd307336116f1fe37630e4c86cceac6c20030c76df63210",
+  "fetched_at": "2026-10-05T03:11:17.582182+00:00"
+}

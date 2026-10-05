@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+  "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+  "text": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at […]",
+  "published_at": "2026-09-22T12:00:41+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b8c778dae64917239d7b",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-02/c35e8e73c9831bb83ed3238f89a3a5195c3b727768e03938b01b6749d6c320a0.body",
+  "source_sha256": "c35e8e73c9831bb83ed3238f89a3a5195c3b727768e03938b01b6749d6c320a0",
+  "fetched_at": "2026-10-02T03:10:53.658960+00:00"
+}

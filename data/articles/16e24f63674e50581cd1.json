@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155305.htm",
+  "title": "5L机身也能跑专业卡！华擎DeskSlim上新：RTX PRO 4000+24GB显存",
+  "text": "快科技10月4日消息，据报道，华擎近日正式宣布旗下DeskSlim系列紧凑型桌面平台新增对NVIDIA RTX PRO 4000 Blackwell SFF和RTX PRO 2000 Blackwell专业显卡的支持，在仅约5升的机身内提供工作站级性能。\nRTX PRO 4000 SFF配备24GB GDDR7 ECC显存，FP32性能达40 TFLOPS，AI算力高达1290 TOPS，整卡功耗仅140W。RTX PRO 2000则配备16GB GDDR7 ECC显存，FP32性能17 TFLOPS，AI算力545 TOPS，功耗低至70W。\n两款平台均配备PCIe 5.0 x16插槽，支持长度最大200mm、双槽厚度的半高显卡。DeskSlim X600基于AMD AM5平台，支持锐龙7000、8000、9000系列处理器，CPU功耗上限120W。\nDeskSlim B760则面向Intel平台，支持第12至14代酷睿处理器，CPU功耗上限125W。两者均提供四个DDR5 UDIMM内存插槽，最高支持256GB容量，足以应对本地大语言模型推理和大型数据集处理。\n存储扩展方面，两款机型各配备两个M.2 NVMe固态硬盘位和两个SATA接口，兼顾高速存储与大容量需求。这些配置使DeskSlim能够胜任内容创作、3D可视化、数据分析和工程应用等专业工作负载。\n价格方面，华擎尚未公布搭载RTX PRO显卡的整机定价。作为参考，DeskSlim X600准系统目前在部分渠道售价约280欧元（约合人民币2184元）。",
+  "published_at": "2026-10-04T08:32:51+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "16e24f63674e50581cd1",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-05/bc716252c2cc029f5b2091823ffd007211677810c79488fc7a6f79bd0a535823.body",
+  "source_sha256": "bc716252c2cc029f5b2091823ffd007211677810c79488fc7a6f79bd0a535823",
+  "fetched_at": "2026-10-05T03:11:36.736088+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+  "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+  "text": "The US has arrested another suspect accused of smuggling high-end computer servers containing export-controlled Nvidia chips into China.\nIn a press release on Thursday, the Department of Justice accused 38-year-old Greg Lui of using false paperwork to mask shipments of servers worth more than $300 million that he allegedly knew were ultimately destined for China.\nAs the CEO of Earthmade Computer, Lui allegedly conspired with freight-forwarding firms in South Asian countries like Malaysia and Singapore to illegally divert chip shipments into China, including Nvidia’s A100 GPUs and H100 GPUs, the FBI’s indictment alleged. These are not Nvidia’s most advanced chips. However, the chips can process large amounts of data and train large language models, which the US fears could pose national security risks if China suddenly gets access to enough chips to drastically advance its AI or strengthen its military.\nRead full article\nComments",
+  "published_at": "2026-10-02T18:39:36+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5c0c42097c18b9444ce2",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-05/8156c8579c8b753da712dfffc4e2b30c31be4bb5e23eea11c900f6c3357d4979.body",
+  "source_sha256": "8156c8579c8b753da712dfffc4e2b30c31be4bb5e23eea11c900f6c3357d4979",
+  "fetched_at": "2026-10-05T03:11:20.849369+00:00"
+}

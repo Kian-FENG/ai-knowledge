@@ -185,6 +185,16 @@ companies:
   sources: [volantis]
   source_page: reference/entities/volantis.md
   tracking_since: '2026-10-02'
+- id: halluminate
+  name: Halluminate
+  region: US
+  urls:
+  - https://www.halluminate.ai/
+  - https://www.halluminate.ai/blog/series-a
+  sources: []
+  source_page: reference/entities/halluminate.md
+  tracking_since: '2026-10-04'
+  note: 官方10月1日披露的知识工作评测与RL环境公司；发现入库不等于本期融资新闻。尚未配置机器采集端点，使用官网核查。
 communities:
 - name: SGLang
   urls:
