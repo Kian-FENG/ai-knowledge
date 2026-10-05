@@ -40,8 +40,9 @@
 从本项目运行 `scripts/python`（优先 `.venv`，Python 3.9+、PyYAML）。
 `scripts/ai-news` 是报告采集入口，`prompts/daily.md`、`prompts/weekly.md` 是完整流程。
 定时任务从 `prompts/scheduled.md` 进入，按顺序检查日报和到期周报。
-报告以 Asia/Singapore 定日；每天新加坡时间 06:00，日报窗口为前一天 06:00 至当天 06:00。
-每周六北京时间 08:00 生成周报，窗口为上周六 08:00 至本周六 08:00。
+日报以 America/Los_Angeles 定日；每天洛杉矶时间 18:00，窗口为前一天 18:00 至当天 18:00。
+按当地时区自动切换夏令时，窗口可能为 23、24 或 25 小时。
+每周五洛杉矶时间 18:00 生成周报，窗口为上周五 18:00 至本周五 18:00，自动切换夏令时。
 报告归档到 reports/<daily|weekly>/YYYY/MM/YYYY-MM-DD/，按窗口结束日分年、月。
 报告索引是 reports/index.md；packet/report 使用 --period daily|weekly，默认 daily。
 日报与周报通知状态分别放 data/notification-state/daily.json、weekly.json。

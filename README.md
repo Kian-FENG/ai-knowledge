@@ -1,9 +1,9 @@
 # ai-knowledge
 
 本地 AI 产业研究 Agent，沿用 LLM-Wiki 的入库与检索流程，参考 AI-News 的
-“采集 → 证据包 → Agent 编辑核验 → 报告”流程，每天新加坡时间 06:00 生成日报，
-每周六北京时间 08:00 生成周报。定时触发由 Codex 自动化执行
-[统一入口](prompts/scheduled.md)：每天 06:00 处理日报，周六 08:00 再检查周报，漏跑时补最近到期周期。
+“采集 → 证据包 → Agent 编辑核验 → 报告”流程，每天洛杉矶时间 18:00 生成日报（自动切换夏令时），
+每周五洛杉矶时间 18:00 生成周报。定时触发由 Codex 自动化执行
+[统一入口](prompts/scheduled.md)：每天 18:00 处理日报，周五同次处理周报，漏跑时补最近到期周期。
 启用状态和运行要求见[定时计划](docs/report-schedule.md)。
 
 重点覆盖 OpenAI、Anthropic、DeepSeek、Qwen/阿里、Kimi/月之暗面及新公司；
@@ -41,7 +41,7 @@ Agent 完成，`report` 验证并渲染编辑 JSON。单独运行采集命令不
 日报保存到 `reports/daily/YYYY/MM/YYYY-MM-DD/report.md`；周报保存到
 `reports/weekly/YYYY/MM/YYYY-MM-DD/report.md`。目录按窗口结束日归类，
 历史修订和证据可追溯；从[报告索引](reports/index.md)按类型、年份、月份检索。
-周报工作流见 [weekly prompt](prompts/weekly.md)，汇总截至周六 08:00 的七天变化。
+周报工作流见 [weekly prompt](prompts/weekly.md)，汇总截至洛杉矶时间周五 18:00 的七天变化。
 日报版式来自 `docs/examples/ai-industry-daily-reference.md`，样例中的旧闻不是新证据。
 
 移植来源、兼容范围和差异见 [porting](docs/porting.md)。

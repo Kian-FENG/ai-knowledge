@@ -148,7 +148,7 @@ class DailyContract(unittest.TestCase):
         result=news.report(path)
         text=(self.root/result['report_path']).read_text()
         self.assertIn('AI Infra社区',text);self.assertIn('https://example.org/article',text)
-        self.assertIn('新加坡时间，右端不含',text)
+        self.assertIn('洛杉矶时间，右端不含',text)
         self.assertTrue(news.report(path)['unchanged'])
     def test_no_candidate_does_not_imply_no_news(self):
         result=news.report()
@@ -160,19 +160,48 @@ class DailyContract(unittest.TestCase):
         aid=self.article();raw=w.archive(b'short','feed.xml')
         news.save_article({'url':'https://example.org/article','title':'A new release','text':'short','published_at':None,'extraction':'feed-content'},news.sources()[0],raw)
         self.assertEqual(news.load_articles()[0]['extraction'],'full-text')
-    def test_singapore_window_is_independent_of_us_dst(self):
-        with patch.object(news,'now',return_value=datetime(2026,10,1,21,59,59,tzinfo=timezone.utc)):
-            self.assertEqual(news.due_window()['date'],'2026-10-01')
-            with self.assertRaisesRegex(ValueError,'not closed'):news.due_window('2026-10-02')
-        with patch.object(news,'now',return_value=datetime(2026,10,1,22,0,tzinfo=timezone.utc)):
+    def test_los_angeles_daily_cutoff_and_local_date(self):
+        with patch.object(news,'now',return_value=datetime(2026,10,2,0,59,59,tzinfo=timezone.utc)):
+            self.assertEqual(news.due_window()['date'],'2026-09-30')
+            with self.assertRaisesRegex(ValueError,'not closed'):news.due_window('2026-10-01')
+        with patch.object(news,'now',return_value=datetime(2026,10,2,1,0,tzinfo=timezone.utc)):
             window=news.due_window()
-            self.assertEqual(window['date'],'2026-10-02')
-            self.assertEqual(window['timezone'],'Asia/Singapore')
-            self.assertEqual(window['start'],'2026-10-01T06:00:00+08:00')
-            self.assertEqual(window['end'],'2026-10-02T06:00:00+08:00')
-            self.assertEqual(news.due_window('2026-10-02'),window)
-        with patch.object(news,'now',return_value=datetime(2026,12,1,22,0,tzinfo=timezone.utc)):
-            self.assertEqual(news.due_window()['end'],'2026-12-02T06:00:00+08:00')
+            self.assertEqual(window['date'],'2026-10-01')
+            self.assertEqual(window['timezone'],'America/Los_Angeles')
+            self.assertEqual(window['start'],'2026-09-30T18:00:00-07:00')
+            self.assertEqual(window['end'],'2026-10-01T18:00:00-07:00')
+            self.assertEqual(news.due_window('2026-10-01'),window)
+        with patch.object(news,'now',return_value=datetime(2026,12,2,1,59,59,tzinfo=timezone.utc)):
+            self.assertEqual(news.due_window()['date'],'2026-11-30')
+        with patch.object(news,'now',return_value=datetime(2026,12,2,2,0,tzinfo=timezone.utc)):
+            self.assertEqual(news.due_window()['end'],'2026-12-01T18:00:00-08:00')
+
+    def test_dst_windows_are_contiguous_and_packets_respect_boundaries(self):
+        cases=[
+            ('daily','2026-03-07T18:00:00-08:00','2026-03-08T18:00:00-07:00',23),
+            ('daily','2026-10-31T18:00:00-07:00','2026-11-01T18:00:00-08:00',25),
+            ('weekly','2026-03-06T18:00:00-08:00','2026-03-13T18:00:00-07:00',167),
+            ('weekly','2026-10-30T18:00:00-07:00','2026-11-06T18:00:00-08:00',169),
+        ]
+        for period,start_text,end_text,hours in cases:
+            start,end=map(datetime.fromisoformat,(start_text,end_text))
+            with self.subTest(period=period,end=end_text),patch.object(news,'now',return_value=end.astimezone(timezone.utc)):
+                window=news.due_window(period=period)
+                self.assertEqual((window['start'],window['end']),(start_text,end_text))
+                self.assertEqual(end-start,timedelta(hours=hours))
+                self.assertEqual(news.due_window(start.date().isoformat(),period)['end'],start_text)
+                self.assertEqual(news.due_window(end.date().isoformat(),period),window)
+                raw=w.archive(b'source','article.txt')
+                ids={}
+                for label,stamp in [('before',start-timedelta(seconds=1)),('start',start),('last',end-timedelta(seconds=1)),('end',end)]:
+                    ids[label],_=news.save_article({'url':f'https://example.org/{period}/{end.date()}/{label}',
+                        'title':label,'text':'Source text','published_at':stamp.isoformat(),'date_basis':'published'},news.sources()[0],raw)
+                pkt,_=news.packet(period=period)
+                included={a['id'] for a in pkt['articles']}
+                self.assertEqual(included & set(ids.values()),{ids['start'],ids['last']})
+
+    def test_report_timezone_does_not_reinterpret_source_dates(self):
+        self.assertEqual(news.parse_date('2026-10-01'),'2026-10-01T00:00:00+08:00')
 
     def test_arxiv_feed_date_is_announcement_not_submission(self):
         rss='<rss><channel><item><title>Paper</title><link>https://arxiv.org/abs/2609.12345</link><pubDate>Thu, 01 Oct 2026 00:00:00 -0400</pubDate><description>Abstract</description></item></channel></rss>'
@@ -187,7 +216,7 @@ class DailyContract(unittest.TestCase):
         self.assertTrue(pkt['articles'][0]['date_boundary_uncertain'])
         path=self.root/'editorial.json';w.json_write(path,self.editorial(pkt,aid))
         result=news.report(path)
-        self.assertIn('无法确认 06:00 边界',(self.root/result['report_path']).read_text())
+        self.assertIn('无法确认 18:00 边界',(self.root/result['report_path']).read_text())
 
     def test_metadata_only_cannot_support_report(self):
         aid=self.article();pkt,_=news.packet();ed=self.editorial(pkt,aid)
@@ -196,38 +225,39 @@ class DailyContract(unittest.TestCase):
             news.validate_editorial(ed,pkt)
 
     def test_weekly_cutoff_and_seven_day_window(self):
-        with patch.object(news,'now',return_value=datetime(2026,10,2,22,0,tzinfo=timezone.utc)):
-            self.assertEqual(news.due_window()['date'],'2026-10-03')
-            self.assertEqual(news.due_window(period='weekly')['date'],'2026-09-26')
-        with patch.object(news,'now',return_value=datetime(2026,10,2,23,59,tzinfo=timezone.utc)):
-            self.assertEqual(news.due_window(period='weekly')['date'],'2026-09-26')
-        with patch.object(news,'now',return_value=datetime(2026,10,3,0,0,tzinfo=timezone.utc)):
+        with patch.object(news,'now',return_value=datetime(2026,10,3,0,59,59,tzinfo=timezone.utc)):
+            self.assertEqual(news.due_window()['date'],'2026-10-01')
+            self.assertEqual(news.due_window(period='weekly')['date'],'2026-09-25')
+        with patch.object(news,'now',return_value=datetime(2026,10,3,1,0,tzinfo=timezone.utc)):
             window=news.due_window(period='weekly')
-            self.assertEqual(window['date'],'2026-10-03')
-            self.assertEqual(window['start'],'2026-09-26T08:00:00+08:00')
+            self.assertEqual(window['date'],'2026-10-02')
+            self.assertEqual(window['timezone'],'America/Los_Angeles')
+            self.assertEqual(window['start'],'2026-09-25T18:00:00-07:00')
+            self.assertEqual(window['end'],'2026-10-02T18:00:00-07:00')
+            self.assertEqual(news.due_window()['end'],window['end'])
             self.assertEqual(datetime.fromisoformat(window['end'])-datetime.fromisoformat(window['start']),timedelta(days=7))
 
     def test_weekly_cross_year_and_missed_run(self):
         with patch.object(news,'now',return_value=datetime(2027,1,4,12,tzinfo=timezone.utc)):
             window=news.due_window(period='weekly')
-            self.assertEqual(window['date'],'2027-01-02')
-            self.assertEqual(window['start'],'2026-12-26T08:00:00+08:00')
-            self.assertTrue(str(news.report_folder('weekly',window['date'])).endswith('weekly/2027/01/2027-01-02'))
+            self.assertEqual(window['date'],'2027-01-01')
+            self.assertEqual(window['start'],'2026-12-25T18:00:00-08:00')
+            self.assertTrue(str(news.report_folder('weekly',window['date'])).endswith('weekly/2027/01/2027-01-01'))
 
     def test_weekly_explicit_date_rejects_incomplete_or_wrong_day(self):
         with patch.object(news,'now',return_value=datetime(2026,10,2,12,tzinfo=timezone.utc)):
-            with self.assertRaisesRegex(ValueError,'Saturday'):news.due_window('2026-10-02','weekly')
-            with self.assertRaisesRegex(ValueError,'not closed'):news.due_window('2026-10-03','weekly')
-            with self.assertRaisesRegex(ValueError,'YYYY-MM-DD'):news.due_window('2026-10-01T08:00:00')
+            with self.assertRaisesRegex(ValueError,'Friday'):news.due_window('2026-10-01','weekly')
+            with self.assertRaisesRegex(ValueError,'not closed'):news.due_window('2026-10-02','weekly')
+            with self.assertRaisesRegex(ValueError,'YYYY-MM-DD'):news.due_window('2026-10-01T18:00:00')
 
     def test_weekly_packet_includes_earlier_days_and_excludes_previous_week(self):
         with patch.object(news,'now',return_value=datetime(2026,10,3,1,tzinfo=timezone.utc)):
             raw=w.archive(b'source','article.txt')
-            for day in (25,26,29):
-                news.save_article({'url':f'https://example.org/{day}','title':str(day),'text':'Archived source text','published_at':f'2026-09-{day}T08:00:00+08:00','date_basis':'published'},news.sources()[0],raw)
+            for day in (24,25,29):
+                news.save_article({'url':f'https://example.org/{day}','title':str(day),'text':'Archived source text','published_at':f'2026-09-{day}T18:00:00-07:00','date_basis':'published'},news.sources()[0],raw)
             daily,_=news.packet();weekly,_=news.packet(period='weekly')
             self.assertEqual(daily['articles'],[])
-            self.assertEqual({a['title'] for a in weekly['articles']},{'26','29'})
+            self.assertEqual({a['title'] for a in weekly['articles']},{'25','29'})
 
     def test_daily_weekly_reports_and_edits_are_separate(self):
         with patch.object(news,'now',return_value=datetime(2026,10,3,1,tzinfo=timezone.utc)):
@@ -240,8 +270,8 @@ class DailyContract(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'outlook'):news.validate_editorial(ed,weekly)
             ed['outlook']=['观察新功能能否在相同负载下稳定工作。'];w.json_write(path,ed)
             result=news.report(path,period='weekly')
-            self.assertEqual(d['report_path'],'reports/daily/2026/10/2026-10-03/report.md')
-            self.assertEqual(result['report_path'],'reports/weekly/2026/10/2026-10-03/report.md')
+            self.assertEqual(d['report_path'],'reports/daily/2026/10/2026-10-02/report.md')
+            self.assertEqual(result['report_path'],'reports/weekly/2026/10/2026-10-02/report.md')
             content=(self.root/result['report_path']).read_text()
             self.assertIn('AI 产业分析周报',content);self.assertIn('下周观察',content)
             self.assertTrue(news.report(path,period='weekly')['unchanged'])
@@ -249,7 +279,7 @@ class DailyContract(unittest.TestCase):
             news.report(path,period='weekly')
             self.assertEqual((self.root/result['report_path']).parent.joinpath('revisions',old_hash,'report.md').read_text(),content)
             self.assertTrue((self.root/d['report_path']).exists())
-            self.assertIn('2026/10/2026-10-03/report.md',(self.root/'reports/weekly/index.md').read_text())
+            self.assertIn('2026/10/2026-10-02/report.md',(self.root/'reports/weekly/index.md').read_text())
 
     def test_legacy_migration_preserves_text_evidence_and_revisions(self):
         old=self.root/'reports/daily/2026-10-02';old.mkdir(parents=True)
@@ -275,7 +305,7 @@ class DailyContract(unittest.TestCase):
         self.assertTrue((self.root/'reports/daily/2026-10-01').exists())
 
 
-NOW=datetime(2026,10,2,3,0,tzinfo=timezone.utc)  # 11:00 Singapore; daily window 09-30 22:00Z to 10-01 22:00Z
+NOW=datetime(2026,10,2,3,0,tzinfo=timezone.utc)  # 20:00 Los Angeles; daily window 10-01 01:00Z to 10-02 01:00Z
 
 def rss(*items):
     rows=''.join(f'<item><title>{t}</title><link>{u}</link><pubDate>{d}</pubDate><description>{x}</description></item>' for t,u,d,x in items)
@@ -350,7 +380,7 @@ class CollectContract(unittest.TestCase):
         first=self.collect({'https://lab.example.org/news':page},at=NOW-timedelta(days=1))['sources'][0]
         self.assertEqual(first['status'],'needs-review');self.assertTrue(first['baseline']);self.assertEqual(news.load_articles(),[])
         page='<a href="/news/new-model">New model <span>Sep 30</span></a>'+page
-        # Discovered at 05:00 Singapore, inside the 10-02 daily window that closes at 06:00.
+        # Discovered at 14:00 Los Angeles, inside the 10-01 daily window that closes at 18:00.
         second=self.collect({'https://lab.example.org/news':page},at=NOW-timedelta(hours=6))['sources'][0]
         self.assertEqual((second['status'],second['new_links'],second['leads']),('ok',1,1))
         lead=news.load_articles()[0]

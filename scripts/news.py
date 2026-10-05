@@ -3,6 +3,7 @@ The agent supplies analysis. Collection never fabricates an editorial report.
 """
 from __future__ import annotations
 import argparse
+from calendar import day_name
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from contextlib import contextmanager
@@ -42,6 +43,11 @@ def now():
 
 def settings():
     return w.config('data/report-settings.yaml')
+
+
+def report_timezone(period):
+    cfg=settings()
+    return cfg.get(period+'_timezone',cfg['timezone'])
 
 
 def sources():
@@ -362,10 +368,13 @@ def validate_config():
             except re.error as error:raise ValueError(f'Invalid link_pattern for {sid}: {error}')
         if src['kind']=='hf-models' and not src['url'].startswith('https://huggingface.co/api/models?'):raise ValueError('hf-models needs a Hugging Face models API URL: '+str(sid))
     ZoneInfo(settings()['timezone'])
+    for period in ('daily','weekly'):
+        ZoneInfo(report_timezone(period))
     for key in ('daily_hour','weekly_hour'):
         if not isinstance(settings().get(key),int) or not 0<=settings()[key]<=23:raise ValueError('Invalid '+key)
     if not isinstance(settings().get('weekly_weekday'),int) or not 0<=settings()['weekly_weekday']<=6:raise ValueError('Invalid weekly_weekday')
-    return {'status':'success','sources':len(ids),'timezone':settings()['timezone']}
+    return {'status':'success','sources':len(ids),'timezone':settings()['timezone'],
+            'daily_timezone':report_timezone('daily'),'weekly_timezone':report_timezone('weekly')}
 
 
 def effective_date(article):
@@ -553,19 +562,21 @@ def window_gaps(start,end):
 def due_window(report_date=None,period='daily'):
     if period not in ('daily','weekly'):raise ValueError('Invalid report period')
     cfg=settings()
-    local=now().astimezone(ZoneInfo(cfg['timezone']))
+    zone=ZoneInfo(report_timezone(period))
+    local=now().astimezone(zone)
     span=7 if period=='weekly' else 1
     hour=cfg[period+'_hour']
     if report_date:
         if not re.fullmatch(r'\d{4}-\d{2}-\d{2}',report_date):raise ValueError('Report date must be YYYY-MM-DD')
-        end=datetime.fromisoformat(report_date).replace(hour=hour,tzinfo=ZoneInfo(cfg['timezone']))
-        if period=='weekly' and end.weekday()!=cfg['weekly_weekday']:raise ValueError('Weekly report date must be the configured weekday (Saturday)')
+        end=datetime.fromisoformat(report_date).replace(hour=hour,tzinfo=zone)
+        if period=='weekly' and end.weekday()!=cfg['weekly_weekday']:
+            raise ValueError(f'Weekly report date must be the configured weekday ({day_name[cfg["weekly_weekday"]]})')
         if end>local:raise ValueError('Cannot report a window that has not closed')
     else:
         end=local.replace(hour=hour,minute=0,second=0,microsecond=0)
         if period=='weekly':end-=timedelta(days=(end.weekday()-cfg['weekly_weekday'])%7)
         if end>local:end-=timedelta(days=span)
-    return {'period':period,'date':end.date().isoformat(),'timezone':cfg['timezone'],'start':(end-timedelta(days=span)).isoformat(),'end':end.isoformat()}
+    return {'period':period,'date':end.date().isoformat(),'timezone':zone.key,'start':(end-timedelta(days=span)).isoformat(),'end':end.isoformat()}
 
 
 def report_folder(period,date_value):
@@ -619,8 +630,8 @@ def migrate_reports():
             target.parent.mkdir(parents=True,exist_ok=True)
             folder.rename(target)
             for relative_path,manifest in updates:w.json_write(target/relative_path,manifest)
-        local=now().astimezone(ZoneInfo(settings()['timezone']))
         for period in ('daily','weekly'):
+            local=now().astimezone(ZoneInfo(report_timezone(period)))
             month=w.ROOT/'reports'/period/local.strftime('%Y')/local.strftime('%m')
             month.mkdir(parents=True,exist_ok=True)
             if not any(month.iterdir()):w.atomic_write(month/'.gitkeep','')
@@ -743,7 +754,7 @@ def report(editorial=None,report_date=None,period='daily'):
             if (folder/name).exists():w.atomic_write(history/name,(folder/name).read_bytes())
     window=pkt['window']
     label='周报' if period=='weekly' else '日报'
-    zone_label={'Asia/Singapore':'新加坡时间','Asia/Shanghai':'北京时间'}.get(window['timezone'],window['timezone'])
+    zone_label={'America/Los_Angeles':'洛杉矶时间','Asia/Singapore':'新加坡时间','Asia/Shanghai':'北京时间'}.get(window['timezone'],window['timezone'])
     cutoff=datetime.fromisoformat(window['end']).strftime('%H:%M')
     lines=[f'# AI 产业分析{label}（{date_value.replace("-", ".")}）','',f'统计窗口：{window["start"]} 至 {window["end"]}（{zone_label}，右端不含）。','',ed['overview'],'']
     for section,title in enumerate(settings()['sections']):

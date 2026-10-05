@@ -1,7 +1,10 @@
+# 未单独指定时区的报告和来源日期沿用此时区。
 timezone: Asia/Singapore
-daily_hour: 6
-weekly_hour: 8
-weekly_weekday: 5  # Monday=0; Saturday=5
+daily_timezone: America/Los_Angeles
+daily_hour: 18
+weekly_timezone: America/Los_Angeles
+weekly_hour: 18
+weekly_weekday: 4  # Monday=0; Friday=4
 lookback_days: 14
 max_items: 24
 sections:

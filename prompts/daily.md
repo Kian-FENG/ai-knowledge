@@ -1,8 +1,9 @@
 # 每日 AI 产业分析日报 Agent
 
 工作目录 `/Users/kian/workspace/ai-knowledge`。先读 AGENTS.md 和 SKILL.md；首次运行
-或规范有变再读 docs/report-spec.md、docs/research-focus.md。新加坡时间（Asia/Singapore）每天 06:00。
-日报窗口为前一天 06:00 至当天 06:00，右端不含。
+或规范有变再读 docs/report-spec.md、docs/research-focus.md。洛杉矶时间（America/Los_Angeles）每天 18:00。
+日报窗口为洛杉矶当地前一天 18:00 至当天 18:00，右端不含；标题、归档和 --date 均使用窗口结束的洛杉矶日期。
+自动切换夏令时；切换日的窗口可能为 23 或 25 小时，不按固定 UTC 偏移或固定 24 小时计算。
 
 1. 运行 `scripts/ai-news validate`、`scripts/ai-news collect --days 14 --limit 60`、
    `scripts/ai-news status`。按 due_window 处理最近已到期窗口。读取上次 manifest 与

@@ -1,10 +1,11 @@
 # 每周 AI 产业分析周报 Agent
 
 工作目录 `/Users/kian/workspace/ai-knowledge`。先读 AGENTS.md、SKILL.md、
-docs/report-spec.md 和 docs/research-focus.md。每周六北京时间 08:00 生成一份周报。
+docs/report-spec.md 和 docs/research-focus.md。每周五洛杉矶时间（America/Los_Angeles）18:00 生成一份周报。
+按当地时区自动切换夏令时；标题、归档和 --date 均使用窗口结束的洛杉矶日期。
 
 1. 运行 `scripts/ai-news validate` 和 `scripts/ai-news status`，使用
-   weekly_due_window：上周六 08:00 至本周六 08:00，右端不含。迟到运行补最近到期周。
+   weekly_due_window：洛杉矶当地上周五 18:00 至本周五 18:00，右端不含。迟到运行补最近到期周。
    读取该窗口的 manifest 和 `data/notification-state/weekly.json`（首次可不存在）。
    已完成且证据未变化的周报不重复生成或通知。周报与日报分别记录状态。
 2. 检查该周的日报和原始证据。需要补充时运行 `scripts/ai-news collect --days 14 --limit 500`，
