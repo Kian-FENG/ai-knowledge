@@ -1,0 +1,24 @@
+{
+  "raw_path": "raw/2026-10-06/fb154df38cba9efb5e9cb756fd8d4ce10fac1686b505180072dc114b12c937ee.body",
+  "sha256": "fb154df38cba9efb5e9cb756fd8d4ce10fac1686b505180072dc114b12c937ee",
+  "source_url": "https://www.mfa.gov.cn/web/wjdt_674879/fyrbt_674889/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-06T01:03:04.619018+00:00",
+  "source_id": "mfa",
+  "status": 200,
+  "headers": {
+    "Date": "Tue, 06 Oct 2026 01:03:09 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Server": "nginx",
+    "X-Frame-Options": "ALLOW-FROM http://www.mfa.gov.cn http://www.fmprc.gov.cn https://www.mfa.gov.cn https://www.fmprc.gov.cn http://mfa.gjzwfw.gov.cn https://mfa.gjzwfw.gov.cn",
+    "x-ws-request-id": "6ac448cd_PS-SEA-04g2h113_45363-6443",
+    "Age": "1",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding"
+  },
+  "final_url": "https://www.mfa.gov.cn/web/wjdt_674879/fyrbt_674889/",
+  "truncated": false,
+  "charset": "utf-8"
+}

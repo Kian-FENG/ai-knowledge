@@ -1,0 +1,99 @@
+Introducing Beam: Reflection’s 501B open-weight model — Reflection (https://reflection.ai/blog/introducing-beam)
+citeturn5search0 [wordlim: 200] Published: yesterday; Crawled: today; # Introducing Beam: Reflection’s 501B open-weight model ...   *   *   *   * We are introducing Beam, Reflection’s first open-weight model.
+
+# Introducing Beam: Reflection’s 501B open-weight model
+
+October 5, 2026|1 min read
+
+  *   *   *   * We are introducing Beam, Reflection’s first open-weight model. Beam is a sparse Mixture-of-Experts model with 501 billion total parameters, 23 billion active, built for coding, reasoning, and agentic workloads.
+
+Beam’s capabilities come from major investments in both pretraining and reinforcement learning (RL). We pretrained the model on 23.8 trillion diverse, curated, high-quality tokens from the web and proprietary licensed datasets, matching or outperforming available similar-sized open base models. In parallel, we developed the algorithms, training environments, and infrastructure needed to sustain high-compute RL at exceptional scale. Our high-compute RL run generated over 100 million rollouts on 10.5K NVIDIA GB300 GPUs over 4 weeks of training.
+
+Together, these efforts produced competitive open-weight performance with frontier inference compute efficiency.
+
+Beam is undergoing final red-teaming and evaluations. You can sign up here for early access to the model. We will release the weights, technical report, model card, and developer artifacts later this month.
+
+## Model Capability
+
+We trained Beam with a particular focus on coding and agentic performance. Beam advances the Western open-weight frontier and is competitive with larger open models like GLM 5.2 and approaching Qwen 3.8-Max on coding and agentic tasks. Where frontier open models like Kimi K3 remain ahead on raw capability, Beam's advantage is efficiency at inference time.
+
+The below figure shows Beam's performance across a range of coding, agentic, reasoning, and STEM benchmarks. NR denotes scores that have not been reported.
+
+Agentic Coding/Terminal
+Row label  | Beam  | Inkling  | Nemotron 3 Ultra  | GLM 5.2  | GLM 5.3  | Kimi K3  | Qwen 3.8 Max  | DeepSeek V4.1 Flash
+--- | --- | --- | --- | --- | --- | --- | --- | ---
+DeepSWE v1.1  | 44.4  | NR  | NR  | 44.0  | 61.0  | 68.0  | 51.0  | 74.2
+SWE Bench Pro v2-Hard  | 77.2  | 56.9  | NR  | NR  | 84.3  | 88.2  | NR  | NR
+On advanced reasoning benchmarks, it achieves scores comparable to GLM-5.2 while using 3–4× less inference compute. Efficiency gains are even more pronounced when comparing to models in the 2T+ parameter family like Qwen 3.8-Max, which require significantly more inference compute per token.
+
+These results translate into more intelligence per token, delivering strong model capabilities at lower cost, making Beam a powerful workhorse model for enterprise coding and agentic workloads.
+
+ImageFigure 2: Beam demonstrates frontier-level inference efficiency, both when measured in terms of FLOPS and token count across DeepSWE, Humanity’s Last Exam (HLE), and Terminal Bench 2.1. We used data from Artificial Analysis and DataCurve, estimating generation forward-pass compute as FLOPs ≈ 2 × active parameter count × mean generated tokens per attempt, counting each multiply-add as two operations. Generated tokens include both reasoning and the final answer. For mixture-of-experts models, we used the parameters activated per token rather than the total model size. These estimates exclude prompt prefill, context-dependent attention operations, and serving overhead, so they represent an approximate compute comparison rather than measured inference cost. We use Artificial Analysis and DataCurve as sources for other model’s evals.
+
+### High-Compute Reinforcement Learning
+
+We made high-compute reinforcement learning a central scaling axis for Beam, investing in RL science, data, and infrastructure to turn more compute into stronger capabilities. Scaling RL enables more extensive exploration of problem-solving strategies, while longer rollouts support multi-step reasoning, tool use, and adaptation to environment feedback.
+
+To scale reinforcement learning, we deployed 10.5K NVIDIA GB300 GPUs for four weeks generating more than 100 million rollouts with a maximum context length of 256K tokens. Training and grading used approximately 1.3 billion sandboxes. To sustain a run of this magnitude, we sourced one million high-quality coding, agentic, and STEM environments. We believe this is one of the largest scale RL runs conducted by any open lab to date. Across our evaluation suite, capabilities continued to improve as we increased RL compute, with no sign of a plateau.
+
+ImageFigure 3: Terminal-Bench 2.1, HLE, and DeepSWE scores as a function of cumulative RL rollouts during training of Beam’s reasoning expert, accounting for 80M of the over 100M rollouts generated across the full RL campaign. ### How behavior generalizes with RL
+
+We designed Beam’s RL training to develop reasoning and agentic capabilities that generalize beyond its training tasks. During a phase of training on reasoning, software engineering, and terminal tasks, we saw consistent gains in browsing despite the absence of browsing tasks from the RL mixture. This transfer suggests that Beam was learning broader agentic capabilities that generalize across domains. When given web access, it organically learned to search for and query other large language models, and to use OCR APIs to read documents.
+
+The demos below showcase Beam applying these capabilities across research, application development, gameplay, and machine learning workflows. The examples range from building a live NYC subway dashboard using public data to creating interactive applications and preparing model fine-tuning notebooks. Although Beam is text-only, it can work with information from other modalities when represented as text. In another out of distribution domain, Beam also created a fine-tuning notebook for the latest and smallest Gemma-4 model on a Text2SQL task.
+Systematic improvements to task quality were essential to sustaining capability gains throughout the run, which ended with no sign of saturation.
+
+### Frontier RL infrastructure
+
+High-compute agentic RL requires generating rollouts, executing tools, evaluating outcomes, and updating the model at scale. We built an asynchronous platform that lets these processes run independently while coordinating the flow of experience and model updates.
+
+During Beam’s training, we sustained an average of 110K concurrent rollouts. Seven capabilities made this practical:
+
+Fully asynchronous execution: Agents generate rollouts while the trainer learns and publishes new model versions. Each token is tagged with the version that produced it, allowing the training algorithm to account for policy staleness as completed rollouts flow into training.
+
+Flexible compute allocation: We adjusted the balance between inference and training as the workload evolved, operating at inference-to-training GPU ratios from 3.9:1 to 5.4:1. We also resized the trainer across five GPU mesh configurations within the same training lineage without losing training state.
+### Stable and balanced MoE optimization
+
+The Beam architecture and optimization recipe emphasizes a numerically healthy foundation for sustained downstream RL. It combines interleaved local and global attention, fine-grained routed experts, a controlled residual stream, and multiple forms of load balancing to ensure stable, balanced expert utilization and healthy signal propagation through residuals.
+
+For expert utilization, we built on auxiliary-loss-free load balancing (DeepSeek-AI et al., 2024), introducing cosine decay of expert-bias updates to reduce routing perturbations later in training. Sequence-level balancing further encourages balanced expert utilization on data outside the pretraining distribution, preparing the model for the changing distribution of downstream RL. As a result, the final pretrained base has almost-perfect uniform utilization, ensuring all experts can be used for learned reasoning.
+
+ImageFigure 7: Beam’s expert utilization is near-uniform. The busiest expert’s load, averaged across MoE layers, reaches just 1.04× at pretraining completion.
+
+For the residual stream, we developed a depth-based scaling approach that counteracts activation growth as sublayer outputs accumulate, helping keep residual norms stable as model depth increases. Combined with SandwichNorm, elementwise attention gating, and FP32 residual accumulation – which reduces rounding error when adding small updates to the stream – this recipe controls activation growth and outliers, thereby ensuring healthy signal propagation throughout all layers of Beam. This stability persists throughout pretraining, reinforcement learning, and alignment.
+
+ImageFigure 8: Residual stream RMS remains bounded throughout pretraining across all 52 layers of Beam, with smooth, depth-dependent trajectories and no sustained activation growth.
+
+### Quality-centric data curation
+
+Beam was pretrained on 23.8 trillion diverse high-quality tokens from the web, public sources, and proprietary licensed datasets. Our data pipeline was designed to give Beam a foundation for downstream agentic coding: source code, technical explanations, and mathematical and scientific knowledge, preserved through every stage of curation. We train on almost all publicly accessible and unrestrictively-licensed code and code documentation on the web.
+
+We trained our own quality classifiers for web, code, and STEM content, divided data into fine-grained quality tiers, and weighed training toward stronger material. After extensive scientific iteration, we optimized both precision and recall of data curation significantly beyond conventional web filters used in state-of-the-art OSS data frameworks. On one hand, about 95% of raw Internet tokens are eliminated through parsing, deduplication, and curation. On the other hand, we found that conventional techniques would have missed roughly 1.8 trillion high-quality tokens we retain, including 87% of our curated web-code tokens.
+
+Code modeling requires its own curation for the highest performance. For each language, we applied individually tuned filters, removed low-quality autogenerated and unlearnable content, and trained classifiers to identify corrupted content or code that may hurt training stability. Overrepresented languages and file types are rebalanced to further broaden exposure.
+
+We also developed a high-throughput pipeline for processing PDF artifacts, to ensure the base Beam has knowledge across a wide range of STEM topics. It integrates a vision-language OCR model with in-house quality classifiers and artifact detectors that catch malformed reconstructions, distributed across thousands of GPUs to process petabytes of technical data.
+
+We repeated code and technical content multiple times to increase the model’s exposure over the course of its training horizon. This required careful attention to fuzzy deduplication, packing algorithms, and the science of overtraining, to ensure every repeated data source helps rather than hurts generalization.
+
+### Frontier-grade pretraining infrastructure
+
+Beam was pretrained end-to-end in under four weeks on a cluster of 6,144 NVIDIA GB300 NVL72 GPUs. To achieve the reliability, performance, and development velocity required to train Beam at scale, we built nearly the entire infrastructure stack in-house. We observed no instabilities or large irrecoverable spikes.
+
+### Building a strong prior for RL in Midtraining
+
+Our midtraining stage was designed specifically as a foundation for high-compute RL, developing the knowledge, reasoning, and tool-use capabilities that allow Beam to learn from more demanding tasks.
+
+We built multi-stage data curation pipelines that capture the structure and complexity of real-world tasks while expanding coverage of capabilities that are difficult to learn from raw data alone. Starting from carefully selected real-world examples, these pipelines transform, combine, and extend material into training data designed to teach specific capabilities. This includes long, reasoning-rich documents that expose the model to extended chains of logic.
+
+Midtraining also extends Beam’s effective context length to 1M tokens. We combine structured code repositories, long-horizon tasks, and high-quality long-form documents to teach the model to identify, retain, and connect relevant information across long sequences.
+
+Together, these capabilities give RL a stronger starting point, enabling Beam to explore more complex solutions, work through longer interactions, and learn from tasks that would otherwise be out of reach.
+
+## The Path Ahead
+
+This preview shows what Beam can do today. We are making this early version of Beam available to a select group of users; you can sign up for the waitlist here.
+
+We want Beam to be widely accessible and easy to build on. This month, we will release the weights under an Apache 2.0 license, along with documentation and the full stack for running, evaluating, and fine-tuning the model. We will be launching Beam with an ecosystem of distribution partners, as well as integration with a broad range of open source libraries and harnesses, so developers can use Beam across existing open-source workflows.
+
+Beam is the first model in a series, and the first demonstration of the open intelligence our team is committed to building. We are already training what comes next, with the goal of bringing the open frontier closer to the frontier of intelligence with every release.

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155436.htm",
+  "title": "最早发布却最难见到！英特尔Nova Lake最新爆料：BFC版本送样受到严格管控",
+  "text": "快科技10月5日消息，英特尔下一代Nova Lake处理器的采样进度近日曝光，爆料信息显示，英特尔内部正对部分采用特殊封装的型号实施严密的管控，这导致该系列顶级型号的详细参数在现阶段极难流出。\n根据资深爆料人Jaykihn提供的信息，被英特尔内部标注为DS变体的型号在早期开发阶段受到独立且严格的采样限制。\n要知道DS代表双计算模块，即在一颗CPU中集成了两个计算核心模块，这种设计通常对应高性能的旗舰产品，旨在通过模块化堆叠提升核心数量与并行计算能力。\n此前有消息证实，这些DS芯片在上市时将以BFC品牌进行商业化运作。BFC版本可以理解为英特尔针对游戏和高负载任务推出的大缓存版，其内部集成了bLLC的大容量末级缓存。\n这一设计理念与竞争对手的3D V-Cache技术异曲同工，旨在显著降低内存访问延迟。\n而目前市场上尚未出现BFC芯片的实机泄露，主要原因是英特尔采取了类似AMD处理特定顶级型号时的保密手段。\n尽管BFC型号被列为首批上市的Nova Lake产品，但其大规模的QS发放计划被定在了2026年12月。\n这意味着，普通版Nova Lake可能更早进入测试阶段，但最强版本仍被锁在实验室中。",
+  "published_at": "2026-10-05T15:39:06+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3f08f525e990255a1cc2",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-06/7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738.body",
+  "source_sha256": "7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738",
+  "fetched_at": "2026-10-06T01:04:01.398216+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+  "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+  "text": "The adoption of AI agents in millions of organizations is creating new opportunities for attackers to make them take malicious actions, such as exfiltrating database contents and sensitive business and personal information.\nIn the past five months, Google and four other organizations—with little in common except for their use of AI agents—have acknowledged vulnerabilities that exploit one agent inside a targeted network to spread harmful instructions to other internal agents. The technique is a special form of prompt injection that targets not the LLM but a particular agent, such as one for translation or data analysis. Guardrails inside such agents, if they exist at all, are often lax and will send the instructions to other agents down the chain. Because the latter agent explicitly trusts the first one, it follows the directions.\nUnexpected and hard to mitigate\nIndependent researcher Syed Anas Mohiuddin tested agents from organizations including Google, JP Morgan Chase, Weviate, Rapid7, the French government's interministerial digital directorate, and the US federal government. His proof-of-concept attacks exploit trust gaps in MCP, short for Model Context Protocol. The standard is one way AI apps and agents communicate with each other inside an internal network. The illustration below shows a simplified MCP in action.\nRead full article\nComments",
+  "published_at": "2026-10-05T22:26:35+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4aec355d748974ab0535",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-06/b17170e63907f3049ab3d5dc272c6aff6dc20d38a845d09eb0ec892d8fb96884.body",
+  "source_sha256": "b17170e63907f3049ab3d5dc272c6aff6dc20d38a845d09eb0ec892d8fb96884",
+  "fetched_at": "2026-10-06T01:03:33.704453+00:00"
+}

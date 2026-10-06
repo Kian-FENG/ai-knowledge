@@ -1,0 +1,28 @@
+{
+  "period": "daily",
+  "date": "2026-10-05",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-05",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-04T18:00:00-07:00",
+    "end": "2026-10-05T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "c16ba4641e5e9e4f219d4fa61b5efde9a621b30486b9972d7fc3bd04858d1262",
+  "editorial_sha256": "50f01bc93543300377884e2ceab5ec8acd8cb41c4d4764cbfc552f41f110d78c",
+  "report_path": "reports/daily/2026/10/2026-10-05/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-05/c16ba4641e5e9e4f219d4fa61b5efde9a621b30486b9972d7fc3bd04858d1262.json",
+  "events": 10,
+  "generated_at": "2026-10-06T01:23:15.945992+00:00",
+  "timezone": "America/Los_Angeles",
+  "editorial_review": {
+    "reviewed_at": "2026-10-06T01:24:23.956830+00:00",
+    "adjustments": [
+      "在Markdown明确实际生成时间与America/Los_Angeles时区",
+      "日期精度为日的四项来源展示原始日期，不将解析器规范化的+08午夜当作原站时刻"
+    ],
+    "report_sha256": "6aba7c3fbf71892511c02a6227c99c700b266c43342632b85890d15987194bc0",
+    "original_generated_revision": "reports/daily/2026/10/2026-10-05/revisions/generated-20261006T012315Z"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155419.htm",
+  "title": "英特尔命名规则劈叉！Nova Lake-HX用四位数、轻薄本还是三位数：消费者要懵",
+  "text": "快科技10月5日消息，据报道，爆料人Jaykihn近日澄清，英特尔下一代移动处理器Nova Lake-HX将采用四位数的“酷睿Ultra 4000”命名，与桌面版Nova Lake-S保持一致。\n这意味着同一代Nova Lake架构，在笔记本上会同时存在两套命名体系。HX游戏本将使用四位数型号，如酷睿Ultra 4000系列；而面向轻薄本的H系列和U系列，则继续沿用三位数的“酷睿Ultra 400”命名。\nJaykihn解释，HX芯片通常基于桌面硅片打造，因此命名也向桌面端靠拢。旗舰Nova Lake-HX最高提供28核，配置为8个性能核、16个能效核和4个低功耗能效核，相比当前24核HX型号提升约16.6%。\n性能核基于Coyote Cove架构，能效核基于Arctic Wolf架构，核显升级至Xe3系列。主流型号则为16核（4P+8E+4LP-E），全系TDP约55W，受散热限制未采用桌面版的双计算模块设计。\n这种“同代不同命名”的做法可能给消费者带来困扰。更大的数字通常意味着更新、更强的产品，但一台搭载酷睿Ultra 4000的HX游戏本和一台搭载酷睿Ultra 400的轻薄本，本质上是同一代架构。\n此外，英特尔在2013-2014年曾推出过酷睿4000系列（Haswell），如酷睿i7-4770K。虽然“酷睿Ultra”前缀能起到区分作用，但二手市场和搜索场景中可能产生混淆。\nNova Lake-HX预计2027年CES发布，届时将与英伟达RTX 60系列笔记本GPU同台亮相。",
+  "published_at": "2026-10-05T13:51:44+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5a19b7f54eb272963e92",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-06/7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738.body",
+  "source_sha256": "7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738",
+  "fetched_at": "2026-10-06T01:04:01.398216+00:00"
+}

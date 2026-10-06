@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+  "title": "Gemini Call for Me might tell your mom you&#8217;re running late",
+  "text": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. Android Authority reports finding a \"Gemini Calling\" introductory screen in an APK teardown with examples that include \"Call Mom and tell her I will be 15 minutes late\" and \"Call John and ask if he is coming for dinner.\"\nBased on those examples, even with this expansion, Gemini would likely be limited to basic, text message-like calls. While Google's AI might not automate an entire catch-up phone call with your relatives, it could deliver quick messages to people who prefer a phone call, miss texts often, or  …\nRead the full story at The Verge.",
+  "published_at": "2026-10-05T19:09:55-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-05T19:09:55-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "19745539452346e87dcc",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-06/687819c9d37ce9e0f413154d5f8b270c5b2f2706d91697b65bb315db4285556a.body",
+  "source_sha256": "687819c9d37ce9e0f413154d5f8b270c5b2f2706d91697b65bb315db4285556a",
+  "fetched_at": "2026-10-06T01:03:12.710239+00:00"
+}

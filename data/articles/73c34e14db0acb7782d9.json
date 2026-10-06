@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
+  "title": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS",
+  "text": "Getting some extra storage space on your Mac could be as easy as deleting Apple's AI features with a new open-source command line tool called RemoveMacAI. There used to be a single Settings toggle for disabling Apple Intelligence, but that was removed in macOS 27. Now, the models stay on your disk, and the features are split up across different settings panes.\nAs spotted earlier by MacRumors, the RemoveMacAI developer said in a post on Reddit that the tool essentially does what the old settings toggle did, deleting the models and turning the features off:\nYou have to find about a dozen settings, and several of them are under Screen Time. …\nRead the full story at The Verge.",
+  "published_at": "2026-10-05T09:47:14-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-05T09:47:14-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "73c34e14db0acb7782d9",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-06/687819c9d37ce9e0f413154d5f8b270c5b2f2706d91697b65bb315db4285556a.body",
+  "source_sha256": "687819c9d37ce9e0f413154d5f8b270c5b2f2706d91697b65bb315db4285556a",
+  "fetched_at": "2026-10-06T01:03:12.710239+00:00"
+}

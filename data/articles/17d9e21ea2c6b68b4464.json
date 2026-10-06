@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+  "title": "This startup is issuing AI-generated acne prescriptions",
+  "text": "People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces using its app, allowing its AI system to analyze acne severity and autonomously write a prescription, as reported earlier by Bloomberg.\nThe service is launching as a pilot program with gradually loosening physician oversight. Two physicians will approve each AI-generated prescription before they're issued for the first 100 patients, but will start reviewing them only after they're prescribed for up to 500 patients. \"After that, physicians review a sample of at least 10% of  …\nRead the full story at The Verge.",
+  "published_at": "2026-10-05T16:14:57-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-05T16:14:57-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "17d9e21ea2c6b68b4464",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-06/687819c9d37ce9e0f413154d5f8b270c5b2f2706d91697b65bb315db4285556a.body",
+  "source_sha256": "687819c9d37ce9e0f413154d5f8b270c5b2f2706d91697b65bb315db4285556a",
+  "fetched_at": "2026-10-06T01:03:12.710239+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/laptops/ultrabooks-ultraportables/intels-googlebooks-might-not-run-some-android-apps-as-well-as-qualcomms-google-says-this-is-because-android-apps-were-designed-for-arm-chips",
+  "title": "Intel's Googlebooks might not run some Android apps as well as Qualcomm's",
+  "text": "Google introduced five new laptops recently, which went on sale Sunday. The Googlebooks are intended to run Android apps natively; however, Google admitted in a statement to Android Authority that not all apps may perform as well on the systems with Intel processors as those with Qualcomm chips.\n\"The vast majority of Android apps run smoothly across both Intel and Qualcomm Googlebooks right out of the box,\" Google told the Android-focused site. \"Because many Android apps were originally designed for Arm chips, a small handful of complex apps or games need some developer tuning to run their best on Intel-based platforms. We’re working hand-in-hand with app developers, Intel, and Qualcomm to continuously optimize performance and expand compatibility across the entire portfolio.\"\nGoogle has not named specific apps that might have issues on Intel-based systems. None of these claims were made prior to Googlebooks being made available on store shelves.\nThe Googlebooks with Intel processors are the Asus Googlebook 14, Lenovo Googlebook 15, and Acer Googlebook 14. The Dell XPS Googlebook and HP Googlebook 14 use Qualcomm's Snapdragon X Elite chips.\nMost Android apps will work on Intel Googlebooks due to the wide use of Kotlin for Android development, and many apps have been made using Java. If an app's pipeline is mostly Java/Kotlin, it will have a high chance of working on the Intel Googlebook thanks to their architecture-agnostic libraries and SDKs.\nHowever, there are still apps out there relying on native components compiled exclusively for ARM64 with no x86-64 versions. Intel Bridge and Android’s Native Bridge can translate ARM64 code for x86 compatibility, but unless the developer actually accounts for x86, it might run into some issues.\nAll of the applications on Googlebookx will come from Google's Play Store, which will include a mix of optimized and unoptimized apps. You can't download applications from the web unless you're redirected to Google Play.\nGoogle wants to compete with the Mac by offering a full Android ecosystem experience from phone to laptop, similar to the conveniences Apple offers between their laptops and phones. With prices ranging from $899-1,299, it is a fairly large jump from the MacBook Neo’s $699-799; however, the Googlebook offers more RAM, giving you either 16GB or 32GB options. Storage remains limited, only offering either 256GB or 512GB, but each Googlebook comes with 12 months of Google AI Pro that includes 5TB of cloud storage currently valued at $249.99.",
+  "published_at": "2026-10-05T15:53:44+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "58783df6c5b615a24d1a",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-06/3c106aacbc573847a124ad074f605caa6e5eed78714cfa3f8b79496367e69330.body",
+  "source_sha256": "3c106aacbc573847a124ad074f605caa6e5eed78714cfa3f8b79496367e69330",
+  "fetched_at": "2026-10-06T01:03:40.886166+00:00"
+}

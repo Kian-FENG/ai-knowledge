@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155427.htm",
+  "title": "AMD核显大爆发！Linux 7.4默认启用HDMI 2.1：性能最高涨23%",
+  "text": "快科技10月5日消息，据报道，AMD近日向DRM-Next提交了新一轮AMDGPU内核图形驱动更新，为即将到来的Linux 7.4合并窗口做最后准备。本次更新以修复为主，同时包含多项新硬件IP块启用和HDMI 2.1功能完善。\n新硬件IP块支持是本次更新的核心看点。AMD为多个即将推出的GPU IP模块添加了启用支持，包括OSSSYS 8.0.1、LSDMA 8.0.1、NBIF 7.10、SMUIO 15.0.3、MP 15.0.3、VPE 3.0和MMHUB 5.0。\n其中VPE 3.0是视频处理引擎IP的一次重大版本升级。此外，Display Core Next DCN 6.0、AMD GFX12.1和SMU 15等此前已添加的IP块也获得了进一步更新。\nHDMI 2.1支持是Linux 7.4最受期待的功能。AMD于9月10日向DRM-Next提交了功能拉取请求，首次将HDMI FRL（固定速率链路）从默认禁用改为默认启用，并新增HDMI 2.1 FreeSync、VRR和ALLM支持。\n此前HDMI 2.1 FRL虽已在Linux 7.2中合入，但默认处于关闭状态，AMD等待VRR等功能完备后才启用，以避免用户功能回退。\nHDMI Forum此前一直拒绝为开源Linux驱动提供HDMI 2.1许可，转机出现在2026年，Valve与AMD合作推进的补丁陆续进入内核邮件列表。\nPerfOpt性能优化补丁是本次更新中针对核显用户的重大利好。该补丁允许集成GPU在直接访问系统内存时绕过IOMMU的地址转换，IOMMU仅执行权限位检查，不再进行GPA到SPA的地址转换，从而减少核显访问内存时的系统开销。\n据Phoronix测试，在Strix Halo APU设备上，本地大模型性能最高可提升18%至23%。该特性由驱动主动启用，用户也可通过模块参数强制禁用。\n本次拉取请求还包含多项修复，覆盖dc_state_create_copy、HDMI RGB有限范围、eDP ASSR、DCE 6/8.1、SI DPM、GPUVM、Switcheroo、SDMA 7.1、DP MST、DCN 6以及MacBookPro14,3等具体平台问题。\nAMDKFD计算驱动同步获得SVM修复和重置修复，旧的Radeon内核驱动甚至为Sun/Oracle SPARC64硬件添加了兼容性修复。",
+  "published_at": "2026-10-05T14:38:12+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9a5b9b4081a4b50eb962",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-06/7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738.body",
+  "source_sha256": "7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738",
+  "fetched_at": "2026-10-06T01:04:01.398216+00:00"
+}

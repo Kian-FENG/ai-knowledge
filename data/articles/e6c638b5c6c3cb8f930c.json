@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/meta-microsoft-work-wean-staff-anthropics-claude",
+  "title": "Microsoft Slashes Internal Claude Spending by a Third",
+  "text": "Meta Platforms and Microsoft, two of Anthropic’s biggest corporate customers, are working to cut their employees’ use of Claude, a challenge for the AI firm’s efforts to sustain its explosive growth.\nMicrosoft executives earlier this year projected that the company was on track to spend at least $1 billion on its own internal use of Anthropic’s technology, according to two people with knowledge of the spending. Microsoft has since lowered that figure by more than a third, after it asked staff to use less Claude to save on costs and spend more time using Microsoft’s homegrown AI tools, one of the people said. (That figure doesn’t include the money customers spend on Anthropic models through Microsoft’s tools, which has risen steadily.)",
+  "published_at": "2026-10-05T18:14:35+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-05T23:56:08+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e6c638b5c6c3cb8f930c",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-06/efda268ef9a80be430d515bd9d4a76623eac12e7d7c1b1d2435ea5c3911281ff.body",
+  "source_sha256": "efda268ef9a80be430d515bd9d4a76623eac12e7d7c1b1d2435ea5c3911281ff",
+  "fetched_at": "2026-10-06T01:03:12.735672+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://openai.com/index/eu-text-provenance",
+  "title": "Our approach to EU text provenance rules",
+  "text": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+  "published_at": "2026-10-05T15:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d2b5b29b4c8155256199",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-06/d213139bdda4f8ef56f1776976c8e09a7776b622bf4b480a0145629575fb832b.body",
+  "source_sha256": "d213139bdda4f8ef56f1776976c8e09a7776b622bf4b480a0145629575fb832b",
+  "fetched_at": "2026-10-06T01:02:28.018213+00:00"
+}

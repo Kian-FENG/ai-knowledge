@@ -1,0 +1,24 @@
+{
+  "raw_path": "raw/2026-10-06/04c621b3f851ae200b604eee6ff19a11e1b1c9ae6634f10cd52e25717b3bbcf0.body",
+  "sha256": "04c621b3f851ae200b604eee6ff19a11e1b1c9ae6634f10cd52e25717b3bbcf0",
+  "source_url": "https://nvidianews.nvidia.com/releases.xml",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-06T01:02:46.241688+00:00",
+  "source_id": "nvidia-newsroom",
+  "status": 200,
+  "headers": {
+    "Last-Modified": "Mon, 05 Oct 2026 18:22:08 GMT",
+    "ETag": "\"6ac3ead0-c1b9\"",
+    "Access-Control-Allow-Origin": "*",
+    "Content-Type": "text/xml",
+    "Content-Length": "49593",
+    "Accept-Ranges": "bytes",
+    "Date": "Tue, 06 Oct 2026 01:02:50 GMT",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close"
+  },
+  "final_url": "https://nvidianews.nvidia.com/releases.xml",
+  "truncated": false,
+  "charset": "utf-8"
+}

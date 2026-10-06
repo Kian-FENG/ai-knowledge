@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-06/b78ecd33dbd3739159b443d03990458bcef381a20f1db58b1d61bdc3b907364e.body",
+  "sha256": "b78ecd33dbd3739159b443d03990458bcef381a20f1db58b1d61bdc3b907364e",
+  "source_url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-06T01:02:27.616069+00:00",
+  "source_id": "deepseek-pricing",
+  "status": 200,
+  "headers": {
+    "Last-Modified": "Thu, 24 Sep 2026 09:35:28 GMT",
+    "Content-Encoding": "gzip",
+    "Etag": "\"10a200f787d3684442c9a7383589fef0\"",
+    "Content-Type": "text/html",
+    "Server": "tencent-cos",
+    "x-amz-hash-crc64ecma": "16447729008086052413",
+    "x-amz-request-id": "NmFiNGVmOTRfNDRhODY0MDlfMmJlOF8xYzdhZjcyYw==",
+    "x-amz-storage-class": "MAZ_STANDARD",
+    "x-amzindex-replication-status": "Complete",
+    "Content-Length": "6355",
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Date": "Tue, 06 Oct 2026 01:02:31 GMT",
+    "EO-LOG-UUID": "2670721937354157531",
+    "EO-Cache-Status": "RefreshHit",
+    "Cache-Control": "max-age=0"
+  },
+  "final_url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "truncated": false,
+  "charset": "utf-8"
+}

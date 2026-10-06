@@ -1,0 +1,18 @@
+{
+  "url": "https://www.aboutamazon.com/stories/inside-aws-networking-lab-cupertino",
+  "title": "Inside the AWS lab that makes everything you do online feel effortless",
+  "text": "In a nondescript building in Cupertino, California, a team of engineers is quietly designing the networking technology that keeps the modern world connected—one wavelength of light at a time.",
+  "published_at": "2026-10-05T15:37:49+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "76fb2b35a5654b2848c8",
+  "source_id": "amazon-news",
+  "source_name": "About Amazon",
+  "section": 5,
+  "raw_path": "raw/2026-10-06/2b34212aec549cad3f9a0a7fa9e1d24d7091f7329d8fcf7ffa2d0bbf0d6d5c4c.body",
+  "source_sha256": "2b34212aec549cad3f9a0a7fa9e1d24d7091f7329d8fcf7ffa2d0bbf0d6d5c4c",
+  "fetched_at": "2026-10-06T01:02:41.815798+00:00"
+}

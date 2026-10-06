@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/pc-components/ddr5/customer-sends-two-stick-usd16-000-ddr5-memory-kit-to-repair-shop-soaring-replacement-costs-make-dimm-repairs-viable-technician-revives-dead-module-with-hot-air-reflow-and-new-pmic",
+  "title": "Customer sends two-stick $16,000 DDR5 memory kit to repair shop",
+  "text": "A YouTube channel best known for its skillful graphics card fixes has published its first RAM module repair video. Tony from NorthWestRepair’s latest video shows his attempts to mend a pair of high-capacity DDR5 sticks worth a purported $16,000. It isn’t the repair skills that are newsworthy here. Rather, it’s the shift in economics that makes the chuck-it-and-replace-it attitude to bad RAM a philosophy that simply doesn’t apply in 2026. The impact of the AI-pocalypse means that spending a couple of hundred dollars on repair labor to save a several-thousand-dollar DDR5 DIMM is now sensible. If you can repair RAM, you can now start a business.\nTwo DDR5 sticks were sent in to Tony, described as having physical damage. They are both ECC sticks, meant for servers, one with 128GB and the other with 256GB of DRAM ICs onboard. Tony sounded happy at the start of the video, as this is an excuse to use his Unified DDR Flasher Main Board, for which he had just acquired an RDIMM extension that works with these server sticks.\nInitial close physical inspection didn’t reveal any conclusive evidence of the source of the problems. So, it was hoped electrical tests would provide more clues. A data line tester didn’t highlight any issues, though. Tony used flux and hot air to reflow the solder on the first DIMM, which is a far simpler process than a reball (where all the memory ICs are taken off, cleaned, and given new solder balls). Initial signs were that the module was now working OK. So, he moved to the next DDR5 DIMM.NorthWestRepairNorthWestRepairNorthWestRepair\nThe second DIMM “may have a faulty PMIC chip,” which is why it seemed more severely broken than the first module, Tony indicated. Powering on a system with this DIMM inserted showed no signs of life, and the DIMM didn’t even warm up (thermal camera checks). That contrasts with the first fix.\nBecause this DIMM is completely dead, Tony did some work on the non-DRAM chips like the PMIC and SPD EEPROM first. Then he decided to reflow some other chips, including memory ICs, like before, while the board was warm. Some ICs were also reballed after inspection, making Tony suspicious of them.\nThe repairer found a short circuit via voltage injection and thermal camera monitoring. This was fixed with a new capacitor and by fixing the short on the damaged edge of the PCB. Finally, a new PMIC chip ended the quest, and this second DDR5 DIMM powered on and trained successfully.\nThe repair is good to see, saving these valuable components from e-waste. However, the bigger picture is that repairing memory modules could now be a viable business. Previously, it didn’t make sense to spend a hundred or two on labor to fix a DIMM that would cost about the same or even less to replace with a new one. Now the repair fee might be just a fraction of a replacement price.",
+  "published_at": "2026-10-05T10:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2008e8c1436c614518d0",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-06/3c106aacbc573847a124ad074f605caa6e5eed78714cfa3f8b79496367e69330.body",
+  "source_sha256": "3c106aacbc573847a124ad074f605caa6e5eed78714cfa3f8b79496367e69330",
+  "fetched_at": "2026-10-06T01:03:40.886166+00:00"
+}

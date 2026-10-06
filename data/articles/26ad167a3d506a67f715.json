@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+  "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+  "text": "A new tool is allowing Mac users the ability again to easily turn off Apple Intelligence with one click and free up to 12GB of storage.\nUnlike with previous versions of macOS, macOS 27 Golden Gate doesn’t have a toggle for turning off Apple Intelligence. That makes disabling AI features that you may not want more difficult. It also means that the AI models necessary for running Apple Intelligence will take up space on your disk, even if you don’t use them or if you go through your settings to individually find and disable AI capabilities.\nIn response, a developer known as Om Lahore on GitHub last week created RemoveMacAI, a command-line tool that allows macOS 27 users to “turn off Apple Intelligence on macOS 27\" in a way that is “fully reversible,” per the GitHub page. They said that Apple's Intelligence models take up \"about 12GB,\" but the models can actually take up over 30GB, The Verge noted.\nRead full article\nComments",
+  "published_at": "2026-10-05T19:14:44+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "26ad167a3d506a67f715",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-06/b17170e63907f3049ab3d5dc272c6aff6dc20d38a845d09eb0ec892d8fb96884.body",
+  "source_sha256": "b17170e63907f3049ab3d5dc272c6aff6dc20d38a845d09eb0ec892d8fb96884",
+  "fetched_at": "2026-10-06T01:03:33.704453+00:00"
+}

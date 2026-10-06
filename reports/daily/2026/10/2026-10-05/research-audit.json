@@ -1,0 +1,3102 @@
+{
+  "period": "daily",
+  "date": "2026-10-05",
+  "run_at": "2026-10-06T01:23:15.515327+00:00",
+  "initial_git": {
+    "time": "2026-10-06T01:02:05.529112+00:00",
+    "head": "f67db291b3ad05c805eb35e76e62a048b5941890",
+    "branch": "main",
+    "remote": "origin\tgit@github.com:Kian-FENG/ai-knowledge.git (fetch)\norigin\tgit@github.com:Kian-FENG/ai-knowledge.git (push)",
+    "upstream": "origin/main",
+    "ahead_behind": "0\t0"
+  },
+  "initial_changed_path_count": 765,
+  "window": {
+    "period": "daily",
+    "date": "2026-10-05",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-04T18:00:00-07:00",
+    "end": "2026-10-05T18:00:00-07:00"
+  },
+  "collection": {
+    "id": "20261006T010220-a72dfdef",
+    "started_at": "2026-10-06T01:02:20.135580+00:00",
+    "finished_at": "2026-10-06T01:04:16.987512+00:00",
+    "sources": [
+      {
+        "source_id": "openai",
+        "name": "OpenAI News",
+        "group": "official",
+        "status": "ok",
+        "saved": 3,
+        "unchanged": 29,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 32,
+        "raw_path": "raw/2026-10-06/d213139bdda4f8ef56f1776976c8e09a7776b622bf4b480a0145629575fb832b.body",
+        "entries": 1247,
+        "oldest_entry_at": "2015-12-11T08:00:00+00:00",
+        "candidates": 32,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "openai-api-changelog",
+        "name": "OpenAI API Changelog",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/9b2d4b8062d01112e171268edbdfbb9f4f66fd1ffacf4c3e2f39af6b9093b811.body",
+        "text_chars": 59221,
+        "changed": true,
+        "diff_lines": 4,
+        "diff": [
+          "+October, 2026",
+          "+Oct 5",
+          "+Feature",
+          "+Added an in-product flow for HIPAA compliance support in API Organization settings > General. Admins of eligible organizations can now accept the standard Business Associate Agreement (BAA) and enable HIPAA compliance support for their organization. See the Help Center for eligibility, covered services, and configuration requirements."
+        ],
+        "leads": 1
+      },
+      {
+        "source_id": "anthropic",
+        "name": "Anthropic Newsroom",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/73910b188b4eb36e0ded562c9f9e28cefb510e01687d659a0ff91a0ec1f53519.body",
+        "links": 11,
+        "new_links": 0
+      },
+      {
+        "source_id": "anthropic-research",
+        "name": "Anthropic Research",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/d12ece564e8d965222e4bcf15e6e87d525b205d87bcdc45b898feeb05fbea1c8.body",
+        "links": 10,
+        "new_links": 0
+      },
+      {
+        "source_id": "anthropic-sitemap",
+        "name": "Anthropic 站点地图",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/9cf061403b7e560b7ab01306a252e4aa8ac4c9efc43dc13996daa5f65624aa0f.body",
+        "links": 520,
+        "new_links": 0
+      },
+      {
+        "source_id": "deepseek",
+        "name": "DeepSeek Research & News",
+        "group": "official",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+      },
+      {
+        "source_id": "deepseek-api-changelog",
+        "name": "DeepSeek API Change Log",
+        "group": "official",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+      },
+      {
+        "source_id": "deepseek-pricing",
+        "name": "DeepSeek 模型与价格",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/b78ecd33dbd3739159b443d03990458bcef381a20f1db58b1d61bdc3b907364e.body",
+        "text_chars": 1402,
+        "changed": false
+      },
+      {
+        "source_id": "deepseek-hf",
+        "name": "DeepSeek · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/e27eff26ae22acb281f5f50ec53b426cae3ad9769fe85536b01dcfcb1ea18bf1.body",
+        "links": 50,
+        "new_links": 0
+      },
+      {
+        "source_id": "qwen",
+        "name": "Alibaba / Qwen Blog",
+        "group": "official",
+        "status": "needs-browser",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "reason": "列表需 JS 渲染，HTTP 只得到标题“Qwen”；用浏览器核查，并参考 qwen-hf 与检索清单 newsroom-fallback"
+      },
+      {
+        "source_id": "qwen-hf",
+        "name": "Qwen · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/bfb7e3c8c0373b58006758be9015c1c39b711ec3de0e5a9584cd66df10f38a0b.body",
+        "links": 50,
+        "new_links": 0
+      },
+      {
+        "source_id": "kimi",
+        "name": "Moonshot AI / Kimi Blog",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/f98d470976a69abf5662bc44f014ebbc0ed26d202f1e854d23e4377f3a1d29fc.body",
+        "links": 9,
+        "new_links": 0
+      },
+      {
+        "source_id": "kimi-hf",
+        "name": "Moonshot AI · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/e38abb555093efbfd6bb000a040326eadc10d083b74cdc633ed34aa0974b1f6c.body",
+        "links": 19,
+        "new_links": 0
+      },
+      {
+        "source_id": "zhipu",
+        "name": "Z.ai 发布记录",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/2f6e9fa87bc9dcc719f77705e3d848b6c3cb698ab66e238be3bbca2894c96b3a.body",
+        "text_chars": 8793,
+        "changed": false
+      },
+      {
+        "source_id": "zhipu-cn",
+        "name": "智谱开放平台发布记录",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/6d034dfcfb7d01f10a83365d77e8914c57b2bdc1ddad7d76aa3c4faf8b0bc329.body",
+        "text_chars": 6383,
+        "changed": false
+      },
+      {
+        "source_id": "zhipu-hf",
+        "name": "智谱 · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/e238edab285a1ed967be34b2846b6457baa01c75d3fd15cf144a6d59a031d638.body",
+        "links": 50,
+        "new_links": 0
+      },
+      {
+        "source_id": "minimax",
+        "name": "MiniMax News",
+        "group": "official",
+        "status": "needs-browser",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "reason": "列表需 JS 渲染，HTTP 只见 3 个精选链接；用浏览器核查，并参考 minimax-hf 与检索清单 newsroom-fallback"
+      },
+      {
+        "source_id": "minimax-hf",
+        "name": "MiniMax · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/9239916de6534b74f4d0b2a23f6afe2013a32683fd065acec4afc4ac8dfc60fb.body",
+        "links": 21,
+        "new_links": 0
+      },
+      {
+        "source_id": "mistral",
+        "name": "Mistral AI",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 1,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 1,
+        "raw_path": "raw/2026-10-06/849fe3b2580aaa28b5a05bca3828eba88afc5240c2620df84ebc52d1c08b27ae.body",
+        "entries": 88,
+        "oldest_entry_at": "2023-09-27T08:00:00+00:00",
+        "candidates": 1,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "meta-newsroom",
+        "name": "Meta Newsroom",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 8,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 8,
+        "raw_path": "raw/2026-10-06/405e2c8a002ea49b8318cbe5f3c1bc6b0a2575f763afff31a195bbcc8e822fe9.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-09-23T11:42:46+00:00",
+        "filtered": 2,
+        "candidates": 8,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "meta-ai-blog",
+        "name": "AI at Meta Blog",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/d78d4ef9837b0caa798c8c15b1c7a35935b4021efa81c8dd9554113ecf7fd361.body",
+        "links": 10,
+        "new_links": 0
+      },
+      {
+        "source_id": "deepmind",
+        "name": "Google DeepMind",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 5,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 5,
+        "raw_path": "raw/2026-10-06/cb614ece8bab5b9bf2a553029cdae20dfeb1dc49455c1193b50a46d6169410f2.body",
+        "entries": 100,
+        "oldest_entry_at": "2025-11-05T16:59:46+00:00",
+        "candidates": 5,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "google-ai-blog",
+        "name": "Google AI Blog",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 3,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 3,
+        "raw_path": "raw/2026-10-06/c44824d1c54b4ffa91fd3532010bd10601907385b6f3235368696b6a3bdd1b55.body",
+        "entries": 20,
+        "oldest_entry_at": "2026-08-25T16:00:00+00:00",
+        "candidates": 3,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "google-cloud-blog",
+        "name": "Google Cloud Blog",
+        "group": "official",
+        "status": "ok",
+        "saved": 12,
+        "unchanged": 6,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 18,
+        "raw_path": "raw/2026-10-06/b4b12a46d0935f792f5a3fe401b368715f598b11a8d98fec11a34176599b452d.body",
+        "entries": 20,
+        "oldest_entry_at": "2026-09-29T16:00:00+00:00",
+        "filtered": 2,
+        "candidates": 18,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "tencent-newsroom",
+        "name": "Tencent Newsroom",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/ab04916194479a3515a661319a71fcee84a322a37dee45260ebeaf4883dda292.body",
+        "links": 21,
+        "new_links": 0
+      },
+      {
+        "source_id": "tencent-hf",
+        "name": "Tencent · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/8a13d999653e2b1e3a04ad2dba3c2bf2e4b8576446edd13e74213b6c996685ac.body",
+        "links": 50,
+        "new_links": 0
+      },
+      {
+        "source_id": "bytedance-seed",
+        "name": "ByteDance Seed Blog",
+        "group": "official",
+        "status": "needs-browser",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "reason": "列表需 JS 渲染；参考 bytedance-seed-hf"
+      },
+      {
+        "source_id": "bytedance-seed-hf",
+        "name": "ByteDance Seed · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/6f7c258f293284a9f3c0a5b450d86a2e0ebb8ba2f1ccd48912a89dbd0208fe34.body",
+        "links": 50,
+        "new_links": 0
+      },
+      {
+        "source_id": "alibaba-cloud",
+        "name": "Alibaba Cloud Press Room",
+        "group": "official",
+        "status": "needs-browser",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "reason": "新闻稿列表需 JS 渲染；千问办公等产品动态主要靠中文媒体与检索发现"
+      },
+      {
+        "source_id": "ant-hf",
+        "name": "蚂蚁 inclusionAI · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/70f7f2b9622125dca87f36b9422adcda4b0c7ec2b02d81cf602c3449cd4548f6.body",
+        "links": 50,
+        "new_links": 0
+      },
+      {
+        "source_id": "robbyant-hf",
+        "name": "蚂蚁灵波 robbyant · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/5812fd8f8716fd7bcf47cb3b912ae40077ace451b71602c59fb73318fbc35510.body",
+        "links": 31,
+        "new_links": 0
+      },
+      {
+        "source_id": "jd-hf",
+        "name": "京东 jdopensource · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/7e229721935d59e0e4c02ea31fc43f35701f61a83713ddf6c481e4ee3276e1bb.body",
+        "links": 23,
+        "new_links": 0
+      },
+      {
+        "source_id": "xiaomi-hf",
+        "name": "Xiaomi MiMo · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/10b7a0f240abe3994a8f95091f8ab7359f2fe257234b84e6a9f3c6c8a2273e33.body",
+        "links": 30,
+        "new_links": 0
+      },
+      {
+        "source_id": "openbmb-hf",
+        "name": "面壁 OpenBMB · Hugging Face",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/1b41b4308002efb600c7ad14611635f1ae182307884f46678b683bd83c49557e.body",
+        "links": 50,
+        "new_links": 0
+      },
+      {
+        "source_id": "xai",
+        "name": "xAI News",
+        "group": "official",
+        "status": "needs-browser",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "reason": "Cloudflare 对采集器返回 403；用浏览器或检索清单 newsroom-fallback 核查"
+      },
+      {
+        "source_id": "nvidia-newsroom",
+        "name": "NVIDIA Newsroom",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 14,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 14,
+        "raw_path": "raw/2026-10-06/04c621b3f851ae200b604eee6ff19a11e1b1c9ae6634f10cd52e25717b3bbcf0.body",
+        "entries": 20,
+        "oldest_entry_at": "2026-09-17T13:00:55+00:00",
+        "candidates": 14,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "nvidia-blog",
+        "name": "NVIDIA Blog",
+        "group": "official",
+        "status": "ok",
+        "saved": 1,
+        "unchanged": 11,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 12,
+        "raw_path": "raw/2026-10-06/323c7932a9ff7cc20c0ee3a7c5db7938c8366abafee0846a1debeeede1b4dc5b.body",
+        "entries": 18,
+        "oldest_entry_at": "2026-09-17T13:00:55+00:00",
+        "candidates": 12,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "amd-ir",
+        "name": "AMD Press Releases",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 1,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 1,
+        "raw_path": "raw/2026-10-06/093605cf340ea8c297a29b9c85376f98521cf11b26febe1f636a7c7c0cf6f738.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-07-16T09:00:00-04:00",
+        "candidates": 1,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "amazon-news",
+        "name": "About Amazon",
+        "group": "official",
+        "status": "ok",
+        "saved": 1,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 1,
+        "raw_path": "raw/2026-10-06/2b34212aec549cad3f9a0a7fa9e1d24d7091f7329d8fcf7ffa2d0bbf0d6d5c4c.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-10-01T12:50:13+00:00",
+        "filtered": 9,
+        "candidates": 1,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "qualcomm",
+        "name": "Qualcomm Newsroom",
+        "group": "official",
+        "status": "needs-browser",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "reason": "新闻页需 JS 渲染，IR RSS 返回 Cloudflare 403；用浏览器或检索清单 newsroom-fallback 核查"
+      },
+      {
+        "source_id": "samsung-newsroom",
+        "name": "Samsung Newsroom",
+        "group": "official",
+        "status": "ok",
+        "saved": 1,
+        "unchanged": 5,
+        "unknown_date": 0,
+        "future_date": 1,
+        "truncated": 0,
+        "needs_fulltext": 6,
+        "raw_path": "raw/2026-10-06/62302c0704de133aa2c33522e41c12c580a4c583305e61f3309ad0030d312097.body",
+        "entries": 50,
+        "oldest_entry_at": "2026-08-18T08:00:00+00:00",
+        "filtered": 18,
+        "candidates": 6,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "skhynix-newsroom",
+        "name": "SK hynix Newsroom",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 10,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 10,
+        "raw_path": "raw/2026-10-06/04610df2fe774b7dfe3811da00aace9b7b16c9355bfa39529cc5418c0328cb31.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-10-01T01:22:33+00:00",
+        "candidates": 10,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "asml",
+        "name": "ASML News",
+        "group": "official",
+        "status": "needs-browser",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "reason": "新闻页与 IR 页对采集器超时或 403；用浏览器或检索清单 newsroom-fallback 核查"
+      },
+      {
+        "source_id": "tsmc",
+        "name": "TSMC Newsroom",
+        "group": "official",
+        "status": "needs-browser",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "reason": "Cloudflare 403；用浏览器或检索清单 newsroom-fallback 核查"
+      },
+      {
+        "source_id": "volantis",
+        "name": "Volantis（公司新闻稿）",
+        "group": "official",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/c27cba51070d6b06292211df44b7ebd48f1bcfffadef4fa62e41518760788f6a.body",
+        "links": 1,
+        "new_links": 0
+      },
+      {
+        "source_id": "sglang",
+        "name": "SGLang Releases",
+        "group": "infra",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+      },
+      {
+        "source_id": "sglang-blog",
+        "name": "SGLang Blog",
+        "group": "infra",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/9bbe005632e58df4d8454c65777cb719064ca2de436c28a2d1a60ffe815a2797.body",
+        "links": 6,
+        "new_links": 0
+      },
+      {
+        "source_id": "vllm",
+        "name": "vLLM Releases",
+        "group": "infra",
+        "status": "ok",
+        "saved": 1,
+        "unchanged": 8,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 9,
+        "raw_path": "raw/2026-10-06/8ea06ceeaf1bc67a5667ef7735c00ddf28060fa0252692812645e541c8c82b9f.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-09-18T21:15:44+00:00",
+        "candidates": 9,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "vllm-blog",
+        "name": "vLLM Blog",
+        "group": "infra",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "robots.txt 不允许本采集器抓取，或无法读取 robots.txt"
+      },
+      {
+        "source_id": "dynamo",
+        "name": "NVIDIA Dynamo",
+        "group": "infra",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 1,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 1,
+        "raw_path": "raw/2026-10-06/cbbcf8adaf0cdd406ef5f4945e805d3aeaa9ac96cb192ad5032cced53291496d.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-09-03T01:03:12+00:00",
+        "candidates": 1,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "flashinfer",
+        "name": "FlashInfer",
+        "group": "infra",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+      },
+      {
+        "source_id": "mooncake",
+        "name": "Mooncake",
+        "group": "infra",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/e731a9e9b37f90ad097ba5c805b1962aaa817d22e8f8f295b0afbc2cdebc56b7.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-05-21T10:37:43+00:00",
+        "candidates": 0,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "nvidia",
+        "name": "NVIDIA Technical Blog",
+        "group": "infra",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 20,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 20,
+        "raw_path": "raw/2026-10-06/8185478e694a19b17ef31760f86c4f6944fc015bf0ba2f92b61eb1219a4988f5.body",
+        "entries": 100,
+        "oldest_entry_at": "2026-07-20T15:46:28+00:00",
+        "candidates": 20,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "pytorch-blog",
+        "name": "PyTorch Foundation Blog",
+        "group": "infra",
+        "status": "ok",
+        "saved": 2,
+        "unchanged": 8,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 10,
+        "raw_path": "raw/2026-10-06/5be95c18c124fbb54b50830f0f3b11b48c25d8808c98944676ae5d82abb5b309.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-09-22T15:45:46+00:00",
+        "candidates": 10,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "arxiv",
+        "name": "arXiv model and infra papers",
+        "group": "research",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "robots.txt 不允许本采集器抓取，或无法读取 robots.txt"
+      },
+      {
+        "source_id": "metr",
+        "name": "METR",
+        "group": "research",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/4796f4f89e6ae0afe8cb49946b142f40f6db77276d5bfb1a561489d02505b34e.body",
+        "links": 25,
+        "new_links": 0
+      },
+      {
+        "source_id": "uk-aisi",
+        "name": "UK AI Security Institute Blog",
+        "group": "research",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/28bcdb16fd7d21b5a31d8979ab449398eb3560df8d66e5deebd5628ee3a64d34.body",
+        "links": 98,
+        "new_links": 0
+      },
+      {
+        "source_id": "artificial-analysis",
+        "name": "Artificial Analysis Articles",
+        "group": "research",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+      },
+      {
+        "source_id": "artificial-analysis-changelog",
+        "name": "Artificial Analysis Changelog",
+        "group": "research",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/c30575800cce7ff4201fdf2ec1406975679f612d4f2d8f4c91542a6a261a047a.body",
+        "text_chars": 28609,
+        "changed": true,
+        "diff_lines": 24,
+        "diff": [
+          "+05 Oct 2026",
+          "+Microsoft Azure performance results now available",
+          "+Claude Sonnet 5.5 (Max, Default Fallback)Claude Sonnet 5.5 (Low, Default Fallback)Claude Opus 5.5 (Max, Default Fallback)Claude Opus 5.5 (Low, Default Fallback)GPT-6 Luna (Non-reasoning)GPT-6.1 Sol (Max)",
+          "+PrimaLabs performance results now available",
+          "+GLM 5.3 Flash",
+          "+04 Oct 2026",
+          "+OpenAI performance results now available",
+          "+GPT-6.1 Sol (Max)",
+          "-Kimi K3 (Low)GLM-5.3 (Low)DeepSeek V4.1 Flash (Non-reasoning)",
+          "+GLM-5.3 (Low)DeepSeek V4.1 Flash (Non-reasoning)",
+          "+Nebius performance results now available",
+          "+Kimi K3 (Low)",
+          "-Fireworks performance results now available",
+          "-DeepSeek V4.1 Flash (Max)",
+          "+Nebius performance results now available",
+          "+GLM-5.3 (Max)",
+          "+Nebius performance results now available",
+          "+DeepSeek V4 Pro 0813 (Non-reasoning)DeepSeek V4 Pro 0813 (Max)",
+          "-Fireworks performance results now available",
+          "-GLM-5.3 (Max)GLM 5.3 Flash",
+          "+Fireworks performance results now available",
+          "+GLM 5.3 Flash",
+          "-Kimi K3 (Max)DeepSeek V4 Flash 0731 (Max)",
+          "+DeepSeek V4 Flash 0731 (Max)"
+        ],
+        "leads": 1
+      },
+      {
+        "source_id": "semianalysis",
+        "name": "SemiAnalysis",
+        "group": "research",
+        "status": "ok",
+        "saved": 2,
+        "unchanged": 3,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 5,
+        "raw_path": "raw/2026-10-06/ea7f523ce91376d4ed34939ebb8cfcb6c9e09b861f4a88aa6e287fcca286b212.body",
+        "entries": 20,
+        "oldest_entry_at": "2026-08-19T01:32:08+00:00",
+        "candidates": 5,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "cisa",
+        "name": "CISA News",
+        "group": "government",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 2,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 2,
+        "raw_path": "raw/2026-10-06/770be9aa9ee52b6daa460f5651c71c9f6c15c4e9d7c2c2170624a406c66329dc.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-08-12T12:00:00+00:00",
+        "candidates": 2,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "nist",
+        "name": "NIST News",
+        "group": "government",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/3c37e7d331f1df00adc1189a57d3963ab9801d6f1a6616e38ee8e815be48c078.body",
+        "entries": 40,
+        "oldest_entry_at": "2025-12-11T12:00:00+00:00",
+        "filtered": 31,
+        "candidates": 0,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "bis",
+        "name": "US BIS News & Updates",
+        "group": "government",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/765b9523d2265aaf1249305476a7cc52ef85d03dcc02bf6a69f9dfb74738013a.body",
+        "links": 31,
+        "new_links": 1,
+        "leads": 1
+      },
+      {
+        "source_id": "miit",
+        "name": "工业和信息化部",
+        "group": "government",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/44452d3b9f8a754ffc1ae094f70db4404bcab3a2de45349fdf6dffcf5a2980fe.body",
+        "links": 21,
+        "new_links": 0,
+        "filtered": 0
+      },
+      {
+        "source_id": "spc",
+        "name": "最高人民法院",
+        "group": "government",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/3bbb16b10480ffd4291841b130a67916286707706ba38510a6fcdb01b89758b4.body",
+        "links": 81,
+        "new_links": 0,
+        "filtered": 0
+      },
+      {
+        "source_id": "mfa",
+        "name": "外交部例行记者会",
+        "group": "government",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/fb154df38cba9efb5e9cb756fd8d4ce10fac1686b505180072dc114b12c937ee.body",
+        "links": 35,
+        "new_links": 0
+      },
+      {
+        "source_id": "gov-cn-policy",
+        "name": "中国政府网 政策",
+        "group": "government",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/5e481c4d92fa028602083dcc72ee6961e44ef5817f285dd65717158842c8b287.body",
+        "links": 14,
+        "new_links": 0,
+        "filtered": 0
+      },
+      {
+        "source_id": "chongqing-dsjj",
+        "name": "重庆市大数据应用发展管理局",
+        "group": "government",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "robots.txt 不允许本采集器抓取，或无法读取 robots.txt"
+      },
+      {
+        "source_id": "nda",
+        "name": "国家数据局",
+        "group": "government",
+        "status": "needs-browser",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "reason": "站点要求 TLS 版本高于本机 Python（LibreSSL 2.8.3）支持范围，HTTP 采集失败"
+      },
+      {
+        "source_id": "techcrunch-ai",
+        "name": "TechCrunch AI",
+        "group": "media",
+        "status": "ok",
+        "saved": 12,
+        "unchanged": 8,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 20,
+        "raw_path": "raw/2026-10-06/1299306ddea6a8d30a83c30f0bcdd797aef8148a712b8d8f096b30b8e814c9e5.body",
+        "entries": 20,
+        "oldest_entry_at": "2026-10-02T21:09:14+00:00",
+        "candidates": 20,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "the-decoder",
+        "name": "The Decoder",
+        "group": "media",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>"
+      },
+      {
+        "source_id": "the-verge-ai",
+        "name": "The Verge AI",
+        "group": "media",
+        "status": "ok",
+        "saved": 10,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 10,
+        "raw_path": "raw/2026-10-06/687819c9d37ce9e0f413154d5f8b270c5b2f2706d91697b65bb315db4285556a.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-10-05T09:09:48-04:00",
+        "gap": {
+          "from": "2026-10-05T03:11:17.133903+00:00",
+          "to": "2026-10-05T09:09:48-04:00",
+          "detected_at": "2026-10-06T01:03:12.710239+00:00"
+        },
+        "candidates": 10,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "the-information",
+        "name": "The Information",
+        "group": "media",
+        "status": "ok",
+        "saved": 16,
+        "unchanged": 4,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 20,
+        "raw_path": "raw/2026-10-06/efda268ef9a80be430d515bd9d4a76623eac12e7d7c1b1d2435ea5c3911281ff.body",
+        "entries": 20,
+        "oldest_entry_at": "2026-10-02T17:17:07+00:00",
+        "candidates": 20,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "bloomberg-tech",
+        "name": "Bloomberg Technology",
+        "group": "media",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "robots.txt 不允许本采集器抓取，或无法读取 robots.txt"
+      },
+      {
+        "source_id": "ft-tech",
+        "name": "Financial Times Technology",
+        "group": "media",
+        "status": "ok",
+        "saved": 14,
+        "unchanged": 5,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 19,
+        "raw_path": "raw/2026-10-06/77fc5dd0b2b33d1e2dce353b8ed2410b4f4867a886632556bde057e8052faaaf.body",
+        "entries": 25,
+        "oldest_entry_at": "2026-10-03T04:00:39+00:00",
+        "filtered": 6,
+        "candidates": 19,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "ft-ai",
+        "name": "Financial Times AI",
+        "group": "media",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 25,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 25,
+        "raw_path": "raw/2026-10-06/93b1371609a16ebf0e3864c089b7ed005c698c2f14644d34ef83c8483cece2b5.body",
+        "entries": 25,
+        "oldest_entry_at": "2026-10-01T10:53:26+00:00",
+        "candidates": 25,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "nyt-tech",
+        "name": "New York Times Technology",
+        "group": "media",
+        "status": "ok",
+        "saved": 3,
+        "unchanged": 15,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 18,
+        "raw_path": "raw/2026-10-06/b10f613108d50a4f617424c9cacd103d0a1dd6f1b0261da4d742322351b71ade.body",
+        "entries": 27,
+        "oldest_entry_at": "2026-09-29T18:29:40+00:00",
+        "filtered": 9,
+        "candidates": 18,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "scmp-tech",
+        "name": "SCMP Tech",
+        "group": "media",
+        "status": "ok",
+        "saved": 1,
+        "unchanged": 36,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 37,
+        "raw_path": "raw/2026-10-06/c0c5a54519938b773d0f3531593ed7bead9d56818d15a77f166602d61ce60067.body",
+        "entries": 50,
+        "oldest_entry_at": "2026-09-24T10:05:00+00:00",
+        "filtered": 13,
+        "candidates": 37,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "mit-tech-review",
+        "name": "MIT Technology Review",
+        "group": "media",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "<urlopen error _ssl.c:1112: The handshake operation timed out>"
+      },
+      {
+        "source_id": "ars-ai",
+        "name": "Ars Technica AI",
+        "group": "media",
+        "status": "ok",
+        "saved": 3,
+        "unchanged": 17,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 20,
+        "raw_path": "raw/2026-10-06/b17170e63907f3049ab3d5dc272c6aff6dc20d38a845d09eb0ec892d8fb96884.body",
+        "entries": 20,
+        "oldest_entry_at": "2026-09-29T14:22:31+00:00",
+        "candidates": 20,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "toms-hardware",
+        "name": "Tom's Hardware",
+        "group": "media",
+        "status": "ok",
+        "saved": 18,
+        "unchanged": 14,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 32,
+        "raw_path": "raw/2026-10-06/3c106aacbc573847a124ad074f605caa6e5eed78714cfa3f8b79496367e69330.body",
+        "entries": 50,
+        "oldest_entry_at": "2026-10-03T12:30:00+00:00",
+        "filtered": 18,
+        "candidates": 32,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "qbitai",
+        "name": "量子位",
+        "group": "media",
+        "status": "ok",
+        "saved": 10,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 10,
+        "raw_path": "raw/2026-10-06/c1a0d71fcaedc6cd20a7358996b88e19a53598bf77ac79e3b8b65184bc038ec1.body",
+        "entries": 10,
+        "oldest_entry_at": "2026-10-02T07:34:15+00:00",
+        "gap": {
+          "from": "2026-10-02T03:11:08.927280+00:00",
+          "to": "2026-10-02T07:34:15+00:00",
+          "detected_at": "2026-10-06T01:03:35.978964+00:00"
+        },
+        "candidates": 10,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "huxiu",
+        "name": "虎嗅",
+        "group": "media",
+        "status": "failed",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "error": "The read operation timed out"
+      },
+      {
+        "source_id": "ithome",
+        "name": "IT之家",
+        "group": "media",
+        "status": "ok",
+        "saved": 16,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 16,
+        "raw_path": "raw/2026-10-06/4848bae585415df4f4b8704f88e57cbdef34b5c603ded88dbccf7bb59b258659.body",
+        "entries": 60,
+        "oldest_entry_at": "2026-10-05T09:56:25+00:00",
+        "gap": {
+          "from": "2026-10-02T03:11:09.402509+00:00",
+          "to": "2026-10-05T09:56:25+00:00",
+          "detected_at": "2026-10-06T01:03:47.065237+00:00"
+        },
+        "filtered": 44,
+        "candidates": 16,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "36kr",
+        "name": "36氪",
+        "group": "media",
+        "status": "ok",
+        "saved": 10,
+        "unchanged": 3,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 13,
+        "raw_path": "raw/2026-10-06/e46b3514cd1b3a5394da237e6bfa263a284c43833e9759984e48832fb5211fe9.body",
+        "entries": 30,
+        "oldest_entry_at": "2026-09-29T17:56:51+08:00",
+        "filtered": 17,
+        "candidates": 13,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "tmtpost",
+        "name": "钛媒体",
+        "group": "media",
+        "status": "ok",
+        "saved": 17,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 17,
+        "raw_path": "raw/2026-10-06/f15443a186a8c78e71a66b369e45e813be3799328780f19584f63b73e07d8c06.body",
+        "entries": 20,
+        "oldest_entry_at": "2026-10-05T08:15:42+08:00",
+        "gap": {
+          "from": "2026-10-02T03:12:33.515079+00:00",
+          "to": "2026-10-05T08:15:42+08:00",
+          "detected_at": "2026-10-06T01:03:46.399849+00:00"
+        },
+        "filtered": 3,
+        "candidates": 17,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "leiphone",
+        "name": "雷峰网",
+        "group": "media",
+        "status": "ok",
+        "saved": 4,
+        "unchanged": 16,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 20,
+        "raw_path": "raw/2026-10-06/6b05e8043019a6796c051ec2dcaf07440ff006e7a49031da564a81a810d22b30.body",
+        "entries": 20,
+        "oldest_entry_at": "2026-09-30T15:50:00+08:00",
+        "candidates": 20,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "geekpark",
+        "name": "极客公园",
+        "group": "media",
+        "status": "ok",
+        "saved": 7,
+        "unchanged": 23,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 30,
+        "raw_path": "raw/2026-10-06/34694fad758d8e02a3b83b8a067ee6a2d6bb08b95b617dbf1c9c63ad2845e639.body",
+        "entries": 30,
+        "oldest_entry_at": "2026-09-25T09:14:48+08:00",
+        "candidates": 30,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "zhidx",
+        "name": "智东西",
+        "group": "media",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 20,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 20,
+        "raw_path": "raw/2026-10-06/28c9f08082d4f5dcd41256a6da33a258b856c49fa53cc7f137f01a84745d9851.body",
+        "entries": 20,
+        "oldest_entry_at": "2026-09-29T07:30:55+08:00",
+        "candidates": 20,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "c114",
+        "name": "C114 通信网",
+        "group": "media",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/735ee028d8d316890ca48e96501b2f071fea432afb54c62fa242888b66ad0f3a.body",
+        "links": 30,
+        "new_links": 0,
+        "filtered": 0
+      },
+      {
+        "source_id": "mydrivers",
+        "name": "快科技（驱动之家）",
+        "group": "media",
+        "status": "ok",
+        "saved": 28,
+        "unchanged": 8,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 36,
+        "raw_path": "raw/2026-10-06/7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738.body",
+        "entries": 100,
+        "oldest_entry_at": "2026-10-04T20:31:05+08:00",
+        "filtered": 64,
+        "candidates": 36,
+        "listing_is_complete": false
+      },
+      {
+        "source_id": "jiqizhixin",
+        "name": "机器之心",
+        "group": "media",
+        "status": "needs-browser",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "reason": "无 RSS，首页跳转数据服务页；文章多首发公众号"
+      },
+      {
+        "source_id": "techmeme-river",
+        "name": "Techmeme River",
+        "group": "aggregator",
+        "status": "ok",
+        "saved": 0,
+        "unchanged": 0,
+        "unknown_date": 0,
+        "future_date": 0,
+        "truncated": 0,
+        "needs_fulltext": 0,
+        "raw_path": "raw/2026-10-06/c5f08e5ee7f8d422e74913fee060d4db906d72cc0b464a43f9b553c8aefaeba0.body",
+        "links": 72,
+        "new_links": 18,
+        "filtered": 5,
+        "leads": 10
+      }
+    ],
+    "selected_sources": [],
+    "due_only": false,
+    "lookback_days": 14,
+    "per_source_limit": 60
+  },
+  "packet_sha256": "c16ba4641e5e9e4f219d4fa61b5efde9a621b30486b9972d7fc3bd04858d1262",
+  "excluded": {
+    "undated": 1,
+    "future": 1,
+    "out_of_window": 1067
+  },
+  "packet_display_truncated": 7,
+  "overlapping_gaps": [
+    {
+      "from": "2026-10-02T03:11:09.402509+00:00",
+      "to": "2026-10-05T09:56:25+00:00",
+      "detected_at": "2026-10-06T01:03:47.065237+00:00",
+      "source_id": "ithome"
+    },
+    {
+      "from": "2026-10-05T03:11:17.133903+00:00",
+      "to": "2026-10-05T09:09:48-04:00",
+      "detected_at": "2026-10-06T01:03:12.710239+00:00",
+      "source_id": "the-verge-ai"
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "已读两篇本期官网正文：图像广告及文本溯源；HTTP抓取失败后通过网页工具取得正文并归档。帮助中心最新可见10月2日，未见本期release notes。仅覆盖公开渠道。"
+    },
+    {
+      "source_id": "openai-api-changelog",
+      "status": "checked",
+      "note": "采集并读10月5日差异：部分组织管理员可在设置接受标准BAA/启用HIPAA支持。只作为低优先级候选，未推断法律合规或所有账号可用。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "读取官方Newsroom近期日期列表，最新可见10月2日培训公告；本期未核实新的可精选事件。"
+    },
+    {
+      "source_id": "anthropic-research",
+      "status": "checked",
+      "note": "机器检查公开Research页面，结合官网入口筛选，未核实本窗口新研究；未逐篇重读既有文章。"
+    },
+    {
+      "source_id": "anthropic-sitemap",
+      "status": "checked",
+      "note": "官方站点地图采集成功，新链接仅为发现线索，未逐项读取所有外链。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "采集SSL失败后网页工具成功读取同一官方News页面；未核实本窗口新公告，故障与补查分开保留。"
+    },
+    {
+      "source_id": "deepseek-api-changelog",
+      "status": "checked",
+      "note": "采集SSL失败后网页工具读取官方更新页，最新可见9月10日V4.1 Flash；未见本窗口条目。"
+    },
+    {
+      "source_id": "deepseek-pricing",
+      "status": "checked",
+      "note": "机器快照价格页无变化；没有定位到本期的新调价证据，未覆盖私域通知或实际账单。"
+    },
+    {
+      "source_id": "deepseek-hf",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "网页工具与真实浏览器实际加载博客，仅得到导航和页脚；没有可读日期列表。官方HF及中英文域名补检索已查，不能据此断言千问无变化。"
+    },
+    {
+      "source_id": "qwen-hf",
+      "status": "checked",
+      "note": "官方HF近期列表扫描未形成本期合格发布证据；仓库元数据发现不等于正式模型发布。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "读取Kimi官方博客，最新可见K3/PerceptionBench为7月16日；公开列表未见本窗口新文，私域/灰度覆盖不足。"
+    },
+    {
+      "source_id": "kimi-hf",
+      "status": "checked",
+      "note": "官方HF公开列表已扫描，未核实本期可精选正式发布。"
+    },
+    {
+      "source_id": "zhipu",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "zhipu-cn",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "zhipu-hf",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "checked",
+      "note": "真实浏览器读取官方News完整可见列表，最新可见8月26日财务披露和8月3日H3；未见本窗口条目。"
+    },
+    {
+      "source_id": "minimax-hf",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "mistral",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "meta-newsroom",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "meta-ai-blog",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "deepmind",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "google-ai-blog",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "google-cloud-blog",
+      "status": "checked",
+      "note": "Modernize官方正文已读并归档，明确Quick Estimator GA与EKS→GKE Public Preview；客户节省数字未当独立测量。"
+    },
+    {
+      "source_id": "tencent-newsroom",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "tencent-hf",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "checked",
+      "note": "旧/en/blog返回404；从官网导航进入/en/research读取Research/Blog列表，最新可见8月5日博客，未见本期条目。来源配置和跟踪入口已修复。"
+    },
+    {
+      "source_id": "bytedance-seed-hf",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "checked",
+      "note": "网页工具未给出完整列表后真实浏览器读Press Room，最新可见9月23日、9月22日；未见本期合格条目。"
+    },
+    {
+      "source_id": "ant-hf",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "robbyant-hf",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "jd-hf",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "xiaomi-hf",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "openbmb-hf",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "网页工具读官方News，最新可见9月28日Team Bots；未见本窗口条目。"
+    },
+    {
+      "source_id": "nvidia-newsroom",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "nvidia-blog",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "amd-ir",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "amazon-news",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "checked",
+      "note": "读取官方新闻入口，10月5日华为许可公告未列入AI日报，尚无明确AI能力/部署成本增量证据；没有逐篇读所有地区新闻。"
+    },
+    {
+      "source_id": "samsung-newsroom",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "skhynix-newsroom",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "asml",
+      "status": "checked",
+      "note": "同一官方入口跳转投资者新闻，实际读取日期列表，最新可见9月8日公告，无本窗口条目。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "实际读取官方Latest News日期列表，最新可见9月10日营收，无本窗口条目。"
+    },
+    {
+      "source_id": "volantis",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "SSL采集失败后读官方GitHub release列表；未核实本窗口新正式版本。浏览可见列表与Atom更新时间并非统一发布口径，未推导性能变化。"
+    },
+    {
+      "source_id": "sglang-blog",
+      "status": "checked",
+      "note": "机器列表检查成功且页面未变；近期9月23日Unified Radix Cache不作为本期新闻。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "正式v0.31.0选题已读发布重点及API时间字段；确认10月5日published_at、prerelease=false，10月2日created_at不当作发布时间。未逐项读PR或跑分。"
+    },
+    {
+      "source_id": "vllm-blog",
+      "status": "checked",
+      "note": "robots采集失败后通过网页工具读取官方博客，最近可见9月29日文章；本期未核实新文章，采集失败仍保留。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "官方release Atom采集成功，未形成本窗口正式新版本证据；开发预览保持原身份，不将更新时间当首次发布。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "SSL采集失败后读官方release列表；本期没有核实新正式版本，rc保持预发布身份。列表可能为缓存，不据其推断全部发布完整性。"
+    },
+    {
+      "source_id": "mooncake",
+      "status": "checked",
+      "note": "官方release Atom采集成功，本窗口没有日期合格候选；不据此声称社区无开发变化。"
+    },
+    {
+      "source_id": "nvidia",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "pytorch-blog",
+      "status": "checked",
+      "note": "本期两篇正文已完整阅读，分别为硬件接入阶段综述和媒体架构分工；没有把历史进展当作当日全新能力。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "机器RSS robots失败；网页补查cs.AI/cs.LG/cs.DC近期列表与两篇v1摘要/历史。cs.AI只筛本日266条中的首50条；两篇按10月5日公告日而非10月2日提交日纳入，具体时刻未知。全文、其余分页/学科未完成。"
+    },
+    {
+      "source_id": "metr",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "uk-aisi",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "artificial-analysis",
+      "status": "failed",
+      "note": "SSL采集失败后网页工具仅得到简短页面壳，没有足够带日期文章正文；未采用评测数值。"
+    },
+    {
+      "source_id": "artificial-analysis-changelog",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "semianalysis",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "cisa",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "nist",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "bis",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "miit",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "spc",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "mfa",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "gov-cn-policy",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "chongqing-dsjj",
+      "status": "failed",
+      "note": "robots/采集失败后网页工具访问同一官方来源仍超时；不能写成无新闻。"
+    },
+    {
+      "source_id": "nda",
+      "status": "failed",
+      "note": "采集需浏览器；网页工具实际访问同一官网返回空正文，无法核查本期动态。"
+    },
+    {
+      "source_id": "techcrunch-ai",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "the-decoder",
+      "status": "checked",
+      "note": "采集握手超时后网页工具读取主页并筛选已有feed候选，单篇阅读全文覆盖有限；没有采用其摘要冒充一手证据。"
+    },
+    {
+      "source_id": "the-verge-ai",
+      "status": "checked",
+      "note": "本次feed恢复采集但历史gap与窗口重叠；Techmeme快照补查未取得可读内容，未弥补全部漏采。"
+    },
+    {
+      "source_id": "the-information",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "bloomberg-tech",
+      "status": "failed",
+      "note": "robots采集失败；网页工具得到数月前缓存页面，不能支持本期覆盖。付费全文未取得。"
+    },
+    {
+      "source_id": "ft-tech",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "ft-ai",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "nyt-tech",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "scmp-tech",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "mit-tech-review",
+      "status": "failed",
+      "note": "机器超时后网页工具访问同一站点仍失败，已停止重试。"
+    },
+    {
+      "source_id": "ars-ai",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "toms-hardware",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "qbitai",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "机器超时后网页工具访问同一来源仍失败；本期获取失败。"
+    },
+    {
+      "source_id": "ithome",
+      "status": "checked",
+      "note": "本次feed恢复采集但历史gap与窗口重叠；不能把成功采集理解为完整覆盖。起止见research-audit.json。"
+    },
+    {
+      "source_id": "36kr",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "tmtpost",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "leiphone",
+      "status": "checked",
+      "note": "本次feed采集成功并初筛；网页全文补查超时，未逐篇读全文。"
+    },
+    {
+      "source_id": "geekpark",
+      "status": "checked",
+      "note": "本次feed采集成功并初筛；网页全文补查超时，未逐篇读全文。"
+    },
+    {
+      "source_id": "zhidx",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "c114",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "mydrivers",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "网页工具读取首页只有PRO/介绍/导航，未取得可审阅的本期文章列表；公众号覆盖不足。"
+    },
+    {
+      "source_id": "techmeme-river",
+      "status": "checked",
+      "note": "机器采集近期公开条目并初筛标题/已有feed正文；未逐篇阅读全文，未核实可精选新事件。"
+    },
+    {
+      "source_id": "reflection",
+      "status": "checked",
+      "note": "已读官网Beam文本全文（搜索工具返回正文），有限预览与未来权重发布分开；未读完整技术报告或评测harness。"
+    },
+    {
+      "source_id": "namespace",
+      "status": "checked",
+      "note": "已读官网融资正文与主体页脚，核实4,200万美元B轮/累计6,500万美元及开发基础设施产品；没有推算ARR。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "执行10月4–5日路透域名AI/芯片/公司检索，未取得可精选的本期一手新证据，不代表路透无报道。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "执行本期Bloomberg发现检索；付费全文及当前主页获取不足，未采用其融资摘要作为确认事实。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "执行本期FT/NYT/WSJ检索；NYT robots与付费正文限制，原始融资/供给细节未充分核实。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "已执行中英文OpenAI/Anthropic/DeepSeek/Qwen/Kimi及中文新公司检索，结果含大量旧索引；私域、公众号与灰度渠道未完成。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "按本期执行中国AI政策域名检索；国家数据局/重庆数据局部分入口失败，没有足够新原文支撑精选。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "执行本期GPU/HBM/产能中文检索；媒体供给数量与交易规模未回查到足够一手资料，未作为事实。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "执行本期世界模型/具身融资检索；Reactor投资加入线索与旧轮次关系未核实，Mistlabs页面日期冲突，未采用。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "按本期执行HBM/CoWoS/GPU英文检索；Tencent/Oracle及Anthropic/Broadcom媒体线索原始合同/披露未取得，不列确证新闻。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "实际打开xAI/高通/ASML/TSMC官方入口，并用真实浏览器补阿里云/MiniMax/Seed/Qwen；Qwen仍无可读日期列表。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "执行中英文10月4–5日AI新公司/融资发现检索，Namespace和Reflection取得官网主体/产品与日期支持并加入跟踪。Reactor/聚合融资页只作为候选，不把媒体数量当独立证实。"
+    }
+  ],
+  "unresolved_source_ids": [
+    "artificial-analysis",
+    "bloomberg-tech",
+    "chongqing-dsjj",
+    "huxiu",
+    "jiqizhixin",
+    "mit-tech-review",
+    "nda",
+    "qwen"
+  ],
+  "knowledge": {
+    "new": 13,
+    "updated": 0,
+    "paths": [
+      "reference/sources/openai-chatgpt-visual-ads-20261005.md",
+      "reference/sources/openai-text-provenance-20261005.md",
+      "reference/sources/google-cloud-modernize-20261005.md",
+      "reference/sources/namespace-series-b-20261005.md",
+      "reference/sources/reflection-beam-preview-20261005.md",
+      "reference/sources/vllm-v0310-20261005.md",
+      "reference/sources/pytorch-hardware-enablement-20261005.md",
+      "reference/sources/pytorch-media-landscape-20261005.md",
+      "reference/papers/jil-length-scheduling-2610-03430.md",
+      "reference/papers/recursive-harness-synthesis-2610-03548.md",
+      "reference/entities/namespace.md",
+      "reference/entities/reflection.md",
+      "research/synthesis/agent-execution-stack-20261005.md"
+    ],
+    "query_trace": [
+      {
+        "path": "reference/sources/openai-chatgpt-visual-ads-20261005.md",
+        "id": "source-openai-chatgpt-visual-ads-20261005",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+            "resolution": {
+              "status": "external",
+              "target": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "source-openai-albertsons-retail-20261001",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/openai-albertsons-retail-20261001.md",
+              "target": "source-openai-albertsons-retail-20261001"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "source",
+            "target": "raw/2026-10-06/e8f0ccd8b72a7ea89d50688931b15e6419b3fd262a0eac28b7f2485d86134fdb.txt",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/e8f0ccd8b72a7ea89d50688931b15e6419b3fd262a0eac28b7f2485d86134fdb.txt",
+              "target": "raw/2026-10-06/e8f0ccd8b72a7ea89d50688931b15e6419b3fd262a0eac28b7f2485d86134fdb.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "url",
+            "target": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+            "resolution": {
+              "status": "external",
+              "target": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/e8f0ccd8b72a7ea89d50688931b15e6419b3fd262a0eac28b7f2485d86134fdb.txt",
+            "locator": "正文 New ad formats / Improving measurement / 品牌安全与隐私说明；本月稍晚测试范围。",
+            "version": "sha256:e8f0ccd8b72a7ea89d50688931b15e6419b3fd262a0eac28b7f2485d86134fdb",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/e8f0ccd8b72a7ea89d50688931b15e6419b3fd262a0eac28b7f2485d86134fdb.txt",
+              "target": "raw/2026-10-06/e8f0ccd8b72a7ea89d50688931b15e6419b3fd262a0eac28b7f2485d86134fdb.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+            "resolution": {
+              "status": "external",
+              "target": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/sources/openai-text-provenance-20261005.md",
+        "id": "source-openai-text-provenance-20261005",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://openai.com/index/eu-text-provenance",
+            "resolution": {
+              "status": "external",
+              "target": "https://openai.com/index/eu-text-provenance"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "source",
+            "target": "raw/2026-10-06/ef99c658bb514ceaca6ca420c2cc2f26aa92ae3d8fe02d5b754b3f9677b5a3d5.txt",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/ef99c658bb514ceaca6ca420c2cc2f26aa92ae3d8fe02d5b754b3f9677b5a3d5.txt",
+              "target": "raw/2026-10-06/ef99c658bb514ceaca6ca420c2cc2f26aa92ae3d8fe02d5b754b3f9677b5a3d5.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "url",
+            "target": "https://openai.com/index/eu-text-provenance",
+            "resolution": {
+              "status": "external",
+              "target": "https://openai.com/index/eu-text-provenance"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/ef99c658bb514ceaca6ca420c2cc2f26aa92ae3d8fe02d5b754b3f9677b5a3d5.txt",
+            "locator": "正文 Rollout / How textGrain works / Detection limitations / 适用范围与FAQ。",
+            "version": "sha256:ef99c658bb514ceaca6ca420c2cc2f26aa92ae3d8fe02d5b754b3f9677b5a3d5",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/ef99c658bb514ceaca6ca420c2cc2f26aa92ae3d8fe02d5b754b3f9677b5a3d5.txt",
+              "target": "raw/2026-10-06/ef99c658bb514ceaca6ca420c2cc2f26aa92ae3d8fe02d5b754b3f9677b5a3d5.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://openai.com/index/eu-text-provenance",
+            "resolution": {
+              "status": "external",
+              "target": "https://openai.com/index/eu-text-provenance"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/sources/google-cloud-modernize-20261005.md",
+        "id": "source-google-cloud-modernize-20261005",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/",
+            "resolution": {
+              "status": "external",
+              "target": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "source",
+            "target": "raw/2026-10-06/f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163.body",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163.body",
+              "target": "raw/2026-10-06/f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "url",
+            "target": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/",
+            "resolution": {
+              "status": "external",
+              "target": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163.body",
+            "locator": "Agentic infrastructure assessment；Automated container transitions to GKE；Application modernization with Modernization Hub。",
+            "version": "sha256:f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163.body",
+              "target": "raw/2026-10-06/f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/",
+            "resolution": {
+              "status": "external",
+              "target": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/sources/namespace-series-b-20261005.md",
+        "id": "source-namespace-series-b-20261005",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://namespace.so/blog/series-b",
+            "resolution": {
+              "status": "external",
+              "target": "https://namespace.so/blog/series-b"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "entity-namespace",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/entities/namespace.md",
+              "target": "entity-namespace"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "source",
+            "target": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt",
+              "target": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "url",
+            "target": "https://namespace.so/blog/series-b",
+            "resolution": {
+              "status": "external",
+              "target": "https://namespace.so/blog/series-b"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt",
+            "locator": "融资开篇；The next 100 billion commits；Investing in Mac at any scale；公司页脚。",
+            "version": "sha256:7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt",
+              "target": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://namespace.so/blog/series-b",
+            "resolution": {
+              "status": "external",
+              "target": "https://namespace.so/blog/series-b"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/sources/reflection-beam-preview-20261005.md",
+        "id": "source-reflection-beam-preview-20261005",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://reflection.ai/blog/introducing-beam",
+            "resolution": {
+              "status": "external",
+              "target": "https://reflection.ai/blog/introducing-beam"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "entity-reflection",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/entities/reflection.md",
+              "target": "entity-reflection"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "source",
+            "target": "raw/2026-10-06/151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba.txt",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba.txt",
+              "target": "raw/2026-10-06/151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "url",
+            "target": "https://reflection.ai/blog/introducing-beam",
+            "resolution": {
+              "status": "external",
+              "target": "https://reflection.ai/blog/introducing-beam"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba.txt",
+            "locator": "模型结构与 inference compute 解释；The Path Ahead。",
+            "version": "sha256:151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba.txt",
+              "target": "raw/2026-10-06/151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://reflection.ai/blog/introducing-beam",
+            "resolution": {
+              "status": "external",
+              "target": "https://reflection.ai/blog/introducing-beam"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/sources/vllm-v0310-20261005.md",
+        "id": "source-vllm-v0310-20261005",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 2,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+            "resolution": {
+              "status": "external",
+              "target": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://api.github.com/repos/vllm-project/vllm/releases/tags/v0.31.0",
+            "resolution": {
+              "status": "external",
+              "target": "https://api.github.com/repos/vllm-project/vllm/releases/tags/v0.31.0"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "paper-shared-kv-cache-provenance-2609-38706",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/papers/shared-kv-cache-provenance-2609-38706.md",
+              "target": "paper-shared-kv-cache-provenance-2609-38706"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "source",
+            "target": "raw/2026-10-06/1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2.body",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2.body",
+              "target": "raw/2026-10-06/1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "url",
+            "target": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+            "resolution": {
+              "status": "external",
+              "target": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2.body",
+            "locator": "Highlights；preload / CRIU；prefix cache LoRA/cache_salt；Breaking Changes；GitHub Releases API日期字段。",
+            "version": "sha256:1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2.body",
+              "target": "raw/2026-10-06/1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/cdfacf1745591eaf542346409a1eb541dede1449bc7a9c2ff6ac32cea9f76f3b.json",
+            "locator": "tag_name; created_at; published_at; updated_at; prerelease",
+            "version": "sha256:cdfacf1745591eaf542346409a1eb541dede1449bc7a9c2ff6ac32cea9f76f3b",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/cdfacf1745591eaf542346409a1eb541dede1449bc7a9c2ff6ac32cea9f76f3b.json",
+              "target": "raw/2026-10-06/cdfacf1745591eaf542346409a1eb541dede1449bc7a9c2ff6ac32cea9f76f3b.json"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0",
+            "resolution": {
+              "status": "external",
+              "target": "https://github.com/vllm-project/vllm/releases/tag/v0.31.0"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/sources/pytorch-hardware-enablement-20261005.md",
+        "id": "source-pytorch-hardware-enablement-20261005",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group/",
+            "resolution": {
+              "status": "external",
+              "target": "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group/"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "source",
+            "target": "raw/2026-10-06/b4b65d726d8bab7df0f5d2d3ddf81a6d634b4daa0dce5d861c153350389114d2.body",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/b4b65d726d8bab7df0f5d2d3ddf81a6d634b4daa0dce5d861c153350389114d2.body",
+              "target": "raw/2026-10-06/b4b65d726d8bab7df0f5d2d3ddf81a6d634b4daa0dce5d861c153350389114d2.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "url",
+            "target": "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group/",
+            "resolution": {
+              "status": "external",
+              "target": "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group/"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/b4b65d726d8bab7df0f5d2d3ddf81a6d634b4daa0dce5d861c153350389114d2.body",
+            "locator": "Cross-Repository CI；Device-Agnostic Testing；PrivateUse1/OpenReg；OCCL及结尾路线。",
+            "version": "sha256:b4b65d726d8bab7df0f5d2d3ddf81a6d634b4daa0dce5d861c153350389114d2",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/b4b65d726d8bab7df0f5d2d3ddf81a6d634b4daa0dce5d861c153350389114d2.body",
+              "target": "raw/2026-10-06/b4b65d726d8bab7df0f5d2d3ddf81a6d634b4daa0dce5d861c153350389114d2.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group/",
+            "resolution": {
+              "status": "external",
+              "target": "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group/"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/sources/pytorch-media-landscape-20261005.md",
+        "id": "source-pytorch-media-landscape-20261005",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape/",
+            "resolution": {
+              "status": "external",
+              "target": "https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape/"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "source",
+            "target": "raw/2026-10-06/25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c.body",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c.body",
+              "target": "raw/2026-10-06/25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "url",
+            "target": "https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape/",
+            "resolution": {
+              "status": "external",
+              "target": "https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape/"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c.body",
+            "locator": "Main media-processing分工；TorchCodec；API保留与弃用；ABI与独立发布安排。",
+            "version": "sha256:25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c.body",
+              "target": "raw/2026-10-06/25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape/",
+            "resolution": {
+              "status": "external",
+              "target": "https://pytorch.org/blog/evolution-of-the-pytorch-media-processing-landscape/"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/papers/jil-length-scheduling-2610-03430.md",
+        "id": "paper-jil-length-scheduling-2610-03430",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://arxiv.org/abs/2610.03430",
+            "resolution": {
+              "status": "external",
+              "target": "https://arxiv.org/abs/2610.03430"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "paper-shared-kv-cache-provenance-2609-38706",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/papers/shared-kv-cache-provenance-2609-38706.md",
+              "target": "paper-shared-kv-cache-provenance-2609-38706"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "source",
+            "target": "raw/2026-10-06/1272bc7de6ceb8f2c0bad11668e141ae88e4a7b1f87dc951959f6b05f3019ba5.txt",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/1272bc7de6ceb8f2c0bad11668e141ae88e4a7b1f87dc951959f6b05f3019ba5.txt",
+              "target": "raw/2026-10-06/1272bc7de6ceb8f2c0bad11668e141ae88e4a7b1f87dc951959f6b05f3019ba5.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "url",
+            "target": "https://arxiv.org/abs/2610.03430",
+            "resolution": {
+              "status": "external",
+              "target": "https://arxiv.org/abs/2610.03430"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/1272bc7de6ceb8f2c0bad11668e141ae88e4a7b1f87dc951959f6b05f3019ba5.txt",
+            "locator": "arXiv:2610.03430v1 Abstract与Submission history；cs.AI recent Mon,5 Oct分组第17条。",
+            "version": "sha256:1272bc7de6ceb8f2c0bad11668e141ae88e4a7b1f87dc951959f6b05f3019ba5",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/1272bc7de6ceb8f2c0bad11668e141ae88e4a7b1f87dc951959f6b05f3019ba5.txt",
+              "target": "raw/2026-10-06/1272bc7de6ceb8f2c0bad11668e141ae88e4a7b1f87dc951959f6b05f3019ba5.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://arxiv.org/abs/2610.03430",
+            "resolution": {
+              "status": "external",
+              "target": "https://arxiv.org/abs/2610.03430"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://arxiv.org/list/cs.AI/recent",
+            "resolution": {
+              "status": "external",
+              "target": "https://arxiv.org/list/cs.AI/recent"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/papers/recursive-harness-synthesis-2610-03548.md",
+        "id": "paper-recursive-harness-synthesis-2610-03548",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "https://arxiv.org/abs/2610.03548",
+            "resolution": {
+              "status": "external",
+              "target": "https://arxiv.org/abs/2610.03548"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "paper-rrsi-agent-harnesses-2609-24972",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/papers/rrsi-agent-harnesses-2609-24972.md",
+              "target": "paper-rrsi-agent-harnesses-2609-24972"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "source",
+            "target": "raw/2026-10-06/22bc08a0ead1f6cb890dc4914980cf682c4a7fc8e192dcadf36264fe3451fe87.txt",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/22bc08a0ead1f6cb890dc4914980cf682c4a7fc8e192dcadf36264fe3451fe87.txt",
+              "target": "raw/2026-10-06/22bc08a0ead1f6cb890dc4914980cf682c4a7fc8e192dcadf36264fe3451fe87.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "url",
+            "target": "https://arxiv.org/abs/2610.03548",
+            "resolution": {
+              "status": "external",
+              "target": "https://arxiv.org/abs/2610.03548"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/22bc08a0ead1f6cb890dc4914980cf682c4a7fc8e192dcadf36264fe3451fe87.txt",
+            "locator": "arXiv:2610.03548v1 Abstract与Submission history；cs.AI recent Mon,5 Oct分组第12条。",
+            "version": "sha256:22bc08a0ead1f6cb890dc4914980cf682c4a7fc8e192dcadf36264fe3451fe87",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/22bc08a0ead1f6cb890dc4914980cf682c4a7fc8e192dcadf36264fe3451fe87.txt",
+              "target": "raw/2026-10-06/22bc08a0ead1f6cb890dc4914980cf682c4a7fc8e192dcadf36264fe3451fe87.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://arxiv.org/abs/2610.03548",
+            "resolution": {
+              "status": "external",
+              "target": "https://arxiv.org/abs/2610.03548"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "https://arxiv.org/list/cs.AI/recent",
+            "resolution": {
+              "status": "external",
+              "target": "https://arxiv.org/list/cs.AI/recent"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/entities/namespace.md",
+        "id": "entity-namespace",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "source-namespace-series-b-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/namespace-series-b-20261005.md",
+              "target": "source-namespace-series-b-20261005"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "source-namespace-series-b-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/namespace-series-b-20261005.md",
+              "target": "source-namespace-series-b-20261005"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "note-agent-execution-stack-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "research/synthesis/agent-execution-stack-20261005.md",
+              "target": "note-agent-execution-stack-20261005"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt",
+            "locator": "融资开篇；The next 100 billion commits；Investing in Mac at any scale；公司页脚。",
+            "version": "sha256:7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt",
+              "target": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "reference/sources/namespace-series-b-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/namespace-series-b-20261005.md",
+              "target": "reference/sources/namespace-series-b-20261005"
+            }
+          }
+        ]
+      },
+      {
+        "path": "reference/entities/reflection.md",
+        "id": "entity-reflection",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 1,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "source-reflection-beam-preview-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/reflection-beam-preview-20261005.md",
+              "target": "source-reflection-beam-preview-20261005"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "source-reflection-beam-preview-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/reflection-beam-preview-20261005.md",
+              "target": "source-reflection-beam-preview-20261005"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "note-agent-execution-stack-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "research/synthesis/agent-execution-stack-20261005.md",
+              "target": "note-agent-execution-stack-20261005"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba.txt",
+            "locator": "模型结构与 inference compute 解释；The Path Ahead。",
+            "version": "sha256:151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba.txt",
+              "target": "raw/2026-10-06/151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "reference/sources/reflection-beam-preview-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/reflection-beam-preview-20261005.md",
+              "target": "reference/sources/reflection-beam-preview-20261005"
+            }
+          }
+        ]
+      },
+      {
+        "path": "research/synthesis/agent-execution-stack-20261005.md",
+        "id": "note-agent-execution-stack-20261005",
+        "lifecycle": "published",
+        "query_visible": true,
+        "evidence_hashes_checked": 4,
+        "references": [
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "source-google-cloud-modernize-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/google-cloud-modernize-20261005.md",
+              "target": "source-google-cloud-modernize-20261005"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "source-namespace-series-b-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/namespace-series-b-20261005.md",
+              "target": "source-namespace-series-b-20261005"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "source-vllm-v0310-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/vllm-v0310-20261005.md",
+              "target": "source-vllm-v0310-20261005"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "sources",
+            "target": "source-pytorch-media-landscape-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/pytorch-media-landscape-20261005.md",
+              "target": "source-pytorch-media-landscape-20261005"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "entity-namespace",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/entities/namespace.md",
+              "target": "entity-namespace"
+            }
+          },
+          {
+            "kind": "navigation",
+            "field": "related",
+            "target": "entity-reflection",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/entities/reflection.md",
+              "target": "entity-reflection"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163.body",
+            "locator": "Agentic infrastructure assessment；Automated container transitions to GKE；Application modernization with Modernization Hub。",
+            "version": "sha256:f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163.body",
+              "target": "raw/2026-10-06/f1f1c87e75b3dd79ceabde1b1f27f2efd24abbf721955362195b0871811ea163.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt",
+            "locator": "融资开篇；The next 100 billion commits；Investing in Mac at any scale；公司页脚。",
+            "version": "sha256:7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt",
+              "target": "raw/2026-10-06/7c3eddd6fe322bcad6b172f5a29aa4701c6d8476ae7966e67f65ec17f1b11d12.txt"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2.body",
+            "locator": "Highlights；preload / CRIU；prefix cache LoRA/cache_salt；Breaking Changes；GitHub Releases API日期字段。",
+            "version": "sha256:1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2.body",
+              "target": "raw/2026-10-06/1e1680bd37d2419704f7ee1bb782c9a80756a5b0b9032ae88722fc91acf5e7c2.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "evidence",
+            "target": "raw/2026-10-06/25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c.body",
+            "locator": "Main media-processing分工；TorchCodec；API保留与弃用；ABI与独立发布安排。",
+            "version": "sha256:25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c",
+            "resolution": {
+              "status": "raw",
+              "path": "raw/2026-10-06/25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c.body",
+              "target": "raw/2026-10-06/25eae7a91926a6101dedeed38f43a2bd8882a4032f9f0ce75bd596eac484e24c.body"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "reference/sources/google-cloud-modernize-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/google-cloud-modernize-20261005.md",
+              "target": "reference/sources/google-cloud-modernize-20261005"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "reference/sources/namespace-series-b-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/namespace-series-b-20261005.md",
+              "target": "reference/sources/namespace-series-b-20261005"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "reference/sources/vllm-v0310-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/vllm-v0310-20261005.md",
+              "target": "reference/sources/vllm-v0310-20261005"
+            }
+          },
+          {
+            "kind": "evidence",
+            "field": "body",
+            "target": "reference/sources/pytorch-media-landscape-20261005",
+            "resolution": {
+              "status": "resolved",
+              "path": "reference/sources/pytorch-media-landscape-20261005.md",
+              "target": "reference/sources/pytorch-media-landscape-20261005"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "duplicate_skipped": [
+    "先前已发布的OpenAI Den/Albertsons/Barclays/Halluminate等没有新证据，不重复建页",
+    "旧日期资料与日历索引重发不作为本期事件"
+  ],
+  "uncompleted": [
+    {
+      "candidate": "Reactor Series A investor additions",
+      "reason": "本期原始公告日期与先前轮次关系未核实，未合并为新融资金额"
+    },
+    {
+      "candidate": "Mistlabs aggregated funding",
+      "reason": "10月5日条目与未来10月12日日期冲突，需官方公告"
+    },
+    {
+      "candidate": "Tencent/Oracle; Anthropic/Broadcom funding/supply",
+      "reason": "未取得足够本期一手合同/融资/供给披露，媒体摘要不充当全文"
+    },
+    {
+      "candidate": "论文全文/性能比较",
+      "reason": "仅摘要与版本公告已读，实验口径未全核实"
+    }
+  ],
+  "commit_scope": {
+    "selected_path_count": 492,
+    "baseline_dependency_paths": [
+      "data/archive-records/c8f7e717f1904b6e9942bad7c05bf158.json",
+      "data/articles/fbdd54c7b12b4de455e0.json"
+    ],
+    "excluded_unchanged_tracked_edits": [],
+    "ignored_not_forced": [],
+    "note": "只纳入本期页面、报告、配置/导航/索引/日志及本期packet/raw证据依赖；初始其他改动保留。候选快照不要求纳入未改变的旧article文件。"
+  }
+}

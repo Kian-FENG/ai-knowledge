@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/reflection-ai-announces-first-open-source-model-beam",
+  "title": "Reflection AI Announces First Open Source Model, Beam",
+  "text": "Reflection AI, a 2-year old Nvidia-backed startup, announced its first open-weight model, adding to a collection of U.S. competitors aiming to catch up to the performance of similarly free models from China.\nIn its announcement Monday, Reflection said it is still evaluating and testing the ...",
+  "published_at": "2026-10-05T21:22:36+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-05T21:25:45+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "fc589e0ed828438a430a",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-06/efda268ef9a80be430d515bd9d4a76623eac12e7d7c1b1d2435ea5c3911281ff.body",
+  "source_sha256": "efda268ef9a80be430d515bd9d4a76623eac12e7d7c1b1d2435ea5c3911281ff",
+  "fetched_at": "2026-10-06T01:03:12.735672+00:00"
+}

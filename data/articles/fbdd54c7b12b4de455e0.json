@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/09/29/technology/dorm-room-fund-ai-investment.html",
+  "title": "College Students Flex Their Power in A.I. Investment Frenzy",
+  "text": "Dorm Room Fund, a program that lets college students invest in their peers, raised a new $50 million fund as the competition for young founders ramps up.",
+  "published_at": "2026-10-05T20:32:39+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "fbdd54c7b12b4de455e0",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-06/b10f613108d50a4f617424c9cacd103d0a1dd6f1b0261da4d742322351b71ade.body",
+  "source_sha256": "b10f613108d50a4f617424c9cacd103d0a1dd6f1b0261da4d742322351b71ade",
+  "fetched_at": "2026-10-06T01:03:26.043542+00:00"
+}

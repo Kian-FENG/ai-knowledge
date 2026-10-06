@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155438.htm",
+  "title": "8卡RTX PRO 6000！映众发布6U GPU服务器：双至强+32条DDR5",
+  "text": "快科技10月5日消息，映众（INNO3D）今日正式发布AGS-6220V2 6U机架式GPU服务器，面向企业级AI训练、推理、高性能计算、数据分析与可视化负载，定位为可扩展的企业级AI基础设施平台。\n处理器方面，该平台搭载双路第五代英特尔至强可扩展处理器（Emeralds Rapids-SP），每颗CPU支持8通道2DPC内存，整机提供32条DDR5 RDIMM插槽，为大规模AI模型训练与数据密集型任务提供充足的内存带宽与容量。\n整机配备8条PCIe 5.0 x16插槽，可搭载英伟达RTX PRO 6000 Blackwell服务器版GPU，用于加速AI推理、仿真模拟与高性能计算等场景。\n网络与存储配置同样拉满。整机提供双25GbE网络接口，以及12个前置可热插拔NVMe/SSD硬盘位，满足高速数据吞吐与大容量存储的双重需求。\n供电系统采用4颗2700W CRPS电源，按3+1冗余配置，转换效率达80 Plus钛金级认证。\n散热由16颗8054双转子滚珠轴承风扇组成，支持热插拔，保障长时间高负载运行的稳定性。\n映众表示，AGS-6220V2将企业级GPU加速能力、高速网络与可扩展架构整合在一起，帮助各类组织更有信心地部署和扩展AI驱动的工作负载，覆盖从AI研究到高级仿真的多种场景。\n截至目前，映众尚未公布AGS-6220V2的官方定价。",
+  "published_at": "2026-10-05T15:51:10+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c1654318d222010ad4bd",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-06/7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738.body",
+  "source_sha256": "7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738",
+  "fetched_at": "2026-10-06T01:04:01.398216+00:00"
+}

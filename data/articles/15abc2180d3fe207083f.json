@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/video-games/pc-gaming/wolverine-ps5-exclusive-ported-to-pc-in-buggy-solo-project-using-ai-source-code-was-taken-from-sony-2023-ransomware-attack",
+  "title": "Wolverine PS5 exclusive ported to PC in buggy solo project using AI",
+  "text": "Thanks to a Rhysida ransomware attack in December 2023 aimed at Sony and Insomniac, the 1.7 TB of data stolen contained an early version of Wolverine. The source code of the leaked PS5 exclusive paved the way for u/Clean-Market5761 to create their own PC port.pcmasterrace from r/pcmasterrace/comments/1wy0gwr/marvels_wolverine_pc_native_port_experiment\nIt is currently a buggy mess; textures are missing, and Wolverine’s whole head is missing from multiple screenshots. Ironically, there is another screenshot where only Wolverine’s head is present, with no body in sight. The developer claims that neither KytyPS5 nor AnyPS5 were used, like in a recent story of Wolverine on KytyPS5. The developer says that the 2023 leak was key to understanding how they could generate a PC executable program.\nSkeptics are claiming the developer’s screenshots are fake and from the old 2023 build; one claims they were able to port Wolverine to PC before u/Clean-Market5761, but the developer argues the screenshots are from a Jailbroken PS5 in dev mode. The developer further defends himself by comparing screenshots of Wolverine’s appearance in the 2023 leak versus their assets.\nThe developer has admitted to using AI for assistance in creating scripts and automated asset conversion, but trial and error were done manually. u/Clean-Market5761 further elaborates that the playable character doesn’t have a head because they haven’t ported over the PS5 shader library to render the hair, and it freezes the game. They have disabled the whole head asset, focusing on getting the game to run and become “playable.”\nAs excited commenters are about the port and the work of the developer, they are not thrilled about Wolverine itself. One commenter applauds the dev, but says, “You can keep it, though.”Comment from r/pcmasterrace\nThe PS5 exclusive has not been received well, being regarded as an “interactive movie.” A viral video shows a motorcycle chase scene completing itself without any player input, with Wolverine riding along walls, seemingly with no way to crash or fail the segment. Other instances show Quick-Time Events completing themselves if the player chooses not to press any buttons. Players feel the game is making it too easy and holding their hand too much.\nEven if there were an official port of Wolverine, it seems likely that the game itself isn’t attractive to players.",
+  "published_at": "2026-10-05T11:46:28+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "15abc2180d3fe207083f",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-06/3c106aacbc573847a124ad074f605caa6e5eed78714cfa3f8b79496367e69330.body",
+  "source_sha256": "3c106aacbc573847a124ad074f605caa6e5eed78714cfa3f8b79496367e69330",
+  "fetched_at": "2026-10-06T01:03:40.886166+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/nvidia-rethinking-revenue-sharing-deals-cloud-firms",
+  "title": "Nvidia Is Rethinking Its Revenue-Sharing Deals with Cloud Firms",
+  "text": "Nvidia is reconsidering the structure of an initiative it announced earlier this summer, the AI Compute Partnership, to provide credit support to AI cloud providers that rent out Nvidia chips, in exchange for a cut of those rental revenues, The Information reported Monday. People involved in the ...",
+  "published_at": "2026-10-05T21:56:05+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-05T21:56:05+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0a4ae47fb556235aac48",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-06/efda268ef9a80be430d515bd9d4a76623eac12e7d7c1b1d2435ea5c3911281ff.body",
+  "source_sha256": "efda268ef9a80be430d515bd9d4a76623eac12e7d7c1b1d2435ea5c3911281ff",
+  "fetched_at": "2026-10-06T01:03:12.735672+00:00"
+}

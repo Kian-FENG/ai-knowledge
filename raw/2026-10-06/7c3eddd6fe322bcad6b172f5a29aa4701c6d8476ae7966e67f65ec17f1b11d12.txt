@@ -1,0 +1,77 @@
+Announcing our $42M Series B (https://namespace.so/blog/series-b)
+citeturn19view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn10view0","lineno":null}); Total lines: 119
+L0: cite0†Namespace Blog L1: # Announcing our $42M Series B
+L2: 
+L3: cite1†Image: banner L4: 
+L5: cite2†Image: Hugo Santos Hugo Santos
+L6: 
+L7: ·October 5, 2026
+L8: 
+L9: 2 MIN READ·
+L10: 
+L11: We recently closed a $42 million Series B round led by Scale Venture Partners, with participation from NEA, 20VC, Essence, Burst Capital, Susa Ventures, and notable angel investors including Olivier Pomel (CEO of Datadog). Just seven months ago, we raised our cite3†Series A funding , which was led by NEA. Our Series B brings our total funding to $65 million.
+L12: 
+L13: cite4†Image Watch Video
+L14: We plan to use the funds to accelerate product development and expand our data centers. The expansion comes as customer demand has surged, with our total revenue growing 8x over the last 12 months. Today, we power software development for more than 1,000 of the world's most ambitious companies, including:
+L15: 
+L16: cite5†Image: Ramp L17: 
+L18: cite6†Image: SpaceXAI L19: 
+L20: cite7†Image: ElevenLabs L21: 
+L22: cite8†Image: Factory L23: 
+L24: cite9†Image: ClassPass L25: 
+L26: cite10†Image: Flow L27: 
+L28: cite11†Image: Bilt L29: 
+L30: cite12†Image: Framer L31: 
+L32: cite13†Image: Zed L33: 
+L34: cite14†Image: Verkada L35: cite15†Image: fal.ai L36: 
+L37: cite16†Image: Buildkite L38: 
+L39: cite17†Image: Vanta L40: 
+L41: cite18†Image: Sierra L42: 
+L43: cite19†Image: Warp L44: 
+L45: cite20†Image: DuckDB L46: 
+L47: cite21†Image: Effect L48: 
+L49: cite22†Image: Mapbox L50: ## The next 100 billion commits
+L51: 
+L52: Coding agents mean the next 100 billion commits are arriving faster than anyone planned for, and they need infrastructure built for one thing: performance. Hyperscalers like AWS and GCP optimize for production workloads, not for the coding, build, and test environments that agents depend on.
+L53: > “The use of agents in software development challenges the tradeoff assumptions made by prior generations of tooling. Namespace is the platform that can meet the demand for speed and scalability, while delivering the same reliability and security that engineers have grown accustomed to.”
+L54: 
+L55: Javier Redondo Partner, Scale Venture Partners
+L56: We're building the developer platform for this next wave of software development from the ground up, with a single focus: fast coding, build, and test environments across Mac, Windows, and Linux. We design and deploy our own server racks worldwide, which lets us deliver the best performance available for the way software is written today. Our suite of products is built on that engineering foundation:
+L57: cite23†Devboxes Fast, feature-rich dev environments for AI coding agents cite24†GitHub Actions Fast, observable, drop-in replacement for GitHub runners L58: 
+L59: cite25†Docker cite26†Bazel cite27†Turbo cite28†Nix L60: 
+L61: cite29†Namespace Platform Our global, vertically integrated infra stack powering all our products, from custom hardware to our own hypervisor, scheduler, and much more INSTANCES L62: ## Investing in Mac at any scale
+L63: 
+L64: Some of the most important interactions today happen on an iPhone or a MacBook. Yet almost every infrastructure provider skips Mac, which means a developer's agent trying to build an iOS or macOS app for the App Store has nowhere to build or test it. Coding agents need a Mac at any scale with all the required iOS and macOS developer tooling. This has led to overwhelming demand for our cite30†Mac environments .
+L65: > “Namespace is the best dev infrastructure tool I've used in years. We run everything from our CI to Oz, our cloud agent platform, on Namespace, and I could not recommend it enough.”
+L66: 
+L67: Aloke Desai Head of Product Engineering, Warp
+L68: 
+L69: With the new funding, we will expand our data centers, including our cite31†fleet of Mac hardware†x.com .
+L70: ## The people building Namespace
+L71: 
+L72: We are nothing without our people. We're a lean team at Namespace, and each of us has an extraordinary amount of ownership. We're committed to scaling up our culture and the quality of service we offer our customers.
+L73: 
+L74: > “In 12 years of investing, Namespace is the best set of customer references we've ever had. Hugo's customer obsession translates into unparalleled customer love. That's why the best engineers and companies in the world are all switching to Namespace.”
+L75: Harry Stebbings Founder, 20VC
+L76: 
+L77: If you're excited to build with us, check out our cite32†open roles . If you're a developer who wants to try Namespace, cite33†sign up here†cloud.namespace.so .
+L78: 
+L79: cite34†Image: The Namespace team at our 2026 offsite in Portugal L80: ## Join 1,000+ of the world’s most ambitious companies
+L81: 
+L82: cite33†Start building†cloud.namespace.so cite35†Contact Us L83: 
+L84: cite36†All systems operational†namespace-status.com L85: 
+L86: Solutions
+L87: 
+L88:   * cite37†GitHub Actions L89:   * cite25†Docker Builds L90:   * cite30†Mac & iOS L91:   * cite26†Bazel L92:   * cite38†Usage Insights L93: 
+L94: Resources
+L95: 
+L96:   * cite39†Documentation L97:   * cite40†Changelog L98:   * cite41†API†buf.build L99:   * cite0†Blog L100:   * cite42†Support L101: 
+L102: Security
+L103: 
+L104:   * cite43†Trust center†trust.namespace.so L105:   * cite44†Terms of Service L106:   * cite45†Privacy Policy L107: 
+L108: Company
+L109:   * cite46†About us L110:   * cite32†Careers L111:   * cite35†Contact us L112:   * cite36†Status†namespace-status.com L113: 
+L114: 2026 Namespace Labs, Inc. All right reserved.
+L115: 
+L116: cite45†Privacy Policy cite44†Terms of Service L117: 
+L118: cite47†Image†px.ads.linkedin.com 

@@ -89,7 +89,7 @@ companies:
   - https://seed.bytedance.com/
   sources: [bytedance-seed-hf]
   browser:
-  - https://seed.bytedance.com/en/blog
+  - https://seed.bytedance.com/en/research
   channels: [豆包与火山引擎公众号]
 - id: tencent
   name: Tencent / 混元 / 腾讯文档 / 微信
@@ -195,6 +195,20 @@ companies:
   source_page: reference/entities/halluminate.md
   tracking_since: '2026-10-04'
   note: 官方10月1日披露的知识工作评测与RL环境公司；发现入库不等于本期融资新闻。尚未配置机器采集端点，使用官网核查。
+- id: namespace
+  name: Namespace / Namespace Labs, Inc.
+  urls: [https://namespace.so/, https://namespace.so/blog/series-b]
+  sources: [namespace]
+  source_page: reference/entities/namespace.md
+  tracking_since: '2026-10-05'
+  note: 已核实官网主体与开发基础设施产品；地区及成立日期未补造，融资为公司披露。
+- id: reflection
+  name: Reflection
+  urls: [https://reflection.ai/, https://reflection.ai/blog/introducing-beam]
+  sources: [reflection]
+  source_page: reference/entities/reflection.md
+  tracking_since: '2026-10-05'
+  note: Beam开发者，当前有限预览；权重及许可计划不当作已发生。
 communities:
 - name: SGLang
   urls:

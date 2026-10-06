@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+  "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+  "text": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
+  "published_at": "2026-10-05T19:33:53+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a7128a85cbf69ae6acfb",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-06/1299306ddea6a8d30a83c30f0bcdd797aef8148a712b8d8f096b30b8e814c9e5.body",
+  "source_sha256": "1299306ddea6a8d30a83c30f0bcdd797aef8148a712b8d8f096b30b8e814c9e5",
+  "fetched_at": "2026-10-06T01:03:10.386130+00:00"
+}

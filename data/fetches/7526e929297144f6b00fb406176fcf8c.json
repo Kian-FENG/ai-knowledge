@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-06/323c7932a9ff7cc20c0ee3a7c5db7938c8366abafee0846a1debeeede1b4dc5b.body",
+  "sha256": "323c7932a9ff7cc20c0ee3a7c5db7938c8366abafee0846a1debeeede1b4dc5b",
+  "source_url": "https://blogs.nvidia.com/feed/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-06T01:02:41.399974+00:00",
+  "source_id": "nvidia-blog",
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/rss+xml; charset=UTF-8",
+    "Server": "Apache",
+    "Access-Control-Allow-Origin": "*",
+    "Link": "<https://blogs.nvidia.com/>; rel=\"canonical\"",
+    "Last-Modified": "Mon, 05 Oct 2026 19:28:28 GMT",
+    "ETag": "\"40d330028d420c5c073460ca8b304538-gzip\"",
+    "Content-Encoding": "gzip",
+    "Content-Length": "62326",
+    "Date": "Tue, 06 Oct 2026 01:02:45 GMT",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "x-accept": "application/atom+xml, application/rss+xml, text/html, */*",
+    "Country-Code": "c_code=US; Path=/; Secure",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "Akamai-Cache-Status": "Hit from child",
+    "Akamai-GRN": "0.861c1602.1791248564.7c11ab42"
+  },
+  "final_url": "https://blogs.nvidia.com/feed/",
+  "truncated": false,
+  "charset": "utf-8"
+}

@@ -276,7 +276,7 @@ sources:
   checked_at: '2026-10-02'
 - id: bytedance-seed
   name: ByteDance Seed Blog
-  url: https://seed.bytedance.com/en/blog
+  url: https://seed.bytedance.com/en/research
   kind: web
   group: official
   section: 2
@@ -975,3 +975,27 @@ sources:
   enabled: true
   checked_at: '2026-10-02'
   note: 列出约 6 天内的科技头条并直链原发媒体（Reuters、Bloomberg、FT、WSJ、NYT 等）；reuters.com 对采集器返回 401，路透独家主要靠此发现
+
+- id: reflection
+  name: Reflection AI Blog
+  url: https://reflection.ai/blog
+  kind: web
+  group: official
+  section: 2
+  poll_hours: 24
+  enabled: true
+  fetch: browser
+  checked_at: "2026-10-05"
+  note: 官网已通过浏览工具读取；尚未核实机器采集许可，不由 HTTP 采集器抓取。
+
+- id: namespace
+  name: Namespace Blog
+  url: https://namespace.so/blog
+  kind: web
+  group: official
+  section: 1
+  poll_hours: 24
+  enabled: true
+  fetch: browser
+  checked_at: "2026-10-05"
+  note: 官网已通过浏览工具读取；尚未核实机器采集许可，不由 HTTP 采集器抓取。

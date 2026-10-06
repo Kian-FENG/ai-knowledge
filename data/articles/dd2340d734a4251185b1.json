@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155434.htm",
+  "title": "内存减半反而更贵！新版DGX Spark64GB卖4999美元：比原版128GB还贵1000美元",
+  "text": "快科技10月5日消息，NVIDIA近日发布了新款64GB版本的DGX Spark，将原版系统的统一内存容量砍半，起售价为4999美元。\n新品将于10月23日起通过宏碁、华硕、戴尔、技嘉、惠普及微星等OEM厂商发售。\n价格方面，这一定价颇为耐人寻味：原版128GB Founders Edition的建议售价为3999美元，而新款64GB系统的起售价反而高出1000美元，溢价幅度达到25%。\n需要指出的是，NVIDIA曾于2026年2月以全球内存供应紧张为由，将128GB Founders Edition的建议售价上调至4699美元。\n规格方面，64GB版DGX Spark仍搭载GB10 Grace Blackwell超级芯片，并完整保留DGX OS操作系统与NVIDIA AI软件栈。\n据NVIDIA介绍，单台64GB系统可运行最高1000亿参数的大模型，而原版128GB机型可支持的参数规模为2000亿。",
+  "published_at": "2026-10-05T15:19:44+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "dd2340d734a4251185b1",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-06/7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738.body",
+  "source_sha256": "7b12b3869ce495c1f81ab3b4aff77e3d9831ba08b8d7f0081ff624cd44390738",
+  "fetched_at": "2026-10-06T01:04:01.398216+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+  "title": "OpenAI is sticking more ads in ChatGPT",
+  "text": "OpenAI's latest ad format will put images of sponsored products and services on your screen. The ads, which OpenAI will begin testing in the US later this month, will \"initially\" appear when you generate images with ChatGPT, according to an announcement on Monday.\nThe company first brought ads to ChatGPT in February. Until now, ChatGPT's ads only showed a company's name, logo, and a link to its product in a \"sponsored\" section beneath your chat. OpenAI's visual ad format will similarly remain separate from the image you generate and will \"not influence the answers ChatGPT provides.\" Ads won't appear if you subscribe to ChatGPT's Plus, Pro,  …\nRead the full story at The Verge.",
+  "published_at": "2026-10-05T09:09:48-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-05T09:09:48-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6c458078e631a37a7784",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-06/687819c9d37ce9e0f413154d5f8b270c5b2f2706d91697b65bb315db4285556a.body",
+  "source_sha256": "687819c9d37ce9e0f413154d5f8b270c5b2f2706d91697b65bb315db4285556a",
+  "fetched_at": "2026-10-06T01:03:12.710239+00:00"
+}

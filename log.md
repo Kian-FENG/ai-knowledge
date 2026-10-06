@@ -46,3 +46,7 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 新增并审核发布5页：美国AI协调机构媒体披露；Gemini个人模型访问安排（发布日期未知）；RRSI v2摘要与README（9月背景）；Halluminate官方融资来源与公司实体（10月1日背景）。所有页面回查，reported与source-checked不等于独立复现。新增Halluminate跟踪；未更新已有知识页。NASA/IBM、Vertiv–KES、漏洞赏金暂停等旧事件排除，未冒充本期。日报、编辑JSON、两版packet、修订、run及research-audit保留。
 
 用户本次明确授权提交并普通推送origin/main，优先于旧文档的本地保存限制。开始时HEAD为23c4770，已有788个改动/未跟踪路径，保存基线并在提交中排除既有无关内容；Git结果另记于本期sync-state及自动化memory，避免以日志提交自己的hash。
+
+## 2026-10-06 UTC / 日报窗口2026-10-05
+
+新增13个知识页（8个source、2个paper、2个entity、1个note），更新0页。原始版本与hash保留，全部审核发布并经默认query→get_page→raw哈希回查。新增跟踪Namespace与Reflection，修复Seed Research浏览器入口。阶段综述、预览/计划与正式版本分开；论文仅摘要，不采用性能排名。页面入口见 [[research/KNOWLEDGE-GRAPH|知识图谱]]；候选跳过和覆盖缺口见 reports/daily/2026/10/2026-10-05/research-audit.json。本次授权提交/推送，结果将写sync-state.json。
