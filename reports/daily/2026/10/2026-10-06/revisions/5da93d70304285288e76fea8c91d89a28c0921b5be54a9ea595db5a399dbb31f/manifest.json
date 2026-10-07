@@ -1,0 +1,22 @@
+{
+  "period": "daily",
+  "date": "2026-10-06",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-06",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-05T18:00:00-07:00",
+    "end": "2026-10-06T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "d1bf88e1e3c25ad229692ce820d0ee91bdba490030c804695fdeb60c80dbe457",
+  "editorial_sha256": "5da93d70304285288e76fea8c91d89a28c0921b5be54a9ea595db5a399dbb31f",
+  "report_path": "reports/daily/2026/10/2026-10-06/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-06/d1bf88e1e3c25ad229692ce820d0ee91bdba490030c804695fdeb60c80dbe457.json",
+  "events": 14,
+  "generated_at": "2026-10-07T01:23:24.166888+00:00",
+  "timezone": "America/Los_Angeles",
+  "report_sha256": "ae103bdcdc11ce4c6bf35737f1e9fb7fffc628d06b2b773d56bb40e2e3a0669f",
+  "agent_reviewed_at": "2026-10-07T01:24:28.159424+00:00",
+  "agent_review_note": "已人工核对窗口/事件去重/日期仅到日展示/原始文档链接/事实判断/阅读范围与覆盖；保留原始生成版本于revisions。"
+}

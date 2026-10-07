@@ -999,3 +999,15 @@ sources:
   fetch: browser
   checked_at: "2026-10-05"
   note: 官网已通过浏览工具读取；尚未核实机器采集许可，不由 HTTP 采集器抓取。
+
+- id: vinci
+  name: Vinci Official Blog
+  url: https://www.getvinci.ai/blog/
+  kind: web
+  group: official
+  section: 1
+  poll_hours: 24
+  enabled: true
+  fetch: browser
+  checked_at: "2026-10-06"
+  note: CEO文章和公司新闻稿已人工阅读；尚未核实机器采集许可，不由HTTP采集器抓取。

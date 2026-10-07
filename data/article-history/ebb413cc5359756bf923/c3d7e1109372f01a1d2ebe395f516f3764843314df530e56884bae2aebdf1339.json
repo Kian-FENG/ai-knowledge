@@ -1,0 +1,18 @@
+{
+  "url": "https://openai.com/index/jump-trading",
+  "title": "How Jump Trading is scaling quant research with ChatGPT",
+  "text": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+  "published_at": "2026-10-06T12:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ebb413cc5359756bf923",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-07/c3d7e1109372f01a1d2ebe395f516f3764843314df530e56884bae2aebdf1339.body",
+  "source_sha256": "c3d7e1109372f01a1d2ebe395f516f3764843314df530e56884bae2aebdf1339",
+  "fetched_at": "2026-10-07T01:05:12.656469+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155525.htm",
+  "title": "用户群太小不值得！Valve泼冷水：Steam for Linux暂不支持Arm设备",
+  "text": "快科技10月6日消息，Valve近日在开发者社区明确表示，面向Arm芯片的Linux系统Steam客户端不在官方支持范围内。\n此前有用户在GitHub上提交报告，反馈Steam for Linux在ARM64系统上存在问题，尽管该用户详细描述了故障情况，但Valve开发者仍回复称：“Steam for Linux目前不支持基于Arm的硬件。”\n目前Steam虽然在Linux平台不断扩张，但官方支持仍仅限于搭载AMD和Intel x86-64处理器的系统。\n其核心原因是要在Arm设备上让Steam for Linux正常运行，Valve需要投入大量优化工作，但潜在用户群体实在太小，这部分投入未必划算。\n不过颇具讽刺意味的是，Valve自家的VR头显Steam Frame恰恰搭载高通骁龙8 Gen 3移动平台运行，Valve专门为这颗芯片优化了SteamOS，并将其兼容层Proton 11.0移植到了Arm架构。\n借助这版Proton，原本为x86设计的各类游戏得以在Arm硬件上运行，然而作为游戏分发关键环节的Steam客户端本身，却不在官方支持之列。\n尽管如此，Valve面向Arm架构的SteamOS移植工作，已经在改装社区激发了巨大创造力，不少玩家正积极把基于Android的游戏掌机改造成迷你版Steam Deck。\n随着高通骁龙、联发科天玑等移动SoC的CPU和集显性能愈发能打，在这些芯片上运行真正的桌面操作系统，正解锁全新的游戏体验。\n在Ayaneo、Ayn、Retroid、Konkr等厂商的设备上，社区项目Armada已能让此前运行Android的Arm设备用上SteamOS。\n只不过，一旦出现问题，就别指望Valve出手解决了。",
+  "published_at": "2026-10-06T17:49:15+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5bf4a0ae1fad7579cc46",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3.body",
+  "source_sha256": "2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3",
+  "fetched_at": "2026-10-07T01:07:02.736662+00:00"
+}

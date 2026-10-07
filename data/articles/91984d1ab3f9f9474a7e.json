@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155533.htm",
+  "title": "游戏玩家别更！AMD推出AI计算专属驱动：全面支持RX 9000系列",
+  "text": "快科技10月6日消息，AMD官方近日为Windows平台正式发布了专用的ROCm 10.1 Adrenalin版显卡驱动程序，此次更新全面接入了最新的RDNA 4架构及现有的RDNA 3架构产品，为桌面端AI计算提供了更完善的底层支持。\n值得注意的是，该驱动包完全独立于常规的游戏驱动版本，专门针对底层算力调用进行了重构。\n作为AMD应对人工智能计算需求的核心软件栈，ROCm主要负责为PyTorch等主流深度学习框架提供运行时环境、编译器及底层库支持。\n官方技术文档显示，今年8月推出的ROCm 10.0版本已经完成了AI推理及性能分析工具的初期部署。\n此次跟进的专属驱动程序，则是为了确保最新硬件能够顺利调用这些底层的计算资源。\n在具体的版本与硬件兼容性方面，此次发布的驱动版本号为26.10.41.05，Windows驱动程序库版本为32.0.31041.5005。\n新驱动涵盖了消费级的Radeon RX 9000系列、RX 7900/7800/7700/7600系列显卡，以及专业级的Radeon AI PRO R9700系列。\n不过上一代基于RDNA 2架构的RX 6000系列显卡并未被列入官方的支持名单中。\n在操作系统层面，该计算驱动要求系统环境最低为Windows 11 21H2版本，或64位的Windows 10 1809版本。\n对此AMD官方也明确提示，显卡驱动的系统兼容性并不等同于ROCm所有功能的兼容。\n综合来看，这款专用驱动纯粹服务于计算与开发场景，并未包含任何游戏性能优化，完全不适合普通游戏玩家日常使用。",
+  "published_at": "2026-10-06T18:41:30+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "91984d1ab3f9f9474a7e",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3.body",
+  "source_sha256": "2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3",
+  "fetched_at": "2026-10-07T01:07:02.736662+00:00"
+}

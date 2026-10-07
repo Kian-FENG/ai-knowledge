@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+  "title": "OpenAI drops another batch of mathematical breakthroughs",
+  "text": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and academic conduct. According to AGMAI, the newly formed independent advisory group of elite mathematicians put together to work on communicating the results responsibly, the release includes solutions to \"hundreds\" of open questions.\nThe results have been expected for weeks, althou …\nRead the full story at The Verge.",
+  "published_at": "2026-10-06T19:26:38-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-06T19:26:38-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0e401bad0dd434d616ea",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-07/c1f35d5136893676730e427e7d786ea5fee91a03778b93577cb33ac3326ded6a.body",
+  "source_sha256": "c1f35d5136893676730e427e7d786ea5fee91a03778b93577cb33ac3326ded6a",
+  "fetched_at": "2026-10-07T01:06:17.104826+00:00"
+}

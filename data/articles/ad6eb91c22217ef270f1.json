@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155604.htm",
+  "title": "微软+NV联合优化ARM版Win11：内核级支持、2大x86核心指令集已兼容",
+  "text": "快科技10月6日消息，再过两天微软就要联合NVIDIA开一个新品发布会了，重点是RTX Spark产品线，这是NVIDIA杀入PC处理器市场的关键一战。\nNVIDIA已经凭借GPU显卡成为PC阵营的重要玩家，但CPU这一块的核心玩家是AMD和Intel的x86阵营，RTX Spark走的是ARM PC架构，有多达20个CPU核心，但大家对ARM的兼容性一直存有疑虑。\n这次的发布会就是微软与NVIDIA联合展示ARM平台上的软件生态到底进展到了哪一步了，既要有面向未来的AI任务的优化，也要有对传统x86软件生态的兼容。\n好消息是微软与NVIDIA这次确实下功夫了，PCMag网站获得了一些内幕消息，提到了双方联合优化的一些重点。\n首先是NVIDIA会跟现有的微软AI PC平台集成，有一个NPU单元，这是RTX Spark加入Win阵营时特别添加的硬件单元，只不过不能叫Copilot+了。\n其次，Win系统正在获得内核级操作系统支持，直接支持Agent工具，OpenClaw、Hermes这样的Agent可以直接在后台运行而不干扰Win体验，NVIDIA还宣布了一个名为OpenAgent的工具，这是一个AI安全框架，可以用于RTX Spark笔记本提升安全性。\n在内存管理上，RTX Spark可以支持多达128GB内存，微软也纳入了更智能的内存管理，可以在图形、Agent、LLM大模型之间动态分配统一内存，NVIDIA在这方面的经验有助于帮助微软改善Win11在应对新型桌面混合负载的优化。\n还有重要的一个升级，那就是微软的ARM到x86转换层Prism，也加入了对RTX Spark的优化，增加了对x86平台的AVX、AVX2指令集的仿真支持，提升了依赖这两个指令集的游戏和应用的兼容性。\nAVX/AVX2可以说是当前x86处理器的核心指令集了，大量现代化应用和游戏都要依赖它俩，ARM平台能做到这个兼容显然是可以大幅提升游戏兼容性的。\n现在确定的游戏支持就有英雄联盟、无畏契约、PUBG吃鸡等，而且这些游戏的开发商也把之前针对x86平台的反作弊机制纳入了ARM的支持，解决了玩家使用RTX Spark玩游戏的一大障碍。",
+  "published_at": "2026-10-06T20:34:50+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ad6eb91c22217ef270f1",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3.body",
+  "source_sha256": "2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3",
+  "fetched_at": "2026-10-07T01:07:02.736662+00:00"
+}

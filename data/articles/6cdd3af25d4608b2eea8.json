@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+05 Oct 2026\n+Microsoft Azure performance results now available\n+Claude Sonnet 5.5 (Max, Default Fallback)Claude Sonnet 5.5 (Low, Default Fallback)Claude Opus 5.5 (Max, Default Fallback)Claude Opus 5.5 (Low, Default Fallback)GPT-6 Luna (Non-reasoning)GPT-6.1 Sol (Max)\n+PrimaLabs performance results now available\n+GLM 5.3 Flash\n+04 Oct 2026\n+OpenAI performance results now available\n+GPT-6.1 Sol (Max)\n-Kimi K3 (Low)GLM-5.3 (Low)DeepSeek V4.1 Flash (Non-reasoning)\n+GLM-5.3 (Low)DeepSeek V4.1 Flash (Non-reasoning)\n+Nebius performance results now available\n+Kimi K3 (Low)\n-Fireworks performance results now available\n-DeepSeek V4.1 Flash (Max)\n+Nebius performance results now available\n+GLM-5.3 (Max)\n+Nebius performance results now available\n+DeepSeek V4 Pro 0813 (Non-reasoning)DeepSeek V4 Pro 0813 (Max)\n-Fireworks performance results now available\n-GLM-5.3 (Max)GLM 5.3 Flash\n+Fireworks performance results now available\n+GLM 5.3 Flash\n-Kimi K3 (Max)DeepSeek V4 Flash 0731 (Max)\n+DeepSeek V4 Flash 0731 (Max)",
+  "id": "6cdd3af25d4608b2eea8",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-06/c30575800cce7ff4201fdf2ec1406975679f612d4f2d8f4c91542a6a261a047a.body",
+  "source_sha256": "c30575800cce7ff4201fdf2ec1406975679f612d4f2d8f4c91542a6a261a047a",
+  "fetched_at": "2026-10-06T01:02:58.234026+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-06T01:02:58.234026+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

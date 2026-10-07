@@ -1,0 +1,92 @@
+Abstract and submission history
+[Submitted on 5 Oct 2026]
+# Title:HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention
+
+Authors:Han Luo , Bingbing Wen , Guang Yang , Zora Zhiruo Wang , Pan Lu , Lucy Lu Wang
+
+View a PDF of the paper titled HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention, by Han Luo and 5 other authors
+
+View PDF HTML (experimental)
+> Abstract:Large language model (LLM) agents are increasingly capable of acting in complex tool-use environments, yet they often fail to recognize when tasks are infeasible and no valid solution exists. Recent work has formalized this reliability gap as the problem of agentic abstention, and existing approaches typically optimize a model or agent harness against a fixed set of tasks, leading to limited generalization to unseen failure modes.
+We introduce HERA, a framework for harness-environment co-evolution for agentic abstention.
+HERA consists of (i) a pipeline to automatically construct verifiable pairs of feasible and infeasible tasks by applying controlled environment mutations that transform solvable tasks into cases requiring abstention, and (ii) a co-evolution procedure in which performance failures on previous tasks are used to drive harness adaptation and generate new execution environments and tasks geared towards previous weaknesses.
+On held-out evaluation tasks, an evolved harness from HERA improves abstention accuracy from 61.7% to 83.3% while improving feasible-task completion from 68.3% to 76.7%, achieving the highest abstention and feasible-task completion among the compared methods.
+The resulting best harness transfers across 19 other LLMs, improving abstention accuracy by 15.3 percentage points on average without any model-specific optimization, and enabling smaller models to match the performance of more powerful models at an estimated 85% lower cost.
+Comments:  | 23 pages. Project page: this https URL†hera-bench.github.io
+Subjects:  | Artificial Intelligence (cs.AI)
+Cite as:  | arXiv:2610.06563 [cs.AI]
+| (or arXiv:2610.06563v1 [cs.AI] for this version)
+| https://doi.org/10.48550/arXiv.2610.06563†doi.org arXiv-issued DOI via DataCite (pending registration)
+## Submission history
+
+From: Han Luo [view email ]
+[v1] Mon, 5 Oct 2026 15:49:12 UTC (803 KB)
+HTML v1 selected sections (not full paper)
+Performance–cost trade-offs. We analyze API costs and token usage across 14 models, examining the additional inference overhead of harness adaptation and differences between model configurations. HERA enables less expensive models to achieve performance gains approaching more costly models. For example, GPT-5.6-Luna with HERA matches the 70.0% paired success of base GPT-6-Astra at an estimated 85% lower API cost per episode.
+## 2 Related Work
+Agentic Abstention. LLM abstention is defined as a model’s decision to refrain from answering under uncertainty (Wen et al., 2025 ; Kirichenko et al., 2025 ; Wen et al., ; Wen et al., 2024 ).
+Existing studies of LLM abstention can be broadly grouped by why abstention is warranted: insufficient information in the query or available context (Cao et al., 2026 ; Kwiatkowski et al., 2019 ; Trivedi et al., 2022 ; Reddy et al., 2019 ; Choi et al., 2018 ; Min et al., 2020 ; Zhang and Choi, 2021 ; Yin et al., 2023 ; Amayuelas et al., 2024 ; Jin et al., 2019 ; Dasigi et al., 2021 ), limitations in the model’s knowledge due to temporal or factual gaps (Kasai et al., 2023 ; Yang et al., 2024 ; Mallen et al., 2023 ; Sciavolino et al., 2021 ; Feng et al., 2024 ), and safety or value concerns that make responding inappropriate (Han et al., 2024 ; Gehman et al., 2020 ; Hartvigsen et al., 2022 ; ElSherief et al., 2021 ; Lin et al., 2023 ; Ji et al., 2023 ; Xu et al., 2023 ; Röttger et al., 2024 ; Qiu et al., 2023 ; Shen et al., 2024 ; Wang et al., 2024 ; Wang et al., 2023 ; Li et al., 2024 ; Xie et al., 2024 ).
+Recent work has begun to shift the study of abstention from LLMs to agent settings. Luo et al. (2026) first introduce the notion of agentic abstention, asking whether agents know when to stop instead of act, and evaluate this capability across QA, web, and terminal environments. They find that current agents often fail to identify when abstention is warranted. cite43†Liu et al.
+(2026) similarly study agentic abstention by constructing executable environment–task pairs, where controlled changes to tasks or environments create cases in which agents should abstain rather than act. Relatedly, (Lin et al., 2026b ) study a closely related stopping problem through the lens of budget awareness, asking whether agents can estimate their remaining resource requirements and identify when task completion is unlikely within the available budget.
+However, the environments in these works are fixed or generated independently of agent performance, whereas we use agent failures to drive environment generation and the resulting environments to iteratively improve the agent harness.
+Harness Evolution. Prior work improves agents by optimizing individual parts of the external scaffold, including prompts, demonstrations, and language-model programs. (Khattab et al., 2023 ; Opsahl-Ong et al., 2024 ; Yuksekgonul et al., 2025 ; Agrawal et al., 2026 ). More recent work treats the full agent harness as the object of optimization.
+Meta-Harness (Lee et al., 2026 ) searches over harness code using execution feedback, while Agentic Harness Engineering (Lin et al., 2026a ) jointly evolves components such as prompts, tools, middleware, skills, and memory, and AEVO (Zhang et al., 2026c ) optimizes the procedure and context that guide subsequent agent evolution.
+Recent approaches further explore harness improvement through failure-driven self-refinement (Zhang et al., 2026b ), learned runtime editing (Shao et al., 2026 ), more reliable search and generalization (Zhang et al., 2026d ), and population-based evolution (Zhang et al., 2026e ).
+Task-CoEvolve (Miyai et al., 2026 ) additionally adapts the selection of validation tasks as the harness changes, while recent work has also questioned whether gains from harness evolution generalize beyond the tasks repeatedly used during optimization (Wang et al., 2026 ).
+Unlike prior harness-evolution methods, which typically improve the harness against fixed environments, we evolve the harness together with the environment–task ecosystem, adapting the latter to target weaknesses exposed by the current harness. We apply this idea to agentic abstention.
+## 3 Methodology: Harness-Environment Co-Evolution
+
+In this section, we describe the two stages of HERA, (i) how we construct and verify feasible and infeasible tasks (§3.1 ) and (ii) how these task pairs are then used to adapt the harness and generate new and more challenging environments (§3.2 ).
+### 3.1 Verifiable Abstention Environment–Task Construction
+
+Our first stage constructs diverse and executable environment–task ecosystems from scratch. The pipeline consists of three steps: environment construction, task generation, and environment mutation (further details and illustration in Appendix A.1 ).
+Environment construction. As in Dong et al. (2026) , we begin with a diverse collection of environment themes, where each specifies a semantic domain from which an interactive environment is constructed. For each theme, we construct a topic-aligned structured database using a deep-research agent $A$ with fixed research policy and a set of research tools. The initial database is iteratively expanded and refined to accumulate more structured information.
+After database construction, we synthesize an executable interface over the resulting data. A bounded coding procedure, operating under a tool-generation policy, produces a candidate tool set. We subsequently validate the generated tools against the underlying database, filtering out tools that are non-executable or inconsistent with the database schema. The resulting executable environment is denoted by $\mathcal{E}_{\theta}$.
+Task generation. Given a constructed environment $\mathcal{E}_{\theta}$, a task proposer generates candidate tasks grounded in the available data and tool capabilities. To avoid having the same model both propose and judge its own tasks, we use an independent solver to attempt each task through the public tool interface. We retain only tasks that can be successfully completed and validated in the environment and denote the resulting set of validated tasks by $\mathcal{Q}_{\theta}$.
+This step both filters out infeasible candidates and produces executable reference trajectories that are later used to assess how environment mutations change task feasibility.
+Environment mutation. For each pair $(\mathcal{E}_{\theta},\mathcal{Q}_{\theta})$, we instantiate $N$ independent proposers to generate a diverse pool of candidate mutation proposals. Using multiple proposers reduces dependence on a single generation trajectory and increases the diversity of possible environment modifications. Candidate proposals are reviewed by two complementary policies.
+The semantic policy $\pi_{\mathrm{sem}}$ evaluates whether a proposed mutation remains semantically consistent with the underlying task and environment, while the rescue policy $\pi_{\mathrm{res}}$ examines whether the task can still be completed through an unintended alternative route despite the proposed modification. Together, these policies form a proposal-validation gate. Proposals that do not satisfy the validation criteria are sent through a proposal-refinement loop and reviewed again.
+Let $p_{\theta}^{\star}$ denote a proposal that successfully passes this review. The mutation operator $\mathcal{M}$ then applies it to the original environment:
+| $$\mathcal{E}^{\prime}_{\theta}=\mathcal{M}\!\left(\mathcal{E}_{\theta};p_{\theta}^{\star}\right).$$  |  | (1)
+
+The resulting $\mathcal{E}^{\prime}_{\theta}$ serves as the mutated environment for downstream abstention evaluation. See Figure 5 in Appendix A.1 for the mutation pipeline.
+### 3.2 Harness–Environment Co-Evolution
+Image: Refer to caption Figure 1: Harness–environment co-evolution. Given an environment pool of feasible and infeasible tasks and current harness, paired rollouts and failure diagnosis are used to iteratively evolve both the environment pool and harness. Environment evolution (top) constructs, validates, and selects new feasible–infeasible task pairs to challenge the current agent and expand the training pool.
+Harness evolution (bottom) similarly refines the harness iteratively on the expanded task pool, with each updated harness selected from candidates using performance on a validation set.
+Motivation & overview. An effective agent must be able to complete tasks when a valid solution exists and recognize when the task is infeasible. Our goal is to improve abstention on infeasible cases without sacrificing task-solving capability and, where possible, strengthen both. Following prior work on feedback-driven harness evolution (Lin et al., 2026a ), we use execution trajectories and task outcomes to guide iterative updates to the agent’s harness.
+HERA extends this process by coupling harness optimization with failure-guided evolution of executable environments and matched feasible–infeasible task pairs, allowing the training pool to adapt to the current harness. The verifiable environment–task pairs constructed in Section 3.1 serve as both training tasks and diagnostics for failures in task solving and abstention.
+These failures guide harness improvements and the targeted construction of new environment–task pairs, which in turn expose new weaknesses in the updated harness. Repeating this process forms a harness–environment co-evolution loop, where the harness adapts to the challenges it encounters while the environments evolve to target its current weaknesses. Figure 1 provides an overview of the harness–environment co-evolution process.
+At the beginning of each co-evolution round, we maintain an environment pool $\mathcal{E}_{g}$ and an agent equipped with the current harness $H_{k}$. Each member of the pool is a shared task instruction and its matched feasible and infeasible environments, corresponding to the Act and Abstain cases, respectively. We execute the agent on both tasks in the pair and collect the resulting trajectories $\mathcal{R}_{k}$.
+An LLM-based failure analyst examines these trajectories and their evaluation outcomes to identify failures in task completion and abstention. The analyst groups these failures by their underlying causes, producing a structured diagnosis $F_{k}$ that guides both environment evolution and harness evolution. Each round of environment and harness evolution proceeds as follows.
+Environment evolution. For environments in which the current agent fails to abstain appropriately, an environment designer uses the failure diagnosis $F_{k}$ to modify the underlying data, tool behavior, or constraints of the parent environment $\mathcal{P}$. The redesigned environment is then passed to the task-generation and environment-mutation stages of Section 3.1 .
+Importantly, $F_{k}$ also guides the proposers in both stages, so that environment design, task generation, and environment mutation jointly target the diagnosed weaknesses. The newly generated feasible–infeasible pairs undergo certification through the same verification checks as before, which confirm an executable solution for the feasible instance and infeasibility for the abstention instance.
+This forms a new candidate batch of feasible–infeasible task pairs, which are then evaluated with the current harness version $H_{k}$. The batch is admitted to the next evolution round if the proportion of infeasible instances on which the agent fails to abstain appropriately is above a predefined threshold $\tau$. If so, we retain the entire batch, including some instances that the current harness already handles correctly, and add it to the cumulative training pool.
+If the batch does not meet the threshold, it is revised or replaced with a new candidate batch.
+Harness evolution. Given the updated training pool $\mathcal{E}_{g+1}$, we first evaluate the agent with the current harness $H_{k}$ on all instances and derive a fresh failure diagnosis $F_{k,0}$. We then evolve the harness over $n$ update steps. The harness optimizer may modify prompts, memory, sub-agents, skills, tools, and control logic while keeping the underlying language model fixed.
+
+Formally, we initialize $H_{k,0}=H_{k}$ and generate successive candidates as:
+| $$H_{k,i+1}=\operatorname{Optimize}(H_{k,i},F_{k,i}),\qquad i=0,\ldots,n-1.$$  |  | (2)
+Each candidate harness is evaluated through paired training rollouts over the entire pool $\mathcal{E}_{g+1}$. The resulting trajectories and evaluation outcomes are analyzed to derive an updated failure diagnosis $F_{k,i+1}$, which guides the next update. Each update builds directly on the preceding candidate, regardless of whether that candidate improves performance. The training pool remains fixed throughout all $n$ updates.
+After completing the sequence, we compare all candidates with the round-start harness $H_{k}$ on a fixed validation set. This set is disjoint from all cumulative training pools and from hera-bench, and remains unchanged across co-evolution rounds.
+Announcement listing
+* Tue, 6 Oct 2026
+* Mon, 5 Oct 2026
+* Fri, 2 Oct 2026
+* Thu, 1 Oct 2026
+* Wed, 30 Sep 2026
+
+See today's new changes
+
+Total of 2101 entries : 1-50 51-100 101-150 151-200 ... 2101-2101
+
+Showing up to 50 entries per page: fewer | more | all
+### Tue, 6 Oct 2026 (showing first 50 of 554 entries )
+[13] arXiv:2610.06563 [pdf , html , other ]
+
+
+Title: HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention
+
+Han Luo , Bingbing Wen , Guang Yang , Zora Zhiruo Wang , Pan Lu , Lucy Lu Wang
+
+Comments: 23 pages. Project page: this https URL†hera-bench.github.io
+Subjects: Artificial Intelligence (cs.AI)

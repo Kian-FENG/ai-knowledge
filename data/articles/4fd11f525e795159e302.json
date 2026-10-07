@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/ai-whistleblowers-say-researchers-checking-ai-less-frequently",
+  "title": "AI Whistleblowers Say Researchers Are Checking AI Less Frequently",
+  "text": "It won’t be any surprise to people with human intelligence that Monday’s New York City Council hearing on the risks of AI was as theatrical as a Broadway show. What was more surprising was what the AI researchers testified about how AI research is evolving, and what that means for their job.\nFor those who missed it, the city council heard testimony from three AI lab whistleblowers: Jacob Coxon, formerly of Anthropic and OpenAI; Alex Turner, formerly of Google DeepMind; and Daniel Kokotajlo, formerly of OpenAI. Afterwards, they heard from representatives of the AI labs. We’ll get to that lower down.\nOne of the most interesting parts of the whistleblowers’ testimony related to the AI research process. Coxon and Kokotajlo each said that researchers at the labs have lately been letting AI drive the process of writing code and research. Researchers check AI’s work less frequently, they said.\nThe labs might not agree with that exact characterization, although their representatives weren’t asked about it at the hearing. But the labs have been the first to say that AI has greatly accelerated the process of AI research. Anthropic even said in a report last month that, as of August, AI was leading more than a quarter of model research and development at the company.",
+  "published_at": "2026-10-06T14:00:41+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-06T14:01:22+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4fd11f525e795159e302",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a.body",
+  "source_sha256": "45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a",
+  "fetched_at": "2026-10-07T01:06:18.465670+00:00"
+}

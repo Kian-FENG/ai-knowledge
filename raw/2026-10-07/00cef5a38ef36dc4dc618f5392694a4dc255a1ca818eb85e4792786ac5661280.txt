@@ -1,0 +1,97 @@
+Official changelog October 6
+### October, 2026
+
+Oct 6
+
+Feature
+
+gpt-6-luna
+
+v1/decisions
+
+Released the Decisions API in beta with `gpt-6-luna`. Turn text and images into typed answers 10x faster than the Responses API.
+
+Oct 6
+
+Update
+
+Simplified API usage tiers from five to three: Build, Launch, and Grow. Organizations automatically upgrade as total credit purchases reach tier minimums. See usage tiers for monthly usage limits and how to view rate limits for each model.
+Decisions guide (undated current documentation) https://developers.openai.com/api/docs/guides/decisions
+# Decisions
+
+Turn text and images into decisions your application can use, 10x faster than the Responses API.
+
+Copy Page
+
+The Decisions API evaluates text, images, or both and returns typed answers about 10x faster than the Responses API. Get the probability that a condition is true, a choice from a fixed set, or a score against a rubric. Use those answers to classify content, route requests, and prioritize work in your application.
+Try the Decisions API in the Playground†platform.openai.com to experiment with questions and inputs before writing code.
+
+The Decisions API is in public beta, and we expect to GA in the coming weeks. `gpt-6-luna` is the only model currently available. Use the dedicated `POST /v1/decisions` endpoint.
+## How decisions work
+
+A request has three parts:
+
+Field  | Purpose
+--- | ---
+`model`  | The model that evaluates the request. Currently, only `gpt-6-luna` is supported.
+`input`  | Shared evidence for the questions: a text string or user messages containing text and images.
+`questions`  | What to evaluate, including each question’s type, instructions, and any allowed choices or score levels.
+The response contains an `answers` array. Give each question a unique `name` to identify its answer; the API echoes that name in the response.
+### Choose a question type
+
+Type  | Use it to  | Main result
+--- | --- | ---
+`predicate`  | Check a condition, such as visible damage or passage relevance.  | `probability`: an estimate from 0 to 1 that the condition is true.
+`choice`  | Select one option, such as a department or content category.  | `choice`: one of your supplied values.
+`score`  | Rate an input against ordered levels, such as issue severity.  | `score`: the probability-weighted average of the level indices.
+Both `choice` and `score` return probabilities over discrete options. Use `choice` for categories without an order, such as departments. Use `score` for ordered levels, such as severity; it takes the probability-weighted average of their numeric indices to produce a score that can fall between levels.
+Use Decisions when your application needs one of these answer types. Use Structured Outputs with the Responses API when you need to generate an object that follows your own JSON schema, such as extracted fields or a written explanation, or function calling when you need a model to request a tool call with arguments.
+## Interpret the answers
+
+Predicates return the estimated probability that a condition is true. Choice and score answers return a probability distribution and a separate `confidence` field.
+
+Use labeled examples from your application to set thresholds for routing, filtering, or review. Choose thresholds based on the cost of false positives and false negatives.
+## Pricing and availability
+
+With `gpt-6-luna`, input costs $0.10 per 1M tokens. You pay only for input tokens: there are no cache-read, cache-write, or output-token charges.
+
+Regional processing premiums and long-context input pricing multipliers apply. These rates apply to `/v1/decisions`; other requests using `gpt-6-luna` follow the applicable model and processing-tier pricing .
+The Decisions API supports Zero Data Retention (ZDR) and HIPAA use for eligible customers. Data residency and regional processing are supported in the United States and Europe (EEA + Switzerland). See data controls for eligibility requirements, required agreements, and limitations.
+Rate limits (undated current documentation) https://developers.openai.com/api/docs/guides/rate-limits
+## How do these rate limits work?
+Rate limits use metrics such as RPM (requests per minute), RPD (requests per day), TPM (tokens per minute), TPD (tokens per day), IPM (images per minute), and audio minutes per minute for some streaming audio models. Rate limits can be hit across any of the options depending on what occurs first.
+For example, you might send 20 requests with only 100 tokens to the ChatCompletions endpoint and that would fill your limit (if your RPM was 20), even if you didn’t send 150k tokens (if your TPM limit was 150k) within those 20 requests.
+Batch API queue limits are calculated based on the total number of input tokens queued for a given model. Tokens from pending batch jobs are counted against your queue limit. Once a batch job is completed, its tokens are no longer counted against that model’s limit.
+
+Other important things worth noting:
+* Rate limits are defined at the organization level and at the project level, not user level.
+* Rate limits vary by the model being used.
+* For long context models like GPT-5.5, there is a separate rate limit for long context requests. You can view these rate limits in developer console†platform.openai.com .
+* OpenAI sets an approved monthly usage limit for each organization. This is separate from the spend limits that you can configure for an organization or project.
+* Some model families have shared rate limits. Any models listed under a “shared limit” in your organizations limit page†platform.openai.com share a rate limit between them. For example, if the listed shared TPM is 3.5M, all calls to any model in the given “shared limit” list will count towards that 3.5M.
+* Vector store ingestion is also rate limited per vector store ID. `/vector_stores/{vector_store_id}/files` and `/vector_stores/{vector_store_id}/file_batches` share a limit of 300 requests per minute for each vector store. For larger ingests, prefer `/vector_stores/{vector_store_id}/file_batches`.
+## Usage tiers
+
+The three paid usage tiers are Build, Launch, and Grow. Your organization’s usage tier upgrades automatically as its total credit purchases reach each threshold. Higher tiers generally provide higher rate limits across models.
+Tier  | Qualification  | Usage limits
+--- | --- | ---
+Free  | User must be in an allowed geography | $100 / month
+Build  | $5 in total credit purchases  | $500 / month
+Launch  | $100 in total credit purchases  | $5,000 / month
+Grow  | $500 in total credit purchases  | $200,000 / month
+### Standard rate limits
+
+To view the limits for each model at your usage tier, go to Settings > Organization > Limits†platform.openai.com and review Rate limits. To upgrade your usage tier, select Upgrade tier in the Usage Tiers section.
+
+These Standard rate limits differ from Ultrafast rate limits .
+Tier  | Model  | RPM  | TPM
+--- | --- | --- | ---
+Build  | Astra, Sol, Terra  | 5,000  | 1,000,000
+Luna  | 5,000  | 2,000,000
+Launch  | Astra, Sol, Terra  | 10,000  | 4,000,000
+Luna  | 10,000  | 10,000,000
+Grow  | Astra, Sol, Terra  | 15,000  | 40,000,000
+Luna  | 30,000  | 180,000,000
+### Spend limits
+
+Consider setting spend limits for your organization or projects to control monthly API spend. These controls are separate from the monthly usage limits above.

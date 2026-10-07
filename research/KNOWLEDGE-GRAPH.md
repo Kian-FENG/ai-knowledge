@@ -27,3 +27,22 @@
 - [[reference/entities/namespace|Namespace：编码 Agent 的开发与构建基础设施]]
 - [[reference/entities/reflection|Reflection：Beam 模型的开发者]]
 - [[research/synthesis/agent-execution-stack-20261005|Agent 的供给链扩展到迁移、构建与媒体输入]]
+
+## 2026-10-06 日报：可交付能力与验证
+
+- [[reference/sources/openai-atlassian-partnership-20261006|Atlassian 扩展 OpenAI 合作：企业上下文与 Agent 工作流进一步结合]]
+- [[reference/sources/anthropic-cvp-expansion-20261006|Anthropic 扩展 CVP：网络安全模型访问按资格和用途分层]]
+- [[reference/sources/openai-jump-trading-adoption-20261006|Jump Trading 披露长时研究 Agent 用法，人工检查仍在流程中]]
+- [[reference/sources/vinci-series-b-20261006|Vinci 披露 2.5 亿美元 B 轮，扩展物理仿真与硬件设计平台]]
+- [[reference/sources/openai-ironclad-computer-use-20261006|OpenAI 与 Ironclad 用合同工作任务评估计算机操作能力]]
+- [[reference/sources/openai-math-artifacts-20261006|OpenAI 发布数学手稿与部分 Lean 证明，结果仍有不同核验阶段]]
+- [[reference/sources/mistral-large-4-preview-20261006|Mistral Large 4 进入 API 公开预览，权重仍待月底交付]]
+- [[reference/sources/embeddinggemma-2-release-20261006|EmbeddingGemma 2 发布多模态开放嵌入模型，支持端侧检索]]
+- [[reference/sources/nvidia-aicr-v10-20261006|NVIDIA 介绍 AICR v1.0：固定集群配置契约与可追溯验证]]
+- [[reference/sources/pytorch-fbtriton-tbe-20261006|PyTorch 介绍 FBTriton：稀疏嵌入路径转向可配置的 Python/Triton]]
+- [[reference/papers/hear-protocol-2610-06597|HEAR：把 Agent 工作流意图与推理引擎状态连接起来]]
+- [[reference/papers/hera-abstention-2610-06563|HERA：让 harness 与任务环境共同演进，学习何时停止]]
+- [[reference/entities/vinci|Vinci：物理仿真与硬件设计的 AI 平台]]
+- [[research/synthesis/agent-delivery-and-verification-20261006|Agent 的可交付能力由上下文、访问规则与验证体系共同决定]]
+
+- [[reference/sources/openai-decisions-and-usage-tiers-20261006|OpenAI API 更新：Decisions 公开 beta 与三档付费用量层级]]

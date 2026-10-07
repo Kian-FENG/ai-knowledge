@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration/",
+  "title": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration",
+  "text": "GPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers,...\nGPU-accelerated Kubernetes clusters depend on compatible versions across dozens of components, each on its own release cycle: host kernels, GPU drivers, container runtimes, networking, storage, operators, and workload frameworks. A configuration that works for one service, GPU generation, and Kubernetes release may silently fail for another, and tracing version conflicts after deployment is…\nSource",
+  "published_at": "2026-10-06T16:13:47+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-06T16:13:50+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f9524fd6a641f04a61eb",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-07/92dcff0ca6ca29e6bf4d573064f07a3ea824534a6ba76957965b376275830378.body",
+  "source_sha256": "92dcff0ca6ca29e6bf4d573064f07a3ea824534a6ba76957965b376275830378",
+  "fetched_at": "2026-10-07T01:05:45.876885+00:00"
+}

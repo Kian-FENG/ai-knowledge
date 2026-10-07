@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/010/098.htm",
+  "title": "英伟达发布 617.42 Game Ready 显卡驱动：优化《使命召唤：现代战争 4》等新作",
+  "text": "IT之家 10 月 6 日消息，英伟达 GeForce Game Ready 驱动 617.42 正式发布，本次驱动为多款支持 DLSS 和 RTX 技术的新作提供优化，同时修复了已发现的游戏崩溃问题。\nIT之家附官方公告链接（https://www.nvidia.com/en-us/geforce/news/call-of-duty-modern-warfare-4-star-wars-galactic-racer-game-ready-driver/）。\n新游戏支持与性能优化\n为《使命召唤：现代战争 4》《星球大战：银河赛车手》《龙之信条 2：黑暗觉醒》《微软模拟飞行 2024》《Valor Mortis》提供游戏优化支持，上述游戏均支持 DLSS 和 RTX 技术\n问题修复\n修复《刺客信条：影》在升级到 616.56 驱动后长时间游戏可能崩溃闪退到桌面的问题 [6685219]\n已知问题\n本次通用问题修复无内容更新\n本次驱动为正式版 Game Ready 驱动，适用于全系列 NVIDIA GeForce 显卡，用户可通过 NVIDIA App 或官网下载更新。",
+  "published_at": "2026-10-06T13:03:37+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c42ab061e42f3f02be8c",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/965b66fa0da0f8392f39fdcea2a70c7467fa15ef16cf3f4fb846c1766c3f9cc2.body",
+  "source_sha256": "965b66fa0da0f8392f39fdcea2a70c7467fa15ef16cf3f4fb846c1766c3f9cc2",
+  "fetched_at": "2026-10-07T01:06:45.465409+00:00"
+}

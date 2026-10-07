@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4014160822505345?f=rss",
+  "title": "OpenAI在其智能体擅访澳数据后采取新防范措施",
+  "text": "美国开放人工智能研究中心（OpenAI）首��战略官贾森·权6日在悉尼表示，OpenAI一个智能体未经授权访问澳大利亚国民医疗保险体系数据门户后，其公司已采取新防范监控措施，并已从事件中吸取教训。权当天接受澳议会下设人工智能联合特别委员会质询时说，该事件促使公司增设了监控机制：一旦模型以违规方式接入互联网，工作人员可立即介入终止训练；同时该公司支持澳大利亚针对同类事件建立强制报告制度。 (新华社)",
+  "published_at": "2026-10-06T17:24:38+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c0c1143b2fb6daad52f7",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/872026e33620ffc6bea1e41686ec2a0f55d5100b63569e1637e1c8fab7f5c657.body",
+  "source_sha256": "872026e33620ffc6bea1e41686ec2a0f55d5100b63569e1637e1c8fab7f5c657",
+  "fetched_at": "2026-10-07T01:06:50.744649+00:00"
+}

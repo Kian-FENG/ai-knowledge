@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+  "title": "How AI decision models could change content moderation",
+  "text": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+  "published_at": "2026-10-06T20:35:20+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a7013ecd4f4c7ec9e8b1",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/11418e98af49789246ab3a599067ac91010fbcc920aa8d1556de0885d3d699c8.body",
+  "source_sha256": "11418e98af49789246ab3a599067ac91010fbcc920aa8d1556de0885d3d699c8",
+  "fetched_at": "2026-10-07T01:06:10.463934+00:00"
+}

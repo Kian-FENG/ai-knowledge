@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/can-microsoft-help-customers-cut-back-claude",
+  "title": "Can Microsoft Help Customers Cut Back on Claude?",
+  "text": "There was good news and bad news for Anthropic in our story yesterday that showed how two of its mega-customers, Microsoft and Meta, were cutting their staffs’ Claude bills.\nAmong the bad news was that Microsoft had reduced its spending on Claude by more than 33% from its peak of over $1 billion, on an annualized basis, earlier this year.\nThe good news is Microsoft’s customers are spending more on Claude themselves. Microsoft has been steadily increasing the payments it sends onto Anthropic to cover its customers’ use of Claude-powered features in Microsoft’s Copilot AI tools, roughly offsetting the reduction in internal spending.",
+  "published_at": "2026-10-06T17:33:25+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-06T18:59:00+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6f55ac516942cf56045e",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a.body",
+  "source_sha256": "45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a",
+  "fetched_at": "2026-10-07T01:06:18.465670+00:00"
+}

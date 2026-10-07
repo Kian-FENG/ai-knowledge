@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology/",
+  "title": "Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology",
+  "text": "Researchers at PhAI Labs have expanded Yann LeCun's JEPA architecture to work across seven fields, from robotics to biomedicine. The effort also produced a liver cancer treatment candidate that showed promise in lab tests, though the study doesn't establish whether it could become an actual therapy.\nThe article Researchers stretch LeCun's JEPA AI into a universal world model that works from physics to biology appeared first on The Decoder.",
+  "published_at": "2026-10-06T11:43:42+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "dac30438b37af8fd19f7",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/ff4cf9887b863f5e537ca5621f74ca10e7bae516caa538825f28cfb490c50523.body",
+  "source_sha256": "ff4cf9887b863f5e537ca5621f74ca10e7bae516caa538825f28cfb490c50523",
+  "fetched_at": "2026-10-07T01:06:20.980220+00:00"
+}

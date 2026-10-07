@@ -1,0 +1,32 @@
+{
+  "raw_path": "raw/2026-10-07/18cac561b9b64fb8cd402a6f3bdc675f017152cf886a9032adbe1721da672e6f.body",
+  "sha256": "18cac561b9b64fb8cd402a6f3bdc675f017152cf886a9032adbe1721da672e6f",
+  "source_url": "https://www.techmeme.com/river",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-07T01:07:10.769853+00:00",
+  "source_id": "techmeme-river",
+  "status": 200,
+  "headers": {
+    "Date": "Wed, 07 Oct 2026 01:07:11 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Server": "cloudflare",
+    "Strict-Transport-Security": "max-age=15768000; includeSubDomains",
+    "Server-Timing": "cfEdge;dur=17,cfOrigin;dur=15",
+    "X-Powered-By": "PleskLin",
+    "X-Frame-Options": "DENY",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Security-Policy": "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.google-analytics.com *.twitter.com *.facebook.com *.stripe.com https://www.gstatic.com",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=G5n3ihN8x3XBzXQAvE%2Bdn6AEO%2FBYAUDsZVVTvy4eAeH4vm1hntr64yiy6cUvX07ArzRvCY7L16VZkgvg9ZlSd6tdo6Kz4lwE%2FXPWB%2F8Hp%2B%2FBkViML6CmpAp3igP9JSkkXAV9\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "cf-cache-status": "DYNAMIC",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a46901ecce239e50-SJC",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "final_url": "https://www.techmeme.com/river",
+  "truncated": false,
+  "charset": "utf-8"
+}

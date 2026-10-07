@@ -209,6 +209,14 @@ companies:
   source_page: reference/entities/reflection.md
   tracking_since: '2026-10-05'
   note: Beam开发者，当前有限预览；权重及许可计划不当作已发生。
+- id: vinci
+  name: Vinci
+  region: US
+  urls: [https://www.getvinci.ai/blog/]
+  sources: [vinci]
+  browser: [https://www.getvinci.ai/blog/]
+  note: Hardik Kabaria共同创立并任CEO；官网页脚使用Vinci4d名称。物理仿真与硬件设计平台，公司披露2026-10-06融资USD250M B轮、估值USD1.5B；性能未独立验证。
+
 communities:
 - name: SGLang
   urls:

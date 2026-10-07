@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155482.htm",
+  "title": "英伟达RTX Spark笔记本OLED屏幕被韩企包揽：三星六款、LG一款",
+  "text": "快科技10月6日消息，据thelec报道，基于英伟达RTX Spark平台、搭载OLED屏的7款主流AI笔记本，全部采用三星显示与LG显示的面板。其中三星显示供应6款机型，LG显示供应1款。\n三星显示面板应用于惠普OmniBook Ultra 16、OmniBook X 14、联想Yoga Pro 9n、华硕ProArt P14、ProArt P16以及微星Prestige N16 Flip AI+。\n其中，华硕ProArt P14、P16与微星Prestige N16 Flip AI+峰值亮度最高可达1600尼特。惠普OmniBook Ultra 16搭载的OLED面板HDR亮度约1100尼特。\n华硕官方参数显示，基于RTX Spark平台的ProArt P16，HDR峰值亮度最高1600尼特。\nLG显示为戴尔XPS 16 Creator Edition提供16英寸叠层OLED面板。这块屏幕分辨率3400 x 2400，刷新率48–120赫兹，峰值亮度1000尼特。叠层OLED通过堆叠两层发光层，延长面板寿命并提升能效。",
+  "published_at": "2026-10-06T10:35:46+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "cf0af42c8dcbf284254f",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3.body",
+  "source_sha256": "2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3",
+  "fetched_at": "2026-10-07T01:07:02.736662+00:00"
+}

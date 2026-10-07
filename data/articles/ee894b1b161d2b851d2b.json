@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155629.htm",
+  "title": "18核/20核双版本！微软Surface新机规格曝光：统一内存24GB起步",
+  "text": "快科技10月7日消息，近日有关微软Surface Laptop Ultra笔记本的详细规格再度流出，这款搭载NVIDIA RTX Spark的新品将提供两种处理器配置，统一内存最高可选128GB，而入门配置则仅配备24GB。\n具体来看，18核RTX Spark版本将搭载拥有5120个CUDA核心的Blackwell GPU，统一内存可选24GB或32GB。\n更高规格的20核版本则配备6144个CUDA核心的GPU，内存提供32GB、48GB、64GB以及128GB四种选择。\n屏幕与设计方面，新机将配备15英寸PixelSense Ultra触控屏，支持杜比视界与高精度色彩显示，峰值HDR亮度可达2000尼特，像素密度为262 PPI。\n机身厚度控制在18毫米以内，重量不超过2.04公斤，触控板支持触感反馈，面积比15英寸Surface Laptop增大30%以上。\n接口方面，新机将配备三个USB-C接口、一个USB-A接口、HDMI接口、全尺寸SD卡读卡器以及3.5mm音频接口，音频系统支持杜比全景声。\n微软还声称该机在电池供电状态下可保持99.6%的性能表现，提供铂金与夜幕两种配色，操作系统则按配置区分：入门型号预装Windows 11家庭版，更高配置预装专业版，商用版本统一为专业版。\n尽管目前泄露的硬件规格已经十分详尽，但最核心的终端零售价格依然是个未知数。考虑到RTX Spark芯片的高昂成本以及最高128GB统一内存的极致配置，该系列机型的最终定价注定不会亲民。",
+  "published_at": "2026-10-07T08:28:18+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ee894b1b161d2b851d2b",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3.body",
+  "source_sha256": "2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3",
+  "fetched_at": "2026-10-07T01:07:02.736662+00:00"
+}

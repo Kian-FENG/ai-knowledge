@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/hubspot-lays-7-workforce-says-ai",
+  "title": "HubSpot Lays Off 7% of Workforce, Says It’s Not Because of AI",
+  "text": "Software provider HubSpot is laying off 660 employees, or 7% of its staff, as part of a restructuring that will include eliminating some management layers and reorganizing product teams, CEO Yamini Rangan announced in a blog post.\nThe job cuts are “not simply a cost-cutting exercise” and do not ...",
+  "published_at": "2026-10-06T22:45:28+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-06T22:45:28+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "573c7672c2f963a645e0",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a.body",
+  "source_sha256": "45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a",
+  "fetched_at": "2026-10-07T01:06:18.465670+00:00"
+}

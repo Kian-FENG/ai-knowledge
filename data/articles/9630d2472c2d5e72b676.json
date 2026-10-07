@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155501.htm",
+  "title": "DeepSeek美国版大模型Beam发布：表现还不错 但碰瓷不了V4.1 Flash",
+  "text": "快科技10月6日消息，在开源AI大模型领域，美国公司也要奋起直追中国企业，被称为DeepSeek美国版的Reflection正式发布了Beam大模型，表现还不错。\nBeam是一个5010亿参数的MoE大模型，仅激活230亿参数，1M上下文，纯文本大模型，使用了10500张NVIDIA B300显卡训练了4周时间，预训练数据高达23.8T tokens，本月 会以Apache 2.0 全权重开源。\n性能方面，Beam对比了多款中国开源大模型，以及之前美国代表性的开源大模型——NVIDIA的Nemotron系列，表现比美国此前的开源大模型强很多，甚至可以说是整个西方世界最强的开源AI都不为过。\n但跟国产的开源AI相比，Beam也就是GLM-5.2的性能水平，跟DeepSeek V4.1 Flash的水平还有点远，至少相差一代，同样也打不过K3、GLM-5.3、Qwen 3.8 Max等国产大模型。\n另外，Beam大模型的具体价格也没公布，但官方公布其算力只要GLM-5.2的1/4到1/3，暗示成本优势明显，只不过具体如何还不好说。\n整体来看，Beam大模型首发亮相成绩还是可以的，已经成为西方体系下最强的开源大模型了，但跟V4.1 Flash相比还落后不少，而且价格应该也不会如后者能打。\n如果综合考虑到性能、价格等因素，DeepSeek V4.1 Flash是能满足大部分人90%的需求，而且性价比是其他大模型很难碰瓷的，这个护城河别说美国企业很难打破，国内的开源AI也没几个能跟V4.1 Flaash相比的。\n正因为此，Reflection公司在Beam大模型发布之后，对外强调的叙事风格也不走技术路线，CEO也在用西方世界的焦虑感来给自己树立形象，强调西方世界再不做（开源AI），那全球AI就要由中国大模型来建了。",
+  "published_at": "2026-10-06T14:43:24+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9630d2472c2d5e72b676",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3.body",
+  "source_sha256": "2de9d2c09f52fc42d7f046d849f1c57e7ed5fe46db0d29cee7d55553beb6e2f3",
+  "fetched_at": "2026-10-07T01:07:02.736662+00:00"
+}

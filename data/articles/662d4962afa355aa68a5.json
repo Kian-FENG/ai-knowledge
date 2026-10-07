@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/uber-buy-catering-firm-2-3-billion",
+  "title": "Uber to Buy Catering Firm for $2.3 Billion",
+  "text": "Uber is to pay $2.3 billion in cash to buy ezCater, a firm that handles catering and meals in workplaces, the ridehailing and food delivery giant said on Tuesday.\nEzCater’s service offers businesses a way to order from restaurants across the country, including for meetings and events. The ...",
+  "published_at": "2026-10-06T13:23:50+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-06T13:23:50+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "662d4962afa355aa68a5",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a.body",
+  "source_sha256": "45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a",
+  "fetched_at": "2026-10-07T01:06:18.465670+00:00"
+}

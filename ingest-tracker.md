@@ -34,3 +34,22 @@
 - [x] 任务与 harness 共同演进：推理数据合成的自我改进研究：raw/2026-10-06/22bc08a0ead1f6cb890dc4914980cf682c4a7fc8e192dcadf36264fe3451fe87.txt；hash为文件名；reference/papers/recursive-harness-synthesis-2610-03548.md 已归档/声明范围阅读/综合/审核/发布/默认检索与证据hash回查。范围限制：只读摘要、提交历史和公告列表；模型版本、APEX版本、mean-16预算与全文实验未核实，不采用成绩排名。
 - [x] Namespace与Reflection身份/产品归属已核对，2个entity页发布并回查；执行基础设施综合note为derived，已发布/回查。未独立复现或把审核当独立验证。
 - [x] 既有背景去重跳过；缺证新线索保留于本期research-audit.json，未创建虚假完整草稿。
+
+## automation-ai-2026-10-06（UTC采集2026-10-07）
+
+- reference/sources/openai-atlassian-partnership-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/sources/anthropic-cvp-expansion-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/sources/openai-jump-trading-adoption-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/sources/vinci-series-b-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/sources/openai-ironclad-computer-use-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/sources/openai-math-artifacts-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/sources/mistral-large-4-preview-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/sources/embeddinggemma-2-release-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/sources/nvidia-aicr-v10-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/sources/pytorch-fbtriton-tbe-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/papers/hear-protocol-2610-06597.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/papers/hera-abstention-2610-06563.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- reference/entities/vinci.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+- research/synthesis/agent-delivery-and-verification-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
+
+- reference/sources/openai-decisions-and-usage-tiers-20261006.md：补入官方10月6日API更新；归档、阅读、查重、综合、审核、发布及回查完成。批次最终15页，更新0页。

@@ -21,3 +21,8 @@
 - [[reference/papers/vosti-deterministic-inference-2609-38981|Vosti：推理系统的确定性成为独立验证目标]]
 - [[reference/papers/shared-kv-cache-provenance-2609-38706|共享 KV cache 研究关注跨配置复用的来源一致性]]
 - [[reference/entities/volantis|Volantis：推理光子互连公司]]
+
+## 2026-10-06 研究增量
+
+- [[research/synthesis/agent-delivery-and-verification-20261006|Agent的交付与验证体系]]
+- [[reference/entities/vinci|新增跟踪：Vinci物理仿真平台]]

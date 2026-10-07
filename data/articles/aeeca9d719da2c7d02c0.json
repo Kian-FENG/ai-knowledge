@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/",
+  "title": "Control How Your GPU Shares Work with Green Contexts",
+  "text": "GPU applications increasingly consist of multiple independent components running at the same time within a single process: a latency-sensitive operator...\nGPU applications increasingly consist of multiple independent components running at the same time within a single process: a latency-sensitive operator alongside a throughput-oriented background kernel; a data preprocessing stage alongside model inference; or multiple stages of a processing workflow sharing a single GPU. Controlling how GPU resources are shared between them remains difficult.\nSource",
+  "published_at": "2026-10-06T15:00:00+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-05T21:44:07+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "aeeca9d719da2c7d02c0",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-07/92dcff0ca6ca29e6bf4d573064f07a3ea824534a6ba76957965b376275830378.body",
+  "source_sha256": "92dcff0ca6ca29e6bf4d573064f07a3ea824534a6ba76957965b376275830378",
+  "fetched_at": "2026-10-07T01:05:45.876885+00:00"
+}

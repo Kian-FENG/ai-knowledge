@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-trends/article/3369885/nvidia-backed-reflection-ai-challenges-chinese-dominance-open-weight-models",
+  "title": "Nvidia-backed Reflection AI challenges Chinese dominance in open-weight models",
+  "text": "An Nvidia-backed US start-up has unveiled an open-weight model to challenge China’s dominance in freely available artificial intelligence, releasing a system that early third-party testing suggests could be one of the most token-efficient open models in its class.\nReflection AI on Monday debuted Beam, its first open-weight model built for coding, reasoning and agentic tasks.\nThe US firm said Beam was “competitive” with GLM-5.2 from Z.ai – also known as Zhipu AI – and was “approaching” Alibaba...",
+  "published_at": "2026-10-06T07:00:07+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "bc922fca444a2541ca7c",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/bd167835f0550e3c9e098b6d2567aac9b028151d1267a411eaf8bebe00a05097.body",
+  "source_sha256": "bd167835f0550e3c9e098b6d2567aac9b028151d1267a411eaf8bebe00a05097",
+  "fetched_at": "2026-10-07T01:06:28.295390+00:00"
+}

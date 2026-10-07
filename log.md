@@ -50,3 +50,9 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 ## 2026-10-06 UTC / 日报窗口2026-10-05
 
 新增13个知识页（8个source、2个paper、2个entity、1个note），更新0页。原始版本与hash保留，全部审核发布并经默认query→get_page→raw哈希回查。新增跟踪Namespace与Reflection，修复Seed Research浏览器入口。阶段综述、预览/计划与正式版本分开；论文仅摘要，不采用性能排名。页面入口见 [[research/KNOWLEDGE-GRAPH|知识图谱]]；候选跳过和覆盖缺口见 reports/daily/2026/10/2026-10-05/research-audit.json。本次授权提交/推送，结果将写sync-state.json。
+
+### 2026-10-07 UTC / 洛杉矶2026-10-06日报入库批次
+
+新起草14页：10 source、2 paper、1 entity、1 note。相对前期新增企业上下文/访问分层/数学验证制品、Mistral预览、EmbeddingGemma多模态检索、AICR稳定契约及Vinci融资；论文仅所读章节，不采用摘要加速/成本数字。导航已连接，待审核发布回查；旧raw版本保留。重复背景Beam、Namespace、vLLM v0.31.0未重建页。
+
+2026-10-07 UTC批次完成：补读API changelog和Decisions/usage tier文档后最终发布15页（11source、2paper、1entity、1note），新增Vinci跟踪；默认检索可见与原始hash/证据链回查通过。40页校验、97来源配置及49项离线测试通过；日报14事件，date-only展示已修正并保留原生成版本。

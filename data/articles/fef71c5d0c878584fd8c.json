@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/saaspocalypse-workday",
+  "title": "Why the SaaSpocalypse Isn’t Over For Workday",
+  "text": "AI doesn’t seem likely to completely replace enterprise apps like Workday, which companies use to store key information about employees and financial transactions. But it is putting potential constraints on their growth.\nAlready, some Workday customers are using so-called AI agents from Anthropic, Microsoft and other providers to pull data from Workday so they can analyze employment records or trends, for example, meaning the customers themselves don’t have to visit the app. And many companies that pay for access to Workday’s own AI tools, which sit on top of its core HR and finance databases, aren’t regularly using them, according to interviews with five consultants and partners that work with more than 2,000 Workday customers.",
+  "published_at": "2026-10-06T13:00:56+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-06T17:49:46+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "fef71c5d0c878584fd8c",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a.body",
+  "source_sha256": "45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a",
+  "fetched_at": "2026-10-07T01:06:18.465670+00:00"
+}

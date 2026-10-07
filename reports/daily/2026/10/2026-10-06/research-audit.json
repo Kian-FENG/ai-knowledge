@@ -1,0 +1,1719 @@
+{
+  "as_of": "2026-10-07T01:23:17.619549+00:00",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-06",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-05T18:00:00-07:00",
+    "end": "2026-10-06T18:00:00-07:00"
+  },
+  "configuration_verified": true,
+  "started_at": "2026-10-07T01:05:04.554279+00:00",
+  "weekly_not_due": "首期2026-10-09",
+  "collection_run": "20261007T010511-e3e3d943",
+  "collection_counts": {
+    "ok": 68,
+    "failed": 15,
+    "needs-browser": 12
+  },
+  "source_checks": [
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "已读本期4篇官网正文与官方RSS时刻：Atlassian、Ironclad、数学材料、Jump Trading；未逐篇审阅其他历史公告。"
+    },
+    {
+      "source_id": "openai-api-changelog",
+      "status": "checked",
+      "note": "已读10月6日Decisions beta及三档paid tier两条，补读Decisions概述/计费、rate-limits用量层级；未调用API。文档无发布时间只作背景。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "官网News实际核对10月6日CVP并阅读全文；其余列表最新旧文10月2日/10月1日；日期仅到日。"
+    },
+    {
+      "source_id": "anthropic-research",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "anthropic-sitemap",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "官网Research & News列表可见最新9月10日V4.1 Flash；研究列表最新6月24日。已检查的可见列表无本窗口日期，未检查公众号/私域。"
+    },
+    {
+      "source_id": "deepseek-api-changelog",
+      "status": "checked",
+      "note": "已读官方updates列表及顶部更新，最新9月10日；未把正文日期不变或页面hash变化当新发布。"
+    },
+    {
+      "source_id": "deepseek-pricing",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "deepseek-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "真实浏览器打开qwen.ai/blog并沿官方Latest Advancements到/research#research_latest_advancements，仍只有导航/排序，正文列表不足；不能据此说Qwen没有新闻。"
+    },
+    {
+      "source_id": "qwen-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "机器入口/en/blog和浏览工具/blog均检查，后者跳转kimi.ai/blog；可见最新K3/PerceptionBench为7月16日，无本窗口列示；日期缺失的新链接未当新闻。"
+    },
+    {
+      "source_id": "kimi-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "zhipu",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "zhipu-cn",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "zhipu-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "checked",
+      "note": "真实浏览器news列表最新8月26日业绩、8月3日H3等；页脚M3/Music3.0无核实日期，未当本期发布；公众号未覆盖。"
+    },
+    {
+      "source_id": "minimax-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "mistral",
+      "status": "checked",
+      "note": "机器官方RSS+真实浏览器+HTTP主文核对Large 4公开API预览与未来月底权重；未核验最终权重/许可及全部第三方harness。"
+    },
+    {
+      "source_id": "meta-newsroom",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "meta-ai-blog",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "deepmind",
+      "status": "checked",
+      "note": "补读EmbeddingGemma 2官网全部正文和可用范围；其余候选仅筛标题/日期，未逐篇核对模型卡。"
+    },
+    {
+      "source_id": "google-ai-blog",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "google-cloud-blog",
+      "status": "failed",
+      "note": "HTTP采集被robots阻断；浏览工具访问同域HTML成功，但本期列表/原始正文未补齐，不能把可到达解释为无新闻。"
+    },
+    {
+      "source_id": "tencent-newsroom",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "tencent-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "checked",
+      "note": "真实浏览器/en/research可见Blog最新8月5日/7月31日，论文列表7月6日；已检查可见列表未发现本窗口日期，不代表全部渠道。"
+    },
+    {
+      "source_id": "bytedance-seed-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "checked",
+      "note": "真实浏览器press-room可见前10项最新9月23日/9月22日，未发现本窗口日期；Qwen品牌独立页面获取失败另列。"
+    },
+    {
+      "source_id": "ant-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "robbyant-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "jd-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "xiaomi-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "openbmb-hf",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "浏览工具news列表可见最新9月28日TeamBots、9月21日Grok4.7，未发现列表本窗口日期；非全面渠道核验。"
+    },
+    {
+      "source_id": "nvidia-newsroom",
+      "status": "checked",
+      "note": "机器robots失败，浏览工具同官网HTML可读：10月6日电信开源模型/10月5日癌症案例等。仅检查列表，未完整核验这些正文；未发现可选硬件新品，非全面无新闻。"
+    },
+    {
+      "source_id": "nvidia-blog",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "amd-ir",
+      "status": "checked",
+      "note": "机器robots失败，浏览工具同官网列表可读；10月6日16:15 EDT为财报发布日期通知，9月28日收购旧文。非本期已公布财报或新硬件。"
+    },
+    {
+      "source_id": "amazon-news",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "checked",
+      "note": "浏览工具官方press列表可见10月5日华为专利许可；只到日、未新增本期产品事实，未当10月6日发布。"
+    },
+    {
+      "source_id": "samsung-newsroom",
+      "status": "checked",
+      "note": "机器TLS失败，浏览工具同官网列表可读；10月6日为SmartThings/艺术内容，9月29日Helix投资为旧文，未据此推出HBM供给变化。"
+    },
+    {
+      "source_id": "skhynix-newsroom",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "asml",
+      "status": "failed",
+      "note": "官网浏览工具访问失败；限定官网检索只发现旧9月8日材料，未恢复本期入口正文。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "浏览工具官方latest-news列表最新9月10日收入、9月8日High-NA合作；媒体涨价线索无本期一手原文，不当已发生新事实。"
+    },
+    {
+      "source_id": "volantis",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "已读官方Atom前4个版本元数据，最新v0.5.21更新时间10月2日，未把旧版本更新作本期新release。"
+    },
+    {
+      "source_id": "sglang-blog",
+      "status": "checked",
+      "note": "官网列表已读：最新9月23日Unified Radix Cache，9月20日RLinf，9月10日V4.1；可见6条无本窗口发布。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "已读官方Atom版本及候选正文：本期v0.31.1rc0是RC；v0.31.0更新时间变化，正式published_at已在前期核验并入库。本期不重复宣称正式新发布。"
+    },
+    {
+      "source_id": "vllm-blog",
+      "status": "checked",
+      "note": "官网列表可见最新9月29日/9月24日/9月22日，未发现列示本窗口发布；未读所有历史正文。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "已读官方Atom前4个版本元数据，最新1.5.0-motif-3-dev.1为10月2日，正式1.5.0为9月21日；开发版不当正式发布。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "已读官方Atom最新rc4/rc5/0.7.2rc1日期与简短tag/changelog正文；都是RC且实质说明不足，未当本期正式版本事件。"
+    },
+    {
+      "source_id": "mooncake",
+      "status": "checked",
+      "note": "已读官方Atom前4项元数据，最新0.3.14-rc1为9月7日；未把候选版作正式release。"
+    },
+    {
+      "source_id": "nvidia",
+      "status": "checked",
+      "note": "已补读AICR v1.0全部技术正文。DOCA GPUNetIO/Green Contexts候选只到短feed且web失败，正文不足未采用；没有做部署和性能复现。"
+    },
+    {
+      "source_id": "pytorch-blog",
+      "status": "checked",
+      "note": "FBTriton feed全文含尾部已读；保留GB200、FP16、Adagrad和形状限制，不跨硬件排名，外链代码与图片表格未检查。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "配置cs.CL+cs.DC RSS被robots阻断；浏览工具cs.AI recent补看10月6日554项中的首50，全文只选读HEAR和HERA的已列章节。未覆盖其余分页、cs.CL/cs.DC全量或所有论文全文；公告日与提交日分开。日期专用URL429失败。"
+    },
+    {
+      "source_id": "metr",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "uk-aisi",
+      "status": "checked",
+      "note": "机器TLS失败，浏览工具同官网blog列表可读，最新10月1日/9月28日；未阅读全文或扩大到未列示研究。"
+    },
+    {
+      "source_id": "artificial-analysis",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "artificial-analysis-changelog",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "semianalysis",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "cisa",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "nist",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "bis",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "miit",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "spc",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "mfa",
+      "status": "checked",
+      "note": "机器robots失败，同官网例行记者会列表补查10月6日答记者问；只核查列表，没有阅读全文，不据此断言无AI政策事件。"
+    },
+    {
+      "source_id": "gov-cn-policy",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "chongqing-dsjj",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "nda",
+      "status": "failed",
+      "note": "浏览工具同官网只有空正文（0行），无法恢复国家数据局动态；不表述为无政策新闻。"
+    },
+    {
+      "source_id": "techcrunch-ai",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "the-decoder",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "the-verge-ai",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "the-information",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "bloomberg-tech",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "ft-tech",
+      "status": "failed",
+      "note": "本轮HTTP采集失败；浏览工具同一来源feed/入口兜底仍不可读或超时。未恢复完整正文，不能解释为没有新闻。"
+    },
+    {
+      "source_id": "ft-ai",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "nyt-tech",
+      "status": "failed",
+      "note": "本轮HTTP采集失败；浏览工具同一来源feed/入口兜底仍不可读或超时。未恢复完整正文，不能解释为没有新闻。"
+    },
+    {
+      "source_id": "scmp-tech",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "mit-tech-review",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "ars-ai",
+      "status": "failed",
+      "note": "本轮HTTP采集失败；浏览工具同一来源feed/入口兜底仍不可读或超时。未恢复完整正文，不能解释为没有新闻。"
+    },
+    {
+      "source_id": "toms-hardware",
+      "status": "failed",
+      "note": "本轮HTTP采集失败；浏览工具同一来源feed/入口兜底仍不可读或超时。未恢复完整正文，不能解释为没有新闻。"
+    },
+    {
+      "source_id": "qbitai",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "本轮HTTP采集失败；浏览工具同一来源feed/入口兜底仍不可读或超时。未恢复完整正文，不能解释为没有新闻。"
+    },
+    {
+      "source_id": "ithome",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "36kr",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "tmtpost",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "leiphone",
+      "status": "failed",
+      "note": "本轮HTTP采集失败；浏览工具同一来源feed/入口兜底仍不可读或超时。未恢复完整正文，不能解释为没有新闻。"
+    },
+    {
+      "source_id": "geekpark",
+      "status": "failed",
+      "note": "本轮HTTP采集失败；浏览工具同一来源feed/入口兜底仍不可读或超时。未恢复完整正文，不能解释为没有新闻。"
+    },
+    {
+      "source_id": "zhidx",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "c114",
+      "status": "checked",
+      "note": "机器robots失败，浏览工具同站列表可读，最新可见10月2日/9月30日；未覆盖全部频道。"
+    },
+    {
+      "source_id": "mydrivers",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "浏览工具页面正文不足，不能恢复可判定日期的新闻列表；不表述为没有报道。"
+    },
+    {
+      "source_id": "techmeme-river",
+      "status": "checked",
+      "note": "本轮入口采集ok；仅作为候选与日期筛选，未逐篇阅读全文，不据此断言无新闻。"
+    },
+    {
+      "source_id": "reflection",
+      "status": "checked",
+      "note": "官网blog实际补查，Beam预览仍为前期已核实10月5日资料，无新增权重交付一手证据，去重跳过。"
+    },
+    {
+      "source_id": "namespace",
+      "status": "checked",
+      "note": "官网blog实际补查，Series B及Agent infra披露属于前期，未找到增量证据，去重跳过。"
+    },
+    {
+      "source_id": "vinci",
+      "status": "checked",
+      "note": "新发现公司：已读CEO主文及其所链接公司BusinessWire新闻稿，核对身份、产品归属、USD250M融资/1.5B估值；同主体归因，性能未独立验证。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "已按 after:2026-10-05 before:2026-10-07 执行该中/英文发现检索；粗日期结果仍须核对准确窗口，搜索摘要仅为线索，未取得一手全文的融资/IPO/订单传闻未选用。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "已按 after:2026-10-05 before:2026-10-07 执行该中/英文发现检索；粗日期结果仍须核对准确窗口，搜索摘要仅为线索，未取得一手全文的融资/IPO/订单传闻未选用。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "已按 after:2026-10-05 before:2026-10-07 执行该中/英文发现检索；粗日期结果仍须核对准确窗口，搜索摘要仅为线索，未取得一手全文的融资/IPO/订单传闻未选用。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "已按 after:2026-10-05 before:2026-10-07 执行该中/英文发现检索；粗日期结果仍须核对准确窗口，搜索摘要仅为线索，未取得一手全文的融资/IPO/订单传闻未选用。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "已按 after:2026-10-05 before:2026-10-07 执行该中/英文发现检索；粗日期结果仍须核对准确窗口，搜索摘要仅为线索，未取得一手全文的融资/IPO/订单传闻未选用。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "已按 after:2026-10-05 before:2026-10-07 执行该中/英文发现检索；粗日期结果仍须核对准确窗口，搜索摘要仅为线索，未取得一手全文的融资/IPO/订单传闻未选用。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "已按 after:2026-10-05 before:2026-10-07 执行该中/英文发现检索；粗日期结果仍须核对准确窗口，搜索摘要仅为线索，未取得一手全文的融资/IPO/订单传闻未选用。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "已按 after:2026-10-05 before:2026-10-07 执行该中/英文发现检索；粗日期结果仍须核对准确窗口，搜索摘要仅为线索，未取得一手全文的融资/IPO/订单传闻未选用。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "已按 after:2026-10-05 before:2026-10-07 执行该中/英文发现检索；粗日期结果仍须核对准确窗口，搜索摘要仅为线索，未取得一手全文的融资/IPO/订单传闻未选用。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "已做中英文新公司发现。Vinci回查官网/公司新闻稿并加入跟踪；Ghost主报道10月5日11:07 PDT在本窗口之前，Hark/MirrorParticle/Melius等未读一手正文，中文具身/世界模型检索多为旧文；未核实对象不建公司事实页。"
+    },
+    {
+      "source_id": "techmeme-snapshot",
+      "status": "failed",
+      "note": "为补媒体gap访问261005/261006 h2355快照均不可读；已做窗口内限定媒体搜索，但不能补回全部挤出feed的新闻。"
+    }
+  ],
+  "source_limits": {
+    "openai": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 31,
+      "entries": 1251,
+      "candidates": 31
+    },
+    "openai-api-changelog": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "anthropic": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "anthropic-research": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "anthropic-sitemap": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "deepseek": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "deepseek-api-changelog": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "deepseek-pricing": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "deepseek-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "qwen": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "qwen-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "kimi": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "kimi-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "zhipu": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "zhipu-cn": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "zhipu-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "minimax": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "minimax-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "mistral": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 2,
+      "entries": 89,
+      "candidates": 2
+    },
+    "meta-newsroom": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 8,
+      "entries": 10,
+      "candidates": 8
+    },
+    "meta-ai-blog": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "deepmind": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 6,
+      "entries": 100,
+      "candidates": 6
+    },
+    "google-ai-blog": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 3,
+      "entries": 20,
+      "candidates": 3
+    },
+    "google-cloud-blog": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "tencent-newsroom": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "tencent-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "bytedance-seed": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "bytedance-seed-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "alibaba-cloud": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "ant-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "robbyant-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "jd-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "xiaomi-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "openbmb-hf": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "xai": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "nvidia-newsroom": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "nvidia-blog": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 12,
+      "entries": 18,
+      "candidates": 12
+    },
+    "amd-ir": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "amazon-news": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 2,
+      "entries": 10,
+      "candidates": 2
+    },
+    "qualcomm": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "samsung-newsroom": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "skhynix-newsroom": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 10,
+      "entries": 10,
+      "candidates": 10
+    },
+    "asml": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "tsmc": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "volantis": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "sglang": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 1,
+      "entries": 10,
+      "candidates": 1
+    },
+    "sglang-blog": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "vllm": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 9,
+      "entries": 10,
+      "candidates": 9
+    },
+    "vllm-blog": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "dynamo": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 1,
+      "entries": 10,
+      "candidates": 1
+    },
+    "flashinfer": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 8,
+      "entries": 10,
+      "candidates": 8
+    },
+    "mooncake": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 0,
+      "entries": 10,
+      "candidates": 0
+    },
+    "nvidia": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 19,
+      "entries": 100,
+      "candidates": 19
+    },
+    "pytorch-blog": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 10,
+      "entries": 10,
+      "candidates": 10
+    },
+    "arxiv": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "metr": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "uk-aisi": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "artificial-analysis": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "artificial-analysis-changelog": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "semianalysis": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 5,
+      "entries": 20,
+      "candidates": 5
+    },
+    "cisa": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 2,
+      "entries": 10,
+      "candidates": 2
+    },
+    "nist": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 0,
+      "entries": 40,
+      "candidates": 0
+    },
+    "bis": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "miit": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "spc": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "mfa": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "gov-cn-policy": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "chongqing-dsjj": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "nda": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "techcrunch-ai": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 18,
+      "entries": 18,
+      "candidates": 18
+    },
+    "the-decoder": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 10,
+      "entries": 10,
+      "candidates": 10
+    },
+    "the-verge-ai": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 10,
+      "entries": 10,
+      "candidates": 10
+    },
+    "the-information": {
+      "unknown_date": 0,
+      "future_date": 1,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 20,
+      "entries": 20,
+      "candidates": 20
+    },
+    "bloomberg-tech": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 9,
+      "entries": 20,
+      "candidates": 9
+    },
+    "ft-tech": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "ft-ai": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 25,
+      "entries": 25,
+      "candidates": 25
+    },
+    "nyt-tech": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "scmp-tech": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 39,
+      "entries": 50,
+      "candidates": 39
+    },
+    "mit-tech-review": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 4,
+      "entries": 10,
+      "candidates": 4
+    },
+    "ars-ai": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "toms-hardware": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "qbitai": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 10,
+      "entries": 10,
+      "candidates": 10
+    },
+    "huxiu": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "ithome": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 31,
+      "entries": 60,
+      "candidates": 31
+    },
+    "36kr": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 19,
+      "entries": 30,
+      "candidates": 19
+    },
+    "tmtpost": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 16,
+      "entries": 20,
+      "candidates": 16
+    },
+    "leiphone": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "geekpark": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "zhidx": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 20,
+      "entries": 20,
+      "candidates": 20
+    },
+    "c114": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "mydrivers": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": false,
+      "needs_fulltext": 32,
+      "entries": 100,
+      "candidates": 32
+    },
+    "jiqizhixin": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "techmeme-river": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "reflection": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    },
+    "namespace": {
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 0,
+      "listing_cap_reached": null,
+      "listing_is_complete": null,
+      "needs_fulltext": 0,
+      "entries": null,
+      "candidates": null
+    }
+  },
+  "media_gaps": [
+    {
+      "from": "2026-10-05T03:11:19.581691+00:00",
+      "to": "2026-10-06T19:41:53+00:00",
+      "detected_at": "2026-10-07T01:06:24.626278+00:00",
+      "source_id": "bloomberg-tech"
+    },
+    {
+      "from": "2026-10-06T01:03:47.065237+00:00",
+      "to": "2026-10-06T09:31:53+00:00",
+      "detected_at": "2026-10-07T01:06:45.465409+00:00",
+      "source_id": "ithome"
+    },
+    {
+      "from": "2026-10-05T03:11:21.039992+00:00",
+      "to": "2026-10-06T10:35:00+00:00",
+      "detected_at": "2026-10-07T01:06:30.462687+00:00",
+      "source_id": "mit-tech-review"
+    },
+    {
+      "from": "2026-10-05T03:11:15.708785+00:00",
+      "to": "2026-10-06T10:50:18+00:00",
+      "detected_at": "2026-10-07T01:06:20.980220+00:00",
+      "source_id": "the-decoder"
+    }
+  ],
+  "selected_events": 14,
+  "selected_article_ids": [
+    "00427e47df5ef3064509",
+    "0365f0df8dab5c310603",
+    "0af72b6a4f9fa603ef58",
+    "1ef243007176e85cc8c6",
+    "20a052b4dc40d9691eaf",
+    "2896758265cec81d9589",
+    "2bd8707fdab8226a9f67",
+    "49e8d0577a5e1f9d20fd",
+    "c11a83f73b42d7563944",
+    "ca73ad6631f866e61d8b",
+    "ebb413cc5359756bf923",
+    "f57eff9c23a4454b476b",
+    "f9524fd6a641f04a61eb"
+  ],
+  "knowledge_pages": [
+    "reference/sources/openai-atlassian-partnership-20261006.md",
+    "reference/sources/anthropic-cvp-expansion-20261006.md",
+    "reference/sources/openai-jump-trading-adoption-20261006.md",
+    "reference/sources/vinci-series-b-20261006.md",
+    "reference/sources/openai-ironclad-computer-use-20261006.md",
+    "reference/sources/openai-math-artifacts-20261006.md",
+    "reference/sources/mistral-large-4-preview-20261006.md",
+    "reference/sources/embeddinggemma-2-release-20261006.md",
+    "reference/sources/nvidia-aicr-v10-20261006.md",
+    "reference/sources/pytorch-fbtriton-tbe-20261006.md",
+    "reference/papers/hear-protocol-2610-06597.md",
+    "reference/papers/hera-abstention-2610-06563.md",
+    "reference/entities/vinci.md",
+    "research/synthesis/agent-delivery-and-verification-20261006.md",
+    "reference/sources/openai-decisions-and-usage-tiers-20261006.md"
+  ],
+  "new_pages": 15,
+  "updated_pages": 0,
+  "duplicates_skipped": [
+    "前期Beam预览",
+    "前期Namespace融资",
+    "vLLM v0.31.0正式发布",
+    "旧日报事件/旧日期检索结果"
+  ],
+  "excluded_leads": [
+    "中国融资/IPO与SpaceX算力大额订单为未核实线索，未写成已发生事实",
+    "Solidigm ODM产能与Google电力协议没有完成一手原文核对",
+    "Hark、MirrorParticle、Melius未读一手正文，仍候选",
+    "DOCA GPUNetIO/Green Contexts正文不足",
+    "FlashInfer/vLLM RC未作为正式release",
+    "Ghost实际发布日期在本期窗口之前"
+  ],
+  "reading_limits": [
+    "原站date-only时区未知，不能用配置解析午夜作实际发布时间",
+    "cs.AI当日554项仅筛首50；只选读2篇相关章节，未核验全部附录/代码",
+    "付费媒体、公众号及私域未完整覆盖",
+    "无本地截断或listing cap警报不代表上游feed完整；导入正文长于packet展示时回读完整article",
+    "公司/维护者/作者披露reported，机制分析derived；source-checked不等于replicated"
+  ],
+  "git_initial": {
+    "head": "f15a4e3cbb8966be0f703b6d2e6c68af14cdeb60",
+    "branch": "main",
+    "upstream": "origin/main",
+    "started_at": "2026-10-07T01:05:04.554279+00:00"
+  },
+  "initial_unrelated_paths": 840,
+  "knowledge_verification": [
+    {
+      "id": "source-openai-atlassian-partnership-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "source-anthropic-cvp-expansion-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "source-openai-jump-trading-adoption-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "source-vinci-series-b-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "source-openai-ironclad-computer-use-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "source-openai-math-artifacts-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "source-mistral-large-4-preview-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "source-embeddinggemma-2-release-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "source-nvidia-aicr-v10-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "source-pytorch-fbtriton-tbe-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "paper-hear-protocol-2610-06597",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "paper-hera-abstention-2610-06563",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "entity-vinci",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "note-agent-delivery-and-verification-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    },
+    {
+      "id": "source-openai-decisions-and-usage-tiers-20261006",
+      "published": true,
+      "default_query": true,
+      "get_page_and_sources": true,
+      "raw_hashes": true
+    }
+  ],
+  "validation": {
+    "published_pages": 40,
+    "sources": 97,
+    "offline_tests": 49,
+    "result": "passed"
+  },
+  "report_review": "2026-10-07T01:28:38.081011+00:00",
+  "packet_sha256": "f660df7037f2f9a1b1bd2cf44203cefea201eb81e5af17558fd768a8b806a4e4",
+  "date_correction": {
+    "article_id": "c11a83f73b42d7563944",
+    "published_at": "2026-10-06T16:00:00Z",
+    "updated_at": "2026-10-06T16:43:55.153470Z",
+    "locator": "原始HTML JSON-LD datePublished / dateModified",
+    "previous_candidate_time": "2026-10-06T19:57:04Z"
+  }
+}

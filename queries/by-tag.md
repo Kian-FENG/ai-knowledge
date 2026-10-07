@@ -10,6 +10,10 @@ Generated; published pages only. Do not hand-edit.
 
 - `paper` [[reference/papers/rrsi-agent-harnesses-2609-24972|RRSI：约束 Agent harness 自我改进的过拟合]]
 
+## agent-delivery
+
+- `note` [[research/synthesis/agent-delivery-and-verification-20261006|Agent 的可交付能力由上下文、访问规则与验证体系共同决定]]
+
 ## agents
 
 - `source` [[reference/sources/google-cloud-modernize-20261005|Google Cloud Modernize 将云评估和应用迁移组织成 Agent 产品组合]]
@@ -38,6 +42,21 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/openai-albertsons-retail-20261001|OpenAI 将购物助手接入零售交易流程]]
 - `source` [[reference/sources/openai-den-work-20261001|ChatGPT Work 客户案例突出跨应用资料整合]]
 - `source` [[reference/sources/volantis-series-a-20261001|新增跟踪：Volantis 为光子推理系统融资8,800万美元]]
+
+## daily-research
+
+- `paper` [[reference/papers/hear-protocol-2610-06597|HEAR：把 Agent 工作流意图与推理引擎状态连接起来]]
+- `paper` [[reference/papers/hera-abstention-2610-06563|HERA：让 harness 与任务环境共同演进，学习何时停止]]
+- `source` [[reference/sources/anthropic-cvp-expansion-20261006|Anthropic 扩展 CVP：网络安全模型访问按资格和用途分层]]
+- `source` [[reference/sources/embeddinggemma-2-release-20261006|EmbeddingGemma 2 发布多模态开放嵌入模型，支持端侧检索]]
+- `source` [[reference/sources/mistral-large-4-preview-20261006|Mistral Large 4 进入 API 公开预览，权重仍待月底交付]]
+- `source` [[reference/sources/nvidia-aicr-v10-20261006|NVIDIA 介绍 AICR v1.0：固定集群配置契约与可追溯验证]]
+- `source` [[reference/sources/openai-atlassian-partnership-20261006|Atlassian 扩展 OpenAI 合作：企业上下文与 Agent 工作流进一步结合]]
+- `source` [[reference/sources/openai-ironclad-computer-use-20261006|OpenAI 与 Ironclad 用合同工作任务评估计算机操作能力]]
+- `source` [[reference/sources/openai-jump-trading-adoption-20261006|Jump Trading 披露长时研究 Agent 用法，人工检查仍在流程中]]
+- `source` [[reference/sources/openai-math-artifacts-20261006|OpenAI 发布数学手稿与部分 Lean 证明，结果仍有不同核验阶段]]
+- `source` [[reference/sources/pytorch-fbtriton-tbe-20261006|PyTorch 介绍 FBTriton：稀疏嵌入路径转向可配置的 Python/Triton]]
+- `source` [[reference/sources/vinci-series-b-20261006|Vinci 披露 2.5 亿美元 B 轮，扩展物理仿真与硬件设计平台]]
 
 ## data-synthesis
 
@@ -92,6 +111,10 @@ Generated; published pages only. Do not hand-edit.
 
 - `entity` [[reference/entities/reflection|Reflection：Beam 模型的开发者]]
 - `source` [[reference/sources/reflection-beam-preview-20261005|Reflection 预览 Beam：501B MoE，权重与 Apache 2.0 许可仍待本月发布]]
+
+## physics-ai
+
+- `entity` [[reference/entities/vinci|Vinci：物理仿真与硬件设计的 AI 平台]]
 
 ## provenance
 

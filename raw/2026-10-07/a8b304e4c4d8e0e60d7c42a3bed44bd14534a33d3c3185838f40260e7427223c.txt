@@ -1,0 +1,397 @@
+Why Physics Needs to Move at the Pace of Design | Vinci (https://www.getvinci.ai/blog/why-physics-needs-to-move-at-the-pace-of-design/)
+citeturn21view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn8view3","lineno":12}); Total lines: 72
+L0: cite0†Schedule a Demo L1: 
+L2: cite0†Schedule a Demo L3: 
+L4: cite1†Back to all blogs L5: 
+L6: Blog
+L7: # Why Physics Needs to Move at the Pace of Design
+L8: 
+L9: 10.6.2026
+L10: 
+L11: cite2†Image L12: 
+L13: By Hardik Kabaria, Co-founder and CEO of Vinci
+L14: 
+L15: Every hardware design contains decisions made before the team fully understands their physical consequences. An architecture is chosen. Components are placed. Materials are selected. Engineers bring experience and judgment to those choices, but the detailed physics often arrives later, when changing course is harder and more expensive.
+L16: That order of work limits what engineers can build. When every answer requires substantial preparation, compute and specialist time, teams have to decide which questions are worth asking. Promising ideas can be set aside because there is no practical way to investigate them within the schedule.
+L17: We built Vinci to change that. Today, we announced a cite3†$250 million Series B at a $1.5 billion valuation†www.businesswire.com . The investment gives us the resources to accelerate a goal that reaches well beyond any single analysis: shortening the distance between what engineers can imagine and what they can build.
+L18: 
+L19: * * *
+L20: ## What waiting for physics costs
+L21: 
+L22: The cost of slow analysis extends into decisions made long before a simulation begins. Teams simplify designs so they can evaluate them. They add margin where uncertainty remains. They carry assumptions forward because testing every alternative would take too long.
+L23: Consider a change in component placement. It may improve one aspect of a design while changing how heat moves through the board. Differences in temperature and material expansion can also affect warpage. The engineer needs to understand those interactions while the placement is still a choice. If that understanding arrives after other decisions depend on it, even a small change can require substantial rework.
+L24: This becomes more consequential as engineers design chips, packages, boards and systems together. A decision about power affects cooling requirements. A packaging choice changes the physical constraints elsewhere. The number of interactions grows, while the time available to investigate them remains limited.
+L25: AI adds urgency to this problem. As engineering workflows become increasingly automated and agentic, they will be able to propose and act on more design choices. Each of those choices still has physical consequences. Generating possibilities is useful only if engineers can determine which ones will work.
+L26: 
+L27: * * *
+L28: ## Physics inside the design process
+L29: 
+L30: Continuous Physics Reasoning makes trustworthy physical understanding available throughout design. Engineers can investigate a change, understand its consequences and use that understanding to decide what to do next, while the design is still moving.
+L31: Making this practical requires changes to the entire computational process. Vinci automates design understanding and preparation, combining agentic orchestration with our Foundation Model for Physics and GPU-native physics kernels. The platform delivers deterministic, solver-accurate results at manufacturing resolution and works across new designs without customer-specific training or fine-tuning.
+L32: Those properties matter together. Engineers need enough physical detail to evaluate the design they intend to manufacture. They need repeatable answers they can trust. And they need to investigate a new design without first building a model trained specifically for it.
+L33: We chose semiconductors as our first proving ground because their physical demands leave little room for compromise. Vinci is already running on production engineering programs, with commercial capabilities across thermal, thermo-mechanical and convective fluid behavior. Manufacturing-scale analyses that once required hours or days can be completed in minutes.
+L34: For an engineering team, that changes how much it can learn before committing. More alternatives become practical to evaluate. A question that would once have been deferred can inform the next design decision. Engineers can pursue ideas that would otherwise have been too costly or time-consuming to investigate.
+L35: 
+L36: * * *
+L37: ## What we are building toward
+L38: 
+L39: Continuous Physics Reasoning gives us the foundation for a broader ambition. Once physical understanding can keep pace with design, we can work toward helping engineers determine what should change to improve a product, and eventually toward creating designs from human intent.
+L40: That is a demanding engineering problem. A useful recommendation has to account for how changing one part of a system affects the rest. It must work within constraints imposed by materials, manufacturing and the other disciplines involved in building a product. Extending physical understanding into that kind of engineering intelligence is central to our long-term work.
+L41: This financing will accelerate progress across both physics and engineering. We will expand physical coverage beyond the capabilities available today, develop more capable agentic engineering workflows and deepen integrations with the systems our customers use. We will also invest in the people and computing infrastructure needed to bring Vinci into more production programs.
+L42: The need extends well beyond semiconductors. Engineers developing vehicles, aircraft and satellites face different physical problems, but they share the need to understand the consequences of decisions while those decisions can still change. Our ambition is to make that understanding part of the infrastructure on which hardware engineering runs.
+L43: I am grateful to our customers, investors and team for helping us pursue this work. Our customers are putting Vinci to use on real engineering programs, where the value of an answer depends on whether it can inform the work in front of them.
+L44: That is the standard we intend to keep building toward. Engineers should be able to pursue an idea because they can investigate it, understand its constraints and improve it. Giving them that ability throughout design can expand the range of products they are able to create. That is what this next chapter of Vinci is for.
+L45: ## Seeing is Believing. Schedule a Demo Today.
+L46: 
+L47: First Name [Input]
+L48: 
+L49: Last Name [Input]
+L50: 
+L51: Company Email [Input]
+L52: 
+L53: Role
+L54: 
+L55: [Input: ] [Input]
+L56: 
+L57: [Input: Search]
+L58: 
+L59:   * Engineer
+L60:   * C-Suite
+L61:   * Researcher
+L62:   * Investor
+L63:   * Other
+L64: 
+L65: [Input]
+L66: 
+L67: Website [Input]
+L68: 
+L69: [Button: SCHEDULE A DEMO]
+L70: 
+L71: All fields required. By submitting this form you are agreeing to Vinci4d's cite4†Privacy Policy and cite5†Terms of Use --------------------------------------------------------------------------------
+Vinci Raises $250M Series B at $1.5B Valuation to Build the Intelligence Infrastructure for a New Era of Hardware Engineering (https://www.businesswire.com/news/home/20261006307372/en/Vinci-Raises-%24250M-Series-B-at-%241.5B-Valuation-to-Build-the-Intelligence-Infrastructure-for-a-New-Era-of-Hardware-Engineering)
+citeturn21view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn18view2","lineno":110}); Redirected to URL: https://www.businesswire.com/news/home/20261006307372/en/Vinci-Raises-$250M-Series-B-at-$1.5B-Valuation-to-Build-the-Intelligence-Infrastructure-for-a-New-Era-of-Hardware-Engineering; Total lines: 186
+L0: cite0†Newsroom L1: 
+L2: Services & Solutions
+L3: 
+L4: #### Services & Solutions
+L5: 
+L6: cite1†Services cite2†Press Release Distribution cite3†Included Features cite4†Multimedia & Enhancements cite5†SEO & AI Visibility cite6†Investor Communications cite7†Reporting & Analytics L7: 
+L8: cite8†Solutions For cite9†PR Professionals cite10†IR Professionals cite11†Agencies cite12†Public Companies cite13†Explore by Industry L9: 
+L10: cite14†Expand your reach across countries, regions and languages L11: 
+L12: Resources
+L13: #### Resources
+L14: 
+L15: cite15†Education cite16†Blog cite17†Research & Reports cite18†Webinars & Events cite19†Videos L16: 
+L17: cite20†Why Business Wire cite21†Success Stories cite22†Sample Press Releases cite23†Our Partners cite24†Pricing cite25†Careers L18: 
+L19: cite22†Explore examples and press release best practices! L20: 
+L21: cite26†For Journalists L22: 
+L23: -
+L24: #
+L25: 
+L26: Vinci Raises $250M Series B at $1.5B Valuation to Build the Intelligence Infrastructure for a New Era of Hardware Engineering
+L27: 
+L28: Co-led by Advent, Temasek and Xora, with participation from AMD Ventures, Eclipse, Khosla Ventures, Madrona and other strategic industry leaders, the financing will accelerate Vinci’s mission to dramatically shorten the distance between what engineers can imagine and what they can build.
+L29: PALO ALTO, Calif.--(cite27†BUSINESS WIRE )--cite28†Vinci†cts.businesswire.com today announced a $250 million Series B co-led by Advent, Temasek and Xora, with participation from AMD Ventures, Eclipse, Khosla Ventures, Madrona and others, valuing the company at $1.5 billion. Vinci is building an AI-native computational platform designed to fundamentally expand what hardware engineers can create.
+L30: Beginning with Continuous Physics Reasoning—the ability to understand how complex products will actually behave while they are still being designed—Vinci is building toward a future where engineers can explore vastly more possibilities, identify better designs and ultimately create products beyond the practical reach of today’s engineering tools.
+L31: The new capital will accelerate that vision as Vinci expands from its initial success in semiconductor physics across more physical phenomena, engineering disciplines and hardware industries.
+L32: > Vinci is building an AI-native computational platform designed to fundamentally expand what hardware engineers can create.
+L33: >
+L34: > Share
+L35: For centuries, human imagination has run ahead of our ability to engineer what we imagine. Turning an idea into a working physical product requires navigating enormous design spaces, understanding interactions across increasingly complex systems, and finding solutions within the constraints of physics, materials, manufacturing and technology. As products become more complex, those challenges compound.
+L36: Vinci’s long-term ambition is to systematically remove these barriers—compressing the time, computation and specialized expertise required to turn an idea into physical reality.
+L37: Continuous Physics Reasoning: Understanding While Designing
+L38: Vinci’s core product capability, Continuous Physics Reasoning, gives engineers deterministic, solver-accurate understanding of how a product will behave while it is still being designed, rather than waiting for isolated simulation checkpoints. Already running on production engineering programs, the platform analyzes manufacturing-scale designs ranging from hundreds of millions to more than 15 billion degrees of freedom in minutes rather than hours or days.
+L39: “Designing advanced systems requires engineers to understand how thermal, physical and electrical behavior interact across the chip, package and board,” said Brian Amick, senior vice president of technology and engineering, AMD. “By bringing fast, accurate simulation into the design process, teams can evaluate tradeoffs earlier, iterate more quickly and make better architectural decisions while there is still time to act.
+L40: We’re excited to support Vinci as it helps bring these capabilities to engineering teams.”
+L41: Continuous Physics Reasoning is powered by a fundamentally new computational architecture combining automated design understanding and preparation, agentic orchestration, a Foundation Model for Physics and GPU-native physics kernels. Unlike surrogate models that must be trained or tuned for specific designs, geometries or problem classes, Vinci operates zero-shot across new designs without customer-specific training or fine-tuning.
+L42: The result is deterministic, solver-accurate physics at manufacturing resolution and engineering speed.
+L43: Vinci has already commercialized Continuous Physics Reasoning across thermal, thermo-mechanical and convective fluid behavior, beginning in semiconductors—one of the most physically demanding engineering environments in the world. At this speed and scale, engineers can use physics differently: exploring vastly more possibilities, investigating tradeoffs and understanding physical consequences while they can still influence the design.
+L44: 
+L45: Expanding Across Physics and Engineering
+L46: The $250 million financing will accelerate Vinci along two dimensions. Across physics, Vinci will expand from thermal, thermo-mechanical and convective fluid capabilities toward broad physical coverage across hardware systems—from memory and advanced computing to vehicles, aircraft and satellites.
+L47: Across engineering, Vinci will move from understanding what will happen toward helping engineers determine what should change, orchestrate increasingly complex systems and constraints, and ultimately create new designs from human intent.
+L48: Semiconductors are Vinci’s first proving ground, not its destination. The same challenge exists wherever increasingly complex physical products must be designed across multiple physics, engineering disciplines, suppliers and organizations. Vinci’s long-term ambition is to bring an increasing share of that accumulated engineering intelligence into a single AI-native system.
+L49: The financing brings together investors with deep experience across technology, AI, semiconductors, industrial transformation and long-term infrastructure investment. Advent, Temasek and Xora co-led the round, with participation from AMD Ventures, Madrona, existing investors including Eclipse and Khosla Ventures, and others.
+L50: The opportunity extends far beyond making today’s engineering analysis faster. As Vinci expands across physics and advances toward increasingly capable engineering intelligence, the company believes it can dramatically reduce the constraints between human intent and a physically realizable product. The goal is not simply to help engineers build today’s products faster. It is to expand what humanity is capable of building at all.
+L51: 
+L52: About Vinci
+L53: Vinci is building the intelligence infrastructure for a new era of hardware engineering. Its AI-native computational platform begins with Continuous Physics Reasoning, giving engineers deterministic, solver-accurate understanding of how complex products will physically behave while they are still being designed.
+L54: Vinci automates the traditionally specialist-driven work required to prepare and investigate engineering designs and combines a Foundation Model for Physics with GPU-native physics kernels to deliver physical understanding at manufacturing resolution and engineering speed.
+L55: Already deployed on flagship production engineering programs, Vinci enables engineers to explore more alternatives, identify better designs and expose physical risk while designs are still inexpensive to change. Over time, Vinci is expanding across more physical phenomena and toward increasingly capable engineering intelligence—helping engineers move from understanding what will happen to determining what should change and ultimately creating increasingly complex physical products.
+L56: Learn more at getvinci.ai.
+L57: 
+L58: Vinci Series B | Supporting Quotes
+L59: 
+L60: Alek Ferro, Technology Investor, Advent
+L61: “The complexity of the physical systems the world is building is increasing dramatically, while the computational infrastructure engineers use to understand those systems has not kept pace. Vinci has developed a fundamentally new approach to this problem and has already demonstrated it in some of the world’s most demanding engineering environments. We believe Vinci has the potential to become a foundational technology for a new era of hardware engineering,” said Alek Ferro of Advent.
+L62: Karan Mehandru, Managing Director, Madrona
+L63: “Physics defines the system of truth for the world we live and build in, and its laws dictate almost everything we build. Yet, hardware engineers have been forced to treat simulation as a scarce resource, with every answer costing hours of compute, days of waiting, and a specialist's time. Vinci unshackles the creators from that bottleneck by making physical understanding continuous and almost instantaneous,” said Karan Mehandru, managing director at Madrona.
+L64: “Hardik and the Vinci team have proven that when design and experimentation are tightly coupled with answers grounded in the laws of physics, we not only enable physical designers to operate at the speed of thought, but also unleash a new high-water mark of productivity across the entire supply chain of hardware design.”
+L65: Hardik Kabaria, Co-founder and CEO, Vinci
+L66: “Leonardo da Vinci imagined the airscrew more than four centuries before the first practical helicopter could be built. The idea existed; the engineering capability to realize it did not,” said cite29†Dr. Hardik Kabaria†cts.businesswire.com , co-founder and CEO of Vinci. “That gap still exists throughout engineering today. Our ambition is to compress it. Vinci is starting by giving engineers the ability to understand physical behavior while they are still designing.
+L67: From there, we are building toward systems that can identify what should change, bring together increasingly complex engineering domains, and ultimately help engineers create what they could not create before. Continuous Physics Reasoning is where that journey begins.”
+L68: Phil Inagaki, Chief Investment Officer, Xora Innovation
+L69: “We backed Vinci on the conviction that embedding intelligence directly into the physics of engineering could fundamentally expand what engineers are able to design and build. Vinci has now turned that thesis into a production platform operating in some of the world’s most demanding engineering environments.
+L70: By making solver-accurate physics continuous in the design process, Vinci lets engineers explore far more possibilities and pursue designs that would previously have been too costly, slow, or complex to evaluate,” said Phil Inagaki, Chief Investment Officer at Xora Innovation.
+L71: “As Vinci expands across physics and engineering disciplines, it is becoming the foundational intelligence layer for the physical world — shortening design cycles, avoiding costly downstream failures, and bringing more ambitious, higher-performing products to market faster.”
+L72: ## Contacts
+L73: 
+L74: MEDIA CONTACTS
+L75: Lauren Brown
+L76: Head of Corporate Communications at Vinci
+L77: lauren@vinci4d.ai
+L78: +1 (734) 634-0087
+L79: 
+L80: Angie Clark
+L81: Big Valley Marketing for Vinci
+L82: aclark@bigvalley.co
+L83: +1 317-874-6144
+L84: 
+L85: Industry:
+L86: 
+L87:   * cite30†Software L88:   * cite31†Hardware L89:   * cite32†Artificial Intelligence L90:   * cite33†Data Management L91:   * cite34†Engineering L92:   * cite35†Technology L93:   * cite36†Semiconductor L94:   * cite37†Manufacturing L95: ### Vinci
+L96: 
+L97: * * *
+L98: 
+L99: Release Summary
+L100: 
+L101: Vinci raises $250M at a $1.5B valuation to advance its AI-native platform and build the intelligence infrastructure for hardware engineering.
+L102: 
+L103: Release Versions
+L104: 
+L105: cite38†English L106: 
+L107: * * *
+L108: ### Contacts
+L109: 
+L110: MEDIA CONTACTS
+L111: Lauren Brown
+L112: Head of Corporate Communications at Vinci
+L113: lauren@vinci4d.ai
+L114: +1 (734) 634-0087
+L115: 
+L116: Angie Clark
+L117: Big Valley Marketing for Vinci
+L118: aclark@bigvalley.co
+L119: +1 317-874-6144
+L120: 
+L121: Social Media Profiles
+L122: 
+L123: cite39†Vinci on LinkedIn†www.linkedin.com L124: 
+L125: cite40†Vinci on X†x.com L126: 
+L127: More News From Vinci
+L128: 
+L129: Get RSS Feed
+L130: 
+L131: cite41†Vinci Ships Production-Grade Thermo-Mechanical Simulation at Manufacturing Scale L132: PALO ALTO, Calif.--(cite27†BUSINESS WIRE )--Vinci announced the availability of its second core physics capability: thermo-mechanical simulation that predicts “warpage” in hardware designs....
+L133: 
+L134: cite42†Vinci Emerges from Stealth to Transform Semiconductor Design and Simulation L135: PALO ALTO, Calif.--(cite27†BUSINESS WIRE )--Vinci, the pioneer of Physics-Driven AI for hardware design and simulation, emerged from stealth today and announced $46M in total funding, with its Series A led by Xora Innovation and its Seed round led by Eclipse. The company has unveiled a physics-driven AI system that operates like a team of hardware engineers, running thousands of verified simulations in hours, not weeks. Vinci was founded by Hardik Kabaria, a leading expert in computational geometry who...
+L136: cite0†Back to Newsroom L137: ### Vinci
+L138: 
+L139: * * *
+L140: 
+L141: Release Summary
+L142: 
+L143: Vinci raises $250M at a $1.5B valuation to advance its AI-native platform and build the intelligence infrastructure for hardware engineering.
+L144: 
+L145: Release Versions
+L146: 
+L147: cite38†English L148: 
+L149: * * *
+L150: ### Contacts
+L151: 
+L152: MEDIA CONTACTS
+L153: Lauren Brown
+L154: Head of Corporate Communications at Vinci
+L155: lauren@vinci4d.ai
+L156: +1 (734) 634-0087
+L157: 
+L158: Angie Clark
+L159: Big Valley Marketing for Vinci
+L160: aclark@bigvalley.co
+L161: +1 317-874-6144
+L162: 
+L163: Social Media Profiles
+L164: 
+L165: cite39†Vinci on LinkedIn†www.linkedin.com L166: 
+L167: cite40†Vinci on X†x.com L168: 
+L169: cite43†Company cite43†About Business Wire cite25†Careers cite44†Media Center cite45†Help Center L170: cite1†Services cite2†Press Release Distribution cite4†Visibility & Engagement cite3†Complimentary Features cite6†Investor Communications cite7†Reporting & Analytics L171: 
+L172: cite8†Solutions cite9†PR Professionals cite10†IR Professionals cite11†Agencies cite12†Public Companies cite13†Explore by Industry L173: 
+L174: cite0†Newsroom cite46†Industries cite47†Subjects cite48†Languages L175: 
+L176: cite15†Resources cite16†Blog cite26†For Journalists cite49†Sign Up L177: 
+L178: © 2026 Business Wire, Inc.
+L179:   * cite50†Privacy Policy L180:   * cite51†Cookie Policy L181:   * cite52†Accessibility Statement L182:   * cite53†Terms of Use L183:   * cite54†Legal L184: 
+L185:   *   *   *   *   *
+--------------------------------------------------------------------------------
+[2610.06597] Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving (https://arxiv.org/abs/2610.06597)
+citeturn21view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.06597","lineno":null}); Total lines: 163
+L0: cite0†Search cite1†Submit cite2†Donate†info.arxiv.org cite3†Log in L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · cite4†Advanced search L5: 
+L6: # Computer Science > Artificial Intelligence
+L7: 
+L8: [Submitted on 5 Oct 2026]
+L9: # Title:Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving
+L10: 
+L11: Authors:cite5†Jiaqi Zhao , cite6†Haodong Chen , cite7†Jitai Hao , cite8†Wei Zhao , cite9†Jinghao Pang , cite10†Qiang Huang , cite11†Jun Yu L12: 
+L13: View a PDF of the paper titled Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving, by Jiaqi Zhao and 6 other authors
+L14: 
+L15: cite12†View PDF cite13†HTML (experimental) L16: > Abstract:LLM agents increasingly execute complex workflows involving multi-turn reasoning, tool use, and parallel agents. Efficient serving requires decisions that span two layers with complementary information: the agent harness understands workflow dependencies, context lifecycles, and execution objectives, whereas the inference engine observes request queues, KV-cache state, resource pressure, and execution capabilities.
+L17: Existing interfaces do not systematically connect these views, limiting workflow-aware execution.
+L18: > HEAR, a bidirectional Harness--Engine Pairing protocol for agentic LLM serving. HEAR standardizes how the harness communicates workflow intent and execution requirements and how the engine returns runtime state, capabilities, and outcomes. By separating protocol semantics from optimization policies, HEAR supports diverse coordination strategies without changing workflow or model semantics.
+L19: We instantiate HEAR for online cache-aware runtime coordination and workload-aware execution-mode selection for agent roles.
+L20: > Across four conversational and research-agent benchmarks under memory-constrained, concurrent serving, HEAR achieves a $1.61\times$ batch speedup and reduces median time-to-first-token by $2.23\times$ on SCBench. Mooncake shows that workflow intent and live engine state provide complementary benefits across load regimes.
+L21: On BrowseComp-Plus and DeepResearchBench, workload-specific configurations yield $1.23\times$ and $2.45\times$ end-to-end speedups, respectively, without observed task-quality degradation. These results establish HEAR as a reusable coordination substrate for efficient agentic LLM serving.
+L22: Comments:  | Jiaqi Zhao, Haodong Chen, and Jitai Hao contributed equally
+L23: Subjects:  | Artificial Intelligence (cs.AI)
+L24: Cite as:  | cite14†arXiv:2610.06597 [cs.AI]
+L25:    | (or cite15†arXiv:2610.06597v1 [cs.AI] for this version)
+L26:    | cite16†https://doi.org/10.48550/arXiv.2610.06597†doi.org arXiv-issued DOI via DataCite (pending registration)
+L27: ## Submission history
+L28: 
+L29: From: Jiaqi Zhao [cite17†view email ]
+L30: [v1] Mon, 5 Oct 2026 16:07:33 UTC (935 KB)
+L31: 
+L32: Full-text links:
+L33: 
+L34: ## Access Paper:
+L35: 
+L36: View a PDF of the paper titled Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving, by Jiaqi Zhao and 6 other authors
+L37: 
+L38:   * cite12†View PDF L39:   * cite13†HTML (experimental) L40:   * cite18†TeX Source L41: 
+L42: cite19†view license†creativecommons.org L43: ### Current browse context:
+L44: 
+L45: cs.AI
+L46: 
+L47: cite20†< prev |   cite21†next > L48: 
+L49: cite22†new | cite23†recent | cite24†2026-10 L50: 
+L51: Change to browse by:
+L52: 
+L53: cite25†cs L54: 
+L55: ### References & Citations
+L56: 
+L57:   * cite26†NASA ADS†ui.adsabs.harvard.edu L58:   * cite27†Google Scholar†scholar.google.com L59:   * cite28†Semantic Scholar†api.semanticscholar.org L60: 
+L61: [Button: export BibTeX citation] Loading...
+L62: 
+L63: ## BibTeX formatted citation
+L64: 
+L65: [Button: ×]
+L66: 
+L67: loading...
+L68: 
+L69: Data provided by:
+L70: 
+L71: ### Bookmark
+L72: 
+L73: [Input] Bibliographic Tools
+L74: # Bibliographic and Citation Tools
+L75: 
+L76: [Input] Bibliographic Explorer Toggle
+L77: 
+L78: Bibliographic Explorer (cite29†What is the Explorer?†info.arxiv.org )
+L79: 
+L80: [Input] Connected Papers Toggle
+L81: 
+L82: Connected Papers (cite30†What is Connected Papers?†www.connectedpapers.com )
+L83: 
+L84: [Input] Litmaps Toggle
+L85: 
+L86: Litmaps (cite31†What is Litmaps?†www.litmaps.co )
+L87: 
+L88: [Input] scite.ai Toggle
+L89: 
+L90: scite Smart Citations (cite32†What are Smart Citations?†www.scite.ai )
+L91: 
+L92: [Input] Code, Data, Media
+L93: # Code, Data and Media Associated with this Article
+L94: 
+L95: [Input] alphaXiv Toggle
+L96: 
+L97: alphaXiv (cite33†What is alphaXiv?†alphaxiv.org )
+L98: 
+L99: [Input] Links to Code Toggle
+L100: 
+L101: CatalyzeX Code Finder for Papers (cite34†What is CatalyzeX?†www.catalyzex.com )
+L102: 
+L103: [Input] DagsHub Toggle
+L104: 
+L105: DagsHub (cite35†What is DagsHub?†dagshub.com )
+L106: 
+L107: [Input] GotitPub Toggle
+L108: 
+L109: Gotit.pub (cite36†What is GotitPub?†gotit.pub )
+L110: 
+L111: [Input] Huggingface Toggle
+L112: 
+L113: Hugging Face (cite37†What is Huggingface?†huggingface.co )
+L114: 
+L115: [Input] ScienceCast Toggle
+L116: ScienceCast (cite38†What is ScienceCast?†sciencecast.org )
+L117: 
+L118: [Input] Demos
+L119: # Demos
+L120: 
+L121: [Input] Replicate Toggle
+L122: 
+L123: Replicate (cite39†What is Replicate?†replicate.com )
+L124: 
+L125: [Input] Spaces Toggle
+L126: 
+L127: Hugging Face Spaces (cite40†What is Spaces?†huggingface.co )
+L128: 
+L129: [Input] Spaces Toggle
+L130: 
+L131: TXYZ.AI (cite41†What is TXYZ.AI?†txyz.ai )
+L132: 
+L133: [Input] Related Papers
+L134: # Recommenders and Search Tools
+L135: 
+L136: [Input] Link to Influence Flower
+L137: 
+L138: Influence Flower (cite42†What are Influence Flowers?†influencemap.cmlab.dev )
+L139: 
+L140: [Input] Core recommender toggle
+L141: 
+L142: CORE Recommender (cite43†What is CORE?†core.ac.uk )
+L143: 
+L144:   * Author
+L145:   * Venue
+L146:   * Institution
+L147:   * Topic
+L148: 
+L149: [Input] About arXivLabs
+L150: # arXivLabs: experimental projects with community collaborators
+L151: 
+L152: arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+L153: 
+L154: Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+L155: Have an idea for a project that will add value for arXiv's community? cite44†Learn more about arXivLabs†info.arxiv.org .
+L156: 
+L157: cite45†Which authors of this paper are endorsers? | Disable MathJax (cite46†What is MathJax?†info.arxiv.org )
+L158: 
+L159: We gratefully acknowledge support from our major funders, cite47†member institutions†info.arxiv.org , , and all contributors.
+L160: cite48†About†info.arxiv.org · cite49†Help†info.arxiv.org · cite50†Contact†info.arxiv.org · cite51†Subscribe†info.arxiv.org · cite52†Copyright†info.arxiv.org · cite53†Privacy†info.arxiv.org · cite54†Accessibility†info.arxiv.org · cite55†Operational Status (opens in new tab)†status.arxiv.org L161: 
+L162: Major funding support from
+--------------------------------------------------------------------------------
+[2610.06563] HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention (https://arxiv.org/abs/2610.06563)
+citeturn21view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.06563","lineno":null}); Total lines: 162
+L0: cite0†Search cite1†Submit cite2†Donate†info.arxiv.org cite3†Log in L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · cite4†Advanced search L5: 
+L6: # Computer Science > Artificial Intelligence
+L7: 
+L8: [Submitted on 5 Oct 2026]
+L9: # Title:HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention
+L10: 
+L11: Authors:cite5†Han Luo , cite6†Bingbing Wen , cite7†Guang Yang , cite8†Zora Zhiruo Wang , cite9†Pan Lu , cite10†Lucy Lu Wang L12: 
+L13: View a PDF of the paper titled HERA: Harness-Environment Co-Evolution for Reliable Agentic Abstention, by Han Luo and 5 other authors
+L14: 
+L15: cite11†View PDF cite12†HTML (experimental) L16: > Abstract:Large language model (LLM) agents are increasingly capable of acting in complex tool-use environments, yet they often fail to recognize when tasks are infeasible and no valid solution exists. Recent work has formalized this reliability gap as the problem of agentic abstention, and existing approaches typically optimize a model or agent harness against a fixed set of tasks, leading to limited generalization to unseen failure modes.
+L17: We introduce HERA, a framework for harness-environment co-evolution for agentic abstention.
+L18: HERA consists of (i) a pipeline to automatically construct verifiable pairs of feasible and infeasible tasks by applying controlled environment mutations that transform solvable tasks into cases requiring abstention, and (ii) a co-evolution procedure in which performance failures on previous tasks are used to drive harness adaptation and generate new execution environments and tasks geared towards previous weaknesses.
+L19: On held-out evaluation tasks, an evolved harness from HERA improves abstention accuracy from 61.7% to 83.3% while improving feasible-task completion from 68.3% to 76.7%, achieving the highest abstention and feasible-task completion among the compared methods.
+L20: The resulting best harness transfers across 19 other LLMs, improving abstention accuracy by 15.3 percentage points on average without any model-specific optimization, and enabling smaller models to match the performance of more powerful models at an estimated 85% lower cost.
+--------------------------------------------------------------------------------
+Artificial Intelligence (https://arxiv.org/list/cs.AI/recent)
+citeturn21view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/list/cs.AI/recent","lineno":null}); Total lines: 483

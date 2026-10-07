@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge",
+  "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
+  "text": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours.\nIn Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new MiMo-V2.6 model. In San Francisco, Anthropic unveiled its frontier Opus 5.5 model. About an hour later, OpenAI crashed the party with the surprise release of its GPT-6 Sol and Luna models.\nFor tech executives and developers trying to keep pace, it was just another overwhelming day in the...",
+  "published_at": "2026-10-06T12:00:07+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "004c94fe11fc76b6e4e3",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/bd167835f0550e3c9e098b6d2567aac9b028151d1267a411eaf8bebe00a05097.body",
+  "source_sha256": "bd167835f0550e3c9e098b6d2567aac9b028151d1267a411eaf8bebe00a05097",
+  "fetched_at": "2026-10-07T01:06:28.295390+00:00"
+}

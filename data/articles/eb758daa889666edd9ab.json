@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/6d06a6b2-ea2f-4384-959d-682ce78a1693?syn-25a6b1a6=1",
+  "title": "There is only one trade",
+  "text": "Has every market become a bet on the AI boom?",
+  "published_at": "2026-10-06T20:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "eb758daa889666edd9ab",
+  "source_id": "ft-ai",
+  "source_name": "Financial Times AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/e298fffb2f4e977522538907ad9ac6555b6870f7c43e9f43afb656fed5e98b83.body",
+  "source_sha256": "e298fffb2f4e977522538907ad9ac6555b6870f7c43e9f43afb656fed5e98b83",
+  "fetched_at": "2026-10-07T01:06:36.011118+00:00"
+}

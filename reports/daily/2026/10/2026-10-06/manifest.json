@@ -1,0 +1,22 @@
+{
+  "period": "daily",
+  "date": "2026-10-06",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-06",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-05T18:00:00-07:00",
+    "end": "2026-10-06T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "f660df7037f2f9a1b1bd2cf44203cefea201eb81e5af17558fd768a8b806a4e4",
+  "editorial_sha256": "f744f24feed95cc09ac45f06aaa07d759d9a5f3260516cee7baf2aa1dddb3be2",
+  "report_path": "reports/daily/2026/10/2026-10-06/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-06/f660df7037f2f9a1b1bd2cf44203cefea201eb81e5af17558fd768a8b806a4e4.json",
+  "events": 14,
+  "generated_at": "2026-10-07T01:28:12.974331+00:00",
+  "timezone": "America/Los_Angeles",
+  "report_sha256": "f5a331b4c85014bad43257d047190f2ce2454a6ac1929058b80644435e3621e7",
+  "agent_reviewed_at": "2026-10-07T01:28:38.081011+00:00",
+  "agent_review_note": "已核对窗口、去重、date-only展示、原始文档链接、事实/判断及覆盖；EmbeddingGemma发表16:00Z、修改16:43:55Z依原始HTML JSON-LD纠正，旧版本保留。"
+}

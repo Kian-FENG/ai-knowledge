@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-07/ff4cf9887b863f5e537ca5621f74ca10e7bae516caa538825f28cfb490c50523.body",
+  "sha256": "ff4cf9887b863f5e537ca5621f74ca10e7bae516caa538825f28cfb490c50523",
+  "source_url": "https://the-decoder.com/feed/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-07T01:06:20.980220+00:00",
+  "source_id": "the-decoder",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "X-DNS-Prefetch-Control": "on",
+    "Last-Modified": "Tue, 06 Oct 2026 19:48:09 GMT",
+    "ETag": "\"a5315f490a2a0655686e466cabf81f57\"",
+    "Link": "<https://the-decoder.com/>; rel=\"canonical\"",
+    "Content-Type": "application/rss+xml; charset=UTF-8",
+    "X-LiteSpeed-Cache-Control": "no-cache",
+    "Cache-Control": "no-cache, must-revalidate, max-age=0, no-store, private",
+    "Transfer-Encoding": "chunked",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Date": "Wed, 07 Oct 2026 01:06:29 GMT",
+    "Server": "LiteSpeed",
+    "Strict-Transport-Security": "max-age=15768000; includeSubDomains",
+    "alt-svc": "h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000"
+  },
+  "final_url": "https://the-decoder.com/feed/",
+  "truncated": false,
+  "charset": "utf-8"
+}

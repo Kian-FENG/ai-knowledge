@@ -1,0 +1,214 @@
+Abstract and submission history
+[Submitted on 5 Oct 2026]
+# Title:Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving
+
+Authors:Jiaqi Zhao , Haodong Chen , Jitai Hao , Wei Zhao , Jinghao Pang , Qiang Huang , Jun Yu
+
+View a PDF of the paper titled Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving, by Jiaqi Zhao and 6 other authors
+
+View PDF HTML (experimental)
+> Abstract:LLM agents increasingly execute complex workflows involving multi-turn reasoning, tool use, and parallel agents. Efficient serving requires decisions that span two layers with complementary information: the agent harness understands workflow dependencies, context lifecycles, and execution objectives, whereas the inference engine observes request queues, KV-cache state, resource pressure, and execution capabilities.
+Existing interfaces do not systematically connect these views, limiting workflow-aware execution.
+> HEAR, a bidirectional Harness--Engine Pairing protocol for agentic LLM serving. HEAR standardizes how the harness communicates workflow intent and execution requirements and how the engine returns runtime state, capabilities, and outcomes. By separating protocol semantics from optimization policies, HEAR supports diverse coordination strategies without changing workflow or model semantics.
+We instantiate HEAR for online cache-aware runtime coordination and workload-aware execution-mode selection for agent roles.
+> Across four conversational and research-agent benchmarks under memory-constrained, concurrent serving, HEAR achieves a $1.61\times$ batch speedup and reduces median time-to-first-token by $2.23\times$ on SCBench. Mooncake shows that workflow intent and live engine state provide complementary benefits across load regimes.
+On BrowseComp-Plus and DeepResearchBench, workload-specific configurations yield $1.23\times$ and $2.45\times$ end-to-end speedups, respectively, without observed task-quality degradation. These results establish HEAR as a reusable coordination substrate for efficient agentic LLM serving.
+Comments:  | Jiaqi Zhao, Haodong Chen, and Jitai Hao contributed equally
+Subjects:  | Artificial Intelligence (cs.AI)
+Cite as:  | arXiv:2610.06597 [cs.AI]
+| (or arXiv:2610.06597v1 [cs.AI] for this version)
+| https://doi.org/10.48550/arXiv.2610.06597†doi.org arXiv-issued DOI via DataCite (pending registration)
+## Submission history
+
+From: Jiaqi Zhao [view email ]
+[v1] Mon, 5 Oct 2026 16:07:33 UTC (935 KB)
+HTML v1 selected sections (not full paper)
+Existing interfaces do not systematically connect these views, limiting workflow-aware execution. We propose HEAR, a bidirectional H arness–E ngine p A i R ing protocol for agentic LLM serving. HEAR standardizes how the harness communicates workflow intent and execution requirements and how the engine returns runtime state, capabilities, and outcomes. By separating protocol semantics from optimization policies, HEAR supports diverse coordination strategies without changing workflow or model semantics.
+We instantiate HEAR for online cache-aware runtime coordination and workload-aware execution-mode selection for agent roles. Across four conversational and research-agent benchmarks under memory-constrained, concurrent serving, HEAR achieves a 1.61$\times$ batch speedup and reduces median time-to-first-token by 2.23$\times$ on SCBench. Mooncake shows that workflow intent and live engine state provide complementary benefits across load regimes.
+On BrowseComp-Plus and DeepResearchBench, workload-specific configurations yield 1.23$\times$ and 2.45$\times$ end-to-end speedups, respectively, without observed task-quality degradation. These results establish HEAR as a reusable coordination substrate for efficient agentic LLM serving.
+## 1 Introduction
+LLM agents tackle complex tasks through multi-round planning, tool use, and collaboration [28 , 27 ]. Unlike a single generation, these applications execute workflows of interdependent model calls with evolving contexts. An agent harness orchestrates the workflow, maintains context, and manages tool interactions, whereas an inference engine, such as vLLM [11 ] or SGLang [34 ], performs model execution, request batching, and KV-cache management.
+Thus, end-to-end efficiency depends not only on accelerating individual calls, but also on coordinating requests and reusable state across the workflow.
+Image: Refer to caption Figure 1: Motivating example. Without workflow intent, the engine may evict KV state shortly before reuse; without KV-residency feedback, the harness may schedule a cold request before an equivalent cache-resident one.
+This coordination is difficult because the information needed for execution decisions is split across the two layers. The harness knows request dependencies, context lifecycles, and application objectives, while the engine observes cache residency, request queues, resource pressure, and supported execution modes [20 , 4 ]. Neither view is sufficient in isolation.
+As illustrated in Figure 1 , an engine unaware of future context use may evict KV state immediately before it is needed, forcing costly re-prefilling. Conversely, a harness unaware of cache residency may schedule a cold request before a cache-reusable one, even when both are ready and can be legally reordered.
+The same information gap affects execution configuration: selecting an appropriate inference mode requires matching harness-visible workload characteristics and objectives with engine-side efficiency, capacity, and quality trade-offs. Effective coordination thus requires a bidirectional interface through which both layers can exchange information and carry out joint decisions.
+Prior work demonstrates the value of workflow information and runtime feedback for agentic serving [15 , 20 , 4 , 30 , 9 , 31 ]. These efforts reveal a more fundamental systems gap: agentic LLM serving lacks a shared control-plane abstraction that connects workflow semantics with runtime execution state.
+Consequently, individual optimizations must define their own cross-layer signals, control semantics, and operation lifecycles, tightly coupling policies to particular harnesses and inference engines and limiting their portability and composition.
+To address this missing abstraction, we introduce HEAR, a bidirectional H arness-E ngine p A i R ing protocol for agentic LLM serving. HEAR associates each exchange with the relevant request, context version, or serving instance and organizes communication into four semantic categories. The harness provides Execution Description and Intent and Execution Requirements and Control; the engine returns State and Capabilities and Execution Outcomes.
+HEAR further defines message force and operation lifecycle by distinguishing description from instruction, preference from requirement, observation from guarantee, and acceptance from completion. Coordination policies determine what information to exchange and what actions to take, whereas HEAR defines what those exchanges mean and how they should be handled.
+The protocol coordinates how requests from an existing workflow are served without changing the workflow’s task-selection logic or the model’s semantics.
+We demonstrate the generality of HEAR through two complementary policies operating at different timescales. Cache-Aware Runtime Coordination is an online policy that combines harness-provided waiting constraints and future-reuse intent with engine-reported KV residency and queue state to coordinate request ordering and cache retention.
+Role-specific inference configuration is a coarser-grained policy that maps agent roles and their input–output and concurrency characteristics to engine-supported inference modes using measured efficiency, capacity, and quality profiles. The two policies use the same interaction contract to answer distinct execution questions: which ready request should run next and how requests from each workflow role should be executed.
+We systematically evaluate HEAR across four conversational and research-agent benchmarks under memory-constrained, concurrent serving. HEAR exposes complementary information that neither layer can exploit alone. On SCBench [13 ], waiting-protected cache-aware scheduling achieves a 1.61$\times$ batch speedup while reducing median and P95 time-to-first-token by 2.23$\times$ and 1.45$\times$, respectively.
+Mooncake [21 ] shows that future-reuse intent improves cache retention, but must be conditioned on live engine state to remain beneficial under overload. On BrowseComp-Plus [5 ] and DeepResearchBench [7 ], workload-specific role configurations deliver 1.23$\times$ and 2.45$\times$ end-to-end speedups, respectively, without observed degradation in task quality.
+Together, these results show that harness intent and engine feedback are complementary, workload-dependent signals for execution coordination.
+Our contributions are summarized as follows:
+
+* •
+
+We introduce HEAR, a bidirectional Harness-Engine protocol that associates cross-layer exchanges with requests and contexts, organizes them into four semantic categories, and defines their message force and operation lifecycle.
+
+* •
+We instantiate two execution-level coordination policies, online cache-aware runtime coordination and role-specific inference configuration, showing how a common interaction contract supports both runtime scheduling and cache decisions and coarser-grained execution-mode selection.
+
+* •
+Through controlled evaluations on SCBench, Mooncake, BrowseComp-Plus, and DeepResearchBench, we show that combining harness intent with engine state improves conversational-serving efficiency and yields 1.23$\times$–2.45$\times$ end-to-end speedups for research-agent workflows without observed degradation in task quality.
+## 2 Related Work
+#### Agent Harnesses and Workflow Orchestration
+Agent harnesses such as AutoGen [27 ], AgentScope [8 ], LangGraph [24 ], and Deep Agents [3 ] support multi-agent communication, stateful control flow, model invocation, context management, and tool use. LangGraph represents dynamic workflows as stateful graphs, while Deep Agents adds planning and subagent delegation.
+These frameworks determine what agents execute and when model calls become ready, but lack direct access to runtime conditions independently managed by inference engines, including request queues, batching, KV-cache residency, and resource pressure. HEAR bridges this boundary by conveying workflow intent and requirements to the engine and returning engine state and execution outcomes to the harness.
+#### LLM Inference Systems
+LLM inference systems improve request-level efficiency through continuous batching [29 ], chunked prefill [2 ], and prefill-decode disaggregation [35 ].
+KV-cache optimizations include PagedAttention for flexible allocation and sharing in vLLM [11 ], RadixAttention for prefix reuse in SGLang [34 ], asynchronous multi-tier loading and prefetching in LMCache [16 , 25 ], and selective retention, dynamic context selection, or compression in H_{2}O, SnapKV, OmniKV, and KIVI [32 , 14 , 10 , 17 ].
+These systems provide engine-side mechanisms but do not define how workflow semantics reach the engine or how runtime state and outcomes return to the harness. Rather than replacing their schedulers, cache managers, or execution modes, HEAR provides a bidirectional contract for communicating context lifecycles, future reuse, and execution requirements; discovering engine capabilities; requesting supported operations; and observing their outcomes.
+#### Cross-Layer Coordination for Agentic Serving
+Recent systems combine application structure with runtime feedback for targeted optimizations. Parrot exposes inter-request dependencies, while Agentix prioritizes calls from program history [15 , 18 ]. KVFlow uses workflow structure for retention and prefetching, whereas PBKV predicts dynamic agent invocations [20 , 33 ]. InferCept and Continuum preserve KV state across external-operation pauses [1 , 12 ], while CONCUR controls concurrency using cache pressure [4 ].
+Broader systems include Helium’s query-plan-based caching and scheduling [26 ], Pythia’s predictability-driven caching, scheduling, and autoscaling [30 ], Pie’s application-defined inferlets for generation and KV management [9 ], and an intermediate policy runtime providing shared identities and observation, scoring, prediction, and action primitives [31 ]. These designs couple cross-layer signals to particular policies or execution substrates.
+HEAR instead standardizes the bidirectional interaction contract between an existing harness and engine without prescribing policies, relocating application logic, or adding a runtime tier. It associates workflow descriptions and controls with requests and contexts, returns engine state, capabilities, and outcomes, and defines message force and operation lifecycle. Policies thus retain their decision rules while sharing reusable semantics for cross-layer coordination.
+## 3 The HEAR Protocol
+Figure 2: Overview of HEAR and an illustrative dynamic-agent trace. Left: HEAR organizes bidirectional harness-engine communication into four semantic message categories. Right: As the workflow evolves, the harness sends workflow descriptions and execution controls (blue), while the engine returns runtime state and execution outcomes (orange), forming a feedback loop for scheduling and KV-cache management. KV-cache colors denote decoding, resident, preparing, and empty states.
+The trace illustrates one policy instantiation; HEAR does not prescribe this sequence of interactions.
+HEAR is a bidirectional execution-coordination protocol between an agent harness and an inference engine. It defines what cross-layer messages mean and how they are handled, while leaving individual policies to decide what information to exchange and what actions to take. Figure 2 summarizes the protocol and illustrates how repeated exchanges can coordinate a dynamic workflow as both workflow progress and engine conditions evolve.
+### 3.1 Scope and Execution Model
+The harness and engine retain distinct responsibilities: the harness manages workflow semantics, i.e., agent roles, dependencies, readiness, and context lifecycles, while the engine manages model execution, request queues, KV caches, and serving resources. HEAR connects these views to coordinate request ordering and admission, cache preparation and retention, and supported execution configurations.
+It governs how workflow-selected requests are served without changing task selection, relaxing dependencies, or modifying model semantics. Workflows may evolve dynamically without being known in advance, and each exchange identifies its associated request, context version, or serving instance, linking workflow requirements to the corresponding engine state and outcomes.
+Illustrative Trace. Figure 2 (right) tracks four agents across decision points $T_{0}$–$T_{4}$. At $T_{0}$, the harness queries the current requests of agents A–D, and the engine reports resident KV state for A and C. As agents execute, pause, finish, or create new work, the harness enforces request validity and dependencies, while engine feedback informs admission, ordering, resumption, and KV preparation. This trace illustrates one HEAR-enabled policy rather than a protocol-mandated sequence.
+Table 1: Bidirectional message categories and representative information.
+Category  | Representative Contents
+Harness $\rightarrow$ Engine
+Execution Description and Intent  | Agent roles and stages; workflow dependencies and readiness; request sizes and output limits; context lifecycles; known future uses and explicitly marked predictions.
+Execution Requirements and Control  | Scheduling preferences and waiting-time constraints; cache preparation, retention, and release requests; allowed or requested execution configurations and serving targets.
+Engine $\rightarrow$ Harness
+State and Capabilities  | Reusable prefix ranges and residency tiers; allocatable capacity, queue state, and resource pressure; supported controls and configurations; calibrated or estimated execution costs.
+Execution Outcomes  | Status updates for inference and control requests (accepted, completed, rejected, unsupported, or failed); actual configuration, permitted fallback, and cache reuse; latency, resource use, retries, and errors.
+### 3.2 Message Categories
+
+Cross-layer coordination requires both the conditions motivating a decision and the information or controls needed to carry it out. HEAR organizes these exchanges into four semantic categories, summarized in Figure 2 (left) and Table 1 .
+#### Harness-to-Engine Messages
+
+Execution Description and Intent conveys execution-relevant workflow facts or predictions, including agent roles, readiness, workload characteristics, context lifecycles, and expected reuse. Execution Requirements and Control requests engine actions, such as scheduling preferences, waiting-time constraints, cache operations, or execution configurations. The former explains the conditions surrounding a request; the latter asks the engine to act.
+#### Engine-to-Harness Messages
+
+State and Capabilities reports the conditions under which decisions must be made, including cache residency, queue state, resource pressure, supported operations, and available configurations. Execution Outcomes reports how an inference or control request was handled, including its status, realized configuration, cache reuse, resource cost, or failure. State and Capabilities support decision making, whereas outcomes describe realized effects.
+The categories specify semantic roles rather than packet formats. A single exchange may contain information from multiple categories, and an implementation may expose only the categories and fields it supports. Capability reports allow the harness to discover this supported subset instead of assuming that every engine implements every control.
+### 3.3 Interaction Semantics
+
+Message categories identify the purpose of an exchange but do not determine its force or lifecycle. HEAR therefore defines four additional distinctions, summarized in Table 2 .
+Table 2: Key semantic distinctions in bidirectional protocol interactions.
+Distinction  | Protocol Interpretation
+Intent vs. Control  | Descriptions expose current or anticipated execution conditions; only explicit control requests ask the receiver to act. For example, reporting that context $c$ will be reused is distinct from requesting that its KV cache be retained or prepared.
+Preference vs. Requirement  | Preferences are best-effort, whereas requirements constrain valid execution. An unsatisfied requirement must be rejected or handled by an explicitly permitted fallback.
+| For example, a priority hint may affect request ordering, but it cannot override a mandatory protection condition.
+Observation vs. Guarantee  | State reports describe observed conditions, and capability reports describe supported operations. Neither reserves resources nor guarantees that a future request will be admitted.
+| For example, GPU-residency feedback may guide scheduling without reserving the prefix.
+Acceptance vs. Completion  | Acceptance means that an operation has beenadmitted for processing; completion confirms that its stated effect has been realized. Rejected, unsupported, and failed operations remain distinct outcomes.
+| For example, an accepted cache-preparation request may still be pending.
+Intent vs. Control. Descriptions and predictions provide decision context; only explicit control requests ask the receiver to act. For example, reporting that a context is likely to be reused does not itself request that the engine retain or prepare its KV state.
+Preference vs. Requirement. Preferences are best-effort signals, whereas requirements constrain valid execution. Thus, a cache-aware priority may reorder ready requests but cannot violate workflow dependencies or waiting-time protection; an unsatisfied requirement must be rejected or handled through an explicitly permitted fallback.
+Observation vs. Guarantee. State and capability reports describe current conditions and supported operations without reserving resources or guaranteeing future availability. For example, A and C’s $T_{0}$ residency may guide scheduling but does not reserve their prefixes.
+Acceptance vs. Completion. Acceptance indicates that an operation has been admitted for processing, whereas completion confirms that its intended effect has been realized. In Figure 2 (right), requesting preparation of B does not imply that B’s KV state is immediately available. The corresponding outcome must distinguish acceptance, completion, rejection, lack of support, and execution failure.
+Together, these distinctions prevent policies from treating descriptions as commands, observations as reservations, or accepted operations as completed ones. Later decisions can therefore depend on realized engine effects rather than assumptions about previously issued controls.
+### 3.4 Policy Integration
+#### Joint-Information Policy
+HEAR separates the protocol from the policies that use it. Orchestration methods such as Conductor and Puppeteer derive decisions from task and agent state [19 , 6 ], but application-side information alone does not reveal runtime conditions such as request-level cache residency or queue pressure. HEAR makes these engine-side signals available alongside workflow information, enabling policies to condition execution decisions on both views. We express this joint-information decision as:
+| $$d_{i}=\pi(h_{i},s_{j}),$$  |  | (1)
+
+where $h_{i}$ denotes the workflow and request information available at decision point $T_{i}$, $s_{j}$ is the latest relevant engine update, and $\pi$ selects an execution arrangement or configuration $d_{i}$. As the two layers evolve independently, the latest applicable engine update $s_{j}$ need not have been produced at $T_{i}$.
+#### Illustrative Mapping
+
+In the illustrative trace, $h_{i}$ captures which agents are ready, running, paused, or finished, while $s_{j}$ captures the latest cache-residency and execution feedback. At $T_{0}$, for example, the workflow view identifies agents A–D, whereas the engine view reports resident KV state for A and C. A policy combines these views to choose an execution decision; subsequent outcomes update the information available to later decisions.
+A policy may execute at either layer. It can apply a decision locally or communicate it through the controls defined in Section 3.3 . Without engine feedback, Equation 1 reduces to the harness-local decision $d_{i}=\pi(h_{i})$; without workflow information, the engine remains limited to request-local state.
+Compatibility with Existing Policies. HEAR supports policies that already combine application and engine information. For example, PBKV integrates predicted agent invocations with memory and bandwidth constraints for KV prefetching [33 ], while Pythia combines workflow progress with queue and capacity state for scheduling [30 ]. Their predictors and optimization rules remain unchanged; adapters expose the required workflow descriptions, engine observations, and controls through HEAR.
+Thus, HEAR provides a common semantic substrate rather than a fixed algorithm. Section 4 demonstrates this separation at two timescales: online cache-aware coordination on SCBench and Mooncake Bench, and role-specific execution configuration on BrowseComp-Plus and DeepResearchBench.
+## 4 Experiments
+### 4.1 Experimental Setup
+We evaluate HEAR on two execution decisions that combine harness workflow information with engine state. Cache-aware runtime coordination uses rapidly changing cache and queue state to control request ordering and KV retention, evaluated on a controlled closed-loop SCBench workload [13 ] and a production-derived Mooncake trace [21 ].
+Capability-aware execution configuration combines workload descriptions with engine capability profiles to select role-specific inference modes, evaluated on BrowseComp-Plus [5 ] and DeepResearchBench [7 ] using benchmark-specific workflows built on a common LangGraph harness. All policies preserve the original task-selection logic and workflow dependencies.
+Within each setting, all methods use identical models, inputs, prompts, workflow and tool budgets, and hardware. Policies and method-specific parameters are frozen before evaluation, each arm starts from an independently initialized serving state, and reported results include all failures and retries. We assess end-to-end efficiency and task quality, using request-, token-, and cache-level measurements for attribution.
+Implementation details and complete results are provided in Appendices A and B .
+## 4 Experiments
+### 4.1 Experimental Setup
+We evaluate HEAR on two execution decisions that combine harness workflow information with engine state. Cache-aware runtime coordination uses rapidly changing cache and queue state to control request ordering and KV retention, evaluated on a controlled closed-loop SCBench workload [13 ] and a production-derived Mooncake trace [21 ].
+Capability-aware execution configuration combines workload descriptions with engine capability profiles to select role-specific inference modes, evaluated on BrowseComp-Plus [5 ] and DeepResearchBench [7 ] using benchmark-specific workflows built on a common LangGraph harness. All policies preserve the original task-selection logic and workflow dependencies.
+Within each setting, all methods use identical models, inputs, prompts, workflow and tool budgets, and hardware. Policies and method-specific parameters are frozen before evaluation, each arm starts from an independently initialized serving state, and reported results include all failures and retries. We assess end-to-end efficiency and task quality, using request-, token-, and cache-level measurements for attribution.
+Implementation details and complete results are provided in Appendices A and B .
+### 4.2 Cache-Aware Runtime Coordination
+#### HEAR Instantiation and Runtime Policies
+
+We instantiate Equation 1 as an online coordination policy. At decision point $T_{i}$, the harness describes the ready requests $\mathcal{R}_{i}$, their contexts $\mathcal{C}_{i}$, and applicable execution requirements $\mathcal{U}_{i}$, including waiting protection. The engine returns the latest relevant cache availability $K_{j}$ and queue state $Q_{j}$:
+| $$h_{i}=(\mathcal{R}_{i},\mathcal{C}_{i},\mathcal{U}_{i}),\qquad s_{j}=(K_{j},Q_{j}).$$  |  | (2)
+
+The index $j$ allows engine feedback to update asynchronously from harness decision point $i$. The scheduling policy produces:
+
+| $$d_{i}=\pi_{\mathrm{sched}}(h_{i},s_{j})=(\bm{p}_{i},\mathcal{U}_{i}),$$  |  | (3)
+where $\bm{p}_{i}$ assigns priorities to ready requests. Under HEAR, cache and queue reports provide State and Capabilities; priorities are scheduling preferences under Execution Requirements and Control; and waiting protection is a mandatory requirement. The engine applies each preference subject to these requirements and returns the realized execution outcome.
+We compare three execution-order policies. FCFS uses the default engine scheduler [11 ]. Inspired by KVFlow [20 ], Cache-Aware converts engine-reported KV residency into harness-side scheduling preferences; Cache-Aware+Guard-$W$ additionally prevents bypass or preemption after a request waits $W$ seconds. We evaluate $W\in\{40,60\}$ on SCBench and $W=40$ on Mooncake. For Mooncake, we also evaluate Session-Aware, a KV-retention policy inspired by prediction-guided methods [33 , 30 ].
+After each request, the harness estimates session continuation from its depth and prior inter-turn intervals, explicitly marking the estimate as descriptive intent rather than a retention requirement. The engine combines this estimate with access recency, retaining recent contexts with higher continuation likelihood while gradually deprioritizing long-idle ones. We evaluate Session-Aware alone and with Cache-Aware+Guard. The appendix provides implementation details and policy parameters.
+#### Workloads
+SCBench [13 ] lacks request timestamps, so we construct a closed-loop multi-turn workload with Poisson session arrivals and sampled inter-turn think times, serving Qwen3-8B on one RTX PRO 6000 with a 96-GiB L2 cache. The production-derived Mooncake trace [21 ] records request timestamps, input/output lengths, and remapped block hashes, preserving real arrivals and inter-turn gaps while exposing intra- and inter-session prefix sharing.
+We replay 50%, 75%, and 100% of sessions beginning within a 15-minute window, preserving their start times and complete turn sequences. We serve Qwen3-8B on one H100 with a 96-GiB L2 cache.
+Table 3: Cache-aware runtime coordination results on SCBench. All times are in seconds. Batch completion is the elapsed time to complete all users’ multi-turn conversations. Gray subscripts report speedups relative to FCFS. Reuse denotes the KV-cache reuse rate for follow-up prompt tokens.
+Configuration  | TTFT $\downarrow$  | Batch Completion $\downarrow$  | Reuse $\uparrow$
+P50  | P95  | MAX
+FCFS  | 63.1_{1.00×}  | 74.2_{1.00×}  | 79.0_{1.00×}  | 481_{1.00×}  | 19.2
+Cache-Aware  | 4.6_{13.6×}  | 75.8_{0.98×}  | 93.9_{0.84×}  | 224_{2.15×}  | 87.6
+Cache-Aware + Guard-40  | 28.3_{2.23×}  | 51.1_{1.45×}  | 65.0_{1.22×}  | 299_{1.61×}  | 66.1
+Cache-Aware + Guard-60  | 4.5_{13.9×}  | 64.0_{1.16×}  | 80.4_{0.98×}  | 230_{2.09×}  | 84.7
+#### SCBench Results
+Table 3 shows trade-off among cache reuse, responsiveness, and batch completion. Compared with FCFS, which achieves only 19.2% reuse due to prefix recomputation, Cache-Aware uses engine residency feedback to raise reuse to 87.6%, reduce median TTFT from 63.1 to 4.6 seconds, and shorten batch completion from 481 to 224 seconds. Yet, repeatedly deferring cold requests increases maximum TTFT. Waiting protection bounds this behavior.
+Cache-Aware+Guard-40 improves P50, P95, and maximum TTFT over FCFS while retaining a 1.61$\times$ batch speedup. Increasing the threshold to 60 seconds favors reuse and batch completion but weakens tail-latency protection. These results exercise both directions of HEAR: engine feedback identifies reuse opportunities, while harness requirements constrain how aggressively the scheduler exploits them.
+Figure 3: KV reuse and GPU KV occupancy on Mooncake Bench under different load levels.
+#### Mooncake Results
+Figure 3 and Table 4 show that the preferred policy varies with load while the HEAR interface remains unchanged. At 50% load, limited queuing makes idle-period eviction the primary source of reuse loss; Session-Aware therefore outperforms execution-order control, raising reuse from 19.5% to 31.9%.
+At 75%, high concurrency and remaining reuse opportunities make eviction- and execution-order control complementary: combining Session-Aware with Cache-Aware + Guard yields the shortest session time, highest throughput, and highest reuse. At 100%, Cache-Aware achieves better P50, session latency, and throughput, whereas Session-Aware improves tail latency and reuse. Appendix B.1 provides execution timelines.
+Thus, no policy dominates across loads; HEAR enables workload-dependent use of workflow intent and engine feedback through unchanged message categories and interaction semantics.
+Table 4: Cache-aware runtime coordination results on Mooncake Bench. Session is the total response-waiting time per multi-turn conversation; throughput is measured in turns per minute.
+Load  | Configuration  | TTFT $\downarrow$  | Session $\downarrow$  | Throughput $\uparrow$  | Reuse $\uparrow$
+P50  | P95  | MAX
+50%  | FCFS  | 0.7 $\times$1.00  | 2.8 $\times$1.00  | 6.2 $\times$1.00  | 13.7 $\times$1.00  | 86.1 $\times$1.00  | 19.5
+Cache-Aware  | 0.6 $\times$1.21  | 2.4 $\times$1.17  | 5.9 $\mathbf{\times 1.06}$  | 13.3 $\times$1.02  | 86.0 $\times$1.00  | 20.2
+Cache-Aware + Guard  | 0.6 $\times$1.10  | 2.8 $\times$1.01  | 7.4 $\times$0.84  | 13.6 $\times$1.01  | 86.2 $\times$1.00  | 19.6
+Session-Aware  | 0.6 $\times$1.16  | 2.5 $\times$1.14  | 6.3 $\times$0.99  | 13.0 $\times$1.05  | 86.6 $\times$1.01  | 31.9
+Session-Aware + Cache-Aware + Guard  | 0.5 $\mathbf{\times 1.35}$  | 2.3 $\mathbf{\times 1.21}$  | 6.1 $\times$1.02  | 12.7 $\mathbf{\times 1.08}$  | 86.8 $\mathbf{\times 1.01}$  | 32.1
+75%  | FCFS  | 10.9 $\times$1.00  | 51.9 $\times$1.00  | 56.7 $\times$1.00  | 50.2 $\times$1.00  | 116.4 $\times$1.00  | 8.0
+Cache-Aware  | 8.7 $\times$1.26  | 42.9 $\times$1.21  | 49.6 $\times$1.14  | 42.6 $\times$1.18  | 119.2 $\times$1.02  | 10.1
+Cache-Aware + Guard  | 9.1 $\times$1.20  | 42.3 $\times$1.23  | 47.9 $\times$1.18  | 42.5 $\times$1.18  | 119.3 $\times$1.03  | 8.1
+Session-Aware  | 10.5 $\times$1.04  | 39.0 $\mathbf{\times 1.33}$  | 45.1 $\mathbf{\times 1.26}$  | 43.2 $\times$1.16  | 119.5 $\times$1.03  | 16.1
+Session-Aware + Cache-Aware + Guard  | 8.2 $\mathbf{\times 1.33}$  | 39.8 $\times$1.30  | 45.4 $\times$1.25  | 39.8 $\mathbf{\times 1.26}$  | 121.0 $\mathbf{\times 1.04}$  | 16.9
+100%  | FCFS  | 163.9 $\times$1.00  | 277.0 $\times$1.00  | 281.5 $\times$1.00  | 256.9 $\times$1.00  | 122.7 $\times$1.00  | 5.2
+Cache-Aware  | 86.8 $\mathbf{\times 1.89}$  | 209.9 $\times$1.32  | 220.9 $\times$1.27  | 156.1 $\mathbf{\times 1.65}$  | 128.3 $\mathbf{\times 1.05}$  | 10.0
+Cache-Aware + Guard  | 97.1 $\times$1.69  | 209.2 $\times$1.32  | 217.6 $\times$1.29  | 178.7 $\times$1.44  | 122.8 $\times$1.00  | 8.0
+Session-Aware  | 93.0 $\times$1.76  | 199.2 $\mathbf{\times 1.39}$  | 207.8 $\mathbf{\times 1.35}$  | 171.8 $\times$1.50  | 124.6 $\times$1.02  | 12.7
+Session-Aware + Cache-Aware + Guard  | 161.7 $\times$1.01  | 267.4 $\times$1.04  | 277.7 $\times$1.01  | 243.2 $\times$1.06  | 108.9 $\times$0.89  | 12.5
+### 4.3 Capability-Aware Execution Configuration
+#### HEAR Instantiation and Candidate Space
+We instantiate Equation 1 as an engine-side configuration selector. The harness description $h_{i}$ specifies the agent role, workflow stage, workload shape, execution objective, and quality requirements. The engine view $s_{j}$ provides compatible execution modes and their measured latency, throughput, KV-capacity, and stability profiles. These inputs correspond to HEAR’s Execution Description and Intent, Execution Requirements and Control, and State and Capabilities.
+We consider the shared candidate space:
+| $$\mathcal{C}=\{\mathrm{vLLM},\mathrm{OmniKV}\}\times\{\mathrm{vLLM},\mathrm{H_{2}O},\mathrm{SnapKV}\},$$  |  | (4)
+
+where the first and second sets denote the Main-side and Reader/sub-agent-side modes. Among configurations passing development-stage quality and stability checks, the selector minimizes makespan:
+
+| $$d_{i}^{\mathrm{config}}=\pi_{\mathrm{E}}(h_{i},s_{j}),\qquad d_{\mathrm{BCP}}^{*}=(\mathrm{vLLM},\mathrm{H_{2}O}),\qquad d_{\mathrm{DRB}}^{*}=(\mathrm{OmniKV},\mathrm{H_{2}O}).$$  |  | (5)
+Announcement listing
+* Tue, 6 Oct 2026
+* Mon, 5 Oct 2026
+* Fri, 2 Oct 2026
+* Thu, 1 Oct 2026
+* Wed, 30 Sep 2026
+
+See today's new changes
+
+Total of 2101 entries : 1-50 51-100 101-150 151-200 ... 2101-2101
+
+Showing up to 50 entries per page: fewer | more | all
+### Tue, 6 Oct 2026 (showing first 50 of 554 entries )
+[9] arXiv:2610.06597 [pdf , html , other ]
+
+
+Title: Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving
+Jiaqi Zhao , Haodong Chen , Jitai Hao , Wei Zhao , Jinghao Pang , Qiang Huang , Jun Yu
+
+Comments: Jiaqi Zhao, Haodong Chen, and Jitai Hao contributed equally
+
+Subjects: Artificial Intelligence (cs.AI)

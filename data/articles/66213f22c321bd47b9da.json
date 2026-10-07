@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+  "title": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size",
+  "text": "Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers.\nThe article Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size appeared first on The Decoder.",
+  "published_at": "2026-10-06T19:47:27+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "66213f22c321bd47b9da",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/ff4cf9887b863f5e537ca5621f74ca10e7bae516caa538825f28cfb490c50523.body",
+  "source_sha256": "ff4cf9887b863f5e537ca5621f74ca10e7bae516caa538825f28cfb490c50523",
+  "fetched_at": "2026-10-07T01:06:20.980220+00:00"
+}
