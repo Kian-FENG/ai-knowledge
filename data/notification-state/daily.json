@@ -24,28 +24,28 @@
       "notified_at": "2026-10-07T01:30:42.707385+00:00",
       "research_commit": "87bd3c1ce3074a8e2c00ec2595be72152c25041f",
       "git_remote_synced": true
+    },
+    "2026-10-07": {
+      "packet_sha256": "7ac5b52892ad0a3d365a318e69e5c76666f37ca3c71fb71c8bf7bbd17111d428",
+      "editorial_sha256": "2c99f1e76b3a3a1937ec49bd4cd797ea467c563dd07b07bc682e587501d84bed",
+      "notified_at": "2026-10-08T01:24:14.093725+00:00",
+      "research_commit": "ccb0de31d269c6c08d8c9a4da4fcf4378fe210d0",
+      "git_remote_synced": true
     }
   },
   "failed_source_ids": [
-    "ars-ai",
     "asml",
-    "ft-tech",
-    "geekpark",
-    "google-cloud-blog",
     "huxiu",
     "jiqizhixin",
-    "leiphone",
     "nda",
-    "nyt-tech",
     "qwen",
-    "techmeme-snapshot",
-    "toms-hardware"
+    "techmeme-snapshot"
   ],
-  "updated_at": "2026-10-07T01:30:42.707385+00:00",
+  "updated_at": "2026-10-08T01:24:14.093725+00:00",
   "git_sync": {
-    "date": "2026-10-06",
-    "research_commit": "87bd3c1ce3074a8e2c00ec2595be72152c25041f",
+    "date": "2026-10-07",
+    "research_commit": "ccb0de31d269c6c08d8c9a4da4fcf4378fe210d0",
     "remote_synced": true,
-    "notified_at": "2026-10-07T01:30:42.707385+00:00"
+    "notified_at": "2026-10-08T01:24:14.093725+00:00"
   }
 }
