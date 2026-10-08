@@ -13,6 +13,28 @@ keywords:
   ai_zh: &ai_zh [AI, AIGC, 人工智能, 大模型, 智能体, Agent, 算力, 智算, 芯片, GPU, HBM, 半导体, 光刻, 具身, 人形机器人, 世界模型, OpenAI, Anthropic, Claude, DeepSeek, 千问, 通义, Qwen, Kimi, 月之暗面, 智谱, MiniMax, 豆包, 混元, 文心, 英伟达, 寒武纪, 昇腾, 词元, Token, 数据中心, 多模态, 开源模型, 阿里云, 腾讯云, 华为云, 火山引擎, 百度智能云, 出口管制, 实体清单, 断供, 制裁, 禁运]
 
 sources:
+- id: nous
+  name: Nous Research Official
+  url: https://nousresearch.com/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-08'
+  note: 已读取官网公告列表与CEO融资正文；仅浏览核查，尚未核实HTTP机器采集许可；融资正文仅标月份，以官网带日期公告确认事件日。
+- id: healthleap
+  name: Healthleap Official
+  url: https://www.healthleap.ai/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-08'
+  note: 已读取官网产品及公司发布的WebWire融资正文；仅浏览核查，尚未核实HTTP机器采集许可；临床和客户效果均保留公司归因。
 # ---------- 公司与产品一手来源 ----------
 - id: openai
   name: OpenAI News

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.06940",
+  "title": "Stabilizing language models under continual learning via condition-anchored distillation",
+  "text": "arXiv:2610.06940v1 Announce Type: new\nAbstract: Continual adaptation of language models can change their output distribution on prompts learned earlier, while retaining every old prompt-answer pair may be undesirable or impossible. We study condition-anchored generative distillation (CAGD): retain a small set of old prompts, use a frozen previous model to reconstruct completions and generation states, and match its predictive distributions while learning the next task. The formulation separates three roles that ordinary replay conflates: conditions select the behavior to protect, teacher generations locate relevant states, and soft targets specify how predictions may change. For autoregressive language generation, teacher-rollout distillation admits an exact chain-rule decomposition of sequence divergence. For masked-diffusion language modeling, our implementation directly controls local denoising drift on teacher-generated completions. In continual adaptation of a 219M masked diffusion language model, CAGD reduces four-task final held-out loss from 2.927 to 1.114 in one task order and from 2.168 to 0.891 in exact reverse. The same soft targets lower final average loss by 0.055 over hard replay when teacher-generated support is held identical. The direction persists on fresh facts and natural instructions across SMDM and Qwen3. On GSM8K, Qwen adaptation preserves answer-format compliance, but exact-match retention is seed-mixed at 0.6B and worsens at 1.7B. These results support condition-anchored functional preservation as a common design principle across the tested language-generation objectives.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "8ccf6a5cc44a75ed382f",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

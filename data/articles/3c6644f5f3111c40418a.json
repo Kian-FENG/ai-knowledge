@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+  "title": "Microsoft is giving Copilot more control over Windows and your files",
+  "text": "At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of local and cloud AI models to accomplish tasks efficiently.\nTo show off how Hybrid Intelligence works, Jacob Andreou, Microsoft's EVP of Copilot, walked through a video demo onstage asking Microsoft's Autopilot tool to help with filing taxes. Andreou told the AI agent that he got an email from his accountant and asked Autopilot to get her what she nee …\nRead the full story at The Verge.",
+  "published_at": "2026-10-07T14:01:20-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-07T16:26:53-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3c6644f5f3111c40418a",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-08/d7b2347f1cb42e7b25e92f435a3e65839037dea0042caa259dd4335edbe84e84.body",
+  "source_sha256": "d7b2347f1cb42e7b25e92f435a3e65839037dea0042caa259dd4335edbe84e84",
+  "fetched_at": "2026-10-08T01:05:05.512780+00:00"
+}

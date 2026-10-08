@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/former-tesla-optimus-lead-launching-industrial-robot-startup",
+  "title": "Former Tesla Optimus Lead is Launching an Industrial Robot Startup",
+  "text": "Ashish Kumar, a former AI lead for Tesla’s Optimus humanoid robots, has co-founded a startup developing non-humanoid robots that handle a variety of tasks that would normally be done by highly skilled workers in industries such as manufacturing and aerospace, according to two people with direct knowledge of the matter.\nThe San Francisco startup, Intelligent Machines, has hired several former members of Tesla’s Optimus team and is in the process of raising a seed round that could end up around $100 million, said one of the people.\nIntelligent Machines is currently focused on developing software for robots, but its leaders have discussed designing the hardware as well.\nThe company uses reinforcement learning—a method that rewards AI for accomplishing certain goals and penalizes it for other actions—to teach robots to perform complex tasks, according to the two people. (Kumar’s doctoral research at the University of California, Berkeley, focused on RL.)",
+  "published_at": "2026-10-07T14:01:29+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-07T14:02:13+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8f71406d7f028d2e5ed4",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/24f68450e981867da7fb2ab8c53d0e97aa0db197f3500939b675622e917c9203.body",
+  "source_sha256": "24f68450e981867da7fb2ab8c53d0e97aa0db197f3500939b675622e917c9203",
+  "fetched_at": "2026-10-08T01:05:05.571045+00:00"
+}

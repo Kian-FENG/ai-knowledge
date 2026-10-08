@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07572",
+  "title": "Two Vectors Replace In-Context Demos: Structured Task Adaptation via Embeddings",
+  "text": "arXiv:2610.07572v1 Announce Type: new\nAbstract: In-context learning (ICL) adapts frozen large multimodal models (LMMs) to new tasks from a few demonstrations (demos), but re-encodes them at every query, where each demo image adds up to hundreds of visual tokens. Demo-free methods remove this cost with a compact task state. However, they add it at locations searched per task or at every decoder layer, where task parameters grow with depth. Moreover, inserted tokens or keys cannot change how the original prompt divides its attention within a layer. To address these issues, we propose Structured Task Adaptation via Embeddings (STAVE), which replaces demos with two task-specific vectors added to existing input embeddings. Specifically, a readout vector updates the answer-producing tokens and a context vector updates the other structural token groups. Both are trained with answer labels on prompts with and without demos. We justify these design choices theoretically using a first-order analysis of the loss and a margin bound. Extensive experiments on six LMMs and five large language models show that STAVE matches or outperforms state-of-the-art methods on multimodal tasks with far fewer task parameters and surpasses 15-shot ICL and prior task vectors on 18 text tasks, all at zero-shot inference cost.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "110e5d77466ea3fa1a7c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

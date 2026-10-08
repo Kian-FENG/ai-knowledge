@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/07/arts/music/ai-music-fraud-royalties-sentence.html",
+  "title": "A.I. Music Fraudster Who Drew Millions in Royalties Is Sentenced to 18 Months",
+  "text": "Prosecutors say Michael Smith flooded music-streaming platforms with bots that repeatedly streamed his A.I.-generated music, earning him as much as $8 million.",
+  "published_at": "2026-10-07T19:54:44+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "558dfcf06beeb7cecf9c",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/001ae26e61850cffddc46a2b56ec276bb3508dbf5e9daaa997bfc79bc7f83996.body",
+  "source_sha256": "001ae26e61850cffddc46a2b56ec276bb3508dbf5e9daaa997bfc79bc7f83996",
+  "fetched_at": "2026-10-08T01:05:08.434489+00:00"
+}

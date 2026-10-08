@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/010/310.htm",
+  "title": "微软：Meta Muse 智能体将登陆 Windows 平台",
+  "text": "IT之家 10 月 8 日消息，微软今天在 Surface 新品发布会展示了多款第三方智能体工具。其中，Perplexity 的“便携电脑”工具能够端侧执行多种复杂 AI 任务，无需消耗 Perplexity 云积分。\nIT之家注意到，微软 Windows 和设备部门负责人帕万 · 达武鲁里在发布会中表示，Meta 公司的 Muse 智能体将以原生应用的形式登陆 Windows 平台，并集成 MXC SDK。\n此外，微软还将在 Windows 系统中推出全新“入门指南”，帮助用户更快、更轻松地配置、运行 AI 智能体。OpenClaw 也将推出原生 Windows 网关。",
+  "published_at": "2026-10-07T17:45:35+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "06bdb0c8a211fa780663",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/8b50d5f8f74dc0d9ff214926d8cb9ca223209fbe592db6c0f18146a0d001bd89.body",
+  "source_sha256": "8b50d5f8f74dc0d9ff214926d8cb9ca223209fbe592db6c0f18146a0d001bd89",
+  "fetched_at": "2026-10-08T01:05:12.596938+00:00"
+}

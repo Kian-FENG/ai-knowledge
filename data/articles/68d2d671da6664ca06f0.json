@@ -1,0 +1,18 @@
+{
+  "url": "https://about.fb.com/news/2026/10/meta-data-centers-ai-approach/",
+  "title": "Why Data Centers Are Such a Big Part of Meta’s AI Approach",
+  "text": "Developer and creator Tom Shaw sat down with Meta’s Head of Infrastructure, Santosh Janardhan, to talk about Meta’s approach to building infrastructure to power the future of AI.\nSantosh explained why Meta is more than just a software company, how AI is different from any other technology, and why data centers are essential for building AI.\nThey’ll cover questions like:\nHow does Meta power its AI infrastructure?\nWhat is a gigawatt of energy?\nHow does Meta decide what kind of chips to use for their data centers?\nWhy is Meta so focused on AI right now?\nWhat are the benefits of building your own data centers?\nand more.\nThe post Why Data Centers Are Such a Big Part of Meta’s AI Approach appeared first on Meta Newsroom.",
+  "published_at": "2026-10-07T23:19:30+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "68d2d671da6664ca06f0",
+  "source_id": "meta-newsroom",
+  "source_name": "Meta Newsroom",
+  "section": 0,
+  "raw_path": "raw/2026-10-08/7c5a53e87ef1b4f0df812b723ce062821530225c1d4567ca6f381c63d8536f09.body",
+  "source_sha256": "7c5a53e87ef1b4f0df812b723ce062821530225c1d4567ca6f381c63d8536f09",
+  "fetched_at": "2026-10-08T01:04:39.664294+00:00"
+}

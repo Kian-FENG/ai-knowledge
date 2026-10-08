@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07365",
+  "title": "Who Wrote It Is Not Enough: Detecting Who Contributed the Insight",
+  "text": "arXiv:2610.07365v1 Announce Type: new\nAbstract: As LLMs increasingly assist scientific writing and peer review, detecting who wrote the text is no longer sufficient: we need to determine who contributed the underlying insight. We introduce Insight Provenance, the task of identifying whether a review insight originates from a human, an LLM, or their hybrid contribution. We construct InsightProv-v0 from 4,057 scientific papers and 12,660 human reviews, simulating different levels of LLM involvement with GPT-4o, Gemini, and DeepSeek and annotating provenance at the sentence level. We show that strong performance on raw data can be misleading, as models exploit linguistic and textual-authorship shortcuts that degrade substantially under progressively debiased evaluation. We therefore propose a two-stage adversarial framework that suppresses shortcut signals while preserving provenance-relevant information. Beyond detection, extensive analyses reveal what makes intellectual authorship identifiable: paper grounding and neighboring review context provide complementary provenance signals, while human, hybrid, and AI insights systematically differ in their information sources and failure modes. Most strikingly, AI insights predominantly remain close to generic or paper-provided information, whereas human insights more often introduce external knowledge and independent judgment. These findings suggest that while wording can be rewritten by an LLM, the provenance of an idea leaves a deeper and more persistent signal.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "bd4669b516c2ecb10a0d",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

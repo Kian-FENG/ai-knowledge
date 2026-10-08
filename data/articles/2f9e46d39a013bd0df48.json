@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07368",
+  "title": "Byzantine-Tolerant Causal Unicast with Constant Message Space Overhead",
+  "text": "arXiv:2610.07368v1 Announce Type: new\nAbstract: Causal message ordering provides essential semantics for distributed applications, yet ensuring it within an asynchronous system subject to Byzantine failures presents fundamental theoretical and practical challenges. Prior research establishes that algorithms cannot guarantee both strong safety and liveness without using cryptography under these conditions. Existing Byzantine-tolerant solutions make synchrony assumptions or suffer from $O(n)$ message space overheads and $O(n^2)$ message complexity, where $n$ is the number of processes in the system, or use cryptography, but may not guarantee strong safety. In this paper, we present a novel Byzantine-tolerant causal ordering algorithm that achieves an optimal $O(1)$ application message space overhead for point-to-point messages. Our approach uses a Sender Permission to Send (SPS) invariant and an \\textit{Isolated-Buffer Optimistic Model} for the memory management architecture. To circumvent Byzantine state-pinning and head-of-line blocking attacks, instead of unified causal buffers, we use isolated, per-peer queues equipped with event-driven \\textit{Cascading Space Evictions}. We formally prove that our algorithm guarantees system-wide liveness and satisfies a weakened causal safety abstraction called \\textit{Congestion-Relaxed Causal Delivery}. Under this model, weak causal safety is strictly preserved for all honest-to-honest communications unless extreme network latency or Byzantine withholding attacks exceed quantifiable local buffer capacities, forcing optimistic queue evictions. This formal guarantee successfully balances causal ordering with high throughput, constant message space overhead, low computational overhead, and strictly bounded local space.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "2f9e46d39a013bd0df48",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

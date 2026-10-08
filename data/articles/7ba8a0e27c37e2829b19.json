@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07426",
+  "title": "AccentCL: Robust Accent Classification with Incremental Expansion",
+  "text": "arXiv:2610.07426v1 Announce Type: new\nAbstract: Accent classifiers are typically trained with a fixed label inventory and cannot accommodate new accent categories as new data becomes available. Moreover, accented speech corpora often exhibit substantial class imbalance and/or domain shift due to differences in recording conditions across corpora. We present AccentCL, a class-incremental learning framework for English accent classification that is robust to class imbalance and cross-corpus domain shift. AccentCL extracts multi-layer representations from a frozen Whisper-Large-v3 encoder, optimized with an imbalance-aware cross-entropy loss to reduce bias toward the majority accent classes and a domain mean alignment loss that minimizes distributional mean shift across training corpora. The label space is then expanded via replay-based continual learning, using the frozen base model for knowledge retention and an old-to-new margin loss to reduce overprediction on newly added classes. On a five-class accent classification task, AccentCL achieves 77.1% balanced accuracy and a 76.9% macro-averaged F1 score. We further evaluate the model's ability to incrementally incorporate two new accent categories: Spanish-accented and Chinese-accented English. When adding Spanish-accented English to the pretrained model, AccentCL attains an F1 of 83.3% on the new class while retaining 77.3% balanced accuracy on the base classes. When subsequently adding Chinese-accented English, it achieves 61.8% F1 on the new class while preserving 77.6% balanced accuracy on the previously learned classes. These results show that AccentCL enables robust regional accent classification while allowing new accent categories to be added without full retraining.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "7ba8a0e27c37e2829b19",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

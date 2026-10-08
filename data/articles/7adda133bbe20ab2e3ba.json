@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07593",
+  "title": "TRANSIT: Transparent Scale-in for Multi-Node LLM Training",
+  "text": "arXiv:2610.07593v1 Announce Type: new\nAbstract: TRANSIT is a transparent scale-in framework to enable multi-node model training on fewer GPUs while maintaining training efficiency by transparently leveraging CPU DRAM as an extension of GPU memory during distributed training. It achieves this through a user-space interposition layer, requiring no modifications to the application, training framework, cluster scheduler, device driver, or operating system. Furthermore, TRANSIT achieves higher efficiency by leveraging a zero-copy data path for CPU-GPU transfers. We evaluate TRANSIT on dense and MoE models across scales up to 64 NVIDIA H100 GPUs and multiple parallelism configurations over a RoCE network. Our evaluation shows that TRANSIT can: (a) outperform state-of-the-art framework-managed offloading techniques, achieving up to 68%, 59%, and 42% higher per-GPU throughput than TorchTitan, ZeRO-Offload, and ZeRO-Infinity, respectively, (b) enables training with 50% fewer GPUs while maintaining over 90% of baseline per-GPU throughput, (c) lower per-node network traffic by up to 33%, and (d) improve per-GPU throughput by up to 35% in communication-bound settings.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "7adda133bbe20ab2e3ba",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

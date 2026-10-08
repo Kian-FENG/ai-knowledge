@@ -56,3 +56,7 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 新起草14页：10 source、2 paper、1 entity、1 note。相对前期新增企业上下文/访问分层/数学验证制品、Mistral预览、EmbeddingGemma多模态检索、AICR稳定契约及Vinci融资；论文仅所读章节，不采用摘要加速/成本数字。导航已连接，待审核发布回查；旧raw版本保留。重复背景Beam、Namespace、vLLM v0.31.0未重建页。
 
 2026-10-07 UTC批次完成：补读API changelog和Decisions/usage tier文档后最终发布15页（11source、2paper、1entity、1note），新增Vinci跟踪；默认检索可见与原始hash/证据链回查通过。40页校验、97来源配置及49项离线测试通过；日报14事件，date-only展示已修正并保留原生成版本。
+
+## 2026-10-08T01:20:19.743998+00:00 — 2026-10-07日报与知识入库
+
+完成洛杉矶前一日18:00至当日18:00窗口，精选12事件；新建并审核发布14页（9来源/2论文/2公司/1综合），更新0；默认标题query→get_page回查14页及raw hash均通过。去重Vinci/Namespace/Reflection、旧学习功能；未核实融资/模型卡/论文全文保留候选。54页结构校验与49离线测试通过，source-checked仅有限陈述核对，不作独立复现。报告/证据/覆盖详见reports/daily/2026/10/2026-10-07。

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07688",
+  "title": "FailBench: Evaluating Fault Tolerance Across Distributed Training Architectures",
+  "text": "arXiv:2610.07688v1 Announce Type: new\nAbstract: Distributed deep learning relies on data, pipeline, tensor, and hybrid parallelism, yet fault-tolerance mechanisms are typically evaluated only on the architecture for which they were designed. This leaves practitioners with little guidance when choosing mechanisms across architectures. FailBench provides a unified evaluation harness covering seven distributed training architectures, eight crash-fault-tolerance mechanisms and a no-FT baseline, and single, concurrent, and cascading fail-stop failures. We evaluate 142 (architecture, mechanism, trace) combinations on an 8xV100 cluster, with per-rank checkpoint states ranging from 205 MB to 2.7 GB. Three findings emerge. First, no mechanism is universally best: on A2, disk checkpointing has the lowest steady-state overhead (0.5%), in-memory replication restores fastest (~17 ms), and just-in-time checkpointing avoids periodic steady-state checkpoint cost but incurs ~0.9 s upon failure. When process-group re-formation takes seconds, mechanisms differ more in runtime overhead than restore speed. Second, gossip training increases sample throughput by 17.9% after losing a worker, yet shows no detectable improvement in loss progress over a matched no-fault baseline. Third, mechanism cost depends strongly on architecture: in-memory replication overhead ranges from 3.7% to 176%. We translate these findings into a decision framework for selecting fault-tolerance mechanisms and release FailBench as an open artifact.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9ba96fda68e24083cf92",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

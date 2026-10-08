@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/spacex-seeks-raise-40-billion-apollo-buy-nvidia-chips",
+  "title": "SpaceX Seeks to Raise $40 Billion From Apollo to Buy Nvidia Chips",
+  "text": "SpaceX, the AI and rocket company led by Elon Musk, is seeking to raise $40 billion to buy Nvidia chips in a financing round led by Apollo Global Management, the Financial Times reported on Tuesday.\nThe deal is expected to close in 2027 and consist of around $10 billion in bank loans and $30 ...",
+  "published_at": "2026-10-07T01:05:14+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T00:08:01+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "64c6b0283f7f8c9e3598",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/24f68450e981867da7fb2ab8c53d0e97aa0db197f3500939b675622e917c9203.body",
+  "source_sha256": "24f68450e981867da7fb2ab8c53d0e97aa0db197f3500939b675622e917c9203",
+  "fetched_at": "2026-10-08T01:05:05.571045+00:00"
+}

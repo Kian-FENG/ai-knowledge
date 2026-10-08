@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07759",
+  "title": "When Can Stateless Recovery Defeat Byzantine Quorum Safety? A Tight Normal Form for Single-Step BFT",
+  "text": "arXiv:2610.07759v1 Announce Type: new\nAbstract: Byzantine quorum safety relies on correct replicas refusing to sign conflicting values. A replica that loses its protocol state during recovery but retains its identity and signing key may forget an earlier vote. We study certificates formed by matching signed votes from at least $q$ of $n$ replicas, assuming that each correct replica avoids conflicting votes between recoveries. If two conflicting certificates form, their overlap has size between $2q-n$ and $b+c$, where $b$ counts Byzantine replicas and $c$ counts correct identities that recovered during the execution considered. Our main result decomposes the slack $b+c-(2q-n)$ into four nonnegative counts: extra signers in the first certificate, extra signers in the second, identities in neither certificate, and Byzantine or recovering identities outside their overlap. Zero slack forces an exact signer partition. With $n=3f+1$ replicas, threshold $q=2f+1$, at most $f$ Byzantine replicas, and exactly one correct recovery event, any conflicting pair forces exactly $f$ Byzantine replicas, all in the overlap together with the recovered replica; each certificate has a disjoint side of $f$ correct replicas. A minimal protocol attains this form. We distinguish certificate formation from acceptance, give a sufficient check using configured fault and recovery caps, and explain why durable vote records written before signature release prevent the conflict.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f2c6c419841657086054",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+  "title": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’",
+  "text": "Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into an initiative to create a \"virtual cell\" that researchers can use to combat disease, as reported earlier by Reuters. The project is led by Biohub, a nonprofit biomedical research organization founded by Mark Zuckerberg and his wife, Priscilla Chan. It comes as part of a $1.8 billion \"Virtual Biology\" initiative to build AI datasets that could allow researchers to \"ask, predict, and answer biological questions digitally.\"\nFounded in 2016, Biohub aims to prevent and cure diseases through the creation of a \"high-accuracy predictive mode …\nRead the full story at The Verge.",
+  "published_at": "2026-10-07T10:40:52-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-07T12:42:25-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "04347efee76c2a01d52c",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-08/d7b2347f1cb42e7b25e92f435a3e65839037dea0042caa259dd4335edbe84e84.body",
+  "source_sha256": "d7b2347f1cb42e7b25e92f435a3e65839037dea0042caa259dd4335edbe84e84",
+  "fetched_at": "2026-10-08T01:05:05.512780+00:00"
+}

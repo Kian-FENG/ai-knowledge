@@ -2,6 +2,20 @@
 # sources 指向 data/sources.yaml 的来源 ID；browser 列出 HTTP 采集不可用、需要用浏览器
 # 打开核查的入口；channels 记录首发渠道（多为公众号或社交平台），只能经媒体与检索发现。
 companies:
+- id: nous-research
+  name: Nous Research / Hermes Agent
+  region: US
+  urls: [https://nousresearch.com/, https://nousresearch.com/blog]
+  sources: [nous]
+  browser: [https://nousresearch.com/]
+  note: 2026-10-07核实官网身份与融资披露；Hermes是Nous产品，企业版交付和收入另行核实。
+- id: healthleap
+  name: Healthleap
+  region: US
+  urls: [https://www.healthleap.ai/, https://www.healthleap.ai/press]
+  sources: [healthleap]
+  browser: [https://www.healthleap.ai/]
+  note: 2026-10-07公司披露种子与A轮合计USD38M；医院数、临床效果与财务收益仅为公司主张。
 - id: openai
   name: OpenAI
   region: US

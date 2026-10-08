@@ -53,3 +53,22 @@
 - research/synthesis/agent-delivery-and-verification-20261006.md：raw版本与阅读范围见元数据；归档、读取、查重、综合完成；审核/发布/默认query和get_page证据链回查完成。
 
 - reference/sources/openai-decisions-and-usage-tiers-20261006.md：补入官方10月6日API更新；归档、阅读、查重、综合、审核、发布及回查完成。批次最终15页，更新0页。
+
+## 2026-10-08T01:20:19.743998+00:00 — 日报2026-10-07批次
+
+- reference/sources/openai-intelligent-ui-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/2c2aee65d0946a14b5b8a46de6365392ee53349a9cd76a288757c0e509b95525.txt；版本 2c2aee65d0946a14b5b8a46de6365392ee53349a9cd76a288757c0e509b95525。
+- reference/sources/openai-college-planner-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/07c49049f1a2bdc66f2a192e6d8a3d8d5d14396674aeeb9b92f59051a9536787.txt；版本 07c49049f1a2bdc66f2a192e6d8a3d8d5d14396674aeeb9b92f59051a9536787。
+- reference/sources/google-playground-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/b99e316612b2960279a8fd1f8aac5abf3b96168590a499f2cd776dc94d423c8d.txt；版本 b99e316612b2960279a8fd1f8aac5abf3b96168590a499f2cd776dc94d423c8d。
+- reference/sources/radisson-chatgpt-discovery-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/146a456502b2b5f637ae445ee1d47d597235186c1cad1cb3bd9e3da6fffa548a.txt；版本 146a456502b2b5f637ae445ee1d47d597235186c1cad1cb3bd9e3da6fffa548a。
+- reference/sources/anthropic-haiku-55-pricing-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/93b9bd71aecf534b7d3bd9f7b3677925b03d020dcd047fd0c64e03bb31ff105a.body；版本 93b9bd71aecf534b7d3bd9f7b3677925b03d020dcd047fd0c64e03bb31ff105a。
+- reference/sources/nous-series-b-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/f00280b142a06b37f7beb92c4347002d979f02c487e491e6c9889042930b05ea.txt；版本 f00280b142a06b37f7beb92c4347002d979f02c487e491e6c9889042930b05ea。
+- reference/sources/healthleap-funding-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/bd766012ea7a698d830470df05a18b40911e9158534718095ac0115fd44b4f0a.txt；版本 bd766012ea7a698d830470df05a18b40911e9158534718095ac0115fd44b4f0a。
+- reference/sources/dynamo-v151-release-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/c9ff2e00d6525c3b5bdc4a0d317975b78ef3bc0a74e4f851265622c45670495d.body；版本 c9ff2e00d6525c3b5bdc4a0d317975b78ef3bc0a74e4f851265622c45670495d。
+- reference/sources/nvidia-rtx-spark-windows-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/92e91549cd3c7caa8b667465b987b226e15cd8b6867ad27186d1ce1bf7fcd31d.body；版本 92e91549cd3c7caa8b667465b987b226e15cd8b6867ad27186d1ce1bf7fcd31d。
+- reference/papers/refold-reversible-context-2610-07863.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/7d6f07925ad8cdc111d5a52a0d45e5f6e8a9d991619ceec59868f4e25c9a3dfe.txt；版本 7d6f07925ad8cdc111d5a52a0d45e5f6e8a9d991619ceec59868f4e25c9a3dfe。
+- reference/papers/mosaic-gpu-sharing-2610-07504.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；raw/2026-10-08/8eed4f3c238ca262a0469571f4513c24c3e323cb87401a87998a57c3e8d43a53.txt；版本 8eed4f3c238ca262a0469571f4513c24c3e323cb87401a87998a57c3e8d43a53。
+- reference/entities/nous-research.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；证据见关联来源页；版本 见页面evidence。
+- reference/entities/healthleap.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；证据见关联来源页；版本 见页面evidence。
+- research/synthesis/interactive-agents-cost-and-local-supply-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；证据见关联来源页；版本 见页面evidence。
+
+阻塞/未完成：Qwen等5来源与Techmeme快照；媒体缺口；196论文候选未归档；ReFold完整实验、Mosaic全文、OpenBMB模型卡、Ropedia身份；详见本期pending-evidence.md。未升measured/replicated。

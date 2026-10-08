@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155684.htm",
+  "title": "三星HBM4e内存芯片拿到NVIDIA认证：48GB容量、性能提升20%",
+  "text": "快科技10月7日消息，尽管在HBM2/3时代落后于SK海力士，但三星在HBM4时代正式翻身，不仅率先出货了HBM4内存，现在HBM4e也更进一步，被指拿到了NVIDIA的认证。\n据韩国媒体报道，三星的HBM4e内存在上个月底拿到了包括NVIDIA在内的多家客户的产品资格认证，这个认证是针对产品质量验证的，不代表获得了各大客户的合同订单、供应量及量产时间。\n不过三星官方针对这个消息的说法没有明确表态，称无法确认，但不否认的态度就能说明问题了。\n现在的HBM4e内存规格也比之前的计划要保守一些，是12-Hi堆栈的，最大容量48GB，如果是之前激进版的16-Hi堆栈，容量能达到64GB，但良率和成本都会是更大的问题，NVIDIA都很难说用得起，Rubin这一代已经开始调低HBM规格了。\n三星的HBM4e的内存芯片用的是第六代10nm工艺1c，基础芯片则是三星的4nm工艺生产，针脚速度达到了16Gbps，三星宣称性能比前代HBM4提升20%以上，通过低功耗设计和封装结构优化，能效提升了16%以上。\n根据NVIDIA的计划，HBM4e内存会在明年出货的Rubin Ultra上正式出货，之前计划配备1TB HBM4e，但近期Rubin显卡规格都在调整，因此不确定性很多，最终规格还有待确认。",
+  "published_at": "2026-10-07T15:41:03+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9724f10f8322481b08c5",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b.body",
+  "source_sha256": "c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b",
+  "fetched_at": "2026-10-08T01:05:23.714870+00:00"
+}

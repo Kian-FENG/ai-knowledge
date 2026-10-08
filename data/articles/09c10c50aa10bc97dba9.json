@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155730.htm",
+  "title": "OpenAI全面上线GPT6！ChatGPT迎智能UI重磅升级：免费用户也能用",
+  "text": "快科技10月8日消息，今日，OpenAI宣布，正式向全球ChatGPT用户推送GPT-6，逐步取代此前的GPT-5.6 Sol和GPT-5.6 Luna。\n与此同时，ChatGPT还迎来全新智能UI（Intelligent UI）功能，让AI回答不再局限于文字，而是能够直接生成图表、交互界面等内容。\n此次升级覆盖免费和付费用户，其中Plus、Pro、Business及Enterprise用户已开始陆续获得更新，免费和Go用户也将在随后陆续开放。\n据了解，不同套餐使用的模型有所区别，付费用户使用GPT-6 Sol，免费和Go用户使用GPT-6 Luna，两款模型均针对日常对话体验进行了优化。\n此次ChatGPT最值得关注的变化之一，就是引入全新的智能UI功能，进一步打破传统文字聊天的交互方式。\n借助GPT-6，ChatGPT能够根据用户提出的问题，自动选择合适的内容展示形式，将文字、图片、图表、按钮、表单等元素结合起来，甚至直接生成可操作的交互界面。\n例如，当用户需要比较不同产品时，ChatGPT可以通过图文结合的方式直观展示差异；学习复杂知识时，则可以生成交互式图表，用户还能自行调整参数，实时查看结果变化。\n不仅如此，用户还可以直接让ChatGPT生成计算器、账单分摊工具等，甚至能在聊天界面中创建可以直接玩的小游戏。\n这意味着，部分原本需要借助专门软件或网页完成的操作，如今只需通过自然语言提出需求，就能直接在ChatGPT中完成。\n据介绍，智能UI不会出现在每一次回答中，ChatGPT会根据问题类型自动判断是否需要图形或交互元素，对于简单问题，仍会直接通过文字回答。\n除了交互体验升级，GPT-6还进一步提升了响应速度，能够在思考的同时开始输出回答。\n以往使用推理模型时，用户通常需要等待AI完成思考才能看到结果，而GPT-6可以边思考边回答，并随着推理深入，逐步补充和完善内容，减少用户等待时间。\nOpenAI数据显示，对于需要联网搜索的问题，GPT-6 Instant开始输出回答的平均等待时间相比GPT-5.6 Instant缩短44%。\n此外，GPT-6在联网搜索质量、信息查找和安全性方面也有所改进，能够更准确地判断何时需要搜索，并提高回答的可靠性。",
+  "published_at": "2026-10-08T06:47:37+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "09c10c50aa10bc97dba9",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b.body",
+  "source_sha256": "c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b",
+  "fetched_at": "2026-10-08T01:05:23.714870+00:00"
+}

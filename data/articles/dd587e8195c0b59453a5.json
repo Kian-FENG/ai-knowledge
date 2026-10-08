@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-07/us-agrees-to-loan-for-chipmaker-that-went-bankrupt-last-year",
+  "title": "US Agrees to Loan for Chipmaker That Went Bankrupt Last Year",
+  "text": "The US Defense Department pledged to issue a conditional loan to Wolfspeed Inc., the chipmaker that filed for bankruptcy last year, for as much as $1.5 billion to support the development of materials that the firm described as key to national security.",
+  "published_at": "2026-10-07T20:59:55+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "dd587e8195c0b59453a5",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/f8c105bfe61618b74503d88927b8406b15b78de3bea72e6208ebd88eb850d993.body",
+  "source_sha256": "f8c105bfe61618b74503d88927b8406b15b78de3bea72e6208ebd88eb850d993",
+  "fetched_at": "2026-10-08T01:05:07.692204+00:00"
+}

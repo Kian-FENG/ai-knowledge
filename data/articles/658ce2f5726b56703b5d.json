@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.06962",
+  "title": "Verdicts Without Annotated Evidence: Rejection Sampling or Label-Only Post-Training for Evidence Recovery?",
+  "text": "arXiv:2610.06962v1 Announce Type: new\nAbstract: In many review workflows the verdict is the only thing retained. The passages behind it are not marked, because that annotation costs far more than recording the decision. We measure how much of that evidence a small language model can recover when it is post-trained on the verdicts alone, with no human evidence labels at any stage. On ContractNLI the human evidence spans are held out until evaluation. Matching the recorded verdict and agreeing with those spans are not the same thing: across six systems the two scores are only weakly related and rank the systems differently, so accuracy is a poor guide when the citations have to be reviewable. Label-only training on the bare verdict reaches accuracy 0.896 and span F1 0.564. Rejection sampling, which keeps a generated trace only when its verdict matches the record and then picks one by an automatic source-grounding score, reaches 0.797 and 0.556, against 0.747 and 0.493 before training. Verbatim citation rises from 0.597 to 0.729 under label-only training and to 0.701 under rejection sampling. One seed on one corpus cannot say which method is better, but both improve the evidence without anyone annotating it.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "658ce2f5726b56703b5d",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

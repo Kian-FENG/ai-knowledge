@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07516",
+  "title": "NCCL M2N: A Layout- and Topology-Aware Collective for Distributed Tensor Resharding",
+  "text": "arXiv:2610.07516v1 Announce Type: new\nAbstract: Distributed training and rollout generation often use different tensor layouts, requiring model weights to be resharded across distinct process groups. This M-to-N redistribution is not directly expressed by standard collectives. Flat direct sends duplicate traffic across destination replicas, while gather-then-broadcast concentrates network injection at one root and transfers data that destinations do not need. For DeepSeek-V3 on 256 GPUs, legacy all-gather plus broadcast accounts for 29.4% of the reported reinforcement-learning step time. We present NCCL M2N, a layout- and topology-aware collective primitive for distributed tensor resharding. Given source and destination meshes and placements, it derives the required transfer regions and a global communication schedule. Its hierarchical route balances source contributions across eligible destination ranks, forwards one copy between destination NVLink domains, and completes local replication over NVLink. Network transfer and local replication overlap, avoiding replica-multiplied source egress. An aggregate data-movement model captures the limits of both stages. We evaluate NCCL M2N on up to 256 GB200 GPUs in an NVL72 cluster with NDR InfiniBand. A single FFN-MoE layer transfer achieves up to 7.9x speedup over flat direct sends (9.8 ms versus 77.3 ms). In a separate 256-GPU DeepSeek-V3 NeMo-RL experiment, NCCL M2N reduces reported weight-sync time from 5.78 s to 2.77 s, a 2.09x speedup over legacy all-gather plus broadcast, and reduces step time by 12.7%.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e1024c4bad5cac2b2987",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

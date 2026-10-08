@@ -2,6 +2,23 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-08
+
+- `entity` [[reference/entities/healthleap|Healthleap：住院风险识别与临床团队工作流]]
+- `entity` [[reference/entities/nous-research|Nous Research：Hermes Agent与开放模型研究]]
+- `paper` [[reference/papers/mosaic-gpu-sharing-2610-07504|Mosaic 提议用内核干扰预测选择GPU共置或SM分区]]
+- `paper` [[reference/papers/refold-reversible-context-2610-07863|ReFold：保留完整历史，用可逆折叠控制长时Agent上下文]]
+- `source` [[reference/sources/anthropic-haiku-55-pricing-20261007|Claude Haiku 5.5 发布：可调effort，价格按100K提示长度分档]]
+- `source` [[reference/sources/dynamo-v151-release-20261007|Dynamo v1.5.1 正式补丁：修复路由恢复并收紧多模态输入边界]]
+- `source` [[reference/sources/google-playground-20261007|Google Playground 实验性上线：对话创建、试玩和分享游戏]]
+- `source` [[reference/sources/healthleap-funding-20261007|Healthleap 披露3800万美元种子及A轮融资，切入住院营养不良识别]]
+- `source` [[reference/sources/nous-series-b-20261007|Nous Research 披露9000万美元B轮，计划扩展 Hermes 企业产品]]
+- `source` [[reference/sources/nvidia-rtx-spark-windows-20261007|RTX Spark 笔记本开放预订，NVIDIA 公布Windows本地Agent硬件路线]]
+- `source` [[reference/sources/openai-college-planner-20261007|OpenAI 宣布 College Planner，首批面向美国10–12年级学生]]
+- `source` [[reference/sources/openai-intelligent-ui-20261007|ChatGPT 开始推送 Intelligent UI：回答可直接变成交互工具]]
+- `source` [[reference/sources/radisson-chatgpt-discovery-20261007|Radisson 披露 ChatGPT 插件与广告协同的酒店获客路径]]
+- `note` [[research/synthesis/interactive-agents-cost-and-local-supply-20261007|交互Agent、细分计价与本地供给：成本优势取决于完整任务链]]
+
 ## 2026-10-07
 
 - `entity` [[reference/entities/vinci|Vinci：物理仿真与硬件设计的 AI 平台]]

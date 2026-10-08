@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07495",
+  "title": "Productivity in HPC: A Critical Review from SLOC and Performance Portability to AI-Assisted Programming",
+  "text": "arXiv:2610.07495v1 Announce Type: new\nAbstract: Productivity has long been recognized as a central concern in high-performance computing (HPC), yet it still lacks a workable formal definition and a broadly accepted metric for quantified assessment. Recent attempts to incorporate productivity into performance-portability analysis have introduced code-divergence, convergence, and semantic measures, but have not established a convincing formal relationship between productivity and performance portability. More recent language and compiler systems, including JACC, Mojo, JLIR, and Accl++, pursue productive performance portability through higher-level abstractions, multi-level intermediate representations, automatic kernel generation, and runtime compilation. These systems demonstrate substantial engineering progress, while productivity is still commonly represented through programmability, ecosystem reuse, code size, or reduced implementation burden rather than direct measurement of human effort. This paper presents a critical review of HPC productivity measurement, tracing its development from source lines of code (SLOC), static complexity, and empirical usability studies to development-time models and semantic approaches. We also examine how automated migration and artificial-intelligence(AI)-assisted programming weaken the correspondence between code transformation and human effort, shifting effort toward verification, correction, and performance tuning. The reviewed methods are compared in terms of what they measure, directness, objectivity, reproducibility, practicality, and their relationship to performance and portability. We conclude by identifying the principal limitations and open challenges for quantified HPC productivity assessment.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "acf7aac5b7c302053070",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

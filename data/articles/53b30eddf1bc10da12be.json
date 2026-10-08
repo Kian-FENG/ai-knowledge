@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155696.htm",
+  "title": "能省几万块订阅费 Adobe 7大全家桶软件有了AI版：PS、PR都能免费平替",
+  "text": "快科技10月7日消息，对设计师、剪辑师等专业用户来说，Adobe的全家桶软件是很难绕过的，PS、PR等更是吃饭的家伙，但是现在AI时代可以有免费平替版可选了。\n这个项目名为Getartcraft，针对Adobe全家桶中的7款软件——Photoshop、Premiere Pro、Lightroom、Illustrator、Acrobat PDF、After Effects、InDesign做了开源免费的平替，分别如下所示：\n这7个平替版软件都是开源免费的，源码也公开了，MIT/Apache 等开放许可证，具体对应关系如下：\n这个项目不靠软件本身赚钱，靠的是ArtCraft AI Studio赚钱，这是他们提供的一套AI图片视频服务，也可以免费用，但大量需求显然是付费更好。\n现在是AI时代了，这些软件的开发如果靠传统的程序员古法编程，基本没可能，工作量太大了，但AI写代码复刻Adobe全家桶的功能已经不是难事，此前也有多个平替PS的AI图像处理软件了。\n现在最大的问题是这些软件的平替程度如何，ArtCraft官方提到很多软件的功能还是早期阶段，还在开发中，网友体验过的评价褒贬不一，有人认为已经很好了，但也有很多人觉得达不到平替的程度，后者的评价应该更准一点。\n不过架不住AI写代码的速度和效率实在太强，持续迭代几百几千小时之后，Adobe全家桶的护城河很难说不被攻破，哪怕是专业用户，如果免费版能提到七八成功能了，也是一个极具吸引力的选择了。\n作为专业生产力软件，Adobe的全家桶软件定价非常高，部分软件一个月都可能要几千块，全家桶配齐怎么也要上万块，他们这样定价无非是逼着用户去买Creative Cloud Pro订阅，而在国内甚至个人版订阅服务都给取消了，想合规使用正版都是个麻烦。\n随着AI写代码能力的提升，以后每个人使用的生产力软件可能就不是购买XX家的全家桶，而是基于开源免费软件自己修改升级的。",
+  "published_at": "2026-10-07T16:36:24+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "53b30eddf1bc10da12be",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b.body",
+  "source_sha256": "c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b",
+  "fetched_at": "2026-10-08T01:05:23.714870+00:00"
+}

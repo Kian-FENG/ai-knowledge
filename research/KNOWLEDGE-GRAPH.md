@@ -46,3 +46,33 @@
 - [[research/synthesis/agent-delivery-and-verification-20261006|Agent 的可交付能力由上下文、访问规则与验证体系共同决定]]
 
 - [[reference/sources/openai-decisions-and-usage-tiers-20261006|OpenAI API 更新：Decisions 公开 beta 与三档付费用量层级]]
+
+## 2026-10-07 日报新增知识
+
+[[reference/sources/openai-intelligent-ui-20261007|source-openai-intelligent-ui-20261007]]
+
+[[reference/sources/openai-college-planner-20261007|source-openai-college-planner-20261007]]
+
+[[reference/sources/google-playground-20261007|source-google-playground-20261007]]
+
+[[reference/sources/radisson-chatgpt-discovery-20261007|source-radisson-chatgpt-discovery-20261007]]
+
+[[reference/sources/anthropic-haiku-55-pricing-20261007|source-anthropic-haiku-55-pricing-20261007]]
+
+[[reference/sources/nous-series-b-20261007|source-nous-series-b-20261007]]
+
+[[reference/sources/healthleap-funding-20261007|source-healthleap-funding-20261007]]
+
+[[reference/sources/dynamo-v151-release-20261007|source-dynamo-v151-release-20261007]]
+
+[[reference/sources/nvidia-rtx-spark-windows-20261007|source-nvidia-rtx-spark-windows-20261007]]
+
+[[reference/papers/refold-reversible-context-2610-07863|paper-refold-reversible-context-2610-07863]]
+
+[[reference/papers/mosaic-gpu-sharing-2610-07504|paper-mosaic-gpu-sharing-2610-07504]]
+
+[[reference/entities/nous-research|entity-nous-research]]
+
+[[reference/entities/healthleap|entity-healthleap]]
+
+[[research/synthesis/interactive-agents-cost-and-local-supply-20261007|note-interactive-agents-cost-and-local-supply-20261007]]

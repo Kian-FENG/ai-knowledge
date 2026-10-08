@@ -1,0 +1,19 @@
+{
+  "url": "https://developers.openai.com/api/docs/changelog",
+  "title": "OpenAI API Changelog：页面内容变化",
+  "summary": "-Deploy Codex through a gateway\n+Sign in with ChatGPT\n+Use API/provider credentials\n+Roll out a gateway\n+Meet the ambassadors\n+Oct 7\n+Update\n+chat-latest\n+Updated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus, Pro, Business and Enterprise users. We recommend leveraging the GPT-6 model family for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more here.",
+  "id": "84f1ce6a1772edac6203",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "openai-api-changelog",
+  "source_name": "OpenAI API Changelog",
+  "section": 0,
+  "raw_path": "raw/2026-10-08/84d1f717aa7df36bcda1ef1ab4285dd047ea169774172ec7e6f58ce122c0ed7b.body",
+  "source_sha256": "84d1f717aa7df36bcda1ef1ab4285dd047ea169774172ec7e6f58ce122c0ed7b",
+  "fetched_at": "2026-10-08T01:04:33.061567+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-08T01:04:33.061567+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

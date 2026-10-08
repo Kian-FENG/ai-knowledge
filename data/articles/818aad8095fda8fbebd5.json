@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07333",
+  "title": "Memory-Efficient Expert Routing for Distributed MoE Training",
+  "text": "arXiv:2610.07333v1 Announce Type: new\nAbstract: As Mixture-of-Experts (MoE) models scale toward hundreds of experts and higher top-$k$ routing, memory efficiency in distributed training becomes a critical bottleneck. Peak memory is dominated by the MoE block, not attention: every intermediate buffer in the MoE dispatch pipeline is individually scaled by top-k routing. The standard all-to-all dispatcher sends all routed tokens in a single collective step, requiring the full top-$k$-expanded buffer to be constructed at once. In this work, we propose RelayMoE, a ring-based MoE execution model that computes locally as expert weights or tokens circulate, avoiding full top-$k$-expanded dispatch buffers. RelayMoE selects between expert and token routing according to communication volume and overlaps transfers with computation. The ring structure naturally supports memory-efficient MoE recomputation during backward: each hop reconstructs expert intermediates, uses them to compute gradients, and releases them before the next hop. The saved memory supports longer sequences and larger batches, or retains more attention activations to reduce attention recomputation and improve training throughput. We evaluate RelayMoE on 30B$-$57B production MoE models and varied expert configurations. In single-layer MoE experiments, RelayMoE achieves a $2\\times$ average speedup over Megatron-LM. In full-model training under the same GPU memory budget, it improves throughput by up to $2.02\\times$ and extends the largest tested trainable sequence length by up to $2.85\\times$.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "818aad8095fda8fbebd5",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

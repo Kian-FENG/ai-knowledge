@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07587",
+  "title": "Large Language Model Orchestration under Heterogeneous Preferences via Explicit Persona Inference",
+  "text": "arXiv:2610.07587v2 Announce Type: new\nAbstract: LLM orchestration investigates how an orchestrator coordinates a group of autonomous agents to achieve common goals or maximize collective welfare. The agents are typically heterogeneous, each holding a private preference that it pursues but does not reveal. Inferring such hidden preferences from behavior has been a subject of long-standing research in game theory and multi-agent systems. The core challenge lies in maintaining a belief over every agent's preference and updating it from the agents' observed actions. Existing LLM orchestrators carry that belief as prompt text with no explicit update rule. This lets early errors persist and propagate rather than be corrected. We therefore propose \\textbf{HARP} (Heterogeneous-preference Agent oRchestration via Preference inference), a novel framework that moves the belief out of the prompt. Specifically, HARP maintains one numeric posterior per agent over a finite set of candidate preferences and updates it in closed form by Bayes' rule. The language model supplies only actions and per-candidate likelihoods, so estimation is decoupled from its reasoning. We prove that HARP attains the same $\\tilde O(\\sqrt K)$ Bayesian regret as explicit joint inference when the factorization is exact. Furthermore, HARP\\textsuperscript{+} augments planning with a bonus for actions that distinguish the candidates, so inference continues even when the optimal action is uninformative. Empirical results on three substrates, ranging from payoffs the preferences fully determine, through payoffs that depend on more than them, to scales where explicit joint inference is infeasible, demonstrate that HARP\\textsuperscript{+} is the strongest non-oracle method across the class our theory identifies.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "10149415446d8f4d0064",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

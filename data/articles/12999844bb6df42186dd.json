@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/videos/2026-10-07/sequoia-nvidia-back-mecka-ai-s-robotics-push-video",
+  "title": "Sequoia, Nvidia Back Mecka AI’s Robotics Push",
+  "text": "Mecka AI has raised $60 million in Series B funding led by Sequoia Capital, with backing from Nvidia, Microsoft’s M12 and Qualcomm, as it builds technology to help robots understand and operate in the physical world. CEO and cofounder Josh Gao discusses the enormous data challenge facing robotics, how Mecka captures everything from physical interactions to force and pressure, and why scaling physical AI will require major investments across sensors, infrastructure and real-world data collection. He joins Ed Ludlow on \"Bloomberg Tech.\" (Source: Bloomberg)",
+  "published_at": "2026-10-07T18:06:08+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "12999844bb6df42186dd",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/f8c105bfe61618b74503d88927b8406b15b78de3bea72e6208ebd88eb850d993.body",
+  "source_sha256": "f8c105bfe61618b74503d88927b8406b15b78de3bea72e6208ebd88eb850d993",
+  "fetched_at": "2026-10-08T01:05:07.692204+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/microsoft-debuts-new-windows-pcs-features-powered-on-device-ai",
+  "title": "Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit",
+  "text": "Microsoft on Wednesday unveiled its latest effort to run AI in PCs powered by its Windows software, rather than running the AI in the cloud, which the company said would bring down costs for customers.\nThe announcement is Microsoft’s response to Apple’s Mac Mini, which has become a hit with AI ...",
+  "published_at": "2026-10-07T18:21:24+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T00:08:01+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d95a3aa4fe45aab736ca",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/24f68450e981867da7fb2ab8c53d0e97aa0db197f3500939b675622e917c9203.body",
+  "source_sha256": "24f68450e981867da7fb2ab8c53d0e97aa0db197f3500939b675622e917c9203",
+  "fetched_at": "2026-10-08T01:05:05.571045+00:00"
+}

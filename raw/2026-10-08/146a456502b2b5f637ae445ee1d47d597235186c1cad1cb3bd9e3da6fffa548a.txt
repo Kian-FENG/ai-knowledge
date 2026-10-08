@@ -1,0 +1,132 @@
+Retrieval: Agent-read official webpage extract via web browser tool, not HTTP bytes.
+URL: https://openai.com/index/radisson
+Collected: 2026-10-08T01:13:11.377849+00:00
+
+Radisson Hotel Group brings hotel discovery into ChatGPT | OpenAI (https://openai.com/index/radisson/)
+citeturn12view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://openai.com/index/radisson/","lineno":30}); Total lines: 186
+L0: cite0†Skip to main content L1: 
+L2:   * [Button: Research]
+L3:   * [Button: Products]
+L4:   * [Button: Business]
+L5:   * [Button: Developers]
+L6:   * [Button: Company]
+L7:   * cite1†Foundation(opens in a new window)†openaifoundation.org L8: 
+L9: cite2†Try ChatGPT(opens in a new window)†chatgpt.com [Button: Login]
+L10: 
+L11: OpenAI
+L12: 
+L13: October 7, 2026
+L14: # Radisson Hotel Group brings hotel discovery into ChatGPT
+L15: 
+L16: Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.
+L17: 
+L18: cite3†Contact sales L19: 
+L20: Company size: Partner
+L21: 
+L22: Region: Global
+L23: 
+L24: Industry: Travel
+L25: 
+L26: Products: ChatGPT
+L27: 
+L28: Booking conversion
+L29: 
+L30: ~1.5×
+L31: 
+L32: Early plugin conversion versus organic search (Jul–Aug 2026)
+L33: 
+L34: Sponsored ads
+L35: 
+L36: 54%
+L37: 
+L38: Of recorded checkout and booking events attributed to ad views
+L39: 
+L40: Delivery speed
+L41: 
+L42: 6
+L43: Weeks to build and launch the ChatGPT plugin
+L44: 
+L45: Loading…
+L46: 
+L47: Share
+L48: 
+L49: A new front door for hotel discovery
+L50: 
+L51:   * cite4†A new front door for hotel discovery L52:   * cite5†Building for the next era of travel L53: 
+L54:   * cite4†A new front door for hotel discovery L55:   * cite5†Building for the next era of travel L56: Travelers increasingly turn to AI to decide where to stay, often shortlisting hotels or building an entire itinerary before they ever visit a hotel website. Through its partnership with Accenture Song, Radisson Hotel Group is using OpenAI technology to reach guests earlier in that planning journey.
+L57: The cite6†Radisson Hotels ChatGPT plugin⁠(opens in a new window)†chatgpt.com helps travelers compare hotels and explore travel options through an interactive experience, and early results show booking conversion approximately 1.5 times that of Radisson’s organic search.
+L58: Alongside the plugin, Radisson is among the hospitality pioneers running cite7†sponsored advertising in ChatGPT⁠(opens in a new window)†ads.openai.com , bringing its branded plugin and paid advertising together as part of an integrated discovery strategy.
+L59: > “AI is radically transforming how people search for and book hotel stays, and we are committed to being at the forefront of this shift. With Accenture and OpenAI, we are reimagining hotel discovery for the next generation of travelers, meeting guests in the planning moment with a branded experience that makes it easier to find, compare, and book Radisson Hotels properties.”
+L60: 
+L61: —Gianni Di Fede, Chief Commercial Officer, Radisson Hotel Group
+L62: > “We want guests to move naturally from a travel idea to a hotel they can book with confidence. Working with Accenture Song and OpenAI, we are bringing our branded app and sponsored advertising together in ChatGPT as part of one discovery strategy. Our focus is to connect those conversations to our direct booking experience, making the journey easier for guests and building a channel we can develop as travel planning evolves.”
+L63: 
+L64: —Velit Dundar, Vice President, Global Ecommerce, Radisson Hotel Group
+L65: 
+L66: 1 of 2
+L67: > “AI is radically transforming how people search for and book hotel stays, and we are committed to being at the forefront of this shift. With Accenture and OpenAI, we are reimagining hotel discovery for the next generation of travelers, meeting guests in the planning moment with a branded experience that makes it easier to find, compare, and book Radisson Hotels properties.”
+L68: 
+L69: —Gianni Di Fede, Chief Commercial Officer, Radisson Hotel Group
+L70: > “We want guests to move naturally from a travel idea to a hotel they can book with confidence. Working with Accenture Song and OpenAI, we are bringing our branded app and sponsored advertising together in ChatGPT as part of one discovery strategy. Our focus is to connect those conversations to our direct booking experience, making the journey easier for guests and building a channel we can develop as travel planning evolves.”
+L71: 
+L72: —Velit Dundar, Vice President, Global Ecommerce, Radisson Hotel Group
+L73:   * Gianni Di Fede
+L74:   * Velit Dundar
+L75: ## A new front door for hotel discovery
+L76: Radisson Hotel Group brings together ten distinctive hotel brands across EMEA and APAC, with more than 1,640 hotels in operation and under development. For the past seven years, Accenture has helped Radisson grow bookings through its direct digital channel, combining digital media strategy and execution with a transformation roadmap for its core digital capabilities. A stronger direct digital channel helps Radisson attract guests more efficiently and build relationships that encourage repeat stays.
+L77: For hotel owners, this translates into stronger commercial performance and greater long-term value from their partnership with Radisson Hotel Group.
+L78: This work meant Accenture had a front-row seat to AI’s transformative impact on the travel industry. “Almost overnight, there was a new surface where prospects were getting inspired, comparing different alternatives, and almost making their decision before even reaching a hotel’s website,” explains Borja Lizarraga Rodríguez, Data & AI Lead at Accenture Song. “It was critical for us to ensure the visibility of Radisson across this new experience.”
+L79: As an Elite Partner of the cite8†OpenAI Partner Network , Accenture collaborated with OpenAI to explore strategies for organic positioning in ChatGPT. From these conversations, Accenture developed the idea of a ChatGPT cite9†plugin⁠(opens in a new window)†chatgpt.com : “We wanted to bring the value proposition of Radisson into ChatGPT and make it extremely user-friendly, ensuring things like maps, hotel details, and prices were integrated in the simplest way,” says Lizarraga.
+L80: With the help of agentic development, the team built and launched the Radisson Hotels cite9†plugin⁠(opens in a new window)†chatgpt.com in just six weeks. It lets users see Radisson Hotel suggestions on a map, compare pricing, and view hotel amenities in detail directly in ChatGPT, then continue to the Radisson site to complete their booking.
+L81: Early results from the Radisson Hotels plugin in ChatGPT show a visit-to-booking conversion rate approximately 1.5 times Radisson’s organic search for July–August 2026. The plugin gives travelers a direct path from conversational hotel discovery to Radisson’s own booking channel.
+L82: A recent ChatGPT update means users no longer have to type @RadissonHotels before their query; if they have the plugin installed, ChatGPT will automatically show it whenever relevant. “If you’re planning a trip to Madrid, and there’s a new Radisson Hotel you might want to consider, now in ChatGPT it will just automatically work,” says Brittny Cantor, Agentic Commerce Lead at Accenture. “We’re really excited about that change to increase discoverability.”
+L83: ## Building for the next era of travel
+L84: The plugin gives Radisson a new way to reach travelers organically in ChatGPT. Radisson is also among the hospitality pioneers launching sponsored advertising campaigns in ChatGPT as part of an integrated discovery strategy. Since launching in July, its campaigns have expanded into additional markets across Europe and beyond.
+L85: More than half of the campaign’s recorded checkout and booking events were attributed through view-through measurement, extending Radisson’s assessment of discovery beyond direct ad clicks.
+L86: Accenture designed the underlying infrastructure to support more than a single application. The MCP server and APIs that Accenture developed for the Radisson plugin are also powering the ads experience and will play a role in other new features to come.
+L87: Radisson is aware that with AI, the way users make decisions about travel has changed dramatically and will continue to evolve. They’re determined to be the first among their competitors to capitalize on these changes, becoming not only a hotel chain but an advisor on the entire travel experience. Its next priorities include encouraging plugin adoption and developing additional functionality within the ChatGPT experience.
+L88: “What stands out about Radisson is its ability to move quickly while keeping a clear focus on guests and hotel owners. Together, we are applying new technology where it can make a meaningful difference: helping travelers find the right hotel, strengthening direct guest relationships, and supporting more profitable growth,” Borja Lizarraga says.
+L89: “Great stays have always started with good advice. Today, more of that advice happens in conversation, and we moved quickly to be there. Initial results are encouraging, with our ChatGPT plugin converting at around 1.5 times organic search. This is just the start: wherever a journey begins, we want Radisson to be the advisor guests trust and the direct channel that delivers lasting value for our hotels and owners,” says Velit Dundar, Vice President, Global Ecommerce, Radisson Hotel Group.
+L90: ## Join the new era of work
+L91: 
+L92: More than 1 million businesses around the world are achieving meaningful results with OpenAI.
+L93: 
+L94: cite3†Contact sales L95: ## Keep reading
+L96: 
+L97: cite10†TRUSTBANK uses AI agents to personalize Furusato Nozei gifts Jan 27, 2026 L98: 
+L99: cite11†How loveholidays is making everyone a builder with Codex Aug 26, 2026 L100: 
+L101: cite12†Virgin Atlantic sharpens customer journeys with ChatGPT Work Aug 10, 2026 L102: 
+L103: Research
+L104: 
+L105:   * cite13†Research Index L106:   * cite14†Research Overview L107:   * cite15†Economic Research L108: 
+L109: Latest Advancements
+L110: 
+L111:   * cite16†GPT-6.1 Sol L112:   * cite17†GPT-6 Astra L113:   * cite18†GPT-5.6 L114:   * cite19†GPT-5.5 L115: 
+L116: Safety
+L117:   * cite20†Safety Approach L118:   * cite21†Deployment Safety(opens in a new window)†deploymentsafety.openai.com L119:   * cite22†Security & Privacy L120:   * cite23†Trust & Transparency L121: 
+L122: Products
+L123:   * cite2†ChatGPT(opens in a new window)†chatgpt.com L124:   * cite24†ChatGPT Business(opens in a new window)†chatgpt.com L125:   * cite25†ChatGPT Enterprise(opens in a new window)†chatgpt.com L126:   * cite26†ChatGPT for Education(opens in a new window)†chatgpt.com L127:   * cite27†Codex†chatgpt.com L128:   * cite28†Dots(opens in a new window)†chatgpt.com L129:   * cite29†Release Notes L130: 
+L131: API Platform
+L132: 
+L133:   * cite30†Overview L134:   * cite31†API Log In(opens in a new window)†platform.openai.com L135:   * cite32†Docs(opens in a new window)†developers.openai.com L136: 
+L137: Business
+L138:   * cite33†Overview L139:   * cite34†Solutions L140:   * cite35†Resources L141:   * cite36†Plugins L142:   * cite37†Customer Stories L143:   * cite8†Partner Network L144:   * cite3†Contact Sales L145: 
+L146: Developers
+L147: 
+L148:   * cite38†Apps SDK(opens in a new window)†developers.openai.com L149:   * cite39†Open Models L150:   * cite40†Docs(opens in a new window)†developers.openai.com L151:   * cite41†Resources(opens in a new window)†developers.openai.com L152:   * cite42†Developer Forum(opens in a new window)†community.openai.com L153: 
+L154: Company
+L155:   * cite43†About Us L156:   * cite44†Our Charter L157:   * cite45†Careers L158:   * cite46†News L159: 
+L160: Support
+L161: 
+L162:   * cite47†Help Center(opens in a new window)†help.openai.com L163:   * cite48†OpenAI Status(opens in a new window)†status.openai.com L164: 
+L165: More
+L166: 
+L167:   * cite49†Stories L168:   * cite50†Academy L169:   * cite51†Supply Co. L170:   * cite52†Livestreams L171:   * cite53†Podcast L172:   * cite54†RSS L173: 
+L174: Terms & Policies
+L175: 
+L176:   * cite55†Terms of Use L177:   * cite56†Privacy Policy L178:   * cite57†Other Policies L179: cite58†(opens in a new window)†x.com cite59†(opens in a new window)†www.youtube.com cite60†(opens in a new window)†www.linkedin.com cite61†(opens in a new window)†github.com cite62†(opens in a new window)†www.instagram.com cite63†(opens in a new window)†www.tiktok.com cite64†(opens in a new window)†discord.gg L180: 
+L181: OpenAI © 2015–2026[Button: Manage Cookies]
+L182: 
+L183: English United States
+L184: 
+L185: [Input: Search]

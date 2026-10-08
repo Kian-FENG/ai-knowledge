@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07722",
+  "title": "Does Steering Break Your Model? A Multi-Dimensional Evaluation Suite for LLM Steering Methods",
+  "text": "arXiv:2610.07722v1 Announce Type: new\nAbstract: Activation steering provides a lightweight and flexible way to control large language model (LLM) behavior. However, effective steering requires more than inducing the intended behavior: it should also limit unintended changes and remain robust across inputs and training data. Existing evaluations cover these dimensions only in fragments. As a result, the trade-offs between efficacy and side effects have not been systematically characterized. We introduce SteerScope, a two-axis, multi-dimensional evaluation suite that jointly characterizes steering outcomes and method properties through 15 metrics. We score target efficacy and side effects on language quality, task capabilities, and safety and reliability, and further assess generalization and data dependence through steering-specific metrics for sample efficiency and sample sensitivity. Rather than comparing methods at a single operating point, we characterize the trade-offs between efficacy and side effects. Under matched models, tasks, and evaluation protocols, we benchmark 23 methods spanning 4 families, including prompting, LoRA, and SFT as baseline methods, and release the suite as an extensible codebase. We find that current activation steering methods do not yet surpass the Prompt Steering baseline in their overall balance between steering efficacy and side effects: across both model scales, no evaluated activation steering method achieves higher efficacy without incurring greater composite side effects. We further uncover a consistent coupling between steering efficacy and side effects. Under OOD prompts, target efficacy is often preserved, whereas side effects tend to become more pronounced, particularly through declines in instruction relevance and fluency. Methods also exhibit sharply different sample-efficiency profiles.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "2559d996f1d48b88e27c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

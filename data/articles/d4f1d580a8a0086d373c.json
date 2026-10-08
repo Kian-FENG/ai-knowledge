@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07032",
+  "title": "Investigating Model Compression for Neural Machine Translation in the Biomedical Domain",
+  "text": "arXiv:2610.07032v1 Announce Type: new\nAbstract: Large-scale pretrained transformer models have achieved state-of-the-art performance across diverse machine translation tasks, including multilingual settings. Knowledge distillation has emerged as a sustainable approach for model compression, transferring knowledge from large teacher models to smaller, more efficient student models. Similarly, quantization, which reduces the numerical precision of model weights and activations (e.g., from 32-bit to 8-bit representations) is widely used to accelerate inference, enabling models to run several times faster during deployment. However, both techniques face limitations when applied to specialized domain data, particularly under low-resource conditions. In knowledge distillation, the effectiveness of transfer is often constrained by the scarcity of domain-specific parallel data, while quantization can lead to performance degradation as bit precision decreases. In this work, we investigate the combined application of knowledge distillation and quantization for French-to-English biomedical translation, a domain characterized by specialized terminology and limited parallel resources. We develop and compare multiple fine-tuning strategies to adapt compressed student models to this challenging setting. Our experiments demonstrate that a collaboratively distilled and quantized student model achieves a 69% reduction in size, a 98.21% increase in inference speed, and a 98.46% reduction in CO2 emissions compared to the original baseline all without sacrificing translation quality. These results indicate that jointly optimized compression techniques can yield efficient, high-performance models suitable for translation service providers operating under resource constraints.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d4f1d580a8a0086d373c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

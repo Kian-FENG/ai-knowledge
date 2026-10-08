@@ -1,0 +1,264 @@
+Agent-read release notes excerpt; not HTTP bytes.
+ChatGPT release notes | OpenAI Help Center (https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
+citeturn13view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://help.openai.com/en/articles/6825453-chatgpt-release-notes","lineno":null}); Total lines: 2697
+L0: [Input: Search for articles...]
+L1: 
+L2:   1. cite0†All Collections L3:   2. cite1†ChatGPT L4:   3. ChatGPT release notes
+L5: 
+L6: # ChatGPT release notes
+L7: 
+L8: Review the latest updates and release notes for ChatGPT.
+L9: 
+L10: Updated: 6 hours ago
+L11: 
+L12: # October 7, 2026
+L13: ## GPT-6 and Intelligent UI in ChatGPT
+L14: We’re introducing cite2†GPT-6 with Intelligent UI in ChatGPT†openai.com . ChatGPT can now combine text, visuals, and interactive elements to fit your question, from side-by-side comparisons and diagrams to tools you can use directly in the conversation, such as calculators, bill splitters, and games. It can choose the format automatically, and still use a simple text answer when that works best.
+L15: GPT-6 can also begin answering while it continues to think or use tools, then add more findings without another prompt. You can start reading before the full answer is ready.
+L16: The rollout starts globally today for Plus, Pro, Business, and Enterprise in the Chat tab, and expands to Free and Go starting tomorrow. Enterprise availability depends on workspace admin settings.
+L17: Plus, Pro, Business, and Enterprise use GPT-6 Sol; Free and Go use GPT-6 Luna. Intelligent UI is available from Instant through Extra High reasoning. The Pro reasoning option continues to use GPT-6 Astra and doesn’t support Intelligent UI. The models powering Work and Codex aren’t changing with this release.
+L18: # October 6, 2026
+L19: ## Audio uploads in ChatGPT
+L20: Upload audio files to ChatGPT to create transcripts, summarize recordings, and ask questions about their contents. You can turn a meeting, interview, or lecture into structured notes or a follow-up email draft. To get started, attach a supported audio file to a conversation and describe what you need.
+L21: Audio uploads are available with paid ChatGPT subscriptions and workspaces. Availability may vary by workspace settings, region, client version, and model. Transcripts may contain errors, and performance may vary across languages.
+L22: For more information, see: cite3†Uploading files and audio to ChatGPT .
+L23: # October 2, 2026
+L24: 
+L25: ## Finances expands to Free and Go users
+L26: 
+L27: Finances in ChatGPT is rolling out to Free and Go users in the U.S. on web, iOS, and Android. You can securely connect your financial accounts to find ways to save, understand your spending, and make sense of your investments, with answers grounded in your finances.
+L28: 
+L29: cite4†Learn more about Finances in ChatGPT. L30: 
+L31: # October 1, 2026
+L32: ## New ways to shop in ChatGPT
+L33: 
+L34: See how clothes and accessories could look on you and save your favorites for later.
+L35: 
+L36:   * Virtually try on clothing and accessories: A “Try on” button will appear on product listings for clothes and accessories in ChatGPT. Select it, then take or upload a selfie to generate a virtual try-on with ChatGPT Images. Your reference photo is saved for future try-ons. You can change or delete it in Settings → Personalization → Reference photos.
+L37:   * Save your finds: Save any product to Favorites or create a folder to organize your finds in your ChatGPT Library.
+L38: 
+L39: Available in ChatGPT on mobile and web.
+L40: ## Scan notes and documents more easily with ChatGPT camera
+L41: 
+L42: It’s now easier to bring your notes and documents into ChatGPT on your phone. Capture multiple pages in a row, and ChatGPT automatically combines them into a single PDF, ready to upload to your chat.
+L43: 
+L44: To get started, open the camera in ChatGPT, tap the three-dot menu, and select Scan. Rolling out on iOS.
+L45: 
+L46: # September 29, 2026
+L47: ## A new Pro plan with Astra Ultrafast
+L48: 
+L49: We’re introducing Pro 500, a new $500/month plan with the highest included usage of the Pro plans and access to Astra Ultrafast in ChatGPT Work and Codex. Select Ultrafast in the model picker to use a faster service tier for GPT-6 Astra. It uses your included allowance first, then your credit balance after that allowance is used.
+L50: Among Pro plans, Ultrafast is available only with Pro 500. Buying credits on Pro 100 or Pro 200 does not unlock it. Pro 500 subscriptions are available through ChatGPT on the web at launch.
+L51: 
+L52: Learn more about cite5†ChatGPT Pro tiers .
+L53: ## Codex Cloud
+L54: 
+L55: Codex Cloud lets you start and continue coding tasks from desktop, web, or mobile using reusable environments with your project’s repositories, tools, and dependencies. Each task gets its own isolated workspace, and tasks can continue while your computer is asleep. In managed workspaces, your workspace’s Codex cloud-access settings apply.
+L56: To connect repositories and prepare an environment, see: cite6†Set up and configure Codex Cloud†developers.openai.com . For availability and usage, see: cite7†Using Codex with your ChatGPT plan .
+L57: ## Create and collaborate on Pages
+L58: 
+L59: Turn a conversation into a Page, start from a template, or begin writing directly in Space. Edit the text yourself or ask ChatGPT to revise it, add charts, or create interactive content. Collaborators can work on the same Page and leave comments, with each person using their own ChatGPT.
+L60: Pages follow Space’s availability and sharing settings. Sharing a Page does not give other people access to your private chats or memory; information added to the Page is visible to people who can view it.
+L61: ## Creating, editing, and scheduling Sites
+L62: 
+L63: Site owners and editors on Plus and Pro can select Edit site from a published Site in a desktop browser to continue editing in ChatGPT, review changes, and publish when ready.
+L64: 
+L65: Site owners can also create recurring cloud schedules from Automations. These updates are available where Sites is supported. Learn more about cite8†creating and managing Sites .
+L66: ## GPT-6.1 Sol in ChatGPT Work and Codex
+L67: 
+L68: GPT-6.1 Sol improves on GPT-6 Sol in agentic coding, computer use, and professional work. We’re rolling it out in ChatGPT Work and Codex, starting with Pro users and expanding to Plus, Business, Enterprise, and Edu. Enterprise and Edu workspace owners can enable model access in Workspace settings > Permissions & roles, on the Workspace tab or through a custom role. Learn how to cite9†manage model access with role-based access control .
+L69: For availability and model selection, see: cite10†ChatGPT Work and Codex .
+L70: ## Meet your dot
+L71: 
+L72: We’re introducing dots: always-on agents in ChatGPT that can take on ongoing work and keep making progress between conversations. Give your dot a goal, connect the apps it needs, and define what it can do on its own. Powered by GPT-6 Astra, your dot has its own cloud computer and can bring results back for your review.
+L73: Dots are rolling out gradually to eligible Pro and Business Premium users aged 18 and older in supported markets. Pro access excludes the European Economic Area, Switzerland, and the UK at launch. Enterprise access is a beta and is off by default. Create your dot in the ChatGPT desktop app or on desktop web.
+L74: 
+L75: For the next month, dots usage won’t count toward eligible Pro, Business, and Enterprise users’ plan allowances. After this period, we’ll share usage terms for each plan.
+L76: Learn more about cite11†getting started with your dot .
+L77: ## Meetings plugin
+L78: 
+L79: We’re making it easier to bring meeting context into ChatGPT so you can act on next steps faster. The Meetings plugin takes notes for you based on what’s said in the meeting and saves personalized summaries with action items in ChatGPT Space. You can keep them private or share them with your team, then ask ChatGPT to update a project plan or draft a follow-up.
+L80: Audio is deleted once your notes are ready and can’t be accessed or replayed. Available in beta in the ChatGPT desktop app on macOS to Pro and Business users, with Enterprise coming soon. cite12†Learn more†chatgpt.com .
+L81: ## Organize your work in ChatGPT Space
+L82: 
+L83: Space brings your Pages, files, and related work together in ChatGPT. Create a space for a project, add the material you need, and share it with other people so you can keep building on the same work. Space replaces Library for accounts with access; your existing Projects remain separate.
+L84: Available to eligible Pro, Business, and Enterprise users in the ChatGPT desktop app and on the web. Sharing in managed workspaces follows your organization’s settings; Enterprise sharing is an opt-in preview.
+L85: ## Pro 200 subscriptions
+L86: 
+L87: Pro 200 is available for new subscriptions again at $200/month.
+L88: 
+L89: Included usage allowances are changing. Users affected by these changes will receive an email with additional details. The monthly price remains $200.
+L90: 
+L91: Learn more about cite5†Pro plans and existing subscriptions .
+L92: ## Review pull requests with Codex
+L93: 
+L94: Use Code Review in Codex to read pull-request summaries and diffs, review findings, and discuss changes. Open a pull request, inspect the changes, and ask Codex to explain a section or help address a potential issue before sharing feedback.
+L95: 
+L96: Available through the Code Review plugin on supported desktop and web experiences. Access to a repository follows your connected account and workspace permissions.
+L97: 
+L98: Learn more about cite13†Code Review†learn.chatgpt.com .
+L99: ## Scan repositories with Codex Security Cloud
+L100: 
+L101: Codex Security Cloud can scan GitHub repositories on demand or on a schedule, while ongoing checks review new commits. Codex investigates findings, removes duplicates, and prepares proposed fixes for review. Scans run in the cloud and can continue after you close your laptop.
+L102: Access requires the applicable workspace permissions, repository setup, and billing configuration. Existing Codex Security customers opt in before paid usage. This feature provides access to Daybreak Blue models only within Codex Security Cloud.
+L103: 
+L104: Learn more about cite14†setting up Codex Security Cloud†learn.chatgpt.com .
+L105: ## Share your profile and showcase your Sites
+L106: 
+L107: Your ChatGPT profile now brings together your bio, activity, and Sites you choose to showcase. Personal profiles are private by default. You can make yours public and share its link with other people signed in to ChatGPT. Shared profiles do not show conversation titles or content.
+L108: Profile sharing and the Sites showcase are available on web and desktop. In Business workspaces, administrators control whether coworkers can view workspace profiles. Enterprise access is coming later.
+L109: 
+L110: Learn more about cite15†shareable profiles .
+L111: ## Sign in to other products with ChatGPT
+L112: 
+L113: You can use your ChatGPT account to sign in to participating products without creating another password. The product receives your name, email address, and profile picture if you have one. Signing in does not share your ChatGPT conversations or memory; you approve any additional access separately.
+L114: 
+L115: Available to signed-in ChatGPT users, subject to organization settings. Sign-in access is separate from permission to use your ChatGPT plan allowance.
+L116: Learn more about cite16†Sign in with ChatGPT .
+L117: ## Start automations from connected-app events
+L118: 
+L119: Supported plugins can use MCP events to start an automation when something changes in a connected app. Describe what you want ChatGPT to follow and what it should do with matching updates—for example, prepare a summary when new information arrives in a channel you have asked it to monitor.
+L120: 
+L121: The connected account must have access to the event and any information used by the task.
+L122: 
+L123: Learn more about cite17†connected apps in ChatGPT .
+L124: ## Use your ChatGPT allowance in participating apps
+L125: 
+L126: Eligible Plus and Pro users can authorize participating apps to use their ChatGPT model allowance without creating an API key. Choose which apps can use your allowance and set an app-specific limit. Usage counts toward your existing plan allowance; connecting an app does not add more usage.
+L127: This is a limited preview with participating integrations. Using purchased credits requires a separate opt-in. A partner may still charge for its own product or services.
+L128: 
+L129: Learn more about cite18†using your ChatGPT allowance in other apps .
+L130: ## Work with interactive plugin extensions
+L131: 
+L132: Plugins can now include interactive panels, sidebar views, and viewers or editors for supported file types. Work with an app alongside your conversation, select the information you want ChatGPT to use, or complete a form provided by the plugin.
+L133: 
+L134: Plugins still require their applicable account connections and workspace permissions.
+L135: 
+L136: Learn more about cite19†plugins in ChatGPT and Codex .
+L137: 
+L138: # September 28, 2026
+L139: ## Explore your health data with personalized summaries
+L140: 
+L141: You can now select a chart, metric, or record in the Health tab to get personalized explanations and insights based on your connected health information.
+L142: 
+L143: cite20†Learn more about Health in ChatGPT. L144: 
+L145: # September 25, 2026
+L146: ## Security history in ChatGPT
+L147: 
+L148: We’re introducing security history, a new way to review recent security activity for your OpenAI account. You can see sign-ins, sign-outs, and changes to multi-factor authentication (MFA), passkeys, and other security settings. Events include the time, location, and device details. Some details may be approximate or unavailable.
+L149: To view your history in ChatGPT on the web, go to Settings > Security and login, then select Security history. For help reviewing unfamiliar activity and securing your account, see: cite21†Keeping your OpenAI account secure .
+L150: # September 23, 2026
+L151: ## Use plugins in Voice and get work done by speaking
+L152: 
+L153: Live now supports plugins on web, iOS, and Android. You can use the plugins and connected apps available to your account during a Voice conversation and follow written responses in the chat.
+L154: 
+L155: Voice is also available in Work on web and mobile. Ask it to create documents, presentations, and spreadsheets, use connected apps, or work in a browser. When you end a Voice call in Work, an unfinished task can continue in text.
+L156: Free and Go users can use Voice in Chat with the plugins their plan supports. Voice in Work requires both Voice and Work access. Existing app connections, permissions, and usage limits apply.
+L157: 
+L158: Learn more: cite22†ChatGPT Voice .
+L159: # September 22, 2026
+L160: 
+L161: ## GPT-6 Sol and Luna in Work and Codex
+L162: 
+L163: We’re introducing GPT-6 Sol and GPT-6 Luna in ChatGPT Work and Codex. These models are separate from the models available in Chat.
+L164: 
+L165: Codex desktop keeps the model you selected manually.
+L166: 
+L167: Available models and reasoning effort options depend on your plan and workspace settings.
+L168: 
+L169: cite23†Learn more about ChatGPT Work and Codex. L170: ## Create flashcards in ChatGPT
+L171: 
+L172: You can now create interactive flashcards in ChatGPT. Ask for flashcards on a topic you want to learn, or upload your notes and ask ChatGPT to turn them into flashcards.
+L173: 
+L174: Tap a card to flip it, then select ✔️ if you know the answer or ❌ to practice it again later. Shuffle your cards to practice in a different order.
+L175: 
+L176: Flashcards are automatically saved in your library. To practice again, open them there or ask ChatGPT to review them back.
+L177: Available on mobile and web for all ChatGPT plans.
+L178: # September 21, 2026
+L179: ## Credit scores in Finances
+L180: 
+L181: You can now track your credit score in ChatGPT. Securely connect your Experian® credit report and VantageScore® 3.0 credit score to get personalized insights into what’s affecting your score and how it relates to your finances and goals.
+L182: Your score and report update monthly, and credit monitoring can alert you to important changes, such as a new inquiry, account, or address. Your Experian connection is separate from your bank accounts, so you can use the credit-score feature without connecting accounts through Plaid.
+L183: 
+L184: This feature is rolling out in Finances to Plus and Pro users in the U.S. on web, iOS, and Android. Some eligible users may not see it right away.
+L185: 
+L186: cite4†Learn more about Finances in ChatGPT. L187: ## Privacy Center in ChatGPT
+L188: 
+L189: Privacy Center is rolling out to signed-in ChatGPT Free, Go, Plus, and Pro users. It brings together information about chat privacy, memory, personalization, data use, connected apps, and account security, with links to the settings that manage them. Your privacy controls remain in ChatGPT Settings.
+L190: On the web, open your account menu, select Help, then select Privacy Center. On mobile, open Settings, then select Privacy Center on iOS or Privacy center on Android. Available options depend on your plan, region, and workspace settings.
+L191: 
+L192: Learn more: cite24†Privacy Center in ChatGPT L193: # September 17, 2026
+L194: ## ChatGPT for Word
+L195: 
+L196: ChatGPT is now available in Microsoft Word. You can draft from notes, summarize a document, revise selected text, and adjust headings and formatting from the ChatGPT sidebar. Word joins Excel and PowerPoint through the same Microsoft add-in.
+L197: 
+L198: ChatGPT for Word is available on all ChatGPT plans, including Free. Your plan’s token limits apply, and Word draws from the shared usage allowance for Codex and other premium features on plans that include it.
+L199: To get started, install the ChatGPT add-in from cite25†Microsoft Marketplace†marketplace.microsoft.com , open ChatGPT in Word, and sign in.
+L200: ## Connect multiple accounts to plugins in ChatGPT
+L201: 
+L202: You can now connect multiple accounts to plugins in ChatGPT, expanding support beyond Gmail, Google Calendar, and Google Contacts. Bring your personal and work accounts into the same conversation, so ChatGPT can help you find information and get things done across your personal and work accounts. Available on all ChatGPT plans across web, mobile, and desktop.
+L203: 
+L204: # September 14, 2026
+L205: ## Updated permissions for new Health connections
+L206: 
+L207: For new Health plugin connections, ChatGPT will now default to each user’s global plugins permissions setting.
+L208: If you make no changes to your Plugins settings, the default permission setting is “cite26†Allow low-risk actions .” This means that once you’ve connected your information in Health, ChatGPT can use it when relevant without asking for permission each time, unless you are attempting a sensitive action, such as asking ChatGPT to email a training plan based on your data to a running partner.
+L209: This change reflects what we’ve seen from users: more than 70% of Health users already choose to allow ChatGPT to use data connected in Health without asking for permission each time.
+L210: You can change your Health permissions anytime in Settings → Plugins → Health. cite27†Learn more about how we keep Health data private and secure.
+L211: ## Changes to automatic switching to thinking in ChatGPT (Plus and Pro)
+L212: We’re retiring automatic switching from Instant to Thinking (reasoning) for ChatGPT Plus and Pro users globally. You can still select an available option in the model picker to give ChatGPT more time to think or reason.
+L213: We’re also removing the Higher intelligence setting from ChatGPT on the web for these plans. ChatGPT can still switch automatically for safety purposes.
+L214: For more information, see: cite28†GPT-5.6 and GPT-6 Pro in ChatGPT .
+L215: # September 11, 2026
+L216: ## Planned custom GPT retirement and migration to plugins
+L217: We’re planning to retire custom GPTs across ChatGPT plans and provide a migration path to cite19†plugins , which can combine reusable instructions with connected apps. You can continue using existing GPTs until the retirement date that applies to you, subject to your permissions.
+L218: To prepare, review the GPTs you rely on and identify their creators and anyone who needs access. When migration becomes available, test migrated plugins and review sharing. Timing and availability may vary by plan and workspace; follow applicable notices and cite29†learn more about the planned retirement .
+L219: # September 10, 2026
+L220: ## Data plugin in ChatGPT Work and Codex
+L221: The Data plugin helps you analyze connected business data in ChatGPT Work and Codex. Ask a business question, investigate changes, or create an interactive dashboard or report. You can refine the analysis with follow-up questions and bring in your team’s metric definitions and other business context.
+L222: To get started, install Data from the plugin directory, then start a conversation with `@Data`. Connected sources may require setup or authorization, and queries use your connected account’s existing permissions. cite30†Learn more .
+L223: ## Box, Dropbox, and SharePoint are now in Library
+L224: Box, Dropbox, and SharePoint now join Google Drive in ChatGPT Library. Once connected, you can browse and search available files and folders, then add the files you need to a conversation through Add from Library or @mentions—without uploading them again. You can review supported file previews beside the conversation and follow citations back to the source as you work.
+L225: When you’re working with a file, you can now keep Box, Dropbox, and SharePoint files open beside the conversation while asking ChatGPT to summarize, analyze, compare, or create something new from them. You can also select a folder and ask ChatGPT to work across the files it contains. Your content stays connected to their original source, so it’s easy to return to the original.
+L226: ### Availability
+L227: 
+L228: Box, Dropbox, and SharePoint integrations are now rolling out to Go, Plus, Pro, Business, Edu, Healthcare and Enterprise users on the web in both Chat and Work. Existing file permissions and workspace controls apply. Mobile support will follow.
+L229: 
+L230: Rolling out to Plus, Pro, Enterprise, Edu, Healthcare and Business users on the web in both the Chat and Work toggles. Mobile support will follow.
+L231: 
+L232: # September 9, 2026
+L233: ## Updated models and usage limits in ChatGPT Voice
+L234: 
+L235: ChatGPT Voice can now use GPT-5.6 or GPT-6 Astra when it needs to search or reason through harder questions. Choose your model and reasoning effort using the same controls as text chat. Available models and their usage limits depend on your plan.
+L236: 
+L237: We’re also simplifying GPT-Live daily usage limits:
+L238: 
+L239:   * Go: Up to 3 hours with GPT-Live-1 mini, replacing GPT-Live-1 access.
+L240: 
+L241:   * Plus: Up to 3 hours with GPT-Live-1.
+L242:   * Pro ($100/month): Up to 15 hours with GPT-Live-1.
+L243: 
+L244:   * Pro ($200/month): Unlimited GPT-Live-1 usage.
+L245: 
+L246: Plus and Pro no longer switch to GPT-Live mini after reaching a Voice limit.
+L247: 
+L248: With these updates, the separate Instant/Medium/High Voice intelligence levels are deprecated.
+L249: 
+L250: Learn more: cite22†https://help.openai.com/en/articles/20001274-chatgpt-voice L251: ## Share files and folders from your Library
+L252: 
+L253: Library sharing lets you share files and folders in ChatGPT, choose who can access them, and work with shared content directly in your conversations.
+L254: ### What’s new
+L255: 
+L256:   * Share with specific people. Invite recipients and assign Viewer or Editor access.
+L257: 
+L258:   * Share across your workspace. Make content available to everyone in your workspace.
+L259: 
+L260:   * Manage access. Review who has access, change permissions, or remove access from the sharing dialog.
+L261: 
+L262:   * Find and use shared content. Access items in Shared with me and use shared files in conversations with ChatGPT.
+L263: ### Shared folders and ownership
+L264: 
+L265: Files uploaded to a shared folder belong to the folder’s owner. The person who uploaded each file is still recorded.
+L266: 
+L267: If you upload a file to someone else’s shared folder and they later remove your folder access, the file stays in their folder and you lose access to it.
+L268: 

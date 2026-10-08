@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155680.htm",
+  "title": "Hermes推出AI性能、费用榜单：性价比最好的已不是DeepSeek",
+  "text": "快科技10月7日消息，全球大模型评测榜单已经有好多，大部分测试关注的主要是性能，但对那些玩OpenCalw或者Hermes的网友来说，只看性能是不行的，Hermes因此也推出了自己的榜单。\nHermes开发商Nousresearch推出了Hermes Index榜单，对比的大模型不仅要看性能水平，还要看价格，看的是每任务的成本，性能指数越高越好，任务成本越低越好。\n他们排的顺序还是以性能为基准，目前Opus 5.5位列第一，每任务成本4.99美元，GPT-6 Astra位列第二，但每任务成本高达11.61美元，是目前十几款大模型中最贵的。\n这个榜单排名中位列前茅的主要是Anthropic及OpenAI两家的，国产大模型最好的是GLM-5.3，位列第六，剩下的8个名次也基本都是国产大模型。\nDeepSeek V4.1 Flash的名词在这个榜单中不算高，但每任务成本只要0.259美元，相比前面的大模型直接降了一个档次。\n不过真要算性价比，最高的也不是V4.1 Flash，GPT-6 Luna的每任务成本甚至可以做到它的一半多一点，性能也非常接近。\n性价比最高的是蚂蚁集团的Ling 3.0 Flash，成本最低只要0.054美元，不过性能分数也低了不少，另外Hermes账号中还是可以免费用的，小编的Hermess也在用这个模型，只是免费的每日额度似乎受限，不能要求太多。\n综合这个榜单来看，如果不差钱，那么Hermes中用Opus 5.5是最合适的，如果做不到Token自由，国内依然更推荐V4.1 Flash，国外性价比最高的当然是GPT-6 Luna了。\n不想花钱的就可以找找免费版的Ling 3.0 Flash了，另外最新的Ling 3.1 Flash也发了，跑分超过V4.1 Flash了，官网上还有一定的免费期，也可以白嫖。",
+  "published_at": "2026-10-07T15:23:45+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1e5721df1a99398b27a4",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b.body",
+  "source_sha256": "c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b",
+  "fetched_at": "2026-10-08T01:05:23.714870+00:00"
+}

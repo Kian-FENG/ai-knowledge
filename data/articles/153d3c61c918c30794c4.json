@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+  "title": "Google rolls out improved SynthID AI content detector, now available globally",
+  "text": "Every piece of AI content from Google's Gemini models has a hidden SynthID label, which makes it very difficult to pass the content off as authentic. SynthID has also gotten buy-in from other major AI players, but actually checking for those invisible watermarks has been a convoluted process. It's going to be a little easier going forward, though. Google has announced that its SynthID detector now supports watermarks from all its partners, and it's available for anyone to use on a new dedicated website.\nSynthID is an invisible signal encoded in the pixels of AI-generated images and videos, and in the waveform of AI audio. Google says Gemini alone has integrated SynthID with over 180 billion images and videos, plus 240,000 years of audio. Until now, the only way for those outside of Google's trusted tester program to check for SynthID was to ask Gemini. This is rather clunky, and the model's output could sometimes be confusing when you just wanted a simple \"yes\" or \"no.\"\nNow you can cut Gemini out of the loop. Starting today, you can go to the new SynthID.com website to check a piece of content for an AI watermark. A major limitation of Google's previous detector was that it only checked for Google's version of SynthID. Even though ChatGPT images, for example, have SynthID, they wouldn't be flagged in Google's detector. That's no longer a problem.\nRead full article\nComments",
+  "published_at": "2026-10-07T14:00:08+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "153d3c61c918c30794c4",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-08/d6cf7453f06fd7fefa117648bc8bd3f8b9f9c2981d8144b3f9649db8bf00df2e.body",
+  "source_sha256": "d6cf7453f06fd7fefa117648bc8bd3f8b9f9c2981d8144b3f9649db8bf00df2e",
+  "fetched_at": "2026-10-08T01:05:11.046093+00:00"
+}

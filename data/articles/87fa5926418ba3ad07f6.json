@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07306",
+  "title": "Kurate: Scalable Scientific Quality Analysis",
+  "text": "arXiv:2610.07306v1 Announce Type: new\nAbstract: Scientific search systems can find papers that are relevant to a question, but they generally do not assess the quality of the evidence that those papers provide. We present Kurate, a system that uses large language models (LLMs) to assess the quality of published studies. Kurate uses both the paper and its related documents (e.g., the study's trial registration and protocol), and links each of its judgments to the passage of text on which that judgment is based. We applied Kurate to a corpus of 4,347 papers (3,913 of which report randomized trials) and scored each paper on 8 dimensions of study design and reporting: specifically, statistical power, causal identification, preregistration, selective reporting, measurement validity, analysis prespecification, reporting transparency, and conflict of interest and funding. Across the corpus, we found that papers most often exhibited issues with statistical power, selective reporting, and analysis prespecification, although average quality differed between clinical areas. When compared against expert annotations of 60 held-out clinical-trial documents, the information Kurate extracted matched the expert label in 221/242 protocol scorepoints and 294/370 results-publication scorepoints, with AC1 0.94 and 0.81, respectively. Using a well-reputed, high quality clinical trial as a worked example, we show how a single paper's overall grade breaks down into separate judgments, with each linked to specific evidence from the trial's registration, protocol, and published report. Together, these results show that large-scale quality assessment of this kind is feasible, and that it can be used to address meta-scientific research questions.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "87fa5926418ba3ad07f6",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

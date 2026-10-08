@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-07-deepseek-v41-flash",
+  "title": "DeepSeek-V4.1-Flash on vLLM: 5x Agentic Throughput Since Day 0Oct 7, 2026·12 min readWithin three weeks of release, vLLM made DeepSeek-V4.1-Flash 1.9x faster at low concurrency and lifted its throughp",
+  "link_text": "DeepSeek-V4.1-Flash on vLLM: 5x Agentic Throughput Since Day 0Oct 7, 2026·12 min readWithin three weeks of release, vLLM made DeepSeek-V4.1-Flash 1.9x faster at low concurrency and lifted its throughp",
+  "id": "611a6830e42643a993e7",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-08/b0734872aa3ff3c6961b8b783b11fe881b08e498697f97cea906be7e028af332.body",
+  "source_sha256": "b0734872aa3ff3c6961b8b783b11fe881b08e498697f97cea906be7e028af332",
+  "fetched_at": "2026-10-08T01:04:50.625847+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-08T01:04:50.625847+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

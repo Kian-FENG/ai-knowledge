@@ -1,0 +1,22 @@
+{
+  "period": "daily",
+  "date": "2026-10-07",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-07",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-06T18:00:00-07:00",
+    "end": "2026-10-07T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "7ac5b52892ad0a3d365a318e69e5c76666f37ca3c71fb71c8bf7bbd17111d428",
+  "editorial_sha256": "2c99f1e76b3a3a1937ec49bd4cd797ea467c563dd07b07bc682e587501d84bed",
+  "report_path": "reports/daily/2026/10/2026-10-07/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-07/7ac5b52892ad0a3d365a318e69e5c76666f37ca3c71fb71c8bf7bbd17111d428.json",
+  "events": 12,
+  "generated_at": "2026-10-08T01:18:05.511868+00:00",
+  "timezone": "America/Los_Angeles",
+  "report_sha256": "c5ef09dc243abfc3d89d1abb0c8eb40eb09a33b68170004800bd1c6139c684dd",
+  "agent_reviewed_at": "2026-10-08T01:20:19.743998+00:00",
+  "agent_review_note": "已核对12个事件的来源支持/去重/六栏/事实判断/日期窗口；纠正date-only午夜显示，补生成时间、来源链接、覆盖与14页发布回查；原生成版归档revisions。"
+}

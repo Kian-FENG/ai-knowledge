@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
+  "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
+  "text": "As tensions mount over who gets access to top-end artificial intelligence, French company Mistral has released a new freely available model that it claims can compete with the very best from the US and China.\nThe new 1 trillion-parameter model, Mistral Large 4—nicknamed Le Chonk—can be used and customized by anyone. It’s currently available in preview, with a final version to follow by the end of the month. Though Le Chonk is built to compete with leading general-purpose models, it’s optimized specifically for coding and cyberdefense, as well as tasks particular to manufacturing, finance, electrical engineering, and other niches.\n“There are a lot of areas where the other labs will not focus that much,” Guillaume Lample, cofounder and chief scientist at Mistral, tells WIRED. “There are so many domains in which you can improve models.”\nRead full article\nComments",
+  "published_at": "2026-10-07T14:12:37+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "19bbd8a9667ab1144b6d",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-08/d6cf7453f06fd7fefa117648bc8bd3f8b9f9c2981d8144b3f9649db8bf00df2e.body",
+  "source_sha256": "d6cf7453f06fd7fefa117648bc8bd3f8b9f9c2981d8144b3f9649db8bf00df2e",
+  "fetched_at": "2026-10-08T01:05:11.046093+00:00"
+}

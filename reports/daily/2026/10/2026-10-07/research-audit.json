@@ -1,0 +1,101 @@
+{
+  "run_at": "2026-10-08T01:20:19.743998+00:00",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-07",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-06T18:00:00-07:00",
+    "end": "2026-10-07T18:00:00-07:00"
+  },
+  "configuration_checked": true,
+  "collection_run": "20261008T010431-29690273",
+  "collection_health": {
+    "ok": 82,
+    "needs_browser": 13,
+    "failed": 1
+  },
+  "selected_events": 12,
+  "knowledge": {
+    "new": 14,
+    "updated": 0,
+    "published": [
+      "reference/sources/openai-intelligent-ui-20261007.md",
+      "reference/sources/openai-college-planner-20261007.md",
+      "reference/sources/google-playground-20261007.md",
+      "reference/sources/radisson-chatgpt-discovery-20261007.md",
+      "reference/sources/anthropic-haiku-55-pricing-20261007.md",
+      "reference/sources/nous-series-b-20261007.md",
+      "reference/sources/healthleap-funding-20261007.md",
+      "reference/sources/dynamo-v151-release-20261007.md",
+      "reference/sources/nvidia-rtx-spark-windows-20261007.md",
+      "reference/papers/refold-reversible-context-2610-07863.md",
+      "reference/papers/mosaic-gpu-sharing-2610-07504.md",
+      "reference/entities/nous-research.md",
+      "reference/entities/healthleap.md",
+      "research/synthesis/interactive-agents-cost-and-local-supply-20261007.md"
+    ],
+    "query_get_page_recheck": "passed for all 14; raw hashes matched"
+  },
+  "verification": "reported company/author statements; synthesis derived; source-checked limited support; no measured/replicated",
+  "dedup_skipped": [
+    "Vinci Oct6 funding",
+    "Namespace Oct5 funding",
+    "Reflection Beam Oct5 preview",
+    "vLLM0.31.0 formal Oct5",
+    "flashcards Sep22/Scan Oct1 background"
+  ],
+  "pending": "pending-evidence.md",
+  "reading_notebook": {
+    "raw_path": "raw/2026-10-08/d6882fe4553eeafb445c49934fe24d5b4177d748a5801fa1dc5988658d666fbf.txt",
+    "sha256": "d6882fe4553eeafb445c49934fe24d5b4177d748a5801fa1dc5988658d666fbf",
+    "source_url": "https://openai.com/news/",
+    "original_name": "reading-notebook-source-extract.txt",
+    "fetched_at": "2026-10-08T01:13:12.311602+00:00"
+  },
+  "supplement_archives": [
+    {
+      "raw_path": "raw/2026-10-08/bcff9b2a63e41b66357718245e2173b17ed7409449450a66a67f8a69c0c7aaff.txt",
+      "sha256": "bcff9b2a63e41b66357718245e2173b17ed7409449450a66a67f8a69c0c7aaff",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "original_name": "help-release-notes-extract.txt",
+      "fetched_at": "2026-10-08T01:17:52.721436+00:00"
+    },
+    {
+      "raw_path": "raw/2026-10-08/a5c830b6edb1a64293598043b6bbd0d631f3d71961289eaa85ae8ad38cecb4f2.txt",
+      "sha256": "a5c830b6edb1a64293598043b6bbd0d631f3d71961289eaa85ae8ad38cecb4f2",
+      "source_url": "https://www.getvinci.ai/blog/",
+      "original_name": "remaining-checks.txt",
+      "fetched_at": "2026-10-08T01:17:52.756659+00:00"
+    }
+  ],
+  "coverage_failures": [
+    "qwen",
+    "asml",
+    "nda",
+    "jiqizhixin",
+    "huxiu",
+    "techmeme-gap-snapshots"
+  ],
+  "coverage_limits": [
+    "Bloomberg/IT之家/快科技窗口漏采未补齐",
+    "arXiv260 candidates; save cap60;196 unarchived; only2papers read limited sections",
+    "QwenHF first50; public lists/RSS not complete; private channels not covered",
+    "unknown-date1 excluded; date-only bounds uncertain"
+  ],
+  "validation": {
+    "schema": {
+      "status": "success",
+      "pages": 54
+    },
+    "tests": {
+      "passed": 49
+    }
+  },
+  "git_initial": {
+    "started_at": "2026-10-08T01:04:31.050089+00:00",
+    "head": "145ce82f94058008d3f60257f852dd97d96df610",
+    "branch": "main",
+    "upstream": "origin/main"
+  },
+  "git_scope_note": "871 initial dirty/untracked paths isolated; only current report, evidence dependencies, knowledge and required indices/state/log/tracker/config staged."
+}

@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-08/770be9aa9ee52b6daa460f5651c71c9f6c15c4e9d7c2c2170624a406c66329dc.body",
+  "sha256": "770be9aa9ee52b6daa460f5651c71c9f6c15c4e9d7c2c2170624a406c66329dc",
+  "source_url": "https://www.cisa.gov/news.xml",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-08T01:04:55.903271+00:00",
+  "source_id": "cisa",
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/rss+xml; charset=utf-8",
+    "Content-Language": "en",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Security-Policy-Report-Only": "default-src *.cisa.gov; script-src *.cisa.gov 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com cse.google.com cdn.jsdelivr.net www.google.com www.youtube.com dap.digitalgov.gov cdnjs.cloudflare.com siteimproveanalytics.com *.adtrafficquality.google gov1.siteintercept.qualtrics.com *.gov1.siteintercept.qualtrics.com clients1.google.com; style-src 'unsafe-inline' *.cisa.gov fonts.googleapis.com www.google.com cdnjs.cloudflare.com; img-src *.cisa.gov data: www.google.com clients1.google.com www.googletagmanager.com *.siteimproveanalytics.io *.adtrafficquality.google gov1.siteintercept.qualtrics.com; frame-src *.cisa.gov *.dhs.gov www.youtube.com *.adtrafficquality.google syndicatedsearch.goog; font-src *.cisa.gov fonts.gstatic.com; connect-src *.cisa.gov www.google-analytics.com www.googletagmanager.com *.adtrafficquality.google gov1.sr.qualtrics.com gov1.siteintercept.qualtrics.com www.google.com analytics.google.com stats.g.doubleclick.net syndicatedsearch.goog gov1.qualtrics.com; report-uri /report-csp-violation",
+    "X-WCM-H": "WCM-209-56",
+    "Content-Encoding": "gzip",
+    "Content-Length": "1372",
+    "Cache-Control": "private, no-cache, must-revalidate",
+    "Expires": "Thu, 08 Oct 2026 01:04:57 GMT",
+    "Date": "Thu, 08 Oct 2026 01:04:57 GMT",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=31536000 ; includeSubDomains"
+  },
+  "final_url": "https://www.cisa.gov/news.xml",
+  "truncated": false,
+  "charset": "utf-8"
+}

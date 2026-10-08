@@ -1,0 +1,153 @@
+Retrieval: Agent-read official webpage extract via web browser tool, not HTTP bytes.
+URL: https://arxiv.org/abs/2610.07504
+Collected: 2026-10-08T01:13:11.985887+00:00
+
+[2610.07504] Mosaic: GPU Sharing with Latency Guarantees through Kernel-Level Interference Prediction (https://arxiv.org/abs/2610.07504)
+citeturn9view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.07504","lineno":null}); Total lines: 163
+L0: cite0†Search cite1†Submit cite2†Donate†info.arxiv.org cite3†Log in L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · cite4†Advanced search L5: 
+L6: # Computer Science > Distributed, Parallel, and Cluster Computing
+L7: 
+L8: [Submitted on 5 Oct 2026]
+L9: # Title:Mosaic: GPU Sharing with Latency Guarantees through Kernel-Level Interference Prediction
+L10: 
+L11: Authors:cite5†Foteini Strati , cite6†Ethan Graham , cite7†Leo Stephan , cite8†Paul Elvinger , cite9†Ana Klimovic L12: 
+L13: View a PDF of the paper titled Mosaic: GPU Sharing with Latency Guarantees through Kernel-Level Interference Prediction, by Foteini Strati and 4 other authors
+L14: 
+L15: cite10†View PDF cite11†HTML (experimental) L16: > Abstract:GPUs are increasingly in demand for AI workloads, yet often remain substantially underutilized, motivating workload colocation. However, colocation introduces interference that can degrade latency-critical workloads. Existing approaches mitigate interference using either heuristic-based scheduling or interference predictors. Heuristics rely on coarse-grained metrics that overlook important interference sources, while predictors often depend on simulator-specific or similarly coarse metrics.
+L17: However, GPU interference is complex and arises from multiple mechanisms, including thread-block placement, memory hierarchy contention, and intra-SM resource contention. We present Mosaic, a kernel-level interference predictor that explicitly models these mechanisms using a combination of analytical and lightweight learned models. Across four GPU architectures, Mosaic reduces prediction error by up to an order of magnitude compared to prior predictors.
+L18: We integrate Mosaic into a scheduler, MosaicSched, that performs online kernel admission control and selects between full-GPU colocation and SM partitioning to maximize best-effort throughput while satisfying latency SLOs. Across all workloads, MosaicSched keeps the p99 latency below or very close to the target SLO.
+L19: Subjects:  | Distributed, Parallel, and Cluster Computing (cs.DC)
+L20: Cite as:  | cite12†arXiv:2610.07504 [cs.DC]
+L21:    | (or cite13†arXiv:2610.07504v1 [cs.DC] for this version)
+L22:    | cite14†https://doi.org/10.48550/arXiv.2610.07504†doi.org arXiv-issued DOI via DataCite (pending registration)
+L23: ## Submission history
+L24: 
+L25: From: Foteini Strati [cite15†view email ]
+L26: [v1] Mon, 5 Oct 2026 23:09:45 UTC (533 KB)
+L27: 
+L28: Full-text links:
+L29: 
+L30: ## Access Paper:
+L31: 
+L32: View a PDF of the paper titled Mosaic: GPU Sharing with Latency Guarantees through Kernel-Level Interference Prediction, by Foteini Strati and 4 other authors
+L33: 
+L34:   * cite10†View PDF L35:   * cite11†HTML (experimental) L36:   * cite16†TeX Source L37: 
+L38: cite17†view license†creativecommons.org L39: 
+L40: ### Additional Features
+L41: 
+L42:   * cite18†Audio Summary L43: ### Current browse context:
+L44: 
+L45: cs.DC
+L46: 
+L47: cite19†< prev |   cite20†next > L48: 
+L49: cite21†new | cite22†recent | cite23†2026-10 L50: 
+L51: Change to browse by:
+L52: 
+L53: cite24†cs L54: 
+L55: ### References & Citations
+L56: 
+L57:   * cite25†NASA ADS†ui.adsabs.harvard.edu L58:   * cite26†Google Scholar†scholar.google.com L59:   * cite27†Semantic Scholar†api.semanticscholar.org L60: 
+L61: [Button: export BibTeX citation] Loading...
+L62: 
+L63: ## BibTeX formatted citation
+L64: 
+L65: [Button: ×]
+L66: 
+L67: loading...
+L68: 
+L69: Data provided by:
+L70: 
+L71: ### Bookmark
+L72: 
+L73: [Input] Bibliographic Tools
+L74: # Bibliographic and Citation Tools
+L75: 
+L76: [Input] Bibliographic Explorer Toggle
+L77: 
+L78: Bibliographic Explorer (cite28†What is the Explorer?†info.arxiv.org )
+L79: 
+L80: [Input] Connected Papers Toggle
+L81: 
+L82: Connected Papers (cite29†What is Connected Papers?†www.connectedpapers.com )
+L83: 
+L84: [Input] Litmaps Toggle
+L85: 
+L86: Litmaps (cite30†What is Litmaps?†www.litmaps.co )
+L87: 
+L88: [Input] scite.ai Toggle
+L89: 
+L90: scite Smart Citations (cite31†What are Smart Citations?†www.scite.ai )
+L91: 
+L92: [Input] Code, Data, Media
+L93: # Code, Data and Media Associated with this Article
+L94: 
+L95: [Input] alphaXiv Toggle
+L96: 
+L97: alphaXiv (cite32†What is alphaXiv?†alphaxiv.org )
+L98: 
+L99: [Input] Links to Code Toggle
+L100: 
+L101: CatalyzeX Code Finder for Papers (cite33†What is CatalyzeX?†www.catalyzex.com )
+L102: 
+L103: [Input] DagsHub Toggle
+L104: 
+L105: DagsHub (cite34†What is DagsHub?†dagshub.com )
+L106: 
+L107: [Input] GotitPub Toggle
+L108: 
+L109: Gotit.pub (cite35†What is GotitPub?†gotit.pub )
+L110: 
+L111: [Input] Huggingface Toggle
+L112: 
+L113: Hugging Face (cite36†What is Huggingface?†huggingface.co )
+L114: 
+L115: [Input] ScienceCast Toggle
+L116: ScienceCast (cite37†What is ScienceCast?†sciencecast.org )
+L117: 
+L118: [Input] Demos
+L119: # Demos
+L120: 
+L121: [Input] Replicate Toggle
+L122: 
+L123: Replicate (cite38†What is Replicate?†replicate.com )
+L124: 
+L125: [Input] Spaces Toggle
+L126: 
+L127: Hugging Face Spaces (cite39†What is Spaces?†huggingface.co )
+L128: 
+L129: [Input] Spaces Toggle
+L130: 
+L131: TXYZ.AI (cite40†What is TXYZ.AI?†txyz.ai )
+L132: 
+L133: [Input] Related Papers
+L134: # Recommenders and Search Tools
+L135: 
+L136: [Input] Link to Influence Flower
+L137: 
+L138: Influence Flower (cite41†What are Influence Flowers?†influencemap.cmlab.dev )
+L139: 
+L140: [Input] Core recommender toggle
+L141: 
+L142: CORE Recommender (cite42†What is CORE?†core.ac.uk )
+L143: 
+L144:   * Author
+L145:   * Venue
+L146:   * Institution
+L147:   * Topic
+L148: 
+L149: [Input] About arXivLabs
+L150: # arXivLabs: experimental projects with community collaborators
+L151: 
+L152: arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+L153: 
+L154: Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+L155: Have an idea for a project that will add value for arXiv's community? cite43†Learn more about arXivLabs†info.arxiv.org .
+L156: 
+L157: cite44†Which authors of this paper are endorsers? | Disable MathJax (cite45†What is MathJax?†info.arxiv.org )
+L158: 
+L159: We gratefully acknowledge support from our major funders, cite46†member institutions†info.arxiv.org , , and all contributors.
+L160: cite47†About†info.arxiv.org · cite48†Help†info.arxiv.org · cite49†Contact†info.arxiv.org · cite50†Subscribe†info.arxiv.org · cite51†Copyright†info.arxiv.org · cite52†Privacy†info.arxiv.org · cite53†Accessibility†info.arxiv.org · cite54†Operational Status (opens in new tab)†status.arxiv.org L161: 
+L162: Major funding support from

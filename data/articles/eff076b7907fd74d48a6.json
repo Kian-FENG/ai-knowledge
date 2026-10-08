@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.06889",
+  "title": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes",
+  "text": "arXiv:2610.06889v1 Announce Type: new\nAbstract: We study the application of large language models (LLMs) to the visual exploration of textual corpora. We introduce zero-shot visualization (ZSV), a task in which users specify concepts in natural language and documents are mapped onto the corresponding concept axes for visualization. Building a ZSV system of practical value is non-trivial, as it requires choices at the intersection of feature functions, efficient implementation tradeoffs, and pre/post-processing decisions affecting visualization quality. To that end, we establish a benchmark that compares methods spanning embedding similarity, direct semantic judgments, and conditional likelihood estimation in this setting. Across multiple datasets and use cases we evaluate the properties of different scoring methods and design choices in terms of semantic faithfulness, score fidelity, and computational cost. Our results identify that scoring based on next-token probabilities offers the strongest practical trade-off among the evaluated methods. We further apply this approach to unlabeled corpora to examine its behavior in realistic exploratory settings. These experiments highlight additional design considerations, including the use of graded axes together with binary relevance filtering, and reveal a compositional sentiment bias in off-topic documents. Based on these findings, we provide practical guidelines for constructing end-to-end ZSV baselines.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "eff076b7907fd74d48a6",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

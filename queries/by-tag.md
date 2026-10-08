@@ -43,20 +43,40 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/openai-den-work-20261001|ChatGPT Work 客户案例突出跨应用资料整合]]
 - `source` [[reference/sources/volantis-series-a-20261001|新增跟踪：Volantis 为光子推理系统融资8,800万美元]]
 
+## company-discovery
+
+- `entity` [[reference/entities/healthleap|Healthleap：住院风险识别与临床团队工作流]]
+- `entity` [[reference/entities/nous-research|Nous Research：Hermes Agent与开放模型研究]]
+
 ## daily-research
 
 - `paper` [[reference/papers/hear-protocol-2610-06597|HEAR：把 Agent 工作流意图与推理引擎状态连接起来]]
 - `paper` [[reference/papers/hera-abstention-2610-06563|HERA：让 harness 与任务环境共同演进，学习何时停止]]
+- `paper` [[reference/papers/mosaic-gpu-sharing-2610-07504|Mosaic 提议用内核干扰预测选择GPU共置或SM分区]]
+- `paper` [[reference/papers/refold-reversible-context-2610-07863|ReFold：保留完整历史，用可逆折叠控制长时Agent上下文]]
 - `source` [[reference/sources/anthropic-cvp-expansion-20261006|Anthropic 扩展 CVP：网络安全模型访问按资格和用途分层]]
+- `source` [[reference/sources/anthropic-haiku-55-pricing-20261007|Claude Haiku 5.5 发布：可调effort，价格按100K提示长度分档]]
+- `source` [[reference/sources/dynamo-v151-release-20261007|Dynamo v1.5.1 正式补丁：修复路由恢复并收紧多模态输入边界]]
 - `source` [[reference/sources/embeddinggemma-2-release-20261006|EmbeddingGemma 2 发布多模态开放嵌入模型，支持端侧检索]]
+- `source` [[reference/sources/google-playground-20261007|Google Playground 实验性上线：对话创建、试玩和分享游戏]]
+- `source` [[reference/sources/healthleap-funding-20261007|Healthleap 披露3800万美元种子及A轮融资，切入住院营养不良识别]]
 - `source` [[reference/sources/mistral-large-4-preview-20261006|Mistral Large 4 进入 API 公开预览，权重仍待月底交付]]
+- `source` [[reference/sources/nous-series-b-20261007|Nous Research 披露9000万美元B轮，计划扩展 Hermes 企业产品]]
 - `source` [[reference/sources/nvidia-aicr-v10-20261006|NVIDIA 介绍 AICR v1.0：固定集群配置契约与可追溯验证]]
+- `source` [[reference/sources/nvidia-rtx-spark-windows-20261007|RTX Spark 笔记本开放预订，NVIDIA 公布Windows本地Agent硬件路线]]
 - `source` [[reference/sources/openai-atlassian-partnership-20261006|Atlassian 扩展 OpenAI 合作：企业上下文与 Agent 工作流进一步结合]]
+- `source` [[reference/sources/openai-college-planner-20261007|OpenAI 宣布 College Planner，首批面向美国10–12年级学生]]
+- `source` [[reference/sources/openai-intelligent-ui-20261007|ChatGPT 开始推送 Intelligent UI：回答可直接变成交互工具]]
 - `source` [[reference/sources/openai-ironclad-computer-use-20261006|OpenAI 与 Ironclad 用合同工作任务评估计算机操作能力]]
 - `source` [[reference/sources/openai-jump-trading-adoption-20261006|Jump Trading 披露长时研究 Agent 用法，人工检查仍在流程中]]
 - `source` [[reference/sources/openai-math-artifacts-20261006|OpenAI 发布数学手稿与部分 Lean 证明，结果仍有不同核验阶段]]
 - `source` [[reference/sources/pytorch-fbtriton-tbe-20261006|PyTorch 介绍 FBTriton：稀疏嵌入路径转向可配置的 Python/Triton]]
+- `source` [[reference/sources/radisson-chatgpt-discovery-20261007|Radisson 披露 ChatGPT 插件与广告协同的酒店获客路径]]
 - `source` [[reference/sources/vinci-series-b-20261006|Vinci 披露 2.5 亿美元 B 轮，扩展物理仿真与硬件设计平台]]
+
+## daily-synthesis
+
+- `note` [[research/synthesis/interactive-agents-cost-and-local-supply-20261007|交互Agent、细分计价与本地供给：成本优势取决于完整任务链]]
 
 ## data-synthesis
 

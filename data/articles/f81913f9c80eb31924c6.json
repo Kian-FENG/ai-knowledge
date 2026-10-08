@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/anthropic-gives-more-security-teams-access-to-claude-with-fewer-safety-restrictions/",
+  "title": "Anthropic gives more security teams access to Claude with fewer safety restrictions",
+  "text": "Anthropic is expanding its Cyber Verification Program, giving more security professionals access to Claude models with fewer safety restrictions for penetration testing, malware analysis, and vulnerability research. Anthropic says partners in its predecessor program found at least 129,000 confirmed vulnerabilities from April through July 2026, including more than 33,000 rated high-severity or critical.\nThe article Anthropic gives more security teams access to Claude with fewer safety restrictions appeared first on The Decoder.",
+  "published_at": "2026-10-07T12:05:20+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f81913f9c80eb31924c6",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/06c2ae85bbfe0acc0f7d1bd59f38ff41d3f739df5469992477cf1ae274d412ab.body",
+  "source_sha256": "06c2ae85bbfe0acc0f7d1bd59f38ff41d3f739df5469992477cf1ae274d412ab",
+  "fetched_at": "2026-10-08T01:05:05.525997+00:00"
+}

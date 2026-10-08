@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/010/325.htm",
+  "title": "微软发布 VS Code v1.141：清理“僵尸”Agent 会话等",
+  "text": "IT之家 10 月 8 日消息，微软昨日（10 月 7 日）更新推出 Visual Studio Code 1.141，本次更新聚焦 AI 智能体（Agent）工作流管理，重点改进会话存储清理、跨平台沙盒安全、多会话并排布局，以及多 GitHub Enterprise 实例登录支持。\n清理“僵尸”Agent 会话方面，新版增加 Chat: Open Worktree Cleanup 命令，可列出所有非活跃 Agent 会话的工作树（worktree）占用空间，并支持按“闲置时长”筛选、手动删除或设置自动清理策略。IT之家附上相关图片如下：\n当存储占用达到阈值时，Agents 窗口会主动提示清理；已合并 PR 的会话可配置为自动清理，活跃 / 运行中 / 需输入 / 已固定的会话则受保护不会被误删。\n跨平台沙盒方面，新版在 Windows、macOS、Linux 上为 Copilot Agent 提供终端沙盒能力，限制其对文件系统和网络资源的访问范围，提升安全性。\n多会话网格布局方面，Agents 窗口支持将会话以网格形式水平 / 垂直排列，拖拽调整布局、放大聚焦单个会话，且布局在重载后仍会保留，便于同时跟踪多个 Agent 任务进展。\n此外新版支持在同一 VS Code 窗口中同时登录 GitHub Enterprise Cloud (GHE.com) 与 GitHub Enterprise Server 账号，便于跨企业实例协作与代码管理。",
+  "published_at": "2026-10-07T21:56:07+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "09c395741d117761c6d3",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/8b50d5f8f74dc0d9ff214926d8cb9ca223209fbe592db6c0f18146a0d001bd89.body",
+  "source_sha256": "8b50d5f8f74dc0d9ff214926d8cb9ca223209fbe592db6c0f18146a0d001bd89",
+  "fetched_at": "2026-10-08T01:05:12.596938+00:00"
+}

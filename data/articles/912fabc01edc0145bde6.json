@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-trends/article/3370012/chinas-open-weight-ai-models-are-winning-global-users-who-capturing-value",
+  "title": "China’s open-weight AI models are winning global users. Who is capturing the value?",
+  "text": "China’s open-weight artificial intelligence models are taking off globally, but much of the money they generate is flowing to third-party providers rather than the companies that create them, according to a new study.\nDevelopers including DeepSeek and Moonshot AI make their model weights – essentially the “brains” of their AI systems – freely available for download. This strategy, which has accelerated global adoption over the past two years, allows other companies to run the models on their own...",
+  "published_at": "2026-10-07T11:00:09+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "912fabc01edc0145bde6",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/182e0f91a9c0c875de1e63ce86568b3a6b4ed04438d88188d7d45eb69a18338f.body",
+  "source_sha256": "182e0f91a9c0c875de1e63ce86568b3a6b4ed04438d88188d7d45eb69a18338f",
+  "fetched_at": "2026-10-08T01:05:08.497335+00:00"
+}

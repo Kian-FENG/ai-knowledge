@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-07/malaysia-builds-a-new-silicon-island-to-house-its-ai-ambitions",
+  "title": "Malaysia Builds a New ‘Silicon Island’ to House Its AI Ambitions",
+  "text": "Just south of Penang, the historic trading island off Malaysia’s northwest coast, excavators are turning a stretch of blue-green sea into a new, man-made island. Dump trucks crisscross freshly reclaimed sand as orange pipes snake across the emerging land mass, carrying fill pumped from dredgers offshore.",
+  "published_at": "2026-10-07T23:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "368f2d2a758a9141c895",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/f8c105bfe61618b74503d88927b8406b15b78de3bea72e6208ebd88eb850d993.body",
+  "source_sha256": "f8c105bfe61618b74503d88927b8406b15b78de3bea72e6208ebd88eb850d993",
+  "fetched_at": "2026-10-08T01:05:07.692204+00:00"
+}

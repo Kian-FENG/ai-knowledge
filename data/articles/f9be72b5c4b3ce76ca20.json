@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07519",
+  "title": "Not What a Child Expressed: Auditing the Sign-to-Text Safety Interface in Child-Facing AI",
+  "text": "arXiv:2610.07519v1 Announce Type: new\nAbstract: Automatic sign language translation (SLT) has entered consumer products, turning American Sign Language into English text for dictation, messaging, and queries put to a conversational assistant. Child-facing AI and platform trust-and-safety tooling decide on text, using filters on minor accounts and grooming classifiers that score chat messages. A signing child who uses SLT therefore reaches these safeguards through a translation. We found no publicly documented system in which the two have been jointly evaluated, and the leading deployed SLT model was neither trained nor formally evaluated on signers under 18. Errors that alter negation, participant roles, secrecy, urgency or help-seeking could change a safety decision without disturbing fluency. This paper proposes a Deaf-informed pre-deployment audit of that boundary, with a failure taxonomy, a sanitised scenario schema, four comparison conditions, and four outcome measures. Auslan is the planned first case study.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f9be72b5c4b3ce76ca20",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

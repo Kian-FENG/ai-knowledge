@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1006915/microsoft-surface-rtx-spark-dev-box-preorder",
+  "title": "Surface RTX Spark Dev Box is available for preorder for $5,999",
+  "text": "Microsoft's Nvidia-powered Surface RTX Spark Dev Box is available for preorder now and is slated to ship in November for just about $6,000. It's pricier than the DGX Spark mini PC Nvidia launched last year, but PC prices have been climbing due to shortages of RAM and other components.\nThe Dev Box's flat, 3D-printed anodized aluminum chassis doubles as a heatsink and resembles the top vents on an Xbox Series X. It was introduced alongside the new Surface Laptop Ultra and runs on Nvidia's Arm-based RTX Spark platform and 128GB of unified memory. With that much memory, along with a 100-watt thermal envelope and Nvidia's Tensor cores, you could …\nRead the full story at The Verge.",
+  "published_at": "2026-10-07T13:46:44-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-07T15:30:04-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "21dc1b92a61f105a1b64",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-08/d7b2347f1cb42e7b25e92f435a3e65839037dea0042caa259dd4335edbe84e84.body",
+  "source_sha256": "d7b2347f1cb42e7b25e92f435a3e65839037dea0042caa259dd4335edbe84e84",
+  "fetched_at": "2026-10-08T01:05:05.512780+00:00"
+}

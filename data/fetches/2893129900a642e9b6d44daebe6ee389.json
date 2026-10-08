@@ -1,0 +1,32 @@
+{
+  "raw_path": "raw/2026-10-08/92338049d47dbac37dffc86bba31521152be409b69ae673482ca456bf37b2094.body",
+  "sha256": "92338049d47dbac37dffc86bba31521152be409b69ae673482ca456bf37b2094",
+  "source_url": "https://www.court.gov.cn/index.html",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-08T01:05:00.429102+00:00",
+  "source_id": "spc",
+  "status": 200,
+  "headers": {
+    "Date": "Thu, 08 Oct 2026 01:05:02 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "88030",
+    "Connection": "close",
+    "Accept-Ranges": "bytes",
+    "Content-Security-Policy": "frame-ancestors 'self'",
+    "Etag": "\"6ac6eb8e-157de\"",
+    "Last-Modified": "Thu, 08 Oct 2026 01:02:06 GMT",
+    "Refere-Policy": "origin",
+    "Set-Cookie": "HttpOnly, Secure",
+    "Strict-Transport-Security": "max-age=31536000",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "SAMEORIGIN",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "master-only",
+    "X-Xss-Protection": "1; mode=block;",
+    "WZWS-RAY": "012-1791421502.503-src-w-cache02yzm-w-waf04yzm",
+    "VAR-Cache": "miss:Cookie"
+  },
+  "final_url": "https://www.court.gov.cn/index.html",
+  "truncated": false,
+  "charset": "utf-8"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07822",
+  "title": "Nucleus Speculative Decoding: Plausibility-Aware Verification Beyond Exact Distribution",
+  "text": "arXiv:2610.07822v1 Announce Type: new\nAbstract: Speculative decoding accelerates autoregressive generation by using a lightweight draft model to propose multiple tokens that are verified by a target model in parallel. However, the standard acceptance rule focuses on exact distribution correction and rejects tokens that remain highly plausible under the target model when the draft model assigns excess probability. This conservative verification limits the number of draft tokens retained after each verification forward pass. We introduce Nucleus Speculative Decoding (NSD), a relaxed verification method that incorporates target-model plausibility into speculative decoding. NSD accepts a draft token if it satisfies the standard acceptance rule or belongs to the target model's nucleus. We theoretically characterize the distributional deviation introduced by our method and show that the single-step error is exactly determined by the draft model's excess probability within the target nucleus. We further derive sequence-level fidelity bounds that quantify how local deviations accumulate over autoregressive decoding. Experiments across multiple target models and proposal mechanisms demonstrate that NSD consistently improves speculative decoding efficiency while maintaining competitive task performance. Our method achieves throughput speedups of up to $5.16\\times$ over autoregressive decoding and up to $3.15\\times$ over standard speculative decoding. These improvements coincide with longer accepted lengths, allowing more output tokens to share the cost of each target verification pass. Analysis shows that plausibility-aware verification provides an effective approach for relaxed verification and speculative decoding efficiency. Our code is available at https://github.com/EIT-NLP/Nucleus-Speculative-Decoding.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "a76851f995164b5b03d3",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

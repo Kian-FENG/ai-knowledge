@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/opinion/world-opinion/article/3369823/us-risks-ceding-ai-governance-leadership-china-and-eu",
+  "title": "US risks ceding AI governance leadership to China and the EU",
+  "text": "Standing alongside prominent technology executives, US President Donald Trump announced a voluntary agreement under which major artificial intelligence (AI) companies will use internal controls and monitoring, outside audits and board oversight to manage risks. The White House calls the commitments “morally binding”, but the accord does not create a comparable system of legal enforcement.\nThe administration’s logic is understandable. AI is becoming a source of economic and military power, and...",
+  "published_at": "2026-10-07T08:30:06+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b9b2a70d8dff99f69880",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/182e0f91a9c0c875de1e63ce86568b3a6b4ed04438d88188d7d45eb69a18338f.body",
+  "source_sha256": "182e0f91a9c0c875de1e63ce86568b3a6b4ed04438d88188d7d45eb69a18338f",
+  "fetched_at": "2026-10-08T01:05:08.497335+00:00"
+}

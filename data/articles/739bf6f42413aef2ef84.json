@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155737.htm",
+  "title": "Surface与Macbook正面交锋",
+  "text": "微软部门副总Brett Ostrum接受采访时称，微软上一次推出基于高通ARM处理器的Copilot Plus PC实际上是为了对抗大众级Macbook Air，公司当然也想撼动Macbook Pro的行业地位，但苦于SoC能效落后：\n“我们知道，当时的芯片无法达到Macbook Pro的水平”，Brett称。\n于是，当英伟达私下展示某款在研芯片的强大性能时，微软对此很感兴趣，双方一拍即合：“能与Macbook Pro正面交锋意义重大，英伟达对于我们来说是天作之合”，Brett表示。双方密切合作了多年，最终促成Surface Laptop Ultra闪亮登场。\nSurface Laptop Ultra与Macbook Pro同样采用CNC一体成型加工工艺，具备超大触控板，巧克力键盘，高端屏幕，24GB机型起价2600美元，128GB顶配机型需支付5900美元。\n内置的RTX Spark SoC专为本地AI负载设计，可运行2800亿参数密实模型，实现Token自由，更无敏感信息泄漏之虞。与CPU集成的英伟达GPU凭借统一内存技术可轻松处理Blender 3D、Photoshop Premiere等图形负载，当然也能玩游戏。\n媒体人士获邀在展示机上运行新近发布的《战争机器：事变日》，主观感受极为流畅，即便笔记本供电方式由市电切换为电池也没有可察觉的性能下降。\n为了进一步向Mac机看齐，除内部结构如Macbook般规整外，微软设计团队还煞费苦心地为其设计了磁吸充电口——这是全行业首款运用磁吸原理的USB-C接口：\nSurface对微软而言并非仅是一门生意，它还负责向合作伙伴展示Windows平台的实力。微软通过Surface在触控板、显示屏、手写笔支持、性能与设计领域推动了行业进步，如果微软自己都不上心，Win本与Mac本之间的差距会越来越大。\nSurface Laptop Ultra即日开启预定，本月16号出货。入门型号仅售2600美元，配备15寸mini-LED屏幕、大尺寸触控板、三个机身USB-C口（含磁吸口），5120CU的18核RTX Spark以及24GB统一内存，目标客户是视频编辑、照片创作、数据处理、3D建模人员与游戏玩家。",
+  "published_at": "2026-10-08T07:06:51+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "739bf6f42413aef2ef84",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b.body",
+  "source_sha256": "c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b",
+  "fetched_at": "2026-10-08T01:05:23.714870+00:00"
+}

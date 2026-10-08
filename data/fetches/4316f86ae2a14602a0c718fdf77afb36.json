@@ -1,0 +1,26 @@
+{
+  "raw_path": "raw/2026-10-08/b3ea33d743690bfb278bf1c729063d6b0a9ba8cbd9bd2d2d000d9047bdd08d6f.body",
+  "sha256": "b3ea33d743690bfb278bf1c729063d6b0a9ba8cbd9bd2d2d000d9047bdd08d6f",
+  "source_url": "https://www.gov.cn/zhengce/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-08T01:05:01.877492+00:00",
+  "source_id": "gov-cn-policy",
+  "status": 200,
+  "headers": {
+    "Date": "Thu, 08 Oct 2026 01:05:03 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Credentials": "true",
+    "Content-Encoding": "gzip",
+    "X-Ser": "i57974_c26071, i2103129_c28197, i2315451_c28195, i1932517_c23621",
+    "X-Cache": "HIT from i2315451_c28195(cloudsvr)"
+  },
+  "final_url": "https://www.gov.cn/zhengce/",
+  "truncated": false,
+  "charset": "utf-8"
+}

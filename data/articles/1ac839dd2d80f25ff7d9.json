@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-07/microsoft-says-new-laptop-with-nvidia-chip-outperforms-macbooks",
+  "title": "Microsoft Says New Laptop With Nvidia Chip Outperforms MacBooks",
+  "text": "Microsoft Corp. revealed pricing and availability for a new flagship laptop built on Nvidia Corp. chips, saying that the machine outperforms a comparable Apple Inc. model on some AI tasks.",
+  "published_at": "2026-10-07T18:39:23+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1ac839dd2d80f25ff7d9",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/f8c105bfe61618b74503d88927b8406b15b78de3bea72e6208ebd88eb850d993.body",
+  "source_sha256": "f8c105bfe61618b74503d88927b8406b15b78de3bea72e6208ebd88eb850d993",
+  "fetched_at": "2026-10-08T01:05:07.692204+00:00"
+}

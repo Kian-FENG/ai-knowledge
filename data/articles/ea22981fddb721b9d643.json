@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155700.htm",
+  "title": "第五次改名！英特尔HX系列直接跳过三位数：命名为Core 2000HX",
+  "text": "快科技10月7日消息，据知名爆料博主金猪升级包透露，英特尔即将推出的Raptor Lake Next高性能笔记本处理器将以Core 2000HX系列的名义发售，而非此前传闻的Core 200HX。\n若消息属实，这将是Raptor Lake架构的第五次“换名重生”。\n据爆料内容，此次命名针对的是Raptor Lake Next的移动版HX系列。爆料中并未给出具体型号名称，因此尚不清楚英特尔会沿用Core 9 2xxxHX之类的命名结构，还是采用其他编号方式。\n目前可以确认的只有Core 2000HX这一系列名称。\n事实上，这并非Raptor Lake Next笔记本版首次曝光。今年6月就有消息称，英特尔正在准备一套仅包含HX型号的移动产品线。\n当时爆料人Jaykihn称，该系列将提供三种配置：最高8P核+16E核（合计24核）的Core 9处理器、8P核+12E核（合计20核）的Core 7型号，以及一款6P核+8E核（合计14核）的Core 7处理器，且全系不支持vPro和SIPP。\n从命名策略来看，四位数的Core 2000HX确实有其实际考量。目前英特尔已经在售不带Ultra标识的Core 200H系列，而基于Arrow Lake的高性能笔记本芯片则使用Core Ultra 200HX命名，2026年后者还进一步扩展出了Core Ultra 200HX Plus型号。\n采用Core 2000HX可以让老架构获得一个独立的命名层级，避免与上述两条现有产品线产生混淆。\n不过目前这些信息均来自爆料渠道，最终的命名与型号阵容仍有待英特尔官方确认。",
+  "published_at": "2026-10-07T16:57:35+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ea22981fddb721b9d643",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b.body",
+  "source_sha256": "c92677808cb54668dc08e5a77c29deaa624ca0443fc007b037779ee836dfa58b",
+  "fetched_at": "2026-10-08T01:05:23.714870+00:00"
+}

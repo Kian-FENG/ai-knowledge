@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07716",
+  "title": "Readout Stability in Prefill-Only Decision Models:Zero-Label Prediction and Inference-Time Compute Allocation",
+  "text": "arXiv:2610.07716v1 Announce Type: new\nAbstract: Prefill-only decision models inspired by the Jev model score every candidate in a menu during a single forward pass and never decode, which makes one call one to two orders of magnitude cheaper than a same-scale generative language model. We show that this read-out structure comes with a testable property. When an intervention changes only the candidate menu and leaves the input text fixed, the post-intervention accuracy is already determined by the cached first-pass distribution. The estimator restricts the pass-1 probabilities to the menu, renormalizes, and reads off the argmax; it uses no labels and no second forward pass. Across seven model families, ten datasets and two task types, menu-only interventions are predicted to within 4.2 points, and for one family the prediction is exact. A probability-level variant of the same estimator errs by 21.0 points, so the property lives in the ranking rather than in the probabilities and is not recovered by calibration. Same-scale generative language models do not share the property. On those models the same estimator errs by 1.6 to 15.8 points and degrades as the model grows. The property turns inference-time compute into a decision that can be made before deployment. Uniform extra passes buy calibration but almost no accuracy; at matched cost a confidence cascade outperforms every scheme that re-asks the same model, and curating the menu beats enlarging the model, with a 0.8B model on a curated 5-candidate menu reaching 95.4% on CLINC150 against 80.0% for a 4B model on the full 150-label menu.Code and data are available at https://github.com/rlisml/jev-cascade.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e558ea62658b291f6156",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

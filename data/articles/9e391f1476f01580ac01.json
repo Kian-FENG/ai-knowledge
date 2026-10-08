@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07887",
+  "title": "Visual Abstention in Unified Multimodal Models",
+  "text": "arXiv:2610.07887v1 Announce Type: new\nAbstract: Unified multimodal models (UMMs) integrate understanding and generation, yet their generative behavior is rarely governed by what they understand about the task. We formalize visual abstention: when a requested visual transformation is impossible under the task's rules, the model should recognize that no valid solution exists, state this, and decline to generate. We introduce Draw-or-Decline (DoD), a benchmark of 1,050 feasible-infeasible request pairs across 7 task categories that jointly measures editing success and the refusal of infeasible requests. Evaluating 8 UMMs, we find that editing ability and abstention are distinct capabilities: even the strongest editor, at 68.4% editing accuracy, refuses only 0.4% of infeasible requests under ordinary instructions. Their reasoning shows why: the models rarely notice the conflict, and instead plan the edit as if the request were possible, often describing objects that are not in the image, or quietly change the request into one they can complete. Explicitly prompting these UMMs to report infeasibility increases textual refusals but reduces editing accuracy. We propose VisTA (Visual Transformation and Abstention), a training method that pairs feasible and infeasible examples so that a model judges feasibility before deciding whether to generate. We train VisTA-BAGEL to perform feasible edits and decline infeasible requests. Without any reminder, it refuses 93.0% of infeasible requests, up from 0.4% for the strongest editor, while falsely refusing only 0.8% of feasible ones. Unlike a reminder, this does not cost editing accuracy: VisTA-BAGEL completes 74.3% of feasible edits, more than any of the 8 evaluated UMMs.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9e391f1476f01580ac01",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

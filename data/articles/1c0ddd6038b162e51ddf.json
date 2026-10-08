@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07970",
+  "title": "A Private IPFS Data Sanctuary for Verifiable Digital Collection Objects",
+  "text": "arXiv:2610.07970v1 Announce Type: new\nAbstract: Background: Galleries, libraries, archives and museums (GLAM) increasingly produce scientific collection data whose digital state must remain identifiable, recoverable, and verifiable after acquisition. A staging architecture should provide redundancy without requiring every measurement to depend on one workstation or storage path. Methods: We evaluated a private seven-node InterPlanetary File System (IPFS) deployment at the Museum f\\\"ur Naturkunde Berlin. Five Raspberry Pi 5 edge peers and two archive-class peers contributed NVMe-backed repositories across two wired zones linked by a shared wireless path. Two real raw-acquisition folders were recovered by content identifier (CID), a large machine-learning model-weight folder was ingested, and sustained telemetry from two edge and two archive nodes was compared. Results: Raw acquisition A (6.20 GB) materialized in 34.0 s (182 MB/s effective logical rate) and raw acquisition B (5.19 GB) in 14.092 s (368 MB/s). A 156.1 GB model-weight folder was recursively added in approximately 300 s (520 MB/s logical ingest). Four sustained telemetry series comprised 857.3 logged node-hours and 27,616 valid block-stat probes, all reporting successful local block access. Conclusion: The prototype demonstrates a practical institution-local distributed file system (DFS) for content-addressed acquisition staging. Museum-specific object identifiers can remain stable at the collection-object level while each imported measurement automatically receives a content-derived state identity. Replication intentionally distributes identical blocks across failure domains, while content addressing enables reuse of unchanged blocks within repositories. This combination supports verifiable digital collection objects and a federated storage model for collaborating GLAM institutions.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "1c0ddd6038b162e51ddf",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

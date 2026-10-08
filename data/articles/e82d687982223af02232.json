@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material/",
+  "title": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+  "text": "Meta launches new AI tools after discovering ads on its platforms that may look normal but direct users to harmful content elsewhere online.",
+  "published_at": "2026-10-07T16:53:46+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e82d687982223af02232",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/4cd48f30a1aeb112afb90c9fc2dbade22127902d74893ef4fc67a46960de5b0d.body",
+  "source_sha256": "4cd48f30a1aeb112afb90c9fc2dbade22127902d74893ef4fc67a46960de5b0d",
+  "fetched_at": "2026-10-08T01:05:02.983884+00:00"
+}

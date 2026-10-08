@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.07502",
+  "title": "Closing Ambient Clinical Documentation Gaps with Automated Provider Queries",
+  "text": "arXiv:2610.07502v1 Announce Type: new\nAbstract: Provider queries are clarifying requests sent by clinical documentation specialists to physicians to close gaps in the clinical note and ensure accurate billing. Prior work automates note drafting, ICD-10 coding, and order extraction assuming a complete transcript, leaving these gaps unaddressed. We study whether an LLM can automate the query loop, termed DAU (Draft, Ask, Update), across those three tasks. An audit of 3,000 real visits identifies the sources of missing documentation, from which we build five transcript-degradation benchmarks on public data. Analyzing 21k clarification turns on real conversations, we find useful-question predictors are task-specific: oracle confidence dominates, but note completeness needs only simple recall questions while ICD-10 coding needs harder, multi-option ones. About 9% of turns hurt performance, driven by redundant questions and non-answers that still trigger a rewrite. Deployment depends on learning \"when not\" as much as \"what to\" ask.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "5e84b2fc87ca73af0400",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

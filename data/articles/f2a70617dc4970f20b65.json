@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.06956",
+  "title": "EMODE: Dynamic Para-Semantic Experts for Emotion-Aware Speech Language Modeling",
+  "text": "arXiv:2610.06956v1 Announce Type: new\nAbstract: Large speech language models have demonstrated strong capabilities in unified cross-modal understanding and generation, yet paralinguistic cues, especially emotion, remain difficult to preserve. Existing systems typically rely on entangled acoustic representations, which allow the underlying language model to depend excessively on recovered lexical content instead of grounding its behavior in acoustic-prosodic evidence. We address this limitation with EMODE, an emotion-aware speech language model built around \\textbf{Dynamic Para-Semantic Experts (DPSE)}. DPSE decomposes continuous speech features into semantic and paralinguistic pathways, routes them dynamically, and fuses them before integration into the language model. To turn this structural decomposition into functional specialization, EMODE is trained with a three-stage curriculum consisting of semantic warm-up, paralinguistic activation, and joint refinement, guided by Orthogonal Expert Guidance (OEG), Semantic-to-Acoustic Alignment (SAA), and Gating Diversity Regularization (GDR). Experiments on SER test, empathetic response evaluation, and the newly constructed bilingual MEPA benchmark show that EMODE improves the balance between lexical fidelity and emotional sensitivity, strengthens affect-grounded response generation, and exposes the value of explicit para-semantic factorization for robust cross-corpus emotion understanding.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f2a70617dc4970f20b65",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

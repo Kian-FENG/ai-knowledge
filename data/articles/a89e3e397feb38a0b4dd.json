@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/validate-ai-factory-changes-with-digital-twins-and-ai-agents/",
+  "title": "Validate AI Factory Changes with Digital Twins and AI Agents",
+  "text": "AI factories are some of the most complex operations in the world, combining GPUs, CPUs, switches, DPUs, and SuperNICs alongside schedulers, orchestration...\nAI factories are some of the most complex operations in the world, combining GPUs, CPUs, switches, DPUs, and SuperNICs alongside schedulers, orchestration services, security controls, and a rapidly changing software stack. Deploying this infrastructure effectively is a challenge. But so is being able to validate that the infrastructure, software, and policies work together for the workloads the…\nSource",
+  "published_at": "2026-10-07T16:00:00+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-05T18:53:03+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a89e3e397feb38a0b4dd",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-08/ee90b0a03a8019c9c88c3ee737b020d872e48d4c1cdda76381cbc67c7ecd2e61.body",
+  "source_sha256": "ee90b0a03a8019c9c88c3ee737b020d872e48d4c1cdda76381cbc67c7ecd2e61",
+  "fetched_at": "2026-10-08T01:04:51.199504+00:00"
+}

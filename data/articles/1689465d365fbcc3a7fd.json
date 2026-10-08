@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/musk-says-spacex-will-sometimes-use-rival-models-power-grok-bot",
+  "title": "Musk Says SpaceX Will Sometimes Use Rival Models to Power Grok Bot",
+  "text": "Elon Musk announced on Tuesday night that SpaceX’s AI unit will now use some AI models from competitors to power Grok Bot, signaling a shift away from relying exclusively on models developed in-house.\n“Going forward, @SpaceX will use the best back end model for any given task, including Claude ...",
+  "published_at": "2026-10-07T14:21:08+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T00:08:01+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1689465d365fbcc3a7fd",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/24f68450e981867da7fb2ab8c53d0e97aa0db197f3500939b675622e917c9203.body",
+  "source_sha256": "24f68450e981867da7fb2ab8c53d0e97aa0db197f3500939b675622e917c9203",
+  "fetched_at": "2026-10-08T01:05:05.571045+00:00"
+}

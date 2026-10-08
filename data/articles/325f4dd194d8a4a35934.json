@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+  "title": "ChatGPT&#8217;s &#8216;Intelligent UI&#8217; update fills its responses with pictures, charts, and buttons",
+  "text": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more.\nIn a blog post explaining the change, OpenAI says it trained GPT-6 when to generate interactive visuals over text, as well as how to format them in its response. An example shared by OpenAI shows how ChatGPT might show a diagram of a seven-speed bicycle if you ask about its design, complete with interactive buttons that highlight differe …\nRead the full story at The Verge.",
+  "published_at": "2026-10-07T15:10:42-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-07T15:10:42-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "325f4dd194d8a4a35934",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-08/d7b2347f1cb42e7b25e92f435a3e65839037dea0042caa259dd4335edbe84e84.body",
+  "source_sha256": "d7b2347f1cb42e7b25e92f435a3e65839037dea0042caa259dd4335edbe84e84",
+  "fetched_at": "2026-10-08T01:05:05.512780+00:00"
+}

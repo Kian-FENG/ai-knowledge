@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.06939",
+  "title": "When Robots Crash: Optimal Asynchronous Gathering at Weber Meeting Nodes",
+  "text": "arXiv:2610.06939v1 Announce Type: new\nAbstract: We study the \\textit{optimal gathering} problem over a finite set of designated \\textit{meeting nodes} for \\textit{asynchronous, anonymous,} and \\textit{oblivious} mobile robots on an infinite grid under crash faults. The robots have global visibility and strong multiplicity detection, but share neither a coordinate system nor chirality. The objective is to gather all non-faulty robots at a \\textsc{Weber Meeting Node}, minimizing the total Manhattan distance from their initial positions. Up to $n-2$ robots may crash permanently, and such crashes are indistinguishable from arbitrary delays. Existing approaches often rely on a designated robot to break symmetry, whose crash may block the remaining robots indefinitely. Instead, our approach enables every robot to independently select the same target from its snapshot, while target-dependent restricted shortest paths preserve the target as a \\textsc{Weber Meeting Node}. We prove that, under strong multiplicity detection, optimal gathering is impossible from certain fully symmetric configurations. For all remaining configurations, our algorithm \\textsc{CrashTolerantWeberGathering()} selects a unique common target, preserves its optimality throughout the execution, and allows non-faulty robots to progress without waiting for crashed robots, thereby guaranteeing gathering in finite time.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "82872d35dd070cd59691",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

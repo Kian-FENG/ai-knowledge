@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.06897",
+  "title": "Capacity, Responsiveness and Alignment: What Makes a Latent Structure Actionable",
+  "text": "arXiv:2610.06897v1 Announce Type: new\nAbstract: Localizing latent structures in the activation space of language models (LMs) is central to understanding and controlling their behavior. Yet, localized structures can differ substantially in their causal influence, raising the question of what makes a structure actionable. We tackle this question by casting causal influence as a product of three factors and showing empirically that they act as interpretable, distinct constraints: capacity, measuring the sensitivity of the model's output to movement along the structure, responsiveness, capturing how promotable the concept is given the current context, and alignment, reflecting how well the structure aligns with the context-specific representation of the concept. Across 4 LM families and 50 concepts, we observe that causal effectiveness requires all factors to be high; low capacity and responsiveness reduce it by 84% and 95%, respectively, while low alignment can reverse it, suppressing concept expression. Moreover, we find that causality is context-dependent rather than an intrinsic property of the structure, with causally effective directions forming a low-dimensional subspace that varies across contexts. By restricting the training of linear probes to this subspace, we introduce causal probes that achieve 17%-118% improvement in steering across models, with only 3% reduction in concept detection.",
+  "published_at": null,
+  "announced_at": "2026-10-07T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "0ab7759f43bf366f942a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-08/9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f.body",
+  "source_sha256": "9ffd30ff2f6e6ab740894389b16cbcfcf2465d3cda6c147112b5a0339a66e10f",
+  "fetched_at": "2026-10-08T01:04:52.179560+00:00"
+}

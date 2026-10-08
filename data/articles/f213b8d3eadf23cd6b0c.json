@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+  "title": "Everything announced at Microsoft&#8217;s Surface Laptop Ultra event",
+  "text": "Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco.\nThe biggest announcement was arguably the release details about the Surface Laptop Ultra, its new laptop that’s powered by Nvidia’s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB of storage, and it will be released on October 16th. The laptop also has built-in magnetic USB-C charging instead of the proprietary Surface Connect magnetic charging port. The Verge‘s Tom Warren published a deep dive all about the new laptop. Microsoft also announced that the Surface RTX Spark Dev Box, a mini PC for developers, is available for preorder for $5,999 ahead of shipping in November.\nIn addition, Microsoft shared details about some updates coming to Windows, including “Hybrid Intelligence” features that lets Copilot use files on your Windows PC to take actions and a new search experience that lets you do quick actions from the search bar.\nYou can catch up with all of our coverage from the event right here.\nFs in the chat.\nThe first Nvidia RTX Spark laptops cost up to $7,000\nMicrosoft is giving Copilot more control over Windows and your files\nThe Surface Laptop Ultra finally has a release date — and a starting price of $2,599\nSurface RTX Spark Dev Box is available for preorder for $5,999\nMicrosoft’s Surface Laptop Ultra has built-in magnetic USB-C charging\nMuse is coming to Windows.\nWindows and Surface live blog: On the ground at Microsoft’s event",
+  "published_at": "2026-10-07T14:42:22-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-07T18:15:22-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f213b8d3eadf23cd6b0c",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-08/d7b2347f1cb42e7b25e92f435a3e65839037dea0042caa259dd4335edbe84e84.body",
+  "source_sha256": "d7b2347f1cb42e7b25e92f435a3e65839037dea0042caa259dd4335edbe84e84",
+  "fetched_at": "2026-10-08T01:05:05.512780+00:00"
+}

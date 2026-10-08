@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/former-google-nvidia-execs-launch-company-ease-gpu-crunch",
+  "title": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch",
+  "text": "Anjney Midha, a former general partner at Andreessen Horowitz, and former executives at Google, Apple and Nvidia have launched a company that aims to make it easier and more affordable for smaller companies or startups to access such compute. The move comes as Microsoft and other cloud providers ...",
+  "published_at": "2026-10-07T12:00:40+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T00:08:01+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "901ffe64afe5684631eb",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/24f68450e981867da7fb2ab8c53d0e97aa0db197f3500939b675622e917c9203.body",
+  "source_sha256": "24f68450e981867da7fb2ab8c53d0e97aa0db197f3500939b675622e917c9203",
+  "fetched_at": "2026-10-08T01:05:05.571045+00:00"
+}

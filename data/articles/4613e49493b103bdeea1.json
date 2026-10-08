@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+07 Oct 2026\n+New language model evaluation results available\n+Claude Haiku 5.5 (High)\n+Intelligence Index: 38\n+New language model evaluation results available\n+Claude Haiku 5.5 (Low)\n+Intelligence Index: 29\n+New language model evaluation results available\n+Claude Haiku 5.5 (Medium)\n+Intelligence Index: 34\n+New language model evaluation results available\n+Claude Haiku 5.5 (Max)\n+Intelligence Index: 43\n+New language model evaluation results available\n+Claude Haiku 5.5 (Xhigh)\n+Intelligence Index: 41\n+LithosAI performance results now available\n+GLM 5.3 Flash\n+Nebius performance results now available\n+Qwen3.8 27B (Non-reasoning)Qwen3.8 27B (Xhigh)\n+Anthropic performance results now available\n+Claude Haiku 5.5 (Low)Claude Haiku 5.5 (Xhigh)Claude Haiku 5.5 (Medium)Claude Haiku 5.5 (Max)Claude Haiku 5.5 (High)\n-New language model evaluation results available\n-GLM-5.3 (Max)\n-Intelligence Index: 45\n-Zai performance results now available\n-GLM-5.3 (Max)GLM-5.2 (Max)\n-17 Aug 2026\n-New language model evaluation results available\n-Qwen3.8 27B (Xhigh)\n-Intelligence Index: 34\n-DeepInfra performance results now available\n-DeepSeek V4 Pro 0813 (Max)",
+  "id": "4613e49493b103bdeea1",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-08/c897062b59a58a86603b26beb963c964eaae78a6308a00f13e343955dde5e781.body",
+  "source_sha256": "c897062b59a58a86603b26beb963c964eaae78a6308a00f13e343955dde5e781",
+  "fetched_at": "2026-10-08T01:04:57.058313+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-08T01:04:57.058313+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}
