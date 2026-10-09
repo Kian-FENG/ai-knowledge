@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.09607",
+  "title": "Which Language Should a Skeleton Speak? Language Choices in Multilingual Reasoning",
+  "text": "arXiv:2610.09607v1 Announce Type: new\nAbstract: Skeleton-based reasoning prompting is a promising training-free approach for structuring LLM reasoning, but prior work largely assumes an English-centric setting. We propose the Language-Aware Skeleton Exploration Framework (LASEF) to study skeleton-language choice in multilingual mathematical reasoning. Across math benchmarks, model scales, and languages, we show that English skeletons yield a small positive tendency on average, most visible for smaller models and low-resource languages. However, few language-level gains remain significant after correction, and English is not universally optimal. Combining greedy decoding, multi-rollout evaluation, translation ablation, and cross-benchmark validation, we further find three patterns of skeleton-language effects: directionally consistent, evaluation- and benchmark-dependent, and asymmetric negative. These effects cannot be fully explained by generation quality alone. Overall, skeleton language is a context-dependent design variable that requires multi-level exploration. All resources are released at https://github.com/lhsstn/LASEF.",
+  "published_at": null,
+  "announced_at": "2026-10-08T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "7a0af9b042ee5581e9e8",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-09/ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c.body",
+  "source_sha256": "ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c",
+  "fetched_at": "2026-10-09T01:00:04.331143+00:00"
+}

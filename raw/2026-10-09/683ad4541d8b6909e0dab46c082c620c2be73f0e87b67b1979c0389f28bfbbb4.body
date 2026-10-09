@@ -1,0 +1,1080 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit"/>
+    <meta name="viewport" content="width=1280, user-scalable=yes"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description"
+          content="最高人民法院政务网站,最高人民法院网，最高人民法院，最高人民法院网是人民群众了解和联系最高人民法院的重要窗口，承载着司法公开、法治宣传、服务群众、接受监督等重要使命。是最高人民法院的政务网站，是最高人民法院在互联网上唯一的正式身份。"/>
+    <meta name="keywords" content="司法解释，重大案件，权威发布，新闻发布会，法院资讯，院长信箱，审判流程公开，执行信息公开，裁判文书公开，开庭公告，法院，法庭，法官"/>
+    <meta itemprop="image" content="/style/system/images/share.jpg">
+    <!-- <script type="text/javascript" src="/style/system/js/jquery.min.js?t=20231109"></script> -->
+    <link rel="stylesheet" type="text/css" href="/style/system/css/css.css?t=202610090858" />
+<script type="text/javascript" src="/style/system/js/jquery.min.js?t=2026100908"></script>
+<script type="text/javascript" src="/style/system/js/jquery.marqueeUI.js"></script>
+<script type="text/javascript" src="/style/system/js/jquery.slide.js"></script>
+<script type="text/javascript" src="/style/system/js/jquery.textUI.js"></script>
+<script type="text/javascript" src="/style/system/js/jquery.chinacourtUI.js"></script>
+<script type="text/javascript" src="/style/system/js/jquery-migrate-3.4.0.min.js"></script>
+<title>首页 - 中华人民共和国最高人民法院</title>
+                    <!-- 引入jquery.js升级后兼容js -->
+        <!-- 法眼-2020年9月 -->
+    </head>
+<body class="homebg">
+
+<!--顶部开始-->
+<div style='margin:0 auto;width:0px;height:0px;overflow:hidden;'><img src='/style/system/images/share.jpg'/></div>
+
+
+<div class="topbanner">
+    <a href="" target="_blank"></a>
+</div>
+
+<div class="top">
+    <div id="container" class="clearfix">
+        <ul class="fl clearfix lf_sd">
+            <li class="fl language">[ <a href="http://www.court.gov.cn/">中文版</a>                ]&nbsp;&nbsp;&nbsp;[ <a target="_blank" href="//english.court.gov.cn/">English</a>                ]
+            </li>
+            <li class="fl" id="showtime"></li>
+        </ul>
+        <ul class="fr clearfix rt_sd">
+
+            <li class="fl xmt">
+
+                <span class="fl gz">关注：</span>
+                <a class="fl sina" href="http://www.weibo.com/zuigaofa" target="_blank" alt="最高人民法院新浪微博"
+                   title="最高人民法院新浪微博"></a>
+                <a class="fl wechat" href="javascript:;" alt="最高人民法院官方微信" title="最高人民法院官方微信"><i></i></a>
+
+            </li>
+            <li class="fl"><a class="lg_em" target="_blank" href="http://mail.court.gov.cn/">登录邮箱系统</a></li>
+            <li class="fl search">
+                <form name="content" action="/search.html" method="get">                <input class="sc" type="text" id="keyword" name="content" value=""/>
+                <input class="btn" id="article_content" type="submit"/>
+                </form>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--顶部结束-->
+
+<!--logo开始-->
+<div class="header">
+    <div class="logo"></div>
+    <div class="nav">
+        <div id="container">
+            <ul id="yw1">
+<li class="fl home"><a href="/index.html">首页</a></li>
+<li class="fl"><a href="/xinshidai/gengduo/762.html">学习新时代</a></li>
+<li class="fl"><a href="/jigou.html">机构设置</a></li>
+<li class="fl"><a href="/zixun.html">法院资讯</a></li>
+<li class="fl"><a href="/fabu.html">权威发布</a></li>
+<li class="fl"><a target="_blank" href="http://gongbao.court.gov.cn">公报</a></li>
+<li class="fl"><a href="/shenpan.html">审判业务</a></li>
+<li class="fl"><a href="/jianshe.html">法院建设</a></li>
+<li class="fl"><a href="/fuwu.html">办事服务</a></li>
+<li class="fl"><a href="/hudong.html">公众互动</a></li>
+<li class="fl"><a href="/xunhui.html">巡回法庭</a></li>
+<li class="fl last"><a href="/guanyu.html">关于我们</a></li>
+</ul>        </div>
+    </div>
+</div>
+<!--logo结束-->
+
+<!--内容开始-->
+
+<div id="container">
+    <link rel="stylesheet" href="/style/system/css/jquery.scrollbar.css">
+<link rel="stylesheet" href="/style/system/swiper2/idangerous.swiper.css">
+<script src="/style/system/swiper2/idangerous.swiper.js"></script>
+<style>
+    .mCSB_container {
+        margin-right: 0;
+    }
+
+    .mCustomScrollBox>.mCSB_scrollTools {
+        width: 4px;
+    }
+
+    .mCSB_scrollTools .mCSB_draggerRail {
+        width: 4px;
+    }
+
+    .case_ct .bd .tempWrap ul li {
+        width: 220px !important;
+        margin-right: 50px;
+    }
+
+    * {
+        -webkit-text-size-adjust: none;
+    }
+
+    :root {
+        --child-width1: 25.00%;
+--child-height1: 88px;
+--child-width2: 25.00%;
+--child-height2: 88px;
+--child-width3: 25.00%;
+--child-height3: 88px;
+--child-width4: 25.00%;
+--child-height4: 88px;
+--child-width71: 25.00%;
+--child-height71: 88px;
+--child-width5: 20.00%;
+--child-height5: 74px;
+--child-width6: 16.66%;
+--child-height6: 64px;
+    }
+</style>
+
+<script src="/style/system/js/jquery.scrollbar.js"></script>
+
+    <!--第一行-->
+    <div class="clearfix main" style=" padding-top: 30px;">
+
+        <div class="zgy_topline">
+            <!-- 头条 -->
+            <a title="习近平文化思想引领文化强国建设迈出坚实步伐" target="_blank" href="/zixun/xiangqing/513561.html"><img src="/upload/image/2026/10/07/23/05/20261007230512_32735.jpg" alt="习近平文化思想引领文化强国建设迈出坚实步伐" /></a>            <p>
+                                                                            <a title="习近平总书记重要论述引领加快建设航天强国" target="_blank" href="/zixun/xiangqing/513661.html">习近平总书记重要论述引领加快建设航天强国</a>                        <i>|</i>
+                                        <a title="习近平等党和国家领导人出席庆祝中华人民共和国成立77周年招待会" target="_blank" href="/zixun/xiangqing/513511.html">习近平等党和国家领导人出席庆祝中华人民共和国成立77周年招待会</a>                            </p>
+            <span class="xuexi_more">
+                <a href="/xinshidai/gengduo/762.html" target="_blank">
+                                <img src="/style/system/images/xuexi_120.png" alt="学习新时代">                                </a>
+            </span>
+        </div>
+        <div class="fl left">
+            <!--焦点图-->
+            <div class="focus whr-focus">
+                <div class="yx-rotaion whr-rotaion">
+                    <ul class="rotaion_list">
+                                                        <li>
+                                    <a title="习近平等党和国家领导人出席庆祝中华人民共和国成立77周年招待会" target="_blank" href="/zixun/xiangqing/513511.html"><img src="/upload/image/2026/09/30/20/23/20260930202320_15296.jpg" alt="习近平等党和国家领导人出席庆祝中华人民共和国成立77周年招待会" /></a>                                    <div class="whr-rotation-title"><a title="习近平等党和国家领导人出席庆祝中华人民共和国成立77周年招待会" target="_blank" class="yx-rotation-t" href="/zixun/xiangqing/513511.html">习近平等党和国家领导人出席庆祝中华人民共和国成立77周年招待会</a></div>
+                                </li>
+                                                        <li>
+                                    <a title="习近平和彭丽媛同美国总统特朗普夫妇共同参观美国国家档案馆" target="_blank" href="/zixun/xiangqing/513031.html"><img src="/upload/image/2026/09/26/16/22/20260926162222_27649.jpg" alt="习近平和彭丽媛同美国总统特朗普夫妇共同参观美国国家档案馆" /></a>                                    <div class="whr-rotation-title"><a title="习近平和彭丽媛同美国总统特朗普夫妇共同参观美国国家档案馆" target="_blank" class="yx-rotation-t" href="/zixun/xiangqing/513031.html">习近平和彭丽媛同美国总统特朗普夫妇共同参观美国国家档案馆</a></div>
+                                </li>
+                                                        <li>
+                                    <a title="习近平和彭丽媛同美国总统特朗普夫妇茶叙" target="_blank" href="/zixun/xiangqing/513041.html"><img src="/upload/image/2026/09/26/16/25/20260926162535_66528.jpg" alt="习近平和彭丽媛同美国总统特朗普夫妇茶叙" /></a>                                    <div class="whr-rotation-title"><a title="习近平和彭丽媛同美国总统特朗普夫妇茶叙" target="_blank" class="yx-rotation-t" href="/zixun/xiangqing/513041.html">习近平和彭丽媛同美国总统特朗普夫妇茶叙</a></div>
+                                </li>
+                                                        <li>
+                                    <a title="习近平和彭丽媛出席特朗普总统夫妇举行的欢迎宴会" target="_blank" href="/zixun/xiangqing/512931.html"><img src="/upload/image/2026/09/25/09/58/20260925095828_83338.jpeg" alt="习近平和彭丽媛出席特朗普总统夫妇举行的欢迎宴会" /></a>                                    <div class="whr-rotation-title"><a title="习近平和彭丽媛出席特朗普总统夫妇举行的欢迎宴会" target="_blank" class="yx-rotation-t" href="/zixun/xiangqing/512931.html">习近平和彭丽媛出席特朗普总统夫妇举行的欢迎宴会</a></div>
+                                </li>
+                                                        <li>
+                                    <a title="最高人民法院讲师团2026年巡回授课活动正式启动 张军接见讲师团成员" target="_blank" href="/zixun/xiangqing/513641.html"><img src="/upload/image/2026/10/08/18/40/20261008184044_11064.jpg" alt="最高人民法院讲师团2026年巡回授课活动正式启动 张军接见讲师团..." /></a>                                    <div class="whr-rotation-title"><a title="最高人民法院讲师团2026年巡回授课活动正式启动 张军接见讲师团成员" target="_blank" class="yx-rotation-t" href="/zixun/xiangqing/513641.html">最高人民法院讲师团2026年巡回授课活动正式启动 张军接见讲师团...</a></div>
+                                </li>
+                                            </ul>
+                    <div class="yx-rotation-focus"></div>
+                </div>
+                <div class="yx-rotation-mask"></div>
+            </div>
+
+        </div>
+        <div class="fr right">
+
+            <!-- 学习贯彻习近平法治思想 -->
+            <div id="bwcx">
+                <span>
+                    <a href="https://www.chinacourt.cn/article/subjectdetail/id/MzAwNMgtMoABAA.shtml"
+                        target="_blank"><img src="/style/system/images/xjpfzsx_title.png" alt='学 习 贯 彻 习 近 平 法 治 思 想'
+                            title='学 习 贯 彻 习 近 平 法 治 思 想' /></a>
+                </span>
+                <ul>
+
+                                                <li><a title="“‘一把手’能提出这样的问题，说明把身子扑下去了！”  ——最高法调研组调研福建法院" target="_blank" href="/zixun/xiangqing/503811.html">“‘一把手’能提出这样的问题，说明把身子扑下去了...</a></li>
+                                                <li><a title="最高法研判会商2026年第一季度司法审判数据 张军强调  把工作做到实处  有针对性地提升审判质效" target="_blank" href="/zixun/xiangqing/497241.html">最高法研判会商2026年第一季度司法审判数据 张军强...</a></li>
+                                                <li><a title="最高法举行党组理论学习中心组（扩大）集体学习研讨 张军强调  树立和践行正确政绩观  以学习教育实效推动审判工作高质量发展" target="_blank" href="/zixun/xiangqing/497221.html">最高法举行党组理论学习中心组（扩大）集体学习研讨...</a></li>
+                                    </ul>
+            </div>
+
+            <!--要闻-->
+            <div class="focus_news">
+
+                <span class="mark">要闻</span>
+                <div class="title">
+                    <a title="最高人民法院讲师团2026年巡回授课活动正式启动 张军接见讲师团成员" target="_blank" href="/zixun/xiangqing/513641.html">最高人民法院讲师团2026年巡回授课活动正式启动 张军接见讲师团成员</a>                </div>
+                <div class="list mCustomScrollbarList mCustomScrollbar">
+                    <ul>
+                                                                                                                                                                                    <li><a title="最高法召开党组会传达学习习近平总书记就建设更高水平平安中国作出的重要指示精神和平安中国建设工作会议精神" target="_blank" href="/zixun/xiangqing/513331.html">最高法召开党组会传达学习习近平总书记就建设更高水平平安中国作出的重要指示精神和平安中国建设工作会议精神</a></li>
+                                                                                                                                <li><a title="最高人民法院举办“百年初心映法徽 万里长征铸忠诚”主题读书演讲比赛决赛" target="_blank" href="/zixun/xiangqing/513341.html">最高人民法院举办“百年初心映法徽 万里长征铸忠诚”主题读书演讲比赛决赛</a></li>
+                                                                                                                                <li><a title="张军会见土耳其最高行政法院院长泽基·伊伊特" target="_blank" href="/zixun/xiangqing/512831.html">张军会见土耳其最高行政法院院长泽基·伊伊特</a></li>
+                                                                                                                                <li><a title="张军会见尼泊尔最高法院首席大法官马诺吉·夏尔马" target="_blank" href="/zixun/xiangqing/512741.html">张军会见尼泊尔最高法院首席大法官马诺吉·夏尔马</a></li>
+                                                                                                                                <li><a title="张军勉励最高法第十九批法律实习生和第四批书记员实习生 “在司法实践中学习领悟习近平法治思想”" target="_blank" href="/zixun/xiangqing/512211.html">张军勉励最高法第十九批法律实习生和第四批书记员实习生 “在司法实践中学习领悟习近平法治思想”</a></li>
+                                                                                                                                <li><a title="
+	邓修明在广东法院调研时强调
+
+
+	深入贯彻习近平法治思想为广东在中国式现代化建设中走在前列作出更大贡献
+" target="_blank" href="/zixun/xiangqing/513201.html">邓修明在广东法院调研时强调
+
+
+	深入贯彻习近平法治思想为广东在中国式现代化建设中走在前列作出更大贡献</a></li>
+                                                                                                                                <li><a title="孙镇平率团访问香港澳门" target="_blank" href="/zixun/xiangqing/513131.html">孙镇平率团访问香港澳门</a></li>
+                                                                                                                                <li><a title="最高人民法院、全国工商联联合发布典型案例，聚焦解决拖欠企业账款纠纷" target="_blank" href="/zixun/xiangqing/513631.html">最高人民法院、全国工商联联合发布典型案例，聚焦解决拖欠企业账款纠纷</a></li>
+                                                                                                        </ul>
+                </div>
+                <div class="lh_more_news">
+                    <a href="/zixun/gengduo/23.html">更多</a>                </div>
+                <!--<div class="lh">
+                <a title="最高人民法院2016年公开选调干部工作专栏" target="_blank" href="/enroll.html"><img style="float:left; margin-right:12px;" src="/style/system/images/gbxd2016_179.jpg" alt="最高人民法院2016年公开选调干部工作专栏" /></a>        </div>-->
+            </div>
+        </div>
+    </div>
+
+
+    <style type="text/css">
+        /* marquee6 */
+        .roll {
+            width: 600px;
+            height: 600px;
+            overflow: hidden;
+            background: #EFEFEF;
+        }
+
+        .roll ul li {
+            padding: 0 10px;
+            line-height: 20px;
+            height: 60px;
+            overflow: hidden;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(function() {
+            $('.roll').kxbdSuperMarquee({
+                isMarquee: true,
+                isEqual: false,
+                scrollDelay: 100,
+                controlBtn: {
+                    up: '#goUM',
+                    down: '#goDM'
+                },
+                direction: 'up'
+            });
+
+            // 12ms
+        });
+    </script>
+
+
+    <div class="clearfix main  zttl1">
+        <div class="swiper swiper8">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCjLNIABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2026/07/10/14/02/20260710140223_51235.png' alt='建党105周年' title='建党105周年' />
+                    </a>
+                </div></div></div><div class="swiper swiper9">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCi1MIABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2025/10/24/19/13/20251024191340_51733.png' alt='学习贯彻党的二十届四中全会精神' title='学习贯彻党的二十届四中全会精神' />
+                    </a>
+                </div></div></div><div class="swiper swiper10">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCgzMYABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2026/03/27/10/46/20260327104648_33035.jpg' alt='正确政绩观专题' title='正确政绩观专题' />
+                    </a>
+                </div></div></div><div class="swiper swiper11">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNMgtMoABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2024/07/05/16/11/20240705161119_64566.png' alt='学习贯彻习近平法治思想专题' title='学习贯彻习近平法治思想专题' />
+                    </a>
+                </div><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCjLMoABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2026/09/15/09/27/20260915092755_62119.png' alt='深入学习贯彻习近平党建思想' title='深入学习贯彻习近平党建思想' />
+                    </a>
+                </div></div></div><script>
+                new Swiper('.swiper11', {
+                    autoplay: 4000,
+                    mode: 'vertical',
+                    loop: true
+                });
+                </script>
+
+    </div>
+
+
+    <div class="clearfix main link_img">
+        <div class="button-gk">
+            <div class="clearfix main  zttl2">
+                <div class="swiper swiper12">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://splcgk.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/06/20250126110634_91262.png' alt='中国审判流程信息公开' title='中国审判流程信息公开' />
+                    </a>
+                </div></div></div><div class="swiper swiper13">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://tingshen.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/06/20250126110650_19944.png' alt='中国庭审直播公开' title='中国庭审直播公开' />
+                    </a>
+                </div></div></div><div class="swiper swiper14">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://wenshu.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/07/20250126110708_39181.png' alt='中国裁判文书公开' title='中国裁判文书公开' />
+                    </a>
+                </div></div></div><div class="swiper swiper15">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://zxgk.court.gov.cn' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/07/20250126110726_89865.png' alt='中国执行信息公开' title='中国执行信息公开' />
+                    </a>
+                </div></div></div>            </div>
+            <div class="clearfix main  zttl3">
+                <div class="swiper swiper16">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://rmfygg.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/07/20250126110749_43264.png' alt='人民法院公告网' title='人民法院公告网' />
+                    </a>
+                </div></div></div><div class="swiper swiper17">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://ssfw.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/08/20250126110808_89112.png' alt='最高人民法院诉讼服务网' title='最高人民法院诉讼服务网' />
+                    </a>
+                </div></div></div><div class="swiper swiper18">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://pccz.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/08/20250126110831_94579.png' alt='全国企业破产重整案件信息网' title='全国企业破产重整案件信息网' />
+                    </a>
+                </div></div></div><div class="swiper swiper19">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://rmfyalk.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/08/20250126110855_85875.png' alt='人民法院案例库' title='人民法院案例库' />
+                    </a>
+                </div></div></div>            </div>
+            <div class="clearfix main  zttl4">
+                <div class="swiper swiper121">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://dyjfalk.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/14/20250126111424_11286.png' alt='多元解纷案例库' title='多元解纷案例库' />
+                    </a>
+                </div></div></div><div class="swiper swiper20">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://zxfw.court.gov.cn' target='_blank'>
+                        <img src='/upload/position/image/2025/12/01/07/42/20251201074228_42574.png' alt='人民法院在线服务' title='人民法院在线服务' />
+                    </a>
+                </div></div></div><div class="swiper swiper21">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://data.court.gov.cn/pages/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/15/20250126111509_70914.png' alt='中国司法大数据服务网' title='中国司法大数据服务网' />
+                    </a>
+                </div></div></div><div class="swiper swiper22">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='http://peixun.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/15/20250126111537_20251.png' alt='中国法官培训网' title='中国法官培训网' />
+                    </a>
+                </div></div></div>            </div>
+            <div class="clearfix main  zttl71">
+                <div class="swiper swiper23">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://tiaojie.court.gov.cn' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/15/20250126111552_27985.png' alt='人民法院调解平台' title='人民法院调解平台' />
+                    </a>
+                </div></div></div><div class="swiper swiper24">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://cicc.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/16/20250126111610_77980.png' alt='国际商事法庭' title='国际商事法庭' />
+                    </a>
+                </div></div></div><div class="swiper swiper25">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://www.rmfysszc.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/16/20250126111624_23226.png' alt='人民法院诉讼资产网' title='人民法院诉讼资产网' />
+                    </a>
+                </div></div></div><div class="swiper swiper26">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://ipc.court.gov.cn/zh-cn/index.html' target='_blank'>
+                        <img src='/upload/position/image/2025/01/26/11/16/20250126111638_84132.png' alt='最高人民法院知识产权法庭' title='最高人民法院知识产权法庭' />
+                    </a>
+                </div></div></div>            </div>
+        </div>
+    </div>
+
+
+    <!-- 专题通栏 -->
+    <div class="clearfix main zttl5">
+        <div class="swiper swiper30">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCjNNIABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2026/01/20/15/30/20260120153026_93029.png' alt='聚焦2026中央政法工作会议' title='聚焦2026中央政法工作会议' />
+                    </a>
+                </div><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCjNMoABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2026/01/20/21/52/20260120215233_98049.jpg' alt='全国高级法院院长会' title='全国高级法院院长会' />
+                    </a>
+                </div></div></div><script>
+                new Swiper('.swiper30', {
+                    autoplay: 4000,
+                    mode: 'vertical',
+                    loop: true
+                });
+                </script><div class="swiper swiper28">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCjLNoABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2026/08/03/17/08/20260803170810_56345.jpg' alt='第十三届金法锤' title='第十三届金法锤' />
+                    </a>
+                </div><div class='swiper-slide'>
+                    <a href='https://tpyg.chinacourt.cn/special/vrmuseum/three/index.html' target='_blank'>
+                        <img src='/upload/position/image/2025/11/29/10/07/20251129100720_45807.png' alt='正义在回响' title='正义在回响' />
+                    </a>
+                </div></div></div><script>
+                new Swiper('.swiper28', {
+                    autoplay: 4000,
+                    mode: 'vertical',
+                    loop: true
+                });
+                </script><div class="swiper swiper61">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCg1NIABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2025/07/23/17/01/20250723170116_63963.png' alt='聚焦大法官研讨班' title='聚焦大法官研讨班' />
+                    </a>
+                </div><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCjLNYABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2026/08/17/14/14/20260817141422_71684.png' alt='环境法典' title='环境法典' />
+                    </a>
+                </div><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCguNoABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2024/08/01/19/47/20240801194742_82081.png' alt='脱薄争先检阅台' title='脱薄争先检阅台' />
+                    </a>
+                </div></div></div><script>
+                new Swiper('.swiper61', {
+                    autoplay: 4000,
+                    mode: 'vertical',
+                    loop: true
+                });
+                </script><div class="swiper swiper27">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCi1NIABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2025/10/27/09/11/20251027091155_39333.png' alt='“深入贯彻习近平法治思想·持续推进起诉状、答辩状示范文本应用”专题' title='“深入贯彻习近平法治思想·持续推进起诉状、答辩状示范文本应用”专题' />
+                    </a>
+                </div><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNCgqNoABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2024/04/24/15/26/20240424152618_21439.jpg' alt='追记“时代楷模”鲍卫忠' title='追记“时代楷模”鲍卫忠' />
+                    </a>
+                </div></div></div><script>
+                new Swiper('.swiper27', {
+                    autoplay: 4000,
+                    mode: 'vertical',
+                    loop: true
+                });
+                </script><div class="swiper swiper31">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNChLNoABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2026/05/29/20/24/20260529202411_39191.png' alt='保护未成年人法治宣传专题' title='保护未成年人法治宣传专题' />
+                    </a>
+                </div><div class='swiper-slide'>
+                    <a href='https://www.chinacourt.cn/article/subjectdetail/id/MzAwNMjLNYABAA.shtml' target='_blank'>
+                        <img src='/upload/position/image/2024/04/24/15/34/20240424153408_12916.png' alt='法院题材影视作品展映' title='法院题材影视作品展映' />
+                    </a>
+                </div><div class='swiper-slide'>
+                    <a href='https://www.720yun.com/vr/da6jOpsnzw3' target='_blank'>
+                        <img src='/upload/position/image/2024/04/24/15/32/20240424153226_91186.jpg' alt='法安天下，德润人心——人民法院弘扬和践行社会主义核心价值观成就展' title='法安天下，德润人心——人民法院弘扬和践行社会主义核心价值观成就展' />
+                    </a>
+                </div></div></div><script>
+                new Swiper('.swiper31', {
+                    autoplay: 4000,
+                    mode: 'vertical',
+                    loop: true
+                });
+                </script>    </div>
+
+
+    <!--第二行-->
+    <div class="clearfix main">
+        <div class="fl clearfix left">
+            <!--开庭公告-->
+            <div class="fl notice">
+                <div class="title"><a href="/fabu/gengduo/14.html">开庭与庭审直播公告</a></div>
+                <div class="clearfix list">
+                    <div class="fl" id="roll_box">
+                        <div id="roll_ct">
+                            <div class="control"><a href="javascript:void(0);" id="goUM">加速上移</a> <a
+                                    href="javascript:void(0);" id="goDM">加速下移</a></div>
+                            <div class="roll">
+                                <ul>
+                                                                                <li>
+                                                <div class="fl sign"><img src="/style/system/images/sign.png" /></div>
+                                                <div class="source">最高人民法院开庭与庭审直播公告（8月30日开庭）</div>
+                                                <div>
+                                                    <span><a title="最高人民法院开庭与庭审直播公告（8月30日开庭）" target="_blank" href="/fabu/xiangqing/448741.html">　　最高人民法院定于二〇二四年八月三十日上午九点十分在最高人民法院第五法庭公开开庭审理温州科博机械有限公司与贵州鑫华...</a>                                                </div>
+                                            </li>
+                                                                                <li>
+                                                <div class="fl sign"><img src="/style/system/images/sign.png" /></div>
+                                                <div class="source">最高人民法院开庭与庭审直播公告（7月11日开庭）</div>
+                                                <div>
+                                                    <span><a title="最高人民法院开庭与庭审直播公告（7月11日开庭）" target="_blank" href="/fabu/xiangqing/451401.html">　　最高人民法院定于二〇二四年七月十一日上午九点在最高人民法院第六法庭公开开庭审理茹炳正与义马煤业集团股份有限公司、...</a>                                                </div>
+                                            </li>
+                                                                                <li>
+                                                <div class="fl sign"><img src="/style/system/images/sign.png" /></div>
+                                                <div class="source">最高人民法院开庭与庭审直播公告（7月11日开庭）</div>
+                                                <div>
+                                                    <span><a title="最高人民法院开庭与庭审直播公告（7月11日开庭）" target="_blank" href="/fabu/xiangqing/451411.html">　　最高人民法院定于二〇二四年七月十一日上午九点在最高人民法院第七法庭公开开庭审理九江银行股份有限公司合肥望江西路支...</a>                                                </div>
+                                            </li>
+                                                                                <li>
+                                                <div class="fl sign"><img src="/style/system/images/sign.png" /></div>
+                                                <div class="source">最高人民法院开庭与庭审直播公告(3月15日开庭)</div>
+                                                <div>
+                                                    <span><a title="最高人民法院开庭与庭审直播公告(3月15日开庭)" target="_blank" href="/fabu/xiangqing/428242.html">　　最高人民法院定于二〇二四年三月十五日上午九点三十分在最高人民法院第四法庭公开开庭审理云南永保特种水泥有限责任公司...</a>                                                </div>
+                                            </li>
+                                                                                <li>
+                                                <div class="fl sign"><img src="/style/system/images/sign.png" /></div>
+                                                <div class="source">最高人民法院开庭与庭审直播公告(3月1日开庭)</div>
+                                                <div>
+                                                    <span><a title="最高人民法院开庭与庭审直播公告(3月1日开庭)" target="_blank" href="/fabu/xiangqing/426332.html">　　最高人民法院定于二〇二四年三月一日上午九点在最高人民法院第六法庭公开开庭审理中国铁路北京局集团有限公司（原北京铁...</a>                                                </div>
+                                            </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--新闻发布会-->
+            <div class="fr confer">
+                <div class="title"><a href="/zixun/gengduo/26.html">新闻发布会</a></div>
+                <div class="list" id="tab1">
+                    <div class="tab_tit">
+                        <ul>
+                            <li class="active"><a href="/zixun/gengduo/39.html">发布会实录</a>                                <i class="role"></i>
+                            </li>
+                            <li><a href="/zixun/gengduo/104.html">典型案例发布</a><i
+                                    class="role"></i></li>
+                            <li><a href="/zixun/gengduo/40.html">图文直播</a><i
+                                    class="role"></i></li>
+                            <li><a href="/zixun/gengduo/28.html">视频播报</a><i
+                                    class="role"></i></li>
+                        </ul>
+                    </div>
+                    <div class="tab_ct" style="display:block;">
+                                                        <div class="confer_img">
+                                    <a title="最高人民法院贯彻实施生态环境法典暨司法解释清理工作新闻发布会" target="_blank" href="/zixun/xiangqing/507951.html"><img src="/upload/image/2026/08/06/14/35/20260806143533_69675.jpg" alt="最高人民法院贯彻实施生态环境法典暨司法解释清理工作新闻发布会" /></a>                                </div>
+                                <div class="confer_text">
+                                    <a title="最高人民法院贯彻实施生态环境法典暨司法解释清理工作新闻发布会" target="_blank" href="/zixun/xiangqing/507951.html">最高人民法院贯彻实施生态环境法典暨司法解释清理工作新闻发布会</a>                                    <a title="最高人民法院贯彻实施生态环境法典暨司法解释清理工作新闻发布会" class="fl spot" target="_blank" href="/zixun/xiangqing/507951.html">发布会现场&nbsp;<span class="song">>></span></a>                                </div>
+                                            </div>
+
+                    <div class="tab_ct" style="display:none;">
+                        <ul class="dxalfb">
+                                                            <li><a title="最高人民法院、全国工商联联合发布典型案例，聚焦解决拖欠企业账款纠纷" target="_blank" href="/zixun/xiangqing/513631.html">最高人民法院、全国工商联联合发布典型案例，聚...</a></li>
+
+                                                            <li><a title="最高人民法院发布《人民法院司法改革案例选编（十六）》暨提级管辖典型案例" target="_blank" href="/zixun/xiangqing/513181.html">最高人民法院发布《人民法院司法改革案例选编（...</a></li>
+
+                                                            <li><a title="“两高”联合发布依法惩治网络食品安全犯罪典型案例" target="_blank" href="/zixun/xiangqing/512551.html">“两高”联合发布依法惩治网络食品安全犯罪典型...</a></li>
+
+                                                            <li><a title="最高人民法院发布人民法院网络法治典型案例" target="_blank" href="/zixun/xiangqing/512041.html">最高人民法院发布人民法院网络法治典型案例</a></li>
+
+                                                            <li><a title="最高人民法院发布2026年人民法院反垄断典型案例" target="_blank" href="/zixun/xiangqing/511401.html">最高人民法院发布2026年人民法院反垄断典型案例</a></li>
+
+                                                            <li><a title="最高人民法院发布2026年人民法院反不正当竞争典型案例" target="_blank" href="/zixun/xiangqing/511301.html">最高人民法院发布2026年人民法院反不正当竞争典...</a></li>
+
+                                                    </ul>
+                    </div>
+
+                    <div class="tab_ct" style="display:none;">
+                                                        <div class="confer_img">
+                                    <a title="最高人民法院贯彻实施生态环境法典暨司法解释清理工作新闻发布会" target="_blank" href="/zixun/xiangqing/507961.html"><img src="/upload/image/2026/08/06/14/34/20260806143457_92955.jpg" alt="最高人民法院贯彻实施生态环境法典暨司法解释清理工作新闻发布会" /></a>                                </div>
+                                <div class="confer_text">
+                                    <a title="最高人民法院贯彻实施生态环境法典暨司法解释清理工作新闻发布会" target="_blank" href="/zixun/xiangqing/507961.html">最高人民法院贯彻实施生态环境法典暨司法解释清理工作新闻发布会</a>                                </div>
+                                            </div>
+                    <div class="tab_ct" style="display:none;">
+                                                        <div class="confer_img">
+                                    <a title="中国法院“二十四节气”——寒露·“青禾”已露尖尖角" target="_blank" href="/zixun/xiangqing/513671.html"><img src="/upload/image/2026/10/09/08/54/20261009085416_60989.jpg" alt="中国法院“二十四节气”——寒露·“青禾”已露尖尖角" /></a>                                </div>
+                                <div class="confer_text">
+                                    <a title="中国法院“二十四节气”——寒露·“青禾”已露尖尖角" target="_blank" href="/zixun/xiangqing/513671.html">中国法院“二十四节气”——寒露·“青禾”已露尖尖角</a>                                </div>
+                                            </div>
+                </div>
+            </div>
+
+
+            <!--庭审直播-->
+            <div class="fr live">
+                <div class="title">
+                    <div class="fl tit">庭审直播</div>
+                    <div class="fr more"><a href="http://tingshen.court.gov.cn" target="_blank">更多直播&nbsp;<span
+                                class="song">>></span></a></div>
+                </div>
+
+                <div class="list">
+
+                    <ul class="img">
+                        <li><a href="http://tingshen.court.gov.cn/live/1049494" title="乔丹商标争议行政纠纷案宣判" target="_blank"><img
+                                    src="/style/system/images/tszb_img_a.jpg" border="0" /></a></li>
+                        <li><a href="http://tingshen.court.gov.cn/live/2288821" title="原审被告人张文中诈骗、单位行贿、挪用资金再审一案"
+                                target="_blank"><img src="/style/system/images2021/tszb_img_d.jpg" border="0" /></a></li>
+                        <li><a href="http://tingshen.court.gov.cn/live/117665" title="海难救助纠纷" target="_blank"><img
+                                    src="/style/system/images/tszb_img_c.jpg" border="0" /></a></li>
+
+                    </ul>
+
+                    <!--<a class="fl lf_btn" href="javascript:;" id="goL2"></a>
+                <div class="clearfix video_list" id="marquee4">
+                    <ul class="fl" id="view_tingshen">
+                                            </ul>
+                </div>
+                <a class="fr rt_btn" href="javascript:;" id="goR2"></a>
+                <ul class="clearfix video_dot"></ul>    -->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="fr clearfix right">
+            <!--法院新闻-->
+            <div class="court_news" id="tab2">
+                <div class="tab_tit">
+                    <ul>
+                        <li class="active"><a href="/zixun/gengduo/24.html">最高人民法院新闻</a></li>
+                        <li><a href="/zixun/gengduo/25.html">地方法院新闻</a></li>
+                    </ul>
+                </div>
+                <div class="tab_ct" style="display:block;">
+                    <div class="news_list">
+                                                        <div class="news_tit">
+                                    <a title="最高人民法院、国家档案局联合印发《关于人民法院推行电子档案单套管理的通知》" target="_blank" href="/zixun/xiangqing/513571.html">最高人民法院、国家档案局联合印发《关于人民法院推行电子档案单套管理的通知》</a>                                </div>
+                                <div class="news_txt">
+                                    <a title="最高人民法院、国家档案局联合印发《关于人民法院推行电子档案单套管理的通知》" target="_blank" href="/zixun/xiangqing/513571.html">为贯彻落实《中共中央关于加强新时代审判工作的意见》和《全国档案事业发展“十五五”规划》，加快人民法院档案工作数字转型，实现电子档案...</a>                                    <a title="最高人民法院、国家档案局联合印发《关于人民法院推行电子档案单套管理的通知》" class="red" target="_blank" href="/zixun/xiangqing/513571.html">【详细】</a>                                </div>
+                                            </div>
+                    <div class="list">
+                        <ul>
+                                                                    <li><a title="“东方之花”向世界绚丽绽放
+——全国法院涉外商事海事实质解纷工作纪实" target="_blank" href="/zixun/xiangqing/513401.html">“东方之花”向世界绚丽绽放
+——全国法院涉外商...</a></li>
+
+                                                                    <li><a title="“人民法院法治新闻传播研究基地”合作协议签约暨专题研讨会举行" target="_blank" href="/zixun/xiangqing/513391.html">“人民法院法治新闻传播研究基地”合作协议签约暨...</a></li>
+
+                                                                    <li><a title="第33届中国电视金鹰奖提名表彰颁授典礼举行
+《家事法庭》获优秀电视剧作品提名" target="_blank" href="/zixun/xiangqing/513381.html">第33届中国电视金鹰奖提名表彰颁授典礼举行
+《家...</a></li>
+
+                                                                    <li><a title="提级管辖：让正义在更高维度实现
+——最高法提级管辖典型案例深度观察" target="_blank" href="/zixun/xiangqing/513261.html">提级管辖：让正义在更高维度实现
+——最高法提级...</a></li>
+
+                                                                    <li><a title="《中国法治建设年度报告（中英文）》（2025）发布" target="_blank" href="/zixun/xiangqing/513231.html">《中国法治建设年度报告（中英文）》（2025）发布</a></li>
+
+                                                                    <li><a title="记最高法院民四庭成功调解一起长达三十余年的涉港房屋纠纷" target="_blank" href="/zixun/xiangqing/512801.html">记最高法院民四庭成功调解一起长达三十余年的涉港...</a></li>
+
+                                                                    <li><a title="云端食安治理的司法答卷" target="_blank" href="/zixun/xiangqing/512651.html">云端食安治理的司法答卷</a></li>
+
+                                                                    <li><a title="王淑梅率团出席第二十届亚太首席大法官会议" target="_blank" href="/zixun/xiangqing/512521.html">王淑梅率团出席第二十届亚太首席大法官会议</a></li>
+
+                                                    </ul>
+                    </div>
+                </div>
+                <div class="tab_ct" style="display:none;">
+                    <div class="news_list">
+                                                        <div class="news_tit">
+                                    <a title="河北：30余名代表委员视察生态环境司法工作" target="_blank" href="/zixun/xiangqing/513591.html">河北：30余名代表委员视察生态环境司法工作</a>                                </div>
+                                <div class="news_txt">
+                                    <a title="河北：30余名代表委员视察生态环境司法工作" target="_blank" href="/zixun/xiangqing/513591.html">近日，河北省高级人民法院邀请30余名全国、省人大代表、政协委员赴秦皇岛市，开展生态环境司法保护专题视察调研。</a>                                    <a title="河北：30余名代表委员视察生态环境司法工作" class="red" target="_blank" href="/zixun/xiangqing/513591.html">【详细】</a>                                </div>
+                                            </div>
+                    <div class="list">
+                        <ul>
+                                                                    <li><a title="一叶知法意 一山茶事长" target="_blank" href="/zixun/xiangqing/513611.html">一叶知法意 一山茶事长</a></li>
+
+                                                                    <li><a title="守好“致富牛”" target="_blank" href="/zixun/xiangqing/513601.html">守好“致富牛”</a></li>
+
+                                                                    <li><a title="北京朝阳：专业化审判“组合拳”助力医疗行业新类型纠纷治理" target="_blank" href="/zixun/xiangqing/513621.html">北京朝阳：专业化审判“组合拳”助力医疗行业新类...</a></li>
+
+                                                                    <li><a title="上海虹口：依托APEC-ODR机制高效化解跨境商事纠纷" target="_blank" href="/zixun/xiangqing/513431.html">上海虹口：依托APEC-ODR机制高效化解跨境商事纠纷</a></li>
+
+                                                                    <li><a title="清凉峰自然保护地省际边界共享法庭揭牌" target="_blank" href="/zixun/xiangqing/513441.html">清凉峰自然保护地省际边界共享法庭揭牌</a></li>
+
+                                                                    <li><a title="安徽省芜湖市中级人民法院院长徐艳阳：以高质量司法护航芜湖高质量发展" target="_blank" href="/zixun/xiangqing/513421.html">安徽省芜湖市中级人民法院院长徐艳阳：以高质量司...</a></li>
+
+                                                                    <li><a title="党安排我干什么，我就踏踏实实干什么" target="_blank" href="/zixun/xiangqing/513411.html">党安排我干什么，我就踏踏实实干什么</a></li>
+
+                                                                    <li><a title="革命老区的绿色“宣传员”" target="_blank" href="/zixun/xiangqing/513271.html">革命老区的绿色“宣传员”</a></li>
+
+                                                    </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="xd2021"><a href="http://www.court.gov.cn/xuandiao" target="_blank"><img
+                    src="/style/system/images/banner/xd2021_03.jpg" title="2021年公开选调工作专栏" alt="2021年公开选调工作专栏" /></a>
+        </div>
+
+    </div>
+
+
+    <div class="clearfix main" style="clear: both; width: 100%;"></div>
+
+
+    <!--第三行-->
+    <div class="clearfix">
+        <!--互动平台-->
+        <div class="clearfix platform zttl6">
+
+            <div class="swiper swiper32">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://zxgk.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2024/04/25/10/02/20240425100252_99967.png' alt='全国法院失信被执行人名单信息公布与查询' title='全国法院失信被执行人名单信息公布与查询' />
+                    </a>
+                </div></div></div><div class="swiper swiper33">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://zxgk.court.gov.cn/zhixing/' target='_blank'>
+                        <img src='/upload/position/image/2024/04/25/10/02/20240425100226_23749.png' alt='被执行人信息查询' title='被执行人信息查询' />
+                    </a>
+                </div></div></div><div class="swiper swiper34">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://rmfygg.court.gov.cn' target='_blank'>
+                        <img src='/upload/position/image/2024/04/25/10/02/20240425100201_58257.png' alt='法院公告查询' title='法院公告查询' />
+                    </a>
+                </div></div></div><div class="swiper swiper35">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='http://gtpt.court.gov.cn/' target='_blank'>
+                        <img src='/upload/position/image/2024/04/25/10/00/20240425100019_57059.png' alt='全国人大代表全国政协委员联络沟通平台' title='全国人大代表全国政协委员联络沟通平台' />
+                    </a>
+                </div></div></div><div class="swiper swiper36">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://liuyan.chinacourt.cn' target='_blank'>
+                        <img src='/upload/position/image/2024/04/25/09/59/20240425095942_11285.png' alt='法院院长信箱' title='法院院长信箱' />
+                    </a>
+                </div></div></div><div class="swiper swiper37">
+                        <div class="swiper-wrapper" ><div class='swiper-slide'>
+                    <a href='https://jubao.court.gov.cn' target='_blank'>
+                        <img src='/upload/position/image/2024/04/25/09/58/20240425095825_15523.png' alt='人民法院工作人员违纪违法举报中心' title='人民法院工作人员违纪违法举报中心' />
+                    </a>
+                </div></div></div>
+        </div>
+    </div>
+
+
+    <!-- 专题通栏 -->
+    <div class="clearfix main">
+
+        <div class="zttl7">
+            
+        </div>
+
+    </div>
+
+
+    <!--第四行-->
+    <div class="clearfix main">
+
+
+        <div class="fl clearfix left">
+            <!--权威发布-->
+            <div class="pundit">
+                <div class="title"><a href="/fabu.html">权威发布</a></div>
+                <div class="clearfix list">
+                    <!--重大案件-->
+                    <div class="fl case">
+                        <div class="case_tit"><a href="/fabu/gengduo/15.html">重大案件</a></div>
+                        <div class="clearfix case_ct">
+                            <div class="clearfix bd">
+                                                                    <a class="fl lf_btn1 prev"></a>
+                                    <ul class="clearfix fl">
+                                                                                    <li>
+                                                <div class="case_img"><a title="中央巡视组原副部级巡视专员许传智受贿、利用影响力受贿案一审宣判" target="_blank" class="f1" href="/fabu/xiangqing/513651.html"><img width="220" height="140" src="/upload/image/2026/10/08/18/53/20261008185305_54213.jpg" alt="中央巡视组原副部级巡视专员许传智受贿、利用影响力受贿案一..." /></a></div>
+                                                <div class="case_txt"><a title="中央巡视组原副部级巡视专员许传智受贿、利用影响力受贿案一审宣判" target="_blank" href="/fabu/xiangqing/513651.html">中央巡视组原副部级巡视专员许传智受贿、利用影响力受贿案一...</a></div>
+                                            </li>
+                                                                                    <li>
+                                                <div class="case_img"><a title="广西壮族自治区政协原党组成员、副主席彭晓春受贿案一审宣判" target="_blank" class="f1" href="/fabu/xiangqing/513351.html"><img width="220" height="140" src="/upload/image/2026/09/29/23/34/20260929233409_21854.jpg" alt="广西壮族自治区政协原党组成员、副主席彭晓春受贿案一审宣判" /></a></div>
+                                                <div class="case_txt"><a title="广西壮族自治区政协原党组成员、副主席彭晓春受贿案一审宣判" target="_blank" href="/fabu/xiangqing/513351.html">广西壮族自治区政协原党组成员、副主席彭晓春受贿案一审宣判</a></div>
+                                            </li>
+                                                                                    <li>
+                                                <div class="case_img"><a title="四川省人大常委会原党组成员、副主任宋朝华受贿案一审宣判" target="_blank" class="f1" href="/fabu/xiangqing/512611.html"><img width="220" height="140" src="/upload/image/2026/09/22/18/24/20260922182410_32932.jpg" alt="四川省人大常委会原党组成员、副主任宋朝华受贿案一审宣判" /></a></div>
+                                                <div class="case_txt"><a title="四川省人大常委会原党组成员、副主任宋朝华受贿案一审宣判" target="_blank" href="/fabu/xiangqing/512611.html">四川省人大常委会原党组成员、副主任宋朝华受贿案一审宣判</a></div>
+                                            </li>
+                                                                                    <li>
+                                                <div class="case_img"><a title="中国中化集团有限公司原党组成员、副总经理冯志斌受贿、利用影响力受贿、国有公司人员滥用职权案一审宣判" target="_blank" class="f1" href="/fabu/xiangqing/512461.html"><img width="220" height="140" src="/upload/image/2026/09/21/18/37/20260921183744_48683.jpg" alt="中国中化集团有限公司原党组成员、副总经理冯志斌受贿、利用..." /></a></div>
+                                                <div class="case_txt"><a title="中国中化集团有限公司原党组成员、副总经理冯志斌受贿、利用影响力受贿、国有公司人员滥用职权案一审宣判" target="_blank" href="/fabu/xiangqing/512461.html">中国中化集团有限公司原党组成员、副总经理冯志斌受贿、利用...</a></div>
+                                            </li>
+                                                                                    <li>
+                                                <div class="case_img"><a title="十四届全国政协原常委、经济委员会原副主任毕井泉受贿案一审宣判" target="_blank" class="f1" href="/fabu/xiangqing/511931.html"><img width="220" height="140" src="/upload/image/2026/09/15/17/53/20260915175332_95618.jpg" alt="十四届全国政协原常委、经济委员会原副主任毕井泉受贿案一审..." /></a></div>
+                                                <div class="case_txt"><a title="十四届全国政协原常委、经济委员会原副主任毕井泉受贿案一审宣判" target="_blank" href="/fabu/xiangqing/511931.html">十四届全国政协原常委、经济委员会原副主任毕井泉受贿案一审...</a></div>
+                                            </li>
+                                                                            </ul>
+                                    <a class="fl rt_btn1 next"></a>
+                                                            </div>
+                            <ul class="clearfix case_dot hd">
+                                                                    <li class="fl hover"><a
+                                            href="javascript:;">1</a></li>
+                                                                    <li class="fl "><a
+                                            href="javascript:;">2</a></li>
+                                                                    <li class="fl "><a
+                                            href="javascript:;">3</a></li>
+                                                                    <li class="fl "><a
+                                            href="javascript:;">4</a></li>
+                                                                    <li class="fl "><a
+                                            href="javascript:;">5</a></li>
+                                                            </ul>
+                        </div>
+                    </div>
+                    <!--司法-->
+                    <div class="fr elisor" id="tab3">
+                        <div class="tab_tit">
+                            <ul>
+                                <li class="active"><a href="/fabu/gengduo/17.html">司法文件</a></li>
+                                <li><a href="/fabu/gengduo/16.html">司法解释</a></li>
+                                <li><a href="/shenpan/gengduo/77.html">指导案例</a></li>
+                                <li><a href="/fabu/gengduo/21.html">司法数据</a></li>
+                                <li><a href="/fabu/gengduo/108.html">标准化</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab_ct" style="display:block;">
+                            <ul><li><a target="_blank" title="“两高一部”联合印发关于办理涉芬太尼类物质刑事案件适用法律等若干问题的意见" href="/zixun/xiangqing/512701.html">“两高一部”联合印发关于办理涉芬太尼类物质刑事案件适...</a></li><li><a target="_blank" title="最高人民法院 最高人民检察院 公安部关于电磁动力枪支及散件认定法律适用有关问题的会议纪要" href="/zixun/xiangqing/512681.html">最高人民法院 最高人民检察院 公安部关于电磁动力枪支及...</a></li><li><a target="_blank" title="最高人民法院关于印发《全国法院审理房地产开发企业破产案件座谈会纪要》的通知" href="/fabu/xiangqing/511091.html">最高人民法院关于印发《全国法院审理房地产开发企业破产...</a></li><li><a target="_blank" title="最高人民法院关于部分指导性案例不再参照的通知" href="/fabu/xiangqing/508031.html">最高人民法院关于部分指导性案例不再参照的通知</a></li><li><a target="_blank" title="最高人民法院关于废止《人民法院审理人民检察院提起公益诉讼案件试点工作实施办法》的通知" href="/fabu/xiangqing/508021.html">最高人民法院关于废止《人民法院审理人民检察院提起公益...</a></li><li><a target="_blank" title="最高法等七部门联合印发《关于在未成年人司法保护工作中充分发挥银发力量的意见》" href="/zixun/xiangqing/506351.html">最高法等七部门联合印发《关于在未成年人司法保护工作中...</a></li><li><a target="_blank" title="最高人民法院 最高人民检察院 公安部 国家安全部 司法部关于适用认罪认罚从宽制度的指导意见" href="/fabu/xiangqing/506411.html">最高人民法院 最高人民检察院 公安部 国家安全部 司法部...</a></li></ul>                        </div>
+                        <div class="tab_ct" style="display:none;">
+                            <ul><li><a target="_blank" title="最高人民法院发布《关于审理涉及刑事犯罪的民事纠纷案件若干问题的规定》" href="/zixun/xiangqing/512441.html">最高人民法院发布《关于审理涉及刑事犯罪的民事纠纷案件...</a></li><li><a target="_blank" title="最高人民法院关于适用《中华人民共和国生态环境法典》时间效力的若干规定" href="/fabu/xiangqing/508001.html">最高人民法院关于适用《中华人民共和国生态环境法典》时...</a></li><li><a target="_blank" title="最高人民法院关于修改《最高人民法院关于审理船舶油污损害赔偿纠纷案件若干问题的规定》等九件司法解释的决定" href="/fabu/xiangqing/508041.html">最高人民法院关于修改《最高人民法院关于审理船舶油污损...</a></li><li><a target="_blank" title="“两高”关于修改《最高人民法院、最高人民检察院关于办理海洋自然资源与生态环境公益诉讼案件若干问题的规定》等两件司法解释的决定" href="/fabu/xiangqing/508011.html">“两高”关于修改《最高人民法院、最高人民检察院关于办...</a></li><li><a target="_blank" title="最高人民法院发布《关于事业单位工作人员脱产参加全日制学历教育后违反服务期约定有关问题的批复》" href="/zixun/xiangqing/507301.html">最高人民法院发布《关于事业单位工作人员脱产参加全日制...</a></li><li><a target="_blank" title="“两高”发布《关于修改〈最高人民法院、最高人民检察院关于办理内幕交易、泄露内幕信息刑事案件具体应用法律若干问题的解释〉的决定》" href="/fabu/xiangqing/506981.html">“两高”发布《关于修改〈最高人民法院、最高人民检察院...</a></li><li><a target="_blank" title="最高法发布《关于审理建设工程施工合同纠纷案件适用法律问题的解释（二）》" href="/fabu/xiangqing/504221.html">最高法发布《关于审理建设工程施工合同纠纷案件适用法律...</a></li></ul>                        </div>
+                        <div class="tab_ct" style="display:none;">
+                            <ul><li><a target="_blank" title="指导性案例279号：西某工业软件有限公司诉广州沃某模具有限公司侵害计算机软件著作权纠纷案" href="/shenpan/xiangqing/490521.html">指导性案例279号：西某工业软件有限公司诉广州沃某模具...</a></li><li><a target="_blank" title="指导性案例278号：福建恒某科技有限公司诉泉州日某流量仪器仪表有限公司因恶意提起知识产权诉讼损害责任纠纷案" href="/shenpan/xiangqing/490511.html">指导性案例278号：福建恒某科技有限公司诉泉州日某流量...</a></li><li><a target="_blank" title="指导性案例277号：江苏宏某旋转补偿器科技有限公司诉江苏远某波纹管有限公司等侵害发明专利权纠纷案" href="/shenpan/xiangqing/490501.html">指导性案例277号：江苏宏某旋转补偿器科技有限公司诉江...</a></li><li><a target="_blank" title="指导性案例276号：诺某股份有限公司诉国家知识产权局、第三人戴某良发明专利权无效行政纠纷案" href="/shenpan/xiangqing/490491.html">指导性案例276号：诺某股份有限公司诉国家知识产权局、...</a></li><li><a target="_blank" title="指导性案例275号：江苏省金某种业科技有限公司诉江苏亲某农业产业发展有限公司侵害植物新品种权纠纷案" href="/shenpan/xiangqing/490481.html">指导性案例275号：江苏省金某种业科技有限公司诉江苏亲...</a></li><li><a target="_blank" title="指导性案例274号：青岛青某重工有限公司诉青岛晨某机械设备有限公司侵害实用新型专利权纠纷案" href="/shenpan/xiangqing/490471.html">指导性案例274号：青岛青某重工有限公司诉青岛晨某机械...</a></li><li><a target="_blank" title="指导性案例273号：浙江吉某控股集团有限公司、浙江吉某汽车研究院有限公司诉威某汽车制造温州有限公司等侵害技术秘密纠纷案" href="/shenpan/xiangqing/490461.html">指导性案例273号：浙江吉某控股集团有限公司、浙江吉某...</a></li></ul>                        </div>
+                        <div class="tab_ct" style="display:none;">
+                            <ul><li><a target="_blank" title="最高人民法院公布2026年第一季度司法审判工作主要数据" href="/zixun/xiangqing/497471.html">最高人民法院公布2026年第一季度司法审判工作主要数据</a></li><li><a target="_blank" title="2024年不动产纠纷相关案件数据" href="/fabu/xiangqing/483891.html">2024年不动产纠纷相关案件数据</a></li><li><a target="_blank" title="最高人民法院公布2025年上半年司法审判工作主要数据" href="/zixun/xiangqing/471411.html">最高人民法院公布2025年上半年司法审判工作主要数据</a></li><li><a target="_blank" title="2018-2023年不动产纠纷相关案件数据" href="/fabu/xiangqing/437181.html">2018-2023年不动产纠纷相关案件数据</a></li><li><a target="_blank" title="涉信息网络犯罪特点和趋势司法大数据专题报告" href="/fabu/xiangqing/368121.html">涉信息网络犯罪特点和趋势司法大数据专题报告</a></li><li><a target="_blank" title="建设智慧法院 促进绿色发展
+成效分析报告" href="/zixun/xiangqing/318821.html">建设智慧法院 促进绿色发展
+成效分析报告</a></li><li><a target="_blank" title="最高人民法院公布国家赔偿新标准 每日373.10元" href="/zixun/xiangqing/303831.html">最高人民法院公布国家赔偿新标准 每日373.10元</a></li></ul>                        </div>
+                        <div class="tab_ct" style="display:none;">
+                            <ul><li><a target="_blank" title="最高人民法院发布修改后的《民事案件案由规定》" href="/zixun/xiangqing/484231.html">最高人民法院发布修改后的《民事案件案由规定》</a></li><li><a target="_blank" title="最高人民法院发布互联网法院案件管辖规定" href="/zixun/xiangqing/478291.html">最高人民法院发布互联网法院案件管辖规定</a></li><li><a target="_blank" title="最高人民法院 司法部 中华全国律师协会印发《部分案件起诉状答辩状示范文本》" href="/fabu/xiangqing/468671.html">最高人民法院 司法部 中华全国律师协会印发《部分案件起...</a></li><li><a target="_blank" title="最高人民法院关于进一步规范网络司法拍卖工作的指导意见" href="/fabu/xiangqing/448211.html">最高人民法院关于进一步规范网络司法拍卖工作的指导意见</a></li><li><a target="_blank" title="最高人民法院出台适用公司法时间效力司法解释" href="/fabu/xiangqing/436481.html">最高人民法院出台适用公司法时间效力司法解释</a></li><li><a target="_blank" title="最高人民法院印发《关于诉前调解中委托鉴定工作规程（试行）》" href="/zixun/xiangqing/407022.html">最高人民法院印发《关于诉前调解中委托鉴定工作规程（试...</a></li><li><a target="_blank" title="最高人民法院关于严格规范民商事案件延长审限和延期开庭问题的规定" href="/fabu/xiangqing/92392.html">最高人民法院关于严格规范民商事案件延长审限和延期开庭...</a></li></ul>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="fr clearfix right"> -->
+        <!--裁判文书-->
+        <!-- <div class="law"> -->
+        <!-- <div class="title"></div> -->
+        <!-- <div class="list"> -->
+                <!-- <li></li> -->
+
+                <!-- </div>     -->
+        <!-- </div> -->
+        <!-- </div>     -->
+        <div class="fr clearfix right">
+            <!--专题列表-->
+            <div class="law">
+                <div class="title"><a href="/zixun/zhuanti/1.html" target="_blank">专题</a></div>
+                <div class="list">
+                                                <li><a target="_blank" href="https://www.chinacourt.org/article/subjectdetail/id/MzAwNCjLNIABAA.shtml"
+                                    title="庆祝中国共产党成立105周年">庆祝中国共产党成立105周年</a></li>
+                                                <li><a target="_blank" href="https://www.chinacourt.org/article/subjectdetail/id/MzAwNCgzMYABAA.shtml"
+                                    title="树立和践行正确政绩观">树立和践行正确政绩观</a></li>
+                                                <li><a target="_blank" href="https://www.chinacourt.org/article/subjectdetail/id/MzAwNCgzMoABAA.shtml"
+                                    title="奋进十五五续写新篇章——2026年全国两会">奋进十五五续写新篇章——2026年全国两会</a></li>
+                                                <li><a target="_blank" href="https://www.chinacourt.org/article/subjectdetail/id/MzAwNCgtM4ABAA.shtml"
+                                    title="2026新春走基层">2026新春走基层</a></li>
+                                                <li><a target="_blank" href="https://www.chinacourt.org/article/subjectdetail/id/MzAwNCjNMoABAA.shtml"
+                                    title="2026全国高级法院院长会">2026全国高级法院院长会</a></li>
+                                                <li><a target="_blank" href="https://www.chinacourt.org/article/subjectdetail/id/MzAwNCjNNIABAA.shtml"
+                                    title="聚焦2026年中央政法工作会议">聚焦2026年中央政法工作会议</a></li>
+                                                <li><a target="_blank" href="https://www.chinacourt.org/article/subjectdetail/id/MzAwNChNMYABAA.shtml"
+                                    title="聚焦2025年“宪法宣传周”">聚焦2025年“宪法宣传周”</a></li>
+                                                <li><a target="_blank" href="https://www.chinacourt.org/article/subjectdetail/id/MzAwNChNMoABAA.shtml"
+                                    title="深入学习贯彻习近平法治思想专题">深入学习贯彻习近平法治思想专题</a></li>
+                                                <li><a target="_blank" href="https://www.chinacourt.org/article/subjectdetail/id/MzAwNCi1MIABAA.shtml"
+                                    title="聚焦党的二十届四中全会">聚焦党的二十届四中全会</a></li>
+                                    </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+    <!--内容结束-->
+
+    <!--法院相关链接开始-->
+    <div class="gov_link">
+        <div id="container" class="clearfix">
+            <ul class="fl title">
+                <li>全国法院</li>
+                <li class="red">政务网站群</li>
+            </ul>
+            <ul class="fl clearfix ct">
+    <li class="fl"><a href="https://bjgy.bjcourt.gov.cn" target="_blank" title="北京">北京</a></li>
+    <li class="fl"><a href="https://tjfy.tjcourt.gov.cn" target="_blank" title="天津">天津</a></li>
+    <li class="fl"><a href="http://www.hebeicourt.gov.cn" target="_blank" title="河北">河北</a></li>
+    <li class="fl"><a href="http://sxgy.shanxify.gov.cn" target="_blank" title="山西">山西</a></li>
+    <li class="fl"><a href="http://gy.nmgfy.gov.cn" target="_blank" title="内蒙古">内蒙古</a></li>
+    <li class="fl"><a href="http://ln.lncourt.gov.cn" target="_blank" title="辽宁">辽宁</a></li>
+    <li class="fl"><a href="http://jlfy.e-court.gov.cn" target="_blank" title="吉林">吉林</a></li>
+    <li class="fl"><a href="http://www.hljcourt.gov.cn/" target="_blank" title="黑龙江">黑龙江</a></li>
+    <li class="fl"><a href="https://www.hshfy.sh.cn/shfy/web/index.html" target="_blank" title="上海">上海</a></li>
+    <li class="fl"><a href="http://www.jsfy.gov.cn/" target="_blank" title="江苏">江苏</a></li>
+    <li class="fl"><a href="https://www.zjsfgkw.gov.cn/" target="_blank" title="浙江">浙江</a></li>
+    <li class="fl"><a href="http://ahfy.ahcourt.gov.cn" target="_blank" title="安徽">安徽</a></li>
+    <li class="fl"><a href="https://fjfy.fjcourt.gov.cn" target="_blank" title="福建">福建</a></li>
+    <li class="fl"><a href="http://jxgy.jxfy.gov.cn" target="_blank" title="江西">江西</a></li>
+    <li class="fl"><a href="http://www.sdcourt.gov.cn/" target="_blank" title="山东">山东</a></li>
+    <li class="fl"><a href="https://www.hncourt.gov.cn/" target="_blank" title="河南">河南</a></li>
+    <li class="fl"><a href="http://hubeigy.hbfy.gov.cn" target="_blank" title="湖北">湖北</a></li>
+    <li class="fl"><a href="http://hngy.hunancourt.gov.cn" target="_blank" title="湖南">湖南</a></li>
+    <li class="fl"><a href="http://www.gdcourts.gov.cn/" target="_blank" title="广东">广东</a></li>
+    <li class="fl"><a href="http://gxfy.gxcourt.gov.cn" target="_blank" title="广西">广西</a></li>
+    <li class="fl"><a href="http://www.hicourt.gov.cn" target="_blank" title="海南">海南</a></li>
+    <li class="fl"><a href="http://cqgy.cqfygzfw.gov.cn" target="_blank" title="重庆">重庆</a></li>
+    <li class="fl"><a href="http://scfy.scssfw.gov.cn" target="_blank" title="四川">四川</a></li>
+    <li class="fl"><a href="http://www.guizhoucourt.gov.cn/" target="_blank" title="贵州">贵州</a></li>
+    <li class="fl"><a href="http://fy.yngy.gov.cn" target="_blank" title="云南">云南</a></li>
+    <li class="fl"><a href="http://xzgy.xzcourt.gov.cn" target="_blank" title="西藏">西藏</a></li>
+    <li class="fl"><a href="http://sxgy.sxfywcourt.gov.cn" target="_blank" title="陕西">陕西</a></li>
+    <li class="fl"><a href="http://www.chinagscourt.gov.cn/" target="_blank" title="甘肃">甘肃</a></li>
+    <li class="fl"><a href="http://qhgy.qhwsfy.gov.cn/" target="_blank" title="青海">青海</a></li>
+    <li class="fl"><a href="http://www.nxfy.gov.cn/" target="_blank" title="宁夏">宁夏</a></li>
+    <li class="fl"><a href="http://xjfy.xjcourt.gov.cn" target="_blank" title="新疆">新疆</a></li>
+    <li class="fl xjbt_index"><a href="http://btfy.btcourt.gov.cn/" target="_blank" title="新疆兵团">新疆兵团</a></li>
+</ul>        </div>
+
+        <!--回到顶部开始-->
+        <!--<div class="move">
+        <!--不要开启-->
+                <!--<a class="upward" href="javascript:scroll(0,0)" title="回到顶部"></a>-->
+        <!--</div>-->
+
+        <!--回到顶部结束-->
+                                                                
+        <!--广告开始-->
+        <div id="adl">
+            <a title="诉讼文书样式" target="_blank" href="/susong.html"><img width="80" height="150" src="/style/system/images/cpwsys.png" alt="诉讼文书样式" /></a>        </div>
+
+        <div id="adr">
+            <a title="指导性案例" target="_blank" href="/shenpan/gengduo/77.html"><img width="80" height="150" src="/style/system/images/zdxal.png" alt="指导性案例" /></a>        </div>
+
+        <div id="adr2">
+            <a title="方金刚同志先进事迹专题展" href="javascrip:;"><img width="80" height="115" src="/style/system/images/fjgxjsj_ewm.png" alt="方金刚同志先进事迹专题展" /></a>        </div>
+
+                <!--广告结束-->
+
+        <!-- 学习贯彻习近平法治思想 文章列表滚动 -->
+        <script type="text/javascript">
+            jQuery("#bwcx").slide({
+                mainCell: "ul",
+                autoPage: true,
+                effect: "topLoop",
+                autoPlay: true,
+                vis: 1 // 显示的条数
+            });
+
+            (function($) {
+                $(window).on("load", function() {
+                    $(".mCustomScrollbarList").mCustomScrollbar({
+                        scrollInertia: 200,
+                        autoDraggerLength: !0,
+                        autoHideScrollbar: !0,
+                        theme: "dark",
+                        scrollbarPosition: "outside"
+                    });
+                });
+            })(jQuery);
+        </script>
+    </div>
+
+<!--法院相关链接结束-->
+
+<!--友情链接开始-->
+<div class="links">
+    <a href="http://cpc.people.com.cn" target="_blank" title="中国共产党新闻网">中国共产党新闻网</a>
+    <font>|</font>
+    <a href="http://www.gov.cn" target="_blank" title="中国政府网">中国政府网</a>
+    <font>|</font>
+    <a href="http://www.npc.gov.cn" target="_blank" title="中国人大网">中国人大网</a>
+    <font>|</font>
+    <a href="http://www.cppcc.gov.cn" target="_blank" title="中国政协网">中国政协网</a>
+    <font>|</font>
+    <a href="https://www.chinacourt.cn" target="_blank" title="中国法院网">中国法院网</a>
+    <font>|</font>
+    <a href="http://www.spp.gov.cn" target="_blank" title="最高人民检察院">最高人民检察院</a>
+</div>
+<!--友情链接结束-->
+
+<!--地址 版权开始-->
+<div class="ft">
+    <ul class="contact">
+        <li class="clearfix">
+            <!--法院相关链接-->
+            <a href="http://rmft.court.gov.cn/" target="_blank" title="全国人民法庭信息网">全国人民法庭信息网</a>
+            <font>|</font>
+            <a href="http://www.rmfysszc.gov.cn" target="_blank" title="人民法院诉讼资产网">人民法院诉讼资产网</a>
+
+            <br/>
+            <span name="3af1cd50bc001f9f506fed4214b766ca"></span>
+            <span>地址：北京市东城区东交民巷27号</span>
+            <span>邮编：100745</span>
+            <span>总机：67550114</span>
+            <span>举报电话：67556131</span>
+        </li>
+        <li>中华人民共和国最高人民法院 版权所有</li>
+        <li>
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11040102700145">
+                <img style="width: 16px;vertical-align: middle;" src="/style/system/images/gabeian.png"/>京公网安备
+                11040102700145号
+            </a> |
+            <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备05023036号</a></li>
+
+        <li>
+            <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='//dcs.conac.cn/js/33/000/0000/40672309/CA330000000406723090002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+        </li>
+
+    </ul>
+</div>
+<!--地址 版权结束-->
+
+<!-- 增加站点统计 -->
+<div style="display: none;">
+    <script type="text/javascript" src="https://v1.cnzz.com/z.js?id=1280020211"></script>
+</div>
+<!-- End Code -->
+
+<script type="text/javascript" src="/style/system/js/jquery.tab.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+    $(document).ready(function () {
+        tab.tabClass("tab1");
+        tab.tabClass("tab2");
+        tab.tabClass("tab3");
+        // tab.tabClassArgument("tab3",{});
+    });
+
+jQuery(function($) {
+
+    jQuery(".whr-focus").slide({
+        titCell:".yx-rotation-focus",
+        mainCell:".whr-rotaion ul",
+        autoPage:true,
+        effect:"left",
+        autoPlay:true
+    });
+
+jQuery(".case_ct").slide({titCell:".case_dot",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true});
+
+    $("#marquee4").kxbdSuperMarquee({
+        isAuto:false,
+        distance:106,
+        btnGo:{left:"#goL2",right:"#goR2"},
+        direction:"left"
+    });
+
+
+	$("#keyword").textUI();
+	$("#showtime").jclock({dateLebal:["年","月","日"]});
+
+	$(".btn").click(function(){
+		var str = $("form input:eq(0)").val();
+		str = str.replace(/\s+/g, "");
+		if(str == "" || str == "请输入关键字"){
+			alert("搜索字符不能为空");
+			return false;
+		}
+
+		if(str.length<2){
+			alert("不能小于两个字符");
+			return false;
+		}
+	});
+
+
+});
+/*]]>*/
+</script>
+</body>
+
+
+</html>
+<div style="display: none" id="md5">d1546d731a9f30cc80127d57142a482b</div>
+
+
+
+
+

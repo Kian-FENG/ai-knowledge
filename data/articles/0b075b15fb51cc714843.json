@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.09671",
+  "title": "InsClaimBench: Benchmarking Insurance Claim Adjudication Across the Decision Chain",
+  "text": "arXiv:2610.09671v1 Announce Type: new\nAbstract: Recent advances in reasoning-oriented large language models (LLMs) have motivated increasing evaluation of their ability to perform professional decision tasks. Insurance claim adjudication is one such task, requiring models to connect case evidence, insurance rules, intermediate judgments, and payout calculations across a structured decision process. We introduce InsClaimBench, an end-to-end benchmark for evaluating insurance claim adjudication across the decision chain. Grounded in real claim materials and structured insurance rules, InsClaimBench contains 3,780 cases in 375 case families across auto, property, and health insurance, comprising 86,656 atomic rule judgments. It evaluates each claim from atomic rules through adjudication modules to payout decisions and amounts, with controlled factual variants testing whether required changes are correctly propagated across levels. Evaluation of six LLMs reveals a progressive loss of reliability along the decision chain. Payout-decision accuracy ranges from 74.23--80.19%, while joint decision--amount accuracy drops to 47.54--73.15%. Strong local performance also fails to ensure case-level correctness: atomic-rule accuracy reaches 95.48%, whereas rule-vector exact match peaks at only 36.90%, and the most frequent module errors are not necessarily those most associated with final-decision failure. Under factual changes, these inconsistencies further become propagation failures: module updates are less reliable than rule updates, correct local judgments can still yield incorrect payouts, and correct payouts can conceal intermediate errors. These results show that reliable claim adjudication requires consistent composition and propagation across the decision chain.",
+  "published_at": null,
+  "announced_at": "2026-10-08T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "0b075b15fb51cc714843",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-09/ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c.body",
+  "source_sha256": "ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c",
+  "fetched_at": "2026-10-09T01:00:04.331143+00:00"
+}

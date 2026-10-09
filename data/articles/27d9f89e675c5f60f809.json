@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156028.htm",
+  "title": "谷歌云发布Gemini智能体：可自主执行企业多步骤任务",
+  "text": "快科技10月8日消息，今日，谷歌云在Gemini at Work 2026发布会上宣布，面向企业客户推出Gemini智能体。\n该产品定位“通用工作智能体”，支持Gemini Enterprise、Workspace以及第三方服务。\n谷歌表示，Gemini智能体只需要用户给出目标就能完成工作，即可通过单一界面处理问答、知识工作、内容创作及代码编写和运行等任务，并能调用企业内部工具和数据，自主完成用户设定的目标。\n例如，当你的经理用邮件要求你制作项目最近进展PPT时，Workspace Intelligence会认为该任务可以由AI完成，用户只需点一下按钮就能交给Gemini继续。\n谷歌云还表示，Gemini可直接集成Gmail、Drive、Docs、Sheets、Slides、Chat和Calendar，并支持创建具有独立身份和权限的“同事代理”。该代理可长期运行任务，并通过多个子代理协同处理复杂工作。\n此外，谷歌推出面向数据分析、数据工程和机器学习的新技能，并首次针对金融服务和法律行业提供专业化版本。\nGemini还支持在谷歌自有模型及Anthropic的Claude等不同模型间进行动态选择，并提供权限管理、审计、沙箱及实时支出上限等企业级控制功能。",
+  "published_at": "2026-10-08T21:56:43+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "27d9f89e675c5f60f809",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/9f8af3eb350d0778872de6af66cb067309d41c3a072502193ed4d07add81c701.body",
+  "source_sha256": "9f8af3eb350d0778872de6af66cb067309d41c3a072502193ed4d07add81c701",
+  "fetched_at": "2026-10-09T01:00:28.138290+00:00"
+}

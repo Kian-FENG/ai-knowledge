@@ -1,0 +1,18 @@
+{
+  "title": "LegalOn 案例把模型分工与预算管理同时纳入编码 Agent 采用",
+  "url": "https://openai.com/index/legalon-halves-codex-costs/",
+  "text": "October 8, 2026. LegalOn halves Codex costs while maintaining development speed.\nResults: Reduction in estimated daily costs: -65%.\nThe company initially gave developers unlimited access to its main model, GPT-5.5 in Fast mode.\nTo support governance, the company also introduced system controls through administrator settings, with monthly usage limits for departments and individuals.\nGPT-6 Luna, the lightest model, handles code implementation with clear requirements; GPT-6.1 Sol supports standard design, data analysis, and document preparation; and GPT-6 Astra, the most capable model, handles advanced judgment, including architecture design.\nAlongside model selection, the company began restricting Fast mode by default, allowing individual requests only when needed.\nAgent reading note: the feature-release ROI measurement pipeline is currently being built; this is a company customer case, not an independent controlled evaluation.",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "published_at": "2026-10-08T00:00:00+08:00",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "f3f22c1798a43bc2d07f",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-09/90a849ebe580482e21886d290c6bb01610af03d507a5f62f8369c5690e9ca772.txt",
+  "source_sha256": "90a849ebe580482e21886d290c6bb01610af03d507a5f62f8369c5690e9ca772",
+  "fetched_at": "2026-10-09T01:09:30.497220+00:00"
+}

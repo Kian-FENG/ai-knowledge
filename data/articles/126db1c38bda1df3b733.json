@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.10058",
+  "title": "Cache the Encoder Within:Compact, Reusable Memory across LLM Queries",
+  "text": "arXiv:2610.10058v1 Announce Type: new\nAbstract: Repeated queries over shared documents incur redundant encoding, while caching model states introduces persistent storage costs. Building on CoMem's intermediate-state interface, EncBank treats a pretrained LLM's lower layers as a reusable document encoder and compactly stores their outputs for an adapted upper-layer reader. A self-distilled suffix adapter is shared across storage precisions within each backbone, without quantization-specific retraining. Across five benchmark suites on three Qwen backbones spanning different sizes and full-attention and hybrid architectures, 4-bit storage keeps each reported benchmark aggregate within one score point of native-precision EncBank. In a fixed Qwen3-8B workload, it retains 28.1% of the native-precision persistent GPU store. Separate native-precision controls yield a 1.40x selected-pack prefill speedup over same-evidence, same-adapter text replay, at a 3.12-point RULER accuracy cost. A native-precision Qwen3.8-27B configuration also passes 70 of 89 Terminal-Bench 2.1 tasks. EncBank thus combines reusable computation with compact memory, while task fidelity and end-to-end benefits remain dependent on the workload, preparation costs, and reuse frequency.",
+  "published_at": null,
+  "announced_at": "2026-10-08T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "126db1c38bda1df3b733",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-09/ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c.body",
+  "source_sha256": "ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c",
+  "fetched_at": "2026-10-09T01:00:04.331143+00:00"
+}

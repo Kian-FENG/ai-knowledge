@@ -1,0 +1,22 @@
+{
+  "period": "daily",
+  "date": "2026-10-08",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-08",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-07T18:00:00-07:00",
+    "end": "2026-10-08T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "6eb2dfb2efb5a5d91074a0999d44fbf5f6f71f5c5fe29c462d64f7263bfd3d9b",
+  "editorial_sha256": "33989a61411abc7bd330a39941a0c5194d3ed498367c57d306b6a04b07a7ca60",
+  "report_path": "reports/daily/2026/10/2026-10-08/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-08/6eb2dfb2efb5a5d91074a0999d44fbf5f6f71f5c5fe29c462d64f7263bfd3d9b.json",
+  "events": 15,
+  "generated_at": "2026-10-09T01:13:33.998551+00:00",
+  "timezone": "America/Los_Angeles",
+  "report_sha256": "dc5db5e40f9c06b2786a3e54c1bda9f2c4a27a8dae2ab70ae5b22e177636b775",
+  "render_reviewed_at": "2026-10-09T01:13:34.007629+00:00",
+  "render_note": "保留生成器原稿；日期占位午夜改为仅日期，追加实际生成时间与知识/审计导航。"
+}

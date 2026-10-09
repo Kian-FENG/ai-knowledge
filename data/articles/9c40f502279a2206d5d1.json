@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.09795",
+  "title": "MIRROR: From Imitation to Internalization in LLM Personalization",
+  "text": "arXiv:2610.09795v1 Announce Type: new\nAbstract: The demand for personalized LLMs is shifting from style imitation toward content quality. We investigate whether self-distillation can bridge this gap in existing fine-tuning paradigm. To address this limitation, we introduce MIRROR(Meta- personalization by Internalizing Reference-Revealed On-policy Reflections), a novel self-distillation framework that shifts LLM personalization from imitation toward preference internalization. First, we replace reference-token imitation with reference-revealed on-policy self-distillation, aligning the model's next-token distributions along its own generation trajectories with those of its reference-conditioned self, thereby internalizing user preferences rather than reproducing reference wording.Second, we introduce MIRROR-F, a focal plug-in that augments on-policy distributional alignment with selective supervision over informative reference tokens, thereby strengthening content generation while preserving user-specific expression. Across three personalized generation benchmarks, two model scales, and complementary reference-based and LLM-based evaluations, MIRROR and MIRROR-F achieve leading overall personalization performance and superior text quality, while exhibiting less catastrophic forgetting than SFT-based baselines on three unseen personalized generation tasks. The gains are consistent across model scales and application scenarios, translating to improved performance in LLM personalization tasks.",
+  "published_at": null,
+  "announced_at": "2026-10-08T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9c40f502279a2206d5d1",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-09/ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c.body",
+  "source_sha256": "ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c",
+  "fetched_at": "2026-10-09T01:00:04.331143+00:00"
+}

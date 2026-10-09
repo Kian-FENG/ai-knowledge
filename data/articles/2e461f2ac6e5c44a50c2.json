@@ -1,0 +1,18 @@
+{
+  "title": "台积电9月合并营收同比增54.6%，不能直接推导 AI 产能",
+  "url": "https://pr.tsmc.com/english/news/3343",
+  "text": "TSMC September 2026 Revenue Report. Issued by TSMC. Issued on 2026/10/08.\nHSINCHU, Taiwan, R.O.C. – October 8, 2026 - TSMC (TWSE: 2330, NYSE: TSM) today announced its net revenue for September 2026: On a consolidated basis, revenue for September 2026 was approximately NT$511.86 billion, a decrease of 0.6 percent from August 2026 and an increase of 54.6 percent from September 2025. Revenue for January through September 2026 totaled NT$3,898.73 billion, an increase of 41.1 percent compared to the same period in 2025.\nScope: official release prose read; image table not read.",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "published_at": "2026-10-08T00:00:00+08:00",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "2e461f2ac6e5c44a50c2",
+  "source_id": "tsmc",
+  "source_name": "TSMC Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-09/9b6e3db287f5dc892fb9ea168c73e3ea45451e6d5b82b0dff482c25fa5b504d1.txt",
+  "source_sha256": "9b6e3db287f5dc892fb9ea168c73e3ea45451e6d5b82b0dff482c25fa5b504d1",
+  "fetched_at": "2026-10-09T01:09:31.716084+00:00"
+}

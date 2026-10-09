@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156071.htm",
+  "title": "铠侠推出首款E1.L规格SSD LD4 搭载BiCS8 QLC闪存",
+  "text": "快科技10月9日消息，KIOXIA（铠侠）发布其首款采用EDSFF E1.L“尺”外形规格的固态硬盘产品——LD4。该系列基于第八代（218L）BiCS FLASH QLC NAND闪存。\nKIOXIA LD4系列专为高密度1U服务器和读取密集型存储应用设计，主要面向超大规模数据中心级工作负载及横向扩展（scale-out）环境。\n其采用PCIe Gen5 x 4接口，符合NVMe 2.0e及OCP数据中心NVMe SSD 2.6规范。\n目前提供15.36TB和30.72TB两种容量，未来最高可扩展至122.88TB。\n铠侠已向特定客户交付LD4系列样品，该SSD也将在本月中旬举行的2026 OCP全球峰会上展出。",
+  "published_at": "2026-10-09T08:08:21+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6b96ce89757fd2edc1bc",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/9f8af3eb350d0778872de6af66cb067309d41c3a072502193ed4d07add81c701.body",
+  "source_sha256": "9f8af3eb350d0778872de6af66cb067309d41c3a072502193ed4d07add81c701",
+  "fetched_at": "2026-10-09T01:00:28.138290+00:00"
+}

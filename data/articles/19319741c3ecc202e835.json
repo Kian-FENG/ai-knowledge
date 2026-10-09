@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/networking-startup-eliyan-draws-takeover-interest-held-early-talks-arm",
+  "title": "Networking Startup Eliyan Draws Takeover Interest, Held Early Talks With Arm",
+  "text": "Semiconductor M&A has been humming. One of the next deals could be for Eliyan, whose technology allows separate chips inside an AI system to talk to one another more quickly and efficiently.\nThe five-year-old startup, valued at $1 billion in July, has notified some of its investors in the last few days that it received a takeover bid, according to people familiar with the matter. It has been working with an investment bank since the summer and is likely to aim for a valuation of $3 billion, according to some of the people.\nSoftbank-owned Arm, an existing investor, held early talks about potentially buying Eliyan, but it didn’t make a bid and would be unlikely to do so at that valuation, said a person familiar with the matter.",
+  "published_at": "2026-10-09T00:15:46+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-09T00:16:41+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "19319741c3ecc202e835",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978.body",
+  "source_sha256": "567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978",
+  "fetched_at": "2026-10-09T01:00:14.696641+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+  "title": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+  "text": "Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS interface for temporary cloud credentials that agents could reach without restriction. AWS has since patched the issue and significantly tightened the agents' default permissions.\nThe article A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found appeared first on The Decoder.",
+  "published_at": "2026-10-08T13:01:01+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9d5e5475de700473f713",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/7170651482e90a565b4f49f8e0662d74d6c3b8bb956e2cac1ac356ba8e655d82.body",
+  "source_sha256": "7170651482e90a565b4f49f8e0662d74d6c3b8bb956e2cac1ac356ba8e655d82",
+  "fetched_at": "2026-10-09T01:00:14.567960+00:00"
+}

@@ -1,0 +1,42 @@
+{
+  "baseline_head": "4c357ecf9c4a1c64c4eb8c0d2e6ca737a396dc7d",
+  "branch": "main",
+  "upstream": "origin/main",
+  "baseline_dirty_paths": 918,
+  "selected_paths": 670,
+  "selected_preexisting_dependencies": [
+    "data/articles/d026fa8aa7c22f287a13.json"
+  ],
+  "excluded_preexisting_paths": 917,
+  "rule": "仅本次报告/知识/采集材料与本次packet及source-state直接引用的历史版本；daily/index只暂存HEAD加本日报行，保留旧Oct5工作区行不提交。",
+  "selected_by_prefix": {
+    "data/articles": 305,
+    "data/archive-records": 99,
+    "reference/sources": 13,
+    "raw/2026-10-09": 98,
+    "reports/daily": 10,
+    "data/fetches": 94,
+    "data/article-history": 15,
+    "data/editorial": 1,
+    "data/watchlist.yaml": 1,
+    "queries/by-domain.md": 1,
+    "data/source-state.json": 1,
+    "queries/by-entity.md": 1,
+    "research/synthesis": 1,
+    "data/extracted": 12,
+    "queries/by-type.md": 1,
+    "ingest-tracker.md": 1,
+    "reference/entities": 1,
+    "data/packets": 2,
+    "data/sources.yaml": 1,
+    "data/runs": 1,
+    "queries/by-source.md": 1,
+    "queries/recent.md": 1,
+    "reference/papers": 2,
+    "research/KNOWLEDGE-GRAPH.md": 1,
+    "index.md": 1,
+    "reports/index.md": 1,
+    "queries/by-tag.md": 1,
+    "log.md": 1
+  }
+}

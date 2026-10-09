@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.09659",
+  "title": "Communication-Aware Qubit Placement and Automatic Node-Count Allocation for Distributed State-Vector Simulation",
+  "text": "arXiv:2610.09659v1 Announce Type: new\nAbstract: Distributed quantum circuit simulation enables the execution of large-scale quantum algorithms by partitioning qubits across multiple computational nodes. However, inefficient qubit placement frequently leads to excessive inter-node communication, severely limiting performance and scalability. This work introduces a communication-aware qubit layout optimization framework that systematically minimizes data exchange among nodes while dynamically selecting the optimal number of computational resources. Integrated into the QuCSLO library, our approach supports dynamic node scaling, OpenQASM parsing, and seamless integration with the QuEST simulator. Extensive evaluations on both synthetic benchmarks and real-world QASMBench circuits demonstrate that optimized layouts significantly reduce communication cuts and yield runtime speedups of over 2x compared to identity layouts, particularly in highly entangled circuits. Our results underscore the critical impact of strategic qubit placement on distributed simulation efficiency and provide a practical, resource-scalable solution for quantum workloads.",
+  "published_at": null,
+  "announced_at": "2026-10-08T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "37b978742472cc674d62",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-09/ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c.body",
+  "source_sha256": "ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c",
+  "fetched_at": "2026-10-09T01:00:04.331143+00:00"
+}

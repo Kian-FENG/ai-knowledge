@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/",
+  "title": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+  "text": "According to CrowdStrike, a suspected Chinese-speaking attacker hacked multiple South Korean financial institutions. At Shinhan Bank alone, more than 25,000 customer records were stolen. The attacker used ARTEX, an open-source tool that uses AI models like DeepSeek and GLM-5.3 for automated penetration testing. CrowdStrike says the case shows how AI tools can let a single person pull off massive breaches.\nThe article AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks appeared first on The Decoder.",
+  "published_at": "2026-10-08T09:24:17+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ca19ef857ba2cf3fe9e1",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/7170651482e90a565b4f49f8e0662d74d6c3b8bb956e2cac1ac356ba8e655d82.body",
+  "source_sha256": "7170651482e90a565b4f49f8e0662d74d6c3b8bb956e2cac1ac356ba8e655d82",
+  "fetched_at": "2026-10-09T01:00:14.567960+00:00"
+}

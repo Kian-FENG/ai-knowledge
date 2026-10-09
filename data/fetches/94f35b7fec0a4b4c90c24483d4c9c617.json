@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-09/ccd390d32a3713adacf499eb3414b9d39a8b39c6238444478a6294fba38b54ad.body",
+  "sha256": "ccd390d32a3713adacf499eb3414b9d39a8b39c6238444478a6294fba38b54ad",
+  "source_url": "https://developers.openai.com/api/docs/pricing",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-09T01:06:27.124200+00:00",
+  "source_id": "openai-api-changelog",
+  "status": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "4582",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline; filename=\"pricing\"",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Fri, 09 Oct 2026 01:06:28 GMT",
+    "Etag": "W/\"a431f5b26ff3edce24da5652015781dd\"",
+    "Last-Modified": "Thu, 08 Oct 2026 23:50:05 GMT",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "Accept",
+    "X-Vercel-Cache": "HIT",
+    "X-Vercel-Id": "sfo1::scrdv-1791507988299-32bedb49a27f",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://developers.openai.com/api/docs/pricing",
+  "truncated": false,
+  "charset": "utf-8"
+}

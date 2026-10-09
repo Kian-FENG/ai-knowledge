@@ -1,0 +1,25 @@
+{
+  "raw_path": "raw/2026-10-09/9b42affd921eb0d45de7095486e3bd7264daa67473bc0f2544d28d0cd5a92f93.body",
+  "sha256": "9b42affd921eb0d45de7095486e3bd7264daa67473bc0f2544d28d0cd5a92f93",
+  "source_url": "https://www.qbitai.com/feed",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-09T01:00:22.495897+00:00",
+  "source_id": "qbitai",
+  "status": 200,
+  "headers": {
+    "Last-Modified": "Thu, 08 Oct 2026 13:31:38 GMT",
+    "Etag": "\"39f59b558e0a2749320bec28617d65bf\"",
+    "Content-Type": "application/rss+xml; charset=UTF-8",
+    "Age": "1940",
+    "Content-Length": "6500",
+    "Accept-Ranges": "bytes",
+    "X-NWS-LOG-UUID": "8454659098177288192",
+    "Connection": "close",
+    "Server": "SLT",
+    "Date": "Fri, 09 Oct 2026 01:00:24 GMT",
+    "X-Cache-Lookup": "Cache Hit"
+  },
+  "final_url": "https://www.qbitai.com/feed",
+  "truncated": false,
+  "charset": "utf-8"
+}

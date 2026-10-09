@@ -14,6 +14,10 @@ Generated; published pages only. Do not hand-edit.
 
 - `note` [[research/synthesis/agent-delivery-and-verification-20261006|Agent 的可交付能力由上下文、访问规则与验证体系共同决定]]
 
+## agent-economics
+
+- `note` [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的竞争开始连接身份、会话缓存与任务预算]]
+
 ## agents
 
 - `source` [[reference/sources/google-cloud-modernize-20261005|Google Cloud Modernize 将云评估和应用迁移组织成 Agent 产品组合]]
@@ -50,28 +54,43 @@ Generated; published pages only. Do not hand-edit.
 
 ## daily-research
 
+- `paper` [[reference/papers/comoe-2610-09424|CoMoE：为缺少 GPU P2P 的普通多卡系统设计 MoE 数据路径]]
 - `paper` [[reference/papers/hear-protocol-2610-06597|HEAR：把 Agent 工作流意图与推理引擎状态连接起来]]
 - `paper` [[reference/papers/hera-abstention-2610-06563|HERA：让 harness 与任务环境共同演进，学习何时停止]]
 - `paper` [[reference/papers/mosaic-gpu-sharing-2610-07504|Mosaic 提议用内核干扰预测选择GPU共置或SM分区]]
 - `paper` [[reference/papers/refold-reversible-context-2610-07863|ReFold：保留完整历史，用可逆折叠控制长时Agent上下文]]
+- `paper` [[reference/papers/vllm-omni-2610-09307|vLLM-Omni 技术报告：把多模态生成组织为多阶段运行时]]
 - `source` [[reference/sources/anthropic-cvp-expansion-20261006|Anthropic 扩展 CVP：网络安全模型访问按资格和用途分层]]
+- `source` [[reference/sources/anthropic-cyber-mission-20261008|Anthropic 扩展关键基础设施防御，并推出自愿加入的开源扫描服务]]
+- `source` [[reference/sources/anthropic-genesis-commitment-20261008|Anthropic 承诺三年提供 USD 1.5亿科研资源]]
 - `source` [[reference/sources/anthropic-haiku-55-pricing-20261007|Claude Haiku 5.5 发布：可调effort，价格按100K提示长度分档]]
+- `source` [[reference/sources/anthropic-usage-policy-20261008|Anthropic 公布使用政策修订，11月12日才生效]]
+- `source` [[reference/sources/codex-faster-steering-20261008|Codex 桌面端开始推送更快的任务中途引导]]
+- `source` [[reference/sources/dynamo-kimi-k3-snapshot-20261008|Dynamo 发布 Kimi-K3 实验快照，明确不适合生产]]
+- `source` [[reference/sources/dynamo-session-aware-20261008|Dynamo 按 Agent 会话管理缓存和准入，部分接口仍是提案]]
 - `source` [[reference/sources/dynamo-v151-release-20261007|Dynamo v1.5.1 正式补丁：修复路由恢复并收紧多模态输入边界]]
 - `source` [[reference/sources/embeddinggemma-2-release-20261006|EmbeddingGemma 2 发布多模态开放嵌入模型，支持端侧检索]]
+- `source` [[reference/sources/google-gemini-work-agent-20261008|Google 发布 Gemini 工作 Agent：云端持续执行、任务身份与项目预算结合]]
 - `source` [[reference/sources/google-playground-20261007|Google Playground 实验性上线：对话创建、试玩和分享游戏]]
 - `source` [[reference/sources/healthleap-funding-20261007|Healthleap 披露3800万美元种子及A轮融资，切入住院营养不良识别]]
+- `source` [[reference/sources/legalon-codex-budget-routing-20261008|LegalOn 案例把模型分工与预算管理同时纳入编码 Agent 采用]]
 - `source` [[reference/sources/mistral-large-4-preview-20261006|Mistral Large 4 进入 API 公开预览，权重仍待月底交付]]
 - `source` [[reference/sources/nous-series-b-20261007|Nous Research 披露9000万美元B轮，计划扩展 Hermes 企业产品]]
 - `source` [[reference/sources/nvidia-aicr-v10-20261006|NVIDIA 介绍 AICR v1.0：固定集群配置契约与可追溯验证]]
 - `source` [[reference/sources/nvidia-rtx-spark-windows-20261007|RTX Spark 笔记本开放预订，NVIDIA 公布Windows本地Agent硬件路线]]
+- `source` [[reference/sources/nvidia-science-commitment-20261008|NVIDIA 承诺五年投入价值 USD 10亿的美国科研支持]]
 - `source` [[reference/sources/openai-atlassian-partnership-20261006|Atlassian 扩展 OpenAI 合作：企业上下文与 Agent 工作流进一步结合]]
 - `source` [[reference/sources/openai-college-planner-20261007|OpenAI 宣布 College Planner，首批面向美国10–12年级学生]]
 - `source` [[reference/sources/openai-intelligent-ui-20261007|ChatGPT 开始推送 Intelligent UI：回答可直接变成交互工具]]
 - `source` [[reference/sources/openai-ironclad-computer-use-20261006|OpenAI 与 Ironclad 用合同工作任务评估计算机操作能力]]
 - `source` [[reference/sources/openai-jump-trading-adoption-20261006|Jump Trading 披露长时研究 Agent 用法，人工检查仍在流程中]]
 - `source` [[reference/sources/openai-math-artifacts-20261006|OpenAI 发布数学手稿与部分 Lean 证明，结果仍有不同核验阶段]]
+- `source` [[reference/sources/openai-sol-ultrafast-20261008|GPT-6.1 Sol 新增 Ultrafast：以更高单价购买低延迟服务]]
 - `source` [[reference/sources/pytorch-fbtriton-tbe-20261006|PyTorch 介绍 FBTriton：稀疏嵌入路径转向可配置的 Python/Triton]]
+- `source` [[reference/sources/pytorch-spyre-native-device-20261008|IBM 说明 Spyre 原生 PyTorch 设备集成及其运行时边界]]
 - `source` [[reference/sources/radisson-chatgpt-discovery-20261007|Radisson 披露 ChatGPT 插件与广告协同的酒店获客路径]]
+- `source` [[reference/sources/today-seed-20261008|新增公司 TODAY：为金融保险顾问工作流融资 EUR 280万]]
+- `source` [[reference/sources/tsmc-september-revenue-20261008|台积电9月合并营收同比增54.6%，不能直接推导 AI 产能]]
 - `source` [[reference/sources/vinci-series-b-20261006|Vinci 披露 2.5 亿美元 B 轮，扩展物理仿真与硬件设计平台]]
 
 ## daily-synthesis
@@ -89,6 +108,10 @@ Generated; published pages only. Do not hand-edit.
 ## execution-infrastructure
 
 - `note` [[research/synthesis/agent-execution-stack-20261005|Agent 的供给链扩展到迁移、构建与媒体输入]]
+
+## financial-services
+
+- `entity` [[reference/entities/today|TODAY：金融保险顾问的工作流 Agent]]
 
 ## funding
 
@@ -162,9 +185,17 @@ Generated; published pages only. Do not hand-edit.
 
 - `paper` [[reference/papers/jil-length-scheduling-2610-03430|JIL：输出长度预测可能成为请求调度的攻击面]]
 
+## session-cache
+
+- `note` [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的竞争开始连接身份、会话缓存与任务预算]]
+
 ## subscription
 
 - `source` [[reference/sources/gemini-model-access-october-2026|Gemini 个人账户模型访问分层：10月生效安排]]
+
+## vertical-agents
+
+- `entity` [[reference/entities/today|TODAY：金融保险顾问的工作流 Agent]]
 
 ## vllm
 

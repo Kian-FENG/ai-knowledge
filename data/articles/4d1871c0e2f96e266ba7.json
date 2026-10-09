@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+  "title": "Oct 8, 2026Science The missing map of the sky",
+  "link_text": "Oct 8, 2026Science The missing map of the sky",
+  "id": "4d1871c0e2f96e266ba7",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "anthropic-research",
+  "source_name": "Anthropic Research",
+  "section": 2,
+  "raw_path": "raw/2026-10-09/311ad9c8333b81fd8bd4122409c9f06824acf4efd0de8840fc32f21a0584ab66.body",
+  "source_sha256": "311ad9c8333b81fd8bd4122409c9f06824acf4efd0de8840fc32f21a0584ab66",
+  "fetched_at": "2026-10-09T00:59:53.975585+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-09T00:59:53.975585+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

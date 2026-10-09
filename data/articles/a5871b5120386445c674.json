@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/010/780.htm",
+  "title": "字节 Seed 团队发现 DeepSeek“抽风”原因，长上下文可能性能漂移",
+  "text": "IT之家 10 月 9 日消息，字节 Seed 团队今年 9 月底在预印本平台 arXiv 提交了一篇论文，谈到分块 KV 缓存压缩带来的相位敏感性，直指 DeepSeek“抽风”原因。\n该研究评估了基础版和后训练版的 DeepSeek-V4-Flash 和 DeepSeek-V4-Pro，以及后训练后的 DeepSeek-V4.1-Flash。\n模型通过分块 KV 缓存压缩以固定步幅将连续标记的窗口压缩为更少的缓存条目，能够减少长上下文推理的内存和注意力成本。\n然而，这种压缩还引入了一个新的位置坐标：Token 的相位，或其相对于压缩窗口边界的位置。\n该团队发现使用这种压缩的模型中存在系统性不对称性：相同的信息在一个阶段很容易检索，但在另一个阶段很难检索。团队将这种检索性能的周期性变化称为相位敏感性（phase sensitivity）。\n在采用此类压缩的大型开放权重模型中，长上下文检索准确度在各个阶段之间可能相差高达 40 个百分点，从而揭示了平均基准分数可能掩盖的周期性弱点。\nIT之家附论文链接：\nhttps://arxiv.org/abs/2609.36322",
+  "published_at": "2026-10-09T00:49:58+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a5871b5120386445c674",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/2644a839290c85cde00582c8ddb75bae4b72783233dbe8c13f40bdcd870f310d.body",
+  "source_sha256": "2644a839290c85cde00582c8ddb75bae4b72783233dbe8c13f40bdcd870f310d",
+  "fetched_at": "2026-10-09T01:00:19.321353+00:00"
+}

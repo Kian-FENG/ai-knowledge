@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+  "title": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over",
+  "text": "Anthropic's new Claude Haiku 5.5 crushes its predecessor in benchmarks, jumping from 15.7 to 72.4 percent on the OSWorld computer use test. Token prices drop by up to 90 percent, though a new tokenizer eats into some of those savings by consuming more tokens per task.\nThe article Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over appeared first on The Decoder.",
+  "published_at": "2026-10-07T18:49:23+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e1a7b06651e9c94175b3",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-08/06c2ae85bbfe0acc0f7d1bd59f38ff41d3f739df5469992477cf1ae274d412ab.body",
+  "source_sha256": "06c2ae85bbfe0acc0f7d1bd59f38ff41d3f739df5469992477cf1ae274d412ab",
+  "fetched_at": "2026-10-08T01:05:05.525997+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/chinese-open-models-win-one-five-informations-subscribers",
+  "title": "Chinese Open Models Win Over One in Five of The Information’s Subscribers",
+  "text": "Nearly two-thirds of The Information’s subscribers surveyed last month said their organizations develop AI applications, and a third of subscribers said they receive a return from AI that is a “multiple of what we spend.” The result suggests enterprises have made some progress since the Massachusetts Institute of Technology study last year that indicated just 5% of custom-made enterprise AI tools reached production.\nThe new result, first shared during AI Agenda Live last month, likely reflects recent advancements, including AI models’ ability to access other applications to handle complex tasks, work in the background for hours at a time, and the general improvement of AI-produced code. It could also reflect The Information’s subscriber base, which is weighted toward enterprises that have experience developing software.",
+  "published_at": "2026-10-08T18:11:51+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T18:14:40+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "641defe5d6741f14655b",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978.body",
+  "source_sha256": "567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978",
+  "fetched_at": "2026-10-09T01:00:14.696641+00:00"
+}

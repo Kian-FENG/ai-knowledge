@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-09/1c0ecf9087a9d691ab5de09be6dac997dd2a38dded01df60d967fb0a98271c60.body",
+  "sha256": "1c0ecf9087a9d691ab5de09be6dac997dd2a38dded01df60d967fb0a98271c60",
+  "source_url": "https://www.leiphone.com/feed",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-09T01:00:22.289279+00:00",
+  "source_id": "leiphone",
+  "status": 200,
+  "headers": {
+    "Date": "Fri, 09 Oct 2026 01:00:24 GMT",
+    "Content-Type": "application/rss+xml; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "SameSite=None; Secure; path=/; domain=.leiphone.com",
+    "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "Pragma": "no-cache",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache-Lookup": "Cache Miss",
+    "Cache-Control": "must-revalidate, no-cache, no-store",
+    "X-NWS-LOG-UUID": "3795489301090102139",
+    "X-WAF-UUID": "f5ee5db6456474624324fc3a5b24c81c-d9fe526b300f186acc576b4d20d8a9f9"
+  },
+  "final_url": "https://www.leiphone.com/feed",
+  "truncated": false,
+  "charset": "utf-8"
+}

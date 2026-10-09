@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/openai-researchers-say-fired-prioritizing-safety",
+  "title": "OpenAI Researchers Say They Were Fired for “Prioritizing Safety”",
+  "text": "The three safety researchers whom OpenAI fired last week challenged OpenAI’s decision, saying on Thursday they were punished for raising safety concerns.\n“I believe we were fired for prioritizing safety over the near-term interests of OpenAI as a corporation,” Mikita Balesni, one of the ...",
+  "published_at": "2026-10-08T20:20:52+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T22:17:41+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2ee81bf871c3883e0832",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978.body",
+  "source_sha256": "567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978",
+  "fetched_at": "2026-10-09T01:00:14.696641+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/openai-beat-math",
+  "title": "How OpenAI Beat Math",
+  "text": "Mathematicians are likely feeling the kind of anxiety that software engineers have experienced for months in the wake of OpenAI release on Tuesday of a whopping 722 research papers with AI-created solutions to a range of problems across math subjects.\nAI’s success solving ultra-difficult math problems—even though it still makes mistakes doing simple math—is due to several factors. Solutions to math problems can often be verified, much like software code, and there’s a lot of overlap between mathematics and the work that AI researchers do (and which these researchers are trying to automate in pursuit of RSI).\nAnd with enough computing resources, the AI can essentially do the heavy-duty number crunching that would take humans years to do, and it doesn’t give up. One mathematician who is part of a group advising OpenAI on how to publicly disclose its math breakthroughs told me that they refer to these abilities as brute force and stamina.",
+  "published_at": "2026-10-08T15:00:50+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T15:01:34+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5d3638d4d74b6deedebc",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978.body",
+  "source_sha256": "567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978",
+  "fetched_at": "2026-10-09T01:00:14.696641+00:00"
+}

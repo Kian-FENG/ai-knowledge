@@ -1,0 +1,31 @@
+{
+  "raw_path": "raw/2026-10-09/7df12be2d6b13da0f7e35751a6c0ff396bf8ef3159d55aaa86dbf36973351be9.body",
+  "sha256": "7df12be2d6b13da0f7e35751a6c0ff396bf8ef3159d55aaa86dbf36973351be9",
+  "source_url": "https://arxiv.org/abs/2610.09424",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-09T01:02:49.222870+00:00",
+  "source_id": "arxiv",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "43102",
+    "last-modified": "Thu, 08 Oct 2026 00:33:34 GMT",
+    "cache-control": "max-age=3600",
+    "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "x-frame-options": "SAMEORIGIN",
+    "content-type": "text/html; charset=utf-8",
+    "server": "Google Frontend",
+    "x-cloud-trace-context": "1c1cb03f61082ba566e062e077bc74a1",
+    "content-security-policy": "frame-ancestors 'none'",
+    "Accept-Ranges": "bytes",
+    "Age": "81844",
+    "Date": "Fri, 09 Oct 2026 01:02:50 GMT",
+    "X-Served-By": "cache-lga-kjfk8660057-LGA, cache-lga-kjfk8660057-LGA, cache-lga-kjfk8660050-LGA, cache-sjc1000104-SJC",
+    "X-Cache": "MISS, HIT, HIT",
+    "X-Timer": "S1791507771.588171,VS0,VE1"
+  },
+  "final_url": "https://arxiv.org/abs/2610.09424",
+  "truncated": false,
+  "charset": "utf-8",
+  "text": "[2610.09424] Democratizing MoE inference on commodity GPUs with CoMoE\nSkip to main content\nSearch\nSubmit\nDonate\nLog in\nSearch arXiv\nPress Enter to search · Advanced search\nComputer Science > Distributed, Parallel, and Cluster Computing\narXiv:2610.09424 (cs)\n[Submitted on 7 Oct 2026]\nTitle:Democratizing MoE inference on commodity GPUs with CoMoE\nAuthors:Ruwen Fan, Yuezhi Zu, Junru Li, Qingda Hu, Xinjun (Jimmy)Yang, Jiwu Shu, Youyou Lu\nView a PDF of the paper titled Democratizing MoE inference on commodity GPUs with CoMoE, by Ruwen Fan and 6 other authors\nView PDF\nHTML (experimental)\nAbstract:Deploying Mixture-of-Experts (MoE) models relies heavily on Expert Parallelism, which generates intense inter-GPU communication. Consequently, state-of-the-art inference systems require high-bandwidth, P2P interconnects (e.g., NVLink) in datacenter GPUs to handle massive token routing, making deployment prohibitively expensive. Consumer GPUs offer comparable compute power at significantly lower cost, promising to democratize MoE inference for individuals and enable privacy-preserving local deployments. However, their bandwidth-limited (only weak PCIe bus bandwidth) and host-mediated interconnects (no P2P support) introduce severe communication bottlenecks.\nWe present CoMoE, a communication-efficient MoE inference system that resolves this mismatch through novel host-centric routing. Our key insight is that the unique communication topology provides the opportunity to elevate the host to an active routing hub, which can fundamentally reduce communication volume and eliminate global synchronization-induced stalls. Specifically, for token dispatch, we introduce host-backed token multicast to write shared tokens to the host exactly once, eliminating outbound transmission redundancy. For token combine, we propose a fine-grained, token-level aggregation mechanism using host staging buffers, which replaces rigid global synchronization and mitigates straggler effects. Evaluation on RTX 5090 GPUs shows that CoMoE improves inference throughput by up to 1.46x, approaching the performance of NVLink-capable A800 GPUs at only 23.4% of the hardware cost.\nSubjects:\nDistributed, Parallel, and Cluster Computing (cs.DC); Machine Learning (cs.LG)\nCite as:\narXiv:2610.09424 [cs.DC]\n(or\narXiv:2610.09424v1 [cs.DC] for this version)\nhttps://doi.org/10.48550/arXiv.2610.09424\nFocus to learn more\narXiv-issued DOI via DataCite (pending registration)\nSubmission history From: Ruwen Fan [view email]\n[v1]\nWed, 7 Oct 2026 04:24:45 UTC (549 KB)\nFull-text links:\nAccess Paper:\nView a PDF of the paper titled Democratizing MoE inference on commodity GPUs with CoMoE, by Ruwen Fan and 6 other authors\nView PDF\nHTML (experimental)\nTeX Source\nview license\nAdditional Features\nAudio Summary\nCurrent browse context:\ncs.DC\n< prev\n|\nnext >\nnew\n|\nrecent\n| 2026-10\nChange to browse by:\ncs\ncs.LG\nReferences & Citations\nNASA ADS\nGoogle Scholar\nSemantic Scholar\nexport BibTeX citation\nLoading...\nBibTeX formatted citation\n×\nloading...\nData provided by:\nBookmark\nBibliographic Tools\nBibliographic and Citation Tools\nBibliographic Explorer Toggle\nBibliographic Explorer (What is the Explorer?)\nConnected Papers Toggle\nConnected Papers (What is Connected Papers?)\nLitmaps Toggle\nLitmaps (What is Litmaps?)\nscite.ai Toggle\nscite Smart Citations (What are Smart Citations?)\nCode, Data, Media\nCode, Data and Media Associated with this Article\nalphaXiv Toggle\nalphaXiv (What is alphaXiv?)\nLinks to Code Toggle\nCatalyzeX Code Finder for Papers (What is CatalyzeX?)\nDagsHub Toggle\nDagsHub (What is DagsHub?)\nGotitPub Toggle\nGotit.pub (What is GotitPub?)\nHuggingface Toggle\nHugging Face (What is Huggingface?)\nScienceCast Toggle\nScienceCast (What is ScienceCast?)\nDemos\nDemos\nReplicate Toggle\nReplicate (What is Replicate?)\nSpaces Toggle\nHugging Face Spaces (What is Spaces?)\nSpaces Toggle\nTXYZ.AI (What is TXYZ.AI?)\nRelated Papers\nRecommenders and Search Tools\nLink to Influence Flower\nInfluence Flower (What are Influence Flowers?)\nCore recommender toggle\nCORE Recommender (What is CORE?)\nAuthor\nVenue\nInstitution\nTopic\nAbout arXivLabs\narXivLabs: experimental projects with community collaborators\narXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\nBoth individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.\nHave an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.\nWhich authors of this paper are endorsers? |\nDisable MathJax (What is MathJax?)\nWe gratefully acknowledge support from\nour major funders,\nmember institutions, ,\nand all contributors.\nAbout\n·\nHelp\n·\nContact\n·\nSubscribe\n·\nCopyright\n·\nPrivacy\n·\nAccessibility\n·\nOperational Status (opens in new tab)\nMajor funding support from"
+}

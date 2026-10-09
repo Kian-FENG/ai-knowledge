@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-reportedly-seeking-usd40-billion-debt-package-for-nvidia-ai-hardware-massive-raise-could-fund-roughly-360-000-vera-rubin-gpus-across-5-000-nvl72-racks",
+  "title": "SpaceX reportedly seeking $40 billion debt package for Nvidia AI hardware",
+  "text": "SpaceX is reportedly looking to raise $40 billion to acquire Nvidia AI processors in a bid to expand its compute capabilities, reports the Financial Times. The financing could combine $10 billion in bank loans with $30 billion in investment-grade debt and may be completed in 2027, though discussions are still at an early stage and there is no guarantee that a transaction will materialize. If it does, then SpaceX's xAI will get $40 billion worth of Nvidia Rubin generation hardware, which includes AI accelerators.\nAlthough Bloomberg reports that the proposed financing would be used specifically to purchase Nvidia AI accelerators, since xAI has traditionally bought servers or rack-scale AI solutions from Nvidia and its partners, it is likely that the company will continue to do so rather than opt to get accelerators and then build AI servers itself. Assuming that xAI indeed gets Vera Rubin NVL72 systems at around $8 million per unit, then for $40 billion it is going to get approximately 5,000 or so machines with roughly 360,000 Nvidia Rubin AI accelerators inside. At this point, it is unclear whether $40 billion is xAI's entire new compute capacity budget for 2027, or if the company plans to spend more.\nThe scale of xAI's Nvidia deployments is already substantial. Elon Musk said last month that xAI's Colossus 2 cluster currently houses 110,000 Nvidia GB200 accelerators and 440,000 GB300 devices.\nSpaceX intends to obtain approximately $10 billion from banks and raise another $30 billion on the investment-grade debt market. Apollo Global Management is expected to take the leading role in arranging the financing, while bond manager Pimco is among a limited number of lenders discussing participation, the report claims. The transaction is currently expected to close sometime in 2027.\nApollo already has considerable exposure to this market and has already participated in financing the buildout of Elon Musk's AI infrastructure. In August, Nvidia teamed up with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to establish financing platforms designed to attract more than $500 billion in third-party funding for AI infrastructure. Bloomberg reports that Apollo had previously arranged a $7 billion financing deal with Musk's xAI that financed Nvidia hardware intended for the company's Colossus 2 data center near Memphis.\nNo parties mentioned in the story commented on the potential deal.",
+  "published_at": "2026-10-08T11:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f0e8e56a84f647a4c897",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-09/e623ffed90214e2b84eec0db6af1b3e8128fa0ba945dc532b5027866b2c09208.body",
+  "source_sha256": "e623ffed90214e2b84eec0db6af1b3e8128fa0ba945dc532b5027866b2c09208",
+  "fetched_at": "2026-10-09T01:00:18.201835+00:00"
+}

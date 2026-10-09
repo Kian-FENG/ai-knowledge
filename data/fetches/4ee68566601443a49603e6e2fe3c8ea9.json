@@ -1,0 +1,32 @@
+{
+  "raw_path": "raw/2026-10-09/3825a5913044c98595908fac8fdcab81271eaad9811b8d5e305febc24c24fe1d.body",
+  "sha256": "3825a5913044c98595908fac8fdcab81271eaad9811b8d5e305febc24c24fe1d",
+  "source_url": "https://cloudblog.withgoogle.com/rss/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-09T00:59:58.668680+00:00",
+  "source_id": "google-cloud-blog",
+  "status": 200,
+  "headers": {
+    "content-type": "application/xml; charset=utf-8",
+    "vary": "Accept-Language",
+    "cache-control": "public, max-age=600, s-maxage=600",
+    "expires": "Fri, 09 Oct 2026 01:10:05 GMT",
+    "strict-transport-security": "max-age=2592000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "referrer-policy": "same-origin",
+    "content-security-policy": "font-src 'self' themes.googleusercontent.com *.gstatic.com https://fonts.gstatic.com storage.googleapis.com; frame-src 'self' www.google.com *.youtube.com accounts.google.com apis.google.com plus.google.com *.doubleclick.net apis.google.com https://www.youtube.com; base-uri 'none'; img-src * data: blob:; connect-src 'self' plus.google.com www.google-analytics.com apis.google.com; default-src; object-src 'none'; style-src 'self' 'unsafe-inline' fonts.googleapis.com *.gstatic.com storage.googleapis.com; script-src 'strict-dynamic' *.googleanalytics.com *.google-analytics.com ajax.googleapis.com https://www.youtube.com https://s.ytimg.com *.googletagmanager.com apis.google.com storage.googleapis.com 'sha256-786mZQPkATV3kJd7q8ZuwoTH4U3/0WniBdyVOgZQpv4=' 'sha256-Xyk5Ei/Yh7DuZgaxNfbPswkpmMKHk5Jy18vkxjfPMj0=' 'sha256-VYh+xiSqo4QzOSUckJBCHDIBNNBdxwG2PIIevxRqeh4=' *.googleapis.com",
+    "x-frame-options": "DENY",
+    "content-language": "en",
+    "content-encoding": "gzip",
+    "x-cloud-trace-context": "4ea2d5f1d616c66039b9dfe534a01634",
+    "date": "Fri, 09 Oct 2026 01:00:05 GMT",
+    "server": "Google Frontend",
+    "Content-Length": "161416",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close"
+  },
+  "final_url": "https://cloudblog.withgoogle.com/rss/",
+  "truncated": false,
+  "charset": "utf-8"
+}

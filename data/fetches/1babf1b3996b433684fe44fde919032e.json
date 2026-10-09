@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-09/ebcf41f1b632d5d59639b6aa3c5123ad5c6094976ecabd0029df1e13e9bd1eea.body",
+  "sha256": "ebcf41f1b632d5d59639b6aa3c5123ad5c6094976ecabd0029df1e13e9bd1eea",
+  "source_url": "https://metr.org/blog/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-09T01:00:04.567176+00:00",
+  "source_id": "metr",
+  "status": 200,
+  "headers": {
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Cache-Control": "public,max-age=0,must-revalidate",
+    "Cache-Status": "\"Netlify Edge\"; fwd=stale; fwd-status=200; stored",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Date": "Fri, 09 Oct 2026 01:00:05 GMT",
+    "Etag": "\"658fe8e898c656f384078777b513bd06-ssl-df\"",
+    "Server": "Netlify",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Accept-Encoding",
+    "X-Nf-Request-Id": "01M4F2S9SB4S3H7SH6TRQ9ST6A",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://metr.org/blog/",
+  "truncated": false,
+  "charset": "utf-8"
+}

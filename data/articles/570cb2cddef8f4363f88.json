@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+  "title": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
+  "text": "Investors bullish on AI data centers may be fueling Nvidia’s multitrillion-dollar market capitalization, but the AI chipmaker has also bet billions of dollars on physical AI technologies such as robotics and self-driving cars. Part of that gambit has involved developing a full-stack safety system that companies can build upon to reduce the risk of their machines harming nearby people.\nNvidia's Halos system launched in 2025 with hardware and software tools to help developers implement guardrails in self-driving cars and other autonomous vehicles. Then the company expanded its safety architecture to more physical AI technologies by announcing Nvidia Halos for Robotics in June 2026—with the goal of enabling safe deployments of autonomous mobile robots in warehouses, humanoid robots walking around inside a factory, or even surgical robots.\n“Now the AI models are getting capable, the robot hardware is getting capable, and a thing we thought is going to be the next bottleneck is safety,” Amit Goel, head of robotics ecosystem and edge computing at Nvidia, told Ars. “So that's why we launched our Halos for Robotics to unlock the capability of these systems.”\nRead full article\nComments",
+  "published_at": "2026-10-08T11:15:33+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "570cb2cddef8f4363f88",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-09/bd7c6edbf0eb4997d139fcc125eea9ff278884f677d0b7d8c7753800e99e5d5f.body",
+  "source_sha256": "bd7c6edbf0eb4997d139fcc125eea9ff278884f677d0b7d8c7753800e99e5d5f",
+  "fetched_at": "2026-10-09T01:00:18.289931+00:00"
+}

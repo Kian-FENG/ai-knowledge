@@ -72,3 +72,12 @@
 - research/synthesis/interactive-agents-cost-and-local-supply-20261007.md：归档/阅读限定范围/综合/审核/发布/默认回查均完成；证据见关联来源页；版本 见页面evidence。
 
 阻塞/未完成：Qwen等5来源与Techmeme快照；媒体缺口；196论文候选未归档；ReFold完整实验、Mosaic全文、OpenBMB模型卡、Ropedia身份；详见本期pending-evidence.md。未升measured/replicated。
+
+## 2026-10-08 日报批次（2026-10-09T01:11:43.480038+00:00）
+
+- 已归档并阅读15个事件来源，起草17页（13 source、2 paper、1 entity、1 synthesis note）；TODAY加入跟踪。
+- 查重：query默认published→get_page→原始来源；显式含草稿检索及URL/别名检查。昨日UI/Haiku/融资/稳定发布等重复事件不再收录。
+- 状态：来源核对完成；等待结构审核、发布与默认检索回查。论文仅摘要；非独立复现。
+- 候选：Manus/Arena/Turba/Helm.ai/Biren等缺已读一手支持，见日报pending-evidence。
+
+- 本批完成：17页已审核发布，默认query标题/get_page全部可见，所有raw证据hash匹配；结构校验71页通过。新建17，更新旧页0；前期重复事件跳过，未完成候选见pending-evidence。

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.09111",
+  "title": "Same Text, Different Prediction: Serving-Context Nondeterminism in Text Classifiers",
+  "text": "arXiv:2610.09111v1 Announce Type: new\nAbstract: Deterministic inference is essential for reliable and trustworthy machine learning. Prior studies of text generation have shown that changing factors such as batch size, batch composition, hardware, or inference engine can alter the generated text, even when the prompt, model parameters, and sampling randomness are fixed. These differences have been attributed in part to floating-point non-associativity, shape-dependent kernel selection, and other implementation-level differences in numerical execution. However, it remains unclear whether, when, and to what extent the same factors affect text classification. We present a systematic study of serving-context non-invariance in text classifiers, which prior work has measured only through generated text. We train 180 models spanning discriminative, pseudo-generative, and fully generative classifier formulations and evaluate each across four categories of serving contexts, holding the checkpoint and the text fixed. Label stability does not imply score stability. Changing only the batch shape changes no labels across fp32 comparisons, yet under bf16 it moves up to 56.7 percentage points of predicted probability mass, with label changes concentrated at small margins. Fully generative classifiers change more labels than their discriminative counterparts under the same serving changes. We derive sufficient conditions for label stability under each serving change and give a separate mitigation for each mechanism. Our results identify and quantify the serving conditions that must be fixed for reproducible text classification.",
+  "published_at": null,
+  "announced_at": "2026-10-08T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "ca5ece31416e9ddbc3d5",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-09/ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c.body",
+  "source_sha256": "ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c",
+  "fetched_at": "2026-10-09T01:00:04.331143+00:00"
+}

@@ -1,0 +1,7 @@
+October 8, 2026. LegalOn halves Codex costs while maintaining development speed.
+Results: Reduction in estimated daily costs: -65%.
+The company initially gave developers unlimited access to its main model, GPT-5.5 in Fast mode.
+To support governance, the company also introduced system controls through administrator settings, with monthly usage limits for departments and individuals.
+GPT-6 Luna, the lightest model, handles code implementation with clear requirements; GPT-6.1 Sol supports standard design, data analysis, and document preparation; and GPT-6 Astra, the most capable model, handles advanced judgment, including architecture design.
+Alongside model selection, the company began restricting Fast mode by default, allowing individual requests only when needed.
+Agent reading note: the feature-release ROI measurement pipeline is currently being built; this is a company customer case, not an independent controlled evaluation.

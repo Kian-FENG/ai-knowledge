@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/ai-math-breakthroughs-have-ethereum-researchers-debating-how-fast-wallet-security-could-collapse/",
+  "title": "AI math breakthroughs have Ethereum researchers debating how fast wallet security could collapse",
+  "text": "Ethereum researcher Justin Drake is urging the crypto industry to prepare a \"bunker mode\" for a scenario where AI-powered math could break wallet signature schemes within months. Vitalik Buterin broadly agrees but warns against rushed migrations, saying he's personally lost more money to botched transitions than to hacks. So far, no one has actually broken ECDSA in practice.\nThe article AI math breakthroughs have Ethereum researchers debating how fast wallet security could collapse appeared first on The Decoder.",
+  "published_at": "2026-10-08T13:52:54+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a4da0c123a05c12db890",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/7170651482e90a565b4f49f8e0662d74d6c3b8bb956e2cac1ac356ba8e655d82.body",
+  "source_sha256": "7170651482e90a565b4f49f8e0662d74d6c3b8bb956e2cac1ac356ba8e655d82",
+  "fetched_at": "2026-10-09T01:00:14.567960+00:00"
+}

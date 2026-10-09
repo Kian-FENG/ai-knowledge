@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/big-tech/article/3370154/us-ai-firm-anthropic-enables-chinese-language-options-claude-chatbot",
+  "title": "US AI firm Anthropic enables Chinese-language options for Claude chatbot",
+  "text": "US artificial intelligence company Anthropic has introduced Chinese-language options to its Claude chatbot in supported markets, even as it continues to block users from mainland China.\nChecks by the South China Morning Post on Thursday confirmed that Claude’s web interface now lets users select simplified and traditional Chinese as their preferred on-screen language. China also briefly appeared as a billing country option before disappearing from the settings.\nUsers on X have shared screenshots...",
+  "published_at": "2026-10-08T07:38:25+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a34b8bd86c70f7926e9a",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/ca7aabb0daa86fda29024e4aa614d493a0020034d00550ba8093dfa0e66ab3d4.body",
+  "source_sha256": "ca7aabb0daa86fda29024e4aa614d493a0020034d00550ba8093dfa0e66ab3d4",
+  "fetched_at": "2026-10-09T01:00:17.205287+00:00"
+}

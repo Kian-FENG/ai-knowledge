@@ -60,3 +60,27 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 ## 2026-10-08T01:20:19.743998+00:00 — 2026-10-07日报与知识入库
 
 完成洛杉矶前一日18:00至当日18:00窗口，精选12事件；新建并审核发布14页（9来源/2论文/2公司/1综合），更新0；默认标题query→get_page回查14页及raw hash均通过。去重Vinci/Namespace/Reflection、旧学习功能；未核实融资/模型卡/论文全文保留候选。54页结构校验与49离线测试通过，source-checked仅有限陈述核对，不作独立复现。报告/证据/覆盖详见reports/daily/2026/10/2026-10-07。
+
+## 2026-10-09T01:11:43.480038+00:00 — 2026-10-08 日报知识批次
+
+起草以下有增量且可追溯页面；公司/维护者为reported、综合为derived，source-checked仅有限来源支持关系。
+
+- [[reference/sources/google-gemini-work-agent-20261008|Google 发布 Gemini 工作 Agent：云端持续执行、任务身份与项目预算结合]]
+- [[reference/sources/legalon-codex-budget-routing-20261008|LegalOn 案例把模型分工与预算管理同时纳入编码 Agent 采用]]
+- [[reference/sources/codex-faster-steering-20261008|Codex 桌面端开始推送更快的任务中途引导]]
+- [[reference/sources/anthropic-usage-policy-20261008|Anthropic 公布使用政策修订，11月12日才生效]]
+- [[reference/sources/anthropic-cyber-mission-20261008|Anthropic 扩展关键基础设施防御，并推出自愿加入的开源扫描服务]]
+- [[reference/sources/today-seed-20261008|新增公司 TODAY：为金融保险顾问工作流融资 EUR 280万]]
+- [[reference/sources/anthropic-genesis-commitment-20261008|Anthropic 承诺三年提供 USD 1.5亿科研资源]]
+- [[reference/sources/openai-sol-ultrafast-20261008|GPT-6.1 Sol 新增 Ultrafast：以更高单价购买低延迟服务]]
+- [[reference/sources/dynamo-session-aware-20261008|Dynamo 按 Agent 会话管理缓存和准入，部分接口仍是提案]]
+- [[reference/sources/pytorch-spyre-native-device-20261008|IBM 说明 Spyre 原生 PyTorch 设备集成及其运行时边界]]
+- [[reference/sources/dynamo-kimi-k3-snapshot-20261008|Dynamo 发布 Kimi-K3 实验快照，明确不适合生产]]
+- [[reference/papers/vllm-omni-2610-09307|vLLM-Omni 技术报告：把多模态生成组织为多阶段运行时]]
+- [[reference/papers/comoe-2610-09424|CoMoE：为缺少 GPU P2P 的普通多卡系统设计 MoE 数据路径]]
+- [[reference/sources/nvidia-science-commitment-20261008|NVIDIA 承诺五年投入价值 USD 10亿的美国科研支持]]
+- [[reference/sources/tsmc-september-revenue-20261008|台积电9月合并营收同比增54.6%，不能直接推导 AI 产能]]
+- [[reference/entities/today|TODAY：金融保险顾问的工作流 Agent]]
+- [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的竞争开始连接身份、会话缓存与任务预算]]
+
+- 2026-10-08批次发布与回查完成：17新页；默认标题检索可见、raw证据hash一致。

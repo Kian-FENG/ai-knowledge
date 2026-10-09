@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>重庆市大数据应用发展管理局</title>
+    <!--站点类-->
+<meta name="SiteName" content="重庆市大数据应用发展管理局">
+<meta name="SiteDomain" content="dsjj.cq.gov.cn/">
+<meta name="SiteIDCode" content="5000000113">
+
+<!--栏目类-->
+<meta name="ColumnName" content="">
+  
+	<meta name="ColumnDescription" content="">
+
+
+  
+	<meta name="ColumnKeywords" content="">
+
+
+  
+	<meta name="ColumnType" content="">
+
+
+    <link rel="stylesheet" href="./images/common.css" />
+    <link rel="stylesheet" href="./images/main.css" />
+    <link rel="stylesheet" href="./images/style.css" />
+    <link rel="stylesheet" href="./images/zwgkgb.css">
+    <script type="text/javaScript" src="./images/jquery.min.js"></script>
+    <script type="text/javaScript" src="./images/common.js"></script>
+    <script type="text/javaScript" src="./images/index.js"></script>
+    <script type="text/javaScript" src="./images/lb.js"></script>
+    <style>
+        /* 100周年飘红 */
+        /* .top {
+          background: url(//dsjj.cq.gov.cn/images/100zn-ph-pc.png) top center no-repeat;
+          background-size:100% auto;
+        } */
+        /* end */
+        .g-w100 {
+            background: #fff;
+        }
+        .ban-more-img p{
+            width:372px;
+            border:none;
+        }
+        .ban-container .ban-more-btn{
+            margin-top: -20px;
+        }
+        .ban-more-box {
+            width: 1200px;
+            height: 115px;
+            position: relative;
+            overflow: hidden;
+            background: #fff;
+        }
+        .g-w100 a img {
+            width: 385px;
+            height: 100px;
+        }
+        .g-w100 a {
+            margin-left: 22px;
+        }
+        .tzgg_block {
+            position: relative;
+            height: 110px;
+            overflow: hidden;
+        }
+        .lb-tt-item {
+            height: 110px;
+            padding-left: 135px;
+        }
+        .main_tab .tab-item li,.main_tab .tab-item li:hover{
+            background-image: none;
+        }
+        .tab-list-bool li{
+            width:20%;
+        }
+        .tab-list-bool li a{
+            width:75%;
+        }
+        .main_tab .tab-item a{
+            line-height:46px;
+        }
+        .part-list .part{display:none;}
+        .part-list .part.selected,.part-list .tab-item.selected{
+            display:block !important;
+        }
+        .part-list .tab-item {
+            display: none;
+            padding-top: 48px;
+        }
+        .part-list .tab-item a {
+            color: #444;
+            font-size: 16px;
+        }
+        .part-list .tab-item span {
+            font-size: 14px;
+        }
+        .main2-link a.cur{
+            border: none;
+            background: #0662b1;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .main2-link a{width: 340px;
+            line-height: 40px;
+            background: #f6f5f8;
+            font-size: 16px;
+            text-align: center;
+            color: #1275ca;
+            float: left;
+            display: inline-block;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-left: 50px;}
+        .main2-link {
+            margin-left: 75px;
+        }
+        .main2-link a {
+            width: 200px;
+            line-height: 40px;
+            background: #f6f5f8;
+            font-size: 16px;
+            text-align: center;
+            color: #1275ca;
+            float: left;
+            display: inline-block;
+            border-radius: 4px;
+        }
+        .main2-link a.cur {
+            border: none;
+            background: #0662b1;
+            color: #fff;
+            font-weight: bold;
+        }
+.main_1{
+width:1200px;
+margin:0 auto;
+}
+    </style>
+</head>
+
+<body>
+<!-- 头部start -->
+<style>.top-menu a {
+  width: 20%;
+}</style>
+<!--弹框-->
+<link rel="stylesheet" href="/images/xcConfirm.css">
+<script type="text/javascript" src="/images/xcConfirm.js"></script>
+<!--统一登录认证 start-->
+<script src="//cq.gov.cn/images/crypto-js.min.js"></script>
+<script src="//cq.gov.cn/images/DECRYPT.js"></script>
+<script src="//cq.gov.cn/images/ykb-request.js"></script>
+<script src="//cq.gov.cn/images/ykb-api.js"></script>
+<script src="//cq.gov.cn/images/ykb-base.js?v=1.2"></script>
+<input type="text" hidden id="loginSiteId" value="533" />
+<script>
+  $(function () {
+    //获取用户信息-有额外的操作可以在回调中使用
+    getUserInfo(function (res) {
+      if(res!=200){
+        // 校验国家政务网登录 start
+        checkLoginGj()
+        // 校验国家政务网登录 end
+      }
+    })
+  })
+</script>
+
+  <!-- 头部start -->
+  <div class="top">
+    <div class="wrap">
+      <div class="top-login clearfix">
+        <a class="lf" href="http://www.gov.cn" target="_blank">中国政府网</a>
+        <span class="lf">&nbsp;|&nbsp;</span>
+        <a class="lf" href="http://www.cq.gov.cn" target="_blank">重庆市人民政府网</a>
+<!--<a class="rt" id="toolbarSwitch" href="javascript:void(0)" style="margin-left:10px;">无障碍</ a>-->
+<a class="rt" href="javascript:void(0);" id="toolbarSwitch" onclick="EsdInit.openClickFunc();" onkeydown="EsdInit.openKeydownFunc(event);" style="margin-left:10px;" tabindex="0">网站无障碍</a>
+<a class="rt" href="javascript:void(0);" onclick="EsdInit.openElderlyFunc();" style="margin-left:10px;" tabindex="0">适老版</a>
+                          <a class="rt cq-register cq-register-gr" id="register" href="javascript:void(0)">注册</a>
+                          <a class="rt cq-logout" href="javascript:void(0)" id="logout">注销</a>
+                          <span class="rt" id="delimiter">|</span>
+                          <a class="rt cq-login" id="login" href="javascript:void(0)">登录</a><span class="rt cq-user-name" id="loginusername"></span>
+      </div>
+      <div class="logo clearfix">
+        <a class="lf" href="//dsjj.cq.gov.cn/"><img src="/images/logo.png" alt="" /></a>
+        <div class="xhy-hntr rt clearfix">
+          <div class="xhy-search tyh-search lf">
+            <input type="text" id="textfield" placeholder="请输入关键字" maxlength="50" onkeydown="if(event.keyCode==13){submitsearch();}" onfocus="if(this.value=='请输入搜索内容'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键字';}" />
+            <button id="toSearch" onclick="submitsearch()"></button>
+          </div>
+        </div>
+      </div>
+<style type="text/css">
+#logout {
+ display:none; 
+}
+#loginusername{
+color:#fff;
+}
+</style>
+<script>
+
+function submitsearch(){
+  var result = $("#textfield").val();
+  result = $.trim(result); 
+  var reg = /[`~!@#$%^&*_+<>{}\/'[\]]/im;
+ 
+  if (result == "请输入搜索内容" || result == "" || result == null) {
+    window.wxc.xcConfirm('请输入检索条件!', window.wxc.xcConfirm.typeEnum.info)
+    return false;
+  } else {
+    result = result.replace("-", "\-");
+    result = result.replace("(", "\(");
+    result = result.replace(")", "\)");
+  }
+
+
+window.location.href=  "//dsjj.cq.gov.cn/cqs/searchResultPC.html?tenantId=52&configTenantId=52&areaCode=500000147&searchWord=" + encodeURI(result);
+
+  //window.location.href="//dsjj.cq.gov.cn/cq/index.html?sitecode=6fb334585cc44a40b2829f8a6ae3b75b&siteid=82&keyWork=" + encodeURI(result);
+}
+</script>
+<!--信息检索end-->
+      <div class="top-menu clearfix">
+        <div class="menu">
+          <a class="cur" href="//dsjj.cq.gov.cn/"><img src="//dsjj.cq.gov.cn/images/col-icon1.png" /><span>首页</span></a>
+          <a href="//dsjj.cq.gov.cn/zwgk_533/"><img src="//dsjj.cq.gov.cn/images/col-icon2.png" /><span>政务公开</span></a>
+          <a href="https://zwykb.cq.gov.cn/?record=istrue" target="_blank"><img src="//dsjj.cq.gov.cn/images/col-icon3.png" /><span>渝快办</span></a>
+          <a href="//dsjj.cq.gov.cn/hdjl_533/"><img src="//dsjj.cq.gov.cn/images/col-icon4.png" /><span>互动交流</span></a>
+<a href="//dsjj.cq.gov.cn/ztzl/"><img src="//dsjj.cq.gov.cn/images/col-icon4.png" /><span>专题专栏</span></a>
+          <!--<a href="#"><img src="../../images/col-icon5.png" /><span>自设栏目</span></a>-->
+          <img class="menu-img" src="/images/menu.png" />
+          <img class="menu-img2" src="/images/menu-2.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 头部end -->
+<!-- 头部end -->
+<!-- 头图部分start -->
+<div class="main_1">
+
+    <div class="wrap clearfix">
+        <div class="fade-box lf">
+            <div class="fade-img">
+
+                
+                    
+                        <a target="_blank" href="https://mp.weixin.qq.com/s/TT54vorhDSjR4ldQiKle9g?scene=1&click_id=261776765" style="display: block;"><img src="./sy_533/bmdt/sj/202610/W020261008582615855674_ORIGIN_600.png" /></a>
+                    
+                    
+                        <a target="_blank" href="https://mp.weixin.qq.com/s/EAsQj-zGNkJ-ZRhhcfcObA" style="display: none;"><img src="./sy_533/bmdt/qx/202609/W020260930589755589424_ORIGIN_600.jpg" /></a>
+                    
+                        <a target="_blank" href="https://mp.weixin.qq.com/s/K48tm7Mkj94twRSyo2d9tg" style="display: none;"><img src="./sy_533/bmdt/qx/202609/W020260924616650583712_ORIGIN_600.jpg" /></a>
+                    
+                        <a target="_blank" href="https://mp.weixin.qq.com/s/KQkLnSE-HmO9YF7Swc90Xg" style="display: none;"><img src="./sy_533/bmdt/sj/202609/W020260918549823561962_ORIGIN_600.png" /></a>
+                    
+                        <a target="_blank" href="https://mp.weixin.qq.com/s/OG3ecqv8YpeuT9yWySjnrQ" style="display: none;"><img src="./sy_533/bmdt/sj/202609/W020260911604511745227_ORIGIN_600.png" /></a>
+                    
+                
+            </div>
+            <div class="fade-txt">
+                
+                    
+                        <a style="display: block;" target="_blank" href="https://mp.weixin.qq.com/s/TT54vorhDSjR4ldQiKle9g?scene=1&click_id=261776765" title="重庆市人民政府办公厅关于印发《重庆市推动人工智能赋能人力资源服务业高质量发展若干措施》的通知">重庆市人民政府办公厅关于印发《重庆市推动人工智能赋能人力资源...</a>
+                    
+                    
+                        <a style="display: none;" target="_blank" href="https://mp.weixin.qq.com/s/EAsQj-zGNkJ-ZRhhcfcObA" title="袁家军在南川区涪陵区调研并召开现场会 提质推进群防群治除险固安 持续提升超大城市本质安全水平">袁家军在南川区涪陵区调研并召开现场会 提质推进群防群治除险固安...</a>
+                    
+                        <a style="display: none;" target="_blank" href="https://mp.weixin.qq.com/s/K48tm7Mkj94twRSyo2d9tg" title="巫溪县数字重庆建设推进会暨群防群治百日攻坚调度会召开">巫溪县数字重庆建设推进会暨群防群治百日攻坚调度会召开</a>
+                    
+                        <a style="display: none;" target="_blank" href="https://mp.weixin.qq.com/s/KQkLnSE-HmO9YF7Swc90Xg" title="重庆新闻联播 | 新闻第1线 · 渝新携手 打造跨域算电协同标志性成果">重庆新闻联播 | 新闻第1线 · 渝新携手 打造跨域算电协同标志性成果</a>
+                    
+                        <a style="display: none;" target="_blank" href="https://mp.weixin.qq.com/s/OG3ecqv8YpeuT9yWySjnrQ" title="重庆新闻联播 | “疆算入渝”算力交付暨中国移动—阿里云智算中心项目开工活动在新疆哈密举行">重庆新闻联播 | “疆算入渝”算力交付暨中国移动—阿里云智算中心...</a>
+                    
+                
+            </div>
+            <div class="fade-num">
+                
+                    
+                        <span class="cur"></span>
+                    
+                    
+                        <span class=""></span>
+                    
+                        <span class=""></span>
+                    
+                        <span class=""></span>
+                    
+                        <span class=""></span>
+                    
+                
+            </div>
+        </div>
+        <div class="main_tab rt">
+            <div class="tab-parent">
+                <ul class="tab-list-bool clearfix">
+                    <li class="cur"><a href="http://www.gov.cn/pushinfo/v150203/index.htm" target="_blank">国务院信息</a></li>
+                    <li class=""><a href="http://www.cq.gov.cn/ywdt/jrcq/" target="_blank">今日重庆</a></li>
+                    <li class=""><a href="./sy_533/bmdt/">部门动态</a></li>
+                    <li class=""><a href="./sy_533/mtbd/">新闻报道</a></li>
+                    <li class=""><a href="./zwgk_533/zdmsxx/">通知公告</a></li>
+                    <!-- <li class=""><a href=""></a></li> -->
+                </ul>
+                <img class="tab-img-1" src="./images/tab-img-1.png" />
+            </div>
+            <div class="tab-group">
+                <ul class="tab-item" style="display: block;" id="gwyinfo">
+
+                </ul>
+                <ul class="tab-item" style="display: none;" id="cqjrcq">
+
+                </ul>
+
+                <ul class="tab-item" style="display: none;">
+                    <!--新增显示三个子栏目-->
+                    <div class="parts">
+                        <div class="main2-link clearfix" id="main2-link">
+                            <a style="width:145px;margin-left:95px;" class="cur" href="./sy_533/bmdt/sj/" >市局</a>
+                            <a  style="width:145px;" href="./sy_533/bmdt/qx/">区县</a>
+                        </div>
+                        <div class="part-list">
+                            <ul class="part selected">
+                                
+                                    <li class="clearfix">
+                                        <a href="https://tousu.www.gov.cn/dc/2024yxyshjjs/index.htm" title="影响营商环境建设问题线索征集" target="_blank">
+                                            <span class="dot"></span>
+                                            <script>if("影响营商环境建设问题线索征集</TRS_DOCUMENT>"!=""){
+                                                document.write('影响营商环境建设问题线索征集</TRS_DOCUMENT>');}
+                                            else{
+                                                document.write('影响营商环境建设问题线索征集</TRS_DOCUMENT>');
+                                            }</script>
+                                        </a>
+                                        <span>2024-02-01</span>
+                                    </li>
+                                
+                                    <li class="clearfix">
+                                        <a href="https://mp.weixin.qq.com/s/TT54vorhDSjR4ldQiKle9g?scene=1&click_id=261776765" title="重庆市人民政府办公厅关于印发《重庆市推动人工智能赋能人力资源服务业高质量发展若干措施》的通知" target="_blank">
+                                            <span class="dot"></span>
+                                            <script>if("重庆市人民政府办公厅关于印发《重庆市推动人工智能赋能人力资源服务业高质量发展若干措施》的通知</TRS_DOCUMENT>"!=""){
+                                                document.write('重庆市人民政府办公厅关于印发《重庆市推动人工智能赋能人力资源服务业高质量发展若干措施》的通知</TRS_DOCUMENT>');}
+                                            else{
+                                                document.write('重庆市人民政府办公厅关于印发《重庆市推动人工智能赋能人力资源服务业高质量发展若干措施》的通知</TRS_DOCUMENT>');
+                                            }</script>
+                                        </a>
+                                        <span>2026-10-08</span>
+                                    </li>
+                                
+                                    <li class="clearfix">
+                                        <a href="https://mp.weixin.qq.com/s/xqZe122x5wucLq7Kv8QBkQ" title="联播 | 我国发放首批数据产权登记凭证" target="_blank">
+                                            <span class="dot"></span>
+                                            <script>if("联播 | 我国发放首批数据产权登记凭证</TRS_DOCUMENT>"!=""){
+                                                document.write('联播 | 我国发放首批数据产权登记凭证</TRS_DOCUMENT>');}
+                                            else{
+                                                document.write('联播 | 我国发放首批数据产权登记凭证</TRS_DOCUMENT>');
+                                            }</script>
+                                        </a>
+                                        <span>2026-09-30</span>
+                                    </li>
+                                
+                                    <li class="clearfix">
+                                        <a href="https://mp.weixin.qq.com/s/p6YPdaQDtQAYrhr5_OOjRw" title="联播 | 我国将在10个行业开展数据资源开发利用攻坚行动" target="_blank">
+                                            <span class="dot"></span>
+                                            <script>if("联播 | 我国将在10个行业开展数据资源开发利用攻坚行动</TRS_DOCUMENT>"!=""){
+                                                document.write('联播 | 我国将在10个行业开展数据资源开发利用攻坚行动</TRS_DOCUMENT>');}
+                                            else{
+                                                document.write('联播 | 我国将在10个行业开展数据资源开发利用攻坚行动</TRS_DOCUMENT>');
+                                            }</script>
+                                        </a>
+                                        <span>2026-09-24</span>
+                                    </li>
+                                
+                                    <li class="clearfix">
+                                        <a href="./sy_533/bmdt/sj/202609/t20260923_16120824.html" title="重庆市大数据应用发展管理局党组召开巡视整改专题民主生活会" target="_blank">
+                                            <span class="dot"></span>
+                                            <script>if("重庆市大数据应用发展管理局党组召开巡视整改专题民主生活会</TRS_DOCUMENT>"!=""){
+                                                document.write('重庆市大数据应用发展管理局党组召开巡视整改专题民主生活会</TRS_DOCUMENT>');}
+                                            else{
+                                                document.write('重庆市大数据应用发展管理局党组召开巡视整改专题民主生活会</TRS_DOCUMENT>');
+                                            }</script>
+                                        </a>
+                                        <span>2026-09-21</span>
+                                    </li>
+                                
+                            </ul>
+                            <ul class="part">
+                                
+                                    <li class="clearfix">
+                                        <a href="https://mp.weixin.qq.com/s/8f4-CVmbcB_OZpu_BKH44w" title="酉阳县推进数字重庆建设工作领导小组（扩大）会议召开" target="_blank">
+                                            <span class="dot"></span>
+                                            <script>if("酉阳县推进数字重庆建设工作领导小组（扩大）会议召开</TRS_DOCUMENT>"!=""){
+                                                document.write('酉阳县推进数字重庆建设工作领导小组（扩大）会议召开</TRS_DOCUMENT>');}
+                                            else{
+                                                document.write('酉阳县推进数字重庆建设工作领导小组（扩大）会议召开</TRS_DOCUMENT>');
+                                            }</script>
+                                        </a>
+                                        <span>2026-10-08</span>
+                                    </li>
+                                
+                                    <li class="clearfix">
+                                        <a href="https://mp.weixin.qq.com/s/EAsQj-zGNkJ-ZRhhcfcObA" title="袁家军在南川区涪陵区调研并召开现场会 提质推进群防群治除险固安 持续提升超大城市本质安全水平" target="_blank">
+                                            <span class="dot"></span>
+                                            <script>if("袁家军在南川区涪陵区调研并召开现场会 提质推进群防群治除险固安 持续提升超大城市本质安全水平</TRS_DOCUMENT>"!=""){
+                                                document.write('袁家军在南川区涪陵区调研并召开现场会 提质推进群防群治除险固安 持续提升超大城市本质安全水平</TRS_DOCUMENT>');}
+                                            else{
+                                                document.write('袁家军在南川区涪陵区调研并召开现场会 提质推进群防群治除险固安 持续提升超大城市本质安全水平</TRS_DOCUMENT>');
+                                            }</script>
+                                        </a>
+                                        <span>2026-09-30</span>
+                                    </li>
+                                
+                                    <li class="clearfix">
+                                        <a href="https://mp.weixin.qq.com/s/K48tm7Mkj94twRSyo2d9tg" title="巫溪县数字重庆建设推进会暨群防群治百日攻坚调度会召开" target="_blank">
+                                            <span class="dot"></span>
+                                            <script>if("巫溪县数字重庆建设推进会暨群防群治百日攻坚调度会召开</TRS_DOCUMENT>"!=""){
+                                                document.write('巫溪县数字重庆建设推进会暨群防群治百日攻坚调度会召开</TRS_DOCUMENT>');}
+                                            else{
+                                                document.write('巫溪县数字重庆建设推进会暨群防群治百日攻坚调度会召开</TRS_DOCUMENT>');
+                                            }</script>
+                                        </a>
+                                        <span>2026-09-24</span>
+                                    </li>
+                                
+                                    <li class="clearfix">
+                                        <a href="https://mp.weixin.qq.com/s/Zu2UfuGyLC7qWsYATMvqYw" title="渝中区召开数字重庆建设大会" target="_blank">
+                                            <span class="dot"></span>
+                                            <script>if("渝中区召开数字重庆建设大会</TRS_DOCUMENT>"!=""){
+                                                document.write('渝中区召开数字重庆建设大会</TRS_DOCUMENT>');}
+                                            else{
+                                                document.write('渝中区召开数字重庆建设大会</TRS_DOCUMENT>');
+                                            }</script>
+                                        </a>
+                                        <span>2026-09-18</span>
+                                    </li>
+                                
+                                    <li class="clearfix">
+                                        <a href="https://mp.weixin.qq.com/s/Z-MXN20syHl5fDPpTzyAww" title="云阳县推进数字重庆建设领导小组会暨数字重庆建设工作推进会召开" target="_blank">
+                                            <span class="dot"></span>
+                                            <script>if("云阳县推进数字重庆建设领导小组会暨数字重庆建设工作推进会召开</TRS_DOCUMENT>"!=""){
+                                                document.write('云阳县推进数字重庆建设领导小组会暨数字重庆建设工作推进会召开</TRS_DOCUMENT>');}
+                                            else{
+                                                document.write('云阳县推进数字重庆建设领导小组会暨数字重庆建设工作推进会召开</TRS_DOCUMENT>');
+                                            }</script>
+                                        </a>
+                                        <span>2026-09-11</span>
+                                    </li>
+                                
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </ul>
+                <ul class="tab-item" style="display: none;">
+                    
+                        <li class="clearfix"><a href="https://mp.weixin.qq.com/s/TT54vorhDSjR4ldQiKle9g?scene=1&click_id=261776765"  target="_blank" title="重庆市人民政府办公厅关于印发《重庆市推动人工智能赋能人力资源服务业高质量发展若干措施》的通知">重庆市人民政府办公厅关于印发《重庆市推动人工智能赋能人力...</a><span>2026-10-08</span></li>
+                    
+                        <li class="clearfix"><a href="https://mp.weixin.qq.com/s/EAsQj-zGNkJ-ZRhhcfcObA"  target="_blank" title="袁家军在南川区涪陵区调研并召开现场会 提质推进群防群治除险固安 持续提升超大城市本质安全水平">袁家军在南川区涪陵区调研并召开现场会 提质推进群防群治除险...</a><span>2026-09-30</span></li>
+                    
+                        <li class="clearfix"><a href="https://mp.weixin.qq.com/s/p6YPdaQDtQAYrhr5_OOjRw"  target="_blank" title="联播 | 我国将在10个行业开展数据资源开发利用攻坚行动">联播 | 我国将在10个行业开展数据资源开发利用攻坚行动</a><span>2026-09-24</span></li>
+                    
+                        <li class="clearfix"><a href="https://mp.weixin.qq.com/s/likZbbhV_9Bj3RUewAaTVw"  target="_blank" title="新闻发布会 | 重庆将迭代完善数字基础设施 推广“一键报险” “一键叫应”等能力组件">新闻发布会 | 重庆将迭代完善数字基础设施 推广“一键报险” ...</a><span>2026-09-18</span></li>
+                    
+                        <li class="clearfix"><a href="https://mp.weixin.qq.com/s/KQkLnSE-HmO9YF7Swc90Xg"  target="_blank" title="重庆新闻联播 | 新闻第1线 · 渝新携手 打造跨域算电协同标志性成果">重庆新闻联播 | 新闻第1线 · 渝新携手 打造跨域算电协同标志...</a><span>2026-09-18</span></li>
+                    
+                        <li class="clearfix"><a href="https://mp.weixin.qq.com/s/pFupNip6pk24IC9IIEChpw"  target="_blank" title="风起戈壁 决“算”千里——打探“疆算入渝”工程起点哈密">风起戈壁 决“算”千里——打探“疆算入渝”工程起点哈密</a><span>2026-09-11</span></li>
+                    
+                </ul>
+                <ul class="tab-item" style="display: none;">
+                    
+                        <li class="clearfix"><a href="./zwgk_533/zdmsxx/202609/t20260918_16098163.html"  target="_blank" title="重庆市数字化城市运行和治理中心2026年研究课题遴选公告">重庆市数字化城市运行和治理中心2026年研究课题遴选公告</a><span>2026-09-18</span></li>
+                    
+                        <li class="clearfix"><a href="./zwgk_533/zdmsxx/202609/t20260918_16097800.html"  target="_blank" title="关于重庆市公共数据开放系统网站域名变更的公告">关于重庆市公共数据开放系统网站域名变更的公告</a><span>2026-09-18</span></li>
+                    
+                        <li class="clearfix"><a href="./sy_533/bmdt/sj/202609/t20260910_16056901.html"  target="_blank" title="重庆市大数据应用发展管理局关于公开征求《重庆市培育发展词元经济行动计划（2026—2028年）（公开征求意见稿）》意见建议的公告">重庆市大数据应用发展管理局关于公开征求《重庆市培育发展词...</a><span>2026-09-09</span></li>
+                    
+                        <li class="clearfix"><a href="./zwgk_533/zdmsxx/202609/t20260903_16024942.html"  target="_blank" title="关于公布2026年“数据要素×”大赛重庆分赛获奖名单的通知">关于公布2026年“数据要素×”大赛重庆分赛获奖名单的通知</a><span>2026-09-03</span></li>
+                    
+                        <li class="clearfix"><a href="./zwgk_533/zdmsxx/202608/t20260822_15964781.html"  target="_blank" title="关于2026年“数据要素×”大赛重庆分赛拟获奖名单的公示">关于2026年“数据要素×”大赛重庆分赛拟获奖名单的公示</a><span>2026-08-22</span></li>
+                    
+                        <li class="clearfix"><a href="./zwgk_533/zdmsxx/202608/t20260817_15943905.html"  target="_blank" title="重庆市大数据应用发展管理局关于开展2026年中新信息通信媒体联合创新发展资金（JIDF）项目申报的通知">重庆市大数据应用发展管理局关于开展2026年中新信息通信媒体...</a><span>2026-08-17</span></li>
+                    
+                </ul>
+                <!-- <ul class="tab-item" style="display: none;">
+                    
+                </ul> -->
+            </div>
+        </div>
+    </div>
+<a href="./ztzl/szqh/">
+    <img style="width:1200px; display:block;  margin:20px auto;" src="./ztzl/szqh/images/P020251128619277159698.jpg" />
+  </a>
+<a href="./ztzl/zgtsshzy/">
+    <img style="width:1200px; display:block;  margin:20px auto;" src="./ztzl/zgtsshzy/images/P020230614580936351939.jpg" />
+  </a>
+    <!-- <div class="clearfix tzgg_block">
+        <div class="lf tzgg_title">
+          <a href="./zwgk_533/zdmsxx/">通知公告</a>
+        </div>
+        <div class="lb-tt-bnr lb-tt-bnr2 lf">
+          
+            <ul class="lb-tt-item" style="display: none;">
+              
+                <li><a href="./zwgk_533/zdmsxx/202609/t20260918_16098163.html" target="_blank" title="重庆市数字化城市运行和治理中心2026年研究课题遴选公告">重庆市数字化城市运行和治理中心2026年研究课题遴选公告</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202609/t20260918_16097800.html" target="_blank" title="关于重庆市公共数据开放系统网站域名变更的公告">关于重庆市公共数据开放系统网站域名变更的公告</a></li>
+              
+                <li><a href="./sy_533/bmdt/sj/202609/t20260910_16056901.html" target="_blank" title="重庆市大数据应用发展管理局关于公开征求《重庆市培育发展词元经济行动计划（2026—2028年）（公开征求意见稿）》意见建议的公告">重庆市大数据应用发展管理局关于公开征求《重庆市培育发展词元经济行动计划（2026—2028年）（公开征求意见稿）》意见建议的公告</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202609/t20260903_16024942.html" target="_blank" title="关于公布2026年“数据要素×”大赛重庆分赛获奖名单的通知">关于公布2026年“数据要素×”大赛重庆分赛获奖名单的通知</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202608/t20260822_15964781.html" target="_blank" title="关于2026年“数据要素×”大赛重庆分赛拟获奖名单的公示">关于2026年“数据要素×”大赛重庆分赛拟获奖名单的公示</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202608/t20260817_15943905.html" target="_blank" title="重庆市大数据应用发展管理局关于开展2026年中新信息通信媒体联合创新发展资金（JIDF）项目申报的通知">重庆市大数据应用发展管理局关于开展2026年中新信息通信媒体联合创新发展资金（JIDF）项目申报的通知</a></li>
+              
+            </ul>
+          
+            <ul class="lb-tt-item" style="display: none;">
+              
+                <li><a href="./zwgk_533/zdmsxx/202608/t20260813_15929250.html" target="_blank" title="重庆市大数据应用发展管理局关于开展2026年重庆市工程技术大数据智能化专业职称申报评审工作的通知">重庆市大数据应用发展管理局关于开展2026年重庆市工程技术大数据智能化专业职称申报评审工作的通知</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202608/t20260806_15901519.html" target="_blank" title="重庆市大数据应用发展管理局关于公布2026年中新信息通信媒体联合创新发展资金（JIDF）支持项目的通知">重庆市大数据应用发展管理局关于公布2026年中新信息通信媒体联合创新发展资金（JIDF）支持项目的通知</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202608/t20260803_15887129.html" target="_blank" title="重庆市大数据应用发展管理局关于2026年“数据要素×”大赛重庆分赛入围决赛项目名单的公示">重庆市大数据应用发展管理局关于2026年“数据要素×”大赛重庆分赛入围决赛项目名单的公示</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202607/t20260722_15839632.html" target="_blank" title="重庆市大数据应用发展管理局2026年研究课题遴选公告">重庆市大数据应用发展管理局2026年研究课题遴选公告</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202607/t20260720_15832439.html" target="_blank" title="重庆市大数据应用发展管理局关于2026年中新信息通信媒体联合创新发展资金（JIDF）拟支持项目的公示">重庆市大数据应用发展管理局关于2026年中新信息通信媒体联合创新发展资金（JIDF）拟支持项目的公示</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202606/t20260617_15761468.html" target="_blank" title="重庆市大数据应用发展管理局关于征集中国—上合组织国家数字经济合作典型案例的通知">重庆市大数据应用发展管理局关于征集中国—上合组织国家数字经济合作典型案例的通知</a></li>
+              
+            </ul>
+          
+            <ul class="lb-tt-item" style="display: none;">
+              
+                <li><a href="./zwgk_533/zdmsxx/202606/t20260615_15755294.html" target="_blank" title="关于2026年重庆市第一批算力券拟兑现名单的公示">关于2026年重庆市第一批算力券拟兑现名单的公示</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202606/t20260602_15722311.html" target="_blank" title="重庆市大数据应用发展管理局关于举办2026年“数据要素×”大赛重庆分赛的通知">重庆市大数据应用发展管理局关于举办2026年“数据要素×”大赛重庆分赛的通知</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202604/t20260422_15627810.html" target="_blank" title="重庆市大数据应用发展管理局关于向社会公开征求《重庆市数字化城市运行和治理中心赋能城市治理促进条例（公开征求意见稿）》意见建议的公告">重庆市大数据应用发展管理局关于向社会公开征求《重庆市数字化城市运行和治理中心赋能城市治理促进条例（公开征求意见稿）》意见建议的公告</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202603/t20260311_15520431.html" target="_blank" title="重庆市大数据应用发展管理局关于开展第五批公共数据“跑起来”示范场景建设申报工作的通知">重庆市大数据应用发展管理局关于开展第五批公共数据“跑起来”示范场景建设申报工作的通知</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202603/t20260303_15487514.html" target="_blank" title="重庆市大数据应用发展管理局关于开展2026年第一批算力券兑现工作的通知">重庆市大数据应用发展管理局关于开展2026年第一批算力券兑现工作的通知</a></li>
+              
+                <li><a href="./zwgk_533/zdmsxx/202601/t20260108_15299786.html" target="_blank" title="重庆市大数据应用发展管理局  重庆市科学技术局关于发布重庆市2025年度人工智能应用场景典型案例的公告">重庆市大数据应用发展管理局  重庆市科学技术局关于发布重庆市2025年度人工智能应用场景典型案例的公告</a></li>
+              
+            </ul>
+          
+        </div>
+      </div> -->
+</div>
+<div class="wrap clearfix">
+    <div class="ll-box ll-box2">
+        <img src="./images/ll-zfxxgk-tit.png" alt="" />
+        <ul class="ll-ul ll-ul2 clearfix">
+            <li><a href="./zwgk_533/zfxxgkzn/"><img class="ll-i" src="./images/ll-zfxxgk1.png" alt="" /></a></li>
+            <li><a href="./zwgk_533/zfxxgkzd/"><img class="ll-i" src="./images/ll-zfxxgk2.png" alt="" /></a></li>
+            <li><a href="./zwgk_533/fdzdgknr/"><img class="ll-i" src="./images/ll-zfxxgk3.png" alt="" /></a></li>
+            <li><a href="./zwgk_533/zfxxgknb/"><img class="ll-i" src="./images/ll-zfxxgk4.png" alt="" /></a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- 头图部分end-->
+<div class="w100 g-w100">
+    <div class="wrap clearfix">
+        <!-- <a class="lf" target="_blank" href=" http://www.cq.gov.cn/zt/ttxx/"><img src="./images/ttxx512.png" />
+        <a class="lf" target="_blank" href="https://zwykb.cq.gov.cn/?record=istrue"><img src="./images/g-ykb.png" /></a>
+        <a class="lf" target="_blank" href="https://www.datacq.com.cn/"><img src="./images/g-shuzi.png" /></a> -->
+        <div class="ban-container">
+            <div class="ban-more-box">
+                <div class="ban-more-img">
+                    
+                        <p><a class="img-link" href="https://www.gov.cn/zhengce/zczhjd/" target="_blank"><img src="http://dsjj.cq.gov.cn/ztzl/415747/images/P020230731667397085282.png" width="268" /></a></p>
+                    
+                        <p><a class="img-link" href="https://zwykb.cq.gov.cn/" target="_blank"><img src="http://dsjj.cq.gov.cn/ztzl/359574/images/P020220630705424706813.png" width="268" /></a></p>
+                    
+                        <p><a class="img-link" href="./ztzl/cjkf/" target="_blank"><img src="http://dsjj.cq.gov.cn/ztzl/cjkf/images/P020220630520208725047.jpg" width="268" /></a></p>
+                    
+                        <p><a class="img-link" href="https://data.dsjj.cq.gov.cn/opendata/home" target="_blank"><img src="http://dsjj.cq.gov.cn/ztzl/359677/images/P020220704528278733616.png" width="268" /></a></p>
+                    
+                        <p><a class="img-link" href="./ztzl/zgtsshzy/" target="_blank"><img src="http://dsjj.cq.gov.cn/ztzl/zgtsshzy/images/P020230614580936351939.jpg" width="268" /></a></p>
+                    
+                </div>
+            </div>
+            <div class="ban-more-btn ban-more-left"></div>
+            <div class="ban-more-btn ban-more-right"></div>
+        </div>
+    </div>
+</div>
+<!-- 国务院部分start -->
+<div class="main_3">
+    <div class="wrap">
+        <div class="main3-con clearfix">
+            <div class="m3c-left g-m3c-left">
+                <div class="ll-zx-box clearfix" style="margin-bottom:20px;">
+                    <a href="./zwgk_533/fdzdgknr/jgzn/fzrxx/"><img src="./images/ll-1.png" alt="" />领导信息</a>
+                    <a href="./zwgk_533/fdzdgknr/lzyj/"><img src="./images/ll-2.png" alt="" />履职依据</a>
+                    <a href="./zwgk_533/fdzdgknr/jgzn/"><img src="./images/ll-3.png" alt="" />机构职能</a>
+                    <a href="./zwgk_533/fdzdgknr/ysjs/"><img src="./images/ll-5.png" alt="" />预算决算</a>
+                    <a href="./zwgk_533/zdmsxx/"><img src="./images/ll-4.png" alt="" />通知公告</a>
+                    <a href="./zwgk_533/jyta/"><img src="./images/ll-6.png" alt="" />建议提案</a>
+                    <a href="./zwgk_533/fdzdgknr/xzsyxsf/"><img src="./images/ll-7.png" alt="" />其他法定信息</a>
+                </div>
+                <div class="m3c-col lz-m3c-col">
+                    <div class="tab-parent clearfix l-tab-box g-tab-parent">
+                        <a href="./zwgk_533/zcwj/" class="title cur">政策文件</a>
+
+                    </div>
+                    <div class=" gg-tab-group">
+                        <ul class="tab-item" style="display:block;">
+                           
+    <li class="clearfix"><a target="_blank" href="./zwgk_533/zcwj/zcqtwj/202607/t20260731_15876621.html" title="重庆市人民政府办公厅关于印发《重庆市建设新型能源算力枢纽实施方案》的通知">重庆市人民政府办公厅关于印发《重庆市建设新型能源算力枢纽实施方案》的通知</a><span>2026-07-31</span></li>
+
+    <li class="clearfix"><a target="_blank" href="./zwgk_533/zcwj/zcqtwj/202607/t20260722_15839639.html" title="重庆市大数据应用发展管理局2026年研究课题遴选公告">重庆市大数据应用发展管理局2026年研究课题遴选公告</a><span>2026-07-22</span></li>
+
+    <li class="clearfix"><a target="_blank" href="./zwgk_533/zcwj/zcqtwj/202603/t20260311_15520441.html" title="重庆市大数据应用发展管理局关于开展第五批公共数据“跑起来”示范场景建设申报工作的通知">重庆市大数据应用发展管理局关于开展第五批公共数据“跑起来”示范场景建设申报工作的通知</a><span>2026-03-11</span></li>
+
+    <li class="clearfix"><a target="_blank" href="./zwgk_533/zcwj/zcqtwj/202603/t20260311_15520439.html" title="重庆市大数据应用发展管理局关于开展2026年第一批算力券兑现工作的通知">重庆市大数据应用发展管理局关于开展2026年第一批算力券兑现工作的通知</a><span>2026-03-03</span></li>
+
+    <li class="clearfix"><a target="_blank" href="./zwgk_533/zdmsxx/202512/t20251222_15262093.html" title="重庆市大数据应用发展管理局关于开展数据企业摸底与成长培育工作的通知">重庆市大数据应用发展管理局关于开展数据企业摸底与成长培育工作的通知</a><span>2025-12-22</span></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="m3c-col mt19">
+                    <div class="l-tab-box">
+                        <a href="./zwgk_533/zcjd/" class="title">政策解读</a>
+                    </div>
+                    <ul class="tab-item">
+                        
+                            <li class="clearfix"><a href="./zwgk_533/zcjd/202502/t20250226_14344826.html" title="《重庆市数字化城市运行和治理中心建设运行管理暂行办法》政策解读" target="_blank">《重庆市数字化城市运行和治理中心建设运行管理暂行办法》政...</a><span>2025-02-26</span></li>
+                        
+                            <li class="clearfix"><a href="./zwgk_533/zcjd/202401/t20240123_12852655.html" title="《公平竞争审查制度实施细则》解读" target="_blank">《公平竞争审查制度实施细则》解读</a><span>2024-01-23</span></li>
+                        
+                            <li class="clearfix"><a href="./zwgk_533/zcjd/202306/t20230629_12103842.html" title="《重庆市工程技术大数据智能化专业职称申报条件》政策解读" target="_blank">《重庆市工程技术大数据智能化专业职称申报条件》政策解读</a><span>2023-06-29</span></li>
+                        
+                            <li class="clearfix"><a href="./zwgk_533/zcjd/ytdd/202204/t20220421_10644859.html" title="一图读懂| 重庆市数字产业发展“十四五”规划" target="_blank">一图读懂| 重庆市数字产业发展“十四五”规划</a><span>2022-02-20</span></li>
+                        
+                            <li class="clearfix"><a href="./zwgk_533/zcjd/bmjd/202209/t20220919_11122092.html" title="《重庆市电子政务云平台安全管理办法（试行）》政策解读" target="_blank">《重庆市电子政务云平台安全管理办法（试行）》政策解读</a><span>2022-02-14</span></li>
+                        
+                    </ul>
+                </div>
+                <div class="ll-hdjl">
+                    <a href="./hdjl_533/"><img src="./images/ll-hdjl.png" alt="" /></a>
+                    <div class="ll-2 clearfix">
+                        <a target="_blank" href="./hdjl_533/gkxx/wyxx/"><img src="./images/ll-wyxx.png" alt="" /></a>
+                        <a target="_blank" href="./hdjl_533/gkxx/xjcx/"><img src="./images/ll-xjcx.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 国务院部分end -->
+<!-- 分享 -->
+<div class="share">
+  
+</div>
+<!-- 底部start -->
+<div class="footer">
+  <div class="wrap">
+    <div class="drop-groups clearfix">
+      <div class="drop-down lf">
+        <p class="tag">国务院部门网站</p>
+        <ul class="drop-lists">
+          
+            <li><a href="http://www.stats.gov.cn" target="_blank" title="国家统计局">国家统计局</a></li>
+          
+            <li><a href="http://www.sport.gov.cn" target="_blank" title="国家体育总局">国家体育总局</a></li>
+          
+            <li><a href="http://www.nrta.gov.cn/" target="_blank" title="国家广播电视总局">国家广播电视总局</a></li>
+          
+            <li><a href="http://www.samr.gov.cn/" target="_blank" title="国家市场监督管理总局">国家市场监督管理总局</a></li>
+          
+            <li><a href="http://www.chinatax.gov.cn" target="_blank" title="国家税务总局">国家税务总局</a></li>
+          
+            <li><a href="http://www.customs.gov.cn/" target="_blank" title="海关总署">海关总署</a></li>
+          
+            <li><a href="http://www.sasac.gov.cn" target="_blank" title="国务院国有资产监督管理委员会">国务院国有资产监督管理委员会</a></li>
+          
+            <li><a href="http://nnsa.mee.gov.cn/" target="_blank" title="国家核安全局">国家核安全局</a></li>
+          
+            <li><a href="http://www.caea.gov.cn" target="_blank" title="国家原子能机构">国家原子能机构</a></li>
+          
+            <li><a href="http://www.moe.gov.cn/jyb_sy/China_Language/" target="_blank" title="国家语言文字工作委员会">国家语言文字工作委员会</a></li>
+          
+            <li><a href="http://www.audit.gov.cn/" target="_blank" title="审计署">审计署</a></li>
+          
+            <li><a href="http://www.pbc.gov.cn/" target="_blank" title="人民银行">人民银行</a></li>
+          
+            <li><a href="https://www.mem.gov.cn/" target="_blank" title="应急管理部">应急管理部</a></li>
+          
+            <li><a href="http://www.mva.gov.cn" target="_blank" title="退役军人事务部">退役军人事务部</a></li>
+          
+            <li><a href="http://www.nhc.gov.cn/" target="_blank" title="国家卫生健康委员会">国家卫生健康委员会</a></li>
+          
+            <li><a href="http://www.mct.gov.cn" target="_blank" title="文化和旅游部">文化和旅游部</a></li>
+          
+            <li><a href="http://www.mofcom.gov.cn/" target="_blank" title="商务部">商务部</a></li>
+          
+            <li><a href="http://www.moa.gov.cn/" target="_blank" title="农业农村部">农业农村部</a></li>
+          
+            <li><a href="http://www.mwr.gov.cn/" target="_blank" title="水利部">水利部</a></li>
+          
+            <li><a href="https://jtysw.cq.gov.cn/" target="_blank" title="交通运输委">交通运输委</a></li>
+          
+            <li><a href="http://www.mohurd.gov.cn/" target="_blank" title="住房和城乡建设部">住房和城乡建设部</a></li>
+          
+            <li><a href="http://www.mee.gov.cn/" target="_blank" title="生态环境部">生态环境部</a></li>
+          
+            <li><a href="http://www.mnr.gov.cn/" target="_blank" title="自然资源部">自然资源部</a></li>
+          
+            <li><a href="http://www.mohrss.gov.cn/" target="_blank" title="人力资源和社会保障部">人力资源和社会保障部</a></li>
+          
+            <li><a href="http://www.mof.gov.cn/" target="_blank" title="财政部">财政部</a></li>
+          
+            <li><a href="http://www.moj.gov.cn/" target="_blank" title="司法部">司法部</a></li>
+          
+            <li><a href="http://www.mca.gov.cn/" target="_blank" title="民政部">民政部</a></li>
+          
+            <li><a href="https://www.miit.gov.cn/" target="_blank" title="工业和信息化部">工业和信息化部</a></li>
+          
+            <li><a href="http://www.most.gov.cn" target="_blank" title="科学技术部">科学技术部</a></li>
+          
+            <li><a href="http://www.moe.gov.cn/" target="_blank" title="教育部">教育部</a></li>
+          
+            <li><a href="http://www.ndrc.gov.cn" target="_blank" title="国家发展和改革委员会">国家发展和改革委员会</a></li>
+          
+            <li><a href="http://www.mod.gov.cn/" target="_blank" title="国防部">国防部</a></li>
+          
+            <li><a href="http://www.mps.gov.cn" target="_blank" title="公安部">公安部</a></li>
+          
+        </ul>
+      </div>
+      <div class="drop-down lf">
+        <p class="tag">地方政府网站</p>
+        <ul class="drop-lists">
+          
+            <li><a href="http://www.beijing.gov.cn/" target="_blank" title="北京">北京</a></li>
+          
+            <li><a href="http://www.tj.gov.cn/" target="_blank" title="天津">天津</a></li>
+          
+            <li><a href="http://www.hebei.gov.cn/" target="_blank" title="河北">河北</a></li>
+          
+            <li><a href="http://www.shanxi.gov.cn/" target="_blank" title="山西">山西</a></li>
+          
+            <li><a href="http://www.nmg.gov.cn/" target="_blank" title="内蒙古">内蒙古</a></li>
+          
+            <li><a href="http://www.ln.gov.cn/" target="_blank" title="辽宁">辽宁</a></li>
+          
+            <li><a href="http://www.jl.gov.cn/" target="_blank" title="吉林">吉林</a></li>
+          
+            <li><a href="http://www.hlj.gov.cn/" target="_blank" title="黑龙江">黑龙江</a></li>
+          
+            <li><a href="http://www.shanghai.gov.cn/" target="_blank" title="上海">上海</a></li>
+          
+            <li><a href="http://www.jiangsu.gov.cn/" target="_blank" title="江苏">江苏</a></li>
+          
+            <li><a href="http://www.zj.gov.cn/" target="_blank" title="浙江">浙江</a></li>
+          
+            <li><a href="http://www.ah.gov.cn/" target="_blank" title="安徽">安徽</a></li>
+          
+            <li><a href="http://www.fujian.gov.cn/" target="_blank" title="福建">福建</a></li>
+          
+            <li><a href="http://www.ah.gov.cn/" target="_blank" title="江西">江西</a></li>
+          
+            <li><a href="http://www.shandong.gov.cn/" target="_blank" title="山东">山东</a></li>
+          
+            <li><a href="http://www.henan.gov.cn/" target="_blank" title="河南">河南</a></li>
+          
+            <li><a href="http://www.hubei.gov.cn/" target="_blank" title="湖北">湖北</a></li>
+          
+            <li><a href="http://www.hunan.gov.cn/" target="_blank" title="湖南">湖南</a></li>
+          
+            <li><a href="http://www.gd.gov.cn/" target="_blank" title="广东">广东</a></li>
+          
+            <li><a href="http://www.gxzf.gov.cn/" target="_blank" title="广西">广西</a></li>
+          
+            <li><a href="http://www.hainan.gov.cn/" target="_blank" title="海南">海南</a></li>
+          
+            <li><a href="http://www.cq.gov.cn/" target="_blank" title="重庆">重庆</a></li>
+          
+            <li><a href="http://www.sc.gov.cn/" target="_blank" title="四川">四川</a></li>
+          
+            <li><a href="http://www.guizhou.gov.cn/" target="_blank" title="贵州">贵州</a></li>
+          
+            <li><a href="http://www.yn.gov.cn/" target="_blank" title="云南">云南</a></li>
+          
+            <li><a href="http://www.xizang.gov.cn/" target="_blank" title="西藏">西藏</a></li>
+          
+            <li><a href="http://www.shaanxi.gov.cn/" target="_blank" title="陕西">陕西</a></li>
+          
+            <li><a href="http://www.gansu.gov.cn/" target="_blank" title="甘肃">甘肃</a></li>
+          
+            <li><a href="http://www.nx.gov.cn/" target="_blank" title="宁夏">宁夏</a></li>
+          
+            <li><a href="http://www.xinjiang.gov.cn/" target="_blank" title="新疆">新疆</a></li>
+          
+            <li><a href="https://www.gov.hk/sc/residents/" target="_blank" title="香港">香港</a></li>
+          
+            <li><a href="https://www.gov.mo/zh-hant/" target="_blank" title="澳门">澳门</a></li>
+          
+            <li><a href="http://www.gwytb.gov.cn/" target="_blank" title="台湾">台湾</a></li>
+          
+        </ul>
+      </div>
+      <div class="drop-down lf">
+        <p class="tag">市政府部门网站</p>
+        <ul class="drop-lists">
+          
+            <li><a href="http://fzggw.cq.gov.cn/" target="_blank" title="市发展改革委">市发展改革委</a></li>
+          
+            <li><a href="http://jw.cq.gov.cn/" target="_blank" title="市教委">市教委</a></li>
+          
+            <li><a href="http://kjj.cq.gov.cn/" target="_blank" title="市科技局">市科技局</a></li>
+          
+            <li><a href="http://jjxxw.cq.gov.cn/" target="_blank" title="市经济信息委">市经济信息委</a></li>
+          
+            <li><a href="http://mzzjw.cq.gov.cn" target="_blank" title="市民族宗教委">市民族宗教委</a></li>
+          
+            <li><a href="http://gaj.cq.gov.cn/" target="_blank" title="市公安局">市公安局</a></li>
+          
+            <li><a href="http://mzj.cq.gov.cn" target="_blank" title="市民政局">市民政局</a></li>
+          
+            <li><a href="http://sfj.cq.gov.cn" target="_blank" title="市司法局">市司法局</a></li>
+          
+            <li><a href="http://czj.cq.gov.cn/" target="_blank" title="市财政局">市财政局</a></li>
+          
+            <li><a href="http://rlsbj.cq.gov.cn/" target="_blank" title="市人力社保局">市人力社保局</a></li>
+          
+            <li><a href="http://ghzrzyj.cq.gov.cn" target="_blank" title="市规划自然资源局">市规划自然资源局</a></li>
+          
+            <li><a href="http://sthjj.cq.gov.cn" target="_blank" title="市生态环境局">市生态环境局</a></li>
+          
+            <li><a href="http://zfcxjw.cq.gov.cn/" target="_blank" title="市住房城乡建委">市住房城乡建委</a></li>
+          
+            <li><a href="http://cgj.cq.gov.cn/" target="_blank" title="市城管局">市城管局</a></li>
+          
+            <li><a href="http://jtj.cq.gov.cn/" target="_blank" title="市水利局">市水利局</a></li>
+          
+            <li><a href="http://nyncw.cq.gov.cn/" target="_blank" title="市农业农村委">市农业农村委</a></li>
+          
+            <li><a href="http://sww.cq.gov.cn" target="_blank" title="市商务委">市商务委</a></li>
+          
+            <li><a href="http://whlyw.cq.gov.cn/" target="_blank" title="市文化旅游委">市文化旅游委</a></li>
+          
+            <li><a href="http://wsjkw.cq.gov.cn/" target="_blank" title="市卫生健康委">市卫生健康委</a></li>
+          
+            <li><a href="http://yjj.cq.gov.cn" target="_blank" title="市应急局">市应急局</a></li>
+          
+            <li><a href="http://sjj.cq.gov.cn/" target="_blank" title="市审计局">市审计局</a></li>
+          
+            <li><a href="http://zfwb.cq.gov.cn/" target="_blank" title="市政府外办">市政府外办</a></li>
+          
+            <li><a href="http://gzw.cq.gov.cn/" target="_blank" title="市国资委">市国资委</a></li>
+          
+            <li><a href="http://scjgj.cq.gov.cn/" target="_blank" title="市市场监管局">市市场监管局</a></li>
+          
+            <li><a href="http://tyj.cq.gov.cn" target="_blank" title="市体育局">市体育局</a></li>
+          
+            <li><a href="http://tjj.cq.gov.cn/" target="_blank" title="市统计局">市统计局</a></li>
+          
+            <li><a href="http://jgswj.cq.gov.cn" target="_blank" title="市机关事务局">市机关事务局</a></li>
+          
+            <li><a href="http://xfb.cq.gov.cn/" target="_blank" title="市信访办">市信访办</a></li>
+          
+            <li><a href="http://rmfkb.cq.gov.cn/" target="_blank" title="市人民防空办">市人民防空办</a></li>
+          
+            <li><a href="http://ggzyjyjgj.cq.gov.cn/" target="_blank" title="市公共资源交易监管局">市公共资源交易监管局</a></li>
+          
+            <li><a href="http://lyj.cq.gov.cn/" target="_blank" title="市林业局">市林业局</a></li>
+          
+            <li><a href="http://yaojianju.cq.gov.cn" target="_blank" title="市药监局">市药监局</a></li>
+          
+            <li><a href="http://zscqj.cq.gov.cn" target="_blank" title="市知识产权局">市知识产权局</a></li>
+          
+            <li><a href="http://ljxq.cq.gov.cn/index.html" target="_blank" title="两江新区管委会">两江新区管委会</a></li>
+          
+            <li><a href="http://ws.cq.gov.cn" target="_blank" title="万盛经开区管委会">万盛经开区管委会</a></li>
+          
+            <li><a href="http://gxq.cq.gov.cn" target="_blank" title="高新区管委会">高新区管委会</a></li>
+          
+            <li><a href="http://jkq.cq.gov.cn" target="_blank" title="重庆经开区管委会">重庆经开区管委会</a></li>
+          
+            <li><a href="http://gxhzs.cq.gov.cn/" target="_blank" title="市供销合作社">市供销合作社</a></li>
+          
+        </ul>
+      </div>
+      <div class="drop-down lf">
+        <p class="tag">区（县）政府网站</p>
+        <ul class="drop-lists">
+          
+            <li><a href="https://www.ljxq.gov.cn/" target="_blank" title="两江新区">两江新区</a></li>
+          
+            <li><a href="http://www.wz.gov.cn/" target="_blank" title="万州区">万州区</a></li>
+          
+            <li><a href="https://www.qianjiang.gov.cn" target="_blank" title="黔江区">黔江区</a></li>
+          
+            <li><a href="http://www.fl.gov.cn" target="_blank" title="涪陵区">涪陵区</a></li>
+          
+            <li><a href="http://www.cqyz.gov.cn/" target="_blank" title="渝中区">渝中区</a></li>
+          
+            <li><a href="http://www.ddk.gov.cn/" target="_blank" title="大渡口区">大渡口区</a></li>
+          
+            <li><a href="http://cqspb.gov.cn/" target="_blank" title="沙坪坝区">沙坪坝区</a></li>
+          
+            <li><a href="http://www.cqjlp.gov.cn" target="_blank" title="九龙坡区">九龙坡区</a></li>
+          
+            <li><a href="http://www.cqna.gov.cn/" target="_blank" title="南岸区">南岸区</a></li>
+          
+            <li><a href="http://www.beibei.gov.cn/" target="_blank" title="北碚区">北碚区</a></li>
+          
+            <li><a href="http://www.cqbn.gov.cn/" target="_blank" title="巴南区">巴南区</a></li>
+          
+            <li><a href="http://www.cqcs.gov.cn/" target="_blank" title="长寿区">长寿区</a></li>
+          
+            <li><a href="http://www.jiangjin.gov.cn/" target="_blank" title="江津区">江津区</a></li>
+          
+            <li><a href="http://www.hc.gov.cn/" target="_blank" title="合川区">合川区</a></li>
+          
+            <li><a href="http://www.cqyc.gov.cn" target="_blank" title="永川区">永川区</a></li>
+          
+            <li><a href="http://www.cqnc.gov.cn" target="_blank" title="南川区">南川区</a></li>
+          
+            <li><a href="http://www.cqqj.gov.cn/" target="_blank" title="綦江区">綦江区</a></li>
+          
+            <li><a href="http://www.dazu.gov.cn/" target="_blank" title="大足区">大足区</a></li>
+          
+            <li><a href="https://www.cqstl.gov.cn" target="_blank" title="铜梁区">铜梁区</a></li>
+          
+            <li><a href="http://www.bishan.gov.cn" target="_blank" title="璧山区">璧山区</a></li>
+          
+            <li><a href="http://www.cqtn.gov.cn/" target="_blank" title="潼南区">潼南区</a></li>
+          
+            <li><a href="http://www.rongchang.gov.cn/" target="_blank" title="荣昌区">荣昌区</a></li>
+          
+            <li><a href="http://www.cqkz.gov.cn" target="_blank" title="开州区">开州区</a></li>
+          
+            <li><a href="http://www.cqlp.gov.cn/" target="_blank" title="梁平区">梁平区</a></li>
+          
+            <li><a href="http://www.cqwl.gov.cn/" target="_blank" title="武隆区">武隆区</a></li>
+          
+            <li><a href="http://www.cqck.gov.cn/" target="_blank" title="城口县">城口县</a></li>
+          
+            <li><a href="http://www.cqfd.gov.cn/" target="_blank" title="丰都县">丰都县</a></li>
+          
+            <li><a href="http://www.zhongxian.gov.cn" target="_blank" title="忠县">忠县</a></li>
+          
+            <li><a href="http://www.cqsdj.gov.cn" target="_blank" title="垫江县">垫江县</a></li>
+          
+            <li><a href="http://www.yunyang.gov.cn" target="_blank" title="云阳县">云阳县</a></li>
+          
+            <li><a href="http://www.cqfj.gov.cn/" target="_blank" title="奉节县">奉节县</a></li>
+          
+            <li><a href="http://www.cqwx.gov.cn/" target="_blank" title="巫溪县">巫溪县</a></li>
+          
+            <li><a href="http://www.cqszx.gov.cn" target="_blank" title="石柱县">石柱县</a></li>
+          
+            <li><a href="http://www.cqxs.gov.cn/" target="_blank" title="秀山县">秀山县</a></li>
+          
+            <li><a href="http://www.youyang.gov.cn" target="_blank" title="酉阳县">酉阳县</a></li>
+          
+            <li><a href="http://www.psx.gov.cn/" target="_blank" title="彭水县">彭水县</a></li>
+          
+        </ul>
+      </div>
+      <div class="drop-down lf">
+        <p class="tag">其他网站</p>
+        <ul class="drop-lists">
+          
+            <li><a href="http://jjc.cq.gov.cn/" target="_blank" title="市纪委监委机关">市纪委监委机关</a></li>
+          
+            <li><a href="https://www.12371.gov.cn/" target="_blank" title="市委组织部">市委组织部</a></li>
+          
+            <li><a href="http://cq.wenming.cn/" target="_blank" title="市委宣传部">市委宣传部</a></li>
+          
+            <li><a href="http://www.cqtzb.gov.cn/" target="_blank" title="市委统战部">市委统战部</a></li>
+          
+            <li><a href="http://www.cqjgdj.gov.cn/" target="_blank" title="市委直属机关工委">市委直属机关工委</a></li>
+          
+            <li><a href="http://www.cqzx.gov.cn" target="_blank" title="市政协">市政协</a></li>
+          
+            <li><a href="http://cqgy.cqfygzfw.gov.cn/index.shtml" target="_blank" title="市高法院">市高法院</a></li>
+          
+            <li><a href="http://www.cqmg.gov.cn" target="_blank" title="民革市委会">民革市委会</a></li>
+          
+            <li><a href="http://www.cqmm.org.cn" target="_blank" title="民盟市委会">民盟市委会</a></li>
+          
+            <li><a href="https://www.cqmj.gov.cn/" target="_blank" title="民建市委会">民建市委会</a></li>
+          
+            <li><a href="http://www.cqmjsw.gov.cn" target="_blank" title="民进市委会">民进市委会</a></li>
+          
+            <li><a href="http://www.cqzgd.gov.cn" target="_blank" title="致公党市委会">致公党市委会</a></li>
+          
+            <li><a href="http://www.tmcq.gov.cn" target="_blank" title="台盟市委会">台盟市委会</a></li>
+          
+            <li><a href="http://www.cqgh.org" target="_blank" title="市总工会">市总工会</a></li>
+          
+            <li><a href="http://www.cqwomen.org.cn" target="_blank" title="市妇联">市妇联</a></li>
+          
+            <li><a href="http://www.cqast.cn" target="_blank" title="市科协">市科协</a></li>
+          
+            <li><a href="http://www.cqskl.com" target="_blank" title="市社科联">市社科联</a></li>
+          
+            <li><a href="http://www.cqwl.org" target="_blank" title="市文联">市文联</a></li>
+          
+            <li><a href="http://www.cqwriter.com" target="_blank" title="市作协">市作协</a></li>
+          
+            <li><a href="http://www.cqdpf.org.cn/" target="_blank" title="市残联">市残联</a></li>
+          
+            <li><a href="http://www.ccpitcq.org/" target="_blank" title="市贸促会">市贸促会</a></li>
+          
+            <li><a href="http://www.cqredcross.org.cn/index.html" target="_blank" title="市红十字会">市红十字会</a></li>
+          
+            <li><a href="http://www.cqdx.gov.cn" target="_blank" title="市委党校">市委党校</a></li>
+          
+            <li><a href="http://www.redsa.com.cn" target="_blank" title="市委党史研究室">市委党史研究室</a></li>
+          
+            <li><a href="http://www.cqass.net.cn/index/" target="_blank" title="重庆社科院">重庆社科院</a></li>
+          
+            <li><a href="http://www.3gmuseum.cn" target="_blank" title="三峡博物馆">三峡博物馆</a></li>
+          
+            <li><a href="http://www.hongyan.info" target="_blank" title="红岩博物馆">红岩博物馆</a></li>
+          
+            <li><a href="http://www.cqaas.cn" target="_blank" title="市农科院">市农科院</a></li>
+          
+            <li><a href="http://www.cqac.org.cn" target="_blank" title="重庆仲裁办">重庆仲裁办</a></li>
+          
+            <li><a href="http://chongqing.chinatax.gov.cn/cqtax/" target="_blank" title="重庆市税务局">重庆市税务局</a></li>
+          
+            <li><a href="http://chongqing.pbc.gov.cn" target="_blank" title="人行重庆营管部">人行重庆营管部</a></li>
+          
+            <li><a href="http://www.csrc.gov.cn/pub/chongqing/" target="_blank" title="重庆证监局">重庆证监局</a></li>
+          
+            <li><a href="http://chongqing.customs.gov.cn" target="_blank" title="重庆海关">重庆海关</a></li>
+          
+            <li><a href="http://cqca.miit.gov.cn/" target="_blank" title="市通信管理局">市通信管理局</a></li>
+          
+            <li><a href="http://cq.spb.gov.cn" target="_blank" title="市邮政管理局">市邮政管理局</a></li>
+          
+            <li><a href="http://www.cqdzj.gov.cn" target="_blank" title="市地震局">市地震局</a></li>
+          
+            <li><a href="http://www.966599.com" target="_blank" title="市烟草专卖局">市烟草专卖局</a></li>
+          
+            <li><a href="http://www.cqjy.com" target="_blank" title="市教科研究院">市教科研究院</a></li>
+          
+            <li><a href="http://www.cqksy.cn" target="_blank" title="市教育考试院">市教育考试院</a></li>
+          
+            <li><a href="http://zfcxjw.cq.gov.cn/gzf/" target="_blank" title="市公租房管理局">市公租房管理局</a></li>
+          
+            <li><a href="http://www.cqgjj.cn" target="_blank" title="市住房公积金中心">市住房公积金中心</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="f-info clearfix">
+      <div class="f-info-left lf">
+        <div class="f-info-div">
+          <a href="//dsjj.cq.gov.cn/ggbf_search/lxwm/">联系我们</a>
+          <span>|</span>
+          <a href="//dsjj.cq.gov.cn/ggbf_search/wzdt/">网站地图</a>
+          <span>|</span>
+          <a href="//dsjj.cq.gov.cn/ggbf_search/bqsm/">版权声明</a>
+        </div>
+        <p class="f-info-p">
+          重庆市大数据应用发展管理局版权所有&nbsp;&nbsp;&nbsp;重庆市大数据应用发展管理局主办
+        </p>
+        <p class="f-info-p">
+          <a href="https://beian.miit.gov.cn/ " target="_blank">渝ICP备19000372号-2</a><span>政府网站标识码：5000000113&nbsp;</span>
+          <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50010502002744"  target="_blank">渝公网安备&nbsp;50010502002744号</a>
+        </p>
+      </div>
+      <div class="f-info-right rt">
+<a>
+          <img style="width: 75px;margin-top: 5px;" src="/images/2025-ykb-ewm.png" alt="" />
+<p  class="f-info-p">“渝快办”移动客户端</p>
+        </a>
+<a>
+          <img style="width: 75px;margin-top: 5px;" src="/images/zhcq0417.jpeg" alt="" />
+<p  class="f-info-p">政务微信</p>
+        </a>
+        <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='//dcs.conac.cn/js/04/000/0000/60957564/CA040000000609575640003.js' type='text/javascript'%3E%3C/script%3E"));</script>
+        <style type="text/css">
+          #_ideConac img{ width:85px;}
+        </style>
+        <div class="zfzc">
+          <script id="_jiucuo_" sitecode='5000000113' src='https://zfwzgl.www.gov.cn/exposure/jiucuo.js'></script>
+        </div>
+        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50019002501760"  target="_blank">
+          <img src="/images/zwgk_gaba.png" alt="" />
+        </a>
+        <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='//dcs.conac.cn/js/04/000/0000/60936906/CA040000000609369060002.js' type='text/javascript'%3E%3C/script%3E"));</script>
+  <a href="http://wza.isc.org.cn/rzpt/bsgl/dt/20250822/4187.html"  target="_blank">
+          <img src="https://www.cq.gov.cn/images/slyhwzafw.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+.f-info-left.lf{
+	width: 550px !important;
+}
+.f-info-right.rt{
+	display: flex !important;
+    align-items: center !important;
+}
+</style>
+<style>
+
+  .zfzc{
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+</style>
+
+<!-- 底部end -->
+<script>
+    var uri = window.location.pathname;
+    $(".menu a").each(function () {
+     $(this).removeClass("cur"); 
+     });
+     if(uri.indexOf("/zwgk_533/")>=0){		
+        $(".menu  a").eq(1).addClass('cur');
+     }else if(uri.indexOf("/ykb_533/")>=0){
+        $(".menu  a").eq(2).addClass('cur');
+     }else if(uri.indexOf("/hdjl_533/")>=0){
+        $(".menu  a").eq(3).addClass('cur');
+     }else if(uri.indexOf("/ztzl/")>=0){
+        $(".menu  a").eq(4).addClass('cur');
+     }else{		
+        $(".menu  a").eq(0).addClass('cur');
+     }
+ </script>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=3988" async="async" defer="defer"></script>
+<script type="text/javascript" src='https://auth.mangren.com/boots/dsjj.cq.gov.cn/esdToolsInit.js' charset='UTF-8'></script>
+
+<script type="text/javascript">
+    // 定义后缀名与 MIME 类型的映射表
+    var mimeTypeMap = {
+        'txt': 'text/plain',
+        'html': 'text/html',
+        'css': 'text/css',
+        'js': 'application/javascript',
+        'json': 'application/json',
+        'png': 'image/png',
+        'jpg': 'image/jpeg',
+        'jpeg': 'image/jpeg',
+        'gif': 'image/gif',
+        'svg': 'image/svg+xml',
+        'pdf': 'application/pdf',
+        'doc': 'application/msword',
+        'docx': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+        'xls': 'application/vnd.ms-excel',
+        'xlsx': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+        'zip': 'application/zip',
+        'mp3': 'audio/mpeg',
+        'mp4': 'video/mp4'
+    };
+
+    // 根据文件名获取 MIME 类型的函数
+    function getMimeType(fileName) {
+        // 提取文件后缀（如 "test.txt" → "txt"）
+        var ext = fileName.split('.').pop().toLowerCase();
+        // 从映射表获取，默认使用二进制流类型（通用但不精确）
+        return mimeTypeMap[ext] || 'application/octet-stream';
+    }
+
+    function downloadFj(fileName, filePath) {
+        var mimeType = getMimeType(fileName);
+
+        // 兼容 IE/360 兼容模式
+        if (window.navigator.msSaveOrOpenBlob) {
+            try {
+                // 请求前端项目内的静态文件
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', filePath, true);
+                xhr.responseType = 'blob';
+                
+                xhr.onload = function() {
+                    if (xhr.status === 200) {
+                        var blob = xhr.response;
+                        if (window.navigator.msSaveOrOpenBlob) {
+                            window.navigator.msSaveBlob(blob, fileName);
+                        } else {
+                            var a = document.createElement('a');
+                            a.href = URL.createObjectURL(blob);
+                            a.download = fileName;
+                            a.click();
+                            URL.revokeObjectURL(a.href);
+                        }
+                    } else {
+                        console.error('文件不存在');
+                    }
+                };
+                
+                xhr.onerror = function() {
+                    console.error('下载失败');
+                };
+                
+                xhr.send();
+            } catch (err) {
+                console.error('下载失败：', err);
+            }
+        } else {
+            // 现代浏览器：使用 download 属性
+            var a = document.createElement('a');
+            a.href = filePath;
+            a.download = fileName;
+            a.click();
+            // 释放 URL 对象（避免内存泄漏）
+            URL.revokeObjectURL(a.href);
+        }
+    }
+</script>
+<script>
+ function jump(){
+    //外链跳转提示
+    for (var i = 0; i < document.links.length; i++) {
+      var url = document.links[i].href.toLowerCase().replace(/\s+/g,'');
+      if (url.indexOf("dsjj.cq.gov.cn") == -1 && (url.indexOf("javascript:") == -1 || url.indexOf("javascript:void(0)") == -1) &&  url != "#" && !document.links[i].onclick) {
+        document.links[i].onclick = function() {
+          return confirm("您访问的链接即将离开“重庆市大数据局”门户网站，是否继续？")
+        };
+      }
+    }
+  }
+  if($(window).width()<981){
+    var localType = window.location.href.substring(window.location.href.lastIndexOf('/')+1,window.location.href.length);
+    var localHref = window.location.href.substring(0,window.location.href.lastIndexOf('/')+1);
+    var localHref2 = window.location.href.substring(0,window.location.href.lastIndexOf('.html'));
+    var localHref3 = window.location.href.substring(0,window.location.href.lastIndexOf('/'));
+    if(localType ==''||localType =='index.html'){
+      var toUrl = localHref + 'wap.html';
+    }else if(localType.indexOf('detail.html')!=-1){
+      var toUrl = localHref2 + '_wap.html'+window.location.href.substring(window.location.href.lastIndexOf('.html')+5,window.location.href.length);
+    }else{
+      if(window.location.href.indexOf('searchResultPC')!=-1){
+        var toUrl = window.location.href.replace('searchResultPC','searchResultWap');
+      }else{
+        var toUrl = localHref2 + '_wap.html';
+      }
+    }
+    // $.ajax({
+    //   url : toUrl,
+    //   success : function(data) {
+    //     window.location.href=toUrl ;
+    //   },
+    //   error:function(){
+    //     console.log("获取失败");
+    //   }
+    // });
+    headUrlStatus(toUrl,function(){
+      window.location.href=toUrl;
+    },function(){
+      console.log('error')
+    })
+    function headUrlStatus(url, callbackSuccess, callbackError) {
+      var xmlhttp = new XMLHttpRequest()
+      xmlhttp.open('HEAD', url, false)
+      xmlhttp.onreadystatechange = () => {
+        if (xmlhttp.readyState == 4) {
+          if (xmlhttp.status == 200) {
+            callbackSuccess()
+          } else {
+            callbackError()
+          }
+        }
+      }
+      xmlhttp.send()
+      return
+    }
+  }
+</script>
+
+<script defer async type="text/javascript" src="//gov.govwza.cn/dist/aria.js?appid=8d742abb9011e1aedc2d12f416cde6d0" charset="utf-8" wapForceOldFixed="false" loadData="false" id="ariascripts"></script>
+<div  class="index-link"><a target="_blank" style="
+    position: fixed;
+    right:0;
+    bottom: 385px;
+    z-index: 999;display:block;" href="https://liuyan.www.gov.cn/2025wwzfgzbgtjy/bmdf.html?q=cq"><img src="./images/tjytc1214.jpg" alt="pc0517.png"OLDSRC="pc0517.png" /></a>
+  <img onclick="$('.index-link').hide();" src="./images/close1214.png" style="
+    position: fixed;
+       right: 5px;
+   bottom:652px;
+    width: 20px;
+    height: 20px;
+    z-index: 999;
+    cursor: pointer;" /></div> 
+</body>
+<script>
+    //动态获取国务院信息
+    $(function(){
+        var date = "";
+        $.ajax({
+            url : '//www.gov.cn/pushinfo/v150203/pushinfo.jsonp',
+            dataType : "jsonp",
+            jsonp : "pushInfoJsonpCallBack",
+            jsonpCallback:"pushInfoJsonpCallBack",
+            success : function(data) {
+                $.each(data,function(i,json){
+                    if (i == 6){ return false;}
+                    date = json.pubDate;
+                    $("#gwyinfo").append("<li class='clearfix'><a target='_blank' href='"+json.link+"' title='"+json.title+"' target='_blank'>"+json.title+"</a><span>"+date+"</span></li>");
+                })
+jump();
+            },
+            error:function(){
+                console.log("获取失败");
+            }
+
+        });
+
+        $.ajax({
+            url : '//www.cq.gov.cn/ywdt/jrzq/index.json',
+            dataType : "jsonp",
+            jsonp : "cqjrcq",
+            jsonpCallback:"cqjrcq",
+            success : function(data) {
+                data=data.datas;
+                $.each(data,function(i,json){
+                    if (i == 6){ return false;}
+                    date = json.docreltime;
+                    $("#cqjrcq").append("<li class='clearfix'><a href='"+json.url+"' title='"+json.title+"' target='_blank'>"+json.title+"</a><span>"+date+"</span></li>");
+                })
+jump();
+            },
+            error:function(){
+                console.log("获取失败");
+            }
+        });
+        $(".main2-link a").mouseenter(function() {
+            var $this = $(this),
+                index = $this.index();
+            $this.addClass("cur").siblings("a").removeClass("cur");
+
+            $(".part-list .part").eq(index).addClass("selected").siblings(".part").removeClass("selected");
+        });
+        $(".main2-link a").mouseenter(function() {
+            var $this = $(this),
+                index = $this.index();
+            $this.addClass("cur").siblings("a").removeClass("cur");
+
+            $(".part-list .tab-item").eq(index).addClass("selected").siblings(".tab-item").removeClass("selected");
+        });
+    });
+</script>
+<script>
+    $('.lz-m3c-col').tabSwitch({
+        tabHead: '.g-tab-parent a',
+        tabCont: '.gg-tab-group .tab-item',
+        cur: 'cur'
+    })
+    jQuery('.tzgg_block .lb-tt-item').simpleSwitch1({
+        prev: '.tzgg_block .lb-tt-btn .prev',
+        next: '.tzgg_block .lb-tt-btn .next',
+        playTime: 3000,
+        type: 'top'
+    });
+</script>
+</html>

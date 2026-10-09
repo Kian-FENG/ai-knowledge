@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.09512",
+  "title": "A Distributed Accelerated Preconditioned ADMM for Solving Quadratically Regularized Optimal Transport on Bipartite Graphs",
+  "text": "arXiv:2610.09512v1 Announce Type: new\nAbstract: Optimal transport (OT) has found broad applications in machine learning, economics, and management. Classical OT models, however, are not directly suited to allocation problems with graph-structured connectivity and unbalanced mass. Distributed OT formulations on bipartite graphs address these requirements but are typically solved by ADMM, whose slow convergence limits communication efficiency. We adapt the accelerated preconditioned ADMM (AP-ADMM) to the quadratically regularized distributed OT model and develop DAP-ADMM, a fully distributed algorithm in which each node communicates only with its graph neighbors. For fixed local penalty parameters, we establish global convergence and non-ergodic $O(1/k)$ bounds for both the KKT-residual norm and the primal objective gap. We derive an exact solver-free routine for the interval-constrained projections arising in the local ADMM subproblems. We propose a distributed self-adaptive penalty mechanism that updates node-specific penalties using locally computable KKT-residual components without global aggregation. Numerical experiments confirm the efficiency of the solver-free routine and the practical acceleration of DAP-ADMM over standard distributed ADMM.",
+  "published_at": null,
+  "announced_at": "2026-10-08T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "18cc72ee6848ea2b1b70",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-09/ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c.body",
+  "source_sha256": "ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c",
+  "fetched_at": "2026-10-09T01:00:04.331143+00:00"
+}

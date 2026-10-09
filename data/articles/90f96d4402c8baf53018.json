@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156056.htm",
+  "title": "智能体终端编程中文测评榜单：小米MiMo登顶",
+  "text": "快科技10月9日消息，SuperCLUE公布了智能体终端编程中文测评榜单，小米MiMo V2.6 Pro拿到综合总分第一。\n这份测评重点考察大模型在驱动智能体框架时对中文需求的理解、任务规划、工具调用、文件修改、错误排查与最终交付能力。测评固定使用 Claude Code 作为智能体框架，以此为标准平台，横向对比各模型的核心能力。\n榜单里面其余参赛选手中，Kimi、GLM、Hy4排在2到4名。小米MiMo V2.6 Flash位居第五。\n小米MiMo V2.6 Pro以1.52元/题取得64.65分得分最高。小米MiMo-V2.6-Flash 以0.67元/题取得53.54分，成本最低。\n作为对比，DeepSeek-V4.1-Flash(max) 为50.51分、1.86元/题，Hy4-Preview(high) 为55.56分、11.61元/题。其中，MiMo-V2.6-Pro 的得分高于 Hy4-Preview，每题成本也更低，在本次任务集上呈现出突出的性价比表现。\n从本次完整任务流程看，DeepSeek-V4.1-Flash 的时间效率更突出，MiMo-V2.6-Pro 则在较高得分与任务耗时之间展现出较好的综合表现。\n很多开发者已经开始把智能体当成写代码的辅助工具，不用从零敲完整程序，主要用来生成脚本、排查报错、改 bug。中文场景下，不少海外大模型对中文指令理解偏弱，国产模型的适配优势就体现出来。\n智能体终端编程还处在发展阶段，没有哪个模型可以完全替代程序员。这次榜单也能看出国产大模型的进步，在硬核工程任务上面，已经可以和海外主流产品掰手腕。",
+  "published_at": "2026-10-09T06:44:06+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "90f96d4402c8baf53018",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/9f8af3eb350d0778872de6af66cb067309d41c3a072502193ed4d07add81c701.body",
+  "source_sha256": "9f8af3eb350d0778872de6af66cb067309d41c3a072502193ed4d07add81c701",
+  "fetched_at": "2026-10-09T01:00:28.138290+00:00"
+}

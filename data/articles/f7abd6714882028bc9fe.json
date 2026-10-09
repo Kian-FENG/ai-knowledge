@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+  "title": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
+  "text": "Goodfire just launched what it says is a cheaper way to keep AI agents in check: Instead of paying a second AI to read everything an agent does, its monitors peek inside the model while it works and only call in backup when something looks fishy.",
+  "published_at": "2026-10-08T16:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f7abd6714882028bc9fe",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/8bd7e79d746176c71f080629d4e746981a9eb5b7881eefc2e65de8adbf29e8ea.body",
+  "source_sha256": "8bd7e79d746176c71f080629d4e746981a9eb5b7881eefc2e65de8adbf29e8ea",
+  "fetched_at": "2026-10-09T01:00:12.266437+00:00"
+}

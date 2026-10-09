@@ -1,0 +1,33 @@
+{
+  "raw_path": "raw/2026-10-09/1b269194c977f6878dc903afc308fd9efa6ecb32b6ed89b2af38cf08104c2efb.body",
+  "sha256": "1b269194c977f6878dc903afc308fd9efa6ecb32b6ed89b2af38cf08104c2efb",
+  "source_url": "https://www.kimi.com/en/blog/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-09T00:59:54.889963+00:00",
+  "source_id": "kimi",
+  "status": 200,
+  "headers": {
+    "Date": "Fri, 09 Oct 2026 00:59:55 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Server": "cloudflare",
+    "Server-Timing": "cfEdge;dur=27,cfOrigin;dur=414",
+    "x-internal-adhoc-canary": "4137218282",
+    "x-middleware-rewrite": "/en-cn/blog/",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "x-nextjs-cache": "HIT",
+    "x-nextjs-prerender": "1",
+    "x-nextjs-stale-time": "300",
+    "X-Powered-By": "Next.js",
+    "Cache-Control": "s-maxage=60, stale-while-revalidate=31535940",
+    "set-cookie": "__cf_bm=nl3.ZGZ4nAKL2MYJ4v6k5PD19gWtBTcvX7IiddODQlI-1791507595.427877-1.0.1.1-.Hv2xzq7IMUJbR4uJDpOcpfVgl_plbOMzONq3mFajDwfg179Z2XAMhJ7KX43I0NpTgWTlTlX6aaU.EnftSG6h6UI.xDgA_Pake1IBAZiXlfz4jb8rOC1uI6PDdgc9prA; HttpOnly; SameSite=None; Secure; Path=/; Domain=kimi.com; Expires=Fri, 09 Oct 2026 01:29:55 GMT",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "cf-cache-status": "DYNAMIC",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a47972076cdc67ef-SJC"
+  },
+  "final_url": "https://www.kimi.com/en/blog/",
+  "truncated": false,
+  "charset": "utf-8"
+}

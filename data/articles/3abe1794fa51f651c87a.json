@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156079.htm",
+  "title": "英特尔继续参与Terafab 马斯克否认台积电参与运营",
+  "text": "快科技10月9日消息，埃隆·马斯克（Elon Musk）宣布，旗下航天公司SpaceX及人工智能企业xAI联合启动代号“TeraFab”的超级芯片制造项目，这将成为有史以来最大的晶圆厂计划。\n随后，英特尔宣布加入TeraFab项目，计划向对方授权Intel 14A工艺。近期又传出台积电（TSMC）正在探讨加入TeraFab项目的可行性，引发外界新的猜测，包括台积电可能以合资形式参与运营等。\n英特尔首席执行官陈立武（Lip-Bu Tan）出席公开活动期间再次重申，英特尔将继续参与TeraFab项目。\n这在一定程度上打消了外界顾虑，例如英特尔无法兑现承诺或选择退出，进而让埃隆·马斯克转向台积电获取半导体制造技术。\n另一方面，埃隆·马斯克也否定了台积电参与运营的可能性，表示只是提议台积电租赁TeraFab工厂的部分设施，并利用这些设施生产芯片。\n有市场人士认为，仅靠投入更多资金并不能保证解决建厂与运营中遇到的所有问题；台积电或许会分享一些专业知识，协助建设及维护TeraFab工厂，从而获得额外好处。\nTeraFab是一座全方位集成的超大型工厂，涵盖逻辑芯片、存储器芯片以及先进封装等关键环节，将半导体生产的多个阶段整合其中。这种设计较为罕见，通常这些步骤会分布在多个不同公司及设施之间。",
+  "published_at": "2026-10-09T08:52:38+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3abe1794fa51f651c87a",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/9f8af3eb350d0778872de6af66cb067309d41c3a072502193ed4d07add81c701.body",
+  "source_sha256": "9f8af3eb350d0778872de6af66cb067309d41c3a072502193ed4d07add81c701",
+  "fetched_at": "2026-10-09T01:00:28.138290+00:00"
+}

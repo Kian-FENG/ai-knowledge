@@ -1,0 +1,19 @@
+{
+  "url": "https://developers.openai.com/api/docs/changelog",
+  "title": "OpenAI API Changelog：页面内容变化",
+  "summary": "+Oct 8\n+Feature\n+gpt-6.1-sol\n+v1/responses\n+Added Ultrafast mode for GPT-6.1 Sol in the Responses API. Use gpt-6.1-sol with service_tier: \"ultrafast\" to reduce the time between generated output tokens. It is available to all API users, subject to rate limits, with global processing and US and EU data residency. See Ultrafast pricing.",
+  "id": "9c034e2427d3e2f86517",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "openai-api-changelog",
+  "source_name": "OpenAI API Changelog",
+  "section": 0,
+  "raw_path": "raw/2026-10-09/752145521d5c5936b92fd7c658d7fb35fb4489322ccde4dd11cb630aadf0bc31.body",
+  "source_sha256": "752145521d5c5936b92fd7c658d7fb35fb4489322ccde4dd11cb630aadf0bc31",
+  "fetched_at": "2026-10-09T00:59:53.160285+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-09T00:59:53.160285+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

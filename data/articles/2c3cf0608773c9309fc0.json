@@ -1,0 +1,18 @@
+{
+  "url": "https://www.aboutamazon.com/news/devices/new-amazon-kids-tablets",
+  "title": "Amazon announces an all-new family of tablets designed just for kids",
+  "text": "New Amazon Kids Tablets available in two models for younger and older kids",
+  "published_at": "2026-10-08T12:55:18+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2c3cf0608773c9309fc0",
+  "source_id": "amazon-news",
+  "source_name": "About Amazon",
+  "section": 5,
+  "raw_path": "raw/2026-10-09/75d5eec98bb45b14335b05647440ed50bf9b0383b99f64df3229a499e8cfb6ba.body",
+  "source_sha256": "75d5eec98bb45b14335b05647440ed50bf9b0383b99f64df3229a499e8cfb6ba",
+  "fetched_at": "2026-10-09T01:00:00.326076+00:00"
+}

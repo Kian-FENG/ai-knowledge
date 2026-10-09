@@ -1,0 +1,18 @@
+{
+  "title": "新增公司 TODAY：为金融保险顾问工作流融资 EUR 280万",
+  "url": "https://www.usetoday.io/blog/today-secures-2-8m-seed-funding/",
+  "text": "Press release — October 8, 2026. TODAY Secures €2.8M for its Agentic AI Platform.\nCopenhagen- and Berlin-based AI startup UseToday ApS (TODAY) has successfully closed a €2.8M Seed round. High-Tech Gründerfonds (HTGF) and Insurtech Gateway co-led the round, with SeedX, Lucid Capital and angel investors participating.\nTODAY was co-founded by Michael Gackstatter (CEO) and Artem Demchenkov (CTO).\nIts Sales Operating System transcribes client meetings, handles routine backoffice tasks, coaches advisors on their sales success, and answers incoming calls.\nTODAY, based in Copenhagen and Berlin, was founded in 2024. More than 3,500 advisors in DACH use TODAY in their daily work, from large insurers and distributors to independent brokers.\nAgent scope note: read official press release; figures are company-reported, pricing and paid-customer counts not independently verified.",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "published_at": "2026-10-08T00:00:00+08:00",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "93ab3995ae9af1bf246c",
+  "source_id": "today",
+  "source_name": "TODAY Official Blog",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/27040ba4579a594df1e9632a891ee2e892cd9f009928c6674679ff23af61f256.txt",
+  "source_sha256": "27040ba4579a594df1e9632a891ee2e892cd9f009928c6674679ff23af61f256",
+  "fetched_at": "2026-10-09T01:09:30.866206+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+  "title": "Oct 8, 2026Announcements2026 Usage Policy update",
+  "link_text": "Oct 8, 2026Announcements2026 Usage Policy update",
+  "id": "4e66a7e453a3193bb5cb",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "anthropic",
+  "source_name": "Anthropic Newsroom",
+  "section": 0,
+  "raw_path": "raw/2026-10-09/4f8c290a8888b22b62ffacbedf64faa1418492c9ba566cacd500ff704c62579e.body",
+  "source_sha256": "4f8c290a8888b22b62ffacbedf64faa1418492c9ba566cacd500ff704c62579e",
+  "fetched_at": "2026-10-09T00:59:53.177767+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-09T00:59:53.177767+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4017915074023560?f=rss",
+  "title": "Anthropic宣布禁止“虐待”其旗下AI",
+  "text": "据报道，Anthropic对其AI使用政策作出调整，以应对新的高风险滥用行为。其中一项最重要的变化是，禁止对Claude进行“持续且不必要的虐待或残忍行为”。此次更新指出，终止对话仍是“主要执行机制”；对于是否会采取进一步的执行措施（例如可能封禁用户），Anthropic未予置评。Anthropic表示，新政策更新“仅适用于极端情况，即用户在毫无明显目的的情况下反复对我们的模型实施残酷行为。该政策不适用于用户常见的不满、反驳、黑暗创意主题，以及模型测试和研究等情况。”（新浪财经）",
+  "published_at": "2026-10-09T08:42:26+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b1ee5f7d50a1d5c7898e",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/04d5008f4e2e1b88f18324fe84d66f81cf8d69ddaaae5bcf986f9a44bb06fd25.body",
+  "source_sha256": "04d5008f4e2e1b88f18324fe84d66f81cf8d69ddaaae5bcf986f9a44bb06fd25",
+  "fetched_at": "2026-10-09T01:00:20.233541+00:00"
+}

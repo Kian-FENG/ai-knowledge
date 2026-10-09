@@ -1,0 +1,18 @@
+{
+  "url": "https://www.aboutamazon.com/news/aws/aws-physical-ai-toolchain-build-intelligent-machines",
+  "title": "How AWS is helping companies build physical AI machines that think",
+  "text": "Amazon launched the Physical AI Toolchain on AWS, an open-source stack that helps manufacturers build machines that perceive, reason, and act in the real world.",
+  "published_at": "2026-10-08T13:00:13+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "557f0d4a44f37bae01db",
+  "source_id": "amazon-news",
+  "source_name": "About Amazon",
+  "section": 5,
+  "raw_path": "raw/2026-10-09/75d5eec98bb45b14335b05647440ed50bf9b0383b99f64df3229a499e8cfb6ba.body",
+  "source_sha256": "75d5eec98bb45b14335b05647440ed50bf9b0383b99f64df3229a499e8cfb6ba",
+  "fetched_at": "2026-10-09T01:00:00.326076+00:00"
+}

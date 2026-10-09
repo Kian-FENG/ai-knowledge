@@ -1,0 +1,31 @@
+{
+  "raw_path": "raw/2026-10-09/9e5387bb7fd3253fd7aeb4dae4c27ffce11a0456563a157884426c6c2d8a83de.body",
+  "sha256": "9e5387bb7fd3253fd7aeb4dae4c27ffce11a0456563a157884426c6c2d8a83de",
+  "source_url": "https://api-docs.deepseek.com/updates",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-09T00:59:53.276255+00:00",
+  "source_id": "deepseek-api-changelog",
+  "status": 200,
+  "headers": {
+    "Last-Modified": "Thu, 24 Sep 2026 09:35:24 GMT",
+    "Content-Encoding": "gzip",
+    "Etag": "\"b1bcb57fc9d1b311d9f7c4214f856d6b\"",
+    "Content-Type": "text/html",
+    "Server": "tencent-cos",
+    "x-amz-hash-crc64ecma": "17828800860170078610",
+    "x-amz-request-id": "NmFiNGVmYTVfOTBiMzI0MDlfZmI0NF8xYTI2ZGMyMg==",
+    "x-amz-storage-class": "MAZ_STANDARD",
+    "x-amzindex-replication-status": "Complete",
+    "Content-Length": "11429",
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Date": "Fri, 09 Oct 2026 00:59:55 GMT",
+    "Age": "3000",
+    "EO-LOG-UUID": "7000163805719368739",
+    "EO-Cache-Status": "HIT",
+    "Cache-Control": "max-age=0"
+  },
+  "final_url": "https://api-docs.deepseek.com/updates/",
+  "truncated": false,
+  "charset": "utf-8"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+  "title": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+  "text": "Anthropic launched two new beta features for Claude. Dashboards turns data sources like BigQuery and Snowflake into live dashboards from text prompts. Motion generates animated explainer videos from text and images. Docs, Slides, and Design now work across all plans, including free accounts.\nThe article Claude can now generate animated explainer videos and live data dashboards from text prompts appeared first on The Decoder.",
+  "published_at": "2026-10-08T19:17:22+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e334bff62b7f36b01aab",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/7170651482e90a565b4f49f8e0662d74d6c3b8bb956e2cac1ac356ba8e655d82.body",
+  "source_sha256": "7170651482e90a565b4f49f8e0662d74d6c3b8bb956e2cac1ac356ba8e655d82",
+  "fetched_at": "2026-10-09T01:00:14.567960+00:00"
+}

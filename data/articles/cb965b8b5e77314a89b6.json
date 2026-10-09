@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1155/1155985.htm",
+  "title": "联想放大招！首款RTX Spark AI PC中国市场预售：推动个人计算进入Agent新阶段",
+  "text": "快科技10月8日消息，联想今日宣布，全球首批搭载英伟达RTX Spark N1X芯片的AI PC新品——联想YOGA Pro 15 RTX Spark正式在中国市场开启全网预售，并将于10月16日正式开售。\n新品面向AI开发者、专业创作者及高性能计算需求用户，最高配备128GB统一内存，支持超千亿参数大模型本地运行。\nRTX Spark N1X超级芯片是这台机器的核心算力底座。它集成最高20核NVIDIA Grace CPU与拥有6144个CUDA核心的Blackwell RTX GPU，通过NVLink-C2C互联合为一体，峰值FP4 AI算力最高可达1 PFLOPS。\n这颗芯片将英伟达在AI计算、图形处理及CUDA软件生态领域的技术能力完整带入Windows PC平台。\n统一内存架构是RTX Spark最具颠覆性的技术创新。传统PC的CPU内存与GPU显存相互独立，大模型参数必须在两者之间反复搬运，显存容量直接决定了模型上限。\n而YOGA Pro 15 RTX Spark最高配备128GB LPDDR5x 9400MT/s统一内存，CPU与GPU共享同一内存池，千亿参数级大模型因此得以在一台笔记本上本地运行。英伟达给出的参考场景是1200亿参数、100万token上下文的大语言模型。\n本地AI体验不止于“能跑”。新品出厂自带35B本地大模型，开箱即用，并搭载经过专门优化的天禧AI超能模式，支持用户在本地完成多种复杂任务，不受网络及Token限制。这意味着从模型开发、AI内容生成到专业创作工作流，均可在完全私密的本地环境中完成。\n产品形态上，YOGA Pro 15 RTX Spark采用15.3英寸2.5K 165Hz PureSight Pro OLED屏，配备7英寸全域妙写数位板与92.5Wh大容量电池。\n联想X Power散热架构让80W TDP进入最薄16.7毫米的机身，整机轻约1.75kg。\n存储方面提供至高2TB双M.2固态硬盘位，并支持超级互联多端体验。\n从更宏观的视角看，联想正在将AI PC从“工具”推向“平台”。联想以“一体多端”为核心布局，以个人超级智能体为中心，连接PC、手机、平板及可穿戴设备，推动AI体验从单一设备向跨终端协同演进。\n此次YOGA Pro 15 RTX Spark的预售，正是这一战略在中国市场的关键落子。",
+  "published_at": "2026-10-08T17:49:56+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "cb965b8b5e77314a89b6",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/9f8af3eb350d0778872de6af66cb067309d41c3a072502193ed4d07add81c701.body",
+  "source_sha256": "9f8af3eb350d0778872de6af66cb067309d41c3a072502193ed4d07add81c701",
+  "fetched_at": "2026-10-09T01:00:28.138290+00:00"
+}

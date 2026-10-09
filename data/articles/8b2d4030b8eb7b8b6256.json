@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.09713",
+  "title": "Rendezvous under Variable Disorientation:The Algorithmic Power of Fixed Unit Distance",
+  "text": "arXiv:2610.09713v1 Announce Type: new\nAbstract: We study deterministic Rendezvous of two robots with lights under weak geometric and synchronization assumptions. Our focus is on Variable Disorientation (VD), where each robot may arbitrarily rotate, reflect, and rescale its local coordinate system at every \\Look, and on VD+Fixed-Unit-Distance (FUD), where each robot's local unit distance remains fixed. We consider the one-sided visibility models FSTA and FCOM, and schedulers ranging from the energy-restricted RSYNCH and R-RSYNCH to fully asynchronous executions.\nUnder VD, we prove color-independent impossibility results for FSTA under SSYNCH and for FCOM under ASYNCH, and establish sharp two-color boundaries under RSYNCH and R-RSYNCH. Under VD+FUD, we introduce periodic distance classes, which turn multiplicative changes of the physical distance into predictable cyclic phase shifts. This technique yields a two-color self-stabilizing non-$L$-Rendezvous algorithm for both FSTA and FCOM under RSYNCH and R-RSYNCH even with Non-Rigid movement.\nUnder Rigid movement, periodic distance classes further yield an optimal three-color non-quasi-self-stabilizing algorithm for FSTA under SSYNCH, a four-color FSTA algorithm under $M$-atomic ASYNCH, and a four-color FCOM algorithm under CM-atomic ASYNCH. By guarding the latter phase mechanism with two additional colors and replacing its initial swap by passive initialization, we obtain a six-color FCOM algorithm under full ASYNCH, improving the previous twelve-color upper bound by a factor of two.\nThese results show that a fixed local metric can serve as persistent cyclic memory, and clarify how metric stability, one-sided visibility, and scheduler atomicity jointly determine Rendezvous solvability and color complexity.",
+  "published_at": null,
+  "announced_at": "2026-10-08T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "8b2d4030b8eb7b8b6256",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-09/ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c.body",
+  "source_sha256": "ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c",
+  "fetched_at": "2026-10-09T01:00:04.331143+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.cisa.gov/news-events/news/cisa-fbi-nsa-and-international-partners-warn-china-based-cybersecurity-company-enabling-threat",
+  "title": "CISA, FBI, NSA and International Partners Warn of China-based Cybersecurity Company Enabling Threat Actors to Target Multiple Critical Infrastructure Sectors Worldwide",
+  "text": "",
+  "published_at": "2026-10-08T12:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "metadata-only",
+  "date_precision": "timestamp",
+  "id": "f9c4c3b919d252ae0d54",
+  "source_id": "cisa",
+  "source_name": "CISA News",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/962b5428757ab1d8c88c1fd6563dedcc9f4fc1b68c3617a732d228fe05c288d6.body",
+  "source_sha256": "962b5428757ab1d8c88c1fd6563dedcc9f4fc1b68c3617a732d228fe05c288d6",
+  "fetched_at": "2026-10-09T01:00:06.626973+00:00"
+}

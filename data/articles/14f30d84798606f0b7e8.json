@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.08929",
+  "title": "Part of the Strassen algorithm can speed up matrix multiplication in a parallel pebbling game",
+  "text": "arXiv:2610.08929v1 Announce Type: new\nAbstract: We present a novel variant of the Strassen algorithm called the Partial Strassen algorithm, which uses a fraction of the Strassen steps to perform matrix multiplication in less time than traditional implementations. The memory footprint required to implement this algorithm is provably small whether used with a single thread or in a multi-threaded context. Data comparing the Partial Strassen algorithm at depths one, two, and three with BLAS matrix multiplication show that the three-level Partial Strassen algorithm is able to perform matrix multiplication in $80\\%$ the time of BLAS with $2.25$ times the memory requirement, with a theoretical improvement of $75\\%$ for sufficiently large matrices. The Partial Strassen algorithm is also compared against an implementation of the traditional Strassen algorithm, and is shown to be more performant with increasing matrix size due to decreased memory consumption. An open source implementation of the Partial Strassen algorithm for arbitrary depth and rectangular matrix multiplication is also included.",
+  "published_at": null,
+  "announced_at": "2026-10-08T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "14f30d84798606f0b7e8",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-09/ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c.body",
+  "source_sha256": "ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c",
+  "fetched_at": "2026-10-09T01:00:04.331143+00:00"
+}

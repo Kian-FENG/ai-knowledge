@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/amazon-rewired-data-centers-mississippi-power-warning",
+  "title": "How Amazon Rewired Its Data Centers After Mississippi Power Warning",
+  "text": "Earlier this year, officials at Mississippi electric utility Entergy had some worrisome news for Amazon: It was going to have to start kicking the company’s Mississippi-based data centers off the grid during peak times to ensure it could support other customers, according to two people with knowledge of the situation.\nAmazon’s cloud unit, Amazon Web Services, operates one data center near Jackson, Miss., which it is expanding, and it is building two more data center facilities in the same general area, making the state an important region in its data center buildout. Utilities rarely kick off major customers, but Entergy’s message, which hasn’t been previously reported, reflects how soaring demand for power from AI cloud operators is forcing power companies to take unprecedented measures to balance the needs of their various customers.",
+  "published_at": "2026-10-08T14:33:24+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T19:45:22+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c9d53b49b8762e6c4af7",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978.body",
+  "source_sha256": "567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978",
+  "fetched_at": "2026-10-09T01:00:14.696641+00:00"
+}

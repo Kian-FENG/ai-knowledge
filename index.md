@@ -26,3 +26,8 @@
 
 - [[research/synthesis/agent-delivery-and-verification-20261006|Agent的交付与验证体系]]
 - [[reference/entities/vinci|新增跟踪：Vinci物理仿真平台]]
+
+## 2026-10-08 研究增量
+
+- [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的身份、会话与预算]]
+- [[reference/entities/today|新增跟踪：TODAY金融保险顾问Agent]]

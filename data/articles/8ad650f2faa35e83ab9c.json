@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.09786",
+  "title": "HPC-MQBench: Qualification-First Benchmarking on Slurm with a Single-Broker Kafka Evaluation",
+  "text": "arXiv:2610.09786v1 Announce Type: new\nAbstract: Messaging experiments on high-performance computing clusters must coordinate services, clients, and measurement within scheduler allocations. We present HPC-MQBench, a Slurm-orchestrated benchmark that links resumable experiment control to record checks, delivery accounting, and qualification before rate ranking. Its Kafka evaluation placed producers/controller, one broker, consumers, and monitoring on four nodes. With memory-backed logs, 120 workload configurations yielded 99 qualified observations, 14 outside the producer-delivery policy, and seven with invalid evidence. Two validation stages each repeated ten workloads in five blocks. In the final stage, the selected workload qualified in all five observations, with medians of 2,927 mebibytes per second balanced endpoint rate, 1.24 percent pending deliveries, and 2.56 seconds for the 99th-percentile latency. It qualified in only two observations in the earlier stage, where qualification improved after an allocation boundary without establishing a causal allocation effect. Selection is conditional on the stage and delivery policy. Resource measurements did not isolate a unique bottleneck. The contribution is a framework for distributed experiment control and auditable configuration selection at a fixed broker count; multi-broker support and scaling experiments remain future work.",
+  "published_at": null,
+  "announced_at": "2026-10-08T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "8ad650f2faa35e83ab9c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-09/ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c.body",
+  "source_sha256": "ef670a508a7f3142ce61e7564b6a8dae08490cdafc9b1e5c1d19b4361855b26c",
+  "fetched_at": "2026-10-09T01:00:04.331143+00:00"
+}

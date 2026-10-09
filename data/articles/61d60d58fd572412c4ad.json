@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/d6417373-a80b-4716-a31e-9c0de08fbe88?syn-25a6b1a6=1",
+  "title": "The long-predicted decline in call centre jobs has finally begun",
+  "text": "Declining employment in the sector can be attributed to reduced hirings as opposed to an increase in firings",
+  "published_at": "2026-10-08T11:30:02+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "61d60d58fd572412c4ad",
+  "source_id": "ft-ai",
+  "source_name": "Financial Times AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/549f420569f0245928fcbd9e0f7af935fc91b64d47ff51b08a9ccefdd6b91847.body",
+  "source_sha256": "549f420569f0245928fcbd9e0f7af935fc91b64d47ff51b08a9ccefdd6b91847",
+  "fetched_at": "2026-10-09T01:00:16.868656+00:00"
+}
