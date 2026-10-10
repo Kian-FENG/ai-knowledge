@@ -38,21 +38,28 @@
       "notified_at": "2026-10-09T01:18:44.814117+00:00",
       "research_commit": "ec610b806cda48af86769257fbc8447e1525b11e",
       "git_remote_synced": true
+    },
+    "2026-10-09": {
+      "packet_sha256": "a659f50dc3e60aac88a68a1dc7d2fc84561e0367b2f69b207879a587979759fa",
+      "editorial_sha256": "c3bbd30ce4bf582bd84e1e8262292e92db1fb15335d7fd68e47dea7e3d5212c1",
+      "notified_at": "2026-10-10T01:26:07.817213+00:00",
+      "research_commit": "2c2cb6343d913d1e7d9919a91b58be48f977c57f",
+      "git_remote_synced": true
     }
   },
   "failed_source_ids": [
-    "geekpark",
     "huxiu",
     "jiqizhixin",
     "nda",
     "qwen",
+    "today",
     "techmeme-snapshot"
   ],
-  "updated_at": "2026-10-09T01:18:44.814117+00:00",
+  "updated_at": "2026-10-10T01:26:07.817213+00:00",
   "git_sync": {
-    "date": "2026-10-08",
-    "research_commit": "ec610b806cda48af86769257fbc8447e1525b11e",
+    "date": "2026-10-09",
+    "research_commit": "2c2cb6343d913d1e7d9919a91b58be48f977c57f",
     "remote_synced": true,
-    "notified_at": "2026-10-09T01:18:44.814117+00:00"
+    "notified_at": "2026-10-10T01:26:07.817213+00:00"
   }
 }
