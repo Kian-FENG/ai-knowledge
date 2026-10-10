@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156344.htm",
+  "title": "内存订单排至未来一年！SK海力士合作伙伴季度内存营收同比增158%",
+  "text": "AI推理拉动服务器内存扩容需求。美国AI计算与内存方案商Penguin Solutions内存业务量价齐升，需求或传导至SK海力士等上游存储原厂。\n据媒体当地时间10月9日报道，美国AI计算与内存方案商Penguin Solutions在6日举行的2026财年第四财季业绩电话会上表示，由于内存供应跟不上需求，其内存业务未交付订单规模已超过当季营收，现有订单的交付将至少排至未来四个季度。\nPenguin Solutions主要为AI数据中心提供高性能计算、内存模组等基础设施产品与服务。据公司财报，2026财年其内存业务营收占比达53%。\n据报道，SK海力士是其主要内存芯片供应商之一。\n业绩方面，Penguin Solutions第四财季内存业务营收达3.41亿美元，同比增长158%。据报道，7月公布的上一财季增速为111%，本季增速明显加快。\n公司预计，2027财年内存业务营收将比上一财年增长约50%。\nPenguin Solutions首席执行官Kash Shaikh在业绩电话会上表示，内存价格与出货量都在上升：公司单季营收创下纪录，未交付订单却反而增加了。\n他还表示：“内存是受经济周期影响的市场，但AI产业正在创造新的结构性需求。这一变化在数据中心内存领域尤为明显。”\nKash指出，AI正从简单回答用户提问，转向能够依次执行多项任务的推理形态，服务器所需的内存容量也随之不断扩大。\n据报道，Penguin Solutions近期面向AI推理企业，扩大了基于CXL的内存扩展卡业务。CXL是一种将CPU与内存等组件高速互联的技术，可以扩充服务器的可用内存容量。\n媒体报道称，在新一代内存CXL领域，该公司与SK海力士也已展开合作。\nPenguin Solutions的模组业务分为两种模式。一种是客户直接向存储原厂采购芯片，再由Penguin Solutions组装模组。另一种是由Penguin Solutions包揽从芯片采购到模组组装的全部环节。两种模式各占约一半。\n这意味着，无论采用哪种模式，模组端的需求增长都将带动上游存储芯片的采购。",
+  "published_at": "2026-10-09T21:03:57+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a61131ce8b2469a976bd",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

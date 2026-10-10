@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11260",
+  "title": "LLM Agents as Resilience Engineers for Scientific Applications",
+  "text": "arXiv:2610.11260v1 Announce Type: new\nAbstract: Efficient checkpoint/restart support is essential for resilient HPC scientific applications, but implementing it requires substantial expertise: developers must identify recoverable state, choose globally consistent checkpoint points, and preserve application invariants during restart. We study whether frontier LLM coding agents can automate this process. We build a benchmark suite of 16 MPI applications spanning diverse domains, code sizes, and critical-state structures, and evaluate them with a no-human-in-the-loop generate--validate--revise pipeline for checkpoint/restart synthesis. Across the benchmark, the pipeline produces 41 working resilient implementations. Our results show that agent-driven resilience engineering is practical when critical state is visible or accessible through coherent abstractions: successful runs finish in under one hour on average, consume about 15M tokens, and produce implementations with negligible failure-free overhead and recovery efficiency comparable to human-written code. However, modularized and fragmented state remains a major limitation, with some failed attempts consuming over 100M tokens and 300 minutes without producing a working implementation.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d91a5c65dad4ca5b945e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

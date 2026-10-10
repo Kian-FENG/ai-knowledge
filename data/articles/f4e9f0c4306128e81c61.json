@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.10650",
+  "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
+  "text": "arXiv:2610.10650v1 Announce Type: new\nAbstract: Work zones are critical yet hazardous components of transportation infrastructure, requiring carefully designed Transportation Management Plans (TMPs) to ensure safety and mobility. However, TMP preparation remains labor-intensive and heavily dependent on practitioner expertise. This paper proposes a Large Language Model (LLM)-assisted framework to automate TMP content generation, leveraging the WisDOT WisTMP system as the application context. The framework fine-tunes multiple open-source LLMs across different model scales and deploys them locally to ensure data security. To support model training, we construct a domain-specific dataset from historical WisTMP documents by converting PDF files into structured question-answer pairs in JSON format. Experimental results show that fine-tuning significantly improves performance across standard text generation metrics. Further section-wise and strategy-level analyses reveal that, while LLMs achieve strong overall performance, they tend to over-generate strategies and struggle to produce project-specific justifications and accurate cost estimates. In addition, scaling from 7B/8B to 14B yields limited gains. These findings demonstrate the potential of LLMs to improve TMP preparation efficiency while highlighting remaining challenges in LLM-assisted TMP development. The source code and demo videos will be publicly available at https://zihaosheng.github.io/TMP-LLM/.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f4e9f0c4306128e81c61",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

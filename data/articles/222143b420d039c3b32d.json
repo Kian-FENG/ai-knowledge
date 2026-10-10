@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156343.htm",
+  "title": "小米18 Fold登顶安卓设备性能榜！玄戒O3遥遥领先骁龙8EE6、天玑9600 Pro",
+  "text": "快科技10月9日消息，安兔兔今天发布9月Android V12大版本更新后首个性能榜单，小米18 Fold凭借玄戒O3芯片摘得榜首，平均跑分4620886。\n这次不光有玄戒O3，同时还有第六代骁龙8超级至尊版、天玑9600 Pro机型，上演一场新一代旗舰芯片大混战。\n从目前的成绩来看，毫无疑问是玄戒O3夺冠，而且是遥遥领先于其他两款芯片。\n玄戒O3是小米自主设计的最新旗舰芯片，采用台积电3nm N3E工艺，芯片面积约133平方毫米，集成约190亿晶体管。\nCPU采用十核全大核设计，配备配备C1-Ultra+C1-Premium+C1-Pro，最高主频来到4.35GHz，多核性能提升60%。\nGPU首发16核的G2-Ultra NX图形处理器，前所未有的跨代式升级，性能提升了85%，是目前最强的手机图形处理性能。\n玄戒O3还是全球首款支持LPDDR6的移动处理器，全球首发搭载长鑫LPDDR6内存，实现自研SoC搭配国产新一代内存的双国产核心器件组合，这次超高的跑分成绩也有内存的加成。\n除了搭载玄戒O3的小米18 Fold之外，榜单第二名是搭载第六代骁龙8超级至尊版的iQOO 16，平均跑分4449925。\n这颗芯片采用台积电2nm N2P工艺，Oryon CPU由2个最高5.0GHz超级内核和6个最高4.0GHz性能内核组成，配备16MB FlexCache和Adreno 850 GPU。\n第三名荣耀Magic9 Pro Max同样搭载骁龙8超级至尊版Gen6，平均跑分4435489。\n第五名OPPO Find X10 Pro Max搭载联发科天玑9600 Pro，平均跑分4385161。\n天玑9600 Pro是联发科首款2nm移动芯片，同样采用台积电2nm N2P工艺，集成330亿晶体管，CPU由2个4.55GHz C2-Ultra超大核、3个4.35GHz C2-Pro大核和3个3.1GHz C2-Pro大核组成，GPU为Mali-G2-Ultra NX MC12。\n值得注意的是，受内存涨价影响，多款机型上榜版本为16GB加512GB而非1TB顶配，说明价格上涨已影响用户购买决策。",
+  "published_at": "2026-10-09T21:01:49+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "222143b420d039c3b32d",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

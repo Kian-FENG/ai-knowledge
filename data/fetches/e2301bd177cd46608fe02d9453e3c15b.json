@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-10/e76187a2730095a67fce7668c04a8e099f0cdf7e1db24cfec1efd669a1f62c4e.body",
+  "sha256": "e76187a2730095a67fce7668c04a8e099f0cdf7e1db24cfec1efd669a1f62c4e",
+  "source_url": "https://volantissemi.ai/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-10T01:03:12.849777+00:00",
+  "source_id": "volantis",
+  "status": 200,
+  "headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Content-Length": "64489",
+    "Content-Type": "text/html",
+    "Date": "Sat, 10 Oct 2026 01:03:13 GMT",
+    "Etag": "\"4a5558cba0cfaf65b5257cc4bb82e7f7\"",
+    "Framer-Site-Id": "d8ccd2fdd87e53439be3599b25f327415e9bd9567d5a5f6b36e189e520a8500b",
+    "Last-Modified": "Fri, 09 Oct 2026 20:07:13 GMT",
+    "Link": "<https://framerusercontent.com>; rel=\"preconnect\", <https://framerusercontent.com>; rel=\"preconnect\"; crossorigin=\"\"",
+    "Server": "Framer/26fa766",
+    "Server-Timing": "region;desc=\"us-west-2\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"17a5886\", route;dur=1;desc=\"id=augiA20Il&locale=default\", country;desc=\"US\", ss-only-routes",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Accept-Encoding, Accept",
+    "X-Content-Type-Options": "nosniff",
+    "Connection": "close"
+  },
+  "final_url": "https://volantissemi.ai/",
+  "truncated": false,
+  "charset": "utf-8"
+}

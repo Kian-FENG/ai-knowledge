@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156332.htm",
+  "title": "还是DDR4香！Intel Raptor Lake新U发布时间定了",
+  "text": "快科技10月9日消息，之前就一直有消息称Intel将针对LGA 1700平台推出新款CPU，如今这些新CPU的发布时间窗口已经得到确认。\n根据技嘉官网发布的文章，Intel计划在2027年初为LGA 1700推出新处理器，技嘉已为其B760和H610主板做好准备工作。\n技嘉表示，这些新处理器基于LGA 1700插槽，预计2027年初上市，将为成熟平台带来新一轮性能提升，技嘉用户可以从第一天就做好准备。\n这批新芯片并非全新架构，而是Raptor Lake的新版本，这一架构此前承载了第12至14代酷睿，最后一次大规模发布还要追溯到2023年。\n此后Intel连续推出了Arrow Lake和Arrow Lake Refresh两代新品，但均未能撼动AMD X3D在发烧友市场的优势地位。\n在两代新品未能翻盘的背景下，继续给老平台出新U看似有些不合常理，但关键在于一个存储危机下的卖点：支持DDR4。\n虽然DDR4和DDR5内存都在涨价，但DDR4的绝对成本仍然低得多，对预算有限的装机用户来说吸引力更大。\n而Raptor Lake的独特优势在于同时支持DDR4和DDR5，相比之下AMD的AM5平台已全面转向DDR5，也就是说Intel是当前唯一能在内存世代交替之间提供平滑升级路径的厂商。\n技嘉在官网中强调，现有B760和H610主板用户只需下载BIOS、更新、换上新CPU三步即可完成升级，无需更换主板或重建系统，且DDR5和DDR4版本的主板均适用。",
+  "published_at": "2026-10-09T19:31:16+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "bfdfcc1803ba0c9ba8ca",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

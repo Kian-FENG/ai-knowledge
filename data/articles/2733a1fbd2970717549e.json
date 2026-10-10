@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11638",
+  "title": "UXBench Pro: Benchmarking Personalized User Experience in Multi-Turn Dialogue Interactions",
+  "text": "arXiv:2610.11638v1 Announce Type: new\nAbstract: Evaluating user experience (UX) with automated computational methods has gained increasing attention, supported by empirical evidence from UXBench. However, binary preference prediction provides limited insight, while relying on a single user-agnostic reward model overlooks the inherent heterogeneity of users, whose expectations can differ substantially. In this paper, we present UXBench Pro, comprising 1{,}000 test instances derived from real user interactions across 12 task scenarios and 82 domains. Each instance is paired with a FACTORS user profile that characterizes the user through seven interpretable behavioral facets, differentiating user groups. To provide richer evaluation insights, we introduce a dual-perspective paradigm that combines a personalized User Reward Model (URM) for third-person judgment with Sim4Eval, a user simulator that enables multi-turn interactions and provides first-person evaluation across four cognitive state dimensions. To assess the reliability of these based evaluators, we further introduce two meta-benchmarks, URMBench and USimBench, that evaluate how faithfully they reproduce real human preferences and behaviors. Extensive experiments reveal seven key findings that highlight the importance of user modeling and multi-perspective evaluation, offering a fresh perspective on user-centric benchmarking and motivating personalized model optimization.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "2733a1fbd2970717549e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

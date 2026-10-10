@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11275",
+  "title": "Phonological Interference in Multilingual Speech Models",
+  "text": "arXiv:2610.11275v1 Announce Type: new\nAbstract: Phoneme-level models transcribe or generate speech as a sequence of phonemes, the smallest sound units that distinguish words. These models enable fine-grained pronunciation control and understanding, yet often fail on input that does not match any single training language, such as speech alternating between two languages, known as code-switching, or low-resource languages absent from training. We identify a systematic failure mode behind this, phonological interference: models assume the input is in a single language and impose its phonology, overriding local phoneme-level decisions that conflict with the assumed language. We measure interference by how often a model retains phonemes that one language has but the other lacks. On code-switched input, two phone recognizers (speech-to-phoneme models) and a phoneme-conditioned text-to-speech model lose 32% to 79% of these phonemes, but lose far fewer of the phonemes both languages share. On unseen languages, we find that phone recognizers impose the phonology of the training language they assign to the speech, and the more confident the assignment, the more they lose phonemes the unseen language has but the assigned language lacks. We probe the models' language estimate from their internal activations, and trace interference to a low dimensional subspace. On monolingual speech, steering this subspace toward another language makes the model lose the phonemes that only the original language uses and produce phonemes that only the target language has. We introduce windowed language estimation (WLE), an inference time repair that replaces the model's language estimate in this subspace with one computed from a short window around each position. On code-switched input, WLE removes 34% to 69% of the interference in all three models, and in the recognizers it leaves monolingual performance essentially unchanged.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "63a47528ff4e6a6a3093",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

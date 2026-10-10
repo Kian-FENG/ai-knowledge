@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156377.htm",
+  "title": "LGA 1700再度续命！技嘉B760/H610推送BIOS更新：为Raptor Lake NEXT铺路",
+  "text": "快科技10月10日消息，主板厂商技嘉（GIGABYTE）近日发布最新BIOS更新，宣布旗下B760和H610芯片组主板将正式支持即将推出的LGA 1700处理器。\n这一官方举动间接确认了英特尔正在准备传闻中的Raptor Lake NEXT系列处理器，意味着现有主板平台将迎来产品线刷新。\n技嘉官方在更新公告中明确指出，基于LGA 1700插槽的新款处理器预计将于2027年初发布，此次BIOS更新旨在让现有平台第一时间获得支持。\n这是首次有主板核心合作伙伴通过官方渠道，证实英特尔将对现有的LGA 1700平台进行寿命延长。\n根据技嘉披露的技术信息，此次升级涵盖了整个B760和H610系列，且同时兼容DDR4和DDR5内存版本。\n与英特尔即将全面转向纯DDR5内存的Arrow Lake以及Nova Lake平台不同，LGA 1700是目前唯一横跨两种内存规格的插槽。\n简单来说，用户可以直接通过刷写固件来升级下一代处理器，而无需承担更换新主板和高价DDR5内存的额外成本。\n据业内前期爆料，Raptor Lake NEXT将是现有酷睿架构的再次优化版本，入门级市场预计将推出4到10核心配置的Core 3和Core 5系列，结合H610等入门级主板能大幅拉低整机装机门槛。\n同时该系列据称也包含了16核心与20核心的高阶型号，热设计功耗（TDP）维持在65W至125W区间。",
+  "published_at": "2026-10-10T08:09:19+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "da12436e492f241f162d",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

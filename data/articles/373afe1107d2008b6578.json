@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/nvidia-backed-firmus-scraps-5-billion-australia-ipo-markets-wobble",
+  "title": "Nvidia-Backed Firmus Scraps $5 Billion Australia IPO as Markets Wobble",
+  "text": "Firmus Grid, an AI cloud company backed by Nvidia, has pulled what would have been Australia’s biggest initial public offering in almost 30 years. The Sydney-based company had planned to raise nearly $5 billion at a valuation above $30 billion. It cited market volatility and said it will seek ...",
+  "published_at": "2026-10-09T04:45:22+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-10T00:58:50+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "373afe1107d2008b6578",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/133ee60e70d8d4090933e51591796515b4fec9816a1d86e458c7c42346648c5a.body",
+  "source_sha256": "133ee60e70d8d4090933e51591796515b4fec9816a1d86e458c7c42346648c5a",
+  "fetched_at": "2026-10-10T01:03:31.052832+00:00"
+}

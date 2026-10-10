@@ -1,0 +1,18 @@
+{
+  "url": "https://pytorch.org/blog/new-pathway-to-pytorch-certified-associate-ptca-certification/",
+  "title": "New Pathway to PyTorch Certified Associate (PTCA) Certification",
+  "text": "We’re excited to bring you the new PyTorch Certified Associate (PTCA) Certification Pathway, combining focused learning modules and the PyTorch Certified Associate (PTCA) certification exam together in one structured experience through Linux Foundation Education. The Certification Pathway is designed to help you build the foundational PyTorch skills validated by PTCA through learning that more closely aligns with the certification’s domains and competencies.\nThe pathway includes four self-paced learning modules plus the PTCA certification exam:\nPyTorch Fundamentals\nData Handling in PyTorch\nPyTorch Model Development\nOptimizing PyTorch\nTogether, the modules cover core skills across the same key areas measured by the PTCA certification, from working with tensors and devices to preparing data, building neural networks, and improving model performance.\nLearn, Build, Validate, Certify\nThroughout the pathway, you’ll build skills to:\nWork with tensors and devices across the model lifecycle, from training through prediction\nPrepare and manage data using Datasets, DataLoaders, and transforms\nBuild neural networks using PyTorch layers, activations, loss functions, and optimizers\nMeasure and optimize performance using tools and techniques including torch.compile, Automatic Mixed Precision, the PyTorch Profiler, and distributed training concepts\nThe full pathway includes 15–17 hours of self-paced learning and hands-on labs designed to help you build a strong foundation. Certification readiness takes more than completing coursework, so additional hands-on practice and real-world experience with PyTorch are recommended as you prepare for the PTCA exam.\nPut Your PyTorch Skills on a Clear Path\nPTCA is designed for early-stage practitioners with Python and machine learning experience who are beginning to work with PyTorch. The certification validates your understanding of the core concepts and workflows used by engineers and researchers to design, train, optimize, and work with machine learning models. With the new PTCA Certification Pathway, you can build those skills through focused learning and then validate what you know with the included certification exam, all in one product.\nBuild your PyTorch skills and get certified today.",
+  "published_at": "2026-10-02T19:33:47+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f2a3e66f4f2cf7b41c2d",
+  "source_id": "pytorch-blog",
+  "source_name": "PyTorch Foundation Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-05/ba08a2c50eaf9ebcd27bf903b93b5eb1a0ca6a54edd61966fb0f63ec02461d39.body",
+  "source_sha256": "ba08a2c50eaf9ebcd27bf903b93b5eb1a0ca6a54edd61966fb0f63ec02461d39",
+  "fetched_at": "2026-10-05T03:10:56.600126+00:00"
+}

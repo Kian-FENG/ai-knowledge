@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+09 Oct 2026\n+SpaceXAI performance results now available\n+Grok 3\n+Databricks performance results now available\n+DeepSeek V4 Flash 0731 (Max)\n+Baseten performance results now available\n+DeepSeek V4.1 Flash (Non-reasoning)DeepSeek V4.1 Flash (Max)\n-Aardvark performance results now available\n-GLM-5.3-Flash\n-LongCat performance results now available\n-LongCat 2.0\n-Liquid AI performance results now available\n-LFM2.5-2.6B\n-20 Aug 2026\n-Artificial Analysis Coding Agent Index methodology\n-Coding Agent Index methodology update (v1.4)\n-What's changed\n-Upgraded Terminal-Bench v2 to Terminal-Bench v2.1, covering the full 89-task set.\n-Added reward hacking detection aligned with Terminal-Bench's integrity methodology, scoring reward-hacked trials 0.\n-Revised token counting and cost methodology for agents that report reasoning within output tokens.\n-Benchmark composition and weighting are unchanged from v1.3.\n-Mistral performance results now available\n-GLM-5.2 (Max)\n-Prodia performance results now available\n-MiniMax H3 (768p)\n-19 Aug 2026\n-🚀 New website feature\n-About Us\n-Learn more about who we are and what we do.\n-New language model evaluation results available\n-G9v3-39A5B\n-AI9Stars performance results now available\n-G9v3-39A5B",
+  "id": "248adc60de5a47528e26",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-10/4cd087d0460c7913db1df95185d467f01cdc402a60cbb284afebee36c2bfe5c9.body",
+  "source_sha256": "4cd087d0460c7913db1df95185d467f01cdc402a60cbb284afebee36c2bfe5c9",
+  "fetched_at": "2026-10-10T01:03:22.092366+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-10T01:03:22.092366+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

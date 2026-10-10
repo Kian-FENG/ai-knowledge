@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/south-korean-banks-hacked-using-chinese-ai-agent-researchers-say",
+  "title": "South Korean Banks Were Hacked Using Chinese AI Agent, Researchers Say",
+  "text": "The perpetrator of a recent hack of South Korean financial institutions that resulted in data leaks used an open-source Chinese AI agent called Artex and Chinese large language models, according to a report published this week by cybersecurity firm CrowdStrike.\nThe analysis of the incident shows ...",
+  "published_at": "2026-10-09T01:39:37+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-09T10:46:47+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b19d24d3916a72b4df65",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/133ee60e70d8d4090933e51591796515b4fec9816a1d86e458c7c42346648c5a.body",
+  "source_sha256": "133ee60e70d8d4090933e51591796515b4fec9816a1d86e458c7c42346648c5a",
+  "fetched_at": "2026-10-10T01:03:31.052832+00:00"
+}

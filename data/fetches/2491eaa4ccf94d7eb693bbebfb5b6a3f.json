@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-10/aad793e8b41996246911dd54921349cdb392829831f3465e84f5c0334d6815c2.body",
+  "sha256": "aad793e8b41996246911dd54921349cdb392829831f3465e84f5c0334d6815c2",
+  "source_url": "https://arxiv.org/abs/2610.11158",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-10T01:06:26.769625+00:00",
+  "source_id": "arxiv",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "43075",
+    "server": "Google Frontend",
+    "content-security-policy": "frame-ancestors 'none'",
+    "content-type": "text/html; charset=utf-8",
+    "x-frame-options": "SAMEORIGIN",
+    "via": "1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "cache-control": "max-age=3600",
+    "x-cloud-trace-context": "2c2349e00da94262a9135317128318f2",
+    "last-modified": "Fri, 09 Oct 2026 00:30:10 GMT",
+    "Accept-Ranges": "bytes",
+    "Age": "81271",
+    "Date": "Sat, 10 Oct 2026 01:06:27 GMT",
+    "X-Served-By": "cache-lga-kjfk8660037-LGA, cache-lga-kjfk8660037-LGA, cache-lga-kjfk8660031-LGA, cache-sjc10075-SJC",
+    "X-Cache": "MISS, HIT, HIT",
+    "X-Timer": "S1791594387.335092,VS0,VE3"
+  },
+  "final_url": "https://arxiv.org/abs/2610.11158",
+  "truncated": false,
+  "charset": "utf-8"
+}

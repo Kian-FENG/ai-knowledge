@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11451",
+  "title": "SAIL: Scientific Agentic Intelligence via a Science-Aware Loop",
+  "text": "arXiv:2610.11451v1 Announce Type: new\nAbstract: We introduce SAIL, an open model with 35B total and 3B active parameters for literature research, scientific coding, and multi-step research workflows. SAIL is developed through a science-aware improvement loop: agents built on frontier AI models analyze its task failures and construct training tasks that address the underlying capability gaps. The diagnosis examines search and evidence selection in literature tasks, scientific assumptions and reasoning in coding, and planning and revision in longer investigations. The agents draw on paper collections and scientific code repositories to build problems, interaction trajectories, and executable tasks with the required environments and tools. We repeat this loop over multiple development cycles and train SAIL through supervised fine-tuning, specialist training, multi-teacher on-policy distillation, and agentic reinforcement learning. SAIL achieves competitive performance across scientific research tasks with substantially fewer parameters than leading open-weight models.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "c758335f4f7f1c3937a0",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

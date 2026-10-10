@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156280.htm",
+  "title": "散热大升级！新型钻石冷板可让GPU直降22℃：碾压传统刨槽工艺",
+  "text": "快科技10月9日消息，散热厂商Frore Systems宣布推出面向AI工厂的全新液冷冷板产品LiquidJet Diamond，其最大特点是在冷板底部集成了金刚石扩展层。\n官方数据显示，相比传统刨槽（skived）冷板，该产品可将AI Token每瓦产出及收入提升35%。\n据介绍，LiquidJet Diamond是在此前发布的LiquidJet冷板基础上打造。LiquidJet采用独特的3D超短回路多级设计，可针对每颗GPU的功耗分布图进行精准定制，包括应对极端热点。\n随着GPU复杂度和功耗持续攀升以满足AI需求，这种精准散热显得尤为关键：LiquidJet本身可将GPU核心温度降低12℃，直接转化为25%的Token每瓦效率提升。\n而LiquidJet Diamond通过在热点位置精确布置集成金刚石晶圆的扩展层，可再额外降低热点温度10℃，将Token每瓦效率增幅扩大至35%。\n与传统刨槽冷板相比，LiquidJet Diamond最高功率密度提升超过150%，热传递效率提高75%，GPU温度降低16至22℃，AI Token每瓦产出提升30%至35%，同时支持无缝式直接升级。\n官方称其可镇压高达770 W/cm²的极端热点。\n目前Frore Systems计划在2026年OCP全球峰会上进行实测演示，届时将展示LiquidJet Diamond为2300W功耗显卡降温的实际效果。",
+  "published_at": "2026-10-09T16:58:37+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8c86e821644a8294df72",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

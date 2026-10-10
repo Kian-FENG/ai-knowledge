@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156316.htm",
+  "title": "iOS设备最新性能榜出炉：iPhone 18 Pro系列杀入前三！A20 Pro超越M4",
+  "text": "快科技10月9日消息，安兔兔今天公布了9月iOS设备性能排行榜，iPhone 18 Pro系列直接杀入前三，A20 Pro芯片性能直接超越iPad Pro上的M4芯片。\n具体排名方面，排名第一位的是iPad Pro 2025（11英寸），搭载Apple M5芯片，配置12GB+256GB，平均跑分为3590928。\n排名第二位的是iPad Pro 2025（13英寸），同样搭载Apple M5芯片，配置12GB+256GB，平均跑分为3590448。\n位列榜单第三的是iPhone 18 Pro Max，搭载Apple A20 Pro芯片，配置12GB+512GB，平均跑分为3423963。\n排名第四的是iPhone 18 Pro，同样搭载Apple A20 Pro芯片，配置12GB+256GB，平均跑分为3406662。\n第五至第八名均为M4芯片设备，跑分在303万至309万之间，第九和第十名为M3芯片的iPad Air 2025系列，跑分约263万至266万。\n从榜单可以看出，2nm工艺加持的A20 Pro芯片性能已经全面超越上一代M4芯片iPad Pro，移动端芯片反超桌面级芯片的趋势愈发明显。\nA20 Pro采用台积电最新2nm N2 GAA工艺，是苹果首次在iPhone上使用2nm制程，同时首次启用WCM晶圆级多芯片封装，属于架构级换代。\n芯片配备6核CPU，包含2个超级核心和4个能效核心，7核GPU搭载神经网络加速器，双16核神经网络引擎AI算力翻倍，支持硬件加速光线追踪。\n相比A19 Pro，A20 Pro内存带宽提升50%，GPU性能提升40%，CPU和GPU综合性能提升15%至20%，整体功耗降低30%。",
+  "published_at": "2026-10-09T18:27:13+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "72e17b3d4c012a8ced71",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "period": "daily",
+  "date": "2026-10-09",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-09",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-08T18:00:00-07:00",
+    "end": "2026-10-09T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "a659f50dc3e60aac88a68a1dc7d2fc84561e0367b2f69b207879a587979759fa",
+  "editorial_sha256": "c3bbd30ce4bf582bd84e1e8262292e92db1fb15335d7fd68e47dea7e3d5212c1",
+  "report_path": "reports/daily/2026/10/2026-10-09/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-09/a659f50dc3e60aac88a68a1dc7d2fc84561e0367b2f69b207879a587979759fa.json",
+  "events": 10,
+  "generated_at": "2026-10-10T01:19:59.919751+00:00",
+  "timezone": "America/Los_Angeles",
+  "report_sha256": "5ea2daf554d46c77f875169e6042e4d9e68dadcb3c1a07b0ea7328d9aeb66248",
+  "reviewed_at": "2026-10-10T01:21:04.127538+00:00",
+  "display_corrections": [
+    "date-only去除午夜占位",
+    "实际生成时间与时区",
+    "有限覆盖与论文范围披露"
+  ],
+  "reviewed": true
+}

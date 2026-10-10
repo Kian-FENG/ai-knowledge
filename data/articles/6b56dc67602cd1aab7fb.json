@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/09/podcasts/hardfork-anthropic-ai-morals.html",
+  "title": "Anthropic’s Quest to Give A.I. Morals",
+  "text": "“For Anthropic, it was part research and part evangelism.”",
+  "published_at": "2026-10-09T11:01:21+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6b56dc67602cd1aab7fb",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/f589c1f054530041e369d8900db299aebbbe7c1957e0c0f9293344a9d30c0435.body",
+  "source_sha256": "f589c1f054530041e369d8900db299aebbbe7c1957e0c0f9293344a9d30c0435",
+  "fetched_at": "2026-10-10T01:03:32.768194+00:00"
+}

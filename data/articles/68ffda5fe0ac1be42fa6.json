@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156270.htm",
+  "title": "稳了！英伟达Vera Rubin采用12层HBM4：需求担忧缓解",
+  "text": "快科技10月9日消息，据报道，市场研究机构Counterpoint Research最新评估认为，英伟达Vera Rubin AI平台的大部分产品将采用12层HBM4，而非此前传闻的8层方案。这一判断修正了其8月报告中Rubin将采用8层HBM4变体的预测。\n此前有行业传闻称英伟达要求内存供应商将HBM4堆叠层数从12层削减至8层，市场一度担忧HBM需求下滑会导致产能回流传统DRAM，进而压低内存价格。Counterpoint Research本次观点直接缓解了SK海力士与三星电子面临的需求担忧。\n韩系双雄正同步推进16层HBM4技术。SK海力士在今年1月CES上首次展示16层48GB HBM4，容量较36GB的12层版本多出三分之一，并已在二季度开始向主要客户批量供应HBM4。\n三星自2月起出货商用HBM4，12层产品最高提供36GB容量，其16层堆叠技术已具备量产条件，将视客户需求调整节奏。\n需要指出的是，层数竞争之外，先进封装仍是关键制约。HBM必须通过先进封装与GPU集成，即便内存产量充足，封装产能仍可能限制AI加速器的整体供应。\n与此同时，晶圆端的产能挤压同样不容忽视。高性能芯片消耗的晶圆产能可达传统DRAM的三倍以上，AI需求持续的情况下，消费端内存供应仍将偏紧。",
+  "published_at": "2026-10-09T16:36:02+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "68ffda5fe0ac1be42fa6",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

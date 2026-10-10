@@ -240,6 +240,16 @@ companies:
   browser: [https://www.getvinci.ai/blog/]
   note: Hardik Kabaria共同创立并任CEO；官网页脚使用Vinci4d名称。物理仿真与硬件设计平台，公司披露2026-10-06融资USD250M B轮、估值USD1.5B；性能未独立验证。
 
+- id: typesafe
+  name: TypeSafe AI
+  region: US (website location; legal domicile unverified)
+  urls: [https://typesafe.ai/, https://typesafe.ai/blog/series-ai, https://docs.typesafe.ai/introduction]
+  sources: [typesafe]
+  browser: [https://typesafe.ai/blog]
+  source_page: reference/entities/typesafe.md
+  tracking_since: '2026-10-09'
+  note: Jev/System One开发者；公司披露USD870M A轮、USD7.5B估值；采用口径有差异，未审计收入或独立性能。
+
 communities:
 - name: SGLang
   urls:

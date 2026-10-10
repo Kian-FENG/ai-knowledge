@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+  "title": "AI coding agents generate more code, but not more software",
+  "text": "Anyone who has even tangentially associated with computer programming knows that modern AI coding assistants and agents can be incredibly efficient at generating huge amounts of functional code. But coders making use of those tools also know better than to trust the accuracy of that code, meaning substantial effort needs to be spent reviewing any AI-generated output.\nA recent study of actual coding practices across hundreds of firms finds that human code review forms a significant \"bottleneck\" for the overall efficiency of AI coding tools, resulting in \"little evidence that firms increase software output or reduce employment\" by using them. Any efficiency increased during the actual coding phase, the study authors find, is \"absorbed by downstream constraints in the production process\"; as \"the code review process significantly increases in length, pull requests are more likely to require revisions, and reviewers leave more comments.\"\nCut once, measure twice\nTo come to these conclusions, Harvard University researchers Fiona Chen and James Stratton made use of aggregated analytics data from Jellyfish, which measures the granular output of engineering teams. That data encompasses 300 million individual \"work events\" (e.g., commits and pull requests) and issue management software data across more than 700,000 employees at over 700 relevant software development firms from 2021 through March of 2026.\nRead full article\nComments",
+  "published_at": "2026-10-09T19:43:50+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "13a86554d2a39789eda5",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-10/fa56b693610c1add62b770eea92de93b4d5509bb31b26e3250ed695571f8adf9.body",
+  "source_sha256": "fa56b693610c1add62b770eea92de93b4d5509bb31b26e3250ed695571f8adf9",
+  "fetched_at": "2026-10-10T01:03:34.580938+00:00"
+}

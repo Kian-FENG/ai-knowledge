@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+  "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+  "text": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access […]",
+  "published_at": "2026-10-09T16:56:42+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "dd1a4ba899e07fb1f55c",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/202f51bcdbde0719e1631e6dbd93ba9b5a6e501b11ed6604ebfbf48a322bddc1.body",
+  "source_sha256": "202f51bcdbde0719e1631e6dbd93ba9b5a6e501b11ed6604ebfbf48a322bddc1",
+  "fetched_at": "2026-10-10T01:03:28.248810+00:00"
+}

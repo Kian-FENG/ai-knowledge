@@ -1,0 +1,18 @@
+{
+  "title": "Asana 案例拆解浏览 Agent 的缓存与模型成本",
+  "url": "https://openai.com/index/asana-browser-agent/",
+  "text": "Browser-read source extract; OpenAI Asana browser agent, October 9, 2026. This is a faithful selected factual extract from the main article read with a browser, not an HTTP full-page capture. Codex using GPT-6 Astra ran optimization experiments; the optimized production runtime uses GPT-6.1 Sol. A 144-run study compared four models, two retained-history budgets (120k/480k characters), six cache/screenshot policies, three repeats each on a public demo bookstore task of six fields for each of 32 books. A continually changing screenshot/history prefix prevented effective caching. A bounded policy allows up to twenty screenshots, then trims to the most recent screenshot. Original Model B cost was at least USD36.21 because the capped run did not finish, optimized Model B USD1.24, optimized Sol USD0.47. Thus the headline 76x mixes policy and model changes; Sol alone improves USD1.97 to USD0.47, with 89% input tokens cached at 5% price. Original Model B took at least 22.5 minutes; optimized Sol about four minutes. Optimized runs completed the task correctly. Chart reconstruction approximate; underlying numerical chart values unavailable. Fixes released to StackAI; reusable evaluation infrastructure is future work.",
+  "extraction": "full-text",
+  "date_basis": "published",
+  "published_at": "2026-10-09T07:00:00+00:00",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "10dcfe0bfbc53363824c",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-10/63f6c259189519ff6c3c55a01e44624c7f3c5d69e906f5016f32d1a697a61d81.txt",
+  "source_sha256": "63f6c259189519ff6c3c55a01e44624c7f3c5d69e906f5016f32d1a697a61d81",
+  "fetched_at": "2026-10-10T01:14:10.274915+00:00",
+  "date_precision": "timestamp"
+}

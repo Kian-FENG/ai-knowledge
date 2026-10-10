@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/anthropic-expands-cyberdefenders-access-top-models",
+  "title": "Anthropic Expands Cyberdefenders’ Access to Top Models",
+  "text": "Anthropic said it is expanding and restructuring its cybersecurity access programs to enable more cyberdefenders to use its most advanced Claude models to secure their systems against potential AI attacks.\nUnder the changes, announced Tuesday, all members of Anthropic’s Cyber Verification ...",
+  "published_at": "2026-10-06T19:06:20+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-06T22:19:50+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b1d7fd8db5a46bf5faf1",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a.body",
+  "source_sha256": "45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a",
+  "fetched_at": "2026-10-07T01:06:18.465670+00:00"
+}

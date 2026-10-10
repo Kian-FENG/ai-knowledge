@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-minimax-m3-dev.1",
+  "title": "v1.6.0-minimax-m3-dev.1: chore(container): minimax m3 builds (#14856)",
+  "text": "Signed-off-by: Shreyas Misra shreyasm@nvidia.com\nSigned-off-by: NVShreyas 158103197+NVShreyas@users.noreply.github.com\nCo-authored-by: Dmitry Tokarev dtokarev@nvidia.com",
+  "published_at": null,
+  "announced_at": null,
+  "updated_at": "2026-10-08T19:51:54+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b5b8dec989d69b09437f",
+  "source_id": "dynamo",
+  "source_name": "NVIDIA Dynamo",
+  "section": 3,
+  "raw_path": "raw/2026-10-09/eba580d25f6e694b6d0d7227810f0de162561e73aec2ce5950d5ff897ceb7f28.body",
+  "source_sha256": "eba580d25f6e694b6d0d7227810f0de162561e73aec2ce5950d5ff897ceb7f28",
+  "fetched_at": "2026-10-09T01:00:07.895991+00:00"
+}

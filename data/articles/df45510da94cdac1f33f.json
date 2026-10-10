@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/videos/2026-10-09/bloomberg-tech-10-9-2026-video",
+  "title": "OpenAI's $70B Run Rate Meets AI's Infrastructure Challenge",
+  "text": "loomberg’s Ed Ludlow breaks down OpenAI's latest annualized revenue, expected to reach or exceed $70 billion by the end of the year. Plus, Oracle keeps several data centers on track by relying on truck deliveries of natural gas, and a conversation with Kleiner Perkins partner Ilya Fushman on the mega AI IPO pipeline and the future of physical AI. (Source: Bloomberg)",
+  "published_at": "2026-10-09T18:54:58+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "df45510da94cdac1f33f",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/f4720599cb7ca0020636e48a0dfae4735ebaa8ba070141df0f98bef1da301f42.body",
+  "source_sha256": "f4720599cb7ca0020636e48a0dfae4735ebaa8ba070141df0f98bef1da301f42",
+  "fetched_at": "2026-10-10T01:03:33.578591+00:00"
+}

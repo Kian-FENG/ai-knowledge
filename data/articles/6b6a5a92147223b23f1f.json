@@ -1,0 +1,18 @@
+{
+  "url": "https://www.leiphone.com/category/chips/iJYPlZXgggbJ74ZB.html",
+  "title": "做了八年DSP，Credo怎么突然开始做光芯片了？",
+  "text": "做了八年DSP（Digital Signal Processor，数字信号处理器）后，Credo Technology Group Holding Ltd（以下简称“Credo”）开始真正走进“光”里。\n自去年10月首次推出ZeroFlap光模块产品线以来，Credo用一年时间把产品带宽从800G推向1.6T。一起扩张的，还有Credo在模块内部能够自己掌控的技术环节——最新一代全DSP模块首次集合了200G/lane的Cardinal DSP、收购DustPhotonics后拿下的Kfir200 SiPho PIC（Silicon Photonics Photonic Integrated Circuit，硅光光子集成芯片），以及PILOT诊断分析平台。\n这场对光的押注离不开Credo对市场的观察。9月的新品发布会上，Credo中国销售副总裁杨学贤分享了对过去一年行业变化最深的体感：单颗GPU的性能增速已经追不上AI需求，越来越大的算力缺口，需要依靠连接更多GPU来填。\n当行业关注点也因此从“一颗GPU有多快”，转向“如何把更多GPU连成一个更大的计算系统”时，对光模块的端到端整合成为Credo“系统级互联”思路最生动的注脚。\n而Credo究竟如何一步步把这些能力收进同一只光模块，还得从它最熟悉的DSP讲起。\n200G/lane之后，DSP开始「量体裁衣」\n8年来，数百万颗Credo DSP涌入大型数据中心，背后是七代架构的持续迭代，以及50G/lane、100G/lane和200G/lane三档产品的长期出货。\nCredo销售与光产品营销副总裁Chris Collins介绍，目前50G单通道DSP仍颇受青睐，与此同时Credo也正在向400G/lane推进。\n那么，这颗能被大量采用的DSP，到底在光模块里承担什么角色？\n答案是高速信号的“修复站”。以传统全DSP光模块为例，当上游电芯片送来的高速电信号经过长途跋涉的传输后想要转为光时，可能会出现衰减、失真等情况，此时守在光模块电侧入口的DSP负责修整信号，再交由模块里的光器件处理；反过来光转电时，从光信号恢复出来的电信号也要经过DSP处理，继而才重新送回至电芯片。\n但进入800G、1.6T的高带宽时代，光模块传输能力愈发强悍的同时，内部架构也由于功耗等压力开始出现分化——LRO（Linear Receive Only，线性接收光模块）只保留发送端的DSP，LPO（Linear Pluggable Optics，线性可插拔光模块）则完全去掉模块内所有DSP。\n模块的速率和架构越分越细，DSP也很难再用少数几种规格覆盖所有场景。Chris指出到了200G/lane这一代，一颗8×200G DSP用在1.6T全DSP光模块里正合适，但放进1.6T LRO，为了接收端保留的能力将明显成为功耗负担；用于4×200G的800G模块，成本又显得过高。\n因此，Credo最新一代全DSP模块Cardinal 802，区别于行业普遍的8通道单Die方案，采用4×200G设计，兼顾800G和1.6T全DSP场景。作为最早押注LRO的DSP厂商之一，Credo还另外推出针对发送侧处理需求设计的DSP。\nChris还专门解释了Credo选择LRO方案的原因：到了200G/lane这样的高速链路，信号本身已经很难跑，光器件损伤、长距离信道带来的失真都需要均衡和补偿。如果像LPO一样把DSP全部拿掉，这些问题就更多要靠整条链路自己扛，留给系统出错的余地很小。\n更有意思的是，今天的DSP也不只负责实时处理高速信号，Credo也在给DSP增加“体检”能力。FEC（Forward Error Correction，前向纠错）统计、MPI（Multipath Interference，多路径干扰）、误码率等运行数据，都可以由DSP持续采集，再交给Credo自家的PILOT诊断平台分析。\n功能可以增加，但DSP最终仍是一颗要在功耗、面积和性能之间做取舍的芯片。两年前开始注意到5nm供应趋紧后，Credo开始讨论能否把部分产品重新迁回7nm，同时尽量维持原有的功耗和性能。\n今年与Cardinal同期推出的100G/lane Robin就是这一思路的结果。不过，相比采用5nm的上一代100G/lane Lark，Robin虽然没使用5nm，却把原本独立存在的Driver——负责放大DSP输出的高速电信号的驱动芯片，直接集成进DSP，封装占板面积缩小接近一半。\n据Chris介绍，上一代Lark单颗DSP功耗约5.5W，加上外置Driver后至少达到约6.5W；Robin把两者集成后，整体功耗仍维持在相近区间。\n从DSP到PIC，Credo押注系统整合\n不想只站在电与光的交界处的Credo，还在继续扩张光模块的业务版图，将负责调制和接收光信号的硅光芯片收入囊中。\n被补上的关键拼图来自今年收购的DustPhotonics。这家长期为数据中心高速光互连开发PIC及激光集成技术的公司，让Credo一口气拿到了两种硅光方案：既可以把激光器直接集成到PIC上，让光源与硅光芯片贴得更近；又保留标准版PIC，让模块厂自行选择光源类型。\n但无论激光器放在哪里，发出的光最终都要进入硅光电路，此时中间的传输难免会损失一部分光。Credo强调的L3C（Low Loss Laser Coupling，低损耗激光耦合）技术，就是为了降低这部分损耗。\n基于此，同样只用一颗激光器，更多的光还能继续分给多条通道。以8通道方案为例，Credo不需要配备8颗单通道激光器，而是可以选择只用两颗激光器分别给4条通道供光，在减少激光器数量的同时，也降低了功耗、成本和散热压力。\n这一能力也应用于更大的光引擎。Chris在现场还展示了向16通道、32通道PIC扩展的方案，并指出Credo的目标场景包含传统可插拔光模块、NPO（Near-Packaged Optics，近封装光学）和CPO（Co-Packaged Optics，共封装光学）。\n对于前两种仍可以独立更换光模块或光引擎、不必过多担心激光器内置后影响整体运作的方案来说，L3C也支持它们更加大胆地选择将激光器收进光引擎里，保障内置光源与硅光电路之间的低损耗连接。\n除此之外，L3C也为激光器选型留出了更多空间。Chris称，Credo已经完成对美国、中国和日本多家供应商已有激光器的适配验证，在供应紧张时，客户可以拥有更多替代来源。\n收购DustPhotonics，对Credo的意义并不止于多了一项光设计和制造能力。在Chris看来，过去光模块厂可以分别采购DSP和PIC，但两颗芯片放在一起未必就能直接工作——接口、信号、功耗和固件都需要重新联调，出了问题还得在不同供应商之间来回排查。\n现在同时拥有DSP和PIC，Credo有机会把这部分适配和验证提前完成。原本独立的芯片，也由此被集成为一套提前磨合好的电光组合。再叠加已有的SerDes IP、AEC（Active Electrical Cable，有源电缆）等能力，Credo显然不准备让自己只死磕光模块，更长的AI数据中心互联链路，才是它真正想抵达的地方。\n雷峰网雷峰网",
+  "published_at": "2026-10-09T17:14:00+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6b6a5a92147223b23f1f",
+  "source_id": "leiphone",
+  "source_name": "雷峰网",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/23f97ad2f29ac8f0354bd276b9855c7a5dd1370a6677d70307e49ce6f1b02a0e.body",
+  "source_sha256": "23f97ad2f29ac8f0354bd276b9855c7a5dd1370a6677d70307e49ce6f1b02a0e",
+  "fetched_at": "2026-10-10T01:03:39.937526+00:00"
+}

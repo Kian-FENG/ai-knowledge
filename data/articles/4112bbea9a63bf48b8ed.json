@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.10918",
+  "title": "Large Language Models for Machine Translation Quality Annotation: Humans and Models Are Both Challenged",
+  "text": "arXiv:2610.10918v1 Announce Type: new\nAbstract: Large Language Models (LLMs) are considered to be a more efficient and cost-effective alternative to human judgment for Machine Translation (MT) evaluation. With MT evaluation spanning a large number of language pairs, domains and levels of annotation granularity, LLMs must be thoroughly evaluated across these dimensions before being reliably used as alternatives to human evaluation. In this paper, we evaluate the performance of LLMs for two prominent MT quality evaluation schemes: Multidimensional Quality Metrics (MQM) and Error Span Annotation (ESA) by comparing their agreement with human annotators. We present results on a long-context test set of 70 language pairs and the publicly available WMT23 and WMT25 data, investigating both score and error span annotation agreement across a variety of language pairs and domains. Our results show that while LLM agreement with human annotators exceeds agreement between human annotators for some evaluation tasks, both vary substantially across annotation schemes, language pairs and domains and remain unreliable for most settings. Furthermore, we identify challenges facing both human and LLM annotators: humans are particularly challenged by fine-grained MQM annotations and low-resource language pairs, while LLMs struggle with minor errors, wrong language variants and error span annotation. Our results highlight the potential for improvement for both human and LLM annotation performance, possibly through human-LLM collaborative annotation pipelines that address the reliability issues identified in this work.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "4112bbea9a63bf48b8ed",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

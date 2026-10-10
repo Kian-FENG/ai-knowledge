@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/anthropic-launches-a-free-ai-scanner-for-open-source-projects/",
+  "title": "Anthropic launches a free AI scanner for open-source projects",
+  "text": "Anthropic has launched \"Cyber Mission,\" a program to protect critical infrastructure and open-source software from cyberattacks. Partners like CrowdStrike and Palo Alto Networks will help secure power grids and water systems, while a free AI scanner automatically checks open-source projects for vulnerabilities with an expected accuracy above 90 percent.\nThe article Anthropic launches a free AI scanner for open-source projects appeared first on The Decoder.",
+  "published_at": "2026-10-09T17:54:44+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e3f734b1f6ad2ac9723a",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/9378469c4e0b001bf7b47dbf79443dd31e112780703a5c4b7349c02def2359a7.body",
+  "source_sha256": "9378469c4e0b001bf7b47dbf79443dd31e112780703a5c4b7349c02def2359a7",
+  "fetched_at": "2026-10-10T01:03:30.010342+00:00"
+}

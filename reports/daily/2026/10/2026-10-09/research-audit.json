@@ -1,0 +1,195 @@
+{
+  "period": "daily",
+  "date": "2026-10-09",
+  "as_of": "2026-10-10T01:21:04.127538+00:00",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-09",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-08T18:00:00-07:00",
+    "end": "2026-10-09T18:00:00-07:00"
+  },
+  "new_pages": 12,
+  "updated_existing_pages": 1,
+  "new_by_type": {
+    "source": 9,
+    "paper": 2,
+    "entity": 1
+  },
+  "published_pages": [
+    {
+      "path": "reference/sources/openai-asana-cache-economics-20261009.md",
+      "id": "source-openai-asana-cache-economics-20261009",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "浏览已读完整主文；144-run、cache policy、cost/time与生产推广段。HTTP403，归档为浏览阅读后的限定事实摘录；图表只读标注，未取底层数据或实测。",
+      "raw_hashes_checked": 1
+    },
+    {
+      "path": "reference/sources/openai-sophos-daybreak-20261009.md",
+      "id": "source-openai-sophos-daybreak-20261009",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "浏览已读完整案例主文，调查流程、customer operating modes及reported outcomes段；HTTP403，保存限定事实摘录；未访问客户日志。",
+      "raw_hashes_checked": 1
+    },
+    {
+      "path": "reference/sources/typesafe-series-a-20261009.md",
+      "id": "source-typesafe-series-a-20261009",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "官方融资全文及尾注；a16z dated announcement；另读Jev介绍/发布页。未核实法律注册地、客户样本、ARR或独立性能。 公司融资页未显示发布日期，源站公告日由a16z的Posted October 9对应同一轮事件支持；不把SSR构建日期当发布时间。",
+      "raw_hashes_checked": 2
+    },
+    {
+      "path": "reference/sources/qwen-image-21-turbo-20261009.md",
+      "id": "source-qwen-image-21-turbo-20261009",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "官方模型卡介绍、采样sigmas、依赖与metadata；官方模型/commit API核对时间和revision d65dbc9a7e8f6b5479e33dee6030eaab2a906509；未运行模型；LICENSE正文获取失败。",
+      "raw_hashes_checked": 3
+    },
+    {
+      "path": "reference/sources/anthropic-unintended-actions-20261009.md",
+      "id": "source-anthropic-unintended-actions-20261009",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "已读完整研究正文的incident categories、context、mitigations和preliminary assessment；不复述利用细节；未读内部原始日志或独立验证。",
+      "raw_hashes_checked": 1
+    },
+    {
+      "path": "reference/sources/flashinfer-v071-20261009.md",
+      "id": "source-flashinfer-v071-20261009",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "已读正式release highlights及upgrade notices；官方API确认published_at/tag，tag commit 0b46115；未逐条审阅全部PR或运行bench。",
+      "raw_hashes_checked": 2
+    },
+    {
+      "path": "reference/sources/dynamo-minimax-m3-dev-20261009.md",
+      "id": "source-dynamo-minimax-m3-dev-20261009",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "已读完整release正文及Known issues/NOT PRODUCTION标注；固定模型revision和release branch 1cf43bce3fc865a14dcd8f9bb857f6b726617ed0；未部署；API prerelease与正文语义不同以正文为准。",
+      "raw_hashes_checked": 2
+    },
+    {
+      "path": "reference/papers/zepp-moe-balance-2610-11158.md",
+      "id": "paper-zepp-moe-balance-2610-11158",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "arXiv摘要、Submission history及10月9日cs.DC announcement列表；未读PDF/实验表/代码，性能数字不入结论。",
+      "raw_hashes_checked": 2
+    },
+    {
+      "path": "reference/papers/swe-journey-users-2610-11559.md",
+      "id": "paper-swe-journey-users-2610-11559",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "arXiv摘要、Submission history及10月9日cs.CL公告列表第41项；未读全文/补充材料/完整harness。",
+      "raw_hashes_checked": 2
+    },
+    {
+      "path": "reference/sources/gf-fdx-fusion-roadmap-20261009.md",
+      "id": "source-gf-fdx-fusion-roadmap-20261009",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "已读完整新闻正文、路线图时间和客户引言；原HTML JSON-LD核对datePublished 2026-10-09T12:00:00Z；未来性能为厂商预期，未测芯片。",
+      "raw_hashes_checked": 1
+    },
+    {
+      "path": "reference/sources/gf-tsmc-interposers-20261008.md",
+      "id": "source-gf-tsmc-interposers-20261008",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "已读完整新闻正文的agreement、term、location和ramp；HTML JSON-LD核对published 2026-10-08T12:24:41Z；未访问合同或工厂产能。",
+      "raw_hashes_checked": 1
+    },
+    {
+      "path": "reference/entities/typesafe.md",
+      "id": "entity-typesafe",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "reported",
+      "verification": "source-checked",
+      "reading_scope": "已读公司融资/介绍与投资方公告核对名称、CEO及产品归属；注册日期/法定地址、ARR、独立客户采用和性能尚未核实。",
+      "raw_hashes_checked": 3
+    },
+    {
+      "path": "research/synthesis/persistent-agents-session-budget-20261008.md",
+      "id": "note-persistent-agents-session-budget-20261008",
+      "default_query_visible": true,
+      "get_page_published": true,
+      "evidence_kind": "derived",
+      "verification": "source-checked",
+      "reading_scope": "已回读既有来源页并核对新增Asana浏览主文与Anthropic研究；仅derived综合，未实测、未审计账单或安全日志。",
+      "raw_hashes_checked": 6
+    }
+  ],
+  "verification": "All 13 default title queries/get_page --follow-sources visible; raw hash checks pass. Source-checked is disclosure support only, not independent replication.",
+  "validated_pages": 83,
+  "offline_tests": "49 tests passed; fixtures temporary; no code changes",
+  "editorial_events": 10,
+  "facts_vs_derived_analysis": "reviewed separately for every selected event; financial currencies/periods/financing vs valuation, preview vs delivery, production vs experiment checked",
+  "date_checks": "Local calendar LA 18:00 end-exclusive; paper submitted vs announced distinguished; TypeSafe company page undated, event day supported by dated investor announcement",
+  "duplicates_skipped": [
+    "Dynamo v1.5.0 Sep21 initial release (Oct9 description update)",
+    "prior UI/Haiku/company financing/TSMC revenue in daily",
+    "GF Oct8 interposers only weekly"
+  ],
+  "unfinished": "See pending-evidence.md: official fetch failures, unknown dates, body/reading limits, 186 arXiv truncations and media gaps",
+  "git_at_start": {
+    "started_at": "2026-10-10T01:02:43.219872+00:00",
+    "head": "89fc19b1fafae2ed6e8f4f554ff37dc0910a8ee5",
+    "branch": "main",
+    "upstream": "origin/main"
+  },
+  "raw_hashes_checked": [
+    "raw/2026-10-09/3e0dd4787e839b18b62f3ac334e87ef8c68eebc430d3ff45b9ff51a71d26d730.body",
+    "raw/2026-10-09/752145521d5c5936b92fd7c658d7fb35fb4489322ccde4dd11cb630aadf0bc31.body",
+    "raw/2026-10-09/90a849ebe580482e21886d290c6bb01610af03d507a5f62f8369c5690e9ca772.txt",
+    "raw/2026-10-09/c0d72d079cd9df7fe0d29b387182dadcc1e6103dd106a7f5c5fd99d9866cadca.body",
+    "raw/2026-10-10/1da5321db610161b6727861ac8a121475539edc1ad1c36687aebc11affdbd929.body",
+    "raw/2026-10-10/1fd900a82f56e73f47c0e1bc540754f05752cf535074ab8ef3dcd44466e82ad8.body",
+    "raw/2026-10-10/5db48353702ff454e700c0eef808fba3b5fefb2f6ce5df2b4c153e7b5c4259f6.body",
+    "raw/2026-10-10/63f6c259189519ff6c3c55a01e44624c7f3c5d69e906f5016f32d1a697a61d81.txt",
+    "raw/2026-10-10/6dba9669c835bd206919a5153e4cc88eb92b437cc5b8a6447b070476e588f7c2.body",
+    "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+    "raw/2026-10-10/89cde0371973fceb3cd65d93e418111ed3e4bbe69a0131ee4bf4dce0b2b2c542.body",
+    "raw/2026-10-10/aad793e8b41996246911dd54921349cdb392829831f3465e84f5c0334d6815c2.body",
+    "raw/2026-10-10/aff70ee42a0fed73944e107ed8dbf73108fe51ff90885a89129224f5c17e0766.body",
+    "raw/2026-10-10/c6738459b90c8c79ca91bbf22619ec1a11a91915405d12971b86a47ca72e1f73.body",
+    "raw/2026-10-10/c8fabb906fb699581b6840c490695a767a28a5a4b2bd39612447798a0cd23b66.json",
+    "raw/2026-10-10/ca027624f8457e3076f5eb2a5bf78b668bc11afd96aa4b1845eb68329be8274a.json",
+    "raw/2026-10-10/d70048d01325c5b8e673c2d621ba6f88c6dabaeaf54c0b91c22e18d3aa14b2cf.body",
+    "raw/2026-10-10/e1166323fd4ad26234150d697c8155bcae16e9a2626afbfc9e6d592226388c42.txt",
+    "raw/2026-10-10/e150139a09f0172d39526e4a73e3a2482d1d8ae7a72db1ea518ed7027b91693c.body",
+    "raw/2026-10-10/e2abd51a0d41d86996479e31c6b6685c504f9462ae4015de18147a420020c4df.body",
+    "raw/2026-10-10/e5374a7632b50207091ab52e8b0972634ede8d2d97f15e458fac0ce1674b124f.json",
+    "raw/2026-10-10/ea2b363dff8f084e2566781ee3ad58bb25e0609d508996a2ef1f73c29b64452f.json",
+    "raw/2026-10-10/fb0123950b335cb7681ceecdfcfc10ac1ec77f0c255a7323879fffa8ee53277d.body"
+  ],
+  "run": "20261010T010255-db05ff1e"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11430",
+  "title": "BioBigBird: A Sparse Attention Model for Long-Range Dependency Processing in Biomedical Text",
+  "text": "arXiv:2610.11430v1 Announce Type: new\nAbstract: While domain-specific Large Language Models (LLMs) have encoded vast biomedical knowledge, their limited context windows often hinder a deep understanding of nuanced relationships within and across texts. To address this limitation, we introduce BioBigBird, a bidirectional language model pre-trained on extensive biomedical literature and clinical data, specifically designed to handle long-range dependencies. BioBigBird leverages a sparse attention mechanism to process sequences up to 4096 tokens, and its training incorporates a multi-stage process to mitigate noise from the large-scale pre-training corpus. We further enhance its performance by employing a multi-task learning (MTL) framework that jointly optimizes for Named Entity Recognition and Relation Extraction. Comprehensive evaluations on the BLURB benchmark reveal that our MTL-enhanced BioBigBird achieves highly competitive results against state-of-the-art models. Our work contributes an effective methodology for developing powerful, long-context language models for specialized domains, demonstrating the value of extended sequence processing for complex text analysis. Our models are publicly available at https://huggingface.co/collections/bisectgroup/biobigbird.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "ac84fb09152e87eff6a6",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

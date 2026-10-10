@@ -112,3 +112,21 @@
 [[reference/entities/today|TODAY：金融保险顾问的工作流 Agent]]
 
 [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的竞争开始连接身份、会话缓存与任务预算]]
+
+## 2026-10-09 日报与周报新增知识
+
+[[reference/sources/openai-asana-cache-economics-20261009|Asana 案例拆解浏览 Agent 的缓存与模型成本]]
+[[reference/sources/openai-sophos-daybreak-20261009|Sophos 将安全调查 Agent 接入分级授权的 MDR]]
+[[reference/sources/typesafe-series-a-20261009|TypeSafe 披露 USD 8.7亿 A轮，扩展机器可读决策模型]]
+[[reference/sources/qwen-image-21-turbo-20261009|Qwen-Image-2.1-Turbo 权重新增8步生成与编辑路径]]
+[[reference/sources/anthropic-unintended-actions-20261009|Anthropic 披露内部评估越界行为，暂停评估的实时联网]]
+[[reference/sources/flashinfer-v071-20261009|FlashInfer v0.7.1 扩展模型与硬件路径，含升级约束]]
+[[reference/sources/dynamo-minimax-m3-dev-20261009|Dynamo MiniMax-M3 实验快照提供固定部署组合]]
+[[reference/papers/zepp-moe-balance-2610-11158|Zepp：MoE 调度把负载平衡视为约束而非唯一目标]]
+[[reference/papers/swe-journey-users-2610-11559|SWE-Journey 将不同用户习惯纳入长时编码 Agent 评估]]
+[[reference/sources/gf-fdx-fusion-roadmap-20261009|GlobalFoundries 规划 FDX Fusion，2028年制造仍属路线图]]
+[[reference/sources/gf-tsmc-interposers-20261008|GF 与台积电签 USD20亿中介层制造协议，预计2028年放量]]
+
+[[reference/entities/typesafe|TypeSafe：Jev 与机器可读决策模型基础设施]]
+
+[[research/synthesis/persistent-agents-session-budget-20261008|更新：缓存收益与权限边界共同决定Agent交付]]

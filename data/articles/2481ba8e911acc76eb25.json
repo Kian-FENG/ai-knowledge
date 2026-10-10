@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11646",
+  "title": "Phonologically Informed Tokenization for German Speech Recognition: A Cross-Domain Study",
+  "text": "arXiv:2610.11646v1 Announce Type: new\nAbstract: German is a morphologically rich language whose syllable structure is exceptionally well-predicted by the Knuth--Liang hyphenation algorithm. We ask whether phonologically informed tokenization can serve as a competitive target for end-to-end speech recognition. We compare three tokenizer families on the Omnilingual ASR wav2vec 2.0 backbone fine-tuned with CTC: the pretrained multilingual character inventory, a data-driven Byte-Pair Encoding (BPE) over orthography, and phonologically informed units from Pyphen syllabification and grapheme-to-phoneme conversion. Across 40 fine-tunes, we evaluate on three German test sets spanning orthogonal shifts: in-domain read speech, dialectal spontaneous speech, and standard-German spontaneous speech. In-domain, all phonologically informed tokenizers match BPE and the multilingual character baseline on both WER and CER. Under domain shift the picture splits along vocabulary size rather than the linguistic axis of variation: at small vocabularies, syllable-aware tokenization improves on dialectal speech, where phonetic surface forms vary but syllable structure is preserved, and stays ahead on spontaneous speech, where new word-forms violate vocabulary closure. A phoneme-level confusion analysis further shows that all tokenizers commit the same canonical function-word errors, indicating that the acoustic encoder, not the tokenizer, dominates the error topology. Our findings suggest that tokenizer choice may depend on the vocabulary budget as much as on the distribution shift expected at deployment rather than reducing to a single universal optimum.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "2481ba8e911acc76eb25",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

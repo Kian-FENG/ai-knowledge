@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/openai-publishes-700-new-math-papers-ai-made-solutions",
+  "title": "OpenAI Publishes Over 700 New Math Papers with AI-Made Solutions",
+  "text": "Less than a month after OpenAI set off a mathematics firestorm by announcing it had solved one of the field’s most challenging problems, the AI company dropped more than 700 new research papers detailing results on a range of math subjects.\nThe new results were produced by an unreleased AI model ...",
+  "published_at": "2026-10-07T00:35:25+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-07T00:35:25+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "00419e9a76d5ab83e154",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-07/45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a.body",
+  "source_sha256": "45f25f974c262cd5721d0542bcbb53f22844ee5e60c49c6817acb931aa2dd88a",
+  "fetched_at": "2026-10-07T01:06:18.465670+00:00"
+}

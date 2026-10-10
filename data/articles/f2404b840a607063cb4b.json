@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156381.htm",
+  "title": "冲击4GHz！爆料称AMD RDNA 5桌面显卡频率大涨：远超RX 9070 XT",
+  "text": "快科技10月10日消息，近日多位爆料者透露，AMD下一代RDNA 5桌面级GPU的频率有望大幅提升，部分型号甚至可能接近4GHz，成为首批冲击这一频率里程碑的游戏显卡，性能表现将远超当前的RDNA 4产品。\n具体消息方面，爆料人KeplerL2声称AMD RDNA 5 GPU的频率目标为3.1-3.4GHz。\n而另一位爆料人RedGamingTech则给出了更激进的预测，称他“听说部分型号甚至可能达到4GHz”，并援引另一位消息人士的说法称“所有桌面型号的频率都在3GHz的中高档区间”。\n作为参照，AMD RX 9070 XT的官方加速频率为2.97GHz。以此计算，若RDNA 5达到3.1-3.4GHz，其频率将比RX 9070 XT高出4.3%至14.4%。\n若达到3.4-3.9GHz的区间，提升幅度则将达到14.4%至31.3%，属于相当可观的代际频率跃升。\n如果这些传闻属实，RDNA 5显卡通过超频冲击4GHz将存在现实可能。\n而频率提升对RDNA 5的意义不言而喻。架构改进和新特性固然能带来性能增益，但更高的频率能够全面提升各类场景下的整体表现。\n如果AMD能在RDNA 5上兑现大幅的频率提升，配合架构层面的改进，这一代产品有望交出Radeon历史上最大的代际性能飞跃之一。\n不过目前上述说法均来自爆料渠道，所谓3GHz中高档的传闻是否准确仍有待验证。",
+  "published_at": "2026-10-10T08:39:49+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f2404b840a607063cb4b",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

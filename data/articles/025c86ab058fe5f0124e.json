@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.10865",
+  "title": "Disentangling Linguistic and Paralinguistic Information with Routed Sparse Autoencoders",
+  "text": "arXiv:2610.10865v1 Announce Type: new\nAbstract: Self-supervised speech encoders contain linguistic and paralinguistic information in a shared, entangled representation space. We combine a TopK sparse autoencoder with route-specific supervision and cross-factor adversaries. Across frozen SPEAR and WavLM encoders, independent probes show factor-specific retention and suppression: linguistic information remains stronger in the linguistic route, while paralinguistic factors, including speaker identity, emotion, and prosody, are retained in the paralinguistic route and substantially reduced in the linguistic route. The route organisation learned on LibriSpeech persists on MSP-Podcast without representation-side retraining. Feature-space route interventions further transfer the swapped factor while largely preserving the information carried by the unchanged route. These results show consistent route-selective separation across encoders, corpora, independent probes, and representation-level interventions.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "025c86ab058fe5f0124e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

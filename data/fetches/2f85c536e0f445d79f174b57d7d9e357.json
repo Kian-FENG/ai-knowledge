@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-10/ae9e9cc5b4600f3d3257672c7950269e933e88400d0ab8286fa4ac1e0d50c8ff.body",
+  "sha256": "ae9e9cc5b4600f3d3257672c7950269e933e88400d0ab8286fa4ac1e0d50c8ff",
+  "source_url": "https://www.bis.gov/news-updates",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-10T01:03:22.279919+00:00",
+  "source_id": "bis",
+  "status": 200,
+  "headers": {
+    "Date": "Sat, 10 Oct 2026 01:03:23 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "set-cookie": "__cf_bm=q1ER7ZRS_EMeE0zbgkVzpyEHyfZI3VOFJP8WtdyN8V4-1791594203.573018-1.0.1.1-WxiMbLBkLDCtM8Vjb6OA4s0_YW.0jmSLtPkzNJxGuLLKswfE5v46VvWDkEfZJ7otFbQzh66VyrvyOjMmxQHh6AiisSBdptkg.lOsqLNhEC0GBNmtUaIlZpDsAqvMmT5a; HttpOnly; SameSite=None; Secure; Path=/; Domain=bis.gov; Expires=Sat, 10 Oct 2026 01:33:23 GMT",
+    "cache-control": "s-maxage=60, stale-while-revalidate=31535940",
+    "Vary": "Accept-Encoding",
+    "x-nextjs-cache": "HIT",
+    "X-Powered-By": "Next.js",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "cf-cache-status": "HIT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a481b47c5c46d3d7-SJC"
+  },
+  "final_url": "https://www.bis.gov/news-updates",
+  "truncated": false,
+  "charset": "utf-8"
+}

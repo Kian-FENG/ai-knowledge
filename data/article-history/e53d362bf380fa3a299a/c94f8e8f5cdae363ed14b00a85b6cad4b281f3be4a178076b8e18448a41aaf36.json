@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+  "title": "Oct 9, 2026AlignmentInvestigating unintended model actions in our evaluations and internal use",
+  "link_text": "Oct 9, 2026AlignmentInvestigating unintended model actions in our evaluations and internal use",
+  "id": "e53d362bf380fa3a299a",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "anthropic-research",
+  "source_name": "Anthropic Research",
+  "section": 2,
+  "raw_path": "raw/2026-10-10/c94f8e8f5cdae363ed14b00a85b6cad4b281f3be4a178076b8e18448a41aaf36.body",
+  "source_sha256": "c94f8e8f5cdae363ed14b00a85b6cad4b281f3be4a178076b8e18448a41aaf36",
+  "fetched_at": "2026-10-10T01:02:59.321325+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-10T01:02:59.321325+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

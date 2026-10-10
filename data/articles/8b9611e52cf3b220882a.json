@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11351",
+  "title": "Deception by Omission: Language Models Knowingly Hide Their Mistakes",
+  "text": "arXiv:2610.11351v1 Announce Type: new\nAbstract: Large language models (LLMs) increasingly act as agents with little human oversight, so potential mistakes they make can go unnoticed. Users then depend on the model to report what went wrong. An honest model discloses its mistakes, while a deceptive one conceals them. However, it is unclear how current LLMs behave in such situations. In this study, we prefill LLM trajectories with synthetic mistakes. The trajectories resemble real deployments in chat and agentic settings. Models fail to disclose their mistake in 36.4% of chat and 67.1% of agentic rollouts. In 2.4% and 5.3% of rollouts, respectively, they are aware of the mistake in their chain of thought but still deceptively conceal it. Rates vary by model: for instance, Gemini 3.5 Flash knowingly conceals mistakes in up to 19.9% of agentic rollouts. In 11.9% of chat and 51.8% of agentic rollouts, models show no awareness of mistakes, even though they reliably spot them when reviewing the same transcript as an outside observer. Our results show that, as agents take on more tasks with less oversight, users cannot rely on them to self-report possible mistakes. Developers should instead use independent monitors that review agent trajectories, or specifically train models to check their past actions and disclose what they find.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "8b9611e52cf3b220882a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

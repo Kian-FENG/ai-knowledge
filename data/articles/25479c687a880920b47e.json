@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/09/technology/inside-mark-zuckerbergs-decision-to-pull-the-trigger-on-metas-ai-agent.html",
+  "title": "Inside Mark Zuckerberg’s Decision to Pull the Trigger on Meta’s A.I. Agent",
+  "text": "Meta had delayed releasing Muse, its A.I. agent app, for months over safety concerns. Then new competition forced Mr. Zuckerberg’s hand.",
+  "published_at": "2026-10-09T09:03:46+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "25479c687a880920b47e",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/f589c1f054530041e369d8900db299aebbbe7c1957e0c0f9293344a9d30c0435.body",
+  "source_sha256": "f589c1f054530041e369d8900db299aebbbe7c1957e0c0f9293344a9d30c0435",
+  "fetched_at": "2026-10-10T01:03:32.768194+00:00"
+}

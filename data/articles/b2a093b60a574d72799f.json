@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/011/192.htm",
+  "title": "生数科技发布视频生成模型 Vidu Q4 Preview 预览版本，支持 2K、4K 输出",
+  "text": "IT之家 10 月 10 日消息，生数科技现已发布全新一代视频生成旗舰模型预览版本 Vidu Q4 Preview，最多支持 3 段参考音频、15 张参考图与 2K、4K 输出。\nIT之家获悉，Vidu Q4 目前支持图生视频和参考生视频。图生视频可根据图片和文字描述生成视频；参考生视频可结合多张参考图片和音频生成视频。\nVidu Q4 Preview 最多支持 3 段参考音频，通过声音参考，让角色音色更加统一；最多支持 15 张参考图，让人物、场景、道具等创意要素拥有更充分的视觉参考。\n据介绍，Vidu Q4 Preview 进一步提升动态运镜、切镜与复杂镜头衔接；支持 2K、4K 输出，10bit 色深；单次最长可生成 16 秒的视频；适合 AI 短剧、广告营销、社交互动和影视创作等场景。\nVidu Q4 Preview 首发优惠价 0.09 元 / 秒起，支持 540P、720P、1080P、2K、4K 多种规格。可用更低成本测试多个开场、脚本与镜头版本，再以 2K、4K 完成产品质感、材质光影与视觉冲击力更强的成片。",
+  "published_at": "2026-10-10T01:01:44+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b2a093b60a574d72799f",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/291dc1077b810831424fe4dff73766480d4db0c3f657e0c545d9e512104aefb0.body",
+  "source_sha256": "291dc1077b810831424fe4dff73766480d4db0c3f657e0c545d9e512104aefb0",
+  "fetched_at": "2026-10-10T01:03:37.807934+00:00"
+}

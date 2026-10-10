@@ -1045,3 +1045,27 @@ sources:
   fetch: browser
   checked_at: "2026-10-08"
   note: 已通过浏览工具阅读官方融资与身份说明；未核实机器采集许可，使用浏览核查。
+
+- id: typesafe
+  name: TypeSafe AI Official Blog
+  url: https://typesafe.ai/blog
+  kind: web
+  group: official
+  section: 1
+  poll_hours: 24
+  enabled: true
+  fetch: browser
+  checked_at: "2026-10-09"
+  note: 官方融资文章及产品归属已读；尚未核实机器自动采集许可，使用浏览核查。
+
+- id: globalfoundries
+  name: GlobalFoundries Official News
+  url: https://gf.com/news-and-events/
+  kind: web
+  group: official
+  section: 5
+  poll_hours: 24
+  enabled: true
+  fetch: browser
+  checked_at: "2026-10-09"
+  note: 官方先进封装与FD-SOI路线公告已通过浏览工具核查；使用浏览核查。

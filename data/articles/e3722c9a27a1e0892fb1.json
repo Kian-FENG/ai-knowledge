@@ -1,0 +1,18 @@
+{
+  "title": "Sophos 将安全调查 Agent 接入分级授权的 MDR",
+  "url": "https://openai.com/index/sophos/",
+  "text": "Browser-read source extract of OpenAI Sophos case, October 9, 2026. Selected factual notes after reading main article, not HTTP full-page capture. Sophos Fusion combines telemetry and third-party integrations with MDR. Investigation agents collect context, indicators and intelligence; a planning model plans, executes and reviews, producing a summary and recommended actions for analyst review. Customer operating modes Notify, Collaborate and Authorise determine who takes action; potentially destructive actions retain appropriate human oversight. Sophos reports average resolution time for agent-handled cases falling from 38 minutes to 89 seconds (96% reduction), and 52% of MDR cases resolved end-to-end by AI within calibrated boundaries. Article does not identify a precise model version, matched cohort, time period, control group or missed-attack/error rate. These are company case claims, not independently replicated outcomes.",
+  "extraction": "full-text",
+  "date_basis": "published",
+  "published_at": "2026-10-09T07:00:00+00:00",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "e3722c9a27a1e0892fb1",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-10/e1166323fd4ad26234150d697c8155bcae16e9a2626afbfc9e6d592226388c42.txt",
+  "source_sha256": "e1166323fd4ad26234150d697c8155bcae16e9a2626afbfc9e6d592226388c42",
+  "fetched_at": "2026-10-10T01:14:10.362938+00:00",
+  "date_precision": "timestamp"
+}

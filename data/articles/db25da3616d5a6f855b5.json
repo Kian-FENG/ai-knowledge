@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156323.htm",
+  "title": "迷你主机也能打游戏！华硕ProArt新增游戏板块：2K超100帧",
+  "text": "快科技10月9日消息，华硕（ASUS）近日更新了其ProArt GR1X（RTX Spark）迷你主机的产品页面，正式增设Game Ready游戏专区。\n官方宣称，这款原本定位于AI开发与内容创作的紧凑型工作站，在1440p（2K）分辨率下运行3A大作的平均帧数可超过100 FPS。\n在游戏特性方面，华硕列出了多项英伟达游戏技术，包括DLSS动态多帧生成、Reflex低延迟技术以及Project G-Assist等。\n据介绍，动态多帧生成可根据显示器刷新率动态调整生成帧的输出，GR1X还支持RTX Remix，允许用户通过路径追踪和AI图形技术改造老游戏。\n硬件规格方面，ProArt GR1X本质上面向AI开发者和内容创作者的紧凑型工作站，搭载20核英伟达RTX Spark N1X处理器，配备6144个CUDA核心，可选64GB或128GB统一LPDDR5X内存，TDP为140W。\n其整体尺寸仅为150 x 150×51mm，容积仅1.1升，可选黑白两种外观配色，同时内置专为RTX Spark平台定制的散热系统，可稳定应对140W性能输出。\n不过目前华硕既没有提供基准测试证明100+帧的宣传是否包含多帧生成技术的加持，也没有公布游戏兼容性列表。",
+  "published_at": "2026-10-09T18:46:34+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "db25da3616d5a6f855b5",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

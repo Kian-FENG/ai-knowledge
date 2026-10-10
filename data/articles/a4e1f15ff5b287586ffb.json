@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11519",
+  "title": "Residual Advantage: Student-Relative Teacher Guidance for RL with Verifiable Rewards",
+  "text": "arXiv:2610.11519v1 Announce Type: new\nAbstract: Reinforcement learning with verifiable rewards (RLVR) and on-policy distillation (OPD) have become two main paradigms for post-training reasoning models. RLVR gives each response a single outcome label, leaving the steps inside it without separate credit. OPD provides token-level guidance at student-visited prefixes, but its pointwise signal does not directly reflect the pattern of teacher--student disagreement across the vocabulary. Dense, unbounded log-ratio supervision can amplify the teacher's influence, yet a strong solver is not necessarily a suitable guide when the student's solution paths depart from the teacher's. We propose Residual Advantage (\\RA{}), which treats the teacher--student probability residual as a bounded one-step reward, subtracts the corresponding state value under the student policy to form a standard advantage, and centers the result within each response before adding it to the verifier advantage. The guidance term has zero mean within each response, so the verifier advantage remains the response's mean label and the teacher only redistributes credit among the steps within it. \\CoRA{} further updates a teacher LoRA with verifier advantages on the same scored student batch and uses the updated teacher in the next iteration's residual, adapting guidance to the student's attempts. With Qwen3-1.7B-Base and Qwen3-4B-Base students and a Qwen3-8B teacher, \\RA{} combined with GRPO or REINFORCE++ improves the underlying sequence-advantage algorithm in all 24 comparisons on three mathematical benchmarks, raising macro Avg@8 by 1.7--3.6 points and Pass@8 by 3.9--6.3 points. Both combinations surpass teacher-only OPD, and \\CoRA{} adds a further 1.0--1.5 Avg@8 points.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "a4e1f15ff5b287586ffb",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/chinas-ai-model-race-just-getting-crowded",
+  "title": "China’s AI Model Race Is Just Getting More Crowded",
+  "text": "Imagine Epic Games, Apple and DoorDash were developing their own large language models now from scratch to compete against the likes of OpenAI and Anthropic.\nThat’s basically what’s happening in China, where a trio of big names from other parts of the tech industry have jumped into an already-crowded race to make cutting-edge AI. MiHoYo, a Shanghai-based videogame maker behind such hits like Genshin Impact, is developing its own LLMs with the goal of becoming a top-tier lab in China in the next couple of years. Xiaomi, a leading smartphone maker that also sells electric cars, released its latest LLM two weeks ago. And Meituan, China’s biggest food delivery and local services app, in June unveiled a more powerful version of the LLM it launched last year.",
+  "published_at": "2026-10-09T13:01:00+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-09T16:17:08+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "63293e4cbbb836f2dd89",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/133ee60e70d8d4090933e51591796515b4fec9816a1d86e458c7c42346648c5a.body",
+  "source_sha256": "133ee60e70d8d4090933e51591796515b4fec9816a1d86e458c7c42346648c5a",
+  "fetched_at": "2026-10-10T01:03:31.052832+00:00"
+}

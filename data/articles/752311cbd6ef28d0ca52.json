@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-war/article/3370317/anthropic-claims-chinese-ai-firms-secretly-use-claude-it-true",
+  "title": "Anthropic claims Chinese AI firms secretly use Claude. Is it true?",
+  "text": "Did Chinese AI companies secretly tap US models to close the technology gap? That is the central question hanging over China’s tech sector following a wave of allegations from Washington and American AI lab Anthropic.\nAccording to a joint advisory by the National Security Agency, FBI, and Cybersecurity and Infrastructure Security Agency last month, Chinese AI developers have been systematically extracting capabilities from US frontier models to reduce their own computing, electricity and...",
+  "published_at": "2026-10-09T13:30:07+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "752311cbd6ef28d0ca52",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/81abb1f33b38ddddf8aa7f822e04abe0f6e7d6ac1e41d263ef77b84d3e7b6368.body",
+  "source_sha256": "81abb1f33b38ddddf8aa7f822e04abe0f6e7d6ac1e41d263ef77b84d3e7b6368",
+  "fetched_at": "2026-10-10T01:03:33.996993+00:00"
+}

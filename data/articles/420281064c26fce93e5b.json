@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156335.htm",
+  "title": "帧率暴增25%！魔改版FSR 4.1.1实测：7900 XTX跑《古墓丽影：暗影》稳122帧",
+  "text": "快科技10月9日消息，近日开发者针对AMD的FSR 4.1.1超分技术开发出了修改版本，实测数据显示，在使用Radeon RX 7900 XTX显卡运行4K游戏时，性能增幅接近26%，且同时支持AMD RDNA 2/3架构及英伟达显卡。\n新版本魔改补丁目前提供两种方案：Exact版本在保持原版int8算法画质的同时缩短帧处理时间。Lossy版本则以轻微牺牲渲染精度为代价，换取更大幅度的性能提升。\n具体测试数据显示，在《古墓丽影：暗影》4K分辨率、Balanced预设的测试中，AMD官方FSR 4.1.1 int8版本处理一帧需要4.16毫秒，平均帧率为97帧。\nExact版本将超分单元执行时间降至3.05毫秒，帧率提升至109帧，而Lossy版本进一步将延迟压缩至2.06毫秒，让系统达到122帧。\n除此之外，《泰坦之旅2》、《寂静岭：Townfall》、《黎明行者之血》、《Mortel Shell 2》以及《Resonance: A Plague Tale Legacy》等多款游戏的测试均确认了15%至20%的帧率增幅。\n而且性能提升在中端显卡上最为明显，例如Radeon RX 7600 XT、RX 7700 XT和RX 6750 XT等型号。\n这类显卡的基础帧率本就受计算单元负载制约，修改版超分技术有效缓解了这一瓶颈，且在开启帧生成功能后也能提供更流畅的体验。\n更重要的是，该补丁安装方式十分简单，只需替换游戏目录下的DLL文件即可生效。",
+  "published_at": "2026-10-09T19:34:23+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "420281064c26fce93e5b",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

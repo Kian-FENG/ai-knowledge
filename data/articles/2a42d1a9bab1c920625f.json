@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156372.htm",
+  "title": "10秒拉起千个沙盒！英伟达Vera处理器实测：速度达AMD Zen 5八倍",
+  "text": "快科技10月10日消息，AI代码执行平台Daytona今日公布了最新的智能体AI基准测试结果，数据显示英伟达Vera处理器在沙盒启动速度和任务吞吐量上均优于AMD EPYC“Zen 5”架构产品。\n在这项针对多智能体协同工作的集群测试中，英伟达Vera仅用10.8秒便上线了1000个沙盒，启动速度达到AMD基准测试芯片的8倍左右。\n具体测试数据上，英伟达Vera处理器达到了每秒13.3个智能体任务的峰值吞吐量，并且在扩展至2000个沙盒时耗时仅为27.4秒。\n作为对比，AMD的基准测试芯片EPYC 9755上线1000个沙盒需要88.4秒，任务吞吐量在每秒11个左右趋于平稳。\n为了验证高频芯片的表现，测试团队还引入了主频更高的AMD EPYC 9575F处理器。虽然该芯片将1000个沙盒的上线时间缩短至32.3秒，但其任务吞吐量却在每秒8个左右见顶。\n也就是说，为了维持每秒1000个任务的并发量，英伟达Vera平台所需的服务器数量比EPYC 9755少15%，比EPYC 9575F少38%。\nDaytona联合创始人兼首席技术官Vedran Jukić对此表示，真正重要的不是峰值性能，而是机器满载后的稳定性。\n他指出，Vera处理器在负载达到2000个沙盒时依然能保持稳定运行，而不是出现性能崩溃，这对于大规模AI基础设施的部署具有重要意义。",
+  "published_at": "2026-10-10T07:25:11+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2a42d1a9bab1c920625f",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

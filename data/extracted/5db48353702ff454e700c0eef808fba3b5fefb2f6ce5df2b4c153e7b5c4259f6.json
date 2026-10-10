@@ -1,0 +1,31 @@
+{
+  "raw_path": "raw/2026-10-10/5db48353702ff454e700c0eef808fba3b5fefb2f6ce5df2b4c153e7b5c4259f6.body",
+  "sha256": "5db48353702ff454e700c0eef808fba3b5fefb2f6ce5df2b4c153e7b5c4259f6",
+  "source_url": "https://typesafe.ai/blog/series-ai",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-10T01:05:50.602954+00:00",
+  "source_id": "typesafe",
+  "status": 200,
+  "headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Content-Length": "26989",
+    "Content-Type": "text/html",
+    "Date": "Sat, 10 Oct 2026 01:05:51 GMT",
+    "Etag": "\"23cc12e8069892d072ccb2efd0cbd2bb\"",
+    "Framer-Site-Id": "f8111b111e9ce8d3e21d0f9765b6ce69c2a2f3f8b0f0744a436382f9f9a8231e",
+    "Last-Modified": "Fri, 09 Oct 2026 22:46:51 GMT",
+    "Link": "<https://framerusercontent.com>; rel=\"preconnect\", <https://framerusercontent.com>; rel=\"preconnect\"; crossorigin=\"\"",
+    "Server": "Framer/26fa766",
+    "Server-Timing": "region;desc=\"us-west-2\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"26fa766\", instance;desc=\"8af7994\", route;dur=1;desc=\"id=TwNWInrzR&locale=default&var.m3EQRHzYt=series-ai\", country;desc=\"US\", ss-only-routes",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Accept-Encoding, Accept",
+    "X-Content-Type-Options": "nosniff",
+    "Connection": "close"
+  },
+  "final_url": "https://typesafe.ai/blog/series-ai",
+  "truncated": false,
+  "charset": "utf-8",
+  "text": "TypeSafe A raises Series AI - TypeSafe AI Blog\nTypeSafe AI\nEnterprise\nThoughts\nCompany\nDocs\nAPI console\nContact Sales\nAPI console\nDocs\nMenu\n∵ Back\nCompany News\nCompany News\nTypeSafe A raises Series AI\nTL;DR we raised $$$ and we’re going to make sure it shows up as benefits to y’all 🫶\nWe’ve raised a really big series A¹ led by Andreessen Horowitz, with participation from Sequoia Capital, existing investor DCVC, and the tech illuminati (aka a bunch of the best angel investors).\nWe find fundraising announcements incredibly boring, so we want to be straightforward with what this means for all of you…For developers\nWe intend to take all of the things you love about Jev to the extreme\nThere will be even more machine-native models\nAnd we’ll be providing everything else to be the best infrastructure for building smart softwareFor businesses\nA third of the Fortune 500 are getting their Jev on\nWe’ve saved customers millions of dollars in production already\nWe’ll be adding all the enterprise features you’ve been asking us forFor potential recruits\nWe are a real company and we’re here to stay\nWe’re pretty fun\nJoin the meme team\nFor everyone: We care so much about making AI that actually works, and we’re so excited to be interacting with all of you. We’ve changed the path of AI, and we intend to keep cooking.\n$870 million at a $7.5B valuation, with Martin Casado joining the board.\n∵ ⩆\n⩆ ∵\nTypeSafe AI © 2026\nContact\nTerms of Use\nPrivacy Policy\nAcceptable Use Policy\nLinkedIn\nX\nTypeSafe AI © 2026\nContact\nTerms of Use\nPrivacy Policy\nAcceptable Use Policy"
+}

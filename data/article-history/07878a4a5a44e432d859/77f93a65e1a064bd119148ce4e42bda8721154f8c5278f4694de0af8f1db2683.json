@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11158",
+  "title": "Zepp: Accelerating Distributed MoE Serving under Relaxed Balance Constraints",
+  "text": "arXiv:2610.11158v1 Announce Type: new\nAbstract: As Mixture-of-Experts (MoE) models continue to scale, serving them increasingly relies on expert parallelism (EP) across a growing number of devices. Yet skewed expert workloads create imbalance across computation, communication, and memory, making load balancing a central optimization objective in distributed MoE serving. We observe that balance is not free: operations introduced to balance one dimension can themselves be expensive or imbalanced. This motivates us to rethink balance as a constraint rather than an optimization objective. We present Zepp, which directly optimizes the bottleneck communication in distributed MoE serving subject to simplified balance constraints on physical resources, i.e., GPUs and NICs. Zepp progressively optimizes inter-node communication across placement, routing, and execution. It first places expert replicas to reduce token communication under GPU constraints, then reshapes communication flows through split and merge primitives under NIC constraints, and finally partitions and schedules ex- pert computation to overlap the resulting communication. To adapt to dynamic workloads, Zepp jointly coordinates computation, token communication, and expert-weight movement at each iteration. Together, these designs allow Zepp to pursue the most efficient execution rather than a single-dimension balanced one. We implement Zepp and evaluate it against 7 state-of-the-art MoE serving systems, achieving up to 6.68$\\times$ MoE layer speedup and a geometric mean speedup of 1.86$\\times$ over the fastest competing baseline.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "07878a4a5a44e432d859",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

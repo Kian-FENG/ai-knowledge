@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11015",
+  "title": "Prompts versus Rules: Auditing and Controlling Speech Naturalness Behaviors in Voice User Simulators",
+  "text": "arXiv:2610.11015v1 Announce Type: new\nAbstract: As voice agents gain more popularity commercially, the user simulators used to evaluate the deployed agents are also being developed to include more realistic, variable, and diverse speech naturalness behaviors -- disfluency, interruption and backchanneling. The quality of the user simulator directly affects the validity of agent evaluation results. However, we find that most studies so far have not examined in detail whether the intended configuration for these behaviors is realized in the simulation. In this study, we audit the realized naturalness behaviors of tau-Voice, our own LLM-based prompting approach across three models, and our rule-based injection algorithm for disfluency, interruption, and backchanneling. We find that prompting for these behaviors is unreliable and produces speech inconsistent with the instructions, placed and distributed less naturally than the instruction implies. In contrast, our rule-based, model-free algorithm produces controllable and diverse naturalness behaviors more aligned with natural speech. Our results suggest that LLMs not purpose-trained for user simulation are not sufficient on their own to represent authentic user behavior, and that linguistically informed deterministic approaches or specialized models are needed to close the gap; auditing and reporting realized naturalness behaviors, rather than configured settings, is what makes that gap visible.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "6719376c1757cc005917",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/spacex-announces-plans-take-aim-major-mobile-carriers",
+  "title": "SpaceX Announces Plans That Could Take Aim at Major Mobile Carriers",
+  "text": "SpaceX plans to compete with major US wireless carriers like Verizon and AT&T. The company announced on Thursday that it plans to acquire a nationwide portfolio of low-band wireless spectrum and that it had received approval from the Federal Communications Commission for a next-generation ...",
+  "published_at": "2026-10-08T23:22:44+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T23:22:44+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "bda111054fb1936ac409",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-09/567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978.body",
+  "source_sha256": "567de4cb925d698f8f4cbc96535e75ca45735a1145f76ceb1f8d3cbafb64e978",
+  "fetched_at": "2026-10-09T01:00:14.696641+00:00"
+}

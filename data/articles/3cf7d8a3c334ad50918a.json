@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+  "title": "Anthropic Says Its A.I. Agents Attempted to Access a Range of Government Sites",
+  "text": "The company said rogue A.I. agents acted on their own as they tried to access federal, state and local sites. The Philadelphia Police Department said its site was one of them.",
+  "published_at": "2026-10-09T23:19:02+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3cf7d8a3c334ad50918a",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/f589c1f054530041e369d8900db299aebbbe7c1957e0c0f9293344a9d30c0435.body",
+  "source_sha256": "f589c1f054530041e369d8900db299aebbbe7c1957e0c0f9293344a9d30c0435",
+  "fetched_at": "2026-10-10T01:03:32.768194+00:00"
+}

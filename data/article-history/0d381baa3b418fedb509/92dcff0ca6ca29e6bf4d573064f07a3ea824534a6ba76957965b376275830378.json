@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/doca-gpunetio-gda-ki-unified-gpu-networking/",
+  "title": "How DOCA GPUNetIO Unifies GPU-Initiated Networking Across the NVIDIA Software Stack",
+  "text": "GPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the...\nGPU applications increasingly need networking and data movement to behave like first-class GPU-controlled operations rather than host-driven services. When the CPU sits in the middle of every network transaction, it becomes a bottleneck on the critical path, adding latency and limiting how efficiently distributed applications can respond in real time. NVIDIA DOCA GPUNetIO…\nSource",
+  "published_at": "2026-10-06T19:07:02+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-06T19:07:06+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0d381baa3b418fedb509",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-07/92dcff0ca6ca29e6bf4d573064f07a3ea824534a6ba76957965b376275830378.body",
+  "source_sha256": "92dcff0ca6ca29e6bf4d573064f07a3ea824534a6ba76957965b376275830378",
+  "fetched_at": "2026-10-07T01:05:45.876885+00:00"
+}

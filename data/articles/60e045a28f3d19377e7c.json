@@ -1,0 +1,19 @@
+{
+  "url": "https://developers.openai.com/api/docs/changelog",
+  "title": "OpenAI API Changelog：页面内容变化",
+  "summary": "-OverviewModelsAgentsToolsAudio & voiceProductionAPI referenceDocsOverview\n+DocsOverview\n+Pre-warm sandboxes\n-OverviewSign in with ChatGPTPluginsWorkspace AgentsCommerceAdsChatGPT + Codex user docsUse casesDocsOverview\n+DocsOverview\n-OverviewFeaturesConfigurationDevelopersSecurityAdministrationUse CasesResourcesDocsOverview\n+DocsOverview\n+Dynamic groups\n-ShowcaseBlogCookbookLearnCommunityDocsSelect...\n+DocsSelect...",
+  "id": "60e045a28f3d19377e7c",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "openai-api-changelog",
+  "source_name": "OpenAI API Changelog",
+  "section": 0,
+  "raw_path": "raw/2026-10-10/85535e7f8c1407377f681ced779bd4eaa2478431f0afb0a967f13371bfee6413.body",
+  "source_sha256": "85535e7f8c1407377f681ced779bd4eaa2478431f0afb0a967f13371bfee6413",
+  "fetched_at": "2026-10-10T01:02:57.340676+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-10T01:02:57.340676+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

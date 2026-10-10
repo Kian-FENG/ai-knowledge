@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/videos/2026-10-09/oracle-trucking-gas-to-keep-data-centers-on-track-video",
+  "title": "Oracle Trucking Gas to Keep Data Centers on Track",
+  "text": "Oracle is using a new power strategy to keep many of its data centers on track: trucking natural gas directly to the server farms. The company is considering using this approach to speed up a build in New Mexico, where a gas pipeline needed to help power one of its crucial data centers is delayed. Bloomberg's Brody Ford joins Ed Ludlow on \"Bloomberg Tech\" to discuss Oracle's strategy. (Source: Bloomberg)",
+  "published_at": "2026-10-09T17:49:38+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3b0be9c0c3e44e871f3d",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/f4720599cb7ca0020636e48a0dfae4735ebaa8ba070141df0f98bef1da301f42.body",
+  "source_sha256": "f4720599cb7ca0020636e48a0dfae4735ebaa8ba070141df0f98bef1da301f42",
+  "fetched_at": "2026-10-10T01:03:33.578591+00:00"
+}

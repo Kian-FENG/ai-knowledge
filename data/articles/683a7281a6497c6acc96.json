@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11543",
+  "title": "Learning the Loop, Not Just the Page: Execution-Grounded Loop Learning for Web Generation",
+  "text": "arXiv:2610.11543v1 Announce Type: new\nAbstract: Functional Web generation is increasingly optimized with executable rewards, yet existing methods largely focus on the quality of the final page and leave the process of diagnosing and repairing imperfect implementations underexplored. We identify a central challenge in this setting: the Generator and Refiner produce executable artifacts with direct environment rewards, whereas the intermediate Critic influences downstream behavior without a directly executable outcome. We introduce WebLoop, an execution-grounded framework that jointly learns generation, critique, and refinement within a shared policy. WebLoop trains an execution-free Critic with complementary signals for requirement-level discriminability and downstream helpfulness, first establishing reliable diagnosis and then introducing consequence-aware credit, while all three roles are jointly optimized with group-relative policy learning. With Qwen3.5-9B, WebLoop reaches 41.5 Overall on WebRise and 38.9% accuracy on WebGen-Bench, improving the base model by 11.3 and 15.4 points, respectively. The gains transfer to first-pass generation, persist at 27B scale, and generalize from text-only training to multimodal inputs. Controlled analyses further show that the improvement cannot be explained by an additional refinement pass alone, highlighting the importance of learning the Critic and the loop itself.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "683a7281a6497c6acc96",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

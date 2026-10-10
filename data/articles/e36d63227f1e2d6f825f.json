@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/011/176.htm",
+  "title": "字节 TraeWork 和 TraeCode 合并为全新 TRAE，支持 Agent / IDE 模式无缝切换",
+  "text": "IT之家 10 月 10 日消息，10 月 9 日，字节旗下 TRAE 宣布，即日起，TraeWork 和 TraeCode 将正式合并，融合为全新的 TRAE，升级为全链路开发平台。\n官方表示，过去 TraeWork 更偏向办公、任务和内容生成，TraeCode 更专注专业开发者的编码需求。双端融合后，全新 TRAE 用一个统一入口承接这些连续任务，并支持 Agent 模式与 IDE 模式无缝切换。\nAgent 模式 适合从想法拆解到交付结果：新手开发者可以一步步做出 Demo，专业开发者也可以跨项目调度多个 Agent 并行推进任务。\nIDE 模式 保留完整智能开发环境，适合单项目深度代码编辑与精细调试。\nIT之家获悉，全新 TRAE 覆盖桌面端、Web 端和移动端。用户可以在电脑上启动任务，在移动端查看进度、补充要求，再回到桌面继续深入开发。\n本次升级将完整保留并迁移用户的聊天记录、账号数据、个人资料、登录状态、本地数据及商业积分等内容，无需手动搬迁。目前，新版本仍处于灰度测试阶段，升级将分批次陆续推送至全量用户。",
+  "published_at": "2026-10-10T00:04:25+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e36d63227f1e2d6f825f",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/291dc1077b810831424fe4dff73766480d4db0c3f657e0c545d9e512104aefb0.body",
+  "source_sha256": "291dc1077b810831424fe4dff73766480d4db0c3f657e0c545d9e512104aefb0",
+  "fetched_at": "2026-10-10T01:03:37.807934+00:00"
+}

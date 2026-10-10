@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+  "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+  "text": "For a while, those hoping to avoid the difficulty and expense of dealing with Adobe's Creative Suite have been able to use several free and/or open-source alternatives that replicate some or all of those capabilities. Now, one developer is using AI-powered reverse engineering to mimic the look, feel, and functionality of Adobe's well-known software with what he hopes will soon be perfect fidelity.\nArtcraft got its start last year as a \"controllable AI for artists\" that allows for precise post-generation editing of AI-crafted images and videos. Over the weekend, though, the brand debuted its pivot to a suite of seven open source apps recreating the user interface and tools found in Adobe's Photoshop, Illustrator, Premiere, Lightroom, After Effects, InDesign, and Acrobat Pro.\nIn announcing those new apps on Reddit earlier this week, software developer Brandon Thomas said he used Anthropic's Claude Opus 5.5 to create \"clean-room replacements\" for Adobe's closed source software in Rust (with WebAssembly versions available for use in a browser). And while commenters on Hacker News and elsewhere have taken pains to point out the new software's many current shortcomings, Thomas make the grandiose promise that the current \"super early alpha\" state will soon lead to something just as functional as anything Adobe has ever put out.\nRead full article\nComments",
+  "published_at": "2026-10-07T21:56:42+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "188acac79052c77c05b9",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-08/d6cf7453f06fd7fefa117648bc8bd3f8b9f9c2981d8144b3f9649db8bf00df2e.body",
+  "source_sha256": "d6cf7453f06fd7fefa117648bc8bd3f8b9f9c2981d8144b3f9649db8bf00df2e",
+  "fetched_at": "2026-10-08T01:05:11.046093+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11201",
+  "title": "PageWeaver: KV-Guided Query Unions for Sparse Attention",
+  "text": "arXiv:2610.11201v1 Announce Type: new\nAbstract: Dynamic sparse attention limits the KV pages selected by each query, but a small support does not necessarily yield efficient GPU work. Query unions share page loads and populate Tensor Core tiles; their cost depends on which queries are grouped together. We present PageWeaver, an execution design that uses selected-page affinity to assemble query groups while preserving each query's original support and complete output ownership. A bounded GPU search produces query IDs, and an ID-aware two-CTA kernel consumes them without materializing reordered Q tensors or cross-page partial outputs. A direct KV-page union implementation provides a complementary design study of nonlocal reuse and reduction cost. With FP8 KV throughout, the H200 Union8 implementation achieves a 1.70x geometric-mean complete-call speedup over the measured FlashInfer path on six captures. Online regrouping further lowers latency by 3.26-7.66% on five selected 64K-context captures. Whole-model prefill throughput is 7.88-14.36% above the tested native path; the incremental regrouping benefit is smaller, with observed median gains of 0.47-0.73% at 32K/64K and regressions at 8K. A B300 comparison identifies cases where preparation cost and a stronger native kernel remove the advantage. These results separate execution-group reuse from the complete cost of exploiting it online.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "5e2c02633e6481d01e0b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/pc-components/ssds/kioxia-unveils-e1-l-ssds-for-hyperscalers-with-up-to-122-88tb-capacity-extreme-density-meets-compact-form-factor",
+  "title": "Kioxia unveils E1.L SSDs for hyperscalers with up to 122.88TB capacity",
+  "text": "Kioxia introduced its LD4-series solid-state drives (SSDs) in an E1.L form factor with capacities up to 122.88TB designed for high-density storage deployments in hyperscale data centers on Friday. The new drives use proven BiCS8 3D QLC NAND and are aimed at read-intensive workloads like AI data repositories and object storage, according to the manufacturer.\nTom's Hardware Premium Roadmaps\n(Image credit: Future)\nLeading-edge foundry roadmaps\nNvidia Enterprise GPU and CPU roadmap\nAMD's Enterprise GPU and CPU roadmap\nIntel's roadmaps examined — 14A, Nova Lake, Diamond Rapids & AI accelerator push\nCo-Packaged Optics (CPO) foundry roadmaps\nKioxia's LD4-series SSDs rely on the company's proprietary platform complying with the NVMe 2.0e specification and featuring a single-port configuration along with select requirements of the Open Compute Project Datacenter NVMe SSD specification 2.6. Although Kioxia lists PCIe 5.0 compliance, the drives operate at PCIe 4.0 x4 speeds of up to 16 GT/s per lane, which provides a theoretical maximum bandwidth of approximately 7.88 GB/s in each direction. While the company currently offers capacities of up to 30.72 TB, it has validated an architecture capable of supporting 122.88 TB drives, though it never revealed when such drives are set to be available, something not surprising in a world where 3D NAND memory is sold in advance.\nInterestingly, Kioxia did not disclose any actual performance characteristics of its LD4-series SSDs, including sequential read and write speeds, random read and write IOPS, or latency. The company also did not reveal their endurance ratings in drive writes per day (DWPD) or total bytes written (TBW), nor did it specify their power consumption. These characteristics are particularly important for hyperscale operators evaluating the cost, performance, and longevity of storage infrastructure.\n(Image credit: Kioxia)\nThe key selling point of Kioxia's LD4-series and its E1.L form factor — 318.75 mm length × 38.4 mm height × 9.5 mm thick — is its ability to house numerous 3D NAND flash packages on an elongated printed circuit board, thus enabling multiple drives to be installed in a thin 1U server, offering vast capacities. This enables system manufacturers among those who build OCP-compliant servers to maximize storage capacity without increasing rack space requirements, which is particularly important for large-scale storage deployments.\nKioxia is currently sampling 15.36 TB and 30.72 TB LD4 drives to select customers. The company has not disclosed when 122.88 TB configurations will become available or when the series will enter mass production. The drives will be demonstrated at the OCP Global Summit in San Jose in mid-October.",
+  "published_at": "2026-10-09T10:30:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "04a85af09ab4a4320a54",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-10/85998262594e1faf02ea45348c22ec668ec6c0985b9ae980ffac0f2cbffd2516.body",
+  "source_sha256": "85998262594e1faf02ea45348c22ec668ec6c0985b9ae980ffac0f2cbffd2516",
+  "fetched_at": "2026-10-10T01:03:35.750805+00:00"
+}

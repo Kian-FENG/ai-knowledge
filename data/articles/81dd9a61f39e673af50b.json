@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156379.htm",
+  "title": "售价超2.8万元！iBUYPOWER推出首款迷你主机：搭载锐龙AI Max+ PRO 495",
+  "text": "快科技10月10日消息，以预装整机和工作站闻名的系统集成商iBUYPOWER近日宣布，正式进军迷你主机市场，并推出了其首款高端产品PRO AMD AI Halo迷你主机。\n该机型搭载了AMD基于Zen 5架构的旗舰移动端芯片锐龙AI Max+ PRO 495，起售价定为3999美元（约28260元人民币），预计于本季度内上市发售。\n该机搭载的锐龙AI Max+ PRO 495 SoC拥有16核心32线程，是目前最快的主流移动芯片之一，CPU+NPU+iGPU的组合足以应对各类高强度工作负载。\n该SoC在专业应用、本地AI负载和游戏场景中均有出色表现，其集成的Radeon 8065S核显相较锐龙AI Max+ 395拥有更高的出厂频率。\n内存与存储方面，这款迷你主机最高支持128GB LPDDR5X内存，频率为8000 MT/s，并通过双M.2 2280插槽提供最高8TB的NVMe SSD扩展能力。\n需要指出的是，目前大多数迷你主机厂商在Strix Halo平台上已提供128GB内存配置，而新一代Gorgon Halo平台更是支持高达192GB统一内存，其中160GB可分配给显存使用，因此iBUYPOWER这套128GB配置在这一维度上并不占优。\n不过对于运行大语言模型等需要大容量内存池的负载而言，128GB依然足够应对。\n扩展与接口配置上，这台机器搭载Wi‑Fi 7、蓝牙5.4，配备双万兆有线网卡。\n接口包含两个40Gbps USB4 Type-C、新一代USB 3.2 Gen2 Type-A，还有USB 2.0，视频输出提供1个DP 1.4与1个HDMI 2.1接口。",
+  "published_at": "2026-10-10T08:25:30+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "81dd9a61f39e673af50b",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e.body",
+  "source_sha256": "31849f750d5c128972fc1e4ae0b7ff7aa4af393b79d9531c42e3483d5e6ca37e",
+  "fetched_at": "2026-10-10T01:03:46.107768+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11033",
+  "title": "FedAlphaEdit: Null-Space-Aligned Merging for Collaborative Knowledge Editing",
+  "text": "arXiv:2610.11033v1 Announce Type: new\nAbstract: Multiple institutions may each hold their own private knowledge edits and wish to integrate them into a single large language model without sharing raw edit requests. Null-space-constrained editing methods such as AlphaEdit mathematically guarantee that each update leaves unrelated knowledge intact, while collaborative frameworks such as CollabEdit aggregate edits from multiple clients without data sharing. Combining the two appears trivial. However, we show that this naive combination fails structurally, and we identify its cause. Guided by this analysis, we propose FedAlphaEdit. To our knowledge, this is the first collaborative knowledge editing framework that aligns both local editing and the server-side merging rule under a single null-space principle for preserving existing knowledge. FedAlphaEdit builds on null-space-aligned merging, in which clients share projected statistics and the server provably recovers the result of editing everything in one place under a one-shot idealization. Empirically, the proposed method repairs the collapse and brings edit success and preservation simultaneously close to the level of centralized editing across two architecture families. FedAlphaEdit thus lets institutions that cannot share raw edit data, such as hospitals and financial firms, jointly maintain a shared model that closely approximates editing all facts in one place.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "4b8a52f08a1b0e7ea5fb",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

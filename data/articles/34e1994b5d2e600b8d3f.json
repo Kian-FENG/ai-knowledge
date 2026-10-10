@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/anthropic-announces-broader-cyber-defense-program",
+  "title": "Anthropic Announces Broader Cyber Defense Program",
+  "text": "Anthropic said Thursday it is launching new programs to support cybersecurity for critical infrastructure and open-source software.\nIn a blog post, Anthropic said it would offer threat research, on-site engineers, and access to its frontier Claude models to infrastructure operators as part of ...",
+  "published_at": "2026-10-09T01:02:13+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-09T10:46:46+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "34e1994b5d2e600b8d3f",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-10/133ee60e70d8d4090933e51591796515b4fec9816a1d86e458c7c42346648c5a.body",
+  "source_sha256": "133ee60e70d8d4090933e51591796515b4fec9816a1d86e458c7c42346648c5a",
+  "fetched_at": "2026-10-10T01:03:31.052832+00:00"
+}

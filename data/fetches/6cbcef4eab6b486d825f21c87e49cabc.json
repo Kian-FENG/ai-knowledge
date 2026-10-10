@@ -1,0 +1,27 @@
+{
+  "raw_path": "raw/2026-10-10/291dc1077b810831424fe4dff73766480d4db0c3f657e0c545d9e512104aefb0.body",
+  "sha256": "291dc1077b810831424fe4dff73766480d4db0c3f657e0c545d9e512104aefb0",
+  "source_url": "https://www.ithome.com/rss/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-10T01:03:37.807934+00:00",
+  "source_id": "ithome",
+  "status": 200,
+  "headers": {
+    "Server": "BLB/25.12.0.2",
+    "Date": "Sat, 10 Oct 2026 01:03:39 GMT",
+    "Content-Type": "text/xml; charset=utf-8",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=rg1duyozbgugqeleiaht4n20; path=/; HttpOnly; SameSite=Lax",
+    "X-AspNetMvc-Version": "5.2",
+    "X-AspNet-Version": "4.0.30319",
+    "Content-Encoding": "gzip",
+    "Cache-Control": "private",
+    "Transfer-Encoding": "chunked",
+    "X-NWS-LOG-UUID": "15317934801251050380",
+    "Connection": "close",
+    "X-Cache-Lookup": "Cache Miss"
+  },
+  "final_url": "https://www.ithome.com/rss/",
+  "truncated": false,
+  "charset": "utf-8"
+}

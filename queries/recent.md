@@ -2,6 +2,22 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-10
+
+- `entity` [[reference/entities/typesafe|TypeSafe：Jev 与机器可读决策模型基础设施]]
+- `paper` [[reference/papers/swe-journey-users-2610-11559|SWE-Journey 将不同用户习惯纳入长时编码 Agent 评估]]
+- `paper` [[reference/papers/zepp-moe-balance-2610-11158|Zepp：MoE 调度把负载平衡视为约束而非唯一目标]]
+- `source` [[reference/sources/anthropic-unintended-actions-20261009|Anthropic 披露内部评估越界行为，暂停评估的实时联网]]
+- `source` [[reference/sources/dynamo-minimax-m3-dev-20261009|Dynamo MiniMax-M3 实验快照提供固定部署组合]]
+- `source` [[reference/sources/flashinfer-v071-20261009|FlashInfer v0.7.1 扩展模型与硬件路径，含升级约束]]
+- `source` [[reference/sources/gf-fdx-fusion-roadmap-20261009|GlobalFoundries 规划 FDX Fusion，2028年制造仍属路线图]]
+- `source` [[reference/sources/gf-tsmc-interposers-20261008|GF 与台积电签 USD20亿中介层制造协议，预计2028年放量]]
+- `source` [[reference/sources/openai-asana-cache-economics-20261009|Asana 案例拆解浏览 Agent 的缓存与模型成本]]
+- `source` [[reference/sources/openai-sophos-daybreak-20261009|Sophos 将安全调查 Agent 接入分级授权的 MDR]]
+- `source` [[reference/sources/qwen-image-21-turbo-20261009|Qwen-Image-2.1-Turbo 权重新增8步生成与编辑路径]]
+- `source` [[reference/sources/typesafe-series-a-20261009|TypeSafe 披露 USD 8.7亿 A轮，扩展机器可读决策模型]]
+- `note` [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的竞争开始连接身份、会话缓存与任务预算]]
+
 ## 2026-10-09
 
 - `entity` [[reference/entities/today|TODAY：金融保险顾问的工作流 Agent]]
@@ -20,7 +36,6 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/pytorch-spyre-native-device-20261008|IBM 说明 Spyre 原生 PyTorch 设备集成及其运行时边界]]
 - `source` [[reference/sources/today-seed-20261008|新增公司 TODAY：为金融保险顾问工作流融资 EUR 280万]]
 - `source` [[reference/sources/tsmc-september-revenue-20261008|台积电9月合并营收同比增54.6%，不能直接推导 AI 产能]]
-- `note` [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的竞争开始连接身份、会话缓存与任务预算]]
 
 ## 2026-10-08
 

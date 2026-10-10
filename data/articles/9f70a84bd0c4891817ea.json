@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11566",
+  "title": "Incremental Open-Ended Deep Research with Structured Harness",
+  "text": "arXiv:2610.11566v1 Announce Type: new\nAbstract: Existing Open-Ended Deep Research (OEDR) systems primarily generate reports from scratch, making them inefficient for scenarios where research reports need to be continuously maintained as new information emerges. We introduce \\textbf{Incremental Open-Ended Deep Research (Incremental-OEDR)}, a research setting that treats a report as an evolving research state and incrementally updates it by preserving valid knowledge, revising outdated or incomplete content, and incorporating newly available information. To support this setting, we propose \\textbf{Structured Harness}, which represents reports as structured collections of outlines, sections, and supporting evidence, and provides structured retrieval, a persistent structured evidence pool, and structured generation for selective report updating and evidence reuse. We further establish a temporal evaluation framework spanning ten years, with \\emph{Single-Step Task} and \\emph{Long-Chain Task} to evaluate incremental updates over both individual transitions and long-term update chains. Extensive Experiments on DeepResearch Bench and DeepConsult under both the Open-source Configuration (OC) and Proprietary Configuration (PC) show that Incremental-OEDR maintains competitive report quality while substantially improving report continuity and reducing research costs. As shown in Figure~\\ref{fig:profile}, it achieves up to 0.51 higher content-level ROUGE-L F1, 0.63 higher outline-level EM F1, 33\\% lower token consumption, and 61\\% fewer search calls than OEDR on DeepResearch Bench. For more details, please refer to our project page: https://ioedr-project.github.io/.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9f70a84bd0c4891817ea",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}

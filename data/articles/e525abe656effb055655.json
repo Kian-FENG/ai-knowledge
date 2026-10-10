@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.11305",
+  "title": "BeliefScope: Diagnosing Evidence-Driven Revision and Pressure-Induced Shifts in Large Language Models",
+  "text": "arXiv:2610.11305v1 Announce Type: new\nAbstract: A language model may revise the same proposition after receiving genuinely relevant evidence or after receiving directional user pressure that adds no relevant fact. The observable response shift alone therefore does not reveal which source drove the change. We introduce BeliefScope, a controlled black-box framework for separating these two sources of influence around a fixed target proposition. BeliefScope crosses Evidence and Pressure with factor-specific local controls and measures response changes through probability reports, categorical judgments, and action recommendations on channel-appropriate scales. To determine when these observable contrasts support reliable attribution, we evaluate the observation design under controlled synthetic conditions. Known-truth recovery and targeted ablations establish where Evidence- and Pressure-related effects can be separated, while semi-synthetic stress tests map how that recoverability changes as the observation process becomes noisier and more heterogeneous. Across a 36-family Qwen/Llama study, with targeted 12-family checks that also include Gemma3-12B, the resulting profiles show substantial evaluation-context dependence: broad model-level differences can change under matched controls, decoding, or response interfaces, while some narrower within-model patterns remain stable. Instruction interventions further show that reduced target-aligned Pressure following can reflect either stable resistance or movement in the opposite direction. BeliefScope summarizes these measurements as a conditional belief-response profile that keeps diagnostic effects tied to the evaluation conditions under which they are observed, together with explicit validity boundaries for that diagnosis.",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e525abe656effb055655",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-10/77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683.body",
+  "source_sha256": "77f93a65e1a064bd119148ce4e42bda8721154f8c5278f4694de0af8f1db2683",
+  "fetched_at": "2026-10-10T01:03:16.991461+00:00"
+}
