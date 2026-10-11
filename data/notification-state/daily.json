@@ -45,21 +45,27 @@
       "notified_at": "2026-10-10T01:26:07.817213+00:00",
       "research_commit": "2c2cb6343d913d1e7d9919a91b58be48f977c57f",
       "git_remote_synced": true
+    },
+    "2026-10-10": {
+      "packet_sha256": "bd0171389f219fb7e40b84575d64bac1d21de4ffb45cb110f3ba022f4b7a0ed8",
+      "editorial_sha256": "5bfef52c851dd65df3f40030b9ad8c86140fbb423040222e8707046945c069eb",
+      "notified_at": "2026-10-11T01:17:25.297483+00:00",
+      "research_commit": "f4b1ebdc40acde87ad1331f3bfffe6c5a12324e2",
+      "git_remote_synced": true
     }
   },
   "failed_source_ids": [
     "huxiu",
     "jiqizhixin",
-    "nda",
     "qwen",
     "today",
     "techmeme-snapshot"
   ],
-  "updated_at": "2026-10-10T01:26:07.817213+00:00",
+  "updated_at": "2026-10-11T01:17:25.297483+00:00",
   "git_sync": {
-    "date": "2026-10-09",
-    "research_commit": "2c2cb6343d913d1e7d9919a91b58be48f977c57f",
+    "date": "2026-10-10",
+    "research_commit": "f4b1ebdc40acde87ad1331f3bfffe6c5a12324e2",
     "remote_synced": true,
-    "notified_at": "2026-10-10T01:26:07.817213+00:00"
+    "notified_at": "2026-10-11T01:17:25.297483+00:00"
   }
 }

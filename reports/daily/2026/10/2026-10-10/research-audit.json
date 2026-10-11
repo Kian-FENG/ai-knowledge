@@ -31,7 +31,7 @@
   "date_only_handling": "源日期保留日精度；沿用Asia/Singapore解析，不将午夜占位显示为发布小时；核对前期去重。",
   "weekly": "最近到期2026-10-09周报已完成并推送，未有需要修订的新实质证据，不重复生成。",
   "git": {
-    "status": "ready-for-selective-commit",
+    "status": "research-remotely-synced",
     "pre_run_head": "f5b7b575a5925659790ddc6f22e048b0915b5005",
     "branch": "main",
     "upstream": "origin/main",
@@ -365,6 +365,10 @@
       "offline_tests": 49,
       "default_readback_pages": 12,
       "source_config": 107
-    }
+    },
+    "research_commit": "f4b1ebdc40acde87ad1331f3bfffe6c5a12324e2",
+    "remote_head_verified": "f4b1ebdc40acde87ad1331f3bfffe6c5a12324e2",
+    "verified_at": "2026-10-11T01:17:25.297483+00:00",
+    "actual_changed_path_count": 306
   }
 }
