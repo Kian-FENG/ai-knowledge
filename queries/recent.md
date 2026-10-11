@@ -4,18 +4,30 @@ Generated; published pages only. Do not hand-edit.
 
 ## 2026-10-10
 
+- `entity` [[reference/entities/nous-research|Nous Research：Hermes Agent与开放模型研究]]
+- `entity` [[reference/entities/peppermint|Peppermint：AI 与人工结合的临床试验账单平台]]
+- `entity` [[reference/entities/stacklok|Stacklok：MCP 治理与云原生 Agent 执行平台]]
 - `entity` [[reference/entities/typesafe|TypeSafe：Jev 与机器可读决策模型基础设施]]
 - `paper` [[reference/papers/swe-journey-users-2610-11559|SWE-Journey 将不同用户习惯纳入长时编码 Agent 评估]]
 - `paper` [[reference/papers/zepp-moe-balance-2610-11158|Zepp：MoE 调度把负载平衡视为约束而非唯一目标]]
 - `source` [[reference/sources/anthropic-unintended-actions-20261009|Anthropic 披露内部评估越界行为，暂停评估的实时联网]]
+- `source` [[reference/sources/codex-composer-predictions-20261009|Codex 输入框预测进入 beta：下一条提示仍由用户提交]]
+- `source` [[reference/sources/cxmt-4f-rdimm-plan-20261010|媒体披露长鑫 4F² DDR5 RDIMM 年底计划，尚非量产供给]]
 - `source` [[reference/sources/dynamo-minimax-m3-dev-20261009|Dynamo MiniMax-M3 实验快照提供固定部署组合]]
 - `source` [[reference/sources/flashinfer-v071-20261009|FlashInfer v0.7.1 扩展模型与硬件路径，含升级约束]]
 - `source` [[reference/sources/gf-fdx-fusion-roadmap-20261009|GlobalFoundries 规划 FDX Fusion，2028年制造仍属路线图]]
 - `source` [[reference/sources/gf-tsmc-interposers-20261008|GF 与台积电签 USD20亿中介层制造协议，预计2028年放量]]
+- `source` [[reference/sources/ligit-seed-media-20261010|财联社报道利太智药近人民币5000万元种子轮]]
+- `source` [[reference/sources/microsoft-decision-1-20261009|Microsoft Decision-1 将预定义选项评分做成低价 API]]
+- `source` [[reference/sources/nadella-agent-containment-20261010|纳德拉建议将 Agent 权限和审计控制置于模型之外]]
+- `source` [[reference/sources/nous-missingno-portal-20261010|Nous 宣布 MISSINGNO 编码模型限时免费入口]]
 - `source` [[reference/sources/openai-asana-cache-economics-20261009|Asana 案例拆解浏览 Agent 的缓存与模型成本]]
 - `source` [[reference/sources/openai-sophos-daybreak-20261009|Sophos 将安全调查 Agent 接入分级授权的 MDR]]
+- `source` [[reference/sources/peppermint-seed-20261008|Peppermint 临床试验账单产品与 USD470万种子轮背景]]
 - `source` [[reference/sources/qwen-image-21-turbo-20261009|Qwen-Image-2.1-Turbo 权重新增8步生成与编辑路径]]
+- `source` [[reference/sources/stacklok-agent-architecture-20261010|Stacklok 身份与 ToolHive/Mecatl 架构：新增跟踪背景]]
 - `source` [[reference/sources/typesafe-series-a-20261009|TypeSafe 披露 USD 8.7亿 A轮，扩展机器可读决策模型]]
+- `note` [[research/synthesis/agent-decisions-and-authority-20261010|Agent 决策 API 与执行权限开始分层，低价评分不能替代独立控制]]
 - `note` [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的竞争开始连接身份、会话缓存与任务预算]]
 
 ## 2026-10-09
@@ -40,7 +52,6 @@ Generated; published pages only. Do not hand-edit.
 ## 2026-10-08
 
 - `entity` [[reference/entities/healthleap|Healthleap：住院风险识别与临床团队工作流]]
-- `entity` [[reference/entities/nous-research|Nous Research：Hermes Agent与开放模型研究]]
 - `paper` [[reference/papers/mosaic-gpu-sharing-2610-07504|Mosaic 提议用内核干扰预测选择GPU共置或SM分区]]
 - `paper` [[reference/papers/refold-reversible-context-2610-07863|ReFold：保留完整历史，用可逆折叠控制长时Agent上下文]]
 - `source` [[reference/sources/anthropic-haiku-55-pricing-20261007|Claude Haiku 5.5 发布：可调effort，价格按100K提示长度分档]]

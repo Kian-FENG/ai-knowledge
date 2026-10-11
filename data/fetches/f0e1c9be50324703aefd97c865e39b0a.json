@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-11/a77d2c28a72588a2130f4eebd6dbd7935dea9ec57d7e4fcdc49d358a09ffd162.body",
+  "sha256": "a77d2c28a72588a2130f4eebd6dbd7935dea9ec57d7e4fcdc49d358a09ffd162",
+  "source_url": "https://www.deepseek.com/en/news/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-11T01:00:07.693020+00:00",
+  "source_id": "deepseek",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Server": "AmazonS3",
+    "Date": "Sat, 10 Oct 2026 11:05:19 GMT",
+    "Last-Modified": "Thu, 08 Oct 2026 13:37:55 GMT",
+    "Content-Encoding": "gzip",
+    "ETag": "W/\"d9231fe7f8591eef62777fd793395230\"",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 7c6913fc3bfae6245d89d874d910fab4.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "SFO53-P2",
+    "X-Amz-Cf-Id": "P4gwV1MaR-V7uw1OwmAjPyMJmMMV2acW5sI6LGJZuosjThLPCU7Qjw==",
+    "Age": "50089",
+    "Cache-Control": "no-cache"
+  },
+  "final_url": "https://www.deepseek.com/en/news/",
+  "truncated": false,
+  "charset": "utf-8"
+}

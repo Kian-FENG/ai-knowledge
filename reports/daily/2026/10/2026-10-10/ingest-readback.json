@@ -1,0 +1,86 @@
+[
+  {
+    "path": "reference/sources/codex-composer-predictions-20261009.md",
+    "id": "source-codex-composer-predictions-20261009",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "reference/sources/nous-missingno-portal-20261010.md",
+    "id": "source-nous-missingno-portal-20261010",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "reference/sources/ligit-seed-media-20261010.md",
+    "id": "source-ligit-seed-media-20261010",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "reference/sources/stacklok-agent-architecture-20261010.md",
+    "id": "source-stacklok-agent-architecture-20261010",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "reference/sources/peppermint-seed-20261008.md",
+    "id": "source-peppermint-seed-20261008",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "reference/sources/microsoft-decision-1-20261009.md",
+    "id": "source-microsoft-decision-1-20261009",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "reference/sources/nadella-agent-containment-20261010.md",
+    "id": "source-nadella-agent-containment-20261010",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "reference/sources/cxmt-4f-rdimm-plan-20261010.md",
+    "id": "source-cxmt-4f-rdimm-plan-20261010",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "reference/entities/stacklok.md",
+    "id": "entity-stacklok",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "reference/entities/peppermint.md",
+    "id": "entity-peppermint",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "reference/entities/nous-research.md",
+    "id": "entity-nous-research",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  },
+  {
+    "path": "research/synthesis/agent-decisions-and-authority-20261010.md",
+    "id": "note-agent-decisions-and-authority-20261010",
+    "query_status": "success",
+    "lifecycle": "published",
+    "raw_hashes_match": true
+  }
+]

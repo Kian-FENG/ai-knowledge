@@ -1,0 +1,19 @@
+{
+  "key": "nadella",
+  "source_id": "ms-nadella",
+  "title": "Models as Insider Risks in the Super Intelligence Era",
+  "url": "https://x.com/satyanadella/status/2108931348857827686",
+  "published_at": "2026-10-10T00:00:00+08:00",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "text": "Agent-selected factual extract after reading Satya Nadella's complete public X article in the browser. Header: Models as Insider Risks in the Super Intelligence Era. Byline account @satyanadella identifies Chairman and CEO at Microsoft. Display: 7:43 AM, Oct 10, 2026; display timezone absent, so retained at date-only precision. Nadella argues that authority over agent actions should be separated from intelligence supply. Controls over access and actions should sit outside the model and be independent of the model/harness/action space. Listed principles cover model diversity, tamper-resistant human-readable action evidence, testing failures/attacks/edge cases, independent controls and auditability, containment with authorized human pause/shutdown during a task, and timely incident disclosure. He explicitly says model chain-of-thought transparency alone is not dependable evidence of faithful outputs. This is a proposed governance and engineering approach, not an announcement of a shipped Microsoft product, achieved safety metric, or binding industry standard. Original article was fully read; no private incident logs or technical implementation audited.",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "eeeced9a0bbd73898899",
+  "source_name": "Satya Nadella Public Article",
+  "section": 3,
+  "raw_path": "raw/2026-10-11/aa7dd5f00a45b7fcbe36040c24fe52f435990ef02364c0f2f6af7beefff0f51f.txt",
+  "source_sha256": "aa7dd5f00a45b7fcbe36040c24fe52f435990ef02364c0f2f6af7beefff0f51f",
+  "fetched_at": "2026-10-11T01:07:30.072337+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "raw_path": "raw/2026-10-11/cb7abffe077f0124d134ef9dd9e84560650f7fd3488efca6cedba8cded8c05a1.body",
+  "sha256": "cb7abffe077f0124d134ef9dd9e84560650f7fd3488efca6cedba8cded8c05a1",
+  "source_url": "https://www.36kr.com/feed",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-11T01:00:56.616467+00:00",
+  "source_id": "36kr",
+  "status": 200,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Sun, 11 Oct 2026 01:00:58 GMT",
+    "Content-Type": "application/rss+xml; charset=utf-8",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "server-timing": "inner; dur=148,inner; dur=135"
+  },
+  "final_url": "https://www.36kr.com/feed",
+  "truncated": false,
+  "charset": "utf-8"
+}

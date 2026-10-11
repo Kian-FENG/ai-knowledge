@@ -13,6 +13,61 @@ keywords:
   ai_zh: &ai_zh [AI, AIGC, 人工智能, 大模型, 智能体, Agent, 算力, 智算, 芯片, GPU, HBM, 半导体, 光刻, 具身, 人形机器人, 世界模型, OpenAI, Anthropic, Claude, DeepSeek, 千问, 通义, Qwen, Kimi, 月之暗面, 智谱, MiniMax, 豆包, 混元, 文心, 英伟达, 寒武纪, 昇腾, 词元, Token, 数据中心, 多模态, 开源模型, 阿里云, 腾讯云, 华为云, 火山引擎, 百度智能云, 出口管制, 实体清单, 断供, 制裁, 禁运]
 
 sources:
+- id: stacklok
+  name: Stacklok Official
+  url: https://stacklok.com/company/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-10'
+  note: 官网公司页与产品正文已读；仅浏览核查，机器采集许可未核实；未将2023年融资误作本期新闻。
+- id: peppermint
+  name: Peppermint Official
+  url: https://www.getpeppermint.ai/peppermint-raises-4-7m-seed
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-10'
+  note: 官网核实产品、创始人和USD4.7M种子轮；公告2026-10-08，是背景新增跟踪，非本期融资。
+- id: cls-eastmoney
+  name: 财联社正文（东方财富转载）
+  url: https://finance.eastmoney.com/a/202610103892000121.html
+  kind: web
+  group: media
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-10'
+  note: 已浏览完整科创板日报正文和发布时间；保留财联社归因，未找到公司或投资方一手融资公告。
+- id: ms-decision
+  name: Microsoft Command Line
+  url: https://commandline.microsoft.com/microsoft-decision-1-model-foundry/
+  kind: web
+  group: official
+  section: 2
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-10'
+  note: 官方正文已读；公告仅标2026-10-09，更新时刻未知；本次仅作背景入库，不将采集时间写成发布日期。
+- id: ms-nadella
+  name: Satya Nadella Public Article
+  url: https://x.com/satyanadella/status/2108931348857827686
+  kind: web
+  group: official
+  section: 3
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-10'
+  note: 浏览器读取完整公开文章；网页显示Oct10及7:43但未标时区，按日期精度归档；是工程原则建议，非产品交付。
 - id: nous
   name: Nous Research Official
   url: https://nousresearch.com/

@@ -130,3 +130,18 @@
 [[reference/entities/typesafe|TypeSafe：Jev 与机器可读决策模型基础设施]]
 
 [[research/synthesis/persistent-agents-session-budget-20261008|更新：缓存收益与权限边界共同决定Agent交付]]
+
+## 2026-10-10 日报与背景补充
+
+- [[reference/sources/codex-composer-predictions-20261009|Codex 输入框预测进入 beta：下一条提示仍由用户提交]]
+- [[reference/sources/nous-missingno-portal-20261010|Nous 宣布 MISSINGNO 编码模型限时免费入口]]
+- [[reference/sources/ligit-seed-media-20261010|财联社报道利太智药近人民币5000万元种子轮]]
+- [[reference/sources/stacklok-agent-architecture-20261010|Stacklok 身份与 ToolHive/Mecatl 架构：新增跟踪背景]]
+- [[reference/sources/peppermint-seed-20261008|Peppermint 临床试验账单产品与 USD470万种子轮背景]]
+- [[reference/sources/microsoft-decision-1-20261009|Microsoft Decision-1 将预定义选项评分做成低价 API]]
+- [[reference/sources/nadella-agent-containment-20261010|纳德拉建议将 Agent 权限和审计控制置于模型之外]]
+- [[reference/sources/cxmt-4f-rdimm-plan-20261010|媒体披露长鑫 4F² DDR5 RDIMM 年底计划，尚非量产供给]]
+- [[reference/entities/stacklok|Stacklok：MCP 治理与云原生 Agent 执行平台]]
+- [[reference/entities/peppermint|Peppermint：AI 与人工结合的临床试验账单平台]]
+- [[reference/entities/nous-research|Nous Research：Hermes Agent与开放模型研究]]
+- [[research/synthesis/agent-decisions-and-authority-20261010|Agent 决策 API 与执行权限开始分层，低价评分不能替代独立控制]]

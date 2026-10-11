@@ -98,3 +98,20 @@
 - entity-typesafe、既有持续Agentnote：证据见元数据；已综合，等待审核发布与回查。
 
 - 本批完成：新建12页（9 source/2 paper/1 entity）、更新既有综合1页；13页全部review/finalize并通过默认标题query与get_page --follow-sources，raw证据hash核对通过。全库83页结构校验、49离线测试通过。日报10事件、周报23事件；待核实材料与覆盖缺口已记录。
+
+## 2026-10-10T18:13:33.218384-07:00 — 2026-10-10 批次
+
+- reference/sources/codex-composer-predictions-20261009.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- reference/sources/nous-missingno-portal-20261010.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- reference/sources/ligit-seed-media-20261010.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- reference/sources/stacklok-agent-architecture-20261010.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- reference/sources/peppermint-seed-20261008.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- reference/sources/microsoft-decision-1-20261009.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- reference/sources/nadella-agent-containment-20261010.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- reference/sources/cxmt-4f-rdimm-plan-20261010.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- reference/entities/stacklok.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- reference/entities/peppermint.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- reference/entities/nous-research.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+- research/synthesis/agent-decisions-and-authority-20261010.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
+
+新建11、更新1；前期事件与媒体旧事重发去重跳过。利太智药entity、一手长鑫讲稿、MISSINGNO模型卡等未完成，见本期pending-evidence；没有以审核发布提升为独立复现。

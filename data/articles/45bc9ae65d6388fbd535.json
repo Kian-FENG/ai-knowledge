@@ -1,0 +1,20 @@
+{
+  "key": "composer",
+  "source_id": "openai",
+  "title": "Composer predictions beta in Codex",
+  "url": "https://help.openai.com/en/articles/20001601-composer-predictions-in-codex",
+  "published_at": null,
+  "announced_at": "2026-10-09T00:00:00+08:00",
+  "date_basis": "announced",
+  "extraction": "full-text",
+  "text": "Agent-source-extract from browser-read official help article and October 9 release-note section; selected factual extract, not an HTTP page capture. Composer predictions beta suggests a next message from the current thread after a response. Eligible adults on personal Pro plans can use local and SSH Codex desktop threads with GPT-6 Astra or GPT-6.1 Sol in supported regions. Tab inserts editable text without sending. It is enabled by default and can be disabled in General/Composer. It does not independently retrieve memories or connected-app data. Prediction generation during beta consumes no Codex limit or credits; submitted messages use normal billing. Announcement date October 9 is from https://help.openai.com/en/articles/6825453-chatgpt-release-notes ; no announcement time or source timezone is specified. The detail article has only a relative update indicator, which is not used as a publication timestamp.",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "45bc9ae65d6388fbd535",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-11/4c8674c76ff516e8e78dd6768242a96bc6ee2af12c255ca653b305fa49a4f390.txt",
+  "source_sha256": "4c8674c76ff516e8e78dd6768242a96bc6ee2af12c255ca653b305fa49a4f390",
+  "fetched_at": "2026-10-11T01:07:29.673724+00:00"
+}

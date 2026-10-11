@@ -1,0 +1,19 @@
+{
+  "key": "stacklok",
+  "source_id": "stacklok",
+  "title": "Stacklok company identity and open agent architecture",
+  "url": "https://stacklok.com/company/",
+  "published_at": null,
+  "date_basis": "unknown",
+  "extraction": "full-text",
+  "text": "Agent-source-extract from official company page and homepage, selected factual extract after browser reading. Stacklok identifies Craig McLuckie as founder and CEO and Joe Beda as CTO; Shanis Windland is COO and Scott Buchanan CMO. Its open architecture includes ToolHive for MCP servers and Mecatl as a cloud-native agent harness. The company describes Kubernetes-native, self-hosted deployment and shared identity, audit, observability and policy across agent-to-tool and agent-to-model actions. Its pages list Accel, Madrona and Bain Capital as backers, without stating a current round amount or date. Publication date is unknown. The official blog lists Mecatl introduction September 15, 2026 and MCP kill-switch article October 1. This run discovered the company, but does not treat discovery as a new founding or product launch. No code, licence text, production telemetry or customer contract was reviewed.",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "ac4893c18e3210ce6721",
+  "source_name": "Stacklok Official",
+  "section": 1,
+  "raw_path": "raw/2026-10-11/327d9ed2706e7fa4b40efe736a4413f71aebf9834324ac901b965cac0fe1e999.txt",
+  "source_sha256": "327d9ed2706e7fa4b40efe736a4413f71aebf9834324ac901b965cac0fe1e999",
+  "fetched_at": "2026-10-11T01:07:30.267454+00:00",
+  "date_precision": "timestamp"
+}

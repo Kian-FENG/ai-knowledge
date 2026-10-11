@@ -1,0 +1,19 @@
+{
+  "key": "ligit",
+  "source_id": "cls-eastmoney",
+  "title": "利太智药完成近5000万元种子轮融资 讯飞创投出手",
+  "url": "https://finance.eastmoney.com/a/202610103892000121.html",
+  "published_at": "2026-10-10T22:37:00+08:00",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "text": "agent-source-extract；已通过原生浏览器阅读东方财富转载《科创板日报》记者徐杰/财联社文章完整主文；这是限定事实摘录，不是HTTP全文快照。页面标注2026年10月10日22:37，按中国媒体当地时间解释为Asia/Shanghai，来源未写UTC偏移。报道说利太智药（北京）科技有限公司近日完成近人民币5000万元种子轮融资，投资方为讯飞创投、L2F光源创业者基金及知名产业方；资金用于算力租用、核心管线研发、专利申报、人才与日常运营。报道说公司2026年7月成立，总部北京海淀，创始人贾寅君，聚焦生成式AI多肽设计。多条自研管线处HIT-to-lead阶段，预计2027年初产生候选化合物；这是计划，未证明临床有效或已有上市药。原发财联社页面未检出，公司/投资方一手融资公告未获取；不采用亲和力、闭环速度、市场规模或成药性主张作为实测结论。报道具体成交日、到账、估值、营收及ARR未知。",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "b0fa1e8be714fdff1fb1",
+  "source_name": "财联社正文（东方财富转载）",
+  "section": 1,
+  "raw_path": "raw/2026-10-11/68430b125c368dd7031207b70a6c7b4d24b0eeed246b09940f4832b728618977.txt",
+  "source_sha256": "68430b125c368dd7031207b70a6c7b4d24b0eeed246b09940f4832b728618977",
+  "fetched_at": "2026-10-11T01:07:29.871822+00:00",
+  "date_precision": "timestamp"
+}

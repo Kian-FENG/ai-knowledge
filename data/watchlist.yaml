@@ -2,6 +2,24 @@
 # sources 指向 data/sources.yaml 的来源 ID；browser 列出 HTTP 采集不可用、需要用浏览器
 # 打开核查的入口；channels 记录首发渠道（多为公众号或社交平台），只能经媒体与检索发现。
 companies:
+- id: stacklok
+  name: Stacklok / ToolHive / Mecatl
+  region: US
+  urls: [https://stacklok.com/company/]
+  sources: [stacklok]
+  browser: [https://stacklok.com/company/]
+  source_page: reference/entities/stacklok.md
+  tracking_since: '2026-10-10'
+  note: 官网核实Craig McLuckie及Joe Beda和MCP治理产品；是新纳入跟踪的既有公司，未知日期内容不列当天新闻。
+- id: peppermint
+  name: Peppermint / 临床试验账单
+  region: US
+  urls: [https://www.getpeppermint.ai/peppermint-raises-4-7m-seed]
+  sources: [peppermint]
+  browser: [https://www.getpeppermint.ai/peppermint-raises-4-7m-seed]
+  source_page: reference/entities/peppermint.md
+  tracking_since: '2026-10-10'
+  note: 官网核实创始人David Freeman及VJ Thurimella与产品归属；USD4.7M种子轮公告为10月8日背景，业绩效果未独立验证。
 - id: today
   name: TODAY / UseToday ApS
   region: EU

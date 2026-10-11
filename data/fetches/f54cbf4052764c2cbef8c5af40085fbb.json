@@ -1,0 +1,25 @@
+{
+  "raw_path": "raw/2026-10-11/296b8c37d6a42229be56be4443e64a24a7b577915224b4b701dce2d233dfe606.body",
+  "sha256": "296b8c37d6a42229be56be4443e64a24a7b577915224b4b701dce2d233dfe606",
+  "source_url": "https://www.tmtpost.com/rss.xml",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-11T01:00:56.909485+00:00",
+  "source_id": "tmtpost",
+  "status": 200,
+  "headers": {
+    "Date": "Sun, 11 Oct 2026 01:00:59 GMT",
+    "Content-Type": "text/xml;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Set-Cookie": "SERVERID=e13df7ced004430b1cf00e5e338b921d|1791680458|1791680458;Path=/",
+    "Vary": "Accept-Encoding",
+    "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Pragma": "no-cache",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Encoding": "gzip"
+  },
+  "final_url": "https://www.tmtpost.com/rss.xml",
+  "truncated": false,
+  "charset": "utf-8"
+}

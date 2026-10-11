@@ -1,0 +1,19 @@
+{
+  "key": "decision",
+  "source_id": "ms-decision",
+  "title": "Microsoft-Decision-1: structured decision scoring (October 9 background)",
+  "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+  "published_at": "2026-10-09T00:00:00+08:00",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "text": "Agent-selected source extract after reading the complete official main text, including pricing, examples and appendix. Official page date: 2026.10.09; exact publication time and later edit time are unknown. Microsoft states Decision-1 post-trains Qwen3.5-9B to return calibrated probability scores over predefined yes/no, multiple-choice and rating options for routing, classification, verification and workflow control. The page currently offers Microsoft Foundry and OpenRouter links. Input pricing is USD 0.042 per million tokens; output tokens free. It reports a 36-benchmark comparison with nearly 150,000 questions and eight input perturbations, but full harness, model snapshots, serving hardware, input distribution and budget are not supplied here. The page says it was edited to add Jev accuracy and calibration comparisons. Search cache and current text differ on runner-up and OpenRouter availability; this extract records current text, not a timed launch change. No independent evaluation or account access test performed.",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "fb900a38eb855015e847",
+  "source_name": "Microsoft Command Line",
+  "section": 2,
+  "raw_path": "raw/2026-10-11/e2cebb1e437dd8bfcbf59310e8061e677452517940ab8d8c243ba48dbd619302.txt",
+  "source_sha256": "e2cebb1e437dd8bfcbf59310e8061e677452517940ab8d8c243ba48dbd619302",
+  "fetched_at": "2026-10-11T01:07:29.776152+00:00"
+}
