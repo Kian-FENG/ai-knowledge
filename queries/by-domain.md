@@ -4,10 +4,12 @@ Generated; published pages only. Do not hand-edit.
 
 ## companies
 
+- `entity` [[reference/entities/decart|Decart：优化栈DOS与实时世界模型]]
 - `entity` [[reference/entities/halluminate|Halluminate：知识工作评测与强化学习环境公司]]
 - `entity` [[reference/entities/healthleap|Healthleap：住院风险识别与临床团队工作流]]
 - `entity` [[reference/entities/namespace|Namespace：编码 Agent 的开发与构建基础设施]]
 - `entity` [[reference/entities/nous-research|Nous Research：Hermes Agent与开放模型研究]]
+- `entity` [[reference/entities/odyssey|Odyssey：交互世界模型与Odyssey-3研究预览]]
 - `entity` [[reference/entities/peppermint|Peppermint：AI 与人工结合的临床试验账单平台]]
 - `entity` [[reference/entities/reflection|Reflection：Beam 模型的开发者]]
 - `entity` [[reference/entities/stacklok|Stacklok：MCP 治理与云原生 Agent 执行平台]]
@@ -15,8 +17,10 @@ Generated; published pages only. Do not hand-edit.
 - `entity` [[reference/entities/typesafe|TypeSafe：Jev 与机器可读决策模型基础设施]]
 - `entity` [[reference/entities/vinci|Vinci：物理仿真与硬件设计的 AI 平台]]
 - `entity` [[reference/entities/volantis|Volantis：推理光子互连公司]]
+- `source` [[reference/sources/amazon-decart-talks-20261011|Reuters转述WSJ：Amazon洽谈约70亿美元收购Decart，未达成]]
 - `source` [[reference/sources/anthropic-barclays-20261001|Anthropic 扩大 Barclays 部署，代码与运营成为采用场景]]
 - `source` [[reference/sources/anthropic-genesis-commitment-20261008|Anthropic 承诺三年提供 USD 1.5亿科研资源]]
+- `source` [[reference/sources/decart-products-undated|Decart官网产品归属：DOS、Lucy、Oasis与未知发布日期]]
 - `source` [[reference/sources/gemini-model-access-october-2026|Gemini 个人账户模型访问分层：10月生效安排]]
 - `source` [[reference/sources/gf-fdx-fusion-roadmap-20261009|GlobalFoundries 规划 FDX Fusion，2028年制造仍属路线图]]
 - `source` [[reference/sources/gf-tsmc-interposers-20261008|GF 与台积电签 USD20亿中介层制造协议，预计2028年放量]]
@@ -134,11 +138,13 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/dynamo-minimax-m3-dev-20261009|Dynamo MiniMax-M3 实验快照提供固定部署组合]]
 - `source` [[reference/sources/dynamo-session-aware-20261008|Dynamo 按 Agent 会话管理缓存和准入，部分接口仍是提案]]
 - `source` [[reference/sources/embeddinggemma-2-release-20261006|EmbeddingGemma 2 发布多模态开放嵌入模型，支持端侧检索]]
+- `source` [[reference/sources/epoch-innovationeval-20261007|Epoch InnovationEval：遵守研究规则后的改进显著收缩]]
 - `source` [[reference/sources/halluminate-series-a-20261001|Halluminate：融资与金融知识工作 RL 环境]]
 - `source` [[reference/sources/ligit-seed-media-20261010|财联社报道利太智药近人民币5000万元种子轮]]
 - `source` [[reference/sources/microsoft-decision-1-20261009|Microsoft Decision-1 将预定义选项评分做成低价 API]]
 - `source` [[reference/sources/mistral-large-4-preview-20261006|Mistral Large 4 进入 API 公开预览，权重仍待月底交付]]
 - `source` [[reference/sources/nous-missingno-portal-20261010|Nous 宣布 MISSINGNO 编码模型限时免费入口]]
+- `source` [[reference/sources/odyssey3-preview-20261008|Odyssey-3研究预览：交互生成与闭环控制证据分开]]
 - `source` [[reference/sources/openai-decisions-and-usage-tiers-20261006|OpenAI API 更新：Decisions 公开 beta 与三档付费用量层级]]
 - `source` [[reference/sources/openai-intelligent-ui-20261007|ChatGPT 开始推送 Intelligent UI：回答可直接变成交互工具]]
 - `source` [[reference/sources/openai-ironclad-computer-use-20261006|OpenAI 与 Ironclad 用合同工作任务评估计算机操作能力]]
@@ -147,6 +153,7 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/pytorch-media-landscape-20261005|PyTorch 说明媒体处理分工：TorchCodec 集中 I/O，Vision/Audio 聚焦变换]]
 - `source` [[reference/sources/qwen-image-21-turbo-20261009|Qwen-Image-2.1-Turbo 权重新增8步生成与编辑路径]]
 - `source` [[reference/sources/reflection-beam-preview-20261005|Reflection 预览 Beam：501B MoE，权重与 Apache 2.0 许可仍待本月发布]]
+- `source` [[reference/sources/vals-multi-agent-cost-20261009|Vals评测：多Agent费用增加，收益取决于模型与预算]]
 - `note` [[research/synthesis/agent-delivery-and-verification-20261006|Agent 的可交付能力由上下文、访问规则与验证体系共同决定]]
 
 ## products
@@ -170,6 +177,7 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/google-cloud-modernize-20261005|Google Cloud Modernize 将云评估和应用迁移组织成 Agent 产品组合]]
 - `source` [[reference/sources/google-gemini-work-agent-20261008|Google 发布 Gemini 工作 Agent：云端持续执行、任务身份与项目预算结合]]
 - `source` [[reference/sources/google-playground-20261007|Google Playground 实验性上线：对话创建、试玩和分享游戏]]
+- `source` [[reference/sources/gpt61-sol-context-20261011|媒体：GPT-6.1 Sol默认上下文扩至500k，订阅扣量范围待原公告核验]]
 - `source` [[reference/sources/healthleap-funding-20261007|Healthleap 披露3800万美元种子及A轮融资，切入住院营养不良识别]]
 - `source` [[reference/sources/legalon-codex-budget-routing-20261008|LegalOn 案例把模型分工与预算管理同时纳入编码 Agent 采用]]
 - `source` [[reference/sources/microsoft-decision-1-20261009|Microsoft Decision-1 将预定义选项评分做成低价 API]]

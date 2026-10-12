@@ -145,3 +145,15 @@
 - [[reference/entities/peppermint|Peppermint：AI 与人工结合的临床试验账单平台]]
 - [[reference/entities/nous-research|Nous Research：Hermes Agent与开放模型研究]]
 - [[research/synthesis/agent-decisions-and-authority-20261010|Agent 决策 API 与执行权限开始分层，低价评分不能替代独立控制]]
+
+## 2026-10-11 日报、世界模型与Agent研究背景
+
+- [[reference/sources/gpt61-sol-context-20261011|媒体：GPT-6.1 Sol默认上下文扩至500k，订阅扣量范围待原公告核验]]
+- [[reference/sources/amazon-decart-talks-20261011|Reuters转述WSJ：Amazon洽谈约70亿美元收购Decart，未达成]]
+- [[reference/sources/odyssey3-preview-20261008|Odyssey-3研究预览：交互生成与闭环控制证据分开]]
+- [[reference/sources/vals-multi-agent-cost-20261009|Vals评测：多Agent费用增加，收益取决于模型与预算]]
+- [[reference/sources/epoch-innovationeval-20261007|Epoch InnovationEval：遵守研究规则后的改进显著收缩]]
+- [[reference/sources/decart-products-undated|Decart官网产品归属：DOS、Lucy、Oasis与未知发布日期]]
+- [[reference/entities/decart|Decart：优化栈DOS与实时世界模型]]
+- [[reference/entities/odyssey|Odyssey：交互世界模型与Odyssey-3研究预览]]
+- [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的竞争开始连接身份、会话缓存与任务预算]]

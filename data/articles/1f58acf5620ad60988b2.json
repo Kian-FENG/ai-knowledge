@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156592.htm",
+  "title": "AI揪出电脑蓝屏元凶！还直接走完售后流程：芝奇免费换新内存",
+  "text": "快科技10月11日消息，海外用户srpraveen97近日发帖称，自己一台用了5年的PC开始频繁蓝屏，错误代码包括0x0A、0x1E、0x3B和0x1A。\n在内存价格飞涨的当下，直接买新内存并不划算，这位用户转而求助Claude，结果AI不仅锁定了故障根源是芝奇内存，还帮他走完了售后流程，最终用户免费拿到两根新内存。\n芝奇内存提供终身保修，但售后流程需要准备购买凭证、填写申请表、邮寄故障产品，每个环节都可能卡壳。\n具体Claude怎么帮的，原帖没有展开，但结果是芝奇免费换了两根内存条，用户只掏了运费和关税，大概是跨国邮寄产生的费用。\n在评论区里，另一个用户分享了类似经历，他的蓝屏问题最终查出来是银行安全软件搞的鬼，卸载后彻底消失。\nClaude此前还帮用户写过macOS下HP打印机的驱动程序（官方从未提供过），甚至有用户问Claude网速慢怎么办，AI直接让他换根网线，虽然这更多是因为当事人懒到不肯检查线缆。\n内存涨价潮还在持续，如果手头有蓝屏的老机器，不妨先让AI帮忙排查，说不定能省下一笔换新费用。",
+  "published_at": "2026-10-11T21:02:05+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1f58acf5620ad60988b2",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d.body",
+  "source_sha256": "6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d",
+  "fetched_at": "2026-10-12T01:02:01.720243+00:00"
+}

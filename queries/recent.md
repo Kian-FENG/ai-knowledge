@@ -2,6 +2,21 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-12
+
+- `entity` [[reference/entities/decart|Decart：优化栈DOS与实时世界模型]]
+- `entity` [[reference/entities/odyssey|Odyssey：交互世界模型与Odyssey-3研究预览]]
+- `source` [[reference/sources/amazon-decart-talks-20261011|Reuters转述WSJ：Amazon洽谈约70亿美元收购Decart，未达成]]
+- `source` [[reference/sources/decart-products-undated|Decart官网产品归属：DOS、Lucy、Oasis与未知发布日期]]
+- `source` [[reference/sources/epoch-innovationeval-20261007|Epoch InnovationEval：遵守研究规则后的改进显著收缩]]
+- `source` [[reference/sources/gpt61-sol-context-20261011|媒体：GPT-6.1 Sol默认上下文扩至500k，订阅扣量范围待原公告核验]]
+- `source` [[reference/sources/odyssey3-preview-20261008|Odyssey-3研究预览：交互生成与闭环控制证据分开]]
+- `source` [[reference/sources/vals-multi-agent-cost-20261009|Vals评测：多Agent费用增加，收益取决于模型与预算]]
+
+## 2026-10-11
+
+- `note` [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的竞争开始连接身份、会话缓存与任务预算]]
+
 ## 2026-10-10
 
 - `entity` [[reference/entities/nous-research|Nous Research：Hermes Agent与开放模型研究]]
@@ -28,7 +43,6 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/stacklok-agent-architecture-20261010|Stacklok 身份与 ToolHive/Mecatl 架构：新增跟踪背景]]
 - `source` [[reference/sources/typesafe-series-a-20261009|TypeSafe 披露 USD 8.7亿 A轮，扩展机器可读决策模型]]
 - `note` [[research/synthesis/agent-decisions-and-authority-20261010|Agent 决策 API 与执行权限开始分层，低价评分不能替代独立控制]]
-- `note` [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的竞争开始连接身份、会话缓存与任务预算]]
 
 ## 2026-10-09
 

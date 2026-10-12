@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-11/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports",
+  "title": "Amazon Is in Talks to Buy AI Startup Decart, WSJ Reports",
+  "text": "Amazon.com Inc. is in negotiations to acquire Decart AI, an artificial intelligence startup, in a deal that could be valued at around $7 billion, the Wall Street Journal reported.",
+  "published_at": "2026-10-11T20:46:52+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "64d4ebe3e21c361f4d73",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/7cec2fd745844bb82e65ecc9abd7a79061bddaad29c38d4ef6a4afc6de399d03.body",
+  "source_sha256": "7cec2fd745844bb82e65ecc9abd7a79061bddaad29c38d4ef6a4afc6de399d03",
+  "fetched_at": "2026-10-12T01:01:49.912597+00:00"
+}

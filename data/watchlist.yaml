@@ -2,6 +2,31 @@
 # sources 指向 data/sources.yaml 的来源 ID；browser 列出 HTTP 采集不可用、需要用浏览器
 # 打开核查的入口；channels 记录首发渠道（多为公众号或社交平台），只能经媒体与检索发现。
 companies:
+- id: decart
+  name: Decart / DOS / Lucy / Oasis
+  region: unverified
+  urls:
+  - https://decart.ai/
+  - https://decart.ai/about
+  sources:
+  - decart
+  browser:
+  - https://decart.ai/
+  source_page: reference/entities/decart.md
+  tracking_since: '2026-10-11'
+  note: 官网核对品牌与产品归属；约USD7B是WSJ谈判媒体报道，未完成交易，不是融资或收入。
+- id: odyssey
+  name: Odyssey / Odyssey-3
+  region: unverified
+  urls:
+  - https://odyssey.systems/meet-odyssey-3
+  sources:
+  - odyssey
+  browser:
+  - https://odyssey.systems/meet-odyssey-3
+  source_page: reference/entities/odyssey.md
+  tracking_since: '2026-10-11'
+  note: 官方研究预览为2026-10-08背景；未独立验证机器人控制效果、权重许可或客户交付。
 - id: stacklok
   name: Stacklok / ToolHive / Mecatl
   region: US

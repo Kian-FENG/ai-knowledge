@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+  "title": "Odyssey-3 is a new generative world model that you can try for free",
+  "text": "Odyssey is making its world model Odyssey-3 available as a public research preview. The 14-billion-parameter model generates interactive environments from text prompts in real time and can reportedly control robots, drones, and even GTA V. Odyssey claims top scores on physics benchmarks, though the methodology behind those results has limits.\nThe article Odyssey-3 is a new generative world model that you can try for free appeared first on The Decoder.",
+  "published_at": "2026-10-11T07:48:01+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7b847b2562919f5d818c",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/41dbd05e9176c5cb1a93d602b7b6cbc942ff03f8add73490e4d3d736c99506bc.body",
+  "source_sha256": "41dbd05e9176c5cb1a93d602b7b6cbc942ff03f8add73490e4d3d736c99506bc",
+  "fetched_at": "2026-10-12T01:01:45.834100+00:00"
+}

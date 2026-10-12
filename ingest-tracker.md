@@ -115,3 +115,15 @@
 - research/synthesis/agent-decisions-and-authority-20261010.md：归档/有限范围阅读/查重/综合关联/审核/发布/默认query与get_page回查完成；raw、sha256、fetched_at、evidence定位及版本见页面元数据。
 
 新建11、更新1；前期事件与媒体旧事重发去重跳过。利太智药entity、一手长鑫讲稿、MISSINGNO模型卡等未完成，见本期pending-evidence；没有以审核发布提升为独立复现。
+
+## automation-ai-2026-10-11
+
+- reference/sources/gpt61-sol-context-20261011.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
+- reference/sources/amazon-decart-talks-20261011.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
+- reference/sources/odyssey3-preview-20261008.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
+- reference/sources/vals-multi-agent-cost-20261009.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
+- reference/sources/epoch-innovationeval-20261007.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
+- reference/sources/decart-products-undated.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
+- reference/entities/decart.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
+- reference/entities/odyssey.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
+- research/synthesis/persistent-agents-session-budget-20261008.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156545.htm",
+  "title": "芯片专家试图劝退马斯克：Terafab芯片项目比发射星舰火箭更难",
+  "text": "快科技10月11日消息，马斯克称其主导的Terafab制造项目将具备生产1太瓦算力的能力。但半导体专家指出，这一目标很难实现。\n业内强调，芯片制造准入门槛极高：设备不仅要达到大规模量产所需的良率水平，还需保持工艺步骤的最佳组合，而这至少需要约30年积累。因此，让Terafab实现稳定良率，可能比把星舰送上火星更加困难。\nTerafab是特斯拉与SpaceX联合开发的先进半导体晶圆厂，选址得克萨斯州格里姆斯县。\n项目规划制造空间超过1亿平方英尺，初期投资168亿美元。据SpaceX官网介绍，该工厂将整合先进逻辑芯片和存储器件的制造、封装与测试，以实现快速迭代部署。\n在应用方向上，Terafab生产的芯片一方面面向边缘计算和推理场景，用于特斯拉Optimus机器人和Cybercab无人出租车；另一方面则生产高功率芯片，用于支持SpaceX太空数据中心运营。",
+  "published_at": "2026-10-11T13:39:41+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "80aadbc14054bc8364f2",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d.body",
+  "source_sha256": "6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d",
+  "fetched_at": "2026-10-12T01:02:01.720243+00:00"
+}

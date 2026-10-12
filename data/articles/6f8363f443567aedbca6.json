@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156597.htm",
+  "title": "老系统不服老！Win7实测对比Win11：游戏大幅领先",
+  "text": "快科技10月11日消息，Tom's Hardware近日在同一台游戏PC上实测了Windows 7和Windows 11的游戏性能，一共跑了10款游戏，结果Windows 7在CPU瓶颈场景中多次反超Win11，DX9游戏更是大幅领先。\n测试平台采用AMD锐龙7 9800X3D处理器、RX 6950 XT显卡、64GB DDR5 6000内存、希捷FireCuda 530 NVMe SSD、华硕ROG STRIX B850-F主板、海盗船Nautilus 360 RS水冷。\nAMD的RDNA 2架构显卡是少数仍有Win7驱动的现代GPU，这也是选RX 6950 XT的原因。\n两套系统使用完全相同的硬件，区别只在操作系统和驱动版本，Windows 7使用Ultimate 64位SP1（Build 7601），Windows 11使用25H2（Build 26200.9278），显卡驱动均为Adrenalin 22.6.1，但内部驱动代码库不同，Win11版本基于更新的代码。测试中还关闭了Win11的VBS和HVCI安全特性，排除干扰因素。\n但要让Windows 7跑在这套硬件上并不容易，主板需要支持CSM传统启动，关闭Secure Boot，启动模式设为Legacy OPROM Only，代价是失去Resizable BAR支持。\nDX11游戏的结果很有意思，核心规律是CPU瓶颈时Win7占优，GPU瓶颈时Win11占优。《地铁2033 回归》中Win11平均帧更高，但Win7的1% Low帧明显更强，因为老系统CPU开销更小，扛住了场景切换时的掉帧。\n《蝙蝠侠：阿卡姆起源》在1080p CPU瓶颈下Win7平均帧和1% Low双双领先，4K时Win7仍小幅领先；《巫师3》1080p轻微CPU瓶颈时Win7的1% Low占优，1440p和4K转为GPU瓶颈后Win11反超。\n《控制》《杀手：赦免》《杀手2》《蝙蝠侠：阿卡姆之城》在所有分辨率下都是GPU瓶颈，Win11凭借更新的驱动代码库全面领先。\nDX9游戏差距更大，Windows 11需要通过D3D9On12映射层运行DX9游戏，而Win7原生支持，《蝙蝠侠：阿卡姆疯人院》Win7在1080p和1440p的平均帧和1% Low大幅领先，4K时优势缩小但帧率仍更平滑。《无主之地2》结果类似。\nTom's Hardware指出，如果用DXVK等第三方翻译层，Win11的DX9性能差距有望缩小。\n总结下来，Win7的优势集中在两个场景，CPU瓶颈和DX9原生运行，Win11更先进的图形驱动在GPU瓶颈时更有利，后台进程则拖了CPU侧的后腿。即便装上最新芯片组驱动并开启Resizable BAR，Win11在CPU瓶颈场景下也追不上Win7。\n当然，Windows 7早已停止安全更新，日常使用面临大量未修复漏洞，这个测试更多是趣味性质的对比，而非推荐大家用Win7打游戏。但系统对游戏性能的影响是实打实的，值得追求极致帧数的玩家纳入调优范围。",
+  "published_at": "2026-10-11T21:54:22+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6f8363f443567aedbca6",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d.body",
+  "source_sha256": "6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d",
+  "fetched_at": "2026-10-12T01:02:01.720243+00:00"
+}

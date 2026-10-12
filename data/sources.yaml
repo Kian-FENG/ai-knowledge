@@ -1124,3 +1124,58 @@ sources:
   fetch: browser
   checked_at: "2026-10-09"
   note: 官方先进封装与FD-SOI路线公告已通过浏览工具核查；使用浏览核查。
+- id: cna-reuters
+  name: Reuters转述WSJ
+  url: https://www.channelnewsasia.com/business/amazon-in-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-6451486
+  kind: web
+  group: media
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-11'
+  note: 本次已用浏览工具读取；机器采集许可尚未核实，使用browser入口与有限来源摘录，不由HTTP采集器抓取。
+- id: odyssey
+  name: Meet Odyssey-3
+  url: https://odyssey.systems/meet-odyssey-3
+  kind: web
+  group: official
+  section: 2
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-11'
+  note: 本次已用浏览工具读取；机器采集许可尚未核实，使用browser入口与有限来源摘录，不由HTTP采集器抓取。
+- id: vals-ai
+  name: Vals AI
+  url: https://www.vals.ai/blogs/multi-agent-vibe-code-bench
+  kind: web
+  group: research
+  section: 4
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-11'
+  note: 本次已用浏览工具读取；机器采集许可尚未核实，使用browser入口与有限来源摘录，不由HTTP采集器抓取。
+- id: epoch-innovationeval
+  name: Epoch InnovationEval
+  url: https://epoch.ai/publications/innovationeval
+  kind: web
+  group: research
+  section: 4
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-11'
+  note: 本次已用浏览工具读取；机器采集许可尚未核实，使用browser入口与有限来源摘录，不由HTTP采集器抓取。
+- id: decart
+  name: Decart官网
+  url: https://decart.ai/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-11'
+  note: 本次已用浏览工具读取；机器采集许可尚未核实，使用browser入口与有限来源摘录，不由HTTP采集器抓取。

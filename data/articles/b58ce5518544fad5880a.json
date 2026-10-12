@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156542.htm",
+  "title": "马斯克称给信用卡拍照就能用Grok购物！OpenAI高管：我干脆把卡发网上得了",
+  "text": "快科技10月11日消息，今日，马斯克发文称：“买东西时，你只需拍一张信用卡照片发到聊天框，Grok机器人就会全网搜索你想要商品的最优价格并完成下单。”\n对此，OpenAI高管Tibo回复称：“那我干脆直接把卡放这得了。”\n同时，他发布了一张虚构的信用卡的照片，暗示该功能的安全风险。其中持卡人名字就是发帖人THIBAULT SOTTIAUX，“NOVA”只是这张道具卡的虚构卡面标识。\n此外，有网友表示，亚马逊开始阻止Grok访问。\n马斯克则回复称：“Grok会另想办法完成购物。我刚下单乐高，Grok直接从乐高官网完成了购买。”\n今年6月，SpaceX AI正式切入消费级人工智能赛道，其首站选定了即时零售领域，即时配送平台Gopuff与SpaceX AI联合正式推出智能购物助手“Go”。\n该助手基于Grok大模型构建，深度嵌入Gopuff App，Go助手将SpaceX AI的推理、语音和图像生成能力，与Gopuff的库存物流数据及X平台的实时文化信号深度融合。\n当用户打开App时，系统即根据时间段、地理位置、历史订单及实时指标，自动生成个性化建议购物车。对于回头客，仅需一键即可完成结账。\n用户无需输入关键词搜索特定商品，只需描述场景（如观看球赛的派对、健康早餐），Go便会自动组装好对应商品清单。\n此外，系统还能预测咖啡、纸巾等消耗品的余量，并在耗尽前主动提示补货，配合Grok语音技术，实现完全免提的自然语言交互与结账。",
+  "published_at": "2026-10-11T13:18:59+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b58ce5518544fad5880a",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d.body",
+  "source_sha256": "6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d",
+  "fetched_at": "2026-10-12T01:02:01.720243+00:00"
+}

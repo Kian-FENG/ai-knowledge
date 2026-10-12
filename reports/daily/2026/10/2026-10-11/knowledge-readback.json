@@ -1,0 +1,1257 @@
+[
+  {
+    "id": "source-gpt61-sol-context-20261011",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hash_checked": true,
+    "detail": {
+      "path": "reference/sources/gpt61-sol-context-20261011.md",
+      "metadata": {
+        "id": "source-gpt61-sol-context-20261011",
+        "title": "媒体：GPT-6.1 Sol默认上下文扩至500k，订阅扣量范围待原公告核验",
+        "type": "source",
+        "domain": [
+          "products"
+        ],
+        "lifecycle": "published",
+        "tags": [],
+        "created": "2026-10-12",
+        "updated": "2026-10-12",
+        "summary": "IT之家报道Codex/Work默认窗口由272k增至500k；最大窗口与默认设置、订阅额度与API价格须分开。",
+        "evidence_kind": "reported",
+        "verification": "source-checked",
+        "sources": [
+          "https://www.ithome.com/1/011/736.htm"
+        ],
+        "related": [],
+        "aliases": [],
+        "source": "https://www.ithome.com/1/011/736.htm",
+        "url": "https://www.ithome.com/1/011/736.htm",
+        "published_at": "2026-10-12T00:23:08+00:00",
+        "source_category": "news",
+        "date_precision": "timestamp",
+        "raw_path": "raw/2026-10-12/91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6.body",
+        "sha256": "91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6",
+        "fetched_at": "2026-10-12T01:01:54.626732+00:00",
+        "last_verified": "2026-10-11",
+        "verification_note": "Agent已阅读所列范围并核对支持关系；仅确认来源所述和归因，不等于独立验证、实测或账单审计。",
+        "reading_scope": "完整RSS text；浏览器主文上下文/手动设置/订阅扣量段与时间；原社交帖图片未能恢复、未阅读。",
+        "evidence": [
+          {
+            "source": "raw/2026-10-12/91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6.body",
+            "locator": "完整RSS text；浏览器主文上下文/手动设置/订阅扣量段与时间；原社交帖图片未能恢复、未阅读。",
+            "version": "sha256:91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6"
+          }
+        ],
+        "reviewed_by": "Codex",
+        "reviewed_at": "2026-10-12",
+        "reviewed_content_sha256": "84110cf38b8fddaa78b44ac47e96ec51dee6759df5e92b4575b0f07e5aa0f224"
+      },
+      "body": "# 媒体：GPT-6.1 Sol默认上下文扩至500k，订阅扣量范围待原公告核验\n\n## Key Takeaways\n\nIT之家归因于Thibault Sottiaux：Codex及Work的GPT-6.1 Sol默认上下文从272k增至500k，约80%；最大1M，允许手动调整。报道另称从订阅中扣使用量时不收长上下文费用。这不支持API价格取消长上下文档位，也未核实购买credits、地区和账户资格。\n\n## Detailed Notes\n\nRSS完整正文与网页主文、北京时间2026-10-12 08:23:08已读，对应洛杉矶10月11日17:23:08，属本窗口。相对已有Ultrafast/输入框预测知识，新增是默认会话工作集和订阅扣量政策的媒体披露。原社交公告未取得；没有账户或账单测试。来源核对仅确认媒体确实如此报道，不验证厂商交付。\n\n## Evidence\n\n来源URL、不可覆盖raw版本、hash、采集时间、定位及阅读范围见元数据。浏览材料为明确标注的有限事实摘录；IT之家保留原RSS响应。reported与source-checked独立，非measured/replicated。\n\n## Questions Raised\n\n原公告与正式文档、各套餐资格、credits计价、压缩频率、正确完成任务成本和长上下文质量。\n",
+      "status": "success",
+      "freshness": {
+        "status": "fresh",
+        "days": 1,
+        "threshold_days": 30
+      },
+      "specialized_by": [],
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.ithome.com/1/011/736.htm",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.ithome.com/1/011/736.htm"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "https://www.ithome.com/1/011/736.htm",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.ithome.com/1/011/736.htm"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.ithome.com/1/011/736.htm",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.ithome.com/1/011/736.htm"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6.body",
+          "locator": "完整RSS text；浏览器主文上下文/手动设置/订阅扣量段与时间；原社交帖图片未能恢复、未阅读。",
+          "version": "sha256:91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6.body",
+            "target": "raw/2026-10-12/91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6.body"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "source-amazon-decart-talks-20261011",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hash_checked": true,
+    "detail": {
+      "path": "reference/sources/amazon-decart-talks-20261011.md",
+      "metadata": {
+        "id": "source-amazon-decart-talks-20261011",
+        "title": "Reuters转述WSJ：Amazon洽谈约70亿美元收购Decart，未达成",
+        "type": "source",
+        "domain": [
+          "companies"
+        ],
+        "lifecycle": "published",
+        "tags": [],
+        "created": "2026-10-12",
+        "updated": "2026-10-12",
+        "summary": "报道谈判可能约USD7B；Reuters未独立核实，双方未回应，不能记为完成收购或融资。",
+        "evidence_kind": "reported",
+        "verification": "source-checked",
+        "sources": [
+          "https://www.channelnewsasia.com/business/amazon-in-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-6451486"
+        ],
+        "related": [],
+        "aliases": [],
+        "source": "https://www.channelnewsasia.com/business/amazon-in-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-6451486",
+        "url": "https://www.channelnewsasia.com/business/amazon-in-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-6451486",
+        "published_at": "2026-10-11",
+        "source_category": "news",
+        "date_precision": "date-only",
+        "raw_path": "raw/2026-10-12/308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165.txt",
+        "sha256": "308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165",
+        "fetched_at": "2026-10-12T01:11:28.642400+00:00",
+        "last_verified": "2026-10-11",
+        "verification_note": "Agent已阅读所列范围并核对支持关系；仅确认来源所述和归因，不等于独立验证、实测或账单审计。",
+        "reading_scope": "完整Reuters短文303–323；谈判、金额、无法验证、未回应及谈判风险段；未读WSJ全文。",
+        "evidence": [
+          {
+            "source": "raw/2026-10-12/308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165.txt",
+            "locator": "完整Reuters短文303–323；谈判、金额、无法验证、未回应及谈判风险段；未读WSJ全文。",
+            "version": "sha256:308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165"
+          }
+        ],
+        "reviewed_by": "Codex",
+        "reviewed_at": "2026-10-12",
+        "reviewed_content_sha256": "98f6c2d42cb588e7935d961c9f8aa7046b3e9c4476e8795179720a646483e10c"
+      },
+      "body": "# Reuters转述WSJ：Amazon洽谈约70亿美元收购Decart，未达成\n\n## Key Takeaways\n\nCNA所载Reuters于10月11日转述WSJ知情人士：Amazon正在洽谈收购Decart，潜在交易金额约USD7 billion。Reuters不能立即独立核实，双方未回应；谈判可能失败或出现其他买家。媒体互相转述同一WSJ消息，不构成独立多源确认。\n\n## Detailed Notes\n\nCNA正文只给Oct11，精确时刻未知，按日期精度保留边界不确定；Bloomberg RSS同一报道时间2026-10-11T20:46:52Z落本窗口，前一期未收录。USD7B是可能交易对价，非收入、ARR、融资额或确认估值。Decart官网产品归属另核对，不能将软件兼容声明写成收购动机已证实。\n\n## Evidence\n\n来源URL、不可覆盖raw版本、hash、采集时间、定位及阅读范围见元数据。浏览材料为明确标注的有限事实摘录；IT之家保留原RSS响应。reported与source-checked独立，非measured/replicated。\n\n## Questions Raised\n\n双方公告、交易签署与审批、人才/模型/IP归属、DOS跨芯片中立性、产品开放和客户续用。\n",
+      "status": "success",
+      "freshness": {
+        "status": "fresh",
+        "days": 1,
+        "threshold_days": 30
+      },
+      "specialized_by": [],
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.channelnewsasia.com/business/amazon-in-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-6451486",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.channelnewsasia.com/business/amazon-in-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-6451486"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "https://www.channelnewsasia.com/business/amazon-in-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-6451486",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.channelnewsasia.com/business/amazon-in-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-6451486"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.channelnewsasia.com/business/amazon-in-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-6451486",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.channelnewsasia.com/business/amazon-in-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-6451486"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165.txt",
+          "locator": "完整Reuters短文303–323；谈判、金额、无法验证、未回应及谈判风险段；未读WSJ全文。",
+          "version": "sha256:308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165.txt",
+            "target": "raw/2026-10-12/308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165.txt"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "source-odyssey3-preview-20261008",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hash_checked": true,
+    "detail": {
+      "path": "reference/sources/odyssey3-preview-20261008.md",
+      "metadata": {
+        "id": "source-odyssey3-preview-20261008",
+        "title": "Odyssey-3研究预览：交互生成与闭环控制证据分开",
+        "type": "source",
+        "domain": [
+          "models"
+        ],
+        "lifecycle": "published",
+        "tags": [],
+        "created": "2026-10-12",
+        "updated": "2026-10-12",
+        "summary": "10月8日官方研究预览；自回归扩散处理视觉与控制，评分预算和机器人适用性限制外推。",
+        "evidence_kind": "reported",
+        "verification": "source-checked",
+        "sources": [
+          "https://odyssey.systems/meet-odyssey-3"
+        ],
+        "related": [],
+        "aliases": [],
+        "source": "https://odyssey.systems/meet-odyssey-3",
+        "url": "https://odyssey.systems/meet-odyssey-3",
+        "published_at": "2026-10-08",
+        "source_category": "official",
+        "date_precision": "date-only",
+        "raw_path": "raw/2026-10-12/ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6.txt",
+        "sha256": "ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6",
+        "fetched_at": "2026-10-12T01:11:28.739274+00:00",
+        "last_verified": "2026-10-11",
+        "verification_note": "Agent已阅读所列范围并核对支持关系；仅确认来源所述和归因，不等于独立验证、实测或账单审计。",
+        "reading_scope": "主文日期、模型方法、训练/蒸馏、research preview、评分口径及Flexion段；未取原始实验数据、未复现。",
+        "evidence": [
+          {
+            "source": "raw/2026-10-12/ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6.txt",
+            "locator": "主文日期、模型方法、训练/蒸馏、research preview、评分口径及Flexion段；未取原始实验数据、未复现。",
+            "version": "sha256:ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6"
+          }
+        ],
+        "reviewed_by": "Codex",
+        "reviewed_at": "2026-10-12",
+        "reviewed_content_sha256": "1eabc0c41a26325e0d8771c694a0770f7f9866c24d9bdb7dfd58ee452839af6b"
+      },
+      "body": "# Odyssey-3研究预览：交互生成与闭环控制证据分开\n\n## Key Takeaways\n\nOdyssey-3以视觉观测和控制为条件生成后续观测，官方描述自回归扩散Transformer及视频、游戏输入、刚体模拟训练。后训练蒸馏以实现少步实时生成。Flash为公开研究预览，Pro及机器人API需联系；未确认开放权重或许可证。\n\n## Detailed Notes\n\n公告为2026-10-08，仅到日期；10月11日媒体再次介绍不构成本期首发。已读方法、评分说明与局限。66.1物理评分用best-of-8和一次选择，基础版本为四次平均；成本假设MI355X每GPU小时USD1且不含prompt rewriting，口径不一不排名。WorldMark为公司自评；Flexion合作演示不等价真实机器人控制部署证据。\n\n## Evidence\n\n来源URL、不可覆盖raw版本、hash、采集时间、定位及阅读范围见元数据。浏览材料为明确标注的有限事实摘录；IT之家保留原RSS响应。reported与source-checked独立，非measured/replicated。\n\n## Questions Raised\n\n可交互控制的误差累积、机器人策略适配、分发/许可、实际FPS和部署硬件、预览转正式可用。\n",
+      "status": "success",
+      "freshness": {
+        "status": "fresh",
+        "days": 1,
+        "threshold_days": 30
+      },
+      "specialized_by": [],
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://odyssey.systems/meet-odyssey-3",
+          "resolution": {
+            "status": "external",
+            "target": "https://odyssey.systems/meet-odyssey-3"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "https://odyssey.systems/meet-odyssey-3",
+          "resolution": {
+            "status": "external",
+            "target": "https://odyssey.systems/meet-odyssey-3"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://odyssey.systems/meet-odyssey-3",
+          "resolution": {
+            "status": "external",
+            "target": "https://odyssey.systems/meet-odyssey-3"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6.txt",
+          "locator": "主文日期、模型方法、训练/蒸馏、research preview、评分口径及Flexion段；未取原始实验数据、未复现。",
+          "version": "sha256:ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6.txt",
+            "target": "raw/2026-10-12/ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6.txt"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "source-vals-multi-agent-cost-20261009",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hash_checked": true,
+    "detail": {
+      "path": "reference/sources/vals-multi-agent-cost-20261009.md",
+      "metadata": {
+        "id": "source-vals-multi-agent-cost-20261009",
+        "title": "Vals评测：多Agent费用增加，收益取决于模型与预算",
+        "type": "source",
+        "domain": [
+          "models"
+        ],
+        "lifecycle": "published",
+        "tags": [],
+        "created": "2026-10-12",
+        "updated": "2026-10-12",
+        "summary": "50个UI测试应用、8种单/多Agent配置；费用1.8–5.1倍，单次运行和不同harness限制结论。",
+        "evidence_kind": "reported",
+        "verification": "source-checked",
+        "sources": [
+          "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
+        ],
+        "related": [],
+        "aliases": [],
+        "source": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench",
+        "url": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench",
+        "published_at": "2026-10-09",
+        "source_category": "blog",
+        "date_precision": "date-only",
+        "raw_path": "raw/2026-10-12/e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8.txt",
+        "sha256": "e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8",
+        "fetched_at": "2026-10-12T01:11:28.833761+00:00",
+        "last_verified": "2026-10-11",
+        "verification_note": "Agent已阅读所列范围并核对支持关系；仅确认来源所述和归因，不等于独立验证、实测或账单审计。",
+        "reading_scope": "完整主文、结果表、统计、delegation配置和长上下文费用局限；未执行代码或审计账单。",
+        "evidence": [
+          {
+            "source": "raw/2026-10-12/e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8.txt",
+            "locator": "完整主文、结果表、统计、delegation配置和长上下文费用局限；未执行代码或审计账单。",
+            "version": "sha256:e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8"
+          }
+        ],
+        "reviewed_by": "Codex",
+        "reviewed_at": "2026-10-12",
+        "reviewed_content_sha256": "58c730d64723006c4a34991b94f400ecd080a4ccb8c120170d19f66b7ed2023b"
+      },
+      "body": "# Vals评测：多Agent费用增加，收益取决于模型与预算\n\n## Key Takeaways\n\nVals AI在50个Docker Compose全栈应用上按浏览器UI流程测试通过比例评估GPT-6 Sol（OpenAI Agents API）和Claude Opus5.5（headless Claude Code CLI），medium/max、单Agent/团队共8配置，每配置只运行一次；最多5个并行子Agent。作者报告团队费用1.8–5.1倍，只有Sol medium的7.3个百分点改善达到统计显著性。\n\n## Detailed Notes\n\nSol medium单Agent77.6%/USD1.22/12.4分钟，团队84.9%/USD3.07/11.9分钟；95%CI2.3–12.4、p=.005。团队额外delegation提示、跨模型harness不同，不是单纯模型排名。Sol费用用基础层USD2/M输入、.2缓存、10输出，超过272k的逐请求长上下文费未重构，可能低估；子Agent重复读缓存会放大费用。单次运行不估计重复运行方差，UI通过率不涵盖生产安全。日期Oct9是背景，不列本期论文首发。\n\n## Evidence\n\n来源URL、不可覆盖raw版本、hash、采集时间、定位及阅读范围见元数据。浏览材料为明确标注的有限事实摘录；IT之家保留原RSS响应。reported与source-checked独立，非measured/replicated。\n\n## Questions Raised\n\n相同harness/提示与多次重复，按任务拆分团队收益、失败成本、并发上限、真实长上下文费用和安全测试。\n",
+      "status": "success",
+      "freshness": {
+        "status": "fresh",
+        "days": 1,
+        "threshold_days": 30
+      },
+      "specialized_by": [],
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8.txt",
+          "locator": "完整主文、结果表、统计、delegation配置和长上下文费用局限；未执行代码或审计账单。",
+          "version": "sha256:e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8.txt",
+            "target": "raw/2026-10-12/e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8.txt"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "source-epoch-innovationeval-20261007",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hash_checked": true,
+    "detail": {
+      "path": "reference/sources/epoch-innovationeval-20261007.md",
+      "metadata": {
+        "id": "source-epoch-innovationeval-20261007",
+        "title": "Epoch InnovationEval：遵守研究规则后的改进显著收缩",
+        "type": "source",
+        "domain": [
+          "models"
+        ],
+        "lifecycle": "published",
+        "tags": [],
+        "created": "2026-10-12",
+        "updated": "2026-10-12",
+        "summary": "有限自主后训练研究任务中，Sol宽松35%与严格15%的SDPO改进比例不能等价通用研究自动化率。",
+        "evidence_kind": "reported",
+        "verification": "source-checked",
+        "sources": [
+          "https://epoch.ai/publications/innovationeval"
+        ],
+        "related": [],
+        "aliases": [],
+        "source": "https://epoch.ai/publications/innovationeval",
+        "url": "https://epoch.ai/publications/innovationeval",
+        "published_at": "2026-10-07",
+        "source_category": "blog",
+        "date_precision": "date-only",
+        "raw_path": "raw/2026-10-12/2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de.txt",
+        "sha256": "2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de",
+        "fetched_at": "2026-10-12T01:11:28.930686+00:00",
+        "last_verified": "2026-10-11",
+        "verification_note": "Agent已阅读所列范围并核对支持关系；仅确认来源所述和归因，不等于独立验证、实测或账单审计。",
+        "reading_scope": "主文154–275的methodology、results、scoring；附录和原始GPU/实验日志未完整读。",
+        "evidence": [
+          {
+            "source": "raw/2026-10-12/2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de.txt",
+            "locator": "主文154–275的methodology、results、scoring；附录和原始GPU/实验日志未完整读。",
+            "version": "sha256:2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de"
+          }
+        ],
+        "reviewed_by": "Codex",
+        "reviewed_at": "2026-10-12",
+        "reviewed_content_sha256": "0aba7e090880ce243ce51702348c484f6d1bc74dc90a635e52308de5b94a8ab9"
+      },
+      "body": "# Epoch InnovationEval：遵守研究规则后的改进显著收缩\n\n## Key Takeaways\n\nEpoch任务要求在固定GRPO基础上创新后训练方法，与隐藏SDPO增益比较；Qwen3-8B关闭thinking、短答/编码任务，Inspect/ReAct工具和Modal GPU jobs，verl栈清除SDPO。可用上限3000 GPU小时、最多50GPU和10B推理tokens，不是实际消耗。\n\n## Detailed Notes\n\n主实验Fable5/GPT5.6 Sol与后续Fable5.1/GPT6 Astra的记忆问题分别处理。Sol宽松评分约取得SDPO增益35%，规则约束评分约15%；挑选seed的收益被剔除。这是有限研究任务、参考方法与运行的比值，不是通用自主研究比例。已读主文intro/method/results及scoring；未完整读附录、审计GPU日志或独立复现。发布日期Oct7，为背景资料。\n\n## Evidence\n\n来源URL、不可覆盖raw版本、hash、采集时间、定位及阅读范围见元数据。浏览材料为明确标注的有限事实摘录；IT之家保留原RSS响应。reported与source-checked独立，非measured/replicated。\n\n## Questions Raised\n\n更多任务与重复、训练污染、规则审计、有效新方法是否迁移、成功且合规的完整实验成本。\n",
+      "status": "success",
+      "freshness": {
+        "status": "fresh",
+        "days": 1,
+        "threshold_days": 30
+      },
+      "specialized_by": [],
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://epoch.ai/publications/innovationeval",
+          "resolution": {
+            "status": "external",
+            "target": "https://epoch.ai/publications/innovationeval"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "https://epoch.ai/publications/innovationeval",
+          "resolution": {
+            "status": "external",
+            "target": "https://epoch.ai/publications/innovationeval"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://epoch.ai/publications/innovationeval",
+          "resolution": {
+            "status": "external",
+            "target": "https://epoch.ai/publications/innovationeval"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de.txt",
+          "locator": "主文154–275的methodology、results、scoring；附录和原始GPU/实验日志未完整读。",
+          "version": "sha256:2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de.txt",
+            "target": "raw/2026-10-12/2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de.txt"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "source-decart-products-undated",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hash_checked": true,
+    "detail": {
+      "path": "reference/sources/decart-products-undated.md",
+      "metadata": {
+        "id": "source-decart-products-undated",
+        "title": "Decart官网产品归属：DOS、Lucy、Oasis与未知发布日期",
+        "type": "source",
+        "domain": [
+          "companies"
+        ],
+        "lifecycle": "published",
+        "tags": [],
+        "created": "2026-10-12",
+        "updated": "2026-10-12",
+        "summary": "官网核对品牌与三条产品线；未定日期与效率宣传不写为本期新品或独立性能事实。",
+        "evidence_kind": "reported",
+        "verification": "source-checked",
+        "sources": [
+          "https://decart.ai/"
+        ],
+        "related": [],
+        "aliases": [],
+        "source": "https://decart.ai/",
+        "url": "https://decart.ai/",
+        "published_at": null,
+        "source_category": "official",
+        "date_precision": "unknown",
+        "raw_path": "raw/2026-10-12/40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae.txt",
+        "sha256": "40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae",
+        "fetched_at": "2026-10-12T01:11:29.026503+00:00",
+        "last_verified": "2026-10-11",
+        "verification_note": "Agent已阅读所列范围并核对支持关系；仅确认来源所述和归因，不等于独立验证、实测或账单审计。",
+        "reading_scope": "首页DOS/产品段、https://decart.ai/about主文；日期未知，浏览限定事实摘录。",
+        "evidence": [
+          {
+            "source": "raw/2026-10-12/40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae.txt",
+            "locator": "首页DOS/产品段、https://decart.ai/about主文；日期未知，浏览限定事实摘录。",
+            "version": "sha256:40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae"
+          }
+        ],
+        "reviewed_by": "Codex",
+        "reviewed_at": "2026-10-12",
+        "reviewed_content_sha256": "5f9ef8318c91269f9c0381ab685f82fd92f34c89733dacb87f9a61012368f8e5"
+      },
+      "body": "# Decart官网产品归属：DOS、Lucy、Oasis与未知发布日期\n\n## Key Takeaways\n\nDecart官网列DOS优化栈、Lucy实时视频编辑、Oasis交互世界模型，About解释DOS为性能层、Lucy和Oasis为模型。厂商称DOS跨NVIDIA、AWS Trainium、Google TPU；本页只记录公司主张与产品归属，不确认互操作性或性能。\n\n## Detailed Notes\n\n首页展示Lucy2.5、Oasis3；当前页无发布时间，不作为10月11日版本发布。未采纳100倍效率等缺实验条件的营销口径。About融资时间线未能明确匹配精确日期，不补新融资。法定主体、注册地区、营收、客户效果未独立核实。官网没有取得收购确认，不推断公告不存在。\n\n## Evidence\n\n来源URL、不可覆盖raw版本、hash、采集时间、定位及阅读范围见元数据。浏览材料为明确标注的有限事实摘录；IT之家保留原RSS响应。reported与source-checked独立，非measured/replicated。\n\n## Questions Raised\n\n模型卡、许可证、部署硬件/精度/并发/输入输出、实付任务成本、正式版本日期与客户采用。\n",
+      "status": "success",
+      "freshness": {
+        "status": "fresh",
+        "days": 1,
+        "threshold_days": 30
+      },
+      "specialized_by": [],
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://decart.ai/",
+          "resolution": {
+            "status": "external",
+            "target": "https://decart.ai/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "https://decart.ai/",
+          "resolution": {
+            "status": "external",
+            "target": "https://decart.ai/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://decart.ai/",
+          "resolution": {
+            "status": "external",
+            "target": "https://decart.ai/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae.txt",
+          "locator": "首页DOS/产品段、https://decart.ai/about主文；日期未知，浏览限定事实摘录。",
+          "version": "sha256:40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae.txt",
+            "target": "raw/2026-10-12/40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae.txt"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "entity-decart",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hash_checked": true,
+    "detail": {
+      "path": "reference/entities/decart.md",
+      "metadata": {
+        "id": "entity-decart",
+        "title": "Decart：优化栈DOS与实时世界模型",
+        "type": "entity",
+        "domain": [
+          "companies"
+        ],
+        "lifecycle": "published",
+        "tags": [],
+        "created": "2026-10-12",
+        "updated": "2026-10-12",
+        "summary": "官网品牌与About产品归属已核对；法定注册、地区和创始人信息未独立验证。 DOS为优化栈，Lucy视频编辑、Oasis交互世界模型；兼容与实际生产效果仍为公司主张。",
+        "evidence_kind": "reported",
+        "verification": "source-checked",
+        "sources": [
+          "source-decart-products-undated",
+          "source-amazon-decart-talks-20261011"
+        ],
+        "related": [
+          "source-decart-products-undated",
+          "source-amazon-decart-talks-20261011"
+        ],
+        "aliases": [
+          "DOS",
+          "Lucy",
+          "Oasis"
+        ],
+        "entity_kind": "company",
+        "last_verified": "2026-10-11",
+        "verification_note": "已阅读官网核对品牌与产品归属；非独立工商或部署核验，媒体谈判保留未确认状态。",
+        "evidence": [
+          {
+            "source": "raw/2026-10-12/40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae.txt",
+            "locator": "首页DOS/产品段、https://decart.ai/about主文；日期未知，浏览限定事实摘录。",
+            "version": "sha256:40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae"
+          },
+          {
+            "source": "raw/2026-10-12/308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165.txt",
+            "locator": "完整Reuters短文303–323；谈判、金额、无法验证、未回应及谈判风险段；未读WSJ全文。",
+            "version": "sha256:308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165"
+          }
+        ],
+        "reviewed_by": "Codex",
+        "reviewed_at": "2026-10-12",
+        "reviewed_content_sha256": "a66fb7cdcc49e131f3eb1d49d10168d6e4d958eece38846919335ad70108e034"
+      },
+      "body": "# Decart：优化栈DOS与实时世界模型\n\n## Identity and Scope\n\n官网品牌与About产品归属已核对；法定注册、地区和创始人信息未独立验证。\n\n## Products and Capabilities\n\nDOS为优化栈，Lucy视频编辑、Oasis交互世界模型；兼容与实际生产效果仍为公司主张。\n\n## Development Timeline\n\n2026-10-11新纳入跟踪的是既有公司；同日媒体称Amazon洽谈潜在约USD7B收购，未获双方确认，不登记完成交易。\n\n## Evidence\n\n[[reference/sources/decart-products-undated|source-decart-products-undated]]\n\n[[reference/sources/amazon-decart-talks-20261011|source-amazon-decart-talks-20261011]]\n\n## Open Questions\n\n价格、许可证、准确事件日期、实际采用与任务级收益；谈判/IP与人才归属须正式披露后更新。\n",
+      "status": "success",
+      "freshness": {
+        "status": "fresh",
+        "days": 1,
+        "threshold_days": 14
+      },
+      "specialized_by": [],
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-decart-products-undated",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/decart-products-undated.md",
+            "target": "source-decart-products-undated"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-amazon-decart-talks-20261011",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/amazon-decart-talks-20261011.md",
+            "target": "source-amazon-decart-talks-20261011"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-decart-products-undated",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/decart-products-undated.md",
+            "target": "source-decart-products-undated"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-amazon-decart-talks-20261011",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/amazon-decart-talks-20261011.md",
+            "target": "source-amazon-decart-talks-20261011"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae.txt",
+          "locator": "首页DOS/产品段、https://decart.ai/about主文；日期未知，浏览限定事实摘录。",
+          "version": "sha256:40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae.txt",
+            "target": "raw/2026-10-12/40af6fc8177c7cf5414638d0719aebaa50aca572d512130e1331ea78e21b8bae.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165.txt",
+          "locator": "完整Reuters短文303–323；谈判、金额、无法验证、未回应及谈判风险段；未读WSJ全文。",
+          "version": "sha256:308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165.txt",
+            "target": "raw/2026-10-12/308fe065151cfa95143cc429f8cd4269104d3a4d025adf7e18dae498870cc165.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/decart-products-undated",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/decart-products-undated.md",
+            "target": "reference/sources/decart-products-undated"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/amazon-decart-talks-20261011",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/amazon-decart-talks-20261011.md",
+            "target": "reference/sources/amazon-decart-talks-20261011"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "entity-odyssey",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hash_checked": true,
+    "detail": {
+      "path": "reference/entities/odyssey.md",
+      "metadata": {
+        "id": "entity-odyssey",
+        "title": "Odyssey：交互世界模型与Odyssey-3研究预览",
+        "type": "entity",
+        "domain": [
+          "companies"
+        ],
+        "lifecycle": "published",
+        "tags": [],
+        "created": "2026-10-12",
+        "updated": "2026-10-12",
+        "summary": "官网odyssey.systems，官方文章署Oliver Cameron与Jeff Hawke；品牌、模型归属已核对，法定注册与地区未验证。 Odyssey-3 Flash公开研究预览，Pro及机器人API需联系。自回归视觉/控制生成不等价已验证物理闭环控制。",
+        "evidence_kind": "reported",
+        "verification": "source-checked",
+        "sources": [
+          "source-odyssey3-preview-20261008"
+        ],
+        "related": [
+          "source-odyssey3-preview-20261008"
+        ],
+        "aliases": [
+          "Odyssey-3"
+        ],
+        "entity_kind": "company",
+        "last_verified": "2026-10-11",
+        "verification_note": "已阅读官网核对品牌与产品归属；非独立工商或部署核验，媒体谈判保留未确认状态。",
+        "evidence": [
+          {
+            "source": "raw/2026-10-12/ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6.txt",
+            "locator": "主文日期、模型方法、训练/蒸馏、research preview、评分口径及Flexion段；未取原始实验数据、未复现。",
+            "version": "sha256:ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6"
+          }
+        ],
+        "reviewed_by": "Codex",
+        "reviewed_at": "2026-10-12",
+        "reviewed_content_sha256": "4a221d2346e20c1deeaa60030b2b99b30011786ba2b1542309721315ba85c3bc"
+      },
+      "body": "# Odyssey：交互世界模型与Odyssey-3研究预览\n\n## Identity and Scope\n\n官网odyssey.systems，官方文章署Oliver Cameron与Jeff Hawke；品牌、模型归属已核对，法定注册与地区未验证。\n\n## Products and Capabilities\n\nOdyssey-3 Flash公开研究预览，Pro及机器人API需联系。自回归视觉/控制生成不等价已验证物理闭环控制。\n\n## Development Timeline\n\n2026-10-08官方预览公告；2026-10-11新纳入跟踪，不是当日成立、融资或首发。\n\n## Evidence\n\n[[reference/sources/odyssey3-preview-20261008|source-odyssey3-preview-20261008]]\n\n## Open Questions\n\n价格、许可证、准确事件日期、实际采用与任务级收益；谈判/IP与人才归属须正式披露后更新。\n",
+      "status": "success",
+      "freshness": {
+        "status": "fresh",
+        "days": 1,
+        "threshold_days": 14
+      },
+      "specialized_by": [],
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-odyssey3-preview-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/odyssey3-preview-20261008.md",
+            "target": "source-odyssey3-preview-20261008"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-odyssey3-preview-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/odyssey3-preview-20261008.md",
+            "target": "source-odyssey3-preview-20261008"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6.txt",
+          "locator": "主文日期、模型方法、训练/蒸馏、research preview、评分口径及Flexion段；未取原始实验数据、未复现。",
+          "version": "sha256:ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6.txt",
+            "target": "raw/2026-10-12/ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/odyssey3-preview-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/odyssey3-preview-20261008.md",
+            "target": "reference/sources/odyssey3-preview-20261008"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "note-persistent-agents-session-budget-20261008",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hash_checked": true,
+    "detail": {
+      "path": "research/synthesis/persistent-agents-session-budget-20261008.md",
+      "metadata": {
+        "id": "note-persistent-agents-session-budget-20261008",
+        "title": "持续Agent的竞争开始连接身份、会话缓存与任务预算",
+        "type": "note",
+        "domain": [
+          "products",
+          "infra"
+        ],
+        "lifecycle": "published",
+        "tags": [
+          "agent-economics",
+          "session-cache"
+        ],
+        "created": "2026-10-09",
+        "updated": "2026-10-11",
+        "summary": "持续Agent的任务成本由模型、缓存与运行时共同决定；Asana案例新增策略拆分证据，Anthropic内部联网整改提示权限治理同样属于任务生命周期。 新增默认上下文、团队重复输入与规则审计证据，预算效率须按正确且合规完成任务评估。",
+        "evidence_kind": "derived",
+        "verification": "source-checked",
+        "sources": [
+          "source-google-gemini-work-agent-20261008",
+          "source-legalon-codex-budget-routing-20261008",
+          "source-openai-sol-ultrafast-20261008",
+          "source-dynamo-session-aware-20261008",
+          "source-openai-asana-cache-economics-20261009",
+          "source-anthropic-unintended-actions-20261009",
+          "source-gpt61-sol-context-20261011",
+          "source-vals-multi-agent-cost-20261009",
+          "source-epoch-innovationeval-20261007"
+        ],
+        "related": [
+          "note-interactive-agents-cost-and-local-supply-20261007",
+          "source-vllm-v0310-20261005"
+        ],
+        "aliases": [],
+        "last_verified": "2026-10-11",
+        "verification_note": "保留既有证据；新增阅读IT之家媒体主文、Vals完整评测和Epoch主文/评分后核对有限前提。derived综合，未实测账户、账单或实验。",
+        "evidence": [
+          {
+            "source": "raw/2026-10-09/c0d72d079cd9df7fe0d29b387182dadcc1e6103dd106a7f5c5fd99d9866cadca.body",
+            "locator": "官网完整正文；Gemini agent、multi-agent、security、cost controls、industry specialization段；未实测账户、计费或行业预览。",
+            "version": "sha256:c0d72d079cd9df7fe0d29b387182dadcc1e6103dd106a7f5c5fd99d9866cadca"
+          },
+          {
+            "source": "raw/2026-10-09/90a849ebe580482e21886d290c6bb01610af03d507a5f62f8369c5690e9ca772.txt",
+            "locator": "OpenAI案例正文模型选择、预算治理、estimated daily costs和ROI建设段；HTTP403，使用浏览工具已读段落摘录；未访问客户账单。",
+            "version": "sha256:90a849ebe580482e21886d290c6bb01610af03d507a5f62f8369c5690e9ca772"
+          },
+          {
+            "source": "raw/2026-10-09/752145521d5c5936b92fd7c658d7fb35fb4489322ccde4dd11cb630aadf0bc31.body",
+            "locator": "HTTP Changelog Oct8小节及官方pricing Standard/Ultrafast表；另已读Ultrafast指南Availability/连接开销。浏览搜索缓存的Changelog未显示该项，采用实际HTTP版本并记录差异；未调用API。",
+            "version": "sha256:752145521d5c5936b92fd7c658d7fb35fb4489322ccde4dd11cb630aadf0bc31"
+          },
+          {
+            "source": "raw/2026-10-09/3e0dd4787e839b18b62f3ac334e87ef8c68eebc430d3ff45b9ff51a71d26d730.body",
+            "locator": "技术文章完整正文；session headers、program-aware scheduling、experimental shared-pool和proposed KvHint段；未逐项读PR、运行harness或独立复现。",
+            "version": "sha256:3e0dd4787e839b18b62f3ac334e87ef8c68eebc430d3ff45b9ff51a71d26d730"
+          },
+          {
+            "source": "raw/2026-10-10/63f6c259189519ff6c3c55a01e44624c7f3c5d69e906f5016f32d1a697a61d81.txt",
+            "locator": "浏览已读完整主文；144-run、cache policy、cost/time与生产推广段。HTTP403，归档为浏览阅读后的限定事实摘录；图表只读标注，未取底层数据或实测。",
+            "version": "sha256:63f6c259189519ff6c3c55a01e44624c7f3c5d69e906f5016f32d1a697a61d81"
+          },
+          {
+            "source": "raw/2026-10-10/1fd900a82f56e73f47c0e1bc540754f05752cf535074ab8ef3dcd44466e82ad8.body",
+            "locator": "已读完整研究正文的incident categories、context、mitigations和preliminary assessment；不复述利用细节；未读内部原始日志或独立验证。",
+            "version": "sha256:1fd900a82f56e73f47c0e1bc540754f05752cf535074ab8ef3dcd44466e82ad8"
+          },
+          {
+            "source": "raw/2026-10-12/91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6.body",
+            "locator": "完整RSS text；浏览器主文上下文/手动设置/订阅扣量段与时间；原社交帖图片未能恢复、未阅读。",
+            "version": "sha256:91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6"
+          },
+          {
+            "source": "raw/2026-10-12/e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8.txt",
+            "locator": "完整主文、结果表、统计、delegation配置和长上下文费用局限；未执行代码或审计账单。",
+            "version": "sha256:e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8"
+          },
+          {
+            "source": "raw/2026-10-12/2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de.txt",
+            "locator": "主文154–275的methodology、results、scoring；附录和原始GPU/实验日志未完整读。",
+            "version": "sha256:2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de"
+          }
+        ],
+        "reviewed_by": "Codex",
+        "reviewed_at": "2026-10-12",
+        "reviewed_content_sha256": "c583e486e82333266d3e582a8c2e5919be1e794a5a0b32e32741e3021114369c"
+      },
+      "body": "# 持续Agent的竞争开始连接身份、会话缓存与任务预算\n\n## What Is New\n\n2026-10-08披露把持久运行的身份、预算暂停与会话缓存联系起来。相对10月7日交互UI、缓存计价和本地供给研究，增量是任务从产品到服务端的生命周期治理。\n\n[[reference/sources/google-gemini-work-agent-20261008|Google 发布 Gemini 工作 Agent：云端持续执行、任务身份与项目预算结合]]\n\n[[reference/sources/legalon-codex-budget-routing-20261008|LegalOn 案例把模型分工与预算管理同时纳入编码 Agent 采用]]\n\n[[reference/sources/openai-sol-ultrafast-20261008|GPT-6.1 Sol 新增 Ultrafast：以更高单价购买低延迟服务]]\n\n[[reference/sources/dynamo-session-aware-20261008|Dynamo 按 Agent 会话管理缓存和准入，部分接口仍是提案]]\n\n## Synthesis\n\n判断（derived）：单任务成本同时受模型/服务档位选择、失败重试、跨轮缓存淘汰和沙箱运行时长影响。Google项目预算暂停与Dynamo工具边界背压都尝试限制持续执行的资源外溢，但面向不同控制层，不能视作等价机制。LegalOn案例表明组织分工也重要，仍缺独立账单和因果评估。\n\n高价值实时任务可能购买Ultrafast；长期后台任务更可能优化工作集存活与低价模型分工。对基础设施和编排平台的价值，应以完整任务成功率和账单评估；报价降低或快档加速不必然带来总体节省。\n\n## Evidence\n\n所引公司/维护者披露为reported；本页机制解释为derived。source-checked仅核对判断的有限前提，未证明收益。Dynamo共享池是实验性，KvHint仍是提案；Google行业版本为预览。\n\n## Watchpoints\n\n观察成功任务成本、模型升级/重试率、缓存重复prefill、尾时延、预算暂停恢复和权限审计。反例是工具与人工等待主导、低缓存复用、路由误判导致返工，或暂停损害交付；这些会削弱预期收益。\n\n## 2026-10-09 Update\n\nAsana补充同模型缓存策略与换模型的拆分：原Model B至少36.21美元、优化1.24美元、再换Sol0.47美元，76倍不能归于模型单因素。单任务三次重复限制外推。\n\n[[reference/sources/openai-asana-cache-economics-20261009|Asana任务级缓存证据]]\n\nAnthropic内部联网整改把权限、监测与沙箱加入生命周期治理；暂停/监测控制与Dynamo资源准入作用层不同，不能认为缓存优化自动解决越界。\n\n[[reference/sources/anthropic-unintended-actions-20261009|内部评估联网边界与整改披露]]\n\n判断（derived）：长期Agent平台需要同时衡量正确完成任务成本和允许范围内的完成率。缓存越好也可能延长错误路径的持续运行，必须观察重试、权限拒绝、人工接管与实际账单。\n\n## 2026-10-11 Update\n\n媒体报道默认上下文扩大，属于工作集政策；Vals（10月9日）评测显示团队可能重复读缓存并增加费用，Epoch（10月7日）研究显示规则约束改变有效改进估计。三者使用不同任务/预算/harness，不能合并排名。\n\n[[reference/sources/gpt61-sol-context-20261011|500k默认窗口的媒体报道与订阅/API边界]]\n\n[[reference/sources/vals-multi-agent-cost-20261009|多Agent的成本与单次运行限制]]\n\n[[reference/sources/epoch-innovationeval-20261007|自主研究规则与有限任务的改进口径]]\n\n判断（derived）：更大工作集可减少压缩，团队可并行，但缓存重复输入、协调和无效实验会抵消收益。编排/缓存/预算服务可能受益；有效拆分也可能让团队在复杂任务获益，不能推断一律禁用多Agent。比较指标应包含正确完成率、合规率、总费用、人工复核和尾延迟；订阅扣量政策不能替代API任务账单测量。\n",
+      "status": "success",
+      "freshness": {
+        "status": "fresh",
+        "days": 1,
+        "threshold_days": 30
+      },
+      "specialized_by": [],
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-google-gemini-work-agent-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/google-gemini-work-agent-20261008.md",
+            "target": "source-google-gemini-work-agent-20261008"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-legalon-codex-budget-routing-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/legalon-codex-budget-routing-20261008.md",
+            "target": "source-legalon-codex-budget-routing-20261008"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-openai-sol-ultrafast-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/openai-sol-ultrafast-20261008.md",
+            "target": "source-openai-sol-ultrafast-20261008"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-dynamo-session-aware-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/dynamo-session-aware-20261008.md",
+            "target": "source-dynamo-session-aware-20261008"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-openai-asana-cache-economics-20261009",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/openai-asana-cache-economics-20261009.md",
+            "target": "source-openai-asana-cache-economics-20261009"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-anthropic-unintended-actions-20261009",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/anthropic-unintended-actions-20261009.md",
+            "target": "source-anthropic-unintended-actions-20261009"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-gpt61-sol-context-20261011",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/gpt61-sol-context-20261011.md",
+            "target": "source-gpt61-sol-context-20261011"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-vals-multi-agent-cost-20261009",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/vals-multi-agent-cost-20261009.md",
+            "target": "source-vals-multi-agent-cost-20261009"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-epoch-innovationeval-20261007",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/epoch-innovationeval-20261007.md",
+            "target": "source-epoch-innovationeval-20261007"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "note-interactive-agents-cost-and-local-supply-20261007",
+          "resolution": {
+            "status": "resolved",
+            "path": "research/synthesis/interactive-agents-cost-and-local-supply-20261007.md",
+            "target": "note-interactive-agents-cost-and-local-supply-20261007"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-vllm-v0310-20261005",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/vllm-v0310-20261005.md",
+            "target": "source-vllm-v0310-20261005"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-09/c0d72d079cd9df7fe0d29b387182dadcc1e6103dd106a7f5c5fd99d9866cadca.body",
+          "locator": "官网完整正文；Gemini agent、multi-agent、security、cost controls、industry specialization段；未实测账户、计费或行业预览。",
+          "version": "sha256:c0d72d079cd9df7fe0d29b387182dadcc1e6103dd106a7f5c5fd99d9866cadca",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-09/c0d72d079cd9df7fe0d29b387182dadcc1e6103dd106a7f5c5fd99d9866cadca.body",
+            "target": "raw/2026-10-09/c0d72d079cd9df7fe0d29b387182dadcc1e6103dd106a7f5c5fd99d9866cadca.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-09/90a849ebe580482e21886d290c6bb01610af03d507a5f62f8369c5690e9ca772.txt",
+          "locator": "OpenAI案例正文模型选择、预算治理、estimated daily costs和ROI建设段；HTTP403，使用浏览工具已读段落摘录；未访问客户账单。",
+          "version": "sha256:90a849ebe580482e21886d290c6bb01610af03d507a5f62f8369c5690e9ca772",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-09/90a849ebe580482e21886d290c6bb01610af03d507a5f62f8369c5690e9ca772.txt",
+            "target": "raw/2026-10-09/90a849ebe580482e21886d290c6bb01610af03d507a5f62f8369c5690e9ca772.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-09/752145521d5c5936b92fd7c658d7fb35fb4489322ccde4dd11cb630aadf0bc31.body",
+          "locator": "HTTP Changelog Oct8小节及官方pricing Standard/Ultrafast表；另已读Ultrafast指南Availability/连接开销。浏览搜索缓存的Changelog未显示该项，采用实际HTTP版本并记录差异；未调用API。",
+          "version": "sha256:752145521d5c5936b92fd7c658d7fb35fb4489322ccde4dd11cb630aadf0bc31",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-09/752145521d5c5936b92fd7c658d7fb35fb4489322ccde4dd11cb630aadf0bc31.body",
+            "target": "raw/2026-10-09/752145521d5c5936b92fd7c658d7fb35fb4489322ccde4dd11cb630aadf0bc31.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-09/3e0dd4787e839b18b62f3ac334e87ef8c68eebc430d3ff45b9ff51a71d26d730.body",
+          "locator": "技术文章完整正文；session headers、program-aware scheduling、experimental shared-pool和proposed KvHint段；未逐项读PR、运行harness或独立复现。",
+          "version": "sha256:3e0dd4787e839b18b62f3ac334e87ef8c68eebc430d3ff45b9ff51a71d26d730",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-09/3e0dd4787e839b18b62f3ac334e87ef8c68eebc430d3ff45b9ff51a71d26d730.body",
+            "target": "raw/2026-10-09/3e0dd4787e839b18b62f3ac334e87ef8c68eebc430d3ff45b9ff51a71d26d730.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-10/63f6c259189519ff6c3c55a01e44624c7f3c5d69e906f5016f32d1a697a61d81.txt",
+          "locator": "浏览已读完整主文；144-run、cache policy、cost/time与生产推广段。HTTP403，归档为浏览阅读后的限定事实摘录；图表只读标注，未取底层数据或实测。",
+          "version": "sha256:63f6c259189519ff6c3c55a01e44624c7f3c5d69e906f5016f32d1a697a61d81",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-10/63f6c259189519ff6c3c55a01e44624c7f3c5d69e906f5016f32d1a697a61d81.txt",
+            "target": "raw/2026-10-10/63f6c259189519ff6c3c55a01e44624c7f3c5d69e906f5016f32d1a697a61d81.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-10/1fd900a82f56e73f47c0e1bc540754f05752cf535074ab8ef3dcd44466e82ad8.body",
+          "locator": "已读完整研究正文的incident categories、context、mitigations和preliminary assessment；不复述利用细节；未读内部原始日志或独立验证。",
+          "version": "sha256:1fd900a82f56e73f47c0e1bc540754f05752cf535074ab8ef3dcd44466e82ad8",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-10/1fd900a82f56e73f47c0e1bc540754f05752cf535074ab8ef3dcd44466e82ad8.body",
+            "target": "raw/2026-10-10/1fd900a82f56e73f47c0e1bc540754f05752cf535074ab8ef3dcd44466e82ad8.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6.body",
+          "locator": "完整RSS text；浏览器主文上下文/手动设置/订阅扣量段与时间；原社交帖图片未能恢复、未阅读。",
+          "version": "sha256:91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6.body",
+            "target": "raw/2026-10-12/91214c0b11a56f1f01a865afb50cd7a49182bd019c8a6f5cc38f6974fc978df6.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8.txt",
+          "locator": "完整主文、结果表、统计、delegation配置和长上下文费用局限；未执行代码或审计账单。",
+          "version": "sha256:e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8.txt",
+            "target": "raw/2026-10-12/e63ba469558791dda095de8e9f3309bb315855dd0f6d266e5fe761ee2a8669e8.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-12/2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de.txt",
+          "locator": "主文154–275的methodology、results、scoring；附录和原始GPU/实验日志未完整读。",
+          "version": "sha256:2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-12/2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de.txt",
+            "target": "raw/2026-10-12/2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de.txt"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "body",
+          "target": "reference/sources/google-gemini-work-agent-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/google-gemini-work-agent-20261008.md",
+            "target": "reference/sources/google-gemini-work-agent-20261008"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "body",
+          "target": "reference/sources/legalon-codex-budget-routing-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/legalon-codex-budget-routing-20261008.md",
+            "target": "reference/sources/legalon-codex-budget-routing-20261008"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "body",
+          "target": "reference/sources/openai-sol-ultrafast-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/openai-sol-ultrafast-20261008.md",
+            "target": "reference/sources/openai-sol-ultrafast-20261008"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "body",
+          "target": "reference/sources/dynamo-session-aware-20261008",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/dynamo-session-aware-20261008.md",
+            "target": "reference/sources/dynamo-session-aware-20261008"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "body",
+          "target": "reference/sources/openai-asana-cache-economics-20261009",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/openai-asana-cache-economics-20261009.md",
+            "target": "reference/sources/openai-asana-cache-economics-20261009"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "body",
+          "target": "reference/sources/anthropic-unintended-actions-20261009",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/anthropic-unintended-actions-20261009.md",
+            "target": "reference/sources/anthropic-unintended-actions-20261009"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "body",
+          "target": "reference/sources/gpt61-sol-context-20261011",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/gpt61-sol-context-20261011.md",
+            "target": "reference/sources/gpt61-sol-context-20261011"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "body",
+          "target": "reference/sources/vals-multi-agent-cost-20261009",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/vals-multi-agent-cost-20261009.md",
+            "target": "reference/sources/vals-multi-agent-cost-20261009"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "body",
+          "target": "reference/sources/epoch-innovationeval-20261007",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/epoch-innovationeval-20261007.md",
+            "target": "reference/sources/epoch-innovationeval-20261007"
+          }
+        }
+      ]
+    }
+  }
+]

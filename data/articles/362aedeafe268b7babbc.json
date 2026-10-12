@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156544.htm",
+  "title": "2K游戏新主力！微星RTX 5060 Ti 8G GAMING TRIO OC显卡图赏",
+  "text": "快科技10月11日消息，微星推出全新RTX 5060 Ti 8G GAMING TRIO OC魔龙显卡。基于 NVIDIA Blackwell 架构打造，面向2K游戏玩家和短视频创作者，自带出厂超频，兼顾性能、散热和颜值。\n现在这款新品已经来到我们评测室，下面为大家带来图赏。\n外观延续魔龙家族设计，硬朗线条，外壳带有磨砂盖板和龙图腾ARGB灯效，灯光可以在MSI Center软件里面自定义颜色、灯效模式。显卡尺寸300 x 125×44mm，装机前需要确认机箱长度是否足够。\n这款显卡核心Boost频率2647MHz，开启MSI Center极致性能模式最高可达2662MHz。\n搭载8GB GDDR7显存，显存速率28Gbps，128bit位宽，CUDA核心数量4608个。\n显卡功耗控制在180W，官方建议搭配600W电源，采用新一代16pin供电接口，推荐ATX3.1规格电源。\n散热方面用的是TRI FROZR 4代散热系统，3颗STORMFORCE七叶风扇，扇叶做了爪型纹理设计，风量更大，噪音更低。\n内部搭配镀镍铜底、方形热管，快速带走GPU和显存热量。金属背板加固显卡，背板带有通风开孔，还贴有导热垫辅助散热，长时间高负载游戏，温度也不会太高。\n接口配备3个DP2.1b和1个HDMI2.1b，最多支持4台显示器同时输出。最高支持8K/120Hz 输出，4K分辨率下最高能跑到480Hz，支持G-SYNC、HDR，高刷显示器玩家可以直接拉满刷新率。\n它原生支持DLSS4，新架构的光追单元性能升级，玩3A大作，开启光追 DLSS4之后，2K分辨率下能稳定高帧率运行。\n不光打游戏，剪视频、做3D建模这类创作任务，CUDA加速也能明显缩短渲染等待时间。",
+  "published_at": "2026-10-11T13:22:34+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "362aedeafe268b7babbc",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d.body",
+  "source_sha256": "6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d",
+  "fetched_at": "2026-10-12T01:02:01.720243+00:00"
+}

@@ -4,10 +4,12 @@ Generated; published pages only. Do not hand-edit.
 
 ## company
 
+- `entity` [[reference/entities/decart|Decart：优化栈DOS与实时世界模型]]
 - `entity` [[reference/entities/halluminate|Halluminate：知识工作评测与强化学习环境公司]]
 - `entity` [[reference/entities/healthleap|Healthleap：住院风险识别与临床团队工作流]]
 - `entity` [[reference/entities/namespace|Namespace：编码 Agent 的开发与构建基础设施]]
 - `entity` [[reference/entities/nous-research|Nous Research：Hermes Agent与开放模型研究]]
+- `entity` [[reference/entities/odyssey|Odyssey：交互世界模型与Odyssey-3研究预览]]
 - `entity` [[reference/entities/peppermint|Peppermint：AI 与人工结合的临床试验账单平台]]
 - `entity` [[reference/entities/reflection|Reflection：Beam 模型的开发者]]
 - `entity` [[reference/entities/stacklok|Stacklok：MCP 治理与云原生 Agent 执行平台]]

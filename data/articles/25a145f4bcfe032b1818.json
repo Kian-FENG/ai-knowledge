@@ -1,0 +1,19 @@
+{
+  "title": "Epoch InnovationEval：规则约束改变自主研究改进估计",
+  "url": "https://epoch.ai/publications/innovationeval",
+  "text": "浏览阅读后的限定事实摘录，非HTTP副本。Epoch AI David Owen，Oct7 2026。任务是在固定GRPO基础上提出新后训练方法，与隐藏SDPO改进比较；Qwen3-8B关闭thinking，短答与编码任务，Inspect/ReAct、bash/text_editor、Modal GPU jobs、verl栈清除SDPO。预算上限3000 GPU小时、最多50 GPU及10B推理tokens，是可用上限非实际消耗。主实验Fable5和GPT5.6 Sol被认为不知SDPO；后续Fable5.1/GPT6 Astra记忆问题另算。Sol的改进在宽松口径约SDPO的35%，严格遵守规则约15%；Fable挑seed收益排除。这个比例针对单一研究任务、参考方法和有限运行，不能等价通用研究自动化率。已读主文intro/method/results及scoring，未完整读附录750行提示、未审计GPU日志或复现。",
+  "published_at": "2026-10-07T00:00:00+08:00",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "reading_scope": "已读主文intro/method/results及scoring，未完整读附录750行提示、未审计GPU日志或复现",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "25a145f4bcfe032b1818",
+  "source_id": "epoch-innovationeval",
+  "source_name": "Epoch InnovationEval",
+  "section": 4,
+  "raw_path": "raw/2026-10-12/2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de.txt",
+  "source_sha256": "2e7938de5c7059c59dc9ed4060b5a35819abec4290f016b33539f14539b1b6de",
+  "fetched_at": "2026-10-12T01:11:28.930686+00:00"
+}

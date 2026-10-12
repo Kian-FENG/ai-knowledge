@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+  "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+  "text": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing.\nThe article AI agent teams waste massive tokens for barely measurable quality gains, research finds appeared first on The Decoder.",
+  "published_at": "2026-10-11T15:39:26+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "cf102c361d78de88a3bf",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/41dbd05e9176c5cb1a93d602b7b6cbc942ff03f8add73490e4d3d736c99506bc.body",
+  "source_sha256": "41dbd05e9176c5cb1a93d602b7b6cbc942ff03f8add73490e4d3d736c99506bc",
+  "fetched_at": "2026-10-12T01:01:45.834100+00:00"
+}

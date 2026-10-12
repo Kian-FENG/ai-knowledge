@@ -1,0 +1,21 @@
+{
+  "period": "daily",
+  "date": "2026-10-11",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-11",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-10T18:00:00-07:00",
+    "end": "2026-10-11T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "3afcd30afbed4ecbbffbe685fb4049eec06e0f20324c43867eaebefc7a1041b1",
+  "editorial_sha256": "eee4b2cf4ad946b40675c18ef5a30988503947bf121063850d4f3d2f74b3fa30",
+  "report_path": "reports/daily/2026/10/2026-10-11/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-11/3afcd30afbed4ecbbffbe685fb4049eec06e0f20324c43867eaebefc7a1041b1.json",
+  "events": 2,
+  "generated_at": "2026-10-12T01:16:59.523667+00:00",
+  "timezone": "America/Los_Angeles",
+  "render_annotation": "Agent审阅后补实际LA生成时刻、日期精度显示、入库回查与采集上限；事实和编辑JSON未改变。",
+  "report_sha256": "25bbf63e566d8039bcf228511936b77f11598638cfbe7d91bff4cf31a38eca15"
+}

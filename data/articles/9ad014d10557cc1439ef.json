@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156601.htm",
+  "title": "GPU价格还要大涨！整机商直言拿货都困难：只能转嫁给消费者",
+  "text": "快科技10月11日消息，美国整机商Stince Built表示GPU价格预计还将明显上涨，拿货越来越困难，涨价只能转嫁给消费者。\nStince Built在最新动态中称，GPU库存紧张到已经很难抢到足够的货来组装整机，AI和数据中心对内存的胃口持续吞噬产能，内存和SSD价格早已创历史新高，现在GPU也加入了短缺行列。\n内存和SSD已经让这家整机商头疼了近一年，GPU短缺成了压上来的又一根稻草。\n相比去年GPU价格已经涨了50-60%，RTX 50系其余型号今年已经历了多轮涨价，AMD这边也没闲着，最近又宣布了一轮GPU涨价。两家一起涨，整机商和消费者两头挨打。\n更严重的是部分型号已经EOL停产，就在昨天有消息称NVIDIA已停产RTX 5090，GB202芯片转向RTX PRO系列。\nStince Built表示正在想方设法锁定GPU库存来压低成本，但承认这并不容易，GPU价格预计还会明显攀升，而且高价位可能持续相当长时间，最终只能把成本转嫁给消费者。",
+  "published_at": "2026-10-11T22:47:52+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9ad014d10557cc1439ef",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d.body",
+  "source_sha256": "6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d",
+  "fetched_at": "2026-10-12T01:02:01.720243+00:00"
+}

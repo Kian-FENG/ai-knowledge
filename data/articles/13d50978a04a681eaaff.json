@@ -1,0 +1,19 @@
+{
+  "title": "Meet Odyssey-3：可交互世界模型的研究预览",
+  "url": "https://odyssey.systems/meet-odyssey-3",
+  "text": "浏览阅读后的限定事实摘录，非HTTP副本。官方正文署Oliver Cameron、Jeff Hawke，日期October 8th 2026。Odyssey-3是视觉观测和控制条件的自回归扩散Transformer；由互联网视频时序标注、游戏键鼠和刚体模拟数据训练。teacher forcing配因果掩码，后训练用分布匹配/对抗蒸馏实现少步实时生成。公开入口提供Odyssey-3 Flash研究预览；Pro与机器人API需联系，并非已开放权重。页面讨论与Flexion的机器人合作，但视频逼真度不能证明闭环控制效果。物理评分66.1采用best-of-8、单次选择结果；基础版本评分为四次平均；成本估算假设MI355X每GPU小时USD1，不含prompt rewriting，不能直接排名。WorldMark为公司自评13项平均。已读主文、方法、评分说明与局限，未取原始实验数据或独立复现。",
+  "published_at": "2026-10-08T00:00:00+08:00",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "reading_scope": "已读主文、方法、评分说明与局限，未取原始实验数据或独立复现",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "13d50978a04a681eaaff",
+  "source_id": "odyssey",
+  "source_name": "Meet Odyssey-3",
+  "section": 2,
+  "raw_path": "raw/2026-10-12/ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6.txt",
+  "source_sha256": "ee7c8e21f8e5502fdd5fd8368caf8f6e9e9f5b87da1af967b94160dce7a5ebc6",
+  "fetched_at": "2026-10-12T01:11:28.739274+00:00"
+}

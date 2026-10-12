@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156585.htm",
+  "title": "笔记本外挂360mm水冷：温度直降60℃！性能大增14%",
+  "text": "快科技10月11日消息，海外PC改装博主TrashBench将一块360mm一体式水冷散热器外挂到一台Metabox笔记本上，给搭载GTX 1060和i7-8750H的老笔记本做了一次散热改造，CPU和GPU温度双双暴降60℃，满载状态下均低于40℃。\n这次的笔记本是一台Metabox P950EP，原本是给女儿玩《堡垒之夜》用的，TrashBench从另一个项目中切了一套360mm AIO，先用原装泵测试能否同时推动CPU和GPU两个水冷头，发现流量不够，只得换用更大的独立泵。\n两个水冷头通过3D打印支架固定在原厂散热孔位上，360mm冷排则用3D打印挂架固定在屏幕后方，因屏幕与外壳间隙太小无法拧螺丝，最终用环氧树脂粘死。\nVRM和内存也没落下，导热垫把内存高度找平后用一块散热片覆盖，同样用环氧树脂固定，改装不可逆。\n供电方面，笔记本使用19V电源，而泵和风扇需要12V，TrashBench焊接了一个DC-DC降压转换器接在原装风扇供电点上。\n由于该供电一开机就通电无法按负载启停，他加装了一个手动开关控制，底部外壳切出大洞容纳泵和水冷头，再用3D打印垫高支架让笔记本能平放。\n最终测试结果相当惊艳，CPU和GPU温度比原厂低60℃，满载均低于40℃，超频后《极限竞速：地平线5》从75帧提升到83帧，平均性能提升约14%。",
+  "published_at": "2026-10-11T19:58:02+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "97f7a37331ca79f42c46",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d.body",
+  "source_sha256": "6554699fa6ffe4133a04eb04f58cdaf0ee8a5f6b1612657a4535f7ecbfd7ea6d",
+  "fetched_at": "2026-10-12T01:02:01.720243+00:00"
+}

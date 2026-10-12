@@ -2,9 +2,16 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## blog
+
+- `source` [[reference/sources/epoch-innovationeval-20261007|Epoch InnovationEval：遵守研究规则后的改进显著收缩]]
+- `source` [[reference/sources/vals-multi-agent-cost-20261009|Vals评测：多Agent费用增加，收益取决于模型与预算]]
+
 ## news
 
+- `source` [[reference/sources/amazon-decart-talks-20261011|Reuters转述WSJ：Amazon洽谈约70亿美元收购Decart，未达成]]
 - `source` [[reference/sources/cxmt-4f-rdimm-plan-20261010|媒体披露长鑫 4F² DDR5 RDIMM 年底计划，尚非量产供给]]
+- `source` [[reference/sources/gpt61-sol-context-20261011|媒体：GPT-6.1 Sol默认上下文扩至500k，订阅扣量范围待原公告核验]]
 - `source` [[reference/sources/ligit-seed-media-20261010|财联社报道利太智药近人民币5000万元种子轮]]
 - `source` [[reference/sources/us-super-intelligence-force-20261004|美国 Super Intelligence Force 成立的媒体披露]]
 
@@ -19,6 +26,7 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/anthropic-usage-policy-20261008|Anthropic 公布使用政策修订，11月12日才生效]]
 - `source` [[reference/sources/codex-composer-predictions-20261009|Codex 输入框预测进入 beta：下一条提示仍由用户提交]]
 - `source` [[reference/sources/codex-faster-steering-20261008|Codex 桌面端开始推送更快的任务中途引导]]
+- `source` [[reference/sources/decart-products-undated|Decart官网产品归属：DOS、Lucy、Oasis与未知发布日期]]
 - `source` [[reference/sources/dynamo-minimax-m3-dev-20261009|Dynamo MiniMax-M3 实验快照提供固定部署组合]]
 - `source` [[reference/sources/dynamo-session-aware-20261008|Dynamo 按 Agent 会话管理缓存和准入，部分接口仍是提案]]
 - `source` [[reference/sources/dynamo-v151-release-20261007|Dynamo v1.5.1 正式补丁：修复路由恢复并收紧多模态输入边界]]
@@ -42,6 +50,7 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/nvidia-aicr-v10-20261006|NVIDIA 介绍 AICR v1.0：固定集群配置契约与可追溯验证]]
 - `source` [[reference/sources/nvidia-rtx-spark-windows-20261007|RTX Spark 笔记本开放预订，NVIDIA 公布Windows本地Agent硬件路线]]
 - `source` [[reference/sources/nvidia-science-commitment-20261008|NVIDIA 承诺五年投入价值 USD 10亿的美国科研支持]]
+- `source` [[reference/sources/odyssey3-preview-20261008|Odyssey-3研究预览：交互生成与闭环控制证据分开]]
 - `source` [[reference/sources/openai-albertsons-retail-20261001|OpenAI 将购物助手接入零售交易流程]]
 - `source` [[reference/sources/openai-asana-cache-economics-20261009|Asana 案例拆解浏览 Agent 的缓存与模型成本]]
 - `source` [[reference/sources/openai-atlassian-partnership-20261006|Atlassian 扩展 OpenAI 合作：企业上下文与 Agent 工作流进一步结合]]

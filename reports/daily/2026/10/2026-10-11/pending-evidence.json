@@ -1,0 +1,31 @@
+{
+  "as_of": "2026-10-12T01:16:58.846147+00:00",
+  "items": [
+    {
+      "subject": "GPT6.1默认窗口与收费",
+      "missing": "原公告/正式文档、套餐/地区和credits范围；媒体归因已存",
+      "release_condition": "取得可追溯原公告/文档再更新，不把API价格视为已变化"
+    },
+    {
+      "subject": "Amazon/Decart",
+      "missing": "WSJ原全文、双方确认、签署/审批；仅转述谈判",
+      "release_condition": "正式披露后更新交易状态/准确对价，不重复计同源报道"
+    },
+    {
+      "subject": "Qwen/MiniMax/Kimi",
+      "missing": "博客完整列表、Qwen图像许可、MiniMaxM3正式卡、Kimi路线/参数",
+      "release_condition": "官方版本卡与明确日期/许可"
+    },
+    {
+      "subject": "Aurora/DiffuSpace新公司线索",
+      "missing": "身份、产品归属、融资原公告与日期",
+      "release_condition": "公司/投资方或法定披露支持后建实体"
+    },
+    {
+      "subject": "研究背景",
+      "missing": "Odyssey实用控制和实验数据、Vals重复运行/全费用、Epoch附录/日志",
+      "release_condition": "保留有限结论，更多证据到齐再扩展，不标replicated"
+    }
+  ],
+  "coverage": "Bloomberg/IT之家/快科技/钛媒体本期漏采段未完整补回；arxiv类别/更新版本、中文公众号、付费全文不全；Huxiu只恢复列表。"
+}
