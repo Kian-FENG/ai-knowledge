@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13134",
+  "title": "Neurograf v1: An End-to-End Romanian-First Language Model Family",
+  "text": "arXiv:2610.13134v1 Announce Type: new\nAbstract: We present Neurograf v1, an experimental end-to-end Romanian-first language-model pipeline developed to investigate the feasibility of training language models from scratch for a lower-resource European language. The pipeline comprises RoSfera, a 635 GB Romanian corpus containing 175.7 million documents; an 80k byte-level BPE tokenizer; five decoder-only models ranging from 160M to 6B parameters, trained on 131 billion tokens; three instruction-tuned assistants; and two contrastively trained embedding models. Training and evaluation were conducted using computing infrastructure at ELI-NP/IFIN-HH.\nThe model family exhibits consistent scaling of validation loss and increasing Romanian factual and cultural knowledge with model size. On the 1,000-question WWTBM benchmark, Neurograf-6B achieves 69.89% accuracy on Romanian-context questions, while Neurograf-3.2B reaches 67.38%. Compute-optimal analysis yields a parameter-scaling exponent of approximately 0.423.\nNeurograf v1 serves as an experimental demonstrator rather than a production system. The study identifies practical challenges involving diacritic preservation, corpus quality, data composition, and tokenization efficiency, while demonstrating the feasibility of developing Romanian-first base models, instruction-following assistants, and semantic embedding models within a unified training pipeline.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "2d141e2d2adc78544209",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

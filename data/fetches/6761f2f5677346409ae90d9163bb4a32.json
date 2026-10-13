@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-13/d161da7269f96f284684a3f12fd5c37193a8405443c3f13d4404d649a0e25cab.body",
+  "sha256": "d161da7269f96f284684a3f12fd5c37193a8405443c3f13d4404d649a0e25cab",
+  "source_url": "https://www.miit.gov.cn/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-13T01:04:38.667805+00:00",
+  "source_id": "miit",
+  "status": 200,
+  "headers": {
+    "Date": "Tue, 13 Oct 2026 01:04:39 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "Last-Modified": "Mon, 12 Oct 2026 09:30:31 GMT",
+    "ETag": "W/\"6acca8b7-fcf3\"",
+    "Content-Encoding": "gzip",
+    "X-Kong-Upstream-Latency": "2",
+    "X-Kong-Proxy-Latency": "0",
+    "Via": "kong/1.4.3",
+    "X-Via-JSL": "badc901,-",
+    "X-Cache": "bypass"
+  },
+  "final_url": "https://www.miit.gov.cn/",
+  "truncated": false,
+  "charset": "utf-8",
+  "redacted_headers": [
+    "Set-Cookie"
+  ]
+}

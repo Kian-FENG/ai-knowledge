@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156878.htm",
+  "title": "Adobe全家桶之后 微软Office三剑客也被AI重写了：免费无广告",
+  "text": "快科技10月12日消息，AI时代软件厂商的护城河要被攻破了，前几天我们报道过国外有个老哥因为厌恶了Adobe的订阅制，用AI重写了7款Adobe全家桶软件，包括PS、PR之类的都能免费用。\n现在他又把目标对准了微软，这次下手的对象是Office办公软件，同样把Office办公三大主力软件复刻了一遍，其中用WordCraft平替Word、GridCraft平替Excel、DeckCraft平台PPT，三剑客都有对应的版本可用。\n这些软件依然主打免费无广告，Win平台、Mac平台及Linux平台都能用，代码也已经开源在Github上，看了下从10月6日才开始提交，几天时间就把三套软件打磨得有点样了，不得不说有经验的开发者+AI的组合真的超级高效率。\n不过还是那句话，目前的版本虽然有功能看着不少，但是想完全平替Office办公还不行，搭建一个框架没问题，但真正支持全球那么多用户日常使用中替代Word之类的还需要大量的功能迭代和测试，就算AI不停地写，也要积累几百几千小时才有可能稍微成型。\n无独有偶，这几天用AI写平替Office办公软件也不止国外的这个老哥，国内也有网友表示花了1000美元的AI费用重写了一个Office全家桶VibeOffice，功能甚至比这个WordCraft还要完善一些，还有网页版在线体验。\n再联系到这几天一个名为REA的逆向工程项目火遍Github，已经到了13.4万星了，更是被很多人视为软件的末日，只能说AI时代带来的改变太多了，大家要逐渐适应。",
+  "published_at": "2026-10-12T20:59:58+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "88d4ab3a8daf7d86fa15",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/0acea8ba19ef3270c13a53791794cc036e6e94bcaaf588a1ad733990725b9fa5.body",
+  "source_sha256": "0acea8ba19ef3270c13a53791794cc036e6e94bcaaf588a1ad733990725b9fa5",
+  "fetched_at": "2026-10-13T01:04:49.788565+00:00"
+}

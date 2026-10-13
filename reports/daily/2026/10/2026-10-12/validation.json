@@ -1,0 +1,207 @@
+{
+  "schema_pages": 120,
+  "source_config": 115,
+  "offline_tests": 49,
+  "knowledge_readback": [
+    {
+      "id": "source-x-subscription-20261012",
+      "path": "reference/sources/x-subscription-20261012.md",
+      "query": "X推出统一订阅：Grok用量跨Cursor共享，第三方模型另计费",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-looker-data-apps-20261012",
+      "path": "reference/sources/looker-data-apps-20261012.md",
+      "query": "Looker Data Apps进入预览：AI生成应用依托语义层，运行时不再调用LLM",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-data-agent-kit-workflow-20261012",
+      "path": "reference/sources/data-agent-kit-workflow-20261012.md",
+      "query": "Google发布Data Agent Kit工作流教程，数据Agent向跨服务执行延伸",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-mosi-pre-a-20261012",
+      "path": "reference/sources/mosi-pre-a-20261012.md",
+      "query": "模思智能官宣超10亿元Pre-A，MOSS Live仍为即将发布",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-modcraft-seed-20261012",
+      "path": "reference/sources/modcraft-seed-20261012.md",
+      "query": "36氪：ModCraft获数千万元种子轮，AI Mod创作连接社区分发",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-infinigence-c-round-20261012",
+      "path": "reference/sources/infinigence-c-round-20261012.md",
+      "query": "智东西：无问芯穹近日完成23亿元C轮，融资不等同算力收入",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-meta-muse-wonder-20261012",
+      "path": "reference/sources/meta-muse-wonder-20261012.md",
+      "query": "Meta发布Muse Wonder系列：记忆与持续任务能力进入产品分发",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-timesfm3-preview-20261012",
+      "path": "reference/sources/timesfm3-preview-20261012.md",
+      "query": "BigQuery TimesFM 3.0预览支持多变量时间序列预测",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-replayssm-storage-20261012",
+      "path": "reference/sources/replayssm-storage-20261012.md",
+      "query": "NVIDIA详解ReplaySSM：减少混合模型状态写入，收益取决于批量",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "paper-kv-repurpose-20261012",
+      "path": "reference/papers/kv-repurpose-20261012.md",
+      "query": "KV-Repurpose论文公告：非前缀缓存复用需要质量约束",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 2
+    },
+    {
+      "id": "paper-swe-duel-20261012",
+      "path": "reference/papers/swe-duel-20261012.md",
+      "query": "SWE-Duel论文公告：编码Agent互相出题，评测对象仍是模型与harness组合",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 2
+    },
+    {
+      "id": "source-maia300-roadmap-20261012",
+      "path": "reference/sources/maia300-roadmap-20261012.md",
+      "query": "微软：Maia 200已用于生产，Maia 300及多GW部署从2027年开始",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-amd-helion-20261012",
+      "path": "reference/sources/amd-helion-20261012.md",
+      "query": "AMD展示Helion Agent执行机架蓝图，计划11月提供配置",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-nvidia-ocp-rack-20261012",
+      "path": "reference/sources/nvidia-ocp-rack-20261012.md",
+      "query": "NVIDIA向OCP贡献MGX 1.2，开放机架与运维组件围绕Agent供给扩展",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "source-usfp-optics-20261012",
+      "path": "reference/sources/usfp-optics-20261012.md",
+      "query": "NVIDIA与Cisco提出USFP光模块形态，开放多源规范仍待推进",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 1
+    },
+    {
+      "id": "entity-mosi",
+      "path": "reference/entities/mosi.md",
+      "query": "模思智能：OpenMOSS团队孵化的实时全模态交互公司",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 2
+    },
+    {
+      "id": "entity-modcraft",
+      "path": "reference/entities/modcraft.md",
+      "query": "ModCraft：自然语言Mod创作与社区分发产品",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 2
+    },
+    {
+      "id": "note-agent-execution-and-inference-economics-20261012",
+      "path": "research/synthesis/agent-execution-and-inference-economics-20261012.md",
+      "query": "Agent成本开始分层：订阅共享、应用复用、执行机架与状态缓存",
+      "published": true,
+      "default_query_found": true,
+      "get_page_follow_sources": true,
+      "raw_hashes_checked": 5
+    }
+  ],
+  "cookie_headers_redacted": [
+    "data/fetches/56b4e7a5f2a64628b6666b8cde50f615.json",
+    "data/fetches/a0bba5aed09f4d8a9e4f061a49834396.json",
+    "data/fetches/d192375943eb48e8bd11809bd3d9de0f.json",
+    "data/fetches/12436cf2edac423eb8be76cba5520355.json",
+    "data/fetches/0f6af87d23b2410382b051baf2a4592e.json",
+    "data/fetches/6eaf7bbdabad4a89b7c9ae8cf1c99b8b.json",
+    "data/fetches/9db4a2f9c79b44cda5423319eed938aa.json",
+    "data/fetches/88049b9678bf4c0db9d900c1ddb03731.json",
+    "data/fetches/e71b20db65344b70aaa4542f9029af0e.json",
+    "data/fetches/32e4098ed422403d9b359d8e77878079.json",
+    "data/fetches/39afc6a1c66b4f0ab221f23f2d4d90e8.json",
+    "data/fetches/84b09c39d84c409394d9ba5fbcaac1f1.json",
+    "data/fetches/b1baddd575e74c1aaaef4db6683e972b.json",
+    "data/fetches/4944ec9d0cc44859b6dfc7eb129f9778.json",
+    "data/fetches/4b4471ed05e14fe8a6d1e59634b48104.json",
+    "data/fetches/6761f2f5677346409ae90d9163bb4a32.json",
+    "data/fetches/750b7ea8feb544ed9407e9b1125be7e0.json",
+    "data/fetches/919b509c6098454da11af858e5f03125.json",
+    "data/fetches/7710a382611b4b0481f63f40c0af1760.json",
+    "data/fetches/6aa403263f134e73a9a6246e5904b16a.json",
+    "data/fetches/c4273c839e5a42368ae2fe9bb909b37a.json",
+    "data/fetches/f74e449039824599afe1389e4c52a5e5.json",
+    "data/fetches/8cd0f3eeb2cd49deae0cfd50dd3ed6d1.json",
+    "data/fetches/5eefd36d17f247089825ff3e6c31183f.json",
+    "data/fetches/278e80188475466088d6e0962b1c420b.json",
+    "data/fetches/7fb729c5630f4810a2790373dfc99b92.json",
+    "data/fetches/6bca54c322774dc5b652da557c8ba3eb.json",
+    "data/fetches/e1a6b537cfd4433598df83077c398d28.json",
+    "data/fetches/2c6f543617ef464ebce91c125f13a3e9.json",
+    "data/fetches/f6f9f4647e33470e9e8b03f802727e33.json",
+    "data/fetches/ed688addb4724df5910e0fc827034fd5.json",
+    "data/fetches/63473aa59019404fabec1267c22eb4a5.json",
+    "data/extracted/75a0c63b929c7e9da7dde6d4bdc7e91212ff21c00bcfba15e6aacfd07f171924.json",
+    "data/extracted/1b7bb540c558449e344fd34559b445509d82a9f6bc0ae2ed22af665c5aae8873.json",
+    "data/extracted/c4de36f79e6a9f0771c94fce032c1bf505867ae96db34dac9faf1a551a96007e.json",
+    "data/extracted/e2fec5b9de1730e20d1d05297fc9fbdc489222e12e9020ccfc079abe9e74c276.json"
+  ]
+}

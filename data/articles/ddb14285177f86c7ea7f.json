@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/microsoft-debuts-new-homegrown-ai-chip-plans-deploy-multiple-gigawatts-next-year",
+  "title": "Microsoft Debuts New Homegrown AI Chip, Plans to Deploy Multiple Gigawatts Next Year",
+  "text": "Microsoft on Monday announced the latest generation of its homegrown AI chips, dubbed the Maia 300, and said it plans to set up “multi-gigawatt deployments” of the chip starting next year.\nThe move shows how Microsoft is aiming to reduce its dependence on Nvidia-designed GPUs, which currently ...",
+  "published_at": "2026-10-12T13:47:07+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T00:59:26+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ddb14285177f86c7ea7f",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/5392802edc9ed0e8ce4dc63bba1678dd5f728931300cae85cd0f9c89f3157b8c.body",
+  "source_sha256": "5392802edc9ed0e8ce4dc63bba1678dd5f728931300cae85cd0f9c89f3157b8c",
+  "fetched_at": "2026-10-13T01:04:39.927255+00:00"
+}

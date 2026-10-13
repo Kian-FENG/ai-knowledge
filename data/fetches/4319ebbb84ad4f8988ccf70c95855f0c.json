@@ -1,0 +1,31 @@
+{
+  "raw_path": "raw/2026-10-13/d2ddcdc99d2c0c1623ce38bc91937f92183568a4bc2f8cd98fa0d065689c6143.body",
+  "sha256": "d2ddcdc99d2c0c1623ce38bc91937f92183568a4bc2f8cd98fa0d065689c6143",
+  "source_url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-13T01:05:58.138194+00:00",
+  "source_id": "meta-newsroom",
+  "status": 200,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Tue, 13 Oct 2026 01:05:59 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "X-Pingback": "https://about.fb.com/xmlrpc.php",
+    "X-hacker": "If you're reading this, you should visit https://join.a8c.com/viphacker and apply to join the fun, mention this header.",
+    "X-Powered-By": "WordPress VIP <https://wpvip.com>",
+    "Host-Header": "a9130478a60e5f9135f765b23f26593b",
+    "Link": "<https://about.fb.com/?p=50604>; rel=shortlink",
+    "Content-Encoding": "gzip",
+    "x-rq": "sjc7 177 249 80",
+    "cache-control": "max-age=300, must-revalidate",
+    "accept-ranges": "bytes",
+    "x-cache": "HIT",
+    "Strict-Transport-Security": "max-age=31536000"
+  },
+  "final_url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+  "truncated": false,
+  "charset": "utf-8"
+}

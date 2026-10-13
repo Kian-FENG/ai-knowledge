@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.12863",
+  "title": "Unreliable Narrator Framing as a Cost-effective Mechanism for Satire Explanation of Australian and American Satirical News",
+  "text": "arXiv:2610.12863v1 Announce Type: new\nAbstract: Satirical news is a unique form of misinformation: it is intended to be humorous by the original publication source but can be misinterpreted. Explanation of satirical news articles is challenging because recent and local context needs to be incorporated. This is a pilot study that explores explanation generation for satirical news articles from Australia and compares them alongside those from USA. The paper demonstrates that framing explanations on unreliable narrator theory on open-weights models can be a feasible, cost-effective alternative to frontier models. We find that models identify the satirical tropes more accurately on the American source than the Australian one. This work results in a novel dataset and an evaluation benchmark for satirical explanation.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "da566410b65c769d4ae8",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

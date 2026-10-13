@@ -31,3 +31,9 @@
 
 - [[research/synthesis/persistent-agents-session-budget-20261008|持续Agent的身份、会话与预算]]
 - [[reference/entities/today|新增跟踪：TODAY金融保险顾问Agent]]
+
+## 2026-10-12 研究增量
+
+- [[research/synthesis/agent-execution-and-inference-economics-20261012|Agent成本分层：订阅、应用复用、执行与推理供给]]
+- [[reference/entities/mosi|模思智能公司身份与实时交互路线]]
+- [[reference/entities/modcraft|ModCraft产品身份、融资归因与商业路线]]

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.leiphone.com/category/industrynews/J5Gvtdeng3EAvjmF.html",
+  "title": "阶跃 Step 5 Preview 接入腾讯 WorkBuddy，独家限免 2 周！",
+  "text": "10 月 12 日消息，腾讯旗下全场景 AI 办公工作台 WorkBuddy 已接入阶跃最新旗舰模型 Step 5 Preview。即日起，该模型在 WorkBuddy 独家限时免费开放两周。凭借推理与 Agent 能力，Step 5 Preview 将助力 WorkBuddy 用户处理深度研究、信息检索、数据分析、文档与 PPT 生成等办公任务，并支持多步骤复杂任务的持续执行。\nStep 5 Preview 是阶跃发布的新一代旗舰基座模型，面向 AI 编程、软件工程、专业知识工作及金融等场景进行了优化，并在旗舰级综合智能、效率与成本间实现了最佳平衡。模型采用稀疏 MoE 架构，总参数量达 6000 亿，每个 Token 激活约 270 亿参数。\n第三方评测与平台使用数据进一步展现了其竞争力。全球权威大模型评测榜单 Artificial Analysis 显示，其综合智能指数为 44 分，位居全球开源前三。此外，上周 Step  5 Preview 登顶 OpenRouter Trending 榜首，并在按 Token 使用量统计的日榜中排名全球第二，体现出强大的模型性能和快速攀升的开发者使用热度。\n复杂办公任务需要模型贯通检索、分析到交付的完整流程。此次合作将阶跃旗舰模型 Step 5 Preview 与腾讯 WorkBuddy 的 Agent 产品相结合，既有助于提升任务执行效率与交付质量，也为阶跃拓展真实办公场景应用提供了新的入口。",
+  "published_at": "2026-10-12T14:16:00+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b5cf8a0f81258dbeaf6b",
+  "source_id": "leiphone",
+  "source_name": "雷峰网",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/de518587b8f3d227db7a80c57ca939f26ab1ac6938561b012a799eb34f87e866.body",
+  "source_sha256": "de518587b8f3d227db7a80c57ca939f26ab1ac6938561b012a799eb34f87e866",
+  "fetched_at": "2026-10-13T01:04:45.417683+00:00"
+}

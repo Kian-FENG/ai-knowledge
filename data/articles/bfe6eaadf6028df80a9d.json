@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-12-bidirectional-kvxfer-multiturn-agentic-workload",
+  "title": "Improve TTFT for Multi-Turn Agentic Workloads with Bi-Directional KV Transfer in vLLMOct 12, 2026·17 min readBi-directional KV transfer lets vLLM prefill nodes reuse previously computed KV from decode",
+  "link_text": "Improve TTFT for Multi-Turn Agentic Workloads with Bi-Directional KV Transfer in vLLMOct 12, 2026·17 min readBi-directional KV transfer lets vLLM prefill nodes reuse previously computed KV from decode",
+  "id": "bfe6eaadf6028df80a9d",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-13/0be03ecb37b5e7daf0e2e49dd2baa57ac8379cd5af3411d925e67c0b6393c96e.body",
+  "source_sha256": "0be03ecb37b5e7daf0e2e49dd2baa57ac8379cd5af3411d925e67c0b6393c96e",
+  "fetched_at": "2026-10-13T01:04:29.308504+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-13T01:04:29.308504+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

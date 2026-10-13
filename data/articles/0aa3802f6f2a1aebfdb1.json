@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+  "title": "Meta releases its first frontier model, Muse Wonder",
+  "text": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+  "published_at": "2026-10-12T17:56:56+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0aa3802f6f2a1aebfdb1",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/a9f7edf208de88024999bdbca1b2c4d3a7af0350e2c77cdbba3487d1f9c12b52.body",
+  "source_sha256": "a9f7edf208de88024999bdbca1b2c4d3a7af0350e2c77cdbba3487d1f9c12b52",
+  "fetched_at": "2026-10-13T01:04:38.617403+00:00"
+}

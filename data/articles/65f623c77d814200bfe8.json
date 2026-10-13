@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/012/158.htm",
+  "title": "英特尔 \"Crescent Island\" 系列数据中心推理卡定名 Intel GPU D 系列",
+  "text": "IT之家 10 月 13 日消息，Intel（英特尔）在 2026 OCP 全球峰会上宣布，其基于 \"Xe3P\" 架构的数据中心推理优化 GPU \"Crescent Island\" 正式定名 \"Intel GPU D-series\"，首款产品则是 Intel GPU D270。\nIntel GPU D270 拥有 32 个 Xe 核心、256 个 XMX 引擎，FP8 算力 1.5TB/s；配套至高 480GB LPDDR5X 显存，带宽达 1.5TB/s；整卡功耗 350W，采用标准 PCIe AIC 外形规格，支持 PCIe Gen5 规范；允许风冷设计。\nIntel GPU D-series 专为 LLM、长上下文工作负载、并发推理服务而设计，单卡支持 300B 模型、8 卡系统支持 1T 模型，目标应用范围涵盖多租户 AI 服务、机器人技术以及其它对延迟敏感的工作负载。\n英特尔还与合作伙伴展示了基于 Xeon（至强）处理器的新型机架设计，部分采用 Xeon 6+ 的配置可扩展至超 4.6 万个 CPU 核心，功率高达 133.45 kW。",
+  "published_at": "2026-10-13T01:04:37+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "65f623c77d814200bfe8",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/169de7789638607808280e2230262e3bd8c08d56aeb32a478a794d9ea48748c7.body",
+  "source_sha256": "169de7789638607808280e2230262e3bd8c08d56aeb32a478a794d9ea48748c7",
+  "fetched_at": "2026-10-13T01:04:43.328454+00:00"
+}

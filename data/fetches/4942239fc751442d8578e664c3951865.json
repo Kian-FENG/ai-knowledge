@@ -1,0 +1,26 @@
+{
+  "raw_path": "raw/2026-10-13/9fb5b0ddfd1ae2ecd6cc26846ad05cefc8b4d45aeea1b7320d7e32c284237b00.body",
+  "sha256": "9fb5b0ddfd1ae2ecd6cc26846ad05cefc8b4d45aeea1b7320d7e32c284237b00",
+  "source_url": "https://www.mosi.cn/about",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-13T01:09:56.005605+00:00",
+  "source_id": "36kr",
+  "status": 200,
+  "headers": {
+    "x-middleware-rewrite": "/zh/about",
+    "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "link": "<https://mosi-www-prod-new.oss-cn-shanghai.aliyuncs.com/website/company/about/image/about-brand-zh-v49-74a8bd581504a6c6.webp>; rel=preload; as=\"image\"; fetchpriority=\"high\", </favicon-old.svg>; rel=preload; as=\"image\"",
+    "x-powered-by": "Next.js",
+    "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "content-type": "text/html; charset=utf-8",
+    "content-encoding": "gzip",
+    "date": "Tue, 13 Oct 2026 01:09:57 GMT",
+    "x-envoy-upstream-service-time": "14",
+    "server": "mosi",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "final_url": "https://www.mosi.cn/about",
+  "truncated": false,
+  "charset": "utf-8"
+}

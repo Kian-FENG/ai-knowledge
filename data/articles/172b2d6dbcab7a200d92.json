@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/videos/2026-10-12/meta-releases-new-ai-model-called-muse-wonder-video",
+  "title": "Meta Releases New AI Model Called Muse Wonder",
+  "text": "Meta Platforms, parent company of Facebook, has released a long-awaited artificial intelligence model called Muse Wonder. This model is said to be competitive with OpenAI's ChatGPT and Anthropic's Claude.  Meta stock rose on the news. Mandeep Singh of Bloomberg Intelligence has more. (Source: Bloomberg)",
+  "published_at": "2026-10-12T20:55:48+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "172b2d6dbcab7a200d92",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/6c0423c7d6b30f79c2e65367cab3f83455d309c694ed093ca8550ae745cf23a7.body",
+  "source_sha256": "6c0423c7d6b30f79c2e65367cab3f83455d309c694ed093ca8550ae745cf23a7",
+  "fetched_at": "2026-10-13T01:04:42.090694+00:00"
+}

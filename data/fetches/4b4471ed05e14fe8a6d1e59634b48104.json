@@ -1,0 +1,40 @@
+{
+  "raw_path": "raw/2026-10-13/e2fec5b9de1730e20d1d05297fc9fbdc489222e12e9020ccfc079abe9e74c276.body",
+  "sha256": "e2fec5b9de1730e20d1d05297fc9fbdc489222e12e9020ccfc079abe9e74c276",
+  "source_url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-13T01:09:50.646927+00:00",
+  "source_id": "ms-nadella",
+  "status": 200,
+  "headers": {
+    "Date": "Tue, 13 Oct 2026 01:09:52 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Server": "cloudflare",
+    "cf-cache-status": "DYNAMIC",
+    "Vary": "Accept-Encoding",
+    "Last-Modified": "Mon, 12 Oct 2026 06:19:15 GMT",
+    "Link": "<https://blogs.microsoft.com/?p=52563158>; rel=shortlink",
+    "X-Powered-By": "WP Engine",
+    "X-Cacheable": "SHORT",
+    "Cache-Control": "max-age=600, must-revalidate",
+    "X-Cache": "HIT: 760",
+    "X-Cache-Group": "normal",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "X-XSS-Protection": "1; mode=block",
+    "Feature-Policy": "geolocation 'none';midi 'none';notifications 'none';push 'none';sync-xhr 'none';microphone 'none';camera 'none';magnetometer 'none';gyroscope 'none';speaker 'self';vibrate 'none';payment 'none';",
+    "Referrer-Policy": "origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a49a761a687e69a2-SJC",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "final_url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+  "truncated": false,
+  "charset": "utf-8",
+  "redacted_headers": [
+    "set-cookie"
+  ]
+}

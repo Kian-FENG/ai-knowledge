@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.12742",
+  "title": "U4RASD at KnowledgeGraphEval-2026: Ontology-Constrained Encoder and LLM Systems for Arabic Relation Extraction",
+  "text": "arXiv:2610.12742v1 Announce Type: new\nAbstract: This paper details our submission to KnowledgeGraphEval 2026 Subtask 2 on directed Arabic relation extraction. We explored encoder-based and large language model approaches for predicting one of 40 relations or no_relation from an Arabic sentence and a subject-object pair. Our encoder systems use typed entity markers and separate relation-existence and relation-classification heads, while our LLM systems fine-tune Yehia and Qwen3.5 with QLoRA and ontology-constrained prediction. Our best system, an ensemble of Yehia-RE, Qwen-RE, and TypedPair, achieved a micro-F1 score of 94.06 and ranked 1st in Subtask 2. Yehia-RE (full-vocabulary) achieved 92.98, while the best encoder and Qwen-RE achieved 92.69 and 91.94 respectively. Our results highlight the importance of constrained prediction and complementary modeling approaches for Arabic relation extraction.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "47f8bf9326b091f1ca39",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

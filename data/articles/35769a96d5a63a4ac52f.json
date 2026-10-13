@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13321",
+  "title": "Host-Aware Web Crawling for LLM Pretraining Data",
+  "text": "arXiv:2610.13321v1 Announce Type: new\nAbstract: Web crawling is a major source of large language model (LLM) pretraining data, yet data-selection pipelines discard a large share of crawled pages. We investigate how a crawler should allocate its budget across and within hosts to collect more high-quality pretraining data. Combining document-level quality classifier scores, web-graph centrality metrics, and Common Crawl's per-host crawl coverage, we find that roughly half of the variation in classifier scores occurs between hosts. In the crawls we analyze, a few pages from a host also provide a useful estimate of the quality of its remaining pages. Common Crawl uses harmonic centrality, a graph centrality metric, to guide its crawl allocation. In our simulations, using centrality to choose which hosts to crawl yields limited gains over random ordering and performs worse for some classifiers. For deciding how deeply to crawl each host, sampling a few pages and then fetching more from hosts with higher-scoring samples collects several times more high-quality pages per fetch than uniform depth or centrality-based allocation. Finally, Common Crawl's observed per-host coverage has little correlation with the evaluated quality signals. We estimate that tens of millions of high-quality pages remain among known but uncrawled URLs in each crawl examined, with most concentrated on a small share of hosts.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "35769a96d5a63a4ac52f",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://www.mosi.cn/about",
+  "title": "模思智能公司身份与产品研究方向",
+  "text": "关于我们 - 模思智能\n模型\n音频理解\n音频生成\n视频理解\n视频生成\n语音转录\n通用音频理解\n音乐理解\nMOSS-Transcribe-Diarize\nMOSS-Audio\nMOSS-Music\n语音生成\n音效生成\nMOSS-TTS\nMOSS-TTSD\nMOSS-TTS-Nano\nMOSS-VoiceGenerator\nMOSS-SoundEffect\nMOSS-VL\nMOSS-VL-Realtime\nMOVA\n语音转录\nMOSS-Transcribe-Diarize\n通用音频理解\nMOSS-Audio\n音乐理解\nMOSS-Music\n语音生成\nMOSS-TTS\nMOSS-TTSD\nMOSS-TTS-Nano\nMOSS-VoiceGenerator\n音效生成\nMOSS-SoundEffect\n视频理解\nMOSS-VL\nMOSS-VL-Realtime\n视频生成\nMOVA\n产品\nMossland\nMosMos\nMOSS Live（敬请期待）API博客\n公司\n关于我们\n公司新闻\n加入我们\nEN/中文\n关于我们\n模思智能（全称：上海模思智能科技有限公司），总部位于上海，是面向下一代情境交互智能的大模型创新企业，孵化于上海创智学院与复旦大学 OpenMOSS 团队，由邱锡鹏教授担任首席科学家，以多模态大模型为核心引擎，推动智能交互、具身智能及相关产业场景的规模化落地。\n公司以「全模态情境智能」为长期方向、以「实时交互系统」为当前落点，致力于联接AI、人与物理世界，打造物理世界 AI 的实时交互系统和基础设施，让智能走出对话框、进入真实世界，持续感知情境、自然交互并采取行动。相关模型能力在音频理解、语音合成、实时视觉理解、音视频生成、实时交互等多个方向取得开源领先的成绩。\n模思智能的团队兼具顶尖学术实力与丰富产业经验，其中博士占比约50%，核心成员来自上海创智学院与复旦大学，同时吸纳了头部企业的产业人才，形成了“学术研发+产品工程落地+产业化运营”的全链路团队架构。\n与我们同行，\n探索智能表达的下一步\n加入我们新闻动态\n隐私政策用户协议\n© 2026 上海模思智能科技有限公司沪公网安备31010402335380号|沪ICP备2025111052号",
+  "raw_path": "raw/2026-10-13/9fb5b0ddfd1ae2ecd6cc26846ad05cefc8b4d45aeea1b7320d7e32c284237b00.body",
+  "fetched_at": "2026-10-13T01:18:24.327004+00:00",
+  "extraction": "full-text",
+  "published_at": null,
+  "announced_at": null,
+  "date_basis": "unknown",
+  "date_precision": "unknown",
+  "reading_scope": "关于我们全文、版权公司全称和OpenMOSS官方链接；未查询工商登记。",
+  "imported": true,
+  "id": "8fa7cfc2ca3402cb7bd0",
+  "source_id": "mosi",
+  "source_name": "模思智能官方新闻",
+  "section": 1,
+  "source_sha256": "9fb5b0ddfd1ae2ecd6cc26846ad05cefc8b4d45aeea1b7320d7e32c284237b00"
+}

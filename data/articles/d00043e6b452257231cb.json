@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/12/technology/universal-basic-income-silicon-valley.html",
+  "title": "Is Universal Basic Income the Answer to A.I.-Fueled Job Losses?",
+  "text": "For more than a year, The New York Times followed recipients of universal basic income programs, which Elon Musk and other tech leaders have promoted as a solution to A.I.-fueled job losses.",
+  "published_at": "2026-10-12T17:40:28+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d00043e6b452257231cb",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/6b50ce14a0cffe93f4f227351056ab6c6ca4a1c87cf103b3444c923e5cade9cd.body",
+  "source_sha256": "6b50ce14a0cffe93f4f227351056ab6c6ca4a1c87cf103b3444c923e5cade9cd",
+  "fetched_at": "2026-10-13T01:04:41.057282+00:00"
+}

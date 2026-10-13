@@ -293,6 +293,22 @@ companies:
   tracking_since: '2026-10-09'
   note: Jev/System One开发者；公司披露USD870M A轮、USD7.5B估值；采用口径有差异，未审计收入或独立性能。
 
+- id: mosi
+  name: 模思智能 / Mosi
+  region: CN
+  urls: [https://www.mosi.cn/about, https://www.mosi.cn/news]
+  sources: [mosi]
+  source_page: reference/entities/mosi.md
+  tracking_since: '2026-10-12'
+  note: 官网主体为上海模思智能科技有限公司；MOSS Live即将发布；Pre-A为公司披露，非融资交割审计。
+- id: modcraft
+  name: ModCraft（modcraft.games产品）
+  urls: [https://www.modcraft.games/]
+  sources: [modcraft]
+  source_page: reference/entities/modcraft.md
+  tracking_since: '2026-10-12'
+  note: 核对产品与编辑器归属，运营法定主体未核实；媒体种子轮非官方融资确认；不与同名工具合并。
+
 communities:
 - name: SGLang
   urls:

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.leiphone.com/category/industrynews/LApMolUCs9YwwXHn.html",
+  "title": "微软用阿里Qwen打造决策模型，或将推广至所有领域",
+  "text": "10月12日，微软基于阿里Qwen，推出全新决策模型Microsoft-Decision-1。微软官方透露称，该模型基于Qwen3.5-9B后训练而成，在结构化决策任务中，该模型在时延和准确性等方面均超过了LLM及Jev 1.13.0等热门决策模型。微软Xbox研究团队已用它处理超过1万条玩家反馈，微软CEO纳德拉也在社交媒体上透露称，基于新模型的优异表现，微软正在所有领域测试应用新模型，包括事件响应、质量控制、科学发现等。\n据了解，9月Jev模型爆火带起了一股决策模型浪潮。这种模型不生成自然语言，而是输出预测值、概率和置信度，比大语言模型LLM尺寸小得多，响应速度也更快，恰好能满足AI任务中的频繁作判断的大量需求。有数据统计显示，在HuggingFace 129 个开源决策模型项目中，基于阿里Qwen开发的就有84个，占比超65%，包括微软、Perplexity、Cloudflare、H2O.ai等公司推出的知名决策模型均采用阿里Qwen。",
+  "published_at": "2026-10-12T13:36:00+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5607ad043c3c1400038b",
+  "source_id": "leiphone",
+  "source_name": "雷峰网",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/de518587b8f3d227db7a80c57ca939f26ab1ac6938561b012a799eb34f87e866.body",
+  "source_sha256": "de518587b8f3d227db7a80c57ca939f26ab1ac6938561b012a799eb34f87e866",
+  "fetched_at": "2026-10-13T01:04:45.417683+00:00"
+}

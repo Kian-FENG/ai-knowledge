@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.12987",
+  "title": "Forecasting Corpus-Sampling Disagreement in Masked Text Reconstruction",
+  "text": "arXiv:2610.12987v1 Announce Type: new\nAbstract: If a second text corpus were collected from the same population, how much would a predictor's outputs change? We study this question for masked-text reconstruction using a smoothed predictor built from nearby token-pair counts and evaluated over the full 50,257-token GPT-2 vocabulary. Treating each source document as one observation, we derive a first-order formula for the expected disagreement between predictors fitted to two independent corpora. The formula accounts for variable document length, random context counts, and correlations across token offsets, and it can be evaluated from a separate reference corpus without access to either target corpus. On TinyStories, WikiText-103, and CNN/DailyMail, growing each corpus from 512 to 2,048 chunks of 64 tokens lowers disagreement by only 5--40\\%, far short of the 75\\% implied by $1/n$ scaling. The forecast tracks this slow decline, which we trace to smoothing of rarely seen contexts. Forecast accuracy depends less on how these correlations are modeled than on the size of the reference corpus: small references systematically underpredict disagreement. A source-split jackknife that uses only reference data reduces this calibration error by 57--59\\%. After this correction, a simpler smoothed-multinomial approximation is most accurate when the reference corpus is smaller than the target corpus, and a nonlinear source bootstrap is most accurate when it is larger. Finally, small masked diffusion language models trained on the same corpora show that the count-based forecasts partly identify which inputs are most sensitive to the corpus, but miss the neural models' much faster decline in disagreement.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "99c442b37970f32bce51",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

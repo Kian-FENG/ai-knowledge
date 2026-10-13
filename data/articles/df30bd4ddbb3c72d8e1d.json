@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-trends/article/3370550/deepseeks-cost-saving-ai-may-lead-inaccuracy-model-performance-research",
+  "title": "DeepSeek’s cost-saving AI may lead to inaccuracy in model performance: research",
+  "text": "New research has exposed a potential flaw in the memory-saving technology underpinning DeepSeek’s models, marking a rare challenge to a breakthrough that has helped the Chinese artificial intelligence lab close the gap with US rivals OpenAI and Anthropic with its low-cost approach.\nThe findings were published late last month in a paper led by researchers from ByteDance and co-authors affiliated with Princeton University, Stanford University and the University of California, Berkeley.\nThe study,...",
+  "published_at": "2026-10-12T07:00:07+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "df30bd4ddbb3c72d8e1d",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/ae02cf4e0cc32da989f6dd3dec7c86d486119fe20978abdea843b14203f6e4bf.body",
+  "source_sha256": "ae02cf4e0cc32da989f6dd3dec7c86d486119fe20978abdea843b14203f6e4bf",
+  "fetched_at": "2026-10-13T01:04:41.463219+00:00"
+}

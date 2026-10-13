@@ -127,3 +127,26 @@
 - reference/entities/decart.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
 - reference/entities/odyssey.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
 - research/synthesis/persistent-agents-session-budget-20261008.md：归档、查重、来源阅读与综合完成；审核发布、默认query/get_page及raw hash回查完成。
+
+## automation-ai-2026-10-12
+
+- reference/sources/x-subscription-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/looker-data-apps-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/data-agent-kit-workflow-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/mosi-pre-a-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/modcraft-seed-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/infinigence-c-round-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/meta-muse-wonder-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/timesfm3-preview-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/replayssm-storage-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/papers/kv-repurpose-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/papers/swe-duel-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/maia300-roadmap-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/amd-helion-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/nvidia-ocp-rack-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/sources/usfp-optics-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/entities/mosi.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- reference/entities/modcraft.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+- research/synthesis/agent-execution-and-inference-economics-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
+
+新建18、更新0；去重跳过与未完成核验见本期pending-evidence。没有将审核发布提高为独立复现。

@@ -1,0 +1,39 @@
+{
+  "raw_path": "raw/2026-10-13/1b7bb540c558449e344fd34559b445509d82a9f6bc0ae2ed22af665c5aae8873.body",
+  "sha256": "1b7bb540c558449e344fd34559b445509d82a9f6bc0ae2ed22af665c5aae8873",
+  "source_url": "https://cloud.google.com/blog/products/data-analytics/bringing-you-the-data-agent-kit/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-13T01:06:10.306014+00:00",
+  "source_id": "google-cloud-blog",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+    "x-ua-compatible": "IE=edge",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+    "Date": "Tue, 13 Oct 2026 01:06:11 GMT",
+    "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Content-Security-Policy": "script-src 'report-sample' 'nonce-fH4W8Mu7CkNu4ahyhoIYFA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /blog/_/TransformBlogUi/cspreport;worker-src 'self' blob:",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+    "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+    "Cross-Origin-Resource-Policy": "same-site",
+    "reporting-endpoints": "default=\"/blog/_/TransformBlogUi/web-reports?context=eJzjytHikmLw0pBiSHv6mIn10ROm1pvnWKcDccmi86xtQNwFxHOAWM31AquhwiVWZyAukrjC2gLEn6pusIpU32BVOnOL9VuxLxtHiS8by1t_tqevA9mmhQSxhR4PYlO4EckWIhPDNsczlk2Ih6O5Y9s1NoEf1__eZlLSTsovjE_OyS9NqdAtT03STcrJT9ctzSxOLSpLLYo3MjAyMzQwNNIzMIwvMAAAsZI_Jw\"",
+    "Transfer-Encoding": "chunked",
+    "Server": "ESF",
+    "X-XSS-Protection": "0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close"
+  },
+  "final_url": "https://cloud.google.com/blog/products/data-analytics/bringing-you-the-data-agent-kit/",
+  "truncated": false,
+  "charset": "utf-8",
+  "redacted_headers": [
+    "Set-Cookie"
+  ]
+}

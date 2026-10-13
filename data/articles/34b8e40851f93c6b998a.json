@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13396",
+  "title": "ShoreKeeper: Accelerating Iterative Data Analytics in the Cloud via Distributed Recovery-Cost-Aware Caching",
+  "text": "arXiv:2610.13396v1 Announce Type: new\nAbstract: Large-scale data-intensive workloads powered by iterative graph or machine learning processing have an insatiable demand for memory due to the continuous generation of new intermediate data. Although existing caching strategies strive to keep performance-critical data in memory, they often fail in practice because they are limited to node-local memory management and assume high node availability. In this paper, we introduce ShoreKeeper, a framework that maximizes execution efficiency by treating cluster-wide memory as a unified, elastic pool. ShoreKeeper employs a global optimization model that maps distributed dataflows into a single graph abstraction to minimize the recovery cost of data evicted from cache across the cluster. To handle memory working sets and cluster capacities that fluctuate over time, ShoreKeeper employs a graph-pruning technique that permits the fast refinement of the caching plan. These optimizations allow ShoreKeeper to work seamlessly whether deployed on highly available VMs or cost-effective preemptible instances in the cloud. Our experiments show that ShoreKeeper consistently outperforms state-of-the-art systems.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "34b8e40851f93c6b998a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

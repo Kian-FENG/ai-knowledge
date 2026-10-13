@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/research/self-replicating-ai",
+  "title": "Oct 12, 2026Frontier Red TeamAI models may be capable of self-replicating without access to a datacenter",
+  "link_text": "Oct 12, 2026Frontier Red TeamAI models may be capable of self-replicating without access to a datacenter",
+  "id": "c044b31b2af17828644e",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "anthropic-research",
+  "source_name": "Anthropic Research",
+  "section": 2,
+  "raw_path": "raw/2026-10-13/e8c4f72a42b16c7051ff4d7c16dfb7259d18c92ceadb6a115eff271ce6e7d7f0.body",
+  "source_sha256": "e8c4f72a42b16c7051ff4d7c16dfb7259d18c92ceadb6a115eff271ce6e7d7f0",
+  "fetched_at": "2026-10-13T01:04:12.557600+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-13T01:04:12.557600+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

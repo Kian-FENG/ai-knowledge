@@ -1,0 +1,18 @@
+{
+  "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+  "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+  "text": "Fourteen months ago, we began an overhaul of our AI efforts, and in that time we’ve gone from rebuilding our foundations to pushing the frontier. Today, Meta is introducing the Muse Wonder series with Muse Wonder and Muse Wonder Full, our most capable models to date, built on the groundwork we laid with Muse Spark. The models deliver state-of-the-art performance on personal and professional agentic tasks.\nBuilt for Real World Needs\nWhether the job is navigating an insurance claim, understanding a lease, or making sense of someone’s finances, a model has to interpret the information in front of it and work through the problem. Muse Wonder and Muse Wonder Full bring that capability to expert domains including law, finance, and health, along with frontier coding performance for people building everything from a game to an app for a new business.\nReal work also unfolds over time. That’s why we’ve built our new models to have Active Memory, the ability to carry what matters to you across conversations and bring back the details that are relevant to the task at hand. They’re also equipped with Active Focus, the ability to keep working toward your goal when a task gets hard, try other approaches, recover from errors, and follow through, asking for clarification when needed and checking in before following through on anything important.\nhttps://about.fb.com/wp-content/uploads/2026/10/01_Researchers-Introducing-Muse-Wonder_inline.mp4\nHow We Build for Safety\nA personal agent can take on real tasks for you, which often means working across your messages, calendars, and documents. That’s why we trained the Muse Wonder family to avoid sharing private information without permission; turn down requests to assist in performing actually harmful acts; and work to improve security and strengthen defenses against cyber attacks. Developers and security teams can use models like Muse Wonder to find flaws in their own code and strengthen their systems, so we made sure the models can still do that work. We train, evaluate, and release our most capable AI models in line with the standards set out in our Meta Superintelligence Scaling Framework. A full report with additional safety evaluations will be available soon.\nMuse Wonder is available today through the Meta Model API and Muse Code. It will soon power more of Muse, rolling out first to subscribers. This is a major step toward personal superintelligence for everyone, with much more to come.\nFor a closer look at how these models were built, how they were tested and what they can do, head to our research blog.\nThe post Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents appeared first on Meta Newsroom.",
+  "published_at": "2026-10-12T17:08:05+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "033e5603f4dfe677d6e5",
+  "source_id": "meta-newsroom",
+  "source_name": "Meta Newsroom",
+  "section": 0,
+  "raw_path": "raw/2026-10-13/a71e9934f36a659b0902850e818bc1e19360c025653bd04a91a00395d000fbe6.body",
+  "source_sha256": "a71e9934f36a659b0902850e818bc1e19360c025653bd04a91a00395d000fbe6",
+  "fetched_at": "2026-10-13T01:04:18.250266+00:00"
+}

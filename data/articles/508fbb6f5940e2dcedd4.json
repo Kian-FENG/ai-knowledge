@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156922.htm",
+  "title": "微软发布Maia 300 AI芯片",
+  "text": "微软发布了第三代自研AI芯片，旨在逐步摆脱对英伟达的依赖：\n“我们预计Maia 300每兆瓦Token吞吐量将比主流GPU系统高出40%，96片单机架Token吞吐量最高可达Maia 200的七倍”，微软云事业执行副总Scott Guthrie称。“我们将从27年开始在吉瓦级部署中应用自研Maia芯片，使Maia成为微软产品和服务的主要AI推理系统。”\n其实上一代产品Maia 200九个月前才推出，已用于Microsoft Copilot、GitHub Copilot、Microsoft Foundry等生产力负载。而近日推出的Maia 300基于台积电N2P工艺，单颗功耗950瓦，采用计算、内存控制器，以及I/O单元分离的Chiplet架构，提升了良率与灵活性。\nMaia 300专注于“推理优先”，针对长上下文，对延迟敏感的对话体验，以及连续多步骤智能体任务进行优化。受益于最新一代HBM4技术，8组36GB模块组成288GB内存，带宽高达18TB/s，相当于上一代产品Maia 200的2.5倍。\n典型的Maia 300系统级应用采用单机架96颗处理器配置，总功耗为167kW，可提供27.6TB机架内存与1.7PB/s聚合HBM带宽，有助于微软奋力追赶谷歌DeepMind、OpenAI ，以及Anthropic。\n“我们必须掌握从端到端全套技术栈”，微软人工智能首席执行官穆斯塔法·苏莱曼称，“为此我们需要一个拥有完全知识产权的平台，基于Maia芯片的微软人工智能模型是我司工作重心。”",
+  "published_at": "2026-10-13T07:08:08+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "508fbb6f5940e2dcedd4",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/0acea8ba19ef3270c13a53791794cc036e6e94bcaaf588a1ad733990725b9fa5.body",
+  "source_sha256": "0acea8ba19ef3270c13a53791794cc036e6e94bcaaf588a1ad733990725b9fa5",
+  "fetched_at": "2026-10-13T01:04:49.788565+00:00"
+}

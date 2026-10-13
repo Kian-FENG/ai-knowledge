@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/scaling-decision-optimization-to-100-million-variables-and-beyond-with-mpdlp-in-nvidia-cuopt/",
+  "title": "Scaling Decision Optimization to 100 Million Variables and Beyond with mPDLP in NVIDIA cuOpt",
+  "text": "Supply chain problems are expanding across more SKUs, lanes, and constraints than ever before, while energy grids are balancing more distributed sources in real...\nSupply chain problems are expanding across more SKUs, lanes, and constraints than ever before, while energy grids are balancing more distributed sources in real time. To meet these challenges, teams need to evaluate larger models and more uncertainty within a practical planning window. NVIDIA cuOpt GPU-accelerated decision optimization can already deliver speedups of more than 10x over CPU…\nSource",
+  "published_at": "2026-10-07T15:45:00+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-07T15:42:42+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6e431623ea977add800b",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-08/ee90b0a03a8019c9c88c3ee737b020d872e48d4c1cdda76381cbc67c7ecd2e61.body",
+  "source_sha256": "ee90b0a03a8019c9c88c3ee737b020d872e48d4c1cdda76381cbc67c7ecd2e61",
+  "fetched_at": "2026-10-08T01:04:51.199504+00:00"
+}

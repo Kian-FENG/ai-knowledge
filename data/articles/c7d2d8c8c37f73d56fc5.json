@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.12989",
+  "title": "Language Models Have Interpretable Narrative Mechanisms",
+  "text": "arXiv:2610.12989v1 Announce Type: new\nAbstract: We investigate whether language models contain internal components that contribute to representing narrativity, the degree to which a text exhibits narrative properties. Across GPT-2-Small, Gemma-2-2B, and Llama-3.1-8B, we identify attention heads, MLP neurons, and sparse autoencoder features whose activations correlate with narrativity. Ablating selected neuron and feature sets increases next-token prediction loss more for high-narrativity than for low-narrativity texts, and reduces the narrativity of open-ended generations. On downstream benchmarks, the largest effects occur in story completion and narrative question answering, although they vary across models and languages; results on confabulation and hallucination benchmarks are mixed. These findings provide causal evidence that selected sets of narrative-associated components contribute to model behaviour, while their internal organisation, relation to narrative theory, and broader functions remain open questions.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "c7d2d8c8c37f73d56fc5",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+  "title": "Towards technical best practice for frontier AI development",
+  "link_text": "Towards technical best practice for frontier AI development",
+  "id": "dc6fae2821ca2e5eda6c",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "uk-aisi",
+  "source_name": "UK AI Security Institute Blog",
+  "section": 2,
+  "raw_path": "raw/2026-10-13/63cf8db76114c3381a08a7bf55c0d64c401a1ed89cfad94a916ba41c8e60149c.body",
+  "source_sha256": "63cf8db76114c3381a08a7bf55c0d64c401a1ed89cfad94a916ba41c8e60149c",
+  "fetched_at": "2026-10-13T01:04:32.447638+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-13T01:04:32.447638+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

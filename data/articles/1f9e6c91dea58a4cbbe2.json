@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.12701",
+  "title": "Activating the Annotator: Operationalising Lived Experience in Data Annotation",
+  "text": "arXiv:2610.12701v1 Announce Type: new\nAbstract: Perspectivist NLP has established that annotator positionality shapes labels for subjective tasks, but the field still lacks methods for operationalising it. Positionality is typically operationalised as a demographic form completed at recruitment: a static attribute recorded once and treated as a covariate, on the assumption that the knowledge it indexes is active when the annotator reads an item. This paper treats that assumption as a design problem and asks whether lived experience can instead be primed by the task itself. We introduce AXLE, a pre-annotation stage in which a scenario vignette anchors a short, axis-guided conversation that is synthesised into a first-person micro-narrative and returned to the annotator before labelling begins. In a 2x2 between-subjects study (104 annotators, 30 items, 1,040 annotations) on ambiguous hate speech spanning immigration, religion and gender, elicitation was associated with higher identity resonance and higher sensitivity to harm. It also increased label entropy and lowered inter-annotator agreement: the stage appears to surface plurality rather than manufacture consensus, which distinguishes it from annotator training, whose success criterion is convergence.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "1f9e6c91dea58a4cbbe2",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

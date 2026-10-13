@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/attractive-economics-behind-anthropic-data-center-sprint",
+  "title": "The Attractive Economics Behind Anthropic Data Center Sprint",
+  "text": "Why is Anthropic driving its partners to speed up the $530 billion of data center leasing deals it has signed?\nIt’s simple: Every server Anthropic plugs in sooner to run its products could be wildly profitable, according to fresh analysis of upcoming AI data center sites, including one Anthropic will rent outside Baton Rouge, La.",
+  "published_at": "2026-10-11T15:01:22+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-11T22:05:14+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a3915ee3589394d885ea",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-12/4e12f61f8d7b9693cd5866d299426cbcd2d7db81e932ff969d9046d88b3c9026.body",
+  "source_sha256": "4e12f61f8d7b9693cd5866d299426cbcd2d7db81e932ff969d9046d88b3c9026",
+  "fetched_at": "2026-10-12T01:01:47.253196+00:00"
+}

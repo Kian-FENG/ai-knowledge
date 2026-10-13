@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13386",
+  "title": "MoPrO-SD: Modular Prompt Optimization for Stance Detection",
+  "text": "arXiv:2610.13386v1 Announce Type: new\nAbstract: Stance detection remains challenging for large language models (LLMs) due to implicit opinions, sarcasm, and context-dependent expressions of stance. Although automatic prompt optimization offers an alternative to fine-tuning without updating model parameters, existing structured approaches are not specifically designed around stance-label semantics and class-specific ambiguities. We introduce MoPrO-SD, a stance-specific prompt optimization framework that decomposes prompts into functional semantic modules and refines them sequentially using LLM-based feedback. We study three refinement strategies: instruction-only optimization (I), instruction with reasoning (I+R), and instruction with per-example reasoning (I+R+E), using class-conditioned errors for stance-label refinement. We also introduce VaccineStance, a new human-annotated benchmark for vaccine stance detection. Experiments across four datasets and five open-weight LLMs show that MoPrO-SD improves upon the human-written Base prompt in many settings. On SemEval-2016, class-conditioned feedback achieves higher mean Macro-F1 than pooled feedback for four of five backbones. Both reasoning-based strategies, I+R and I+R+E, achieve strong performance, with their relative effectiveness varying across models and datasets, while remaining competitive with recent prompt optimization methods. The MoPrO-SD code and VaccineStance dataset are available on GitHub.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "208ac7c2dbce3a47b6d9",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

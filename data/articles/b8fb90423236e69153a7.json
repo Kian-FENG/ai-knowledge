@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13456",
+  "title": "Towards Enriching Design-Time Models with Evidence from Simulation and Operational Activities",
+  "text": "arXiv:2610.13456v1 Announce Type: new\nAbstract: Cyber-Physical Systems are developed through multiple model based activities, comprising several stages of development. As the development progresses through simulation, experimentation, and operation, observations of system execution may reveal missing, uncertain, or invalid design knowledge. The path from execution results to persistent design-time enrichment, however, is often implicit. This paper addresses this challenge by proposing an evidence driven workflow for systematically transferring knowledge produced during simulation and operation back into design-time models. We demonstrate the workflow using an Influence Model, a design-time artefact used to represent how design artefacts and environmental factors jointly affect system response properties, using a sign-following robot use case. We show how simulation evidence can enrich Influence Models by supporting participant pruning decisions, interaction characterisation, influence-function abstraction, and validity-scope information. The application demonstrates the feasibility of the workflow for simulation-based evidence and its potential benefits to improve design-time reasoning and feedback in subsequent development iterations.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b8fb90423236e69153a7",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

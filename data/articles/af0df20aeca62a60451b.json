@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.12601",
+  "title": "Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting",
+  "text": "arXiv:2610.12601v1 Announce Type: new\nAbstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting language-model agents, since it is cheap and produces human-readable artifacts. On factual tasks, however, it carries a failure mode that scalar-reward reinforcement learning does not. An optimizer that reads the training examples can write their answers into the prompt, so an in-distribution gain may be memorization rather than transferable behaviour. We apply reflective prompt evolution (GEPA) to the two system prompts of a multi-agent deep-research agent and evaluate it under a topic-disjoint split in which no topic is shared across train, validation, and test. Held-out citation reward rises by 0.079, from 0.702 to 0.781, with a bootstrap 95\\% confidence interval of [0.051, 0.107], and the gain replicates across three seeds (mean 0.107). Nearly half of the winning prompt is a memorized answer key, yet a controlled ablation shows this content earns no reward even on the exact training questions it encodes. The large validation-minus-held-out gap is therefore small-sample selection under a noisy judge, not memorization. Varying the verifier isolates what makes the gain transfer. Decomposed per-dimension feedback is the causal ingredient, and collapsing it to a single scalar reward makes held-out transfer negative. The gain persists under an out-of-family judge and is largely reproduced by a hand-written version of the discovered recipe. Credible evaluation of prompt optimizers therefore requires held-out topics, multiple seeds, and verifier ablations. We release the candidate prompts, lineage diffs, figures, tables, and analysis.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "af0df20aeca62a60451b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+  "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
+  "text": "No organization in the world operates more robots than Amazon. The company already has more than 1 million robots working in warehouses around the clock to make tens of millions of same-day and one-day package deliveries happen on a daily basis—and Amazon is poised to significantly grow that robotic fleet in the coming years as it establishes new factories to churn out increasingly more capable robot workers.\nDespite deploying so many robots, Amazon is also the second-largest corporate employer in the world, with more than 1.5 million full-time and part-time human workers, according to its 2025 annual report. Amazon executives say that the growing robot fleet has eased the burden on its human workforce by taking on the toughest fulfillment center tasks that carry the greatest risks of physical fatigue and injury. But labor advocacy groups and independent researchers point to evidence suggesting that warehouse automation driven by AI is not all upside for the humans who work alongside robots.\n“For the last 100 years, most of the automation that we've seen usually happens away from workers—you're taking that high-risk task away from the worker, and you're doing so in a way that is not physically proximate,” Brian Greenwood, professor of business at George Mason University, told Ars. “The rise of collaborative robots really changes that dynamic for two reasons: one is that it is physically proximate, and two, the robot has the ability to dictate the pace of work.”\nRead full article\nComments",
+  "published_at": "2026-10-12T12:43:10+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1a1dd2abd44c6c33bc91",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-13/4d3ff80d18d6f374b752ad3a37a408d0a55bd5111aeca9738faf4ae56137462a.body",
+  "source_sha256": "4d3ff80d18d6f374b752ad3a37a408d0a55bd5111aeca9738faf4ae56137462a",
+  "fetched_at": "2026-10-13T01:04:42.542346+00:00"
+}

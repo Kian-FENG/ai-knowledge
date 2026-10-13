@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13207",
+  "title": "SharP: Soft and Hard Prompt-Guided Augmentation with LLM for Low Resource Fake News Detection",
+  "text": "arXiv:2610.13207v1 Announce Type: new\nAbstract: Fake news detection under low resource conditions is challenged by the scarcity of labeled data and the difficulty of capturing subtle deceptive patterns. In this work, we focus on low resource fake news detection, where only a small labeled set is available for training, while evaluation is performed under a fixed and unchanged test protocol. This setting is motivated by costly, ambiguous fact-checking and emerging topics and domains that are poorly covered by existing benchmarks. Existing data augmentation methods, such as synonym substitution, generative adversarial networks, and large language model (LLM)-based generation, often produce fluent but overly generic content, lacking the task-specific relevance needed for accurate detection. To address this, we propose SharP, a boundary-aware text generation framework guided by soft and hard prompts, which leverages LLMs as tools adapted to produce task-specific synthetic samples. SharP employs a dual prompt mechanism: hard prompts provide structured guidance and factual constraints, while soft prompts introduce learned semantic patterns from the data. These two types of prompts are combined to guide the generation process, enabling the model to produce samples that closely align with the characteristics of news. To further enhance detection performance, we incorporate a boundary-aware strategy that steers generation toward areas where the classifier is less confident, helping to clarify subtle distinctions between real and fake content. In addition, we adopt a dual objective optimization that balances semantic alignment with the source data and classifier feedback. This encourages the generation of samples that are both domain-consistent and helpful for refining decision boundaries, ultimately improving model robustness and generalization in low resource fake news detection.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "8df75966e0704e9245a5",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13157",
+  "title": "SOAR: Source-Aware Reinforcement Learning with Precise Credit Assignment for Search Agents",
+  "text": "arXiv:2610.13157v1 Announce Type: new\nAbstract: Reinforcement learning (RL) for search agents often suffers from evidence fabrication, a failure mode where agents bypass external information ($E_{ext}$) and fabricate an incorrect answer. We argue that this fabrication arises from an over-reliance on unreliable internal knowledge ($E_{int}$) as shortcuts due to the inherent opacity of reasoning trajectories. To address this, we propose SOAR (SOurce-Aware Reinforcement learning), a paradigm that transforms monolithic reasoning into source-explicit trajectories. SOAR (i) disentangles $E_{ext}$ and $E_{int}$ into parallel, observable streams via a Source-Aware Workflow, and (ii) incorporates Source-Consistent Reward to guide the policy evolution. By making information-source attribution explicit, SOAR enables precise credit assignment between different knowledge streams. Evaluations show that SOAR outperforms baselines on 3B and 7B backbones by 7.3% and 5.4%, while reducing evidence fabrication by 74.8%. These confirm that SOAR significantly improves performance on knowledge-intensive benchmarks while effectively mitigating evidence fabrication, fostering more faithful and grounded reasoning with enhanced robustness.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "48e90dfbaa7de5c96777",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

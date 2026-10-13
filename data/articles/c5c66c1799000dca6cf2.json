@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13318",
+  "title": "SnapShare: Isolation-Preserving Deduplication for Serverless Snapshots",
+  "text": "arXiv:2610.13318v1 Announce Type: new\nAbstract: The efficiency of serverless computing fundamentally depends on rapid function startup, a challenge increasingly addressed by restoring from virtual machine snapshots. However, because content deduplication techniques can open timing-channel attacks that leak sensitive tenant data, production platforms like AWS Lambda instead enforce strict, zero-sharing isolation between snapshots of different tenants. While secure, this isolation precludes the deduplication of common infrastructure components, wasting per-worker cache capacity and exacerbating cold-start latency through inefficient remote fetching. Our characterization reveals that non-sensitive, shareable infrastructure accounts for roughly 70% of a typical snapshot's contents and, on average, about 50% of its working set.\nWe present SnapShare, a cluster-wide snapshot management system that co-designs storage and caching to exploit this commonality without compromising sensitive data isolation. SnapShare classifies a snapshot page as shareable only when its full content matches that of a page from a provider-approved source; any non-matching content is treated as isolated private content. Common infrastructure components are selectively deduplicated and pinned across the cluster's worker nodes, while private data remains strictly isolated and is eagerly fetched as part of the tracked working set, falling back to on-demand retrieval only for pages that fall outside it. Implemented as an extension to Knative, SnapShare reduces end-to-end tail request slowdowns by 10-29% compared to traditional working-set and chunk-based platforms. It also reduces remote storage requirements by 39% and local cache footprints by 38%, reducing network retrieval payloads and bounding worst-case fetch delays by 10x.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "c5c66c1799000dca6cf2",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

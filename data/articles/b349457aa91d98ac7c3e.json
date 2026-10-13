@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.12874",
+  "title": "Temporal Evidence Forests for Long-Horizon Multi-Party Conversational Memory",
+  "text": "arXiv:2610.12874v1 Announce Type: new\nAbstract: Long-term memory has been widely adopted in LLM-based agents to support persistent interaction and personalized assistance. Long-term multi-party interactions, however, accumulate substantially more detailed information, with decisions repeatedly updated and states evolving across participants and interaction stages. Temporal structure is therefore crucial for tracing such memories: relevant information often appears densely within short intervals, while transitions among different states are anchored by a strict temporal order. Existing temporally aware memory frameworks primarily store time as metadata or use temporal signals to guide retrieval over preconstructed memory structures, without using temporal structure to both recover locally concentrated evidence and reconstruct its complete event progression. To address these limitations, we propose T-Mem, a temporal-structure-based memory framework that preserves interactions and organizes query-relevant evidence through two temporal mechanisms. Temporal Evidence Discovery exploits the local concentration of related messages to recover overlooked evidence, while Temporal Memory Structuring models state transitions and supporting relations over time and compresses low-information spans within the resulting forest. Evidence Forest Linearization then serializes the structured evidence for answer generation. Experiments on two long-term multi-party memory benchmarks demonstrate that T-Mem consistently outperforms competitive memory frameworks across LLMs, parameter settings, domains, and query types.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b349457aa91d98ac7c3e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

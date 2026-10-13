@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-13/4e2300df0feff0ff5ba265b082356c217cae0e873316ecceb9b93f9129e984e2.body",
+  "sha256": "4e2300df0feff0ff5ba265b082356c217cae0e873316ecceb9b93f9129e984e2",
+  "source_url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-13T01:06:12.721559+00:00",
+  "source_id": "nvidia-blog",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "38467",
+    "Server": "Apache",
+    "Link": "<https://blogs.nvidia.com/?p=98706>; rel=shortlink",
+    "Content-Encoding": "gzip",
+    "Edge-Cache-Tag": "blogs.nvidia.com,blogs.nvidia.com/blog/,blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+    "Date": "Tue, 13 Oct 2026 01:06:13 GMT",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "x-accept": "application/atom+xml, application/rss+xml, text/html, */*",
+    "Country-Code": "c_code=US; Path=/; Secure",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "Akamai-Cache-Status": "Hit from child",
+    "Akamai-GRN": "0.e7f12417.1791853573.6f8bd36"
+  },
+  "final_url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+  "truncated": false,
+  "charset": "utf-8"
+}

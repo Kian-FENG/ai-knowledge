@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156857.htm",
+  "title": "PC降价没希望：CPU三大厂接力涨价！Intel、AMD、高通全都要涨",
+  "text": "快科技10月12日消息，据报道，三大处理器厂商正在接力涨价，而台积电则是最大幕后推手。\nIntel自9月起率先上调多世代PC处理器价格，高端Panther Lake涨幅达15%至20%，高通10月1日调高多芯片平台报价约10%，AMD也传出即将跟进涨价。\nIntel去年底以来已三度上调处理器价格，9月1日起按产品线差异化调价，Panther Lake高端产品涨幅最大达15%-20%，Meteor Lake、Arrow Lake上调约5%至10%。Panther Lake并非全系列同步涨价，本次调整集中在搭载高端GPU的产品。\nPanther Lake采用异构集成架构，CPU部分由Intel自家18A制程生产，高端GPU部分则委托台积电N3E制程代工。\n本次涨幅最大的是使用台积电先进制程的高端GPU，凸显晶圆代工成本对CPU最终报价的影响正在加大。\n高通方面，包括骁龙X/X2 Elite等平台10月起上调约10%，高通从手机SoC向PC、边缘计算及其他高性能计算市场扩张，CPU、GPU、NPU规格同步提高，对先进制程及封装的依赖持续加深，芯片成本结构进一步上涨。\nAMD已准备调整部分CPU价格，目前涨幅、范围及生效时间仍待确认，AMD近年锐龙与EPYC均高度依赖台积电先进制程，新一代EPYC更向2纳米推进，先进制程、先进封装及晶圆成本上升都成为后续报价重要变数。",
+  "published_at": "2026-10-12T18:59:51+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ba6527dd95dd24191aef",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/0acea8ba19ef3270c13a53791794cc036e6e94bcaaf588a1ad733990725b9fa5.body",
+  "source_sha256": "0acea8ba19ef3270c13a53791794cc036e6e94bcaaf588a1ad733990725b9fa5",
+  "fetched_at": "2026-10-13T01:04:49.788565+00:00"
+}

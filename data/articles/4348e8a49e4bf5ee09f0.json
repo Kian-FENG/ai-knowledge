@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/012/149.htm",
+  "title": "3 个月、超 5000 亿词元：AI 重建 2009 年《现代战争 2》源代码，83% 与原版逐字节匹配",
+  "text": "IT之家 10 月 13 日消息，开发者莫里斯・霍伊曼（Maurice Heumann）于 10 月 9 日发布项目报告，团队历时 3 个月，消耗超过 5000 亿词元（Tokens），调用 AI 智能体反编译 2009 年《使命召唤：现代战争 2》游戏，并重建为 C++ 源代码。\n团队成员方面，该项目由霍伊曼主导，得到了 RektInator、Future、st0rm 及其他社区成员的协助。\nAI 调用方面，团队最初同时使用 Claude Max (20x) 与 Codex Pro 订阅，在 Claude Code CLI 和 Codex CLI 中运行 AI 智能体。模型涵盖 Sonnet 5、Opus 5.5、Luna、Sol 与 Terra，智能体通过 GitHub Issues 追踪任务，并经 Discord 交换信息。\n项目首月部署 4 个智能体，其中 3 个负责反编译与提交代码，1 个负责审查。该阶段完成约 80% 函数，游戏可启动、显示主菜单并加载地图；但团队发现代码虽具可读性，却存在函数签名、类型、结构布局及逻辑层面的语义错误。\n团队随后引入“逐字节匹配反编译”验证机制。该机制以原游戏编译器重建目标文件，并将重建函数与原 EXE / PDB 中的函数逐字节比对，通过者标记为 PASS，未通过者由智能体重新修改。\n为防止智能体绕过校验，团队禁止内联汇编、裸函数、对象补丁及在代码中嵌入字节，并通过 CI 对验证脚本哈希值与 GitHub Actions secret 比对。该机制使低成本模型也能在严格反馈下完成高精度任务，并取代人工或智能体审查环节。\n项目后期主要运行 14 个 Luna 智能体与 2 个 Opus 5.5 智能体，智能体通过独立分支和 Pull Request 提交代码。最终，99% 的游戏函数已纳入重建源码，83% 的函数达到逐字节匹配；其余函数因非确定性特征或链接器行为难以完全匹配。\n逐字节匹配（Byte-for-byte Matching）是指逐字节匹配指将重建代码编译后的函数二进制数据，与原版程序中的对应函数逐字节比对。若数据一致，通常说明该函数在目标编译环境下保留了与原版相同的语义和行为。\n霍伊曼表示不会公开相关代码，重建成果将仅保留为私人用途。\nIT之家附上参考地址\n500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter",
+  "published_at": "2026-10-13T00:48:06+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4348e8a49e4bf5ee09f0",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/169de7789638607808280e2230262e3bd8c08d56aeb32a478a794d9ea48748c7.body",
+  "source_sha256": "169de7789638607808280e2230262e3bd8c08d56aeb32a478a794d9ea48748c7",
+  "fetched_at": "2026-10-13T01:04:43.328454+00:00"
+}

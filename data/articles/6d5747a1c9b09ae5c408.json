@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+  "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+  "text": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
+  "published_at": "2026-10-12T15:27:59+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6d5747a1c9b09ae5c408",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/a9f7edf208de88024999bdbca1b2c4d3a7af0350e2c77cdbba3487d1f9c12b52.body",
+  "source_sha256": "a9f7edf208de88024999bdbca1b2c4d3a7af0350e2c77cdbba3487d1f9c12b52",
+  "fetched_at": "2026-10-13T01:04:38.617403+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/meta-bans-bytedance-ads-platforms",
+  "title": "Meta Bans ByteDance Ads on Its Platforms",
+  "text": "Meta Platforms has banned advertisements from ByteDance on its platforms in the U.S. and several other markets, Bloomberg and other media outlets reported.\nMeta implemented the ByteDance ad ban in the U.S., Canada, Egypt, Indonesia, Japan, Thailand and Vietnam, according to Bloomberg. The ban ...",
+  "published_at": "2026-10-12T10:43:32+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T00:59:26+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ad2a413ca60e9c4ca81a",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/5392802edc9ed0e8ce4dc63bba1678dd5f728931300cae85cd0f9c89f3157b8c.body",
+  "source_sha256": "5392802edc9ed0e8ce4dc63bba1678dd5f728931300cae85cd0f9c89f3157b8c",
+  "fetched_at": "2026-10-13T01:04:39.927255+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-1B-AWQ",
+  "title": "openbmb/MiniCPM-V-4.7-1B-AWQ",
+  "link_text": "openbmb/MiniCPM-V-4.7-1B-AWQ",
+  "listing_hint": "2026-10-06T17:40:20.000Z",
+  "id": "316b1aeae351b4742a2a",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "openbmb-hf",
+  "source_name": "面壁 OpenBMB · Hugging Face",
+  "section": 2,
+  "raw_path": "raw/2026-10-13/c3ed74b7176fe006945097723b5f040b5af0ebfff1372bc0d2ee931b4e7d9d2b.body",
+  "source_sha256": "c3ed74b7176fe006945097723b5f040b5af0ebfff1372bc0d2ee931b4e7d9d2b",
+  "fetched_at": "2026-10-13T01:04:26.509384+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-13T01:04:26.509384+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

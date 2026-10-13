@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/9dbd99db-6b0c-43bd-b7be-849f129df098?syn-25a6b1a6=1",
+  "title": "China faces uphill battle to wean tech firms off Nvidia chips",
+  "text": "The country’s tech giants are snapping up products never designed to power advanced AI to satisfy soaring computing demands",
+  "published_at": "2026-10-13T00:15:06+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9e9316033f5efcd7dd3b",
+  "source_id": "ft-ai",
+  "source_name": "Financial Times AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/2892f83f83a3c932d8dba5b96d1bb1e28039982462cd696fcdc4099fced7d9cd.body",
+  "source_sha256": "2892f83f83a3c932d8dba5b96d1bb1e28039982462cd696fcdc4099fced7d9cd",
+  "fetched_at": "2026-10-13T01:04:41.632783+00:00"
+}

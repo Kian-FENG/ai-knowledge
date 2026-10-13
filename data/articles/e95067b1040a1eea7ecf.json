@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13398",
+  "title": "Towards the Roof of the World: NLP Progress in Tibetan Languages",
+  "text": "arXiv:2610.13398v1 Announce Type: new\nAbstract: Tibetan, spoken by some seven million people on and around the Qinghai-Xizang Plateau, remains underrepresented in natural language processing (NLP). We present, to our knowledge, the first peer-reviewed systematic bibliometric survey of Tibetan NLP: 140 publications from 2004 to 2026 in the ACL Anthology and DBLP, annotated for venue type, research area, first-affiliation country, and resource release. Output has grown rapidly, with 84% of the publications appearing since 2018, and has expanded bottom-up along the NLP pipeline, from corpora and word segmentation through script, speech, and applications to large language models (LLMs). Researchers based in China first-authored 87% of the publications, which span all 25 represented research areas, whereas work from other countries concentrates on Classical Tibetan. We argue that this full-pipeline paradigm, realized under the compounded constraints of a complex script, dialectal diversity, and geographic remoteness, offers a reference model for other low-resource languages of the Global South. We also identify gaps in dialect coverage, responsible NLP, native and comparable evaluation, cross-community visibility, and resource release (only 29% of the publications release data, code, or models), and recommend open science, shared standards, and community participation for the LLM era.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e95067b1040a1eea7ecf",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

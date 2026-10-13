@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156896.htm",
+  "title": "马斯克：据我所知 只有三家公司拥有足够的编程训练数据",
+  "text": "马斯克近日谈及600亿美元收购Cursor时直言，对超级智能来说，训练数据是关键。与此同时，OpenAI接连聘请Cursor前高管，并即将停止向其供应模型，AI编程赛道的竞争日趋激烈。\n据媒体当地时间10月10日报道，马斯克在谈及收购AI编程公司Cursor的原因时表示，要打造真正出色的超级智能，需要大量训练数据，并且必须“攻克编程”。\n马斯克称，据他所知，拥有足够编程训练数据的机构只有三家：ChatGPT开发商OpenAI、Claude开发商Anthropic，以及Cursor，勉强还可以算上谷歌。\n除数据外，马斯克还提到，Cursor拥有优秀的人才和企业销售团队，这也是其看重的价值所在。\n马斯克旗下航天与AI公司SpaceX已于8月14日完成对Cursor的收购，交易金额约600亿美元。\n目前，Cursor已成为SpaceX的全资子公司，团队并入其AI业务部门。该部门原名SpaceXAI，马斯克近日宣布将其更名为SpaceXSI（SpaceX超级智能），其官方社交账号已完成更名。\nOpenAI“釜底抽薪”？\n然而，马斯克看重的人才团队，正成为竞争对手的挖角目标。\n据媒体当地时间10月8日报道，OpenAI已聘请Cursor前欧洲业务负责人Ismail Elmas，出任欧洲、中东和非洲地区销售副总裁，OpenAI已确认这一任命。\nElmas此前曾负责Cursor在欧洲的业务，今年6月还曾宣布Cursor将在伦敦设立区域总部，并将当地团队扩充至约200人。\n这已不是OpenAI首次从Cursor挖来销售高管。目前担任OpenAI全球销售副总裁的Brian McCarthy，此前曾任Cursor全球营收总裁，在收购完成后转入SpaceX，随后加盟OpenAI。\n与此同时，OpenAI与Cursor的合作也面临终止。\n此前，OpenAI已通知SpaceX，将于11月12日停止向Cursor提供模型，理由是担忧SpaceX能否遵守其服务条款。如今，距这一期限仅剩一个月。\n就在OpenAI宣布将终止向Cursor提供模型后数小时，Anthropic表示将增加Cursor平台上Claude模型可用的算力。\n据Cursor首席执行官Michael Truell此前透露，OpenAI模型仅占Cursor用户流量约5%，模型下线对其短期影响或有限。但在编程AI竞争日趋激烈之际，Cursor能否留住开发者、持续积累马斯克所看重的编程数据，仍值得关注。",
+  "published_at": "2026-10-12T23:47:33+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "025b19d88e8fa7ccc80a",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/0acea8ba19ef3270c13a53791794cc036e6e94bcaaf588a1ad733990725b9fa5.body",
+  "source_sha256": "0acea8ba19ef3270c13a53791794cc036e6e94bcaaf588a1ad733990725b9fa5",
+  "fetched_at": "2026-10-13T01:04:49.788565+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "url": "https://x.ai/news/x-subscription",
+  "title": "Introducing The X Subscription",
+  "text": "Oct 12, 2026\nGrok, Grok Bot, Cursor, and X Premium, all on one plan.\nOver the next few days, we’ll make it available to everyone globally.\nYour shared pool covers Grok models whether you use them in the Grok apps, the Grok tab on X, or Cursor.\nWith the new plans, third-party models are still available in Cursor on Premium and above. Usage is billed separately at API list prices, through top-ups.\nThe X Subscription is available to new customers starting today. We’re also rolling out the option to switch for existing SuperGrok, Cursor, and X Premium subscribers.\nFree $0; Plus $8/month; Premium $30/month 4x Plus Plan; Super $100/month 15x Plus Plan; Ultra $200/month 50x Plus Plan.\nExisting subscribers can keep their current plan or switch and get a prorated refund.\nTeam users get Premium, Super, and Ultra at the same per-seat prices as individual plans.",
+  "raw_path": "raw/2026-10-13/7e0ab2dc14786a29ef661adc934f2947831d1e47074461b1dc9a0aa249db9f8e.txt",
+  "published_at": "2026-10-12T00:00:00+00:00",
+  "date_basis": "published",
+  "extraction": "agent-source-extract",
+  "reading_scope": "原生浏览器已读主文、价格表、团队和迁移段；此归档仅为有限UI文字摘录，非完整HTML；FAQ未展开，资格/税费细则及账户实际开通未核实。",
+  "retrieval_method": "native-browser-limited-ui-extract",
+  "date_precision": "date-only",
+  "imported": true,
+  "id": "ec0714e7c8ff94385ec1",
+  "source_id": "xai",
+  "source_name": "xAI News",
+  "section": 0,
+  "source_sha256": "7e0ab2dc14786a29ef661adc934f2947831d1e47074461b1dc9a0aa249db9f8e",
+  "fetched_at": "2026-10-13T01:22:23.714160+00:00",
+  "date_timezone": "unknown",
+  "date_note": "零点为只知日期的序列化锚点，不是已核实的发布/公告时刻；报告显示日期并披露边界不确定。"
+}

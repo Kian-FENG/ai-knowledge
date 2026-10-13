@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+12 Oct 2026\n+🔔 New article published\n+Muse Wonder and Muse Wonder Full: a material jump in intelligence over previous Meta models\n+Meta has released Muse Wonder and Muse Wonder Full, achieving Artificial Analysis Intelligence Index v4.3 scores of 52 and 56 at max reasoning effort - each a material gain over Muse Spark 1.3 (max) at 48, with a release gap of only 6 weeks\n+🔔 New article published\n+Announcing FrontierCode on Artificial Analysis: can AI models write code maintainers would merge?\n+Cognition's FrontierCode 1.1 tests whether AI models make code changes that maintainers of real open source repositories would merge. Leading models still fail more than 40% of the time.\n+New language model evaluation results available\n+Muse Wonder Full (Max)\n+Intelligence Index: 56\n+New language model evaluation results available\n+Muse Wonder (Max)\n+Intelligence Index: 52\n+Meta performance results now available\n+Muse Wonder (Max)\n+OpenAI performance results now available\n+GPT-6 Astra (Max)GPT-6 Astra (Max)GPT-6.1 Sol (Max)GPT-6 Astra (Max)GPT-6.1 Sol (Max)GPT-6.1 Sol (Max)\n+New Speech to Text model evaluation results available\n+Zoom Scribe V2 Pro\n+Zoom performance results now available\n+Zoom Scribe V2 Pro\n-04 Oct 2026\n-OpenAI performance results now available\n-GPT-6.1 Sol (Max)\n-InclusionAI performance results now available\n-Ling-3.0-flash-VL\n-21 Aug 2026\n-New language model evaluation results available\n-Grok 4.6 (Low)\n-Intelligence Index: 35\n-New language model evaluation results available\n-Grok 4.6 (Medium)\n-Intelligence Index: 43\n-New language model evaluation results available\n-Grok 4.6 (Xhigh)\n-Intelligence Index: 44\n-New language model evaluation results available\n-Qwen3.8 27B (Low)\n-Intelligence Index: 26\n-New language model evaluation results available",
+  "id": "fd96d841f3d1fee864ae",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-13/3986f6a6e0cdd4b6d678670b87e8f96a443a01b27e3fae9061c1ddc072f558f2.body",
+  "source_sha256": "3986f6a6e0cdd4b6d678670b87e8f96a443a01b27e3fae9061c1ddc072f558f2",
+  "fetched_at": "2026-10-13T01:04:34.754876+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-13T01:04:34.754876+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

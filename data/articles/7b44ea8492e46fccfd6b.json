@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13370",
+  "title": "Overcoming Data Imbalances with Expert Selection Biases",
+  "text": "arXiv:2610.13370v1 Announce Type: new\nAbstract: Mixture-of-Experts (MoE) models have become the standard architecture for frontier LLMs. The multiple parallel experts in each transformer block theoretically enable expert specialization according to categories such as domains, languages, or modalities during pretraining. However, when data is imbalanced across categories, minority categories can become concentrated in a small fraction of the expert pool or spread inefficiently across them, effectively limiting their available capacity. In this work, we demonstrate that category-conditioned expert-selection biases can preferentially route tokens from different categories toward specialized expert pools. By applying biases based on input category, we provide a simple way to induce soft category-aligned specialization. This intervention encourages categories toward distinct expert subsets while retaining cross-category sharing when useful. More importantly, it enables the over-allocation of expert capacity to categories that would otherwise be disadvantaged by data scarcity. We observe performance improvements across modalities, low-resource languages, and code in models up to 10.6B parameters. At our smallest and largest model scales, these gains are equivalent to allocating 18.5% and 2.7% additional baseline training tokens, respectively. Overall, our results show that expert biases can serve as a lightweight control for category-level expert allocation, making room for low-resource categories while retaining standard MoE inference.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "7b44ea8492e46fccfd6b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

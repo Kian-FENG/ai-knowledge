@@ -1,0 +1,35 @@
+{
+  "raw_path": "raw/2026-10-13/ae02cf4e0cc32da989f6dd3dec7c86d486119fe20978abdea843b14203f6e4bf.body",
+  "sha256": "ae02cf4e0cc32da989f6dd3dec7c86d486119fe20978abdea843b14203f6e4bf",
+  "source_url": "https://www.scmp.com/rss/36/feed/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-13T01:04:41.463219+00:00",
+  "source_id": "scmp-tech",
+  "status": 200,
+  "headers": {
+    "Date": "Tue, 13 Oct 2026 01:04:42 GMT",
+    "Content-Type": "text/xml; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Content-Encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "x-oss-request-id": "6ACD83AAF7B442393415022D",
+    "last-modified": "Tue, 13 Oct 2026 01:00:36 GMT",
+    "x-oss-object-type": "Normal",
+    "x-oss-hash-crc64ecma": "5086509678348554835",
+    "x-oss-storage-class": "Standard",
+    "expires": "Tue Oct 13 2026 02:00:36 GMT+0000 (Coordinated Universal Time)",
+    "content-md5": "R5UzvTPULk/9TEu4Sbw+0g==",
+    "x-oss-server-time": "2",
+    "cf-cache-status": "DYNAMIC",
+    "Server": "cloudflare",
+    "CF-RAY": "a49a6e868b15cc87-LAX",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "final_url": "https://www.scmp.com/rss/36/feed/",
+  "truncated": false,
+  "charset": "utf-8",
+  "redacted_headers": [
+    "set-cookie"
+  ]
+}

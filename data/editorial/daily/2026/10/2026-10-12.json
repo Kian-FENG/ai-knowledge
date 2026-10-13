@@ -1,0 +1,925 @@
+{
+  "period": "daily",
+  "date": "2026-10-12",
+  "packet_sha256": "2a00781bac9ec227822abcf49fd41040e99315b4b977a00355f323fbeb7368ba",
+  "overview": "本期精选15个事件：订阅组合与共享额度开始影响模型路由，持续Agent和数据应用走向记忆、复用与跨服务执行，硬件则把模型推理与工具执行分层。模思、ModCraft与无问芯穹的融资按公司/媒体披露分别记录，规划、预览和生产状态明确区分。Qwen、MiniMax、高通等正文获取不足，三个中文高频源有漏采窗口；不声称全网完整覆盖。",
+  "source_checks": [
+    {
+      "source_id": "stacklok",
+      "status": "checked",
+      "note": "官网公司页已读；身份背景无日期，旧信息去重；未取得窗口内新公告。"
+    },
+    {
+      "source_id": "peppermint",
+      "status": "checked",
+      "note": "官网融资页已读，Oct8背景已有；不作本期融资。"
+    },
+    {
+      "source_id": "cls-eastmoney",
+      "status": "checked",
+      "note": "已读旧科创板日报页面，为Oct10背景，已去重。"
+    },
+    {
+      "source_id": "ms-decision",
+      "status": "checked",
+      "note": "官方Decision-1页面已读，Oct9背景，不作本期新版本。"
+    },
+    {
+      "source_id": "ms-nadella",
+      "status": "checked",
+      "note": "原X完整文章入口已恢复，Oct10旧文去重；新Maia公告另读Microsoft Blog。"
+    },
+    {
+      "source_id": "nous",
+      "status": "checked",
+      "note": "官网产品/研究介绍实际读；未取得本期dated交付；MISSINGNO模型卡/许可仍未完成核验。"
+    },
+    {
+      "source_id": "healthleap",
+      "status": "checked",
+      "note": "官网旧Seed+A融资页已读，与前期重复；未把爬取日当融资日。"
+    },
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "官方news实际读可见最新Oct8；release notes实际读最新Oct9，API changelog成功采集；昨日GPT6.1媒体后续原公告/定价未确认。"
+    },
+    {
+      "source_id": "openai-api-changelog",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "官方news/research实际读，最新Oct8/9背景；本期未取得新dated正式事件，未声称全部渠道覆盖。"
+    },
+    {
+      "source_id": "anthropic-research",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "anthropic-sitemap",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "官方changelog通过原生浏览器恢复并读，最新Sep10；API页面web工具超时不影响本次实际列表检查；物理AI传闻没有一手确认，未采用。"
+    },
+    {
+      "source_id": "deepseek-api-changelog",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "deepseek-pricing",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "deepseek-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "获取失败/内容不足：原生博客只有导航壳，未恢复正文列表；HF模型入口采集另成功，不等于许可/新版本都核实。"
+    },
+    {
+      "source_id": "qwen-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "kimi-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "zhipu",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "zhipu-cn",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "zhipu-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "failed",
+      "note": "获取失败/内容不足：原生新闻页及新标签页复查均只呈导航，未恢复dated新闻列表；模型HF另采集，M3独立模型卡未核实。"
+    },
+    {
+      "source_id": "minimax-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "mistral",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "meta-newsroom",
+      "status": "checked",
+      "note": "Muse Wonder/Wonder Full官方主文实际读；明确Full当天仅Muse Code订阅者，API/消费端分别描述；未读完整外链模型卡/安全评测。"
+    },
+    {
+      "source_id": "meta-ai-blog",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "deepmind",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "google-ai-blog",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "google-cloud-blog",
+      "status": "checked",
+      "note": "3份精选官方文章主文/SQL/工作流完整读：Looker预览、TimesFM3预览、Data Agent Kit新教程；未执行部署，资格/外链基准尚未核。"
+    },
+    {
+      "source_id": "tencent-newsroom",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "tencent-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "checked",
+      "note": "官网research列表已读，最新可见Aug5；无本期精选，未读全站论文。"
+    },
+    {
+      "source_id": "bytedance-seed-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "checked",
+      "note": "Press Room列表已读，Oct12 Genting Malaysia合作为候选，未读原文，不用于日报事实；其他列表旧项去重。"
+    },
+    {
+      "source_id": "ant-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "robbyant-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "jd-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "xiaomi-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "openbmb-hf",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "原生news及X Subscription主文、价格、共享额度、团队、迁移已读；FAQ未展开、完整资格/账户实用未测。"
+    },
+    {
+      "source_id": "nvidia-newsroom",
+      "status": "checked",
+      "note": "USFP官方主文及前瞻风险已读；开放规范、未来通道数是计划，无量产/订单确认。"
+    },
+    {
+      "source_id": "nvidia-blog",
+      "status": "checked",
+      "note": "OCP官方主文MGX/DSX/Vera及开放组件已读；未核贡献接受、代码全部许可或物理部署。"
+    },
+    {
+      "source_id": "amd-ir",
+      "status": "checked",
+      "note": "Helion官方主文配置/机架及November availability已读；规格待贡献、配置开发中，无实测排名。"
+    },
+    {
+      "source_id": "amazon-news",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "failed",
+      "note": "获取失败/内容不足：两次原生列表未恢复新闻条目，第一次仅0 results壳；不能记为没有新公告。"
+    },
+    {
+      "source_id": "samsung-newsroom",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "skhynix-newsroom",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "asml",
+      "status": "checked",
+      "note": "官方公告列表已读，最新技术合作Sep8；Oct12股票回购不作产业新品，未穷尽财务披露。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "官方dated列表已读，最新Oct8九月收入背景，未当今天发布；不是全体供应链已覆盖。"
+    },
+    {
+      "source_id": "volantis",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "官方release实际打开检查；最近可见v0.5.21为窗口外，未取得本窗口正式版本；ReplaySSM引用PR未逐条审核。"
+    },
+    {
+      "source_id": "sglang-blog",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "官方release实际打开检查；v0.31.0为窗口外；未将ReplaySSM文章的集成描述当正式release。"
+    },
+    {
+      "source_id": "vllm-blog",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "官方release实际打开检查；MiniMax-M3 dev快照为已有背景，非QA生产稳定版，本期无精选新正式release。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "官方release实际打开检查；0.7.1为Oct9背景；ReplaySSM PR未逐条核查正式交付。"
+    },
+    {
+      "source_id": "mooncake",
+      "status": "checked",
+      "note": "官方release实际打开检查；可见发布均窗口外；未穷尽提交/讨论，不当没有开发活动。"
+    },
+    {
+      "source_id": "nvidia",
+      "status": "checked",
+      "note": "ReplaySSM正文、表格与图注已读；图像像素/代码未验证；精确软件提交、输入输出长度不足，不外推kernel到成本。"
+    },
+    {
+      "source_id": "pytorch-blog",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "RSS候选仅筛读标题/摘要；选中KV-Repurpose/SWE-Duel另读arXiv摘要和v1提交史，未读PDF全文/代码。公告日期的零点只作日历锚点，非实际准确时刻。"
+    },
+    {
+      "source_id": "metr",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "uk-aisi",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "artificial-analysis",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "artificial-analysis-changelog",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "semianalysis",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "cisa",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "nist",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "bis",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "miit",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "spc",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "mfa",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "gov-cn-policy",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "chongqing-dsjj",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "nda",
+      "status": "checked",
+      "note": "官方列表恢复，已读可见Sep28等旧项；中文政策发现检索另执行，未覆盖各地全部政策。"
+    },
+    {
+      "source_id": "techcrunch-ai",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "the-decoder",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "the-verge-ai",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "the-information",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "bloomberg-tech",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "ft-tech",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "ft-ai",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "nyt-tech",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "scmp-tech",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "mit-tech-review",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "ars-ai",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "toms-hardware",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "qbitai",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "HTTP采集超时，原生同一RSS入口也导航超时；获取失败，未以其他搜索摘要冒充正文。"
+    },
+    {
+      "source_id": "ithome",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "36kr",
+      "status": "checked",
+      "note": "ModCraft完整RSS正文已读，另核产品官网；融资无一手，法定运营主体待查。模思融资回查公司公告，不依转载增加核验。"
+    },
+    {
+      "source_id": "tmtpost",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "leiphone",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "geekpark",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "zhidx",
+      "status": "checked",
+      "note": "无问芯穹完整RSS正文主要融资/业务段已读；官方证书/获取失败，保留媒体归因，不采纳未经同口径支持的性能排名。"
+    },
+    {
+      "source_id": "c114",
+      "status": "checked",
+      "note": "机器采集受robots限制；原生首页已恢复并读dated热点列表，USFP回查官方另采纳；其他内存锁单/招标线索未回查一手，不作已证实供给变化。"
+    },
+    {
+      "source_id": "mydrivers",
+      "status": "checked",
+      "note": "本次入口采集成功，仅筛选候选/摘要；没有逐篇阅读全文，未精选条目不支持事实结论。限额、未知日期、截断与正文待办详见run与证据包。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "主页可访问但只有Week41/服务导航，新闻日期/正文列表未恢复；获取范围不足、公众号未覆盖，不能当无新闻。"
+    },
+    {
+      "source_id": "techmeme-river",
+      "status": "checked",
+      "note": "river仅发现线索；Decart去重。原生Oct11 h2355历史快照恢复，窗口内早段线索可查；Oct12 h2355晚于本次运行，未用未来快照补全。"
+    },
+    {
+      "source_id": "reflection",
+      "status": "checked",
+      "note": "官网Beam预览旧文已读，权重和许可未来计划不作当前交付。"
+    },
+    {
+      "source_id": "namespace",
+      "status": "checked",
+      "note": "官网blog列表已读，Oct5融资重复，Git Snapshots日期未知，未纳入新发布。"
+    },
+    {
+      "source_id": "vinci",
+      "status": "checked",
+      "note": "官网融资/产品入口已读，Oct6旧项已存；未取得本期dated新公告。"
+    },
+    {
+      "source_id": "today",
+      "status": "failed",
+      "note": "原生配置/blog入口404，获取失败，不能据此称公司无新事件。"
+    },
+    {
+      "source_id": "typesafe",
+      "status": "checked",
+      "note": "官网产品入口已读；旧融资去重，动态当前日期不能当新品发布日期。"
+    },
+    {
+      "source_id": "globalfoundries",
+      "status": "checked",
+      "note": "官方news-and-events已读，Oct8/9先进封装、FD-SOI背景去重。"
+    },
+    {
+      "source_id": "cna-reuters",
+      "status": "checked",
+      "note": "CNA所载Reuters的Amazon/Decart谈判为上一期已收录，去重；未获交易签署的一手确认。"
+    },
+    {
+      "source_id": "odyssey",
+      "status": "checked",
+      "note": "Oct8 Odyssey3研究预览已读、已存；不当本期新发布。"
+    },
+    {
+      "source_id": "vals-ai",
+      "status": "checked",
+      "note": "Oct9多Agent费用评测已读、已存；本期去重，未扩大为所有场景收益。"
+    },
+    {
+      "source_id": "epoch-innovationeval",
+      "status": "checked",
+      "note": "Oct7研究评测已读、已存；本期去重，未完整重读附录/原始GPU日志。"
+    },
+    {
+      "source_id": "decart",
+      "status": "checked",
+      "note": "官网产品DOS/Lucy/Oasis实际读，无明确本期发布日期；未取得收购官方确认。"
+    },
+    {
+      "source_id": "microsoft-blog",
+      "status": "checked",
+      "note": "官方Maia完整主文实际读，投产200与2027计划300分开；外链技术论文未读，基线条件不足不排名。"
+    },
+    {
+      "source_id": "mosi",
+      "status": "checked",
+      "note": "官方融资主文全文及About实际读；MOSS Live即将发布，融资非审计；日期仅天，精确小时不明。"
+    },
+    {
+      "source_id": "modcraft",
+      "status": "checked",
+      "note": "官网产品/编辑器归属实际读并保存有限摘录，无发布日期；法定运营主体/融资一手未确认。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "按Oct11/12窗口执行独家/AI公司英文检索；未读取所有付费稿，重复Decart线索去重，无未读摘要充当正文。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "按窗口英文检索；有重复Decart融资/交易线索，未获取全部付费正文，不算独立双源确认。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "按窗口三家域名检索；付费/robots限制仍有缺口，未以摘要生成事件。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "按窗口中文重点公司及融资发布检索，回查模思官网/ModCraft产品；无问仅媒体。没有将Qwen写成独立公司、Kimi写成公司。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "按窗口中文政策检索并读国家数据局可见列表；多为旧日期，未穷尽全部部门/地方公众号。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "按窗口中文芯片/存储/订单/产能检索；内存长约等媒体线索缺原始披露，未采用。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "按窗口具身/世界模型融资与发布检索；官方Mosi实时交互路线回查，旧Odyssey与未确认DeepSeek传闻去重/排除。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "按窗口HBM/CoWoS/High-NA/管制/价格检索；新Maia/OCP/Helion/USFP主文已读，未据预测推断实际量产。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "按窗口官方域名兜底检索，原生逐查Qwen、MiniMax、xAI、高通、ASML、TSMC；Qwen/MiniMax/高通渲染不足仍为缺口。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "实际开展中英文开放新创公司融资/发布检索；Mosi官网确认主体后新增公司实体，ModCraft确认产品但运营主体待核，仅新增产品实体。Honeyjar原公告为2025年，0G旧初告、Decart旧谈判去重；未把首次发现当公司成立。"
+    },
+    {
+      "source_id": "techmeme-snapshot",
+      "status": "checked",
+      "note": "原生恢复Oct11 h2355历史快照，实际读可见线索；Oct12 h2355在运行之后，不纳入，不能补足整个窗口。"
+    },
+    {
+      "source_id": "infinigence-official",
+      "status": "failed",
+      "note": "官网HTTP获取失败，原生证书验证失败；未绕过安全提示，本期融资只有媒体支持，实体/完整身份等待一手。"
+    },
+    {
+      "source_id": "openai-release-notes",
+      "status": "checked",
+      "note": "官方news实际读可见最新Oct8；release notes实际读最新Oct9，API changelog成功采集；昨日GPT6.1媒体后续原公告/定价未确认。"
+    },
+    {
+      "source_id": "deepseek-official-changelog",
+      "status": "checked",
+      "note": "官方changelog通过原生浏览器恢复并读，最新Sep10；API页面web工具超时不影响本次实际列表检查；物理AI传闻没有一手确认，未采用。"
+    },
+    {
+      "source_id": "kimi-research",
+      "status": "checked",
+      "note": "Kimi官网research实际读，K3为July16背景；HF入口采集并非全部卡/许可核验，ReplaySSM对K3的使用说明保留作者归因。"
+    }
+  ],
+  "items": [
+    {
+      "event_key": "x-subscription-20261012",
+      "section": 0,
+      "title": "X推出统一订阅：Grok用量跨Cursor共享，第三方模型另计费",
+      "article_ids": [
+        "ec0714e7c8ff94385ec1"
+      ],
+      "facts": [
+        "官方10月12日公告将Grok、Grok Bot、Cursor和X Premium纳入一个订阅。新客户当天开始可用，全球及既有账户迁移在随后数日逐步展开；只有日期、无时区和准确小时，窗口边界不确定，前一期未收录。",
+        "公告美元月费为Plus 8、Premium 30、Super 100、Ultra 200；Grok额度可跨Grok应用、X内Grok和Cursor共享。Cursor的第三方模型在Premium及以上仍通过充值按API标价另付费，不能理解为所有模型包月不限量。",
+        "相对分开的助手、编码和社交套餐，增量是产品组合及共享额度。已读官方主文和价格表；税费、完整资格细则、折扣和实际账户开通未核实。"
+      ],
+      "analysis": "判断（derived）：共同额度与社交分发能降低多产品试用门槛、提高自有模型的编码份额，单产品订阅及第三方模型路由可能承压。若用户主要调用第三方模型或用量不匹配，标价下降未必降低总账单；观察模型调用占比、付费转化、留存、充值费用及全球开通范围。",
+      "locators": {
+        "ec0714e7c8ff94385ec1": "官方主文；Plans and pricing价格表；shared pool/third-party models；迁移段。仅归档有限UI摘录，FAQ未展开。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "looker-data-apps-20261012",
+      "section": 0,
+      "title": "Looker Data Apps进入预览：AI生成应用依托语义层，运行时不再调用LLM",
+      "article_ids": [
+        "5f48e0da395a1751b8e4"
+      ],
+      "facts": [
+        "Google Cloud于10月12日发布Looker Data Apps预览：AI生成React数据应用，使用LookML语义层、行级权限和访问控制，并允许查看生成的SQL。",
+        "应用可连接数据更新、Salesforce/Jira等操作；厂商称token用于应用生成，运行时没有LLM token费用。该口径不包含Looker许可、云计算和数据查询成本，也不保证生成的业务逻辑正确。",
+        "相对聊天式BI，新增可持续复用的应用界面与工作流。已读完整主文；账户/地区资格、独立正确性和完整价格未核查。"
+      ],
+      "analysis": "判断（derived）：生成一次、反复运行的应用可能把成本从每轮对话转向构建和维护，语义层及已有企业权限体系受益，按次对话BI承压。指标定义或动作逻辑错误仍会进入应用；观察生成后修改率、权限越界、查询账单及实际使用频率。",
+      "locators": {
+        "5f48e0da395a1751b8e4": "官方主文Introducing Looker Data Apps、governance、runtime token cost及workflow段。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "data-agent-kit-workflow-20261012",
+      "section": 0,
+      "title": "Google发布Data Agent Kit工作流教程，数据Agent向跨服务执行延伸",
+      "article_ids": [
+        "bdf5e1f9335ec197b516"
+      ],
+      "facts": [
+        "10月12日新文章展示Data Agent Kit的MCP、skills及IDE/编码Agent入口，串联GCS、Spark Serverless、BigQuery、dbt、模型训练、Spanner复核队列和Airflow日任务。",
+        "本期新增的是跨数据服务工作流教程，不据此确定工具包首次发布日。示例明确由人审阅和运行生成产物，风控标记进入复核队列，不能记为已验证的全自主反欺诈部署。",
+        "已读完整教程主文；没有执行示例、核实生产客户效果或测算token和云服务账单。"
+      ],
+      "analysis": "判断（derived）：统一编码入口能减少多服务间配置切换，云数据平台与集成插件可能受益；服务权限、调度错误及维护开销会抵消效率提升。观察可重跑率、人工接管、上线周期和全链路费用，客户案例不能从教程直接推导。",
+      "locators": {
+        "bdf5e1f9335ec197b516": "官方主文Data Agent Kit/MCP/skills、fraud workflow、human review、daily DAG示例。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "mosi-pre-a-20261012",
+      "section": 1,
+      "title": "模思智能官宣超10亿元Pre-A，MOSS Live仍为即将发布",
+      "article_ids": [
+        "ae754d33ee3b34e19664"
+      ],
+      "facts": [
+        "公司10月12日公告完成超CNY 10亿元Pre-A轮，由华控基金领投，资金用于全模态实时交互研发与全球商业化。金额是融资披露，不是估值、收入或ARR；真实交割未独立审计，正文仅有日期，精确边界不确定。",
+        "另读官网About确认上海模思智能科技有限公司、上海总部及OpenMOSS团队归属。MOSS Live明确“即将发布”：前端持续看听说、后端负责推理与执行，不能写成已对所有用户可用。",
+        "相对既有语音/视觉模型研究，本期增量是融资与系统化交互路线；交互数据回流AI for AI训练仍属公司愿景，未见生产延迟、可靠性和客户采用的独立证据。"
+      ],
+      "analysis": "判断（derived）：前后端分工可能让眼镜、座舱等连续交互入口同时保持响应与任务执行，相关设备和多模态服务受益。若感知滞后、权限管理或设备分发受限，资金和模型数量无法转化为采用；观察MOSS Live正式交付、端到端延迟、打断恢复和付费客户。",
+      "locators": {
+        "ae754d33ee3b34e19664": "官方融资首段；从模型到系统/MOSS Live即将发布；AI for AI数据闭环；身份另见About。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "modcraft-seed-20261012",
+      "section": 1,
+      "title": "36氪：ModCraft获数千万元种子轮，AI Mod创作连接社区分发",
+      "article_ids": [
+        "720c9f5feecf1b1b3fc0"
+      ],
+      "facts": [
+        "36氪10月12日北京时间19:04:50报道ModCraft完成CNY数千万元种子融资，投资方为商汤国香资本和L2F光源创业者基金；精确金额、交割日与估值未披露，融资仍为媒体归因，未取得公司/投资方公告。",
+        "产品官网modcraft.games确认自然语言Mod创作、ModCraft V1 Pro和editor.modcraft.games入口；不与其他同名Minecraft工具合并。法定运营主体尚未确认，本次建立产品实体。",
+        "媒体描述订阅、付费Mod分发与B2B定制/训练数据等方向，属于商业路线，不能作已有收入。报道游戏适配数量与单次token消耗不是独立用户/成本统计。"
+      ],
+      "analysis": "判断（derived）：把创作和发现、试玩、分享连成社区可扩大非程序员创作者供给，游戏生态和分发平台可能受益。若游戏更新频繁破坏兼容、内容授权或质量验证昂贵，生成门槛下降也难形成收入；观察安装成功率、重复创作、付费转化、分成和支持维护成本。",
+      "locators": {
+        "720c9f5feecf1b1b3fc0": "已读36氪完整RSS正文融资/产品/商业路线段；另读官网身份，非官方融资证据。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "infinigence-c-round-20261012",
+      "section": 1,
+      "title": "智东西：无问芯穹近日完成23亿元C轮，融资不等同算力收入",
+      "article_ids": [
+        "17b0c9ab76c977705190"
+      ],
+      "facts": [
+        "智东西10月12日北京时间10:25:34报道无问芯穹近日完成CNY 23亿元C轮，累计融资CNY 43亿元。23亿元是本轮、43亿元是累计，均不是收入、ARR或估值；实际交割日期未明确，本期收录报道增量。",
+        "报道将业务定位为异构算力协同与AI服务基础设施。官方infinigence-ai.com获取失败/证书问题，本次不以多家转载提高为独立核实，也不新增未经一手身份核实的公司实体。",
+        "只采用媒体可支持的融资与业务描述；没有据此验证算力规模、利用率或厂商性能/行业排名。"
+      ],
+      "analysis": "判断（derived）：资金可能支持异构部署、客户服务和供给整合，国产芯片生态及需要跨平台推理的企业可能受益。硬件适配、资本开支和低利用率也可能吞噬规模收益；观察正式公告、付费客户、实际利用率、现金消耗及跨芯片迁移成本。",
+      "locators": {
+        "17b0c9ab76c977705190": "智东西完整RSS正文开头融资金额/近日/累计；业务描述。官方获取失败，未独立审计。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "meta-muse-wonder-20261012",
+      "section": 2,
+      "title": "Meta发布Muse Wonder系列：记忆与持续任务能力进入产品分发",
+      "article_ids": [
+        "033e5603f4dfe677d6e5"
+      ],
+      "facts": [
+        "Meta于10月12日17:08:05 UTC发布Muse Wonder与Muse Wonder Full，基于Muse Spark，强调Active Memory跨会话提取相关信息、Active Focus持续尝试和错误恢复，并在重要行动前确认。",
+        "公告Takeaways明确Wonder当天通过Meta Model API与Muse Code提供，Wonder Full当天面向Muse Code订阅者；消费者Muse中的Wonder体验仍将随后向订阅者先行推出。不能把两款的API和消费端可用范围混为一谈。",
+        "相对此前持续Agent研究，本期新增模型与分发。已读新闻主文，未读研究博客全部评测/模型卡；“最强/领先”仅是厂商主张，不采用跨模型排名，权重许可和价格待核。"
+      ],
+      "analysis": "判断（derived）：记忆和任务恢复可能减少用户反复解释的成本，个人助手与编码应用受益，并提高入口和订阅的黏性。错误记忆或失败重试可能增加成本且扩大错误；观察正确完成率、恢复成功率、记忆可控性、实际开放范围与总任务费用。",
+      "locators": {
+        "033e5603f4dfe677d6e5": "官方Takeaways可用范围、Built for Real World Needs、Active Memory/Focus与Safety主文；未读外链研究评测。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "timesfm3-preview-20261012",
+      "section": 2,
+      "title": "BigQuery TimesFM 3.0预览支持多变量时间序列预测",
+      "article_ids": [
+        "8ed5ee4fe4ff7288d32e"
+      ],
+      "facts": [
+        "Google Cloud 10月12日文章宣布TimesFM 3.0在BigQuery进入预览，330M参数，原生多变量预测，并通过AI.FORECAST的SQL入口使用。相对2.0/2.5仅单变量，本期增量是关联目标及协变量。",
+        "文中区分仅历史可用的协变量和可提前知道的未来协变量；不能将未来未知的真实数据泄漏进预测。文章给出单变量/异常检测迁移及对话分析示例。",
+        "已读完整主文和SQL示例；GIFT-Eval、FEV-Bench、TIME的领先为厂商披露，未读具体评测版本/预算/外链表格，不作排名。地区、价格与权重许可未核实。"
+      ],
+      "analysis": "判断（derived）：零样本多变量预测嵌入数据库可降低构建专用模型和数据搬运门槛，已有SQL数据栈受益。分布漂移、协变量不可得或治理不足会削弱效果；观察分行业回测、基线误差、上线漂移、协变量泄漏和完整查询费用。",
+      "locators": {
+        "8ed5ee4fe4ff7288d32e": "官方主文TimesFM3 preview、330M、多变量/协变量、AI.FORECAST SQL和migration；外链评测未读。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "replayssm-storage-20261012",
+      "section": 3,
+      "title": "NVIDIA详解ReplaySSM：减少混合模型状态写入，收益取决于批量",
+      "article_ids": [
+        "3ea8663ef4cdebc3be70"
+      ],
+      "facts": [
+        "10月12日新技术文章解释ReplaySSM的检查点+近期输入缓冲方案，将输出计算与状态写回分离，每L=16步刷新，面向SSM/混合模型解码。报道解释既有方法及集成，不把全部算法或集成的首次发布日标成今天。",
+        "文中Nemotron-3-Nano-4B、Nemotron-3-Super-120B-A12B、Qwen3.5-4B、Qwen3.5-122B-A10B四款模型单GPU、TP=1实验：小模型BF16/H100，大模型NVFP4/B300，状态FP32、L=16；batch256的decode-step为1.20–1.47倍，batch1无收益。基线为vLLM kernel；精确软件提交和统一输入输出长度未明确，不能推导通用端到端降本。",
+        "量化另测FP16/FP8与随机舍入，小模型出现明显精度损失例外。文中列出TRT-LLM/vLLM/SGLang/FlashInfer相关PR和Kimi使用相关输入缓存的说法；未逐项审核PR、正式release或实际生产部署。"
+      ],
+      "analysis": "判断（derived）：高并发状态带宽瓶颈下，重算少量递推换取少写内存可能提升混合模型服务吞吐，推理引擎受益；低batch、计算瓶颈或精度损失会消除收益。观察真实流量分布、尾延迟、显存峰值、精度和对应稳定版本，不直接把kernel倍数当成本降幅。",
+      "locators": {
+        "3ea8663ef4cdebc3be70": "官方主文存储/flush机制；Table1模型/硬件；batch1/256图说明；量化表例外；集成PR引用。图像像素/代码与部署未复核。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "kv-repurpose-20261012",
+      "section": 4,
+      "title": "KV-Repurpose论文公告：非前缀缓存复用需要质量约束",
+      "article_ids": [
+        "5842281b1b06584c8f29"
+      ],
+      "facts": [
+        "arXiv本期RSS以10月12日公告KV-Repurpose v1；提交历史为10月9日06:17:10 UTC。公告只有日期、具体时刻不明，不把较早提交写成今天首发；前期未收录。",
+        "摘要提出vLLM基础的分段KV复用测试床，包含缓存感知调度、prompt组织、容量与工作负载监控。作者报告朴素复用在单文档问答/摘要中较能保持质量，但跨文档推理有明显限制。",
+        "仅读摘要、版本与提交历史，未读论文全文/代码、硬件和精确软件配置；因此不采纳缓存命中率/TTFT为普遍性能结论，开源许可也未从仓库独立核验。"
+      ],
+      "analysis": "判断（derived）：在检索文档重复而prompt前缀不同的场景，复用可能降低预填充，RAG平台受益。跨文档依赖改变会使缓存失真；观察质量分层、容量和命中率、TTFT分布及隔离策略，而非只看缓存命中。",
+      "locators": {
+        "5842281b1b06584c8f29": "arXiv2610.13060v1 Abstract与Submission history；公告日另见本期RSS原始归档。仅摘要阅读。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "swe-duel-20261012",
+      "section": 4,
+      "title": "SWE-Duel论文公告：编码Agent互相出题，评测对象仍是模型与harness组合",
+      "article_ids": [
+        "23d65be69b099d33638e"
+      ],
+      "facts": [
+        "arXiv本期RSS于10月12日公告SWE-Duel v1，提交于10月8日18:01:00 UTC。日期精度仅到天、边界不确定；是本期公告增量，不是提交日当天。",
+        "红方分三个上下文隔离会话实现功能、加入缺陷及封存测试，任务须通过功能/既有测试、失败于缺陷测试且能被同一Agent新会话盲修；蓝方不被告知存在缺陷，修复须过全部三类测试，再交换角色。",
+        "摘要报告11个model-harness组合、15个仓库、5种语言、1500轮；仅读摘要与版本史，未读全文预算和具体环境。不用不同harness的分数排列基础模型，也不把动态生成任务视为现实缺陷分布的完整替代。"
+      ],
+      "analysis": "判断（derived）：生成时才创建任务与测试可能缓解固定题泄漏和饱和，评测工具和编码质量控制受益。测试盲区、出题策略或预算差异仍会偏置结果；观察任务可解率、独立人工审查、真实缺陷迁移及相同harness/预算下的稳定性。",
+      "locators": {
+        "23d65be69b099d33638e": "arXiv2610.12569v1 Abstract、model-harness样本范围与Submission history；RSS公告日；未读全文。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "maia300-roadmap-20261012",
+      "section": 5,
+      "title": "微软：Maia 200已用于生产，Maia 300及多GW部署从2027年开始",
+      "article_ids": [
+        "b43fc89aefdae0f55a56"
+      ],
+      "facts": [
+        "微软10月12日官方公告称Maia 200正在服务Microsoft Copilot和MAI生产工作负载，GitHub Copilot与Foundry计划年底前跟进；Maia家族多GW部署与Maia 300生产部署从2027年开始。日期没有精确时区/小时，边界不确定。",
+        "Maia 300面向长上下文和decode密集推理，采用TSMC N2P计算chiplet、独立内存/I/O功能及8个HBM4堆叠；公司披露18TB/s峰值带宽和950W TDP，96加速器机架167kW。均是设计披露，不能记为已经交付的扩产。",
+        "相对既有GPU服务供给，本期新增自研推理系统路线。未读外链技术论文；40% tokens/MW及7倍机架吞吐缺同口径模型/精度/长度/并发和GPU基线，不作通用排名或价格降幅。"
+      ],
+      "analysis": "判断（derived）：有规模的自有应用为专用推理芯片提供稳定需求，微软服务与HBM4/先进制程供给可能受益，通用GPU在部分内部推理负载份额可能承压。软件适配、利用率与交付延误会限制替换；观察2027产能、实际服务覆盖、同口径任务能效和单位任务账单。",
+      "locators": {
+        "b43fc89aefdae0f55a56": "官方主文Maia200生产与年底跟进；Maia300功能/机架参数；2027生产部署段。技术论文未读。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "amd-helion-20261012",
+      "section": 5,
+      "title": "AMD展示Helion Agent执行机架蓝图，计划11月提供配置",
+      "article_ids": [
+        "013238a25b04ff0a4da6"
+      ],
+      "facts": [
+        "AMD于10月12日09:00美东公告基于OCP规范的Helion机架蓝图：CPU配置面向工具执行/编排并连接外部模型推理，混合配置结合EPYC与MI350P用于一体部署。",
+        "CPU配置最高32768个第六代EPYC核心，并支持风冷/液冷和token router。公司计划向OCP贡献规范，配置仍在开发，计划2026年11月可用；不能说已贡献通过、今天正式发货或有生产客户。",
+        "增量是将Agent执行层与模型推理层分别组织。核心数不是GPU推理能力或已测系统吞吐，未取得独立任务基准/部署成本。"
+      ],
+      "analysis": "判断（derived）：工具和沙箱执行扩张可能产生独立CPU机架需求，AMD及执行平台受益，同时与模型GPU集群形成互补。若任务主要受推理或外部工具等待约束，大CPU配置会低利用率；观察CPU时间占比、并发隔离、实际11月交付和每任务完整成本。",
+      "locators": {
+        "013238a25b04ff0a4da6": "官方主文CPU-only/hybrid配置、32768cores、token router、OCP计划与availability November；前瞻风险段。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "nvidia-ocp-rack-20261012",
+      "section": 5,
+      "title": "NVIDIA向OCP贡献MGX 1.2，开放机架与运维组件围绕Agent供给扩展",
+      "article_ids": [
+        "cb1d8044b50f43a24e9c"
+      ],
+      "facts": [
+        "NVIDIA 10月12日OCP文章称贡献MGX 1.2的Vera Rubin机架/托盘设计，包括液冷盲插、5000A母线、19英寸组件和250kW机架设计；Vera CPU机架面向工具、沙箱执行与编排。设计规格不等于已部署功率或出货量。",
+        "DSX OS开放Config Manager、Cluster Readiness Engine、Rack Management Service、Cluster API provider；另描述Open Data Center Spec v0.7等跨厂商协作。尚未逐一审阅代码许可、贡献验收和生产部署。",
+        "相对已有Dynamo软件研究，本期增量是机架接口、冷却、电力与运维开放组件。文章涉及的未来性能和电网响应不作为独立实测结论；USFP规格另列，避免重复算事件。"
+      ],
+      "analysis": "判断（derived）：接口和运维组件共用可能降低机架集成摩擦，ODM、数据中心与液冷电力配套受益，也增强围绕NVIDIA设计的生态集中。高功率改造、供应约束和跨厂商兼容成本可能抵消开放收益；观察实际采纳、互操作验收、交付周期、故障恢复和设施成本。",
+      "locators": {
+        "cb1d8044b50f43a24e9c": "官方MGX1.2/Vera rack/DSX OS/Open Data Center Spec段；只采用已读正文，代码/物理部署未验证。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "usfp-optics-20261012",
+      "section": 5,
+      "title": "NVIDIA与Cisco提出USFP光模块形态，开放多源规范仍待推进",
+      "article_ids": [
+        "a97a4b762d9a9912aa19"
+      ],
+      "facts": [
+        "10月12日15:00 UTC官方公告USFP可插拔光模块形态，目标在接近OSFP尺寸中容纳16个全双工光通道、每通道400Gb/s，聚合最高12.8Tb/s；后续32通道属路线规划。聚合带宽与单通道速率分开。",
+        "公司计划在即将开展的多源项目中形成开放行业规范，并列出TE/Amphenol等生态伙伴。没有确认上市/交付日期、认证互操作或客户订单，不能记为正式规范发布和已量产。",
+        "相对普通光模块，本期新增更高端口密度的结构提案。4倍密度与1.3倍功耗是厂商设计比较，未得同口径实测，不直接推导网络成本下降。"
+      ],
+      "analysis": "判断（derived）：提高每接口光通道数可能缓解规模化AI网络的面板密度瓶颈，连接器、光器件与交换机供给可能受益。散热、良率、线缆管理和多源兼容会决定实际价值；观察最终规格、互操作、可靠性、可用产能及每比特总成本。",
+      "locators": {
+        "a97a4b762d9a9912aa19": "官方USFP形态/16lane/400G/12.8Tbps、多源开放计划与forward-looking段；无量产独立验证。"
+      },
+      "reviewed": true
+    }
+  ]
+}

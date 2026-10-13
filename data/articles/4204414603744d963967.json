@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/research/distillation-defenses",
+  "title": "Oct 12, 2026Strengthening our defenses against distillation attacks",
+  "link_text": "Oct 12, 2026Strengthening our defenses against distillation attacks",
+  "id": "4204414603744d963967",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "anthropic-research",
+  "source_name": "Anthropic Research",
+  "section": 2,
+  "raw_path": "raw/2026-10-13/e8c4f72a42b16c7051ff4d7c16dfb7259d18c92ceadb6a115eff271ce6e7d7f0.body",
+  "source_sha256": "e8c4f72a42b16c7051ff4d7c16dfb7259d18c92ceadb6a115eff271ce6e7d7f0",
+  "fetched_at": "2026-10-13T01:04:12.557600+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-13T01:04:12.557600+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

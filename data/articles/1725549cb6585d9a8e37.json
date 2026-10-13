@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13121",
+  "title": "BenCoDiC: A Large-Scale Contextual Cyberbullying Corpus for Bengali Political News Discourse FULL VERSION",
+  "text": "arXiv:2610.13121v1 Announce Type: new\nAbstract: Cyberbullying is a growing concern in online communities, yet existing Bengali corpora remain limited in contextual information, annotation transparency, scale, accessibility, and support for multidimensional analysis, thereby hindering robust detection and comprehensive study of harasser behaviors and networks. To address these gaps, we introduce the Bengali Contextual and Diverse Cyberbullying (\\textit{BenCoDiC}) corpus, a publicly available contextual cyberbullying resource for Bengali political news discourse comprising 50,250 textual instances collected from 100 YouTube videos and their associated discussions. The corpus preserves caption--comment--reply relationships and is organized through a nine-dimensional star schema covering users, videos, textual content, context, time, engagement, political parties, target identities, and language categories. Five AI chatbots were initially evaluated for annotation but did not meet the predefined reliability criterion. Consequently, a two-tier human annotation process with expert verification was adopted, achieving Fleiss' $\\kappa=0.86$ and Krippendorff's $\\alpha=0.86$. Statistical analyses characterize the corpus, while transformer-based experiments show that incorporating conversational context yields modest but consistent improvements over isolated-text classification. \\textit{BenCoDiC} supports context-aware cyberbullying detection and perpetrator-oriented behavioral and network analysis. The corpus is available at https://github.com/bencodic/BenCoDiC-Corpus.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "1725549cb6585d9a8e37",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

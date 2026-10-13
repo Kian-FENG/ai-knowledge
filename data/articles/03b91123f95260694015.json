@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.12864",
+  "title": "Time Delay System for Sequence Modeling",
+  "text": "arXiv:2610.12864v1 Announce Type: new\nAbstract: Existing sequence models share a critical limitation: they lack an explicit, interpretable mechanism for content-aware temporal recall. LSTMs compress everything into a single hidden state, thereby losing information about specific past events. Transformers attend to all tokens indiscriminately at quadratic cost, while state-space models like Mamba compress history into a fixed-dimensional state without explicit content-addressable memory. To address this gap, we introduce a novel framework grounded in nonlinear time-delay systems, in which the effective delay is dynamically estimated based on the semantic similarity between current and historical inputs. Our approach features three key innovations: (i) a differentiable semantic lag estimator that computes content-aware soft attention weights over history, producing a weighted historical context and similarity score; (ii) a diagonal state space with closed-form cumulative sum solution, achieving O(1) per-step complexity with no sequential loops; and (iii) an interpretable fuzzy semantic modulation mechanism that learns context-dependent rules for balancing instantaneous processing versus historical recall, where rule centers correspond to prototypical semantic contexts. Experimental results on text classification and generation outperform state-of-the-art methods.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "03b91123f95260694015",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

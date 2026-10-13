@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/012/138.htm",
+  "title": "Meta 发布 Muse Wonder 系列旗舰 AI 模型，对标 Anthropic 与 OpenAI",
+  "text": "IT之家 10 月 13 日消息，Meta 于当地时间周一发布了全新一代尖端旗舰人工智能模型，力图在人工智能竞赛中追赶 Anthropic、OpenAI 等竞争对手。\nMeta 提供的数据显示，两款新模型名为 Muse Wonder 与 Muse Wonder Full，在推理、写作与代码能力测试中，得分已经接近 Anthropic 的顶尖模型。\nMeta 首席执行官马克 · 扎克伯格（Mark Zuckerberg）在该公司人工智能技术研发遭遇挫折后，于去年对公司的人工智能部门进行了重组。此后，公司陆续推出了多款新 AI 模型与 AI 产品，服务 Instagram、Facebook、WhatsApp 平台的合计 35 亿用户。Muse 是 Meta 推出的 AI 智能体应用，可以代替用户操作各类软件与应用程序，这款应用在上个月上线后的数周内，便登上应用商店榜首。\nMuse Wonder 面世之际，业界对尖端 AI 模型与 AI 智能体的担忧持续升温，已有部分智能体出现失控情况，侵入企业系统、干扰政府网站。扎克伯格尝试为 Meta 的技术打造差异化叙事，Meta 模型的底层架构和 Anthropic、OpenAI 的模型相近，但他强调人工智能应当具备实用价值、赋能用户，而非带来危险。\n2025 年 6 月，Meta 聘请 AI 初创企业 Scale AI 创始人亚历山大 · 王（Alexandr Wang）担任首席人工智能官，此后便启动 Muse Wonder 的研发。Muse Wonder 是亚历山大 · 王所领导 AI 部门推出的第二代 AI 模型，也是 Meta 首款宣称用于对标前沿模型的产品，这类前沿模型通常需要极高算力才能运行。\nMeta 表示，Muse Wonder 不久后将为 Muse 应用的部分功能提供底层能力。Muse Wonder Full 是性能更强的版本，仅对 Meta 高级 AI 编程工具 Muse Code 的订阅用户开放。\n这两款内部开发代号为西瓜（Watermelon）的新模型，代码编写能力相比 Meta 过往模型有大幅提升。AI 编程市场目前由 Anthropic 与 OpenAI 主导，而 Meta 正努力拓展面向其他企业的 AI 服务业务。\nIT之家注意到，Muse Wonder 在研发过程中曾遭遇波折。《纽约时报》此前报道，Meta 在 7 月暂停了模型预训练环节，导致模型发布推迟至本月。\n上周末，扎克伯格在 Instagram 直播一边烤肉，一边预告这款新 AI 模型，他还在直播中提到菜单里还有一样东西：“一个大西瓜。”",
+  "published_at": "2026-10-12T23:30:53+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "fa5036457c47eeaf3141",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/169de7789638607808280e2230262e3bd8c08d56aeb32a478a794d9ea48748c7.body",
+  "source_sha256": "169de7789638607808280e2230262e3bd8c08d56aeb32a478a794d9ea48748c7",
+  "fetched_at": "2026-10-13T01:04:43.328454+00:00"
+}

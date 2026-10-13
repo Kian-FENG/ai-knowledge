@@ -5,13 +5,31 @@ Generated; published pages only. Do not hand-edit.
 ## 2026-10-12
 
 - `entity` [[reference/entities/decart|Decart：优化栈DOS与实时世界模型]]
+- `entity` [[reference/entities/modcraft|ModCraft：自然语言Mod创作与社区分发产品]]
+- `entity` [[reference/entities/mosi|模思智能：OpenMOSS团队孵化的实时全模态交互公司]]
 - `entity` [[reference/entities/odyssey|Odyssey：交互世界模型与Odyssey-3研究预览]]
+- `paper` [[reference/papers/kv-repurpose-20261012|KV-Repurpose论文公告：非前缀缓存复用需要质量约束]]
+- `paper` [[reference/papers/swe-duel-20261012|SWE-Duel论文公告：编码Agent互相出题，评测对象仍是模型与harness组合]]
 - `source` [[reference/sources/amazon-decart-talks-20261011|Reuters转述WSJ：Amazon洽谈约70亿美元收购Decart，未达成]]
+- `source` [[reference/sources/amd-helion-20261012|AMD展示Helion Agent执行机架蓝图，计划11月提供配置]]
+- `source` [[reference/sources/data-agent-kit-workflow-20261012|Google发布Data Agent Kit工作流教程，数据Agent向跨服务执行延伸]]
 - `source` [[reference/sources/decart-products-undated|Decart官网产品归属：DOS、Lucy、Oasis与未知发布日期]]
 - `source` [[reference/sources/epoch-innovationeval-20261007|Epoch InnovationEval：遵守研究规则后的改进显著收缩]]
 - `source` [[reference/sources/gpt61-sol-context-20261011|媒体：GPT-6.1 Sol默认上下文扩至500k，订阅扣量范围待原公告核验]]
+- `source` [[reference/sources/infinigence-c-round-20261012|智东西：无问芯穹近日完成23亿元C轮，融资不等同算力收入]]
+- `source` [[reference/sources/looker-data-apps-20261012|Looker Data Apps进入预览：AI生成应用依托语义层，运行时不再调用LLM]]
+- `source` [[reference/sources/maia300-roadmap-20261012|微软：Maia 200已用于生产，Maia 300及多GW部署从2027年开始]]
+- `source` [[reference/sources/meta-muse-wonder-20261012|Meta发布Muse Wonder系列：记忆与持续任务能力进入产品分发]]
+- `source` [[reference/sources/modcraft-seed-20261012|36氪：ModCraft获数千万元种子轮，AI Mod创作连接社区分发]]
+- `source` [[reference/sources/mosi-pre-a-20261012|模思智能官宣超10亿元Pre-A，MOSS Live仍为即将发布]]
+- `source` [[reference/sources/nvidia-ocp-rack-20261012|NVIDIA向OCP贡献MGX 1.2，开放机架与运维组件围绕Agent供给扩展]]
 - `source` [[reference/sources/odyssey3-preview-20261008|Odyssey-3研究预览：交互生成与闭环控制证据分开]]
+- `source` [[reference/sources/replayssm-storage-20261012|NVIDIA详解ReplaySSM：减少混合模型状态写入，收益取决于批量]]
+- `source` [[reference/sources/timesfm3-preview-20261012|BigQuery TimesFM 3.0预览支持多变量时间序列预测]]
+- `source` [[reference/sources/usfp-optics-20261012|NVIDIA与Cisco提出USFP光模块形态，开放多源规范仍待推进]]
 - `source` [[reference/sources/vals-multi-agent-cost-20261009|Vals评测：多Agent费用增加，收益取决于模型与预算]]
+- `source` [[reference/sources/x-subscription-20261012|X推出统一订阅：Grok用量跨Cursor共享，第三方模型另计费]]
+- `note` [[research/synthesis/agent-execution-and-inference-economics-20261012|Agent成本开始分层：订阅共享、应用复用、执行机架与状态缓存]]
 
 ## 2026-10-11
 

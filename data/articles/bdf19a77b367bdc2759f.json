@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.12757",
+  "title": "MADS: Multi-Agent Dialog Simulation for Robust Conversational Agents",
+  "text": "arXiv:2610.12757v1 Announce Type: new\nAbstract: Task-oriented conversational agents remain fragile under realistic conditions, especially when users exhibit non-cooperative behavior. Existing function-calling benchmarks underrepresent adversarial conversation trajectories, thereby limiting the training resources available for developing robust agents. We present MADS (Multi-Agent Dialog Simulation), a synthetic data generation pipeline that produces structured, diverse dialogue trajectories. We inject adversarial conversation, producing validated conversation trajectories that capture realistic, unhappy paths. Using MADS, we construct MADS-Bench: a benchmark spanning six domains, 55 personas, and 1095 conversations, with approximately 66% of conversations containing failure-prone conversation scenarios. We evaluate the robustness of the trained models using a two-stage training approach that combines supervised fine-tuning (SFT) and reinforcement learning with verifiable rewards (RLVR).",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "bdf19a77b367bdc2759f",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

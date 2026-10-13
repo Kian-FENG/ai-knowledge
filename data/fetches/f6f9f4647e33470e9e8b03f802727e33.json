@@ -1,0 +1,39 @@
+{
+  "raw_path": "raw/2026-10-13/75a0c63b929c7e9da7dde6d4bdc7e91212ff21c00bcfba15e6aacfd07f171924.body",
+  "sha256": "75a0c63b929c7e9da7dde6d4bdc7e91212ff21c00bcfba15e6aacfd07f171924",
+  "source_url": "https://cloud.google.com/blog/products/business-intelligence/introducing-looker-data-apps/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-13T01:06:02.818748+00:00",
+  "source_id": "google-cloud-blog",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+    "x-ua-compatible": "IE=edge",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+    "Date": "Tue, 13 Oct 2026 01:06:04 GMT",
+    "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Content-Security-Policy": "script-src 'report-sample' 'nonce-DslK_7snC4p-RRihk0PjAA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /blog/_/TransformBlogUi/cspreport;worker-src 'self' blob:",
+    "Cross-Origin-Resource-Policy": "same-site",
+    "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+    "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+    "reporting-endpoints": "default=\"/blog/_/TransformBlogUi/web-reports?context=eJzjKtDikmJw1JBiiHv6mIn90ROm1pvnWKcDccmi86xtQNwFxHOAWM31AquhwiVWZyAukrjC2gLEn6pusIpU32BVOnOL9VuxLxtHiS9b-14_Npa3_mxPXweyTQsJYgs9HsSmcCOSLUQmhm2OZyybEA_Hn_Zt19gEHizbe4FRSTspvzA-OSe_NKVCtzw1STcpJz9dtzSzOLWoLLUo3sjAyMzQwNBIz8AwvsAAALk2QJc\"",
+    "Transfer-Encoding": "chunked",
+    "Server": "ESF",
+    "X-XSS-Protection": "0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close"
+  },
+  "final_url": "https://cloud.google.com/blog/products/business-intelligence/introducing-looker-data-apps/",
+  "truncated": false,
+  "charset": "utf-8",
+  "redacted_headers": [
+    "Set-Cookie"
+  ]
+}

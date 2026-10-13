@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+  "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+  "text": "Microsoft’s Maia 300 chip. | Image: Microsoft\nMicrosoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks.\nMaia 300 will start being rolled out to production in 2027, and it has been designed with efficiency in mind. \"We expect Maia 300 to deliver 40 percent more tokens per megawatt compared to leading GPU-based systems,\" says Scott Guthrie, executive vice president of Microsoft's cloud group. \"And in a full 96-acceler …\nRead the full story at The Verge.",
+  "published_at": "2026-10-12T09:00:00-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-12T09:33:06-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1f073325dc394b50df94",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-13/f34a082b487c63d82747fc9cfb1e81ea14776aca3e751d798e9753115500bd28.body",
+  "source_sha256": "f34a082b487c63d82747fc9cfb1e81ea14776aca3e751d798e9753115500bd28",
+  "fetched_at": "2026-10-13T01:04:39.373704+00:00"
+}

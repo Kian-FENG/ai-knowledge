@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/12/technology/meta-muse-wonder-full-models.html",
+  "title": "Meta Unveils New Series of Advanced A.I. Models",
+  "text": "The new models, Muse Wonder and Muse Wonder Full, are meant to compete with cutting-edge A.I. models from rivals like Anthropic and OpenAI.",
+  "published_at": "2026-10-12T17:00:05+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "02f917acb64fcdd11d66",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/6b50ce14a0cffe93f4f227351056ab6c6ca4a1c87cf103b3444c923e5cade9cd.body",
+  "source_sha256": "6b50ce14a0cffe93f4f227351056ab6c6ca4a1c87cf103b3444c923e5cade9cd",
+  "fetched_at": "2026-10-13T01:04:41.057282+00:00"
+}

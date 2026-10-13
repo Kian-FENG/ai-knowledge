@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1156/1156931.htm",
+  "title": "AMD推出Helion开放式机架级AI架构 单机支持最高32768个CPU核心",
+  "text": "快科技10月13日消息，AMD宣布推出Helion智能体AI机架级架构，该架构基于开放计算项目（OCP）规范设计，为智能体AI基础设施提供灵活配置。\nAMD表示，Helion支持多种部署方案，包括搭载第六代EPYC处理器、最多支持32768个CPU核心的纯CPU机架，以及整合EPYC CPU节点、Instinct MI350P GPU节点和通用计算的机架方案。\n前者面向超大规模部署，为智能体执行提供专用算力；后者面向企业级智能体AI应用。\nAMD计划将Helion规范贡献给OCP社区，相关机架配置正与生态合作伙伴共同开发，预计于2026年11月推出。\nAMD Helion支持客户在现有IT基础设施之上部署智能体AI业务，盘活原有IT资产价值，同时作为底座承载新增AI能力。\n合作伙伴可针对客户业务负载定制CPU、GPU配比，让智能体运行、模型推理及配套计算任务更好地适配各类部署场景在性能、功耗与成本上的综合诉求。",
+  "published_at": "2026-10-13T07:58:51+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "639ee92a33fd29c58291",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/0acea8ba19ef3270c13a53791794cc036e6e94bcaaf588a1ad733990725b9fa5.body",
+  "source_sha256": "0acea8ba19ef3270c13a53791794cc036e6e94bcaaf588a1ad733990725b9fa5",
+  "fetched_at": "2026-10-13T01:04:49.788565+00:00"
+}

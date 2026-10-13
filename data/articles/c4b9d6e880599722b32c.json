@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+  "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+  "text": "A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.",
+  "published_at": "2026-10-12T17:19:14+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c4b9d6e880599722b32c",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/a9f7edf208de88024999bdbca1b2c4d3a7af0350e2c77cdbba3487d1f9c12b52.body",
+  "source_sha256": "a9f7edf208de88024999bdbca1b2c4d3a7af0350e2c77cdbba3487d1f9c12b52",
+  "fetched_at": "2026-10-13T01:04:38.617403+00:00"
+}

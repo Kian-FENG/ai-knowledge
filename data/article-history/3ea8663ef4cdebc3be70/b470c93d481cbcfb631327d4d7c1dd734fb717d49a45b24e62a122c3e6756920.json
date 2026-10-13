@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/replayssm-rethinking-state-storage-for-faster-hybrid-model-decoding/",
+  "title": "ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding",
+  "text": "Hybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are...\nHybrid models interleave state-space model (SSM) layers with a few attention layers. NVIDIA Nemotron 3, Qwen3.5 through Qwen3.8, Kimi-K3, and GLM-5.3-Flash are all built this way, with Mamba-2, Gated DeltaNet (GDN), or Kimi Delta Attention (KDA) as the SSM layer. SSM layers are designed to make decoding fast: they use a fixed-size state in place of a key-value (KV) cache that grows with…\nSource",
+  "published_at": "2026-10-12T16:00:54+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-12T16:20:48+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3ea8663ef4cdebc3be70",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-13/b470c93d481cbcfb631327d4d7c1dd734fb717d49a45b24e62a122c3e6756920.body",
+  "source_sha256": "b470c93d481cbcfb631327d4d7c1dd734fb717d49a45b24e62a122c3e6756920",
+  "fetched_at": "2026-10-13T01:04:30.251549+00:00"
+}

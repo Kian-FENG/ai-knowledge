@@ -1,0 +1,28 @@
+{
+  "period": "daily",
+  "date": "2026-10-12",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-12",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-11T18:00:00-07:00",
+    "end": "2026-10-12T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "2a00781bac9ec227822abcf49fd41040e99315b4b977a00355f323fbeb7368ba",
+  "editorial_sha256": "96ef2bcec098f4927e5c26b04a1b92532e2ef67878f0d14a1fefa883ea16512a",
+  "report_path": "reports/daily/2026/10/2026-10-12/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-12/2a00781bac9ec227822abcf49fd41040e99315b4b977a00355f323fbeb7368ba.json",
+  "events": 15,
+  "generated_at": "2026-10-13T01:29:45.847790+00:00",
+  "timezone": "America/Los_Angeles",
+  "generated_at_local": "2026-10-12T18:29:45.847790-07:00",
+  "report_sha256": "a5e22cf90ba93e72532f8f275d7aa2d9150bdda29b28912289142757f982f4f4",
+  "post_render_review": "补充实际LA生成时间、日期精度显示、入库回查及人工覆盖缺口；原生成版本已保留。",
+  "knowledge": {
+    "new": 18,
+    "updated": 0,
+    "published": 18,
+    "default_query_readback": 18
+  }
+}

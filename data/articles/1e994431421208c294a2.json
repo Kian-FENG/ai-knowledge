@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/meta-reaches-ais-crowded-frontier-will-users-care",
+  "title": "Meta Reaches AI’s Crowded Frontier—Will Users Care?",
+  "text": "If it’s Monday, it must be time for another AI model release. This time, it was Meta Platforms’ turn, unveiling Muse Wonder, which it claims can “deliver state-of-the-art performance” on certain tasks. It was a triumphant moment for the company, whose AI efforts previously went through a slump that prompted a massive hiring binge over the past 14 months or so. It now claims it is “pushing the frontier” of AI.\nThat would be notable if only everyone wasn’t claiming to be doing the same thing. Two weeks ago, Google unveiled its latest model, Gemini 4 Argon, which it says “delivers frontier performance in complex workflows” across various subjects (you wouldn’t want it to deliver frontier performance in simple workflows, would you?). In early September, OpenAI announced GPT-6 Astra, which it said was “state of the art on computer use, browsing, software engineering, cybersecurity, science and professional work.” Also in September, Anthropic introduced Claude Fable 5.1 and Mythos 5.1, which it claimed to be “the world’s most advanced models for coding and knowledge work.”",
+  "published_at": "2026-10-13T00:00:33+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T00:07:17+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1e994431421208c294a2",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/5392802edc9ed0e8ce4dc63bba1678dd5f728931300cae85cd0f9c89f3157b8c.body",
+  "source_sha256": "5392802edc9ed0e8ce4dc63bba1678dd5f728931300cae85cd0f9c89f3157b8c",
+  "fetched_at": "2026-10-13T01:04:39.927255+00:00"
+}

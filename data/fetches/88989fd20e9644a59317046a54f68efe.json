@@ -1,0 +1,32 @@
+{
+  "raw_path": "raw/2026-10-13/c705a53f53eb32460994769924ae3d8f90de32acd2328261c8ef256bb71e2d97.body",
+  "sha256": "c705a53f53eb32460994769924ae3d8f90de32acd2328261c8ef256bb71e2d97",
+  "source_url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-13T01:05:56.471951+00:00",
+  "source_id": "amd-ir",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "11452",
+    "Connection": "close",
+    "Date": "Tue, 13 Oct 2026 01:05:57 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Permissions-Policy": "microphone=(), camera=(), geolocation=(), screen-wake-lock=()",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Content-Security-Policy": "script-src 'unsafe-inline' 'unsafe-eval' q.quora.com download.amd.com cdn.cookielaw.org *.onetrust.com googletagmanager.com www.googletagmanager.com www.youtube.com *.clarity.ms snap.licdn.com googleads.g.doubleclick.net static.ads-twitter.com a.quora.com www.google-analytics.com connect.facebook.net 'self' *.cloudfront.net; style-src download.amd.com 'self' *.cloudfront.net fonts.googleapis.com shared.equisolve.net 'unsafe-inline'; font-src 'self' *.cloudfront.net cdnjs.cloudflare.com/ajax/libs/font-awesome/ fonts.googleapis.com data:; default-src cdn.cookielaw.org *.onetrust.com analytics.google.com td.doubleclick.net px.ads.linkedin.com *.clarity.ms www.google.com www.googletagmanager.com pagead2.googlesyndication.com q.quora.com download.amd.com 'self' *.cloudfront.net; img-src dc.ads.linkedin.com cdn.cookielaw.org px.ads.linkedin.com *.globenewswire.com *.clarity.ms px4.ads.linkedin.com q.quora.com www.google.com www.facebook.com c.bing.com analytics.twitter.com t.co www.googletagmanager.com 'self' *.cloudfront.net shared.equisolve.net ml.globenewswire.com; media-src s3.amazonaws.com 'self' *.cloudfront.net shared.equisolve.net; frame-ancestors 'self'",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 e0cdcc717c322f59fa04c1e19ef93706.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "SFO53-P5",
+    "X-Amz-Cf-Id": "Fe2ZVGwRQFqh4Ia6YE7K_pfUI3OwGSx9HJmkYJX6rpzgvOeaND1YlQ=="
+  },
+  "final_url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
+  "truncated": false,
+  "charset": "utf-8"
+}

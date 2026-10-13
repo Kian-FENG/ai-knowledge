@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/andreessen-horowitz-general-catalyst-race-secure-chips-startups-need",
+  "title": "Andreessen Horowitz, General Catalyst Race to Secure the Chips Their Startups Need",
+  "text": "As startups scramble to get access to AI servers, more venture capital firms are finding ways to secure compute on their behalf.\nAndreessen Horowitz, which two years ago set up a cluster of 20,000 graphics processing units for its startups, is in talks to expand its offering, potentially via two data center companies it has backed, according to people familiar with its plans. Meanwhile, General Catalyst is building a data center to supply compute for its startups, said two other people. And several other VC funds have used brokers to find sought-after chips for their companies.",
+  "published_at": "2026-10-12T17:42:44+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-12T17:43:29+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8c99351ab6c98bd2cd2f",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/5392802edc9ed0e8ce4dc63bba1678dd5f728931300cae85cd0f9c89f3157b8c.body",
+  "source_sha256": "5392802edc9ed0e8ce4dc63bba1678dd5f728931300cae85cd0f9c89f3157b8c",
+  "fetched_at": "2026-10-13T01:04:39.927255+00:00"
+}

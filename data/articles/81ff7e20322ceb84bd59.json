@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.13041",
+  "title": "RAMP: Recurrent Adaptive Mixed Precision for Efficient Prefill in Recurrent-Depth Language Models",
+  "text": "arXiv:2610.13041v1 Announce Type: new\nAbstract: Recurrent-depth language models improve inference-time reasoning by repeatedly applying a shared network to refine internal representations, but the additional recurrent computation also increases inference cost. This overhead is particularly pronounced during long-context prefill, where the full input sequence is repeatedly processed across recurrent depth. Weight-and-activation quantization offers a natural way to accelerate this computation through lower-precision arithmetic, yet repeatedly applying quantized computation introduces numerical perturbations that accumulate along the recurrent trajectory. We systematically analyze how such errors propagate across recurrent depth and show that quantization errors introduced earlier are attenuated by more subsequent recurrent steps and therefore have a smaller effect on the final representation. Matched-budget experiments strongly support this prediction, showing that placing quantized computation earlier in recurrent depth consistently yields the best fidelity. Based on this insight, we introduce RAMP (Recurrent Adaptive Mixed Precision), which performs early recurrent refinement using low-precision weight-and-activation computation and restores high precision for terminal refinement. Across context lengths up to 4K, RAMP preserves near-full-precision prefill quality while achieving up to 1.16x end-to-end first-prefill speedup on an NVIDIA H100, corresponding to a 13.9% latency reduction.",
+  "published_at": null,
+  "announced_at": "2026-10-12T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "81ff7e20322ceb84bd59",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-13/18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981.body",
+  "source_sha256": "18048760837ac7c65976259c86c3c659d3f4045f328358d8d08437001aab5981",
+  "fetched_at": "2026-10-13T01:04:31.516325+00:00"
+}

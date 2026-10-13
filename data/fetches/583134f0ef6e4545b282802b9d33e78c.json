@@ -1,0 +1,26 @@
+{
+  "raw_path": "raw/2026-10-13/4d3ff80d18d6f374b752ad3a37a408d0a55bd5111aeca9738faf4ae56137462a.body",
+  "sha256": "4d3ff80d18d6f374b752ad3a37a408d0a55bd5111aeca9738faf4ae56137462a",
+  "source_url": "https://arstechnica.com/ai/feed/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-13T01:04:42.542346+00:00",
+  "source_id": "ars-ai",
+  "status": 200,
+  "headers": {
+    "Date": "Tue, 13 Oct 2026 01:04:43 GMT",
+    "Content-Type": "application/rss+xml; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Last-Modified": "Mon, 12 Oct 2026 21:54:35 GMT",
+    "ETag": "\"68438377b9c76f784613a2b5fcab2477\"",
+    "X-Robots-Tag": "noindex",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Content-Security-Policy": "default-src https: data: 'unsafe-inline' 'unsafe-eval'; child-src https: data: blob:; connect-src https: data: blob:; font-src https: data:; img-src https: data: blob:; media-src blob: data: https:; object-src https:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; block-all-mixed-content; upgrade-insecure-requests",
+    "Permissions-Policy": "local-network-access=()",
+    "Strict-Transport-Security": "max-age=2592000",
+    "X-Content-Type-Options": "nosniff"
+  },
+  "final_url": "https://arstechnica.com/ai/feed/",
+  "truncated": false,
+  "charset": "utf-8"
+}

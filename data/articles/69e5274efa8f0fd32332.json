@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+  "title": "Russia was not ready for the data center war it started with Ukraine",
+  "text": "When Russia began attacking Ukrainian data centers and telecommunication infrastructure, it apparently failed to prepare for possible retaliation. Now Russia’s digital services are facing widespread outages after Ukrainian drone strikes knocked out three of the largest data centers owned by Russian tech giant Yandex within several days.\nPro-Kremlin bloggers are warning that Russia’s centralized digital economy could collapse because the country is not prepared for the “data center war” it started, according to posts translated by the pseudonymous independent researcher ChrisO_wiki. The Russian commentators also suggested that Ukraine’s decentralized digital services could prove more resilient than Russia’s system if the countries continue trading such blows.\nRussia initially launched a drone strike campaign targeting Ukrainian data centers and mobile phone networks in late September. The attacks temporarily disrupted Internet and cell phone service for up to 100,000 households in the Ukrainian capital of Kyiv and came as part of a broader long-range strike campaign that has involved Russian missiles and jet-powered drones hitting Ukraine’s power grid infrastructure, transportation hubs, and even residential apartment building blocks.\nRead full article\nComments",
+  "published_at": "2026-10-12T17:52:36+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "69e5274efa8f0fd32332",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-13/4d3ff80d18d6f374b752ad3a37a408d0a55bd5111aeca9738faf4ae56137462a.body",
+  "source_sha256": "4d3ff80d18d6f374b752ad3a37a408d0a55bd5111aeca9738faf4ae56137462a",
+  "fetched_at": "2026-10-13T01:04:42.542346+00:00"
+}

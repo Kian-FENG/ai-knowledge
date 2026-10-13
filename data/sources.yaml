@@ -1179,3 +1179,41 @@ sources:
   enabled: true
   checked_at: '2026-10-11'
   note: 本次已用浏览工具读取；机器采集许可尚未核实，使用browser入口与有限来源摘录，不由HTTP采集器抓取。
+
+- id: microsoft-blog
+  name: Microsoft Official Blog
+  url: https://blogs.microsoft.com/
+  kind: web
+  group: official
+  section: 5
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-12'
+  note: 本期实际浏览核对；保留有限阅读范围，尚未核实常规机器采集许可。
+
+- id: mosi
+  name: 模思智能官方新闻
+  url: https://www.mosi.cn/news
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-12'
+  note: 本期实际浏览核对；保留有限阅读范围，尚未核实常规机器采集许可。
+  timezone: Asia/Shanghai
+
+- id: modcraft
+  name: ModCraft产品官网
+  url: https://www.modcraft.games/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-12'
+  note: 本期实际浏览核对；保留有限阅读范围，尚未核实常规机器采集许可。
+  timezone: Asia/Shanghai

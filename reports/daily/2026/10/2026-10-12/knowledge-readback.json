@@ -1,0 +1,164 @@
+[
+  {
+    "id": "source-x-subscription-20261012",
+    "path": "reference/sources/x-subscription-20261012.md",
+    "query": "X推出统一订阅：Grok用量跨Cursor共享，第三方模型另计费",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-looker-data-apps-20261012",
+    "path": "reference/sources/looker-data-apps-20261012.md",
+    "query": "Looker Data Apps进入预览：AI生成应用依托语义层，运行时不再调用LLM",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-data-agent-kit-workflow-20261012",
+    "path": "reference/sources/data-agent-kit-workflow-20261012.md",
+    "query": "Google发布Data Agent Kit工作流教程，数据Agent向跨服务执行延伸",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-mosi-pre-a-20261012",
+    "path": "reference/sources/mosi-pre-a-20261012.md",
+    "query": "模思智能官宣超10亿元Pre-A，MOSS Live仍为即将发布",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-modcraft-seed-20261012",
+    "path": "reference/sources/modcraft-seed-20261012.md",
+    "query": "36氪：ModCraft获数千万元种子轮，AI Mod创作连接社区分发",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-infinigence-c-round-20261012",
+    "path": "reference/sources/infinigence-c-round-20261012.md",
+    "query": "智东西：无问芯穹近日完成23亿元C轮，融资不等同算力收入",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-meta-muse-wonder-20261012",
+    "path": "reference/sources/meta-muse-wonder-20261012.md",
+    "query": "Meta发布Muse Wonder系列：记忆与持续任务能力进入产品分发",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-timesfm3-preview-20261012",
+    "path": "reference/sources/timesfm3-preview-20261012.md",
+    "query": "BigQuery TimesFM 3.0预览支持多变量时间序列预测",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-replayssm-storage-20261012",
+    "path": "reference/sources/replayssm-storage-20261012.md",
+    "query": "NVIDIA详解ReplaySSM：减少混合模型状态写入，收益取决于批量",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "paper-kv-repurpose-20261012",
+    "path": "reference/papers/kv-repurpose-20261012.md",
+    "query": "KV-Repurpose论文公告：非前缀缓存复用需要质量约束",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 2
+  },
+  {
+    "id": "paper-swe-duel-20261012",
+    "path": "reference/papers/swe-duel-20261012.md",
+    "query": "SWE-Duel论文公告：编码Agent互相出题，评测对象仍是模型与harness组合",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 2
+  },
+  {
+    "id": "source-maia300-roadmap-20261012",
+    "path": "reference/sources/maia300-roadmap-20261012.md",
+    "query": "微软：Maia 200已用于生产，Maia 300及多GW部署从2027年开始",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-amd-helion-20261012",
+    "path": "reference/sources/amd-helion-20261012.md",
+    "query": "AMD展示Helion Agent执行机架蓝图，计划11月提供配置",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-nvidia-ocp-rack-20261012",
+    "path": "reference/sources/nvidia-ocp-rack-20261012.md",
+    "query": "NVIDIA向OCP贡献MGX 1.2，开放机架与运维组件围绕Agent供给扩展",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "source-usfp-optics-20261012",
+    "path": "reference/sources/usfp-optics-20261012.md",
+    "query": "NVIDIA与Cisco提出USFP光模块形态，开放多源规范仍待推进",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 1
+  },
+  {
+    "id": "entity-mosi",
+    "path": "reference/entities/mosi.md",
+    "query": "模思智能：OpenMOSS团队孵化的实时全模态交互公司",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 2
+  },
+  {
+    "id": "entity-modcraft",
+    "path": "reference/entities/modcraft.md",
+    "query": "ModCraft：自然语言Mod创作与社区分发产品",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 2
+  },
+  {
+    "id": "note-agent-execution-and-inference-economics-20261012",
+    "path": "research/synthesis/agent-execution-and-inference-economics-20261012.md",
+    "query": "Agent成本开始分层：订阅共享、应用复用、执行机架与状态缓存",
+    "published": true,
+    "default_query_found": true,
+    "get_page_follow_sources": true,
+    "raw_hashes_checked": 5
+  }
+]

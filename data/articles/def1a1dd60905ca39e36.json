@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/trump-administration-plans-move-ai-testing-agency-officials-white-house",
+  "title": "Trump Administration Plans to Move AI Testing Agency Officials to White House",
+  "text": "The small agency within the Commerce Department tasked with testing new AI models appears to be getting a refresh.\nIn September, the Trump administration began the process of restructuring the Center for Advancing Innovation and Standards for Super Intelligence so that three of its senior officials report directly to the White House, according to a White House official.",
+  "published_at": "2026-10-12T18:36:42+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-12T18:37:08+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "def1a1dd60905ca39e36",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-13/5392802edc9ed0e8ce4dc63bba1678dd5f728931300cae85cd0f9c89f3157b8c.body",
+  "source_sha256": "5392802edc9ed0e8ce4dc63bba1678dd5f728931300cae85cd0f9c89f3157b8c",
+  "fetched_at": "2026-10-13T01:04:39.927255+00:00"
+}
