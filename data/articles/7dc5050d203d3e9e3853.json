@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/anthropic-build-first-data-center-japan",
+  "title": "Anthropic to Build First Data Center in Japan",
+  "text": "Anthropic is in the final stages of talks with NTT Data Group to build its first data center in Japan, Nikkei reported. The facility is expected to have a total power intake capacity of up to 500 megawatts, which would make it one of Japan’s largest data centers.\nConstruction costs for the ...",
+  "published_at": "2026-10-13T09:48:16+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T21:32:52+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7dc5050d203d3e9e3853",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974.body",
+  "source_sha256": "32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974",
+  "fetched_at": "2026-10-14T01:03:44.583665+00:00"
+}

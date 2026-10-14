@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-13/nvidia-s-huang-plans-2-billion-in-europe-ai-deals-in-next-week",
+  "title": "Nvidia CEO Announces $2 Billion in Europe Deals During Tour",
+  "text": "Nvidia Corp. Chief Executive Officer Jensen Huang announced plans to invest $2 billion in European deals during a tour of the region that included a meeting with French President Emmanuel Macron.",
+  "published_at": "2026-10-13T16:07:12+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0789cb6ef899cfce1124",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/7a503c4f692e2da8b246804af4763ee3401176ef6aff387511fb1b2f1bf1de06.body",
+  "source_sha256": "7a503c4f692e2da8b246804af4763ee3401176ef6aff387511fb1b2f1bf1de06",
+  "fetched_at": "2026-10-14T01:03:47.287468+00:00"
+}

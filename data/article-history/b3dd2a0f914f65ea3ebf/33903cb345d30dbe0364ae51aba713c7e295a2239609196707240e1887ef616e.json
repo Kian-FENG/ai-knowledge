@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
+  "title": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform",
+  "text": "NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners access to...\nNVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners access to production-grade AI workload and GPU orchestration capabilities. This release expands the NVIDIA DSX AI Factory Platform by establishing NVIDIA Run:ai as an open foundation that enables the broader ecosystem to bring differentiated solutions to market…\nSource",
+  "published_at": "2026-10-13T14:19:40+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T21:46:33+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b3dd2a0f914f65ea3ebf",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-14/33903cb345d30dbe0364ae51aba713c7e295a2239609196707240e1887ef616e.body",
+  "source_sha256": "33903cb345d30dbe0364ae51aba713c7e295a2239609196707240e1887ef616e",
+  "fetched_at": "2026-10-14T01:03:34.176910+00:00"
+}

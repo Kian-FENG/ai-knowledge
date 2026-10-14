@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157226.htm",
+  "title": "重回AI榜第一 谷歌开放Gemini 4 Argon大模型：首发价优惠50%",
+  "text": "快科技10月14日消息，作为美国御三家AI巨头之一，谷歌今年在旗舰级大模型上掉队很久，好在近期发布的Gemini 4 Argon挽回了面子，AI榜单重回第一，现在又全面向付费用户开放。\nGemini 4 Argon上个月就发布了，但当时只开放给了极为有限的群体，绝大多数人没法用，这次是全面开放，但不是针对所有人，主要还是给高端订阅用户的，促销送的Pro用户都要低人一等。\n开发者可以通过Gemini API付费、Gemini企业平台使用，订阅用户可以在Google AI Pro和Ultra可以在Gemini App和搜索的AI Mode里用，Antigravity和AI Studio中则是针对Ultra用户。\n科研人员还有个福利，可以申请免费用半年Antigravity的最高档额度。\n价格方面，API首发价是每百万token输入2美元、输出10美元，这个半价优惠是限时到11月30日，之后恢复正常，也就是翻倍到4、20美元。\n性能测试方面，谷歌表示Argon擅长在编程、金融、法律、网络安全和科学等多个领域的复杂现实任务中深度工作。\n其在多步骤任务中的深度和精准性使Argon在跨领域基准测试中表现优于其他前沿模型，在Vals指数中排名第一，该指数衡量模型在金融、编程、法律和税务等关键经济领域的表现。\n具体跑分如下所示，在百万级上下文GraphWalks 256K‑1M测试中尤其领先，因为Argon支持1M Token输出，远高于其他大模型的128K输出能力。\n不过官方的跑分也就看看而已，不同的任务中表现肯定不一样的，cognition公布的他们的测试中，FrontierCode 1.1项目中也就GPT-6.1 Sol的水平，比GPT-6 Astra、Opus 5.5性能差，成本也要高不少。\n无论如何，谷歌现在凭借Gemini 4 Argon算上重回御三家之列，旗舰级大模型性能上也有能打的实力，开发者又多了一个选择，对竞争是好事，不可能指望谷歌落后近一年之后靠一款产品就马上彻底翻身。",
+  "published_at": "2026-10-14T00:50:55+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "48d5f244ca67f334744c",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577.body",
+  "source_sha256": "a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577",
+  "fetched_at": "2026-10-14T01:03:56.466999+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157244.htm",
+  "title": "对标英伟达DGX Spark！此芯科技推桌面级AI超算AGX Station",
+  "text": "快科技10月14日消息，在2026中国工博会国芯展上，此芯科技发布桌面级AI超算中心AGX Station，对标英伟达DGX Spark。\n该产品搭载自研6nm智能体SoC此芯P1（Armv9.2架构，集成12核CPU与30至45 TOPS NPU），原生支持7B至35B模型推理，开放式扩展算力可达350 TOPS。\nAGX Station已全面适配122B模型，峰值算力可支撑150B模型部署与运行；整机体积仅150 x 150×60mm，配套Agentic OS 2.0覆盖从本地推理到Token计费的全链路。\n相比7月WAIC的战略发布，本次落地整机产品与操作系统版本；价格与开售时间尚未公布。\n同系列AGX Box已于10月11日跑通Android 17与多Agent：Android 17的设备端MCP与原生桌面模式已集成至边缘智能体主机，Multi Agent交互区支持Kimi与WorkBuddy并行，远程大模型Agent与本地轻量Agent混合调度，可承载13B–35B生产级部署。",
+  "published_at": "2026-10-14T08:11:20+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5fd4eac868e78bc97dfc",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577.body",
+  "source_sha256": "a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577",
+  "fetched_at": "2026-10-14T01:03:56.466999+00:00"
+}

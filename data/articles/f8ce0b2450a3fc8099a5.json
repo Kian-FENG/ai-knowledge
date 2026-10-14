@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/companies-prove-ai-spending-pays",
+  "title": "Why Companies Can't Prove Their AI Spending Pays Off",
+  "text": "The trillion-dollar question of the AI boom is whether businesses’ spending on the technology pays off. But measuring that return is often uncertain, confusing or incomplete.\nThat’s because it takes time for AI to show a return on investment that can be demonstrated in a company’s income statement, as we’ve written.\nA new study from the University of Pennsylvania’s Wharton School and GBK Collective, a consultancy, echoes this idea, showing that most companies are still tracking ROI by measuring whether it makes their workers more efficient rather than whether it is driving more revenue. The study, based on online surveys of 1,400 U.S.-based employees from firms that have at least 1,000 staff and generate more than $50 million annually, showed that 40% of managers measured AI’s impact on their business in terms of “hours saved per employee” and 37% tracked how AI reduced their workers’ errors.\nOnly about 27% of managers said they track the revenue they generate from AI features, apps and tools they provide to their customers.\nPerhaps worryingly, 44% of managers said that over the next one to two years, AI’s primary role will be to improve productivity and just 8% said it would be to drive new revenue or create new products.",
+  "published_at": "2026-10-13T18:16:20+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T18:19:06+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f8ce0b2450a3fc8099a5",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974.body",
+  "source_sha256": "32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974",
+  "fetched_at": "2026-10-14T01:03:44.583665+00:00"
+}

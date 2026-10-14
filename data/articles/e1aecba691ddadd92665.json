@@ -1,0 +1,19 @@
+{
+  "title": "Welcome to Planet Pluto!",
+  "url": "https://pluto.security/blog/welcome-to-planet-pluto/",
+  "text": "Agent阅读笔记，非逐字原文。2026-10-13 Shahar Bahat官方文章宣布Pluto Security结束隐身状态，披露USD42M funding；正文未拆分轮次、估值或交割日。公司称服务150多万endpoint、ARR数百万美元，未给精确ARR、期间或审计数据，不是已确认收入。团队分布以色列与美国。业务围绕AI builders、编码工具、MCP、插件与工作流的可见性及运行时控制。另读官网和About核对品牌、产品归属与Plutonium资源；法定主体/注册日期未查证。已读公告主文，未审计融资和客户效果。",
+  "published_at": "2026-10-13T00:00:00+08:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "full-text",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "e1aecba691ddadd92665",
+  "source_id": "pluto-security",
+  "source_name": "Pluto Security",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/4db55e05b0377bc74ca9e4eac5d954a85cefed37ef377f594c3a3430014303c7.txt",
+  "source_sha256": "4db55e05b0377bc74ca9e4eac5d954a85cefed37ef377f594c3a3430014303c7",
+  "fetched_at": "2026-10-14T01:09:11.535789+00:00"
+}

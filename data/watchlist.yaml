@@ -2,6 +2,31 @@
 # sources 指向 data/sources.yaml 的来源 ID；browser 列出 HTTP 采集不可用、需要用浏览器
 # 打开核查的入口；channels 记录首发渠道（多为公众号或社交平台），只能经媒体与检索发现。
 companies:
+- id: pluto-security
+  name: Pluto Security
+  region: US / Israel
+  urls:
+  - https://pluto.security/blog/
+  sources:
+  - pluto-security
+  browser:
+  - https://pluto.security/blog/
+  source_page: reference/entities/pluto-security.md
+  tracking_since: '2026-10-13'
+  note: 官网核对品牌与产品归属，法定注册资料待核；公司披露不等于独立审计，未知日期不作当天新闻。
+- id: semigraph
+  name: SemiGraph / 半图科技
+  region: unverified
+  urls:
+  - https://www.semigraph.com/
+  sources:
+  - semigraph
+  browser:
+  - https://www.semigraph.com/
+  source_page: reference/entities/semigraph.md
+  tracking_since: '2026-10-13'
+  note: 官网核对品牌与产品归属，法定注册资料待核；公司披露不等于独立审计，未知日期不作当天新闻。
+
 - id: decart
   name: Decart / DOS / Lucy / Oasis
   region: unverified

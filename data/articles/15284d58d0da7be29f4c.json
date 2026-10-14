@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/tech-industry/cyber-security/hacker-claims-123456-password-let-them-breach-the-danish-national-registry-accessing-8-8-million-records-it-and-data-services-company-with-weak-passwords-linked-source-of-the-hack",
+  "title": "Hacker claims ‘123456’ password let them breach the Danish national registry, accessing 8.8 million records",
+  "text": "A person claiming to be responsible for the recent hack of Denmark’s national registry claimed that they were able to gain access because of an IT company’s weak password. According to The Register, Pays ApS, an IT and data services company that lets customers reference the Danish Central Register of Persons (CPR) was the source of the hack, with the hacker saying that one of the accounts they breached was only protected by a ‘123456’ password.\nCopenhagen has confirmed the hack, with a government official saying that the breach was discovered 12 days after it happened when an invoice revealed an unusual amount of activity from the company. The Danish government said that 8.8 million records have been illicitly retrieved, although the hacker claimed that they do not intend to sell or leak the information. While the government did not mention which company the hacker exploited, Pays ApS managing director Sophie Laursen confirmed that the hacker used the company’s access to the database to exfiltrate the data.\nThis incident shows that a system’s security is only as strong as the weakest link, with the Danish database getting compromised through a third-party user’s poorly chosen password. Given that CPR essentially contains information on virtually every Danish citizen, one would expect that it would require users to at least have a more complicated password, if not two-factor authentication. This isn’t the first time that an incident reveals shortcomings in government database protection, though — Indonesia realized that it had no backups when a ransomware attack in 2024 affected over 230 public agencies, while South Korea lost 858 terabytes of data after a catastrophic fire at a government data center last year.\nWe expect the Danish government to overhaul its password policies in the near future, especially now that AI is making it easier and more efficient for hackers to hit their targets. Recent incidents like the attacks on South Korean banks and against the Taiwanese government were reportedly conducted with the help of AI agents. Hackers also breached OpenAI using Claude tools, showing just how potent AI has become as a hacking tool in the wrong hands. But with a password like “123456,” potential hackers wouldn’t need to use any AI tools to break into weakly protected systems.",
+  "published_at": "2026-10-13T13:30:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "15284d58d0da7be29f4c",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-14/38c022d48016b34427bdde32e91bbd95924c436d577c868f0d7c111e84389fbd.body",
+  "source_sha256": "38c022d48016b34427bdde32e91bbd95924c436d577c868f0d7c111e84389fbd",
+  "fetched_at": "2026-10-14T01:03:47.980479+00:00"
+}

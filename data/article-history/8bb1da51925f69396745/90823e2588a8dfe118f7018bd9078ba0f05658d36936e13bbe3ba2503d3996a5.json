@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+  "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+  "text": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and […]",
+  "published_at": "2026-10-13T12:00:49+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8bb1da51925f69396745",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-14/90823e2588a8dfe118f7018bd9078ba0f05658d36936e13bbe3ba2503d3996a5.body",
+  "source_sha256": "90823e2588a8dfe118f7018bd9078ba0f05658d36936e13bbe3ba2503d3996a5",
+  "fetched_at": "2026-10-14T01:03:25.793734+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+  "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+  "text": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department of Justice.\nOpenAI's post about the incident says it used its AI models to \"understand the device and where it had come from, identifying that a specific employee had planted it a few days earlier.\"\nAs noted by the DOJ, OpenAI found the device plugged into a TV's USB port in an executiv …\nRead the full story at The Verge.",
+  "published_at": "2026-10-13T16:45:25-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T17:36:13-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6ec803e44d1742ccbdc9",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-14/b8771cd50a530ada8978890c1b5938d63e8680fb521ce7b1d8ffe47e58ba30ef.body",
+  "source_sha256": "b8771cd50a530ada8978890c1b5938d63e8680fb521ce7b1d8ffe47e58ba30ef",
+  "fetched_at": "2026-10-14T01:03:44.025004+00:00"
+}

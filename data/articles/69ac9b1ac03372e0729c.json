@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-13/anthropic-asks-appeals-court-to-rehear-fight-over-security-risk",
+  "title": "Anthropic Asks Appeals Court to Rehear Fight Over Security Risk",
+  "text": "Anthropic PBC urged the federal appeals court in Washington to revisit its decision upholding the Trump administration’s designation of the artificial intelligence company as a supply-chain risk to US national security.",
+  "published_at": "2026-10-13T22:24:46+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "69ac9b1ac03372e0729c",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/7a503c4f692e2da8b246804af4763ee3401176ef6aff387511fb1b2f1bf1de06.body",
+  "source_sha256": "7a503c4f692e2da8b246804af4763ee3401176ef6aff387511fb1b2f1bf1de06",
+  "fetched_at": "2026-10-14T01:03:47.287468+00:00"
+}

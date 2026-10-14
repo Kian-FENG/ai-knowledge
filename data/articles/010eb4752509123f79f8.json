@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/13/technology/apple-homeview-tablet.html",
+  "title": "Apple Introduces HomeView, a $299 Tablet for the Home",
+  "text": "Apple unveiled the device as it continues its foray into artificial intelligence and tries to prove it can still innovate.",
+  "published_at": "2026-10-13T17:23:29+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "010eb4752509123f79f8",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/5683bfb375992b554b6a6e53e8f58f159bf9ab03fb269039fb34f2d2e439d151.body",
+  "source_sha256": "5683bfb375992b554b6a6e53e8f58f159bf9ab03fb269039fb34f2d2e439d151",
+  "fetched_at": "2026-10-14T01:03:46.163455+00:00"
+}

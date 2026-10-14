@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-13/openai-says-staffer-arrested-for-hidden-recording-device-in-office",
+  "title": "OpenAI Says Staffer Arrested for Hidden Recording Device in Office",
+  "text": "An employee at OpenAI was arrested and charged with using a hidden recording device in one of the company’s San Francisco offices, according to statements from the artificial intelligence company and the US Justice Department.",
+  "published_at": "2026-10-13T20:13:49+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7cfe1e1c2c3ac830f25d",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/7a503c4f692e2da8b246804af4763ee3401176ef6aff387511fb1b2f1bf1de06.body",
+  "source_sha256": "7a503c4f692e2da8b246804af4763ee3401176ef6aff387511fb1b2f1bf1de06",
+  "fetched_at": "2026-10-14T01:03:47.287468+00:00"
+}

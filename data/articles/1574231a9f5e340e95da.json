@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+  "title": "NVIDIA Lands in Europe for GTC Berlin",
+  "text": "NVIDIA is in Europe, showcasing the future of technology together with the region’s developers, researchers and industry leaders.",
+  "published_at": "2026-10-13T05:13:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1574231a9f5e340e95da",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-14/90823e2588a8dfe118f7018bd9078ba0f05658d36936e13bbe3ba2503d3996a5.body",
+  "source_sha256": "90823e2588a8dfe118f7018bd9078ba0f05658d36936e13bbe3ba2503d3996a5",
+  "fetched_at": "2026-10-14T01:03:25.793734+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-14/9a671723d5969ad1aea26c36c0ab04b39759985205a5bfa4118c9706172a22c8.body",
+  "sha256": "9a671723d5969ad1aea26c36c0ab04b39759985205a5bfa4118c9706172a22c8",
+  "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-14T01:08:25.978713+00:00",
+  "source_id": "nvidia-blog",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "41223",
+    "Server": "Apache",
+    "Link": "<https://blogs.nvidia.com/?p=98768>; rel=shortlink",
+    "Content-Encoding": "gzip",
+    "Edge-Cache-Tag": "blogs.nvidia.com,blogs.nvidia.com/blog/,blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+    "Date": "Wed, 14 Oct 2026 01:08:27 GMT",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "x-accept": "application/atom+xml, application/rss+xml, text/html, */*",
+    "Country-Code": "c_code=US; Path=/; Secure",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "Akamai-Cache-Status": "Hit from child",
+    "Akamai-GRN": "0.ecf12417.1791940107.d082f7d4"
+  },
+  "final_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+  "truncated": false,
+  "charset": "utf-8"
+}

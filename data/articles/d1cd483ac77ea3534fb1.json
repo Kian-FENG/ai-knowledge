@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157237.htm",
+  "title": "苏姿丰将2026称为“推理之年”：CPU市场规模将爆发式增长",
+  "text": "快科技10月14日消息，AMD首席执行官苏姿丰对CPU市场前景表达了强烈信心，并将2026年定性为“推理之年”。\n苏姿丰预计，在智能体AI工作负载驱动下，CPU市场规模将在未来数年内实现爆发式增长；到2030年，CPU潜在市场规模有望超过2000亿美元，未来4至5年复合年增长率约为50%。\n与此同时，苏姿丰宣布，AMD新一代AI加速产品Helios已于9月启动量产出货，首批系统已部署至OpenAI、Meta、微软、Oracle及Anthropic等头部客户。Helios顺利量产，标志着AMD在高性能AI加速领域取得阶段性进展；其与头部科技及AI公司的深度绑定，也进一步巩固了AMD在数据中心市场的竞争地位。\n在Helios之后，AMD于峰会上进一步发布Helion Agentic AI机架系统。苏姿丰将Helion形容为“Helios的近亲”，并称其专门面向智能体AI计算需求。\n她介绍，Helion采用标准21英寸机架设计，支持液冷与风冷两种散热方式，搭载超过32000个Zen 6核心，较竞品机架多出40%，具备业内最高计算密度。此外，该机架最多可容纳32块Instinct MI350 GPU，并集成大容量网络能力，整体基于开放计算标准（OCP规范）构建。\n苏姿丰表示，市场对Helion机架的反响“非常积极”，生态系统合作伙伴将于11月26日起提供该产品，相关设计成果也将贡献至OCP开放标准社区。",
+  "published_at": "2026-10-14T07:22:06+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d1cd483ac77ea3534fb1",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577.body",
+  "source_sha256": "a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577",
+  "fetched_at": "2026-10-14T01:03:56.466999+00:00"
+}

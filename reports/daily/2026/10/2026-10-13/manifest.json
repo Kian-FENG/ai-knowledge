@@ -1,0 +1,26 @@
+{
+  "period": "daily",
+  "date": "2026-10-13",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-13",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-12T18:00:00-07:00",
+    "end": "2026-10-13T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "5a8288e4008e5b9c440e8d78a83a7bc01d17558c94394edf6a092b7416899ee3",
+  "editorial_sha256": "ab3538a4fb2c9652cc1c2b21f2448b3e816a5dae4b1e106e5c94ff6ddca81636",
+  "report_path": "reports/daily/2026/10/2026-10-13/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-13/5a8288e4008e5b9c440e8d78a83a7bc01d17558c94394edf6a092b7416899ee3.json",
+  "events": 10,
+  "generated_at": "2026-10-14T01:15:59.479308+00:00",
+  "timezone": "America/Los_Angeles",
+  "report_sha256": "a3bec42e0e70766e4dc1dfab554d1354f9e7e59c74376dcdff097e4ca6dc5692",
+  "generated_at_local": "2026-10-13T18:15:59.479308-07:00",
+  "reviewed_at": "2026-10-14T01:15:59.510011+00:00",
+  "render_adjustments": [
+    "显示实际LA生成时间；date-only去掉午夜占位；追加精确覆盖缺口与入库链接"
+  ],
+  "initial_render_path": "reports/daily/2026/10/2026-10-13/revisions/initial-render.md"
+}

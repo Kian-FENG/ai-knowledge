@@ -1,0 +1,18 @@
+{
+  "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+  "title": "Higgsfield takes AI video from 1 minute to over 10",
+  "text": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+  "published_at": "2026-10-13T12:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8d45898e533e591d4241",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-14/87f94082fff464b2f40077736130514e99e0992429e48d335188acbf76919ba7.body",
+  "source_sha256": "87f94082fff464b2f40077736130514e99e0992429e48d335188acbf76919ba7",
+  "fetched_at": "2026-10-14T01:03:14.360663+00:00"
+}

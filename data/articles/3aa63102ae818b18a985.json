@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+  "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+  "text": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
+  "published_at": "2026-10-13T13:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3aa63102ae818b18a985",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/23b910fe8db4b00a9cd125ea48b60b3efe00612fb600e7bce8ed0753cc8b39dc.body",
+  "source_sha256": "23b910fe8db4b00a9cd125ea48b60b3efe00612fb600e7bce8ed0753cc8b39dc",
+  "fetched_at": "2026-10-14T01:03:42.639562+00:00"
+}

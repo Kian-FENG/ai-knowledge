@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/2c3b583a-3ddc-4920-a350-9698c119435c?syn-25a6b1a6=1",
+  "title": "US arrests Saudi employee of OpenAI for allegedly bugging its offices",
+  "text": "AI lab discovered a recording device concealed behind a television in a conference room",
+  "published_at": "2026-10-13T20:54:58+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "138f791fc2c4e35329c3",
+  "source_id": "ft-tech",
+  "source_name": "Financial Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/7b802555ff4b7c6380eef9b02a3eb4befc2c4f3f6e5edc99fe959517abd8aa7c.body",
+  "source_sha256": "7b802555ff4b7c6380eef9b02a3eb4befc2c4f3f6e5edc99fe959517abd8aa7c",
+  "fetched_at": "2026-10-14T01:03:45.551923+00:00"
+}

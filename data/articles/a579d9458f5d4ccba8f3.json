@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+  "title": "Facebook will let you customize your feed algorithm using AI",
+  "text": "Facebook's new \"Your Algorithm\" feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations \"respond right away\" after you make updates using the new feature by hitting \"interested\" or \"not interested\" for different topics. Your Algorithm previously launched on Instagram earlier this year, and Meta also launched a similar \"Dear Algo\" feature on Threads.\nFacebook users will be able to access Your Algorithm or select \"interested\" or \"not interested\" from the three dots menu on individual posts. The \"interested\" and \"not interested\" buttons may also appear under posts, an …\nRead the full story at The Verge.",
+  "published_at": "2026-10-13T13:01:31-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T13:01:31-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a579d9458f5d4ccba8f3",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-14/b8771cd50a530ada8978890c1b5938d63e8680fb521ce7b1d8ffe47e58ba30ef.body",
+  "source_sha256": "b8771cd50a530ada8978890c1b5938d63e8680fb521ce7b1d8ffe47e58ba30ef",
+  "fetched_at": "2026-10-14T01:03:44.025004+00:00"
+}

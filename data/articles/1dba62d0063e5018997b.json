@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/pc-components/gpus/chinese-ai-companies-buy-1-million-nvidia-gpus-in-a-single-year-report-claims-export-control-compliant-chips-flood-the-market-to-bridge-gap-in-compute-demand",
+  "title": "Chinese AI companies buy 1 million Nvidia GPUs in a single year, report claims",
+  "text": "Chinese tech companies have bought more than 1 million Nvidia gaming and workstation GPUs to plug gaps in demand for AI computing power, Financial Times reports. The report cites industry insiders who claim the buying spree highlights an ongoing and significant reliance on U.S. AI hardware, despite a burgeoning homegrown market.\nGo deeper with TH Premium: AI and data centers\n(Image credit: Microsoft)\nThe data center cooling state of play\nThe custom AI ASIC state of play\nAmerica’s AI chip rules keep changing — and the rest of the world is paying the price\nGTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year\nDemand for data center CPUs has surged, and AI agents are responsible\nThe report firstly notes that China's national strategy for developing AI has led to a doubling of domestic AI chip production this year; however, the country cannot keep up with demand from its biggest tech companies. The report cites a shortfall of nearly 1.5 million chips, with only 3.5 million expected to be manufactured domestically while demand \"far exceeds\" 5 million. To compensate, China is purportedly turning to Nvidia's gaming and workstation processors, which are compliant with U.S. export controls, repurposing them for AI.\nAccording to FT, the chips are \"mostly\" Nvidia's RTX Pro 6000D, RTX Pro 5000, and the RTX 5090, the latter of which is the best graphics card on the market for enthusiast gaming. As the report notes, these Blackwell chips can't compete with Huawei's Ascend 910C and other homegrown flagship offerings, but they are useful for \"simpler AI workloads,\" such as prefilling.\nThis is significant pressure on a GPU market where prices for enthusiast cards have already skyrocketed. The RTX 5090's MSRP is $1,999; however, the card can now only be found at a handful (three) of third-party resellers for no less than $7,199, and has all but disappeared from the market.\nThe report highlights that demand for Nvidia's GPUs is driven in part by its CUDA software, which remains more favorable than Huawei's Cann alternative.\nAs for the enthusiast market, it was recently reported that Nvidia has halted RTX 5090 production, to be replaced by a 24GB RTX 5080 flagship. That would mark a significant step down from the 32GB the 5090 currently boasts, a troubling sign for enthusiasts that the enthusiast gaming GPU market appears to be receding, rather than advancing.",
+  "published_at": "2026-10-13T14:32:20+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1dba62d0063e5018997b",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-14/38c022d48016b34427bdde32e91bbd95924c436d577c868f0d7c111e84389fbd.body",
+  "source_sha256": "38c022d48016b34427bdde32e91bbd95924c436d577c868f0d7c111e84389fbd",
+  "fetched_at": "2026-10-14T01:03:47.980479+00:00"
+}

@@ -1217,3 +1217,42 @@ sources:
   checked_at: '2026-10-12'
   note: 本期实际浏览核对；保留有限阅读范围，尚未核实常规机器采集许可。
   timezone: Asia/Shanghai
+
+- id: apple-newsroom
+  name: Apple Newsroom
+  url: https://www.apple.com/newsroom/
+  kind: web
+  group: official
+  section: 0
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-13'
+  timezone: America/Los_Angeles
+  note: 本次实际浏览核查；机器采集许可未核实，使用有限阅读笔记与浏览入口。
+
+- id: pluto-security
+  name: Pluto Security
+  url: https://pluto.security/blog/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-13'
+  timezone: America/Los_Angeles
+  note: 本次实际浏览核查；机器采集许可未核实，使用有限阅读笔记与浏览入口。
+
+- id: semigraph
+  name: SemiGraph 半图科技
+  url: https://www.semigraph.com/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-13'
+  timezone: Asia/Shanghai
+  note: 本次实际浏览核查；机器采集许可未核实，使用有限阅读笔记与浏览入口。

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157245.htm",
+  "title": "ColorOS 17全球发布！覆盖OPPO、一加、真我 首批机型10月29日升级",
+  "text": "快科技10月14日消息，日前，OPPO正式发布ColorOS 17全球版本，新系统将覆盖OPPO、一加、真我三大品牌设备，首批机型将于10月29日起陆续开启推送。\n首批升级机型包括OPPO Find N6、Find X9 Ultra、Find X9s、Find X9 Pro、Find X9，以及一加15、真我GT8 Pro等设备。\n随后，更多Find、Reno系列以及其他产品线机型也将陆续获得更新。\n据了解，ColorOS 17基于Android 17打造，围绕系统流畅度、AI能力以及视觉交互体验带来多项升级。\n流畅体验方面，ColorOS 17对流畅双引擎进行全面升级。\n其中，极光引擎从绘制层深入至渲染层，实现融合渲染，降低内存占用和渲染负载；潮汐引擎则通过个性化行为感知链进行精准调度，带来行业首个“记忆后台”功能。\n具体来看，ColorOS 17可根据应用重要程度进行智能管理，重要后台应用会被精准保活，短时间内无需使用的非重要后台则进入智能冷存状态，从而减少内存资源占用。\n应用完全保活率较上一代提升55.6%，后台保活质量进一步提升。\n同时，ColorOS 17带来全新的流体设计，从视觉效果、系统动画到操作反馈进行全面优化，进一步提升日常交互体验。\nAI方面，ColorOS 17全球版进一步强化智能助手能力，推出AI Mind Pilot等功能。\n该功能整合ChatGPT、Gemini、Perplexity等AI服务，可根据用户指令执行任务，并支持调用本地文件和照片，对内容进行整理、分类以及组合处理。",
+  "published_at": "2026-10-14T08:15:44+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "206bdf4407d2a6972e29",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577.body",
+  "source_sha256": "a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577",
+  "fetched_at": "2026-10-14T01:03:56.466999+00:00"
+}

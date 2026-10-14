@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157193.htm",
+  "title": "Intel下代CPU游戏性能曝光：与Arrow Lake差不多！",
+  "text": "快科技10月13日消息，知名消息人士kopite7kimi在社交平台称，Intel即将推出的Nova Lake处理器在游戏性能上与现有Arrow Lake“相当接近”，但搭载bLLC大缓存的BFC版本是例外。\nkopite7kimi还将BFC版本描述为“试图拯救NVL游戏性能”的手段。\n此前初代Arrow Lake虽然在能效上有较大提升，但游戏表现却提升不大。Intel随后进行了多项调整，包括大幅提升芯粒间互联速度，并推出了Arrow Lake Refresh，其中就包括表现更好且更便宜的酷睿Ultra 7 270K Plus。\n如果Nova Lake性能接近Arrow Lake Refresh，对Intel来说不算灾难，因为270K Plus在游戏测试中表现尚可，多线程性能也很强劲。\n至于BFC版本的大缓存则有望帮助Intel正面对抗AMD X3D系列，毕竟9800X3D对比270K Plus帧率仍有明显优势。\n但未知数是AMD即将推出的Zen 6处理器，Arrow Lake Refresh可以说是Intel对AMD已上市一段时间的Zen 5的大追赶，但并未追上X3D型号。\n此前曝光的型号阵容中，双计算芯片版本的Nova Lake-S最高可达52核（16P+32E+4LPE），单计算芯片的旗舰Ultra 9 4970K BFC配备8个P核、16个E核和4个LP E核，另配大容量缓存。\n非BFC版本最高为Ultra 9 4950K，核心配置相同但没有额外缓存，此外还有Ultra 5 4650K，配备6个P核和12个E核，不带大缓存。\nIntel据传将率先推出BFC版Nova Lake，最终结论有待实机测试验证。",
+  "published_at": "2026-10-13T21:33:06+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "872449ef09f2b24f1544",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577.body",
+  "source_sha256": "a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577",
+  "fetched_at": "2026-10-14T01:03:56.466999+00:00"
+}

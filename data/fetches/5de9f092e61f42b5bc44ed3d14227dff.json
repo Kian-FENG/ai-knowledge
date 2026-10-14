@@ -1,0 +1,31 @@
+{
+  "raw_path": "raw/2026-10-14/f4a6aa0e09501728898f3ab6f5ad8965063818d18e23609b093152d38ea5ed22.body",
+  "sha256": "f4a6aa0e09501728898f3ab6f5ad8965063818d18e23609b093152d38ea5ed22",
+  "source_url": "https://www.bis.gov/news-updates",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-14T01:03:38.425599+00:00",
+  "source_id": "bis",
+  "status": 200,
+  "headers": {
+    "Date": "Wed, 14 Oct 2026 01:03:39 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "cache-control": "s-maxage=60, stale-while-revalidate=31535940",
+    "Vary": "Accept-Encoding",
+    "x-nextjs-cache": "HIT",
+    "X-Powered-By": "Next.js",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Age": "9",
+    "cf-cache-status": "HIT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4a2aa5c9afaed3b-SJC"
+  },
+  "final_url": "https://www.bis.gov/news-updates",
+  "truncated": false,
+  "charset": "utf-8",
+  "redacted_response_headers": [
+    "set-cookie"
+  ]
+}

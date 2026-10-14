@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-trends/article/3370711/chinas-iluvatar-corexs-first-ai-computing-supernode-squeezes-most-gpus-1-system",
+  "title": "China’s Iluvatar CoreX’s first AI computing supernode squeezes most GPUs in 1 system",
+  "text": "Chinese AI chipmaker Iluvatar CoreX debuted its first supernode system, a computing system that squeezes 144 graphics processing units (GPUs) into a single cabinet, breaking an industrial record.\nThe new product, dubbed the Tiangai 300 IXL144, was unveiled on Monday at the 2026 China International Industry Fair (CIIF) in Shanghai. Designed for large-scale AI model training and inference, the system packs 144 GPUs and 18 central processing units (CPUs) into a single cabinet and boasts around 10.1...",
+  "published_at": "2026-10-13T09:00:04+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "138950ad78329b3e6942",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/e8c15d102b638719c0fc11256a83135c67f5e287bd965dda2e8095132235896d.body",
+  "source_sha256": "e8c15d102b638719c0fc11256a83135c67f5e287bd965dda2e8095132235896d",
+  "fetched_at": "2026-10-14T01:03:46.341817+00:00"
+}

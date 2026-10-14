@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-13",
+  "as_of": "2026-10-14T01:13:24.452574+00:00",
+  "baseline": "/tmp/ai-automation-2026-10-13/baseline.json",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-13",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-12T18:00:00-07:00",
+    "end": "2026-10-13T18:00:00-07:00"
+  },
+  "config": {
+    "daily_timezone": "America/Los_Angeles",
+    "daily_hour": 18,
+    "source_default_timezone": "Asia/Singapore"
+  },
+  "collection": {
+    "id": "20261014T010312-72922c75",
+    "enabled": 114,
+    "ok": 81,
+    "needs_browser": 31,
+    "failed": 2,
+    "lookback_days": 14,
+    "per_source_limit": 60
+  },
+  "source_checks": [
+    {
+      "source_id": "stacklok",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "peppermint",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "cls-eastmoney",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "ms-decision",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "ms-nadella",
+      "status": "failed",
+      "note": "X原帖本轮浏览工具失败；前期授权治理事件不重复。"
+    },
+    {
+      "source_id": "nous",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "healthleap",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "已读本轮RSS、官网新闻列表、Higgsfield主文；API changelog及帮助中心已查看，未把旧条目当新发布。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "已查官网新闻/研究列表及两篇研究主文、HTML日期；均为背景，修改时间未证明实质新增。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "已读API更新、官网/HF采集；当前可见changelog最新Sep10，无核实的本窗口新模型；Winverse投资传闻未取原文不采用。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "Web工具与原生浏览器均仅见导航，未取得新闻正文；非无新闻。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "已读官方研究列表及HF入口，K3/PerceptionBench为旧日期；未证明本窗口新版本。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "failed",
+      "note": "Web工具与原生浏览器均仅见导航/精选，未恢复日期完整列表。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "checked",
+      "note": "Web提取无正文；原生浏览器恢复列表，最新Genting Oct12为窗口前背景，未纳入。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "checked",
+      "note": "浏览工具恢复日期列表，见Oct12三条宽带/研究项目，未确认本窗口有模型或算力供给实质变化。"
+    },
+    {
+      "source_id": "asml",
+      "status": "failed",
+      "note": "浏览工具访问失败；未恢复本窗口完整新闻列表。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "核对GitHub Releases与博客，latest v0.5.21显示Oct2，旧版去重。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "GitHub/Atom本轮新记录为v0.32.0rc0，updated Oct12T20:49Z在窗口前；没有当稳定release。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "核对开发快照和原文，MiniMax dev非QA/非生产；旧release/更新去重。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "核对v0.7.2rc3，明确RC而非稳定版；未形成长期价值新事件。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "RSS仍Oct12两篇已收录论文；Web实际查看cs.AI/new为Oct12、313条，cs.DC/recent为Oct12；未穷尽所有条目/类别，没有核实Oct13公告。"
+    },
+    {
+      "source_id": "nda",
+      "status": "checked",
+      "note": "Web为空；原生浏览器恢复官网政策与动态列表，已检查可见范围，不宣称全站完整。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "RSS超时，Web兜底仍失败；未恢复全窗口。"
+    },
+    {
+      "source_id": "c114",
+      "status": "checked",
+      "note": "collect被robots限制；浏览工具恢复原生日期列表，未逐条阅读全文。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "已读首页可见Week41与专题列表，会员/公众号正文未覆盖，正文不足仍记失败覆盖。"
+    },
+    {
+      "source_id": "reflection",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "namespace",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "vinci",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "today",
+      "status": "failed",
+      "note": "官方/blog本轮浏览工具失败，旧融资不重复。"
+    },
+    {
+      "source_id": "typesafe",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "globalfoundries",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "cna-reuters",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "odyssey",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "vals-ai",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "epoch-innovationeval",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "decart",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "microsoft-blog",
+      "status": "checked",
+      "note": "已打开官方首页，Maia路线为Oct12已收录，未发现新的可核实正文。"
+    },
+    {
+      "source_id": "mosi",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "modcraft",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "apple-newsroom",
+      "status": "checked",
+      "note": "实际阅读HomeView官方完整主文及可用性；新增来源在collect之后人工核查。"
+    },
+    {
+      "source_id": "pluto-security",
+      "status": "checked",
+      "note": "实际阅读官网、About和Oct13融资主文；新增来源在collect之后人工核查。"
+    },
+    {
+      "source_id": "semigraph",
+      "status": "checked",
+      "note": "Web超时后原生浏览器恢复官网身份/角色与旧日期新闻；当前融资仅背景。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "实际执行英文new AI startup funding launch与中文AI新公司/融资/具身检索；回查Pluto及SemiGraph官网。Winverse金额/估值冲突、Ubitium/Clueso等未读一手，不采用；深度云海仅媒体归因。"
+    },
+    {
+      "source_id": "techmeme-snapshot",
+      "status": "failed",
+      "note": "Oct12 h2355快照浏览工具失败；Oct13 h2355尚晚于当前运行，未使用未来快照。"
+    }
+  ],
+  "gaps": [
+    {
+      "from": "2026-10-13T01:04:43.328454+00:00",
+      "to": "2026-10-13T13:02:30+00:00",
+      "detected_at": "2026-10-14T01:03:49.487259+00:00",
+      "source_id": "ithome"
+    },
+    {
+      "from": "2026-10-13T01:04:49.788565+00:00",
+      "to": "2026-10-13T17:14:57+08:00",
+      "detected_at": "2026-10-14T01:03:56.466999+00:00",
+      "source_id": "mydrivers"
+    },
+    {
+      "from": "2026-10-13T01:04:44.478800+00:00",
+      "to": "2026-10-13T04:01:15+00:00",
+      "detected_at": "2026-10-14T01:03:50.038330+00:00",
+      "source_id": "qbitai"
+    },
+    {
+      "from": "2026-10-13T01:04:39.373704+00:00",
+      "to": "2026-10-13T09:55:45-04:00",
+      "detected_at": "2026-10-14T01:03:44.025004+00:00",
+      "source_id": "the-verge-ai"
+    },
+    {
+      "from": "2026-10-13T01:04:44.832783+00:00",
+      "to": "2026-10-13T18:26:46+08:00",
+      "detected_at": "2026-10-14T01:03:50.612568+00:00",
+      "source_id": "tmtpost"
+    }
+  ],
+  "limits": [
+    "五段媒体漏采未全部补齐；高频调度未独立确认，daily-only日志显示间隔约24小时。",
+    "collect本地unknown_date/future_date/truncated/listing_cap警报0不代表全站完整；packet展示截断的Gemini/Runai/Spyre/RTX已回读长原文或所列范围。",
+    "arXiv本轮仍Oct12列表；cs.AI313条未逐篇阅读，其他类别/完整论文未覆盖。",
+    "付费原文、会员通讯、公众号、私域未完整覆盖；Qwen/MiniMax原生浏览仍无正文。",
+    "日期仅到日的Apple/Pluto/RTX保留date-only；+08午夜为解析占位，不能作为确切发布时间。"
+  ],
+  "prior_knowledge": [
+    "note-agent-execution-and-inference-economics-20261012",
+    "source-meta-muse-wonder-20261012",
+    "source-pytorch-spyre-native-device-20261008"
+  ],
+  "readback": "17 published pages verified by default query/get_page and raw hashes",
+  "validation": {
+    "pages": 137,
+    "sources": 118,
+    "offline_tests": 49
+  },
+  "final_report_review": {
+    "report_sha256": "a3bec42e0e70766e4dc1dfab554d1354f9e7e59c74376dcdff097e4ca6dc5692",
+    "events": 10,
+    "date_only_placeholders_removed": true,
+    "facts_and_analysis_separated": true,
+    "window_checked": true,
+    "source_duplicate_check": true,
+    "generated_at": "2026-10-14T01:15:59.479308+00:00",
+    "git_scope": "selected paths only"
+  },
+  "packet_unknown_date_excluded": 6
+}

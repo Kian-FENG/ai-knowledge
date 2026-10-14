@@ -1,0 +1,18 @@
+{
+  "url": "https://www.leiphone.com/category/industrynews/jX1ndNxDJ94n6bUu.html",
+  "title": "字节跳动 Seed 单独设立大模型安全与对齐部门",
+  "text": "字节跳动 Seed 近日发出内部邮件，宣布将成立“Seed Model-Alignment&Preparedness”部门，由严林负责，汇报给 Seed 负责人吴永辉。原 Responsible AI 团队及部分 Chat 团队成员将转入新部门。\n据悉，该部门的设立旨在加强安全与对齐方向的投入，对齐的核心是让模型的行为与人类意图和安全约束保持一致，从而提升 Agent Model（智能体模型）安全能力，以及防范 CBRN（化学、生物、放射、核）等前沿能力风险。\n大模型安全风险正日益凸显，智能体逃逸引发的网络攻击等事件频繁发生。此前，国内大模型研究团队的安全与对齐工作大多被纳入到公司整体的安全合规体系中，字节跳动 Seed 则是国内首家单独成立安全与对齐部门的前沿 AI 实验室。\nSeed 团队内部判断，随着模型能力越来越强、应用场景越来越复杂，安全与对齐已不只是风险防范，而是决定模型能否规模化应用的核心能力。\n据了解，Seed 安全与对齐部门将围绕模型规范制定、安全评估体系建设、对齐训练、防护系统搭建和风险监控等方向持续投入，并加强与外部研究机构和第三方评测的公开合作，最终使前沿模型在安全与授权约束内有效完成任务，随着模型能力和自主性增强，持续降低滥用及行为偏离风险，建立面对未知风险的全面安全体系。\n雷峰网 雷峰网",
+  "published_at": "2026-10-13T13:43:00+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "13938a4099e50c11eebe",
+  "source_id": "leiphone",
+  "source_name": "雷峰网",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/71cc649ac7a19d4c9334096f487410f66e994b647d84b9a242c234fcc252e239.body",
+  "source_sha256": "71cc649ac7a19d4c9334096f487410f66e994b647d84b9a242c234fcc252e239",
+  "fetched_at": "2026-10-14T01:03:51.064407+00:00"
+}

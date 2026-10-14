@@ -2,6 +2,26 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-13
+
+- `entity` [[reference/entities/pluto-security|Pluto Security：AI工具供应链与运行时治理]]
+- `entity` [[reference/entities/semigraph|SemiGraph：3D角色与多模态AI互动]]
+- `source` [[reference/sources/anthropic-distillation-defenses-20261012|Anthropic蒸馏防御：上下文控制、分类器与受阻请求计费]]
+- `source` [[reference/sources/anthropic-edge-replication-20261012|Anthropic端侧复制研究：设备能运行模型不等于完整自主传播]]
+- `source` [[reference/sources/apple-homeview-20261013|苹果HomeView开放预购，Siri AI进入可识别家庭成员的常驻屏幕]]
+- `source` [[reference/sources/deepsea-geo-angel-20261013|36氪：深度云海获千万级天使轮，GEO向结果交付工作台延伸]]
+- `source` [[reference/sources/gemini-argon-access-20261013|Gemini 4 Argon向付费产品与API开放，百万token由输入输出共用]]
+- `source` [[reference/sources/higgsfield-long-video-20261013|Higgsfield客户案例：创作Agent把教学视频流程延伸到10分钟以上]]
+- `source` [[reference/sources/pluto-security-funding-20261013|Pluto Security结束隐身状态，披露4200万美元融资]]
+- `source` [[reference/sources/qwen-go-applications-20261013|雷峰网：千问Go开放体验申请，个人办事Agent仍分批准入]]
+- `source` [[reference/sources/rtx-spark-ecosystem-20261013|RTX Spark上市前生态更新：PAIR结束beta，Bolt模型仍待10月15日]]
+- `source` [[reference/sources/runai-open-platform-20261013|NVIDIA开源Run:ai完整平台，GPU调度与组织配额可分模块采用]]
+- `source` [[reference/sources/semigraph-products-undated|SemiGraph：3D角色与多模态AI互动产品身份背景]]
+- `source` [[reference/sources/spyre-inductor-20261013|IBM以Inductor扩展替代独立编译栈，Spyre适配仍需专用后端]]
+- `source` [[reference/sources/stepx-neo-presale-20261013|快科技：STEPX Neo先行版预售，硬件、模型额度与开发工具合并定价]]
+- `source` [[reference/sources/vllm-bidirectional-kv-20261012|vLLM双向KV传输：跨轮复用取决于留存、路由和网络成本]]
+- `note` [[research/synthesis/agent-access-governance-and-local-stack-20261013|Agent交付连接入口、身份与算力治理，优惠价不能替代任务成本]]
+
 ## 2026-10-12
 
 - `entity` [[reference/entities/decart|Decart：优化栈DOS与实时世界模型]]

@@ -150,3 +150,24 @@
 - research/synthesis/agent-execution-and-inference-economics-20261012.md：原文归档、查重、阅读、综合关联、审核发布完成；默认query/get_page回查通过，raw hash/版本核对完成。
 
 新建18、更新0；去重跳过与未完成核验见本期pending-evidence。没有将审核发布提高为独立复现。
+
+
+## automation-ai-2026-10-13
+
+- reference/sources/apple-homeview-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/higgsfield-long-video-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/qwen-go-applications-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/stepx-neo-presale-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/pluto-security-funding-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/deepsea-geo-angel-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/gemini-argon-access-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/runai-open-platform-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/spyre-inductor-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/rtx-spark-ecosystem-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/anthropic-distillation-defenses-20261012.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/anthropic-edge-replication-20261012.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/vllm-bidirectional-kv-20261012.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/sources/semigraph-products-undated.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/entities/pluto-security.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- reference/entities/semigraph.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+- research/synthesis/agent-access-governance-and-local-stack-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。

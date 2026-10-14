@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/neocloud-prime-intellect-acquires-startup-speed-inference",
+  "title": "Neocloud Prime Intellect Acquires Startup To Speed Up Inference",
+  "text": "Neoclouds and so-called inference providers that help app developers run open source models are trying to differentiate themselves in a very crowded market.\nFor instance, one such neocloud, Prime Intellect, which was valued at $1 billion in an equity financing in July, is buying a startup to help it make open models run faster and more cheaply on its Nvidia servers, compared to its rivals.\nPrime Intellect, based in San Francisco, is acquiring Moondream, a young developer of open-source models that has fewer than 10 employees, according to Prime Intellect co-founder and CEO Vincent Weisser. (Weisser wouldn’t share the terms of the deal, but Moondream has raised $4.5 million in funding.)\nSan Francisco- and Seattle-based Moondream is best known for an open-source vision-language model for analyzing and understanding images, like identifying boxes in an image of a warehouse or ads in a livestream. But Prime Intellect is largely acquiring the startup for its employees’ skills in writing software to make models run more efficiently, Weisser said.",
+  "published_at": "2026-10-13T14:00:51+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T16:45:25+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "64d0e8fac97b83ce91c2",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974.body",
+  "source_sha256": "32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974",
+  "fetched_at": "2026-10-14T01:03:44.583665+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/openai-scrambles-fix-safety-issues-shipping-next-flagship-model",
+  "title": "OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model",
+  "text": "OpenAI is grappling with fallout from its use of a controversial innovation in AI design as it works to get its next unreleased model to a place where leaders believe they can safely release it.\nThe model design, known as loop transformers or recurrent depth, can make it harder to monitor the way the AI “thinks,” or how it reasons and processes its response to a question or task, The Information reported last month. That means the technique could erode a key tool that OpenAI and other companies rely on to catch misbehaving models. OpenAI hasn’t publicly acknowledged the technique, but Microsoft last week accidentally confirmed OpenAI’s use of it in one of the AI company’s most advanced commercially available models, GPT-6.1 Sol, in a blog post it has since edited to remove the disclosure.",
+  "published_at": "2026-10-13T19:51:54+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T19:52:19+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9df40103492eb448dbef",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974.body",
+  "source_sha256": "32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974",
+  "fetched_at": "2026-10-14T01:03:44.583665+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/jpmorgan-closely-tracking-ai-exposure-cfo-says",
+  "title": "JPMorgan Closely Tracking Its AI Exposure, CFO Says",
+  "text": "JPMorgan CFO Jeremy Barnum said on Tuesday that the bank is carefully monitoring its AI exposure as the capital expenditure demands of the AI buildout grow. He noted that lenders generally need to keep tabs on direct and indirect exposure to AI infrastructure spending, as well as other factors ...",
+  "published_at": "2026-10-13T20:38:35+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T21:32:52+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a2845ec9887e46ccc36e",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974.body",
+  "source_sha256": "32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974",
+  "fetched_at": "2026-10-14T01:03:44.583665+00:00"
+}

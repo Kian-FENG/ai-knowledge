@@ -1,0 +1,31 @@
+{
+  "raw_path": "raw/2026-10-14/8d70e3b486e2ec6349bce11988fc87658acaa090c936f168b618d554efbe6af4.body",
+  "sha256": "8d70e3b486e2ec6349bce11988fc87658acaa090c936f168b618d554efbe6af4",
+  "source_url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-14T01:05:34.977941+00:00",
+  "source_id": "nvidia-blog",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "34119",
+    "Server": "Apache",
+    "Surrogate-Key": "nvidia-event-1-98702",
+    "Link": "<https://blogs.nvidia.com/?p=98702>; rel=shortlink",
+    "ETag": "\"565792f433856480163bed093ce8f536ee0dd04e-gzip\"",
+    "Last-Modified": "Tue, 13 Oct 2026 23:59:18 GMT",
+    "Content-Encoding": "gzip",
+    "Edge-Cache-Tag": "blogs.nvidia.com,blogs.nvidia.com/gtc-berlin-2026-news/,nvidia-event-1-98702",
+    "Date": "Wed, 14 Oct 2026 01:05:37 GMT",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "x-accept": "application/atom+xml, application/rss+xml, text/html, */*",
+    "Country-Code": "c_code=US; Path=/; Secure",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "Akamai-Cache-Status": "Miss from child",
+    "Akamai-GRN": "0.e8f12417.1791939937.142bcd00"
+  },
+  "final_url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+  "truncated": false,
+  "charset": "utf-8"
+}

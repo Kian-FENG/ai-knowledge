@@ -1,0 +1,19 @@
+{
+  "title": "Meet Apple HomeView",
+  "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+  "text": "Agent阅读笔记，非逐字原文；已读Apple完整主文与Pricing and Availability，未测试设备。Apple公告日2026-10-13，未见精确时刻。HomeView配备7英寸显示屏、Siri AI，识别最多6位用户；个性上下文和跨App行动需配对支持Apple Intelligence的iPhone或iPad，没有这些设备仍可使用对话及一般知识等部分能力。两种HomeView美国定价USD299；澳大利亚、加拿大、印度、新西兰、英国、美国即日预购，新加坡10月15日9:00 SGT预购，11月13日起上市。欧盟因Siri AI当前不可用而不销售。不能将预购写成已交付，也不能外推所有地区和语言。",
+  "published_at": "2026-10-13T00:00:00+08:00",
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "full-text",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "e8f5bd2da63e49edb020",
+  "source_id": "apple-newsroom",
+  "source_name": "Apple Newsroom",
+  "section": 0,
+  "raw_path": "raw/2026-10-14/9fc6789d0b4adca3288448ae1554051f5e2228bdd5184d453a5016574e54e082.txt",
+  "source_sha256": "9fc6789d0b4adca3288448ae1554051f5e2228bdd5184d453a5016574e54e082",
+  "fetched_at": "2026-10-14T01:09:11.438043+00:00"
+}

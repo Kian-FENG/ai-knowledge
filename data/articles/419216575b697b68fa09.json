@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.7.2rc3",
+  "title": "Release v0.7.2rc3",
+  "text": "What's Changed\n[release-v0.7.2] fix(tests): count caching-allocator requests in the Cake DSv4 hardening no-allocation checks by @yyihuang in #6245\ntest(cake_sampling): make the graph-replay generator check independent of CUPTI (release-v0.7.2) by @yyihuang in #6247\nFull Changelog: v0.7.2rc2...v0.7.2rc3",
+  "published_at": null,
+  "announced_at": null,
+  "updated_at": "2026-10-13T08:01:18+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "419216575b697b68fa09",
+  "source_id": "flashinfer",
+  "source_name": "FlashInfer",
+  "section": 3,
+  "raw_path": "raw/2026-10-14/db8b2d37487106cf1e6dd8ab8b7aa97af4c89ddebc6e0f6eae5641410eac0504.body",
+  "source_sha256": "db8b2d37487106cf1e6dd8ab8b7aa97af4c89ddebc6e0f6eae5641410eac0504",
+  "fetched_at": "2026-10-14T01:03:40.332696+00:00"
+}

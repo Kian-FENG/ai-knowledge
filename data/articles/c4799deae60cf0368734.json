@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/openais-bug-bumbles-ai-powered-exit",
+  "title": "OpenAI’s Bug and Bumble’s AI-Powered Exit",
+  "text": "When is someone going to make a TV show set at OpenAI? It’s got swarms of rogue AI agents causing havoc across the internet, not to mention periodic corporate drama. And today we learned that an OpenAI engineer allegedly planted a “sophisticated recording device” inside a company conference room.\nThe Justice Department identified the engineer—who has been arrested—as a Saudi national and revealed that the bug was attached to the back of a TV set in a conference room where “discussions of highly confidential technical, commercial and strategic information” were often held. OpenAI is a gift that keeps on giving…to journalists everywhere. (Check out our scoop today about how OpenAI is trying to fix its safety issues).",
+  "published_at": "2026-10-14T00:00:51+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-14T00:07:27+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c4799deae60cf0368734",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974.body",
+  "source_sha256": "32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974",
+  "fetched_at": "2026-10-14T01:03:44.583665+00:00"
+}

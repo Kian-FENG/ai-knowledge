@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157188.htm",
+  "title": "AMD苏姿丰：CPU需求年增50% EPYC年卖1000亿美元",
+  "text": "快科技10月13日消息，AI时代的前几年算力芯片的重点是GPU，今年则轮到了CPU，这主要受益于Agent智能体的发展，AMD、Intel、ARM这一年来股价都涨了好几倍了。\nAMD CEO苏姿丰在日前的OCP全球峰会上进一步上调了她之前对CPU市场的预测，称服务器CPU需求可能以约50%的复合年增长率增长，到2030年超过2000亿美元，而此前AMD的预测是1200亿美元。\n这也不是AMD第一次上调这个目标了，过去九个月内三次上调这一预测，因为AI智能体创造了全新的处理器需求，这些处理器用于协调工作负载、任务协作和支持推理。\n在这个市场上，AMD的目标是拿下超过50%的市场份额，一旦实现这个目标，意味着仅EPYC系列处理器到2030年就可能成为一个超过1000亿美元的业务。\n不过AMD要想实现这一目标，也要看台积电的晶圆产能，以及更广泛的供应链能否与智能体AI部署同步扩展。\nAMD实现50%的AI CPU份额其实也不算难事，因为今年的份额已经接近这个数了，据Mercury Research数据，2026年第一季度，AMD EPYC服务器处理器按营收计已创下46.2%的历史最高份额，同比增长6.8个百分点，而同期AMD在整体x86 CPU市场的出货量份额也首次突破30%。\nAMD接下来的EPYC新品Venice已经开始出货，2nm工艺及Zen6架构，性能提升不小，友商Intel的至强产品线又面临青黄不接的尴尬，运气好的话明年EPYC所在的服务器CPU份额就能超过一半了。",
+  "published_at": "2026-10-13T20:48:20+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7883772dddc3c1b49177",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577.body",
+  "source_sha256": "a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577",
+  "fetched_at": "2026-10-14T01:03:56.466999+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+  "title": "Google finally releases Gemini 4 Argon",
+  "text": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer.\nGoogle says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that continue to plague AI chatbots. The company claims Argon outperforms rival models like GPT-6 Astra, Claude Fable 5.1, and Claude Opus 5.5 across a range of benchmarks, including coding, cybersecurity, science, finance, and law.\nGoogle says it's already putting Argon to use internally, s …\nRead the full story at The Verge.",
+  "published_at": "2026-10-13T12:00:00-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T08:12:37-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f9f5ac5db3b603f4975a",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-14/b8771cd50a530ada8978890c1b5938d63e8680fb521ce7b1d8ffe47e58ba30ef.body",
+  "source_sha256": "b8771cd50a530ada8978890c1b5938d63e8680fb521ce7b1d8ffe47e58ba30ef",
+  "fetched_at": "2026-10-14T01:03:44.025004+00:00"
+}

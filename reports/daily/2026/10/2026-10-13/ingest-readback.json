@@ -1,0 +1,242 @@
+[
+  {
+    "path": "reference/sources/apple-homeview-20261013.md",
+    "id": "source-apple-homeview-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/9fc6789d0b4adca3288448ae1554051f5e2228bdd5184d453a5016574e54e082.txt",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/higgsfield-long-video-20261013.md",
+    "id": "source-higgsfield-long-video-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/3f1ee9ad293ddbcce81a8fedc9dc6709e068cc807198687eaabf7acb2ecb13a5.txt",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/qwen-go-applications-20261013.md",
+    "id": "source-qwen-go-applications-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/71cc649ac7a19d4c9334096f487410f66e994b647d84b9a242c234fcc252e239.body",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/stepx-neo-presale-20261013.md",
+    "id": "source-stepx-neo-presale-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577.body",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/pluto-security-funding-20261013.md",
+    "id": "source-pluto-security-funding-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/4db55e05b0377bc74ca9e4eac5d954a85cefed37ef377f594c3a3430014303c7.txt",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/deepsea-geo-angel-20261013.md",
+    "id": "source-deepsea-geo-angel-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/7454b73e8404d6bc5cefeaea5cd122090132de6f11bb25bbaa2ab09e5b357dca.body",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/gemini-argon-access-20261013.md",
+    "id": "source-gemini-argon-access-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/d171aceaca5a62781cca7a363c02536f0a86c4f9c4528c2854457dadff58faa0.body",
+        "valid": true
+      },
+      {
+        "path": "raw/2026-10-14/1d7c5253f08dba47c1b1f542fa3f44f4869163aff12471a013204df035542835.body",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/runai-open-platform-20261013.md",
+    "id": "source-runai-open-platform-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/0a319b0b47198f1f35f34ff21d99061bdb507a7d5b9144f40c4af2721e02377c.body",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/spyre-inductor-20261013.md",
+    "id": "source-spyre-inductor-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/bd230c5d6f9c00e5cd6ccba056b852ef7ad7bdbe8e53b090f57aa1fdc8c667fd.body",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/rtx-spark-ecosystem-20261013.md",
+    "id": "source-rtx-spark-ecosystem-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/9a671723d5969ad1aea26c36c0ab04b39759985205a5bfa4118c9706172a22c8.body",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/anthropic-distillation-defenses-20261012.md",
+    "id": "source-anthropic-distillation-defenses-20261012",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/bbfda0ccb7230ad0306b3a5241fac9770f83f3222644bd0646eb3d4913ad9acc.body",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/anthropic-edge-replication-20261012.md",
+    "id": "source-anthropic-edge-replication-20261012",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/37043e7b2cc407ed8d4818e5cebf2c696cebc04f9929d14b3bf5fe62be74bb43.body",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/vllm-bidirectional-kv-20261012.md",
+    "id": "source-vllm-bidirectional-kv-20261012",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/9eedade2f5feeab1961f882f03504bef9d0af298d68edec2e4f3e84ca96866d5.body",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/semigraph-products-undated.md",
+    "id": "source-semigraph-products-undated",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/cb9a24eae43929998898e76514c9811468b721f4485927b38a155f19cb6c488a.txt",
+        "valid": true
+      },
+      {
+        "path": "raw/2026-10-14/b1a0b0c51f3226b782118ee3f5f25eabb9feb0f30fb0fa768ab924aed56a7cf6.txt",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/entities/pluto-security.md",
+    "id": "entity-pluto-security",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/4db55e05b0377bc74ca9e4eac5d954a85cefed37ef377f594c3a3430014303c7.txt",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "reference/entities/semigraph.md",
+    "id": "entity-semigraph",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/cb9a24eae43929998898e76514c9811468b721f4485927b38a155f19cb6c488a.txt",
+        "valid": true
+      },
+      {
+        "path": "raw/2026-10-14/b1a0b0c51f3226b782118ee3f5f25eabb9feb0f30fb0fa768ab924aed56a7cf6.txt",
+        "valid": true
+      }
+    ]
+  },
+  {
+    "path": "research/synthesis/agent-access-governance-and-local-stack-20261013.md",
+    "id": "note-agent-access-governance-and-local-stack-20261013",
+    "published": true,
+    "query_visible": true,
+    "raw": [
+      {
+        "path": "raw/2026-10-14/d171aceaca5a62781cca7a363c02536f0a86c4f9c4528c2854457dadff58faa0.body",
+        "valid": true
+      },
+      {
+        "path": "raw/2026-10-14/9fc6789d0b4adca3288448ae1554051f5e2228bdd5184d453a5016574e54e082.txt",
+        "valid": true
+      },
+      {
+        "path": "raw/2026-10-14/71cc649ac7a19d4c9334096f487410f66e994b647d84b9a242c234fcc252e239.body",
+        "valid": true
+      },
+      {
+        "path": "raw/2026-10-14/a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577.body",
+        "valid": true
+      },
+      {
+        "path": "raw/2026-10-14/4db55e05b0377bc74ca9e4eac5d954a85cefed37ef377f594c3a3430014303c7.txt",
+        "valid": true
+      },
+      {
+        "path": "raw/2026-10-14/0a319b0b47198f1f35f34ff21d99061bdb507a7d5b9144f40c4af2721e02377c.body",
+        "valid": true
+      },
+      {
+        "path": "raw/2026-10-14/9a671723d5969ad1aea26c36c0ab04b39759985205a5bfa4118c9706172a22c8.body",
+        "valid": true
+      }
+    ]
+  }
+]

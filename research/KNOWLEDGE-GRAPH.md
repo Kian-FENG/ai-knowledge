@@ -178,3 +178,40 @@
 - [[reference/entities/mosi|模思智能：OpenMOSS团队孵化的实时全模态交互公司]]
 - [[reference/entities/modcraft|ModCraft：自然语言Mod创作与社区分发产品]]
 - [[research/synthesis/agent-execution-and-inference-economics-20261012|Agent成本开始分层：订阅共享、应用复用、执行机架与状态缓存]]
+
+
+## 2026-10-13 日报与背景入库
+
+[[reference/sources/apple-homeview-20261013|苹果HomeView开放预购，Siri AI进入可识别家庭成员的常驻屏幕]]
+
+[[reference/sources/higgsfield-long-video-20261013|Higgsfield客户案例：创作Agent把教学视频流程延伸到10分钟以上]]
+
+[[reference/sources/qwen-go-applications-20261013|雷峰网：千问Go开放体验申请，个人办事Agent仍分批准入]]
+
+[[reference/sources/stepx-neo-presale-20261013|快科技：STEPX Neo先行版预售，硬件、模型额度与开发工具合并定价]]
+
+[[reference/sources/pluto-security-funding-20261013|Pluto Security结束隐身状态，披露4200万美元融资]]
+
+[[reference/sources/deepsea-geo-angel-20261013|36氪：深度云海获千万级天使轮，GEO向结果交付工作台延伸]]
+
+[[reference/sources/gemini-argon-access-20261013|Gemini 4 Argon向付费产品与API开放，百万token由输入输出共用]]
+
+[[reference/sources/runai-open-platform-20261013|NVIDIA开源Run:ai完整平台，GPU调度与组织配额可分模块采用]]
+
+[[reference/sources/spyre-inductor-20261013|IBM以Inductor扩展替代独立编译栈，Spyre适配仍需专用后端]]
+
+[[reference/sources/rtx-spark-ecosystem-20261013|RTX Spark上市前生态更新：PAIR结束beta，Bolt模型仍待10月15日]]
+
+[[reference/sources/anthropic-distillation-defenses-20261012|Anthropic蒸馏防御：上下文控制、分类器与受阻请求计费]]
+
+[[reference/sources/anthropic-edge-replication-20261012|Anthropic端侧复制研究：设备能运行模型不等于完整自主传播]]
+
+[[reference/sources/vllm-bidirectional-kv-20261012|vLLM双向KV传输：跨轮复用取决于留存、路由和网络成本]]
+
+[[reference/sources/semigraph-products-undated|SemiGraph：3D角色与多模态AI互动产品身份背景]]
+
+[[reference/entities/pluto-security|Pluto Security：AI工具供应链与运行时治理]]
+
+[[reference/entities/semigraph|SemiGraph：3D角色与多模态AI互动]]
+
+[[research/synthesis/agent-access-governance-and-local-stack-20261013|Agent交付连接入口、身份与算力治理，优惠价不能替代任务成本]]

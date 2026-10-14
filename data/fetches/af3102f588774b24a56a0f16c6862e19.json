@@ -1,0 +1,32 @@
+{
+  "raw_path": "raw/2026-10-14/1e7e743af17fb8a9151eab6e859b65115f64fa1cc1a086832c962035411014cc.body",
+  "sha256": "1e7e743af17fb8a9151eab6e859b65115f64fa1cc1a086832c962035411014cc",
+  "source_url": "https://artificialanalysis.ai/changelog",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-14T01:03:38.454445+00:00",
+  "source_id": "artificial-analysis-changelog",
+  "status": 200,
+  "headers": {
+    "Age": "0",
+    "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Wed, 14 Oct 2026 01:03:39 GMT",
+    "Link": "</_next/static/media/09d69b6d2cb2dadb-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/2894d3242f139187-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/33b0a75b30dd1c81-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/5fc57f0bdf4f18a4-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/7ed4844278386875-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/css/68cff37cc5b81e03.css>; rel=preload; as=\"style\", </_next/static/css/a11f285c37ac4068.css>; rel=preload; as=\"style\"",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "X-Matched-Path": "/[locale]/changelog",
+    "X-Powered-By": "Next.js",
+    "X-Vercel-Cache": "MISS",
+    "X-Vercel-Id": "sfo1::sfo1::mcpm6-1791939818975-ba1fc666e32c",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://artificialanalysis.ai/changelog",
+  "truncated": false,
+  "charset": "utf-8",
+  "redacted_response_headers": [
+    "Set-Cookie"
+  ]
+}

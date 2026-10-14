@@ -1,0 +1,470 @@
+{
+  "period": "daily",
+  "date": "2026-10-13",
+  "packet_sha256": "5a8288e4008e5b9c440e8d78a83a7bc01d17558c94394edf6a092b7416899ee3",
+  "overview": "本期变化集中在付费模型分发、个人助手入口与本地算力软件：Gemini 4 Argon开放API/订阅入口，苹果及中国终端把身份、行动与额度融入产品，Run:ai完整开源把GPU平台竞争延伸到管理与支持。Pluto和GEO营销融资显示AI采用正在带动治理与分发工具需求，但披露和媒体数据不等于独立效果。十条精选；论文栏无核实的新公告，部分正文、会员来源与五段媒体漏采未恢复。",
+  "source_checks": [
+    {
+      "source_id": "stacklok",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "peppermint",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "cls-eastmoney",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "ms-decision",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "ms-nadella",
+      "status": "failed",
+      "note": "X原帖本轮浏览工具失败；前期授权治理事件不重复。"
+    },
+    {
+      "source_id": "nous",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "healthleap",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "已读本轮RSS、官网新闻列表、Higgsfield主文；API changelog及帮助中心已查看，未把旧条目当新发布。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "已查官网新闻/研究列表及两篇研究主文、HTML日期；均为背景，修改时间未证明实质新增。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "已读API更新、官网/HF采集；当前可见changelog最新Sep10，无核实的本窗口新模型；Winverse投资传闻未取原文不采用。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "Web工具与原生浏览器均仅见导航，未取得新闻正文；非无新闻。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "已读官方研究列表及HF入口，K3/PerceptionBench为旧日期；未证明本窗口新版本。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "failed",
+      "note": "Web工具与原生浏览器均仅见导航/精选，未恢复日期完整列表。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "checked",
+      "note": "Web提取无正文；原生浏览器恢复列表，最新Genting Oct12为窗口前背景，未纳入。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "checked",
+      "note": "浏览工具恢复日期列表，见Oct12三条宽带/研究项目，未确认本窗口有模型或算力供给实质变化。"
+    },
+    {
+      "source_id": "asml",
+      "status": "failed",
+      "note": "浏览工具访问失败；未恢复本窗口完整新闻列表。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "核对GitHub Releases与博客，latest v0.5.21显示Oct2，旧版去重。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "GitHub/Atom本轮新记录为v0.32.0rc0，updated Oct12T20:49Z在窗口前；没有当稳定release。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "核对开发快照和原文，MiniMax dev非QA/非生产；旧release/更新去重。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "核对v0.7.2rc3，明确RC而非稳定版；未形成长期价值新事件。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "RSS仍Oct12两篇已收录论文；Web实际查看cs.AI/new为Oct12、313条，cs.DC/recent为Oct12；未穷尽所有条目/类别，没有核实Oct13公告。"
+    },
+    {
+      "source_id": "nda",
+      "status": "checked",
+      "note": "Web为空；原生浏览器恢复官网政策与动态列表，已检查可见范围，不宣称全站完整。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "RSS超时，Web兜底仍失败；未恢复全窗口。"
+    },
+    {
+      "source_id": "c114",
+      "status": "checked",
+      "note": "collect被robots限制；浏览工具恢复原生日期列表，未逐条阅读全文。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "已读首页可见Week41与专题列表，会员/公众号正文未覆盖，正文不足仍记失败覆盖。"
+    },
+    {
+      "source_id": "reflection",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "namespace",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "vinci",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "today",
+      "status": "failed",
+      "note": "官方/blog本轮浏览工具失败，旧融资不重复。"
+    },
+    {
+      "source_id": "typesafe",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "globalfoundries",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "cna-reuters",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "odyssey",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "vals-ai",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "epoch-innovationeval",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "decart",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "microsoft-blog",
+      "status": "checked",
+      "note": "已打开官方首页，Maia路线为Oct12已收录，未发现新的可核实正文。"
+    },
+    {
+      "source_id": "mosi",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "modcraft",
+      "status": "checked",
+      "note": "已实际打开配置官网/文章入口，核查可见列表或旧资料；没有核实到本窗口实质新增。不代表账户实测或全站完整覆盖。"
+    },
+    {
+      "source_id": "apple-newsroom",
+      "status": "checked",
+      "note": "实际阅读HomeView官方完整主文及可用性；新增来源在collect之后人工核查。"
+    },
+    {
+      "source_id": "pluto-security",
+      "status": "checked",
+      "note": "实际阅读官网、About和Oct13融资主文；新增来源在collect之后人工核查。"
+    },
+    {
+      "source_id": "semigraph",
+      "status": "checked",
+      "note": "Web超时后原生浏览器恢复官网身份/角色与旧日期新闻；当前融资仅背景。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "本轮实际按2026-10-12至14日期范围执行对应主题检索；搜索结果仅作线索。Reuters/Bloomberg/FT/WSJ付费原文、公众号与未回查交易不作已核实事实。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "实际执行英文new AI startup funding launch与中文AI新公司/融资/具身检索；回查Pluto及SemiGraph官网。Winverse金额/估值冲突、Ubitium/Clueso等未读一手，不采用；深度云海仅媒体归因。"
+    },
+    {
+      "source_id": "techmeme-snapshot",
+      "status": "failed",
+      "note": "Oct12 h2355快照浏览工具失败；Oct13 h2355尚晚于当前运行，未使用未来快照。"
+    }
+  ],
+  "items": [
+    {
+      "event_key": "apple-homeview-20261013",
+      "section": 0,
+      "title": "苹果HomeView开放预购，Siri AI进入可识别家庭成员的常驻屏幕",
+      "article_ids": [
+        "e8f5bd2da63e49edb020"
+      ],
+      "facts": [
+        "苹果10月13日公告7英寸HomeView及Siri AI，最多识别6位用户。个人上下文及跨App行动需配对支持Apple Intelligence的iPhone或iPad；未配对时仍有部分对话和一般知识能力。",
+        "美国两种机型均为USD299，首批市场即日预购，11月13日起上市；新加坡10月15日开放预购。公告称欧盟因Siri AI当前不可用而不销售，不能外推全球交付。只有日期、窗口边界不确定，已对照前一期未重复。",
+        "新增是家庭共享硬件入口及身份切换，并非本日首次发布Siri AI。已读官网主文与可用性段；未测试设备或核实隐私隔离效果。"
+      ],
+      "analysis": "判断（derived）：常驻屏幕、家庭身份和手机上下文联动可能提高助手使用频率，苹果设备及家庭服务生态受益；设备配对门槛、地区限制或身份误识别会削弱采用。观察正式交付、跨App完成率、多用户隔离和持续使用。",
+      "locators": {
+        "e8f5bd2da63e49edb020": "Apple主文Personalized Experience、Siri AI、Pricing and Availability；浏览阅读笔记，非实机评测。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "higgsfield-long-video-20261013",
+      "section": 0,
+      "title": "Higgsfield客户案例：创作Agent把教学视频流程延伸到10分钟以上",
+      "article_ids": [
+        "8d45898e533e591d4241"
+      ],
+      "facts": [
+        "OpenAI于10月13日12:00 UTC发布客户案例，Higgsfield CEO称GPT-6 Astra创作Agent通过外部工具和3D任务处理，支持制作超过10分钟的教学视频，此前约1分钟。",
+        "这是多步骤生产流程的客户自报，不是单次视频模型直接输出10分钟成片；一致性、制作耗时、人工参与、总费用和成功率未独立验证。GPT-Image-2.5与Codex分别用于图像及原型环节。",
+        "相对既有生成工具，本期增量是长内容工作流采用案例。voice-to-movie/GPT-Live-1处于Looking ahead愿景；未记为正式交付。"
+      ],
+      "analysis": "判断（derived）：规划、工具和后期处理结合可能扩大长内容供给，创作平台与小团队受益；返工、素材一致性和人工审查可能抵消节省。观察每分钟合格内容成本、人工工时、重复生成率和真实付费留存。",
+      "locators": {
+        "8d45898e533e591d4241": "OpenAI客户案例四节主文；HTTP403后浏览工具恢复；未观看视频或测试产品。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "qwen-go-applications-20261013",
+      "section": 0,
+      "title": "雷峰网：千问Go开放体验申请，个人办事Agent仍分批准入",
+      "article_ids": [
+        "82db01910c5afa419a42"
+      ],
+      "facts": [
+        "雷峰网10月13日12:11北京时间正文转述千问官方公众号：千问Go内嵌千问App，已上线体验申请，逐步开放资格。未直接取得公众号原文或验证账户可用性，保留媒体归因。",
+        "报道列举理赔、预约、订餐及购物等任务；记者/用户演示不等于稳定完成率和全面支持。增量是申请入口及个人事务产品形态，不把申请开放写成全量正式可用。",
+        "价格、地区、具体权限和责任边界尚未核实。Qwen/千问属于阿里旗下品牌，未新建独立公司。"
+      ],
+      "analysis": "判断（derived）：消费平台服务接入可能让助手从回答扩展到履约，阿里分发和本地服务商受益；授权中断、外部客服失败或纠纷会放大交付成本。观察获准比例、可办任务范围、成功率、人工接管和收费。",
+      "locators": {
+        "82db01910c5afa419a42": "雷峰网完整RSS正文，申请入口/逐步开放/体验例子；公众号原文未取得。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "stepx-neo-presale-20261013",
+      "section": 0,
+      "title": "快科技：STEPX Neo先行版预售，硬件、模型额度与开发工具合并定价",
+      "article_ids": [
+        "e6995110d45fdf8a40e0"
+      ],
+      "facts": [
+        "快科技10月13日20:35:11北京时间报道STEPX Neo先行版16GB+256GB定价CNY3999，整合Step模型、Step AOS及Step Studio；当晚21:00预售、10月16日10:13正式开售，未当作已经大规模交付。",
+        "报道转述购买权益为连续12个月、每月100亿token额度；折算是100亿而非100万。具体适用模型、速率、费用与公平使用条款未核实，不能将额度当实测用量或免费无限推理。",
+        "端侧简单操作与云端规划、双域记忆及原子能力开放为厂商描述；本期新增系统产品与定价组合。已读完整媒体正文，未取得完整官方条款、设备或端到端评测。"
+      ],
+      "analysis": "判断（derived）：硬件、推理与开发入口捆绑可能降低开发者开始创作的摩擦，终端和应用生态受益；补贴额度、工具兼容和权限失败可能增加长期成本。观察开售交付、额度条款、活跃开发者、任务可靠性和续费。",
+      "locators": {
+        "e6995110d45fdf8a40e0": "快科技完整RSS正文：软硬模全栈价、Token Plan、端云分工、Step Studio及预售时间。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "pluto-security-funding-20261013",
+      "section": 1,
+      "title": "Pluto Security结束隐身状态，披露4200万美元融资",
+      "article_ids": [
+        "e1aecba691ddadd92665"
+      ],
+      "facts": [
+        "Pluto官网10月13日公告结束隐身状态并披露USD42M funding，未拆分轮次、估值或交割日；不能直接将媒体所述单轮金额加总替代官网口径。日期仅到天、窗口边界不确定，前一期未收录。",
+        "官方产品覆盖AI工具、MCP/插件供应链、生成产物和运行时行动的可见性与控制；公司称服务超过150万endpoint、ARR达数百万美元，均为未审计自报，ARR不是同期收入。",
+        "官网与About已核对品牌和产品归属；团队位于以色列与美国。新纳入跟踪不等于今天成立，法定主体与注册时间未核实。"
+      ],
+      "analysis": "判断（derived）：员工自行使用AI使权限和运行时控制成为独立采购需求，安全厂商受益；误拦截、安装负担或与现有终端安全重复会阻碍采用。观察独立客户验证、误报率、覆盖工具、续约及同口径ARR。",
+      "locators": {
+        "e1aecba691ddadd92665": "Pluto公告完整主文和官网/About；融资/endpoint/ARR均保留公司归因。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "deepsea-geo-angel-20261013",
+      "section": 1,
+      "title": "36氪：深度云海获千万级天使轮，GEO向结果交付工作台延伸",
+      "article_ids": [
+        "9e45e924f4d81d016cc1"
+      ],
+      "facts": [
+        "36氪10月13日11:10:57北京时间报道深度云海近日完成CNY千万级天使轮、华工科技领投；精确金额、交割日和估值未披露，未取得投资方或公司原始公告。",
+        "报道描述GEO RaaS系统和DeepWork桌面工作台，连接可见性诊断、内容生产分发与监测，支持本地部署是公司主张。年收入数千万元及3000多家客户均为报道中的公司自报，期间/会计口径不明，不转写为ARR。",
+        "新增是融资报道及结果交付路线；排名/引用提升没有独立效果验证。公司一手身份来源尚未回查完成，本次不新建该公司实体；同名产品不合并。"
+      ],
+      "analysis": "判断（derived）：AI搜索推荐改变营销分发，监测与知识整理工具可能受益；平台引用规则变化、归因困难或内容质量下降会使结果付费难履约。观察可审计的增量获客、留存、退款、平台政策和客户实际转化。",
+      "locators": {
+        "9e45e924f4d81d016cc1": "36氪完整RSS正文：融资首段、GEO系统、DeepWork、商业模式与限制；官网/投资方未核实。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "gemini-argon-access-20261013",
+      "section": 2,
+      "title": "Gemini 4 Argon向付费产品与API开放，百万token由输入输出共用",
+      "article_ids": [
+        "74c9e10c02543c499970"
+      ],
+      "facts": [
+        "Google于10月13日16:00 UTC宣布Argon全球推出：API付费层可在AI Studio/Gemini平台使用，Antigravity面向Ultra，Gemini App和AI Mode面向Ultra/Pro；具体地区和产品实际推送仍以账户为准。",
+        "API提供1M统一输入输出token限额，不等于输入1M外再输出1M。公开模型引入价USD2/百万输入、USD10/百万输出，缓存输入折扣95%；11月30日优惠结束后标准价USD4/20。未核对全部长上下文、缓存存储和工具收费细则。",
+        "相对较早模型预告，本期新增可用入口和价格；长任务、科学与代码能力为Google/客户披露，未逐项审计模型卡、harness、预算和外链PR，不采用厂商领先排名或加速倍数。"
+      ],
+      "analysis": "判断（derived）：广泛分发与优惠价可能推动企业试用长任务，Google云和开发者工具受益；长输出、重试及后续标准价可能增加每任务成本。观察同harness成功率、实际总费用、续用及优惠结束后的迁移。",
+      "locators": {
+        "74c9e10c02543c499970": "官网原始HTML及完整文章关键主文/Get started/价格脚注；Google Cloud完整RSS定价交叉回读；未完整模型卡。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "runai-open-platform-20261013",
+      "section": 3,
+      "title": "NVIDIA开源Run:ai完整平台，GPU调度与组织配额可分模块采用",
+      "article_ids": [
+        "b3dd2a0f914f65ea3ebf"
+      ],
+      "facts": [
+        "NVIDIA 10月13日14:19:40 UTC技术文章称完整Run:ai平台源码公开，包含KAI Scheduler、GPU Fractioning Operator、KAI Resource Management和Workload Map，可整体或分模块采用。相对较早只开源调度器，本期增量是完整平台。",
+        "GPU Fractioning对接CUDA13.4原生显存配额；Workload Map描述工作负载结构，本身不调度、不排队或跨集群传播。文章列8家生态伙伴，不据此推导全部生产部署。",
+        "源码适用各自许可证；NGC Community Product仍需相应软件条款，不要求付费订阅但不含企业支持。未逐仓审核许可证、安装或测算利用率，因此不把开源直接等同免费运营。"
+      ],
+      "analysis": "判断（derived）：可组合调度、配额和GPU共享可能降低平台开发门槛，云服务商及集成商受益，也使支持和托管成为差异化。驱动版本、隔离要求与运维复杂度会限制节省；观察兼容性、真实利用率、故障恢复和支持成本。",
+      "locators": {
+        "b3dd2a0f914f65ea3ebf": "官方正文How to adopt、四组件与Community Product条款；未执行代码、未独立复核所有仓库许可。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "spyre-inductor-20261013",
+      "section": 3,
+      "title": "IBM以Inductor扩展替代独立编译栈，Spyre适配仍需专用后端",
+      "article_ids": [
+        "7f13355308fbe95bb329"
+      ],
+      "facts": [
+        "PyTorch 10月13日12:45:30 UTC文章介绍torch-spyre改用backend=inductor，复用主体编译栈，并围绕128字节数据块、scratchpad和静态核分工增加树外扩展。相对10月8日原生设备语义文章，新增重点是编译器复用与维护。",
+        "作者用lizard统计排除测试/注释的代码行：原sendnn约273000行，新扩展约38600行；约7倍是扩展代码规模差异，不是推理速度，且新栈复用了Inductor，比较不等价。",
+        "最后一级仍由专有DeepTools生成硬件指令；关键预调度hook仍在推进正式上游支持。已读概述、架构、Evaluation和结论，未审全部代码/PR，不采用缺完整配置的kernel加速作为端到端效果。"
+      ],
+      "analysis": "判断（derived）：复用主流框架可减少替代加速器的软件维护负担，硬件和平台生态可能受益；专有后端、树外钩子和算子覆盖仍带来迁移成本。观察上游hook落地、升级兼容、应用覆盖和完整任务成本。",
+      "locators": {
+        "7f13355308fbe95bb329": "PyTorch完整RSS中的TLDR、Overall structure、Evaluation、Wrapping up；中间算法非完整审计，未复现。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "rtx-spark-ecosystem-20261013",
+      "section": 5,
+      "title": "RTX Spark上市前生态更新：PAIR结束beta，Bolt模型仍待10月15日",
+      "article_ids": [
+        "8bb1da51925f69396745"
+      ],
+      "facts": [
+        "NVIDIA 10月13日生态文章称RTX Spark笔记本计划10月16日上市，本期新增软件准备：PAIR当天退出beta、增加llama.cpp等支持；Broadcast2.3可下载，部分Agent已支持MXC。文章只有日期，边界不确定；前期硬件公告不重复算首发。",
+        "Nemotron3.5 Bolt 74B-A9B的24GB/2bit模型计划10月15日发布；Hermes的部分OpenShell/MXC和路由集成仍为月底计划。不能把即将发布的权重、许可或软件能力写成已经交付。",
+        "本文只采用最高128GB统一内存的厂商规格描述，不据此估算可运行模型上下文或吞吐。未核对所有模型卡、软件包和实机，拒用通用性能排名。"
+      ],
+      "analysis": "判断（derived）：本地模型、隔离与云路由一起降低使用摩擦，PC硬件及本地Agent开发者受益；内存竞争、应用兼容、云升级费或低利用率会抵消收益。观察10月15/16实际交付、同任务能耗/延迟、软件完整性和总体费用。",
+      "locators": {
+        "8bb1da51925f69396745": "官方生态主文Local agents、PAIR、Bolt、Broadcast、开发工具；未实测，未来时间均保留计划。"
+      },
+      "reviewed": true
+    }
+  ]
+}

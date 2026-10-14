@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157247.htm",
+  "title": "把电脑塞进键盘！惠普EliteBoard G2a发布 搭载Ryzen AI PRO 400",
+  "text": "快科技10月14日消息，惠普发布EliteBoard G2a键盘一体PC，这是一款把整套电脑塞进键盘里面的AI主机，搭载AMD Ryzen AI PRO 400系列处理器，接上显示器就能直接办公。\n简单来说，这款产品外形就是一个普普通通的键盘，但是内部集成完整电脑硬件，不用单独搭配主机。\n处理器可选Ryzen AI PRO 400系列，自带NPU，最高可以提供50TOPS的AI算力，属于Copilot+ PC，本地就能跑AI大模型，不用全程依赖网络。\n内存和硬盘可以按需选配，基础版本搭载16GB DDR5内存、512GB SSD，高配型号最高支持64GB内存。\n核显是AMD Radeon系列核显，日常文档处理、表格制作、视频会议，还有轻度AI绘图、AI剪辑都能hold住。\n接口方面也足够实用，配备USB4、USB-A、HDMI 这类接口，直接连显示器、U盘、扩展坞都没问题。\n整机自带键盘按键，桌面只需要显示器，桌面布线会清爽很多，很适合企业办公场景。\n系统预装Windows11专业版，搭配惠普Wolf Pro安全套件，有硬件级防盗、安全加密、篡改锁定这类商务安全功能，适合企业用户。整机提供3年质保，企业客户出问题可以享受对应的售后支持。\n它的核心优势就是节省桌面空间。传统台式机需要单独主机，而EliteBoard G2a把电脑本体放进键盘，搬办公室或者换工位的时候，只需要带走这一个键盘设备。\n当然它定位是商务办公设备，性能上限和独立显卡台式机有差距，不适合重度3A游戏或者长时间的4K视频渲染。",
+  "published_at": "2026-10-14T08:31:49+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "23b5521d7eddd3b8f1f2",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577.body",
+  "source_sha256": "a6367dff9b35585b1eee757b7789460f3677f0dd82061c4161d233db7b1f9577",
+  "fetched_at": "2026-10-14T01:03:56.466999+00:00"
+}
