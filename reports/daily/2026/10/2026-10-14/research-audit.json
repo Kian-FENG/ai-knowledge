@@ -442,7 +442,8 @@
     "passed": true,
     "report_reviewed_at": "2026-10-15T01:16:40.426554+00:00",
     "report_sha256": "2a83b2918132ff482d6d09816534c289d8e8913f1730d5140a70cb3bc493e99a",
-    "future_candidates_excluded": 1
+    "future_candidates_excluded": 1,
+    "post_review_correction": "Third Moment案例来源页补入已读官网raw及source关系后，重新review/finalize并get_page回查；当前页面fingerprint为准。"
   },
   "coverage_snapshots": [
     {
@@ -522,5 +523,20 @@
     "branch": "main",
     "upstream": "origin/main",
     "existing_dirty_paths": 1202
+  },
+  "git_result": {
+    "date": "2026-10-14",
+    "report_generated": true,
+    "local_committed": true,
+    "remote_synced": true,
+    "research_commit": "a02ac70b58d38c00583e7e92e28b47eaf1777aa5",
+    "remote": "origin",
+    "remote_url": "git@github.com:Kian-FENG/ai-knowledge.git",
+    "target_branch": "main",
+    "upstream": "origin/main",
+    "verified_remote_sha": "a02ac70b58d38c00583e7e92e28b47eaf1777aa5",
+    "verification_method": "separate git ls-remote origin refs/heads/main after successful ordinary push",
+    "notified_at": "2026-10-15T01:19:04.236627+00:00",
+    "note": "仅记录研究提交；回执提交自身的最终hash记入automation memory，避免自引用。原有1202个dirty路径未夹带，2个本轮采集刷新仍未暂存。"
   }
 }
