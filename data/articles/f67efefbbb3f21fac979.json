@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14952",
+  "title": "Do Personalized LLMs Need the Whole Conversation? Matching the Full History with Only 5% of Its Text via Relevance-Filtered Context",
+  "text": "arXiv:2610.14952v1 Announce Type: new\nAbstract: Personalized assistants accumulate long conversation histories, and passing the whole history to an LLM with every request is costly. We show that it is also unnecessary. On PersonaMem-v2 (180 questions), with GPT-5.6-terra and Claude Opus 5.5 as judges, a relevance-filtered context, built by sentence-level retrieval that ranks the history by similarity to the current request and stops at a fixed budget, matches full-history accuracy with only 5% of the text, cutting the judge's input about 20-fold. An LLM summary of the same length performs on par, but it needs an LLM to read the entire history, whereas retrieval needs only a small embedding model. While both sentence-level retrieval and LLM summary perform strongly, retrieval does so while placing the relevant evidence in the context for only 61% of the questions, and an oracle given only that evidence beats the full history by 15.6 points, making better context selection a promising path to surpassing the full history.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f67efefbbb3f21fac979",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets",
+  "title": "China approves Alibaba AI models for use in iPhone Duo and other Apple handsets",
+  "text": "China has granted approval for Alibaba Group Holding’s artificial intelligence models to be integrated into several Apple handsets, including the new iPhone Duo, in the Chinese market, clearing a key regulatory hurdle for the long-delayed launch of Apple Intelligence in the country.\nUpdated network access permits for the iPhone Duo, iPhone 18 Pro and several earlier Apple models from China’s Ministry of Industry and Information Technology now include three approved AI systems: Apple Intelligence...",
+  "published_at": "2026-10-14T11:06:20+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "754f023b191825f3756e",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/81ea1e6498b03b1ac6c392add1f4e8ac7ea70021b09df4ca4fd2ebde43d07442.body",
+  "source_sha256": "81ea1e6498b03b1ac6c392add1f4e8ac7ea70021b09df4ca4fd2ebde43d07442",
+  "fetched_at": "2026-10-15T01:03:55.077504+00:00"
+}

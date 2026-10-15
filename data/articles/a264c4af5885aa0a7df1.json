@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc1",
+  "title": "v0.32.0rc1: [Dependency] Update Humming and remove NVFP4 scale workaround (#61556)",
+  "text": "Signed-off-by: jinzhen.ljz jinzhen.ljz@antgroup.com\nCo-authored-by: Codex codex@openai.com\nCo-authored-by: Misha Goin mgoin64@gmail.com\nCo-authored-by: Kevin H. Luu khluu000@gmail.com",
+  "published_at": null,
+  "announced_at": null,
+  "updated_at": "2026-10-14T23:29:34+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a264c4af5885aa0a7df1",
+  "source_id": "vllm",
+  "source_name": "vLLM Releases",
+  "section": 3,
+  "raw_path": "raw/2026-10-15/d4dc4c2f58e1fda9e33f86004dd6ec93101fa8498ba38517a79952647eb5e4a8.body",
+  "source_sha256": "d4dc4c2f58e1fda9e33f86004dd6ec93101fa8498ba38517a79952647eb5e4a8",
+  "fetched_at": "2026-10-15T01:03:39.871572+00:00"
+}

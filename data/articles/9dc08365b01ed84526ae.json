@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14162",
+  "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+  "text": "arXiv:2610.14162v1 Announce Type: new\nAbstract: Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade quickly with fewer sampling steps, process the full sequence at every step, and require many passes over the dataset to reach good quality. We introduce Next-Concept Modeling (NCM), a two-stage, coarse-to-fine framework: a multiscale residual VQ-VAE encodes text into a hierarchy of discrete codes, and a transformer generates one level at a time, predicting all codes within a level in parallel. At matched parameter scales, NCM achieves better generative perplexity than the strongest DLM baseline on LM1B while running $21\\times$ faster. On OpenWebText, NCM is competitive with the strongest DLM while running $10\\times$ faster; on XSum, it matches the strongest DLM's ROUGE-L while being $31\\times$ faster. On the reasoning task of Sudoku, NCM outperforms autoregressive and diffusion baselines across all difficulty levels, using fewer function evaluations. On the reasoning task of Sudoku, NCM outperforms autoregressive and diffusion baselines across all difficulty levels, using fewer function evaluations.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9dc08365b01ed84526ae",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

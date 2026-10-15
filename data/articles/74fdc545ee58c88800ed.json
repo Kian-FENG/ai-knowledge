@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/anthropic-strikes-licensing-acqui-hire-deal-ai-security-startup",
+  "title": "Anthropic Strikes Licensing, Acqui-Hire Deal With AI Security Startup",
+  "text": "Anthropic has struck an agreement to license technology and hire some engineers from Opaque Systems, a five-year-old startup that sells software for securing confidential data for use with AI agents, according to an Anthropic spokesperson.\nThe Anthropic spokesperson didn’t have a comment on the ...",
+  "published_at": "2026-10-14T07:24:18+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-14T17:16:17+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "74fdc545ee58c88800ed",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/56f81a8247d700ea8ea7281d01e553a9137638d52c1d320d2dbb920e425533a7.body",
+  "source_sha256": "56f81a8247d700ea8ea7281d01e553a9137638d52c1d320d2dbb920e425533a7",
+  "fetched_at": "2026-10-15T01:03:52.053471+00:00"
+}

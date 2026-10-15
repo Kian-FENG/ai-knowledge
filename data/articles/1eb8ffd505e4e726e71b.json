@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.15203",
+  "title": "Do LLMs differentiate linguistic traits internally?: A layer-wise analysis",
+  "text": "arXiv:2610.15203v1 Announce Type: new\nAbstract: Large language models often produce judgments that resemble human responses, but it remains unclear whether they internally capture linguistic nuances such as conventional versus idiomatic meaning. A layer-wise representational analysis was conducted on two equal-sized pre-trained models, Llama-3.2-1B and Gemma-3-1B-PT, to examine whether and where these models differentiate linguistic traits from input. The analysis combined layer-wise probing with geometric distance measures, using the top embedding dimensions ranked by principal component loadings for each layer. The results show that even with equal capacity, models organize linguistic information in fundamentally different ways, suggesting the need to analyze internal representational geometry, examining not just behavioral outputs but semantic space alignment when evaluating how closely human and model language interpretation correspond.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "1eb8ffd505e4e726e71b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

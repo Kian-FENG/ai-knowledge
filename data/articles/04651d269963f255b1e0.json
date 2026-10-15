@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/013/168.htm",
+  "title": "YouTube Music 给音乐打 AI 标签，用户听歌可看清“成分表”",
+  "text": "IT之家 10 月 15 日消息，YouTube 昨日（10 月 14 日）发布公告，为了提高在音乐作品使用 AI 的透明度，宣布其音乐平台 YouTube Music 上线 AI 音乐标注功能，后续将同步扩展至主 YouTube 应用程序。\n根据 YouTube 官方公告，当一首歌曲被识别为“主要使用生成式 AI 创作”（例如使用 AI 模型生成曲调、编曲或合成人声）时，歌曲名称下方、靠近艺人或频道名称的位置，将会出现一个明显的“AI”椭圆形标签。IT之家附上相关图片如下：\n听众在收听时可以直接看到该标记。若点击此 AI 标签，系统会进一步弹出详细菜单，向用户说明这首歌是如何使用 AI 的，帮助用户更清晰地了解正在聆听的内容。\n在 AI 音乐标签方面，标注系统结合了音乐合作伙伴的主动申报与 YouTube 平台自身的 AI 检测工具。创作者在交付音乐数据时，需要选择以下三种精细化类别：\n完全由生成式 AI 创作 (Fully Gen AI)：指完全通过文字提示词生成，或整首歌曲的作词、作曲、乐器演奏及人声皆由生成式 AI 模型完成的曲目。\n部分使用生成式 AI (Partly Gen AI)：涵盖音乐人自主录音或现场演奏，但使用 AI 辅助生成背景和弦、某段旋律、歌词构思或音效的情况。\n未使用生成式 AI (No Gen AI)：正常的传统音乐制作。值得注意的是，使用 Auto-Tune 等音高修正软件或自动化母带平衡软件，将被归类于“未使用 AI”。\n如果上传方未主动进行申报，YouTube 的内部检测系统也会利用多种技术信号自动进行判别与标记。",
+  "published_at": "2026-10-15T00:09:24+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "04651d269963f255b1e0",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/a23c546359c66c61d7ac395f06f7a7130d4d8e5c76cd2b5d61a9c114a151291b.body",
+  "source_sha256": "a23c546359c66c61d7ac395f06f7a7130d4d8e5c76cd2b5d61a9c114a151291b",
+  "fetched_at": "2026-10-15T01:04:00.779984+00:00"
+}

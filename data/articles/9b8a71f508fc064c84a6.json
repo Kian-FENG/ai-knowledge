@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/14/technology/chinese-ai-agents-rogue.html",
+  "title": "Rogue A.I. Agents from China Chatted with Researchers",
+  "text": "Researchers discovered that the agents were trying to bypass security controls on websites and made contact with them. A Times reporter was invited to join the discussion.",
+  "published_at": "2026-10-14T15:21:46+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9b8a71f508fc064c84a6",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/247ca134a7fe6de6be4cfd82a96770a973ad72f42aee896765d6f04aca56611f.body",
+  "source_sha256": "247ca134a7fe6de6be4cfd82a96770a973ad72f42aee896765d6f04aca56611f",
+  "fetched_at": "2026-10-15T01:03:54.729686+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14212",
+  "title": "Modeling the Arrival Time of Information-Bearing Events in Natural Language",
+  "text": "arXiv:2610.14212v1 Announce Type: new\nAbstract: Understanding how information is distributed over time is fundamental to modeling natural language. While existing empirical studies primarily rely on post-hoc analysis of information-theoretic metrics, such as surprisal, little is known about the generation processes under the surface. We propose a novel approach for addressing this gap using the tool of neural temporal point processes (TPPs) by modeling the key information-bearing events in text sequences with learnable event intensity functions. Our model takes the history of event intervals and the contextual semantic representations from LLMs as input, and predicts the future arrival times for two types of events: new-word and high-surprisal-token. The experimental results reveal an interesting distinction in event intensities: LLMs tend to produce new words at significantly higher rates than humans, while high-surprisal tokens do not exhibit the difference. A decaying pattern of intensity over time is found in new-word events for both humans and LLMs, but not in high-surprisal-token events. Our findings revisit and extend previous studies that use simpler methods; provide supplementary evidence for theories about constrained context representation inherent in human language production; and find a new angle to view human and LLM generation differences.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9e14918ee95ad9390837",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
+  "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+  "text": "For the first time, researchers have tracked down an uncontrolled fleet of Chinese AI agents in the wild and communicated with them via a web mailbox. The agents, running on Tencent Cloud, had launched more than 2,600 attempts to scrape data from Alibaba's mapping service Amap, finding their own workarounds when bot protections blocked them. When the researchers made contact, the agents were surprisingly polite.\nThe article Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it appeared first on The Decoder.",
+  "published_at": "2026-10-14T18:07:37+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8341d4f7e6d163c0c1e9",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/46e920269a06ad6392a158329028144a9f855bbef287cf4e3580d316951125b6.body",
+  "source_sha256": "46e920269a06ad6392a158329028144a9f855bbef287cf4e3580d316951125b6",
+  "fetched_at": "2026-10-15T01:03:50.869481+00:00"
+}

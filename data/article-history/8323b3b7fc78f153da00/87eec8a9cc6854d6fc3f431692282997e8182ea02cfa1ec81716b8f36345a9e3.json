@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+  "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+  "text": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make […]",
+  "published_at": "2026-10-14T06:00:28+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8323b3b7fc78f153da00",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-15/87eec8a9cc6854d6fc3f431692282997e8182ea02cfa1ec81716b8f36345a9e3.body",
+  "source_sha256": "87eec8a9cc6854d6fc3f431692282997e8182ea02cfa1ec81716b8f36345a9e3",
+  "fetched_at": "2026-10-15T01:03:29.230374+00:00"
+}

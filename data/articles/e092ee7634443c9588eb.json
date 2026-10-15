@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14543",
+  "title": "Byzantine-linearizable Single-Writer Multi-Reader Register in the GPU-Inspired Shared Memory Model",
+  "text": "arXiv:2610.14543v1 Announce Type: new\nAbstract: The construction of fault-tolerant atomic registers is a fundamental problem in distributed computing. GPUs, widely used in scientific computing and machine learning, face Byzantine thread behaviour, while their shared memory lacks access control, allowing any thread to modify shared objects. This raises the question of whether atomic register semantics can be maintained when any thread, including the designated writer, may behave Byzantine. We study this problem in the GPU-inspired shared-memory model of Georgiou et al. and present implementations of a Byzantine-linearizable single-writer multi-reader (SWMR) register. CAReg uses constant memory with a quantifiable probability of invalid reads, while SnapObject maintains a bounded window of authenticated writes, eliminating invalid reads and tolerating up to \\(n-1\\) Byzantine processes through lock-free and wait-free variants. Our results demonstrate how GPU phase-based, lock-step execution can partially compensate for the absence of access control.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e092ee7634443c9588eb",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

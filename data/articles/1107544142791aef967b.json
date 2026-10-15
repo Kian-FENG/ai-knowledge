@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-14-nixl-push-connector",
+  "title": "Push-Based KV Transfer to Improve TTFT and TPOT for Disaggregated Inference in vLLMOct 14, 2026·15 min readA push-based NIXL connector for vLLM disaggregated serving: the prefill instance writes KV di",
+  "link_text": "Push-Based KV Transfer to Improve TTFT and TPOT for Disaggregated Inference in vLLMOct 14, 2026·15 min readA push-based NIXL connector for vLLM disaggregated serving: the prefill instance writes KV di",
+  "id": "1107544142791aef967b",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-15/dbfe161d4d95d7167fdbee29029ed84746ebb1814f0a437bdbe5a6ff35d1029e.body",
+  "source_sha256": "dbfe161d4d95d7167fdbee29029ed84746ebb1814f0a437bdbe5a6ff35d1029e",
+  "fetched_at": "2026-10-15T01:03:35.822429+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-15T01:03:35.822429+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

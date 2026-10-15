@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14578",
+  "title": "Uniform Information Density-Based Preference Optimization",
+  "text": "arXiv:2610.14578v1 Announce Type: new\nAbstract: To enable large language models to generate outputs that align with human preferences, optimization algorithms based on the comparison between chosen and rejected output pairs have been developed and been proven effective. Some recent endeavors have utilized certain linguistically-derived assumptions about the preference pairs to guide the design of more precise optimization directions. However, human preferences are complex and hard to measure by simplistic criteria, and it is important to incorporate broader and more sophisticated insights about preferred vs. not-preferred language. In this study, we adopt a well-established psycholinguistic theory, Uniform Information Density, to develop a novel preference optimization algorithm, UIDPO. The basic assumption is that humans prefer to produce language in which information is uniformly distributed, because uniformity induces less cognitive processing effort. To implement this idea into the algorithm, we derive a compound metric for information uniformity by combining the global standard deviation and the local second-order difference, and integrate it to the objective of preference optimization. We compare UIDPO with SimPO, a previous state-of-the-art method, obtaining comparable and sometimes better performance on AlpacaEval2, ArenaHard, and MT-Bench. Additional linguistic analysis on complement clauses also shows that UIDPO can better reflect the tendencies of keeping information uniform in natural language than baselines. Our results show that the subtle human preference over the information rate in language is a helpful source for achieving better human alignment for LLMs. The code repository is published here: https://github.com/CLCS-SUSTech/UIDPO.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f57befb6ca85959a440c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

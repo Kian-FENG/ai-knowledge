@@ -1,0 +1,32 @@
+{
+  "raw_path": "raw/2026-10-15/dbfe161d4d95d7167fdbee29029ed84746ebb1814f0a437bdbe5a6ff35d1029e.body",
+  "sha256": "dbfe161d4d95d7167fdbee29029ed84746ebb1814f0a437bdbe5a6ff35d1029e",
+  "source_url": "https://vllm.ai/blog",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-15T01:03:35.822429+00:00",
+  "source_id": "vllm-blog",
+  "status": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "10113",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Thu, 15 Oct 2026 01:03:37 GMT",
+    "Etag": "W/\"9c766386efee829ac309e0eb5ea30b6a\"",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "X-Matched-Path": "/blog",
+    "X-Nextjs-Prerender": "1",
+    "X-Nextjs-Stale-Time": "300",
+    "X-Vercel-Cache": "HIT",
+    "X-Vercel-Id": "sfo1::h7cj9-1792026217014-a946dc2fe039",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://vllm.ai/blog",
+  "truncated": false,
+  "charset": "utf-8"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/013/171.htm",
+  "title": "Linux 之父托瓦兹推出首个 AI 辅助开发的补丁：并发文件读取吞吐量提升约 3 倍",
+  "text": "IT之家 10 月 15 日消息，科技媒体 lwn 昨日（10 月 14 日）发布博文，报道称 Linux 之父林纳斯 · 托瓦兹（Linus Torvalds）在其个人 Git 仓库中推送了一个名为 noref-filemap-read-with-llm 的新开发分支，正式提交了他首个由大语言模型（LLM）辅助开发的内核补丁系列。\n该媒体指出在通常情况下，在 torvalds / linux.git 仓库中，托瓦兹只维护 master 分支，很少在分支上开发，不过在最新出现 noref-filemap-read-with-llm 分支，且后缀包含“llm”，这是他在人工智能 / LLM（特别是 Claude Code）的帮助下进行的一些内核改进。\n托瓦兹于 10 月 13 日在该分支下提交新的补丁，主题为“提高页面引用计数可扩展性”，主要解决 Linux 内存管理长期瓶颈。在多个线程同时高频微量读取同一个文件时候，传统机制因反复触发表级缓存（Page Cache）的引用计数更新，极易导致多核 CPU 产生严重竞态争抢。\n托瓦兹坦言，这组补丁的核心代码、测试程序、漏洞审查以及公告文档的初稿，全部是在他本人的亲自指导下，由 Anthropic 推出的 AI 编程工具 Claude Code 协作完成的。\n托瓦兹在关闭其电脑的部分安全防护后测试，在 8 个线程同时读取同一个文件的特定测试负载下，读取吞吐量从原本的每秒 990 万 ~1040 万次，直接跃升到了 3000 万 ~3300 万次（相当于从约 10M 飙升至 30M+），性能提升约 3 倍；同时，单次读取消耗的内核时钟周期也从大约 2950 次锐减至 725 次。\nIT之家注：该补丁目前仍处于实验性分支，尚未合入 Linux 7.4 的正式主线。\n不仅如此，在近期维护者峰会（Maintainers Summit）及另一处 assoc_array 代码库清理中，托瓦兹同样利用 LLM 将晦涩难懂的陈旧代码重构，甚至一口气揪出了藏匿在 Linux 系统中长达 13 年之久（可追溯至 2013 年首个提交）的 3 个隐蔽 Bug。",
+  "published_at": "2026-10-15T00:34:52+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "65af28002e0ac9b05e44",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/a23c546359c66c61d7ac395f06f7a7130d4d8e5c76cd2b5d61a9c114a151291b.body",
+  "source_sha256": "a23c546359c66c61d7ac395f06f7a7130d4d8e5c76cd2b5d61a9c114a151291b",
+  "fetched_at": "2026-10-15T01:04:00.779984+00:00"
+}

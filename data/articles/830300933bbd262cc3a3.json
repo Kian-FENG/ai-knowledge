@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+  "title": "Researchers use AI to design proteins that cut up other proteins",
+  "text": "A protein is a chain of amino acids held together by what are called peptide bonds. On their own, those bonds are extremely stable; they're estimated to have a half-life of several hundred years. But in Earth's environment, most proteins don't last nearly that long. That's because organisms have evolved a handful of ways to catalyze the break-up of peptide bonds, which have diversified into countless specialized protein-digesting enzymes. Proteases are everywhere and generally make short work of any proteins that find their way into the environment.\nNow, researchers have basically short-circuited the diversification process, using AI-based protein design tools to take the catalytic core of two types of protease and replace the entire rest of the protein. The resulting enzymes could be tuned to cut specific proteins in half, and the researchers demonstrated their effectiveness by using them to cut proteins associated with neurological diseases.\nCutting proteins\nThe basic peptide bond isn't especially interesting-looking—it's what you get when you link an amino group to an acid, releasing a water molecule in the process. As their name implies, amino acids have both an amino and an acid group, allowing them to form peptide bonds on two sides of the amino acid. This is critical for building up the long chains found in proteins. (The amino acids also have side chains with distinctive chemistry, which gives a backbone specific properties.)\nRead full article\nComments",
+  "published_at": "2026-10-14T17:10:15+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "830300933bbd262cc3a3",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-15/7efe8d914738aadf165d50590217a9f979c259ff734553ac2f962ef4201e98b6.body",
+  "source_sha256": "7efe8d914738aadf165d50590217a9f979c259ff734553ac2f962ef4201e98b6",
+  "fetched_at": "2026-10-15T01:03:57.636247+00:00"
+}

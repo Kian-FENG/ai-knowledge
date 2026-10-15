@@ -1,0 +1,86 @@
+Introducing Grok Voice 3.0 | SpaceXSI (https://x.ai/news/grok-voice-3)
+citeturn13view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn11view0","id":11}); Total lines: 108
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Try for free†console.x.ai L3: 
+L4: Products
+L5: 
+L6: cite2†Grok†grok.com cite3†Business cite4†Government L7: 
+L8: Download
+L9: 
+L10: cite5†iOS†apps.apple.com cite6†Android†play.google.com cite7†Grok on X†x.com cite8†Grok Bot L11: 
+L12: Developers
+L13: 
+L14: cite9†API Console†console.x.ai cite10†Documentation†docs.x.ai cite11†Grok Build L15: 
+L16: cite1†Try for free†console.x.ai L17: 
+L18: cite12†Back to news Oct 14, 2026
+L19: # Introducing Grok Voice 3.0
+L20: 
+L21: The world’s most intelligent voice model.
+L22: 
+L23: cite1†Try It Free†console.x.ai cite13†View Docs†docs.x.ai L24: Today, we’re announcing Grok Voice 3.0, the world’s most intelligent speech-to-speech model. It sets a new record for resolving customer support calls, has class-leading latency at under one second, and costs less than other frontier models. Grok Voice powers millions of conversations a day across Tesla and SpaceX, and is available today in the API at the same price as its predecessor.
+L25: ## cite14†The Most Accurate Voice Model L26: 
+L27: In Artificial Analysis’s independent testing, Grok Voice 3.0 ranks #1 on the Speech-to-Speech Index, with a score of 86.9. The Index combines speech reasoning, τ-Voice, and preference and task success from blind head-to-head calls. Grok Voice 3.0 also scores 97% on Full Duplex Bench, a measure of how naturally it handles pauses, turn-taking, and interruptions.
+L28: Speech-to-speech benchmark comparison between Grok Voice 3.0 and competing models, per Artificial Analysis.
+L29: Benchmark  | Grok Voice 3.0 (this release)  | Grok Voice 2.0  | GPT-Live-1(Astra, Medium)  | Gemini 3.8 Live(Ext. Thinking, High)
+L30: --- | --- | --- | --- | ---
+L31: Overall AA Speech-to-Speech Index  | 86.9  | 81.3  | 83.2  | 82.6
+L32: Speech Reasoning Big Bench Audio  | 98.5%  | 97.2%  | 90.1%  | 97.7%
+L33: Human Preference Speech Agent Arena Elo  | 1070  | 1011  | 1048  | 990
+L34: Task Completion Task Success Rate  | 94.8%  | 94.6%  | 87.4%  | 89.1%
+L35: Conversational Dynamics Full Duplex Bench  | 97.0%  | 95.1%  | 94.9%  | 91.9%
+L36: Source: cite15†Artificial Analysis†artificialanalysis.ai , October 13, 2026.
+L37: 
+L38: τ-Voice measures how well agents handle support calls with diverse accents, background noise, and interruptions. Grok Voice 3.0 scores 71.6%, comparable with GPT-Live-1 (Astra), but at 40% lower latency, setting a new frontier in agent intelligence versus responsiveness.
+L39: ### Agentic Performance vs. Speed
+L40: 
+L41: τ-Voice
+L42: 
+L43: Source: cite15†Artificial Analysis†artificialanalysis.ai L44: 
+L45: It's also cheaper to run than comparable models. Artificial Analysis measures what each model costs to complete a task in its Big Bench Audio run, and Grok Voice 3.0 comes in under both GPT-Live-1 (Astra, Medium) and GPT-Realtime-2.1.
+L46: 
+L47: Lower cost per task than comparable models
+L48: 
+L49: Average cost per task on Artificial Analysis's Big Bench Audio run, USD. Lower is better.
+L50: On cite16†EVA-Bench†servicenow.github.io , ServiceNow’s benchmark for enterprise voice agents, Grok Voice 3.0 achieves the highest accuracy score at 74% and is the best-performing model when jointly scored across accuracy and customer experience.
+L51: > “Grok Voice 3.0 sets a new Pareto frontier on EVA-Bench, ServiceNow’s open-source benchmark scoring voice agents on accuracy and experience across 200+ realistic enterprise scenarios. It pairs top accuracy with a natural, responsive conversation, setting a new standard for what enterprises can expect from AI on the front line of customer service.”
+L52: 
+L53: Nitin Aggarwal, Senior Director of Product Management, Agentic Evals and RAI, ServiceNow
+L54: ## cite17†Used by Millions of Customers at Tesla & SpaceX L55: 
+L56: Grok Voice 3.0 handles millions of conversations a day in Tesla vehicles. Drivers can use Connectors for simple requests like checking their calendar or answering an email, and Grok Bot for bigger tasks like ordering a coffee or booking dinner—all completely hands-free (cite18†see it on X†x.com ). Grok Voice 3.0 also powers Grok Bot’s voice mode.
+L57: Starlink call centers use Grok Voice to answer 20,000 customer calls every day across multiple languages. Roughly 70% are resolved with no human in the loop, and one in four sales calls ends in a purchase before the caller hangs up. A single agent built on Grok Voice 3.0 verifies customers, troubleshoots hardware, issues credits, and ships replacement equipment.
+L58: ## cite19†Pricing and Availability L59: 
+L60: Grok Voice 3.0 is available today in the Voice Agent API at cite20†$0.08 / min ($4.80 / hr)†docs.x.ai , the same price as Grok Voice 2.0. Agents using `grok-voice-latest` have already been switched over automatically, with no changes needed.
+L61: ## Start building with Grok Voice
+L62: 
+L63: cite1†Try It Free†console.x.ai cite13†View Docs†docs.x.ai L64: 
+L65: © 2026 SpaceXAI LLC
+L66: 
+L67: cite2†Built with Grok†grok.com L68: 
+L69: Products
+L70: 
+L71: cite21†Chat cite11†Build cite22†Imagine cite23†Voice cite24†Bot cite25†Grokipedia†grokipedia.com L72: 
+L73: Download
+L74: 
+L75: cite2†grok.com†grok.com cite5†iOS†apps.apple.com cite6†Android†play.google.com cite7†Grok on X†x.com L76: 
+L77: Solutions
+L78: 
+L79: cite3†Business cite4†Government cite26†Customer Support cite27†Legal cite28†Security cite29†Use Cases L80: 
+L81: Grok Bot
+L82: 
+L83: cite24†Overview cite30†Marketplace cite31†Guides cite32†Use Cases cite33†Changelog L84: Developers
+L85: 
+L86: cite34†API Overview cite35†Pricing cite36†Models†docs.x.ai cite37†Console†console.x.ai cite38†Changelog cite10†Docs†docs.x.ai cite39†Status†status.x.ai L87: 
+L88: Enterprise
+L89: 
+L90: cite40†Contact Sales cite41†FAQs cite42†BAA cite43†DPA L91: 
+L92: Company
+L93: 
+L94: cite44†About cite45†Colossus cite46†Careers cite12†News cite47†Contact L95: 
+L96: Trust
+L97: 
+L98: cite48†Safety cite49†Security cite50†Privacy Portal cite51†Subprocessors cite52†Help Center†docs.x.ai L99: 
+L100: cite53†Legal L101: 
+L102: cite54†Terms cite55†Enterprise Terms cite56†Startup Terms cite57†Privacy cite58†Cookies cite59†AUP cite60†Brand L103: 
+L104: Social
+L105: cite61†@SpaceXSI†x.com cite62†@grok†x.com cite63†Discord†discord.com L106: 
+L107: cite2†Built with Grok†grok.com

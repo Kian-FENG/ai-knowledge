@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14810",
+  "title": "KedgeFlow: A Programmable Control Plane for Enterprise AI Agents",
+  "text": "arXiv:2610.14810v1 Announce Type: new\nAbstract: Enterprise AI agents can execute altered versions of approved actions, concurrently reuse the same permission, or retry operations whose responses were lost. These failures arise when approval and resource execution lack a shared contract. KedgeFlow specifies language-independent contracts for trusted controllers to authorize state-changing operations and privileged gateways to enforce that authority independently of agent reasoning. Inspired by OpenFlow, it connects policy checks supported by evidence, signed permission for an exact action, a shared allowance that can be consumed only once, target-side conditions for applying the change, and retained outcome records. Under trusted issuance of exact-action authority, two conditional properties establish at most one successful claim per allowance and link every governed dispatch to a matching grant, claim, and subsequent dispatch authorization, even when the agent is compromised. A reference implementation exposes this execution path to agent systems through the Model Context Protocol (MCP). In the single-resource evaluation, 6,560 concurrent ledger claim attempts yielded exactly one successful claim for each of 82 allowances. Boundary tests rejected unauthorized and altered requests before consumption. A 32-call gateway race produced one committed mock effect, and a retry after a lost response produced no additional dispatch. Deliberately permissive policy nevertheless authorized an undesirable effect, exposing the limits of execution authorization. Evaluation uses three members of the etcd coordinated key-value store on one host, synthetic authentication and authorization inputs, and a mock target that rejects stale requests. Distributed reservations, enforcement of every production access route, native crash recovery, exactly-once effects at real targets, and interoperability between independent implementations remain untested.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "0b668a02861eb45fbde2",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

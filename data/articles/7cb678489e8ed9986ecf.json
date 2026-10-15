@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/14/technology/meta-senators-tax-avoidance.html",
+  "title": "Senators Question Meta’s Data Center Tax Strategy",
+  "text": "Democrats on the Senate Finance Committee sent a letter to Mark Zuckerberg, Meta’s chief executive, questioning the company’s $6.6 billion in tax breaks.",
+  "published_at": "2026-10-14T19:12:32+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7cb678489e8ed9986ecf",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/247ca134a7fe6de6be4cfd82a96770a973ad72f42aee896765d6f04aca56611f.body",
+  "source_sha256": "247ca134a7fe6de6be4cfd82a96770a973ad72f42aee896765d6f04aca56611f",
+  "fetched_at": "2026-10-15T01:03:54.729686+00:00"
+}

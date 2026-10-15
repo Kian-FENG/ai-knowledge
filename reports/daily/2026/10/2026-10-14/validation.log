@@ -1,0 +1,70 @@
+test_filter_only_query_and_lifecycle_boundaries (test_agent_workflows.AgentWorkflows) ... ok
+test_ingest_then_query_and_trace_without_writes (test_agent_workflows.AgentWorkflows) ... ok
+test_invalid_query_does_not_silently_list_everything (test_agent_workflows.AgentWorkflows) ... ok
+test_chinese_feed_date_and_gbk_page (test_contract.CollectContract) ... ok
+test_config_requires_group_and_valid_options (test_contract.CollectContract) ... ok
+test_due_mode_respects_poll_hours_and_browser_sources_are_not_fetched (test_contract.CollectContract) ... ok
+test_feed_scan_never_replaces_agent_imported_records (test_contract.CollectContract) ... ok
+test_keyword_filter_and_feed_gap_reach_report (test_contract.CollectContract) ... ok
+test_listing_baseline_then_new_link_becomes_lead (test_contract.CollectContract) ... ok
+test_page_change_detection_creates_one_lead_per_version (test_contract.CollectContract) ... ok
+test_repository_sources_validate (test_contract.CollectContract) ... ok
+test_same_url_in_two_feeds_keeps_richer_text (test_contract.CollectContract) ... ok
+test_scheduled_collection_obeys_robots_txt (test_contract.CollectContract) ... ok
+test_search_results_are_leads_not_evidence (test_contract.CollectContract) ... ok
+test_truncation_counts_only_entries_not_already_archived (test_contract.CollectContract) ... ok
+test_arxiv_feed_date_is_announcement_not_submission (test_contract.DailyContract) ... ok
+test_atom_original_date_and_gzip (test_contract.DailyContract) ... ok
+test_candidate_requires_editorial (test_contract.DailyContract) ... ok
+test_daily_weekly_reports_and_edits_are_separate (test_contract.DailyContract) ... ok
+test_date_only_marks_boundary_uncertainty (test_contract.DailyContract) ... ok
+test_dst_windows_are_contiguous_and_packets_respect_boundaries (test_contract.DailyContract) ... ok
+test_duplicate_events_rejected (test_contract.DailyContract) ... ok
+test_full_text_survives_feed_refresh (test_contract.DailyContract) ... ok
+test_legacy_migration_preserves_text_evidence_and_revisions (test_contract.DailyContract) ... ok
+test_los_angeles_daily_cutoff_and_local_date (test_contract.DailyContract) ... ok
+test_metadata_only_cannot_support_report (test_contract.DailyContract) ... ok
+test_migration_refuses_collision_before_moving_anything (test_contract.DailyContract) ... ok
+test_no_candidate_does_not_imply_no_news (test_contract.DailyContract) ... ok
+test_report_and_idempotence (test_contract.DailyContract) ... ok
+test_report_requires_review_and_real_ids (test_contract.DailyContract) ... ok
+test_report_timezone_does_not_reinterpret_source_dates (test_contract.DailyContract) ... ok
+test_unknown_dates_do_not_become_today (test_contract.DailyContract) ... ok
+test_weekly_cross_year_and_missed_run (test_contract.DailyContract) ... ok
+test_weekly_cutoff_and_seven_day_window (test_contract.DailyContract) ... ok
+test_weekly_explicit_date_rejects_incomplete_or_wrong_day (test_contract.DailyContract) ... ok
+test_weekly_packet_includes_earlier_days_and_excludes_previous_week (test_contract.DailyContract) ... ok
+test_window_and_packet_change_invalidate_editorial (test_contract.DailyContract) ... ok
+test_ambiguous_and_broken_explicit_path (test_contract.WikiContract) ... ok
+test_batch_failure_rolls_back_pages_and_indices (test_contract.WikiContract) ... ok
+test_deprecated_hidden (test_contract.WikiContract) ... ok
+test_edit_invalidates_review (test_contract.WikiContract) ... ok
+test_filters_and_tfidf (test_contract.WikiContract) ... ok
+test_future_verification_rejected (test_contract.WikiContract) ... ok
+test_interruption_recovered_on_next_write (test_contract.WikiContract) ... ok
+test_isolated_cycle_not_reachable (test_contract.WikiContract) ... ok
+test_publication_and_retrieval_visibility (test_contract.WikiContract) ... ok
+test_raw_is_immutable_and_versioned (test_contract.WikiContract) ... ok
+test_scaffold_cannot_publish (test_contract.WikiContract) ... ok
+test_verified_requires_evidence_and_not_review_date (test_contract.WikiContract) ... ok
+
+----------------------------------------------------------------------
+Ran 49 tests in 4.503s
+
+OK
+{
+  "status": "success",
+  "errors": [],
+  "pages": 154
+}
+{
+  "published": [],
+  "indices": 6
+}
+{
+  "status": "success",
+  "sources": 119,
+  "timezone": "Asia/Singapore",
+  "daily_timezone": "America/Los_Angeles",
+  "weekly_timezone": "America/Los_Angeles"
+}

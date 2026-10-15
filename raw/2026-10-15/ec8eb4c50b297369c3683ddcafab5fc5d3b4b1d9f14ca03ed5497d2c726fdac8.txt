@@ -1,0 +1,141 @@
+How Third Moment Research runs 10,000 agents for 36+ hours | OpenAI (https://openai.com/index/third-moment-research)
+citeturn12view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://openai.com/index/third-moment-research","lineno":null}); Redirected to URL: https://openai.com/index/third-moment-research/; Total lines: 206
+L0: cite0†Skip to main content L1: 
+L2:   * [Button: Research]
+L3:   * [Button: Products]
+L4:   * [Button: Business]
+L5:   * [Button: Developers]
+L6:   * [Button: Company]
+L7:   * cite1†Foundation(opens in a new window)†openaifoundation.org L8: 
+L9: cite2†Try ChatGPT(opens in a new window)†chatgpt.com [Button: Login]
+L10: 
+L11: OpenAI
+L12: 
+L13: October 14, 2026
+L14: 
+L15: Startup
+L16: # How Third Moment Research runs 10,000 agents for 36+ hours
+L17: 
+L18: With GPT‑6 Astra and GPT‑6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.
+L19: 
+L20: cite3†Start building with OpenAI L21: 
+L22: Company size: Startup
+L23: 
+L24: Region: North America
+L25: 
+L26: Industry: Technology
+L27: 
+L28: Products: API, Codex
+L29: 
+L30: 10,000
+L31: 
+L32: Agents running concurrently
+L33: 
+L34: 36–48
+L35: 
+L36: Hours per autonomous research session
+L37: 
+L38: 97%
+L39: 
+L40: Reduction in backtest time with Codex
+L41: 
+L42: 1
+L43: 
+L44: Trillion OpenAI tokens in a single day
+L45: 
+L46: Loading…
+L47: Share
+L48: 
+L49: Reducing runtime and token waste with Codex
+L50: 
+L51:   * cite4†Reducing runtime and token waste with Codex L52:   * cite5†Keeping agents on task with Codex and GPT-6 L53:   * cite6†Sustaining longer research with greater token efficiency L54:   * cite7†Automating security testing with Daybreak L55:   * cite8†Moving toward hundreds of thousands of collaborating agents L56:   * cite4†Reducing runtime and token waste with Codex L57:   * cite5†Keeping agents on task with Codex and GPT-6 L58:   * cite6†Sustaining longer research with greater token efficiency L59:   * cite7†Automating security testing with Daybreak L60:   * cite8†Moving toward hundreds of thousands of collaborating agents L61: Every company has its own workflows, tools, edge cases, and definitions of success. cite9†⁠(opens in a new window)†thirdmomentresearch.com cite9†Third Moment Research⁠(opens in a new window)†thirdmomentresearch.com believes the best agents should be really good at that specific work and should improve their capabilities the more they’re used.
+L62: The company is building a self-improving AI system around that idea, using OpenAI’s latest models to understand agent behavior, identify recurring weaknesses, and automatically create thousands of synthetic scenarios around those problems. The team uses those scenarios to improve agents, repeating the process as new issues emerge.
+L63: Codex, GPT‑6 Astra, GPT‑6 Sol, and GPT‑6.1 Sol support the system’s research and computational work, enabling Third Moment to run 10,000 agents at once on investigations lasting 36-48 hours. The company also uses Daybreak to test the security of the environments where agents work.
+L64: 
+L65: > “In a single session, GPT-6.1 Sol is able to maintain a coherent thread of computational research across days of compute without losing the plot.”
+L66: 
+L67: —Adam Khakhar, Co-founder, Third Moment Research
+L68: ## Reducing runtime and token waste with Codex
+L69: 
+L70: One of Third Moment’s early applications is in the field of quantitative finance given the clear measure of success. This domain provides a concrete setting to study how agents work and where they struggle. The team uses Codex to find and address problems in the research environment.
+L71: In one instance, it used Codex with GPT‑5.6, the latest GPT model at the time, to analyze thousands of recorded simulation trajectories (the agents’ actions and the environment’s responses) alongside timestamps and the codebase.
+L72: 
+L73: Codex uncovered a bottleneck: backtesting a trading strategy across a year of order-level US equity data took several hours. While waiting, agents repeatedly polled for completion, wasting tokens and filling their context with status checks.
+L74: After profiling the backtest and analyzing its inputs and usage, Codex identified a caching optimization and a memory-packing technique. It experimented with solutions and deployed the fix to production, reducing the backtest from approximately 3 hours to approximately 3 to 5 minutes. This reduced token use and context pollution, freeing more of the agents’ token budget for further experiments.
+L75: ## Keeping agents on task with Codex and GPT‑6
+L76: 
+L77: Third Moment gives each agent the tools, information, and environment it needs for a specific job. For quantitative research, the team runs the default Codex harness inside a Dockerized environment. Agents receive a terabyte of data, documentation, and a research repository with modules for feature engineering, GPU-supported model training, trading strategies, and simulation.
+L78: GPT‑6 Astra, GPT‑6 Sol, and GPT‑6.1 Sol provide the reasoning, while the Codex harness gives agents tools to act, create plans, set objectives, spawn subagents, and compact context as work continues.
+L79: 
+L80: To address agents that stop before completing a task, Third Moment treats Codex as a subagent within an outer harness powered by GPT‑6 Sol or GPT‑6.1 Sol. The outer harness examines the trajectory when a task is left unfinished and determines whether to retry, terminate the job, or escalate to human review.
+L81: > “The Codex harness is extremely versatile, and it enables use across many different domains.”
+L82: 
+L83: —Adam Khakhar, Co-founder, Third Moment Research
+L84: 
+L85: In that research environment, agents work to improve a baseline trading system built by Third Moment’s engineers. They test trading strategies on historical data, assess whether an improvement is meaningful or noise, and use each result to choose the next experiment. According to Adam, their work has improved the baseline trading system.
+L86: ## Sustaining longer research with greater token efficiency
+L87: 
+L88: Before GPT‑5.5, Adam says models could only execute experiments prescribed by a user. With GPT‑5.5 and GPT‑5.6, models working with the Codex harness could use results to design follow-up experiments. Now with GPT‑6 Astra, GPT‑6 Sol, and GPT‑6.1 Sol, agents can investigate root causes through hundreds of experiments running in parallel with subagents.
+L89: That progression has helped agents explore research directions the team hadn’t anticipated. In one session, GPT‑6.1 Sol identified the impact of non-displayed trades on an exchange where those trades accounted for an unexpectedly large share of volume. “This was an unobvious result that our research team did not initially consider,” says Adam.
+L90: Third Moment evaluates models across optimization, machine learning systems, and quantitative research. It tests frontier releases at their highest reasoning settings, assessing their ability to navigate repositories, write efficient code, and sustain an investigation. Current testing also includes GPT‑6 Luna.
+L91: 
+L92: > “GPT-6.1 Sol is currently our most-used model given its token efficiency. It completes tasks with the fewest tokens while delivering performance similar to GPT-6 Astra.”
+L93: —Jeffrey Yan, Co-founder, Third Moment Research
+L94: 
+L95: One benchmark asks agents to reduce a live scoreboard service’s update latency while preserving its outputs. The team measures speedup by dividing the average runtime of an expert-crafted solution by that of the model’s solution on the same hardware, subject to correctness. GPT‑6 Astra delivered the biggest speedup, according to Adam.
+L96: For targeted work, including checks for specific security weaknesses in the simulation system, the team uses more efficient models like GPT‑5.6 Terra. For deep research, Adam believes stronger reasoning can justify higher cost: “In the space of quantitative finance, the value of finding some interesting signal is extremely high.”
+L97: ## Automating security testing with Daybreak
+L98: 
+L99: With 10,000 agents running autonomously, Third Moment needs a way to test the security of its research environments at scale. The team uses the Daybreak cybersecurity platform to automate that testing before simulations launch.
+L100: The tests check whether an agent could break out of its research environment and access the wider network. “By using Daybreak, we’re able to have agents themselves do penetration testing on the simulation and test the infrastructure and security of it,” says Adam.
+L101: 
+L102: > “Without Daybreak, we would not be able to autonomously test this at scale.”
+L103: 
+L104: —Adam Khakhar, Co-founder, Third Moment Research
+L105: ## Moving toward hundreds of thousands of collaborating agents
+L106: 
+L107: Third Moment’s ambition extends to the specialized work companies do every day. For a retailer, that could mean making better supply chain decisions when inventory is short or a supplier is delayed. For an engineering team, it could mean finding performance bottlenecks in a large codebase. For a document-heavy business, it could mean identifying where commitments in one document don’t match outcomes recorded in another.
+L108: Building on the reasoning capabilities of GPT‑6 Astra, GPT‑6 Sol, and GPT‑6.1 Sol, Third Moment plans to expand from individual investigations to hundreds of thousands of collaborating subagents. Its roadmap calls for trillions of tokens supporting chains of dozens of dependent experiments, with the goal of using that research to autonomously improve agents as new challenges arise.
+L109: For Adam, this would give people more capacity to shape how agents learn and work: “Humans can be in a much more leveraged position, where they can think about how to do research and optimize the research itself instead of actually doing the research.”
+L110: ## OpenAI <3 startups
+L111: 
+L112: cite10†Join the community cite11†Start building(opens in a new window) L113: ## Keep reading
+L114: 
+L115: cite12†View all L116: 
+L117: cite13†Pollo AI turns creative ideas into campaigns with OpenAI StartupOct 8, 2026 L118: 
+L119: cite14†LegalOn halves Codex costs while maintaining development speed Oct 8, 2026 L120: 
+L121: cite15†Basis completes a tax workbook 2x faster with GPT-6 Astra Sep 28, 2026 L122: 
+L123: Research
+L124: 
+L125:   * cite16†Research Index L126:   * cite17†Research Overview L127:   * cite18†Economic Research L128: 
+L129: Latest Advancements
+L130: 
+L131:   * cite19†GPT-6.1 Sol L132:   * cite20†GPT-6 Astra L133:   * cite21†GPT-5.6 L134:   * cite22†GPT-5.5 L135: 
+L136: Safety
+L137:   * cite23†Safety Approach L138:   * cite24†Deployment Safety(opens in a new window)†deploymentsafety.openai.com L139:   * cite25†Security & Privacy L140:   * cite26†Trust & Transparency L141: 
+L142: Products
+L143:   * cite2†ChatGPT(opens in a new window)†chatgpt.com L144:   * cite27†ChatGPT Business(opens in a new window)†chatgpt.com L145:   * cite28†ChatGPT Enterprise(opens in a new window)†chatgpt.com L146:   * cite29†ChatGPT for Education(opens in a new window)†chatgpt.com L147:   * cite30†Codex†chatgpt.com L148:   * cite31†Dots(opens in a new window)†chatgpt.com L149:   * cite32†Release Notes L150: 
+L151: API Platform
+L152: 
+L153:   * cite33†Overview L154:   * cite34†API Log In(opens in a new window)†platform.openai.com L155:   * cite35†Docs(opens in a new window)†developers.openai.com L156: 
+L157: Business
+L158:   * cite36†Overview L159:   * cite37†Solutions L160:   * cite38†Resources L161:   * cite39†Plugins L162:   * cite40†Customer Stories L163:   * cite41†Partner Network L164:   * cite42†Contact Sales L165: 
+L166: Developers
+L167: 
+L168:   * cite43†Apps SDK(opens in a new window)†developers.openai.com L169:   * cite44†Open Models L170:   * cite45†Docs(opens in a new window)†developers.openai.com L171:   * cite46†Resources(opens in a new window)†developers.openai.com L172:   * cite47†Developer Forum(opens in a new window)†community.openai.com L173: 
+L174: Company
+L175:   * cite48†About Us L176:   * cite49†Our Charter L177:   * cite50†Careers L178:   * cite12†News L179: 
+L180: Support
+L181: 
+L182:   * cite51†Help Center(opens in a new window)†help.openai.com L183:   * cite52†OpenAI Status(opens in a new window)†status.openai.com L184: 
+L185: More
+L186: 
+L187:   * cite53†Stories L188:   * cite54†Academy L189:   * cite55†Supply Co. L190:   * cite56†Livestreams L191:   * cite57†Podcast L192:   * cite58†RSS L193: 
+L194: Terms & Policies
+L195: 
+L196:   * cite59†Terms of Use L197:   * cite60†Privacy Policy L198:   * cite61†Other Policies L199: cite62†(opens in a new window)†x.com cite63†(opens in a new window)†www.youtube.com cite64†(opens in a new window)†www.linkedin.com cite65†(opens in a new window)†github.com cite66†(opens in a new window)†www.instagram.com cite67†(opens in a new window)†www.tiktok.com cite68†(opens in a new window)†discord.gg L200: 
+L201: OpenAI © 2015–2026 Your privacy choices
+L202: 
+L203: English United States
+L204: 
+L205: [Input: Search]

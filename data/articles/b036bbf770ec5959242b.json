@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.15154",
+  "title": "Where Did We Go Wrong? Localizing Errors to Repair Multi-Turn Conversations",
+  "text": "arXiv:2610.15154v1 Announce Type: new\nAbstract: Large language model (LLM) assistants are increasingly used in multi-turn conversations, where the user's intent is often unclear at first and revealed only gradually over time. The assistant must therefore interpret each exchange and form inferences about the user's intent, using them to update its working state. These updates usually refine the assistant's understanding, but a misinterpretation can instead corrupt its working state by ruling out the true intent, influencing subsequent turns and ultimately causing the conversation to fail. Efficient recovery then requires locating and revising the misinterpretation without discarding information that remains valid. We introduce Loci (Localization Of Corrupted Inferences), a framework for probabilistically localizing misinterpretations and selectively repairing the assistant's working state. Given an observed failure, Loci reasons over possible user intents and assigns each update a probability of having excluded the true intent. These probabilities rank suspected updates and quantify the model's confidence in the localization of the underlying misinterpretations. Loci then uses this information in a repair policy that decides whether to retain, verify, or remove suspected updates, enabling recovery from corrupted inferences while preserving useful information. To evaluate Loci's ability to identify misinterpretations, we first test it in a controlled setup with injected errors. We find that Loci improves localization over the baselines, with its advantage becoming larger when multiple errors occur. We then evaluate it in free-form conversations, where misinterpretations arise naturally, and measure the interactions needed to complete the task after an initial failure. Using localization confidence to guide repair, Loci reduces mean recovery cost by 46-79% relative to the strongest baseline across multiple domains.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b036bbf770ec5959242b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

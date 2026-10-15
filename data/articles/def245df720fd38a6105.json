@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14268",
+  "title": "Learning to Sync at the Edge: Client-Side Adaptive Synchronization for Federated Learning",
+  "text": "arXiv:2610.14268v1 Announce Type: new\nAbstract: The scalability and performance of edge federated learning are fundamentally constrained by synchronization bottlenecks. Clients operate under heterogeneous compute, time-varying communication conditions, and, in some settings, privacy constraints, yet synchronization is often still handled with fixed schedules. However, synchronization decisions are often made outside the client, even though the client directly observes local progress, resource state, and communication conditions. We present a client-side reinforcement learning synchronization framework in which each client decides during training whether to upload, download, synchronize bidirectionally, or defer communication. The framework places a lightweight scheduler alongside the local model and formulates synchronization as a resource-aware control problem driven by local learning and system state. We study this framework on two representative edge workloads, spatiotemporal traffic forecasting and image classification. Across both settings, adaptive client-side synchronization improves the accuracy-cost trade-off, reducing system cost in traffic forecasting while maintaining competitive cost and improving final accuracy in image classification. We also consider privacy-constrained settings, where synchronization must account for not only latency and energy but also privacy expenditure. Overall, our results show that synchronization in edge federated learning is better treated as an adaptive client-side control problem than only as a server-side coordination mechanism.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "def245df720fd38a6105",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

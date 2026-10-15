@@ -1,0 +1,65 @@
+Third Moment Research (https://thirdmomentresearch.com/)
+citeturn20view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://thirdmomentresearch.com/","lineno":null}); Total lines: 65
+L0: μ₃ Third Moment Research
+L1: 
+L2: cite0†μ₃ Third Moment cite1†The Third Moment cite2†How it works cite3†Fully managed cite4†Careers cite5†Get in touch L3: 
+L4: # Auto-Improving inference endpoints.
+L5: 
+L6: One OpenAI API‑compatible endpoint, tuned to your workflow. We find where it fails on your real traffic, fix the issues you approve, and give you a better version. You don’t manage any infrastructure, evals or post‑training.
+L7: 
+L8: cite5†Get in touch cite2†How it works ↓ L9: 
+L10: The Third Moment
+L11: 
+L12: μ = E[X]
+L13: ### First moment
+L14: 
+L15: The center: the average eval score. Most teams hill‑climb this number, and it can rise while real failures stay put.
+L16: 
+L17: σ² = E[(X−μ)²]
+L18: 
+L19: ### Second moment
+L20: 
+L21: The spread: how much the score moves from run to run. A gain smaller than the noise is not a gain.
+L22: 
+L23: μ₃ = E[(X−μ)³]
+L24: 
+L25: ### Third moment
+L26: 
+L27: The tail: the rare, hard cases an average smooths over. We build evals that target them. This is where we climb.
+L28: 
+L29: How it works
+L30: ## Your traffic in.
+L31: A better endpoint out.
+L32: 
+L33:   1. ### Collect
+L34: 
+L35: Change one base URL. We record your requests and group them into trajectories, so we see each task from start to finish, not as separate calls.
+L36: 
+L37:   2. ### Diagnose
+L38: 
+L39: We look through those trajectories for failure modes and show them in a dashboard, with how often each one happens and real examples.
+L40: 
+L41:   3. ### Decide
+L42: 
+L43: You review the issues and confirm which ones to fix.
+L44: 
+L45:   4. ### Improve
+L46: We build evals for each confirmed issue from your own data, then post‑train the model or optimize the harness against those evals.
+L47: 
+L48:   5. ### Ship
+L49: 
+L50: You get a new endpoint, plus the eval results that show what changed.
+L51: 
+L52: Fully managed
+L53: ## You change a URL.
+L54: We handle everything behind it.
+L55: 
+L56: Serving infrastructure, eval design, RL post‑training, harness optimization and versioning are all on our side. Your team doesn’t take on any of it.
+L57: 
+L58:     `  client = OpenAI(-     base_url="https://api.openai.com/v1",+     base_url="https://<your-endpoint>/v1",  )`
+L59: 
+L60: Contact
+L61: 
+L62: team@thirdmomentresearch.com [Button: Copy ]
+L63: 
+L64: © 2026 Third Moment Research μ₃ San Francisco, CA

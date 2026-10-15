@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14442",
+  "title": "Evaluating Semantic Relation Knowledge through Bidirectional Relation Prediction from Gloss Pairs",
+  "text": "arXiv:2610.14442v1 Announce Type: new\nAbstract: Semantic relations organise word senses and are fundamental to lexical semantics. In order to evaluate semantic relation knowledge of large language models (LLMs), we propose a challenging task in which an LLM predicts the relation between two glosses (definitions of senses) presented in two different orders. The predictions for the two orders are evaluated for consistency with the symmetry or asymmetry of semantic relations. Our task is designed for both monolingual and cross-lingual evaluation, allowing us to examine whether relation knowledge remains accessible when the same senses are verbalised through glosses in different languages. We construct a dataset of 3,069 sense pairs, with each sense verbalised in English, Greek, Romanian, Turkish, and Japanese. Experiments with 17 LLMs in zero-shot and five-shot settings reveal generally poor performance. In each setting, only eight LLMs achieve a macro-averaged F1 score significantly above a random baseline, and only one (zero-shot) and two (five-shot) significantly outperform a neural baseline. In particular, LLMs often fail to generate bidirectionally consistent predictions for hypernymy and to make correct predictions for holonymy in either direction. Our results suggest limitations in current LLMs' semantic relation knowledge, both in identifying relations and in respecting asymmetry.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9ee2a4be32a6d88aa109",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

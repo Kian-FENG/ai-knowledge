@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+  "title": "YouTube sticks new labels on AI-generated songs",
+  "text": "YouTube is adding a \"Made with AI\" label to tracks that were \"altered or fully generated\" using AI, with a similar approach to its existing process for applying AI labels to videos. It doesn't sound like this will apply to any and all use of AI tools in making music, but according to YouTube, it includes things like \"using a generative model to create the composition and vocals.\" In its rules for music partners who upload their songs, YouTube lays out how to disclose generative AI use, and says that if there's no disclosure, it may use \"other signals\" to decide if a song is AI-generated.\nThe label is rolling out starting today in the YouTub …\nRead the full story at The Verge.",
+  "published_at": "2026-10-14T14:22:56-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-14T14:25:04-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7a9def3c48c7ae7bc22e",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-15/21bae15840d350d6aec9257d94bdeec88dfbe9f73a949bd98cbb515c0aa6cc90.body",
+  "source_sha256": "21bae15840d350d6aec9257d94bdeec88dfbe9f73a949bd98cbb515c0aa6cc90",
+  "fetched_at": "2026-10-15T01:03:51.311634+00:00"
+}

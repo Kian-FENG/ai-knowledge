@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/networking/routers/gfiber-and-qualcomm-announce-wi-fi-8-gateway-20-gig-customers-to-be-first-to-receive-next-gen-wireless-upgrade",
+  "title": "GFiber and Qualcomm announce Wi-Fi 8 gateway",
+  "text": "The Wi-Fi 8 (802.111bn) specification hasn't even been ratified by the IEEE yet, but that isn’t stopping manufacturers from getting an early jump on supported hardware. Late last month, TP-Link announced that it was taking preorders for its first Wi-Fi 8 consumer router, and we’re now learning that GFiber will soon offer its own branded Wi-Fi 8 Premium Gateway for its 20 Gig customers.\nQualcomm, GFiber, and Gemtek made the announcement earlier this week, explaining that the gFiber Wi-Fi 8 Premium Gateway will leverage the Qualcomm Dragonwing NPro A8 Elite Platform. Qualcomm is already a known quantity in the wireless business, supplying chipsets that power Wi-Fi for devices ranging from smartphones to laptops to wireless routers and accompanying client adapters. The Dragonwing NPro A8 Elite Platform combines a penta-core CPU and an NPU to extract the most performance for connected devices.\nAnd given the artificial intelligence age that we now live in, we’d be remiss if we didn’t mention that the platform is “bringing together premium Wi-Fi 8 connectivity, high-performance networking, and native edge AI in a single architecture,\" according to Gautam Sheoran, SVP and GM for Connectivity, Broadband, and Networking at Qualcomm. “Combined with an open agentic AI framework, the platform provides a flexible foundation to deploy, customize, and scale agentic AI directly on the gateway.\"\n(Image credit: Qualcomm)\nWhile Qualcomm provides the chipset onboard, Gemtek will actually manufacture the gateway. According to GFiber, customers currently subscribed to the 25G-PON-based 20 Gig service will be the first to gain access to the gateway. Those customers are currently using an Actiontec Wi-Fi 7 gateway, but will be upgraded to a Wi-Fi 8 Premium Gateway once the certification process is completed. Given that the 20 Gig service is priced at $250 per month and only available in select U.S. markets, we hope that those upgrades are provided free of charge when the rollouts start in 2027.\nAlthough there were no images provided of the new Wi-Fi 8 Premium Gateway, it’s said to feature a “new aesthetic design” that will encourage customers to place it front and center in the home, where signal propagation is best, instead of tucked away, out of sight, in a closet or in a far-off corner.\nWhile many Americans have access to 1 Gig, 2 Gig, and (to a lesser extent) 8 Gig fiber service, 20 Gig connections remain a rarity. But that isn’t stopping providers like gFiber from pushing forward. The company notes that its 50 Gig service, which is based on 50G-PON technology, begins residential trials during the spring of next year and will be fully supported by the Wi-Fi 8 Premium Gateway.",
+  "published_at": "2026-10-14T16:28:03+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "cff1c354943ea7242bed",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-15/90c8bdb5a60a0473f9fc52f036796394ee02c9992302aba55e274432f160fe4e.body",
+  "source_sha256": "90c8bdb5a60a0473f9fc52f036796394ee02c9992302aba55e274432f160fe4e",
+  "fetched_at": "2026-10-15T01:03:58.156054+00:00"
+}

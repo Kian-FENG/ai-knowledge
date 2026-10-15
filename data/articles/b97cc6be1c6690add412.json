@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
+  "title": "OpenAI Vows Not to Use Trade Secrets Allegedly Taken From Apple",
+  "text": "OpenAI agreed not to use trade secrets that Apple Inc. claims were stolen by employees who defected from the iPhone maker to the artificial intelligence startup while a legal fight between the companies plays out.",
+  "published_at": "2026-10-14T10:30:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b97cc6be1c6690add412",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/e6f4801635d59eec837fc18212a6e6f8f5ca9d1272f0fe52a457ff4fc852a898.body",
+  "source_sha256": "e6f4801635d59eec837fc18212a6e6f8f5ca9d1272f0fe52a457ff4fc852a898",
+  "fetched_at": "2026-10-15T01:03:55.999928+00:00"
+}

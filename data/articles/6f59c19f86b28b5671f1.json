@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157510.htm",
+  "title": "微软与NVIDIA联手打造：第三种PC来临 解决Token焦虑",
+  "text": "快科技10月14日消息，PC产品类型已经很久没有什么新花样了，微软前两年联合Intel、AMD、高通等公司推出了AI PC的概念，结果也不了了之了，但是现在他们又搞了新东西出来了。\n这就是上周的发布会上，微软联合NVIDIA发布的RTX Spark产品，微软自己有Surface版Spark PC，其他PC厂商也会推出自己的Spark电脑，包括笔记本及主机等类型。\n这种PC产品有什么不同？PCMag网站今天发了一篇雄文夸了RTX Spark PC的意义，微软把这种类型的PC称之为Builder PC（构建者PC）。\nPCMag认为当前的AI硬件有三个层次，之前的PC产品大家都熟悉了，首先是Consumer AI PC消费级AI PC，这个就是微软之前吹了两年的Coplit+PC了，特征是有40-50TOPS性能的NPU单元，16-32GB内存，不过各厂商已经不怎么提这个概念了。\n第二个层级是工作站/游戏本，主要特征是引入了专用GPU，用并行能力来处理AI负载，但受限于显存容量，通常就12到24GB，极个别有32GB容量，限制了上下文。\n第三个层级就是Build PC代表的Big-Memory Local AI Systems大内存本地AI系统，代表性产品就是工作站开发机、苹果M系列Mac及现在的RTX Spark PC.\n特点是支持大容量高带宽统一内存池，最大可达128GB，超越了传统的显存瓶颈，支持数十亿参数的大模型及庞大的上下文窗口在本地运行，无需发送数据到云计算中心。\n为了提升Builder PC的体验，微软及NVIDIA分别在软件及硬件上做了大量优化，Win11专门支持MXC沙箱技术，提升了安全性，还给OpenClaw这样的Agent简化了配置过程，方便管理。\nNVIDIA那边也做了深度适配，甚至承诺在使用电池的情况下也能发挥99%的RTX Spark性能，它本身还有128GB最大内存及1PFLOPS的AI性能，跑AI性能与效能兼具。\n不过PCMag这篇文章更像是给未来几天要发的评测文章做铺垫，现在没有明确的价格及性能等信息，也不好判断RTX Spark的表现。\n对于这种能跑大型AI的本地AI主机来说，市场需求肯定是有的，然而现在的一大问题是问世的时机太糟糕了，内存、闪存大涨价不说，先进芯片价格也涨了，RTX Spark的价格很难有什么吸引力，而且跟Mac Pro的竞争也面临着生态上的劣势。\n以RTX Spark的价格来算，普通人除非AI用量极其大，否则买这种Builder PC肯定是不划算的，只有Token用量大的人可以实现Token自由，缓解Token不足带来的焦虑症。",
+  "published_at": "2026-10-14T22:14:33+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6f59c19f86b28b5671f1",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/8ef2161edf611be5c92a3979ce7debd092450a3043f42ad8909e773e1df3870c.body",
+  "source_sha256": "8ef2161edf611be5c92a3979ce7debd092450a3043f42ad8909e773e1df3870c",
+  "fetched_at": "2026-10-15T01:04:14.116689+00:00"
+}

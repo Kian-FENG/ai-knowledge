@@ -1,0 +1,150 @@
+[2610.14804] AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition (https://arxiv.org/abs/2610.14804)
+citeturn14view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.14804","lineno":null}); Total lines: 164
+L0: cite0†Search cite1†Submit cite2†Donate†info.arxiv.org cite3†Log in L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · cite4†Advanced search L5: 
+L6: # Computer Science > Distributed, Parallel, and Cluster Computing
+L7: 
+L8: [Submitted on 10 Oct 2026]
+L9: # Title:AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition
+L10: 
+L11: Authors:cite5†Kaibin Guo , cite6†Pengtu Li , cite7†Zicong Hong , cite8†Zhiyuan Fang , cite9†Wuhui Chen , cite10†Rachid Guerraoui , cite11†Anne-Marie Kermarrec L12: 
+L13: View a PDF of the paper titled AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition, by Kaibin Guo and 6 other authors
+L14: 
+L15: cite12†View PDF cite13†HTML (experimental) L16: > Abstract:Agent applications are evolving into workflows composed of large language model (LLM) calls and tool invocations, termed modules. Existing distributed agent systems typically adopt a disaggregated architecture, deploying different modules on separate devices. While this enables pipeline parallelism, imbalanced module latencies introduce severe pipeline bubbles that limit throughput.
+L17: A natural alternative is an aggregated architecture that co-deploys all modules across all devices, eliminating bubbles by keeping every device continuously active. However, this introduces request blocking: short requests are forced to progress in lockstep with longer ones in the same batch, and newly arriving requests must wait until the entire ongoing batch completes the full workflow.
+L18: To address this, we propose AgentWeave, an efficient distributed serving system for agent applications built on the aggregated architecture. Its core mechanism, flow decomposition, decomposes long agent requests into fine-grained execution units while preserving agent semantics, allowing short and newly arriving requests to proceed without being stalled by long-running ones.
+L19: Complementing this, a flow-adaptive scheduler dynamically balances the throughput gains of decomposition against its scheduling overhead. Experiments across four representative agent applications demonstrate that AgentWeave improves throughput by 1.81x, reduces average latency by 2.45x, and reduces P90 latency by 2.04x over state-of-the-art baselines.
+L20: Subjects:  | Distributed, Parallel, and Cluster Computing (cs.DC)
+L21: Cite as:  | cite14†arXiv:2610.14804 [cs.DC]
+L22:    | (or cite15†arXiv:2610.14804v1 [cs.DC] for this version)
+L23:    | cite16†https://doi.org/10.48550/arXiv.2610.14804†doi.org arXiv-issued DOI via DataCite (pending registration)
+L24: ## Submission history
+L25: 
+L26: From: Guo Danding [cite17†view email ]
+L27: [v1] Sat, 10 Oct 2026 10:55:44 UTC (554 KB)
+L28: 
+L29: Full-text links:
+L30: 
+L31: ## Access Paper:
+L32: 
+L33: View a PDF of the paper titled AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition, by Kaibin Guo and 6 other authors
+L34: 
+L35:   * cite12†View PDF L36:   * cite13†HTML (experimental) L37:   * cite18†TeX Source L38: 
+L39: cite19†view license L40: 
+L41: ### Additional Features
+L42: 
+L43:   * cite20†Audio Summary L44: ### Current browse context:
+L45: 
+L46: cs.DC
+L47: 
+L48: cite21†< prev |   cite22†next > L49: 
+L50: cite23†new | cite24†recent | cite25†2026-10 L51: 
+L52: Change to browse by:
+L53: 
+L54: cite26†cs L55: 
+L56: ### References & Citations
+L57: 
+L58:   * cite27†NASA ADS†ui.adsabs.harvard.edu L59:   * cite28†Google Scholar†scholar.google.com L60:   * cite29†Semantic Scholar†api.semanticscholar.org L61: 
+L62: [Button: export BibTeX citation] Loading...
+L63: 
+L64: ## BibTeX formatted citation
+L65: 
+L66: [Button: ×]
+L67: 
+L68: loading...
+L69: 
+L70: Data provided by:
+L71: 
+L72: ### Bookmark
+L73: 
+L74: [Input] Bibliographic Tools
+L75: # Bibliographic and Citation Tools
+L76: 
+L77: [Input] Bibliographic Explorer Toggle
+L78: 
+L79: Bibliographic Explorer (cite30†What is the Explorer?†info.arxiv.org )
+L80: 
+L81: [Input] Connected Papers Toggle
+L82: 
+L83: Connected Papers (cite31†What is Connected Papers?†www.connectedpapers.com )
+L84: 
+L85: [Input] Litmaps Toggle
+L86: 
+L87: Litmaps (cite32†What is Litmaps?†www.litmaps.co )
+L88: 
+L89: [Input] scite.ai Toggle
+L90: 
+L91: scite Smart Citations (cite33†What are Smart Citations?†www.scite.ai )
+L92: 
+L93: [Input] Code, Data, Media
+L94: # Code, Data and Media Associated with this Article
+L95: 
+L96: [Input] alphaXiv Toggle
+L97: 
+L98: alphaXiv (cite34†What is alphaXiv?†alphaxiv.org )
+L99: 
+L100: [Input] Links to Code Toggle
+L101: 
+L102: CatalyzeX Code Finder for Papers (cite35†What is CatalyzeX?†www.catalyzex.com )
+L103: 
+L104: [Input] DagsHub Toggle
+L105: 
+L106: DagsHub (cite36†What is DagsHub?†dagshub.com )
+L107: 
+L108: [Input] GotitPub Toggle
+L109: 
+L110: Gotit.pub (cite37†What is GotitPub?†gotit.pub )
+L111: 
+L112: [Input] Huggingface Toggle
+L113: 
+L114: Hugging Face (cite38†What is Huggingface?†huggingface.co )
+L115: 
+L116: [Input] ScienceCast Toggle
+L117: ScienceCast (cite39†What is ScienceCast?†sciencecast.org )
+L118: 
+L119: [Input] Demos
+L120: # Demos
+L121: 
+L122: [Input] Replicate Toggle
+L123: 
+L124: Replicate (cite40†What is Replicate?†replicate.com )
+L125: 
+L126: [Input] Spaces Toggle
+L127: 
+L128: Hugging Face Spaces (cite41†What is Spaces?†huggingface.co )
+L129: 
+L130: [Input] Spaces Toggle
+L131: 
+L132: TXYZ.AI (cite42†What is TXYZ.AI?†txyz.ai )
+L133: 
+L134: [Input] Related Papers
+L135: # Recommenders and Search Tools
+L136: 
+L137: [Input] Link to Influence Flower
+L138: 
+L139: Influence Flower (cite43†What are Influence Flowers?†influencemap.cmlab.dev )
+L140: 
+L141: [Input] Core recommender toggle
+L142: 
+L143: CORE Recommender (cite44†What is CORE?†core.ac.uk )
+L144: 
+L145:   * Author
+L146:   * Venue
+L147:   * Institution
+L148:   * Topic
+L149: 
+L150: [Input] About arXivLabs
+L151: # arXivLabs: experimental projects with community collaborators
+L152: 
+L153: arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+L154: 
+L155: Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+L156: Have an idea for a project that will add value for arXiv's community? cite45†Learn more about arXivLabs†info.arxiv.org .
+L157: 
+L158: cite46†Which authors of this paper are endorsers? | Disable MathJax (cite47†What is MathJax?†info.arxiv.org )
+L159: 
+L160: We gratefully acknowledge support from our major funders, cite48†member institutions†info.arxiv.org , , and all contributors.
+L161: cite49†About†info.arxiv.org · cite50†Help†info.arxiv.org · cite51†Contact†info.arxiv.org · cite52†Subscribe†info.arxiv.org · cite53†Copyright†info.arxiv.org · cite54†Privacy†info.arxiv.org · cite55†Accessibility†info.arxiv.org · cite56†Operational Status (opens in new tab)†status.arxiv.org L162: 
+L163: Major funding support from

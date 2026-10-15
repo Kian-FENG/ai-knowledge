@@ -1,0 +1,178 @@
+Home | NVIDIA Newsroom (https://nvidianews.nvidia.com/)
+citeturn15search0 [wordlim: 200] Crawled: today; NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers ... ... October 14, 2026
+
+## NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs
+
+NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers ...
+
+Read More
+
+## NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years
+
+Read More
+
+## NVIDIA Lands in Europe for GTC Berlin
+
+NVIDIA is in Europe, showcasing the future of technology together with the region’s developers, researchers and industry leaders.
+
+NVIDIA is in Europe, showcasing the future of technology together with the region’s developers, researchers and industry leaders.
+
+Read More
+
+## Latest News
+
+Image
+
+October 14, 2026
+
+### NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs
+
+Read Press Release
+--------------------------------------------------------------------------------
+NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs | NVIDIA Newsroom (https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs)
+citeturn15search1 [wordlim: 200] Published: yesterday; Crawled: today; October 14, 2026 ... Synopsys is using cuPotential, cuEST and cuDSS to accelerate semiconductor simulations, with early QuantumATK results showing a potential 30x speedup using cuEST, and S-Device benchmarks showing a 12x speedup using cuDSS.
+
+Press Release
+
+# NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs
+
+October 14, 2026
+
+News Summary:
+
+  * NVIDIA introduces cuPotential, a new NVIDIA CUDA-X library developers can use to build AI agents that simulate how atoms and molecules interact, accelerating already GPU-optimized workflows by an additional 2-3x in early-access testing.
+  * NanoVDB, an open source library for working with 3D data, accelerates chipmaking simulation for AI-defined fabs, helping Lam Research achieve 30x faster simulation.
+  * NVIDIA NPP, a library for processing images on GPUs, accelerates chipmaking inspection for AI-defined fabs, helping KLA accelerate inspection.
+  * Applied Materials, Cadence, KLA, Lam Research, Siemens, Synopsys and other semiconductor leaders are using NVIDIA’s accelerated computing and AI stack across chip design, manufacturing and testing, helping drive faster development, better yield and greater production capacity.
+
+NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers can use to build AI agents that simulate how atoms and molecules interact — to advance AI-defined fabs.
+--------------------------------------------------------------------------------
+GitHub - reflex-agent/reflex-agent: Local-first AI agent + knowledge base for your files. Your second brain on Claude Code or Codex — markdown, scheduled workflows, full recall. No cloud. · GitHub (https://github.com/reflex-agent/reflex-agent)
+citeturn15search2 [wordlim: 200] Crawled: 3 weeks ago; Point it at a directory, and Claude Code or OpenAI Codex maintains a living knowledge base, remembers every conversation, runs scheduled workflows in the background, and dispatches sub-tasks in isolated git worktrees — all stored as plain markdown on your machine. ... Your notes, chats, and automations live in your filesystem as markdown you can read, grep, and version-control — Reflex just makes an agent fluent in them. ... Network access is opt-in (LLM calls, web fetch, GitHub installs); Reflex browses and reads fully offline. ... A durable per-project memory plus full-text search over every past conversation — the agent never re-asks who you are. ... Installable mini-app utilities add UI, commands, skills, and automations — and can securely share data with each other through a permissioned, audited grant system. ... docs/host-api.md  | Full `reflex.*` method reference ... agent ai-agent ai-assistant autonomous-agents claude claude-code codex knowledge-base llm local-first markdown mcp nextjs note-taking personal-knowledge-management privacy rag second-brain self-hosted typescript
+# Reflex — local-first AI agent + knowledge base for your files
+
+Reflex turns any folder into a second brain run by an AI agent. Point it at a directory, and Claude Code or OpenAI Codex maintains a living knowledge base, remembers every conversation, runs scheduled workflows in the background, and dispatches sub-tasks in isolated git worktrees — all stored as plain markdown on your machine. No cloud, no database, no daemon.
+    
+    npm i -g reflex-agent
+    reflex start          # opens the web UI at http://localhost:3210
+
+> Local-first AI assistant · personal knowledge management (PKM) · second brain · autonomous agent platform. Your notes, chats, and automations live in your filesystem as markdown you can read, grep, and version-control — Reflex just makes an agent fluent in them.
+
+## Why Reflex?
+
+A cloud chatbot forgets you between sessions, can't act while you're away, and keeps your data on someone else's server. Reflex is built the other way around:
+
+  * Local-first & private. Everything is markdown + JSON under your control. --------------------------------------------------------------------------------
+apus-ailab/APUS-Reflex · Hugging Face (https://huggingface.co/apus-ailab/APUS-Reflex)
+citeturn15search3 [wordlim: 200] Crawled: today; Some weight filenames, script/module names, served-model aliases, and the separate evaluation dataset ID retain their historical identifiers for download and runtime compatibility; these do not indicate different model versions. ... Task definitions and candidate meanings arrive through natural language, allowing one shared model to handle changing decision spaces without a separate business-category classifier. ... On this development panel, the full-depth 35B-A3B result is 6.25 percentage points higher than the recorded Jev API baseline; 9B is 2.50 points higher. ... The dataset includes JSONL/Parquet, frozen identifiers, provenance, schema documentation, and verification code. ... Text generation should use `high`. ... The single-file launcher downloads the merged 9B-5949 weights from `apus-ailab/APUS-Reflex` and starts a standard OpenAI-compatible vLLM server. ...     "$CUDA_HOME/bin/nvcc" --version ... For the official hosted TypeSafe service, use `base_url="https://api.typesafe.ai"`, `api_key=os.environ["TYPESAFE_API_KEY"]`, and an official model such as `model="jev-1.13.0"`. ...     `@misc{apusreflex2026,
+
+# 
+
+apus-ailab
+
+/
+
+APUS-Reflex
+
+Like [Button: 26]
+
+Follow
+
+Image APUS AI [Button: 15]
+
+Transformers Safetensors English Chinese decision-model dynamic-depth structured-output
+
+Model card Files xet Community 7
+
+### Instructions to use apus-ailab/APUS-Reflex with libraries, inference providers, notebooks, and local apps. Follow these links to get started.
+
+  * Libraries
+  * Transformers
+
+How to use apus-ailab/APUS-Reflex with Transformers:
+    
+    # pip install -U transformers accelerate
+    # Load model directly
+    from transformers import AutoModel
+    model = AutoModel.from_pretrained("apus-ailab/APUS-Reflex", device_map="auto")
+
+  * APUS Reflex
+    * 1. Introduction
+    * 2. Evaluation Results
+      * Decision quality · 80-question release regression
+      * Results by task
+      * Response latency
+      * Selectable effort and HTTP serving
+      * Download the models
+      * GGUF (Ollama · llama.cpp) and MLX (Apple Silicon)
+    * 3. Evaluation Set
+    * 4. Decision Encoding
+      * Candidate-aware output projection
+    * 5. Minimal Inference
+      * Deploy with vLLM
+      * TypeSafe SDK API with real low/high vLLM backends
+    * 6. Reproducing the Evaluation
+    * 7. License
+    * 8. Citation
+    * 9. Contact
+
+# APUS Reflex
+
+> Branding note: This model family is now APUS Reflex. Some weight filenames, script/module names, served-model aliases, and the separate evaluation dataset ID retain their historical identifiers for download and runtime compatibility; these do not indicate different model versions.
+
+Technical Report
+
+Decision models with selectable compute depth.
+
+Model weights · Architecture · Evaluation data
+
+Standalone repositories use standard root-level model files. This repository and its legacy download paths remain available.
+
+  * 4B · checkpoint-5949 · BF16: https://huggingface.co/apus-ailab/APUS-Reflex-4B
+
+  * 9B · checkpoint-3000 · BF16: https://huggingface.co/apus-ailab/APUS-Reflex-9B
+
+  * 35B-A3B · checkpoint-5949 · BF16: https://huggingface.co/apus-ailab/APUS-Reflex-35B-A3B
+
+### GGUF (Ollama · llama.cpp) and MLX (Apple Silicon)
+
+GGUF collection · MLX collection
+
+Scored on Frozen80 with the same prompt tokens as the BF16 release. Format: accuracy (decisions identical to BF16).
+
+Model  | BF16 release  | GGUF Q8_0  | GGUF Q4_K_M  | MLX 8bit  | MLX 4bit
+--- | --- | --- | --- | --- | ---
+4B  | 66/80  | 67/80 (79/80)  | 67/80 (77/80)  | 66/80 (80/80)  | 67/80 (79/80)
+9B  | 68/80  | 68/80 (80/80)  | 68/80 (78/80)  | 69/80 (79/80)  | 68/80 (75/80)
+35B-A3B  | 71/80  | 71/80 (80/80)  | 72/80 (79/80)  | 71/80 (80/80)  | 70/80 (78/80)
+
+With Ollama always disable thinking: `ollama run hf.co/apus-ailab/APUS-Reflex-4B-GGUF:Q8_0 --think=false`, or `"think": false` in the API. Ollama applies its built-in Qwen3.5 renderer to this architecture, which otherwise opens a thinking block that the model was not trained with. For exact candidate probabilities use llama-server or MLX. 4B was also verified on an Apple M5 (24 GB) with llama.cpp Metal, Ollama and MLX. Per-question results are in each repository's `evaluation/`.
+
+--------------------------------------------------------------------------------
+News Archive | NVIDIA Newsroom (https://nvidianews.nvidia.com/news/?c=21926)
+citeturn15search4 [wordlim: 200] Crawled: today; October 14, 2026 ... NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers can use to build AI agents that simulate how atoms and molecules interact — to advance AI-defined ...
+--------------------------------------------------------------------------------
+apus-ailab/APUS-Reflex-9B · Hugging Face (https://huggingface.co/apus-ailab/APUS-Reflex-9B)
+citeturn15search5 [wordlim: 200] Crawled: today; Image APUS AI [Button: 15]Text Generation Transformers Safetensors English Chinese qwen3_5 image-text-to-text apus-reflex decision-model structured-output bf16 conversational ...     # Call the server using curl (OpenAI-compatible API): ...   * Browse Quantizations to use this model in llama.cpp, Ollama, LM Studio, or any compatible app.
+--------------------------------------------------------------------------------
+APUS Open-Sources Reflex Agent, Handing Agent Scheduling to a 4.5B Decision Model (https://blog.lynxflow.co/en/posts/apus-open-sources-reflex-agent-handing-agent-scheduling-to-a-4-5b-decision-model/)
+citeturn15search6 [wordlim: 200] Published: yesterday; Crawled: today; Wednesday, October 14, 2026 2 minutes read ...   * Weights: the Reflex model was previously released on Hugging Face; the agent code is hosted on GitHub ... Qwen3.5 is a version of the Tongyi Qianwen family; 4.5B means roughly 4.5 billion parameters, small enough to run locally. ... APUS prepared an A-share listing in 2017, withdrew its IPO application in April 2019, then tried again on Shanghai’s STAR Market in August 2020 — that attempt also ended. ... Founder and CEO Li Tao’s résumé carries the marks of the tools era: he worked at 3721 (later acquired by Yahoo China), served as COO of Beijing Tubar Technology from 2005 to 2009 and as a vice president at Qihoo 360 from 2009 to 2014, leaving to found APUS in 2014.
+--------------------------------------------------------------------------------
+ (https://nvidianews.nvidia.com/helper-search-news?ct=releases&page=1&q=%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%88%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%88%E0%B8%B5%E0%B8%A2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%99%E0%B8%B3+AI+chatbot)
+citeturn15search7 [wordlim: 200] Crawled: today; October 14, 2026NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers can use to build AI agents that ...
+--------------------------------------------------------------------------------
+Latest News | NVIDIA Newsroom (https://nvidianews.nvidia.com/news/latest?c=21926&page=28&q=&year=)
+citeturn15search8 [wordlim: 200] Crawled: today; October 14, 2026 ... NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers can use to build AI agents that simulate how atoms and molecules interact — to advance AI-defined ...
+--------------------------------------------------------------------------------
+ (https://nvidianews.nvidia.com/helper-search-news?ct=releases&page=1&q=%E6%97%A5%E6%9C%AC+p+)
+citeturn15search9 [wordlim: 200] Crawled: today; October 14, 2026NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers can use to build AI agents that ...
+--------------------------------------------------------------------------------
+ (https://nvidianews.nvidia.com/helper-search-news?ct=releases&page=1&q=open+infastructure)
+citeturn15search10 [wordlim: 200] Crawled: today; October 14, 2026NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers can use to build AI agents that ...
+--------------------------------------------------------------------------------
+ (https://nvidianews.nvidia.com/helper-search-news?ct=releases&page=1&q=acczsx)
+citeturn15search11 [wordlim: 200] Crawled: today; October 14, 2026NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers can use to build AI agents that ...
+--------------------------------------------------------------------------------
+REFLEX with Jev for Efficient Selective Control in LLM Agents (https://arxiv.org/abs/2609.26532)
+citeturn15academia12 [wordlim: 200] Published: 3 weeks ago; Date: Tue Sep 22 14:54:02 2026 ... We study REFLEX, an agent architecture that uses Jev as a fast, typed decision layer and calls a strong LLM when confidence is low, or generation is required.On a frozen 100-task benchmark, REFLEX achieves 95% success with 72.7% fewer strong-model calls than a strong-only agent, with reductions persisting across three fallback families.
+

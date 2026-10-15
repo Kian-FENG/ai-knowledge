@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/exclusive-nvidia-chipagents-launch-evaluation-ai-powered-chip-design",
+  "title": "Exclusive: Nvidia and ChipAgents Launch Evaluation For AI-Powered Chip Design",
+  "text": "Nvidia and ChipAgents, a startup that helps customers automate chip design, on Wednesday released a benchmark that measures how different AI models perform at the task.\nAnthropic’s Fable 5.1 powered the best-performing AI agent in the newly released evaluation but only scored 16.6% on the test, ...",
+  "published_at": "2026-10-14T15:10:46+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-14T17:16:17+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6d75cfaf6e6ef9016e2d",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/56f81a8247d700ea8ea7281d01e553a9137638d52c1d320d2dbb920e425533a7.body",
+  "source_sha256": "56f81a8247d700ea8ea7281d01e553a9137638d52c1d320d2dbb920e425533a7",
+  "fetched_at": "2026-10-15T01:03:52.053471+00:00"
+}

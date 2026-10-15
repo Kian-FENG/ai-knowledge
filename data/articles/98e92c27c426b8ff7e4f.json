@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+  "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+  "text": "Safety researchers continue to warn that a large volume of AI-generated explicit content is spreading unchecked, while regulators do little to meaningfully stop it.\nThis non-consensual content is commonly shared in text and direct messages or stored in private clouds where it’s less likely to be detected or reported, a Google co-authored study of Internet users across the United States, Australia, and the United Kingdom found this July. That’s why the “most critical intervention point” remains at the source: the harmful AI tools used to make the fake sexual images, Google researchers concluded.\nYet red-teaming in recent months suggests that as some of the leading AI image generators from Google and OpenAI become more capable, they may be getting worse at blocking explicit outputs.\nRead full article\nComments",
+  "published_at": "2026-10-14T11:00:30+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "98e92c27c426b8ff7e4f",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-15/7efe8d914738aadf165d50590217a9f979c259ff734553ac2f962ef4201e98b6.body",
+  "source_sha256": "7efe8d914738aadf165d50590217a9f979c259ff734553ac2f962ef4201e98b6",
+  "fetched_at": "2026-10-15T01:03:57.636247+00:00"
+}

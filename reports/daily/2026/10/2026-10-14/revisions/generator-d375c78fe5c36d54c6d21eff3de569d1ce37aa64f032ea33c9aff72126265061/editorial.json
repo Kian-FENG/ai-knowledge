@@ -1,0 +1,551 @@
+{
+  "period": "daily",
+  "date": "2026-10-14",
+  "packet_sha256": "fbceab0e0de68281819a4bde1f56f9ed20afa598ac1583072b2fa01589c40cc8",
+  "overview": "企业Agent的新变化集中在组织身份、场景工具和成本管理：企业微信与WorkBuddy互通、千问办公电商邀测，以及BigQuery词元配额实施说明。语音与端侧安全继续推进，但Grok Voice的效果仍需独立核对，Gemma反诈应用是分阶段推出；Dynamo的GLM支持仍为实验快照。ASML季度兑现与供给预期、NVIDIA芯片工程工具显示上游交付和验证仍影响算力扩张。本期13条事件，包含客户案例/教程的新披露而非全部功能当日首发；中文产品部分只读到媒体原文，论文仅摘要，五段媒体漏采与arXiv652条截断使覆盖不完整。 证据包另排除1条未来日期候选，未作为新闻。",
+  "source_checks": [
+    {
+      "source_id": "stacklok",
+      "status": "checked",
+      "note": "打开官网公司页，核对品牌与ToolHive/Mecatl产品；未发现可核实本期日期的新增声明，不代表全站无新闻。"
+    },
+    {
+      "source_id": "peppermint",
+      "status": "checked",
+      "note": "打开原融资公告，仍为10月8日背景，已入库去重；未查全部博客。"
+    },
+    {
+      "source_id": "cls-eastmoney",
+      "status": "checked",
+      "note": "打开财联社转载原文入口；10月10日利太智药融资为旧背景，未再作本期事件。"
+    },
+    {
+      "source_id": "ms-decision",
+      "status": "checked",
+      "note": "打开Decision-1旧技术公告；未将旧页面或发现时间视为今日发布。"
+    },
+    {
+      "source_id": "ms-nadella",
+      "status": "failed",
+      "note": "指定X帖子浏览工具返回Internal Error，未取得正文；不能判断是否有新动态。"
+    },
+    {
+      "source_id": "nous",
+      "status": "checked",
+      "note": "打开官网可见文本，产品/博客仅有限入口核查；无足够日期与正文确认本期新增，非完整全站检查。"
+    },
+    {
+      "source_id": "healthleap",
+      "status": "checked",
+      "note": "打开官网产品页，旧融资背景不重收；未读取所有客户/研究文章。"
+    },
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "读取本期Third Moment/Amp原文及官方RSS；其他Block/SentinelOne案例只筛标题，不声称全文覆盖；ChatGPT release notes最新可见为10月9日。"
+    },
+    {
+      "source_id": "openai-api-changelog",
+      "status": "checked",
+      "note": "collect HTTP403，官方浏览工具恢复页面；本期日期检索未见Oct14条目，但页面长且导航占比高，未完成逐条新旧diff；不把页面变化当新事件。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "实际打开news列表，读10月14日新加坡办公室/MOU全文；选举保障文章作政策背景筛查，非本期重点事件。"
+    },
+    {
+      "source_id": "anthropic-research",
+      "status": "checked",
+      "note": "采集入口与sitemap已检查；10月12日蒸馏/复制研究沿用已入库背景，不将采集或修改时间当新实验。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "官网自动采集成功；浏览器补读API更新日志，最新可见9月10日，未核实本期官方模型发布。私域和团队社交不全。"
+    },
+    {
+      "source_id": "deepseek-api-changelog",
+      "status": "checked",
+      "note": "浏览工具首次超时后一次重试恢复，已核对9月10日顶端条目；不是无访问情况下断言无新闻。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "原生浏览器实际打开博客，仅返回导航/页脚，未取得正文或日期列表；阿里云press-room另行查过不能代替Qwen正文。"
+    },
+    {
+      "source_id": "qwen-hf",
+      "status": "checked",
+      "note": "本次机器抓取HF新仓库入口；新仓库仅线索，不等于正式模型发布；许可和卡片未全读。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "实际打开官方Research页，最新可见Kimi K3/PerceptionBench为7月16日，入口未见可核实本期研究发布；产品渠道不全。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "failed",
+      "note": "网页工具和原生浏览器均只取到导航，未获得news正文/日期列表。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "checked",
+      "note": "打开官方Research入口，仅有限可见文本；未完成全站及中文公众号检查，不能确认本期无动态。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "checked",
+      "note": "原生浏览器恢复press-room列表，顶部10月12日Genting MoU为旧背景；未把千问电商媒体稿当作官网确认。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "实际读取News列表、Grok Voice3原文和release-notes本期入口；独立评测完整harness未读。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "checked",
+      "note": "打开官方releases及搜索核对news，最新相关AI宽带公告为10月12日背景；10月13日诉讼声明不在本期研究重点。"
+    },
+    {
+      "source_id": "asml",
+      "status": "checked",
+      "note": "原官网入口恢复并跳转投资者站；实际读Q3财务公告、CEO展望、脚注与未经审计说明。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "打开官方latest-news入口但返回含大量导航的有限文本；未逐条核实所有日期或补读财报，不断言无新闻。"
+    },
+    {
+      "source_id": "nda",
+      "status": "checked",
+      "note": "网页工具正文为空后，原生浏览器恢复官方列表；可见数据要素大赛10月9日等旧条目，部分动态模块为空，未查全部政策。"
+    },
+    {
+      "source_id": "mfa",
+      "status": "checked",
+      "note": "机器超时，浏览工具恢复记者会列表并看到10月14日入口；未阅读全文，不据列表作政策结论。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "采集robots不可用/禁止，网页工具访问同一RSS超时；本期完整窗口未补回。"
+    },
+    {
+      "source_id": "c114",
+      "status": "checked",
+      "note": "首次快照needs-review；网页工具超时后原生浏览器恢复10月14日日期列表，已筛芯片/算力标题，正文未逐条读。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "官方首页仅取得PRO会员导流和摘要，未取得本期文章正文或完整窗口列表。"
+    },
+    {
+      "source_id": "reflection",
+      "status": "checked",
+      "note": "打开官网blog，仅有限可见列表；已知Beam旧事件不重复采用，未完成全站日期diff。"
+    },
+    {
+      "source_id": "namespace",
+      "status": "checked",
+      "note": "官网blog最新可核实融资为10月5日Series B，去重；未查全部文章。"
+    },
+    {
+      "source_id": "vinci",
+      "status": "checked",
+      "note": "打开官网blog有限列表，未获得可核实本期新事件；旧融资去重，不代表全站无新闻。"
+    },
+    {
+      "source_id": "today",
+      "status": "failed",
+      "note": "指定官网blog浏览工具仍失败，没有本期正文或日期证据。"
+    },
+    {
+      "source_id": "typesafe",
+      "status": "checked",
+      "note": "打开官网blog有限入口，旧融资与Jev背景去重；完整模型卡/最新动态未逐条补读。"
+    },
+    {
+      "source_id": "globalfoundries",
+      "status": "checked",
+      "note": "打开官方news/events看到10月14日列表项目；未读其原文，无事实结论纳入。"
+    },
+    {
+      "source_id": "cna-reuters",
+      "status": "checked",
+      "note": "打开已知Decart收购洽谈转载，仍为旧报道；未当成交、不重复入本期。"
+    },
+    {
+      "source_id": "odyssey",
+      "status": "checked",
+      "note": "打开10月8日Odyssey3官方旧文章，背景去重；未逐段重核全部评测。"
+    },
+    {
+      "source_id": "vals-ai",
+      "status": "checked",
+      "note": "打开10月9日多Agent研究旧页，本期无经确认正文修订差异，不重复当新研究。"
+    },
+    {
+      "source_id": "epoch-innovationeval",
+      "status": "checked",
+      "note": "打开既有InnovationEval页，旧评测背景去重；未阅读全文/日志的新版本差异。"
+    },
+    {
+      "source_id": "decart",
+      "status": "checked",
+      "note": "打开官网产品入口，未取得可核实本期交易公告，旧洽谈不升级为已收购。"
+    },
+    {
+      "source_id": "microsoft-blog",
+      "status": "checked",
+      "note": "打开官方首页，有限可见列表；未全面覆盖研究/Foundry/云产品全部渠道。"
+    },
+    {
+      "source_id": "mosi",
+      "status": "checked",
+      "note": "实际打开新闻列表，最新融资10月12日，旧事件去重；无可核实本期新条目。"
+    },
+    {
+      "source_id": "modcraft",
+      "status": "checked",
+      "note": "打开官网产品入口，未知日期内容不作当天新闻；法定主体仍待核。"
+    },
+    {
+      "source_id": "apple-newsroom",
+      "status": "checked",
+      "note": "打开官方Newsroom，仅取得首页/订阅文字，日期列表不完整；HomeView前期已入库，本期未完成Apple全站核查。"
+    },
+    {
+      "source_id": "pluto-security",
+      "status": "checked",
+      "note": "打开官方blog，顶部融资10月13日已收录，未将转载作为新融资。"
+    },
+    {
+      "source_id": "semigraph",
+      "status": "checked",
+      "note": "打开官网，品牌/产品仍可见；公司动态融资为2025年12月旧背景，未将前期媒体新轮报道当作官方证实。"
+    },
+    {
+      "source_id": "third-moment",
+      "status": "checked",
+      "note": "collect后新纳入的官网入口，已实际读全部可见产品流程；未知日期只归档，不冒称起始自动采集覆盖。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "官方Atom/release入口本次抓取，未见本期新增稳定release；SGLang博客Fish Audio为10月13日日历日期的旧线索，未凭发现时间收录。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "本次Atom含v0.32.0rc1和proto-v0.6.0；前者是RC，后者仅短标题，未获得足够实质发布说明，不凑稳定版新闻。"
+    },
+    {
+      "source_id": "vllm-blog",
+      "status": "checked",
+      "note": "官方博客入口自动核查，10月12日双向KV背景已入库，无已核实本期新文章。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "实际读GLM-5.3-Flash预发布全文；另Motif dev.2仅候选，未将dev标签视为生产版。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "本次官方Atom入口成功，未见本期新增条目；RC与正式版区别保留。"
+    },
+    {
+      "source_id": "mooncake",
+      "status": "checked",
+      "note": "本次官方入口成功，无已核实本期新release；Dynamo配方里的Mooncake使用单独归因。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "cs.CL+cs.DC RSS共保存60条，另652条受本地limit截断，完整RSS字节已归档。补查cs.DC官方new列表显示10月14日95条，但未逐条阅读。两篇仅摘要和版本史；不声称论文全覆盖。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "按Oct13–15日期边界实际执行Reuters独家AI检索；搜索结果不足以支持本期新结论，未读付费全文。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "实际执行窗口附近Bloomberg AI检索，并筛本次RSS；Anthropic营收等原始付费全文未取得，未直接采用融资/收入数字。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "实际执行FT/NYT/WSJ窗口检索并筛feed；未取得多数付费原文，个人刑事指控与未核实财务不入本期。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "执行中国产品/模型/公司检索，补读千问办公、WorkBuddy等媒体原文；官方条款和中文私域不完整。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "执行工信部/数据局/网信等窗口检索；列表与线索未获得足够正文支持，不作新政策结论。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "执行HBM/存储/GPU产能涨价中文检索；多数为媒体或旧背景，未将来源不足的涨价/产能数字收入。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "实际执行具身/世界模型融资发布检索；结果多旧公告或二次聚合，未核实新的公司身份/融资，不据摘要建实体。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "执行HBM/CoWoS/High-NA/出口管制检索；ASML与NVIDIA一手补读，其他观点与旧材料去重。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "执行Qualcomm/ASML/TSMC及xAI/Qwen/MiniMax站点检索；ASML原公告恢复，Qwen/MiniMax仍仅导航，明确保留失败。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "实际开展中英文新公司发现检索。核对Third Moment官网产品与OpenAI客户案例后建立entity；Harmonic融资、高维医药/天序智能等缺一手原文仅保留线索，不能把聚合页当独立确认。"
+    },
+    {
+      "source_id": "techmeme-snapshot",
+      "status": "failed",
+      "note": "Oct13 h2355（本期早段历史快照）工具不可访问；Oct14 h2355尚未到快照时刻且不可访问，未用其作证据。五段媒体漏采未全补。"
+    }
+  ],
+  "items": [
+    {
+      "event_key": "workbuddy-wecom-integration-20261014",
+      "section": 0,
+      "title": "企业微信与WorkBuddy打通账号和授权上下文，向认证企业开放",
+      "article_ids": [
+        "5ff8f27599db0cfaed38"
+      ],
+      "facts": [
+        "雷峰网10月14日报道，企业微信5.0.12与WorkBuddy 5.8.0双向互通，机器人进入企业联系人列表，WorkBuddy支持企微账号登录，在企业授权范围内调用消息、文档等能力。",
+        "互通面向企微已认证企业，提供限免体验名额；管理员可分配账号、权限和用量。相对一般连接器，新增统一身份与组织内分发；1400万企微组织并不等于WorkBuddy客户数。官方版本说明未取得，未验证实际账户开通。"
+      ],
+      "analysis": "判断：统一身份和上下文可降低企业部署、授权与培训成本，使协作平台成为Agent分发渠道；集成深度也会提高切换成本。若权限粒度、数据质量或跨组织协作受限，连接未必转为有效完成率。观察认证企业实际开通率、任务成功率及权限审计负担。",
+      "locators": {
+        "5ff8f27599db0cfaed38": "已读雷峰网网页主文和完整RSS，定位版本、企业授权、认证企业及限免段；官方公告/实际账户未核。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "qwenwork-commerce-invite-20261014",
+      "section": 0,
+      "title": "千问办公电商版开启邀测，将经营工具接入Agent工作流",
+      "article_ids": [
+        "e0049e56d8b5d4b3fef2"
+      ],
+      "facts": [
+        "雷峰网10月14日报道千问办公电商版开启邀测，包含跨平台经营看板、趋势及卖点分析、素材批量生成与ROI优化，称已接入生意参谋、有赞、千牛。",
+        "新增的是商家经营场景，和前一期面向个人的千问Go申请不是同一产品事件。当前为邀测；价格、商家覆盖、授权和实际ROI尚未取得官方条款或独立证据。Qwen/千问属于阿里品牌。"
+      ],
+      "analysis": "判断：经营数据和交易工具结合可让Agent从内容生产进入商家运营，生态接口与可执行权限可能比单轮生成更影响采用。若工具覆盖不足或归因不可靠，批量生成可能增加低效投放。观察获邀商家范围、跨平台读写能力、获客成本和可复核增量收益。",
+      "locators": {
+        "e0049e56d8b5d4b3fef2": "雷峰网完整短讯主文及日期；未读官方原始公告、定价或商家后台。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "bigquery-token-quota-20261014",
+      "section": 0,
+      "title": "BigQuery解释已GA的生成式AI词元配额，预算控制可到项目和用户",
+      "article_ids": [
+        "00d3d09a2175378871e6"
+      ],
+      "facts": [
+        "Google Cloud10月14日技术文章解释近期已GA的四类每日配额，分别约束项目/项目内用户的输入及输出词元，跨区域汇总，输出包括thinking；embedding不在这些配额内。",
+        "配额耗尽后停止新的LLM调用，不同SQL函数可能返回部分结果或失败。AI.COUNT_TOKENS是输入下界估计，不包括函数包装、输出/推理及非文本输入；不能据配额直接保证固定美元账单。新增的是实施细节，不把本教程当GA首次公告。"
+      ],
+      "analysis": "判断：成本约束进入数据执行层，有利于把AI SQL从试验扩展到批量数据工作，治理和数据平台受益。不同模型价格、部分结果及配额执行延迟仍可能削弱预算可预测性。观察单位有效处理行成本、超限行为、失败重试与跨项目治理。",
+      "locators": {
+        "00d3d09a2175378871e6": "已读官方全文RSS和HTTP网页正文；定位Quotas、What's not covered、How enforcement works、AI.COUNT_TOKENS；未运行SQL或单独审核计费文档。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "amp-openai-agent-case-20261014",
+      "section": 0,
+      "title": "Amp客户案例呈现订阅登录、语音调度与编码外任务的组合",
+      "article_ids": [
+        "57c3309db5bedcdec4e0"
+      ],
+      "facts": [
+        "OpenAI10月14日客户案例称Amp已集成Sign in with ChatGPT，并使用GPT-6 Astra支持写作/设计；Puck用于发起和管理其他Agent，Calling Puck由GPT-Live-1提供实时语音。",
+        "文章称Amp正在测试Ultrafast。相对纯代码助手，新增观察是身份计费入口、语音与任务协调的组合；这是案例披露日，文章未确认每项功能当日首发，也未列完整套餐、地区、价格或独立效果。"
+      ],
+      "analysis": "判断：订阅可携带性与实时入口可把第三方Agent变成持续使用的工作界面，分发和任务编排层受益。权益限额、平台依赖或语音干扰可能抵消便利。观察实际可用套餐、有效任务总成本和离开桌面后的完成率。",
+      "locators": {
+        "57c3309db5bedcdec4e0": "OpenAI案例主文Lowering the cost、Calling Puck及Ultrafast段；未读Amp完整发布日志和账户权益条款。网页文本快照，非HTTP原始响应。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "third-moment-agent-scale-20261014",
+      "section": 1,
+      "title": "Third Moment披露万Agent长时研究案例，扩展工作流定制推理路线",
+      "article_ids": [
+        "a8b8c31de898145e14c8"
+      ],
+      "facts": [
+        "OpenAI10月14日客户案例称Third Moment Research使用Codex、GPT-6系列及GPT-6.1 Sol运行1万个并发Agent，研究会话36–48小时；外层harness决定重试、终止或转人工，Daybreak用于环境安全测试。",
+        "其[官网](https://thirdmomentresearch.com/)（未知发布日期的背景材料）提供按工作流改进的托管推理endpoint：采集轨迹、诊断、用户确认、评测与后训练/harness优化，再发布版本。新纳入跟踪的是既有公司，不宣称今日成立；官网日期未知。规模及效果均客户/供应商披露，无公开可比harness、成本或独立复现。"
+      ],
+      "analysis": "判断：专业工作流的失败轨迹和评测闭环可能形成区别于通用MaaS的服务壁垒，观测、隔离和调度基础设施受益。高token投入和人工确认可能限制单位经济，万Agent规模也不等于万份有效研究。观察付费客户、可复核改进、任务成本与人工复核量。",
+      "locators": {
+        "a8b8c31de898145e14c8": "OpenAI案例主文及Third Moment官网全部可见产品流程；未独立验证并发、收益、融资或法定注册主体。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "anthropic-singapore-office-20261014",
+      "section": 1,
+      "title": "Anthropic开设新加坡办公室，与政府签署合作备忘录",
+      "article_ids": [
+        "241a0eb7150b75c2c4dd"
+      ],
+      "facts": [
+        "Anthropic10月14日宣布其亚太第五个办公室在新加坡开业，并与新加坡数码发展及新闻部签署MOU，涵盖安全、评测、采用研究及公私部门应用合作。",
+        "文章称GovTech逾1500名工程与技术人员已采用Claude Code，并提及Bedrock区域内推理。新增是本地组织和合作机制；MOU不等于采购收入，客户采用数字为公司披露。来源仅日期，18:00窗口边界不确定，已对照前一期去重。"
+      ],
+      "analysis": "判断：本地团队、区域推理和政府评测合作可降低受监管客户采购摩擦，区域云和交付服务受益。备忘录若未形成部署和持续采购，商业增量仍有限。观察本地招聘、合作项目交付与实际付费使用。",
+      "locators": {
+        "241a0eb7150b75c2c4dd": "官方公告全文，定位Supporting responsible AI和How Singapore is working with Claude；未审阅MOU全文、合同或客户审计。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "grok-voice3-api-20261014",
+      "section": 2,
+      "title": "Grok Voice 3.0开放API，维持每分钟USD0.08并自动升级latest别名",
+      "article_ids": [
+        "12251940b3b4d2234012"
+      ],
+      "facts": [
+        "SpaceXSI/xAI10月14日宣布Grok Voice 3.0当日通过Voice Agent API提供，每分钟USD0.08，grok-voice-latest已自动切换；相对前代价格不变。",
+        "低于1秒延迟、Tesla/Starlink对话量及无需人工解决比例均为厂商披露。厂商引述Artificial Analysis 10月13日结果，未核对完整harness、预算和原始评测，故不采用跨模型排名或普遍成本优势。来源仅日期，窗口边界不确定。"
+      ],
+      "analysis": "判断：同价升级和自动别名可降低语音Agent迁移成本，客服集成与工具执行层可能受益。实际语种、电话网络和工具时延可能吞掉模型延迟收益，自动升级也需回归验证。观察端到端完成率、每次解决成本和转人工率。",
+      "locators": {
+        "12251940b3b4d2234012": "官方公告全文，定位Pricing and Availability、Used by Millions及评测归因；未读第三方评测全文、未实测延迟。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "gemma-singapore-scam-20261014",
+      "section": 2,
+      "title": "DeepMind与新加坡GovTech微调端侧Gemma反诈模型，应用分阶段推出",
+      "article_ids": [
+        "36a7e1c23fbbe3b1fdc0"
+      ],
+      "facts": [
+        "DeepMind10月14日披露与GovTech微调Gemma，先以轻量分类器筛查，再由模型分析多轮对话；推理在设备上，应用需用户同意，推出将分阶段进行。",
+        "训练使用匿名化诈骗报告及情报数据，在GovTech管理的GCP环境内进行。相对通用安全能力，新增本地诈骗语境和端侧两阶段管线；未给出具体Gemma版本、模型大小、误报率、功耗或普遍可用应用清单。"
+      ],
+      "analysis": "判断：先筛查再调用模型可在隐私、功耗与检测深度间取舍，有利于端侧模型和本地数据合作。误报、对话访问权限和机型覆盖可能限制效果。观察实际应用交付、授权率、分语种漏报及电池消耗。",
+      "locators": {
+        "36a7e1c23fbbe3b1fdc0": "官方主文On-device AI、Under the hood和Built on strict governance；未读取底层模型卡、测试集或独立测量。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "dynamo-glm53-sglang-preview-20261014",
+      "section": 3,
+      "title": "Dynamo发布GLM-5.3-Flash的SGLang实验快照，保留多模态验证限制",
+      "article_ids": [
+        "703764fc18cc8a52512f"
+      ],
+      "facts": [
+        "Dynamo v1.6.0-glm-5.3-flash-dev.1（commit 6beb569）为非QA门禁的实验快照；以SGLang0.5.21/CUDA13、NVFP4权重和FP8 KV提供4张B200/GB200聚合、12张GB200分离配方，后者通过Mooncake/NVLink传KV。",
+        "聚合配方声明文本/图像/视频，分离配方为文本/图像；发布说明明确端到端多模态生成尚未验证，未附实测性能。新增是部署适配配方，不能当稳定生产支持或智谱模型今日首发。输入输出长度和并发没有性能结论，故不作速度排名。"
+      ],
+      "analysis": "判断：混合注意力模型适配正牵动缓存、处理器和GPU拓扑，框架集成能力影响新模型落地速度。非QA快照和端到端未验说明兼容不等于可运营。观察稳定版合入、视频正确性、生产回归与完整负载成本。",
+      "locators": {
+        "703764fc18cc8a52512f": "官方Atom完整release正文及GitHub预发布标签，定位Summary、Models、Known Issues；未运行容器或逐个审阅PR。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "agentweave-announcement-20261014",
+      "section": 4,
+      "title": "AgentWeave提出工作流分解调度，处理长短Agent请求阻塞",
+      "article_ids": [
+        "d4165083d002a4fe5e71"
+      ],
+      "facts": [
+        "arXiv 10月14日公告的AgentWeave v1提出在聚合部署中把长请求分成细粒度执行单元，以流自适应调度减少长请求阻塞短请求和新请求。v1实际提交为10月10日10:55:44 UTC，并非今日投稿。",
+        "已读摘要及版本历史；作者在四类Agent应用上报告改善，但硬件、精度、模型、负载长度、并发和详细基线未读，本文不采用加速倍数。公告仅日历锚点，午夜是RSS载体，不代表准确发布时间，窗口边界不确定。"
+      ],
+      "analysis": "判断：Agent服务优化开始覆盖工具与LLM组成的整段工作流，调度平台可能从单模型批处理扩展到任务级服务。分解开销与状态依赖可能抵消收益。观察完整配置、短请求尾时延及同等资源任务吞吐；目前只是论文作者结论。",
+      "locators": {
+        "d4165083d002a4fe5e71": "arXiv摘要和Submission history；未读全文、图表、代码或独立复现。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "safe-kv-announcement-20261014",
+      "section": 4,
+      "title": "SAFE-KV强调非前缀缓存的因果状态约束，保真修复未必省计算",
+      "article_ids": [
+        "f15c5d5ffeb79e1528aa"
+      ],
+      "facts": [
+        "arXiv10月14日公告的SAFE-KV v1把非前缀KV复用看作相对同一prompt完整prefill的行为保持问题，从选定文档起重编码因果后缀。实际v1提交为10月10日21:19:57 UTC。",
+        "摘要基于Qwen2.5-7B-Instruct与HotpotQA-500/2Wiki-500，并指出保真修复需重算大部分上下文，在单请求L40S研究中策略对所有负载都选择完整prefill。已读范围不足以声称通用提速；精度/长度/预算未核。公告时间仅日历级，窗口边界不确定。"
+      ],
+      "analysis": "判断：KV节省必须同时核算行为偏差和修复成本，缓存服务可能需要从命中率转向正确性与总成本。多请求共享或其他模型可能出现不同收益，当前结果不能外推为所有缓存复用无效。观察真实并发、任务一致性和端到端成本。",
+      "locators": {
+        "f15c5d5ffeb79e1528aa": "arXiv摘要、Comments与Submission history；未读36页全文、33张表或代码。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "asml-q3-2026-results-20261014",
+      "section": 5,
+      "title": "ASML第三季销售EUR116.62亿，预计2027–2028计划供给仍不足",
+      "article_ids": [
+        "a5ab26986e75e2108b82"
+      ],
+      "facts": [
+        "ASML10月14日披露2026Q3净销售EUR116.62亿、净利润EUR49.60亿，毛利率57.5%；季度期间截至9月27日，按US GAAP、未经审计。全年销售EUR440–450亿为指引。",
+        "管理层称目前规划的2027/2028供给不能满足客户需求，正研究在此前沟通的2028扩产30%基础上继续增加产能。2029/2030客户下单兴趣不等于已签订单或确认收入。新增是季度兑现和产能预期；来源仅日期，窗口边界不确定。"
+      ],
+      "analysis": "判断：上游光刻产能与升级服务仍可能成为先进算力供给约束，设备和产能提升环节受益，扩产客户面临交付排期压力。需求预期可被取消订单、替代工艺和投资放缓推翻。观察实际订单、设备交付、产能爬坡和收入确认。",
+      "locators": {
+        "a5ab26986e75e2108b82": "官方季度公告正文、财务表、CEO outlook、脚注2及US GAAP/unaudited说明；未读投资者电话或完整财务附表。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "nvidia-cupotential-fabs-20261014",
+      "section": 5,
+      "title": "NVIDIA将CUDA-X扩展至芯片工程，cuPotential仍处于early access",
+      "article_ids": [
+        "e43508c4c22acdd3becf"
+      ],
+      "facts": [
+        "NVIDIA10月14日宣布cuPotential用于原子交互模拟，并披露多家半导体公司的CUDA-X/AI采用。cuPotential为early access；NanoVDB在OpenVDB中开源，NPP通过CUDA Toolkit提供。",
+        "Lam Research的NanoVDB加速SEMulator3D目标是年底发布，尚非已交付。新增是AI与仿真工具进入芯片工程流程；公告的多项倍数缺少统一硬件/精度/负载/基线，此处不作性能比较或推算晶圆产能增幅。"
+      ],
+      "analysis": "判断：模型与物理仿真结合可缩短工艺探索和缺陷诊断周期，EDA、仿真软件与GPU工具链受益。模拟误差、验证周期和物理设备产能仍限制转化。观察正式版本、客户量产采用、可比基准和最终良率改善。",
+      "locators": {
+        "e43508c4c22acdd3becf": "官方HTTP完整公告，定位cuPotential、Semiconductor Leaders及Availability；未逐项读合作方技术报告或复现。"
+      },
+      "reviewed": true
+    }
+  ]
+}

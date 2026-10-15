@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14686",
+  "title": "Vesta: Queueing-Aware LLM Scheduling for Real-World Workloads",
+  "text": "arXiv:2610.14686v1 Announce Type: new\nAbstract: Agentic applications generate multi-turn sequences of LLM requests, with each new turn extending the context accumulated from prior interactions and tool calls. Prefix caching reuses the KV cache of earlier turns and avoids redundant prefill, but routing every turn to its cache-affine instance can create severe local queues while capacity remains idle elsewhere. Remote KV cache access relaxes this tension, yet migrating execution adds transfer work and is harmful when the cluster is already congested. Thus, deciding where to execute a request requires reasoning jointly about cache locality, queueing, and the current operating point of the cluster.\nWe present Vesta, a queueing-aware scheduler for distributed agentic LLM serving. Vesta assigns each session a stable holder for its authoritative KV cache while independently selecting an executor for every request. Grounded in classical queueing theory, its objective accounts for backlog, reusable prefixes, KV cache transfer, and the queueing externality of additional service demand; it migrates execution to recover idle capacity when beneficial and favors placements that add the least prefill and transfer work as congestion rises. Vesta also migrates reusable prefixes across length buckets to avoid cold starts. On real-world agentic workloads, Vesta improves throughput by 14.0\\% and reduces mean TTFT by 57.8\\% over the state-of-the-art scheduler in a PD-colocated deployment. In PD-disaggregated deployments, it reduces mean TTFT by up to 18.1\\% and P99 TTFT by up to 29.0\\% at matched throughput.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "5f2d36a51141e7d777f3",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

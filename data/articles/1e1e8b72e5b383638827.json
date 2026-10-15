@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14760",
+  "title": "The Constitution Speaks Nheengatu: An Open MT System and Reproducible Corpus Pipeline for the Amazonian L\\'ingua Geral",
+  "text": "arXiv:2610.14760v1 Announce Type: new\nAbstract: Nheengatu (yrl), the Amazonian L\\'ingua Geral, has 6--10 thousand speakers and is co-official in S\\~ao Gabriel da Cachoeira (Brazil), yet remains poorly served by evaluated Portuguese--Nheengatu MT resources. We present the largest parallel corpus assembled for the language (14.5k Portuguese--Nheengatu pairs), anchored by the 2023 official translation of the Brazilian Federal Constitution; the first MT evaluation set built from transcribed spontaneous speech; and, to our knowledge, the first open-weight MT models dedicated to bidirectional Portuguese--Nheengatu translation.\nThree findings organize the paper. First, translation into Nheengatu on held-out constitutional articles plateaus on development data regardless of training length or model size, and much of the remaining error sits in conventional legal terms that the written sources do not attest consistently; a terminology success rate over a frozen lexicon shows that glossary mechanisms at training time and lexical constraints at decoding each raise term realization, the latter at a cost in repetitive output that chrF++ barely registers. Second, a corpus expansion that adds transcribed conversation raises speech chrF++ by 24--27 points while leaving written domains unchanged, a register gap that written-only benchmarks cannot see. Third, a larger NLLB model helps translation into Portuguese but not into Nheengatu on legal or speech text. For Portuguese-to-Nheengatu translation, our final systems reach 31.7--32.8 chrF++ on article-disjoint constitutional text, 64.1--64.5 on the near-domain set (62.1 after removing items with target-side content overlap), and 45.2--47.5 on speech.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "1e1e8b72e5b383638827",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/openais-math-breakthroughs-rattle-cryptography-leaders",
+  "title": "OpenAI’s Math Breakthroughs Rattle Cryptography Leaders",
+  "text": "OpenAI’s release last Tuesday of more than 300 math results it says an internal model solved has sparked concern among some of the world’s leading cryptographers, or experts in encoding information to keep it private and secure. They worry that AI’s continued math advances could find new algorithms that make our current methods of protecting information on encrypted services, from online payments to messaging platforms like WhatsApp, easier to crack.\nThe basis for modern internet security is the assumption that some math operations are easy to do, such as a process of encoding using a number known as the public key. But they are hard to undo, or decode, without knowing a specific number, called the private key. This assumption of difficulty is the foundation of secure communication over the internet, which has helped enable e-commerce, cryptocurrencies and digital accounts.\nAI models from OpenAI and others, which have been solving problems that have stumped math experts for decades, have raised the prospect that powerful AI systems could find ways to solve those problems without that key.\n“I am anticipating a vast change in mathematics, cryptanalysis included,” said Whitfield Diffie, who helped invent public key cryptography in 1976 with the Diffie-Hellman key exchange algorithm, in an email to me.\n“I don’t know the timescale. A year is probably too soon; five may not be,” said Diffie, now a consulting scholar at the Stanford Center for International Security and Cooperation.",
+  "published_at": "2026-10-14T14:00:59+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-14T14:01:48+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "85386b39c5339a3b715c",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/56f81a8247d700ea8ea7281d01e553a9137638d52c1d320d2dbb920e425533a7.body",
+  "source_sha256": "56f81a8247d700ea8ea7281d01e553a9137638d52c1d320d2dbb920e425533a7",
+  "fetched_at": "2026-10-15T01:03:52.053471+00:00"
+}

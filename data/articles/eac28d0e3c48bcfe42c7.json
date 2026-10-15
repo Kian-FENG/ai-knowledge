@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14531",
+  "title": "LongHisDoc: A Comprehensive Benchmark for Chinese Long Historical Document Understanding",
+  "text": "arXiv:2610.14531v1 Announce Type: new\nAbstract: Chinese historical documents are invaluable cultural treasures, but their complexity poses significant comprehension challenges for non-specialists. Despite the success of Large Language Models (LLMs) and Large Vision-Language Models (LVLMs) in modern document tasks, their capabilities in Long (full-book) Historical Document understanding remain largely unexplored. To bridge this gap, we introduce LongHisDoc, the first benchmark tailored for long historical document understanding. LongHisDoc comprises 1,012 expert-annotated QA pairs derived from 101 PDF documents, with an average of 85.1 pages and 42,776.4 tokens per document. It spans 10 categories and features four QA types: single-page, cross-page, multi-hop, and unanswerable. Answering these questions requires integrating multimodal evidence from text, layout, and visual elements. Our evaluation reveals that the top-performing LVLM and LLM achieve only 62.9% and 69.9% accuracy, respectively, highlighting a substantial performance gap. Furthermore, we assess various modal retrievers and the end-to-end RAG performance to provide references for Retrieval-Augmented Generation (RAG) systems. We believe that LongHisDoc serves as a comprehensive benchmark to catalyze future research in full-book historical document understanding. The benchmark and evaluation code are available at https://huggingface.co/datasets/qweq12433454/LongHisDoc and https://github.com/SCUT-DLVCLab/LongHisDoc.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "eac28d0e3c48bcfe42c7",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

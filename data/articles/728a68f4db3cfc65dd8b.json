@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14073",
+  "title": "Is the Future Predictable? Modeling Future Predictability for Reliable Temporal Reasoning",
+  "text": "arXiv:2610.14073v1 Announce Type: new\nAbstract: Large language models (LLMs) remain unreliable when reasoning about the future. Existing models often overlook the difference among future states, committing to specific answers even when the queried facts are inherently volatile. To capture this challenge, we introduce ChronoRegime, a future-oriented temporal reasoning task that requires models to determine whether historical temporal evidence justifies commitment to a future answer. Furthermore, we propose Confidence-Aware Temporal Reasoning (CTR), a framework that estimates future predictability from temporal dynamics and regulates answer commitment accordingly. Rather than performing unconditional forecasting, CTR commits only when the reconstructed evidence supports the target future state. Across multiple LLMs, CTR improves strict overall accuracy by 6.7 percentage points and reduces hallucination rates by 18.4 percentage points on average over the plain QA baseline. These results demonstrate that explicit predictability assessment is an effective mechanism for safer and more reliable temporal reasoning under future uncertainty.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "728a68f4db3cfc65dd8b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

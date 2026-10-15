@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+  "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+  "text": "AI company Anthropic is warning that advances in small AI models could soon usher in a new era of self-replicating malware that’s capable of infecting smart fridges, vacuum cleaners, and a wide range of other Internet of Things devices and is more resistant to takedown.\nBy next year, smaller AI models may be able to autonomously self-replicate on all kinds of IoT devices, the company said. Eventually, the capability could enable computer worms, which propagate without requiring human interaction and are capable of infecting unfamiliar IoT devices. An experiment the company performed recently revealed significant challenges in bringing such an AI malware replicator to fruition, so the finding is necessarily tempered. Still, the results raise concerns about the possibility of new forms of computer worms.\nChallenging to shut down\nAnthropic further warned not only about the new potential malware, but also that it could be difficult to stop. In its blog post, it wrote that “a replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days). Unlike non-AI malware, it could also figure out unfamiliar devices on its own.”\nRead full article\nComments",
+  "published_at": "2026-10-14T12:55:06+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d249d26945c2841eca80",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-15/7efe8d914738aadf165d50590217a9f979c259ff734553ac2f962ef4201e98b6.body",
+  "source_sha256": "7efe8d914738aadf165d50590217a9f979c259ff734553ac2f962ef4201e98b6",
+  "fetched_at": "2026-10-15T01:03:57.636247+00:00"
+}

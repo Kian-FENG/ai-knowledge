@@ -1,0 +1,21 @@
+{
+  "raw_path": "raw/2026-10-15/7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8.body",
+  "sha256": "7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8",
+  "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-15T01:07:15.229713+00:00",
+  "source_id": "nvidia-newsroom",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Accept-Ranges": "bytes",
+    "Date": "Thu, 15 Oct 2026 01:07:16 GMT",
+    "Content-Length": "83954",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close"
+  },
+  "final_url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+  "truncated": false,
+  "charset": "utf-8"
+}

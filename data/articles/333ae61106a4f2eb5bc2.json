@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14571",
+  "title": "Dissecting the Carbon-SLO Tension in Geo-Distributed LLM Serving",
+  "text": "arXiv:2610.14571v1 Announce Type: new\nAbstract: Large Language Model (LLM) inference is driving a growing share of datacenter carbon emissions. Although carbon-aware scheduling can reduce these emissions in geo-distributed datacenters by exploiting the spatiotemporal variations in grid carbon intensity, the latency-sensitive nature of LLM serving constrains this design space. While prior studies investigate the carbon savings achievable through spatial scheduling, they oversimplify the dynamics of modern inference engines, such as queueing and continuous batching, which strongly shape inference latency. We address this issue by designing and evaluating a latency-centric, geo-distributed inference simulator, calibrated with hardware-grounded latency and power measurements, that reproduces these dynamics and enables the study of carbon savings under strict service-level objectives (SLOs). We then formulate a series of SLO- and carbon-aware schedulers of increasing sophistication, from per-request heuristics to batch-level optimization: (i) a greedy heuristic, (ii) an integer linear programming (ILP)-based scheduler jointly assigning batches of requests, (iii) an iterative ILP-based solution projecting its own assignments back into the load estimates to capture load coupling, and (iv) a facility mixed-integer linear programming (MILP) scheduler pricing the energy of batched requests collectively rather than in isolation. Across three LLMs under MLPerf SLOs and varying system loads, the MILP-based option offers the best carbon-SLO balance, reducing carbon emissions by up to 60% relative to the round-robin policy, with an average SLO violation of 3%. Our characterization further shows that savings grow with the spread of carbon intensity across datacenters and shrink as system load increases, while SLO attainment depends on how frequently schedulers receive datacenters' load updates.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "333ae61106a4f2eb5bc2",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

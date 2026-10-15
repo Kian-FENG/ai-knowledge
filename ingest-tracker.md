@@ -171,3 +171,24 @@
 - reference/entities/pluto-security.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
 - reference/entities/semigraph.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
 - research/synthesis/agent-access-governance-and-local-stack-20261013.md：归档、查重、所列范围阅读、综合关联完成；审核发布及默认query/get_page回查完成，raw hash/版本核对通过。
+
+
+## automation-ai-2026-10-14
+
+- reference/sources/workbuddy-wecom-integration-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/qwenwork-commerce-invite-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/bigquery-token-quota-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/amp-openai-agent-case-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/third-moment-agent-scale-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/anthropic-singapore-office-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/grok-voice3-api-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/gemma-singapore-scam-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/dynamo-glm53-sglang-preview-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/papers/agentweave-announcement-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/papers/safe-kv-announcement-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/asml-q3-2026-results-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/nvidia-cupotential-fabs-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/third-moment-products-undated.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/sources/anthropic-scion-20261013.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- reference/entities/third-moment-research.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+- research/synthesis/agent-scale-context-budget-and-fidelity-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。

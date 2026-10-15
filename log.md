@@ -115,3 +115,10 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 ## 2026-10-13 automation-ai
 
 十条日报精选；新增14来源、Pluto/SemiGraph两实体及1综合研究。Anthropic两篇与vLLM较早文章、半图未知日期身份仅作背景；未用修改/发现时间冒充首发。原文hash/范围/日期见页面；全流程与回查状态见tracker及本期audit。
+
+
+## 2026-10-14 automation-ai 日报研究
+
+原文归档、含草稿查重、来源阅读与综合完成：13条本期事件，Scion为10月13日背景、Third Moment官网未知日期仅背景。新建13 source、2 paper、1 entity和1 synthesis note；公司/作者陈述reported、跨来源判断derived，source-checked仅限所述支持关系，无measured/replicated。主要未完成项为付费财务原文、中文产品官方条款、模型/Infra全配置及独立复现；审核发布与回查结果见tracker及本期readback。
+
+本批17页已审核发布，默认query/get_page可见且原始hash回查通过；154页结构与49项离线测试通过。日报13事件已审阅，窗口按America/Los_Angeles当地日历，生成时间见manifest。无独立测量或复现升级。

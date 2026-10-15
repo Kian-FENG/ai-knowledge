@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+🔔 New article published\n+Artificial Analysis Decision Index v1.0\n+The Artificial Analysis Decision Index benchmarks decision models, a new category of models that answer structured decisions in a single call with a probability for each option. Version 1.0 combines four evaluations across classification, tool calling, knowledge, hallucination, and reasoning.\n+🔔 New article published\n+Announcing AA-3D: a benchmark for AI models building interactive 3D experiences\n+AA-3D is a new benchmark of how well AI models build interactive 3D experiences. Each model turns a written brief into a working three.js scene in an offline sandbox, and our recruited panel compares the scenes in blind pairwise votes.\n+Agnes 2.5 Pro Beta\n+New language model evaluation results available\n+Agnes AI performance results now available\n+Agnes 2.5 Pro Beta",
+  "id": "51611582ec8afea2ed72",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-15/95dbbc315a096e0bec868e8f82388446acf687656bf94ddf6b376549c15c52d7.body",
+  "source_sha256": "95dbbc315a096e0bec868e8f82388446acf687656bf94ddf6b376549c15c52d7",
+  "fetched_at": "2026-10-15T01:03:43.026396+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-15T01:03:43.026396+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

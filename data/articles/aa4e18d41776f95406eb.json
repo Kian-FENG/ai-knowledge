@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/",
+  "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
+  "text": "AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes...\nAI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes reliability a major barrier to production adoption. In multistage engineering workflows, an undetected error early in setup can silently propagate through downstream stages and final artifact generation. Evaluating and refining these agents against…\nSource",
+  "published_at": "2026-10-14T16:10:45+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-14T16:10:48+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "aa4e18d41776f95406eb",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-15/89650138bda491d69190f6e75d8a4b4446a94e5240196e335929e56f5babcb10.body",
+  "source_sha256": "89650138bda491d69190f6e75d8a4b4446a94e5240196e335929e56f5babcb10",
+  "fetched_at": "2026-10-15T01:03:37.208272+00:00"
+}

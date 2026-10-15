@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
+  "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
+  "text": "Nearly eight years after Epic took on Steam with its own Game Store and launcher, the Fortnite maker is deploying a new tool to give it an edge over Valve: vibe coding.\nIn announcing the new publicly available \"Preview\" build of its Epic Games Launcher, Epic writes that \"programming is hard. So, instead of doing that, we vibe coded a new Epic Games Launcher that’s way faster and more responsive than the current one, and has a new look.\" And while that might sound a little tongue-in-cheek, Epic Games Store General Manager and VP Martin Keely told PC Gamer that the team \"started from scratch\" and used AI as \"a tool to write and review new features and new capabilities from the ground up in a different tech stack than what we had previously.\" The goal, Keely said, was to \"look at functionality that existed [in the current Epic Games Launcher] and [say] we want to replicate that, but not the code itself.\"\nSpeaking to IGN, Keely clarified that using AI to code the new Launcher \"made us more efficient and allowed a small team to rewrite the code base and be able to launch it faster across platforms, support Windows and Mac, and we're going to have a Linux version as well.\"\nRead full article\nComments",
+  "published_at": "2026-10-14T21:15:56+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "79f1d561aed872b59299",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-15/7efe8d914738aadf165d50590217a9f979c259ff734553ac2f962ef4201e98b6.body",
+  "source_sha256": "7efe8d914738aadf165d50590217a9f979c259ff734553ac2f962ef4201e98b6",
+  "fetched_at": "2026-10-15T01:03:57.636247+00:00"
+}

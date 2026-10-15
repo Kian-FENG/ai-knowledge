@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/openai-accuses-former-employee-taking-confidential-information-apple",
+  "title": "OpenAI Accuses Former Employee of Taking Confidential Information to Apple",
+  "text": "OpenAI has accused a former employee of sharing the company’s unreleased device plans with senior leadership at Apple—a charge that echoes those Apple made against OpenAI in a lawsuit the iPhone maker filed in July.\nIn a filing Wednesday morning, OpenAI claimed the unnamed former employee joined ...",
+  "published_at": "2026-10-14T18:13:21+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-14T21:29:44+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "52815ea23af7b45a8853",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/56f81a8247d700ea8ea7281d01e553a9137638d52c1d320d2dbb920e425533a7.body",
+  "source_sha256": "56f81a8247d700ea8ea7281d01e553a9137638d52c1d320d2dbb920e425533a7",
+  "fetched_at": "2026-10-15T01:03:52.053471+00:00"
+}

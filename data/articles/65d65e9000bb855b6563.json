@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/04ceedc2-8ec0-481f-8982-6bb331f11e41?syn-25a6b1a6=1",
+  "title": "Government finally signals action on AI",
+  "text": "Ministers and MPs have stepped up their scrutiny of the technology after months of paying it little attention",
+  "published_at": "2026-10-14T08:30:02+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "65d65e9000bb855b6563",
+  "source_id": "ft-tech",
+  "source_name": "Financial Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/1976ad279172880546d3237ef7c9e383ccd5cd4b86549906c986e5b3cf7219df.body",
+  "source_sha256": "1976ad279172880546d3237ef7c9e383ccd5cd4b86549906c986e5b3cf7219df",
+  "fetched_at": "2026-10-15T01:03:54.064073+00:00"
+}

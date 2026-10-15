@@ -2,6 +2,15 @@
 # sources 指向 data/sources.yaml 的来源 ID；browser 列出 HTTP 采集不可用、需要用浏览器
 # 打开核查的入口；channels 记录首发渠道（多为公众号或社交平台），只能经媒体与检索发现。
 companies:
+- id: third-moment
+  name: Third Moment Research
+  region: US (website location; legal domicile unverified)
+  urls: [https://thirdmomentresearch.com/]
+  sources: [third-moment]
+  browser: [https://thirdmomentresearch.com/]
+  source_page: reference/entities/third-moment-research.md
+  tracking_since: '2026-10-14'
+  note: 官网核对品牌与托管推理产品；法定注册、融资和客户效果未独立验证；不是今日成立。
 - id: pluto-security
   name: Pluto Security
   region: US / Israel

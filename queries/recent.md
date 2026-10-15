@@ -2,6 +2,26 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-14
+
+- `entity` [[reference/entities/third-moment-research|Third Moment Research：工作流定制与持续改进推理服务]]
+- `paper` [[reference/papers/agentweave-announcement-20261014|AgentWeave提出工作流分解调度，处理长短Agent请求阻塞]]
+- `paper` [[reference/papers/safe-kv-announcement-20261014|SAFE-KV强调非前缀缓存的因果状态约束，保真修复未必省计算]]
+- `source` [[reference/sources/amp-openai-agent-case-20261014|Amp客户案例呈现订阅登录、语音调度与编码外任务的组合]]
+- `source` [[reference/sources/anthropic-scion-20261013|Anthropic内部Scion：Agent规模促使源码、审阅和CI重新设计]]
+- `source` [[reference/sources/anthropic-singapore-office-20261014|Anthropic开设新加坡办公室，与政府签署合作备忘录]]
+- `source` [[reference/sources/asml-q3-2026-results-20261014|ASML第三季销售EUR116.62亿，预计2027–2028计划供给仍不足]]
+- `source` [[reference/sources/bigquery-token-quota-20261014|BigQuery解释已GA的生成式AI词元配额，预算控制可到项目和用户]]
+- `source` [[reference/sources/dynamo-glm53-sglang-preview-20261014|Dynamo发布GLM-5.3-Flash的SGLang实验快照，保留多模态验证限制]]
+- `source` [[reference/sources/gemma-singapore-scam-20261014|DeepMind与新加坡GovTech微调端侧Gemma反诈模型，应用分阶段推出]]
+- `source` [[reference/sources/grok-voice3-api-20261014|Grok Voice 3.0开放API，维持每分钟USD0.08并自动升级latest别名]]
+- `source` [[reference/sources/nvidia-cupotential-fabs-20261014|NVIDIA将CUDA-X扩展至芯片工程，cuPotential仍处于early access]]
+- `source` [[reference/sources/qwenwork-commerce-invite-20261014|千问办公电商版开启邀测，将经营工具接入Agent工作流]]
+- `source` [[reference/sources/third-moment-agent-scale-20261014|Third Moment披露万Agent长时研究案例，扩展工作流定制推理路线]]
+- `source` [[reference/sources/third-moment-products-undated|Third Moment官网：按工作流改进的托管推理端点]]
+- `source` [[reference/sources/workbuddy-wecom-integration-20261014|企业微信与WorkBuddy打通账号和授权上下文，向认证企业开放]]
+- `note` [[research/synthesis/agent-scale-context-budget-and-fidelity-20261014|Agent规模化的约束移向组织上下文、成本边界与行为保真]]
+
 ## 2026-10-13
 
 - `entity` [[reference/entities/pluto-security|Pluto Security：AI工具供应链与运行时治理]]

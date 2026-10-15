@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14112",
+  "title": "Does System One Transfer? Calibrated Typed-Decision Models, Label Budgets, and Translation for Indonesian Regional Languages",
+  "text": "arXiv:2610.14112v1 Announce Type: new\nAbstract: Calibrated typed-decision (\"System One\") models return a label and a probability in a single forward pass at a small fraction of the cost of large language models (LLMs), yet their evaluation has been almost entirely English. We report a pre-registered evaluation of the commercial Jev model and the open Laya-multilingual model on Indonesian regional languages, using the parallel NusaX sentiment (12 languages) and NusaTranslation sentiment and emotion (7 languages) test sets. Jev is more often correct on sentences that are lexically closer to Indonesian in all three datasets, and presenting the human Indonesian translation instead raises its accuracy by up to 37.2 points, most in languages distant from Indonesian. Its expected calibration error does not grow on regional languages, but its ability to rank its own errors degrades in all three datasets. Retrained classifiers need more than 500 labels per language to match zero-shot Jev in 9 of 10 NusaX regional languages. A confidence-gated cascade that sends Jev's 10-30% least confident decisions to a local IndoBERT classifier matches or exceeds the better of the two systems, and routing to an LLM instead matches that LLM at 24-77% lower API cost. Of six further commercial LLMs (three Claude and three GPT models), five are 4-14 points more accurate than Jev, at several hundred times the API cost where it is reported, while the smallest (Claude Haiku) is less accurate. We release the pre-registration, code and all predictions.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b2898c086961dd8a454a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

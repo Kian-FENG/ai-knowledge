@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/vllm-project/vllm/releases/tag/proto-v0.6.0",
+  "title": "proto-v0.6.0",
+  "text": "vllm-proto 0.6.0",
+  "published_at": null,
+  "announced_at": null,
+  "updated_at": "2026-10-14T23:57:02+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "deebc1af26824e66f83f",
+  "source_id": "vllm",
+  "source_name": "vLLM Releases",
+  "section": 3,
+  "raw_path": "raw/2026-10-15/d4dc4c2f58e1fda9e33f86004dd6ec93101fa8498ba38517a79952647eb5e4a8.body",
+  "source_sha256": "d4dc4c2f58e1fda9e33f86004dd6ec93101fa8498ba38517a79952647eb5e4a8",
+  "fetched_at": "2026-10-15T01:03:39.871572+00:00"
+}

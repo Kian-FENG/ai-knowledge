@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14438",
+  "title": "Neither True nor False: Do LLMs Represent Truth-Value Gaps in Plural Predication?",
+  "text": "arXiv:2610.14438v1 Announce Type: new\nAbstract: Do Large Language Models (LLMs) genuinely grasp the truth conditions of plural descriptions, or do they force every sentence into true or false? We investigate the Homogeneity Gap, a semantic phenomenon where a plural definite (e.g., the kids laughed) and its negation (the kids didn't laugh) are both neither true nor false when only some of the kids laughed, whereas their quantified counterparts (all, not all) remain strictly bivalent. We introduce HomogeneityNLI, a diagnostic dataset of 1,000 minimal-pair items crossing determiner, polarity, and group composition across ten logical conditions. Evaluating seven open-weight models, we uncover a pervasive Bivalence Bias: models assign plural definites their homogeneous truth conditions, reading the kids as all of them and the kids didn't as none of them, yet collapse the truth-value gap into falsity. In the zero-shot setting, no model recognizes the gap for both polarities in more than 15% of scenarios, and negated definites are judged False in 84% of cases. Explicit linguistic rules, chain-of-thought, and enumeration prompts produce unstable, model-specific effects that often entrench the bias. Taken together, our findings indicate that current open-weight LLMs have acquired the truth conditions of plural predication but not its trivalent logic.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "10087052cafe3d51f482",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

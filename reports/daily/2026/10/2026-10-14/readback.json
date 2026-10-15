@@ -1,0 +1,1431 @@
+{
+  "pages": [
+    {
+      "page": "reference/sources/workbuddy-wecom-integration-20261014.md",
+      "id": "source-workbuddy-wecom-integration-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba.body",
+            "target": "raw/2026-10-15/e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba.body",
+          "locator": "已读雷峰网网页主文和完整RSS，定位版本、企业授权、认证企业及限免段；官方公告/实际账户未核。",
+          "version": "sha256:e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba.body",
+            "target": "raw/2026-10-15/e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21.body",
+          "locator": "原始RSS/Atom对应URL条目及发布时间或公告日；正文结论以本次主文快照为准。",
+          "version": "sha256:457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21.body",
+            "target": "raw/2026-10-15/457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/qwenwork-commerce-invite-20261014.md",
+      "id": "source-qwenwork-commerce-invite-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.leiphone.com/category/industrynews/eg8S5cDorgtGnzPy.html",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.leiphone.com/category/industrynews/eg8S5cDorgtGnzPy.html"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/d35402b998ea5068d1399452d4343d4cac6cc049e375305fcc1ef464ad4b581e.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/d35402b998ea5068d1399452d4343d4cac6cc049e375305fcc1ef464ad4b581e.body",
+            "target": "raw/2026-10-15/d35402b998ea5068d1399452d4343d4cac6cc049e375305fcc1ef464ad4b581e.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.leiphone.com/category/industrynews/eg8S5cDorgtGnzPy.html",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.leiphone.com/category/industrynews/eg8S5cDorgtGnzPy.html"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/d35402b998ea5068d1399452d4343d4cac6cc049e375305fcc1ef464ad4b581e.body",
+          "locator": "雷峰网完整短讯主文及日期；未读官方原始公告、定价或商家后台。",
+          "version": "sha256:d35402b998ea5068d1399452d4343d4cac6cc049e375305fcc1ef464ad4b581e",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/d35402b998ea5068d1399452d4343d4cac6cc049e375305fcc1ef464ad4b581e.body",
+            "target": "raw/2026-10-15/d35402b998ea5068d1399452d4343d4cac6cc049e375305fcc1ef464ad4b581e.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21.body",
+          "locator": "原始RSS/Atom对应URL条目及发布时间或公告日；正文结论以本次主文快照为准。",
+          "version": "sha256:457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21.body",
+            "target": "raw/2026-10-15/457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://www.leiphone.com/category/industrynews/eg8S5cDorgtGnzPy.html",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.leiphone.com/category/industrynews/eg8S5cDorgtGnzPy.html"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/bigquery-token-quota-20261014.md",
+      "id": "source-bigquery-token-quota-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/",
+          "resolution": {
+            "status": "external",
+            "target": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6.body",
+            "target": "raw/2026-10-15/8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/",
+          "resolution": {
+            "status": "external",
+            "target": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6.body",
+          "locator": "已读官方全文RSS和HTTP网页正文；定位Quotas、What's not covered、How enforcement works、AI.COUNT_TOKENS；未运行SQL或单独审核计费文档。",
+          "version": "sha256:8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6.body",
+            "target": "raw/2026-10-15/8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/0247a4a2a0a8077e2d4a9983ce17dc6a0731c212bdcafad3986b139c449164b5.body",
+          "locator": "原始RSS/Atom对应URL条目及发布时间或公告日；正文结论以本次主文快照为准。",
+          "version": "sha256:0247a4a2a0a8077e2d4a9983ce17dc6a0731c212bdcafad3986b139c449164b5",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/0247a4a2a0a8077e2d4a9983ce17dc6a0731c212bdcafad3986b139c449164b5.body",
+            "target": "raw/2026-10-15/0247a4a2a0a8077e2d4a9983ce17dc6a0731c212bdcafad3986b139c449164b5.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/",
+          "resolution": {
+            "status": "external",
+            "target": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/amp-openai-agent-case-20261014.md",
+      "id": "source-amp-openai-agent-case-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://openai.com/index/amp-beyond-coding",
+          "resolution": {
+            "status": "external",
+            "target": "https://openai.com/index/amp-beyond-coding"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/3f20f8db5b8f58f865066f9ab7211c1f9b1808473cdb1cbcf43ed2db683422ce.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/3f20f8db5b8f58f865066f9ab7211c1f9b1808473cdb1cbcf43ed2db683422ce.txt",
+            "target": "raw/2026-10-15/3f20f8db5b8f58f865066f9ab7211c1f9b1808473cdb1cbcf43ed2db683422ce.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://openai.com/index/amp-beyond-coding",
+          "resolution": {
+            "status": "external",
+            "target": "https://openai.com/index/amp-beyond-coding"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/3f20f8db5b8f58f865066f9ab7211c1f9b1808473cdb1cbcf43ed2db683422ce.txt",
+          "locator": "OpenAI案例主文Lowering the cost、Calling Puck及Ultrafast段；未读Amp完整发布日志和账户权益条款。网页文本快照，非HTTP原始响应。",
+          "version": "sha256:3f20f8db5b8f58f865066f9ab7211c1f9b1808473cdb1cbcf43ed2db683422ce",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/3f20f8db5b8f58f865066f9ab7211c1f9b1808473cdb1cbcf43ed2db683422ce.txt",
+            "target": "raw/2026-10-15/3f20f8db5b8f58f865066f9ab7211c1f9b1808473cdb1cbcf43ed2db683422ce.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c.body",
+          "locator": "原始RSS/Atom对应URL条目及发布时间或公告日；正文结论以本次主文快照为准。",
+          "version": "sha256:8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c.body",
+            "target": "raw/2026-10-15/8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://openai.com/index/amp-beyond-coding",
+          "resolution": {
+            "status": "external",
+            "target": "https://openai.com/index/amp-beyond-coding"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/third-moment-agent-scale-20261014.md",
+      "id": "source-third-moment-agent-scale-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://openai.com/index/third-moment-research",
+          "resolution": {
+            "status": "external",
+            "target": "https://openai.com/index/third-moment-research"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-third-moment-products-undated",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-products-undated.md",
+            "target": "source-third-moment-products-undated"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/ec8eb4c50b297369c3683ddcafab5fc5d3b4b1d9f14ca03ed5497d2c726fdac8.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/ec8eb4c50b297369c3683ddcafab5fc5d3b4b1d9f14ca03ed5497d2c726fdac8.txt",
+            "target": "raw/2026-10-15/ec8eb4c50b297369c3683ddcafab5fc5d3b4b1d9f14ca03ed5497d2c726fdac8.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://openai.com/index/third-moment-research",
+          "resolution": {
+            "status": "external",
+            "target": "https://openai.com/index/third-moment-research"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/ec8eb4c50b297369c3683ddcafab5fc5d3b4b1d9f14ca03ed5497d2c726fdac8.txt",
+          "locator": "OpenAI案例主文及Third Moment官网全部可见产品流程；未独立验证并发、收益、融资或法定注册主体。",
+          "version": "sha256:ec8eb4c50b297369c3683ddcafab5fc5d3b4b1d9f14ca03ed5497d2c726fdac8",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/ec8eb4c50b297369c3683ddcafab5fc5d3b4b1d9f14ca03ed5497d2c726fdac8.txt",
+            "target": "raw/2026-10-15/ec8eb4c50b297369c3683ddcafab5fc5d3b4b1d9f14ca03ed5497d2c726fdac8.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c.body",
+          "locator": "原始RSS/Atom对应URL条目及发布时间或公告日；正文结论以本次主文快照为准。",
+          "version": "sha256:8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c.body",
+            "target": "raw/2026-10-15/8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt",
+          "locator": "官网可见产品全文，Collect→Diagnose→Decide→Improve→Ship与Fully managed；未知发布日期。",
+          "version": "sha256:e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt",
+            "target": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://openai.com/index/third-moment-research",
+          "resolution": {
+            "status": "external",
+            "target": "https://openai.com/index/third-moment-research"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/anthropic-singapore-office-20261014.md",
+      "id": "source-anthropic-singapore-office-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.anthropic.com/news/singapore-office-opening",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.anthropic.com/news/singapore-office-opening"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/77a78c381370d410252e03d85f0c39cac6a970fa732c452d7ebef2ad08a8238d.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/77a78c381370d410252e03d85f0c39cac6a970fa732c452d7ebef2ad08a8238d.txt",
+            "target": "raw/2026-10-15/77a78c381370d410252e03d85f0c39cac6a970fa732c452d7ebef2ad08a8238d.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.anthropic.com/news/singapore-office-opening",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.anthropic.com/news/singapore-office-opening"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/77a78c381370d410252e03d85f0c39cac6a970fa732c452d7ebef2ad08a8238d.txt",
+          "locator": "官方公告全文，定位Supporting responsible AI和How Singapore is working with Claude；未审阅MOU全文、合同或客户审计。",
+          "version": "sha256:77a78c381370d410252e03d85f0c39cac6a970fa732c452d7ebef2ad08a8238d",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/77a78c381370d410252e03d85f0c39cac6a970fa732c452d7ebef2ad08a8238d.txt",
+            "target": "raw/2026-10-15/77a78c381370d410252e03d85f0c39cac6a970fa732c452d7ebef2ad08a8238d.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://www.anthropic.com/news/singapore-office-opening",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.anthropic.com/news/singapore-office-opening"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/grok-voice3-api-20261014.md",
+      "id": "source-grok-voice3-api-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://x.ai/news/grok-voice-3",
+          "resolution": {
+            "status": "external",
+            "target": "https://x.ai/news/grok-voice-3"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/583d5f6640b119adcbad5a8291b9f2d9be97ce9630a61f26138654e1190dab59.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/583d5f6640b119adcbad5a8291b9f2d9be97ce9630a61f26138654e1190dab59.txt",
+            "target": "raw/2026-10-15/583d5f6640b119adcbad5a8291b9f2d9be97ce9630a61f26138654e1190dab59.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://x.ai/news/grok-voice-3",
+          "resolution": {
+            "status": "external",
+            "target": "https://x.ai/news/grok-voice-3"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/583d5f6640b119adcbad5a8291b9f2d9be97ce9630a61f26138654e1190dab59.txt",
+          "locator": "官方公告全文，定位Pricing and Availability、Used by Millions及评测归因；未读第三方评测全文、未实测延迟。",
+          "version": "sha256:583d5f6640b119adcbad5a8291b9f2d9be97ce9630a61f26138654e1190dab59",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/583d5f6640b119adcbad5a8291b9f2d9be97ce9630a61f26138654e1190dab59.txt",
+            "target": "raw/2026-10-15/583d5f6640b119adcbad5a8291b9f2d9be97ce9630a61f26138654e1190dab59.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://x.ai/news/grok-voice-3",
+          "resolution": {
+            "status": "external",
+            "target": "https://x.ai/news/grok-voice-3"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/gemma-singapore-scam-20261014.md",
+      "id": "source-gemma-singapore-scam-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+          "resolution": {
+            "status": "external",
+            "target": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/78bd4a8b27b1a9c9d93f2142da22c8fd2ae4292e4bda153a44bc49f4d8bc0de2.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/78bd4a8b27b1a9c9d93f2142da22c8fd2ae4292e4bda153a44bc49f4d8bc0de2.txt",
+            "target": "raw/2026-10-15/78bd4a8b27b1a9c9d93f2142da22c8fd2ae4292e4bda153a44bc49f4d8bc0de2.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+          "resolution": {
+            "status": "external",
+            "target": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/78bd4a8b27b1a9c9d93f2142da22c8fd2ae4292e4bda153a44bc49f4d8bc0de2.txt",
+          "locator": "官方主文On-device AI、Under the hood和Built on strict governance；未读取底层模型卡、测试集或独立测量。",
+          "version": "sha256:78bd4a8b27b1a9c9d93f2142da22c8fd2ae4292e4bda153a44bc49f4d8bc0de2",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/78bd4a8b27b1a9c9d93f2142da22c8fd2ae4292e4bda153a44bc49f4d8bc0de2.txt",
+            "target": "raw/2026-10-15/78bd4a8b27b1a9c9d93f2142da22c8fd2ae4292e4bda153a44bc49f4d8bc0de2.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/6091a594251823ff9e63fb24aca7a538061d2ad082c5298de8dc3078a6b1862c.body",
+          "locator": "原始RSS/Atom对应URL条目及发布时间或公告日；正文结论以本次主文快照为准。",
+          "version": "sha256:6091a594251823ff9e63fb24aca7a538061d2ad082c5298de8dc3078a6b1862c",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/6091a594251823ff9e63fb24aca7a538061d2ad082c5298de8dc3078a6b1862c.body",
+            "target": "raw/2026-10-15/6091a594251823ff9e63fb24aca7a538061d2ad082c5298de8dc3078a6b1862c.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+          "resolution": {
+            "status": "external",
+            "target": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/dynamo-glm53-sglang-preview-20261014.md",
+      "id": "source-dynamo-glm53-sglang-preview-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-glm-5.3-flash-dev.1",
+          "resolution": {
+            "status": "external",
+            "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-glm-5.3-flash-dev.1"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/bc566ca7e23d42cc86268502d9e2ed963ed07aa8c6a4a64775184272b34bac9e.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/bc566ca7e23d42cc86268502d9e2ed963ed07aa8c6a4a64775184272b34bac9e.body",
+            "target": "raw/2026-10-15/bc566ca7e23d42cc86268502d9e2ed963ed07aa8c6a4a64775184272b34bac9e.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-glm-5.3-flash-dev.1",
+          "resolution": {
+            "status": "external",
+            "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-glm-5.3-flash-dev.1"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/bc566ca7e23d42cc86268502d9e2ed963ed07aa8c6a4a64775184272b34bac9e.body",
+          "locator": "官方Atom完整release正文及GitHub预发布标签，定位Summary、Models、Known Issues；未运行容器或逐个审阅PR。",
+          "version": "sha256:bc566ca7e23d42cc86268502d9e2ed963ed07aa8c6a4a64775184272b34bac9e",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/bc566ca7e23d42cc86268502d9e2ed963ed07aa8c6a4a64775184272b34bac9e.body",
+            "target": "raw/2026-10-15/bc566ca7e23d42cc86268502d9e2ed963ed07aa8c6a4a64775184272b34bac9e.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-glm-5.3-flash-dev.1",
+          "resolution": {
+            "status": "external",
+            "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-glm-5.3-flash-dev.1"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/papers/agentweave-announcement-20261014.md",
+      "id": "paper-agentweave-announcement-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://arxiv.org/abs/2610.14804",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.14804"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/f5219a48c86a5305fafca1da6a74c8d576d1795dc5e07e291d4e178996802bec.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/f5219a48c86a5305fafca1da6a74c8d576d1795dc5e07e291d4e178996802bec.txt",
+            "target": "raw/2026-10-15/f5219a48c86a5305fafca1da6a74c8d576d1795dc5e07e291d4e178996802bec.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://arxiv.org/abs/2610.14804",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.14804"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/f5219a48c86a5305fafca1da6a74c8d576d1795dc5e07e291d4e178996802bec.txt",
+          "locator": "arXiv摘要和Submission history；未读全文、图表、代码或独立复现。",
+          "version": "sha256:f5219a48c86a5305fafca1da6a74c8d576d1795dc5e07e291d4e178996802bec",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/f5219a48c86a5305fafca1da6a74c8d576d1795dc5e07e291d4e178996802bec.txt",
+            "target": "raw/2026-10-15/f5219a48c86a5305fafca1da6a74c8d576d1795dc5e07e291d4e178996802bec.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+          "locator": "原始RSS/Atom对应URL条目及发布时间或公告日；正文结论以本次主文快照为准。",
+          "version": "sha256:d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+            "target": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://arxiv.org/abs/2610.14804",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.14804"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/papers/safe-kv-announcement-20261014.md",
+      "id": "paper-safe-kv-announcement-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://arxiv.org/abs/2610.15186",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.15186"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/7513929feb86b587f15671b2fe01062e56c3be6e4f6fd3e3e29fc53a13259236.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/7513929feb86b587f15671b2fe01062e56c3be6e4f6fd3e3e29fc53a13259236.txt",
+            "target": "raw/2026-10-15/7513929feb86b587f15671b2fe01062e56c3be6e4f6fd3e3e29fc53a13259236.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://arxiv.org/abs/2610.15186",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.15186"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/7513929feb86b587f15671b2fe01062e56c3be6e4f6fd3e3e29fc53a13259236.txt",
+          "locator": "arXiv摘要、Comments与Submission history；未读36页全文、33张表或代码。",
+          "version": "sha256:7513929feb86b587f15671b2fe01062e56c3be6e4f6fd3e3e29fc53a13259236",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/7513929feb86b587f15671b2fe01062e56c3be6e4f6fd3e3e29fc53a13259236.txt",
+            "target": "raw/2026-10-15/7513929feb86b587f15671b2fe01062e56c3be6e4f6fd3e3e29fc53a13259236.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+          "locator": "原始RSS/Atom对应URL条目及发布时间或公告日；正文结论以本次主文快照为准。",
+          "version": "sha256:d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+            "target": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://arxiv.org/abs/2610.15186",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.15186"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/asml-q3-2026-results-20261014.md",
+      "id": "source-asml-q3-2026-results-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/16df80dedfb360f61e9cd979df91830c02decee325c1547c4a9763d70ac18871.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/16df80dedfb360f61e9cd979df91830c02decee325c1547c4a9763d70ac18871.txt",
+            "target": "raw/2026-10-15/16df80dedfb360f61e9cd979df91830c02decee325c1547c4a9763d70ac18871.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/16df80dedfb360f61e9cd979df91830c02decee325c1547c4a9763d70ac18871.txt",
+          "locator": "官方季度公告正文、财务表、CEO outlook、脚注2及US GAAP/unaudited说明；未读投资者电话或完整财务附表。",
+          "version": "sha256:16df80dedfb360f61e9cd979df91830c02decee325c1547c4a9763d70ac18871",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/16df80dedfb360f61e9cd979df91830c02decee325c1547c4a9763d70ac18871.txt",
+            "target": "raw/2026-10-15/16df80dedfb360f61e9cd979df91830c02decee325c1547c4a9763d70ac18871.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/nvidia-cupotential-fabs-20261014.md",
+      "id": "source-nvidia-cupotential-fabs-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+          "resolution": {
+            "status": "external",
+            "target": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8.body",
+            "target": "raw/2026-10-15/7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+          "resolution": {
+            "status": "external",
+            "target": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8.body",
+          "locator": "官方HTTP完整公告，定位cuPotential、Semiconductor Leaders及Availability；未逐项读合作方技术报告或复现。",
+          "version": "sha256:7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8.body",
+            "target": "raw/2026-10-15/7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/87eec8a9cc6854d6fc3f431692282997e8182ea02cfa1ec81716b8f36345a9e3.body",
+          "locator": "原始RSS/Atom对应URL条目及发布时间或公告日；正文结论以本次主文快照为准。",
+          "version": "sha256:87eec8a9cc6854d6fc3f431692282997e8182ea02cfa1ec81716b8f36345a9e3",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/87eec8a9cc6854d6fc3f431692282997e8182ea02cfa1ec81716b8f36345a9e3.body",
+            "target": "raw/2026-10-15/87eec8a9cc6854d6fc3f431692282997e8182ea02cfa1ec81716b8f36345a9e3.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+          "resolution": {
+            "status": "external",
+            "target": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/third-moment-products-undated.md",
+      "id": "source-third-moment-products-undated",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://thirdmomentresearch.com/",
+          "resolution": {
+            "status": "external",
+            "target": "https://thirdmomentresearch.com/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt",
+            "target": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://thirdmomentresearch.com/",
+          "resolution": {
+            "status": "external",
+            "target": "https://thirdmomentresearch.com/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt",
+          "locator": "官网可见产品全文，Collect→Diagnose→Decide→Improve→Ship与Fully managed；未知发布日期。",
+          "version": "sha256:e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt",
+            "target": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://thirdmomentresearch.com/",
+          "resolution": {
+            "status": "external",
+            "target": "https://thirdmomentresearch.com/"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/sources/anthropic-scion-20261013.md",
+      "id": "source-anthropic-scion-20261013",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.anthropic.com/engineering/redesigning-source-control",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.anthropic.com/engineering/redesigning-source-control"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-15/b0b1a7612fe91e9bf82c268df241e4a9e363b803509e62c3e471a605b3c24329.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/b0b1a7612fe91e9bf82c268df241e4a9e363b803509e62c3e471a605b3c24329.txt",
+            "target": "raw/2026-10-15/b0b1a7612fe91e9bf82c268df241e4a9e363b803509e62c3e471a605b3c24329.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.anthropic.com/engineering/redesigning-source-control",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.anthropic.com/engineering/redesigning-source-control"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/b0b1a7612fe91e9bf82c268df241e4a9e363b803509e62c3e471a605b3c24329.txt",
+          "locator": "官方工程文章全部主文，重点Principles、Scaling、What we learned、Contributing；图中数据、内部系统和性能未独立复现。",
+          "version": "sha256:b0b1a7612fe91e9bf82c268df241e4a9e363b803509e62c3e471a605b3c24329",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/b0b1a7612fe91e9bf82c268df241e4a9e363b803509e62c3e471a605b3c24329.txt",
+            "target": "raw/2026-10-15/b0b1a7612fe91e9bf82c268df241e4a9e363b803509e62c3e471a605b3c24329.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://www.anthropic.com/engineering/redesigning-source-control",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.anthropic.com/engineering/redesigning-source-control"
+          }
+        }
+      ]
+    },
+    {
+      "page": "reference/entities/third-moment-research.md",
+      "id": "entity-third-moment-research",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-third-moment-products-undated",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-products-undated.md",
+            "target": "source-third-moment-products-undated"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-third-moment-agent-scale-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-agent-scale-20261014.md",
+            "target": "source-third-moment-agent-scale-20261014"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-third-moment-products-undated",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-products-undated.md",
+            "target": "source-third-moment-products-undated"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-third-moment-agent-scale-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-agent-scale-20261014.md",
+            "target": "source-third-moment-agent-scale-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt",
+          "locator": "官网可见产品全文，Collect→Diagnose→Decide→Improve→Ship与Fully managed；未知发布日期。",
+          "version": "sha256:e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt",
+            "target": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/third-moment-products-undated",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-products-undated.md",
+            "target": "reference/sources/third-moment-products-undated"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/third-moment-agent-scale-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-agent-scale-20261014.md",
+            "target": "reference/sources/third-moment-agent-scale-20261014"
+          }
+        }
+      ]
+    },
+    {
+      "page": "research/synthesis/agent-scale-context-budget-and-fidelity-20261014.md",
+      "id": "note-agent-scale-context-budget-and-fidelity-20261014",
+      "lifecycle": "published",
+      "default_query_visible": true,
+      "references": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-workbuddy-wecom-integration-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/workbuddy-wecom-integration-20261014.md",
+            "target": "source-workbuddy-wecom-integration-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-bigquery-token-quota-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/bigquery-token-quota-20261014.md",
+            "target": "source-bigquery-token-quota-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-third-moment-agent-scale-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-agent-scale-20261014.md",
+            "target": "source-third-moment-agent-scale-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "paper-safe-kv-announcement-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/papers/safe-kv-announcement-20261014.md",
+            "target": "paper-safe-kv-announcement-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-dynamo-glm53-sglang-preview-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/dynamo-glm53-sglang-preview-20261014.md",
+            "target": "source-dynamo-glm53-sglang-preview-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-anthropic-scion-20261013",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/anthropic-scion-20261013.md",
+            "target": "source-anthropic-scion-20261013"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-workbuddy-wecom-integration-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/workbuddy-wecom-integration-20261014.md",
+            "target": "source-workbuddy-wecom-integration-20261014"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-bigquery-token-quota-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/bigquery-token-quota-20261014.md",
+            "target": "source-bigquery-token-quota-20261014"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-third-moment-agent-scale-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-agent-scale-20261014.md",
+            "target": "source-third-moment-agent-scale-20261014"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "paper-safe-kv-announcement-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/papers/safe-kv-announcement-20261014.md",
+            "target": "paper-safe-kv-announcement-20261014"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-dynamo-glm53-sglang-preview-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/dynamo-glm53-sglang-preview-20261014.md",
+            "target": "source-dynamo-glm53-sglang-preview-20261014"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-anthropic-scion-20261013",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/anthropic-scion-20261013.md",
+            "target": "source-anthropic-scion-20261013"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-workbuddy-wecom-integration-20261014",
+          "locator": "各页事实、阅读范围和原始证据定位",
+          "version": "2026-10-14入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/workbuddy-wecom-integration-20261014.md",
+            "target": "source-workbuddy-wecom-integration-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-bigquery-token-quota-20261014",
+          "locator": "各页事实、阅读范围和原始证据定位",
+          "version": "2026-10-14入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/bigquery-token-quota-20261014.md",
+            "target": "source-bigquery-token-quota-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-third-moment-agent-scale-20261014",
+          "locator": "各页事实、阅读范围和原始证据定位",
+          "version": "2026-10-14入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-agent-scale-20261014.md",
+            "target": "source-third-moment-agent-scale-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "paper-safe-kv-announcement-20261014",
+          "locator": "各页事实、阅读范围和原始证据定位",
+          "version": "2026-10-14入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/papers/safe-kv-announcement-20261014.md",
+            "target": "paper-safe-kv-announcement-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-dynamo-glm53-sglang-preview-20261014",
+          "locator": "各页事实、阅读范围和原始证据定位",
+          "version": "2026-10-14入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/dynamo-glm53-sglang-preview-20261014.md",
+            "target": "source-dynamo-glm53-sglang-preview-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-anthropic-scion-20261013",
+          "locator": "各页事实、阅读范围和原始证据定位",
+          "version": "2026-10-14入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/anthropic-scion-20261013.md",
+            "target": "source-anthropic-scion-20261013"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/workbuddy-wecom-integration-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/workbuddy-wecom-integration-20261014.md",
+            "target": "reference/sources/workbuddy-wecom-integration-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/bigquery-token-quota-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/bigquery-token-quota-20261014.md",
+            "target": "reference/sources/bigquery-token-quota-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/third-moment-agent-scale-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/third-moment-agent-scale-20261014.md",
+            "target": "reference/sources/third-moment-agent-scale-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/dynamo-glm53-sglang-preview-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/dynamo-glm53-sglang-preview-20261014.md",
+            "target": "reference/sources/dynamo-glm53-sglang-preview-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/papers/safe-kv-announcement-20261014",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/papers/safe-kv-announcement-20261014.md",
+            "target": "reference/papers/safe-kv-announcement-20261014"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/anthropic-scion-20261013",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/anthropic-scion-20261013.md",
+            "target": "reference/sources/anthropic-scion-20261013"
+          }
+        }
+      ]
+    }
+  ],
+  "raw_hashes": [
+    {
+      "path": "raw/2026-10-15/e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba.body",
+      "sha256": "e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba"
+    },
+    {
+      "path": "raw/2026-10-15/457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21.body",
+      "sha256": "457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21"
+    },
+    {
+      "path": "raw/2026-10-15/d35402b998ea5068d1399452d4343d4cac6cc049e375305fcc1ef464ad4b581e.body",
+      "sha256": "d35402b998ea5068d1399452d4343d4cac6cc049e375305fcc1ef464ad4b581e"
+    },
+    {
+      "path": "raw/2026-10-15/457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21.body",
+      "sha256": "457b6385172f0416ded9e6e8dde7c41b8e61e0a0c0e0462cb2557575bf822a21"
+    },
+    {
+      "path": "raw/2026-10-15/8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6.body",
+      "sha256": "8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6"
+    },
+    {
+      "path": "raw/2026-10-15/0247a4a2a0a8077e2d4a9983ce17dc6a0731c212bdcafad3986b139c449164b5.body",
+      "sha256": "0247a4a2a0a8077e2d4a9983ce17dc6a0731c212bdcafad3986b139c449164b5"
+    },
+    {
+      "path": "raw/2026-10-15/3f20f8db5b8f58f865066f9ab7211c1f9b1808473cdb1cbcf43ed2db683422ce.txt",
+      "sha256": "3f20f8db5b8f58f865066f9ab7211c1f9b1808473cdb1cbcf43ed2db683422ce"
+    },
+    {
+      "path": "raw/2026-10-15/8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c.body",
+      "sha256": "8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c"
+    },
+    {
+      "path": "raw/2026-10-15/ec8eb4c50b297369c3683ddcafab5fc5d3b4b1d9f14ca03ed5497d2c726fdac8.txt",
+      "sha256": "ec8eb4c50b297369c3683ddcafab5fc5d3b4b1d9f14ca03ed5497d2c726fdac8"
+    },
+    {
+      "path": "raw/2026-10-15/8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c.body",
+      "sha256": "8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c"
+    },
+    {
+      "path": "raw/2026-10-15/77a78c381370d410252e03d85f0c39cac6a970fa732c452d7ebef2ad08a8238d.txt",
+      "sha256": "77a78c381370d410252e03d85f0c39cac6a970fa732c452d7ebef2ad08a8238d"
+    },
+    {
+      "path": "raw/2026-10-15/583d5f6640b119adcbad5a8291b9f2d9be97ce9630a61f26138654e1190dab59.txt",
+      "sha256": "583d5f6640b119adcbad5a8291b9f2d9be97ce9630a61f26138654e1190dab59"
+    },
+    {
+      "path": "raw/2026-10-15/78bd4a8b27b1a9c9d93f2142da22c8fd2ae4292e4bda153a44bc49f4d8bc0de2.txt",
+      "sha256": "78bd4a8b27b1a9c9d93f2142da22c8fd2ae4292e4bda153a44bc49f4d8bc0de2"
+    },
+    {
+      "path": "raw/2026-10-15/6091a594251823ff9e63fb24aca7a538061d2ad082c5298de8dc3078a6b1862c.body",
+      "sha256": "6091a594251823ff9e63fb24aca7a538061d2ad082c5298de8dc3078a6b1862c"
+    },
+    {
+      "path": "raw/2026-10-15/bc566ca7e23d42cc86268502d9e2ed963ed07aa8c6a4a64775184272b34bac9e.body",
+      "sha256": "bc566ca7e23d42cc86268502d9e2ed963ed07aa8c6a4a64775184272b34bac9e"
+    },
+    {
+      "path": "raw/2026-10-15/f5219a48c86a5305fafca1da6a74c8d576d1795dc5e07e291d4e178996802bec.txt",
+      "sha256": "f5219a48c86a5305fafca1da6a74c8d576d1795dc5e07e291d4e178996802bec"
+    },
+    {
+      "path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+      "sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd"
+    },
+    {
+      "path": "raw/2026-10-15/7513929feb86b587f15671b2fe01062e56c3be6e4f6fd3e3e29fc53a13259236.txt",
+      "sha256": "7513929feb86b587f15671b2fe01062e56c3be6e4f6fd3e3e29fc53a13259236"
+    },
+    {
+      "path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+      "sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd"
+    },
+    {
+      "path": "raw/2026-10-15/16df80dedfb360f61e9cd979df91830c02decee325c1547c4a9763d70ac18871.txt",
+      "sha256": "16df80dedfb360f61e9cd979df91830c02decee325c1547c4a9763d70ac18871"
+    },
+    {
+      "path": "raw/2026-10-15/7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8.body",
+      "sha256": "7be994f0c5d608967cecb7c2f06bb20479d7d840cffc1c5868486386be473be8"
+    },
+    {
+      "path": "raw/2026-10-15/87eec8a9cc6854d6fc3f431692282997e8182ea02cfa1ec81716b8f36345a9e3.body",
+      "sha256": "87eec8a9cc6854d6fc3f431692282997e8182ea02cfa1ec81716b8f36345a9e3"
+    },
+    {
+      "path": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt",
+      "sha256": "e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a"
+    },
+    {
+      "path": "raw/2026-10-15/b0b1a7612fe91e9bf82c268df241e4a9e363b803509e62c3e471a605b3c24329.txt",
+      "sha256": "b0b1a7612fe91e9bf82c268df241e4a9e363b803509e62c3e471a605b3c24329"
+    },
+    {
+      "path": "raw/2026-10-15/e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a.txt",
+      "sha256": "e8e0d3e09b8e6e9aee9ad58de2c4907489835574b3bb481f6327416659c5866a"
+    }
+  ]
+}

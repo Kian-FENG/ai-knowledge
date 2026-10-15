@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+  "title": "OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work",
+  "text": "OpenAI is racing to finish its next flagship model, which uses the same looped transformer technique as Astra to boost math and coding performance. The tradeoff is that looping makes safety monitoring harder. Microsoft accidentally revealed details about how the technique works on a public page. Whether or not the flagship is ready in time, employees say one or two new models will likely ship by year's end.\nThe article OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work appeared first on The Decoder.",
+  "published_at": "2026-10-14T16:14:16+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0b70d52795074f9a741f",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/46e920269a06ad6392a158329028144a9f855bbef287cf4e3580d316951125b6.body",
+  "source_sha256": "46e920269a06ad6392a158329028144a9f855bbef287cf4e3580d316951125b6",
+  "fetched_at": "2026-10-15T01:03:50.869481+00:00"
+}

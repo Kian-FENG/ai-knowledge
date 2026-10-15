@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-14/chip-stocks-set-to-erase-1-trillion-in-value-as-rout-deepens",
+  "title": "Chip Stocks Erase $1 Trillion in Value as Rout Deepens",
+  "text": "A closely watched gauge of semiconductor stocks erased $1.6 trillion in market value in a six-day losing streak as concerns mount over higher interest rates, stretched valuations and the enormous cost of building artificial-intelligence infrastructure.",
+  "published_at": "2026-10-14T15:33:17+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3e0dba5a63556d070b93",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/e6f4801635d59eec837fc18212a6e6f8f5ca9d1272f0fe52a457ff4fc852a898.body",
+  "source_sha256": "e6f4801635d59eec837fc18212a6e6f8f5ca9d1272f0fe52a457ff4fc852a898",
+  "fetched_at": "2026-10-15T01:03:55.999928+00:00"
+}

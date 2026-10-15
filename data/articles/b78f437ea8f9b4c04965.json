@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+  "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+  "text": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
+  "published_at": "2026-10-15T01:01:32+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b78f437ea8f9b4c04965",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/57721e6241729fd89bd9a35e76777f486d13cd6e3a8987ae4d03ced8892ebcb3.body",
+  "source_sha256": "57721e6241729fd89bd9a35e76777f486d13cd6e3a8987ae4d03ced8892ebcb3",
+  "fetched_at": "2026-10-15T01:03:49.185744+00:00"
+}

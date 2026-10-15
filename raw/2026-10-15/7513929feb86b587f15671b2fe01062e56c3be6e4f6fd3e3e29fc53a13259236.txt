@@ -1,0 +1,151 @@
+[2610.15186] SAFE-KV: Causal Suffix Repair for Behavior-Preserving Non-Prefix KV Cache Reuse in RAG (https://arxiv.org/abs/2610.15186)
+citeturn14view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.15186","lineno":null}); Total lines: 167
+L0: cite0†Search cite1†Submit cite2†Donate†info.arxiv.org cite3†Log in L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · cite4†Advanced search L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 10 Oct 2026]
+L9: # Title:SAFE-KV: Causal Suffix Repair for Behavior-Preserving Non-Prefix KV Cache Reuse in RAG
+L10: 
+L11: Authors:cite5†Xingjian Zhang L12: 
+L13: View a PDF of the paper titled SAFE-KV: Causal Suffix Repair for Behavior-Preserving Non-Prefix KV Cache Reuse in RAG, by Xingjian Zhang
+L14: 
+L15: cite6†View PDF cite7†HTML (experimental) L16: > Abstract:Retrieval-augmented generation (RAG) reuses the same documents across many requests, making non-prefix KV-cache reuse attractive. Yet a cached document state is not reusable text: it is a context-conditioned causal state whose keys and values depend on the prefix, position, and preceding documents under which it was computed.
+L17: We formulate non-prefix KV reuse as a behavior-preservation problem with full prefill on the exact prompt as the reference, and introduce SAFE-KV, which repairs a composed cache by re-encoding the causal suffix from a selected start document. On Qwen2.5-7B-Instruct, prefix-conditioned composition preserves only 47.2% of HotpotQA-500 and 37.8% of 2Wiki-500 full-prefill answers; SAFE-KV with risk-guided K2 selection restores 99.8%/98.4% (donor-copy protocol) and 100.0%/98.4% with actual suffix forwarding.
+L18: Document-only and fixed-window repairs recover far less, because the document states after the repaired region keep histories that omit it. Reuse without repair is exact up to four documents and degrades at sixteen, where suffix repair recovers 98-100%. Faithful repair re-encodes most of the context, so in a single-request L40S study SAFE-KV's operating rule serves every workload by full prefill.
+L19: SAFE-KV thus establishes the causal-state contract for non-prefix reuse and a validated repair mechanism that meets it.
+L20: Comments:  | Accepted to Findings of AACL-IJCNLP 2026. 36 pages, 5 figures, 33 tables. Code: cite8†this https URL†github.com L21: Subjects:  | Computation and Language (cs.CL); Machine Learning (cs.LG)
+L22: ACM (Association of Computing Machinery Classification) classes:  | I.2.7
+L23: Cite as:  | cite9†arXiv:2610.15186 [cs.CL]
+L24:    | (or cite10†arXiv:2610.15186v1 [cs.CL] for this version)
+L25:    | cite11†https://doi.org/10.48550/arXiv.2610.15186†doi.org arXiv-issued DOI via DataCite (pending registration)
+L26: ## Submission history
+L27: 
+L28: From: Xingjian Zhang [cite12†view email ]
+L29: [v1] Sat, 10 Oct 2026 21:19:57 UTC (165 KB)
+L30: 
+L31: Full-text links:
+L32: 
+L33: ## Access Paper:
+L34: 
+L35: View a PDF of the paper titled SAFE-KV: Causal Suffix Repair for Behavior-Preserving Non-Prefix KV Cache Reuse in RAG, by Xingjian Zhang
+L36: 
+L37:   * cite6†View PDF L38:   * cite7†HTML (experimental) L39:   * cite13†TeX Source L40: 
+L41: cite14†view license†creativecommons.org L42: 
+L43: ### Additional Features
+L44: 
+L45:   * cite15†Audio Summary L46: ### Current browse context:
+L47: 
+L48: cs.CL
+L49: 
+L50: cite16†< prev |   cite17†next > L51: 
+L52: cite18†new | cite19†recent | cite20†2026-10 L53: 
+L54: Change to browse by:
+L55: 
+L56: cite21†cs L57: cite22†cs.LG L58: 
+L59: ### References & Citations
+L60: 
+L61:   * cite23†NASA ADS†ui.adsabs.harvard.edu L62:   * cite24†Google Scholar†scholar.google.com L63:   * cite25†Semantic Scholar†api.semanticscholar.org L64: 
+L65: [Button: export BibTeX citation] Loading...
+L66: 
+L67: ## BibTeX formatted citation
+L68: 
+L69: [Button: ×]
+L70: 
+L71: loading...
+L72: 
+L73: Data provided by:
+L74: 
+L75: ### Bookmark
+L76: 
+L77: [Input] Bibliographic Tools
+L78: # Bibliographic and Citation Tools
+L79: 
+L80: [Input] Bibliographic Explorer Toggle
+L81: 
+L82: Bibliographic Explorer (cite26†What is the Explorer?†info.arxiv.org )
+L83: 
+L84: [Input] Connected Papers Toggle
+L85: 
+L86: Connected Papers (cite27†What is Connected Papers?†www.connectedpapers.com )
+L87: 
+L88: [Input] Litmaps Toggle
+L89: 
+L90: Litmaps (cite28†What is Litmaps?†www.litmaps.co )
+L91: 
+L92: [Input] scite.ai Toggle
+L93: 
+L94: scite Smart Citations (cite29†What are Smart Citations?†www.scite.ai )
+L95: 
+L96: [Input] Code, Data, Media
+L97: # Code, Data and Media Associated with this Article
+L98: 
+L99: [Input] alphaXiv Toggle
+L100: 
+L101: alphaXiv (cite30†What is alphaXiv?†alphaxiv.org )
+L102: 
+L103: [Input] Links to Code Toggle
+L104: 
+L105: CatalyzeX Code Finder for Papers (cite31†What is CatalyzeX?†www.catalyzex.com )
+L106: 
+L107: [Input] DagsHub Toggle
+L108: 
+L109: DagsHub (cite32†What is DagsHub?†dagshub.com )
+L110: 
+L111: [Input] GotitPub Toggle
+L112: 
+L113: Gotit.pub (cite33†What is GotitPub?†gotit.pub )
+L114: 
+L115: [Input] Huggingface Toggle
+L116: 
+L117: Hugging Face (cite34†What is Huggingface?†huggingface.co )
+L118: 
+L119: [Input] ScienceCast Toggle
+L120: ScienceCast (cite35†What is ScienceCast?†sciencecast.org )
+L121: 
+L122: [Input] Demos
+L123: # Demos
+L124: 
+L125: [Input] Replicate Toggle
+L126: 
+L127: Replicate (cite36†What is Replicate?†replicate.com )
+L128: 
+L129: [Input] Spaces Toggle
+L130: 
+L131: Hugging Face Spaces (cite37†What is Spaces?†huggingface.co )
+L132: 
+L133: [Input] Spaces Toggle
+L134: 
+L135: TXYZ.AI (cite38†What is TXYZ.AI?†txyz.ai )
+L136: 
+L137: [Input] Related Papers
+L138: # Recommenders and Search Tools
+L139: 
+L140: [Input] Link to Influence Flower
+L141: 
+L142: Influence Flower (cite39†What are Influence Flowers?†influencemap.cmlab.dev )
+L143: 
+L144: [Input] Core recommender toggle
+L145: 
+L146: CORE Recommender (cite40†What is CORE?†core.ac.uk )
+L147: 
+L148:   * Author
+L149:   * Venue
+L150:   * Institution
+L151:   * Topic
+L152: 
+L153: [Input] About arXivLabs
+L154: # arXivLabs: experimental projects with community collaborators
+L155: 
+L156: arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+L157: 
+L158: Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+L159: Have an idea for a project that will add value for arXiv's community? cite41†Learn more about arXivLabs†info.arxiv.org .
+L160: 
+L161: cite42†Which authors of this paper are endorsers? | Disable MathJax (cite43†What is MathJax?†info.arxiv.org )
+L162: 
+L163: We gratefully acknowledge support from our major funders, cite44†member institutions†info.arxiv.org , , and all contributors.
+L164: cite45†About†info.arxiv.org · cite46†Help†info.arxiv.org · cite47†Contact†info.arxiv.org · cite48†Subscribe†info.arxiv.org · cite49†Copyright†info.arxiv.org · cite50†Privacy†info.arxiv.org · cite51†Accessibility†info.arxiv.org · cite52†Operational Status (opens in new tab)†status.arxiv.org L165: 
+L166: Major funding support from

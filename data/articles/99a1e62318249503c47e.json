@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157499.htm",
+  "title": "苹果中文AI终于要落地了：iPhone史诗级升级",
+  "text": "多位网友翻工信部入网信息时发现：多款国行iPhone的备案页变了——新增大模型备案编号。\n最显眼的是iPhoneDuo：9月2日拿试用批文，9月29日完成换证，证件里多出一串AI相关编号。同一天完成换证的还有iPhone 15Pro、16Pro、Air、17、18Pro Max等机型。\n编号本身挺有意思：\nShanghai Apple ZhiNeng 202506160057→对应苹果在上海主体申报的“Apple智能”\nShanghai TongYiWanXiang 202410090024→上海“通义万象”\nZheJiang TongYiQianWen 20230901→浙江“通义千问”\n也就是说，苹果国行设备这次不是只挂自研模型，还把阿里系大模型一并写进了备案信息里。\nApple智能（AppleIntelligence）2024年就发布了，首发支持iPhone 15Pro系列；但国行用户一直用不上，卡的就是本地化、合规、数据出境、模型备案这几道关。\n今年7月“网信中国”公布新一批移动端生成式AI备案，苹果技术开发（上海）有限公司的“Apple智能”办结备案，适用设备写明“国行苹果手机”——这等于合规大门先开了一条缝。\n通义千问是国内最早完成备案的大模型之一，通义万象则更偏多模态/图像生成场景。苹果如果真在国行把“系统级Apple智能+国内大模型兜底”组合起来，体验会和海外版不一样：写作润色、图片生成、摘要总结、相册搜索可能由国内模型接手，隐私敏感的端侧任务仍走苹果自己的小模型。\n你手里的15Pro、16Pro、17、18Pro Max，硬件早就够跑端侧AI；就差政策和模型牌照。现在编号补上了，下一步就该等iOS国行版把开关打开。\n手机AI的2026年，安卓这边ColorOS、MagicOS、HyperOS已经卷到“Agent替你干活”；苹果再不把Apple智能放进国行，iPhone的“智能”两个字就要被友商讲完了。\n这次换证不一定是明天就能用，但很可能是国行iPhoneAI最靠近落地的一次。",
+  "published_at": "2026-10-14T20:34:39+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "99a1e62318249503c47e",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/8ef2161edf611be5c92a3979ce7debd092450a3043f42ad8909e773e1df3870c.body",
+  "source_sha256": "8ef2161edf611be5c92a3979ce7debd092450a3043f42ad8909e773e1df3870c",
+  "fetched_at": "2026-10-15T01:04:14.116689+00:00"
+}

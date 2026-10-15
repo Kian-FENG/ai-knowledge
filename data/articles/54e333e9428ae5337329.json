@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14101",
+  "title": "Fin_Agent at FinEval 2026: Task-Aware Methods for Multilingual Financial NLP",
+  "text": "arXiv:2610.14101v1 Announce Type: new\nAbstract: We present Fin_Agent, our submission to the FinEval 2026 shared task on multilingual fi nancial language understanding. Our sys tems address Greek financial named-entity recognition, Japanese implicit communication recognition, and multilingual financial ques tion answering. For Greek NER, we com bine annotation-aware numeric rules with zero shot Qwen2.5-32B classification, achieving 0.9521 public F1 and 0.8884 private F1. For Japanese implicit communication, an inter pretable cue-based ordinal scorer achieves 98.0% test accuracy. For multilingual financial QA, BGE-M3retrieval with Qwen3-32B gen eration achieves 0.3023 and 0.3419 ROUGE-1 F1 on the public and private splits. Key limita tions include dataset-specific rules, handcrafted cues, and limited supervision. Implementa tion code is available https://github.com/ Rashidnira/finagent-fineval-2026.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "54e333e9428ae5337329",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

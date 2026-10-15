@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157563.htm",
+  "title": "苹果首款折叠屏iPhone Duo跑分出炉：A20 Pro性能看齐iPhone 18 Pro",
+  "text": "快科技10月15日消息，苹果首款折叠屏手机iPhone Duo将于10月16日开启预购，10月23日正式发售，新机的性能表现也提前揭晓。\n日前，iPhone Duo现身Geekbench 7跑分平台，单核成绩3986分，多核成绩11067分，整体表现与iPhone 18 Pro系列基本处于同一水平。\n根据Geekbench数据库信息，此次参与测试的设备型号为iPhone19,4，运行iOS 27.1系统，搭载苹果最新A20 Pro芯片。\n该芯片采用6核心CPU设计，包括2颗性能核心和4颗能效核心，最高主频达到4.93GHz，与iPhone 18 Pro系列保持一致。\n内存方面，Geekbench识别到的容量为11.30GB，对应实际12GB运行内存。\n据了解，iPhone Duo与iPhone 18 Pro、iPhone 18 Pro Max均搭载A20 Pro芯片，采用台积电2nm工艺打造。\n苹果表示，A20 Pro相比上一代A19 Pro，CPU性能最高提升20%，GPU性能最高提升40%。\n从目前曝光的跑分来看，iPhone Duo的成绩虽然略低于部分iPhone 18 Pro系列机型，但整体差距不大。\n需要注意的是，目前仅有一组iPhone Duo跑分成绩曝光，单次测试结果存在一定波动，尚不能代表新机的最终性能表现。\n此外，由于iPhone Duo采用折叠屏设计，内部空间和散热结构与传统直板旗舰有所不同，其持续性能释放仍有待实际测试。\n作为苹果首款折叠屏手机，iPhone Duo采用横向内折设计，配备5.4英寸外屏和7.6英寸内屏，国行售价15999元起。",
+  "published_at": "2026-10-15T08:45:03+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "85c93f8bc80d47e755de",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/8ef2161edf611be5c92a3979ce7debd092450a3043f42ad8909e773e1df3870c.body",
+  "source_sha256": "8ef2161edf611be5c92a3979ce7debd092450a3043f42ad8909e773e1df3870c",
+  "fetched_at": "2026-10-15T01:04:14.116689+00:00"
+}

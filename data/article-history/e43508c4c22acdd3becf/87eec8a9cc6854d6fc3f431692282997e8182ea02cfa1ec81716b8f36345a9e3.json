@@ -1,0 +1,18 @@
+{
+  "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+  "title": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs",
+  "text": "NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers can use to build AI agents that simulate how atoms and molecules interact — to advance AI-defined fabs.",
+  "published_at": "2026-10-14T16:10:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e43508c4c22acdd3becf",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-15/87eec8a9cc6854d6fc3f431692282997e8182ea02cfa1ec81716b8f36345a9e3.body",
+  "source_sha256": "87eec8a9cc6854d6fc3f431692282997e8182ea02cfa1ec81716b8f36345a9e3",
+  "fetched_at": "2026-10-15T01:03:29.230374+00:00"
+}

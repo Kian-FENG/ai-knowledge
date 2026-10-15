@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14393",
+  "title": "SciCurateBench: Curating Experimental Data from Heterogeneous Scientific Literature with Verbal-Action Agents",
+  "text": "arXiv:2610.14393v1 Announce Type: new\nAbstract: Scientific research increasingly depends on curating experimental data from literature. Scientific data curation requires verifying exact experimental conditions (e.g., specific assays, clinical outcomes, and data availability) across long, heterogeneous files, which is a highly time-consuming process. Existing benchmarks evaluate only broad relevance on short queries, failing to capture this complexity. We introduce SciCurateBench, a benchmark of 200 expert-annotated papers from major life-science journals that challenges systems to verify conjunctive biological experimental criteria from raw, unprocessed scientific literature. We show that plain LLMs and popular reasoning, tool-using, and feedback-based agents all struggle with this task. To study what makes the task tractable, we further propose LangPoli, an integrative system in which a policy agent generates natural language action guidelines that actor agents convert into executable tools. LangPoli showed strong performance on both Paper Classification (83.16% F1 vs. 58.22% for its base LLM) and Structured Information Retrieval, and also improves re-ranking on the public benchmarks of LitSearch, BEIR, and TREC. We further explore curriculum transfer, a method that distills generalizable strategies from solved tasks to accelerate the solving of related problems. We hope this work facilitates research in truly practical scientific AI assistance. The anonymized pre-release can be found from https://anonymous.4open. science/r/scicuratebench-D885/.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "cb2c3c5e8ea5e05f0a56",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

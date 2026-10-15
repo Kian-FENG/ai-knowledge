@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.15165",
+  "title": "Active Learning for Finding a Needle in a Haystack",
+  "text": "arXiv:2610.15165v1 Announce Type: new\nAbstract: Training a classifier to find a rare class of documents, such as hate speech directed at a particular religious group, requires labelled examples that are expensive to obtain when the class makes up only a small fraction of a corpus. Active learning reduces this cost, but it must start from an initial labelled set that contains examples of the target class. Random sampling cannot supply these at reasonable cost, so they must be selected in some other way, such as keyword search, and any such selection biases the initial set towards part of the target class. We evaluate whether active learning can correct this bias. On AG News and Measuring Hate Speech, at a prevalence of around 1%, we compare random sampling with eight active learning strategies, starting from initial sets that cover or omit known subgroups of the target class, and measure recall on the omitted subgroups as well as F1. On AG News, almost every strategy recovers the omitted subgroup. On Measuring Hate Speech, uncertainty-based strategies recover less of the omitted subgroups than random sampling, whereas discriminative active learning recovers 55% of them without a significant loss of F1. Aggregate metrics conceal these differences.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "fdd82772d93dccd276c7",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

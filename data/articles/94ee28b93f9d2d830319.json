@@ -1,0 +1,18 @@
+{
+  "url": "https://openai.com/index/block-ai-powered-security",
+  "title": "How Block is building AI-powered security with OpenAI technology",
+  "text": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+  "published_at": "2026-10-14T07:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "94ee28b93f9d2d830319",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-15/8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c.body",
+  "source_sha256": "8bfcecf72752116cf94c6de824544fd7690ab1389f2c1f485ec19bd33e38c75c",
+  "fetched_at": "2026-10-15T01:03:18.524519+00:00"
+}

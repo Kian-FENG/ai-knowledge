@@ -1,0 +1,35 @@
+{
+  "raw_path": "raw/2026-10-15/e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba.body",
+  "sha256": "e090dfbed04c8af233d3a15e50ee7d644dd14808d545221118d0b7054499acba",
+  "source_url": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-15T01:07:15.228610+00:00",
+  "source_id": "leiphone",
+  "status": 200,
+  "headers": {
+    "Date": "Thu, 15 Oct 2026 01:07:17 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "X-XSS-Protection": "1;mode=block",
+    "Pragma": "public",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache-Lookup": "Cache Miss",
+    "Content-Encoding": "gzip",
+    "Cache-Control": "max-age=60",
+    "Age": "0",
+    "Accept-Ranges": "bytes",
+    "X-NWS-LOG-UUID": "8869460452145346962",
+    "X-WAF-UUID": "e60ece7e9c53a56d9d8aabdd86db4a60-2a97a311fe043b9ec1c7ac101e239724"
+  },
+  "final_url": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html",
+  "truncated": false,
+  "charset": "utf-8",
+  "redacted_response_headers": [
+    "Set-Cookie"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-14/nvidia-ceo-says-he-would-cut-off-customers-who-build-unsafe-ai",
+  "title": "Nvidia CEO Says He Would Cut Off Buyers Who Build Unsafe AI",
+  "text": "Nvidia Corp. Chief Executive Officer Jensen Huang said he would halt the supply of chips to a customer that was developing unsafe AI software, though he doesn’t believe that the current level of concern about the technology is warranted.",
+  "published_at": "2026-10-14T17:34:47+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8a17b8ed6bc18ec560b7",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/e6f4801635d59eec837fc18212a6e6f8f5ca9d1272f0fe52a457ff4fc852a898.body",
+  "source_sha256": "e6f4801635d59eec837fc18212a6e6f8f5ca9d1272f0fe52a457ff4fc852a898",
+  "fetched_at": "2026-10-15T01:03:55.999928+00:00"
+}

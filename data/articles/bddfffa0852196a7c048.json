@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1009086/square-kiosk",
+  "title": "Square’s new kiosk lets you talk to AI for help with your order",
+  "text": "Square is launching new hardware: a big kiosk for ordering things that has a touchscreen and lets you talk to an AI. It's called the Square Kiosk.\nSquare says the Kiosk, which has a large pill shape, has an \"agentic, conversational voice layer\" that \"fully understands a seller's menu and listens and responds in real time, enabling customers to order the way they'd naturally talk to staff.\" While talking with the AI agent, you can do things like ask questions and request modifications and substitutions.\nThe touchscreen on the Kiosk is 21.5 inches, and the device can welcome you as you approach thanks to presence detection, Square says. When …\nRead the full story at The Verge.",
+  "published_at": "2026-10-14T12:00:00-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T15:34:42-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "bddfffa0852196a7c048",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-15/21bae15840d350d6aec9257d94bdeec88dfbe9f73a949bd98cbb515c0aa6cc90.body",
+  "source_sha256": "21bae15840d350d6aec9257d94bdeec88dfbe9f73a949bd98cbb515c0aa6cc90",
+  "fetched_at": "2026-10-15T01:03:51.311634+00:00"
+}

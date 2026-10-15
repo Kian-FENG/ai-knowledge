@@ -1,0 +1,39 @@
+{
+  "raw_path": "raw/2026-10-15/8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6.body",
+  "sha256": "8ea2ee0637a89f137503b58e7110ab4dc3a01d2f2eea10de3c659a92e62d05b6",
+  "source_url": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-15T01:07:15.225320+00:00",
+  "source_id": "google-cloud-blog",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+    "x-ua-compatible": "IE=edge",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+    "Date": "Thu, 15 Oct 2026 01:07:16 GMT",
+    "P3P": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\"",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+    "Content-Security-Policy": "require-trusted-types-for 'script';report-uri /blog/_/TransformBlogUi/cspreport",
+    "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Cross-Origin-Resource-Policy": "same-site",
+    "reporting-endpoints": "default=\"/blog/_/TransformBlogUi/web-reports?context=eJzjytHikmLw1JBiSHv6mIn90ROm1pvnWKcDccmi86xtQNwFxHOAWM31AquhwiVWZyAukrjC2gLEn6pusIpU32BVOnOL9VuxLxtHiS8by1t_tqevA9mmhQSxhR4PYlO4EckWIhPDNsczlk2Ih-PIuQPX2AQ-XHp2kUlJOym_MD45J780pUK3PDVJNyknP123NLM4tagstSjeyMDIzNDA0ETPwCC-wAAAyOI_jA\"",
+    "Transfer-Encoding": "chunked",
+    "Server": "ESF",
+    "X-XSS-Protection": "0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close"
+  },
+  "final_url": "https://cloud.google.com/blog/products/data-analytics/using-bigquerys-generative-ai-cost-management-features/",
+  "truncated": false,
+  "charset": "utf-8",
+  "redacted_response_headers": [
+    "Set-Cookie"
+  ]
+}

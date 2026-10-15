@@ -1,0 +1,32 @@
+{
+  "raw_path": "raw/2026-10-15/83f66458c160c2ca42fb5c67752b87d9c1de42192edeeb67d44aa3ec38036c9d.body",
+  "sha256": "83f66458c160c2ca42fb5c67752b87d9c1de42192edeeb67d44aa3ec38036c9d",
+  "source_url": "https://www.technologyreview.com/feed/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-15T01:03:55.064897+00:00",
+  "source_id": "mit-tech-review",
+  "status": 200,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Thu, 15 Oct 2026 01:03:56 GMT",
+    "Content-Type": "application/rss+xml; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "x-powered-by": "WordPress VIP <https://wpvip.com>",
+    "vary": "Accept-Encoding",
+    "last-modified": "Wed, 14 Oct 2026 17:09:44 GMT",
+    "etag": "W/\"fc5de45cf32ec9d6596925592f70247b\"",
+    "x-hacker": "If you're reading this, you should visit https://join.a8c.com/viphacker and apply to join the fun, mention this header.",
+    "host-header": "a9130478a60e5f9135f765b23f26593b",
+    "link": "<https://wp.technologyreview.com/wp-json/>; rel=\"https://api.w.org/\"",
+    "content-encoding": "gzip",
+    "x-rq": "sjc4 0 30 9980",
+    "x-cache": "HIT",
+    "strict-transport-security": "max-age=31536000;includeSubdomains;preload",
+    "x-remembering": "Eric Binnion <https://friendsofericbinnion.wordpress.com/>",
+    "cache-control": "max-age=300, must-revalidate"
+  },
+  "final_url": "https://www.technologyreview.com/feed/",
+  "truncated": false,
+  "charset": "utf-8"
+}

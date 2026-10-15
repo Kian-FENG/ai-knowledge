@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14804",
+  "title": "AgentWeave: Efficient Distributed Agent Serving via Flow Decomposition",
+  "text": "arXiv:2610.14804v1 Announce Type: new\nAbstract: Agent applications are evolving into workflows composed of large language model (LLM) calls and tool invocations, termed modules. Existing distributed agent systems typically adopt a disaggregated architecture, deploying different modules on separate devices. While this enables pipeline parallelism, imbalanced module latencies introduce severe pipeline bubbles that limit throughput. A natural alternative is an aggregated architecture that co-deploys all modules across all devices, eliminating bubbles by keeping every device continuously active. However, this introduces request blocking: short requests are forced to progress in lockstep with longer ones in the same batch, and newly arriving requests must wait until the entire ongoing batch completes the full workflow. To address this, we propose AgentWeave, an efficient distributed serving system for agent applications built on the aggregated architecture. Its core mechanism, flow decomposition, decomposes long agent requests into fine-grained execution units while preserving agent semantics, allowing short and newly arriving requests to proceed without being stalled by long-running ones. Complementing this, a flow-adaptive scheduler dynamically balances the throughput gains of decomposition against its scheduling overhead. Experiments across four representative agent applications demonstrate that AgentWeave improves throughput by 1.81x, reduces average latency by 2.45x, and reduces P90 latency by 2.04x over state-of-the-art baselines.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d4165083d002a4fe5e71",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages",
+  "title": "Android is using AI to suss out scammers in Google Messages",
+  "text": "Begone, Bot. | Image: Google / Android\nAndroid is introducing new scam defense features that aim to make it easier for users to evade mobile fraud, including bolstered protection in Google Messages and additional safeguarding tools. Building on the Scam Detection feature in Google Messages, a new \"enhanced protection\" setting will be rolling out in the coming weeks that taps into cloud-based Gemini AI models to quickly evaluate a potential scammer's intentions in conversations with an unrecognized sender.\n\"Scammers often disguise their true motives behind slow-burn conversations,\" Google said in its update announcement. \"This secure cloud analysis augments and extends our existi …\nRead the full story at The Verge.",
+  "published_at": "2026-10-14T12:00:00-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-14T11:15:59-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1a514aa5591417c5dedd",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-15/21bae15840d350d6aec9257d94bdeec88dfbe9f73a949bd98cbb515c0aa6cc90.body",
+  "source_sha256": "21bae15840d350d6aec9257d94bdeec88dfbe9f73a949bd98cbb515c0aa6cc90",
+  "fetched_at": "2026-10-15T01:03:51.311634+00:00"
+}

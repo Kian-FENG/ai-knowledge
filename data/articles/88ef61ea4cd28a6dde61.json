@@ -1,0 +1,20 @@
+{
+  "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf",
+  "title": "openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf",
+  "link_text": "openbmb/MiniCPM-V-4.7-35B-A3B-DSpark-gguf",
+  "listing_hint": "2026-10-14T16:55:00.000Z",
+  "id": "88ef61ea4cd28a6dde61",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "openbmb-hf",
+  "source_name": "面壁 OpenBMB · Hugging Face",
+  "section": 2,
+  "raw_path": "raw/2026-10-15/3fb9a2eda0dfbde63d4b3083fbfdd57440ba71faff4524e9a53163d7e0d08b28.body",
+  "source_sha256": "3fb9a2eda0dfbde63d4b3083fbfdd57440ba71faff4524e9a53163d7e0d08b28",
+  "fetched_at": "2026-10-15T01:03:34.322657+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-15T01:03:34.322657+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

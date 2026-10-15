@@ -16,6 +16,7 @@ Generated; published pages only. Do not hand-edit.
 - `entity` [[reference/entities/reflection|Reflection：Beam 模型的开发者]]
 - `entity` [[reference/entities/semigraph|SemiGraph：3D角色与多模态AI互动]]
 - `entity` [[reference/entities/stacklok|Stacklok：MCP 治理与云原生 Agent 执行平台]]
+- `entity` [[reference/entities/third-moment-research|Third Moment Research：工作流定制与持续改进推理服务]]
 - `entity` [[reference/entities/today|TODAY：金融保险顾问的工作流 Agent]]
 - `entity` [[reference/entities/typesafe|TypeSafe：Jev 与机器可读决策模型基础设施]]
 - `entity` [[reference/entities/vinci|Vinci：物理仿真与硬件设计的 AI 平台]]

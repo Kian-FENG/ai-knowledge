@@ -1256,3 +1256,15 @@ sources:
   checked_at: '2026-10-13'
   timezone: Asia/Shanghai
   note: 本次实际浏览核查；机器采集许可未核实，使用有限阅读笔记与浏览入口。
+
+- id: third-moment
+  name: Third Moment Research Official
+  url: https://thirdmomentresearch.com/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-14'
+  note: 本期官网产品流程实际阅读；发布日期未知，仅背景归档；机器采集许可未核实。

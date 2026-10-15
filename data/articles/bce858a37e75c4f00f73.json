@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+  "title": "My AI doppelganger tells me what to eat",
+  "text": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here.\nFor the past 100 days or so, my mornings have had a new rhythm. When I wake up, the first thing I have to do is feed my digital twin. It consumes my metabolic data, and its first \"meal\" of the day is my body composition data, sent straight from a smart scale.\nOnce that's logged in the app, I scoot over to the kitchen to fill an Owala with lemon water to take my medications with. That, too, gets logged in the app. On Mondays, I'll …\nRead the full story at The Verge.",
+  "published_at": "2026-10-14T13:00:00-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-14T12:58:21-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "bce858a37e75c4f00f73",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-15/21bae15840d350d6aec9257d94bdeec88dfbe9f73a949bd98cbb515c0aa6cc90.body",
+  "source_sha256": "21bae15840d350d6aec9257d94bdeec88dfbe9f73a949bd98cbb515c0aa6cc90",
+  "fetched_at": "2026-10-15T01:03:51.311634+00:00"
+}

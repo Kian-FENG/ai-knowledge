@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.15068",
+  "title": "Weighted Beeping Networks",
+  "text": "arXiv:2610.15068v1 Announce Type: new\nAbstract: Beeping Networks (BN) have become an established model of wireless communication and computation. They assume, however, that the communication interference caused by beeping nodes is binary (OR channel), while both artificial and nature-driven networks are based on varied signal strength and receiving thresholds. This work naturally extends the classic beeping networks to weighted beeping networks (WBN), by modeling signal strengths by weights on graph edges and receiving a beep if the accumulative signal strengths of transmitting neighbors are above receiving threshold. Under this generalized model, we study the fundamental Local Broadcast (LB) problem. Since edges with low weights may not even accumulate to a received beep, we only require that messages are delivered along sufficiently heavy edges, with weights above some given threshold $\\sigma$. We design an LB algorithm that completes its task in $O(I_\\sigma \\log n \\cdot (\\mathcal{M}+\\log n))$ beeping rounds, whp, where $n$ is the number of nodes, $I_\\sigma$ is the maximum local interference on heavy edges, and $\\mathcal{M}$ is the maximum length of messages sent locally. This result is nearly optimal, as, with probability $1$, $\\Omega(I_\\sigma)$ beeping rounds are necessary to solve LB. Finally, we show that any algorithm designed for the classic beeping networks and terminating in polynomial number of beeping rounds, can be emulated on any WBN with a logarithmic overhead, that is, it returns the same output as working on the classic beeping network isomorphic to the sub-graph of heavy edges.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f3fad828788481ac809b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

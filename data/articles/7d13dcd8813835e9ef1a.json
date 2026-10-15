@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14769",
+  "title": "Who Receives Respect? A Counterfactual Benchmark for Honorific Allocation Bias in Bengali",
+  "text": "arXiv:2610.14769v1 Announce Type: new\nAbstract: Bengali has no grammatical gender, but honorificity is obligatory: every third-person reference must choose ordinary or respectful register. English has no such signal, so the system must choose a level of deference that the source never specified. We use this property to measure how large language models (LLMs) allocate respect in English--Bengali translation. Our evaluation set contains 2{,}016 sentences across 72 occupations. Each appears in seven sentence frames under four pronoun conditions. Masculine and feminine versions differ by one word, forming counterfactual pairs. We report a single Honorific Bias Score (HBS) for each model on a 0--100 scale, covering both the gender and occupation axes. A lower score means that respect is allocated more evenly. For the occupation analysis, we compute each occupation's honorific rate across the seven no-pronoun sentence frames. The standard deviation of these 72 occupation-level rates ranges from 17.2 to 35.5 percentage points across models, showing substantial variation in how honorifics are allocated across occupations. Occupation is associated with 3.2\\% to 51.5\\% of the variance in register choice, compared with at most 1.2\\% for gender. Gender effects are much smaller overall: only two of the nine models show significant directional gender gaps, and they favor opposite genders. HBS ranges from 19.9 to 70.1 across the nine models, showing substantial variation in how evenly the models allocate respect.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "7d13dcd8813835e9ef1a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

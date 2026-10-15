@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/video-games/pc-gaming/modder-put-dlss-5-4x-multipass-on-1996-quake-looks-worse-than-rtx-modded-quake",
+  "title": "Modder injects leaked DLSS 5 4x Multipass on 1996 Quake",
+  "text": "A Ukrainian DLSS 5 experimenter is back at it again, this time testing the original Quake game. It’s running as a post-process, not natively integrated into the game engine, using 4x Multipass to enhance the effect, but it doesn’t look so good.\nValery Kryzhanovsky has posted multiple videos running DLSS 5 on games it was never meant to be used for, nor were the games built with AI upscaling and image enhancements in mind. We previously covered a few of Valery’s projects, running DLSS 5 on 2D games like Duke Nukem and Pac-Man, resulting in weird and cursed images.\nHowever, this time Valery uploaded a video of it on the 1996 Quake, considered to be the very first true 3D FPS in history. Valery explains in the description that the game is not running the leaked DLSS 5 build natively, but as a post-process using ReShade through RenoDX to play with the parameters and settings and inject the effect on DOSBox’s rendered frame. So it’s an emulated version of Quake with basically an AI filter with the DLSS 5 algorithm over it four times, except it’s running in real time on a game. This is similar to how others have experimented with DLSS 5 on videos, applying the effect on top, like JackSpace’s video to “fix” bad CGI in old movies with DLSS 5.\nBefore DLSS’ popularity, Nvidia released an RTX demo running Quake II with ray tracing in the game engine to improve the lighting. That demo looked stunning, with realistic lighting and reflections, but DLSS is not ray tracing/RTX; it’s an upscaling technology that runs well on RTX cores. And on top of that, DLSS 5 is not even integrated into Quake’s engine, explaining the terrible results. However, this is a very early build of DLSS 5, and Valery says in his blog that the leaked build is undertrained. I honestly thought it would do better, considering there are more obvious 3D elements for the upscaler to work with compared to the 2D games Valery has experimented with. It seems that it darkens everything so much, possibly because of the sparse distribution of torches and highlights.\nThis might fare better if DLSS 5 were integrated into the engine, like how Sultim Tsyrendashiev modded ray tracing into Quake's engine, similar to Nvidia's Quake II demo.\nEarlier this week, Nvidia announced that it had improved the performance of its DLSS 5 model by 2x, while shrinking its footprint by 24%. The result should be higher FPS while using less VRAM, drastically increasing performance.",
+  "published_at": "2026-10-14T10:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6488b4ee36cff152afa9",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-15/90c8bdb5a60a0473f9fc52f036796394ee02c9992302aba55e274432f160fe4e.body",
+  "source_sha256": "90c8bdb5a60a0473f9fc52f036796394ee02c9992302aba55e274432f160fe4e",
+  "fetched_at": "2026-10-15T01:03:58.156054+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14900",
+  "title": "TeachGrade: Training-Free Short Answer Scoring with Teacher Evidence",
+  "text": "arXiv:2610.14900v1 Announce Type: new\nAbstract: Multi-subject, multi-step scoring requires consistent partial credit across grading conventions. We introduce TeachGrade, a training-free framework using teacher-graded examples. The Task Adapt module builds two frozen memories: Skill captures contextual teacher preferences beyond the rubric; CaseBank supplies local evidence. PreJudge provides retrieval cues; FinalJudge regrades the answer without preliminary scores. On 3,829 SAS-Bench answers across 12 tasks, official macro collaborative consistency score (CCS) rises from Native's 67.99 to 81.32 (+13.33 points), and pooled step exact match from 54.85% to 62.71%. Macro quadratic weighted kappa (QWK) reaches 84.71, exceeding Native, OpenJudge, ProofGrader, and Trojsten by 9.52, 3.50, 11.37, and 17.43 points, respectively, and leading on 8 tasks. Local Qwen3.8-27B gains 8.83 CCS and 4.08 QWK points, improving CCS on all 12 tasks. QWK gains over Native span 6.38--14.65 points on Portuguese automatic essay scoring (AES) and 2.16--2.24 on ASAP-SAS across label views, with lower mean absolute error. These results support reuse across languages, response formats, and backbones without weight updates.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "5ab4407375cc7ffb5622",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+  "title": "智谱开放平台发布记录：页面内容变化",
+  "summary": "+GLM 提示工程指南\n-优化模型返回速度\n+GLM 提示工程指南",
+  "id": "fffab867057ca590ae88",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "zhipu-cn",
+  "source_name": "智谱开放平台发布记录",
+  "section": 2,
+  "raw_path": "raw/2026-10-15/e691be7ce65ed279fcf87610dfcd1bde3c88cbcbe3b5a2c9dd96f9f99c4982a5.body",
+  "source_sha256": "e691be7ce65ed279fcf87610dfcd1bde3c88cbcbe3b5a2c9dd96f9f99c4982a5",
+  "fetched_at": "2026-10-15T01:03:22.325855+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-15T01:03:22.325855+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

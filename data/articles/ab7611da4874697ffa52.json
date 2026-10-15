@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14886",
+  "title": "Agent-Guided Evidence Acquisition for Emotion-Cause Pair Extraction",
+  "text": "arXiv:2610.14886v1 Announce Type: new\nAbstract: Emotion-Cause Pair Extraction (ECPE) requires identifying the causes associated with emotions expressed in a conversation. Accurate extraction can depend on evidence that is not initially available, making it important to decide when further information is worth acquiring. We study agent-guided evidence acquisition for ECPE, where a student agent selectively accesses expert judgments for borderline relations on both sides of its validation-selected F1 decision boundary and revises only queried predictions. Through controlled comparisons under different information-access conditions, we examine how delegation granularity, query selection, and response integration affect prediction quality. At a nominal 10% query rate, selective fusion improves mean pair F1 by 2.64-3.88 points over the student in our main experiments, reaching 65.14 on ECF and 49.74 on MEC4 across model families. Our analysis suggests that greater access does not always translate into better cause identification. These findings motivate acquisition strategies that consider both the relevance of newly available evidence and its effect on prediction revision, providing an empirical basis for more effective and efficient evidence acquisition in ECPE.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "ab7611da4874697ffa52",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

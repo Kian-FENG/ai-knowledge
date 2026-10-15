@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.15163",
+  "title": "Sanzaru: Benchmarking Protocol Formation under Epistemic & Communication Asymmetry",
+  "text": "arXiv:2610.15163v1 Announce Type: new\nAbstract: A language model's ability to solve a task individually does not ensure that a team can solve it under unequal access to information and communication. SANZARU examines this gap through cooperative bomb-defusal puzzles adapted from BOMBANANA! (Lefto Studio, 2026). Task information and action authority are divided among three agents: one cannot hear, another cannot speak, and the third cannot see. The benchmark contains 120 puzzle instances across seven families, each targeting a distinct coordination ability. Across 1512 episodes, 7 models achieve an overall success rate of 49%, ranging from 20% to 86% under the evaluated configurations. Teams develop or adopt diverse communication protocols, from simple gesture codes to Morse and encodings of entire manuals. Yet trace analysis attributes about 60% of 771 team losses to communication, and agents attempt to use channels unavailable to their teammates despite explicit role instructions. Together, task outcomes and interaction traces enable evaluation of both collaborative performance and perspective taking throughout cooperation. The benchmark is available at https://github.com/markli404/sanzaru-benchmark.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e5adff5b4a4ca1c73c24",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

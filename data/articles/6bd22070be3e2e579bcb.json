@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157522.htm",
+  "title": "大疆Osmo Pocket 4固件更新：新增华为Harmony OS无感传片",
+  "text": "快科技10月15日消息，大疆Osmo Pocket 4已经推送V01.04.1216固件更新，新增了鸿蒙Harmony OS无感传片等功能。\n相机配对鸿蒙设备后，关机可自动后台同步拍摄素材，支持自定义传输范围与手机预留存储空间保护，同时新增智能跟随自定义按键，D-Log还原升级至2.0。\n华为与大疆围绕鸿蒙生态已展开多维度合作，覆盖影像传输、设备操控、存储同步等多个环节。\n除本次落地的无感传片外，双方此前已实现一碰即传、华为手表远程操控相机、华为云空间自动同步素材等功能，还推出过联名定制款产品，持续打通拍摄、传输、后期全链路，提升跨设备影像创作体验。\n本次更新日志如下：\n新增HarmonyOS无感传片功能。新拍摄的照片和视频可在相机关机后自动传输至移动设备相册；新拍摄的照片支持即时传输至移动设备相册。为获得更稳定的使用体验，推荐使用HarmonyOS 7.0及以上版本的移动设备与相机配对，并确保相机电量高于15%。\n自定义按键的单击、双击功能新增开启智能跟随选项。\nD-Log to Rec.709及D-Log to Rec.709 vivid LUT还原文件更新至2.0版本，提升色彩还原的准确度和一致性。\n优化部分场景下的交互体验与画质表现。\n修复部分已知问题。",
+  "published_at": "2026-10-15T00:01:00+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6bd22070be3e2e579bcb",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/8ef2161edf611be5c92a3979ce7debd092450a3043f42ad8909e773e1df3870c.body",
+  "source_sha256": "8ef2161edf611be5c92a3979ce7debd092450a3043f42ad8909e773e1df3870c",
+  "fetched_at": "2026-10-15T01:04:14.116689+00:00"
+}

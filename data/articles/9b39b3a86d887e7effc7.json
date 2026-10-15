@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.14756",
+  "title": "Amharic-English Cross-Language Question Answering Using Statistical Machine Translation, Named Entity Recognition, and Semantic Indexing",
+  "text": "arXiv:2610.14756v1 Announce Type: new\nAbstract: The predominance of English-language Web content creates an information-access barrier for speakers of low-resource languages such as Amharic. This paper presents the design, imple-mentation, and evaluation of a bidirectional Amharic-English cross-language question answering (CLQA) system that allows a user to formulate a natural-language question in either Amharic or English and retrieve an answer from documents written in the other language. The system integrates a statistical machine translation (SMT) component for query translation, a maximum-entropy named entity recognition (NER) component for Amharic text processing, semantic-based indexing, question analysis, passage retrieval, and answer extraction. A domain-diverse Amharic-English parallel corpus was used to train the SMT component, while monolingual cor-pora supported language modeling. Documents were normalized, tokenized, stemmed, indexed, and semantically enriched before retrieval. The original evaluation used precision and recall as the principal effectiveness measures. For Amharic-to-English retrieval, the system achieved 72% precision and 79% recall; for English-to-Amharic retrieval, it achieved 65% precision and 70% recall. These findings show that a modular translation-and-retrieval architecture can provide useful cross-language access even under low-resource conditions. This revised article preserves the original experimental claims while situating them in the context of subsequent multilingual transformer and Amharic QA research.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9b39b3a86d887e7effc7",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

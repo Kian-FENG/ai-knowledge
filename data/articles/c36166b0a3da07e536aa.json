@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.15158",
+  "title": "Learning Proposition-Level Links from Sentence-Level Supervision for Neuro-Symbolic NLI",
+  "text": "arXiv:2610.15158v2 Announce Type: new\nAbstract: We study neuro-symbolic natural language inference (NLI) with independently translated propositional representations of the premise and hypothesis. Before symbolic reasoning, the system must infer semantic links between their proposition-level units (atoms). Existing systems based on Abstract Meaning Representation (AMR) and Boolean satisfiability (SAT) identify these links using fixed embedding-based source selection and pretrained sentence-level NLI models not trained for atom-level linking. We introduce a trainable atom linker that jointly predicts link existence, source selection, and relation type. Without atom-pair training annotations, we treat cross-formula link structures as latent and train the linker from sentence-level NLI labels, keeping the translator and SAT reasoner fixed. We evaluate on the full public test splits of Stanford Natural Language Inference (SNLI) and Sentences Involving Compositional Knowledge (SICK), and the matched and mismatched validation splits of Multi-Genre Natural Language Inference (MNLI). Our system improves accuracy by 11.40-27.09 percentage points over a baseline applying sentence-trained NLI models unchanged to atom pairs within the same SAT pipeline. It also improves over the prior fixed-linker AMR-to-SAT system by 8.14-26.32 percentage points on SNLI and both MNLI splits, with a smaller gain on SICK.",
+  "published_at": null,
+  "announced_at": "2026-10-14T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "c36166b0a3da07e536aa",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-15/d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd.body",
+  "source_sha256": "d16033aec4f61a0834218feb3aa09c30dda889d6eb39cfec8f91e68e24abfcbd",
+  "fetched_at": "2026-10-15T01:03:37.795772+00:00"
+}

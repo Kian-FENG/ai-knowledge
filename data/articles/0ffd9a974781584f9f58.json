@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft",
+  "title": "Microsoft has a new machine learning tool to improve weather forecasts",
+  "text": "Old-school physics-based weather forecasting and even new AI models typically become less reliable beyond two weeks, a problem Microsoft claims to have solved using machine learning.\nResearchers with the company say they've found a new, cost-effective way to make more accurate weather forecasts two to six weeks in advance - allowing farmers and emergency responders to plan ahead with greater certainty. The findings were published today in the journal Nature, and the tool is now open-source software.\nMicrosoft joins Google, Nvidia, and other companies developing AI tools for weather forecasting. Instead of creating a new standalone weather  …\nRead the full story at The Verge.",
+  "published_at": "2026-10-14T12:05:21-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-14T12:05:21-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0ffd9a974781584f9f58",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-15/21bae15840d350d6aec9257d94bdeec88dfbe9f73a949bd98cbb515c0aa6cc90.body",
+  "source_sha256": "21bae15840d350d6aec9257d94bdeec88dfbe9f73a949bd98cbb515c0aa6cc90",
+  "fetched_at": "2026-10-15T01:03:51.311634+00:00"
+}

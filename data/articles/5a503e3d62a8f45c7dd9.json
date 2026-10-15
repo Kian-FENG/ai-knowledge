@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+  "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+  "text": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
+  "published_at": "2026-10-14T18:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5a503e3d62a8f45c7dd9",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-15/57721e6241729fd89bd9a35e76777f486d13cd6e3a8987ae4d03ced8892ebcb3.body",
+  "source_sha256": "57721e6241729fd89bd9a35e76777f486d13cd6e3a8987ae4d03ced8892ebcb3",
+  "fetched_at": "2026-10-15T01:03:49.185744+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/openai-employee-arrested-allegedly-installing-office-listening-device",
+  "title": "OpenAI Employee Arrested For Allegedly Installing Office Listening Device",
+  "text": "An OpenAI employee, Abdulrahman Alfozan, has been arrested in connection with a hidden listening device uncovered at one of the company’s San Francisco offices, the Justice Department said on Tuesday. The employee, who has been terminated, was charged with “using or endeavoring to use an ...",
+  "published_at": "2026-10-13T21:22:50+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-13T21:32:52+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e77a730011c9791591f4",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-14/32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974.body",
+  "source_sha256": "32fcb74a6af4a47c360ff0a850ad1ed4516c7ee1965933151b49afe586328974",
+  "fetched_at": "2026-10-14T01:03:44.583665+00:00"
+}
