@@ -80,9 +80,17 @@
       "notified_at": "2026-10-15T01:19:04.236627+00:00",
       "research_commit": "a02ac70b58d38c00583e7e92e28b47eaf1777aa5",
       "git_remote_synced": true
+    },
+    "2026-10-15": {
+      "packet_sha256": "0d9d1e685ff1b124fb00889aba292181dc06b78897b6defb75f25cdf12492493",
+      "editorial_sha256": "16f77121ea48ec3a8904bad7f4db7ee66c0c7c1355ca710074075bbdfef768b0",
+      "notified_at": "2026-10-16T01:22:18.861809+00:00",
+      "research_commit": "d966852816ccd4a2581f2b36c0eb86209fd69125",
+      "git_remote_synced": true
     }
   },
   "failed_source_ids": [
+    "asml",
     "huxiu",
     "infinigence-official",
     "jiqizhixin",
@@ -92,11 +100,11 @@
     "techmeme-snapshot",
     "today"
   ],
-  "updated_at": "2026-10-15T01:19:04.236627+00:00",
+  "updated_at": "2026-10-16T01:22:18.861809+00:00",
   "git_sync": {
-    "date": "2026-10-14",
-    "research_commit": "a02ac70b58d38c00583e7e92e28b47eaf1777aa5",
+    "date": "2026-10-15",
+    "research_commit": "d966852816ccd4a2581f2b36c0eb86209fd69125",
     "remote_synced": true,
-    "notified_at": "2026-10-15T01:19:04.236627+00:00"
+    "notified_at": "2026-10-16T01:22:18.861809+00:00"
   }
 }
