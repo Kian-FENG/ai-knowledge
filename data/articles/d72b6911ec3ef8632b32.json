@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.19387",
+  "title": "The Sum of All Summaries: PROPALIGN for Graded Proposition Salience Evaluation",
+  "text": "arXiv:2610.19387v1 Announce Type: new\nAbstract: Identification and ranking of salient propositions in documents is indirectly involved in many AI tasks, but few papers define proposition salience scores clearly, make diverse data available, or evaluate models directly on the task. This paper proposes PROPALIGN, a multiple-summary-based approach for propositional salience score estimation, and releases PROPALIGNBANK, an accompanying dataset for the method with 138K alignments of over 35K propositions. We compare several approaches to salient proposition extraction in English across a broad range of spoken and written genres, and demonstrate that naively asking models for judgments leads to inconsistencies. By contrast, graded, summary-based metrics are more stable. We further observe that while single models perform worse than humans, an ensemble of models incorporating linguistic features approaches manual annotation quality ceilings. In addition, analyses of the model outputs suggest insights into how models can extract salient information with and without the use of summaries.",
+  "published_at": null,
+  "announced_at": "2026-10-15T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d72b6911ec3ef8632b32",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+  "source_sha256": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+  "fetched_at": "2026-10-16T01:03:04.867013+00:00"
+}

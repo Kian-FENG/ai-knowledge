@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.19294",
+  "title": "Qwenfant: Train Big Character-level BabyLMs on Concise Parallel Text",
+  "text": "arXiv:2610.19294v1 Announce Type: new\nAbstract: This work concerns our submission for the Multilingual track of the 2026 BabyLM Challenge. We improve on our baseline using data that has been summarized and translated by an LLM, showing that higher-quality data can come from synthetic sources. We further improve with 2 simple changes: using a larger model, and using a character-level vocabulary. Both of these changes require LoRA-style fine-tuning for realizing their full potential. We dub our final Qwen3-based model Qwenfant, which, at the time of submission, ranks 1st in the Multilingual track.",
+  "published_at": null,
+  "announced_at": "2026-10-15T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "96a89a217057f1c215f2",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+  "source_sha256": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+  "fetched_at": "2026-10-16T01:03:04.867013+00:00"
+}

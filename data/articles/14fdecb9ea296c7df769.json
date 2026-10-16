@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157798.htm",
+  "title": "这次真的买不到了！美国零售商全面下架RTX 5090：缺货变停售",
+  "text": "快科技10月15日消息，近日美国知名硬件零售商Micro Center已将其官方网站上的GeForce RTX 5090显卡状态从缺货更改为不再销售。\n这一状态变更涉及华硕、微星、技嘉及索泰等主流品牌的多款旗舰型号，意味着这款顶级显卡可能正从消费级零售市场撤出。\n从页面信息来看，受影响的型号包括华硕ROG夜神、微星魔龙、技嘉魔鹰，这些显卡虽仍保留在Micro Center的商品目录中，但已无法在所查询的门店购买。\n不过也存在例外：华硕ROG Astral Edition 20仍显示在Tustin门店有售，属于限量周年纪念套装的一部分。\n除此之外，Micro Center目前仍在销售搭载RTX 5090的整机系统。\n关于停产传闻的来龙去脉，可以追溯到上周的爆料：据爆料者MEGAsizeGPU和hongxing2020透露，英伟达已停产GeForce RTX 5090，包括面向中国市场的特供版本，未来的GB202 GPU供应将全部留给专业级的RTX PRO系列。\n同一报道还提到，英伟达正在准备一款配备24GB显存的GeForce RTX 5080，用以取代现有16GB版本。\n其实零售端的变化早有端倪：过去数月内，RTX 5090的可购数量持续下滑，价格不断走高。甚至德国仅剩少数零售商仍有该卡现货，起售价高达5999欧元。\n直到本月初还有消息称，Micro Center出台了新的购买要求，包括核实客户身份，以及签署一份禁止将RTX 5090硬件从美国出口的声明。\n不过诡异的是，尽管传闻四起、零售渠道也出现明显变化，但英伟达至今尚未官方确认RTX 5090停产。",
+  "published_at": "2026-10-15T18:34:34+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "14fdecb9ea296c7df769",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+  "source_sha256": "f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd",
+  "fetched_at": "2026-10-16T01:03:29.044828+00:00"
+}

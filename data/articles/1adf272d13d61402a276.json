@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4027817144898177?f=rss",
+  "title": "日本股市创今年3月以来最大单日跌幅",
+  "text": "受人工智能投资风险担忧加剧等因素影响，日本和韩国股市10月15日出现大幅下跌。其中日本东京股市日经指数15日大幅收跌，收盘报64425.95点，较前一交易日下挫3318.34点，跌幅为4.90%，创今年3月以来最大单日跌幅。前一交易日，美国纽约股市三大股指全线下跌。数据显示，美国9月消费者价格指数涨幅高于市场预期。受此影响，市场对美联储加息的预期升温，投资者风险偏好下降，人工智能和半导体相关股票遭到抛售。爱德万测试、东京电子等日本半导体设备企业股价下跌，拖累日经股指。（央视新闻）",
+  "published_at": "2026-10-16T08:35:19+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1adf272d13d61402a276",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/392a6c7dd44c68c6c2b13aaf38b0526d296633a4b6c79adcec8c4c4f4138cc1c.body",
+  "source_sha256": "392a6c7dd44c68c6c2b13aaf38b0526d296633a4b6c79adcec8c4c4f4138cc1c",
+  "fetched_at": "2026-10-16T01:03:21.112601+00:00"
+}

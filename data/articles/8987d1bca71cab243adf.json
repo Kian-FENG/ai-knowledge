@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.19407",
+  "title": "Vision-Language Models Integrate Conflicting Evidence Like Biased Bayesian Observers",
+  "text": "arXiv:2610.19407v1 Announce Type: new\nAbstract: Vision-language models must reconcile conflicting text and images. Prior work has characterized the resulting behavior in terms of modality biases--e.g., a \"blind faith in text\"--but why preferences vary across models, domains, and input conditions remains unclear. We develop a predictive account from a Bayesian perspective, positing that VLMs combine conditionally independent evidence from each modality with prior beliefs, subject to modality-specific biases. The resulting two-parameter cue combination model accurately predicts VLM preferences under unseen combinations of input degradation and transfers to new forms of unreliability without refitting. Separating evidence strength from integration bias explains how VLMs can follow text even while weighting visual evidence more heavily, reconciling reports of text and vision dominance under a single combination rule.",
+  "published_at": null,
+  "announced_at": "2026-10-15T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "8987d1bca71cab243adf",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+  "source_sha256": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+  "fetched_at": "2026-10-16T01:03:04.867013+00:00"
+}

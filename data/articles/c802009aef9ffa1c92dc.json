@@ -1,0 +1,19 @@
+{
+  "title": "TSMC Reports Third Quarter 2026",
+  "url": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+  "text": "Source extract, TSMC Earnings Release, October 15, 2026, pages 1–2. Quarter ended September 30, 2026. Consolidated TIFRS revenue NT$1,494.24 billion; net income NT$763.06 billion; diluted EPS NT$29.43 (US$4.60 per ADR). USD revenue $46.72 billion. Gross margin 66.4%; operating margin 58.7%; net margin 51.1%. 2nm accounts for 8% of total wafer revenue, 3nm 33%, 5nm 28%, 7nm 10%; 7nm and below 79%. Fourth-quarter outlook: revenue USD52.3–54.3 billion, assumed USD/NTD31.8, gross margin65–67%, operating margin56.5–58.5%. Outlook is forward-looking and subject to risks. Reading scope: 2-page release text and page1 visual check; no management report, earnings-call Q&A or independent audit.",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "reading_scope": "两页Earnings Release与第1页视觉核查；未读Management Report/电话会，不声称独立审计。",
+  "published_at": "2026-10-15T00:00:00+08:00",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "c802009aef9ffa1c92dc",
+  "source_id": "tsmc",
+  "source_name": "TSMC Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-16/ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616.txt",
+  "source_sha256": "ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616",
+  "fetched_at": "2026-10-16T01:11:22.086961+00:00"
+}

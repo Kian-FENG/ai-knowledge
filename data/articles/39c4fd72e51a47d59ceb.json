@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.19561",
+  "title": "REWIND: Uncertainty-Guided Trajectory Repair for Test-Time Reasoning",
+  "text": "arXiv:2610.19561v1 Announce Type: new\nAbstract: An early mistake in the generated reasoning can constrain all subsequent reasoning. Repeated-generation methods, like MCMC-based approaches, attempt to improve output quality by sampling multiple generations, but their effectiveness can be limited by randomly selecting where to regenerate. On MATH500 with Qwen2.5-Math-7B, we find that incorrect responses have substantially higher mean token entropy than correct responses, with an average within-question relative increase of approximately 112%, suggesting that entropy can signal reasoning errors. Motivated by this finding, we introduce REWIND, a training-free controller that uses entropy dynamics to propose targeted suffix regenerations. Across three model families and five benchmarks, REWIND outperforms all baselines, with gains of 0.51-10.00 percentage points over the strongest baseline. These results demonstrate the effectiveness of targeted, uncertainty-guided trajectory repair across models and tasks. Our code is available at https://anonymous.4open.science/r/rewind-D310.",
+  "published_at": null,
+  "announced_at": "2026-10-15T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "39c4fd72e51a47d59ceb",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+  "source_sha256": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+  "fetched_at": "2026-10-16T01:03:04.867013+00:00"
+}

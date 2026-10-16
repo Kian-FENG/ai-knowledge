@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/",
+  "title": "5 Steps to Create SimReady Assets for Robotics with Frontier AI Models",
+  "text": "Preparing CAD assets for robotics simulation requires more than converting geometry to OpenUSD: developers must configure and validate materials, collision...\nPreparing CAD assets for robotics simulation requires more than converting geometry to OpenUSD: developers must configure and validate materials, collision geometry, joints, and other physics properties before testing robot behavior. NVIDIA Omniverse libraries, guided by SimReady Foundation specifications and agentic NVIDIA skills, provide a structured workflow for converting and validating…\nSource",
+  "published_at": "2026-10-08T20:57:55+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T20:57:59+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2fbd97d2a6b18684c8e3",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-09/6d9cd67d5b1e03fcce54247d88436986e5382ee9ab298841d8dc6ffd0eb267d7.body",
+  "source_sha256": "6d9cd67d5b1e03fcce54247d88436986e5382ee9ab298841d8dc6ffd0eb267d7",
+  "fetched_at": "2026-10-09T01:00:03.671771+00:00"
+}

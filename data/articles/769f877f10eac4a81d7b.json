@@ -4,7 +4,7 @@
   "text": "Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex...\nEnterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex queries across increasingly large datasets. Meeting that demand requires greater data throughput without a proportional increase in cost. NVIDIA cuDF addresses this challenge by leveraging the massive parallelism and high-bandwidth memory of…\nSource",
   "published_at": "2026-10-13T21:33:21+00:00",
   "announced_at": null,
-  "updated_at": "2026-10-13T21:33:24+00:00",
+  "updated_at": "2026-10-15T18:13:15+00:00",
   "date_basis": "published",
   "extraction": "feed-content",
   "date_precision": "timestamp",
@@ -12,7 +12,7 @@
   "source_id": "nvidia",
   "source_name": "NVIDIA Technical Blog",
   "section": 3,
-  "raw_path": "raw/2026-10-14/33903cb345d30dbe0364ae51aba713c7e295a2239609196707240e1887ef616e.body",
-  "source_sha256": "33903cb345d30dbe0364ae51aba713c7e295a2239609196707240e1887ef616e",
-  "fetched_at": "2026-10-14T01:03:34.176910+00:00"
+  "raw_path": "raw/2026-10-16/2137928155a6334d1ff918fbcf9c0368d7db8370f41fffbdccfec135ef808cf0.body",
+  "source_sha256": "2137928155a6334d1ff918fbcf9c0368d7db8370f41fffbdccfec135ef808cf0",
+  "fetched_at": "2026-10-16T01:03:03.851751+00:00"
 }

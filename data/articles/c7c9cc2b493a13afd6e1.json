@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1011938/muse-ai-data-friends-consent",
+  "title": "Friends don&#8217;t let friends feed their data to AI agents",
+  "text": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also the information of your friends, family, the person you went on a Hinge date with five years ago - and virtually anyone else you've ever come in contact with.\nSince Muse was released last month, the agent has already been downloaded millions of times and hit No. 1 on Apple's App Store. With the help of its creepy virtual av …\nRead the full story at The Verge.",
+  "published_at": "2026-10-15T12:21:45-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-15T15:20:49-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c7c9cc2b493a13afd6e1",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-16/d6b7d4c01a99ef0e0e6bca986cfcba83e745a5743ec2bd3b3b29fc64f6365e9a.body",
+  "source_sha256": "d6b7d4c01a99ef0e0e6bca986cfcba83e745a5743ec2bd3b3b29fc64f6365e9a",
+  "fetched_at": "2026-10-16T01:03:15.446788+00:00"
+}

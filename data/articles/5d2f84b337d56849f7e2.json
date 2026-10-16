@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/opinion/world-opinion/article/3370688/how-could-superintelligence-take-over-world-let-me-count-ways",
+  "title": "How could a superintelligence take over the world? Let me count the ways",
+  "text": "OpenAI recently announced perhaps its biggest mathematics breakthrough yet: it released novel results on 377 high-profile open problems. Artificial intelligence (AI) casually solved these decades-old problems as a mere by-product of training.\nThe community of mathematicians did not universally welcome this development, with University of Connecticut professor Alvaro Lozano-Robledo commenting: “I am not sure at this point what this (hostile?) takeover of the mathematical landscape is trying to...",
+  "published_at": "2026-10-15T12:30:07+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5d2f84b337d56849f7e2",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/11f66604417f42a8985cdac32298ccbfee8313641bda4bef484dd6a2caa1c5d6.body",
+  "source_sha256": "11f66604417f42a8985cdac32298ccbfee8313641bda4bef484dd6a2caa1c5d6",
+  "fetched_at": "2026-10-16T01:03:17.405420+00:00"
+}

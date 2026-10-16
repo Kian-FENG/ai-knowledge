@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-deletes-tv-shows-entire-edit-weeks-before-release-backup-failure-means-production-team-needs-to-re-edit",
+  "title": "Unsupervised AI agent deletes TV show’s entire edit weeks before release; program can't air",
+  "text": "The Swedish edition of the athletic competition show The Challenge just faced a real challenge when an AI agent deleted months of work editing the show just weeks before release. The program director blames the disaster on a failed backup system, leaving no way to recover the edit and forcing them to recut the entire season from the raw footage that thankfully was not deleted.\nAccording to Aftonbladet’s sources, the AI agent was given access to the production server and deleted the finished season. There are no reports on what the AI agent’s role on the production server is, but it seems that file management may be one of them due to file-handling permissions. TV4, the commissioner of the show, conducted an investigation and stated the mishap was due to “the human factor” and not AI.\nOne of the most prominent teachings of backing up is that data is still not safe from the user despite having redundancies; RAID systems protecting data from drive failures are one thing, while accidental deletions are another — however, an AI agent deleting your files is something else entirely.\nWe can’t speculate on what the AI agent’s job was, but file mishandling is something that isn’t unique to Mastiff’s production team. There have been several cases of AI agents deleting stuff they shouldn’t, like this story of an AI coding platform’s entire database being deleted, this story of Google’s Antigravity agent wiping a user’s entire hard drive, or Claude deleting a developer’s entire production setup, and many other catastrophic AI agent deletion cases.\nHowever, TV4’s program director stated before its investigation of the incident that it was not an AI agent that acted independently, despite also stating that it wasn’t clear what happened. One clear thing, however, is that their backup system failed, which is worse than deletion, as the production team’s hard work can’t be recovered easily. There are ways to potentially recover the data if there are snapshots or version histories; even forensic recovery is an option, but TV4 has kept its investigation details private, so it’s hard to say how much is realistically recoverable, if at all.",
+  "published_at": "2026-10-15T10:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a0c5f1859b7b8f335fa5",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-16/22f59003da8c50b6c2cb035d5a99452e7ed6e1365a17ce372f0d0898258e0bd1.body",
+  "source_sha256": "22f59003da8c50b6c2cb035d5a99452e7ed6e1365a17ce372f0d0898258e0bd1",
+  "fetched_at": "2026-10-16T01:03:18.867078+00:00"
+}

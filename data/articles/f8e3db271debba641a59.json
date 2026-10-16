@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/newsletters/2026-10-15/ai-race-heats-up-again-a-month-after-calls-for-a-slowdown",
+  "title": "AI Race Heats Up Again a Month After Calls for a Slowdown",
+  "text": "The competition to build more advanced AI remains as fierce as ever.",
+  "published_at": "2026-10-15T20:30:01+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f8e3db271debba641a59",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/8a285ae546d43995ac830b32155dacb86eb179159b18d007b62f249b5e7cdc2a.body",
+  "source_sha256": "8a285ae546d43995ac830b32155dacb86eb179159b18d007b62f249b5e7cdc2a",
+  "fetched_at": "2026-10-16T01:03:17.341795+00:00"
+}

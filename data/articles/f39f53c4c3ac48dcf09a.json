@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+  "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
+  "text": "Meta's Muse Spark Open is a new open-weight model with 816 billion parameters that processes text, images, video, and audio with up to one million tokens of context. It performs roughly on par with the most capable open-weight Chinese AI models on benchmarks and is optimized to run locally on Apple's M5 Ultra.\nThe article Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race appeared first on The Decoder.",
+  "published_at": "2026-10-15T18:34:32+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f39f53c4c3ac48dcf09a",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/6e87f373f82ff62648fc2077acabd09b2a3cd3ba0ed8b4f06e8b915513e96ded.body",
+  "source_sha256": "6e87f373f82ff62648fc2077acabd09b2a3cd3ba0ed8b4f06e8b915513e96ded",
+  "fetched_at": "2026-10-16T01:03:15.926885+00:00"
+}

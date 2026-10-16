@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/big-tech/article/3371047/deepseek-offers-user-refunds-after-suffering-another-major-outage",
+  "title": "DeepSeek offers user refunds after suffering another major outage",
+  "text": "Chinese artificial intelligence firm DeepSeek apologised and promised compensation to users after its services suffered a nearly five-hour outage on Thursday.\nDeepSeek will issue users a full refund for any consumption between October 8 and October 14 in the form of credits, according to a notice posted on the Hangzhou-based start-up’s application programming interface (API) platform.\nDeepSeek’s namesake chatbot and API services for its V4 Pro and V4.1 Flash models went offline on Thursday...",
+  "published_at": "2026-10-15T12:55:26+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8f1e9a9d2d66580efac1",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/11f66604417f42a8985cdac32298ccbfee8313641bda4bef484dd6a2caa1c5d6.body",
+  "source_sha256": "11f66604417f42a8985cdac32298ccbfee8313641bda4bef484dd6a2caa1c5d6",
+  "fetched_at": "2026-10-16T01:03:17.405420+00:00"
+}

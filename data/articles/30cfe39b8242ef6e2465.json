@@ -1,0 +1,19 @@
+{
+  "title": "Bringing GPT-Rosalind to academic research labs",
+  "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+  "text": "Source extract from OpenAI announcement, October 15, 2026. Eligible academic labs at U.S. universities can apply for the Rosalind Academic Plan: up to 30 Business Standard seats at $0 per user per month for up to 12 months. GPT-Rosalind requires trusted-access approval. API access is not included. Labs at universities with an existing OpenAI Enterprise agreement must apply through their university Enterprise process. Research data is not used to train models by default. Reading scope: announcement eligibility, included access, application and safeguards sections; product demonstrations are not scientific validation.",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "reading_scope": "公告资格、What the plan includes、Apply、Responsible access；未验证科研案例效果。",
+  "published_at": "2026-10-15T19:00:00+00:00",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "30cfe39b8242ef6e2465",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-16/f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49.txt",
+  "source_sha256": "f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49",
+  "fetched_at": "2026-10-16T01:11:21.063251+00:00",
+  "date_precision": "timestamp"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc2",
+  "title": "v0.32.0rc2",
+  "text": "[CI] Pin DeepSeek-V4.1-Flash-NVFP4 eval to its FP8-Engram revision (#…",
+  "published_at": null,
+  "announced_at": null,
+  "updated_at": "2026-10-15T09:50:46+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "be69b6e013180f12cd52",
+  "source_id": "vllm",
+  "source_name": "vLLM Releases",
+  "section": 3,
+  "raw_path": "raw/2026-10-16/61af3c268f1effd8a2705a63600dd65b6f1a851e220a75327e41e3e1b08005f6.body",
+  "source_sha256": "61af3c268f1effd8a2705a63600dd65b6f1a851e220a75327e41e3e1b08005f6",
+  "fetched_at": "2026-10-16T01:03:06.588802+00:00"
+}

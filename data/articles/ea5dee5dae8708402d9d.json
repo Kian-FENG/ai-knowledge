@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.19308",
+  "title": "Parallel Sparse Outputs for Tensor Compilers",
+  "text": "arXiv:2610.19308v1 Announce Type: new\nAbstract: Sparse tensor compilers are commonly used high-performance tools that optimize tensor algebra programs over notoriously complex sparse data structures. Despite the ever-increasing size and scale of sparse datasets, there exists astonishingly little research on developing a parallel sparse tensor compiler. Existing approaches fail to parallelize or make assumptions about access patterns or output formats that limit generality.\nThis paper presents Birdseed, the first tensor compiler to support all loop orderings over any standard sparse format in parallel. More specifically, Birdseed supports parallel sparse scatters and directly writes into list, bytemap, hash, and dense levels of fibertree sparse formats. Our approach exhibits asymptotic memory and time improvements over all previous work. We additionally demonstrate empirical speedups on challenging kernels to parallelize, such as histogram construction and SpMSpV.",
+  "published_at": null,
+  "announced_at": "2026-10-15T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "ea5dee5dae8708402d9d",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+  "source_sha256": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+  "fetched_at": "2026-10-16T01:03:04.867013+00:00"
+}

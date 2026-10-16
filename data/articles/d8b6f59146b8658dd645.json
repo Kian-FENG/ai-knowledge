@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157828.htm",
+  "title": "Intel 18A工艺就用了 台积电回应High NA EUV光刻机落后",
+  "text": "快科技10月15日消息，ASML的EUV光刻机正在从当前的Low NA EUV转向High NA EUV，单台价格也会从2亿美元提升到4亿美元左右，但这次首发的不再是台积电。\n在High NA EUV光刻机上，Intel公司后来居上，之前计划是14A工艺上采用，现在已经在去年底量产的18A工艺上使用了，这个进度比其他厂商领先4-5年以上。\n台积电这次对High NA EUV光刻机的态度很保守，要知道他们是全球第一个量产EUV工艺的，早在2018年的7nm工艺上就率先导入EUV光刻了——当年三星比台积电官宣量产EUV的时间早，但三星的没啥产出，市场还是公认台积电最早量产EUV。\n正因为此，台积电对High NA EUV的保守态度也引发了关注，他们公布的计划是2030年才开始导入这种工艺。\n在日前的财报会议上台积电再次回应了他们为何不率先采购High NA EUV光刻机的原因，表示台积电选择在2030年开始采用，是因为公司认为届时High NA技术将足够成熟。\n台积电声称，目前正与ASML紧密合作，计划在2031年前确立12英寸光罩标准，届时台积电认为High NA的成本将达到适合台积电投入量产的合理水平，这是一项非常出色的工具，在更小的几何尺寸上无疑能带来优势。\n至于台积电比竞争对手更晚采用是否会对台积电构成劣势，台积电表示他们坚信自己依然是为客户提供最先进技术的领先企业。\n从台积电的回应来看，不率先采用High NA EUV的原因其实就是2个，一个是贵，High NA EUV光刻机自身贵，工艺成本也贵。\n第二个原因跟High NA EUV的缺陷有关，我们之前提到过这一点，当前的Low NA EUV光刻机能生产大约800mm2的大芯片，而High NA EUV因为视场的原因，生产的芯片面积减半到400mm2左右，做不了大型AI芯片。\n这需要更先进的光罩技术，这就是台积电上面说的跟ASML公司合作研发12英寸光罩标准的事，这个问题解决了才能生产大型AI芯片，High NA EUV才有量产的意义。",
+  "published_at": "2026-10-15T21:10:11+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d8b6f59146b8658dd645",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+  "source_sha256": "f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd",
+  "fetched_at": "2026-10-16T01:03:29.044828+00:00"
+}

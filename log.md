@@ -122,3 +122,29 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 原文归档、含草稿查重、来源阅读与综合完成：13条本期事件，Scion为10月13日背景、Third Moment官网未知日期仅背景。新建13 source、2 paper、1 entity和1 synthesis note；公司/作者陈述reported、跨来源判断derived，source-checked仅限所述支持关系，无measured/replicated。主要未完成项为付费财务原文、中文产品官方条款、模型/Infra全配置及独立复现；审核发布与回查结果见tracker及本期readback。
 
 本批17页已审核发布，默认query/get_page可见且原始hash回查通过；154页结构与49项离线测试通过。日报13事件已审阅，窗口按America/Los_Angeles当地日历，生成时间见manifest。无独立测量或复现升级。
+
+
+## 2026-10-15 自动化日报入库
+
+16个事件，新增Visko产品/实体与跨源分析，更新Decisions既有页；公司和媒体reported、分析derived。日期边界、原始hash、有限阅读与未核条件逐页记录。所有页完成原文支持关系审阅后进入review/finalize。
+- reference/sources/rosalind-academic-plan-20261015.md
+- reference/sources/bee-frontier-eclipse-20261015.md
+- reference/sources/deepseek-outage-credits-20261015.md
+- reference/sources/openai-decisions-and-usage-tiers-20261006.md
+- reference/sources/chatgpt-live11-rollout-20261015.md
+- reference/sources/anthropic-metr-access-20261015.md
+- reference/sources/visko-tpu-case-20261015.md
+- reference/sources/muse-spark-open-20261015.md
+- reference/sources/nemotron35-super-vl-20261015.md
+- reference/sources/timestral-release-20261015.md
+- reference/sources/flashinfer-v072-20261015.md
+- reference/sources/dynamo-nemotron35-preview-20261015.md
+- reference/sources/executorch-cortex-m-20261015.md
+- reference/papers/parallelism-slo-261019405.md
+- reference/papers/interlock-261019686.md
+- reference/sources/tsmc-q3-results-20261015.md
+- reference/sources/visko-products-undated.md
+- reference/entities/visko.md
+- research/synthesis/agent-supply-access-reliability-20261015.md
+
+2026-10-15批次回执：19页均published/default-query/get_page及hash回查通过；172页结构校验、121来源配置与49离线测试通过。日报16事件保留编辑、packet、manifest与历史修订。日精度显示和论文摘要范围已校正；不宣称完成未读范围。

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/cognitions-plan-limit-tokenmaxxing-efficient-engineers",
+  "title": "Cognition’s Plan to Limit Tokenmaxxing to the Most Efficient Engineers",
+  "text": "To rein in AI spending, large companies are capping employees’ usage, turning to cheaper and smaller models and using routers to send only the hardest requests to the most expensive models.\nCognition, the startup behind the AI coding agent Devin, is adding a new trick to the book: measuring how efficiently different engineers use AI so companies can allocate more resources toward their most efficient employees, Cognition told The Information exclusively.\n“The limits that a user should have should not be static. They should be dynamic based on the efficiency of your usage and the value that you're getting out of it,” said Calvin Giroud, a vice president of customer engineering at Cognition.\nBy looking at an engineer’s coding session using Devin, Cognition can estimate the equivalent number of hours it would have taken a human to do the same amount of work. Dividing by the costs of that session, Cognition gets a measure of each engineer’s efficiency.",
+  "published_at": "2026-10-15T14:01:15+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-15T15:05:16+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ae1b5a9c85feadc03a4a",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f09902847ee64513776baaa302da3c50b68434c909113efe23cd0581276ba15e.body",
+  "source_sha256": "f09902847ee64513776baaa302da3c50b68434c909113efe23cd0581276ba15e",
+  "fetched_at": "2026-10-16T01:03:15.658771+00:00"
+}

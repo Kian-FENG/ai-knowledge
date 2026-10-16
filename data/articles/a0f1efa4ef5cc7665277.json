@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-15-muse-spark-open",
+  "title": "Day 0 support for Muse Spark Open on vLLMOct 15, 2026·8 min readDay-0 vLLM support for Muse Spark Open: 816B MoE, 1M context, multimodal inputs, DSpark speculative decoding, NVIDIA and AMD serving, in",
+  "link_text": "Day 0 support for Muse Spark Open on vLLMOct 15, 2026·8 min readDay-0 vLLM support for Muse Spark Open: 816B MoE, 1M context, multimodal inputs, DSpark speculative decoding, NVIDIA and AMD serving, in",
+  "id": "a0f1efa4ef5cc7665277",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-16/1bd8fb7d220275abbf3dee04190e82476fa3000e1bd649bee8da5dcb9b13b5dd.body",
+  "source_sha256": "1bd8fb7d220275abbf3dee04190e82476fa3000e1bd649bee8da5dcb9b13b5dd",
+  "fetched_at": "2026-10-16T01:03:03.172115+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-16T01:03:03.172115+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

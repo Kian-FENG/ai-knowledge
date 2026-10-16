@@ -192,3 +192,28 @@
 - reference/sources/anthropic-scion-20261013.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
 - reference/entities/third-moment-research.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
 - research/synthesis/agent-scale-context-budget-and-fidelity-20261014.md：原文归档、查重、所列范围阅读和综合关联完成；审核发布、默认query/get_page回查和raw hash核对完成。
+
+
+## automation-ai-2026-10-15
+
+- reference/sources/rosalind-academic-plan-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/bee-frontier-eclipse-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/deepseek-outage-credits-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/openai-decisions-and-usage-tiers-20261006.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/chatgpt-live11-rollout-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/anthropic-metr-access-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/visko-tpu-case-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/muse-spark-open-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/nemotron35-super-vl-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/timestral-release-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/flashinfer-v072-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/dynamo-nemotron35-preview-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/executorch-cortex-m-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/papers/parallelism-slo-261019405.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/papers/interlock-261019686.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/tsmc-q3-results-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/sources/visko-products-undated.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- reference/entities/visko.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+- research/synthesis/agent-supply-access-reliability-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
+
+本轮18页新增、1页更新；未完成证据和覆盖见reports/daily/2026/10/2026-10-15/pending-evidence.md。

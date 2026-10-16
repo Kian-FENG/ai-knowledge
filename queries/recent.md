@@ -2,6 +2,28 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-15
+
+- `entity` [[reference/entities/visko|Visko：Orbis实时世界模型的开发者]]
+- `paper` [[reference/papers/interlock-261019686|Interlock用完成图约束长程Agent，区分局部正确与任务完整]]
+- `paper` [[reference/papers/parallelism-slo-261019405|论文以SLO和goodput选择并行配置，不把TP或PP当固定最优]]
+- `source` [[reference/sources/anthropic-metr-access-20261015|Anthropic让六名METR评估者获得近似内部风险团队访问]]
+- `source` [[reference/sources/bee-frontier-eclipse-20261015|Bee把个人记忆接入Alexa与购物：Frontier现售，Eclipse仍待上市]]
+- `source` [[reference/sources/chatgpt-live11-rollout-20261015|ChatGPT Voice开始推送GPT-Live-1.1与Quip，新增多语言声音]]
+- `source` [[reference/sources/deepseek-outage-credits-20261015|DeepSeek故障后宣布返还七天API消耗赠金，恢复更新落入本期]]
+- `source` [[reference/sources/dynamo-nemotron35-preview-20261015|Dynamo提供Nemotron Super VL实验配方，尚非QA生产版本]]
+- `source` [[reference/sources/executorch-cortex-m-20261015|ExecuTorch把PyTorch部署链扩展到Cortex-M CPU，混合NPU路径仍有覆盖边界]]
+- `source` [[reference/sources/flashinfer-v072-20261015|FlashInfer v0.7.2正式版扩展Rubin与Blackwell的MoE和注意力路径]]
+- `source` [[reference/sources/muse-spark-open-20261015|Meta发布Muse Spark Open权重，MaaS许可设收入门槛]]
+- `source` [[reference/sources/nemotron35-super-vl-20261015|NVIDIA发布Nemotron 3.5 Super VL，强调多模态专用Agent定制]]
+- `source` [[reference/sources/openai-decisions-and-usage-tiers-20261006|OpenAI Decisions API：公开beta、付费用量层级与GPT-Live原生集成]]
+- `source` [[reference/sources/rosalind-academic-plan-20261015|OpenAI向美国大学实验室开放Rosalind学术计划申请，最多30席免费12个月]]
+- `source` [[reference/sources/timestral-release-20261015|Mistral推出Timestral时序模型，最大209M并支持已知未来协变量]]
+- `source` [[reference/sources/tsmc-q3-results-20261015|台积电Q3营收467.2亿美元，Q4指引仍是未来展望]]
+- `source` [[reference/sources/visko-products-undated|Visko官网产品与品牌归属（发布日期未知）]]
+- `source` [[reference/sources/visko-tpu-case-20261015|新增跟踪Visko：Orbis实时世界模型披露TPU部署案例]]
+- `note` [[research/synthesis/agent-supply-access-reliability-20261015|开放模型供给增加，Agent落地仍受许可、连续性和验证约束]]
+
 ## 2026-10-14
 
 - `entity` [[reference/entities/third-moment-research|Third Moment Research：工作流定制与持续改进推理服务]]
@@ -147,7 +169,6 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/mistral-large-4-preview-20261006|Mistral Large 4 进入 API 公开预览，权重仍待月底交付]]
 - `source` [[reference/sources/nvidia-aicr-v10-20261006|NVIDIA 介绍 AICR v1.0：固定集群配置契约与可追溯验证]]
 - `source` [[reference/sources/openai-atlassian-partnership-20261006|Atlassian 扩展 OpenAI 合作：企业上下文与 Agent 工作流进一步结合]]
-- `source` [[reference/sources/openai-decisions-and-usage-tiers-20261006|OpenAI API 更新：Decisions 公开 beta 与三档付费用量层级]]
 - `source` [[reference/sources/openai-ironclad-computer-use-20261006|OpenAI 与 Ironclad 用合同工作任务评估计算机操作能力]]
 - `source` [[reference/sources/openai-jump-trading-adoption-20261006|Jump Trading 披露长时研究 Agent 用法，人工检查仍在流程中]]
 - `source` [[reference/sources/openai-math-artifacts-20261006|OpenAI 发布数学手稿与部分 Lean 证明，结果仍有不同核验阶段]]

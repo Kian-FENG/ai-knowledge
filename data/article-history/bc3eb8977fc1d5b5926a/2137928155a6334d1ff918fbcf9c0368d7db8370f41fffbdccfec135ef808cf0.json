@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+  "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+  "text": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...\nAlways-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources, following company policy, and calling several tools. NVIDIA Nemotron 3.5 Super VL is an open, customizable multimodal model for these specialized workflows. Its 120B-parameter mixture-of-experts (MoE) architecture activates 12B…\nSource",
+  "published_at": "2026-10-15T18:01:00+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-15T19:23:24+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "bc3eb8977fc1d5b5926a",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-16/2137928155a6334d1ff918fbcf9c0368d7db8370f41fffbdccfec135ef808cf0.body",
+  "source_sha256": "2137928155a6334d1ff918fbcf9c0368d7db8370f41fffbdccfec135ef808cf0",
+  "fetched_at": "2026-10-16T01:03:03.851751+00:00"
+}

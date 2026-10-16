@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+  "title": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
+  "text": "The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,...\nThe NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent’s harness smaller, clearer, and easier to verify. The competition asked agents to answer natural-language questions over heterogeneous data sources, including databases, CSV and JSON files, prose documents, PDFs, and briefing videos.\nSource",
+  "published_at": "2026-10-08T18:30:02+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-08T18:30:07+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "52cae5f4a2d9d03e9ce6",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-09/6d9cd67d5b1e03fcce54247d88436986e5382ee9ab298841d8dc6ffd0eb267d7.body",
+  "source_sha256": "6d9cd67d5b1e03fcce54247d88436986e5382ee9ab298841d8dc6ffd0eb267d7",
+  "fetched_at": "2026-10-09T01:00:03.671771+00:00"
+}

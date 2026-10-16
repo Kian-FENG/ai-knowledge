@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+  "sha256": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+  "source_url": "https://rss.arxiv.org/rss/cs.CL+cs.DC",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-16T01:03:04.867013+00:00",
+  "source_id": "arxiv",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "Content-Length": "670000",
+    "content-type": "application/rss+xml",
+    "etag": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+    "cache-control": "max-age=10614",
+    "x-cloud-trace-context": "960e5596458c0d634c5c27f729afb65b",
+    "server": "Google Frontend",
+    "via": "1.1 google, 1.1 varnish, 1.1 varnish",
+    "Accept-Ranges": "bytes",
+    "Age": "0",
+    "Date": "Fri, 16 Oct 2026 01:03:05 GMT",
+    "X-Served-By": "cache-lga-kjfk8660030-LGA, cache-nyc-kteb1890076-NYC",
+    "X-Cache": "MISS, MISS",
+    "X-Cache-Hits": "0, 0",
+    "X-Timer": "S1792112585.499484,VS0,VE454",
+    "Strict-Transport-Security": "max-age=300"
+  },
+  "final_url": "https://rss.arxiv.org/rss/cs.CL+cs.DC",
+  "truncated": false,
+  "charset": "utf-8"
+}

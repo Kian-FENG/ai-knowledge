@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157856.htm",
+  "title": "老车主集体过年！2017年的特斯拉Model S/X喜提FSD V14 Lite",
+  "text": "快科技10月16日消息，特斯拉X平台官方账号Tesla Super Intelligence日前宣布，FSD v14.3 Lite现已向搭载英特尔芯片的HW3版老款Model S和Model X推送，这是这批车龄最长的特斯拉老车首次获得蒸馏版FSD分支系统。\n配套软件更新包版本号为2026.38.5.1，有车主已在2017年的Model X上完成安装并测试。\n据悉，FSD v14 Lite是FSD v14主程序的蒸馏精简版本，专门为HW3这台内存资源有限的老车载计算机打造。\n特斯拉在更新说明中表示，公司“将HW4 V14版本的智能能力蒸馏迁移至HW3平台”，移植了强化学习等改进项。更新优化了匝道并入、行人识别、红绿灯处理、应对加塞车辆的能力，误减速现象减少，转向操作更加平顺。\n不过，老款Model S和Model X的FSD v14.3 Lite在功能上存在明显阉割。相比搭载英特尔处理器的HW3版Model 3和Model Y，后者在v14.3 Lite中已拥有全部功能，而老款Model S/X缺少到达选项（Arrival Options）、驻车状态下直接启动FSD、FSD自动倒车三项功能。\nFSD早在13.2版本就已经在HW4硬件上实现自动倒车，HW3车型则一直停留在v12版本，直到v14 Lite发布才迎来升级，该版本也不支持真正智能召唤功能。\n而FSD v14 Lite于今年6月底正式发布，当时仅面向Model 3和Model Y。9月初特斯拉确认会对Model S和Model X提供支持，搭载AMD芯片的HW3版Model S/X在9月下旬开始收到推送。\n如今搭载英特尔凌动处理器的最老批次车型也终于收到推送，标志着HW3平台全系车型已全部接入FSD v14体系。\n特斯拉车主伦纳德·坎帕尼亚（Leonard Campagna）已在两台Model X上安装完毕并完成测试，分享了该版本的功能清单。对于2017年购车的老车主而言，这意味着一辆服役近10年的老车，还能用上2026年最新的FSD技术，确实是好事一件。\n不过，这也可能是HW3平台最后一次重大升级，特斯拉已确认，HW3硬件无法支持无监督FSD，也无法运行即将推出的FSD v15更新。特斯拉承诺，购买FSD的车主可以选择硬件升级，更换算力更强的全新AI芯片。\n在硬件升级方案落地之前，v14.3 Lite就是老款Model S和Model X车主能够体验到的最强FSD版本。",
+  "published_at": "2026-10-16T00:21:08+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f58a880f5e108cfcdc95",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+  "source_sha256": "f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd",
+  "fetched_at": "2026-10-16T01:03:29.044828+00:00"
+}

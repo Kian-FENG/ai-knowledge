@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+  "title": "Bluesky&#8217;s AI tool now lets you make games and apps to share on social",
+  "text": "Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own websites. In an interview at TechCrunch Disrupt, Bluesky CEO Toni Schneider said to think of Attie as \"social vibe coding or vibe coding for your community.\"\nYou can make your own Attie app by typing in a prompt. A simple poll I made about Pokémon Red and Pokémon Blue took a few minutes to generate. If you want to check out something more full-featured, the Attie website currently highlights a few examples l …\nRead the full story at The Verge.",
+  "published_at": "2026-10-15T15:57:16-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-15T15:57:16-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e85c6a5b67dae4b4f4ef",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-16/d6b7d4c01a99ef0e0e6bca986cfcba83e745a5743ec2bd3b3b29fc64f6365e9a.body",
+  "source_sha256": "d6b7d4c01a99ef0e0e6bca986cfcba83e745a5743ec2bd3b3b29fc64f6365e9a",
+  "fetched_at": "2026-10-16T01:03:15.446788+00:00"
+}

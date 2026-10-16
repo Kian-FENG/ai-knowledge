@@ -1,0 +1,19 @@
+{
+  "period": "daily",
+  "date": "2026-10-15",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-15",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-14T18:00:00-07:00",
+    "end": "2026-10-15T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "0d9d1e685ff1b124fb00889aba292181dc06b78897b6defb75f25cdf12492493",
+  "editorial_sha256": "c121fc43971ab208f2fb56a65c3fae9589fcea8555295a740cbb3871818239a9",
+  "report_path": "reports/daily/2026/10/2026-10-15/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-15/0d9d1e685ff1b124fb00889aba292181dc06b78897b6defb75f25cdf12492493.json",
+  "events": 16,
+  "generated_at": "2026-10-16T01:17:24.596301+00:00",
+  "timezone": "America/Los_Angeles"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Codex 桌面端开始推送更快的任务中途引导",
+  "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  "text": "October 8, 2026 — Faster steering in Codex\nWe’re rolling out faster steering in Codex in the ChatGPT desktop app. When you send a follow-up to steer a running task, Codex can respond to your changes sooner.\nUse steering to correct an approach, add missing information, or change direction while Codex works. You can choose whether follow-up messages steer the current run or wait for the next one in Settings → General → Follow-up behavior.",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "published_at": "2026-10-08T00:00:00+08:00",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "3930e8dede7666d8dfd2",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-09/7fed21271f15e6471dd2a086bc16cfc58769286d4d5b4c7a1d8a3f1a21832d08.txt",
+  "source_sha256": "7fed21271f15e6471dd2a086bc16cfc58769286d4d5b4c7a1d8a3f1a21832d08",
+  "fetched_at": "2026-10-09T01:09:30.591801+00:00"
+}

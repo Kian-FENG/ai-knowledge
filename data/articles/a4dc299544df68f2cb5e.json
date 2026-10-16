@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+  "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+  "text": "The new Muse Spark Open AI model can work on M5 Ultra Mac Studios. | Photo: Amelia Holowaty Krales / The Verge\nMeta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the company also says that it's the \"the first model in its class\" that can \"run on your desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework.\"\nMeta and Apple, typically rivals, worked together on the launch and are publicly supporting each other.\n\"Muse Spark Open - weights releasing today - runs great on new Mac Studios thanks to work with @johnternus and Apple,\" Meta CEO Mark Zuckerberg said on X.\n\"Congrats to the team!\" new Apple CEO John Ternus said in a reply. \"Amazing to run a model of Muse …\nRead the full story at The Verge.",
+  "published_at": "2026-10-15T14:15:36-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-15T14:15:36-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a4dc299544df68f2cb5e",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-16/d6b7d4c01a99ef0e0e6bca986cfcba83e745a5743ec2bd3b3b29fc64f6365e9a.body",
+  "source_sha256": "d6b7d4c01a99ef0e0e6bca986cfcba83e745a5743ec2bd3b3b29fc64f6365e9a",
+  "fetched_at": "2026-10-16T01:03:15.446788+00:00"
+}

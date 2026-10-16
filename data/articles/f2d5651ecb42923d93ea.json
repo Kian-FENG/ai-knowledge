@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+  "title": "Meta launches an open-weight AI model that runs on Macs",
+  "text": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+  "published_at": "2026-10-15T20:04:53+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f2d5651ecb42923d93ea",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/781ba40a933dfacbbc3278e0b84e8497c511866e8330a158cb576f9beeb1ded6.body",
+  "source_sha256": "781ba40a933dfacbbc3278e0b84e8497c511866e8330a158cb576f9beeb1ded6",
+  "fetched_at": "2026-10-16T01:03:14.536926+00:00"
+}

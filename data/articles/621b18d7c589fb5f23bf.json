@@ -1,0 +1,18 @@
+{
+  "url": "https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving",
+  "title": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
+  "text": "Volvo Cars today announced it is expanding its partnership with NVIDIA to unlock new levels of safety in automated driving technology in future cars from Volvo, building on the companies’ decade-long collaboration.",
+  "published_at": "2026-10-15T17:30:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "621b18d7c589fb5f23bf",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-16/0b3e5ecbdd135c3307367573df05042b21fe55d03279a77480f5e588704982ea.body",
+  "source_sha256": "0b3e5ecbdd135c3307367573df05042b21fe55d03279a77480f5e588704982ea",
+  "fetched_at": "2026-10-16T01:02:59.481268+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-14-train-inference-consistency",
+  "title": "Finish RL Training Faster: Bitwise-Consistent, High-Performance, Agent-DrivenOct 14, 2026·35 min readWe make vLLM rollout and the training forward give bitwise identical logprobs on DeepSeek-V4-Flash ",
+  "link_text": "Finish RL Training Faster: Bitwise-Consistent, High-Performance, Agent-DrivenOct 14, 2026·35 min readWe make vLLM rollout and the training forward give bitwise identical logprobs on DeepSeek-V4-Flash ",
+  "id": "58cd8f19e04c8a1c2d69",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-16/1bd8fb7d220275abbf3dee04190e82476fa3000e1bd649bee8da5dcb9b13b5dd.body",
+  "source_sha256": "1bd8fb7d220275abbf3dee04190e82476fa3000e1bd649bee8da5dcb9b13b5dd",
+  "fetched_at": "2026-10-16T01:03:03.172115+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-16T01:03:03.172115+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

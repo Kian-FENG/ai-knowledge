@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.7.2rc2",
+  "title": "v0.7.2rc2",
+  "text": "v0.7.2rc2",
+  "published_at": null,
+  "announced_at": null,
+  "updated_at": "2026-10-09T00:22:39+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9961c8d1882e4f58a57b",
+  "source_id": "flashinfer",
+  "source_name": "FlashInfer",
+  "section": 3,
+  "raw_path": "raw/2026-10-09/3e8edf2151ca7970487a61a2b4a0727ffe2f7cc74d3842f35c0748f01e8117b1.body",
+  "source_sha256": "3e8edf2151ca7970487a61a2b4a0727ffe2f7cc74d3842f35c0748f01e8117b1",
+  "fetched_at": "2026-10-09T01:00:10.030299+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157836.htm",
+  "title": "PS5主机都能跑本地AI了：6年的技术比AMD、NV顶级芯片还要强",
+  "text": "快科技10月15日消息，很多人为了跑本地AI都大笔花钱去配一套高性能PC，然而没想到的是最近流行起了PS5主机跑AI，要知道它都是6年前发布的硬件产品了。\n日前有网友逆向了PS5，将其改造成了一台能跑本地AI的设备，还成功跑了Qwen 3.8 27B大模型，速度能到20Token/s，尽管是量化到了2bit。\n要知道PS5的CPU还是AMD当年的Zen2架构，GPU显卡也只是RDNA2架构，性能10.3TFLOPS而已，这两部分的规格跟当前的CPU、显卡已经不能比了。\n但PS5有自己的杀手锏，那就是内存系统设计的很先进，当时就引入了统一内存的理念，将GDDR6作为内存，而且是256bit，因此做到了448GB/s带宽。\n这个带宽性能是什么水平呢，哪怕是放在6年后的今天依然都不算落伍，甚至还能领先一众高端CPU或者显卡，苹果的M4 Max处理器带宽也就410GB/s，M5 Pro只有307GB/s。\nNVIDIA的DGX Spark使用了LPDDR5X内存后带宽也就273GB/s，RTX Sapark也是同样水平，AMD的Ryzen AI Halo使用的是LPDDR5X-8000内存，带宽也就256GB/s。\nPS5的带宽比这些顶级芯片依然要高出50-70%以上，唯一能接近PS5的还是苹果统一内存的M4 Max芯片，要知道Max级别的处理器级别要高很多的，成本不菲。",
+  "published_at": "2026-10-15T21:56:23+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e7b436db8bf09d9de457",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+  "source_sha256": "f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd",
+  "fetched_at": "2026-10-16T01:03:29.044828+00:00"
+}

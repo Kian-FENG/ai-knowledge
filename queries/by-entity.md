@@ -20,6 +20,7 @@ Generated; published pages only. Do not hand-edit.
 - `entity` [[reference/entities/today|TODAY：金融保险顾问的工作流 Agent]]
 - `entity` [[reference/entities/typesafe|TypeSafe：Jev 与机器可读决策模型基础设施]]
 - `entity` [[reference/entities/vinci|Vinci：物理仿真与硬件设计的 AI 平台]]
+- `entity` [[reference/entities/visko|Visko：Orbis实时世界模型的开发者]]
 - `entity` [[reference/entities/volantis|Volantis：推理光子互连公司]]
 
 ## product

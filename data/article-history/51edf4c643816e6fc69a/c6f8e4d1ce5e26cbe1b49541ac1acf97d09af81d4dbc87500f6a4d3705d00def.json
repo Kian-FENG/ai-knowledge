@@ -1,0 +1,18 @@
+{
+  "url": "https://mistral.ai/news/timestral/",
+  "title": "Introducing Timestral",
+  "text": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready.",
+  "published_at": "2026-10-15T12:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "51edf4c643816e6fc69a",
+  "source_id": "mistral",
+  "source_name": "Mistral AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/c6f8e4d1ce5e26cbe1b49541ac1acf97d09af81d4dbc87500f6a4d3705d00def.body",
+  "source_sha256": "c6f8e4d1ce5e26cbe1b49541ac1acf97d09af81d4dbc87500f6a4d3705d00def",
+  "fetched_at": "2026-10-16T01:02:56.425008+00:00"
+}

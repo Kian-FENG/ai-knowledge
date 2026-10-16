@@ -4,7 +4,7 @@
   "text": "Observatories and telescopes, lasers and X-ray light sources, and other high-throughput instruments generate image data faster than CPU-bound pipelines can...\nObservatories and telescopes, lasers and X-ray light sources, and other high-throughput instruments generate image data faster than CPU-bound pipelines can process it to support timely decisions. The computational bottleneck is rarely one slow kernel. It’s the whole path from data in the sensor to a decision: read the raw data, match point-spread functions or detector responses, subtract or reduce…\nSource",
   "published_at": "2026-10-07T15:00:00+00:00",
   "announced_at": null,
-  "updated_at": "2026-10-07T00:12:47+00:00",
+  "updated_at": "2026-10-15T18:13:19+00:00",
   "date_basis": "published",
   "extraction": "feed-content",
   "date_precision": "timestamp",
@@ -12,7 +12,7 @@
   "source_id": "nvidia",
   "source_name": "NVIDIA Technical Blog",
   "section": 3,
-  "raw_path": "raw/2026-10-08/ee90b0a03a8019c9c88c3ee737b020d872e48d4c1cdda76381cbc67c7ecd2e61.body",
-  "source_sha256": "ee90b0a03a8019c9c88c3ee737b020d872e48d4c1cdda76381cbc67c7ecd2e61",
-  "fetched_at": "2026-10-08T01:04:51.199504+00:00"
+  "raw_path": "raw/2026-10-16/2137928155a6334d1ff918fbcf9c0368d7db8370f41fffbdccfec135ef808cf0.body",
+  "source_sha256": "2137928155a6334d1ff918fbcf9c0368d7db8370f41fffbdccfec135ef808cf0",
+  "fetched_at": "2026-10-16T01:03:03.851751+00:00"
 }

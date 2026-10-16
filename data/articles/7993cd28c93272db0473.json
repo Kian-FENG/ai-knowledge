@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/15/style/ai-parenting-motherhood-ollie-fambot.html",
+  "title": "Exhausted Parents Are Turning to A.I. Apps Despite the Risks",
+  "text": "Even as alarm grows over the risks, families are embracing bots and agents to tackle the spiraling administrative tasks of modern child rearing.",
+  "published_at": "2026-10-15T10:52:08+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7993cd28c93272db0473",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/e0c6f17da2095da704e06034037f587b1bfe63053ce66abcfc469fba1f20f437.body",
+  "source_sha256": "e0c6f17da2095da704e06034037f587b1bfe63053ce66abcfc469fba1f20f437",
+  "fetched_at": "2026-10-16T01:03:17.223533+00:00"
+}

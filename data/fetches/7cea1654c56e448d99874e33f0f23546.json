@@ -1,0 +1,33 @@
+{
+  "raw_path": "raw/2026-10-16/09fbbf9780c36bfbb6efbe996ec6f2893c35abd518ab6fddccb47a8466392bdb.body",
+  "sha256": "09fbbf9780c36bfbb6efbe996ec6f2893c35abd518ab6fddccb47a8466392bdb",
+  "source_url": "https://openai.com/news/rss.xml",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-16T01:02:52.873866+00:00",
+  "source_id": "openai",
+  "status": 200,
+  "headers": {
+    "Date": "Fri, 16 Oct 2026 01:02:53 GMT",
+    "Content-Type": "text/xml; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Age": "2019",
+    "Cache-Control": "public, max-age=0",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Tseq0hXwOzxqlTJc%2B4EGNw73Vx%2B%2FdcRtKYTffayOALCNA7wh%2FaaOqn%2B%2FHbpBSaesL6PIaDvjl%2B9Svdtg9f24JJ1XwokpNzn9dKcWHGfrM6DR4uCJvbS4NlXGCIs%3D\"}]}",
+    "Server": "cloudflare",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "x-matched-path": "/news/rss.xml",
+    "x-vercel-cache": "HIT",
+    "x-vercel-id": "iad1::pdx1::ld5d7-1792112573520-67238f2ac5ed",
+    "cf-cache-status": "DYNAMIC",
+    "vary": "accept-encoding",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4b324006faa5e6c-EWR",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "final_url": "https://openai.com/news/rss.xml",
+  "truncated": false,
+  "charset": "utf-8"
+}

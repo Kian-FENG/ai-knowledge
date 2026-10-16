@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157827.htm",
+  "title": "苹果把A20 Pro塞进iPad mini里：最强小平板降临",
+  "text": "iPad mini小尺寸平板要换A20 Pro，并首次采用窄边框OLED屏，但刷新率还是60Hz。一句话概括——芯片冲到iPhone 18 Pro水平，屏幕却还停在“够用”档。\n先说猛的地方。A20Pro是台积电2nm移动端旗舰芯，6核CPU（2性能+4能效）、7核GPU、双16核神经网络引擎合计32核，GPU比前代最高快40%，硬件光追、端侧AI、本地跑图文模型都不虚。\niPad mini本来是“随身看PDF、记手写、躺床刷漫画”的轻量设备，现在却背上了能剪图、能跑本地AI、能开重负载游戏的底子——对医学生、插画师、出差党来说，它是“小包里最不像玩具的平板”。\n屏幕也从LCD跳到OLED：黑位更纯、对比度更高、窄边框让8.x寸机身更有“整块玻璃”的感觉。看漫画、修图、暗场电影，观感会比老mini明显跨一代。\n再加上iPadOS的手写笔延迟、分屏多任务、ApplePencil生态，mini的“小但能干活”属性反而被A20 Pro放大了。\n但刀法也明摆着：OLED用了，ProMotion120Hz没给。同价位国产小平板——iQOO Pad Pro、荣耀WIN、红魔电竞小平板——普遍120Hz、144Hz甚至165Hz。\n滑信息流、刚枪转视角、连招搓招，跟手感就是比60Hz顺。A20Pro的算力再强，画面每秒只翻60次，高帧游戏和丝滑滚动就被屏幕锁住了。\n这其实是苹果的产品分层：iPad Pro吃LTPO/高刷/最贵面板，iPad mini吃OLED观感+旗舰芯+便携，把“高刷”留成Pro的护城河。代价是手游党会别扭——《原神》《鸣潮》《三角洲》里，60Hz mini再强也像跑在刹车上。\n价格那边还有隐忧：存储涨价、OLED成本高、起步存储可能从64GB提128GB，国行定价大概率不会比上代更温柔。\n也就是说，新mini的卖点会变成——“我要苹果生态+小机身+本地AI+修图手写”，可以忍60Hz；如果你主要图高刷电竞，安卓小平板现在更懂你。\n新iPad mini不是弱，是被苹果故意做成“半台Pro”：芯片像旗舰，屏幕像2023。果粉会不会买账，就看多少人愿意为生态和手感，原谅那块60Hz OLED。",
+  "published_at": "2026-10-15T21:04:21+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5d29ccf0f466728186e9",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+  "source_sha256": "f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd",
+  "fetched_at": "2026-10-16T01:03:29.044828+00:00"
+}

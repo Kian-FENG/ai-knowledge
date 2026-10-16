@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157886.htm",
+  "title": "英伟达黄仁勋：AI芯片供不应求 订单几乎每日持续涌入",
+  "text": "快科技10月16日消息，英伟达CEO黄仁勋表示，客户对人工智能(AI)芯片的订购需求持续超过公司供应能力。\n在周四发布的“BG2”播客访谈中，黄仁勋透露，新订单“几乎每周、甚至每天”都在涌入，“我们不断增加供应，订单量也在持续增长。”\n大型云服务提供商、新兴人工智能云运营商以及设备制造商均已大量下单。黄仁勋称，客户至少会提前一年预测需求，规模最大的客户甚至已提前两年规划。\n然而，英伟达分配给这些客户的产能远低于其实际需求。黄仁勋表示，电力短缺、尚未完工的数据中心以及制造零部件等因素，也在制约公司扩大供应的速度。\n黄仁勋还表示，数据中心运营商CoreWeave的财务状况正在改善，他认为英伟达没有必要为CoreWeave提供兜底支持，“我很乐观。他们的资本成本实际上正在下降”。",
+  "published_at": "2026-10-16T08:52:57+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "055fcfec80b3f3eb9bff",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+  "source_sha256": "f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd",
+  "fetched_at": "2026-10-16T01:03:29.044828+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/",
+  "title": "The Machines that Make the Machines",
+  "text": "How we taught robots to assemble GB300 tester trays and what it taught us about robot learning, mechanical intelligence, and good old-fashioned engineering The...\nHow we taught robots to assemble GB300 tester trays and what it taught us about robot learning, mechanical intelligence, and good old-fashioned engineering The NVIDIA Grace Blackwell GB300 superchip is the engine of AI training and inference for modern foundation models. However, the process of assembling GB300 trays requires skilled physical labor in factories across the world.\nSource",
+  "published_at": "2026-10-07T18:21:03+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-07T18:21:08+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a8e6f618f421f4bd40e7",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-08/ee90b0a03a8019c9c88c3ee737b020d872e48d4c1cdda76381cbc67c7ecd2e61.body",
+  "source_sha256": "ee90b0a03a8019c9c88c3ee737b020d872e48d4c1cdda76381cbc67c7ecd2e61",
+  "fetched_at": "2026-10-08T01:04:51.199504+00:00"
+}

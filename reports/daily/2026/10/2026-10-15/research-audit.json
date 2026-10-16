@@ -1,0 +1,440 @@
+{
+  "run_at_utc": "2026-10-16T01:17:24.088309+00:00",
+  "edited_at_los_angeles": "2026-10-15T18:17:24.088309-07:00",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-15",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-14T18:00:00-07:00",
+    "end": "2026-10-15T18:00:00-07:00"
+  },
+  "config_verified": true,
+  "source_date_timezone": "Asia/Singapore",
+  "git_initial": {
+    "started_at": "2026-10-16T01:02:51.723064+00:00",
+    "head": "8eebd7c0e1e02994a14a89511a4045a889d5dd7c",
+    "branch": "main",
+    "upstream": "origin/main",
+    "files": "see initial baseline outside repo; original 1210 paths excluded"
+  },
+  "collection_run_id": "20261016T010252-06d4e245",
+  "collection_stats": {
+    "enabled_at_collect": 118,
+    "ok": 80,
+    "needs_browser": 35,
+    "failed": 3,
+    "saved_candidates": 379
+  },
+  "source_checks": [
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "网页工具返回空；原生浏览器实际打开仍只有导航和页脚，没有本期日期列表/正文；阿里云press-room不能替代Qwen正文。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "failed",
+      "note": "网页工具与原生浏览器实际打开news仅导航，未获取本期文章。"
+    },
+    {
+      "source_id": "ms-nadella",
+      "status": "failed",
+      "note": "指定X文章浏览工具获取失败；没有正文，不推断无动态。"
+    },
+    {
+      "source_id": "asml",
+      "status": "failed",
+      "note": "本轮官方press-releases入口网页工具失败；昨日Q3来源已入库，本轮未重查其IR全文，不当作今日新财报。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "首页仅会员导流与旧PRO摘要，未取得本期完整列表/正文；微信私域未覆盖。"
+    },
+    {
+      "source_id": "openai-api-changelog",
+      "status": "checked",
+      "note": "采集器403；网页工具恢复官方changelog，并读10月15日GPT-Live/Decisions与文档相关小节。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "采集超时，网页工具访问同一RSS仍失败；未补回窗口全文。"
+    },
+    {
+      "source_id": "c114",
+      "status": "checked",
+      "note": "采集robots失败；网页工具打开C114首页恢复有限列表，未逐条阅读全文，不声称完整窗口。"
+    },
+    {
+      "source_id": "today",
+      "status": "failed",
+      "note": "指定官网blog网页工具仍不可访问，无本期正文。"
+    },
+    {
+      "source_id": "nda",
+      "status": "checked",
+      "note": "网页工具为空；原生浏览器恢复国家数据局列表，部分动态模块未呈现；未完成本期政策全文核验。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "官网news列表和10月15日METR原文全文已读；原文更新脚注保留，未将预期结果当评估完成。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "自动采集官方入口；另打开API更新日志，顶端9月10日；状态主页与history打开但事故内容未渲染，故障补偿只归因媒体。"
+    },
+    {
+      "source_id": "deepseek-api-changelog",
+      "status": "checked",
+      "note": "实际读取官网更新日志顶端9月10日V4.1Flash旧公告；未核实本期新模型首发。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "实际打开官方Research列表，顶端Kimi K3/PerceptionBench为7月16日；产品渠道与私域未全面覆盖。"
+    },
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "RSS已采集，实际读Rosalind资格/申请/保障及ChatGPT10月15日release notes；官网HTTP403通过网页工具补读。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "checked",
+      "note": "实际打开阿里云press-room但有限可见内容；千问私域/电商条款没有新增核验。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "实际看官方News，顶端Grok Voice3为10月14日已收录背景；不重作本期发布。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "checked",
+      "note": "实际打开官方Research入口，有限文本；未全面读公众号或全部文章。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "checked",
+      "note": "打开官方releases列表，有限可见文本；未逐条阅读全文，不能确认整站无新闻。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "官方新闻入口失败后转官方IR Q3页，读Earnings Release两页并检查第1页图像；电话会/Management Report未读。"
+    },
+    {
+      "source_id": "stacklok",
+      "status": "checked",
+      "note": "实际打开公司页，核对可见产品身份；没有核实本期带日期新公告，旧融资不重报。"
+    },
+    {
+      "source_id": "peppermint",
+      "status": "checked",
+      "note": "指定官方融资文章日期10月8日，既有背景去重；未把采集日当融资日。"
+    },
+    {
+      "source_id": "cls-eastmoney",
+      "status": "checked",
+      "note": "打开10月10日财联社转载旧页；旧融资去重，不作为本期新融资。"
+    },
+    {
+      "source_id": "ms-decision",
+      "status": "checked",
+      "note": "打开Microsoft-Decision-1既有正文入口；仅有限阅读，10月9日背景不重报。"
+    },
+    {
+      "source_id": "nous",
+      "status": "checked",
+      "note": "实际打开官方首页，可见有限文字；未完成所有公告时间diff与正文重读。"
+    },
+    {
+      "source_id": "healthleap",
+      "status": "checked",
+      "note": "打开官方产品首页有限文字；此前融资为背景，未复核本期所有新闻。"
+    },
+    {
+      "source_id": "reflection",
+      "status": "checked",
+      "note": "打开官方blog，Beam既有线索去重；未完成全站正文/许可更新检查。"
+    },
+    {
+      "source_id": "namespace",
+      "status": "checked",
+      "note": "打开blog，顶部10月14日果蝇Doom案例，融资为10月5日旧事；未阅读全文或将其作重大AI新事件。"
+    },
+    {
+      "source_id": "vinci",
+      "status": "checked",
+      "note": "打开blog，主要带日期融资为10月6日背景；其余条目日期与全文未逐一核对。"
+    },
+    {
+      "source_id": "typesafe",
+      "status": "checked",
+      "note": "打开官方blog，只读列表可见内容；Jev实验更新缺本期日期核验，未当正式全面交付。"
+    },
+    {
+      "source_id": "globalfoundries",
+      "status": "checked",
+      "note": "打开官方news/events，有限可见列表；未读本期全部项目正文，未采用扩产金额。"
+    },
+    {
+      "source_id": "cna-reuters",
+      "status": "checked",
+      "note": "打开Reuters转WSJ的10月11日Decart收购洽谈转载；仍为旧谈判，不升级为成交。"
+    },
+    {
+      "source_id": "odyssey",
+      "status": "checked",
+      "note": "打开10月8日Odyssey3旧原文入口，仅背景去重，未重审完整评测。"
+    },
+    {
+      "source_id": "vals-ai",
+      "status": "checked",
+      "note": "打开既有多Agent研究页，仅有限可见内容，未确认本期实质修订。"
+    },
+    {
+      "source_id": "epoch-innovationeval",
+      "status": "checked",
+      "note": "打开既有InnovationEval研究页，未确认本期新版本，不重复作新研究。"
+    },
+    {
+      "source_id": "decart",
+      "status": "checked",
+      "note": "打开官方产品首页有限内容，未核实本期收购成交公告。"
+    },
+    {
+      "source_id": "microsoft-blog",
+      "status": "checked",
+      "note": "打开官方blog有限列表；Foundry/Research等全部产品渠道未全面覆盖。"
+    },
+    {
+      "source_id": "mosi",
+      "status": "checked",
+      "note": "打开官方新闻页，10月12日融资既有背景去重；未核实本期新融资。"
+    },
+    {
+      "source_id": "modcraft",
+      "status": "checked",
+      "note": "打开产品官网，内容无核实发布日期；不作当天新闻，法定身份仍待核。"
+    },
+    {
+      "source_id": "apple-newsroom",
+      "status": "checked",
+      "note": "打开Newsroom只取得有限首页/订阅文字；Apple Intelligence中国发布日期线索未取得充分官方证据。"
+    },
+    {
+      "source_id": "pluto-security",
+      "status": "checked",
+      "note": "打开官方blog有限列表，旧融资去重，未重核全部正文。"
+    },
+    {
+      "source_id": "semigraph",
+      "status": "checked",
+      "note": "打开官网核对品牌/产品，旧融资与媒体线索不当本期一手新事实。"
+    },
+    {
+      "source_id": "third-moment",
+      "status": "checked",
+      "note": "打开官网产品入口，未知日期作为已入库背景，不冒充本日首发。"
+    },
+    {
+      "source_id": "visko",
+      "status": "checked",
+      "note": "本轮collect后新增入口；已读官网全部可见产品和联合Google Cloud技术案例，法定注册/融资未核。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "Atom及官方v0.5.22标签baa9bef已检查；只有Release标题，没有足够实质变更说明，不凑版本新闻；博客入口自动采集，未逐篇读全。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "官方v0.32.0rc2已打开，仍为RC且正文不足；未把候选当稳定版。"
+    },
+    {
+      "source_id": "vllm-blog",
+      "status": "checked",
+      "note": "入口自动采集；10月14日push KV与adaptive verification为旧线索，本轮未补读全文与时间边界，未采用。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "完整Atom读Nemotron3.5实验快照并对照昨日GLM背景；未运行容器。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "读v0.7.2 Highlights、升级说明及官方release；完整Atom归档，PR清单未逐项审源码；未采信性能倍数。"
+    },
+    {
+      "source_id": "mooncake",
+      "status": "checked",
+      "note": "本轮官方release入口采集成功；未获得足够本期实质新版本内容，未推断生产支持或性能变化。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "323 RSS条目，保存60、254本地上限截断，原RSS完整字节保留；选两篇仅摘要+v1版本史，公告10月15日不同于投稿10月14日。未补齐全部CL/DC论文。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "实际按Oct15日期执行Reuters AI检索；未取得支持本期新增事实的一手正文，付费与独家覆盖有限。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "实际执行Bloomberg日期检索并筛本期RSS；Anthropic收入/CoreWeave融资风险的付费原文未完整读取，未采用财务数字。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "实际执行FT/NYT/WSJ窗口检索和feed筛选；NYT工具robots受限，多数付费原文未读。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "执行中文公司/产品/融资检索，补查DeepSeek媒体全文和状态入口；NEXFORM官网产品与媒体日期仅作去重/待核。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "执行工信部/数据局/网信等日期检索并补查数据局；正文支持不足，未采用新政策结论。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "执行HBM/GPU/算力产能融资日期检索；多数旧背景或二手线索，未据摘要采信价格和产能。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "执行具身/世界模型发布融资检索，NEXFORM官网确认品牌但融资原始证据/事件日仍不足，未作今日新融资。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "执行HBM/CoWoS/出口管制/存储价格英文检索，补读台积电一手Q3；没有用媒体摘要推算GPU供给。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "实际多site检索Qualcomm/ASML/TSMC/Qwen/MiniMax，并直接查官方入口；TSMC IR恢复，Qwen/MiniMax仍失败，ASML本轮入口失败。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "完成中英文新公司开放检索；Visko官网+Google Cloud联合署名案例核对身份产品后新建entity。NEXFORM融资重复日期、Elevatry/Harmonic等缺充分一手资料只留待核。"
+    },
+    {
+      "source_id": "techmeme-snapshot",
+      "status": "failed",
+      "note": "按漏采补看261015/h2355快照，网页工具获取失败；river线索不能代替原文或补齐整个媒体窗口。"
+    }
+  ],
+  "knowledge_pages": [
+    "reference/sources/rosalind-academic-plan-20261015.md",
+    "reference/sources/bee-frontier-eclipse-20261015.md",
+    "reference/sources/deepseek-outage-credits-20261015.md",
+    "reference/sources/openai-decisions-and-usage-tiers-20261006.md",
+    "reference/sources/chatgpt-live11-rollout-20261015.md",
+    "reference/sources/anthropic-metr-access-20261015.md",
+    "reference/sources/visko-tpu-case-20261015.md",
+    "reference/sources/muse-spark-open-20261015.md",
+    "reference/sources/nemotron35-super-vl-20261015.md",
+    "reference/sources/timestral-release-20261015.md",
+    "reference/sources/flashinfer-v072-20261015.md",
+    "reference/sources/dynamo-nemotron35-preview-20261015.md",
+    "reference/sources/executorch-cortex-m-20261015.md",
+    "reference/papers/parallelism-slo-261019405.md",
+    "reference/papers/interlock-261019686.md",
+    "reference/sources/tsmc-q3-results-20261015.md",
+    "reference/sources/visko-products-undated.md",
+    "reference/entities/visko.md",
+    "research/synthesis/agent-supply-access-reliability-20261015.md"
+  ],
+  "new_pages": 18,
+  "updated_pages": 1,
+  "events": 16,
+  "deduplicated": [
+    "ASMLQ3与GrokVoice3已收录，不以采集日重报",
+    "NEXFORM媒体融资在10月14日前已有报道，事件日未从一手证实",
+    "昨日两篇论文公告旧事，不因date-only窗口重叠重复收录",
+    "同一Muse/蜂设备/模型发布多篇报道合一事件；Rosalind末尾斜杠RSS URL副本只选一条",
+    "vLLM RC、SGLang仅短tag不足实质内容未收录"
+  ],
+  "exclusions": {
+    "undated": 7,
+    "future": 0,
+    "out_of_window": 3571
+  },
+  "gaps": [
+    {
+      "from": "2026-10-15T01:04:14.116689+00:00",
+      "to": "2026-10-15T17:32:41+08:00",
+      "detected_at": "2026-10-16T01:03:29.044828+00:00",
+      "source_id": "mydrivers"
+    },
+    {
+      "from": "2026-10-15T01:03:51.311634+00:00",
+      "to": "2026-10-15T10:00:00-04:00",
+      "detected_at": "2026-10-16T01:03:15.446788+00:00",
+      "source_id": "the-verge-ai"
+    },
+    {
+      "from": "2026-10-15T01:04:02.348733+00:00",
+      "to": "2026-10-15T16:32:49+08:00",
+      "detected_at": "2026-10-16T01:03:21.691382+00:00",
+      "source_id": "tmtpost"
+    }
+  ],
+  "papers_reading_scope": "两篇仅摘要+v1版本史，未全文/代码复现",
+  "claims_reviewed": "公司/媒体/作者reported；综合derived；source-checked仅支持关系，不是独立效果复现",
+  "git_authorization": "本任务明确授权普通commit/push origin main upstream，覆盖旧说明禁令；未向其他服务发布。",
+  "final_generated_at_utc": "2026-10-16T01:18:46.589233+00:00",
+  "final_generated_at_los_angeles": "2026-10-15T18:18:46.589233-07:00",
+  "source_configuration_count": 121,
+  "knowledge_readback": {
+    "new": 18,
+    "updated": 1,
+    "published": 19,
+    "default_query_and_get_page": true,
+    "raw_hashes_checked": true
+  },
+  "validation": {
+    "knowledge_pages": 172,
+    "source_config_count": 121,
+    "offline_tests": 49,
+    "result": "passed"
+  },
+  "metadata_corrections": [
+    "arXiv extraction修正abstract；保存原-04:00公告载体及date-only；旧metadata单独hash保留",
+    "HF模型卡与Visko首页来源名称修正，原HTTP或有限摘录hash未变"
+  ],
+  "final_manifest": {
+    "period": "daily",
+    "date": "2026-10-15",
+    "window": {
+      "period": "daily",
+      "date": "2026-10-15",
+      "timezone": "America/Los_Angeles",
+      "start": "2026-10-14T18:00:00-07:00",
+      "end": "2026-10-15T18:00:00-07:00"
+    },
+    "status": "analyzed",
+    "packet_sha256": "0d9d1e685ff1b124fb00889aba292181dc06b78897b6defb75f25cdf12492493",
+    "editorial_sha256": "16f77121ea48ec3a8904bad7f4db7ee66c0c7c1355ca710074075bbdfef768b0",
+    "report_path": "reports/daily/2026/10/2026-10-15/report.md",
+    "packet_path": "data/packets/daily/2026/10/2026-10-15/0d9d1e685ff1b124fb00889aba292181dc06b78897b6defb75f25cdf12492493.json",
+    "events": 16,
+    "generated_at": "2026-10-16T01:18:46.589233+00:00",
+    "timezone": "America/Los_Angeles",
+    "report_sha256": "2981a7852ead34a555bd249f7d4f800d0190a86cedb9e3ec1f5ec35f548edcc8",
+    "post_render_note": "补充精确LA生成时间、知识回查和带原时区的gap，日精度只显示日期；原生成版保存在revisions/editorial-hash/generator-output.md"
+  }
+}

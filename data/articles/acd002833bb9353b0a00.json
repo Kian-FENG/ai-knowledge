@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/013/716.htm",
+  "title": "苹果 Meta 破冰合作：两台 512GB 内存 Mac Studio 本地跑“美国最强开源 AI 模型”",
+  "text": "IT之家 10 月 16 日消息，科技媒体 MacRumors 今天（10 月 16 日）发布博文，报道称 Meta 和苹果公司破冰合作，可以在两台 Mac Studio 上本地运行“迄今性能最强的美国公开权重模型”Muse Spark Open。\nIT之家今天曾报道，Meta 推出开源权重模型 Muse Spark Open，总参数量达 8160 亿，其中活跃参数为 420 亿，上下文窗口达 100 万 token，主要面向编程、智能体（Agent）任务、多步骤推理与软件工程等复杂工作场景。\n在本次发布中，最受关注的是 Meta 和苹果公司的破冰合作。该媒体指出在过去多年时间里，两家公司在商业、隐私、监管和产品生态上长期对立，而这次围绕 Muse Spark Open 在 Mac Studio 上本地运行展开技术合作，属于罕见的公开协作。\n本次演示在 2 台配备 512GB 统一内存的 Apple M5 Ultra Mac Studio 上，通过最新 MLX 框架运行 Muse Spark Open。\nMeta CEO 扎克伯格与苹果 CEO 约翰 · 特努斯（John Ternus）均在社交平台确认了合作。特努斯表示，Mac Studio 正持续突破设备端 AI 的能力边界；扎克伯格则称该模型在新款 Mac Studio 上运行表现良好。\n不过，这套方案并不便宜。512GB 版 Mac Studio 尚未正式发售，预计将于本月晚些时候推出；而 256GB 版 Mac Studio 的售价已超过 1 万美元（IT之家注：现汇率约合 67,030 元人民币）。",
+  "published_at": "2026-10-16T00:24:32+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "acd002833bb9353b0a00",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/4530b030dbd17cc2406429b34a2d481031bcd17c48b4899aa2dff172413c03ea.body",
+  "source_sha256": "4530b030dbd17cc2406429b34a2d481031bcd17c48b4899aa2dff172413c03ea",
+  "fetched_at": "2026-10-16T01:03:20.892089+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/a8b8965d-0e90-4226-89ad-14ba5e6ec10a?syn-25a6b1a6=1",
+  "title": "Zelenskyy doesn’t mince words about Trump",
+  "text": "Ukrainian president calls Trump-Putin relationship a ‘mistake’",
+  "published_at": "2026-10-15T04:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4320c52fd1662afb65e2",
+  "source_id": "ft-ai",
+  "source_name": "Financial Times AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/27a223c03ba699649ea52a1b3311c9fe6424b99261ca1f787313408cd423c00e.body",
+  "source_sha256": "27a223c03ba699649ea52a1b3311c9fe6424b99261ca1f787313408cd423c00e",
+  "fetched_at": "2026-10-16T01:03:17.158739+00:00"
+}

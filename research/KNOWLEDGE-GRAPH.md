@@ -252,3 +252,26 @@
 [[reference/entities/third-moment-research|Third Moment Research：工作流定制与持续改进推理服务]]
 
 [[research/synthesis/agent-scale-context-budget-and-fidelity-20261014|Agent规模化的约束移向组织上下文、成本边界与行为保真]]
+
+
+## 2026-10-15 日报新增与更新
+
+- [[reference/sources/rosalind-academic-plan-20261015|OpenAI向美国大学实验室开放Rosalind学术计划申请，最多30席免费12个月]]
+- [[reference/sources/bee-frontier-eclipse-20261015|Bee把个人记忆接入Alexa与购物：Frontier现售，Eclipse仍待上市]]
+- [[reference/sources/deepseek-outage-credits-20261015|DeepSeek故障后宣布返还七天API消耗赠金，恢复更新落入本期]]
+- [[reference/sources/openai-decisions-and-usage-tiers-20261006|OpenAI Decisions API：公开beta、付费用量层级与GPT-Live原生集成]]
+- [[reference/sources/chatgpt-live11-rollout-20261015|ChatGPT Voice开始推送GPT-Live-1.1与Quip，新增多语言声音]]
+- [[reference/sources/anthropic-metr-access-20261015|Anthropic让六名METR评估者获得近似内部风险团队访问]]
+- [[reference/sources/visko-tpu-case-20261015|新增跟踪Visko：Orbis实时世界模型披露TPU部署案例]]
+- [[reference/sources/muse-spark-open-20261015|Meta发布Muse Spark Open权重，MaaS许可设收入门槛]]
+- [[reference/sources/nemotron35-super-vl-20261015|NVIDIA发布Nemotron 3.5 Super VL，强调多模态专用Agent定制]]
+- [[reference/sources/timestral-release-20261015|Mistral推出Timestral时序模型，最大209M并支持已知未来协变量]]
+- [[reference/sources/flashinfer-v072-20261015|FlashInfer v0.7.2正式版扩展Rubin与Blackwell的MoE和注意力路径]]
+- [[reference/sources/dynamo-nemotron35-preview-20261015|Dynamo提供Nemotron Super VL实验配方，尚非QA生产版本]]
+- [[reference/sources/executorch-cortex-m-20261015|ExecuTorch把PyTorch部署链扩展到Cortex-M CPU，混合NPU路径仍有覆盖边界]]
+- [[reference/papers/parallelism-slo-261019405|论文以SLO和goodput选择并行配置，不把TP或PP当固定最优]]
+- [[reference/papers/interlock-261019686|Interlock用完成图约束长程Agent，区分局部正确与任务完整]]
+- [[reference/sources/tsmc-q3-results-20261015|台积电Q3营收467.2亿美元，Q4指引仍是未来展望]]
+- [[reference/sources/visko-products-undated|Visko官网产品与品牌归属（发布日期未知）]]
+- [[reference/entities/visko|Visko：Orbis实时世界模型的开发者]]
+- [[research/synthesis/agent-supply-access-reliability-20261015|开放模型供给增加，Agent落地仍受许可、连续性和验证约束]]

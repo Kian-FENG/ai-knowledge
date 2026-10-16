@@ -1,6 +1,6 @@
 ---
 id: source-openai-decisions-and-usage-tiers-20261006
-title: OpenAI API 更新：Decisions 公开 beta 与三档付费用量层级
+title: OpenAI Decisions API：公开beta、付费用量层级与GPT-Live原生集成
 type: source
 domain:
 - products
@@ -8,14 +8,16 @@ domain:
 lifecycle: published
 tags: []
 created: '2026-10-07'
-updated: '2026-10-07'
+updated: '2026-10-15'
 summary: OpenAI 在10月6日changelog宣布 Decisions API 公开 beta，当前仅支持 gpt-6-luna；对文本/图像返回条件概率、固定选项或rubric分数，正式可用仍计划未来数周。
+  10月15日新增GPT-Live原生Decisions委派，历史价格/配额未重新核价。
 evidence_kind: reported
 verification: source-checked
 sources:
 - https://developers.openai.com/api/docs/changelog
 - https://developers.openai.com/api/docs/guides/decisions
 - https://developers.openai.com/api/docs/guides/rate-limits
+- https://developers.openai.com/api/docs/guides/decisions-voice
 related: []
 aliases: []
 source: raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt
@@ -25,22 +27,25 @@ source_category: official
 raw_path: raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt
 fetched_at: '2026-10-07T01:21:34.915185+00:00'
 sha256: 00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280
-last_verified: '2026-10-07'
+last_verified: '2026-10-15'
 reading_scope: 已读10月6日两项changelog、Decisions文档概述/问题类型/计费与可用性、rate-limits用量层级小节。文档是无日期的当前背景，不当作新发布；未调用API/测试速度，日期仅到日、时区未知。
-verification_note: 已读所列官方小节，核对beta/计费/三档paid与Free区别；未复现性能、核查账户实际配额或对历史每档限流逐项比较。
+verification_note: 本轮仅核对10月15日changelog与decisions-voice所列小节；原10月6日价格和用量规则保留历史归因，未重新核价或运行API。
 evidence:
 - source: raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt
   locator: Changelog October 6两条；Decisions How decisions work / Choose a question
     type / Pricing and availability；Rate limits Usage tiers / Spend limits
   version: sha256:00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280
+- source: raw/2026-10-16/5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b.txt
+  locator: 10月15日changelog；decisions-voice概述、触发与Run actions；未运行代码。
+  version: sha256:5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b
 reviewed_by: Codex
-reviewed_at: '2026-10-07'
-reviewed_content_sha256: 0becc337ed87c2892fd0ce5736c5f7eecbe4a9a6e7767098dca61653bab8ea73
+reviewed_at: '2026-10-16'
+reviewed_content_sha256: a30406aa2e08fb02785592575a91ba3230f6d369be993ce2c2e739a62049211a
 ---
 
-# OpenAI API 更新：Decisions 公开 beta 与三档付费用量层级
+# OpenAI Decisions API：公开beta、付费用量层级与GPT-Live原生集成
 
-## Key Takeaways
+## Key Takeaways — 2026-10-06历史阅读版本
 
 OpenAI 在10月6日changelog宣布 Decisions API 公开 beta，当前仅支持 gpt-6-luna；对文本/图像返回条件概率、固定选项或rubric分数，正式可用仍计划未来数周。
 
@@ -67,3 +72,13 @@ OpenAI 10月6日将付费用量层级从五档简化为 Build、Launch、Grow；
 判断（derived）：对固定分类和路由任务，仅输入计费可让高频判别组件更容易预算，应用编排与实时交互可能受益。若概率未校准或任务需要复杂工具调用，低延迟判别不能替代完整Agent；观察相同输入下准确率、尾时延和总账单。
 
 更少层级和明确credit门槛可能降低从试验转向规模使用的采购摩擦，应用创业团队可能受益。实际吞吐还受模型限流与组织配置约束；观察扩容等待、限流和资金占用，不能把较高月度上限当成已实现收入。
+
+## 2026-10-15：语音原生委派增量
+
+OpenAI API 10月15日changelog为gpt-live-1/gpt-6-luna与v1/live/sessions列出原生Decisions集成：Live可直接委派，或根据输入/输出转写增量触发。文档要求应用执行动作后读取真实状态，再回报结果。
+
+相对10月6日已入库的Decisions公开beta，新增的是语音会话内的调用通路；不由此宣称Decisions已全面GA或所有语音功能统一降价。日期仅到日，窗口边界不确定；已对照前期去重。
+
+判断：省去应用中转的一次往返有望改善交互响应，实时助手和设备控制可受益，但动作正确性仍依赖状态读回与权限。反例是转写抖动导致错误触发；观察端到端尾时延、取消/重复执行率和完整账单。
+
+新增证据：raw/2026-10-16/5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b.txt；sha256:5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b。10月15日changelog；decisions-voice概述、触发与Run actions；未运行代码。 原有价格/层级仅代表10月6日阅读版本。

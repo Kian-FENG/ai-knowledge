@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/service-providers/network-providers/malicious-russian-disinformation-bot-traffic-barely-flinches-after-ukraine-strikes-yandex-data-centers-and-auto-migration-kicks-in-cloudflare-tracks-170-million-automated-attacks-shifting-to-alternate-cloud-hosts",
+  "title": "Malicious Russian disinformation bot traffic barely flinches after Ukraine strikes Yandex data centers and auto-migration kicks in",
+  "text": "Russian bot traffic showed signs of slowing down after Ukraine bombed some of Yandex’s biggest data centers. Unfortunately, while the attacks have slowed down overall bot traffic from Russia, Cloudflare reports that malicious bots appeared to have simply transferred to other hosting ASNs like Radist and Selectel. Overall traffic on Yandex Search and Yandex.Cloud continues to stay at 10% to 15% of normal traffic levels, meaning the network remains disrupted. Cloudflare noted that traffic from the former is composed mostly of verified search crawlers indexing websites, meaning traffic from this service is mostly legitimate. On the other hand, the latter experienced a drop in malicious activities such as vulnerability scanning and probing after the data center bombings, but Cloudflare says that “high-volume automation did not vanish — it simply migrated to other hosting providers.”\nThis was evident with one Cloudflare customer in the gambling sector: it saw malicious bot requests from Yandex.Cloud drop to zero but started seeing the same activity being routed through other networks. “Overall, Russian bot traffic targeting gambling accounts remained essentially flat over the week, moving from 167.7 million to 170.1 million requests (+1.4%),” the company wrote in its analysis. “The automation never stopped running; the operators simply migrated their workloads to alternate cloud providers once Yandex.Cloud became unavailable.”\nThe company also looked at social media traffic and found a similar result — traffic from Russian-origin IPs only dropped by 0.6% in the same period while Russian bot traffic hitting “post,” “reply,” and “like” on one platform only decreased by 5.7%. Because of this, Cloudflare debunked the theory that Ukrainian strikes have caused a drop in social media manipulation, although it also noted that the scope of its analysis is limited to traffic that passed through Cloudflare services.\nSince cloud-based workloads can easily be transferred between data centers, taking a few out will not necessarily end the services running out of them. Instead, owners and operators could simply migrate to another data center, which is exactly what Amazon advised its clients who have been affected by Iranian strikes on AWS Bahrain and AWS Abu Dhabi.\nCloudflare pointed out that this is why it’s difficult to defend against automated threats like bot networks — even though an IP prefix gets blocked or the physical infrastructure behind them gets annihilated, their operators could simply move their operations to another provider in a matter of hours and quickly return to normal traffic levels.",
+  "published_at": "2026-10-15T12:28:24+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f9eb54932bc47e2b4069",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-16/22f59003da8c50b6c2cb035d5a99452e7ed6e1365a17ce372f0d0898258e0bd1.body",
+  "source_sha256": "22f59003da8c50b6c2cb035d5a99452e7ed6e1365a17ce372f0d0898258e0bd1",
+  "fetched_at": "2026-10-16T01:03:18.867078+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.19568",
+  "title": "INTACT: Inducing Latent Reasoning on a Frozen Backbone",
+  "text": "arXiv:2610.19568v1 Announce Type: new\nAbstract: Latent reasoning replaces natural-language chains of thought with compact continuous \"soft-token\" representations, reducing the number of intermediate tokens that must be decoded autoregressively. We use a small external encoder to induce latent reasoning in a frozen backbone model. The encoder iteratively maps the backbone's hidden states to new latent blocks, constructing a latent reasoning prefix, after which the frozen model writes its remaining reasoning and its answer as text. Our method, INTACT, trains this encoder through distillation to reproduce the effect of written reasoning steps while keeping the model's behavior close to that of the frozen backbone, and then reinforces it on answer correctness. Across four frozen backbones from 1B to 8B, INTACT improves both GSM8K and average out-of-domain accuracy, including GSM8K gains from 75.8% to 79.3% on Llama-3.2-3B and from 77.6% to 79.7% on Qwen2.5-3B. It also reduces end-to-end latency per problem by 19% on Llama-3.2-3B and outperforms the evaluated latent-reasoning baselines at the 3B and 8B scales. Beyond the mathematics setting, the same recipe trained on a multi-domain corpus improves the frozen backbone on twelve evaluation benchmarks spanning mathematics, science, and commonsense, without task-specific adaptation.",
+  "published_at": null,
+  "announced_at": "2026-10-15T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "2f541e8880787ebb778c",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+  "source_sha256": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+  "fetched_at": "2026-10-16T01:03:04.867013+00:00"
+}

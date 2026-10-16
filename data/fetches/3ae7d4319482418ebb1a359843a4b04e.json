@@ -1,0 +1,31 @@
+{
+  "raw_path": "raw/2026-10-16/d8591e57cbb0ddec4ecf845b86333d926d1422872598233d5fa79a1d9d2ceace.body",
+  "sha256": "d8591e57cbb0ddec4ecf845b86333d926d1422872598233d5fa79a1d9d2ceace",
+  "source_url": "https://ir.amd.com/news-events/press-releases/rss",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-16T01:03:01.374479+00:00",
+  "source_id": "amd-ir",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/xml;charset=UTF-8",
+    "Content-Length": "1419",
+    "Connection": "close",
+    "Date": "Fri, 16 Oct 2026 01:03:01 GMT",
+    "Server": "Apache",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Permissions-Policy": "microphone=(), camera=(), geolocation=(), screen-wake-lock=()",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 aa3f2aaefc6458180abcb399f03d57c6.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "SIN2-P6",
+    "X-Amz-Cf-Id": "w1DO7vLQboKyOZAJ-8kpV4yJjwl1u5LPwZkJ-S-WbFc6VXMSfPaTwA==",
+    "Age": "1"
+  },
+  "final_url": "https://ir.amd.com/news-events/press-releases/rss",
+  "truncated": false,
+  "charset": "utf-8"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-trends/article/3371007/ai-agents-tencent-cloud-try-break-alibabas-amap-researchers",
+  "title": "AI agents on Tencent Cloud try to break into Alibaba’s Amap: researchers",
+  "text": "A fleet of artificial intelligence agents operating on a Tencent Holdings cloud platform made thousands of attempts to circumvent security protections on Alibaba Group Holding’s mapping service, according to findings by third-party researchers.\nIt is one of the first reported “rogue” AI events involving Chinese companies, following a string of recent high-profile incidents in the US, including from OpenAI and Anthropic, highlighting the risks of increasingly autonomous AI systems.\nAgents running...",
+  "published_at": "2026-10-16T01:00:06+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "422b430c230a49440285",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/11f66604417f42a8985cdac32298ccbfee8313641bda4bef484dd6a2caa1c5d6.body",
+  "source_sha256": "11f66604417f42a8985cdac32298ccbfee8313641bda4bef484dd6a2caa1c5d6",
+  "fetched_at": "2026-10-16T01:03:17.405420+00:00"
+}

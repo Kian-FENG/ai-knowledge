@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+15 Oct 2026\n+🔔 New article published\n+NVIDIA Releases Nemotron 3.5 Super VL and Nemotron 3.5 Bolt 74B A9B\n+Nvidia’s Nemotron 3.5 Super VL is now the leading US open weight model, scoring 26 on the Artificial Analysis Intelligence Index\n+New language model evaluation results available\n+Muse Spark Open (Xhigh)\n+Intelligence Index: 39\n+New language model evaluation results available\n+Nemotron 3.5 Super VL\n+Intelligence Index: 26\n+New language model evaluation results available\n+Nemotron 3.5 Bolt 74B-A9B\n+Intelligence Index: 21\n+CoreWeave performance results now available\n+Nemotron 3.5 Super VL\n+Nebius performance results now available\n+Nemotron 3.5 Super VLMuse Spark Open (Xhigh)\n+DeepInfra performance results now available\n+Ling 3.1 Flash\n+Crusoe performance results now available\n+DeepSeek V4.1 Flash (Max)DeepSeek V4.1 Flash (Non-reasoning)Nemotron 3.5 Super VL\n+Scaleway performance results now available\n+GLM-5.3 (Low)DeepSeek V4.1 Flash (Non-reasoning)DeepSeek V4.1 Flash (Max)GLM-5.3 (Max)\n+Fireworks performance results now available\n+Inkling (Xhigh)Kimi K3 (Low)Muse Spark Open (Xhigh)\n+Inco performance results now available\n+Kimi K3 (Low)GLM-5.3 (Low)GLM-5.3 (Low)Kimi K3 (Low)DeepSeek V4.1 Flash (Non-reasoning)\n+Together AI performance results now available\n+Nemotron 3.5 Super VLMuse Spark Open (Xhigh)\n+DigitalOcean performance results now available\n+Nemotron 3.5 Super VL\n+Baseten performance results now available\n+Muse Spark Open (Xhigh)\n+14 Oct 2026\n+🔔 New article published\n+Welcome to the era of embodied AI: Introducing AA-Robotics v0.1\n+We are launching AA-Robotics v0.1, our research preview that measures frontier language model performance on understanding, planning, and acting in the physical world. In v0.1, each model is given control of a 6-axis robot arm (5 joints and a gripper) and a simple objective. We’re releasing results for our first eight tasks today.\n-Inco performance results now available\n-MiniMax-M3\n-GLM-5.3 (Max)GLM-5.3-Flash",
+  "id": "315684f167513ba06b66",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-16/d10dce64e7d375fc4adb4511173f1146324f3a200061a9cf61529c59cc81906b.body",
+  "source_sha256": "d10dce64e7d375fc4adb4511173f1146324f3a200061a9cf61529c59cc81906b",
+  "fetched_at": "2026-10-16T01:03:13.604214+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-16T01:03:13.604214+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

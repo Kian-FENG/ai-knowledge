@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.19184",
+  "title": "HERO: Harnessing Evidence for Test-time Refinement and Prompt Optimization in Program Generation",
+  "text": "arXiv:2610.19184v1 Announce Type: new\nAbstract: Harness optimization improves LLMs by refining reusable prompts and scaffolding, yet requires further adaptation for program generation tasks such as text-to-SQL and text-to-Python. Existing methods often rely on LLM reflectors to propose harness updates, which can fix observed failures but also disrupt previously correct behavior. Text-to-code tasks offer a natural way to mitigate this issue: we can execute generated outputs, allowing us to evaluate and verify the effects of proposed updates directly. Building on this signal, we introduce \\textsc{HERO} (\\textbf{H}arnessing \\textbf{E}vidence for \\textbf{R}efinement and \\textbf{O}ptimization), which combines offline and test-time harness optimization. At the first stage, \\method{} learns reusable prompt updates from execution-verified successes and failures and validates candidate revisions before adoption. At test time, we treat the generated code as an instance-specific harness and refine it using execution feedback. Across four SQL, Cypher, and Python benchmarks, \\method{} achieves the best offline performance, improving pass@1 by \\(7.6\\) points over the initial prompt, while test-time refinement adds another \\(2.0\\) points and improves execution efficiency.",
+  "published_at": null,
+  "announced_at": "2026-10-15T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "93bf7dcf4335a1e6f337",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+  "source_sha256": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+  "fetched_at": "2026-10-16T01:03:04.867013+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157813.htm",
+  "title": "AMD正在准备Zen 6桌面APU！入门级定位：8组RDNA 4m计算单元",
+  "text": "快科技10月15日消息，据Moore's Law Is Dead最新透露，AMD正在为AM5接口开发基于Zen 6架构的桌面端APU，代号Medusa 1和Bumblebee。\n目前AMD在桌面端仅提供基于Zen 5的锐龙AI 400系列APU，且仅限OEM渠道，关于Zen 6 APU是否会登陆桌面端一直未有定论。\nMLID在回答观众提问时表示，据其AMD消息源，AMD确实在开发面向AM5接口的Medusa 1和Bumblebee两款APU。\n其中Medusa 1 Zen 6 APU配备8组RDNA 4m计算单元，较小的Bumblebee APU仅配备4组RDNA 4m计算单元。\nMLID认为，Steam Deck 2可能也会采用类似的小型RDNA 4m核显，性能表现会出乎意料，因此Medusa 1桌面APU的8组RDNA 4m CU足以应对轻度游戏需求。\n消息源还透露AMD正在开发另一款Medusa桌面APU，但规格和当前状态未知。\n不过Medusa Halo大核显APU大概率不会上桌面，原因在于大核显APU没有独立显存，只能使用系统内存带宽，当前高速DDR5价格不低，带宽跟不上，核显性能就出不来。MLID认为这正是AMD桌面端只做入门级APU的原因。",
+  "published_at": "2026-10-15T19:37:18+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e9d9dc6ab272c2a583bc",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+  "source_sha256": "f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd",
+  "fetched_at": "2026-10-16T01:03:29.044828+00:00"
+}

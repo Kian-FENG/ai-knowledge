@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/013/706.htm",
+  "title": "宣称“美国最强开源 AI 模型”：Meta 发布 Muse Spark Open",
+  "text": "IT之家 10 月 16 日消息，当地时间 10 月 15 日，Meta 发布了开放权重 AI 模型 Muse Spark Open。Meta 官方宣称，Muse Spark Open 是迄今为止能力最强的美国开放权重模型。\nMuse Spark Open 采用原生多模态架构，总参数量达 816B（其中激活参数 42B），支持 1M token 的上下文窗口。该模型专为代码构建与智能体协作设计，在处理长程任务、复杂软件工程以及多步推理等方面展现出卓越性能。\n得益于最新的 MLX 框架，Muse Spark Open 成为同级别中首个仅凭两台苹果 M5 Ultra 芯片（512 GB 内存版本）的 Mac Studio 即可在桌面端本地运行的模型。\n即日起，开发者可通过 Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter 以及 Together AI 等 API 平台调用 Muse Spark Open；模型权重也已同步上线 Amazon SageMaker AI、Google Cloud Model Garden、Hugging Face 与 Microsoft Foundry Models 提供公开下载。\n该模型已适配 SGLang、vLLM、TensorRT-LLM、Hugging Face Transformers、Apple MLX、llama.cpp 和 Unsloth 等主流推理引擎，并针对 AMD、苹果、英特尔及英伟达芯片完成了深度优化。开发者亦可基于 PyTorch 框架便捷地进行二次开发与定制。\nMuse Spark Open 在后训练阶段针对性地加强了安全对齐。基准测试结果表明，该模型在所有受测风险维度上均具备严密的安全保障能力。\n本次模型权重基于附带限制性商用条款的 Muse Model License 发布，绝大多数开发者均可免费获取并使用该模型。\nIT之家附相关测试数据如下：",
+  "published_at": "2026-10-15T23:36:51+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "bb966c133dee21ad62e3",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/4530b030dbd17cc2406429b34a2d481031bcd17c48b4899aa2dff172413c03ea.body",
+  "source_sha256": "4530b030dbd17cc2406429b34a2d481031bcd17c48b4899aa2dff172413c03ea",
+  "fetched_at": "2026-10-16T01:03:20.892089+00:00"
+}

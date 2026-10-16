@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-15-nemotron-3-5-super-vl-vllm",
+  "title": "Announcing Day 0 Support for NVIDIA Nemotron 3.5 Super VL on vLLMOct 15, 2026·6 min readRun NVIDIA Nemotron 3.5 Super VL on vLLM for multimodal agent workflows with image, document, and video understa",
+  "link_text": "Announcing Day 0 Support for NVIDIA Nemotron 3.5 Super VL on vLLMOct 15, 2026·6 min readRun NVIDIA Nemotron 3.5 Super VL on vLLM for multimodal agent workflows with image, document, and video understa",
+  "id": "5b7496a31dc4a921198b",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-16/1bd8fb7d220275abbf3dee04190e82476fa3000e1bd649bee8da5dcb9b13b5dd.body",
+  "source_sha256": "1bd8fb7d220275abbf3dee04190e82476fa3000e1bd649bee8da5dcb9b13b5dd",
+  "fetched_at": "2026-10-16T01:03:03.172115+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-16T01:03:03.172115+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

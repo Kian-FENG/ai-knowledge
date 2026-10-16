@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
+  "title": "GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
+  "text": "On the TheoPhysEval benchmark, GPT-6-Astra solves 49 of 50 unpublished theoretical physics calculations as accurately as leading specialists. In some cases where the agent seemed to fail, the experts' own reference solutions turned out to contain errors. But the researchers say physics hasn't had a breakthrough like the ones in mathematics, because the agents lack \"taste.\" They still think autonomous, top-level AI research could arrive soon. They already see consequences for how young physicists are trained and for equal opportunity in the field.\nThe article GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece appeared first on The Decoder.",
+  "published_at": "2026-10-15T15:24:15+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d6956205925bb28cbaed",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/6e87f373f82ff62648fc2077acabd09b2a3cd3ba0ed8b4f06e8b915513e96ded.body",
+  "source_sha256": "6e87f373f82ff62648fc2077acabd09b2a3cd3ba0ed8b4f06e8b915513e96ded",
+  "fetched_at": "2026-10-16T01:03:15.926885+00:00"
+}

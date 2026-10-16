@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+  "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+  "text": "Following a string of incidents where AI models hacked websites and breached government systems during testing phases, the Federal Trade Commission is officially probing Anthropic and OpenAI over consumer harms, an insider told Axios.\nOn Wednesday, the FTC sent out civil investigative demands seeking a wide range of information from the AI firms on recent safety incidents.\nThe FTC did not respond to Ars’ request to review the subpoena demands. However, Axios’ source said the requests spanned more than 50 pages of questions and sought documents related to the incidents, internal security measures taken, and marketing materials that may suggest consumers were misled.\nRead full article\nComments",
+  "published_at": "2026-10-15T15:43:24+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "003647c313b9ca30c69e",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-16/4b210f3c9ea162416207cb7dd131ed83dcbcc2b25321e11d86e87e7a099cb2c3.body",
+  "source_sha256": "4b210f3c9ea162416207cb7dd131ed83dcbcc2b25321e11d86e87e7a099cb2c3",
+  "fetched_at": "2026-10-16T01:03:18.771954+00:00"
+}

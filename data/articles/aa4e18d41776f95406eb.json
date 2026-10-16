@@ -4,7 +4,7 @@
   "text": "AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes...\nAI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes reliability a major barrier to production adoption. In multistage engineering workflows, an undetected error early in setup can silently propagate through downstream stages and final artifact generation. Evaluating and refining these agents against…\nSource",
   "published_at": "2026-10-14T16:10:45+00:00",
   "announced_at": null,
-  "updated_at": "2026-10-14T16:10:48+00:00",
+  "updated_at": "2026-10-15T18:13:14+00:00",
   "date_basis": "published",
   "extraction": "feed-content",
   "date_precision": "timestamp",
@@ -12,7 +12,7 @@
   "source_id": "nvidia",
   "source_name": "NVIDIA Technical Blog",
   "section": 3,
-  "raw_path": "raw/2026-10-15/89650138bda491d69190f6e75d8a4b4446a94e5240196e335929e56f5babcb10.body",
-  "source_sha256": "89650138bda491d69190f6e75d8a4b4446a94e5240196e335929e56f5babcb10",
-  "fetched_at": "2026-10-15T01:03:37.208272+00:00"
+  "raw_path": "raw/2026-10-16/2137928155a6334d1ff918fbcf9c0368d7db8370f41fffbdccfec135ef808cf0.body",
+  "source_sha256": "2137928155a6334d1ff918fbcf9c0368d7db8370f41fffbdccfec135ef808cf0",
+  "fetched_at": "2026-10-16T01:03:03.851751+00:00"
 }

@@ -1,0 +1,1524 @@
+{
+  "checked_at": "2026-10-16T01:18:03.490408+00:00",
+  "pages": [
+    {
+      "path": "reference/sources/rosalind-academic-plan-20261015.md",
+      "id": "source-rosalind-academic-plan-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+          "resolution": {
+            "status": "external",
+            "target": "https://openai.com/index/introducing-the-rosalind-academic-plan/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49.txt",
+            "target": "raw/2026-10-16/f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+          "resolution": {
+            "status": "external",
+            "target": "https://openai.com/index/introducing-the-rosalind-academic-plan/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49.txt",
+          "locator": "What the plan includes / Apply / Responsible access；公告正文有限摘录，未验证演示。",
+          "version": "sha256:f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49.txt",
+            "target": "raw/2026-10-16/f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+          "resolution": {
+            "status": "external",
+            "target": "https://openai.com/index/introducing-the-rosalind-academic-plan/"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49.txt",
+          "sha256": "f7b93c25b33e46e5f0fef37597dbe309a587beb68ee2a8f4400df56262733f49"
+        }
+      ],
+      "reading_scope": "What the plan includes / Apply / Responsible access；公告正文有限摘录，未验证演示。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/bee-frontier-eclipse-20261015.md",
+      "id": "source-bee-frontier-eclipse-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24.body",
+            "target": "raw/2026-10-16/307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24.body",
+          "locator": "官方正文，How Bee works / Privacy / Availability and pricing；未购买测试。",
+          "version": "sha256:307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24.body",
+            "target": "raw/2026-10-16/307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24.body",
+          "sha256": "307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24"
+        }
+      ],
+      "reading_scope": "官方正文，How Bee works / Privacy / Availability and pricing；未购买测试。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/deepseek-outage-credits-20261015.md",
+      "id": "source-deepseek-outage-credits-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://news.mydrivers.com/1/1157/1157790.htm",
+          "resolution": {
+            "status": "external",
+            "target": "https://news.mydrivers.com/1/1157/1157790.htm"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+            "target": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://news.mydrivers.com/1/1157/1157790.htm",
+          "resolution": {
+            "status": "external",
+            "target": "https://news.mydrivers.com/1/1157/1157790.htm"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+          "locator": "媒体完整feed正文；官方状态/history有限可见，原补偿通知未直接获得。",
+          "version": "sha256:f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+            "target": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://news.mydrivers.com/1/1157/1157790.htm",
+          "resolution": {
+            "status": "external",
+            "target": "https://news.mydrivers.com/1/1157/1157790.htm"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+          "sha256": "f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd"
+        }
+      ],
+      "reading_scope": "媒体完整feed正文；官方状态/history有限可见，原补偿通知未直接获得。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/openai-decisions-and-usage-tiers-20261006.md",
+      "id": "source-openai-decisions-and-usage-tiers-20261006",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://developers.openai.com/api/docs/changelog",
+          "resolution": {
+            "status": "external",
+            "target": "https://developers.openai.com/api/docs/changelog"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://developers.openai.com/api/docs/guides/decisions",
+          "resolution": {
+            "status": "external",
+            "target": "https://developers.openai.com/api/docs/guides/decisions"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://developers.openai.com/api/docs/guides/rate-limits",
+          "resolution": {
+            "status": "external",
+            "target": "https://developers.openai.com/api/docs/guides/rate-limits"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://developers.openai.com/api/docs/guides/decisions-voice",
+          "resolution": {
+            "status": "external",
+            "target": "https://developers.openai.com/api/docs/guides/decisions-voice"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt",
+            "target": "raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://developers.openai.com/api/docs/changelog",
+          "resolution": {
+            "status": "external",
+            "target": "https://developers.openai.com/api/docs/changelog"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt",
+          "locator": "Changelog October 6两条；Decisions How decisions work / Choose a question type / Pricing and availability；Rate limits Usage tiers / Spend limits",
+          "version": "sha256:00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt",
+            "target": "raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b.txt",
+          "locator": "10月15日changelog；decisions-voice概述、触发与Run actions；未运行代码。",
+          "version": "sha256:5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b.txt",
+            "target": "raw/2026-10-16/5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://developers.openai.com/api/docs/changelog",
+          "resolution": {
+            "status": "external",
+            "target": "https://developers.openai.com/api/docs/changelog"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://developers.openai.com/api/docs/guides/decisions",
+          "resolution": {
+            "status": "external",
+            "target": "https://developers.openai.com/api/docs/guides/decisions"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://developers.openai.com/api/docs/guides/rate-limits",
+          "resolution": {
+            "status": "external",
+            "target": "https://developers.openai.com/api/docs/guides/rate-limits"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt",
+          "sha256": "00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280"
+        },
+        {
+          "raw_path": "raw/2026-10-16/5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b.txt",
+          "sha256": "5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b"
+        }
+      ],
+      "reading_scope": "已读10月6日两项changelog、Decisions文档概述/问题类型/计费与可用性、rate-limits用量层级小节。文档是无日期的当前背景，不当作新发布；未调用API/测试速度，日期仅到日、时区未知。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/chatgpt-live11-rollout-20261015.md",
+      "id": "source-chatgpt-live11-rollout-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "resolution": {
+            "status": "external",
+            "target": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872.txt",
+            "target": "raw/2026-10-16/9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "resolution": {
+            "status": "external",
+            "target": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872.txt",
+          "locator": "仅October15语音release-note小节；未测试账户或音频。",
+          "version": "sha256:9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872.txt",
+            "target": "raw/2026-10-16/9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "resolution": {
+            "status": "external",
+            "target": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872.txt",
+          "sha256": "9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872"
+        }
+      ],
+      "reading_scope": "仅October15语音release-note小节；未测试账户或音频。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/anthropic-metr-access-20261015.md",
+      "id": "source-anthropic-metr-access-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/1860f8884b11c4fb271cc4511c9c4b2006c0efa77cce40daa6d146f4a101953b.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/1860f8884b11c4fb271cc4511c9c4b2006c0efa77cce40daa6d146f4a101953b.body",
+            "target": "raw/2026-10-16/1860f8884b11c4fb271cc4511c9c4b2006c0efa77cce40daa6d146f4a101953b.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/1860f8884b11c4fb271cc4511c9c4b2006c0efa77cce40daa6d146f4a101953b.body",
+          "locator": "全文，employee-like access / three tiers / SecureBio更新脚注；未独立核实内部权限。",
+          "version": "sha256:1860f8884b11c4fb271cc4511c9c4b2006c0efa77cce40daa6d146f4a101953b",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/1860f8884b11c4fb271cc4511c9c4b2006c0efa77cce40daa6d146f4a101953b.body",
+            "target": "raw/2026-10-16/1860f8884b11c4fb271cc4511c9c4b2006c0efa77cce40daa6d146f4a101953b.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/1860f8884b11c4fb271cc4511c9c4b2006c0efa77cce40daa6d146f4a101953b.body",
+          "sha256": "1860f8884b11c4fb271cc4511c9c4b2006c0efa77cce40daa6d146f4a101953b"
+        }
+      ],
+      "reading_scope": "全文，employee-like access / three tiers / SecureBio更新脚注；未独立核实内部权限。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/visko-tpu-case-20261015.md",
+      "id": "source-visko-tpu-case-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://cloud.google.com/blog/products/media-entertainment/how-visko-streams-real-time-world-models-on-google-cloud-tpus/",
+          "resolution": {
+            "status": "external",
+            "target": "https://cloud.google.com/blog/products/media-entertainment/how-visko-streams-real-time-world-models-on-google-cloud-tpus/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/f7095b910e01e0aa98af83be2b39c8367882e5924043d0dd98fe5a910f100bb0.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f7095b910e01e0aa98af83be2b39c8367882e5924043d0dd98fe5a910f100bb0.body",
+            "target": "raw/2026-10-16/f7095b910e01e0aa98af83be2b39c8367882e5924043d0dd98fe5a910f100bb0.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://cloud.google.com/blog/products/media-entertainment/how-visko-streams-real-time-world-models-on-google-cloud-tpus/",
+          "resolution": {
+            "status": "external",
+            "target": "https://cloud.google.com/blog/products/media-entertainment/how-visko-streams-real-time-world-models-on-google-cloud-tpus/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/f7095b910e01e0aa98af83be2b39c8367882e5924043d0dd98fe5a910f100bb0.body",
+          "locator": "Google Cloud案例全文与Visko官网可见产品；厂商联合案例，未复现。",
+          "version": "sha256:f7095b910e01e0aa98af83be2b39c8367882e5924043d0dd98fe5a910f100bb0",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f7095b910e01e0aa98af83be2b39c8367882e5924043d0dd98fe5a910f100bb0.body",
+            "target": "raw/2026-10-16/f7095b910e01e0aa98af83be2b39c8367882e5924043d0dd98fe5a910f100bb0.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://cloud.google.com/blog/products/media-entertainment/how-visko-streams-real-time-world-models-on-google-cloud-tpus/",
+          "resolution": {
+            "status": "external",
+            "target": "https://cloud.google.com/blog/products/media-entertainment/how-visko-streams-real-time-world-models-on-google-cloud-tpus/"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/f7095b910e01e0aa98af83be2b39c8367882e5924043d0dd98fe5a910f100bb0.body",
+          "sha256": "f7095b910e01e0aa98af83be2b39c8367882e5924043d0dd98fe5a910f100bb0"
+        }
+      ],
+      "reading_scope": "Google Cloud案例全文与Visko官网可见产品；厂商联合案例，未复现。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/muse-spark-open-20261015.md",
+      "id": "source-muse-spark-open-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://pytorch.org/blog/muse-spark-open/",
+          "resolution": {
+            "status": "external",
+            "target": "https://pytorch.org/blog/muse-spark-open/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+          "resolution": {
+            "status": "external",
+            "target": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body",
+            "target": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://pytorch.org/blog/muse-spark-open/",
+          "resolution": {
+            "status": "external",
+            "target": "https://pytorch.org/blog/muse-spark-open/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body",
+          "locator": "PyTorch全文；HF可见模型卡、访问及许可1–3条；未下载权重或审benchmark。",
+          "version": "sha256:f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body",
+            "target": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/990c71b5351d19747d97f282be4da0e3272ed15c72856906f80b910fc15d6363.txt",
+          "locator": "PyTorch全文；HF可见模型卡、访问及许可1–3条；未下载权重或审benchmark。",
+          "version": "sha256:990c71b5351d19747d97f282be4da0e3272ed15c72856906f80b910fc15d6363",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/990c71b5351d19747d97f282be4da0e3272ed15c72856906f80b910fc15d6363.txt",
+            "target": "raw/2026-10-16/990c71b5351d19747d97f282be4da0e3272ed15c72856906f80b910fc15d6363.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://pytorch.org/blog/muse-spark-open/",
+          "resolution": {
+            "status": "external",
+            "target": "https://pytorch.org/blog/muse-spark-open/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+          "resolution": {
+            "status": "external",
+            "target": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body",
+          "sha256": "f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc"
+        },
+        {
+          "raw_path": "raw/2026-10-16/990c71b5351d19747d97f282be4da0e3272ed15c72856906f80b910fc15d6363.txt",
+          "sha256": "990c71b5351d19747d97f282be4da0e3272ed15c72856906f80b910fc15d6363"
+        }
+      ],
+      "reading_scope": "PyTorch全文；HF可见模型卡、访问及许可1–3条；未下载权重或审benchmark。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/nemotron35-super-vl-20261015.md",
+      "id": "source-nemotron35-super-vl-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "resolution": {
+            "status": "external",
+            "target": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/bed3b5b7e11a3d7128346829f8ec5ecb56c07cc53b36596d2a58ee17e09a40d0.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/bed3b5b7e11a3d7128346829f8ec5ecb56c07cc53b36596d2a58ee17e09a40d0.body",
+            "target": "raw/2026-10-16/bed3b5b7e11a3d7128346829f8ec5ecb56c07cc53b36596d2a58ee17e09a40d0.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "resolution": {
+            "status": "external",
+            "target": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/bed3b5b7e11a3d7128346829f8ec5ecb56c07cc53b36596d2a58ee17e09a40d0.body",
+          "locator": "官方技术博客全文，Architecture / customization / mixed precision / release；未复现性能。",
+          "version": "sha256:bed3b5b7e11a3d7128346829f8ec5ecb56c07cc53b36596d2a58ee17e09a40d0",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/bed3b5b7e11a3d7128346829f8ec5ecb56c07cc53b36596d2a58ee17e09a40d0.body",
+            "target": "raw/2026-10-16/bed3b5b7e11a3d7128346829f8ec5ecb56c07cc53b36596d2a58ee17e09a40d0.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+          "resolution": {
+            "status": "external",
+            "target": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/bed3b5b7e11a3d7128346829f8ec5ecb56c07cc53b36596d2a58ee17e09a40d0.body",
+          "sha256": "bed3b5b7e11a3d7128346829f8ec5ecb56c07cc53b36596d2a58ee17e09a40d0"
+        }
+      ],
+      "reading_scope": "官方技术博客全文，Architecture / customization / mixed precision / release；未复现性能。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/timestral-release-20261015.md",
+      "id": "source-timestral-release-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://mistral.ai/news/timestral/",
+          "resolution": {
+            "status": "external",
+            "target": "https://mistral.ai/news/timestral/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/f306f7226035b25040e52fa772fb681f54b5c48c9dedce24f176e2433e93c3da.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f306f7226035b25040e52fa772fb681f54b5c48c9dedce24f176e2433e93c3da.body",
+            "target": "raw/2026-10-16/f306f7226035b25040e52fa772fb681f54b5c48c9dedce24f176e2433e93c3da.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://mistral.ai/news/timestral/",
+          "resolution": {
+            "status": "external",
+            "target": "https://mistral.ai/news/timestral/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/f306f7226035b25040e52fa772fb681f54b5c48c9dedce24f176e2433e93c3da.body",
+          "locator": "官网完整公告，family / contributions / Forge / specs；无独立复现。",
+          "version": "sha256:f306f7226035b25040e52fa772fb681f54b5c48c9dedce24f176e2433e93c3da",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f306f7226035b25040e52fa772fb681f54b5c48c9dedce24f176e2433e93c3da.body",
+            "target": "raw/2026-10-16/f306f7226035b25040e52fa772fb681f54b5c48c9dedce24f176e2433e93c3da.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://mistral.ai/news/timestral/",
+          "resolution": {
+            "status": "external",
+            "target": "https://mistral.ai/news/timestral/"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/f306f7226035b25040e52fa772fb681f54b5c48c9dedce24f176e2433e93c3da.body",
+          "sha256": "f306f7226035b25040e52fa772fb681f54b5c48c9dedce24f176e2433e93c3da"
+        }
+      ],
+      "reading_scope": "官网完整公告，family / contributions / Forge / specs；无独立复现。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/flashinfer-v072-20261015.md",
+      "id": "source-flashinfer-v072-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.7.2",
+          "resolution": {
+            "status": "external",
+            "target": "https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.7.2"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/37b9bb79f560d6ddeeed121c889a13c91ba81f131c506105a873bee66df68cad.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/37b9bb79f560d6ddeeed121c889a13c91ba81f131c506105a873bee66df68cad.body",
+            "target": "raw/2026-10-16/37b9bb79f560d6ddeeed121c889a13c91ba81f131c506105a873bee66df68cad.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.7.2",
+          "resolution": {
+            "status": "external",
+            "target": "https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.7.2"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/37b9bb79f560d6ddeeed121c889a13c91ba81f131c506105a873bee66df68cad.body",
+          "locator": "官方Atom的Highlights、升级说明及GitHub对应部分；完整Atom归档，PR清单未逐项审读，未运行。",
+          "version": "sha256:37b9bb79f560d6ddeeed121c889a13c91ba81f131c506105a873bee66df68cad",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/37b9bb79f560d6ddeeed121c889a13c91ba81f131c506105a873bee66df68cad.body",
+            "target": "raw/2026-10-16/37b9bb79f560d6ddeeed121c889a13c91ba81f131c506105a873bee66df68cad.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.7.2",
+          "resolution": {
+            "status": "external",
+            "target": "https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.7.2"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/37b9bb79f560d6ddeeed121c889a13c91ba81f131c506105a873bee66df68cad.body",
+          "sha256": "37b9bb79f560d6ddeeed121c889a13c91ba81f131c506105a873bee66df68cad"
+        }
+      ],
+      "reading_scope": "官方Atom的Highlights、升级说明及GitHub对应部分；完整Atom归档，PR清单未逐项审读，未运行。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/dynamo-nemotron35-preview-20261015.md",
+      "id": "source-dynamo-nemotron35-preview-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-nemotron-3.5-super-vl-dev.1",
+          "resolution": {
+            "status": "external",
+            "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-nemotron-3.5-super-vl-dev.1"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/2d23cacd2bd2feeb27bdce05e071266b911bdd70b7699322953042e526b326e8.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/2d23cacd2bd2feeb27bdce05e071266b911bdd70b7699322953042e526b326e8.body",
+            "target": "raw/2026-10-16/2d23cacd2bd2feeb27bdce05e071266b911bdd70b7699322953042e526b326e8.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-nemotron-3.5-super-vl-dev.1",
+          "resolution": {
+            "status": "external",
+            "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-nemotron-3.5-super-vl-dev.1"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/2d23cacd2bd2feeb27bdce05e071266b911bdd70b7699322953042e526b326e8.body",
+          "locator": "官方Atom完整release，Summary / versions / recipes / Known Issues；无部署实验。",
+          "version": "sha256:2d23cacd2bd2feeb27bdce05e071266b911bdd70b7699322953042e526b326e8",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/2d23cacd2bd2feeb27bdce05e071266b911bdd70b7699322953042e526b326e8.body",
+            "target": "raw/2026-10-16/2d23cacd2bd2feeb27bdce05e071266b911bdd70b7699322953042e526b326e8.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-nemotron-3.5-super-vl-dev.1",
+          "resolution": {
+            "status": "external",
+            "target": "https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-nemotron-3.5-super-vl-dev.1"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/2d23cacd2bd2feeb27bdce05e071266b911bdd70b7699322953042e526b326e8.body",
+          "sha256": "2d23cacd2bd2feeb27bdce05e071266b911bdd70b7699322953042e526b326e8"
+        }
+      ],
+      "reading_scope": "官方Atom完整release，Summary / versions / recipes / Known Issues；无部署实验。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/executorch-cortex-m-20261015.md",
+      "id": "source-executorch-cortex-m-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://pytorch.org/blog/bringing-executorch-to-arm-cortex-m-cpus/",
+          "resolution": {
+            "status": "external",
+            "target": "https://pytorch.org/blog/bringing-executorch-to-arm-cortex-m-cpus/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body",
+            "target": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://pytorch.org/blog/bringing-executorch-to-arm-cortex-m-cpus/",
+          "resolution": {
+            "status": "external",
+            "target": "https://pytorch.org/blog/bringing-executorch-to-arm-cortex-m-cpus/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body",
+          "locator": "全文，Backend / Ethos-U / benchmark条件 / What is Next；不执行低层移植。",
+          "version": "sha256:f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body",
+            "target": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://pytorch.org/blog/bringing-executorch-to-arm-cortex-m-cpus/",
+          "resolution": {
+            "status": "external",
+            "target": "https://pytorch.org/blog/bringing-executorch-to-arm-cortex-m-cpus/"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc.body",
+          "sha256": "f6ed89b3945384a3ddd55be4907d0df7c42188d88953ab39da84bd0692a006cc"
+        }
+      ],
+      "reading_scope": "全文，Backend / Ethos-U / benchmark条件 / What is Next；不执行低层移植。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/papers/parallelism-slo-261019405.md",
+      "id": "paper-parallelism-slo-261019405",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://arxiv.org/abs/2610.19405",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.19405"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+            "target": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://arxiv.org/abs/2610.19405",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.19405"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+          "locator": "arXiv abstract / submission history；15页正文、7图未读，公告仅日精度。",
+          "version": "sha256:d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+            "target": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://arxiv.org/abs/2610.19405",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.19405"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+          "sha256": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900"
+        }
+      ],
+      "reading_scope": "arXiv abstract / submission history；15页正文、7图未读，公告仅日精度。",
+      "verification": "source-checked",
+      "announced_at": "2026-10-15T00:00:00-04:00"
+    },
+    {
+      "path": "reference/papers/interlock-261019686.md",
+      "id": "paper-interlock-261019686",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://arxiv.org/abs/2610.19686",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.19686"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+            "target": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://arxiv.org/abs/2610.19686",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.19686"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+          "locator": "摘要与v1版本史；未审全文、代码、训练预算或独立复现。",
+          "version": "sha256:d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+            "target": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://arxiv.org/abs/2610.19686",
+          "resolution": {
+            "status": "external",
+            "target": "https://arxiv.org/abs/2610.19686"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900.body",
+          "sha256": "d888203848278d32cf84765a62cd470fd1a1197761752ded1792127c9f5d8900"
+        }
+      ],
+      "reading_scope": "摘要与v1版本史；未审全文、代码、训练预算或独立复现。",
+      "verification": "source-checked",
+      "announced_at": "2026-10-15T00:00:00-04:00"
+    },
+    {
+      "path": "reference/sources/tsmc-q3-results-20261015.md",
+      "id": "source-tsmc-q3-results-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+          "resolution": {
+            "status": "external",
+            "target": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616.txt",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616.txt",
+            "target": "raw/2026-10-16/ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+          "resolution": {
+            "status": "external",
+            "target": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616.txt",
+          "locator": "官方两页Earnings Release与page1视觉核查；未读电话会/Management Report。",
+          "version": "sha256:ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616.txt",
+            "target": "raw/2026-10-16/ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616.txt"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf",
+          "resolution": {
+            "status": "external",
+            "target": "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616.txt",
+          "sha256": "ff3f0f20424c1e8e74c235476262cfe16bcd11d7678b546ee44a70a30f6cb616"
+        }
+      ],
+      "reading_scope": "官方两页Earnings Release与page1视觉核查；未读电话会/Management Report。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/sources/visko-products-undated.md",
+      "id": "source-visko-products-undated",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "https://www.visko.ai/",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.visko.ai/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "source",
+          "target": "raw/2026-10-16/52c46f23d268af7ba31fc6b4336821f3e90e625033e6c956621fe71221f28263.body",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/52c46f23d268af7ba31fc6b4336821f3e90e625033e6c956621fe71221f28263.body",
+            "target": "raw/2026-10-16/52c46f23d268af7ba31fc6b4336821f3e90e625033e6c956621fe71221f28263.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "url",
+          "target": "https://www.visko.ai/",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.visko.ai/"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "raw/2026-10-16/52c46f23d268af7ba31fc6b4336821f3e90e625033e6c956621fe71221f28263.body",
+          "locator": "Models / Research / footer",
+          "version": "sha256:52c46f23d268af7ba31fc6b4336821f3e90e625033e6c956621fe71221f28263",
+          "resolution": {
+            "status": "raw",
+            "path": "raw/2026-10-16/52c46f23d268af7ba31fc6b4336821f3e90e625033e6c956621fe71221f28263.body",
+            "target": "raw/2026-10-16/52c46f23d268af7ba31fc6b4336821f3e90e625033e6c956621fe71221f28263.body"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "https://www.visko.ai/",
+          "resolution": {
+            "status": "external",
+            "target": "https://www.visko.ai/"
+          }
+        }
+      ],
+      "raw_hashes": [
+        {
+          "raw_path": "raw/2026-10-16/52c46f23d268af7ba31fc6b4336821f3e90e625033e6c956621fe71221f28263.body",
+          "sha256": "52c46f23d268af7ba31fc6b4336821f3e90e625033e6c956621fe71221f28263"
+        }
+      ],
+      "reading_scope": "全部官网可见文字；无发布日期，仅背景。",
+      "verification": "source-checked"
+    },
+    {
+      "path": "reference/entities/visko.md",
+      "id": "entity-visko",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-visko-tpu-case-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-tpu-case-20261015.md",
+            "target": "source-visko-tpu-case-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-visko-products-undated",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-products-undated.md",
+            "target": "source-visko-products-undated"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-visko-tpu-case-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-tpu-case-20261015.md",
+            "target": "source-visko-tpu-case-20261015"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-visko-products-undated",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-products-undated.md",
+            "target": "source-visko-products-undated"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-visko-tpu-case-20261015",
+          "locator": "客户案例标题/作者/产品与时间线",
+          "version": "2026-10-15入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-tpu-case-20261015.md",
+            "target": "source-visko-tpu-case-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-visko-products-undated",
+          "locator": "官网产品与页脚",
+          "version": "sha256:52c46f23d268af7ba31fc6b4336821f3e90e625033e6c956621fe71221f28263",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-products-undated.md",
+            "target": "source-visko-products-undated"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/visko-tpu-case-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-tpu-case-20261015.md",
+            "target": "reference/sources/visko-tpu-case-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/visko-products-undated",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-products-undated.md",
+            "target": "reference/sources/visko-products-undated"
+          }
+        }
+      ],
+      "raw_hashes": [],
+      "reading_scope": null,
+      "verification": "source-checked"
+    },
+    {
+      "path": "research/synthesis/agent-supply-access-reliability-20261015.md",
+      "id": "note-agent-supply-access-reliability-20261015",
+      "lifecycle": "published",
+      "query_visible": true,
+      "sources": [
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-muse-spark-open-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/muse-spark-open-20261015.md",
+            "target": "source-muse-spark-open-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-deepseek-outage-credits-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/deepseek-outage-credits-20261015.md",
+            "target": "source-deepseek-outage-credits-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-visko-tpu-case-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-tpu-case-20261015.md",
+            "target": "source-visko-tpu-case-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-dynamo-nemotron35-preview-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/dynamo-nemotron35-preview-20261015.md",
+            "target": "source-dynamo-nemotron35-preview-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "sources",
+          "target": "source-anthropic-metr-access-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/anthropic-metr-access-20261015.md",
+            "target": "source-anthropic-metr-access-20261015"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-muse-spark-open-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/muse-spark-open-20261015.md",
+            "target": "source-muse-spark-open-20261015"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-deepseek-outage-credits-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/deepseek-outage-credits-20261015.md",
+            "target": "source-deepseek-outage-credits-20261015"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-visko-tpu-case-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-tpu-case-20261015.md",
+            "target": "source-visko-tpu-case-20261015"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-dynamo-nemotron35-preview-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/dynamo-nemotron35-preview-20261015.md",
+            "target": "source-dynamo-nemotron35-preview-20261015"
+          }
+        },
+        {
+          "kind": "navigation",
+          "field": "related",
+          "target": "source-anthropic-metr-access-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/anthropic-metr-access-20261015.md",
+            "target": "source-anthropic-metr-access-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-muse-spark-open-20261015",
+          "locator": "各页事实、归因、条件与局限",
+          "version": "2026-10-15入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/muse-spark-open-20261015.md",
+            "target": "source-muse-spark-open-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-deepseek-outage-credits-20261015",
+          "locator": "各页事实、归因、条件与局限",
+          "version": "2026-10-15入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/deepseek-outage-credits-20261015.md",
+            "target": "source-deepseek-outage-credits-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-visko-tpu-case-20261015",
+          "locator": "各页事实、归因、条件与局限",
+          "version": "2026-10-15入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-tpu-case-20261015.md",
+            "target": "source-visko-tpu-case-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-dynamo-nemotron35-preview-20261015",
+          "locator": "各页事实、归因、条件与局限",
+          "version": "2026-10-15入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/dynamo-nemotron35-preview-20261015.md",
+            "target": "source-dynamo-nemotron35-preview-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "evidence",
+          "target": "source-anthropic-metr-access-20261015",
+          "locator": "各页事实、归因、条件与局限",
+          "version": "2026-10-15入库版本",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/anthropic-metr-access-20261015.md",
+            "target": "source-anthropic-metr-access-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/muse-spark-open-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/muse-spark-open-20261015.md",
+            "target": "reference/sources/muse-spark-open-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/deepseek-outage-credits-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/deepseek-outage-credits-20261015.md",
+            "target": "reference/sources/deepseek-outage-credits-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/visko-tpu-case-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/visko-tpu-case-20261015.md",
+            "target": "reference/sources/visko-tpu-case-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/dynamo-nemotron35-preview-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/dynamo-nemotron35-preview-20261015.md",
+            "target": "reference/sources/dynamo-nemotron35-preview-20261015"
+          }
+        },
+        {
+          "kind": "evidence",
+          "field": "body",
+          "target": "reference/sources/anthropic-metr-access-20261015",
+          "resolution": {
+            "status": "resolved",
+            "path": "reference/sources/anthropic-metr-access-20261015.md",
+            "target": "reference/sources/anthropic-metr-access-20261015"
+          }
+        }
+      ],
+      "raw_hashes": [],
+      "reading_scope": null,
+      "verification": "source-checked"
+    }
+  ],
+  "published_count": 19
+}

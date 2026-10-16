@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+  "title": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop",
+  "text": "With Nemotron 3.5 Super VL, Nvidia is releasing an open multimodal model with 120 billion parameters for enterprise agents. Two compact Bolt models bring agents to local machines. Dozens of organizations are already fine-tuning Super VL, but getting the most out of it means buying Nvidia hardware.\nThe article Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop appeared first on The Decoder.",
+  "published_at": "2026-10-15T16:09:44+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "50d5d8ca33ba8786f3d1",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/6e87f373f82ff62648fc2077acabd09b2a3cd3ba0ed8b4f06e8b915513e96ded.body",
+  "source_sha256": "6e87f373f82ff62648fc2077acabd09b2a3cd3ba0ed8b4f06e8b915513e96ded",
+  "fetched_at": "2026-10-16T01:03:15.926885+00:00"
+}

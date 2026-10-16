@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1157/1157762.htm",
+  "title": "V4.1 Pro没来 崩溃5个小时后DeepSeek补偿用户7天费用：用量大的赚了",
+  "text": "快科技10月15日消息，今天上午很多开发者工作效率不会高了，因为DeepSeek服务崩溃，从早上8点多到中午1点才搞好，持续大约5个小时。\n虽然DeepSeek近期有过多次服务崩溃，但之前持续时间都比较短，影响不大，这次的5个小时算是很严重的服务问题了，很多人的工作也因此耽误了。\nDeepSeek倒是也很干脆，还没发公告的情况下就开始给大家赔付，看后台的费用中已经多了一个补偿金，是过去7天使用DeepSeek API的退费，涉及8到14日这三天。\n小编每天尝试各种白嫖API，不到万不得已不去用DeepSeek的API，所以退赔费用只有1.08元，那些使用量大的用户一天都可能几百块，这7天估计能退上千块，等于一次DeepSeek特色的重置了。\nDeepSeek这次的服务崩溃之前还以为是大的要来了——传闻要上DeepSeek V4.1 Pro了，但现在来看可能就是纯生产事故了，估计跟这几天用量太大有关。\n要知道这几天OpenCode、CommandCode两天用DeepSeek V4.1 Flash作为筹码，将月度套餐额度从60美元一直拉到80、100美元甚至120美元，OpenCode刚刚又直接宣布免费，估计接下来用量还会持续扩大。\n这次的事故也会给DeepSeek提个醒，万一接下来发布的DeepSeek V4.1 Pro性能很不错，那整体的用量还会再上一个台阶，非常考验DeepSeek的算力资源。\n如果算力还是不够，那后果只有一个，DeepSeek的大模型还得继续涨价，这反过来又会影响口碑，今年在涨价降价上已经有过多次折腾，这样的操作不利于DeepSeek做大做强。\n好消息是DeepSeek近期的融资额从计划的500亿增加到了1000亿，这笔钱够他们建一套强大的AI数据中心了，之前的消息说是会购买16万套华为昇腾平台，现在钱和需求都不是问题，就看华为的芯片供应量能不能跟上了。",
+  "published_at": "2026-10-15T17:34:39+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "af698c4a62b38cc2daff",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd.body",
+  "source_sha256": "f017708f4f8804aba1669c2c344633682fd3d0d067634804d6bba251cbdde7cd",
+  "fetched_at": "2026-10-16T01:03:29.044828+00:00"
+}

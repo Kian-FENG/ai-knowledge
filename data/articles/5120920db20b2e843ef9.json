@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/party-still-going-strong-private-tech",
+  "title": "The Party Is Still Going Strong for Private Tech",
+  "text": "The sentiment gap between public and private markets could not be wider right now. Wall Street investors have been increasingly worried about overborrowing by AI-related companies, as evidenced by skyrocketing yields on CoreWeave bonds, a selloff in semiconductor stocks and the yanking of the IPO of Firmus, the Australian data center operator.\nInvestors in private tech startups are still ebullient, blown away by how fast startups like Fireworks AI have grown.\nThis bifurcation was evident to me this week at Morgan Stanley’s annual private tech companies conference. The mutual fund and other investors fanning out across a lush seaside resort in Dana Point, Calif., were aware of the red washing over trading screens. But that didn’t prevent them from rushing to meet the dozens of startup founders there, particularly if they were in the hot defense or inference sectors.\n“You can see there's a stark disconnect between the public markets and the private markets,” said Diana Doyle, Morgan Stanley’s head of technology equity and equity-linked capital markets on the sidelines of the conference.",
+  "published_at": "2026-10-16T00:37:43+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-16T00:38:55+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5120920db20b2e843ef9",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f09902847ee64513776baaa302da3c50b68434c909113efe23cd0581276ba15e.body",
+  "source_sha256": "f09902847ee64513776baaa302da3c50b68434c909113efe23cd0581276ba15e",
+  "fetched_at": "2026-10-16T01:03:15.658771+00:00"
+}

@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-16/307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24.body",
+  "sha256": "307604d76f289864821acc7ef236e5152d73833629e6e4956815904a17615c24",
+  "source_url": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-16T01:05:23.601473+00:00",
+  "source_id": "amazon-news",
+  "status": 200,
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Date": "Fri, 16 Oct 2026 01:03:46 GMT",
+    "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Link": "</_next/static/media/06389fc2ceb131fb.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/2573a0816525bbf7.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/337fd6ec2b734835.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/42439b8f44a5716c.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/476c2f4d793101fd.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/4d6a9fb8ff3b8fc2.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/665b265b8ab38986.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/7fe83725c48c9c69.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/b6b6385034af0a3e.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/c3d0f0661915be47.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/d180bbba8bf4e40d.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/d892c3e5c534541d.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/e3d5535913b6b6d3.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/f90a977ffdd12ef5.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/css/c9945c7442fc7d5c.css>; rel=preload; as=\"style\", </_next/static/css/b04376dbda111721.css>; rel=preload; as=\"style\", </_next/static/css/645c7dc07309115c.css>; rel=preload; as=\"style\", </_next/static/css/3477cf02ffac4501.css>; rel=preload; as=\"style\", </_next/static/css/e9fb153fea3d5240.css>; rel=preload; as=\"style\", </_next/static/css/295689712baf0450.css>; rel=preload; as=\"style\"",
+    "X-Powered-By": "Next.js",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 f28664317eb9628b30397afa3d6b821c.cloudfront.net (CloudFront)",
+    "Age": "99",
+    "X-Cache": "Hit from cloudfront",
+    "X-Amz-Cf-Pop": "IAD55-P8",
+    "X-Amz-Cf-Id": "dwnACP7n84tynEMKCQYUxUhxtmFgKNuTKkparYX1AFPRyjKWMaPTcQ=="
+  },
+  "final_url": "https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse",
+  "truncated": false,
+  "charset": "utf-8"
+}

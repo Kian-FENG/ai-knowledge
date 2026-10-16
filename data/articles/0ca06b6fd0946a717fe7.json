@@ -1,0 +1,20 @@
+{
+  "title": "Muse Spark Open model card and Muse Model License",
+  "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+  "text": "Read source extract. Release date: October 15, 2026. Meta Platforms: 816B total / 42B active MoE, 1M inference context. Inputs: text, image, video, audio; output: text. BF16 and NVFP4 versions. Weights are gated on Hugging Face. Muse Model License requires copyright/license/usage-policy notices and Built with Muse Spark Open attribution. For Model as a Service businesses, licensee plus affiliates with aggregate gross revenue exceeding USD20M in any consecutive twelve-month period must notify Meta and enter a separate written agreement before offering the model or derivatives in that business. This is an organization-and-affiliates revenue threshold, not this model's revenue or an unrestricted MIT/Apache grant. Reading scope: visible model overview, model access, license conditions 1–3 and limitations; not benchmark harness or downloaded weights.",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "reading_scope": "可见模型卡及许可第1–3条/访问条件/局限；未登录下载、未复核评测。",
+  "published_at": "2026-10-15T00:00:00+08:00",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "0ca06b6fd0946a717fe7",
+  "source_id": "meta-muse-card",
+  "source_name": "Meta Muse Official Model Card",
+  "section": 2,
+  "raw_path": "raw/2026-10-16/990c71b5351d19747d97f282be4da0e3272ed15c72856906f80b910fc15d6363.txt",
+  "source_sha256": "990c71b5351d19747d97f282be4da0e3272ed15c72856906f80b910fc15d6363",
+  "fetched_at": "2026-10-16T01:11:21.762757+00:00",
+  "metadata_correction_note": "2026-10-15 Agent correction: reading scope / source attribution / original announcement carrier; source raw bytes unchanged."
+}

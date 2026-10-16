@@ -1,0 +1,23 @@
+{
+  "raw_path": "raw/2026-10-16/555d323fd3928cc088d7dd622f42eb88697a175e06576bb37c86605643988544.body",
+  "sha256": "555d323fd3928cc088d7dd622f42eb88697a175e06576bb37c86605643988544",
+  "source_url": "https://developers.openai.com/api/docs/changelog",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-16T01:02:52.950628+00:00",
+  "source_id": "openai-api-changelog",
+  "status": 403,
+  "headers": {
+    "Cache-Control": "private, no-store, max-age=0",
+    "Content-Type": "text/html; charset=utf-8",
+    "Retry-After": "30",
+    "Server": "Vercel",
+    "X-Vercel-Challenge-Token": "2.1792112573.60.M2NlZWNlOTI4YTJkMjI2NmVlZWIyNDY3NjBmZWRiMzk7NGFhODg5Nzg7YjM4NjBiZjllODEzZWU1MjczYjhjYjQyYzBkNGM1MTFiZjE5MWMxNzszOzJa9qXx+5iz4durNvxKgV+ShTDX3i3680Rxr9uPMnFnRVHlttIeGfjd0nRN/cehQDXhSdVYX2ATq/XsxIt2RBYBJLYfBPx1.d7a5a303f3c683ec15d6d15d9bbec807",
+    "X-Vercel-Id": "cle1::1792112573-pGvEkhwzJAs2b0F16k93Mwr5YNw0Vusr",
+    "X-Vercel-Mitigated": "challenge",
+    "Date": "Fri, 16 Oct 2026 01:02:53 GMT",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://developers.openai.com/api/docs/changelog",
+  "truncated": false
+}

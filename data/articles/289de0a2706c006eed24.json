@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4027843697676937?f=rss",
+  "title": "可灵AI上线Kling 4.0：支持10-bit HDR、30秒原生直出 刷新视频模型新基准",
+  "text": "36氪获悉，10月15日，可灵AI上线新一代视频生成模型Kling 4.0。在产品基础能力上，该模型单次原生生成最长达30秒（文本输入最高8000 tokens），支持最高10-bit HDR规格及4K、21:9超宽画幅输出，并提升了高动态与复杂运镜的表现稳定性。",
+  "published_at": "2026-10-16T08:54:29+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "289de0a2706c006eed24",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/392a6c7dd44c68c6c2b13aaf38b0526d296633a4b6c79adcec8c4c4f4138cc1c.body",
+  "source_sha256": "392a6c7dd44c68c6c2b13aaf38b0526d296633a4b6c79adcec8c4c4f4138cc1c",
+  "fetched_at": "2026-10-16T01:03:21.112601+00:00"
+}
