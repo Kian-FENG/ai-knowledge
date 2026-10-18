@@ -6,21 +6,31 @@
       "notified_at": "2026-10-10T01:26:07.817213+00:00",
       "research_commit": "2c2cb6343d913d1e7d9919a91b58be48f977c57f",
       "git_remote_synced": true
+    },
+    "2026-10-16": {
+      "packet_sha256": "d5412be83ba9bb42a22129d842772210313085c4a6f4a7478f5a942bcb898b1b",
+      "editorial_sha256": "e5e85d0a45fb56d62cc8e2f67fb7c54b1802456a7555df2e536b3532db0ecfff",
+      "notified_at": "2026-10-18T10:13:03.121496+00:00",
+      "research_commit": "ef0152a656874625aca2d2196b21ce7ddc60f1c9",
+      "git_remote_synced": true
     }
   },
   "failed_source_ids": [
+    "alibaba-cloud",
     "huxiu",
     "jiqizhixin",
+    "minimax",
+    "ms-nadella",
     "nda",
     "qwen",
-    "today",
-    "techmeme-snapshot"
+    "techmeme-snapshot",
+    "today"
   ],
-  "updated_at": "2026-10-10T01:26:07.817213+00:00",
+  "updated_at": "2026-10-18T10:13:03.121496+00:00",
   "git_sync": {
-    "date": "2026-10-09",
-    "research_commit": "2c2cb6343d913d1e7d9919a91b58be48f977c57f",
+    "date": "2026-10-16",
+    "research_commit": "ef0152a656874625aca2d2196b21ce7ddc60f1c9",
     "remote_synced": true,
-    "notified_at": "2026-10-10T01:26:07.817213+00:00"
+    "notified_at": "2026-10-18T10:13:03.121496+00:00"
   }
 }

@@ -87,24 +87,31 @@
       "notified_at": "2026-10-16T01:22:18.861809+00:00",
       "research_commit": "d966852816ccd4a2581f2b36c0eb86209fd69125",
       "git_remote_synced": true
+    },
+    "2026-10-17": {
+      "packet_sha256": "fb3c8d9e3b01198aca95611ab0a384e66ebf4f6aa10f6744ec7f2c06ea9c8dac",
+      "editorial_sha256": "1579b5fe67d8e2d752e4b239daeb9857cb2dd9a4dd5813ef7a6bb095bd1a15e0",
+      "notified_at": "2026-10-18T10:13:03.121496+00:00",
+      "research_commit": "ef0152a656874625aca2d2196b21ce7ddc60f1c9",
+      "git_remote_synced": true
     }
   },
   "failed_source_ids": [
-    "asml",
+    "alibaba-cloud",
     "huxiu",
-    "infinigence-official",
     "jiqizhixin",
     "minimax",
     "ms-nadella",
+    "nda",
     "qwen",
     "techmeme-snapshot",
     "today"
   ],
-  "updated_at": "2026-10-16T01:22:18.861809+00:00",
+  "updated_at": "2026-10-18T10:13:03.121496+00:00",
   "git_sync": {
-    "date": "2026-10-15",
-    "research_commit": "d966852816ccd4a2581f2b36c0eb86209fd69125",
+    "date": "2026-10-17",
+    "research_commit": "ef0152a656874625aca2d2196b21ce7ddc60f1c9",
     "remote_synced": true,
-    "notified_at": "2026-10-16T01:22:18.861809+00:00"
+    "notified_at": "2026-10-18T10:13:03.121496+00:00"
   }
 }
