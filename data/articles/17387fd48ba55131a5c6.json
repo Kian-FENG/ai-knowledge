@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158298.htm",
+  "title": "一年半才等到！日本品牌Crowxis首发AMD RX 9000：结果LOGO看笑了",
+  "text": "快科技10月17日消息，据报道，日本PC DIY品牌Crowxis（原玄人志向）于10月16日正式发布旗下首批AMD Radeon RX 9000系列显卡，距离AMD该系列首发已过去一年半。对于长期缺乏本土A卡品牌的日本市场而言，这算是一次迟来的补位。\n此次共推出五款型号，覆盖RX 9070 XT、RX 9070 GRE与RX 9060 XT三款GPU。其中RX 9070 XT 16GB与RX 9070 GRE 12GB采用黑色三风扇设计，卡长289毫米，双槽厚度，双8pin供电。\nRX 9060 XT阵容为三款双风扇短卡，卡长仅200毫米，单8pin供电。16GB版本提供黑白双色，出厂Boost频率预超至3230MHz，比AMD公版高出100MHz；8GB版本仅有白色，维持公版3130MHz。\n最引人注目的是代工来源。据Expreview报道，这五款显卡均基于撼讯PowerColor的游荡者REAPER系列设计，甚至散热器顶部仍保留着PowerColor的LOGO。对于一款换了品牌名的产品而言，连代工厂标识都没清理，确实有些省事过头。\n散热方面，官方称采用日本产双滚珠轴承风扇与环形扇叶，支持智能启停，GPU温度达到60℃开始转动，降至50℃以下停转。\nRX 9070系列提供三个DisplayPort 2.1a与一个HDMI 2.1b，RX 9060 XT则为两个DP加一个HDMI。\n据悉，五款显卡定于10月23日在日本发售，含税预期零售价从64,800日元（约合人民币3045元）到129,800日元（约合人民币6100元）不等。全系提供两年质保，仅在日本国内市场销售。",
+  "published_at": "2026-10-17T20:57:32+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "17387fd48ba55131a5c6",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52.body",
+  "source_sha256": "7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52",
+  "fetched_at": "2026-10-18T09:55:58.730930+00:00"
+}

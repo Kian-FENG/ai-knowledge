@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/f9397434-8c9e-4595-ac09-ec28726fd128",
+  "title": "Business school teaching case study: Balancing AI capability and control in cyber defence",
+  "text": "OpenAI agent’s escape from a test environment and its hack of Hugging Face are ringing alarm bells for businesses",
+  "published_at": "2026-10-16T04:00:09+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2516ad1fe51d74897198",
+  "source_id": "ft-ai",
+  "source_name": "Financial Times AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/0a4049608991b2808b8931c1a4c2719237148b76f0e3259b6a00f66750b5f021.body",
+  "source_sha256": "0a4049608991b2808b8931c1a4c2719237148b76f0e3259b6a00f66750b5f021",
+  "fetched_at": "2026-10-18T09:55:49.497076+00:00"
+}

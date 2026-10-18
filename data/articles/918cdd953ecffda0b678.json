@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+  "title": "Oct 16, 2026Frontier Red TeamClaude reveals ECDSA curve origins",
+  "link_text": "Oct 16, 2026Frontier Red TeamClaude reveals ECDSA curve origins",
+  "id": "918cdd953ecffda0b678",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "anthropic-research",
+  "source_name": "Anthropic Research",
+  "section": 2,
+  "raw_path": "raw/2026-10-18/0cd6a5f0410262d5f85b589b2e3515cd7f1f3a60e1c195b4ad461bf68f0f0b83.body",
+  "source_sha256": "0cd6a5f0410262d5f85b589b2e3515cd7f1f3a60e1c195b4ad461bf68f0f0b83",
+  "fetched_at": "2026-10-18T09:55:28.057894+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-18T09:55:28.057894+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

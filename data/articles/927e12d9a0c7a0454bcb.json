@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/16/technology/meta-midterms-funding.html",
+  "title": "Meta Withdraws $25 Million from Its Midterms Push",
+  "text": "The company outlined a $65 million budget last year when it embarked on an effort to elect state politicians friendly to the A.I. industry.",
+  "published_at": "2026-10-16T20:58:41+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "927e12d9a0c7a0454bcb",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/1878a6b86538b7b7463634185e08dfeb7691ed4709e59a14788879b7aa46d764.body",
+  "source_sha256": "1878a6b86538b7b7463634185e08dfeb7691ed4709e59a14788879b7aa46d764",
+  "fetched_at": "2026-10-18T09:55:48.888465+00:00"
+}

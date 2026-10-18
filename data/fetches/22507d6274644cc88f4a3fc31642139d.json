@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-18/f714d570b97f51607428bce6a373801a5ba09e56c75a64707fe25822987074e1.body",
+  "sha256": "f714d570b97f51607428bce6a373801a5ba09e56c75a64707fe25822987074e1",
+  "source_url": "https://www.geekpark.net/rss",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-18T09:55:55.842067+00:00",
+  "source_id": "geekpark",
+  "status": 200,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Sun, 18 Oct 2026 09:55:57 GMT",
+    "Content-Type": "application/xml; charset=utf-8;",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Vary": "Origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "ETag": "W/\"0aa001d97cb404150966950b806c3fe5\"",
+    "Cache-Control": "no-cache",
+    "X-Request-Id": "67029ca8-669d-45d1-9ce6-330708502110",
+    "X-Runtime": "0.083057",
+    "Content-Encoding": "gzip"
+  },
+  "final_url": "https://www.geekpark.net/rss",
+  "truncated": false,
+  "charset": "utf-8"
+}

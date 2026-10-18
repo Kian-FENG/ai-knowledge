@@ -111,3 +111,8 @@
 [[reference/entities/third-moment-research|Third Moment Research：工作流定制与持续改进推理服务]]
 
 [[research/synthesis/agent-scale-context-budget-and-fidelity-20261014|Agent规模化的约束移向组织上下文、成本边界与行为保真]]
+
+
+## 2026-10-18补报研究
+
+[[research/synthesis/agent-total-cost-and-delivery-20261017|10月17日日报与10月16日周报知识增量]]

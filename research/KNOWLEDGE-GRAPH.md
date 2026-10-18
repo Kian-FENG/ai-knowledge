@@ -275,3 +275,8 @@
 - [[reference/sources/visko-products-undated|Visko官网产品与品牌归属（发布日期未知）]]
 - [[reference/entities/visko|Visko：Orbis实时世界模型的开发者]]
 - [[research/synthesis/agent-supply-access-reliability-20261015|开放模型供给增加，Agent落地仍受许可、连续性和验证约束]]
+
+
+## 2026-10-17日报与10月16日周报增量
+
+[[research/synthesis/agent-total-cost-and-delivery-20261017|Agent总成本、交付与审阅约束]]

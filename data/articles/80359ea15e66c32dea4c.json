@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-18/microsoft-scraps-uk-data-center-deal-with-nscale-telegraph-says",
+  "title": "Microsoft Scraps UK Data Center Deal With Nscale, Telegraph Says",
+  "text": "Microsoft Corp. has pulled out of a UK data center deal with British neocloud Nscale at a critical time for the startup’s initial public offering hopes, the Telegraph reported.",
+  "published_at": "2026-10-18T08:31:10+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "80359ea15e66c32dea4c",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/e0f52bd80df9f2895a62fe51bbacc46b31233b1e6dffc41ca6f73a79c35fe632.body",
+  "source_sha256": "e0f52bd80df9f2895a62fe51bbacc46b31233b1e6dffc41ca6f73a79c35fe632",
+  "fetched_at": "2026-10-18T09:55:49.722767+00:00"
+}

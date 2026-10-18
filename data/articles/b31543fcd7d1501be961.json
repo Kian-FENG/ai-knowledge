@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+  "title": "Websites are closing their doors to AI agents",
+  "text": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice?\nIn recent weeks, users of services like Meta's Muse, xAI's Grok, OpenAI's Dots, and Instinct have reported blocks preventing their AI agents from performing tasks across top websites. Yelp told TechCrunch that it only allows AI agents that pay for its data licensing program, while Delta Air Lines is preventing them from booking ticket …\nRead the full story at The Verge.",
+  "published_at": "2026-10-17T09:00:00-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-16T18:31:39-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b31543fcd7d1501be961",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-18/b18b122812e9a36e69a0b71f73e0d2cb08e6de0dfb412d8477424d42ba75ac7e.body",
+  "source_sha256": "b18b122812e9a36e69a0b71f73e0d2cb08e6de0dfb412d8477424d42ba75ac7e",
+  "fetched_at": "2026-10-18T09:55:47.516773+00:00"
+}

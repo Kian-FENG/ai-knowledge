@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel",
+  "title": "Hyper Optimizing Kimi K3 in vLLM: Moving Fast and ResponsiblyOct 16, 2026·12 min readHow agent-assisted CuTe DSL optimizations accelerate Kimi K3 decode on NVIDIA GB300, and how scoped changes, correc",
+  "link_text": "Hyper Optimizing Kimi K3 in vLLM: Moving Fast and ResponsiblyOct 16, 2026·12 min readHow agent-assisted CuTe DSL optimizations accelerate Kimi K3 decode on NVIDIA GB300, and how scoped changes, correc",
+  "id": "58d2e800a62db5e14019",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-18/03f606af01fdb2852f6977b9e4385c84f5ceb3307ce97e71832dbed32f74d62b.body",
+  "source_sha256": "03f606af01fdb2852f6977b9e4385c84f5ceb3307ce97e71832dbed32f74d62b",
+  "fetched_at": "2026-10-18T09:55:38.103718+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-18T09:55:38.103718+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

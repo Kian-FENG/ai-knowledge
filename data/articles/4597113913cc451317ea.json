@@ -1,0 +1,18 @@
+{
+  "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+  "title": "NVIDIA RTX Spark PCs Available Today — A New Beginning for Windows PCs",
+  "text": "NVIDIA today announced the availability of NVIDIA RTX Spark™ laptops, bringing together RTX graphics and NVIDIA’s full-stack AI platform in slim, premium Windows PCs for accelerated creation, immersive gaming and powerful local AI — rolling out from ASUS, Dell, HP, Lenovo, Microsoft and MSI.",
+  "published_at": "2026-10-16T12:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4597113913cc451317ea",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-18/08c4e6a855974373fbd624743c8c628a1614fad5fa500320069ae2e381791edd.body",
+  "source_sha256": "08c4e6a855974373fbd624743c8c628a1614fad5fa500320069ae2e381791edd",
+  "fetched_at": "2026-10-18T09:55:33.074595+00:00"
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "path": "reference/sources/deepseek-search-fetch-20261017.md",
+    "id": "source-deepseek-search-fetch-20261017",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-18/1655c11016644a95b5b45f25da1dd593837a24cdb0aa15dff52a317935ac3c07.body",
+        "locator": "Change Log Date2026-10-17整节及脚注；此前日期仅背景",
+        "version": "sha256:1655c11016644a95b5b45f25da1dd593837a24cdb0aa15dff52a317935ac3c07"
+      },
+      {
+        "source": "raw/2026-10-18/2e85e4f1875cd03df16c4cffdefe57fd5b3c968eb8f74a8b4222d3e02c67dd75.body",
+        "locator": "指南全文；公告日来自关联Change Log，指南本身无单独发布日期",
+        "version": "sha256:2e85e4f1875cd03df16c4cffdefe57fd5b3c968eb8f74a8b4222d3e02c67dd75"
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/replit-default-openai-20261017.md",
+    "id": "source-replit-default-openai-20261017",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-18/bf504fd1938893248e927b19a9cc11c5fbdc26684b0f2c223473aa242c6e2644.body",
+        "locator": "正文全文及末尾更正；首次发布时间由末段说明，更新时刻由RSS与页头，不能说彻底停止Claude",
+        "version": "sha256:bf504fd1938893248e927b19a9cc11c5fbdc26684b0f2c223473aa242c6e2644"
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/deepseek-v41-flash-1017.md",
+    "id": "source-deepseek-v41-flash-1017",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-18/1655c11016644a95b5b45f25da1dd593837a24cdb0aa15dff52a317935ac3c07.body",
+        "locator": "Change Log Date2026-10-17整节及脚注；此前日期仅背景",
+        "version": "sha256:1655c11016644a95b5b45f25da1dd593837a24cdb0aa15dff52a317935ac3c07"
+      },
+      {
+        "source": "raw/2026-10-18/414cac47fc769e0e07daadc1e096cd5d12fe00e012cd5d14fef581a0e5e31aec.body",
+        "locator": "README全文；发布日对应Change Log；未读完整报告、权重或推理实现",
+        "version": "sha256:414cac47fc769e0e07daadc1e096cd5d12fe00e012cd5d14fef581a0e5e31aec"
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/rtx-spark-retail-20261017.md",
+    "id": "source-rtx-spark-retail-20261017",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-18/b2eede25d5f805fea92433b42faee0127df5f2ee85af1274cef20b42268db539.body",
+        "locator": "官方正文全文，时间来自官方RSS；未检查各地零售库存和独立性能",
+        "version": "sha256:b2eede25d5f805fea92433b42faee0127df5f2ee85af1274cef20b42268db539"
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/chatgpt-slides-pro-20261016.md",
+    "id": "source-chatgpt-slides-pro-20261016",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-18/c3968be5b6c350e2eb72b80a09703577820ff8f7f470634c169f14b0e9292639.txt",
+        "locator": "浏览工具实际读取10月16日两节；其余release note不在本次阅读范围",
+        "version": "sha256:c3968be5b6c350e2eb72b80a09703577820ff8f7f470634c169f14b0e9292639"
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/reflection-beam-release-20261016.md",
+    "id": "source-reflection-beam-release-20261016",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-18/bda041991ba13abc1e3fd006a1fb01d4945937e95fae78d46e04d4276fd3bc06.body",
+        "locator": "官方发布主文及Deploy/Customize；未读安全技术报告和完整模型评测",
+        "version": "sha256:bda041991ba13abc1e3fd006a1fb01d4945937e95fae78d46e04d4276fd3bc06"
+      },
+      {
+        "source": "raw/2026-10-18/46ee96ec349aa002d8bfd1d3be996ac157924c85043e6feeaeca87010d0e860f.body",
+        "locator": "模型概览、许可与Usage段；未采用评测排名或安全结论",
+        "version": "sha256:46ee96ec349aa002d8bfd1d3be996ac157924c85043e6feeaeca87010d0e860f"
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/anthropic-employment-20261016.md",
+    "id": "source-anthropic-employment-20261016",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-18/bb3a27029c923b635ba461eda05ad6d9996bc2e546cc3d7f9e2541003a440ca9.body",
+        "locator": "Key findings、Introduction、Labor demand、productivity方法与图注；未审附录和内部原始数据",
+        "version": "sha256:bb3a27029c923b635ba461eda05ad6d9996bc2e546cc3d7f9e2541003a440ca9"
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/pilotdeck20-20261015.md",
+    "id": "source-pilotdeck20-20261015",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-18/13ed70730c1194559227d52933cf6618933d887cdc1e55b72c20902d5d11fec2.body",
+        "locator": "README News、About、Highlights、Real-world Numbers及AGPL标识；未运行；不采用未经完整口径核查的成本优势",
+        "version": "sha256:13ed70730c1194559227d52933cf6618933d887cdc1e55b72c20902d5d11fec2"
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/vllm-beam-day0-20261016.md",
+    "id": "source-vllm-beam-day0-20261016",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-18/d44aa5eea4666e1a5351f656e96625e0e1e3e305e9aaeb38f67948835ab6a6a1.body",
+        "locator": "官方文章全文；模型与AgentX表格文本，未审代码或重跑",
+        "version": "sha256:d44aa5eea4666e1a5351f656e96625e0e1e3e305e9aaeb38f67948835ab6a6a1"
+      }
+    ]
+  },
+  {
+    "path": "reference/sources/humxn-home-service-data-20261006.md",
+    "id": "source-humxn-home-service-data-20261006",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-18/a40fb1174877939fcb4c5bf2f2629a6c034857946adf42945d1cf84b2aea18e6.body",
+        "locator": "官网公告全文；仅背景，不列10月17日或本周新事件；未核服务规模/注册/收入",
+        "version": "sha256:a40fb1174877939fcb4c5bf2f2629a6c034857946adf42945d1cf84b2aea18e6"
+      }
+    ]
+  },
+  {
+    "path": "reference/entities/humxn.md",
+    "id": "entity-humxn",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "source-humxn-home-service-data-20261006",
+        "locator": "官网About、创始人与三边服务模式；原始hash见来源页",
+        "version": "2026-10-18归档版本"
+      }
+    ]
+  },
+  {
+    "path": "reference/entities/reflection.md",
+    "id": "entity-reflection",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "raw/2026-10-06/151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba.txt",
+        "locator": "模型结构与 inference compute 解释；The Path Ahead。",
+        "version": "sha256:151d4158fa2f083aaac2e010074cb2f216862f55bca944f8533865a0934c3bba"
+      },
+      {
+        "source": "source-reflection-beam-release-20261016",
+        "locator": "10月16日交付公告与HF模型概览/Apache2.0标识",
+        "version": "2026-10-18归档版本"
+      }
+    ]
+  },
+  {
+    "path": "research/synthesis/agent-total-cost-and-delivery-20261017.md",
+    "id": "note-agent-total-cost-and-delivery-20261017",
+    "lifecycle": "published",
+    "default_query_visible": true,
+    "evidence": [
+      {
+        "source": "source-deepseek-search-fetch-20261017",
+        "locator": "该来源页Key Takeaways及所列阅读/限制",
+        "version": "2026-10-18入库版本"
+      },
+      {
+        "source": "source-replit-default-openai-20261017",
+        "locator": "该来源页Key Takeaways及所列阅读/限制",
+        "version": "2026-10-18入库版本"
+      },
+      {
+        "source": "source-deepseek-v41-flash-1017",
+        "locator": "该来源页Key Takeaways及所列阅读/限制",
+        "version": "2026-10-18入库版本"
+      },
+      {
+        "source": "source-rtx-spark-retail-20261017",
+        "locator": "该来源页Key Takeaways及所列阅读/限制",
+        "version": "2026-10-18入库版本"
+      },
+      {
+        "source": "source-chatgpt-slides-pro-20261016",
+        "locator": "该来源页Key Takeaways及所列阅读/限制",
+        "version": "2026-10-18入库版本"
+      },
+      {
+        "source": "source-reflection-beam-release-20261016",
+        "locator": "该来源页Key Takeaways及所列阅读/限制",
+        "version": "2026-10-18入库版本"
+      },
+      {
+        "source": "source-anthropic-employment-20261016",
+        "locator": "该来源页Key Takeaways及所列阅读/限制",
+        "version": "2026-10-18入库版本"
+      },
+      {
+        "source": "source-pilotdeck20-20261015",
+        "locator": "该来源页Key Takeaways及所列阅读/限制",
+        "version": "2026-10-18入库版本"
+      },
+      {
+        "source": "source-vllm-beam-day0-20261016",
+        "locator": "该来源页Key Takeaways及所列阅读/限制",
+        "version": "2026-10-18入库版本"
+      },
+      {
+        "source": "source-humxn-home-service-data-20261006",
+        "locator": "该来源页Key Takeaways及所列阅读/限制",
+        "version": "2026-10-18入库版本"
+      }
+    ]
+  }
+]

@@ -1,0 +1,892 @@
+{
+  "run_started_at": "2026-10-18T09:55:17.114863+00:00",
+  "audited_at": "2026-10-18T10:09:57.768494+00:00",
+  "period": "weekly",
+  "window": {
+    "period": "weekly",
+    "date": "2026-10-16",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-09T18:00:00-07:00",
+    "end": "2026-10-16T18:00:00-07:00"
+  },
+  "actual_generated_at": "2026-10-18T10:09:57.729349+00:00",
+  "generated_at_la": "2026-10-18T03:09:57.729349-07:00",
+  "readback_pages": 13,
+  "new_pages": 12,
+  "updated_pages": 1,
+  "collector_run": "20261018T095526-3afefa67",
+  "collect_health": {
+    "needs-browser": 37,
+    "ok": 82,
+    "failed": 1
+  },
+  "source_checks": [
+    {
+      "source_id": "meta-muse-card",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "visko",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "stacklok",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "peppermint",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "cls-eastmoney",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "ms-decision",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "ms-nadella",
+      "status": "failed",
+      "note": "X文章本轮获取失败，旧背景仍留库。"
+    },
+    {
+      "source_id": "nous",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "healthleap",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "已查News、API changelog与ChatGPT release notes；News最新10月15日，帮助中心10月16日两节已读。无本窗口新公告被采用，不覆盖全站/账户。"
+    },
+    {
+      "source_id": "openai-api-changelog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "已读News与Research列表；Research10月16日5项列出，内部就业主节补读；新闻最新10月15日。"
+    },
+    {
+      "source_id": "anthropic-research",
+      "status": "checked",
+      "note": "Research列表与employment主节已读；量子电路、ECDSA等全文未审，留待跟进。"
+    },
+    {
+      "source_id": "anthropic-sitemap",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "官网/文档与HF入口实际检查；本期以10月17日官方日志和模型卡为准，社区/用户群未覆盖。"
+    },
+    {
+      "source_id": "deepseek-api-changelog",
+      "status": "checked",
+      "note": "已读2026-10-17更新与Search/Fetch指南，独立调用与工具优惠分开。"
+    },
+    {
+      "source_id": "deepseek-pricing",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "deepseek-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "网页工具和原生浏览器均未读到动态文章列表；已实际尝试；HF入口机器检查不能替代产品博客。"
+    },
+    {
+      "source_id": "qwen-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "已查官方研究列表与HF入口，列表最新7月16日；SCMP信用卡报道未读足官方条款，未采用。"
+    },
+    {
+      "source_id": "kimi-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "zhipu",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "zhipu-cn",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "zhipu-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "failed",
+      "note": "网页工具与原生浏览器只见导航，动态新闻未恢复。"
+    },
+    {
+      "source_id": "minimax-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "mistral",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "meta-newsroom",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "meta-ai-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "deepmind",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "google-ai-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "google-cloud-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "tencent-newsroom",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "tencent-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "bytedance-seed-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "failed",
+      "note": "Press room只返回动态空列表，未能确认本期发布。"
+    },
+    {
+      "source_id": "ant-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "robbyant-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "jd-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "xiaomi-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "openbmb-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "nvidia-newsroom",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "nvidia-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "amd-ir",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "amazon-news",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "samsung-newsroom",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "skhynix-newsroom",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "asml",
+      "status": "checked",
+      "note": "官方press列表本轮恢复，最新Oct14；复用本周财报原始证据。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "已查官方latest-news；周报复用Oct15财报页1–2有限摘录，不重复核电话会。"
+    },
+    {
+      "source_id": "volantis",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "已查release列表最新0.5.21 Oct2与官方blog Oct14；未发现本期可核新版本；不等于无合并PR。"
+    },
+    {
+      "source_id": "sglang-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "已查releases，0.32.0为Oct18 06:50UTC，在日报截止Oct18 01:00UTC之后，排除；补读Oct16 Beam文章入周报。"
+    },
+    {
+      "source_id": "vllm-blog",
+      "status": "checked",
+      "note": "已查blog及Oct16 Beam全文；两篇Kimi优化全文未读，不能声称全部Infra检索完成。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "已查releases，最新Nemotron dev.1为Oct15实验快照；未冒称稳定正式。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "mooncake",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "nvidia",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "pytorch-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "本轮RSS entries=0；按Oct16–18补检索无合格结果；不代表无论文。9月28日insecure reporters不能作当天首发，周报选库内已核摘要。"
+    },
+    {
+      "source_id": "metr",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "uk-aisi",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "artificial-analysis",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "artificial-analysis-changelog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "semianalysis",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "cisa",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "nist",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "bis",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "miit",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "spc",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "mfa",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "gov-cn-policy",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "chongqing-dsjj",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "nda",
+      "status": "failed",
+      "note": "主页正文为空，政策动态未完成核查。"
+    },
+    {
+      "source_id": "techcrunch-ai",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "the-decoder",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "the-verge-ai",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "the-information",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "bloomberg-tech",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "ft-tech",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "ft-ai",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "nyt-tech",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "scmp-tech",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "mit-tech-review",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "ars-ai",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "toms-hardware",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "qbitai",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "采集超时，浏览工具同源亦超时。"
+    },
+    {
+      "source_id": "ithome",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "36kr",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "tmtpost",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "leiphone",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "geekpark",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "zhidx",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "c114",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "mydrivers",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "主页仅有限导航/摘要，会员和公众号正文未覆盖。"
+    },
+    {
+      "source_id": "techmeme-river",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "reflection",
+      "status": "checked",
+      "note": "官方Oct16 Beam交付主文和HF概览/许可核查，较Oct5预览有实质增量。"
+    },
+    {
+      "source_id": "namespace",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "vinci",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "today",
+      "status": "failed",
+      "note": "官方博客不可访问。"
+    },
+    {
+      "source_id": "typesafe",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "globalfoundries",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "cna-reuters",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "odyssey",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "vals-ai",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "epoch-innovationeval",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "decart",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "microsoft-blog",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "mosi",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "modcraft",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "apple-newsroom",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "pluto-security",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "semigraph",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "third-moment",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "humxn",
+      "status": "checked",
+      "note": "本轮新发现；官网10月6日公告读完，核对品牌/Thomas Unise/服务换数据，作为背景入库而非当天新闻。"
+    },
+    {
+      "source_id": "pilotdeck",
+      "status": "checked",
+      "note": "README核对2.0 Oct15、开源May28；后发媒体不作新首发。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "已做中英文开放发现及官网回查：HUMXN公告Oct6纳背景；NEXFORM官网产品可确认但本期融资一手未补齐；搜索聚合融资/估值不采作事实。"
+    },
+    {
+      "source_id": "techmeme-snapshot",
+      "status": "failed",
+      "note": "261017/h2355历史快照不可访问，未补齐媒体漏采。"
+    }
+  ],
+  "gaps": [
+    {
+      "from": "2026-10-16T01:03:21.112601+00:00",
+      "to": "2026-10-16T16:05:44+08:00",
+      "detected_at": "2026-10-18T09:55:52.520667+00:00",
+      "source_id": "36kr"
+    },
+    {
+      "from": "2026-10-11T01:00:50.021402+00:00",
+      "to": "2026-10-11T02:38:23+00:00",
+      "detected_at": "2026-10-12T01:01:49.912597+00:00",
+      "source_id": "bloomberg-tech"
+    },
+    {
+      "from": "2026-10-14T01:03:47.287468+00:00",
+      "to": "2026-10-14T10:30:00+00:00",
+      "detected_at": "2026-10-15T01:03:55.999928+00:00",
+      "source_id": "bloomberg-tech"
+    },
+    {
+      "from": "2026-10-16T01:03:17.341795+00:00",
+      "to": "2026-10-17T12:03:32+00:00",
+      "detected_at": "2026-10-18T09:55:49.722767+00:00",
+      "source_id": "bloomberg-tech"
+    },
+    {
+      "from": "2026-10-16T01:03:16.197728+00:00",
+      "to": "2026-10-16T12:51:49+00:00",
+      "detected_at": "2026-10-18T09:55:48.490191+00:00",
+      "source_id": "ft-tech"
+    },
+    {
+      "from": "2026-10-10T01:03:37.807934+00:00",
+      "to": "2026-10-10T01:28:42+00:00",
+      "detected_at": "2026-10-11T01:00:55.681779+00:00",
+      "source_id": "ithome"
+    },
+    {
+      "from": "2026-10-11T01:00:55.681779+00:00",
+      "to": "2026-10-11T11:02:38+00:00",
+      "detected_at": "2026-10-12T01:01:54.626732+00:00",
+      "source_id": "ithome"
+    },
+    {
+      "from": "2026-10-12T01:01:54.626732+00:00",
+      "to": "2026-10-12T12:09:08+00:00",
+      "detected_at": "2026-10-13T01:04:43.328454+00:00",
+      "source_id": "ithome"
+    },
+    {
+      "from": "2026-10-13T01:04:43.328454+00:00",
+      "to": "2026-10-13T13:02:30+00:00",
+      "detected_at": "2026-10-14T01:03:49.487259+00:00",
+      "source_id": "ithome"
+    },
+    {
+      "from": "2026-10-16T01:03:20.892089+00:00",
+      "to": "2026-10-18T02:06:55+00:00",
+      "detected_at": "2026-10-18T09:55:52.071326+00:00",
+      "source_id": "ithome"
+    },
+    {
+      "from": "2026-10-10T01:03:39.937526+00:00",
+      "to": "2026-10-10T09:38:00+08:00",
+      "detected_at": "2026-10-11T01:00:59.346121+00:00",
+      "source_id": "leiphone"
+    },
+    {
+      "from": "2026-10-11T01:01:02.282867+00:00",
+      "to": "2026-10-11T11:35:41+08:00",
+      "detected_at": "2026-10-12T01:02:01.720243+00:00",
+      "source_id": "mydrivers"
+    },
+    {
+      "from": "2026-10-12T01:02:01.720243+00:00",
+      "to": "2026-10-12T18:10:27+08:00",
+      "detected_at": "2026-10-13T01:04:49.788565+00:00",
+      "source_id": "mydrivers"
+    },
+    {
+      "from": "2026-10-13T01:04:49.788565+00:00",
+      "to": "2026-10-13T17:14:57+08:00",
+      "detected_at": "2026-10-14T01:03:56.466999+00:00",
+      "source_id": "mydrivers"
+    },
+    {
+      "from": "2026-10-14T01:03:56.466999+00:00",
+      "to": "2026-10-14T17:47:32+08:00",
+      "detected_at": "2026-10-15T01:04:14.116689+00:00",
+      "source_id": "mydrivers"
+    },
+    {
+      "from": "2026-10-15T01:04:14.116689+00:00",
+      "to": "2026-10-15T17:32:41+08:00",
+      "detected_at": "2026-10-16T01:03:29.044828+00:00",
+      "source_id": "mydrivers"
+    },
+    {
+      "from": "2026-10-16T01:03:29.044828+00:00",
+      "to": "2026-10-17T16:02:10+08:00",
+      "detected_at": "2026-10-18T09:55:58.730930+00:00",
+      "source_id": "mydrivers"
+    },
+    {
+      "from": "2026-10-13T01:04:44.478800+00:00",
+      "to": "2026-10-13T04:01:15+00:00",
+      "detected_at": "2026-10-14T01:03:50.038330+00:00",
+      "source_id": "qbitai"
+    },
+    {
+      "from": "2026-10-14T01:03:50.038330+00:00",
+      "to": "2026-10-14T02:14:50+00:00",
+      "detected_at": "2026-10-15T01:03:59.444766+00:00",
+      "source_id": "qbitai"
+    },
+    {
+      "from": "2026-10-16T01:03:20.797617+00:00",
+      "to": "2026-10-16T07:16:11+00:00",
+      "detected_at": "2026-10-18T09:55:53.266117+00:00",
+      "source_id": "qbitai"
+    },
+    {
+      "from": "2026-10-16T01:03:15.926885+00:00",
+      "to": "2026-10-16T17:42:47+00:00",
+      "detected_at": "2026-10-18T09:55:47.271957+00:00",
+      "source_id": "the-decoder"
+    },
+    {
+      "from": "2026-10-13T01:04:39.373704+00:00",
+      "to": "2026-10-13T09:55:45-04:00",
+      "detected_at": "2026-10-14T01:03:44.025004+00:00",
+      "source_id": "the-verge-ai"
+    },
+    {
+      "from": "2026-10-14T01:03:44.025004+00:00",
+      "to": "2026-10-14T12:00:00-04:00",
+      "detected_at": "2026-10-15T01:03:51.311634+00:00",
+      "source_id": "the-verge-ai"
+    },
+    {
+      "from": "2026-10-15T01:03:51.311634+00:00",
+      "to": "2026-10-15T10:00:00-04:00",
+      "detected_at": "2026-10-16T01:03:15.446788+00:00",
+      "source_id": "the-verge-ai"
+    },
+    {
+      "from": "2026-10-10T01:03:39.067417+00:00",
+      "to": "2026-10-10T17:57:24+08:00",
+      "detected_at": "2026-10-11T01:00:56.909485+00:00",
+      "source_id": "tmtpost"
+    },
+    {
+      "from": "2026-10-11T01:00:56.909485+00:00",
+      "to": "2026-10-11T12:22:57+08:00",
+      "detected_at": "2026-10-12T01:01:55.874196+00:00",
+      "source_id": "tmtpost"
+    },
+    {
+      "from": "2026-10-12T01:01:55.874196+00:00",
+      "to": "2026-10-12T17:35:40+08:00",
+      "detected_at": "2026-10-13T01:04:44.832783+00:00",
+      "source_id": "tmtpost"
+    },
+    {
+      "from": "2026-10-13T01:04:44.832783+00:00",
+      "to": "2026-10-13T18:26:46+08:00",
+      "detected_at": "2026-10-14T01:03:50.612568+00:00",
+      "source_id": "tmtpost"
+    },
+    {
+      "from": "2026-10-14T01:03:50.612568+00:00",
+      "to": "2026-10-14T17:49:49+08:00",
+      "detected_at": "2026-10-15T01:04:02.348733+00:00",
+      "source_id": "tmtpost"
+    },
+    {
+      "from": "2026-10-15T01:04:02.348733+00:00",
+      "to": "2026-10-15T16:32:49+08:00",
+      "detected_at": "2026-10-16T01:03:21.691382+00:00",
+      "source_id": "tmtpost"
+    },
+    {
+      "from": "2026-10-16T01:03:21.691382+00:00",
+      "to": "2026-10-18T09:57:07+08:00",
+      "detected_at": "2026-10-18T09:55:52.913499+00:00",
+      "source_id": "tmtpost"
+    }
+  ],
+  "excluded": {
+    "undated": 7,
+    "future": 0,
+    "out_of_window": 2531
+  },
+  "read_scope_note": "只确认逐页与逐事件声明的支持范围；结构测试不审查事实真伪。",
+  "initial_git": {
+    "started_at": "2026-10-18T09:55:17.114863+00:00",
+    "head": "bfa83c435651957dc4e9dde9b7e7c23f0dab1dc2",
+    "branch": "main",
+    "upstream": "origin/main"
+  },
+  "initial_dirty_paths": 1204,
+  "git_status": "report_generated; pending_commit_and_push"
+}

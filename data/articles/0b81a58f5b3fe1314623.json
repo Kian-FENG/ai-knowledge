@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+  "title": "Meta removes language that may have allowed it to scrape news sites",
+  "text": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page:\n… Meta may use any content from such domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of, the Meta Company Products, services, and features provided under these Commercial Terms and any other applicable supplemental terms.\nMany, including Neiman Lab and James Grimmelmann, a professor of digital and information law at Cornell, interpreted it as an  …\nRead the full story at The Verge.",
+  "published_at": "2026-10-17T11:04:36-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-17T11:04:36-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0b81a58f5b3fe1314623",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-18/b18b122812e9a36e69a0b71f73e0d2cb08e6de0dfb412d8477424d42ba75ac7e.body",
+  "source_sha256": "b18b122812e9a36e69a0b71f73e0d2cb08e6de0dfb412d8477424d42ba75ac7e",
+  "fetched_at": "2026-10-18T09:55:47.516773+00:00"
+}

@@ -2,6 +2,22 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-18
+
+- `entity` [[reference/entities/humxn|HUMXN：以专业工作流程与家政补贴采集AI训练数据]]
+- `entity` [[reference/entities/reflection|Reflection：Beam 模型的开发者]]
+- `source` [[reference/sources/anthropic-employment-20261016|Anthropic内部研究：初级技术招聘占比下降，注意力成为约束]]
+- `source` [[reference/sources/chatgpt-slides-pro-20261016|ChatGPT10月16日更新：Space演示稿协作与Pro编排]]
+- `source` [[reference/sources/deepseek-search-fetch-20261017|DeepSeek开放Search与Fetch，工具调用开始独立按成功请求计费]]
+- `source` [[reference/sources/deepseek-v41-flash-1017|DeepSeek V4.1 Flash 1017更新权重与API，单价维持不变]]
+- `source` [[reference/sources/humxn-home-service-data-20261006|HUMXN以家政服务补贴获取具身训练数据，公告为10月6日背景]]
+- `source` [[reference/sources/pilotdeck20-20261015|PilotDeck2.0以工作区、可编辑记忆和路由承接持续任务]]
+- `source` [[reference/sources/reflection-beam-release-20261016|Reflection Beam从预览转为权重与托管API交付]]
+- `source` [[reference/sources/replit-default-openai-20261017|Replit澄清OpenAI成为默认伙伴，Claude仍可选]]
+- `source` [[reference/sources/rtx-spark-retail-20261017|NVIDIA确认RTX Spark笔记本现售，起价USD2399]]
+- `source` [[reference/sources/vllm-beam-day0-20261016|vLLM给出Beam部署与AgentX口径，缓存吞吐不能等同输出吞吐]]
+- `note` [[research/synthesis/agent-total-cost-and-delivery-20261017|Agent总成本由模型、检索、部署与审阅共同决定]]
+
 ## 2026-10-15
 
 - `entity` [[reference/entities/visko|Visko：Orbis实时世界模型的开发者]]
@@ -179,7 +195,6 @@ Generated; published pages only. Do not hand-edit.
 ## 2026-10-06
 
 - `entity` [[reference/entities/namespace|Namespace：编码 Agent 的开发与构建基础设施]]
-- `entity` [[reference/entities/reflection|Reflection：Beam 模型的开发者]]
 - `paper` [[reference/papers/jil-length-scheduling-2610-03430|JIL：输出长度预测可能成为请求调度的攻击面]]
 - `paper` [[reference/papers/recursive-harness-synthesis-2610-03548|任务与 harness 共同演进：推理数据合成的自我改进研究]]
 - `source` [[reference/sources/google-cloud-modernize-20261005|Google Cloud Modernize 将云评估和应用迁移组织成 Agent 产品组合]]

@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+  "title": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
+  "text": "AI agents systematically skip errors in their own reports, even when they spot the problems. In a study by Google Research, MIT, and Harvard, GPT-5.5 left out negative results in 198 out of 200 paper abstracts.\nThe article AI models hide mistakes in their own work reports, but one sentence in your prompt can help appeared first on The Decoder.",
+  "published_at": "2026-10-17T09:54:36+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a65cddd0e78778ad59a2",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/3403ac748e65aec11435e3b0d219a62b83d9c384b0c870ae2170c5205ae9bb16.body",
+  "source_sha256": "3403ac748e65aec11435e3b0d219a62b83d9c384b0c870ae2170c5205ae9bb16",
+  "fetched_at": "2026-10-18T09:55:47.271957+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-18/b2eede25d5f805fea92433b42faee0127df5f2ee85af1274cef20b42268db539.body",
+  "sha256": "b2eede25d5f805fea92433b42faee0127df5f2ee85af1274cef20b42268db539",
+  "source_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-18T09:57:13.650604+00:00",
+  "source_id": "nvidia-blog",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "33457",
+    "Server": "Apache",
+    "Link": "<https://blogs.nvidia.com/?p=99053>; rel=shortlink",
+    "Content-Encoding": "gzip",
+    "Edge-Cache-Tag": "blogs.nvidia.com,blogs.nvidia.com/blog/,blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+    "Date": "Sun, 18 Oct 2026 09:57:14 GMT",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "x-accept": "application/atom+xml, application/rss+xml, text/html, */*",
+    "Country-Code": "c_code=US; Path=/; Secure",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "Akamai-Cache-Status": "Hit from child",
+    "Akamai-GRN": "0.044e4317.1792317434.1a6d48c0"
+  },
+  "final_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+  "truncated": false,
+  "charset": "utf-8"
+}

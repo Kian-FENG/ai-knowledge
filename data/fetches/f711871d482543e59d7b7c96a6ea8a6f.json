@@ -1,0 +1,25 @@
+{
+  "raw_path": "raw/2026-10-18/c998d7e745d8ff718024dc7518019e59586e15c259e06f31e1e7ba3496f2b1b5.body",
+  "sha256": "c998d7e745d8ff718024dc7518019e59586e15c259e06f31e1e7ba3496f2b1b5",
+  "source_url": "https://news.samsung.com/global/feed",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-18T09:55:35.473788+00:00",
+  "source_id": "samsung-newsroom",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/xml; charset=UTF-8",
+    "Server": "server",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Last-Modified": "Thu, 15 Oct 2026 05:29:52 GMT",
+    "ETag": "\"226d6efc382b2823a08511b86a9f4cdc\"",
+    "Link": "<https://bit.ly/4jnmMBg>; rel=shortlink",
+    "Vary": "Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "Date": "Sun, 18 Oct 2026 09:55:36 GMT",
+    "Content-Length": "131716",
+    "Connection": "close"
+  },
+  "final_url": "https://news.samsung.com/global/feed",
+  "truncated": false,
+  "charset": "utf-8"
+}

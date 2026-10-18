@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+  "title": "AI agents have bad taste in long-term decisions and a new benchmark proves it",
+  "text": "A new benchmark called Taste-Bench tests how well AI agents make strategic choices during long-running tasks. Even the best model, GPT-5.6 Sol, picks the right path on just under 60 percent of simple binary questions. Thinking longer doesn't help.\nThe article AI agents have bad taste in long-term decisions and a new benchmark proves it appeared first on The Decoder.",
+  "published_at": "2026-10-18T08:49:41+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8b1cc7e586f3f1bf2eec",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/3403ac748e65aec11435e3b0d219a62b83d9c384b0c870ae2170c5205ae9bb16.body",
+  "source_sha256": "3403ac748e65aec11435e3b0d219a62b83d9c384b0c870ae2170c5205ae9bb16",
+  "fetched_at": "2026-10-18T09:55:47.271957+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+  "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+  "text": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge\nNvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia RTX Blackwell graphics, and enough power and unified memory to run sizable local AI models.\nThe flagship placement is inside Microsoft's Surface Laptop Ultra with a staggering 128GB of unified memory, which our own Tom Warren fully reviewed. Sean Hollister has been testing a 64GB version of the Asus …\nRead the full story at The Verge.",
+  "published_at": "2026-10-16T11:00:00-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-16T11:26:47-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "54ebdfe79863725a2466",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-18/b18b122812e9a36e69a0b71f73e0d2cb08e6de0dfb412d8477424d42ba75ac7e.body",
+  "source_sha256": "b18b122812e9a36e69a0b71f73e0d2cb08e6de0dfb412d8477424d42ba75ac7e",
+  "fetched_at": "2026-10-18T09:55:47.516773+00:00"
+}

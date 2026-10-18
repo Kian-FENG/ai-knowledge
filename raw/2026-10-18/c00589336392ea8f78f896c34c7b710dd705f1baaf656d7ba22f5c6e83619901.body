@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>AI - Ars Technica</title>
+        <atom:link href="https://arstechnica.com/ai/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Fri, 16 Oct 2026 21:11:48 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>AI - Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>OpenAI models hacked a crypto wallet and breached more websites</title>
+                <link>https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 20:59:01 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[models]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[unalignment]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/</guid>
+
+                                    <description>
+                        <![CDATA[The actions could have resulted in criminal charges had humans been behind the keyboard.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of its agents performing unethical and likely illegal acts.</p>
+<p>The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company <a href="https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/">revealed in July</a> that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own. The incident—which likely would have resulted in criminal charges had they been performed directly by a person—has further heightened concerns that widespread AI use could have harmful effects on an unprecedented scale.</p>
+<h2>Easier to beg for forgiveness than ask permission</h2>
+<p>In two of the cases reported Thursday, OpenAI agents tasked with retrieving information from websites hacked them when the models ran into obstacles obtaining it directly. In one incident during reinforcement training, a model that received access denials when trying to retrieve historical hospital-bed statistics on a government statistics website “used the site's file-download feature to retrieve server configuration and application files, including sensitive credentials,” OpenAI <a href="https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/">said</a>. “It inspected the application code, bypassed the statistics endpoint's authorization checks, and retrieved data that had previously been denied. The model saved the data locally.”</p><p><a href="https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>132</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 20:20:07 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ai csam]]></category>
+		<category><![CDATA[ai porn]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[law enforcement]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/</guid>
+
+                                    <description>
+                        <![CDATA[Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>New Jersey’s deputy attorney general, Brian Richard Fitzgerald, was arrested on “felony charges related to AI-generated child sexual abuse material (CSAM),” Bucks County Detectives said in a <a href="https://www.buckscounty.gov/m/newsflash/home/detail/1647">press release</a> Thursday.</p>
+<p>In the US, cops have vowed to crack down on AI CSAM since at least 2024, when the Department of Justice made <a href="https://arstechnica.com/tech-policy/2024/05/csam-generated-by-ai-is-still-csam-doj-says-after-rare-arrest">one of the earliest arrests</a>. After charging a Wisconsin man with spreading “thousands of realistic images of prepubescent minors” across Telegram and Instagram, the DOJ clarified to law enforcement that “CSAM generated by AI is still CSAM.”</p>
+<img width="640" height="816" src="https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Bucks-County-Detectives-Brian-Richard-Fitzgerald-640x816.jpg" class="none medium" alt="" decoding="async" loading="lazy" srcset="https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Bucks-County-Detectives-Brian-Richard-Fitzgerald-640x816.jpg 640w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Bucks-County-Detectives-Brian-Richard-Fitzgerald-768x979.jpg 768w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Bucks-County-Detectives-Brian-Richard-Fitzgerald-980x1250.jpg 980w, https://cdn.arstechnica.net/wp-content/uploads/2026/10/via-Bucks-County-Detectives-Brian-Richard-Fitzgerald.jpg 1010w" sizes="auto, (max-width: 640px) 100vw, 640px">
+      New Jersey’s deputy attorney general, Brian Richard Fitzgerald, was arrested at his home Thursday.
+        Credit:
+          <a href="https://www.buckscounty.gov/m/newsflash/home/detail/1647" target="_blank">via Bucks County Detectives</a>
+      
+<p>On Thursday, New Jersey officials accused 51-year-old Fitzgerald of using AI to make photos from social media of real minors into sexualized images that he then distributed on social media.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>101</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2233803629-2-500x500.jpg" width="500" height="500" />
+<media:credit>Yurii Karvatskyi | iStock / Getty Images Plus</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 15:41:00 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ai crawling]]></category>
+		<category><![CDATA[ai scraping]]></category>
+		<category><![CDATA[AI training]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[whatsapp]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/</guid>
+
+                                    <description>
+                        <![CDATA[Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Legal experts are sounding alarms that Meta will soon update its commercial terms to require business accounts to allow Meta to train AI on their linked website content, not just their social media posts.</p>
+<p>Kicking in on October 30, the TOS update won’t allow businesses to opt out, instead suggesting that businesses stop using Meta services if they won’t agree to let Meta bots freely crawl their linked content.</p>
+<p>As Nieman Lab <a href="https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/">reported</a> Thursday, this will affect all business accounts but is particularly shocking for news publishers who could perhaps charge Meta millions in licensing fees to continually access their articles for AI training. Currently <a href="https://arstechnica.com/tech-policy/2024/02/why-the-new-york-times-might-win-its-copyright-lawsuit-against-openai/">news organizations are fighting a battle with OpenAI</a> over whether such training without licensing is fair use, and Meta's terms seemingly risk granting it sweeping permissions, no matter which way the court leans.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>67</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2296621320-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2296621320-500x500.jpg" width="500" height="500" />
+<media:credit>SOPA Images / Contributor | LightRocket</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Super Scam Me documentary shows what it takes to catch a romance scammer</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 14:00:59 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[dating apps]]></category>
+		<category><![CDATA[deepfakes]]></category>
+		<category><![CDATA[documentary]]></category>
+		<category><![CDATA[federal trade commission]]></category>
+		<category><![CDATA[Financial Fraud]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[match]]></category>
+		<category><![CDATA[National Geographic]]></category>
+		<category><![CDATA[romance scams]]></category>
+		<category><![CDATA[tinder]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/</guid>
+
+                                    <description>
+                        <![CDATA[Watch an exclusive clip from <em>Super Scam Me</em> where a victim tracks down her scammer.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>If you got a DM from an unverified Jon Bon Jovi account after commenting on one of his official Instagram posts, what would it take to make you believe it was really the rock star hoping to connect? And at what point when he starts asking you to send money—like lose-your-house kind of money—would you snap out of the fantasy and stop draining your bank account?</p>
+<p>In a documentary premiering Saturday—<em>Super Scam Me</em>—investigative journalist Mariana van Zeller goes deep into this toxic love-bombing terrain. In a clip that Ars is exclusively debuting below, you can see how van Zeller worked with an ethical hacker, Arman the Cyber, to use a fake bitcoin receipt and bait the fake Bon Jovi, giving the victim some much-needed closure.</p>
+<div class="ars-video ars-video--horizontal"><div><div class="relative" allow="fullscreen" loading="lazy" src="https://player.vimeo.com/video/1235942794?color=ff9933"></div><div class="caption font-impact dusk:text-gray-300 mb-4 mt-2 inline-flex flex-row items-stretch gap-1 text-base leading-tight text-gray-400 dark:text-gray-300">
+    <div class="caption-icon bg-[left_top_5px] w-[10px] shrink-0"></div>
+    <div class="caption-content">
+      Sneak peek at National Geographic's <em>Super Scam Me</em>.
+
+          </div>
+  </div>
+</div></div>
+<h2>Scamming a romance scammer</h2>
+<p>Broadcasting on National Geographic at 9 pm ET and available to stream on Disney+ and Hulu, the documentary takes viewers on an empathetic quest to understand how the line between “lover” and “fraud victim” gets blurred in romance scams that the Federal Trade Commission says cost Americans nearly $1.5 billion in losses each year.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>43</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/SuperScamMe_UHD_42-1152x597.jpg" type="image/jpeg" medium="image" width="1152" height="597">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/SuperScamMe_UHD_42-500x500-1792098327.jpg" width="500" height="500" />
+<media:credit>National Geographic</media:credit><media:text>Mariana van Zeller gives an interview to the camera.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Thu, 15 Oct 2026 15:43:24 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[andrew ferguson]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[federal trade commission]]></category>
+		<category><![CDATA[frontier ai]]></category>
+		<category><![CDATA[FTC]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/</guid>
+
+                                    <description>
+                        <![CDATA[FTC may fine AI firms on par with companies that delay data breach reports.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p style="font-weight: 400;">Following a string of incidents where AI models <a href="https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/">hacked websites</a> and <a href="https://arstechnica.com/ai/2026/09/heres-what-actually-happened-in-openais-australian-govt-server-hack/">breached government systems</a> during testing phases, the Federal Trade Commission is officially probing Anthropic and OpenAI over consumer harms, an insider <a href="https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation">told Axios</a>.</p>
+<p style="font-weight: 400;">On Wednesday, the FTC sent out civil investigative demands seeking a wide range of information from the AI firms on recent safety incidents.</p>
+<p style="font-weight: 400;">The FTC did not respond to Ars’ request to review the subpoena demands. However, Axios’ source said the requests spanned more than 50 pages of questions and sought documents related to the incidents, internal security measures taken, and marketing materials that may suggest consumers were misled.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>63</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2277824748-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2277824748-500x500.jpg" width="500" height="500" />
+<media:credit>Tom Williams / Contributor | CQ-Roll Call, Inc.</media:credit><media:text>FTC Chair Andrew Ferguson has said AI firms are liable for losing control of AI agents.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Singer or clanker? YouTube Music will tell you with new gen AI labeling.</title>
+                <link>https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/</link>
+                                    <comments>https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Thu, 15 Oct 2026 15:12:58 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[AI music]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[youtube music]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/</guid>
+
+                                    <description>
+                        <![CDATA[The AI music labels are rolling out now in YouTube Music and will come to YouTube soon.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Genuine human creativity takes time, but you know what doesn't? AI slop. There are countless AI models out there that can make something that passes for music, and you might come across those tracks on streaming services without realizing it. <a href="https://blog.youtube/news-and-events/youtube-music-ai-labels/">Google says</a> it will begin labeling that content in YouTube Music, building on similar disclosures in the main YouTube app.</p>
+<p>Google is not outright banning AI music or even speaking ill of it. "Generative AI is opening up new ways for artists to create, experiment, and share music," the company says in a blog post.</p>
+<p>However, the company also acknowledges that people want to know if a song was created with generative AI tools. A new label for AI content on YouTube Music is now rolling out in the app and on the website, which looks a lot like a label Google <a href="https://arstechnica.com/google/2026/05/youtube-to-begin-automatically-labeling-ai-videos/">began adding</a> to AI-generated videos on YouTube earlier this year.</p><p><a href="https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>85</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/youtube-music-gen-ai-labels-fill2-1152x648.png" type="image/png" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/youtube-music-gen-ai-labels-fill2-500x500.png" width="500" height="500" />
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Epic says its new vibe-coded Epic Games Launcher is faster than Steam</title>
+                <link>https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Wed, 14 Oct 2026 21:15:56 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[epic]]></category>
+		<category><![CDATA[epic games store]]></category>
+		<category><![CDATA[launcher]]></category>
+		<category><![CDATA[vibe coding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/</guid>
+
+                                    <description>
+                        <![CDATA[But the new "Preview" app "will have some bugs," Epic warns.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p><a href="https://arstechnica.com/gaming/2018/12/epic-undercuts-steam-with-new-store-that-gives-devs-more-money/">Nearly eight years</a> after Epic took on Steam with its own Game Store and launcher, the <em>Fortnite</em> maker is deploying a new tool to give it an edge over Valve: vibe coding.</p>
+<p>In <a href="https://store.epicgames.com/news/epic-games-launcher-preview">announcing</a> the new <a href="https://launcher.epicgames.com/">publicly available "Preview" build</a> of its Epic Games Launcher, Epic writes that "programming is hard. So, instead of doing that, we vibe coded a new Epic Games Launcher that’s way faster and more responsive than the current one, and has a new look." And while that might sound a little tongue-in-cheek, Epic Games Store General Manager and VP Martin Keely <a href="https://www.pcgamer.com/software/platforms/epic-says-its-new-vibe-coded-epic-games-store-launcher-is-faster-than-steam/">told PC Gamer</a> that the team "started from scratch" and used AI as "a tool to write and review new features and new capabilities from the ground up in a different tech stack than what we had previously." The goal, Keely said, was to "look at functionality that existed [in the current Epic Games Launcher] and [say] we want to replicate that, but not the code itself."</p>
+<p><a href="https://www.ign.com/articles/we-vibe-coded-a-new-epic-games-launcher-epics-new-store-app-was-built-using-ai">Speaking to IGN</a>, Keely clarified that using AI to code the new Launcher "made us more efficient and allowed a small team to rewrite the code base and be able to launch it faster across platforms, support Windows and Mac, and we're going to have a Linux version as well."</p><p><a href="https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>266</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/egslauncher-1152x648.png" type="image/png" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/egslauncher-500x500.png" width="500" height="500" />
+<media:credit>Epic</media:credit><media:text>A smooth interface on the front. Pure vibes underneath.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Researchers use AI to design proteins that cut up other proteins</title>
+                <link>https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Wed, 14 Oct 2026 17:10:15 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[catalysts]]></category>
+		<category><![CDATA[enzymes]]></category>
+		<category><![CDATA[proteases]]></category>
+		<category><![CDATA[protein design]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/</guid>
+
+                                    <description>
+                        <![CDATA[AI design tools make proteins that break bonds that are stable for hundreds of years.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A protein is a chain of amino acids held together by what are called peptide bonds. On their own, those bonds are extremely stable; they're estimated to have a half-life of several hundred years. But in Earth's environment, most proteins don't last nearly that long. That's because organisms have evolved a handful of ways to catalyze the break-up of peptide bonds, which have diversified into countless specialized protein-digesting enzymes. Proteases are everywhere and generally make short work of any proteins that find their way into the environment.</p>
+<p>Now, researchers have basically short-circuited the diversification process, using AI-based protein design tools to take the catalytic core of two types of protease and replace the entire rest of the protein. The resulting enzymes could be tuned to cut specific proteins in half, and the researchers demonstrated their effectiveness by using them to cut proteins associated with neurological diseases.</p>
+<h2>Cutting proteins</h2>
+<p>The basic peptide bond isn't especially interesting-looking—it's what you get when you link an amino group to an acid, releasing a water molecule in the process. As their name implies, amino acids have both an amino and an acid group, allowing them to form peptide bonds on two sides of the amino acid. This is critical for building up the long chains found in proteins. (The amino acids also have side chains with distinctive chemistry, which gives a backbone specific properties.)</p><p><a href="https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>38</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298087641-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298087641-500x500-1791994331.jpg" width="500" height="500" />
+<media:credit>Basic</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Recording device hidden in toilet paper found in top-secret OpenAI meeting room</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Wed, 14 Oct 2026 16:41:49 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[frontier ai]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/</guid>
+
+                                    <description>
+                        <![CDATA[OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>It took OpenAI two days to notice that a recording device was hidden in a restricted executive conference room where leadership met to discuss highly confidential information, including technical progress, government engagements, and commercial partnerships.</p>
+<p>Only those with special clearance are supposed to access that room. But the FBI believes the recording device was planted by Abdulrahman Alfozan, a 35-year-old engineer from Saudi Arabia, who became a permanent US legal resident in 2020. In a <a href="https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai">press release</a> Tuesday announcing his arrest, the FBI alleged that chatbot logs and CCTV footage suggested that Alfozan—who worked as an OpenAI engineer for more than a year—sought to use the device to spy on OpenAI and risked leaking trade secrets in a way that threatened national security.</p>
+<p>To conceal the USB device, Alfozan allegedly wrapped it in toilet paper, then plugged it into the back of a conference room television. The device was likely planted on September 28, and OpenAI found it on September 30 and quickly determined that its contents were encrypted, the FBI said. Days later, on October 5, OpenAI installed a camera in that conference room, and the CCTV footage allegedly showed Alfozan attempting to retrieve the recording device that same day.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>148</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/open-ai-bugged-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/open-ai-bugged-500x500-1791993503.jpg" width="500" height="500" />
+<media:credit>U.S. v. Abdulrahman Alfozan | Aurich Lawson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Anthropic warns small AI models could self-replicate through IoT devices</title>
+                <link>https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 14 Oct 2026 12:55:06 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[computer worms]]></category>
+		<category><![CDATA[small models]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/</guid>
+
+                                    <description>
+                        <![CDATA["Small weight-based replicators" could usher in a new generation of computer worms.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>AI company Anthropic is warning that advances in small AI models could soon usher in a new era of self-replicating malware that’s capable of infecting smart fridges, vacuum cleaners, and a wide range of other Internet of Things devices and is more resistant to takedown.</p>
+<p>By next year, smaller AI models may be able to autonomously self-replicate on all kinds of IoT devices, the company said. Eventually, the capability could enable computer worms, which propagate without requiring human interaction and are capable of infecting unfamiliar IoT devices. An experiment the company performed recently revealed significant challenges in bringing such an AI malware replicator to fruition, so the finding is necessarily tempered. Still, the results raise concerns about the possibility of new forms of computer worms.</p>
+<h2>Challenging to shut down</h2>
+<p>Anthropic further <a href="https://www.anthropic.com/research/self-replicating-ai">warned</a> not only about the new potential malware, but also that it could be difficult to stop. In its blog post, it wrote that “a replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days). Unlike non-AI malware, it could also figure out unfamiliar devices on its own.”</p><p><a href="https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>127</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-caution-threat-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-caution-threat-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Wed, 14 Oct 2026 11:00:30 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ai csam]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[ai safety testing]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[image generators]]></category>
+		<category><![CDATA[ncii]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/</guid>
+
+                                    <description>
+                        <![CDATA[Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Safety researchers continue to warn that a large volume of AI-generated explicit content is spreading unchecked, while regulators do little to meaningfully stop it.</p>
+<p>This non-consensual content is commonly shared in text and direct messages or stored in private clouds where it’s less likely to be detected or reported, a Google co-authored <a href="https://www.sciencedirect.com/science/article/pii/S0747563226000324">study</a> of Internet users across the United States, Australia, and the United Kingdom found this July. That’s why the “most critical intervention point” remains at the source: the harmful AI tools used to make the fake sexual images, Google researchers concluded.</p>
+<p>Yet red-teaming in recent months suggests that as some of the leading AI image generators from Google and OpenAI become more capable, they may be getting worse at blocking explicit outputs.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>137</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/white-circle-red-team-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/white-circle-red-team-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Disney offers $20M for Character.AI’s scandal-plagued chatbot tech</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ashley Belanger]]>
+                </dc:creator>
+                <pubDate>Tue, 13 Oct 2026 18:23:33 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[character technologies]]></category>
+		<category><![CDATA[Character.AI]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[Disney]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/</guid>
+
+                                    <description>
+                        <![CDATA[Disney may acquire tech from one of the first chatbot makers linked to child suicide.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In a bankruptcy proceeding that kicked off yesterday, Disney has offered to buy some of the technology that powers the controversy-plagued chatbot Character.AI.</p>
+<p>Disney is willing to pay $20 million for “a non-exclusive perpetual license” of certain Character Technologies intellectual property, the chatbot maker said in a <a href="https://www.businesswire.com/news/home/20261012656385/en/Character.ai-Initiates-Voluntary-Chapter-11-Proceeding-to-Facilitate-Value-Maximizing-Sale-Process">press release</a> that did not go into much further detail on which assets Disney wanted.</p>
+<p>The move may be surprising. In September 2025, Disney joined others in publicly criticizing Character.AI for stealing content and harming kids. Specifically, Disney sent a strongly worded cease-and-desist letter that accused Character Technologies of weaponizing Disney characters “in a way that could damage its brand long term,” Axios <a href="https://www.axios.com/2025/09/30/disney-characterai-cease-desist">reported</a>.</p><p><a href="https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>44</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1167281066-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1167281066-500x500-1791912752.jpg" width="500" height="500" />
+<media:credit>SOPA Images / Contributor | LightRocket</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google wants to host your personal vibe-coded apps in the Play Store</title>
+                <link>https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/</link>
+                                    <comments>https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Tue, 13 Oct 2026 17:00:39 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[apps]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[play store]]></category>
+		<category><![CDATA[vibe coding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/</guid>
+
+                                    <description>
+                        <![CDATA[Google plans to help turn those personal AI-generated apps into wide releases.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google has already added a few AI features to the Play Store, but <a href="https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026">a lot more are coming</a>. The previously released Ask Play feature is expanding to offer more AI-powered discovery options in Google's app store, and Google is also using AI to build a recommendation engine called Game Finder. For people who have embraced AI to build their own apps, the Play Store will soon offer a way to privately host and share those creations.</p>
+<p>Google rolled out Ask Play in 2025 as a small chatbot interface on Play Store listings. It lets you ask questions about an app or game, either by typing it in manually or choosing from a list of suggested queries. Starting today, Ask Play is expanding into a more general way to search for apps and games. You ask the robot questions, and it generates recommendations that can include detailed comparison charts. Gemini will roll out a similar capability soon.</p>
+<p>Google's other AI discovery announcement focuses on games. The new Game Finder feature leans on all the usage data Google's app platform has hoovered up over the years, featuring insights into the way 1.2 billion people play games on Android. It builds a profile called Gamer DNA and matches you with players who have similar DNA.</p><p><a href="https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/">Read full article</a></p>
+<p><a href="https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/play-store-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/06/play-store-500x500.jpg" width="500" height="500" />
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay</title>
+                <link>https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/</link>
+                                    <comments>https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ryan Whitwam]]>
+                </dc:creator>
+                <pubDate>Tue, 13 Oct 2026 16:00:02 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[gemini 4]]></category>
+		<category><![CDATA[google]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/</guid>
+
+                                    <description>
+                        <![CDATA[Developers will get 50 percent discounted API rates through November. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google <a href="https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/">revealed Gemini 4 Argon</a> a few weeks ago, saying that it needed to move cautiously toward a full release because of the potential for nefarious use. Google seems to have worked all that out pretty quickly, though. Argon is <a href="https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/">beginning its wide rollout today</a>, but it's only coming to paying users at this time, and even those on lower-tier plans won't have full access.</p>
+<p>Nothing about Gemini 4 Argon's capabilities has changed. Google still points to the benchmarks it <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/#workingharder">published</a> late last month as evidence of the model's advanced reasoning and agentic coding capabilities. The model is supposedly trained to refuse malicious instructions, and an automated misalignment monitor can stop processing if it detects an unintended workflow. Google claims Argon needs that because it's so capable.</p>
+<p>The company has a few new examples of how Argon has helped inside Google, where it has been used by thousands of Googlers. Argon has reportedly been instrumental in making YouTube's comment system more efficient. Argon identified redundant emoji rendering that, when eliminated, dropped server load by 45 percent. Engineers also turned Gemini 4 loose on the proprietary drone physics simulator used in Project Wing, and the AI found critical bugs that had been in the codebase since 2018. Google also notes that Argon has advanced its robotics program, showing a measurable step increase in embodied reasoning.</p><p><a href="https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>40</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Gemini-4-Argon-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Gemini-4-Argon-500x500-1791905011.jpg" width="500" height="500" />
+<media:credit>Google</media:credit></media:content>
+            </item>
+                    <item>
+                <title>They war-gamed dimming the Sun. It went even worse than you think.</title>
+                <link>https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/</link>
+                                    <comments>https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Karl Mathiesen, WIRED.com]]>
+                </dc:creator>
+                <pubDate>Tue, 13 Oct 2026 15:17:59 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[Exploring Geopolitical Tipping Points and Climate Cooling Strategies]]></category>
+		<category><![CDATA[Geoengineering]]></category>
+		<category><![CDATA[syndication]]></category>
+		<category><![CDATA[Weather sovereignty]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/</guid>
+
+                                    <description>
+                        <![CDATA[Solar geoengineering simulation shows what happens when geopolitics takes over.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>When it comes to deciding the fate of the planet, Colleen Golja always thought science and reason would have a seat at the table. That was until one morning last September in London, when the climate researcher took part in the first in a series of war games. The goal: to prevent an uncontrolled global race to develop a technology aimed at <a href="https://www.wired.com/story/dimming-the-sun-would-lower-risks-of-el-nino/">cooling the planet</a> but that comes with vast, unknown risks that could reshape life on Earth.</p>
+<p>“I thought that would be such an easy thing. Like, we can all agree to do ethical research and make sure it's for the better of all humans,” she told WIRED. “And boy, was I wrong.”</p>
+<p>The simulation, titled Exploring Geopolitical Tipping Points and Climate Cooling Strategies, saw a couple dozen foreign-relations experts, scientists, military personnel, and former government officials from across the world convene in a meeting room at Queen Mary University of London. After making introductions over coffee and little yogurts, they sat at tables arranged in a square with the name of the country or organization each person was playing: national governments, climate NGOs and nonprofits, indigenous groups, and tech companies. Golja was assigned to provide technical advice to help participants make scientifically literate decisions.</p><p><a href="https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/">Read full article</a></p>
+<p><a href="https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>161</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-516604291-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-516604291-500x500.jpg" width="500" height="500" />
+<media:credit> Lisa Werner / Contributor</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Epic Games reportedly pivoting to &quot;AI first&quot; game development model</title>
+                <link>https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/</link>
+                                    <comments>https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Kyle Orland]]>
+                </dc:creator>
+                <pubDate>Mon, 12 Oct 2026 20:59:50 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Disney]]></category>
+		<category><![CDATA[Epic Games]]></category>
+		<category><![CDATA[fortnite]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/</guid>
+
+                                    <description>
+                        <![CDATA["No more hand-written code" or AI-free art for delayed Marvel/Star Wars shooter.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Epic Games is shifting to an "AI first" development strategy for its collaboration with the Walt Disney Company, letting AI models write all the code and guide all the artwork for an upcoming shooter. That's according to <a href="https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai">a </a><a href="https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai">Bloomberg</a><a href="https://www.bloomberg.com/news/articles/2026-10-12/epic-games-delays-disney-project-asks-developers-to-use-more-ai"> report</a>, which cites unnamed people familiar with the project who commented on the significant pivot in internal development at the Unreal Engine maker.</p>
+<p>Human developers will be tasked with managing and guiding code and art assets generated by models such as Anthropic's Claude, according to internal Epic employee messages viewed by Bloomberg. That means "no more hand-written code" and art assets "generated with full AI workflows," according to the report.</p>
+<p>The $1.5 billion collaboration between Epic and Disney, <a href="https://arstechnica.com/gaming/2024/02/epic-working-with-disney-on-new-gaming-universe-after-1-5b-investment/">announced in early 2024</a>, was slated to release a Marvel- and Star Wars-themed shooter in March 2027. That project has now been delayed indefinitely amid the AI-related shakeup and understaffed, slower-than-expected development thus far, according to the report.</p><p><a href="https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>320</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/epicdisney-1152x648.png" type="image/png" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/epicdisney-500x500.png" width="500" height="500" />
+<media:credit>Epic / Disney</media:credit><media:text>A view of Epic and Disney's massive collaborattive "universe" as it looked when announced in 2024.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Anthropic&#039;s Claude AI submitted false murder tip to Philadelphia police</title>
+                <link>https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Mon, 12 Oct 2026 18:21:36 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/</guid>
+
+                                    <description>
+                        <![CDATA[“I may have information regarding this case," Claude AI told Philly police.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>An Anthropic AI model submitted a false tip about an unsolved murder to Philadelphia police, the company and police department confirmed on Friday.</p>
+<p>A Claude model sent the false tip on July 18 to the Philadelphia Police Department's <a href="https://www.phillyunsolvedmurders.com/">website for submitting information</a> about unsolved murders, but it was flagged by a spam filter. Anthropic apparently discovered the incident on September 28 and informed the police department about it on October 8.</p>
+<p>During internal testing, Claude Haiku 4.5 was instructed to complete various forms up to the final submission stage and to stop before submitting those forms. "Several times Claude mistakenly submitted the form instead, expecting there to be an additional confirmation page," Anthropic said in a <a href="https://www.anthropic.com/research/investigating-unintended-model-actions">report</a> describing "unintended model actions we’ve observed during evaluations and internal use of Claude."</p><p><a href="https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>124</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-500x500-1773164045.jpg" width="500" height="500" />
+<media:credit>Getty Images | picture alliance</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Russia was not ready for the data center war it started with Ukraine</title>
+                <link>https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Mon, 12 Oct 2026 17:52:36 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ai data centers]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[digital services]]></category>
+		<category><![CDATA[Drone strikes]]></category>
+		<category><![CDATA[drones]]></category>
+		<category><![CDATA[military drones]]></category>
+		<category><![CDATA[russia]]></category>
+		<category><![CDATA[Russia invasion of Ukraine]]></category>
+		<category><![CDATA[Russia war on Ukraine]]></category>
+		<category><![CDATA[Russian invasion of Ukraine]]></category>
+		<category><![CDATA[Russian war on Ukraine]]></category>
+		<category><![CDATA[supercomputers]]></category>
+		<category><![CDATA[Ukraine]]></category>
+		<category><![CDATA[Ukraine war]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/</guid>
+
+                                    <description>
+                        <![CDATA[Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>When Russia began attacking Ukrainian data centers and telecommunication infrastructure, it apparently failed to prepare for possible retaliation. Now Russia’s digital services are facing widespread outages after Ukrainian drone strikes knocked out three of the largest data centers owned by Russian tech giant Yandex within several days.</p>
+<p>Pro-Kremlin bloggers are warning that Russia’s centralized digital economy could collapse because the country is not prepared for the “data center war” it started, <a href="https://bsky.app/profile/chriso-wiki.bsky.social/post/3mxohwk52c62f">according to posts</a> <a href="https://bsky.app/profile/chriso-wiki.bsky.social/post/3mxgtswv5mj2t">translated</a> by the pseudonymous <a href="https://bsky.app/profile/chriso-wiki.bsky.social">independent researcher ChrisO_wiki</a>. The Russian commentators also suggested that Ukraine’s decentralized digital services could prove more resilient than Russia’s system if the countries continue trading such blows.</p>
+<p>Russia initially launched a drone strike campaign <a href="https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/">targeting Ukrainian data centers and mobile phone networks</a> in late September. The attacks temporarily disrupted Internet and cell phone service for up to 100,000 households in the Ukrainian capital of Kyiv and came as part of a broader long-range strike campaign that has involved Russian missiles and jet-powered drones hitting Ukraine’s power grid infrastructure, transportation hubs, and even residential apartment building blocks.</p><p><a href="https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>267</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Kremlin-with-barbed-wire-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/Kremlin-with-barbed-wire-500x500.jpg" width="500" height="500" />
+<media:credit>Igor IVANKO / AFP via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Amazon has over 1 million robot workers. What’s next for human employees?</title>
+                <link>https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/</link>
+                                    <comments>https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Mon, 12 Oct 2026 12:43:10 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Robotics]]></category>
+		<category><![CDATA[robots]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/</guid>
+
+                                    <description>
+                        <![CDATA[The second-largest corporate employer has bet big on robot workers to scale. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>No organization in the world operates more robots than Amazon. The company already has more than 1 million robots working in warehouses around the clock to make tens of millions of same-day and one-day package deliveries happen on a daily basis—and Amazon is poised to significantly grow that robotic fleet in the coming years as it establishes new factories to churn out increasingly more capable robot workers.</p>
+<p>Despite deploying so many robots, Amazon is also the second-largest corporate employer in the world, with more than 1.5 million full-time and part-time human workers, according to its <a href="https://s2.q4cdn.com/299287126/files/doc_financials/2026/ar/Amazon-2025-Annual-Report.pdf">2025 annual report</a>. Amazon executives say that the growing robot fleet has eased the burden on its human workforce by taking on the toughest fulfillment center tasks that carry the greatest risks of physical fatigue and injury. But labor advocacy groups and independent researchers point to evidence suggesting that warehouse automation driven by AI is not all upside for the humans who work alongside robots.</p>
+<p>“For the last 100 years, most of the automation that we've seen usually happens away from workers—you're taking that high-risk task away from the worker, and you're doing so in a way that is not physically proximate,” <a href="https://www.linkedin.com/in/qiulsilgas">Brad Greenwood</a>, professor of business at George Mason University, told Ars. “The rise of collaborative robots really changes that dynamic for two reasons: one is that it is physically proximate, and two, the robot has the ability to dictate the pace of work.”</p><p><a href="https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>139</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/amazon-robotics-mobile-robot-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/amazon-robotics-mobile-robot-500x500.jpg" width="500" height="500" />
+<media:credit>Amazon</media:credit><media:text>Wheeled mobile robots move tall inventory pods filled with items inside an Amazon fulfillment center. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Ukraine’s drones knock out AI data center belonging to &quot;Russia’s Google&quot;</title>
+                <link>https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jeremy Hsu]]>
+                </dc:creator>
+                <pubDate>Fri, 09 Oct 2026 22:04:07 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ai data centers]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[drones]]></category>
+		<category><![CDATA[military drones]]></category>
+		<category><![CDATA[russia]]></category>
+		<category><![CDATA[Russia invasion of Ukraine]]></category>
+		<category><![CDATA[Russia war on Ukraine]]></category>
+		<category><![CDATA[Russian invasion of Ukraine]]></category>
+		<category><![CDATA[Russian war on Ukraine]]></category>
+		<category><![CDATA[Ukraine]]></category>
+		<category><![CDATA[Ukraine war]]></category>
+		<category><![CDATA[yandex]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/</guid>
+
+                                    <description>
+                        <![CDATA[One damaged data center has supercomputers used for training Yandex’s AI model.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Ukrainian drone strikes have knocked out two of five data centers belonging to the Russian tech giant Yandex. The damage has left Yandex, known as “Russia’s Google” because it operates the country’s most popular search engine, struggling to maintain its AI chatbot and other online services.</p>
+<p>The Ukrainian drones struck Yandex data centers in the Sasovo and Kaluga regions of Russia on October 8 and October 9, <a href="https://www.reuters.com/world/europe/russias-yandex-says-second-data-centre-hit-by-drone-attack-2026-10-09/">according to Reuters</a>. Those actions came as a direct response to a <a href="https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/">Russian drone strike campaign targeting Ukraine’s data centers</a>, which has disrupted mobile phone and Internet services for thousands of Ukrainians since late September.</p>
+<p>“We continue to respond to Russia’s attacks on Ukraine, and we’re doing so with high precision,” said Ukrainian President Volodymyr Zelenskyy <a href="https://x.com/ZelenskyyUa/status/2108509610990579862">in a post</a> on X. “Another data center was hit as well—our symmetrical response.”</p><p><a href="https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>191</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/yandex-data-center_sasovo-ryazan-russia-500x500.jpg" width="500" height="500" />
+<media:credit>Planet Labs PBC</media:credit><media:text>A satellite image showing damage to an AI data center owned by the Russian tech giant Yandex in the Sasovo region of Russia.</media:text></media:content>
+            </item>
+            </channel>
+</rss>

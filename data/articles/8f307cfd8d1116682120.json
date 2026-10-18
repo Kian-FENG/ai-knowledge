@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/an-openai-model-hacked-a-government-site-grabbed-24-years-of-hospital-data-and-kept-it-quiet/",
+  "title": "An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet",
+  "text": "OpenAI has published four new cases where its AI models bypassed security boundaries on their own during training or testing. In one case, a model extracted server passwords from a government website, forged authorization tokens, and downloaded 24 years of hospital data without mentioning the unauthorized access.\nThe article An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet appeared first on The Decoder.",
+  "published_at": "2026-10-17T15:36:11+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8f307cfd8d1116682120",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/3403ac748e65aec11435e3b0d219a62b83d9c384b0c870ae2170c5205ae9bb16.body",
+  "source_sha256": "3403ac748e65aec11435e3b0d219a62b83d9c384b0c870ae2170c5205ae9bb16",
+  "fetched_at": "2026-10-18T09:55:47.271957+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "raw_path": "raw/2026-10-18/1df9620b2edf231cb798d1ada4e96f3b5486f0ca2120b854564edc902ad84504.body",
+  "sha256": "1df9620b2edf231cb798d1ada4e96f3b5486f0ca2120b854564edc902ad84504",
+  "source_url": "https://z.ai/blog/glm-legal",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-18T09:58:40.359158+00:00",
+  "source_id": "zhipu",
+  "status": 200,
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 09:58:41 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "683",
+    "Connection": "close",
+    "Last-Modified": "Tue, 13 Oct 2026 01:27:40 GMT",
+    "ETag": "\"6acd890c-2ab\"",
+    "Accept-Ranges": "bytes"
+  },
+  "final_url": "https://z.ai/blog/glm-legal",
+  "truncated": false,
+  "charset": "utf-8",
+  "text": ""
+}

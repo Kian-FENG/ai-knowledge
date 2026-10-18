@@ -217,3 +217,20 @@
 - research/synthesis/agent-supply-access-reliability-20261015.md：原文归档/查重/所列范围阅读/综合关联/审核发布及默认query/get_page回查完成，raw hash核对通过。
 
 本轮18页新增、1页更新；未完成证据和覆盖见reports/daily/2026/10/2026-10-15/pending-evidence.md。
+
+
+## automation-ai-2026-10-17-and-weekly-2026-10-16
+
+- reference/sources/deepseek-search-fetch-20261017.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/sources/replit-default-openai-20261017.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/sources/deepseek-v41-flash-1017.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/sources/rtx-spark-retail-20261017.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/sources/chatgpt-slides-pro-20261016.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/sources/reflection-beam-release-20261016.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/sources/anthropic-employment-20261016.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/sources/pilotdeck20-20261015.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/sources/vllm-beam-day0-20261016.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/sources/humxn-home-service-data-20261006.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/entities/humxn.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- reference/entities/reflection.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+- research/synthesis/agent-total-cost-and-delivery-20261017.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。

@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-18/2e85e4f1875cd03df16c4cffdefe57fd5b3c968eb8f74a8b4222d3e02c67dd75.body",
+  "sha256": "2e85e4f1875cd03df16c4cffdefe57fd5b3c968eb8f74a8b4222d3e02c67dd75",
+  "source_url": "https://api-docs.deepseek.com/guides/search/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-18T09:57:13.654683+00:00",
+  "source_id": "deepseek-api-changelog",
+  "status": 200,
+  "headers": {
+    "Last-Modified": "Sat, 17 Oct 2026 09:05:56 GMT",
+    "Content-Encoding": "gzip",
+    "Etag": "\"afc13d12deebd532f825a8797203a9d9\"",
+    "Content-Type": "text/html",
+    "Server": "tencent-cos",
+    "x-amz-hash-crc64ecma": "15546302403491848757",
+    "x-amz-request-id": "NmFkMzNiMzJfODQxZjY1MDlfMTEyNGRfMWY0N2ZkYzE=",
+    "x-amz-storage-class": "MAZ_STANDARD",
+    "Content-Length": "9887",
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Date": "Sun, 18 Oct 2026 09:57:14 GMT",
+    "Age": "117",
+    "EO-LOG-UUID": "17529236539120463083",
+    "EO-Cache-Status": "HIT",
+    "Cache-Control": "max-age=0"
+  },
+  "final_url": "https://api-docs.deepseek.com/guides/search/",
+  "truncated": false,
+  "charset": "utf-8"
+}

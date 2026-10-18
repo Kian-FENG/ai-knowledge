@@ -1290,3 +1290,26 @@ sources:
   enabled: true
   checked_at: '2026-10-14'
   note: 本期官网产品流程实际阅读；发布日期未知，仅背景归档；机器采集许可未核实。
+
+- id: humxn
+  name: HUMXN Official
+  url: https://humxn.io/humxn-launches-free-home-service-program
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-18'
+  note: 官网全文核对品牌、创始人和服务换数据模式；公告10月6日仅背景，法定注册及收入未核。
+- id: pilotdeck
+  name: OpenBMB PilotDeck Official Repository
+  url: https://github.com/OpenBMB/PilotDeck
+  kind: web
+  group: infra
+  section: 3
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-18'
+  note: README News标明2.0于10月15日发布；AGPL-3.0、工作区和路由主张已读，未运行或复现。

@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0"><channel><title>智东西</title>
+<description>智东西：智能产业第一媒体！</description>
+<link>https://zhidx.com</link>
+<pubDate>Sun, 18 Oct 2026 17:55:58 +0800</pubDate>
+<language>zh-cn</language>
+<generate>https://zhidx.com/rss</generate>
+<item><title><![CDATA[梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/87a94a7a2ca0c9ee9e99c7d9647176da/6ad39b80/uploads/2026/10/6ad348626d7dd_6ad348626a96b_6ad348626a934_ChatGPT-%E5%9B%BE%E5%83%8F-2026%E5%B9%B410%E6%9C%8817%E6%97%A5-18_04_06.png?x-oss-process=image/resize,m_fill,w_1024,h_437"><strong>智东西<br />
+</strong><strong>作者 | 杨京丽</strong><br />
+<strong>编辑 | 李水青</strong></p>
+<p>智东西10月17日报道，刚刚，DeepSeek V4.1 Flash更新至<span style="color: #0f59a4"><strong>V4.1-Flash-1017版本</strong></span>，官方网页端、App与API已同步更新至新模型，模型权重也已在HuggingFace和ModelScope开放下载。DeepSeek还向公众开放自研搜索引擎的<span style="color: #0f59a4"><strong>Search（搜索）与Fetch（抓取）API</strong></span>，两个接口均定价为<span style="color: #0f59a4"><strong>5元/千次</strong></span>。</p>
+<p>此次更新距离该模型发布仅过去一个多月。9月10日，<a href="https://mp.weixin.qq.com/s/_j1YWA8ccP8sP2NrpzWZLA">DeepSeek正式推出V4.1-Flash</a>，在性能上超越了DeepSeek-V4-Pro。</p>
+<p><img class="alignnone size-full wp-image-601912" src="https://oss.zhidx.com/a51ed9d52c2d7faeb5cfba5fe1362052/6ad39b80/uploads/2026/10/6ad346b0251ec_6ad346b02258c_6ad346b022550_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-17-175738.png" alt="梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临" width="2684" height="1400" /></p>
+<p><span style="color: #0f59a4">开源地址：</span></p>
+<p><span style="color: #0f59a4">HuggingFace:</span></p>
+<p><span style="color: #0f59a4">https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017</span></p>
+<p><span style="color: #0f59a4">ModelScope:</span></p>
+<p><span style="color: #0f59a4">https://modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash-1017 </span></p>
+<p>模型更新主要围绕<span style="color: #0f59a4"><strong>性能、任务执行效率和完整项目开发能力</strong></span>展开。DeepSeek称，相比上一版本，新模型在多项基准测试中取得提升，同时缩短了任务运行时间与输出长度，让用户以更低成本、更快速度完成任务。</p>
+<p>在衡量软件工程能力的DeepSWE、业务自动化能力的Automation-Bench、复杂任务执行能力的Agents&#8217; Last Exam，以及专业知识工作能力的Apex Bench四项测试中，新模型展现出较大优势，领先Kimi K3、GLM 5.3、GPT 5.6-Sol和Claude Opus 5等模型。</p>
+<p><img class="alignnone size-full wp-image-601906" src="https://oss.zhidx.com/f8983cff8e4c04cf585292d880c40c5a/6ad39b80/uploads/2026/10/6ad34270e918e_6ad34270e66d0_6ad34270e668c_640.png" alt="梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临" width="1049" height="862" /></p>
+<p>在DeepSWE v1.1测试中，新模型max档位的单次任务通过率达到77.0%，得分超<span style="color: #0f59a4"><strong>GPT-6 Astra、GPT-6.1 Sol、Gemini 3.8 Flash、Claude Opus 5</strong></span>等模型，较V4.1-Flash上一版本提高2.8个百分点，每项任务平均费用则从约3.3元降至约1.3元，下降约六成。新模型在多个Harness下达到了<span style="color: #0f59a4"><strong>新的性能-费用帕累托最优</strong></span>，即以更低成本取得更好的任务表现。</p>
+<p><img class="alignnone size-full wp-image-601910" src="https://oss.zhidx.com/ee71d78f70a5d158c5b186132ecaa356/6ad39b80/uploads/2026/10/6ad344705ea88_6ad3447054134_6ad34470540fe_640-1.png" alt="梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临" width="1080" height="950" /></p>
+<p>就在模型更新前两天，10月15日，DeepSeek曾发生<strong><span style="color: #0f59a4">近5小时的API服务中断</span></strong>。服务恢复后，DeepSeek致歉并公布补偿方案，将用户10月8日至14日的消耗金额以赠金形式全额返还，自动到账。</p>
+<p>服务中断时，就有网友猜测是不是要发新模型了。如今，V4.1-Flash-1017正式上线，满足了大家的心愿。评论区中，大家讨论DeepSeek在“背着我们偷偷进步”。还有用户分享使用感受称：“模型突然变强了，几分钟就完成了自己的大作业。”</p>
+<p><img class="alignnone size-full wp-image-601920" src="https://oss.zhidx.com/ba04dcb96b428f3b19486985068b26c9/6ad39b80/uploads/2026/10/6ad34f3cec304_6ad34f3ce8c3d_6ad34f3ce8c0f_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261017183002_110_2.jpg" alt="梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临" width="1140" height="710" /></p>
+<p>一位海外开发者称，DeepSeek-V4.1-Flash-1017的运算速度达到了每秒244个Token，这太不可思议了！它甚至比GPT-6.1 Sol的超快模式还要快，同时还拥有与GPT-5.6 Sol相当的智能；并真诚发问：开发出如此高效又便宜的模型有什么秘诀？</p>
+<p><img class="alignnone size-full wp-image-601919" src="https://oss.zhidx.com/d68c39de5d35acb8ec22a1c279ea6068/6ad39b80/uploads/2026/10/6ad34f207676d_6ad34f206eb96_6ad34f206eb64_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261017182331_1826_8.png" alt="梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临" width="1294" height="1206" /></p>
+<p>有的开发者甚至觉得：“这个模型都可以改名叫DeepSeek-V4.2-Pro。”</p>
+<p><img class="alignnone size-full wp-image-601921" src="https://oss.zhidx.com/b7f8f6c62fed8149e3727b470a00d717/6ad39b80/uploads/2026/10/6ad34f5a8412c_6ad34f5a7e50f_6ad34f5a7e4e2_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261017183356_1832_8.png" alt="梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临" width="1274" height="218" /></p>
+<p>本次更新还针对DeepSeek Harness、腾讯CodeBuddy和WorkBuddy等平台框架进行了优化。DeepSeek Harness同步更新至0.2.1版本以适配新模型，官方建议用户升级至0.2.1-rc.1及以上版本。</p>
+<p>符合活动条件的用户首次登录使用DeepSeek Harness，可获6元赠金，无需充值即可体验。赠金限量发放，到账后7天内有效。</p>
+<p>在编程方面，新模型通过基于自反馈的强化学习（RL）训练，增强了从零构建完整项目的能力，覆盖游戏开发、3D建模等场景。</p>
+<p>DeepSeek称，新模型支持用自然语言描述需求的“许愿式”编程请求。用户仅需较少提示词与参考素材，即可在较少交互轮次下完成项目。</p>
+<p><img class="alignnone wp-image-601908" src="https://oss.zhidx.com/bea6b7bc2611863a154ef8e249ed5d18/6ad39b80/uploads/2026/10/6ad34285788fb_6ad342857564c_6ad3428575620_640.gif" alt="梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临" width="1000" height="431" /></p>
+<p>▲官方案例1：故宫 3D 建模展示效果（图源：DeepSeek）</p>
+<p><img class="alignnone wp-image-601907" src="https://oss.zhidx.com/4928f727d99a344ab60cad69cd6db49c/6ad39b80/uploads/2026/10/6ad34273530ac_6ad342734f82e_6ad342734f7d7_640-1.gif" alt="梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临" width="1000" height="563" /></p>
+<p>▲官方案例2：网页版赛车游戏开发效果（图源：DeepSeek）</p>
+<p>模型更新后，有网友用新模型制作了“鹈鹕骑自行车”作品。画面采用复古旅行海报风格，以墨绿、浅绿与暖黄色搭配，将骑车的鹈鹕与海岸公路、灯塔等元素融合，整体构图完整、配色协调。但局部结构仍有瑕疵：自行车坐垫与鹈鹕身体的边界不清，似乎融为一体，脚部与脚踏的衔接也不够自然。</p>
+<p><img class="alignnone wp-image-601909" src="https://oss.zhidx.com/d3871bae8f6e1b63193e1906dea1d6ae/6ad39b80/uploads/2026/10/6ad34291244de_6ad3429121746_6ad3429121716_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261017171125_725_5.png" alt="梁圣又掀桌了！DeepSeek新模型斩杀GPT-6，许愿式编程时代降临" width="1000" height="593" /></p>
+<p>此外，搜索服务也是此次更新的另一重点。DeepSeek称，DeepSeek搜索已索引全球千亿级网页，每天处理数亿次搜索请求，支持多语言搜索，并针对SEO作弊、GEO操纵和低质AI生成内容进行过滤。</p>
+<p>本次新版本发布DeepSeek API新增对Search（搜索）与<span class="">Fetch（抓取）</span>接口的支持，相关能力正式向公众开放。两个接口价格均为5元/千次。需要注意的是，目前用户在DeepSeek Harness、Claude Code和Codex中使用DeepSeek API时，通过服务端工具调用访问的Search/Fetch接口暂未计费，这部分调用将于北京时间11月1日00:00起按次收费。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601905.html</link>
+<pubDate>Sat, 17 Oct 2026 18:03:11 +0800</pubDate>
+<source>智东西</source>
+<author>杨 京丽</author>
+</item>
+<item><title><![CDATA[2.99万元起！端侧跑超千亿大模型，联想YOGA Pro 15 RTX Spark发售]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/1f72380cdfb8b159bf61e9b6a5ab30ce/6ad39b80/uploads/2026/10/6ad223972d890_6ad223972a900_6ad223972a8b8_ScreenShot_2026-10-16_211340_235-%E6%8B%B7%E8%B4%9D.png"></p>
+<p class="p1">智东西10月16日消息，今日，联想YOGA Pro 15 RTX Spark超级AIPC全渠道正式开售，官方售价29999元起，这也是全球首批搭载NVIDIA RTX Spark N1X超级芯片的本地智能体AIPC。</p>
+<p>联想YOGA Pro 15 RTX Spark超级AIPC由NVIDIA RTX Spark驱动，将NVIDIA AI与RTX图形技术集成到其中，专为创作、开发和游戏而设计。</p>
+<h2><strong>一、NVIDIA RTX Spark驱动，集成6144核</strong></h2>
+<p class="p1">这台AIPC搭载的芯片内部集成高达6144-core的NVIDIA Blackwell RTX GPU与高达20-core的NVIDIA Grace CPU，可在端侧释放高达1 Petaflop FP4的本地AI运算性能。且NVIDIA CUDA平台可在设备上原生运行。</p>
+<p><img class="alignnone wp-image-601886 size-full" src="https://oss.zhidx.com/368ef23527a3b3a618f0764a71aa7145/6ad39b80/uploads/2026/10/6ad223b2420ad_6ad223b23f6b7_6ad223b23f689_ScreenShot_2026-10-16_211349_666.png" alt="2.99万元起！端侧跑超千亿大模型，联想YOGA Pro 15 RTX Spark发售" width="1394" height="776" /></p>
+<p class="p1">在硬件规格层面，AIPC配备至高128GB统一内存与至高2TB极速存储。与以往CPU与独立显存相互割裂的设计不同，NVIDIA RTX Spark N1X超级芯片将GPU、CPU与统一内存深度融合，从硬件底层打破端侧AI面临的显存瓶颈，让超大参数模型本地常驻、复杂多任务并发处理不再受限。</p>
+<p class="p1">再加上80W满功耗调校与更优的能效表现，整机在运行高负载大模型推理、高分辨率视频渲染、大型项目代码编译时，均能保障持续稳定输出，即使在离电状态下也能应对专业重载工作。</p>
+<h2 class="p1"><strong>二、能跑千亿参数模型，算力自由调配</strong></h2>
+<p class="p1">软件与端侧生态层面，联想YOGA Pro 15 RTX Spark超级AIPC搭载天禧AI。天禧AI是由联想推出的个人超级智能体，其全新推出的超能模式能够让用户在联想YOGA Pro 15 RTX Spark超级AIPC上完成多种类型的复杂任务，实现私密的本地工作流，断网可用，零Token成本。</p>
+<p><img class="alignnone wp-image-601887 size-full" src="https://oss.zhidx.com/f20cebf554586a5ad201694b37a84fd0/6ad39b80/uploads/2026/10/6ad223b7dba2a_6ad223b7d8edd_6ad223b7d8ead_ScreenShot_2026-10-16_211356_721.png" alt="2.99万元起！端侧跑超千亿大模型，联想YOGA Pro 15 RTX Spark发售" width="1366" height="760" /></p>
+<p class="p1">天禧AI超能模式支持接入多款生产力工具，能够生成视频、网页、文档等多种类型的产物，满足用户日常工作需求。用户可在本地模式和标准模式之间切换，完成私密任务时使用本地模式处理。天禧AI本地超能模式功能将通过后续OTA升级实现。</p>
+<p class="p1">联想YOGA Pro 15 RTX Spark超级AIPC能跑通超千亿参数本地大模型。</p>
+<p class="p1">此外，端侧AI全程本地运算，有多重优势。首先是“零Token成本”，摆脱网络波动与API资费束缚，算力可自由调配；其次是“资产安全保障”，端侧AI数据留存本地，杜绝数据泄漏隐患；在天禧AI的加持下，端侧AI能实现“智能体协同自主执行”，可以自主调度工具、生成。</p>
+<h2 class="p1"><strong>二、断网也能用，端侧智能深度嵌入专业工作流</strong></h2>
+<p class="p1">在毫秒级端侧算力驱动下，联想YOGA Pro 15 RTX Spark超级AIPC能应对AI创作、编程开发、研学用户高频场景。</p>
+<p><img class="alignnone wp-image-601888 size-full" src="https://oss.zhidx.com/b36f2fc6503e538a4585e52d8721cbe5/6ad39b80/uploads/2026/10/6ad223c21c114_6ad223c218c83_6ad223c218b4a_ScreenShot_2026-10-16_211406_266.png" alt="2.99万元起！端侧跑超千亿大模型，联想YOGA Pro 15 RTX Spark发售" width="1246" height="688" /></p>
+<p class="p1">AI创作时，剧本构思、视觉分镜到音视频素材生成，繁重运算在本地无缝流转，承载三维建模推演与UI交互原型的实时渲染，告别云端排队等待与网络延迟烦恼。</p>
+<p class="p1">面向编程开发时，联想YOGA Pro 15 RTX Spark超级AIPC原生CUDA环境结合端侧AI算力，开发者身处断网状态，也能展开私有代码库审查、实时逻辑纠错与大型架构重构。</p>
+<p class="p1">针对科研工作者，联想YOGA Pro 15 RTX Spark超级AIPC内置的天禧AI不仅可以高效阅读文献，还能直接在端侧完成数据处理与建模。</p>
+<p><img class="alignnone wp-image-601889 size-full" src="https://oss.zhidx.com/0386b394097211399973cb42317518a3/6ad39b80/uploads/2026/10/6ad223c529003_6ad223c526443_6ad223c526419_ScreenShot_2026-10-16_211416_802.png" alt="2.99万元起！端侧跑超千亿大模型，联想YOGA Pro 15 RTX Spark发售" width="1144" height="716" /></p>
+<p class="p1">为了承载高密度生产力输出，整机在人机交互与硬件工匠细节上同样进行了深度定制。</p>
+<p class="p1">联想YOGA Pro 15 RTX Spark超级AIPC采用极具辨识度的雷霆灰配色，一体化机身、轻薄便携；内置140W峰值放电能力的92.5Wh硅负极高密度大电池，实现外接电源与电池供电状态下输出一致；搭载15.3英寸2.5K OLED 165Hz触控屏幕。</p>
+<p class="p1">输入方面，Wacom系统级认证的7英寸全域妙写数位板支持手写笔，可以实现写、画、点、说的自然输入，还支持将手绘草图转化为3D模型；定制款韵律键盘具备1.5mm舒展键程与0.3mm贴合微弧，内部植入铝合金防滚架加固，通过83颗螺丝紧密锁附，手感触底清晰、久敲不累。</p>
+<p><img class="alignnone wp-image-601890 size-full" src="https://oss.zhidx.com/5514e6d5561ecbff06ddec474fdb1907/6ad39b80/uploads/2026/10/6ad223c87e7e7_6ad223c87bbd5_6ad223c87bb91_ScreenShot_2026-10-16_211426_050.png" alt="2.99万元起！端侧跑超千亿大模型，联想YOGA Pro 15 RTX Spark发售" width="1374" height="770" /></p>
+<p class="p1">系统层面，新机原生适配上千款专业创作应用，深度兼容NVIDIA Studio平台和RTX核心加速。</p>
+<h2 class="p1"><strong>结语：算力随行与资产私有，打破个人效率与灵感落地的边界</strong></h2>
+<p class="p1">该设备支持算力自由调用，并保证资产私密、智能体自主运行。联想YOGA Pro 15 RTX Spark超级AIPC用全栈端侧软硬件能力，用顶级端侧AI能力化解了高算力需求人群在成本、网络与安全上的多重痛点。</p>
+<p class="p1">原本庞大的私有算力底座，真正化作专业创作者随身携行的生产力工具，它不仅定义了AIPC的生产力上限，更让专业人士拥有了应对复杂任务的底气。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601884.html</link>
+<pubDate>Fri, 16 Oct 2026 21:18:13 +0800</pubDate>
+<source>智东西</source>
+<author>程茜</author>
+</item>
+<item><title><![CDATA[美国芯片创企拟融资6亿，另辟赛道对标英伟达、AMD]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/dd3b3d8bcd35be66fb5820ddd6333596/6ad39b80/uploads/2026/10/6ad1f99ca9256_6ad1f99ca63b3_6ad1f99ca6373_10.png"><strong>智东西</strong><br />
+<strong>编译 | 黄菲</strong><br />
+<strong>编辑 | 江宇</strong></p>
+<p>智东西10月16日消息，据路透社报道，10月15日，美国芯片设计初创公司Bolt Graphics正寻求融资约1亿美元（约合人民币6.72亿元），该公司目前估值约为7亿美元（约合人民币47.04亿元）。</p>
+<p>该公司计划开发能够与英伟达和AMD竞争的GPU，重点面向高性能计算、专业渲染和游戏图形等领域。</p>
+<p>目前，本轮融资仍在进行中，Bolt Graphics首席执行官达尔维什·辛格（Darwesh Singh）拒绝透露具体融资金额和条款，但称融资进展顺利。</p>
+<p>与英伟达、AMD持续加码AI芯片不同，Bolt Graphics试图通过差异化的产品路线寻找市场机会。该公司已投入约6年时间研发芯片，本周刚完成Zeus GPU架构的首轮测试，计划先进入专业市场，未来再拓展至消费级游戏显卡市场。</p>
+<p>在AI算力需求持续增长、大型科技公司不断扩大芯片和计算基础设施投入的背景下，Bolt Graphics希望通过面向特定应用场景的专用硬件，避开与行业巨头在主流AI芯片市场的直接竞争。</p>
+<h2><strong>一、押注专用GPU，Zeus芯片拓宽多元场景</strong></h2>
+<p>Bolt Graphics是一家总部位于美国硅谷的芯片初创公司，由达尔维什·辛格于2020年创立。</p>
+<p>路透社报道称，过去10年，风险投资机构对芯片初创公司的投资一直较为谨慎，主要原因是先进芯片研发成本高昂，从技术开发到实现商业化往往需要较长时间。Bolt Graphics已经在芯片及硬件研发上投入约6年。</p>
+<p>10月13日，半导体行业媒体HPCwire报道称，Bolt Graphics已完成Zeus GPU架构的首轮测试。</p>
+<p>该公司称，测试芯片面积约为6平方毫米，采用台积电12纳米工艺制造，测试结果显示，其性能和功耗表现均超出预期。</p>
+<p>据Bolt Graphics于10月13日发布的公告，Zeus测试芯片已完成硅片点亮测试。Zeus的一项核心设计是为麦克斯韦方程组（Maxwell&#8217;s equations）配置专用硬件模块。</p>
+<p>麦克斯韦方程组用于描述电场、磁场及电磁波等物理现象，在电磁仿真、半导体设计和光子芯片研究等领域具有应用价值。</p>
+<p>据HPCwire报道，辛格认为，光线追踪和光栅化已经是现有GPU的重要能力，而将复杂物理算法交由芯片专用硬件执行，是Zeus试图实现差异化的方向。</p>
+<p>除了电磁仿真，Zeus还面向需要双精度浮点运算（FP64）的应用场景，以满足复杂科学计算对数值精度的要求。</p>
+<p>相比之下，许多AI训练和推理任务可以使用精度较低的数据格式，因此，科学计算与AI工作负载对芯片架构的需求并不完全相同。</p>
+<p>在后续产品规划方面，Bolt Graphics计划采用台积电5纳米工艺制造Zeus芯片，目标芯片面积约为400平方毫米。</p>
+<p>内存方面，该公司计划采用容量超过1太字节的低功耗双倍数据率5代内存（LPDDR5），而非部分高性能计算产品使用的高带宽内存（HBM）。此外，Zeus还计划采用400G以太网和PCIe接口。</p>
+<p>客户方面，Bolt Graphics称，目前正与多个行业的潜在客户洽谈，涵盖科研、国防、数据中心、影视制作和游戏开发等领域。</p>
+<p>按照该公司的计划，Zeus有望于2027年底至2028年初进入量产阶段。</p>
+<h2><strong>二、AI算力需求持续增长，芯片初创公司寻找差异化机会</strong></h2>
+<p>Bolt Graphics寻求融资之际，AI芯片市场仍在快速发展，英伟达和AMD持续争夺GPU市场。</p>
+<p>10月12日，AMD发布Helion机架级计算方案，其面向智能体应用，支持根据客户需求组合EPYC处理器和Instinct GPU，也可采用纯CPU配置。</p>
+<p><img class="aligncenter size-full wp-image-601894" src="https://oss.zhidx.com/756079fcd1c72ab01311444d26c3e6c8/6ad39b80/uploads/2026/10/6ad2ef5b67bb0_6ad2ef5b64e8e_6ad2ef5b64e4e_1.png" alt="美国芯片创企拟融资6亿，另辟赛道对标英伟达、AMD" width="1000" height="567" /></p>
+<p>▲AMD官方新闻稿，图源：AMD</p>
+<p>AMD计划与合作伙伴推进相关方案，预计首批配置将于2026年11月推出。</p>
+<p>同日，英伟达宣布向开放计算项目（OCP）贡献Vera Rubin平台相关机架和计算托盘设计，推动下一代AI数据中心基础设施采用开放标准。</p>
+<p><img class="aligncenter size-full wp-image-601895" src="https://oss.zhidx.com/f8a079cdf693dde5311d885695f6a611/6ad39b80/uploads/2026/10/6ad2ef60493d4_6ad2ef6046466_6ad2ef6046427_2.png" alt="美国芯片创企拟融资6亿，另辟赛道对标英伟达、AMD" width="1000" height="354" /></p>
+<p>▲英伟达官网10月12日发文，图源：英伟达</p>
+<p>10月14日，英伟达又宣布推出cuPotential软件库，用于构建能够模拟原子与分子相互作用的AI智能体，进一步拓展GPU在半导体设计与制造领域的应用。</p>
+<p><img class="aligncenter size-full wp-image-601896" src="https://oss.zhidx.com/ec5b7a0549afe7252bd791f7b889b1a0/6ad39b80/uploads/2026/10/6ad2ef6141a9b_6ad2ef613e94b_6ad2ef613e916_3.png" alt="美国芯片创企拟融资6亿，另辟赛道对标英伟达、AMD" width="1000" height="567" /></p>
+<p>▲英伟达官网10月14日发文，图源：英伟达</p>
+<p>这两家公司的动态更新都体现出一个趋势，行业竞争已从单一芯片性能延伸至更加多元化的应用生态。</p>
+<p>对于Bolt Graphics而言，大型科技公司不断增加算力投入，既反映出计算需求的增长，也意味着芯片市场的竞争正在进一步加剧。</p>
+<p>因此，为了避开一部分竞争压力，Bolt Graphics将产品面向个人电脑用户，通过专用硬件设计满足特定应用场景的计算需求。</p>
+<p>尤其是在游戏显卡市场，产品不仅需要具备足够的图形处理能力，还需要适配大量游戏，并获得开发者支持。</p>
+<p>Bolt Graphics计划先进入3D艺术创作和游戏开发等专业市场，再逐步拓展至消费级游戏显卡市场。</p>
+<p>对于一家尚未进入量产阶段的芯片初创公司而言，融资只是商业化过程中的第一步，未来将面临更多挑战。</p>
+<h2><strong>结语：Bolt商业化尚需时间，个人用户多一选择</strong></h2>
+<p>在AI芯片需求持续增长的背景下，Bolt Graphics试图避开与行业巨头在主流AI算力市场的正面竞争。</p>
+<p>但这条路线能否走通，最终取决于其技术能否落地，以及客户愿意的倾向。</p>
+<p>如果Zeus能够顺利研发并实现量产，个人电脑用户未来或将获得更多GPU产品选择。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601706.html</link>
+<pubDate>Fri, 16 Oct 2026 18:27:04 +0800</pubDate>
+<source>智东西</source>
+<author>黄 菲</author>
+</item>
+<item><title><![CDATA[《时代》2026最佳发明揭晓：宇树领衔，联想荣耀TCL蚂蚁上榜，AI无处不在]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/61f8a79de0841a587e98554f830e0f50/6ad39b80/uploads/2026/10/6ad1ea1d2d076_6ad1ea1d285d7_6ad1ea1d285aa_%E6%97%B6%E4%BB%A3%E5%A4%B4%E5%9B%BE.jpg"><strong>智东西</strong><br />
+<strong> 编译 | 栗子</strong><br />
+<strong> 编辑 | 云鹏</strong></p>
+<p>智东西10月16日消息，《时代》周刊2026年度“最佳发明”榜单正式公布，共收录300项正式发明和100项特别提名。今年中国产品上榜数量明显增多，覆盖消费电子、机器人、健康AI和AI支付等多个赛道。</p>
+<p>荣耀Robot Phone是2026年度唯一上榜的中国手机品牌；宇树科技GD01载人机甲与创始人王兴兴共同登上《时代》封面；蚂蚁阿福是今年唯一上榜的中国AI应用；支付宝AI支付是全球唯一上榜的支付服务；联想ThinkPad P1 Gen 9、TCL X11L、极壳Hypershell X Ultra S外骨骼也同步入选</p>
+<p>与往年相比，今年榜单释放出两个清晰信号：AI不再是一个独立品类，而是渗透进几乎所有硬科技的底层；中国品牌在多个赛道系统性出现，从健康AI、AI支付到机器人、新能源超跑和消费电子均有代表产品入选。</p>
+<h2>一、折叠屏iPhone领衔，手机、电视、PC形态齐创新</h2>
+<p>Apple iPhone Duo是今年消费电子类别中最受关注的产品。苹果新任CEO约翰·特努斯（John Ternus）登上《时代》封面接受专访。iPhone Duo展开为7.6英寸内屏，显示面积比iPhone 18 Pro Max大50%；闭合为5.4英寸外屏。两块屏幕均支持ProMotion和3000尼特峰值亮度。整副铰链由100多个微型精密组件与碳纤维支撑板构成。美国起售价1999美元，国行256GB版本15999元起，10月23日正式发售。</p>
+<p><img class="alignnone wp-image-601746" src="https://oss.zhidx.com/3de843fdc7a8e5aa0e0f4562f76347d6/6ad39b80/uploads/2026/10/6ad1d9732d95c_6ad1d9732aa74_6ad1d9732aa39_%E8%8B%B9%E6%9E%9C.png?x-oss-process=image/resize,m_fill,w_557,h_300" alt="《时代》2026最佳发明揭晓：宇树领衔，联想荣耀TCL蚂蚁上榜，AI无处不在" width="1000" height="538" />▲Apple iPhone Duo</p>
+<p>三星Galaxy S26 Ultra全球首创Privacy Display功能，从侧面几乎无法看到屏幕内容，用户可自行设定激活时机，比传统防窥膜更灵活。三星还有Bespoke AI Family Hub冰箱和Odyssey G8游戏显示器同时入选。</p>
+<p>荣耀Robot Phone是唯一上榜的中国手机品牌。它在不到10毫米机身内塞入一套四自由度钛合金云台，集成超过100个精密零件，加工精度±0.005mm，云台电机最高转速360°/秒，整机起售价9999元。荣耀CEO李健表示，希望推动更多“中国智造”闪耀国际舞台。<img class="alignnone wp-image-601735" src="https://oss.zhidx.com/2c0a72b37ef5ef39416ff332208bb2f2/6ad39b80/uploads/2026/10/6ad1d7a464f0b_6ad1d7a461a7a_6ad1d7a461a45_%E8%8D%A3%E8%80%80.jpg?x-oss-process=image/resize,m_fill,w_472,h_300" alt="《时代》2026最佳发明揭晓：宇树领衔，联想荣耀TCL蚂蚁上榜，AI无处不在" width="1000" height="636" />▲荣耀Robot Phone</p>
+<p>LG OLED evo W6是一款真无线壁纸电视，通过“零连接盒”将硬件外置，集线盒可放在离屏幕最远10米处，挂在墙上几乎就是一张发光的画。</p>
+<p>联想ThinkPad P1 Gen 9首发ED1000硅阳极电池，能量密度1000Wh/L，可支撑一整天会议。</p>
+<p>Anker Prime Charger是160W三口充电器，每个USB-C口输出140W，可以同时为笔记本、手机和平板充电——一个充电器替代三个。</p>
+<h2>二、机器人：从载人机甲、工厂、手术台到家庭助手</h2>
+<p>宇树GD01是今年机器人领域最具视觉冲击力的产品。它是全球首款量产可变形载人机甲，高约2.7米，载人后重约500公斤，驾驶舱位于躯干内部，可在双足直立与四足行进模式间切换。起售价390万元人民币。王兴兴在《时代》专访中透露，设计灵感部分来自电影《阿凡达》，并预测“10年内每个家庭都可能有一个能做家务的小机器人”。这是时隔8年再次有中国企业家登上《时代》封面。</p>
+<p><img class="alignnone wp-image-601734" src="https://oss.zhidx.com/0152d73ff6cd7f5af8f3066f17023a89/6ad39b80/uploads/2026/10/6ad1d73d69ee5_6ad1d73d64e09_6ad1d73d64dc7_%E6%9C%BA%E5%99%A8%E4%BA%BA.jpg?x-oss-process=image/resize,m_fill,w_240,h_300" alt="《时代》2026最佳发明揭晓：宇树领衔，联想荣耀TCL蚂蚁上榜，AI无处不在" width="1000" height="1250" />▲宇树机器人</p>
+<p>Amazon Proteus是可理解工人自然语言指令的仓库机器人，已在美国25个履约中心（其是专门为处理线上订单而设计的仓库或分销中心，提供货物存储、订单接收、分拣、包装、发货及退货管理等一站式服务）使用。</p>
+<p>Medtronic Stealth AXiS将手术规划、导航和机器人辅助执行整合到单一平台。它是美敦力（Medtronic）推出的下一代手术系统，核心特点是将术前规划、实时导航和机器人辅助执行整合在同一个平台上，主要应用于脊柱和颅脑等复杂手术。据英国皇家国立骨科医院（RNOH）的临床案例，该系统帮助医生在复杂翻修手术中实现了极高的螺钉植入精度。</p>
+<p>1X Neo是首款面向普通家庭大规模预订的人形机器人，买断价2万美元（约合人民币14万元），月租499美元。重约30公斤，能举起约70公斤，可自主取物、整理台面。更复杂的任务需“专家模式”远程操控，但NEO会边做边学。</p>
+<h2>三、从内容水印到AI支付：AI全面落地，中国应用亮眼</h2>
+<p>Google SynthID是AI内容溯源领域最具代表性的技术。它通过在AI生成的图像、视频和音频中嵌入肉眼和耳朵都无法感知的隐形水印，让内容溯源从“事后检测”变成“源头标记”。水印能抵抗裁剪、压缩、加滤镜等常见编辑操作。截至目前，SynthID已为超过1800亿张图片和视频、24万年时长的音频嵌入水印。2026年10月，Google正式向全球公众开放SynthID检测网站，支持检测Google、OpenAI、NVIDIA、Kakao等平台生成的内容。</p>
+<p>Anthropic Claude Code代表了AI编程工具的关键跃迁。它不再局限于聊天窗口给建议，而是直接在终端中代表用户执行操作——读取项目目录、修改代码、运行测试，完成从需求理解到交付的完整链路。Anthropic自身的数据最能说明问题：2026年5月每日代码合并量约2500次，到9月已超过30000次，增长约12倍。</p>
+<p>Meta的Omnilingual ASR系统支持1600种语言的语音识别，其中约500种此前从未被任何ASR系统覆盖。配合Meta的机器翻译系统，转录内容还可在1600多种语言之间互译。ASR即自动语音识别，是将人类语音转换为文本的技术，也被称为“语音转文字”。</p>
+<p>NVIDIA NemoClaw为企业AI智能体提供安全沙箱。它基于开源AI助手OpenClaw，通过OpenShell运行时给智能体加上隔离环境和策略引擎，让企业可以放心让AI写代码、查网页、调用工具，而不必担心故障波及生产系统。其企业客户包括西门子和富士康。</p>
+<p>Bria Fibo为生成式AI版权争议提供新思路：识别新生成图像参考了哪些训练数据，向原始创作者支付版税并注明灵感来源。Aaru则用多智能体模拟软件预测人类行为，安永借助它在不到一天内完成了一项原本需要六个月的全球财富研究。</p>
+<p><img class="alignnone wp-image-601742" src="https://oss.zhidx.com/acb05e4e5d28efe5e54d5e020d6f3e4b/6ad39b80/uploads/2026/10/6ad1d88ac1f6f_6ad1d88ab9c2c_6ad1d88ab9bfc_BF.png?x-oss-process=image/resize,m_fill,w_454,h_300" alt="《时代》2026最佳发明揭晓：宇树领衔，联想荣耀TCL蚂蚁上榜，AI无处不在" width="1000" height="661" /></p>
+<p>▲Bria Fibo</p>
+<p>蚂蚁阿福是今年唯一上榜的中国AI应用。《时代》评价它“让专业医疗健康服务更普惠”。用户量达1.5亿，单日健康咨询量近2000万次，连接5000家医院和30万名真人医生。</p>
+<p>支付宝AI支付是全球唯一上榜的支付服务，被《时代》定义为AI原生支付服务——让AI智能体代替用户完成交易。《时代》以“When AI Goes Shopping”点评其意义：AI正从信息交互走向消费交易。自它推出以来，使用人数超1亿，累计交易3亿笔。</p>
+<h2>结语：AI正在成为所有硬件的底层能力，中国企业创新存在感增强</h2>
+<p>翻开《时代》2026年度最佳发明榜单，一个清晰的趋势浮现出来：AI不再只是一个独立的“品类”，而是正在渗透进消费电子、机器人、医疗、支付等几乎所有硬科技领域的底层能力。iPhone Duo的显示引擎、三星的隐私屏幕、蚂蚁阿福的健康咨询等，背后都是AI在驱动。</p>
+<p>与此同时，今年榜单的还有一个清晰变化：中国产品不再是个别点缀，而是在消费电子、机器人和AI应用三条线上同时出现。荣耀是唯一上榜的手机品牌，宇树登上了封面，蚂蚁阿福和支付宝AI支付占据了AI应用和支付两个位置。从“制造能力”到“产品定义”，中国公司在《时代》这份榜单上的角色正在发生变化。</p>
+<p>来源：TIME官方榜单</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601707.html</link>
+<pubDate>Fri, 16 Oct 2026 15:44:22 +0800</pubDate>
+<source>智东西</source>
+<author>栗子</author>
+</item>
+<item><title><![CDATA[后摩智能亮出2D CIM+3D CIM路线！Agent竞速赛打响，双路径抢占端边算力先机]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/dce6cf75143b20b94eb56543fa8d968f/6ad39b80/uploads/2026/10/6ad1927db9f86_6ad1927db6f43_6ad1927db6f11_toutou.png"><strong>芯东西（公众号：aichip001）</strong><br />
+<strong>作者 |  程茜</strong><br />
+<strong>编辑 |  漠影</strong></p>
+<p>芯东西10月16日报道，10月14日，在后摩智能首届生态合作伙伴大会上，后摩智能官宣以SRAM-CIM为根技术，布局<span style="color: #0f59a4;"><strong>2D CIM与3D CIM</strong></span>两条技术路径，对应更大容量和更大带宽的需求。</p>
+<p>这一动作，恰好踩中端边AI演进的关键拐点。</p>
+<p>如今大模型能力跃迁叠加AI Agent全面爆发，和端边场景高度契合的个人Agent正迎来爆发期。</p>
+<p>海外Meta、OpenAI、谷歌纷纷推出个人AI助手，国内腾讯、蚂蚁、字节等大厂相继传出个人Agent产品内测消息，大厂密集布局印证了这片市场蕴藏的巨大潜力。这类个人Agent需要长期记忆、自主执行任务，契合端边AI本地化、个性化、实时、安全的优势。</p>
+<p>在繁荣的产业表象之下，端边算力博弈加剧，算力、访存带宽、功耗成本、场景适配等痛点愈发突出。这些硬件瓶颈无法依靠算法优化抹平，倒逼行业寻找全新的芯片架构思路。</p>
+<p>在后摩智能联合创始人、产品副总裁信晓旭看来，全新计算范式正在重塑整个产业链，其影响可能比大家想得更巨大、更深远，<strong><span style="color: #0f59a4;">谁的技术路径选得对、谁能提前布局，谁就有可能成为这个新时代的赢家</span></strong>。</p>
+<p>如今以存算一体为代表的差异化技术路线，正在重塑端边AI算力的格局，成为解锁大模型端边规模化落地、支撑AI Agent产业爆发的核心关键。而此次后摩智能的双技术路线，正是这场底层变革关键期的一次重要亮相。</p>
+<h2><strong>一、端边AI走到商业化奇点，芯片厂商何以破局？</strong></h2>
+<p>端边AI已成为产业发展不可逆的核心方向。</p>
+<p>本地设备承载模型推理，不必源源不断把原始数据、对话上下文上传云端，不仅能削减Token开销、压缩业务成本，更能让计算贴近本机文件、操作系统与各类本地工具。</p>
+<p>这一优势已形成行业共识，叠加模型厂商和芯片厂商的双向发力，正将端边AI的性能短板一步步补齐，使其具备承载AI Agent规模化落地的能力。</p>
+<p>Anthropic、MiniMax、阿里千问等海内外大厂的新一代轻量级模型能力飞跃，使得端边可部署模型和云端旗舰模型之间的差距收窄；芯片则进一步突破硬件能效上限，让端边设备可部署的模型更大、推理速度更快。信晓旭透露，以千问大模型为例，Dense模型同智能水平的参数规模17个月被压缩至1/8，MoE模型则在6个月时间压缩至1/6；如今端边芯片可以跑120B模型。</p>
+<p><img class="alignnone wp-image-601634 size-full" src="https://oss.zhidx.com/501b9768ca055c4133bdc32519782e52/6ad39b80/uploads/2026/10/6ad19cdfe3a78_6ad19cdfe0edd_6ad19cdfe0e94_HNAN0897.jpg" alt="后摩智能亮出2D CIM+3D CIM路线！Agent竞速赛打响，双路径抢占端边算力先机" width="4691" height="3129" /></p>
+<p><strong><span style="color: #0f59a4;">模型能力持续变强，芯片则负责让模型高效跑起来</span></strong>，二者协同扫清了AI Agent本地化运行的底层瓶颈。</p>
+<p>这之中的算力瓶颈尤为关键。Agent的个性化交互、实时响应、本地自主决策等核心诉求，高度依赖端边本地化算力支撑。</p>
+<p>因为Agent的本质是“执行”，而AI的动作发生在设备本地环境，其需要感知当前设备打开了什么程序、光标位置、本地文件结构。若所有感知与决策都远迁云端，延迟、隐私、成本等会打断行动闭环。信晓旭提到，当我们越来越依赖AI、越来越依赖Agent，我们任何一个人都希望它是可信的、它是可靠的。</p>
+<p>正如开篇所述，个人Agent的爆发进一步激活了端边AI的商业化潜力，从芯片、模型到上层应用都在快速迭代，属于端边AI厂商的商业化奇点正式来临。</p>
+<p>不过需注意的是，端边的意义不在于替代云端，而是承接大量本地化高频任务，让AI从联网调用的服务，变成常驻设备的原生智能。这样一来，云端就负责需要长周期规划、复杂推理、知识库检索、模型更新、跨设备协同这类更为复杂任务。</p>
+<p>端边AI的爆发对硬件底座提出了新考验。而芯片厂商最底层的命题就是两件事：<strong><span style="color: #0f59a4;">token/$、token/Watt</span></strong>。</p>
+<p>然而从实际情况来看，当前行业绝大多数单一技术路线很难实现算力、访存、功耗、成本四大维度的平衡。</p>
+<p>那到底什么样的技术路线，才能承接这一波端边AI的热潮？</p>
+<h2><strong>二、面向差异化端边AI负载，后摩智能双轨架构实现算力带宽两全</strong></h2>
+<p>芯片技术路线的选择有双重考量：一方面要看技术方案自身的能力边界，另一方面要看其是否能满足AI应用发展的需求。</p>
+<p>从技术方案自身来看，大模型推理属于算力与访存双密集场景。</p>
+<p>算力负责张量运算，决定计算理论效率；内存容量承载模型权重与KV缓存，会限定可运行的模型规模和最大上下文长度；访存带宽是多数推理场景的性能瓶颈，制约权重、KV数据的吞吐速度与token生成速率；功耗与硬件成本，则决定方案能否大规模商业化落地。</p>
+<p>和训练不同，推理大多受限于访存，行业优化手段也围绕减少数据搬运、降低内存占用、提升带宽、压低单token成本展开。</p>
+<p>基于这样的产业需求，后摩智能选定了<strong><span style="color: #0f59a4;">存算一体</span></strong>作为技术路径。</p>
+<p>SRAM存内计算把乘累加运算直接放在SRAM存储阵列内部完成，模型权重驻留在片上存储中，不用反复在存储与计算单元之间搬运数据，以提升单位功耗下的算力输出。根据后摩智能M50的架构对比数据，在AI Core层面，采用SRAM-CIM后，核心面积较传统实现下降约<strong><span style="color: #0f59a4;">3/5</span></strong>，功耗降至原来的约<strong><span style="color: #0f59a4;">1/5</span></strong>。</p>
+<p>这条路线的适用边界，与端边AI负载本身特点关系密切。端边AI负载有两大核心类型，<strong><span style="color: #0f59a4;">算力驱动型</span></strong>场景的核心诉求是超高算力密度、大容量存储，对极致带宽无刚需；<strong><span style="color: #0f59a4;">带宽驱动型</span></strong>场景则需要极致访存带宽和低延迟数据吞吐能力。</p>
+<p>对照两类场景的不同要求就能发现，单一架构很难兼顾两边。模型参数规模提升后，2D CIM的访存瓶颈会凸显；而业界尝试的3D堆叠方案，又面临算力面积受限、散热困难等问题。</p>
+<p>因此单一芯片架构很难全面兼顾，这正是后摩智能打造两条互补存算一体路线的出发点。</p>
+<p>信晓旭提到，后摩智能新官宣的双技术路线是围绕SRAM-CIM这一根技术，和不同封装技术结合，形成一条<strong><span style="color: #0f59a4;">基于SRAM-CIM与2D封装技术的2D CIM路线</span></strong>，可以解决算力和存储容量要求高场景；另一条是后摩智能三年前启动的<strong><span style="color: #0f59a4;">3D CIM路线</span></strong>，将SRAM-CIM与先进封装相结合，解决算力和高带宽需求的场景。</p>
+<p>具体来看，2D CIM的优势在于<strong><span style="color: #0f59a4;">原生高算力密度与存储容量灵活配置能力</span></strong>，适配图像、视频生成、MoE等计算需求高、显存权重容量波动大的AI负载。这类任务单次推理计算量大，2D CIM可以按需求划分阵列规模，按需分配算力与存储块，在并行矩阵乘运算上表现突出。</p>
+<p>新一代3D CIM架构能解决稠密模型的痛点，稠密模型推理时，绝大多数权重都需要参与计算，对持续、高吞吐的访存带宽要求极高。3D CIM通过堆叠融合把更多权重放在片上，减少片外数据交换，能同时<strong><span style="color: #0f59a4;">释放算力、压低访存瓶颈</span></strong>。</p>
+<p>信晓旭称，与主流3D堆叠不同，后摩智能在先进封装基础上引进了计算架构的创新，将底下Logic die升级为SRAM-Based CIM，从而解决计算效率低的问题。</p>
+<p><img class="alignnone wp-image-601635 size-full" src="https://oss.zhidx.com/c213fbc0d27a9710af4a9bacb24a0a5a/6ad39b80/uploads/2026/10/6ad19d018859f_6ad19d0185949_6ad19d01858eb_HNAN0927.jpg" alt="后摩智能亮出2D CIM+3D CIM路线！Agent竞速赛打响，双路径抢占端边算力先机" width="4728" height="3154" /></p>
+<p>放眼长远，随着AI产业持续演进，两条路线的边界或将逐步消融，有望催生出一体化融合的定制化算力产品。</p>
+<p>端边AI的竞争本质，是在严苛功耗预算下争夺访存带宽。后摩智能基于SRAM-CIM计算架构的根技术，延伸出两条互补技术路线，是其在计算架构、先进封装等多维度持续突破后，面向端边AI产业交出的高分答卷。</p>
+<h2><strong>三、软硬一体吃透端边AI！后摩智能双技术路线打响Agent算力攻坚战</strong></h2>
+<p>后摩智能的2D CIM、3D CIM双技术路线并非技术预研方案，而是支撑其已量产芯片与在研主力芯片的底层技术。</p>
+<p>信晓旭公布了后摩智能的最新芯片路线图，其已经基于2D CIM量产了M30、M50，面向未来的<strong><span style="color: #0f59a4;">首款3D CIM芯片A20</span></strong>现已投产，M50迭代款<strong><span style="color: #0f59a4;">M6X系列</span></strong>也在持续研发推进中。</p>
+<p>A20的特点是高带宽、低时延，最多支持到16芯全互联的维度，算力利用率比上一代有50%的提升；M6X芯片的综合能力可以达到当下M50的3~6倍。</p>
+<p><img class="alignnone wp-image-601636 size-full" src="https://oss.zhidx.com/90fbb30da81b9dd5a2be4faf9386e0fd/6ad39b80/uploads/2026/10/6ad19d1936e97_6ad19d19340c4_6ad19d193406d_HNAN0940.jpg" alt="后摩智能亮出2D CIM+3D CIM路线！Agent竞速赛打响，双路径抢占端边算力先机" width="4800" height="3202" /></p>
+<p>后摩智能芯片的性能进阶之路，正是建立在前期落地产品的亮眼表现之上。</p>
+<p>M30、M50已经以性能指标与市场落地成果，完成对2D CIM路线工程化、商业化可行性的实证。M50量产不到一年，就获得<strong><span style="color: #0f59a4;">150余个</span></strong>产品定点，服务客户超百家，并且客户案例涵盖从基础本地大模型推理，到具备交互能力、可长期自主执行任务的本地AI智能体。</p>
+<p><img class="alignnone wp-image-601637 size-full" src="https://oss.zhidx.com/ca61d5f36d8a717362447ff353934a9f/6ad39b80/uploads/2026/10/6ad19d317254b_6ad19d316f1d8_6ad19d316f189_HNAN0955.jpg" alt="后摩智能亮出2D CIM+3D CIM路线！Agent竞速赛打响，双路径抢占端边算力先机" width="4800" height="3202" /></p>
+<p>例如基于M50打造的<span style="color: #0f59a4;"><strong>联想AI主机P7</strong></span>，就是专门为智能体打造的边缘算力设备。该设备重量仅300克，最高支持运行1220亿参数本地大模型，整机算力高达190 TOPS，最大支持128K长上下文处理，在无网环境下能以50 Token每秒的速度完成本地自主推理。该设备更多细节将于10月24日新品发布会对外公布。</p>
+<p><img class="alignnone wp-image-601638 size-full" src="https://oss.zhidx.com/1efccf795bd77b5f47331ddbb6252edf/6ad39b80/uploads/2026/10/6ad19d4553fdb_6ad19d45508c6_6ad19d455085f_HNAN2322.jpg" alt="后摩智能亮出2D CIM+3D CIM路线！Agent竞速赛打响，双路径抢占端边算力先机" width="4800" height="3202" /></p>
+<p>在个人智能体方面，后摩智能还和聊趣智能联手，推出支持全息交互的<strong><span style="color: #0f59a4;">个人智算中心ClawHouse X1</span></strong>，让AI Agent拥有可以自定义的全息数字形象，实现更沉浸式的人机交互。</p>
+<p><img class="alignnone wp-image-601640 size-full" src="https://oss.zhidx.com/4f9037bd13d54c54a52bf14403dced47/6ad39b80/uploads/2026/10/6ad19d690b464_6ad19d6907f0f_6ad19d6907e8f_LZ007754.jpg" alt="后摩智能亮出2D CIM+3D CIM路线！Agent竞速赛打响，双路径抢占端边算力先机" width="4800" height="3200" /></p>
+<p>再到海外初创公司Deepshard推出的<strong><span style="color: #0f59a4;">Truffle 1</span></strong>。这款全本地运行的智能体工作站目标是打造一套长期在线、持续理解用户、主动承接任务的个人智能系统，把本地端边AI推向持续自主的智能体阶段。</p>
+<p><img class="alignnone wp-image-601639 size-full" src="https://oss.zhidx.com/70c8aa25ec52a44e408a2bae55160611/6ad39b80/uploads/2026/10/6ad19d6065a7b_6ad19d6062912_6ad19d60628ad_HNAN1237.jpg" alt="后摩智能亮出2D CIM+3D CIM路线！Agent竞速赛打响，双路径抢占端边算力先机" width="4725" height="3152" /></p>
+<p>这些过往成果证明其能够适配复杂多变的端边AI市场需求，具备长期迭代、满足市场需求的核心竞争力。</p>
+<p>大算力、大带宽的底层硬件是当前端边AI规模化落地的核心硬件基石，而成熟的软件生态则是硬件能力释放的关键支撑，二者缺一不可。</p>
+<p>后摩自研的软件产品包含基础软件栈、生态软件栈，覆盖芯片到上层应用，其既可以兼容多代异构硬件，也能适配主流深度学习框架与大模型推理生态，提供全套C++、Python API，助力开发者高效开发并降低部署门槛。</p>
+<p>具体来看，其整个AI生态软件有五部分，底层推理框架部分已完成与所有主流推理框架的适配以及优化；领域开发套件是面向细分特定应用领域提供应用开发套件， ModelZoo覆盖大语言模型、多模态大模型等的开箱即用模型，中间件工具部分提供Cache复用，以及算力设备运维和管理等，最后是大量应用样例。这一<strong><span style="color: #0f59a4;">生态软件已正式开源</span></strong>。</p>
+<p><img class="alignnone wp-image-601641 size-full" src="https://oss.zhidx.com/148ff9b69788731d4316c50119e853af/6ad39b80/uploads/2026/10/6ad19d723ccbe_6ad19d7239df4_6ad19d7239db4_HNAN1004.jpg" alt="后摩智能亮出2D CIM+3D CIM路线！Agent竞速赛打响，双路径抢占端边算力先机" width="4696" height="3133" /></p>
+<p>更深层来看，后摩智能大算力、大带宽双路线+统一软件工具链的软硬协同体系，并非单纯的产品迭代组合，而是一套面向未来长期演进、可持续扩容的底层产品布局框架。</p>
+<p>硬件层面形成精准互补的差异化算力矩阵，让后摩智能可同时覆盖算力优先和带宽优先的全维度端边负载，为后续高中低全线产品迭代、场景细分提供硬件支撑。</p>
+<p>软硬协同的高效布局构建了可长期复用的技术栈。对客户而言，统一软件平台有助于复用模型适配、编译优化和部署经验，减少不同芯片及终端产品之间的重复开发成本。</p>
+<p>基于已经验证的技术底座与落地实践，后摩智能也对Agent时代的算力发展有着清晰判断。后摩智能创始人、CEO吴强强调，在Agent时代，后摩想做<strong><span style="color: #0f59a4;">端侧免费Token工厂的算力底座</span></strong>，希望用最低的能耗产生最强的智能，把端侧Token的边际成本无限趋近于0。</p>
+<p><img class="alignnone wp-image-601642 size-full" src="https://oss.zhidx.com/90b2cfb169f70cdd0dbb063248f5f417/6ad39b80/uploads/2026/10/6ad19d7ad9f65_6ad19d7ad721f_6ad19d7ad71c7_HCYL2549.jpg" alt="后摩智能亮出2D CIM+3D CIM路线！Agent竞速赛打响，双路径抢占端边算力先机" width="5088" height="3392" /></p>
+<p class="p1">▲后摩智能创始人、CEO吴强</p>
+<p>其诸多成果证明，后摩智能的布局已经为AI企业打开端边AI创新应用边界，为AI Agent商业化落地开辟全新赛道。</p>
+<h2><strong>结语：端边AI革命，比拼的是全栈落地能力</strong></h2>
+<p>AI Agent掀起的这场端边革命，考验的是企业整套软硬件体系的量产能力与场景适配能力。后摩智能以2D、3D双轨存算一体路线为核心，叠加统一软件栈，走出一条差异化算力路径。</p>
+<p>只有算力底座足够扎实，端边AI的想象力才能充分释放。当下，端边AI的商业化故事，正翻开全新篇章。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601617.html</link>
+<pubDate>Fri, 16 Oct 2026 13:03:43 +0800</pubDate>
+<source>智东西</source>
+<author>程茜</author>
+</item>
+<item><title><![CDATA[OpenAI、Anthropic罕见联手：砸下1个亿，给数学家送钱、送算力]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/a521829ed44458b5f4b296e9c7e261b9/6ad39b80/uploads/2026/10/6ad1e1c1ec2f0_6ad1e1c1e92fb_6ad1e1c1e92cf_1.png"><strong>智东西</strong><br />
+<strong>编译 |  黄菲</strong><br />
+<strong>编辑 |  江宇</strong></p>
+<p>智东西10月16日报道，昨日，OpenAI、Anthropic联合美国西蒙斯基金会（Simons Foundation），共同投入1500万美元（约合人民币1.01亿元），支持数学家评估AI辅助产生的研究成果，并帮助研究人员学习和使用AI工具。</p>
+<p>其中，OpenAI出资500万美元（约合人民币3360万元），Anthropic的具体出资金额尚未披露。</p>
+<p>根据基金会公告，两家公司还将为获得资助的研究人员提供AI工具和计算资源，相关资金将由西蒙斯基金会管理和分配。</p>
+<p><img class="aligncenter size-full wp-image-601710" src="https://oss.zhidx.com/2a1bc510c927a9cfa3a238d83c00f5cc/6ad39b80/uploads/2026/10/6ad1cd5b0df8e_6ad1cd5b0ae01_6ad1cd5b0ada5_4.png" alt="OpenAI、Anthropic罕见联手：砸下1个亿，给数学家送钱、送算力" width="1000" height="542" /> <img class="aligncenter size-full wp-image-601711" src="https://oss.zhidx.com/74c85fa069d056eb9a204b008bde47f8/6ad39b80/uploads/2026/10/6ad1cd5dc9fcb_6ad1cd5dc72b5_6ad1cd5dc7288_5.png" alt="OpenAI、Anthropic罕见联手：砸下1个亿，给数学家送钱、送算力" width="1000" height="606" /></p>
+<p>▲OpenAI与Anthropic相继在X平台转发西蒙斯基金会的合作公告，图源：Simons Foundation、Anthropic和OpenAI</p>
+<p>此次合作公布前的10月6日，OpenAI因一次性向代码仓库上传719份AI生成的数学手稿而引发学界争议，多名数学家对成果的发布方式和验证情况提出质疑。</p>
+<p>今年9月，陶哲轩（Terence Tao）等25位菲尔兹奖得主联名发表声明，批评AI公司在数学研究中的部分做法。</p>
+<p>Anthropic在8月10日也曾发布一项经过外部同行验证的黎曼ζ函数研究。</p>
+<p>两家AI巨头此番同时以“出资方”姿态进入数学圈，这或许是修补关系、争夺学术话语权的一次联手布局。</p>
+<h2><strong>一、OpenAI明确出资3360万元，此前719份手稿引发数学界争议</strong></h2>
+<p>OpenAI同日在官网发布《分享AI在数学领域的进展》（Sharing AI Progress in Mathematics）一文，明确将向此次计划出资500万美元。</p>
+<p>OpenAI称，希望通过资金及技术支持，帮助数学家理解和评估AI生成的研究成果，并在此基础上开展后续研究。</p>
+<p><img src="https://oss.zhidx.com/4aa143c99d2d20c671bb14fad166147b/6ad39b80/uploads/2026/10/6ad19f71288c1_6ad19f7125c51_6ad19f7125c25_1.png" />▲《分享AI在数学领域的进展》一文，图源：OpenAI</p>
+<p>但OpenAI出资的背景，是其过去一个多月在数学界掀起的一场风波。</p>
+<p>导火索要从9月初说起。9月8日前后，OpenAI对外宣布，其未公开模型调度约1万个AI智能体，在88小时内完成了一项被描述为“千禧年难题”级别的数学工作。</p>
+<p>消息一出，纽约大学柯朗数学科学研究所教授特里斯坦·布克马斯特（Tristan Buckmaster）随即公开质疑，称其与一名Anthropic研究员此前已在相近方向取得成果，并怀疑OpenAI的模型可能接触过相关对话数据。</p>
+<p>截至目前，这一质疑尚未经独立证实。OpenAI否认访问相关数据，但其先后发布的说明存在不一致之处，未能完全消除外界疑虑。</p>
+<p>9月11日，陶哲轩、邓煜、彼得·舒尔茨（Peter Scholze）等25位菲尔兹奖得主作为首批签署人，联名发表声明《人工智能在数学中的严重错位》（A Severe Misalignment of AI in Mathematics），指责AI公司把“解决著名数学难题”当作衡量模型能力的基准，与数学界追求理解和知识积累的目标背道而驰。</p>
+<p>声明上线专门网站开放联署后，不到一天，签名人数便突破2500人。</p>
+<p>风波并未就此平息。10月6日，OpenAI将其内部模型生成的数学研究成果一次性上传至GitHub代码仓库，初版共722份手稿，涉及代数、理论计算机科学、数理逻辑、组合、数论等方向，包含约372组研究结果。</p>
+<p><img class="aligncenter size-full wp-image-601712" src="https://oss.zhidx.com/82cb2f9de29e5e2bc6ed9d586ba44e8c/6ad39b80/uploads/2026/10/6ad1d0b734d13_6ad1d0b72c7b7_6ad1d0b72c77f_6.png" alt="OpenAI、Anthropic罕见联手：砸下1个亿，给数学家送钱、送算力" width="1000" height="793" /><br />
+▲OpenAI关于数学研究成果发布的推文，图源：X</p>
+<p>次日，其中3份因符号错误被撤回，14份被修订，最终保留719份。据该仓库更新日志，这批成果中只有约42%的顶层结论通过了Lean形式化验证，公开推理过程的手稿仅10份。</p>
+<p>数学界的批评随之而来。《自然》（Nature）杂志10月7日报道称，牛津大学数学家乌苏拉·马丁（Ursula Martin）将这种做法形容为“把一份尚未整理完善的初稿直接甩给同行，要求他们帮忙做完核查”；哥伦比亚大学数学家迈克尔·哈里斯（Michael Harris）同样对发布方式提出质疑。</p>
+<p>部分处于职业早期的学者也担心，自己长期投入的研究方向可能被AI公司一次性“抢先”。</p>
+<p><img class="aligncenter size-full wp-image-601724" src="https://oss.zhidx.com/e2dcc009c8b7b71252f0b4b44f6d908c/6ad39b80/uploads/2026/10/6ad1d4da77c10_6ad1d4da74bee_6ad1d4da74bb7_8.png" alt="OpenAI、Anthropic罕见联手：砸下1个亿，给数学家送钱、送算力" width="1000" height="437" /></p>
+<p>▲部分数学家提出批评，图源：Nature</p>
+<p>同日，人类数学协会（Association for Human Mathematics）发表声明，公开呼吁数学家停止与OpenAI合作，陶哲轩随后在个人博客转发了这份声明。</p>
+<p>面对批评，OpenAI开始调整沟通方式。</p>
+<p>10月6日，OpenAI在当天发布的官文中声称参考了普林斯顿高等研究院（Institute for Advanced Study，IAS）数学与人工智能独立顾问组的指导意见。</p>
+<p>但该顾问组也在当天发表声明，强调其顾问身份不代表认可OpenAI此次发布的具体流程。</p>
+<p>10月8日，OpenAI承认，一次性将大量成果上传至GitHub的做法并不符合此前顾问组的相关建议，并称正在与普林斯顿高等研究院的数学与人工智能独立顾问组合作，改进论文引用、数学论述和成果呈现方式。</p>
+<h2><strong>二、Anthropic未披露出资金额，黎曼ζ函数研究取得进展</strong></h2>
+<p>除了OpenAl，Anthropic也在探索利用Al模型解决数学研究中的开放问题。</p>
+<p>8月10日，Anthropic发布了一项研究进展：一个尚未对外发布的Claude研究版本，将黎曼ζ函数（Riemann zeta function）相关问题中一个比例的下界从此前已知的41.6%提高至67.2%。</p>
+<p><img class="aligncenter size-full wp-image-601719" src="https://oss.zhidx.com/adf3b70be7d2ac9cf9f88f0c59a13346/6ad39b80/uploads/2026/10/6ad1d2fdbe11e_6ad1d2fdba7ee_6ad1d2fdba7b1_7.png" alt="OpenAI、Anthropic罕见联手：砸下1个亿，给数学家送钱、送算力" width="1000" height="596" /></p>
+<p>▲Anthropic相关数学研究文章，图源：Anthropic</p>
+<p>这项工作并未证明黎曼猜想本身，而是推进了与该猜想有关的一个数学问题。</p>
+<p>Anthropic称，这项工作由60个子智能体并行协作，消耗约3100万输出Token完成。其研究团队随后对结果进行了核验。</p>
+<p>Anthropic内部数学家莱文特·阿尔珀格（Levent Alpöge）和拉尔夫·弗曼（Ralph Furman）对论文进行了审查和验证。</p>
+<p>斯坦福大学数学系兼职教授、美国数学研究所执行主任布莱恩·康瑞（Brian Conrey），以及圣何塞州立大学数学教授丹·戈尔德斯顿（Daniel Goldston），也应邀审阅了这项研究，并使用Lean 4完成形式化证明。</p>
+<p>相关论文随后以合作署名形式上传至arXiv预印本网站。</p>
+<p>不过，专家审查并不等同于正式的同行评议，相关研究结论是否经得起进一步检验，仍有待后续研究确认。</p>
+<p>可以明确的是，研究人员可以借助Lean进行形式化验证能够帮助核查证明是否符合既定逻辑规则，但并不意味着所有研究价值和数学意义都能由形式化验证单独判定。</p>
+<h2><strong>结语：投入资金支持数学家，AI巨头图什么</strong></h2>
+<p>Anthropic与OpenAI共同参与此次资助，可能帮助它们更深入地了解数学家的实际需求，推动研究人员试用其模型，并通过学术合作改进AI系统在复杂推理任务中的表现。</p>
+<p>从这个角度看，争取学术界信任、拓展模型在基础科学中的应用场景，可能是这类投入带来的潜在收益。</p>
+<p>而资金能否换来真正的学术信任，仍是未知数。</p>
+<p>西蒙斯基金会此次搭建的资助框架，OpenAI和Anthropic能否借此更深入地理解数学研究的实际需求，数学界又能否在AI工具的使用、成果验证和学术规范等问题上形成更广泛的共识，仍有待后续发展观察。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601610.html</link>
+<pubDate>Fri, 16 Oct 2026 12:29:51 +0800</pubDate>
+<source>智东西</source>
+<author>黄 菲</author>
+</item>
+<item><title><![CDATA[刚刚，美国最强开源模型发布！放中国只能排第七？]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/6027a1266b49f6fd22e1aae568eedfef/6ad39b80/uploads/2026/10/6ad16a3faacaa_6ad16a3fa80e0_6ad16a3fa80a9_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-16-0804061.png"><strong>智东西</strong><br />
+<strong> 编译 | 杨京丽</strong><br />
+<strong>编辑 | 李水青</strong></p>
+<p>智东西10月16日消息，今天凌晨，Meta发布<span style="color: #0f59a4"><strong>开放权重模型Muse Spark Open</strong></span>，总参数量达<span style="color: #0f59a4"><strong>8160亿</strong></span>，每次推理激活<span style="color: #0f59a4"><strong>420亿</strong></span>参数，支持<span style="color: #0f59a4"><strong>100万Token上下文</strong></span>窗口。该模型原生支持<span style="color: #0f59a4"><strong>多模态</strong></span>，主攻<span style="color: #0f59a4"><strong>编程和Agent任务</strong></span>，重点面向需要长时间执行的任务、复杂软件工程和多步推理。</p>
+<p><img class="alignnone wp-image-601575" src="https://oss.zhidx.com/84b93931dfb806ab0805c7bcacd109dd/6ad39b80/uploads/2026/10/6ad15fc40ca35_6ad15fc409c6c_6ad15fc409c39_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-16-071447.png" alt="刚刚，美国最强开源模型发布！放中国只能排第七？" width="1000" height="1237" /></p>
+<p>Meta称，这是<span style="color: #0f59a4"><strong>迄今能力最强的美国开放权重模型</strong></span>。借助最新版MLX框架，Muse Spark Open可在两台搭载苹果M5 Ultra芯片的Mac Studio上运行，将大模型编程、视频处理等Agent工作流搬到桌面端。</p>
+<p>Meta创始人马克·扎克伯格也在X上发文称，得益于<span style="color: #0f59a4"><strong>与苹果新CEO约翰·特努斯及苹果团队的合作</strong></span>，Muse Spark Open在新款Mac Studio上运行良好，并晒出了两台Mac Studio搭配显示器的桌面照片。</p>
+<p>特努斯在评论区回应：能够直接在桌面端高效运行令人惊叹，Mac Studio正持续拓展端侧AI的边界。</p>
+<p><img class="alignnone wp-image-601573" src="https://oss.zhidx.com/87b865ad8e8b326ef8072327f54302ad/6ad39b80/uploads/2026/10/6ad15fba360bd_6ad15fba334da_6ad15fba3317b_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-16-071712.png" alt="刚刚，美国最强开源模型发布！放中国只能排第七？" width="1000" height="1413" /></p>
+<p>在第三方评测机构Artificial Analysis的开放权重模型智能指数榜单上，Muse Spark Open（xhigh）获得39分，低于<span style="color: #0f59a4"><strong>MiMo-V2.6-Pro</strong></span>的46分、<span style="color: #0f59a4"><strong>GLM-5.3</strong></span>的45分，以及<span style="color: #0f59a4"><strong>Step 5 Preview、Kimi K3</strong></span>等模型的测评成绩，与<span style="color: #0f59a4"><strong>DeepSeek V4.1 Flash</strong></span>持平。而蚂蚁百灵刚开源的Ling-3.1-flash也取得41分，领先Meta。</p>
+<p><img class="alignnone wp-image-601576" src="https://oss.zhidx.com/6119bc79db15d227e7c380c8d3d1bb9d/6ad39b80/uploads/2026/10/6ad161c5d5471_6ad161c5d1c4f_6ad161c5d1c15_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261016072520_624_5.png" alt="刚刚，美国最强开源模型发布！放中国只能排第七？" width="1000" height="488" /></p>
+<p>目前，开发者可通过Baseten、Fireworks AI、Groq、Modal、Nebius、OpenRouter和Together AI等平台的API使用Muse Spark Open，也可通过Amazon SageMaker AI、Google Cloud Model Garden、Hugging Face和Microsoft Foundry Models下载模型权重。</p>
+<p>该模型支持SGLang、vLLM、TensorRT-LLM、Hugging Face Transformers、苹果MLX、llama.cpp和Unsloth等主流推理框架，并针对AMD、苹果、英特尔和英伟达芯片进行了优化。开发者还可以使用PyTorch框架进一步定制模型。</p>
+<p><img class="alignnone wp-image-601577" src="https://oss.zhidx.com/409ac7ffac22afe23fd8495bc177690e/6ad39b80/uploads/2026/10/6ad161c77c0f9_6ad161c779325_6ad161c7792f3_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-16-072200.png" alt="刚刚，美国最强开源模型发布！放中国只能排第七？" width="1000" height="431" /></p>
+<p><span style="color: #0f59a4">开源地址：</span></p>
+<p><span style="color: #0f59a4">https://huggingface.co/collections/meta-models/muse-spark-open</span></p>
+<h2>一、8160亿总参数、百万Token上下文，编程落后于多款国产开源模型</h2>
+<p>Muse Spark Open采用稀疏混合专家架构，总参数量为8160亿，每个Token激活约420亿参数，支持100万Token上下文窗口，可接收文本、图像、视频和音频输入。</p>
+<p>基准测试方面，Muse Spark Open在部分Agent、知识推理和工具辅助多模态测试中领先，但在考察终端环境下编程与任务执行能力的Terminal-Bench 2.1中，其得分为76.4分，低于Qwen3.8-2.4T-A95B、GLM 5.3和Kimi K3；在软件工程测试DeepSWE 1.1中，其得分为60分，低于GLM 5.3的67分和Kimi K3的68分。</p>
+<p>在考察真实职业场景中知识工作任务完成能力的GDPval-AA v2中，Muse Spark Open得分为1401分，同样低于Qwen3.8-2.4T-A95B、GLM 5.3和Kimi K3。</p>
+<p><img class="alignnone wp-image-601578" src="https://oss.zhidx.com/199a8aa219ac0c2d4096f1cb44d4f996/6ad39b80/uploads/2026/10/6ad161c951d18_6ad161c94ee1d_6ad161c94ede7_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261016072054_623_5.png" alt="刚刚，美国最强开源模型发布！放中国只能排第七？" width="1000" height="1204" /></p>
+<h2>二、两台M5 Ultra Mac Studio本地运行，能改代码、剪视频</h2>
+<p>为支持桌面端部署，Muse Spark Open针对最新版MLX框架和搭载M5 Ultra芯片的Mac Studio进行了优化。</p>
+<p>Meta称，苹果统一内存架构允许每台Mac Studio的集成GPU使用最高512GB内存，两台设备合计可提供约1TB统一内存，从而容纳完整模型。M5 Ultra的内存带宽为1.2TB/s，可支持读取每个Token计算所需的部分模型参数。</p>
+<p>由此，两台Mac Studio可以像一台拥有约1TB统一内存的超级计算机一样协同工作。</p>
+<p>Meta使用由Muse Spark Open驱动的Muse Code，测试了一系列完全在设备本地运行的Agent工作流。</p>
+<p>在编程场景中，模型为开源Mastodon客户端Ice Cubes完成了实际的iOS代码修改，任务覆盖修复Bug、添加新功能，以及完成整个项目的构建。</p>
+<p>在视频处理场景中，模型能够操作视频剪辑软件DaVinci Resolve，逐帧检查素材，寻找更适合保留的片段，并将画面裁剪为竖屏。</p>
+<h2>三、适配多家芯片与推理框架，进行安全后训练</h2>
+<p>Muse Spark Open发布时已适配SGLang、vLLM、TensorRT-LLM、Hugging Face Transformers、苹果MLX、llama.cpp和Unsloth等推理框架，并针对AMD、苹果、英特尔和英伟达芯片进行优化。</p>
+<p>在推理性能方面，Meta为SGLang提供了可自动调优的定制Helion GPU内核。按照其公布的数据，这些内核在英伟达和AMD GPU上实现了1.03-3.95倍的内核级加速，在AMD MI350上带来的端到端性能提升为3%。</p>
+<p>安全方面，Meta称，针对开放权重发布，Muse Spark Open进行了额外的安全后训练，并依据Meta超级智能扩展框架开展评估，达到了该框架要求的发布门槛。</p>
+<h2>结语：开放权重模型走向本地工作流，实际能力仍待验证</h2>
+<p>Muse Spark Open开放权重，为开发者部署和定制大模型提供了更多选择，针对苹果桌面设备的适配也拓展了本地Agent的应用空间。</p>
+<p>不过，从基准测试成绩及第三方评测看，其综合能力及部分编程表现仍落后于国产开放权重模型。在真实任务中能否稳定、高效地完成复杂工作，还需要更多独立测试和实际应用来验证。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601572.html</link>
+<pubDate>Fri, 16 Oct 2026 08:47:24 +0800</pubDate>
+<source>智东西</source>
+<author>杨 京丽</author>
+</item>
+<item><title><![CDATA[Anthropic三季度收入1124亿，还盈利了]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/934b06a425929aed4c10fbee838f6502/6ad39b80/uploads/2026/10/6ad08211a2933_6ad082119f76c_6ad082119f740_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-15-1533291.png"><strong>智东西<br />
+</strong><strong>编译 |  杨京丽<br />
+</strong><strong>编辑 |  李水青</strong></p>
+<p>智东西10月15日消息，据The Information援引知情人士消息，当地时间10月14日，Anthropic在旧金山举行的潜在IPO（首次公开募股）投资者会议上披露，该公司第三季度营收达到<span style="color: #0f59a4"><strong>168亿美元（约合人民币1123.92亿元）</strong></span>，环比增长约<span style="color: #0f59a4"><strong>45%</strong></span>，超过2025年全年营收的<span style="color: #0f59a4"><strong>3.6倍</strong></span>。</p>
+<p>会上，Anthropic披露，其第三季度已实现调整后<span style="color: #0f59a4"><strong>盈利</strong></span>，经营性现金流为正。今年前三季度累计调整后营业利润率达到<span style="color: #0f59a4"><strong>11%</strong></span>，这一指标剔除了股权激励等重大成本。此次投资者会议是Anthropic筹备IPO过程的一部分。据The Information报道，Anthropic预计于今年11月<span style="color: #0f59a4"><strong>感恩节假期（11月26日）前</strong></span>上市。</p>
+<p>今年6月初，Anthropic确认已向美国证券交易委员会（SEC）<a href="https://mp.weixin.qq.com/s/JgcDZT652my7R0ojOdToKQ">秘密提交IPO注册文件草案</a>。路透社此前报道称，Anthropic寻求的IPO估值可能超过<span style="color: #0f59a4"><strong>2万亿美元（约合人民币13.38万亿元）</strong></span>，或将超越SpaceX的1.77万亿美元（约合人民币11.84万亿元）IPO纪录，<a href="https://mp.weixin.qq.com/s/llUHoAMOR45neLN8PG9iCQ">冲刺史上最大IPO</a>。</p>
+<p><img class="alignnone wp-image-601309" src="https://oss.zhidx.com/c0e021aa036a84caa9592a487498eff1/6ad39b80/uploads/2026/10/6ad080a14ee13_6ad080a14b6d6_6ad080a14b69b_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-15-152809.png" alt="Anthropic三季度收入1124亿，还盈利了" width="1000" height="799" /></p>
+<p>营收方面，Anthropic第三季度继续增长，但<span style="color: #0f59a4"><strong>环比增速较第二季度回落</strong></span>。据The Information报道，今年第二季度，市场对其编程工具Claude Code的旺盛需求，推动公司营收较第一季度增长超过<strong><span style="color: #0f59a4">140%</span></strong>；第三季度的环比增幅则降至约<span style="color: #0f59a4"><strong>45%</strong></span>。</p>
+<p>不过，从收入规模看，Anthropic第三季度单季营收已超过2025年全年<span style="color: #0f59a4"><strong>46亿美元</strong><strong>（约合人民币307.74亿元）</strong></span>营收的<span style="color: #0f59a4"><strong>3.6倍</strong></span>，显示其业务规模在今年快速扩大。</p>
+<p>据报道，Anthropic第一季度、第二季度营收分别为<span style="color: #0f59a4"><strong>47亿美元（约合人民币314.43亿元）和116亿美元（约合人民币776.04亿元）</strong></span>。据此计算，Anthropic前三季度累计营收约<span style="color: #0f59a4"><strong>331亿美元（约合人民币2214.39亿元）</strong></span>。</p>
+<p>据路透社此前报道，Anthropic 2025年营收接近<span style="color: #0f59a4"><strong>46亿美元</strong></span>，约为上一年的<span style="color: #0f59a4"><strong>12倍</strong></span>，同期运营亏损为80.6亿美元（约合人民币539.21亿元），该亏损不包括主要与此前融资相关的各项负债减值。</p>
+<p>算力支出方面，Anthropic去年在计算和基础设施方面花费73.3亿美元（约合人民币490.38亿元），约为2024年的3倍，占总运营支出的一半以上。该公司还计划在未来十年内为云服务、计算和基础设施投入至少<span style="color: #0f59a4"><strong>5180亿美元（约合人民币3.47万亿元）</strong></span>。</p>
+<h2>结语：营收快速增长，盈利持续性待检验</h2>
+<p>单季营收突破千亿元、前三季度调整后营业利润率达到11%，为Anthropic冲刺IPO提供了业绩支撑。Claude Code带来的需求增长，也让投资者看到了AI编程工具的商业化潜力。</p>
+<p>随着营收环比增速回落，上市后公司能否保持业务增长，并有效控制研发和算力支出，将成为投资者评估其盈利持续性与估值的重要依据。</p>
+<p>来源：The Information、路透社</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601148.html</link>
+<pubDate>Thu, 15 Oct 2026 23:46:21 +0800</pubDate>
+<source>智东西</source>
+<author>杨 京丽</author>
+</item>
+<item><title><![CDATA[OpenRouter周榜全球第二，这个国产模型终于开源了]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/623111415714b9be316c62f2e52a4ffa/6ad39b80/uploads/2026/10/6ad0adf25fe0c_6ad0adf25d1e2_6ad0adf25d1af_%E5%9B%BE%E7%89%87%E8%83%8C%E6%99%AF%E5%8A%A0%E6%B7%B1_%E5%89%AF%E6%9C%AC.jpg">智东西10月15日报道，刚刚，<span style="color: #0f59a4"><strong>一款刚登上OpenRouter Token全球使用量周榜第二的大模型，开源了！</strong></span></p>
+<p>阶跃星辰正式开放<span style="color: #0f59a4"><strong>Step 5 Preview</strong></span>的模型权重，BF16、FP8两个版本同步上线HuggingFace和ModelScope。</p>
+<p><img class="alignnone size-full wp-image-601406" src="https://oss.zhidx.com/7a9b10d0a92f8f3821ba4ac902f7a787/6ad39b80/uploads/2026/10/6ad0aa726df16_6ad0aa726b3f0_6ad0aa726b3bf_copy_%E5%89%AF%E6%9C%AC.jpg" alt="OpenRouter周榜全球第二，这个国产模型终于开源了" width="1000" height="454" /></p>
+<p><span style="color: #0f59a4">Hugging Face：https://huggingface.co/stepfun-ai/Step-5-Preview</span></p>
+<p><span style="color: #0f59a4">ModelScope：https://modelscope.cn/models/stepfun-ai/Step-5-Preview</span></p>
+<p>Step 5 Preview采用稀疏MoE架构，<span style="color: #0f59a4"><strong>总参数量600B、激活参数仅27B</strong></span>，支持<span style="color: #0f59a4"><strong>100万Token</strong></span>上下文窗口。在Artificial Analysis 的Intelligence Index榜单中取得44分，位居全球开源模型前三。</p>
+<p>正式发布后，该模型很快进入全球开发者视野。截至2026年10月15日，Step 5 Preview的Token用量在开放模型平台OpenRouter的周榜、日榜均位列第二，近七日用量约18.8万亿Token。</p>
+<p><img class="alignnone size-full wp-image-601409" src="https://oss.zhidx.com/4f4ae718b4831ff873edf9a62cc37a44/6ad39b80/uploads/2026/10/6ad0aaea6a702_6ad0aaea6766e_6ad0aaea6763c_token.jpg" alt="OpenRouter周榜全球第二，这个国产模型终于开源了" width="1000" height="443" /></p>
+<p>根据Step 5 Preview发布时的Artificial Analysis评测数据，其单任务平均成本仅为Claude Opus 5的1/8，前者单次总开销0.71美元（约合人民币4.75元），后者为5.86美元（约合人民币39.22元）。</p>
+<p><img class="alignnone size-full wp-image-601408" src="https://oss.zhidx.com/531089bd857d7321aba0eb806aea098d/6ad39b80/uploads/2026/10/6ad0aae97646d_6ad0aae972e35_6ad0aae972e02_eac556fb-ce3f-4ad5-b631-512a941d2569.jpeg" alt="OpenRouter周榜全球第二，这个国产模型终于开源了" width="1280" height="729" /></p>
+<p>在基准测试方面，据阶跃团队公布，在公开和内部评估中，Step 5 Preview在复杂的软件工程任务（包括长程规划任务）、专业知识工作和金融领域等基准测试中展现出较为均衡的综合能力。</p>
+<p>在Agents&#8217; Last Exam的CLl子集ALE-CLI、金融投资研究评测FrontierFinance，以及跨领域深度研究评测DRACO上优于Kimi K3、GLM-5.3，仅次于 GPT-6 Astra或Claude Opus 5。</p>
+<p><img class="alignnone size-full wp-image-601410" src="https://oss.zhidx.com/86eb12e565629f757b7be7846a0539a7/6ad39b80/uploads/2026/10/6ad0ab1999ef7_6ad0ab199729e_6ad0ab1997274_%E5%9F%BA%E5%87%86%E6%B5%8B%E8%AF%95.png" alt="OpenRouter周榜全球第二，这个国产模型终于开源了" width="1280" height="1025" /></p>
+<p>Step 5 Preview 在榜单和实际使用中展现出的表现，也让人好奇：这款模型背后，究竟有哪些不同的技术设计？我深扒了Step 5 Preview的技术博客，试图找到答案。</p>
+<h2>一、92层窄深架构，从架构层面提高计算效率</h2>
+<p>Step 5 Preview由<span style="color: #0f59a4"><strong>92个Transformer模块</strong></span>堆叠而成，模型深度与Qwen 3.8 Max、Kimi K3等万亿参数级开源大模型相当，但总参数量不足这些模型的1/4，激活参数不足1/3。</p>
+<p>为什么深度如此重要？</p>
+<p>阶跃星辰的解释是：智能体任务中，模型需要不断调用外部工具，每次调用都可能带来大量新文本。考虑到Token效率，模型未必有机会通过显式思维链充分推理，因此<span style="color: #0f59a4"><strong>更加依赖读取上下文时的“隐式推理”</strong></span>。</p>
+<p>在Transformer中，信息沿着token时间方向和网络深度逐层传播。如果层数不够，多跳依赖的信息可能还没完成传递就耗尽了网络深度，长文本中的复杂推理便可能无法完成。</p>
+<p>行业内还有一条技术路线是通过循环或递归结构增加等效深度，阶跃星辰则选择了更直接的做法：<span style="color: #0f59a4"><strong>加深层数、控制网络宽度</strong></span>。</p>
+<p>这套“窄而深”的设计，一方面是为多跳推理提供更长的信息传递路径，另一方面可以控制参数规模以及响应计算开销，从而让模型获得<span style="color: #0f59a4"><strong>与万亿级模型相当的长程任务能力</strong></span>。</p>
+<p>在注意力机制的配置上，Step 5 Preview按3:1的比例交错布置两类注意力层：3/4是高效的Gated滑动窗口注意力层，1/4是稀疏全注意力层。</p>
+<p>阶跃星辰称，团队在对比多种线性注意力方案后发现，各方案性能差距其实很小，但<span style="color: #0f59a4"><strong>滑动窗口注意力结构最简单，且对投机解码更为友好。</strong></span></p>
+<h2>二、用Sparse GQA给百万token上下文的注意力“瘦身”</h2>
+<p>模型有了更深的推理路径，下一步是控制上下文带来的注<span style="color: #0f59a4"><strong>意力计算开销</strong></span>。</p>
+<p>当上下文长度达到100万token时，全注意力层会成为训练和推理共同的效率瓶颈。</p>
+<p>阶跃星辰的解法是在全注意力路径上采用<span style="color: #0f59a4"><strong>一种名为Sparse GQA的稀疏注意力机制</strong></span>，即<span style="color: #0f59a4"><strong>在标准的分组查询注意力（GQA）中引入稀疏索引</strong></span>，模型不必对全部历史信息做注意力计算，而是先筛选、再计算。</p>
+<p>这一思路并非阶跃首创，此前DeepSeek的DSA等工作已做过类似探索。</p>
+<p>阶跃星辰称，其实际部署中<span style="color: #0f59a4"><strong>需要跨越三道坎</strong></span>：筛选器本身的开销、筛选后碎片化计算的GPU利用率、以及筛选精度与数据读取量之间的权衡。</p>
+<p>相比MQA（Multi-Query Attention，多查询注意力）和 MLA（Multi-Head Latent Attention，多头潜在注意力）结构，GQA其实会放大这三重矛盾。团队之所以选择GQA，是因为该结构在实验中的长上下文精度更好，且更利于多GPU并行推理。</p>
+<p><img class="alignnone size-full wp-image-601413" src="https://oss.zhidx.com/add957e012611fd3520c3567d844f373/6ad39b80/uploads/2026/10/6ad0abcfba705_6ad0abcfb6e8b_6ad0abcfb6e34_step5-sparse-gqa.png" alt="OpenRouter周榜全球第二，这个国产模型终于开源了" width="1280" height="700" /></p>
+<p>▲稀疏GQA示意图1</p>
+<p>但这三重矛盾也不能忽视，针对此问题，阶跃给出了Sparse GQA具体方案：</p>
+<ul>
+<li><span style="color: #0f59a4"><strong>将相邻的历史位置压缩为“块”</strong></span>来降低筛选器成本，块大小设为8，筛选与选择环节的成本因此下降8倍；</li>
+<li>利用相邻token语义相近、筛选结果高度重叠的特点，<span style="color: #0f59a4"><strong>对相邻token的筛选结果取并集、合并计算</strong></span>，以改善GPU利用率；</li>
+<li>经过反复试验，确定了<span style="color: #0f59a4"><strong>每8个token为一组</strong></span>、共筛选<span style="color: #0f59a4"><strong>4096个token</strong></span>的配置。文本越长，这套方案省下的计算越多，而信息覆盖率与更精细的参考方案几乎相同（78.06%对79.09%）。</li>
+</ul>
+<p>在稀疏机制下，筛选器先将共享的索引键压缩为块表示，每个KV分组独立选出相关的历史块，主计算路径只读取被选中的原始K/V以及当前块内可见位置。</p>
+<p>换言之，模型先粗选章节、再精读原文，避免了对百万级token全量计算注意力的开销。</p>
+<p><img class="alignnone size-full wp-image-601414" src="https://oss.zhidx.com/492e037144932b5360ceb288d3dabad7/6ad39b80/uploads/2026/10/6ad0ac1adb662_6ad0ac1ad8268_6ad0ac1ad8238_%E7%A8%80%E7%96%8FGQA.png" alt="OpenRouter周榜全球第二，这个国产模型终于开源了" width="1280" height="470" /></p>
+<p>▲稀疏GQA示意图2</p>
+<h2>三、用三层手段压住数值爆炸与梯度尖峰，实现更稳定的训练</h2>
+<p>前两步分别处理模型的推理路径和长上下文计算开销，但是这些设计要落地，还得让训练过程足够稳定。<br />
+阶跃星辰在训练中遇到的主要问题之一，就是<span style="color: #0f59a4"><strong>数值爆炸和梯度尖峰</strong></span>。</p>
+<p>训练过程中某些数值突然失控，轻则拖慢进度，重则让此前的训练成果作废。团队在FP8低精度训练框架下，给出了三项应对措施：</p>
+<p><span style="color: #0f59a4"><strong>第一项是将隐藏状态转为FP32精度。</strong></span></p>
+<p>低精度训练速度快、成本低，但模型加深后，少数取值极大的数据点会在低精度格式下迅速失控。改用高精度存储这部分数据后，极端值下降了近十倍，额外成本则影响不大。</p>
+<p><span style="color: #0f59a4"><strong>第二项是将归一化层的缩放因子转为FP32。</strong></span></p>
+<p>该模型归一化层采用零中心RMSNorm，其调节参数在低精度格式下一旦恰好停在临界值，就会让某个计算通道反复“开关”，引发输出震荡。把这个参数改为高精度存储后，输出震荡问题得到明显缓解。</p>
+<p><span style="color: #0f59a4"><strong>第三项是细粒度梯度钳制。</strong></span></p>
+<p>团队观察到，梯度尖峰并非源自数据噪声或输出层，而是起于中间某些层，并在数层之内被放大数个数量级，数据重复似乎也会推波助澜；其成因可能与层冗余在反向传播中反复放大特定信号有关。</p>
+<p>由于异常梯度极为稀疏，团队只需在每层的梯度中挑出极小的一部分（占比为0.00004%）进行限幅，就能抑制尖峰，让训练收敛曲线明显更平滑。</p>
+<p><img class="alignnone size-full wp-image-601416" src="https://oss.zhidx.com/7f894dd01a968f8ee778fe5c28b055e4/6ad39b80/uploads/2026/10/6ad0ac47c1860_6ad0ac47be94d_6ad0ac47be904_%E8%AE%AD%E7%BB%83%E7%A8%B3%E5%AE%9A%E6%80%A7-%E6%A2%AF%E5%BA%A6%E9%92%B3%E5%88%B6.png" alt="OpenRouter周榜全球第二，这个国产模型终于开源了" width="1920" height="640" /></p>
+<p>▲细粒度梯度钳制之前（蓝色）和之后（橙色）的LLM损失比较</p>
+<h2>结语：从架构优化到开放部署，模型能力走向真实任务</h2>
+<p>回看Step 5 Preview的技术设计，从92层窄深架构，到Sparse GQA，再到深层网络的训练稳定性优化，这些选择分别对应着模型推理、长上下文处理和训练工程中的不同问题。它们并非某一项单点技术的突破，而是一系列围绕模型能力与实际运行效率展开的设计取舍。</p>
+<p>放到当下的大模型行业，参数、榜单分数只是入门门槛。模型只有扛得住开发者反复调试，方便企业大规模部署，并且能顺利接入真实业务流程，它的能力才能转化为看得见的生产力。</p>
+<p>Step 5 Preview从两条路径推进落地：面向开发者，官方放出BF16、FP8两种精度权重，同步上线Hugging Face与ModelScope；面向普通使用者，模型接入腾讯WorkBuddy开放为期两周的免费试用。</p>
+<p><img class="alignnone size-full wp-image-601422" src="https://oss.zhidx.com/04c46435dcee5631f1cdc071bebeba5a/6ad39b80/uploads/2026/10/6ad0ac69c5bc8_6ad0ac69c2e27_6ad0ac69c2ded_Workbuddy.jpg" alt="OpenRouter周榜全球第二，这个国产模型终于开源了" width="1000" height="567" /></p>
+<p>两条渠道并行，让阶跃星辰的覆盖人群，从Agent开发者延伸到办公用户和有本地部署需求的研发人员。</p>
+<p>对Step 5 Preview来说，模型权重开放也意味着这些技术设计将接受更多真实部署环境和复杂任务的检验，也让阶跃在架构与训练上的技术探索，有机会进入更广泛的实际应用场景。</p>
+<p>模型能力的竞争仍在继续，但比拼的已不只是模型本身。如何让前沿模型的能力真正走进实际应用，或许是下一阶段大模型竞争中更值得关注的问题。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601405.html</link>
+<pubDate>Thu, 15 Oct 2026 21:25:15 +0800</pubDate>
+<source>智东西</source>
+<author>王 涵</author>
+</item>
+<item><title><![CDATA[万字深度解密：华为麒麟2026韬定律大量技术细节首披露]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/3e441f775f33e45280c0ededbf71ac44/6ad39b80/uploads/2026/10/6acf298764de9_6acf298761e8f_6acf298761e5f_%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><strong>智东西</strong><br />
+<strong>作者 | 云鹏</strong><br />
+<strong>编辑 | 李水青</strong></p>
+<p>智东西10月15日报道，近日，华为在上海练秋湖畔举办了一场为期两天的深度技术沟通会，从<span style="color: #0f59a4;"><strong>影像、屏幕、可靠、定位、声音5大方向9大技术</strong></span>品牌，到<span style="color: #0f59a4;"><strong>麒麟9050系列背后韬定律、逻辑折叠、混合键合</strong></span>等海量技术细节，华为首次详细对外解读。</p>
+<p><img class="alignnone size-full wp-image-600885" src="https://oss.zhidx.com/f34e843a27590adc947660182589aac9/6ad39b80/uploads/2026/10/6acf29cfe34d9_6acf29cfe0473_6acf29cfe043c_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145531_1594_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>主讲人分别为第一天的<span style="color: #0f59a4;"><strong>华为终端BG CTO李小龙，</strong></span>以及第二天的<span style="color: #0f59a4;"><strong>华为半导体业务无线终端芯片产品管理部部长徐松余。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600859" src="https://oss.zhidx.com/df807addc593d9701ee4f096530664a1/6ad39b80/uploads/2026/10/6acf29a0db37e_6acf29a0d82a4_6acf29a0d8269_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145510_1569_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>值得一提的是，这也是<span style="color: #0f59a4;"><strong>时隔6年，华为再次对外详细解读麒麟芯片，</strong></span>其重要意义不言而喻。</p>
+<p><img class="alignnone size-full wp-image-600886" src="https://oss.zhidx.com/db03ca46a053c3e8a5773fb046a3efcd/6ad39b80/uploads/2026/10/6acf29d0e4166_6acf29d0de28e_6acf29d0de252_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145532_1595_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>两天的沟通会信息量极大，可以说干货多到爆：</p>
+<p>·内含<span style="color: #0f59a4;"><strong>300多个零部件</strong></span>的影像“巨炮”<span style="color: #0f59a4;"><strong>Z10模块相机</strong></span>如何突破光学硬件的物理极限，背靠<span style="color: #0f59a4;"><strong>76项核心专利，</strong></span>把行业无人区第一个走通？</p>
+<p>·玄武昆仑玻璃如何<span style="color: #0f59a4;"><strong>深入分子层面重塑玻璃，</strong></span>成为行业唯一<span style="color: #0f59a4;"><strong>同时解决耐划、耐摔和低反射的屏幕？</strong></span></p>
+<p>·“G型”折叠背后，天工铰链如何从蒸汽机的<span style="color: #0f59a4;"><strong>“连杆结构”</strong></span>中寻取灵感，内屏不同方向的复杂应力如何消解？</p>
+<p>·一块防窥屏背后，是<span style="color: #0f59a4;"><strong>4亿多元研发费用、50多位博士技术专家</strong></span>参与、累计超过<span style="color: #0f59a4;"><strong>50项专利</strong></span>的深厚积淀。</p>
+<p>·韬定律背后，华为如何<span style="color: #0f59a4;"><strong>将“混合键合”间距做到1.5微米，</strong></span>数量做到<span style="color: #0f59a4;"><strong>5000多万个？</strong></span>华为<span style="color: #0f59a4;"><strong>未来10年的芯片路线图又是怎样的？</strong></span></p>
+<p>·华为的<span style="color: #0f59a4;"><strong>“麒麟2027”</strong></span>会在哪些方向突破，测试指标全部符合预期的背后，华为究竟克服了哪些挑战？</p>
+<p>·<span style="color: #0f59a4;"><strong>端侧30B大模型跑通</strong></span>背后，华为如何实现多级存算协同、模型架构、量化方案等技术创新的突破？</p>
+<p>·AI如何在华为软件、硬件、结构、材料等技术研发领域发挥重要作用？为<span style="color: #0f59a4;"><strong>何李小龙会说“AI对华为产品已到非常重要、不可或缺的程度”？</strong></span></p>
+<p><img class="alignnone size-full wp-image-600890" src="https://oss.zhidx.com/d7c03fc47cffd9948e52d36cc8b65359/6ad39b80/uploads/2026/10/6acf29d7e0df8_6acf29d7de260_6acf29d7de229_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145535_1599_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>当然，还有海量技术细节以及大量研发幕后故事我们会在实录中一一呈现，总共4个多小时的深度分享中，我最深的真实感受就是：<span style="color: #0f59a4;"><strong>华为把别人走不通的路走通了，把别人走过的路探索到新的极致。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600860" src="https://oss.zhidx.com/349eb9778605a57ff97ceba5a321e70b/6ad39b80/uploads/2026/10/6acf29a2e36b0_6acf29a2e0400_6acf29a2e03d0_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145511_1570_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p><span style="color: #0f59a4;"><strong>连续9年研发投入占全球所有公司排名前6位，且是唯一的中国公司；</strong></span>今年上半年研发投入达<span style="color: #0f59a4;"><strong>1214亿元，同比增长22%；</strong></span>折叠屏全球发货量突破<span style="color: #0f59a4;"><strong>2000万台，</strong></span>今年上半年国内折叠机市场份额超过<span style="color: #0f59a4;"><strong>70%。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600872" src="https://oss.zhidx.com/50322245efd6db1c9675edc59d098f80/6ad39b80/uploads/2026/10/6acf29b8d9d9f_6acf29b8d6f0e_6acf29b8d6ee2_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145521_1582_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>正如数字所呈现的，扎实的研发投入带来技术的领先，技术的领先让产品力拔群，最终赢得市场的认可。</p>
+<h2>一、华为睿影：红枫多光谱突破影像色准瓶颈，Z10模块相机填补行业技术空白</h2>
+<p>华为将XMAGE中文名定为“华为睿影”。其中“睿”代表智慧能力，意味着影像不仅追求图像本身质量，也强调通过算法帮助不擅长摄影的用户拍出高质量照片。</p>
+<p>睿影体系包括人像、长焦、色彩、视频和智慧拍摄五个方面。<span style="color: #0f59a4;"><strong>华为认为，色彩是用户第一眼判断照片质量的关键因素，因此色彩在睿影体系中居于核心位置。</strong></span></p>
+<p>传统人眼视网膜与摄像头传感器均由RGB三通道构成，但自然界色彩来自赤橙黄绿青蓝紫各波长光线。仅靠RGB三通道数值表征真实色彩并不充分，自然界存在同色异谱或同谱异色现象。</p>
+<p>华为推出红枫多光谱传感器，目标是用更多颜色通道、更精准波长表征世界原本颜色。<span style="color: #0f59a4;"><strong>红枫提供多通道输入，再由算法将人眼看到的本质颜色与人脑认为的颜色精准还原。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600861" src="https://oss.zhidx.com/1eff56f0e42dc766be11f6e56fab066a/6ad39b80/uploads/2026/10/6acf29a4d941d_6acf29a4d675f_6acf29a4d672b_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145512_1571_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>传统白平衡依赖标准灰板或白板，通过手动白平衡校准。但RGB三通道受环境光线、不同波长影响，标准白在不同光谱下颜色可能不同。人脑还存在记忆色：例如白色衬衣在暖光下仍被大脑认为是白色，而相机记录的是偏暖颜色。</p>
+<p><span style="color: #0f59a4;"><strong>红枫方案一方面通过多光谱传感器精准还原世界真实波长，另一方面通过算法映射回人脑记忆色。</strong></span></p>
+<p>按照华为统计，传统RGB拍摄照片平均误差超过1，1表示人能够明确识别颜色偏差的标准单位。使用红枫后，平均误差大幅缩小。</p>
+<p>红枫已发展至第三代。第一代引入多光谱，重点解决纯色背景下传统白平衡灾难。传统白平衡需要在画面中寻找白点，当画面缺少大面积白点时，容易产生离谱颜色偏差。第一代红枫可在纯色背景下真正还原真实颜色。</p>
+<p>第二代红枫解决复杂光源、冷暖光环境下分区处理问题；扩大红枫传感器pixel尺寸，使暗光和强光下仍能准确还原环境色彩；提升高动态范围，减少高亮时部分颜色通道溢出；从3×3通道扩展到4×4通道，解决照片中冷暖分区问题。</p>
+<p>第三代红枫重点解决三项问题：</p>
+<p>第一，在更复杂光源下提升人肤色还原准确度。人脑对肤色有更强记忆，无论红光、绿光或蓝光环境，大脑都倾向于认为人脸应呈肤色，因此肤色需要额外保护。</p>
+<p>第二，解决红外干扰。人眼看不到红外光，但传统摄像头及前代红枫通道对红外线仍有响应，第三代将红外截止降至0.05%，减少红外线对传感器干扰。</p>
+<p>第三，解决强逆光、点光源下眩光与画面灰蒙、对比度恶化问题。</p>
+<p>华为在影像行业曾带来多项创新，包括超级夜景、可变光圈、业界首发一英寸可伸缩摄像头、潜望式长焦、超大底长焦，以及高达18档EV超高动态范围等。</p>
+<p>可变光圈坚持多年，早期行业认为手机小摄像头做可变光圈意义有限，但后续越来越多厂家认识到其重要性。</p>
+<p><span style="color: #0f59a4;"><strong>手机影像面临的根本挑战是空间有限。</strong></span></p>
+<p>影像团队希望更大传感器、更好光学，但手机空间寸土寸金，且需保持轻薄。行业曾采用手机外加增距镜方案，但用户需要快速变焦，传统增距镜需反复拧上摘下，增距倍数有限，且基础长焦传感器本身较小，扩展效果有限。传统微单或单反画质高，但普通用户使用门槛高，分享链路复杂，直播场景需采集卡甚至电脑。</p>
+<p><img class="alignnone size-full wp-image-600867" src="https://oss.zhidx.com/95aa0e1c0112a652a71b434e2b7cbd14/6ad39b80/uploads/2026/10/6acf29afe5c52_6acf29afe2b04_6acf29afe2ac8_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145517_1577_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>华为推出<span style="color: #0f59a4;"><strong>睿影Z10 10倍变焦模块项目，内部研发代号“金刚”。</strong></span>该项目源于多年前Mate 30发布时对圆形摄像头demo替换为单反大镜头的设想。行业曾尝试WiFi连接、几十pin点连接等扩展相机方案， 均不够理想。</p>
+<p><img class="alignnone size-full wp-image-600863" src="https://oss.zhidx.com/0ac1deed214fcdf61027dc9f60cac7e5/6ad39b80/uploads/2026/10/6acf29a7e1344_6acf29a7de840_6acf29a7de815_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145514_1573_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>最终连接方案来自华为海外出差期间，当地研发团队为另一产品线开发的一款芯片虽未成功，但具备短距离高速连接潜力。华为不需要10米距离，只需几毫米。</p>
+<p>2023年华为启动芯片定向和规划，芯片方面，华为内部两个团队同时开发两个方案并PK，考虑功耗、高带宽、环境波动忍耐性，包括水、水蒸气、化妆品、粉末、面粉、油污等场景。</p>
+<p>模块相机正式立项后，前前后后申请76件专利，涉及产品外观和各领域。其中一篇专利被网友发现含李小龙名字及两名日本工程师简历。两名日本工程师曾在一家日本相机大厂工作，体现了华为全球研发资源整合。</p>
+<p><img class="alignnone size-full wp-image-600862" src="https://oss.zhidx.com/903df73abd864b15044ca4f282da6065/6ad39b80/uploads/2026/10/6acf29a5e5672_6acf29a5e2650_6acf29a5e2622_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145513_1572_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>金刚产品爆炸图显示其结构复杂。最前端并非简单第一线镜头，还包括摄像头模组、激光测距模组、防闪烁环境光闪烁传感器、可变光圈、高品质光学模组、变焦马达、对焦马达、防抖马达、一英寸大底传感器、图像传输部分。可变光圈从最大F2到F11。</p>
+<p><span style="color: #0f59a4;"><strong>扩展相机模块内部没有任何图像处理算法和处理单元，所有数据全部回传手机，由手机SoC处理，</strong></span>最终完成照片图像处理、分享、直播等流程。前端集成红枫。</p>
+<p><img class="alignnone size-full wp-image-600866" src="https://oss.zhidx.com/dfdde0a3e360f1f10d1ce9003dd14b7b/6ad39b80/uploads/2026/10/6acf29ade5cba_6acf29ade2d01_6acf29ade2cca_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145516_1576_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>最初方案中，镜头前端被巨大光学模组占据，遮挡手机本体红枫摄像头。加激光较容易，因激光模组小、信号线有限。加红枫压力极大，因红枫是标准摄像头模组，排线位宽宽、信号速率高，需在长FPC、反复伸缩条件下保证可靠性、抗干扰、不被绞断挤坏。</p>
+<p>研发团队最终搞定，金刚模块有300多个零部件，装配难度极高。</p>
+<p><img class="alignnone size-full wp-image-600864" src="https://oss.zhidx.com/1de14cc5d8fcf9c6f2ee69b3ae8e7c41/6ad39b80/uploads/2026/10/6acf29a9e18b9_6acf29a9deb4c_6acf29a9deb1d_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145515_1574_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p><span style="color: #0f59a4;"><strong>金刚开发最大问题是传统手机摄像头模组厂家具备自动化生产测试能力，而传统镜头厂家仍处纯手动过程。</strong></span>纯手动完成复杂光学模块并达到高光学要求压力巨大。开发最高峰时，几十人团队住在供应商处，帮助开发生产装备。所有传统厂家没有的核心生产装备，全部由华为工程师和团队开发完成，打破传统光学镜头生产流程。</p>
+<p>供应商曾给出激进进度，认为去年可上市。华为判断不可能，产品进度排到今年。直到几个月前，镜头光学部分良率几乎为零。供应商称从未遇到要求如此高的客户、难度如此大的产品。原以为华为做光学多年应驾轻就熟，实际很难。</p>
+<p>光学采用6枚14组19片玻璃镜片，在传统相机中属高端镜头配置。使用3枚超低色散镜片，阿贝数大于90；自然界阿贝数最高为萤石，约94点几不到95。</p>
+<p>使用5枚低色散镜片，用于非球面镜头低色散。未用萤石，因萤石软、吸潮、成本高，华为希望更多用户用得上。使用9枚非球面镜头。传统相机微距镜头最近对焦距离一般约半米，华为要求保证高画质基础上将最近对焦距离压到10cm。</p>
+<p>MTF曲线采用每毫米60线和30线，而非相机行业常见10线或30线。因传感器为一英寸且分辨率更高，应以更高线对数要求光学设计。若用更低线对，MTF会更漂亮，但意义有限。</p>
+<p>该MTF为变焦镜头MTF，体现连续变焦价值。演唱会场景中，用户既需全场面，又需拉远细节。超低色散镜片带来防紫边、防色彩能力，长焦人像细节与色彩超越部分传统方案，但无法与全画幅相机相比。</p>
+<p><img class="alignnone size-full wp-image-600865" src="https://oss.zhidx.com/f9ff201b183b1e276bee3423ed95db3d/6ad39b80/uploads/2026/10/6acf29abe2a8d_6acf29abdfbaf_6acf29abdfb83_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145515_1575_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>光圈设计坚持9片光圈叶片，以带来更圆形光斑；最小光圈F11，因一英寸相机F11已很小，再小衍射明显；广角端最大F2。便携小巧一英寸传统相机很少做到F2。</p>
+<p>华为要求金刚套在手机上，无论哪个焦段，都要比手机镜头效果更好。高端卡片机长焦可秒杀手机，但主摄最大光圈常仅3.1，进光量受限。因此要求<span style="color: #0f59a4;"><strong>主摄焦段必须打败机配摄像头，最大光圈做到2.0，否则用户需在金刚与手机间取舍，丧失产品本意。</strong></span></p>
+<p>传感器使用华为擅长的一英寸RYYB，以提升进光量、动态范围，尤其长焦光圈只能做到3点几、4点几时，进光量仍不足。相机行业销量少，愿意开发新传感器厂家少，能找到的更大画幅传感器较古老，指标达不到手机行业迭代水平。</p>
+<p>对焦方面，手机算力、算法、AI能力远超传统相机。激光对焦可在极暗、全黑环境精准对焦；传感器支持全像素对焦。传统相机有十几点、几十点、上百点对焦，而全像素对焦已无对焦点个数概念。</p>
+<p>华为通过强大对焦算法、AI相位预测、运动预测，使对焦能力较易优于传统相机。高精度对焦马达、手机处理器支持强对焦算法，可解决传统长焦大变焦录视频失焦问题。AI可推测用户意图，预测对焦区域。暗光下背景缺少纹理时，传统相机对焦困难，手机协同对焦可轻松应对。</p>
+<p>防抖方面，华为要求面向普通手机用户，即使小白用户也需高出片率。实测CPA防抖等级达到7，持平专业相机。防抖角度在传统大炮镜头上也非常大，市面上少有大长焦光速模组达到该角度。摇拍时容易锁住被摄物体。</p>
+<p>卡口方面，今年发布两款产品支持睿影Z10。华为要求考虑未来可扩展性，适应未来手机摄像头demo不同形状、尺寸。卡口需容易拆装，不依赖专业工具，用户在家随手可装。还要求“好装、不好拆”，防止手欠误拆。最终安装容易，拆下稍难但简单。两款手机卡口可互相替换，用户买一款Z10即可换用。未来更多适配卡口产品上市。</p>
+<h2>二、昆仑玻璃突破微晶玻璃四大难题，玄武架构实现耐划与低反兼顾</h2>
+<p>华为研发工程师每年站店，包括销售店和服务店。过去修手机最大问题是屏幕摔碎换屏。用户对屏幕要求包括摔不烂、防划伤、抗指纹层耐磨、低反光。传统二强玻璃已是高强度玻璃，再做表面强化可提高表面应力，但一旦被刺破，裂缝快速蔓延，整个屏幕碎掉。</p>
+<p>微晶玻璃并非华为原创，已问世多年，耐摔但传统微晶玻璃不透明，因晶粒导致光线反射折射。华为需解决透过率：调配晶粒生长尺寸远小于光波长，调整晶粒折射率与玻璃本体相当，避免界面反射。</p>
+<p><img class="alignnone size-full wp-image-600868" src="https://oss.zhidx.com/cc86a473bb0eb3bf6381424875beeed3/6ad39b80/uploads/2026/10/6acf29b1e0db5_6acf29b1dd94d_6acf29b1dd920_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145518_1578_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>第一块玻璃做出来后，高温高湿实验中表面泛白。专家定义微晶玻璃中钠盐与空气中二氧化碳生成碳酸钠，析出后形成难擦白花颗粒。</p>
+<p>透光与泛白解决后，盖板厂热弯时玻璃又发蓝发雾，因微晶玻璃晶粒在热弯中继续生长出更大晶粒，导致透明变不透明。</p>
+<p>最后防指纹涂层耐磨性差。微晶玻璃表面粗糙度高，肉眼手摸难察觉，但镀抗指纹涂层后，尖峰处涂层先被磨掉。华为通过化学抛光等方案平整表面形貌，再解决镀膜。</p>
+<p>第一代昆仑玻璃耐摔能力大幅提升，但工程师认为不够。第二代耐摔能力提升100%，第三代再提升50%。每代提升都难。<span style="color: #0f59a4;"><strong>技术包括把晶体骨架做得更强壮、纳米晶体增强、表面更高密度离子强化注入、发明分子筛控制盐浴浓度，使强化层更深更强壮。</strong></span></p>
+<p>昆仑玻璃解决耐摔，但未解决耐划伤。华为推出玄武昆仑，在传统昆仑玻璃上做类金刚石技术。类金刚石折射率高，盖在玻璃上强反光。</p>
+<p>华为先在玻璃上做氮化硅硬化技术，氮化硅折射率低，与玻璃几乎一样，虽不如类金刚石硬，但比玻璃硬得多；再在氮化硅表面做一层薄类金刚石。类金刚石厚度远低于波长时不会反射，通过双层镀膜解决反射问题。</p>
+<p>低反方面，传统多层镀膜靠相位抵消，但低折、高折材料本身弱，低反射率与耐划难兼得。<span style="color: #0f59a4;"><strong>华为发明折射率渐变的梯度技术，使光线入射无反射面。</strong></span>华为称其为行业唯一同时解决耐划与低反的玻璃：解决低反的厂家耐划差，解决耐划的厂家反射率不够低。</p>
+<p><img class="alignnone size-full wp-image-600869" src="https://oss.zhidx.com/a5bf4e0275a6b7b4a021d2f9ad8ac933/6ad39b80/uploads/2026/10/6acf29b3d8033_6acf29b3d5136_6acf29b3d50fe_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145519_1579_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>前盖板与电池盖耐摔解决后，摄像头盖板玻璃摔碎比例升高。华为尝试用昆仑玻璃做盖板，但微晶玻璃有雾度，强光手电照有幽蓝扩散。团队多年降低雾度未果，最终走非晶玻璃路线。</p>
+<p>传统微晶玻璃有晶粒，光线反射散射，对屏幕足够，对拍照远远不够。华为无法接受光学团队镜头指标出色却被盖板玻璃打折扣。最终用非晶控制配方，增强玻璃分子链结构，骨架强度提升30%，再做高温离子强化，光学控制玻璃比普通传统玻璃耐摔提升20倍。</p>
+<p><span style="color: #0f59a4;"><strong>动态光栅控制玻璃：</strong></span>传统玻璃纹理在背后贴光学膜，华为ID设计师希望纹理展在玻璃内部。工程师在传统玻璃中加入贵金属和系统元素，形成光敏特性玻璃；生产过程中先光照使盐颗粒敏化，再定型，通过48小时高温固化纹理，可在玻璃内部刻出图案。该技术用于今年动态光栅玻璃。</p>
+<p>Mate 90 Pro Max使用玄武昆仑架构，前后都昆仑。手机机身架构将后壳与中框连在一起，配合睿影Z10。若不一体，手机带金刚睿影跌落时，相机可能把电池盖拔下。卡扣需足够强壮，用户怎么甩都甩不下来；又要在跌落足够高度时及时脱落，避免镜头打坏手机，卡扣设计需兼顾强大与及时脱开。</p>
+<h2>三、天工铰链：8年深耕折叠，从“Z”到“G”的背后，是结构、材料的系统性创新</h2>
+<p>华为是最早发布折叠机、最早发布三折叠的厂家。2015年手机产品线内部研讨中，李小龙在纸上画出折叠手机草图。当时智能手机屏幕每年增大0.3寸，6寸后宽度达极限，屏占比接近100%后，唯一手段是把屏幕折起来。</p>
+<p>没有柔性屏前，多家厂家做转轴、双面方案，前赴后继。折叠梦想属于手机行业，最终由华为工程师实现。</p>
+<p>折叠机比直板更重更厚，配置更差，因转轴占用有效空间和重量，除折叠外不带来其他用户价值。转轴团队要求尽可能轻、小，同时平衡可靠、开合顺滑，几乎是不可能三角。华为从Mate X鹰翼外折、水滴铰链、X5、X6，到三折叠、折叠PC，每代创新并引领行业。</p>
+<p><span style="color: #0f59a4;"><strong>外折最难：屏幕和转轴因厚度不同，长度变化。外折需在弯折任何角度让转轴始终顶好屏幕，屏幕孔洞区域最易破坏。</strong></span></p>
+<p>第一代鹰翼铰链让转轴配合屏幕尺寸。第二代水滴铰链将屏幕容纳到手机厚度本身，替代棒球形转轴，避免手机额外增加转轴区域厚度。行业后续普遍采用水滴铰链架构。第三阶段把水滴铰链做得更薄更轻，依赖1900MPa定钢和700MPa航空铝等材料与设计共同迭代。</p>
+<p>第四阶段向更大应用扩展。三折叠将内折与外折叠在一起，要求更薄更轻、可靠性不打折。难点在于有效空间同时容纳内折和外折，内折外折互相影响：一个转轴开闭时，另一个转轴受屏幕错动力不同。需包容所有应用场景。不同环境温度下，屏幕越冷越硬，展开闭合力阻力越大。还需考虑佩戴美甲女生优雅轻松打开，不能弄伤美甲。</p>
+<p><img class="alignnone size-full wp-image-600870" src="https://oss.zhidx.com/6337c834704b8c4add36b7a0471c559d/6ad39b80/uploads/2026/10/6acf29b4ddb37_6acf29b4dab65_6acf29b4dab38_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145520_1580_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>折叠PC比手机更难：屏幕面积更大、长度更大，叠层咬合度与错动力阻力更大，转轴需克服更大屏幕反弹力与折叠阻力；PC需任意角度维持，阻尼力要求更大，开合又不能困难。</p>
+<p>第一代Z字型折叠，第二代G型折叠。G型多一块屏幕和盖板玻璃，更重更厚。第一代内外折为减轻厚度重量；当团队能力提升，外折也能达到相同厚度重量后，华为更愿提供外面有保护屏的折叠手机，因柔性屏在外侧仍易划伤。G型两个转轴向内折，一个转轴包另一个，转折点跨度更大。</p>
+<p>传统同步方案靠四个齿轮联动，U轴转折点距离远，加齿轮会带来误差、抗冲击差。工程师从蒸汽机火车轮连杆结构受启发，做蒸汽机连杆结构，抗冲击好、运动精度高于齿轮。</p>
+<p><img class="alignnone size-full wp-image-600871" src="https://oss.zhidx.com/ad4be43c98d1b0d5d07b406f740982d7/6ad39b80/uploads/2026/10/6acf29b6e4778_6acf29b6e12ca_6acf29b6e1287_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145520_1581_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p><span style="color: #0f59a4;"><strong>材料做出2400MPa航空级高强钢和1200MPa钛合金。</strong></span>为克服屏幕反弹力，用户手感取决于磁铁吸合力与推力、屏幕反弹力、铰链弹簧顶部机构。需不停改变磁铁和铰链设置，抵抗变化屏幕力，适应不同屏幕、温度、角度互相影响，将手感包络在最佳范围。</p>
+<p>XT2 V轴闭合时故意留轻微角度，内部放相斥磁铁，解决美甲女生难拉开问题；但张嘴角度需控制，避免U轴闭合压坏屏幕转轴，并解决磨损、顶平问题。</p>
+<p><span style="color: #0f59a4;"><strong>转轴是系统工程，涉及方案设计、力学仿真、材料、精密制造、全场景测试与失效分析。</strong></span>转轴测试组合无数，需靠强大仿真找到最脆弱角度，再测试遍历。</p>
+<h2>四、灵盾防窥：两套独立像素实现防窥，为了一块屏砸4亿研发50多位博士技术专家</h2>
+<p>用户需在飞机、公共场合处理材料，不想被旁边人看到。传统PC防窥贴膜显示效果差，亮度打折，视角差导致左右眼亮色不同，可能眩晕。软件防窥可在发现第二张人脸时弹窗提醒，但边上始终有人时只能提醒，不够。</p>
+<p><span style="color: #0f59a4;"><strong>华为投入4亿多研发费用、50多位博士技术专家、累计超过50项专利。</strong></span>目标：防窥态与共享态显示效果一样好，不让用户选择；灵活自如、悄无声息切换。</p>
+<p><img class="alignnone size-full wp-image-600875" src="https://oss.zhidx.com/b1ea5288d6f9ab16a5efb1353a25a54e/6ad39b80/uploads/2026/10/6acf29bee0d91_6acf29beddedd_6acf29beddeab_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145524_1585_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>方案为防窥态和共享态各有一套完全独立像素，正视角度效果完全一样。<span style="color: #0f59a4;"><strong>防窥版本2800万像素，不防窥版本1400万像素，像素数翻倍，防窥与非防窥PPI完全一样。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600873" src="https://oss.zhidx.com/47a86abceebd2ba5ae952470616d51df/6ad39b80/uploads/2026/10/6acf29bad8843_6acf29bad584f_6acf29bad5813_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145522_1583_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>竞品方案在共享态两套像素同时点亮，防窥态关闭一半共享像素。防窥像素窄视角，只有窄视角有亮度，大视角亮度为零，导致广视角色偏、亮度衰减。共享态因防窥像素参与显示，大视角亮度色彩变化。</p>
+<p>相比之下，华为两套像素设计一样，仅视角不同，发光亮度、像素尺寸几乎一样，色彩、亮度、效果一致，像素渲染算法一致。</p>
+<p><img class="alignnone size-full wp-image-600874" src="https://oss.zhidx.com/afe6b012e648f1a949270b7e4245ff95/6ad39b80/uploads/2026/10/6acf29bcf1ac5_6acf29bceee01_6acf29bceedce_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145523_1584_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>防窥需麒麟和周圈显示驱动芯片共同参与，实现多一倍像素驱动。防窥靠光线遮挡：共享像素无遮挡，防窥像素通过两种遮挡矩阵在大视角遮光，增加遮挡层使屏幕更厚。折叠机对厚度、应力、寿命要求更高。</p>
+<p>华为优化外硬度、减少膜层，与原有膜层复用，减少一层、增加一层，采集亮度仅2%情况下抗弯能力提升20%。增加一半像素使像素间距更密，屏幕厂需更高精度曝光、对位装置。光刻加工发光区对膜厚要求更高，微小误差容忍度更差，需更好温控与精准分区加工。</p>
+<h2>五、灵珑屏：双层OLED突破发光单元与校准难题，BT.2020色域行业首次实现</h2>
+<p>在华为看来，好屏幕首先看得清，亮度足够高。室内亮度够，户外永远不足。手机初始亮度高，用一会降亮，因过热、高亮度高功耗，热承受不了时被迫降亮。</p>
+<p><span style="color: #0f59a4;"><strong>色彩方面，自然界色彩能否在屏幕精准还原是关键。</strong></span></p>
+<p>华为屏幕从早期730nits到6000nits，从sRGB到P3再到BT.2020。做好显示不只需好屏幕，还需软件算法、操作系统、端到端处理和传输高色域照片能力。</p>
+<p>部分厂家将sRGB硬拉伸到P3、BT.2020，导致颜色严重失真。屏幕宣传超过100%色域，对操作系统和原始照片而言最高理论到100%，超过意味着用户看到失真颜色。还需第三方生态，如抖音、快手、小红书、微博逐渐支持更高色域。</p>
+<p>单层OLED与双层OLED最大区别是串联两组发光单元。亮度增加一倍；相同亮度下寿命几乎翻番；相同功耗下更好亮度，或相同亮度下功耗打6到7折。<span style="color: #0f59a4;"><strong>双层OLED每层发光单元电压下降，供电需更精准、更小误差，否则易出现折线波、脏污、显示不均。需更高像素校准装置、更完美灰度亮度色阶模拟。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600876" src="https://oss.zhidx.com/d6fc09cdf6fb188638d7b8f97ee9af13/6ad39b80/uploads/2026/10/6acf29c0e901a_6acf29c0e5b70_6acf29c0e5b2d_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145524_1586_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>传统伽马曲线查找表放显示驱动IC，但DDIC内存有限。<span style="color: #0f59a4;"><strong>华为创造性实现DDIC与SoC协同：</strong></span>高亮度时靠DDIC内部几套校正表，低亮度时SoC介入，利用手机内存放更多校正表。手机SoC与DDIC协同，发挥DDIC低功耗与SoC精准校准优势。</p>
+<p>Pointer色域是自然界真实物体反射光线色域空间，传统P3覆盖范围离Pointer仍大。今年屏幕将传统2020色域覆盖达到95%，自然界真实存在色域覆盖度达到99%。实现更高色域需将红光中心波长拉长，绿光波长左移、波峰缩窄。</p>
+<p>华为通过高纯度发光材料研发支持更大色域。在研发团队看来，若拍照、显示全链路做不到，即使用好屏也看不到BT.2020色彩。</p>
+<p><img class="alignnone size-full wp-image-600878" src="https://oss.zhidx.com/c1292b318f063f6616bed49d9f95a38f/6ad39b80/uploads/2026/10/6acf29c2e21eb_6acf29c2df55e_6acf29c2df519_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145525_1587_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<h2>六、星迹定位：搞定隧道、地库、商场“硬骨头”，多传感器融合与强大算法加持</h2>
+<p>卫星定位需看得见卫星，室外高架桥、地下车库效果差。高架行驶无高速导航无法及时变道。<span style="color: #0f59a4;"><strong>华为很早支持车道级导航，采用RTK载波相位差分技术，而非APP厂家直接提供的高精度地面站差分补偿方案。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600879" src="https://oss.zhidx.com/98208d5738b2a12ace5d2c6fa4e63d2e/6ad39b80/uploads/2026/10/6acf29c4df881_6acf29c4dc657_6acf29c4dc629_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145526_1588_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>多数卫星定位芯片厂家不开放底层观测量，华为芯片自研，可拿到所有接收信息，获得更好观测数据与更高精度补偿。其他厂家用RTD距测、伪距差分普通定位，做到米级。华为可做到更及时、精准车道定位，提前告知变道方向。亚米级演示中，<span style="color: #0f59a4;"><strong>两台手机固定小车上绕200米跑道，Mate 90精准画出同心圆，另一台米级定位有差距。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600880" src="https://oss.zhidx.com/79ebdfc44bdd2c83a1e432b1af211754/6ad39b80/uploads/2026/10/6acf29c6deff1_6acf29c6dbbe8_6acf29c6dbba3_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145527_1589_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>国内长隧道、岔路口增多。华为三传感器拟合，可在无限长隧道推测当前车速，实时显示隧道内位置、时速、车道。</p>
+<p>对比视频中，重庆隧道内即使收不到卫星，也能准确告知车道；另一产品推错速度，认为已出隧道但收不到卫星，卡在隧道口。<span style="color: #0f59a4;"><strong>华为隧道内定位成功率100%，纵向精度9m，速度精度准，车道准确率高。</strong></span>已测绘国内上百条长隧道，未来更多。</p>
+<p>跑步场景高楼林立、地下通道。华为手表做旋转极化天线，比上一代跑表信号提升5.4dB，配合FDR算法，进入地下通道仍可拟合跑步轨迹；另一产品在地下室随机飘动。滑雪传统卫星1秒定位一次，跟不上双板快速回转。</p>
+<p>华为融合定位将定位频率、分辨率提升5倍，精准还原轨迹、距离。新手表支持全球3000多个雪场雪道，帮助初学者规划雪道。</p>
+<p>地下车库寻车：华为与ADS协同，ADS有国内非常多地下车库车内地图，加上手机3D路网匹配。传统地下车库定位靠加速推理，缺蜂窝、WiFi指纹，推着推着失效。</p>
+<p>华为通过推理加路网匹配实现精准定位。停好车后，华为手机负一屏弹出停车卡片，告知车位附近、楼层，可点击导航回电梯、原路返回车位。不依赖华为车，不需连接车载蓝牙，通过手机传感器感知用户离车打点。今年Mate 90支持地下车库数量增加，定位精度提升，弹卡及时。</p>
+<p>室内定位不准，且缺电梯、扶梯信息。华为通过大量手机实际采集蜂窝、WiFi、蓝牙指纹信号推理室内图，精准知道用户在哪层、哪个位置。已支持国内超过17000栋室内建筑，覆盖所有机场、高铁站、大部分商场。位置服务提供给大量三方应用，华为手机用户使用三方应用也能支持室内定位。</p>
+<p><img class="alignnone size-full wp-image-600881" src="https://oss.zhidx.com/d5b8355ea723201669ed7c311402b88c/6ad39b80/uploads/2026/10/6acf29c8dc6fd_6acf29c8d9a0a_6acf29c8d99de_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145528_1590_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>花瓣地图支持实时位置刷新、电梯扶梯与目的地指引，已支持260多个商场，未来持续增加，并与更多导航软件联调。</p>
+<p><img class="alignnone size-full wp-image-600882" src="https://oss.zhidx.com/4ec269a156dfeae5c7e4a0d44c0531ce/6ad39b80/uploads/2026/10/6acf29c9e1566_6acf29c9de697_6acf29c9de636_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145528_1591_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<h2>七、静谧通话：95dB降噪、声纹自注册与三振膜防漏音</h2>
+<p>通话声音从手机到基站、核心网交换机、再到另一手机，任何环节影响体验。吵闹地方能否让对方听清；对方吵闹且降噪差时，华为手机能否清楚听到对方；车内、电梯内听筒泄露要小。<span style="color: #0f59a4;"><strong>华为降噪最多可到95dB，覆盖KTV、音乐节等吵闹环境。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600883" src="https://oss.zhidx.com/17f33f7c6565b4f276facc62827080ca/6ad39b80/uploads/2026/10/6acf29cbdc161_6acf29cbd9211_6acf29cbd91d1_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145529_1592_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>人声降噪难，因人声特征相似，难识别本人声音并压制别人。华为用基于声能自注册方案，打电话前一秒瞬间抓取声纹特征，通话中持续加强，不需提前录制。可滤除环境噪音与周围人声干扰，更从容还原本人声音。</p>
+<p>对方手机降噪差、环境噪音大或免提时，只要用华为手机并打开降噪，同样可清晰听到对方人声。华为靠下行噪声生成式修复网络，不仅简单降噪，即使对方声音损伤，也能还原人声。</p>
+<p>华为做防漏音多年。今年新产品放三振膜发声单元：<span style="color: #0f59a4;"><strong>一个主振膜发送正常通话音，两个辅助振膜，用三步声音驱动分别推三路振膜，不同方向出声孔。</strong></span>朝用户耳朵方向精准还原声音；远离耳朵方向通过三振膜、三出声孔做相位抵消，压制泄漏。</p>
+<p>第一代Mate 60 Pro双声双磁方案压制约12cm，去年双振膜，今年三振膜基础上额外提升10dB高频抑制量。</p>
+<h2>八、华为悦彰：音频告别“玄学”，消除声场串扰+无线低时延，八十大类自适应调音</h2>
+<p>悦彰是华为音频高端品牌，目标真实、沉浸、澎湃。真实要求清晰、层次；沉浸要求重建声场、氛围；澎湃要求动态范围强。平板低频最难，因空间有限。<span style="color: #0f59a4;"><strong>涉及创新声学模组、精密声学算法、星闪无损低时延传输、人因研究、专业调音。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600884" src="https://oss.zhidx.com/43061dda098912858fcc61d929bc1fd9/6ad39b80/uploads/2026/10/6acf29cddc2b5_6acf29cdd9637_6acf29cdd9603_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145530_1593_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>MatePad Pro Max厚度仅4.7mm。超薄压缩空间，振膜首当其冲。华为创造性将振膜与扬声器单元分开，在不同空间错开放置。传统振膜压在磁铁与磁铁单元之上，震动受磁铁遮挡、壳体阻挡。</p>
+<p>华为将振膜和磁铁分开布局，用双单元推动，减少失真，整个厚度空间用于震动。振幅提升50%，驱动力提升56%，内部音箱容量大，低频相比上一代提升250%，响应提升133%，高频提升100%。</p>
+<p>平板左右扬声器离左右耳距离差小，难构建声场宽度。华为将无线领域串扰消除技术用于音频，左右侧6个扬声器协同，右侧扬声器传递到左耳的泄露通过左侧扬声器抵消，抑制左右耳串扰，营造身临其境。最佳声音距离约半米。低延时无线传输让平板与可立普耳夹产品实现环绕声，前置平板发声加两个耳夹半开放耳机配合，随时随地家庭影院声场。</p>
+<p>传统品牌音响适合某类音乐，属固定调教。不同乐曲频响要求不同。华为与国内海外音乐大师、高校合作，将音乐分约八十大类，产品根据不同风格自适应调教。悦彰覆盖鸿蒙智行车、耳机、平板、家庭影院产品。</p>
+<h2>九、麒麟9050系列：深度“拆解”韬定律、逻辑折叠与端侧AI</h2>
+<p>2020年前，旗舰麒麟从K3V2到麒麟9000，从市场新进入者做到全球领先。2020年后，因外部原因，先进工艺、封测、CPU、GPU等核心IP不再可获得，需重新构建。华为在新产业平台重建合作体系，2023年8月29日回归，消费者看到基于麒麟芯片的手机。</p>
+<p><img class="alignnone size-full wp-image-600887" src="https://oss.zhidx.com/6e38c3ef776648c6ae1a0cb74e6024b9/6ad39b80/uploads/2026/10/6acf29d2da3d9_6acf29d2d76f9_6acf29d2d76c0_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145533_1596_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p><span style="color: #0f59a4;"><strong>2023年以来，基于麒麟芯片手机累计发货过亿。</strong></span>麒麟9010、9020为架构大升级、工艺小升级。麒麟9030 Pro架构大升级，工艺较大提升，CPU性能提升25%，GPU提升40%，NPU算力提升70%。</p>
+<p>当前，全球半导体面临几何缩微挑战大、收益小。华为重新思考摩尔定律和电子系统本质，认为半导体演进不只是几何缩微，可以在时间维度带来更快晶体管、更高时钟频率。</p>
+<p>华为将创新焦点从几何缩微转移到时间缩微，应用于器件、电路、芯片、系统。2026年5月和9月发表两篇韬定律论文，引发学术界和产业界热议。<span style="color: #0f59a4;"><strong>韬定律核心：让数据少绕路，让计算不用等，花更少时间完成更多任务，通过降低时间常数持续提升性能能效。性能提升后可通过降压使用进一步降功耗。</strong></span></p>
+<p>徐松余提到，华为2020年跌入低谷后经历短暂不确定时期，但阶段很短，很快就确信能回来，更关键问题是回来后能走多远。2023年8月29日Mate 60上市，是最兴奋也最担心的时候。<span style="color: #0f59a4;"><strong>大量消费者无条件支持，让华为人很感动，也意识到有责任不辜负期待。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600902" src="https://oss.zhidx.com/995370c4445eccd6effc8af7b131e80b/6ad39b80/uploads/2026/10/6acf29eae87a0_6acf29eae567c_6acf29eae5634_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145545_1610_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>华为更早时已探索逻辑折叠，初期不确定，业界无人做过，无连接工具、流程、方法，能否有效提升性能能效、高良率规模量产都不确定。随着探索展开，每个阶段结果符合甚至超出预期，信心越来越强。</p>
+<p>现在麒麟已量产，未来有更多空间打开。作为从事规划多年的老兵，徐松余非常有信心、非常确定未来可持续演进。徐松余透露，<span style="color: #0f59a4;"><strong>“麒麟2027”他们已经拿到，并且测试指标全部符合预期。</strong></span></p>
+<p>具体到韬定律，逻辑折叠是韬定律最关键技术，今年在麒麟9050系列首次落地。逻辑折叠把电路折起来重新设计，按逻辑关系分层布局，通过高速通道连接。</p>
+<p><img class="alignnone size-full wp-image-600888" src="https://oss.zhidx.com/05061ab4fe1677f90a5c736b422a8fbd/6ad39b80/uploads/2026/10/6acf29d4d9563_6acf29d4d611a_6acf29d4d60e3_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145534_1597_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p><span style="color: #0f59a4;"><strong>麒麟9050 Pro高速通道数超过5000万个，传输信号超过500万个，这一技术称为混合键合。</strong></span>逻辑折叠带来：CPU主频提升12.7%，GPU性能提升40%，NPU算力提升140%，能效提升41%到66%不等。</p>
+<p>通讯处理器投影面积降低40%，提升性能并降低工作电压；时钟走线长度降低28%，降低功耗；上下层逻辑同一时钟域，时钟偏斜和深度降低，减少缓存器数量降功耗。</p>
+<p>有效逻辑折叠要求混合键合间距与下层顶层金属间距之比小于3。麒麟9050 Pro金属顶层间距720nm，混合键合间距必须小于2μm，实际做到1.5μm，2027年做到1μm，未来进一步演进。</p>
+<p><img class="alignnone size-full wp-image-600889" src="https://oss.zhidx.com/ef2b4086526ac42f1ff3ec3443da4acc/6ad39b80/uploads/2026/10/6acf29d6e18bb_6acf29d6de992_6acf29d6de966_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145534_1598_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1506" /></p>
+<p>间距之比达1:1后，关键路径缩短，性能能效提升，互联增加，更多逻辑和系统可拆解。<span style="color: #0f59a4;"><strong>韬定律论文提到未来几年CPU大核主频和晶体管密度持续提升。即使暂时失去几何缩微能力，仍可开启未来10年新征程。</strong></span></p>
+<p>麒麟970从2017年率先集成NPU，开启移动AI新时代。麒麟990首次支持Always-on，支持注视不灭屏、隔空手势；麒麟9000支持AI ISP，开启RAW域计算摄影；麒麟9030 Pro首次将7B大模型引入端侧。</p>
+<p><img class="alignnone size-full wp-image-600898" src="https://oss.zhidx.com/bd47a214238c1f570b3874eb263315d7/6ad39b80/uploads/2026/10/6acf29e3d905e_6acf29e3d5ff7_6acf29e3d5fcb_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145542_1606_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>今年是Agent元年，Agent与以往AI差别：以往被动执行，Agent主动协助用户，感知环境，完成多步任务闭环。<span style="color: #0f59a4;"><strong>华为在端侧构建大小脑架构：小脑感知用户状态、声音、图像、通讯连接；大脑完成任务闭环；高隐私、低时延任务端侧处理，复杂任务云侧大脑、超脑协同。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600891" src="https://oss.zhidx.com/6c36471ee4286dac88825784e1cdce7b/6ad39b80/uploads/2026/10/6acf29d9e11a0_6acf29d9de0d9_6acf29d9de088_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145536_1600_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>麒麟9050系列为端侧大小脑提供硬件底座。新一代达芬奇架构NPU性能提升140%，功耗降低66%，得益于逻辑折叠。灵犀微核支持多模态、低功耗环境感知。</p>
+<p><img class="alignnone size-full wp-image-600892" src="https://oss.zhidx.com/b57b34fd232f2dd2e8f1a9137484e0c5/6ad39b80/uploads/2026/10/6acf29dbd85cc_6acf29dbd571b_6acf29dbd56eb_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145537_1601_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>端侧30B大模型面临内存和功耗挑战。30B模型4比特量化需15G内存，现在内存贵，手机用不起；友商3B模型约2A功耗，超出手机解热上限。</p>
+<p><span style="color: #0f59a4;"><strong>麒麟9050 Pro支持多级存算协同，与模型算法团队联合设计MoE芯片亲和架构，硬件自动识别并加载需要参与计算的热Cache到DDR，不需要计算的放在Flash，节省内存。</strong></span>联合量化方案，加载性能提升25%，内存减少75%，用2.5GB内存使30B大模型终端运行。</p>
+<p><img class="alignnone size-full wp-image-600893" src="https://oss.zhidx.com/d7ae5a727279a773598f86422ab12a69/6ad39b80/uploads/2026/10/6acf29dcdecbb_6acf29dcdbc37_6acf29dcdbbed_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145538_1602_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>功耗方面，新一代NPU和逻辑折叠降66%，联合应用团队开发大模型场景自适应，按任务复杂程度加载不同规模参数，进一步节约场景功耗20%到50%。</p>
+<p>本地Agent图库整理根据意图分类建相册，背后30B MoE多步任务规划，旅行结束飞机上可整理。7B大模型小艺帮写帮助文本改写，麒麟9050 Pro首字性能提升180%，模型推理功耗下降29%。图库修图用6B修图模型加30B MoE高阶图像理解，智能推荐修图选项。</p>
+<p><img class="alignnone size-full wp-image-600895" src="https://oss.zhidx.com/42e21bece485439ea889d79d6c6e5f88/6ad39b80/uploads/2026/10/6acf29dde7fe5_6acf29dde513a_6acf29dde5049_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145539_1603_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>0.4B VLM模型低延迟低功耗运行，用于XMAGE智拍等。AI眼动翻页通过眼神操控。低功耗息屏导航首发骑行码表，连续导航超25小时。</p>
+<p><span style="color: #0f59a4;"><strong>李小龙特别提到，AI对华为产品已到非常重要、不可或缺的程度。</strong></span>影像、音频、色彩、定位中大量算法靠传统算法解决不了，AI介入后才完美解决。例如定位中传感器微小特征与车速关系，人类难以研究，AI训练可找出关系。<span style="color: #0f59a4;"><strong>AI已介入华为研发所有领域：软件、硬件、结构、材料。</strong></span></p>
+<p>AI对用户体验也重要。无论小艺还是华为手机、华为产品，用户使用AI次数、频率、时长越来越多，依赖越来越大。AI与手机结合越来越紧密。华为希望不同AI都能在华为设备运行更好。多数模型或AI厂家是华为算力客户。<span style="color: #0f59a4;"><strong>华为计算机群与手机SoC NPU同源，可共享共用大部分算子，模型厂家算法在端侧或云侧运行更好，切换成本更低。</strong></span></p>
+<p>新一代灵犀CPU支持SMT超线程，多核性能提升23%，支持FFTS函数流任务调度器，每秒50万次高并发调度，微秒级时延。9核16线程提供并发。鸿蒙并行化优化，单线程重载拆分多线程，轻载合并，线程总数从5000多降到1000多，Mate 90 Pro Max卡顿降低31%。</p>
+<p><img class="alignnone size-full wp-image-600897" src="https://oss.zhidx.com/eca3e71314c521615a26a3344bfd9ab3/6ad39b80/uploads/2026/10/6acf29e1dfc5d_6acf29e1dd00a_6acf29e1dcfcf_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145541_1605_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>内存压缩与方舟引擎协同，支持鸿蒙超空间压缩，高压缩率低功耗，提升后台保活体验。<span style="color: #0f59a4;"><strong>智能异构调度让不同任务运行在最适合硬件，部分CPU任务可转NPU。</strong></span></p>
+<p>马良GPU性能提升40%，功耗降低45%，光追性能提升78%。第四代GPU微架构，智能增强遮挡剔除、FCM智能调度、毕昇编译器，热门重载游戏流畅。第二代光追硬加速，几何加速、结构求交算法硬加速，光影真实流畅。X Engine集成AI超分，AI算法分布式部署NPU和GPU；HDR增强提取游戏材质光照特征，明暗对比清晰。</p>
+<p><img class="alignnone size-full wp-image-600896" src="https://oss.zhidx.com/54fea75ee4dc86cd92d43493d70db45b/6ad39b80/uploads/2026/10/6acf29dfd8d77_6acf29dfd615f_6acf29dfd612a_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145540_1604_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>屏幕控显分离结构用于折叠机，主画面纯净，副屏显示更多信息。马良API为GPU量身打造，高性能动效库为鸿蒙提供渲染支撑。</p>
+<p>新一代ISP集成像素专用NPU，构成双引擎架构。6年前麒麟9000率先将NPU引入视频拍摄处理增强，但独立模块交互多，高画质时延难满足。麒麟9050 Pro在全功能RAW域处理，结合NPU做构图、色彩、风格。双引擎处理时间缩小到16.7毫秒以内，满足4K60帧同时画质天花板。</p>
+<p>拍照方面，AI ISP提升像素吞吐率，两亿像素拍照同时融合更多50M信息，预览不卡顿。视频支持TCG像素级融合，将高动态CIS输出的三分一图像经过像素级AI ISP的处理，动态范围增强到18档EV，避免火焰烟花过曝。</p>
+<p>超清晰长焦架构，计算光学消像差畸变，AI降噪，AI细节增强。硬件级人像全家桶，实时肤色分割，复杂光源高保真肤色，个性化千人千面美肤美型。从镜头到显示端到端BT.2020广色域处理，拍照颜色与屏幕呈现更一致。</p>
+<p>新一代巴龙Modem架构，三大升级：新一代AI Modem通信架构、多系统协同架构、星地一体融合架构。围绕直播、高铁、多卡、卫星、无网场景，提供稳定、连续、安全通信，支持面向中国未来低轨宽带卫星能力。</p>
+<p><img class="alignnone size-full wp-image-600899" src="https://oss.zhidx.com/30faa85f2d4f662120f38af064aef05d/6ad39b80/uploads/2026/10/6acf29e5e2537_6acf29e5df626_6acf29e5df5f9_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145543_1607_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p><span style="color: #0f59a4;"><strong>AI架构从基于网络参数闭环控制转为基于用户体验闭环控制，感知场景，AI推理，调用策略。</strong></span>多系统协同架构整合蜂窝、WiFi、蓝牙、卫星、无网通信，天线互助分配射频资源，信号提升1到2dB。实验室模拟中等地级市网络，超1万基站、1万小区，外场测试170多个主要城市，每年几十万公里。</p>
+<p>地铁看抖音、直播，火车站游戏，演唱会发视频图片等场景提升。上行增强频率、空间、功率、波形。率先支持4卡3待。芯片级安全检测结合音频分析、AI融合推理，识别境外经国内服务器转打的诈骗电话。高铁专项测试全国11条干线、30多万公里，频点优选、网络驻留，应用与通信协同。WiFi7增强多链路单射频，微秒级切换，2×2发送；动态窄带技术降低带宽覆盖更远。</p>
+<p>安全方面，<span style="color: #0f59a4;"><strong>基于芯片实现后量子密码算法，业界首发通过后量子密码算法检测的移动终端SoC平台，</strong></span>用于启动链，未来用于网络和数据加密。</p>
+<p><img class="alignnone size-full wp-image-600900" src="https://oss.zhidx.com/723b27472688e4de764e72adbbdf9494/6ad39b80/uploads/2026/10/6acf29e7e2f30_6acf29e7df9a9_6acf29e7df970_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145544_1608_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>双芯安全架构：移动安全处理器加独立安全芯片，双重芯片级保障。超级隐私平台通过安全处理器直接控制摄像头、麦克风、位置，专用GPIO等，通过了CCRC EAL5+安全认证。</p>
+<p>新一代的DSP算力提升了30%，通过NPU高效并行运行，实现了微秒级的调度，满足低时延的要求，降噪效果更好。</p>
+<p><span style="color: #0f59a4;"><strong>生态方面，麒麟通过第三方Kit开放能力，自定义算子能力提升模型性能，</strong></span>比如与QQ音乐合作端侧实现音轨分离，支持QQ音乐全量曲库。</p>
+<p>开放量化好的端侧大模型，开发者调用优化模型提供低时延高可靠本地推理。与咪咕视频联合创新，直播离开后总结缺席赛事。昇腾端云一致NPU硬件、开发定义、开发栈，端云一致开发体验，云侧资产端侧复用。</p>
+<p>CPU差异化能力通过Linx Kit开放，热点加速、二进制优化、场景感知、低功耗机制、内存管理，游戏等场景能效最高提升15%，《鸣潮》《异环》例子提升8.6%。</p>
+<p><img class="alignnone size-full wp-image-600901" src="https://oss.zhidx.com/176827fc8421f15801aafa89d7ef53dd/6ad39b80/uploads/2026/10/6acf29e9d7dd9_6acf29e9d4e95_6acf29e9d4e5d_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145545_1609_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<p>3D高斯引入端侧重建，支持小物体本地创建。FFTS并行化、异构调度开放给伙伴，统一调度多核多IP，常用应用卡顿下降5%到10%。通过Kit优化视频类应用、直播、畅聊，画质清晰、色彩真实、连接稳定、功耗低。</p>
+<p>徐松余特别提到，<span style="color: #0f59a4;"><strong>麒麟9050系列作为韬定律首颗逻辑折叠芯片，在中国半导体产业界支持下量产。未来在工具链、仿真优化、能耗控制、基本测试等方面仍需产业界和学术界合作。未来属于开放合作，没有一家企业可独自解答所有答案。基于韬定律，麒麟9050系列开启未来十年新征程。</strong></span></p>
+<p><img class="alignnone size-full wp-image-600903" src="https://oss.zhidx.com/58f2b714e394b6aa341bc44629dd5757/6ad39b80/uploads/2026/10/6acf29ecd84ad_6acf29ecd524c_6acf29ecd521d_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261014145546_1611_44.jpg" alt="万字深度解密：华为麒麟2026韬定律大量技术细节首披露" width="2000" height="1500" /></p>
+<h2>结语：王者归来，技术仍然是华为最硬底牌</h2>
+<p>从9大技术品牌到麒麟9050系列，我们看到华为的技术路径呈现出几个共同特征：</p>
+<p><span style="color: #0f59a4;"><strong>第一，围绕用户真实痛点，而非单纯参数竞争；</strong></span></p>
+<p><span style="color: #0f59a4;"><strong>第二，在受限条件下通过系统级创新、垂直整合和底层自研突破瓶颈；</strong></span></p>
+<p><span style="color: #0f59a4;"><strong>第三，芯片、软件、硬件、OS、算法、整机、生态必须协同，单点芯片无法完成完整体验；</strong></span></p>
+<p><span style="color: #0f59a4;"><strong>第四，开放合作仍是半导体和电子产业持续发展的必要条件。</strong></span></p>
+<p>无论是睿影Z10模块相机、昆仑玻璃、天工铰链、灵盾防窥、灵珑屏、星迹定位、静谧通话、华为悦彰，还是麒麟9050系列的韬定律与逻辑折叠，华为均在现实约束下，以用户体验为核心，重构了产品与技术能力，在面向未来的持续迭代演进中，技术仍然是华为最硬王牌。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/600839.html</link>
+<pubDate>Thu, 15 Oct 2026 20:47:41 +0800</pubDate>
+<source>智东西</source>
+<author>云鹏</author>
+</item>
+<item><title><![CDATA[库克再现上海：国行苹果智能10月底见！阿里千问也稳了]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/fbfaac93860c4ff64012541288b321c2/6ad39b80/uploads/2026/10/6ad09c5682710_6ad09c567f77c_6ad09c567f74a_123.png"><strong>智东西</strong><br />
+<strong>作者 |  程茜<br />
+</strong><strong>编辑 |  李水青</strong></p>
+<p>苹果智能国行版真的要来了！</p>
+<p class="p2">智东西10月15日消息，今天，苹果董事会执行主席蒂姆·库克（Tim Cook）确认，<span style="color: #0f59a4;"><strong>苹果智能将于10月底在国内发布测试版本</strong></span>。</p>
+<p class="p2">今日下午，库克在上海走访期间，接受界面新闻、澎湃新闻等媒体采访时透露，<strong><span style="color: #0f59a4;">苹果智能及相关阿里千问大模型确已获得批准</span></strong>，将在10月底发布测试版本，其中包含<strong><span style="color: #0f59a4;">实时翻译、书写工具、照片清除工具</span></strong>等首批苹果智能功能，但是Siri AI这次不包括在内。</p>
+<p class="p2">库克称，他们很高兴，首批核心的苹果智能功能可以慢慢上线了。</p>
+<p class="p2">而关于苹果智能国行正式版的时间表，另有消息传出。今日早些时候，彭博社知名记者马克·古尔曼（Mark Gurman）爆料，苹果智能的正式版预计将于<strong><span style="color: #0f59a4;">12月随iOS 27.3</span></strong>一起在中国发布。此次更新将不包含全新的Siri AI、图像游乐场和最新Genmoji功能，文本生成工具的功能也将受到限制。</p>
+<p class="p2">根据工信部电信设备进网许可信息显示，苹果折叠屏iPhone Duo已经于9月29日完成换证，增加搭载的大模型备案编号。该设备曾于9月2日发布试用证。</p>
+<p class="p2">证书显示，该设备搭载的大模型备案编号为Shanghai-AppleZhiNeng-202506160057、 Shanghai-TongYiWanXiang-202410090024、ZheJiang-TongYiQianWen-20230901，对应的是苹果智能、通义万相、通义千问。</p>
+<p><img class="alignnone wp-image-601362 size-full" src="https://oss.zhidx.com/a185494c6f3b93c437d6ac272b3e6cc6/6ad39b80/uploads/2026/10/6ad09b4d2bdad_6ad09b4d28c69_6ad09b4d28c33_ScreenShot_2026-10-15_170857_185.png" alt="库克再现上海：国行苹果智能10月底见！阿里千问也稳了" width="2090" height="1302" /></p>
+<p class="p2">再往前追溯，今年7月15日，中国国家互联网信息办公室发布公告，苹果旗下模型苹果智能已于7月8日通过生成式AI服务备案。这意味着其可以正式在国行终端搭载相应大模型，推进AI手机、端侧智能体等落地。</p>
+<p><img class="alignnone wp-image-601363 size-full" src="https://oss.zhidx.com/fa348f084fb9efc27bf73bd3c9768b10/6ad39b80/uploads/2026/10/6ad09b729640a_6ad09b72931da_6ad09b7293197_ScreenShot_2026-10-15_172245_470.png" alt="库克再现上海：国行苹果智能10月底见！阿里千问也稳了" width="1278" height="1186" /></p>
+<p class="p2">2024年苹果公司首次在iOS 18.1中引入苹果智能功能，但一直与国内用户无缘。时隔两年，库克确认苹果智能部分功能将在国内落地，这也意味着苹果正式入局国内AI手机战场。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601361.html</link>
+<pubDate>Thu, 15 Oct 2026 19:40:40 +0800</pubDate>
+<source>智东西</source>
+<author>程茜</author>
+</item>
+<item><title><![CDATA[剑指博通，这家国产互连芯片公司藏不住了]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/59a9197106df907c436edce84009d843/6ad39b80/uploads/2026/10/6ad0b896ce472_6ad0b896cb374_6ad0b896cb343_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-10-15_170845_460.jpg"><strong>智东西</strong><br />
+<strong>作者 | 陈骏达</strong><br />
+<strong>编辑 | 漠影</strong></p>
+<p>AI算力的竞争，不只发生在芯片内部，也发生在芯片与芯片之间。</p>
+<p>一颗芯片的峰值算力再高，也不意味着数百颗、数千颗芯片组成的集群就能发挥出相应的性能。数据能否高速传输，计算、存储与网络能否高效协同，都会影响整套系统的实际表现。</p>
+<p>随着AI集群规模愈发庞大，互连已不再只是连接硬件的配套环节，而是决定算力能否充分释放的重要一环。面临这一挑战，国产互连厂商究竟应该如何破局？</p>
+<p><img class="aligncenter size-full wp-image-601318" src="https://oss.zhidx.com/e72ad38ab46aaff2f9f2ace7aa838c74/6ad39b80/uploads/2026/10/6ad0852604c66_6ad0852601a17_6ad08526019e3_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015154633_81_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4096" height="1992" /></p>
+<p>今天，在国产互连芯片赛道深耕6年、相对低调的<span style="color: #0f59a4;"><strong>无锡厂商众星微</strong></span>，在品牌及全栈产品发布会上<span style="color: #0f59a4;"><strong>首次集中展示其全场景高性能互连芯片平台</strong></span>。该平台围绕通用计算互连与智能计算互连展开布局，覆盖存储、网络、IO扩展及AI集群互连等多个关键场景。</p>
+<p>目前，众星微的产品<strong><span style="color: #0f59a4;">累计出货量超80万颗</span></strong>，已进入浪潮、联想、新华三、中兴通讯等企业的产品与解决方案中。发布会现场，众星微还与麒麟、统信、腾讯云、浪潮、新华三、中兴、联想七家产业伙伴战略签约，携手推动互连芯片与操作系统、整机平台协同适配，共同加快国产高性能互连方案落地。</p>
+<p><img class="aligncenter size-full wp-image-601466" src="https://oss.zhidx.com/10d32bacd06f1d3bf657f293d90c0edb/6ad39b80/uploads/2026/10/6ad0b8868dc86_6ad0b8868adc4_6ad0b8868ad96_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015175328_81_615.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="1998" height="1332" /></p>
+<p>在海外厂商长期占据优势的高端互连市场，这家国产厂商凭什么获得头部客户认可？</p>
+<p>作为国内少数具备从核心IP、芯片研发到软硬件及系统适配全栈布局的互连芯片企业之一，众星微的发展，也为观察国产厂商如何突破海外企业在高端互连市场的优势，提供了一个值得关注的样本。</p>
+<h2><strong>一、算力系统选型，不能只看单点性能</strong></h2>
+<p>对于算力基础设施建设者而言，选购互连芯片并不是简单地比较带宽、时延等参数，而是要判断产品能否满足实际业务需求，并在复杂系统中稳定运行。</p>
+<p>在AI集群中，算力硬件负责执行计算任务，但训练和推理过程中产生的数据，需要在计算设备、存储系统和网络之间不断流动。如果互连带宽不足、传输时延过高，或者多个设备之间的通信效率不够理想，就可能导致计算资源等待数据，影响硬件的利用效率。</p>
+<p><strong><span style="color: #0f59a4;">众星微将集群有效算力概括为单点算力×规模×互连效率。</span></strong>这一公式从集群整体出发，呈现了算力基础设施的多重性能影响因素，也为企业评估互连方案提供了一个参考视角。</p>
+<p><img class="aligncenter size-full wp-image-601317" src="https://oss.zhidx.com/0ac51a64e1ccc0033d0b72ef522ab4a0/6ad39b80/uploads/2026/10/6ad08501253a6_6ad085012250e_6ad08501224cd_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015154636_82_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4096" height="2137" /></p>
+<p>不同应用场景对互连产品的要求也各有侧重。在AI集群中，设备间的通信效率直接关系到大规模计算任务的执行；在云计算和存储系统中，网络吞吐量、IO性能与响应时延则分别影响数据传输、存储访问和业务处理效率。场景不同，企业选型时关注的性能指标也会有所区别，但最终都需要将产品放到实际系统中进行综合评估。</p>
+<p>性能指标之外，还有三项因素影响着互连产品能否真正进入企业级应用。</p>
+<p><strong><span style="color: #0f59a4;">首先是运行可靠性。</span></strong>对于企业级算力基础设施而言，芯片在实验室中达到性能指标，只是满足需求的第一步。面对复杂负载和长时间运行，产品能否保持稳定、保障数据传输，同样是客户选型时的重要考量。</p>
+<p><strong><span style="color: #0f59a4;">其次是兼容适配能力。</span></strong>互连芯片不仅要满足相应的接口和协议要求，还需要与不同CPU平台、操作系统、硬盘、光模块、通信库及整机架构协同工作。适配范围越广、验证越充分，客户将产品集成到现有系统中的难度就越低。</p>
+<p><strong><span style="color: #0f59a4;">第三是量产成熟度与持续交付能力。</span></strong>对于服务器整机厂商和基础设施建设者来说，芯片完成设计和点亮，并不意味着已经具备规模应用条件。能否稳定量产、持续供货，并提供后续技术支持与产品迭代，关系到客户能否持续部署和升级系统。</p>
+<p>由此来看，高性能互连芯片的竞争，既涉及芯片本身的性能，也涉及产品在真实系统中的可靠性、适配效率与持续供货能力。对于客户而言，最终需要评估的不是某一项参数是否领先，而是整套互连方案能否满足业务需求，并支撑系统长期运行。</p>
+<h2><strong>二、从单点产品到全场景供给，众星微如何回应不同需求？</strong></h2>
+<p>要回应算力系统在性能、可靠性、兼容适配与持续交付等方面的需求，互连芯片厂商需要具备覆盖不同应用场景的产品能力。</p>
+<p>众星微将产品布局划分为<strong><span style="color: #0f59a4;">通用计算互连与智能计算互连</span></strong>两大方向：前者覆盖服务器和存储系统中的存储、网络及IO扩展需求，后者则面向新一代AI基础设施，布局高速PCIe交换、InfiniBand网络及多协议AI网卡等产品。从基础互连到AI集群高速互连，众星微已经推出了12款量产产品，覆盖算力系统不同层级的数据传输需求。</p>
+<p><img class="aligncenter size-full wp-image-601321" src="https://oss.zhidx.com/7a6c7baa6e0477c81f2e336fce85e013/6ad39b80/uploads/2026/10/6ad086f345eb4_6ad086f3433a7_6ad086f343369_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015155504_85_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4096" height="2461" /></p>
+<p>在通用计算场景中，众星微已经围绕存储、网络和IO扩展打造了<strong><span style="color: #0f59a4;">HBA卡、RAID卡、RoCE网卡及PCIe交换芯片</span></strong>等产品。其中，HBA卡主要面向主机与存储设备之间的连接需求，RAID卡则涉及存储组织、IO处理和数据保护等环节。</p>
+<p>发布会上，众星微披露，其RAID产品采用自研芯片与固件，通过数据算法、智能IO中断聚合等策略进行协同优化，面向数据库、高冗余存储等应用场景。这款产品的读取性能与国际头部互连厂商博通的方案持平，在16盘RAID5配置、256KiB顺序写测试中，<strong><span style="color: #0f59a4;">其写入带宽实现了最高47%的性能优势。</span></strong></p>
+<p><img class="aligncenter size-full wp-image-601323" src="https://oss.zhidx.com/f1ab951729dbaa1157c87a9485ebfc90/6ad39b80/uploads/2026/10/6ad088edafbff_6ad088edacfbb_6ad088edacf89_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015160302_88_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4096" height="2158" /></p>
+<p>其多模RAID芯片的性能参数也在发布会上披露：数据传输带宽和IOPS均提升至上一代产品的8倍左右，是海外先进产品性能的2倍左右。</p>
+<p><img class="aligncenter size-full wp-image-601330" src="https://oss.zhidx.com/cceaba46b8e02c8389c99817586c6de7/6ad39b80/uploads/2026/10/6ad08acfeb4e8_6ad08acfe0296_6ad08acfe0267_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015161121_93_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4071" height="1933" /></p>
+<p>网络方面，众星微已推出了从10G、25G、100G网卡，面向高吞吐、低时延及RDMA网络需求。</p>
+<p>在IO扩展方面，众星微的PCIe交换芯片采用自研CrossBar架构，支持无阻塞交换，并适配NCCL、RCCL、MCCL、ECCL等通信库，<strong><span style="color: #0f59a4;">实测性能可以平替博通的PEX89104芯片。</span></strong></p>
+<p>这些产品分别对应存储访问、网络传输和设备扩展等需求，共同构成众星微在通用计算互连领域的产品组合。</p>
+<p>在智算互连领域，众星微已布局<strong><span style="color: #0f59a4;">PCIe交换芯片、400G IB网卡与IB交换芯片</span></strong>等产品。其中，PCIe交换芯片用于扩展多GPU之间的连接与数据交换能力，400G IB网卡与IB交换芯片则面向高带宽、低时延的集群网络。此次发布会上，众星微进一步推出PCIe 6.0 Switch和800G多协议AI NIC，将产品布局延伸至更高带宽的设备互连与网络通信场景。</p>
+<p>众星微此次发布的C82-4G芯片是<strong><span style="color: #0f59a4;">首颗国产PCIe 6.0 Switch</span></strong>。该产品最多支持144 Lane PCIe 6.0，单Lane传输速率达到64 GT/s，较PCIe 5.0翻倍。</p>
+<p><img class="aligncenter size-full wp-image-601333" src="https://oss.zhidx.com/149d4b1f8a8de517596b757a5fe3d497/6ad39b80/uploads/2026/10/6ad08bb8453af_6ad08bb84211b_6ad08bb8420cb_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015161032_92_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4082" height="2101" /></p>
+<p>随着AI服务器中GPU等计算设备数量增加，系统不仅需要更高带宽的设备连接，也需要更灵活的互连架构。C82-4G在提升单Lane带宽的同时，还支持通过Fabric组网和CXL内存池化能力，为多GPU扩展及更复杂的算力系统架构提供支持。</p>
+<p><strong><span style="color: #0f59a4;">另一款重点新品是800G多协议AI NIC，同样也是国产首颗。</span></strong>该产品集成48 Lane PCIe Gen6 Switch，深度适配下一代AI服务器、超节点，支持增强型RoCE v2、IB协议卸载，并具备硬件级逐包喷洒、乱序重组、选择性重传和可编程拥塞控制等能力。</p>
+<p><img class="aligncenter size-full wp-image-601465" src="https://oss.zhidx.com/90bec2b2bbdc03e4b21915462d5ef228/6ad39b80/uploads/2026/10/6ad0b853a95ac_6ad0b853a65a5_6ad0b853a656f_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015163749_96_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4096" height="2129" /></p>
+<p>与既有的400G IB网卡和IB交换芯片相比，这款新品进一步将网络带宽提升至800G，同时支持IB和RoCE双模式，并可以将PCIe交换能力集成其中，面向下一代超节点对高带宽、低时延通信的需求。</p>
+<p>从通用计算到智能计算，不同场景对互连性能、协议和系统架构有着不同要求。对整机厂商而言，如何让存储、网络与计算设备高效协同，同时满足不同客户的硬件配置和部署需求，是系统设计中的重要课题。众星微覆盖多个互连环节的产品，也为整机设计和系统集成提供了更多选择。</p>
+<p>对于云计算和AI基础设施客户而言，这意味着可以结合自身的算力规模、系统架构和业务需求，选择更匹配的互连方案，在满足当前部署需求的同时，为后续扩容和架构升级预留空间。</p>
+<h2><strong>三、一年出货超40万颗芯片，核心IP实现自主可控</strong></h2>
+<p>从已有产品的规模化出货到新一代高带宽芯片的布局，众星微正在不断拓展自身的产品边界。支撑这套布局的，不仅是持续的研发投入，还有经过市场检验的产品、规模化交付经验，以及面向不同软硬件平台的生态适配能力。</p>
+<p>此前，众星微在行业中一直相对低调。实际上，众星微已建立起规模较大的研发体系，拥有1000余名研发人员，技术人员占比超过90%。在无锡、天津、合肥、长沙、成都、深圳、西安等地设有8个研发中心。</p>
+<p><img class="aligncenter size-full wp-image-601319" src="https://oss.zhidx.com/a10ef0ec83dd9c966f844dcdae80e188/6ad39b80/uploads/2026/10/6ad08589e522f_6ad08589e0cc9_6ad08589e0c9d_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015154858_83_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4096" height="2192" /></p>
+<p>技术研发上，众星微<strong><span style="color: #0f59a4;">坚持核心IP与架构自研</span></strong>，围绕高速接口、低时延转发架构、高速SerDes等关键技术持续投入，不断推动产品迭代。</p>
+<p><img class="aligncenter size-full wp-image-601331" src="https://oss.zhidx.com/02f3f9a724cb4e00acf6edb6b53e8d22/6ad39b80/uploads/2026/10/6ad08b5f6c0ce_6ad08b5f690e1_6ad08b5f690b4_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015161332_94_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4096" height="2078" /></p>
+<p>在可靠性方面，众星微构建了覆盖全链路的RAS机制，并通过端到端数据保护、冗余设计和故障自动倒换等技术，提升产品的稳定性与可靠性。同时，其产品采用国产工艺制造，从核心IP、芯片架构到供应链，已形成自主可控的技术体系。</p>
+<p>面向下一代算力基础设施建设，众星微还布局了光互连、高速SerDes和存储池化等关键技术，推动国产高性能互连向更高带宽、更低时延方向演进。</p>
+<p>不过，技术积累能否转化为市场竞争力，还要看产品能否经受规模化应用的检验。众星微披露的数据显示，<strong><span style="color: #0f59a4;">2025年其全产品累计出货量超过40万颗，销售额超过10亿元。</span></strong>自成立以来，其全产品累计发货量已<strong><span style="color: #0f59a4;">超过80万颗</span></strong>，其中网卡超过10万片、存储卡超过40万片、Switch芯片超过30万颗。</p>
+<p><img class="aligncenter size-full wp-image-601332" src="https://oss.zhidx.com/8a200a4f4553ce453a51aa4134cc6a18/6ad39b80/uploads/2026/10/6ad08b95ea947_6ad08b95e6d36_6ad08b95e6cfe_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015161011_91_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4096" height="1895" /></p>
+<p>在行业应用中，众星微的HBA和网卡产品已在运营商相关业务中规模部署近10万片，并在相关网络云场景稳定运行18个月以上；基于RAID产品实现的存储架构能够满足金融行业微秒级延迟、百万级IOPS并发处理能力， 凭借全栈国产化优势，已规模化部署5万余片。</p>
+<p><img class="aligncenter size-full wp-image-601336" src="https://oss.zhidx.com/d4f43d92653ec5d128d9a4204ea91960/6ad39b80/uploads/2026/10/6ad08c208c8c8_6ad08c208976b_6ad08c208973c_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015161718_95_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4092" height="2096" /></p>
+<p>众星微透露，其芯片产品的DPPM（每百万颗缺陷数）低于100，即每100万颗芯片中退货数量不足100颗。对这些芯片进行分析后，他们发现，所有问题均非芯片本身所致。</p>
+<p><img class="aligncenter size-full wp-image-601324" src="https://oss.zhidx.com/46e3295b568ceee6cbe5eac14d4c992d/6ad39b80/uploads/2026/10/6ad0895daf362_6ad0895dac3bf_6ad0895dac38c_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20261015160256_87_5.jpg" alt="剑指博通，这家国产互连芯片公司藏不住了" width="4096" height="2037" /></p>
+<p>与此同时，互连芯片需要与服务器、CPU、操作系统及存储、网络等配套组件协同工作，平台兼容性和生态适配能力同样影响产品的部署效率。众星微目前已经完成<span style="color: #0f59a4;"><strong>七大主流CPU平台适配，并与15+主流算力芯片、15+主流云平台、50余个操作系统伙伴、超300家硬盘及光模块伙伴</strong></span>展开合作，建立了覆盖多类软硬件环节的生态合作网络。</p>
+<p>对于国产高性能互连芯片行业而言，核心技术自主可控是基础，规模化出货、稳定运行和复杂软硬件环境下的兼容适配，则决定着产品能否真正进入算力基础设施。</p>
+<p>众星微已形成覆盖自主研发、可靠性设计、规模化交付和生态适配的完整能力体系，既能提供自主可控的互连芯片产品，也有规模出货和实际部署经验作为支撑。在国内能够同时具备上述能力的厂商并不多见，这也构成了众星微在国产高性能互连芯片市场中的差异化优势。</p>
+<h2><strong>结语：国产互连芯片，能否走出一个“中国博通”？</strong></h2>
+<p>放眼全球，博通等全球头部互连厂商的竞争力，不仅来自单款芯片，更来自长期积累的产品体系、技术能力与客户生态。对众星微而言，要成为中国算力产业链中具有代表性的高性能互连厂商，仍需要在更先进的产品迭代、复杂场景验证和大规模商业应用中持续接受检验。</p>
+<p>但从全栈布局到规模交付，众星微已经展现出向这一方向发展的基础与潜力。国产互连芯片能否成长出一家具有博通式综合竞争力的企业，也将成为中国算力产业链自主化进程中值得关注的看点。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601291.html</link>
+<pubDate>Thu, 15 Oct 2026 19:40:19 +0800</pubDate>
+<source>智东西</source>
+<author>陈 骏达</author>
+</item>
+<item><title><![CDATA[京东双11 AI覆盖3000多场景，购物决策Agent落地，9万商家数字人直播]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/7c2b77761f763bccf7c22a92e9063108/6ad39b80/uploads/2026/10/6ad1dc7fa5650_6ad1dc7fa28c0_6ad1dc7fa2896_%E4%BA%AC%E4%B8%9C%E5%A4%B4%E5%9B%BE.png"><strong>智东西</strong><br />
+<strong> 编译 | 栗子</strong><br />
+<strong> 编辑 | 云鹏</strong></p>
+<p>智东西10月16日报道，昨日，京东在北京举行2026年京东11.11“又好又便宜”发布会。京东零售平台营销中心平台运营部负责人Eric、京东零售内容生态部负责人Tim Song、京东服务负责人吴可人、政务企业负责人李永明高管发表演讲，系统解读了京东商品供应链与服务供应链的核心优势。</p>
+<p>其中，AI在消费者体验、商家经营和物流基础设施中继续承担效率角色，覆盖零售、物流、健康、工业、外卖、家政等3000多个场景。</p>
+<p>但与往年不同，今年京东将“好服务”的保障重心落在“人”上——首次系统披露了全球规模最大的蓝领培训体系，承诺用专业、众多的一线服务者团队来实现“好服务有保障”。</p>
+<h2>一、AI焕新体验：覆盖3000多个场景，从消费者到商家全链路渗透</h2>
+<p>今年京东11.11，AI已成为焕新消费体验的关键力量。京东依托独特的商业模式和供应链能力，其AI能力已覆盖零售、物流、健康、工业、外卖、家政等3000多个场景，并全力打造AI应用最深、场景覆盖最广的一届11.11。</p>
+<p>在面向消费者方面，京东APP 16.0已全新升级AI购物助手“东东”，能为用户提供更精准的购物决策建议。JoyAI App推出首个能实时视频购物的AI数字人，让用户在通话中就能直接下单，还支持点外卖、订酒店等多元服务。</p>
+<p>在助力合作伙伴经营方面，京东京麦AI经营中心面向商家开放数十款核心AI工具，覆盖选品、发品、运营、设计、履约、售后完整经营链路。京东数字人JoyAvatar以全天候在线直播，在今年11.11期间成为超9万商家的内容生态常态化服务引擎。此外，京东百灵数字员工全新推出营销数字员工，帮助商家自主生成营销策略并一键执行。</p>
+<p>在物流基础设施方面，全新升级的“超脑”大模型3.0以及六大“狼族”新产品在今年京东11.11全面应用。其中，“超脑”3.0在快递线路包裹量的预测准确率已突破94.2%，AI推荐的快递配送最优路径采纳率突破90.2%。而“智狼”货到人机器人应用规模全球最大；“异狼”具身智能灵巧臂已实现包裹全链路跟踪准确率达99.9%；“独狼”无人车领先的L4端到端智驾方案已在全国多地规模化部署。</p>
+<h2>二、生产性服务：覆盖超1000万家企业，年服务规模超3000亿元</h2>
+<p>政务企业负责人李永明介绍了京东在生产性服务领域的布局。他表示，京东以20余年积累的供应链为基础，以自研AI技术为核心支撑，打造了5大类、超200项生产性服务，覆盖企业研发、生产、经营、销售等全链路。</p>
+<p>目前，京东体系生产性服务规模已超3000亿元，服务企业客户超1000万家，覆盖91%在华世界500强、98%中国民营企业500强及70%专精特新企业。京东正向全国最大的现代生产性服务企业迈进。</p>
+<p><img class="alignnone size-medium wp-image-601391" src="https://oss.zhidx.com/82521813b9b8d3b6339b150e6d79b871/6ad39b80/uploads/2026/10/6ad0a3217f042_6ad0a321770cf_6ad0a32177093_%E7%94%9F%E4%BA%A7%E6%80%A7%E6%9C%8D%E5%8A%A1.png?x-oss-process=image/resize,m_fill,w_600,h_211" alt="京东双11 AI覆盖3000多场景，购物决策Agent落地，9万商家数字人直播" width="600" height="211" /></p>
+<p>▲京东：向全国最大的现代生产性服务企业迈进</p>
+<h2>三、好服务有保障：全球最大蓝领培训体系，让“确定性服务”有“人”兜底</h2>
+<p>“从确定性的商品到确定性的服务。”京东服务负责人吴可人以“以信任，重塑服务”为主题，系统讲述了京东服务供应链的战略布局。他指出，京东服务聚焦三大场景——居家、大出行、健康，覆盖家政保洁、维修、护士到家、养车、宠物等全品类。</p>
+<p>针对服务行业长期存在的隐形收费活价格不透明、标准或质量得不到保障、服务售后缺失这三大痛点，京东发布了“333计划”：针对三大痛点，向消费者承诺：“向不透明、不规范、不负责说不”。同时，他还强调京东的目标是用专业的服务和技术，“让日常生活中的不确定性变得确定”。</p>
+<p>如何让日常生活中的不确定变得确定——是京东对“人”的强调。</p>
+<p>吴可人明确表示：“京东最大的底气，是专业可信赖、持续成长的一线服务者团队。”他披露，京东已建成全球规模最大的蓝领培训体系，已累计培养超百万蓝领人员，未来3年还将再培养百万人。这不仅为消费者提供专业的、有售后保障的服务团队，还为一线服务者提供高于行业标准的职业技能培训和清晰的成长路径。</p>
+<p>在发布会现场的最后，多位一线服务者代表亮相，如50岁的孙一龙跑了十几年快递成功转行为机器人维修师；05后客服闫家诚为大家提供专业的宠物喂养咨询……这些一线员工背后，是京东遍布全国的数十万服务者队伍。</p>
+<p><img class="alignnone wp-image-601387" src="https://oss.zhidx.com/6471e4016135c5dda4c088cc9b8a7c64/6ad39b80/uploads/2026/10/6ad0a19764180_6ad0a197614ff_6ad0a197614ce_%E4%B8%80%E7%BA%BF.png?x-oss-process=image/resize,m_fill,w_516,h_300" alt="京东双11 AI覆盖3000多场景，购物决策Agent落地，9万商家数字人直播" width="1000" height="582" />▲京东一线服务者代表亮相</p>
+<h2>四、低价有来源：现货开卖、官方直降，首日下单用户数同比双位数增长</h2>
+<p>“现货开卖不用等，官方直降真便宜。”京东零售平台营销中心平台运营部负责人Eric在发布会上明确了今年11.11的低价逻辑——不是靠复杂的满减套路，而是用供应链效率把价格直接打下来。</p>
+<p>今年京东11.11于10月12日晚8点全面开启，首日下单用户数实现同比双位数增长。</p>
+<p><img class="alignnone wp-image-601758" src="https://oss.zhidx.com/538beafa3f7c05aaa6a556740302360f/6ad39b80/uploads/2026/10/6ad1dd145c670_6ad1dd1459968_6ad1dd1459924_%E5%8F%8C%E5%8D%81%E4%B8%80.png?x-oss-process=image/resize,m_fill,w_525,h_300" alt="京东双11 AI覆盖3000多场景，购物决策Agent落地，9万商家数字人直播" width="1000" height="572" /></p>
+<p>▲京东双十一火热进行中</p>
+<p>Eric介绍，在补贴层面，京东推出“超级补贴”低至5折、国补至高享8折，全品类下单直接抵扣。今年京东11.11还首次打通全品类推出“多买多返”——没有复杂套路，买得越多、返得越多。</p>
+<h2>结语：低价靠效率，好服务靠“人”</h2>
+<p>京东11.11今年给出的“又好又便宜”答案，比往年更“重”。低价的一端，是现货开卖、官方直降、超级补贴，靠的是商品供应链的效率；好服务的一端，靠的是专业、可成长的一线服务者团队。</p>
+<p>同时，AI在消费者体验、商家经营和生产采购中继续承担效率角色。但在消费者最直接感知的生活服务场景里，京东选择了一条更“重”的路——用专业的人，做确定的事。</p>
+<p>这背后其实是京东的一个判断：在存量竞争博弈阶段，价格可以被模仿，补贴可以被跟进，但一支经过系统培训、覆盖全品类、且持续成长的专业服务者队伍，很难被短期复制。</p>
+<p>当“便宜”和“好”同时被要求可验证、可量化时，京东把筹码押在了“人”的壁垒上。这条路可能更慢，也更难走，但它或许正是“好服务有保障”最扎实的注脚。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601377.html</link>
+<pubDate>Thu, 15 Oct 2026 18:03:51 +0800</pubDate>
+<source>智东西</source>
+<author>栗子</author>
+</item>
+<item><title><![CDATA[星巴克在用的“AI工作群”，累计融资近3亿元]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/44d4bfae08857c795e1bfd59cd46f483/6ad39b80/uploads/2026/10/6ad0e852372c4_6ad0e852345c4_6ad0e85234596_3.png"></p>
+<div class="ace-line ace-line old-record-id-doxcnJ2H76KWtJYRuZroyTZWTtc">
+<p><strong>智东西</strong><br />
+<strong>编译 |  黄菲</strong><br />
+<strong>编辑 |  江宇</strong></p>
+<p>智东西10月15日消息，据TechCrunch报道，昨日，以色列AI职场协作软件公司Zenzap累计融资4400万美元（约合人民币2.96亿元）。这笔融资由贝塞默风险投资公司（Bessemer Venture Partners）、光速创投（Lightspeed Venture Partners）和The Garage等机构参与，Wix总裁尼尔·佐哈尔（Nir Zohar）、前安永以色列成员所管理合伙人约拉姆·蒂茨（Yoram Tietz）等个人投资者也参与其中。</p>
+<p>据CTech于昨日的报道，Zenzap此前融资包括2022年完成的1100万美元（约合人民币7400万元）种子轮融资，以及2025年8月完成的3300万美元（约合人民币2.22亿元）A轮融资。</p>
+<p>Zenzap希望解决的是一个常见的职场问题：WhatsApp等个人聊天工具难以满足企业的IT合规与数据安全要求，更无法直接叠加AI Agent来处理工作信息。</p>
+<p>Zenzap希望在解决上述问题的同时，做一个面向适合酒店、建筑、医疗和快餐等行业的一线员工的AI聊天应用，从而将AI助手、任务管理和工作流自动化整合到日常的沟通中。</p>
+
+<h2><strong>一、累计融资2.96亿元，贝塞默与光速联合领投A轮</strong></h2>
+<p>从融资经历上看，Zenzap的累计融资分为两个阶段。据TechCrunch报道，该公司在2022年完成了这笔种子轮融资，但该公司并未披露该轮融资的具体投资方。但对于2025年8月的A轮融资，据CTech报道，这轮融资由贝塞默风险投资公司（Bessemer Venture Partners）和光速创投（Lightspeed Venture Partners）共同领投，The Garage参与投资。两轮融资合计4400万美元（约合人民币2.96亿元）。</p>
+<p>贝塞默风险投资公司是一家风险投资机构，光速创投同样专注于投资科技企业。两家机构共同领投，意味着Zenzap在扩大业务规模的过程中获得了专业投资机构的资金支持。不过，仅凭投资方名单，还不足以判断Zenzap未来能否实现持续增长。</p>
+<p>除机构投资方外，Zenzap的累计融资还包括来自个人投资者的支持。其中，尼尔·佐哈尔是Wix总裁。Wix是一家提供网站搭建及在线业务工具的平台服务商，帮助个人和企业通过在线工具创建网站、开展数字化业务。</p>
+<p>另一位个人投资者约拉姆·蒂茨曾于2007年至2022年担任安永全球网络在以色列的成员所Kost Forer Gabbay &amp; Kasierer的管理合伙人。安永（EY）是全球专业服务机构之一，主要业务包括审计、咨询、税务、战略与交易等。这意味着，Zenzap的累计融资支持者不仅包括专业风险投资机构，也包括具有科技企业经营及专业服务行业背景的个人投资者。</p>
+<p>对魏斯而言，融资的意义不只是获得资金。企业级软件需要持续进行产品开发、客户拓展和系统维护，还需要根据不同行业的业务流程完善产品。外部资本能够为这些工作提供支持，但资金能否转化为更多客户、更高的使用频率和稳定收入，仍需要后续经营数据验证。</p>
+<h2><strong>二、从个人聊天工具切入，AI功能延伸至工作流程</strong></h2>
+<p style="text-align: left">与直接争夺Slack或微软Teams的企业用户不同，Zenzap并不只是给即时通讯软件增加一个聊天机器人，而是希望让AI直接参与工作流程。Zenzap关注那些习惯通过个人聊天工具沟通工作的一线员工，对需要频繁协调排班、供应链和门店运营的一线团队而言，这种设计有望减少重复沟通和人工整理任务的时间。<img class="aligncenter size-full wp-image-601288" src="https://oss.zhidx.com/061ddf8ac35cb677c956cecc3ced7edb/6ad39b80/uploads/2026/10/6ad07b8481fad_6ad07b847ef5c_6ad07b847ef25_2.png" alt="星巴克在用的“AI工作群”，累计融资近3亿元" width="1000" height="560" /></p>
+<p>▲图源：Zenzap</p>
+<p>魏斯称，企业不能简单地在WhatsApp或iMessage上叠加AI Agent，因为这类个人聊天工具未必符合企业的IT合规要求。与此同时，Slack和微软Teams也不是围绕普通员工的移动端日常工作场景设计的。因此，Zenzap希望在熟悉的聊天方式与企业级管理要求之间找到平衡。</p>
+<p>在免费版本中，Zenzap提供群聊、私信、任务管理、日历集成和日程管理，还支持AI语音聊天与搜索。企业可以选择付费方案，价格为每月50美元（约合人民币334元），最多支持20名用户。付费功能包括语音和视频通话、智能任务分类、任务模板、更高的文件存储上限，以及覆盖整个工作空间的AI搜索。员工还可以将消息直接转为任务，减少在聊天记录和任务管理工具之间来回切换的操作。</p>
+<p>此外，Zenzap还提供用于工作流自动化的AI Agent，以及AI辅助语音笔记和通话转录功能。这些功能采用积分计费模式。但这些效率收益能否在不同企业中稳定实现，还需要更多实际使用数据验证。</p>
+<p>目前，Zenzap列出的客户包括联邦快递（FedEx）、美国折扣零售商达乐公司（Dollar General）、塔可钟（Taco Bell）、星巴克（Starbucks）、Casey&#8217;s便利店集团和Regal影院运营商等。</p>
+<p>魏斯称，IHOP和麦当劳（McDonald&#8217;s）等快餐连锁品牌的门店已经会使用该平台协调员工班次、沟通供应链事项。对于门店分布广、员工流动频繁、工作安排随时可能调整的连锁企业而言，如何让总部、管理人员和一线员工及时同步信息，是日常运营中的实际问题。</p>
+<p>据TechCrunch报道，Zenzap客户已经通过该平台创建了超过4万个自动化工作流。这一数据为产品的实际使用情况提供了一项参考，但该公司并未披露其收入、付费客户数量或付费转化率，因此还不能仅凭客户名单和工作流数量判断其商业化规模。</p>
+<p>目前，Zenzap在美国、特拉维夫和欧洲共有50名员工，该公司计划进一步扩大产品和研发团队。</p>
+<h2><strong>三、创始人曾自筹资金创业，两次创业经历铺垫新项目</strong></h2>
+<p>Zenzap联合创始人盖伊·魏斯（Guy Weiss）并非第一次创业。2012年，他创办电商营销平台StuccoMedia，早期采用自筹资金的方式推进业务，并于2015年将该公司出售给英国房地产与电商业务控股公司Market Tech Holdings。此后，魏斯转向投资领域，做了几年投资人。</p>
+<p>2022年，魏斯与贝塞默风险投资公司合伙人亚当·费舍尔（Adam Fisher）会面。随后，他与Zenzap联合创始人诺姆·诺伊曼（Noam Neumann）和乔纳坦·比恩（Jonatan Bien）共同探索了多个创业方向，最终决定开发一款融合AI能力、面向企业员工的即时通讯产品，并创办Zenzap。</p>
+<p><img class="aligncenter size-full wp-image-601299" src="https://oss.zhidx.com/6674a7b93e734539b6c0c1aa3dd65300/6ad39b80/uploads/2026/10/6ad07ed468f20_6ad07ed465ed9_6ad07ed465ea8_1.png" alt="星巴克在用的“AI工作群”，累计融资近3亿元" width="1000" height="663" /></p>
+<p>▲ZENZAP联合创始人盖伊·魏斯、诺姆·诺伊曼和乔纳坦·比恩，图源：Zenzap</p>
+<p>魏斯曾称，项目早期的启动资金来自个人积蓄，办公地点也曾设在贝塞默风险投资公司的办公室内。对他而言，第二次创业不仅是商业选择，也涉及个人声誉。由于第一次创业已经取得成功，他担心再次创业失败会影响自己的声誉，因此最初并不愿意接受外部融资。</p>
+<p>“我本来不想融资。对我来说，可能失去的只有自己的名声。第一次创业很成功，所以我很担心第二次创业失败。我并不需要为了钱而工作。因此，刚遇到亚当时，我确实是用自己的钱启动这个项目的。”魏斯在接受TechCrunch采访时称。</p>
+<p>不过，创业初期依靠自有资金，并不意味着公司可以一直靠创始人个人投入扩大规模。随着产品开发和业务拓展的推进，融资逐渐成为Zenzap下一阶段发展的重要条件。</p>
+<p>魏斯称，亚当·费舍尔后来劝说他将Zenzap打造为一家获得风险投资支持的公司，因为如果希望扩大业务规模，公司就需要更多资金。这也解释了为什么Zenzap最终接受外部资本。</p>
+<h2><strong>结语：从职场聊天切入AI工作流，Zenzap能否真正突围</strong></h2>
+<div>
+<p>目前，Zenzap正尝试进一步打通企业内部的信息传递与任务执行环节，并希望凭借移动端优先的产品设计、企业级安全管理和AI功能，与Slack、微软Teams等成熟的企业协作平台形成差异化竞争。</p>
+<p>其产品思路也反映出，AI在企业软件领域的应用正从信息处理延伸至日常沟通、任务管理和工作流执行。对Zenzap而言，关键在于能否将AI功能融入一线员工的实际工作流程，并真正提升在实际场景中的协作效率，从而进一步拓展企业客户。</p>
+</div>
+</div>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601239.html</link>
+<pubDate>Thu, 15 Oct 2026 14:51:18 +0800</pubDate>
+<source>智东西</source>
+<author>黄 菲</author>
+</item>
+<item><title><![CDATA[Jev上新，会看图做决策了！]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/e86ae8e425ed3ed33a1fd02c9e6602e3/6ad39b80/uploads/2026/10/6ad04dded11eb_6ad04ddece07d_6ad04ddece04e_8848.png"><strong>AI应用风向标（公众号：ZhidxcomAI）</strong><br />
+<strong>编译｜毕伟豪</strong><br />
+<strong> 编辑｜李水青</strong></p>
+<p>智东西10月15日消息，今早，美国AI公司TypeSafe AI发布了<span style="color: #0f59a4;"><strong>新模型Jev 1.14.0</strong></span>，同时放出<span style="color: #0f59a4;"><strong>图像输入</strong></span>、<span style="color: #0f59a4;"><strong>全新问题类型Box（非决策问题）</strong></span>、<span style="color: #0f59a4;"><strong>262k长上下文</strong></span>这三项实验功能，三项功能被统一<strong><span style="color: #0f59a4;">归入名为“危险区”（Danger Zone）的实验计划</span></strong>。</p>
+<p><img class="alignnone size-full wp-image-601214" src="https://oss.zhidx.com/eb1e4b263d0d0e5c77c9980d5af08939/6ad39b80/uploads/2026/10/6ad051506dc12_6ad051506ac9b_6ad051506ac6d_cb11559e716be54e8a8cc64f012b0562.png" alt="Jev上新，会看图做决策了！" width="1190" height="1064" /></p>
+<p>这三项功能默认关闭，需要用户手动打开API开关，官方声明称这批功能均<span style="color: #0f59a4;"><strong>未达生产标准，风险自负</strong></span>。</p>
+<p>9月16日，隐身研发两年的TypeSafe正式推出Jev。这款模型不同于生成连续文本的大语言模型，它会直接输出分类、选项、是非判断等结构化决策，并提供经过校准的置信度。</p>
+<p>TypeSafe将其称为首个System One（系统一）模型，意指一种更接近快速、直觉式判断的决策模型。</p>
+<p>Jev的发布让决策模型快速进入更多人的视野。10月10日，TypeSafe宣布完成8.7亿美元（约合人民币58.6亿元）A轮融资，估值达到75亿美元（约合人民币505亿元），由a16z领投，红杉资本和DCVC参投。</p>
+<p>随着这一领域受到关注，微软推出了支持结构化决策的Microsoft-Decision-1，开源社区则涌现出Kev、Laya、Decider等Jev类项目。</p>
+<p>此次Jev 1.14.0的发布，也是TypeSafe宣布融资后的首次模型更新。</p>
+<h2><strong>一、模型小幅升级，官方提醒别轻信评测</strong></h2>
+<p>Jev 1.14.0本身并非一次大幅升级。TypeSafe将其形容为一次“不炫技”的更新，改动细微但覆盖面广，预计提升最明显的是多语言能力。</p>
+<p>不过，中文用户暂时还不能期待它与英文表现持平。官方文档指出，包括中文在内的非英语语言虽然可以处理，但效果仍不如英语，建议开发者上线前先用自己的内容进行测试。</p>
+<p>版本管理方面，1.14.0目前使用预览别名 jev-preview，预计一周后切换为默认别名 jev-latest，1.13.0则会继续保留一段时间。</p>
+<p><img class="alignnone size-full wp-image-601224" src="https://oss.zhidx.com/34c2e42ac7998a3f5f8eb4f6944453e8/6ad39b80/uploads/2026/10/6ad05615861ed_6ad0561582b6b_6ad0561582b41_d329e1ca0b197300028285fe18039fa4.png" alt="Jev上新，会看图做决策了！" width="1670" height="788" /></p>
+<p>此外，TypeSafe还新增了模型改进授权选项。开启后，TypeSafe可以读取和分析输入与输出，以发现模型表现不稳定的问题、排查实际使用场景中的故障。官方表示，这些查询不会用于模型训练。</p>
+<p><img class="alignnone size-full wp-image-601223" src="https://oss.zhidx.com/6648067683be3a962a6afdaaf1744419/6ad39b80/uploads/2026/10/6ad056143514f_6ad05614321ba_6ad0561432178_a29927f6a8212ce5b2faca1c2719e2fd.png" alt="Jev上新，会看图做决策了！" width="1528" height="1078" /></p>
+<p>价格方面维持不变，每百万输入Token收费0.042美元，输出免费。</p>
+<p><img class="alignnone size-full wp-image-601222" src="https://oss.zhidx.com/46dcc39af3b380df8b5761d0c188790b/6ad39b80/uploads/2026/10/6ad055e39dfe3_6ad055e39af09_6ad055e39aebf_a7ccbbe5abd482c6699056613d696b80.png" alt="Jev上新，会看图做决策了！" width="1584" height="406" /></p>
+<p>除了版本改动，官方还公布一份内部评测，根据三张评测图，在8个模型的综合智能分对比中，Jev 1.14.0以60.0分排名第一，高于1.13.0的58.9分；得分最高的开源模型kev-27b为46.7分。</p>
+<p><img class="alignnone size-full wp-image-601225" src="https://oss.zhidx.com/88d1cc579be776b08d45e25bcabc2a8c/6ad39b80/uploads/2026/10/6ad0564f71666_6ad0564f6e749_6ad0564f6e70a_2b51a8d8d771810929d9ae198ccfe6b4.png" alt="Jev上新，会看图做决策了！" width="2136" height="1372" /></p>
+<p>在校准误差这一指标上，Jev 1.14.0也以1.6的成绩表现最好。</p>
+<p><img class="alignnone size-full wp-image-601226" src="https://oss.zhidx.com/1df9cad6413f51a1dc36fee18c07b341/6ad39b80/uploads/2026/10/6ad0565df3a02_6ad0565df0975_6ad0565df0949_88019162cc98f0f5c1cb6fe292abdf24.png" alt="Jev上新，会看图做决策了！" width="2136" height="1372" /></p>
+<p>不过，TypeSafe也提醒，这份榜单仅供参考，评测只涵盖开源权重模型，结果可能偏向自家模型，后续分数也可能调整。</p>
+<p>因此，官方建议重点比较开源模型之间的相对表现。有意思的是，三张评测图右上角都标注着一句话：警告：AI基准测试，请勿轻信。</p>
+<p><img class="alignnone size-full wp-image-601227" src="https://oss.zhidx.com/f32564a1b57ee400cf0b8c4eef7ce3a5/6ad39b80/uploads/2026/10/6ad0566371e66_6ad056636f1b7_6ad056636f184_84ccb83a0cde4c9cc5245db7ea378722.png" alt="Jev上新，会看图做决策了！" width="2136" height="1372" /></p>
+<h2><strong>二、图像、Box、262k上下文：三项实验功能</strong></h2>
+<p>Jev这次开放的图像功能，使用起来并不局限于某一种输入格式。官方称其具有“完全可组合”的特性，也即状态信息、问题指令，甚至评判标准中，都可以加入图像，三种问题类型均支持图像输入。</p>
+<p><img class="alignnone size-full wp-image-601228" src="https://oss.zhidx.com/648d9094bd8e8e339520b7b6ae47437f/6ad39b80/uploads/2026/10/6ad056a0c8487_6ad056a0c59af_6ad056a0c5985_139e980b0aef34d47e1c67ed5199bf31.png" alt="Jev上新，会看图做决策了！" width="1396" height="1052" /></p>
+<p>官方还透露，Jev 1.13.0其实早已具备多模态能力，只是此前没有正式开放图像功能。这次更新后，开发者可以通过实验接口启用图像输入。</p>
+<p>目前图像输入仅支持PNG、JPEG静态图片，边长须在256至1568像素之间，单张图片不超过16MiB，费用按输入token计算。官方提醒，Jev处理多模态任务时的表现仍不如纯文本任务。</p>
+<p><img class="alignnone size-full wp-image-601229" src="https://oss.zhidx.com/8db7e183d88fcbe02e07c2850cbcf7a8/6ad39b80/uploads/2026/10/6ad056ebecc87_6ad056ebe9393_6ad056ebe9364_f289cb256f104b32820b3833a6019aa9.png" alt="Jev上新，会看图做决策了！" width="1628" height="996" /></p>
+<p>Jev的上下文上限也有了大幅提高。默认情况下，单次请求最多支持64k token，单个问题最多支持32k token；开启实验开关后，两项上限都能提升至262k token。</p>
+<p><img class="alignnone size-full wp-image-601230" src="https://oss.zhidx.com/488c4ab3deef7d0843d8add897da9348/6ad39b80/uploads/2026/10/6ad0572b91f61_6ad0572b8ecd8_6ad0572b8eca8_35209133f760fdf74ba6feb4da98f6ae.png" alt="Jev上新，会看图做决策了！" width="1584" height="632" /></p>
+<p>不过，官方提醒，长上下文可能让模型运行得更慢、表现更不准确，建议只在确有需要时开启。</p>
+<p>这次更新还新增了Box问题类型，让Jev能够直接在图像中定位指定目标，并返回对应的边界框坐标。坐标经过归一化处理，范围为0至1，分别对应图像的宽和高。</p>
+<p><img class="alignnone size-full wp-image-601207" src="https://oss.zhidx.com/321d37c4ef61061f5d800bb251457a61/6ad39b80/uploads/2026/10/6ad04f5b12ef6_6ad04f5b0ff7e_6ad04f5b0ff47_d1a7d1f52480b87941e3cd18241530fe.png" alt="Jev上新，会看图做决策了！" width="960" height="654" /></p>
+<p>官方列出的应用场景包括识别柜台上的杯子、定位扫描件中的签名，以及框出门口的人。Box也是Jev首个不只服务于智能判断（smart-if）的问题类型。</p>
+<p>需要注意的是，图像和长上下文功能均可通过实验开关在Jev 1.13.0中启用，Box则是Jev 1.14.0独有的新功能。</p>
+<h2><strong>三、官方打开“危险区”：没把握的功能，先放给开发者玩玩</strong></h2>
+<p>图像输入和长上下文目前均默认关闭，开发者需要在API请求头中添加相应开关才能启用。TypeSafe将它们统一归入“危险区”（Danger Zone），提醒用户自行承担使用风险。</p>
+<p>这不仅是一个命名上的提醒，也意味着这些功能暂时不受正式版的可靠性保障。开发者可以提前尝试新能力，但需要自行验证输出是否准确、是否适合具体任务，尤其不能未经测试就将其用于生产环境。</p>
+<p>TypeSafe解释，这源于产品可靠性与开放探索之间的取舍：面向生产环境的模型需要经过充分验证，但开发者的需求难以预判，如果所有新功能都必须达到成熟的生产标准，一些新想法就很难得到实际检验。</p>
+<p>因此，公司选择先开放实验功能，再根据使用反馈持续迭代。</p>
+<h2><strong>结语：从“看图决策”到真正可用，还有多远？ </strong></h2>
+<p>图像输入和Box的加入，让Jev的决策能力从文本延伸到视觉场景。对于Agent而言，这意味着它不仅要处理文字指令，还可以尝试识别画面中的目标，为后续操作提供判断依据。</p>
+<p>但从实验功能到稳定的生产能力，中间还有一段距离。Jev目前的多模态表现仍弱于纯文本，长上下文也存在速度和准确性上的取舍。</p>
+<p>TypeSafe选择先开放接口，让开发者在真实任务中验证能力，同时明确提示风险。对于Jev这样的决策模型来说，能否在复杂输入下持续给出可靠结果，并真正嵌入Agent工作流，才决定了它的应用空间。</p>
+<p>来源：TypeSafe博客</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601178.html</link>
+<pubDate>Thu, 15 Oct 2026 14:39:09 +0800</pubDate>
+<source>智东西</source>
+<author>毕 伟豪</author>
+</item>
+<item><title><![CDATA[个人智能体爆火！蚂蚁发新模型接招，实测编辑部小助理上线]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/eea85dfd3a0d369cad4a0d0f020158cc/6ad39b80/uploads/2026/10/6ad04e636ce0f_6ad04e6369f4b_6ad04e6369f14_%E5%9B%BE%E7%89%874.png?x-oss-process=image/resize,m_fill,w_1024,h_437"><strong>智东西<br />
+</strong><strong>作者 |  杨京丽<br />
+</strong><strong>编辑 |  李水青</strong></p>
+<p>智东西10月15日报道，近一周，硅谷AI大厂轮番放出新进展，都指向让AI接手真实工作。</p>
+<p>10月12日，Meta发布<span style="color: #0f59a4"><strong>Muse Wonder</strong></span>系列，包括Muse Wonder和Muse Wonder Full两个型号，重点面向<span style="color: #0f59a4"><strong>个人与专业智能体任务</strong></span>。</p>
+<p>10月9日，谷歌云也在Gemini at Work 2026大会上推出<span style="color: #0f59a4"><strong>企业通用智能体Gemini Agent</strong></span>，能够自主规划任务、调用工具，在办公文档、邮件和开发环境中完成多步骤工作。昨天，谷歌开放其最新旗舰模型<span style="color: #0f59a4"><strong>Gemini 4 Argon</strong></span>，重点面向<span style="color: #0f59a4"><strong>编程、金融、法律、网络安全和科学</strong></span>等领域的复杂现实任务。</p>
+<p>海外厂商加快布局个人与企业智能体的同时，中国厂商已经在围绕<span style="color: #0f59a4"><strong>办公、金融、医疗</strong></span>等产业场景持续探索。模型能完成多少工作、交付质量如何，正在成为观察AI能力的重要切口。</p>
+<p>围绕真实任务需求，蚂蚁百灵于9月30日发布<span style="color: #0f59a4"><strong>Ling-3.1-flash</strong></span>。今天，Ling-3.1-flash正式<span style="color: #0f59a4"><strong>开源</strong></span>，该模型总参数量约为560B，每个Token激活参数约25B，上下文窗口上限为 1M，重点面向<span style="color: #0f59a4"><strong>日常办公、长周期软件研发和复杂Agent任务</strong></span>。</p>
+<p>在第三方评测机构Artificial Analysis的公开测试中，Ling-3.1-flash智能指数为41，输出速度约为<span style="color: #0f59a4"><strong>每秒210 Token</strong></span>，混合调用价格约为<span style="color: #0f59a4"><strong>每百万Token 0.19美元</strong></span>（约合人民币1.27元），Ling-3.1-flash在保持<span style="color: #0f59a4"><strong>较高智能水平</strong></span>的同时，兼顾<span style="color: #0f59a4"><strong>较快的输出速度与较低的调用价格</strong></span>，展现出性价比优势。</p>
+<p><img class="alignnone wp-image-601198" src="https://oss.zhidx.com/9f2a8096549a2aedfbab9d145514d831/6ad39b80/uploads/2026/10/6ad04e4a19eae_6ad04e4a16e52_6ad04e4a16e0f_%E5%9B%BE%E7%89%871.png" alt="个人智能体爆火！蚂蚁发新模型接招，实测编辑部小助理上线" width="1000" height="1094" /></p>
+<p>模型发布后，智东西结合编辑部的日常工作，围绕<span style="color: #0f59a4"><strong>办公和复杂Agent任务</strong></span>展开实测，观察Ling-3.1-flash从理解需求、调用工具到交付成果的实际表现。</p>
+<p>实测中，Ling-3.1-flash在财报分析和工作信息整理上交付清晰、可用，生成的网页图表直观、交互流畅；在3D场景和移动端应用开发中，也能完成场景搭建、页面设计及功能实现，表现出较完整的任务执行能力。</p>
+<h2><strong>一、从财报分析到个人工作助理，AI正在接手日常办公</strong></h2>
+<p>科技报道常常需要查阅财报，分析公司的营收、净利润、资本开支等指标。手动查找数据、整理图表既费时，也容易在单位和口径上出错。于是，我们将这项工作交给了Ling-3.1-flash。</p>
+<p>我们让它查找Meta、微软、Alphabet的最近三年财报，对比收入、利润、经营现金流和研发投入，并交付<span style="color: #0f59a4"><strong>研究简报、可编辑数据表及交互式可视化网页</strong></span>。</p>
+<p><iframe src="https://v.qq.com/txp/iframe/player.html?vid=l3350yb3fd1" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>从实际效果上看，Ling-3.1-flash交付的网页顶部可以筛选公司、年份和指标，下方通过<span style="color: #0f59a4"><strong>折线图、柱状图和数据表</strong></span>展示财务变化，右侧列出<span style="color: #0f59a4"><strong>主要研究发现</strong></span>。切换选项后，图表、结论和来源同步更新，鼠标悬停可以查看具体数据。</p>
+<p>整体来看，模型完成了从<span style="color: #0f59a4"><strong>资料检索、数据整理与分析到可视化呈现</strong></span>的完整流程，交付的简报结构清晰、数据表结果准确、可继续编辑，网页图表直观、交互流畅，已具备研究和汇报展示的实用价值。</p>
+<p>之后，我们又让Ling-3.1-flash担任<span style="color: #0f59a4"><strong>个人工作助理</strong></span>，梳理每日工作优先事项。</p>
+<p>编辑部的工作信息常常分散在邮件、群聊、笔记中。我们给Ling-3.1提供了一份模拟工作资料包，让模型<span style="color: #0f59a4"><strong>整理项目进展、待办、负责人、截止时间及阻塞点</strong></span>，并制作一个可交互的工作台。</p>
+<p><iframe src="https://v.qq.com/txp/iframe/player.html?vid=n33508kb4qt" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>工作台整理出33项未完成待办，并按照逾期、阻塞及到期情况排序。用户可以通过<span style="color: #0f59a4"><strong>关键词、项目分类和任务状态</strong></span>筛选事项，展开后查看对应材料、记录时间和摘录，也能标记完成、添加备注，刷新后仍可保留。</p>
+<p>点击日历中的日期，当天安排会同步更新；切换到项目看板或时间线，还能从不同角度查看工作进度。</p>
+<p>整体来看，这个工作台将分散材料整理成了清晰的项目和待办视图，方便用户判断哪些事项需要优先推进、哪些仍在等待回复。用户<span style="color: #0f59a4"><strong>无需反复翻找邮件和聊天记录</strong></span>，就能快速掌握项目进度。</p>
+<h2><strong>二、搭建3D桃花源、开发新闻App，复杂任务完整交付</strong></h2>
+<p>除了办公任务，能否完成一个项目从<span style="color: #0f59a4"><strong>需求规划、代码开发到运行验证</strong></span>的完整流程，是衡量模型<span style="color: #0f59a4"><strong>复杂长程Agent能力</strong></span>的重要方面。</p>
+<p>为此，我们让Ling-3.1-flash将《桃花源记》制作成类似《我的世界》的3D方块风格网页，串起溪流、桃林、山口、洞穴和村落，支持<span style="color: #0f59a4"><strong>自由漫游和自动游览</strong></span>。</p>
+<p><iframe src="https://v.qq.com/txp/iframe/player.html?vid=j3350i83oz9" width="300" height="150" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>模型生成的场景包含粉色桃树、灰色山体、农田、小桥和村民。用户可以通过键盘移动、鼠标调整视角，也可以开启自动游览，沿着故事路线进入桃花源。</p>
+<p>经过关键位置时，页面会展示对应原文。暂停、继续、重新开始等操作均可使用，角色路过桃花林的时候，还能看到两旁的桃花缓缓飘落的动画效果。</p>
+<p>Ling-3.1-flash能够将文学文本转化为<span style="color: #0f59a4"><strong>可运行的3D场景</strong></span>，完成<span style="color: #0f59a4"><strong>场景搭建、交互设计和动画细节</strong></span>，将创意需求落实为完整项目。</p>
+<p>最后，我们让Ling-3.1-flash参考智东西官网，制作<span style="color: #0f59a4"><strong>手机版新闻App Web原型</strong></span>。</p>
+<p>模型获取了13篇真实新闻及配图，按照大模型、智能硬件、机器人、AI基础设施分类，搭建了首页、搜索、文章详情和收藏页面。</p>
+<p><img class="alignnone wp-image-601197" src="https://oss.zhidx.com/eac478bb5ccc10519d72a62f9f102c59/6ad39b80/uploads/2026/10/6ad04e4748125_6ad04e474517f_6ad04e474514b_%E5%9B%BE%E7%89%872.png" alt="个人智能体爆火！蚂蚁发新模型接招，实测编辑部小助理上线" width="1000" height="572" /></p>
+<p>页面首页用大图突出头条，下方以图文列表展示资讯，底部提供导航栏。文章页包含标题、署名、发布时间、正文、配图及原文入口，整体<span style="color: #0f59a4"><strong>排布清晰，适合手机阅读</strong></span>。</p>
+<p>实际操作中，分类切换能够更新新闻列表，关键词搜索可以找到对应文章，点击头条或列表即可进入详情页。收藏功能也<span style="color: #0f59a4"><strong>支持本地保存</strong></span>，刷新页面后仍能查看已收藏的内容。</p>
+<p>从新闻获取、内容分类到页面开发，Ling-3.1-flash交付了一个<span style="color: #0f59a4"><strong>界面美观、功能完整</strong></span>的移动新闻应用原型，体现出将产品需求转化为可运行应用的开发能力。</p>
+<p>第三方评测结果也印证了我们在实测中的真实体验。在Design Arena的Open Weights（开放权重模型）分类评测中，模型在<span style="color: #0f59a4"><strong>数据可视化、React Native移动应用、3D设计和游戏开发</strong></span>四个方向均位列<span style="color: #0f59a4"><strong>第三</strong></span>，在<span style="color: #0f59a4"><strong>SVG生成和网站制作</strong></span>方向分别位列<span style="color: #0f59a4"><strong>第四和第五</strong></span>。模型在视觉呈现与应用开发方面，展现出较为全面的能力。</p>
+<p><img class="alignnone wp-image-601206" src="https://oss.zhidx.com/94adc06e27a1b46f11235dd09ca77134/6ad39b80/uploads/2026/10/6ad04f51612b2_6ad04f515e7c7_6ad04f515e791_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-10-15_115721_497.png" alt="个人智能体爆火！蚂蚁发新模型接招，实测编辑部小助理上线" width="1000" height="963" /></p>
+<h2><strong>三、聚焦医疗与金融，优化专业场景能力</strong></h2>
+<p>回到本次实测的财报任务，我们要求模型交付研究简报、数据表和可视化网页。这些成果可以帮助编辑快速了解企业经营情况。若要承担持续投研工作，模型还需要处理更多材料，进行<span style="color: #0f59a4"><strong>金融建模计算、产出专业化报告</strong></span>，并持续核验分析。</p>
+<p>围绕这类需求，百灵推出了面向投研任务的<span style="color: #0f59a4"><strong>金融大模型LingFin</strong></span>，强调以<span style="color: #0f59a4"><strong>高智效比</strong></span>提升研究效率。在通用模型的基础上深化专业能力，让模型适应行业中的具体任务。</p>
+<p>医疗场景同样如此。面对专业问题，模型需要<span style="color: #0f59a4"><strong>理解医疗知识、检索循证资料</strong></span>，并适应标准化医疗流程。百灵推出的<span style="color: #0f59a4"><strong>医疗健康增强模型LingSante</strong></span>，重点围绕这些需求展开优化。百灵的行业增强大模型已经深入金融与医疗领域的专业化工作。</p>
+<p>百灵持续在“在真实世界里找AGI”，从办公助理到专业投研、医疗健康，模型需要在具体工作中持续打磨。</p>
+<p>后续，百灵计划继续提升模型处理<span style="color: #0f59a4"><strong>通用和复杂Agent任务</strong></span>的能力，同时<span style="color: #0f59a4"><strong>提高智效比、降低使用门槛</strong></span>，适应资源受限的部署环境。在专业领域，百灵将与相关企业和机构共同打磨模型，推动其进入<span style="color: #0f59a4"><strong>更复杂的实际工作流程</strong></span>。</p>
+<h2><strong>结语：实际应用价值成AI下一站关键</strong></h2>
+<p>这次实测中，Ling-3.1-flash能够连续调用工具，完成资料处理、分析和开发，将用户的需求转化为可编辑的文件与可运行的应用，具备承担具体工作的实用能力。</p>
+<p>在海外厂商加快布局个人与企业智能体的阶段，百灵持续深入办公、医疗和金融场景。随着AI进入更多工作流程，成果是否准确、易用，能否支持后续工作，将成为衡量模型价值的重要标准。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601181.html</link>
+<pubDate>Thu, 15 Oct 2026 13:20:46 +0800</pubDate>
+<source>智东西</source>
+<author>杨 京丽</author>
+</item>
+<item><title><![CDATA[顶级华人白帽黑客，加盟智谱]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/4b4c545a964d6a09c53b37a4b9f5e830/6ad39b80/uploads/2026/10/6ad03b4b6a347_6ad03b4b671c4_6ad03b4b67187_%E5%9B%BE%E7%89%871.png"><strong>智东西</strong><br />
+<strong>作者 | 陈骏达</strong><br />
+<strong>编辑 | 李水青</strong></p>
+<p>智东西10月15日报道，昨天深夜，全球顶级安全研究员古河（本名陈雪斌，Yuki Chen）在X平台上官宣，他已经加入智谱，从事网络安全相关研究。</p>
+<p><img class="aligncenter size-full wp-image-601119" src="https://oss.zhidx.com/207357cc6679da0a292d614c7be88c1f/6ad39b80/uploads/2026/10/6ad035f478f48_6ad035f475855_6ad035f47581b_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-10-15_100934_678.png" alt="顶级华人白帽黑客，加盟智谱" width="1186" height="788" /></p>
+<p>古河是业内知名的网络安全研究员，是前360漏洞研究院院长，也曾在网安平台Trend Micro（趋势科技）担任安全研究员，在赛博昆仑担任首席技术官兼昆仑实验室负责人。</p>
+<p>他连续多年位列MSRC（微软安全响应中心）“最具价值安全研究者”年度榜单榜首，是全世界安全研究者中登顶该年度榜单次数最多的研究者，也是首位登顶该榜的中国研究者，还曾两次斩获有“黑客奥斯卡”大奖之称的The Pwnie Awards，分别是最佳远程漏洞奖和史诗级成就奖。</p>
+<p>智谱Z.ai负责人李子玄第一时间欢迎了古河的到来，他称古河将继续帮助社区利用GLM构建更安全的网络空间。</p>
+<p><img class="aligncenter size-full wp-image-601121" src="https://oss.zhidx.com/a0c03d96592881ee1550b5eae3b74439/6ad39b80/uploads/2026/10/6ad036e782b2c_6ad036e77f65d_6ad036e77f601_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-10-15_101320_909.png" alt="顶级华人白帽黑客，加盟智谱" width="1586" height="597" /></p>
+<p>在官宣加入智谱的推文中，古河还晒出了一批他利用GLM模型发现的安全漏洞，包括一个评分高达9.8分的高危（Critical）级别的OpenSSH远程未授权代码执行漏洞。这批安全漏洞一共23个，均获得了MSRC致谢。</p>
+<p><img class="aligncenter size-full wp-image-601120" src="https://oss.zhidx.com/3d920a38cc341e5956ebbf139a57547a/6ad39b80/uploads/2026/10/6ad0362908e80_6ad0362905c4f_6ad0362905c0e_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-10-15_101029_149.png" alt="顶级华人白帽黑客，加盟智谱" width="2480" height="1154" /></p>
+<p>按照微软的处理流程，外部提交的漏洞需经MSRC复核确认并完成修复后，才会在安全更新中公开致谢。这意味着这批由古河和GLM共同发现的漏洞，已经通过了严苛的漏洞确认流程。</p>
+<p>这并非GLM系列模型在网络安全领域首次立功。智谱披露，自GLM-5.2起，他们联合多支安全团队在真实代码库中挖洞，经专家复核、去重后累计发现2436个漏洞，其中1097个为中高危。</p>
+<p>商业化方面，GLM-5.3发布约一个月后，网络安全已成为智谱率先实现规模化收入的垂直场景，已有约100家安全企业将GLM接入产品与业务流程。</p>
+<p>如今，网络安全已成为大模型的重要应用场景。一方面，大模型发掘漏洞的能力不断提升，在某些场景已经可以独立完成从发现到验证的完整挖洞流程。另一方面，AI也在改写网安攻防节奏，AI+网安的全新赛道正加速成型。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601109.html</link>
+<pubDate>Thu, 15 Oct 2026 10:43:51 +0800</pubDate>
+<source>智东西</source>
+<author>陈 骏达</author>
+</item>
+<item><title><![CDATA[千问办公推电商版，给企业Agent打了个样]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/6b816f2fe743b874fbd4356d2282d141/6ad39b80/uploads/2026/10/6acf9450789ac_6acf945075d9d_6acf945075d64_b0d3832cd243d4cc1c8ceb7960f2c7d3_%E5%89%AF%E6%9C%AC.jpg"><strong>智东西</strong><br />
+<strong>作者 | 江宇</strong><br />
+<strong>编辑 | 漠影</strong></p>
+<p>电商行业的经营方式，有望被一个通用Agent重做一遍。</p>
+<p>过去一段时间，通用企业级Agent的叙事卷成了同一个模板：先讲上下文，再讲数字员工，最后都落到通用智能。</p>
+<p>但当潮水退去，一个尴尬的现实浮出水面——真正走进一个具体行业、说清到底给它带来了什么生产力提升的厂商，寥寥无几。而更多的行业垂直AI软件，不过是在旧工具里挂了个对话框，隔靴搔痒。</p>
+<p>要打破这个局面，加一层AI肯定不够用，而是要让一个通用Agent，把协同办公软件和散落的垂直SaaS、管理系统都连起来。企业级Agent和这些工具的打通，正在成为一条明确的趋势：过去那种在每个SaaS里塞一个AI的SaaS+AI，会逐步被企业级Agent融合、连接。</p>
+<p>千问办公已经走在这条路上。8月，千问办公接入企业微信，加上钉钉、飞书，国内三大主流协同办公平台全部打通；9月又宣布将接入Salesforce，并与SAP中国达成合作；近期还会推出开放平台，让ISV厂商的应用以技能、连接器、专家套件的形式上架接入。</p>
+<p>千问办公，想把“连接”这件事往深里再走一步。10月14日，千问办公发布了专门服务电商行业的Agent功能——千问办公电商版。商家切换到“电商经营”模式，就能用一个Agent，管起跨平台、多店铺、全流程的生意。</p>
+<p><img class="alignnone size-full wp-image-601088" src="https://oss.zhidx.com/01d7cfe58880c4258eda3a88e62bfa56/6ad39b80/uploads/2026/10/6acf949ce86b5_6acf949ce50f1_6acf949ce50a0_e02f9e744a92217759405ef7d1dbd677.png" alt="千问办公推电商版，给企业Agent打了个样" width="1000" height="562" /></p>
+<p>在当天的活动现场，阿里巴巴集团副总裁、千问办公CEO陈宇森举了两个例子。</p>
+<p>一位商家深夜无人值守，Agent主动打开客服系统回复客户咨询；另一位商家在周末聚会时，收到Agent发来的商品违规下架提醒，避免因处理不及时造成损失。</p>
+<p>陈宇森把这叫主动性。在他看来，这才是Agent下一步的核心能力。</p>
+<p><img class="alignnone size-full wp-image-601089" src="https://oss.zhidx.com/6ba7edd59ac34d8004a163f1fe0a6021/6ad39b80/uploads/2026/10/6acf94b2f0c05_6acf94b2ee086_6acf94b2ee04a_63d397dcae56671b348054f3e6d7da16.png" alt="千问办公推电商版，给企业Agent打了个样" width="1000" height="590" /></p>
+<p>而千问办公电商版踩中的，正是这条分界线：企业级Agent的价值锚点，正在从懂业务走向懂行业，从等人招呼，走向主动干活。谁先跨过这条线，谁就先拿到下一场的入场券。</p>
+<h2><strong>一、企业级Agent的分水岭：从懂业务到懂行业</strong></h2>
+<p>企业级Agent的演化路线，正在变得清晰。</p>
+<p>上个月云栖大会上，千问办公CEO陈宇森用一句“Context is All You Need”点破了前提：Agent能不能落地，核心不在模型有多大，而在用不用得对企业自己的数据。</p>
+<p>他给的方向叫企业上下文，把散落在群聊、文档、知识库和业务系统里的企业信息压缩、结构化，随业务变化持续更新，变成Agent能随时调用的知识。</p>
+<p>而在这之前，千问办公先把钉钉这一步走得更扎实：群聊、通讯录、文档、知识库、审批、会议、AI表格等这些常用工具，都以CLI的形式被接入到了Agent里，企业知识不用搬迁，就能被用起来。</p>
+<p>可懂业务只是其中一张入场券。</p>
+<p>它让通用Agent认识了公司，却还不知道电商这门生意该怎么经营。</p>
+<p>千问办公的首批用户、北京捌比特咖啡创始人阚欧礼曾言：精品咖啡是个小到不能再小的行业，世界知识解决不了这么小的行业。</p>
+<p>产业带鞋商刘祥龙也踩到过这种坑，他原以为运动鞋的主力买家是运动人群，千问办公对着真实数据一看，结论反了过来，买3D打印鞋的第一人群是Z世代。</p>
+<p>这种反常识，靠通用大模型给不出，得靠对着一个行业的真实数据反复琢磨。</p>
+<p>这正是企业级Agent眼下的分水岭：行业还在比模型参数、比上下文窗口，胜负手已经悄悄挪到了谁能先把一个行业做透。</p>
+<p>上半场拼懂业务，下半场拼懂行业。千问办公电商版，率先把下半场开了局。</p>
+<h2><strong>二、把“连接”做成产品：Agent成为旧工具之上的“新智能层”</strong></h2>
+<p>电商商家的一大痛点是工具太多、彼此不对话。多平台经营之下，不同平台各有各的后台，再叠上ERP、私域、营销、客服、进销存一堆SaaS，数据被切得七零八落。而那些标榜智能的旧工具，大多只是在老系统里加了个AI。</p>
+<p>可见，垂类软件再智能，也只是单点；通用Agent再会聊，也不懂电商的经营。千问办公电商版想要的，是站在两者之间、也站在两者之上的位置，比垂类软件更智能，比通用Agent更专业。</p>
+<p>它的解法是<strong>连接</strong>。授权登录后，商家就可以用千问办公读取、分析自己的后台数据，它已经接入了生意参谋、有赞、千牛、阿里妈妈万相台、FastMoss、LinkFox这些业内主流的商家经营和管理工具。即便是还未接入的平台，商家自行上传后，也能照常收进同一个入口，一并汇总、分析。</p>
+<p><span style="color: #0f59a4;"><strong>四个专业功能</strong></span>，则把懂行业落到了电商全流程：</p>
+<ul>
+<li><span style="color: #0f59a4;"><strong>跨平台作战台</strong></span>：多店数据汇总成一张作战图</li>
+</ul>
+<p><img class="alignnone size-full wp-image-601090" src="https://oss.zhidx.com/00854db8cb28ac97958a5d8773e5a943/6ad39b80/uploads/2026/10/6acf94cb11ec4_6acf94cb0cf84_6acf94cb0cf55_b4b80be5211293552b2dff18bbdaea87.png" alt="千问办公推电商版，给企业Agent打了个样" width="1000" height="568" /></p>
+<ul>
+<li><span style="color: #0f59a4;"><strong>趋势洞察和卖点分析</strong></span>：从社交热词里捕捉种草方向</li>
+</ul>
+<p><img class="alignnone size-full wp-image-601091" src="https://oss.zhidx.com/1f15d18b2bd3862a57fc6647b3d468f3/6ad39b80/uploads/2026/10/6acf94de20ef3_6acf94de1e0fa_6acf94de1e0be_f0b97485a5c5ea8bcb3f578cdefe2bb5.png" alt="千问办公推电商版，给企业Agent打了个样" width="1000" height="565" /></p>
+<ul>
+<li><span style="color: #0f59a4;"><strong>爆款素材批量生成</strong></span>：几十款新品的主图和文案一次成型</li>
+</ul>
+<p><img class="alignnone size-full wp-image-601092" src="https://oss.zhidx.com/ee4ce4630eab3d04a74753e616e642bf/6ad39b80/uploads/2026/10/6acf94eb38e30_6acf94eb35d77_6acf94eb35d4a_fef39ca0aa75b158514479f0b96be131.png" alt="千问办公推电商版，给企业Agent打了个样" width="1000" height="568" /></p>
+<ul>
+<li><span style="color: #0f59a4;"><strong>跨平台ROI智能盯办</strong></span>：盯住投放、异常就预警</li>
+</ul>
+<p><img class="alignnone size-full wp-image-601093" src="https://oss.zhidx.com/f9165d68bf82c72e9fd7d45606ad9740/6ad39b80/uploads/2026/10/6acf94fccc60d_6acf94fcc99d6_6acf94fcc9995_0233a2dec08adb3e17f5658da1e50354.png" alt="千问办公推电商版，给企业Agent打了个样" width="1000" height="568" /></p>
+<p>千问办公电商版切实地将商家手头的工具连成一个整体，激活沉淀在里面的数据和流程价值，Agent就此成为行业软件上的一层新智能。</p>
+<h2><strong>三、第一批商家，用千问办公赚出了“真金白银”</strong></h2>
+<p>3D打印鞋店负责人刘祥龙做女鞋生意近十年，经营着10家店。而整个团队近二十人，没有一个是计算机专业，连一行代码都不会写。今年，他盯上了一个新方向：3D打印鞋。</p>
+<p>过去做这类调研，得找咨询机构、买数据服务，年费两万多。现在问一句千问办公，结论就出来了：3D打印鞋是运动鞋红海里还在爆发的细分赛道，全球销量增速320%、市场规模约134亿元。</p>
+<p>它还纠正了刘祥龙的误区：买3D打印鞋的第一人群是看重未来感的Z世代，不是专业跑者，所以卖点讲潮流，视觉走科技感，投放选内容平台。</p>
+<p>要是只有市场调研，就小看千问办公了。想直接开店，它也能把后面的流程一路跑完。过去上一款新品，打样、拍摄、做详情页，样样烧钱，改一版还要等两天；测款还要先招运营、先压货，卖不动就锁死现金流。</p>
+<p>现在反过来了：给一张参考图，千问办公生成各种场景图，按写好的Skill自动出详情页，数字样品当天测款，数据跑起来后再按需生产发货，运营也暂时不用招。</p>
+<p>从设想到营业，过去要30天甚至更久，这次只用了7天，花费从几万块降到几百块的Token费用。生意模式也从先生产后销售的重资产，转成了先验证后生产的轻资产。</p>
+<p><img class="alignnone size-full wp-image-601094" src="https://oss.zhidx.com/313b2b4cf7f4a4ef194576f1209b9dfb/6ad39b80/uploads/2026/10/6acf95121fab6_6acf95121ce08_6acf95121cddb_003331057937f65f3fbade4c5ba98ec3.png" alt="千问办公推电商版，给企业Agent打了个样" width="1000" height="562" /></p>
+<p>刘祥龙说，之前就知道3D打印鞋火，但如果没有千问办公，他不会这么快开新店，等到再想动手，可能别人已经做起来了。</p>
+<p>再看让千问办公管账的捌比特咖啡。这家公司只有17个人，却经营着十余个电商平台，创始人阚欧礼是音乐人出身，不会写代码。人少、事杂、没人专门做IT，他们对工具的要求就一条：开箱即用。</p>
+<p>在千问办公之前，阚欧礼试过不少AI工具，踩过不少坑。他回忆“养龙虾”那阵，基本一半时间花在解决宕机上；后来用Codex，企业数据和定时任务要长期跑，他更想放进稳定的内网环境；再早一些的大模型工具，企业知识库接不进来，上下文长度也有限，读得懂文字，却很难直接生成经营报表。</p>
+<p>换平台还意味着员工重新学、知识库重新整理。这些坑，正是那类隔靴搔痒的企业级AI：AI很聪明，却落不到具体经营上。</p>
+<p>千问办公能够把活直接接进他已有的系统。捌比特一直是钉钉老客户，千问办公接上钉钉工作流，再把生意参谋、淘宝前端数据和聚水潭ERP连进来，不用另起一套系统。</p>
+<p>先看经营周报。现在天猫经营周报被设成定时任务，自动取数、自动分析，每天到岗就能看到，还能定时推到钉钉群里；报告还会着重分析数字背后的波动原因。</p>
+<p><img class="alignnone size-full wp-image-601095" src="https://oss.zhidx.com/453527f55aa3818e44e1ca1981737c74/6ad39b80/uploads/2026/10/6acf95221e53f_6acf95221ba8e_6acf95221ba5d_1f1faaa7a43430d6f96e0228965dd743.png" alt="千问办公推电商版，给企业Agent打了个样" width="1000" height="609" /></p>
+<p>再看财务。开票、现金日报、利润核算，过去都是靠人一件件磨。现在，这三件事被串成一条自动的工作流：固定时间抓取发票、自动开票回传；每天早晨自动扫描各账户余额，写入钉钉AI表格；再通过连接器接入ERP和生意参谋，算出分渠道的净毛利。</p>
+<p>除此以外，让阚欧礼意外的，还有转账这一流程。现在审批通过后，单据经银行接口自动制单，两个人在手机上指纹验证就能付款，从审批到回单回传，最快1分20秒。</p>
+<p>财务流程变顺之后，捌比特反而多出一个谈判筹码：跟供应链谈日结、每单结，不用再压款，对方也愿意做一件代发。结果常备库存压到三十几万，咖啡器具一年的销售额却接近千万元，周转率一下子拉高。</p>
+<p>可见，Agent和商家原数字资产或行业软件不是替代关系，是连接关系。连接本身就是产品力，给存量工具造出了增量价值。</p>
+<h2><strong>四、电商是试金石，更是能复制的样板</strong></h2>
+<p>为什么偏偏是电商，成了企业级Agent行业化的第一站？</p>
+<p><span style="color: #0f59a4;"><strong>千问办公现有的付费用户里，约20%来自电商行业，并且电商用户周均完成任务数为38个</strong></span>。他们是所有行业里数量最多、也用千问办公最深入的一群用户。而电商人群本就是AI的优等生：会挑工具、敢上手、数字化底子厚。</p>
+<p><img class="alignnone size-full wp-image-601105" src="https://oss.zhidx.com/3d8bdd168f8f3a83c028c075796745aa/6ad39b80/uploads/2026/10/6acfa59216161_6acfa59212513_6acfa592124e3_a681e26685fb4f76c987f688af183d25_%E5%89%AF%E6%9C%AC.jpg" alt="千问办公推电商版，给企业Agent打了个样" width="1000" height="590" /></p>
+<p>除此以外，电商天然更是Agent的高价值验证场：数据密集、链路完整、效果可量化，能力有没有提升，销量和ROI会立刻给出反馈。</p>
+<p>千问办公电商版作为一款独立第三方的Agent，跨平台、all in one，对所有平台的商家开放，也对所有平台的商家工具开放。它奔着的，正是电商Agent的OS入口。为此，未来还会接入海内外更多平台和生态。</p>
+<p>这条连接行业工具、叠加行业化功能设计的路径，正在长成能复制的样板：电商之后，教育、政务、金融这些行业，都有机会顺着这条路走一遍。行业还在争论通用Agent能不能落地，千问办公已经用电商跑通了从落地到复制的闭环。</p>
+<p>电商是试金石，更是样板间。对商家来说，千问办公电商版迭代了一种新的生产力；对整个行业来说，它验证的是一条能复制到千行百业的行业纵深路径。</p>
+<h2><strong>结语：谁先做透一个行业，谁定义下一代</strong></h2>
+<p>电商，只是一个开始。千问办公电商版释放的信号，远比一款产品更具前瞻性：企业级Agent的竞争，已经从比模型、比上下文，走向了比行业纵深、比生态连接。</p>
+<p>把时间线拉长，这条路看得更清楚：千问办公先让Agent接入企业已有的数据和工具，把懂业务这一步走实，再用电商版让Agent懂行业，下一步，是把懂行业复制到千行百业。</p>
+<p>电商的经营方式，正在从人手一台工具，走向一个Agent统管全局。过去，企业软件的历史是在工具里加一点AI；未来，方向会反过来，由通用Agent去连接行业软件和办公软件，成为行业软件上的一层新智能。</p>
+<p>上下文的故事已经讲完，行业纵深就成了企业级Agent的价值锚点。谁能连接行业工具、理解行业逻辑，谁就能定义下一代企业的生产和管理方式。</p>
+<p>而千问办公，已经把第一颗子，落在了电商这个能见真章的棋盘上。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/601083.html</link>
+<pubDate>Wed, 14 Oct 2026 23:55:01 +0800</pubDate>
+<source>智东西</source>
+<author>江 宇</author>
+</item>
+<item><title><![CDATA[AI杀进横店！火山引擎拿下2.3亿大单]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/f07f4873633d15be8209a426cb7559ae/6ad39b80/uploads/2026/10/6acf6da50fe47_6acf6da50caf9_6acf6da50cacf_tou.jpg"><strong><b>智东西<br />
+作者 | 程茜<br />
+编辑 | 李水青</b></strong></p>
+<p class="p1">智东西10月14日消息，昨日，浙江金华市公共资源交易中心东阳分中心发布《关于横店影视AI服务平台建设项目中标（成交）结果公告》，<strong><span style="color: #0f59a4;">东阳深空引擎、火山引擎</span></strong>联合体以合计<span style="color: #0f59a4;"><strong>2.3亿元</strong></span>中标。</p>
+<p class="p1">其中算力租赁资源报价<strong><span style="color: #0f59a4;">0.27亿元</span></strong>，其余报价为<span style="color: #0f59a4;"><strong>2.03亿元</strong></span>。</p>
+<p class="p1">根据企业信息服务平台企查查的数据，东阳深空引擎由抖音有限公司间接全资持股。</p>
+<p><img class="alignnone wp-image-600999 size-full" src="https://oss.zhidx.com/339bb6e7f4441727fba1dab195cd84d0/6ad39b80/uploads/2026/10/6acf5c28b1f5b_6acf5c28aec62_6acf5c28aec2c_ScreenShot_2026-10-14_182333_552.png" alt="AI杀进横店！火山引擎拿下2.3亿大单" width="2118" height="1204" /></p>
+<p class="p1">该项目于今年9月14日发布招标公告，总预算金额为2.35亿元。自中标人与采购人合同签订之日起计<span class="s1">，项目分3年、分阶段交付验收。</span></p>
+<p class="p1">其具体项目为以“横店影视大模型”为核心，构建“<strong><span style="color: #0f59a4;">数据—模型—应用</span></strong>”三位一体的AI影视技术体系。核心建设内容包括横店影视大模型服务系统、横店影视资产运营系统、横店影视创作赋能系统、横店影视产业生态管理系统、大模型安全、算力资源租赁。</p>
+<p><img class="alignnone size-medium wp-image-601000" src="https://oss.zhidx.com/54e6cb0a7a788a51cc2c84796da2a0ae/6ad39b80/uploads/2026/10/6acf5c8f3fc99_6acf5c8f3c427_6acf5c8f3c3f5_ScreenShot_2026-10-14_184213_162.png?x-oss-process=image/resize,m_fill,w_596,h_300" alt="AI杀进横店！火山引擎拿下2.3亿大单" width="596" height="300" /></p>
+<p class="p1"><span class="s2">横店影视大模型服务系统，要基于</span>领先的通用大模型，通过垂类场景深度增强精调和专项场景适配，构建<strong><span style="color: #0f59a4;">影视专属大模型</span></strong>，重点突破镜头语言理解、角色情绪建模、多模态协同生成等核心能力，覆盖剧本创作、分镜生成、数字角色、声音生成、服化道设计、场景选景、特效后期等核心场景，重点打造7个覆盖影视制作全流程的垂类场景深度增强模型和20个专项场景增强模型。</p>
+<p class="p1"><span class="s2">在数据集方面，该项目要求要</span>围绕横店影视产业核心场景，构建<span style="color: #0f59a4;"><strong>高质量数据集体系</strong></span>。</p>
+<p class="p1">数据集涵盖影视基地实景、数字群演、原创IP数字艺人、服化道供应链、古装各朝代服装/发型/妆容、历代农耕器具及场景评测等九大核心方向，形成多模态、多场景、高标准的影视垂域数据资产。</p>
+<p class="p1">项目要求建成不少于9个行业高质量数据集，同时要求预训练数据集不少于500亿Token，指令微调数据集不少于100万条，强化学习偏好数据不少于3万组，基准测试数据集不少于1万条，近三年数据占比不低于40%，数据模态覆盖文本、图像、视频、音频等。</p>
+<p class="p1">在影视可信数据空间方面，该项目要求通过<strong><span style="color: #0f59a4;">可信数据空间服务平台和接入连接器</span></strong>，保障影视数据在授权、确权、流通、监管和使用过程中的安全可信，提供注册登录、开放门户、供需对接、开发运营等一站式数据流通服务，解决影视数据的版权保护与合规使用难题。</p>
+<p class="p1">项目的具体性能要求如下：</p>
+<p class="p1">1、大模型推理服务应支持弹性扩缩容，峰值负载下系统可用性不低于99.5%。</p>
+<p class="p1">2、数据处理平台应支持TB级数据的高效处理，单任务数据标注吞吐量不低于500条/小时。</p>
+<p class="p1">3、系统应具备完善的缓存机制和CDN加速能力，确保多媒体资源的快速加载。</p>
+<p class="p1">4、高质量数据集标注系统：并发性方面，支持至少100人同时在线操作含标注、审核、项目管理、报表查看等场景，文本、图像类数据加载响应时间≤3秒、标注操作响应时间≤3秒。稳定性方面，平台需通过连续24小时满负载运行测试确保100人同时操作，保持无崩溃、无数据丢失、无功能异常，系统CPU利用率≤80%，内存利用率≤75%。</p>
+<p>今年9月，火山引擎还拿下《北京广播电视台火山引擎Seedance系列调用词元采购项目》，中标金额300万元。</p>
+<p>在与上述项目密切联系的多模态领域，字节跳动已经成为这一赛道的核心玩家，并且其产品迭代也踩中影视工业化从概念预演到成片落地的需求。</p>
+<p>通过视频创作模型Seedance系列、图像创作模型Seedream系列，字节打通了图像、视频生成、后期剪辑、分发生态的链路。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/600990.html</link>
+<pubDate>Wed, 14 Oct 2026 22:37:18 +0800</pubDate>
+<source>智东西</source>
+<author>程茜</author>
+</item>
+<item><title><![CDATA[智能体长任务总“失忆”？国产开源破局，类Jev模型接管Agent调度]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/aaad95e379a136438fc10bab8b1ae650/6ad39b80/uploads/2026/10/6acf041d47b64_6acf041d44da8_6acf041d44d6f_%E5%A4%B4%E5%9B%BE.jpg"><strong>智东西</strong><br />
+<strong>作者 | 王涵</strong><br />
+<strong>编辑 | 冰倩</strong></p>
+<p>智东西10月14日报道，昨晚，国内科技独角兽公司APUS开源<span style="color: #0f59a4"><strong>Reflex Agent</strong></span>，这套系统采用自研Reflex决策模型完成Harness（智能体执行框架）中的决策环节，围绕无限记忆、无损记忆、无损输入构建无限上下文方案，可落地可长期持续处理任务的Personal Agent（个人智能体）。</p>
+<p><img class="alignnone size-full wp-image-600753" src="https://oss.zhidx.com/c6c11daa46841de33b05175c72e4fa15/6ad39b80/uploads/2026/10/6acef708d8019_6acef708d4f4b_6acef708d4ecc_%E5%BC%80%E6%BA%90.jpg" alt="智能体长任务总“失忆”？国产开源破局，类Jev模型接管Agent调度" width="1000" height="431" /></p>
+<p>▲开源页面</p>
+<p>Reflex Agent采用MIT协议开源，提供桌面端、Web和SDK。开发者可以复现“模型驱动Harness”的工作循环，研究无损记忆和无限上下文的实现思路，也可以基于项目做二次开发，适配自己的Agent场景。</p>
+<p><span style="color: #0f59a4">Reflex Agent开源地址：https://github.com/APUS-AI-Lab/APUS-Reflex-Agent</span></p>
+<p>APUS（麒麟合盛）成立于2014年，总部位于北京，该公司早期以C端移动互联网产品生态（如启动器、浏览器等）起家。2017年，其估值<span style="color: #0f59a4"><strong>约120亿元</strong></span>。在2022年底，APUS决定将技术路线全部转向大模型，聚焦于通用与语言模型、行业通用大模型、C端手机应用和B端行业智能体。</p>
+<p><span style="color: #0f59a4"><strong>APUS创始人兼CEO李涛</strong></span>，曾任职于三七二一，该公司后被中国雅虎收购。2005年-2009年担任北京图吧科技有限公司COO，2009年至2014年担任北京奇虎科技有限公司副总裁，2014年离职创立了APUS。</p>
+<p><img class="alignnone size-full wp-image-600752" src="https://oss.zhidx.com/ef6509612a649b355ca76f40962c4020/6ad39b80/uploads/2026/10/6acef70803efc_6acef70801028_6acef70800ff2_%E5%88%9B%E5%A7%8B%E4%BA%BA.jpg" alt="智能体长任务总“失忆”？国产开源破局，类Jev模型接管Agent调度" width="1000" height="873" /></p>
+<p>▲李涛</p>
+<h2>一、APUS用2步解决<span class="">决策延迟与长任务遗忘难题</span></h2>
+<p>Reflex Agent开源的背景正值AI Agent与决策模型Jev爆火之际，但行业热闹的同时，技术的痛点也非常集中。</p>
+<p>APUS认为，当下主流Agent几乎都基于“提示词+代码”搭建Harness，每一步控制决策——从“这个需求该交给谁执行”到“任务到底做完没有”——都要调用大模型来判断。大模型每多想一步，用户就多等一步，高频工具调用场景下延迟问题尤为突出。</p>
+<p>更棘手的是长任务中的“遗忘”问题：任务一旦拉长，历史就超出上下文窗口，行业常见的做法是把旧对话压缩成摘要，但细节和出处往往就在这一步丢失了。</p>
+<p>APUS的解法分两步走：<span style="color: #0f59a4"><strong>用模型做Harness和无限上下文。</strong></span></p>
+<h2>二、用模型做Harness：决策模型当控制中枢，响应速度提3倍</h2>
+<p>APUS此前已开源了自研决策模型Reflex，该模型基于Qwen3.5的4.5B参数模型微调，专为浏览器动作选择、工作流路由和自然语言原则判断设计。</p>
+<p><span style="color: #0f59a4">Hugging Face：https://huggingface.co/apus-ailab/APUS-Reflex。</span></p>
+<p>Reflex Agent架构采用专用决策模型驱动Harness核心控制逻辑：</p>
+<p><span style="color: #0f59a4"><strong>1、角色分工：</strong></span>专用决策模型负责判断下一步行动，Harness负责流程调度、工具管理、状态跟踪、接收执行反馈；工具负责具体操作；</p>
+<p><span style="color: #0f59a4"><strong>2、形成闭环：</strong></span>决策→ 执行→ 反馈→ 再决策。决策模型是Agent流程的控制中枢，按需调用大模型、外部工具与数据，而不是所有环节都依赖大模型；</p>
+<p>该框架在测试场景下，页面响应速度相比同类Agent提升2-3倍，对连续操作、多轮工具调用的复杂任务体验提升明显。</p>
+<p><img class="alignnone size-full wp-image-600930" src="https://oss.zhidx.com/073db484c712ee2ed9710a6daabfd7b0/6ad39b80/uploads/2026/10/6acf335adc4e2_6acf335ad92b3_6acf335ad9278_%E9%80%9F%E5%BA%A6.png" alt="智能体长任务总“失忆”？国产开源破局，类Jev模型接管Agent调度" width="1000" height="527" /></p>
+<h2>三、无限上下文：三层记忆机制，造出Loop Working</h2>
+<p>第二步就是无限上下文。Reflex Agent采用<span style="color: #0f59a4"><strong>三层记忆机制</strong></span>：</p>
+<p><span style="color: #0f59a4"><strong>1、无限记忆：</strong></span>持续累积任务全量信息，为长周期任务提供完整记忆底座；</p>
+<p><span style="color: #0f59a4"><strong>2、无损记忆：</strong></span>完整保存原始信息与关联关系，支持随时回溯任务细节、历史判断依据；</p>
+<p><span style="color: #0f59a4"><strong>3、无损输入：</strong></span>检索调入当前决策上下文的信息不做有损改写，保留原文内容。</p>
+<p>Agent不需要把全部历史一次性塞进prompt，可以根据当前任务需求检索相关记忆片段，原始信息直接参与决策，不依赖压缩摘要。</p>
+<p>两部分合在一起，AI就能锁定用户目标、自动持续执行、自检、修正，直到任务达成的循环工作体。APUS把这种工作方式叫做Loop Working。</p>
+<p><img class="alignnone size-full wp-image-600932" src="https://oss.zhidx.com/974e5c689616b0b63cde48220f54fe52/6ad39b80/uploads/2026/10/6acf3378a26ff_6acf33789f5ef_6acf33789f5b4_%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg" alt="智能体长任务总“失忆”？国产开源破局，类Jev模型接管Agent调度" width="1000" height="859" /></p>
+<h2>四、产品体系覆盖通用、垂直模型与C端B端</h2>
+<p>目前，APUS已经形成基座大模型+AI应用产品框架。</p>
+<p>2023年，APUS发布了自研的<span style="color: #0f59a4"><strong>千亿级多模态大模型“APUS大模型（AiLMe）”</strong></span>，此后，其于2024年4月联合开源了<span style="color: #0f59a4"><strong>千亿参数MoE架构模型APUS-xDAN-4.0</strong></span>。</p>
+<p>在大模型的基础上，APUS构建起了产品体系：</p>
+<p><span style="color: #0f59a4"><strong>通用与语言模型</strong></span>包括天燕大模型和DeepSeek APUS加强版；<span style="color: #0f59a4"><strong>垂直行业大模型</strong></span>包括奇黄大模型（医疗问诊）与智草大模型（中医诊断）等，覆盖教育、农业、网信、政务、传媒、金融、电商等领域。</p>
+<p>基于大模型能力，APUS还推出了一系列直接面向用户的AI应用。<span style="color: #0f59a4"><strong>C端手机应用</strong></span>包括APUS Launcher、APUS Booster、APUS Security、APUS Browser、APUS KATOO、APUS CutCut等；<span style="color: #0f59a4"><strong>B端行业智能体</strong></span>有天燕商业智能体、智草中医智能体、智能诊疗平台等。</p>
+<p><img class="alignnone size-full wp-image-600762" src="https://oss.zhidx.com/db3fe18d48cfb61750a1ce5d68411194/6ad39b80/uploads/2026/10/6aceffa6a2b7b_6aceffa69a3b6_6aceffa69a372_%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8.jpg" alt="智能体长任务总“失忆”？国产开源破局，类Jev模型接管Agent调度" width="1000" height="1187" /></p>
+<h2>结语：为智能体长任务提供新解法</h2>
+<p>当下AI Agent赛道热度高涨，但长任务失忆、工具调用延迟仍是阻碍实用化的核心难题。</p>
+<p>APUS此次开源Reflex Agent，跳出 “大模型包揽全部决策” 的主流思路，把调度决策能力剥离出来独立建模，再依靠无损记忆体系保住任务细节。</p>
+<p>这一差异化路线，也一定程度上为国内智能体生态提供了新的技术样本。当然，框架能否规模化落地、在更多复杂业务场景保持稳定，还需要开源社区持续验证迭代。</p>
+<img src="https://oss.zhidx.com/817265e755b9a2a57051d506bb9bf69a/6ad39b80/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/600750.html</link>
+<pubDate>Wed, 14 Oct 2026 22:35:41 +0800</pubDate>
+<source>智东西</source>
+<author>王 涵</author>
+</item>
+</channel></rss>

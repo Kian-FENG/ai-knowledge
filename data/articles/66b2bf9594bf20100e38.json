@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158265.htm",
+  "title": "DeepSeek V4.1 Flash新版本发布 许愿式编程一键成真 网友怒赞：太上进 超级斩杀线",
+  "text": "快科技10月17日消息，据DeepSeek官方公众号今日消息，DeepSeek V4.1 Flash现已更新至V4.1-Flash-1017版本，官方网页端、APP与API模型已同步变更为新模型。\n据官方介绍，DeepSeek V4.1 Flash 1017通过基于自反馈的强化学习（RL）训练技术，提升了在游戏开发、3D建模等方面从零开始构建完整项目的能力，能够支持实现更多“许愿式”编程任务及项目开发请求。\n不仅如此，本次新版本发布 DeepSeek API 新增对 Search 与 Fetch 接口的支持，相关能力正式向公众开放。\n据了解，两个接口价格均为5元 / 千次，详细使用方法请参考官方API文档：API 指南 - 网页搜索与抓取。\n官方同时提醒：当前用户在DeepSeek Harness / Claude Code / Codex 中使用 DeepSeek API时，已经会通过Server端工具调用访问到 Search/Fetch 接口。\n据介绍，这部分 Search/Fetch 接口调用目前未计费，并将在两周后（北京时间2026年11月1日00:00）开始按次收取调用费用。\nDeepSeek V4.1 Flash新版本上线后，评论区网友怒赞刷屏，有网友调侃“我就是知道，你那天挂机就是背着我们偷偷进步。太上进了”，还有网友直呼，“ xx什么超级斩杀线”。\n关于新版本的真实性能表现，快科技将持续跟进、带来后续报道。\n下附模型开源地址\nDeepSeek-V4.1-Flash-1017 模型权重下载地址如下：\nHuggingFace:\nhttps://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\nModelScope:\nhttps://modelscope.cn/models/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "published_at": "2026-10-17T17:47:02+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "66b2bf9594bf20100e38",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52.body",
+  "source_sha256": "7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52",
+  "fetched_at": "2026-10-18T09:55:58.730930+00:00"
+}

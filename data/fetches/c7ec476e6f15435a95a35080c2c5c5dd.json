@@ -1,0 +1,27 @@
+{
+  "raw_path": "raw/2026-10-18/7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52.body",
+  "sha256": "7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52",
+  "source_url": "https://rss.mydrivers.com/rss.aspx?Tid=1",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-18T09:55:58.730930+00:00",
+  "source_id": "mydrivers",
+  "status": 200,
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 09:55:59 GMT",
+    "Content-Type": "text/xml; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Expires": "Sun, 18 Oct 2026 09:55:59 GMT",
+    "Cache-Control": "public, max-age=456",
+    "Content-Encoding": "gzip",
+    "Last-Modified": "Sun, 18 Oct 2026 09:53:35 GMT",
+    "Vary": "*",
+    "Server": "Microsoft-IIS/10.0",
+    "X-AspNet-Version": "4.0.30319",
+    "X-Powered-By": "ASP.NET",
+    "X-Ser": "i1932517_c23621"
+  },
+  "final_url": "https://rss.mydrivers.com/rss.aspx?Tid=1",
+  "truncated": false,
+  "charset": "utf-8"
+}

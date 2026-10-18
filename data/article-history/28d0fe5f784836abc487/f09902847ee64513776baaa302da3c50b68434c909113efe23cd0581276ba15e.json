@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/anthropic-reports-16-8-billion-third-quarter-revenue",
+  "title": "Anthropic Reports $16.8 billion in Third-Quarter Revenue",
+  "text": "Anthropic’s revenue in the third quarter hit $16.8 billion, the company on Wednesday told prospective investors in its initial public offering, according to people familiar with the matter.\nThat marked a jump of about 45% from the second quarter, and was more than 3.6 times the company’s revenue ...",
+  "published_at": "2026-10-15T00:28:54+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-15T18:27:42+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "28d0fe5f784836abc487",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-16/f09902847ee64513776baaa302da3c50b68434c909113efe23cd0581276ba15e.body",
+  "source_sha256": "f09902847ee64513776baaa302da3c50b68434c909113efe23cd0581276ba15e",
+  "fetched_at": "2026-10-16T01:03:15.658771+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
+  "title": "This implant can restore sight for patients with macular degeneration",
+  "text": "More than 5 million people around the world have an advanced form of age-related macular degeneration (AMD) called geographic atrophy, in which cells in the retinas die off. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients who develop a blind spot in the middle of their vision due to advanced AMD. After training sessions, more than 80% of recipients were able to read, do crosswords, and use their phones.\nThe retina processes light in three layers of cells: Photoreceptors convert light into electricity, bipolar cells process that signal, and ganglion cells transmit the signal to the optic nerve and the brain. PRIMA replaces the photoreceptors.\nBROWN BIRD DESIGN\nDeveloped by the California-based Science Corporation, the system takes advantage of the fact that AMD doesn’t damage all retinal circuitry; only photoreceptors—the cells that convert light into an electrical signal—die off. PRIMA’s implant mimics those cells and transmits visual information directly to healthy eye circuitry and on to the brain. “We’re leveraging all of the body’s own natural functions to process and transmit the information,” says Frank Brodie, an ophthalmologist at the University of California, San Francisco, and Science Corp.’s chief medical officer for ophthalmology.\nBROWN BIRD DESIGN\nCAPTURE\nGlasses outfitted with a miniature front-facing camera capture what someone is seeing in real time. The video feed is roughly five megapixels running at 30 frames per second, which is similar to TV. The raw video is transmitted to a connected processor via a fiber-optic cable.\nCONVERT\nA small, handheld processor, which can be set on a table or tucked in a pocket, converts the video feed into infrared light signals that route back to the glasses. The device also includes physical buttons that let the wearer adjust contrast, brightness, and zoom.\nBROWN BIRD DESIGN\nDISPLAY\nA laser projector on the glasses faces the wearer and shines pulses of near-infrared light directly at the eye at 880 nanometers—an invisible wavelength. This signal passes through the pupil and on to the retinal implant in the back of the eye.\nSEE\nThe implant is made up of 378 pixels, each with an electrode and two photovoltaic cells, which do double duty. They convert the light into a current that healthy bipolar and ganglion cells pass on to the brain. They also act as solar cells to power the chip, eliminating the need for a battery.\nUpdate: This story has been updated to clarify the specific cases of AMD the PRIMA system treats.\nLinda Marsa is a former Los Angeles Times reporter and an author who covers medicine, health, science, and the environment.",
+  "published_at": "2026-10-16T09:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5d14fcc11ae3e389cd29",
+  "source_id": "mit-tech-review",
+  "source_name": "MIT Technology Review",
+  "section": 2,
+  "raw_path": "raw/2026-10-18/9717500c2d1d86431571a06fc8baa1fe7165e2879e92297b51d952aff2b00378.body",
+  "source_sha256": "9717500c2d1d86431571a06fc8baa1fe7165e2879e92297b51d952aff2b00378",
+  "fetched_at": "2026-10-18T09:55:49.470127+00:00"
+}

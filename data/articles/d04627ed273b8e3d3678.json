@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/videos/2026-10-17/the-ev-bust-creating-a-new-battery-boom-video",
+  "title": "The EV Bust Creating a New Battery Boom",
+  "text": "Factories built to supply America’s electric-vehicle boom are getting a second life making batteries for the power grid.  As EV demand weakens and electricity demand from data centers and new factories strengthens, battery makers are shifting toward stationary storage, but the new market still relies on federal incentives and a supply chain that remains partly dependent on China. The shift is visible at TransGrid’s Atlas projects in Arizona, where the contractor Qcells is using LG Energy Solution’s US-made battery cells. (Source: Bloomberg)",
+  "published_at": "2026-10-17T12:03:32+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d04627ed273b8e3d3678",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/e0f52bd80df9f2895a62fe51bbacc46b31233b1e6dffc41ca6f73a79c35fe632.body",
+  "source_sha256": "e0f52bd80df9f2895a62fe51bbacc46b31233b1e6dffc41ca6f73a79c35fe632",
+  "fetched_at": "2026-10-18T09:55:49.722767+00:00"
+}

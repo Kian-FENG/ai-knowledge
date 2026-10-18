@@ -1,0 +1,18 @@
+{
+  "url": "https://www.aboutamazon.com/news/aws/amazon-data-centers-locations-news",
+  "title": "Amazon data center communities: Here’s what’s happening near data centers across the US",
+  "text": "Get the latest updates on how Amazon supports small businesses, creates jobs, sets up sustainability initiatives, and develops educational programs near AWS data centers.",
+  "published_at": "2026-10-06T18:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9a177c1266d524819f45",
+  "source_id": "amazon-news",
+  "source_name": "About Amazon",
+  "section": 5,
+  "raw_path": "raw/2026-10-07/82f6178b6eda2f5457a9c9cff0b21a83040a6a17d0c86898bdb440f15945bbec.body",
+  "source_sha256": "82f6178b6eda2f5457a9c9cff0b21a83040a6a17d0c86898bdb440f15945bbec",
+  "fetched_at": "2026-10-07T01:05:31.634219+00:00"
+}

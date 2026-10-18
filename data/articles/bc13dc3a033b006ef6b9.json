@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+16 Oct 2026\n+🔔 New article published\n+Reflection has released Beam, their first model launch\n+Reflection’s first model, Beam, scores 30 on the Artificial Analysis Intelligence Index, placing it #2 among US open weights models\n+New language model evaluation results available\n+Beam 1.0\n+Intelligence Index: 30\n+Together AI performance results now available\n+Beam 1.0\n+PrimaLabs performance results now available\n+DeepSeek V4.1 Flash (Max)DeepSeek V4.1 Flash (Non-reasoning)Nemotron 3.5 Super VL\n+Nebius performance results now available\n+Beam 1.0\n+CoreWeave performance results now available\n+Beam 1.0\n+Baseten performance results now available\n+Beam 1.0Nemotron 3.5 Super VL\n+Makora performance results now available\n+Muse Spark Open (Xhigh)\n+Solar Pro 4\n+Intelligence Index: 27\n+New language model evaluation results available\n+Upstage performance results now available\n+Solar Pro 4\n-DeepSeek performance results now available\n-DeepSeek V4.1 Flash (Non-reasoning)\n-DeepSeek performance results now available\n-DeepSeek V4.1 Flash (Max)\n-MiniMax-M3Kimi K2.7 CodeDeepSeek V4 Flash Vision (Max)Muse Glimmer (High)Nemotron 3 Ultra 550B A55B (Reasoning)\n+MiniMax-M3Nemotron 3 Ultra 550B A55B (Reasoning)\n-GPT-5.5 (High)GPT-5.6 Sol (High)GPT-5.6 Sol (Xhigh)GPT-5.6 Terra (High)GPT-5.6 Terra (Xhigh)GPT-5.6 Luna (High)GPT-5.6 Luna (Xhigh)\n-31 Aug 2026\n-New language model evaluation results available\n-Quasar 438B (Max, Based on GLM-5.2)\n-Intelligence Index: 27\n-Multiverse Computing performance results now available\n-Quasar 438B (Max, Based on GLM-5.2)\n-Novita performance results now available\n-GLM-5.3 (Max)\n-Makora performance results now available",
+  "id": "bc13dc3a033b006ef6b9",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-18/127cfb1215b4731cdf5e4ad77c775abacb722fbb8b45a3e562ac29912a7a19c3.body",
+  "source_sha256": "127cfb1215b4731cdf5e4ad77c775abacb722fbb8b45a3e562ac29912a7a19c3",
+  "fetched_at": "2026-10-18T09:55:40.960310+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-18T09:55:40.960310+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

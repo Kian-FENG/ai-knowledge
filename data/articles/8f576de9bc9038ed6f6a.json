@@ -1,0 +1,19 @@
+{
+  "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+  "title": "DeepSeek 模型与价格：页面内容变化",
+  "summary": "+Search / Fetch API 已上线，使用自研搜索引擎，支持网页搜索与抓取，点此查看使用指南。\n-模型deepseek-flash(1)deepseek-v4-proBASE URL (OpenAI 格式)https://api.deepseek.comBASE URL (Anthropic 格式)https://api.deepseek.com/anthropic模型版本DeepSeek-V4.1-FlashDeepSeek-V4-Pro-0813思考模式支持非思考与思考模式（默认）\n+模型deepseek-flash(1)deepseek-v4-proBASE URL (OpenAI 格式)https://api.deepseek.comBASE URL (Anthropic 格式)https://api.deepseek.com/anthropic模型版本DeepSeek-V4.1-Flash-1017DeepSeek-V4-Pro-0813思考模式支持非思考与思考模式（默认）\n-(1) 模型名请使用 deepseek-flash。旧模型名 deepseek-v4-flash、deepseek-v4-flash-vision-exp 仍可调用，但对应模型已下线，请求将由 DeepSeek-V4.1-Flash 模型提供服务，并按 Flash 价格计费。\n+(1) 模型名请使用 deepseek-flash。旧模型名 deepseek-v4-flash、deepseek-v4-flash-vision-exp 仍可调用，但对应模型已下线，请求将由 DeepSeek-V4.1-Flash-1017 模型提供服务，并按 Flash 价格计费。\n+网页搜索与抓取价格​\n+Search 和 Fetch 是独立的 API，按请求次数计费。\n+API计费单位价格Search每 1,000 次成功请求5元Fetch每 1,000 次成功请求5元\n+请注意，当前用户在 DeepSeek Harness/Claude Code/Codex 中使用 DeepSeek API 时，已经会通过 Server 端工具调用访问到 Search/Fetch 接口，这部分 Search/Fetch 接口调用目前未计费，并将于北京时间 2026 年 11 月 1 日 00:00 起按次收取调用费用。\n+接口用法与完整计费规则详见网页搜索与抓取。\n-扣减费用 = token 消耗量 × 模型单价，对应的费用将直接从充值余额或赠送余额中进行扣减。\n+模型调用费用 = token 消耗量 × 模型单价；Search 和 Fetch 按上表中的成功请求次数计费。对应的费用将直接从充值余额或赠送余额中进行扣减。\n+网页搜索与抓取价格",
+  "id": "8f576de9bc9038ed6f6a",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "deepseek-pricing",
+  "source_name": "DeepSeek 模型与价格",
+  "section": 0,
+  "raw_path": "raw/2026-10-18/bc3f15446f9fa86f2591d76cf6af9ca826dd8ae2c3a1c294be06224471075149.body",
+  "source_sha256": "bc3f15446f9fa86f2591d76cf6af9ca826dd8ae2c3a1c294be06224471075149",
+  "fetched_at": "2026-10-18T09:55:29.347028+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-18T09:55:29.347028+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x",
+  "title": "Scaling Kimi K3 on AMD Instinct MI355X: Matching NVIDIA HGX B300 Throughput per GPU on AgentXOct 16, 2026·24 min readInside the Kimi K3 optimization effort: understanding the bottlenecks and the decis",
+  "link_text": "Scaling Kimi K3 on AMD Instinct MI355X: Matching NVIDIA HGX B300 Throughput per GPU on AgentXOct 16, 2026·24 min readInside the Kimi K3 optimization effort: understanding the bottlenecks and the decis",
+  "id": "83c8b3ad5c31c776c9d6",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-18/03f606af01fdb2852f6977b9e4385c84f5ceb3307ce97e71832dbed32f74d62b.body",
+  "source_sha256": "03f606af01fdb2852f6977b9e4385c84f5ceb3307ce97e71832dbed32f74d62b",
+  "fetched_at": "2026-10-18T09:55:38.103718+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-18T09:55:38.103718+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

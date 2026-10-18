@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158321.htm",
+  "title": "华硕ProArt P14/P16首发18999元起：搭载RTX Spark 可运行200B AI模型",
+  "text": "快科技10月18日消息，华硕ProArt P16和ProArt P14两款笔记本已经上市，首发到手价18999元起。\nProArt P14机身尺寸为31.07 x 21.89 x 1.39~1.59 cm，重量为1.48kg。配备14英寸Lumina Pro OLED屏幕，屏占比为88%，色准Delta E < 1，为专业创作者提供高度精准的色彩画面。\n屏幕拥有2880 x 1800分辨率和120Hz刷新率，响应时间为0.02ms，采用防反射涂层技术，支持VRR可变刷新率，通过VESA DisplayHDR True Black 1000和PANTONE认证，支持触控笔，提供最高1600尼特与1100尼特两档亮度版本。\nProArt P16机身尺寸为35.41 x 24.30 x 1.29~1.59 cm，重量为1.77kg。配备16英寸Lumina Pro OLED屏幕，屏占比为90%，主要规格与ProArt P14相近；除显示尺寸更大外，主要差异在于提供3840 x 2400和2880 x 1800两种分辨率可选，分别对应1600尼特和1100尼特亮度，刷新率均为120Hz。\n两款产品搭载的RTX Spark平台主要由英伟达与联发科合作开发的Grace CPU + Blackwell RTX GPU组成，采用台积电3nm工艺制造，AI性能达到1petaFLOP，能够本地运行高达200B参数的AI模型。\n其中CPU部分采用Arm v9.2架构，由10个Cortex-X925和10个Cortex-A725内核组成，共享32MB的L3缓存；GPU部分共有最多48组SM，对应6144个CUDA核心；配备低功耗NPU，满足微软Copilot+要求。\nProArt P16和ProArt P14提供24GB、32GB、48GB、64GB和128GB五种内存规格，均为LPDDR5X-9400，不过首批上市的是32GB和128GB容量。ProArt P14只有一条M.2 2280 PCIe 4.0 x4插槽，可选512GB或1TB容量；ProArt P16有两条M.2 2280 PCIe 5.0 x4插槽，可选512GB、1TB或2TB容量。\nProArt P16和ProArt P14分别内置90WHr和99.9WHr电池，配备140W USB-C电源适配器。机身带有三个USB4 Type-C接口，还有一个USB 3.2 Gen2 Type-A接口和一个HDMI 2.1接口，另外配有3.5mm音频插孔和SD 4.0（ProArt P14）/SD Express 7.0（ProArt P16）读卡器，支持Wi-Fi 7和蓝牙5.4。",
+  "published_at": "2026-10-18T07:34:41+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e1cd9220f9a530c948ed",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52.body",
+  "source_sha256": "7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52",
+  "fetched_at": "2026-10-18T09:55:58.730930+00:00"
+}

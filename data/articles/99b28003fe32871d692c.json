@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
+  "title": "Mathematicians say OpenAI doesn't understand its own Navier-Stokes proof",
+  "text": "OpenAI submitted a 166-page solution to the Navier-Stokes problem but apparently doesn't fully understand its own proof. Several groups of experts dispute the claimed methodology, saying the actual approach differs from what OpenAI described. And because language models are black boxes, where the underlying ideas came from will likely never be clear.\nThe article Mathematicians say OpenAI doesn't understand its own Navier-Stokes proof appeared first on The Decoder.",
+  "published_at": "2026-10-17T09:00:26+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "99b28003fe32871d692c",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/3403ac748e65aec11435e3b0d219a62b83d9c384b0c870ae2170c5205ae9bb16.body",
+  "source_sha256": "3403ac748e65aec11435e3b0d219a62b83d9c384b0c870ae2170c5205ae9bb16",
+  "fetched_at": "2026-10-18T09:55:47.271957+00:00"
+}

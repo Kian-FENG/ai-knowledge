@@ -148,3 +148,10 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 - research/synthesis/agent-supply-access-reliability-20261015.md
 
 2026-10-15批次回执：19页均published/default-query/get_page及hash回查通过；172页结构校验、121来源配置与49离线测试通过。日报16事件保留编辑、packet、manifest与历史修订。日精度显示和论文摘要范围已校正；不宣称完成未读范围。
+
+
+## 2026-10-18 automation-ai 延迟补报入库
+
+10月17日日报4事件与10月16日周报21事件。新增10source、HUMXN entity与综合note，更新Reflection交付时间线；原始hash、事件日期/更新日和有限阅读逐页保存。reported与derived独立，source-checked只表示支持关系，未作独立实测。待review/finalize/readback。
+
+本批13页已review/finalize发布、默认query/get_page可见且raw证据hash通过；184页结构校验、123来源配置和49项离线测试通过。12新增、1更新；其余旧来源去重复用。

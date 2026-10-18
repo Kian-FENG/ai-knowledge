@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4031113616347783?f=rss",
+  "title": "台积电日本熊本二厂获准转向3nm芯片生产，月产能6000片",
+  "text": "据报道，日本经济产业省近日宣布，已批准台积电在熊本县第二工厂生产3纳米制程先进半导体的计划。这将是日本国内首度制造3纳米制程晶片。根据新生产计划，3纳米制程的晶片月产能为6000片。台积电原拟在该工厂制造6纳米与12纳米等制程的半导体，本次更改生产计划是研判到AI需求增加，切换成更高性能的产品。（界面）",
+  "published_at": "2026-10-18T17:21:45+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6f0e425aa9ed41071e02",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/002d64114c57174485e2f46316ea2a29462f2c6c39fb90ebbdbe9bfaed868d94.body",
+  "source_sha256": "002d64114c57174485e2f46316ea2a29462f2c6c39fb90ebbdbe9bfaed868d94",
+  "fetched_at": "2026-10-18T09:55:52.520667+00:00"
+}

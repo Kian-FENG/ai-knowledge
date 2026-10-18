@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-18/d20b60061878c1608f578874a24141f9ad75c8b8153327c431a9589d0351429d.body",
+  "sha256": "d20b60061878c1608f578874a24141f9ad75c8b8153327c431a9589d0351429d",
+  "source_url": "https://developers.openai.com/api/docs/changelog",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-18T09:55:27.153531+00:00",
+  "source_id": "openai-api-changelog",
+  "status": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "21374",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline; filename=\"changelog\"",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Sun, 18 Oct 2026 09:55:27 GMT",
+    "Etag": "W/\"60ce2f1b441d333d8a8d18d0ea997d20\"",
+    "Last-Modified": "Sun, 18 Oct 2026 03:59:13 GMT",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "Accept",
+    "X-Vercel-Cache": "HIT",
+    "X-Vercel-Id": "sfo1::4zwmf-1792317327799-5c304796b742",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://developers.openai.com/api/docs/changelog",
+  "truncated": false,
+  "charset": "utf-8"
+}

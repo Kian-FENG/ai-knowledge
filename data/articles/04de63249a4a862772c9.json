@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+  "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner",
+  "text": "DeepSeek released an update of its AI model this weekend that it says is faster and leaner, ramping up the Chinese company’s challenge to Silicon Valley rivals Anthropic PBC and OpenAI as well as domestic competitors like Moonshot Kimi and Z.ai",
+  "published_at": "2026-10-17T13:47:14+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "04de63249a4a862772c9",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/e0f52bd80df9f2895a62fe51bbacc46b31233b1e6dffc41ca6f73a79c35fe632.body",
+  "source_sha256": "e0f52bd80df9f2895a62fe51bbacc46b31233b1e6dffc41ca6f73a79c35fe632",
+  "fetched_at": "2026-10-18T09:55:49.722767+00:00"
+}

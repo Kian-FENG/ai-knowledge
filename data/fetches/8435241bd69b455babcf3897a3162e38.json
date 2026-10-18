@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-18/4c92fd6367df388a47a176c6eadbd48779e83be1fb3b9e1d6f25cc070f14ca9e.body",
+  "sha256": "4c92fd6367df388a47a176c6eadbd48779e83be1fb3b9e1d6f25cc070f14ca9e",
+  "source_url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-18T09:57:14.559891+00:00",
+  "source_id": "the-decoder",
+  "status": 200,
+  "headers": {
+    "Connection": "close",
+    "x-dns-prefetch-control": "on",
+    "Content-Type": "text/html; charset=UTF-8",
+    "x-pingback": "https://the-decoder.com/xmlrpc.php",
+    "link": "<https://the-decoder.com/?p=41649>; rel=shortlink",
+    "etag": "\"1757465-1792314746;gz\"",
+    "x-litespeed-cache": "hit",
+    "content-encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "Content-Length": "39099",
+    "date": "Sun, 18 Oct 2026 09:57:15 GMT",
+    "server": "LiteSpeed",
+    "strict-transport-security": "max-age=15768000; includeSubDomains",
+    "alt-svc": "h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000"
+  },
+  "final_url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
+  "truncated": false,
+  "charset": "utf-8"
+}

@@ -1,0 +1,749 @@
+{
+  "period": "daily",
+  "date": "2026-10-17",
+  "packet_sha256": "fb3c8d9e3b01198aca95611ab0a384e66ebf4f6aa10f6744ec7f2c06ea9c8dac",
+  "overview": "本期四项核实增量集中于DeepSeek模型与检索供给、Replit默认分发澄清和RTX Spark零售可用声明。任务成本需合并模型、检索、重试和harness理解，厂商单次评测不能直接排竞争位次。本次为延迟补报；Infra与论文栏目留空，媒体漏采、动态页面及付费正文限制见覆盖说明。",
+  "source_checks": [
+    {
+      "source_id": "meta-muse-card",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "visko",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "stacklok",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "peppermint",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "cls-eastmoney",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "ms-decision",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "ms-nadella",
+      "status": "failed",
+      "note": "X文章本轮获取失败，旧背景仍留库。"
+    },
+    {
+      "source_id": "nous",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "healthleap",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "已查News、API changelog与ChatGPT release notes；News最新10月15日，帮助中心10月16日两节已读。无本窗口新公告被采用，不覆盖全站/账户。"
+    },
+    {
+      "source_id": "openai-api-changelog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "已读News与Research列表；Research10月16日5项列出，内部就业主节补读；新闻最新10月15日。"
+    },
+    {
+      "source_id": "anthropic-research",
+      "status": "checked",
+      "note": "Research列表与employment主节已读；量子电路、ECDSA等全文未审，留待跟进。"
+    },
+    {
+      "source_id": "anthropic-sitemap",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "官网/文档与HF入口实际检查；本期以10月17日官方日志和模型卡为准，社区/用户群未覆盖。"
+    },
+    {
+      "source_id": "deepseek-api-changelog",
+      "status": "checked",
+      "note": "已读2026-10-17更新与Search/Fetch指南，独立调用与工具优惠分开。"
+    },
+    {
+      "source_id": "deepseek-pricing",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "deepseek-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "网页工具和原生浏览器均未读到动态文章列表；已实际尝试；HF入口机器检查不能替代产品博客。"
+    },
+    {
+      "source_id": "qwen-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "已查官方研究列表与HF入口，列表最新7月16日；SCMP信用卡报道未读足官方条款，未采用。"
+    },
+    {
+      "source_id": "kimi-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "zhipu",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "zhipu-cn",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "zhipu-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "failed",
+      "note": "网页工具与原生浏览器只见导航，动态新闻未恢复。"
+    },
+    {
+      "source_id": "minimax-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "mistral",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "meta-newsroom",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "meta-ai-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "deepmind",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "google-ai-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "google-cloud-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "tencent-newsroom",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "tencent-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "bytedance-seed-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "failed",
+      "note": "Press room只返回动态空列表，未能确认本期发布。"
+    },
+    {
+      "source_id": "ant-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "robbyant-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "jd-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "xiaomi-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "openbmb-hf",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "nvidia-newsroom",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "nvidia-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "amd-ir",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "amazon-news",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "samsung-newsroom",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "skhynix-newsroom",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "asml",
+      "status": "checked",
+      "note": "官方press列表本轮恢复，最新Oct14；复用本周财报原始证据。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "已查官方latest-news；周报复用Oct15财报页1–2有限摘录，不重复核电话会。"
+    },
+    {
+      "source_id": "volantis",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "已查release列表最新0.5.21 Oct2与官方blog Oct14；未发现本期可核新版本；不等于无合并PR。"
+    },
+    {
+      "source_id": "sglang-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "已查releases，0.32.0为Oct18 06:50UTC，在日报截止Oct18 01:00UTC之后，排除；补读Oct16 Beam文章入周报。"
+    },
+    {
+      "source_id": "vllm-blog",
+      "status": "checked",
+      "note": "已查blog及Oct16 Beam全文；两篇Kimi优化全文未读，不能声称全部Infra检索完成。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "已查releases，最新Nemotron dev.1为Oct15实验快照；未冒称稳定正式。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "mooncake",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "nvidia",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "pytorch-blog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "本轮RSS entries=0；按Oct16–18补检索无合格结果；不代表无论文。9月28日insecure reporters不能作当天首发，周报选库内已核摘要。"
+    },
+    {
+      "source_id": "metr",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "uk-aisi",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "artificial-analysis",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "artificial-analysis-changelog",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "semianalysis",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "cisa",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "nist",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "bis",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "miit",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "spc",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "mfa",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "gov-cn-policy",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "chongqing-dsjj",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "nda",
+      "status": "failed",
+      "note": "主页正文为空，政策动态未完成核查。"
+    },
+    {
+      "source_id": "techcrunch-ai",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "the-decoder",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "the-verge-ai",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "the-information",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "bloomberg-tech",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "ft-tech",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "ft-ai",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "nyt-tech",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "scmp-tech",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "mit-tech-review",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "ars-ai",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "toms-hardware",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "qbitai",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "采集超时，浏览工具同源亦超时。"
+    },
+    {
+      "source_id": "ithome",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "36kr",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "tmtpost",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "leiphone",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "geekpark",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "zhidx",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "c114",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "mydrivers",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "主页仅有限导航/摘要，会员和公众号正文未覆盖。"
+    },
+    {
+      "source_id": "techmeme-river",
+      "status": "checked",
+      "note": "已完成本轮机器入口采集并检查候选；状态与上限见证据包。未逐篇阅读全文，未据此断言整站无新闻。"
+    },
+    {
+      "source_id": "reflection",
+      "status": "checked",
+      "note": "官方Oct16 Beam交付主文和HF概览/许可核查，较Oct5预览有实质增量。"
+    },
+    {
+      "source_id": "namespace",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "vinci",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "today",
+      "status": "failed",
+      "note": "官方博客不可访问。"
+    },
+    {
+      "source_id": "typesafe",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "globalfoundries",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "cna-reuters",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "odyssey",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "vals-ai",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "epoch-innovationeval",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "decart",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "microsoft-blog",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "mosi",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "modcraft",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "apple-newsroom",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "pluto-security",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "semigraph",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "third-moment",
+      "status": "checked",
+      "note": "已用网页工具打开此配置入口，仅检查可见列表/主文；未见可核本期增量，动态隐藏、全部外链与客户效果未全面审阅。"
+    },
+    {
+      "source_id": "humxn",
+      "status": "checked",
+      "note": "本轮新发现；官网10月6日公告读完，核对品牌/Thomas Unise/服务换数据，作为背景入库而非当天新闻。"
+    },
+    {
+      "source_id": "pilotdeck",
+      "status": "checked",
+      "note": "README核对2.0 Oct15、开源May28；后发媒体不作新首发。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "已按2026-10-16至18执行窗口检索；结果仅线索，部分返回旧文或无精确日期，不作为完整覆盖。未读取的付费正文和微信公众号仍有缺口。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "已做中英文开放发现及官网回查：HUMXN公告Oct6纳背景；NEXFORM官网产品可确认但本期融资一手未补齐；搜索聚合融资/估值不采作事实。"
+    },
+    {
+      "source_id": "techmeme-snapshot",
+      "status": "failed",
+      "note": "261017/h2355历史快照不可访问，未补齐媒体漏采。"
+    }
+  ],
+  "items": [
+    {
+      "event_key": "deepseek-search-fetch-launch-20261017",
+      "section": 0,
+      "title": "DeepSeek开放Search与Fetch，工具调用开始独立按成功请求计费",
+      "article_ids": [
+        "e547d0d8cbe359a05123",
+        "4dc309c2f9cfbf220cd0"
+      ],
+      "facts": [
+        "DeepSeek在10月17日更新日志宣布开放自研搜索能力。Search返回结构化搜索结果，Fetch返回单页Markdown；两者均是可独立调用的JSON API，并非发布一个新的对话订阅。指南无独立发布日期，事件日来自更新日志；日期精度到日，窗口边界仍不确定。",
+        "国际站指南标价：Search和Fetch分别USD0.75/1000次成功且非空的请求；失败、空搜索和超时不计费，返回结果数不改变单次价格。每账户两者各限5QPS，Fetch另有目标域名限制。",
+        "通过DeepSeek API在DeepSeek Harness、Claude Code或Codex使用的服务端工具调用目前免费，自北京时间2026年11月1日00:00开始按次计费；不能把这项临时优惠外推到所有独立API请求。相比既有模型token账单，新增独立工具供给与调用计价。"
+      ],
+      "analysis": "搜索与抓取从模型附属功能变成可替换的Agent组件，有助开发者控制检索链路，也新增工具调用预算。反例是目标站点访问失败或结果质量不佳抵消低价；观察同任务检索成功率、有效引用率、调用次数和11月后的完整账单。",
+      "locators": {
+        "e547d0d8cbe359a05123": "Change Log 2026-10-17 Opening up the in-house search API；指南Search/Fetch、Billing、Rate Limits全文；未调用API或独立核验检索质量。",
+        "4dc309c2f9cfbf220cd0": "Change Log 2026-10-17 Opening up the in-house search API；指南Search/Fetch、Billing、Rate Limits全文；未调用API或独立核验检索质量。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "replit-default-provider-clarification-20261017",
+      "section": 1,
+      "title": "Replit澄清OpenAI成为默认伙伴，Claude仍可选",
+      "article_ids": [
+        "fcf73aabe3e37fa7f998"
+      ],
+      "facts": [
+        "TechCrunch在10月17日更新的完整报道引述CEO Amjad Masad：OpenAI成为Replit Agent首选伙伴及默认模型提供方，理由包括表现、经济性和合作；用户仍能选Claude等模型。匿名知情者称Anthropic合作关系仍在，不能写成全面终止合作。",
+        "报道末尾明确初稿发布于10月16日14:22 PDT（本期之前）；本期增量是周末澄清和更正，更新于10月17日11:48 PDT。公司内部评测未公开完整harness，不据此判断通用模型胜负，也未披露迁移后的采购额。"
+      ],
+      "analysis": "默认入口可能比模型菜单更直接影响推理采购份额，平台议价将同时围绕成本、端到端任务表现和商务支持。反例是用户主动改选、不同任务路由或商业条款改变默认流量；观察实际模型流量、成功率、留存和总账单。",
+      "locators": {
+        "fcf73aabe3e37fa7f998": "正文CEO澄清、匿名知情者反驳及末段originally published/update；完整正文阅读，未经双方合同核验。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "deepseek-v41-flash-1017-release",
+      "section": 2,
+      "title": "DeepSeek V4.1 Flash 1017更新权重与API，单价维持不变",
+      "article_ids": [
+        "e547d0d8cbe359a05123",
+        "17aa6f2c9876fccb865e"
+      ],
+      "facts": [
+        "官方10月17日更新日志称Web、App和deepseek-flash API已切至V4.1-Flash-1017，调用方式与价格不变；模型卡提供MIT许可权重。新增是9月10日版本之后的小版本升级，不能把“每任务成本下降”写成新一轮token降价。",
+        "厂商模型卡报告Terminal-Bench4.0为42.3（旧版31.2），DeepSWEv1.1为77.0（旧版74.2）；分别使用Claude Code和Mini-SWE-V2。HLE纯文本子集与完整集、ZeroBench Pass@5须分开。测试预算、重试与全部基线配置未完整核实，不据表格跨厂商排名。",
+        "厂商称任务运行时间与输出长度减少；这是reported主张，尚无本项目独立任务成本复现。README推荐temperature1.0、top_p1.0、1M上下文；推荐值不等于每项评测实际预算。公告仅到日，边界不确定。"
+      ],
+      "analysis": "若相同任务成功率下输出更短，模型单价不变也能降低整项任务成本，并减少Agent等待时间；收益取决于harness和重试。反例是更短输出省略必要验证，或检索费抵消节约；观察固定任务集的成功率、时间、输出token与工具费用。",
+      "locators": {
+        "e547d0d8cbe359a05123": "2026-10-17更新节及脚注；官方README Introduction、benchmark表及脚注、sampling与MIT；未读完整技术报告或下载权重。",
+        "17aa6f2c9876fccb865e": "2026-10-17更新节及脚注；官方README Introduction、benchmark表及脚注、sampling与MIT；未读完整技术报告或下载权重。"
+      },
+      "reviewed": true
+    },
+    {
+      "event_key": "rtx-spark-retail-available-20261017",
+      "section": 5,
+      "title": "NVIDIA确认RTX Spark笔记本现售，起价USD2399",
+      "article_ids": [
+        "3e1bb6f4d90247655c88"
+      ],
+      "facts": [
+        "NVIDIA10月17日官方博客称RTX Spark笔记本现已可用，列ASUS、Dell、HP、Lenovo、Microsoft、MSI，起价USD2399、统一内存最高128GB；新增是相对此前上市前生态更新的零售可用声明。",
+        "官方介绍Blackwell RTX GPU与Grace CPU组合，并记录六地零售活动。最高内存与起价不一定属于同一SKU，本文未核各地区库存、税费、持续功耗和实际模型容量；不采用缺少精度与负载的峰值算力排名。"
+      ],
+      "analysis": "本地大内存设备可能降低私有原型和离线Agent的部署门槛，使PC厂商与推理软件同时受益。反例是带宽、功耗、兼容性和实际供货限制体验；观察指定SKU交付、持续推理速度、整机成本及与云端相同任务比较。",
+      "locators": {
+        "3e1bb6f4d90247655c88": "官方正文开头、A New Generation及六地活动段；发布时间取官方RSS21:00:13UTC；未作零售或性能独立验证。"
+      },
+      "reviewed": true
+    }
+  ]
+}

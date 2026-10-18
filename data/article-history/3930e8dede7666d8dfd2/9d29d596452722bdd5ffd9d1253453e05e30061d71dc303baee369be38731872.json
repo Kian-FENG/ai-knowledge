@@ -1,0 +1,19 @@
+{
+  "title": "ChatGPT release notes — October 15, 2026",
+  "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  "text": "October 15, 2026. GPT-Live-1.1 and GPT-Live-1.1 Quip, a mini version, are rolling out in ChatGPT Voice, with more natural accents across languages and more short phrases indicating searches. New voice options cover French, German, Hindi, Japanese, Korean and Mexican Spanish, plus Bubbie in English. Voice availability varies by region and account. Site limits (Plus and Pro): no longer a fixed number of Sites; usage and storage limits still apply. Reading scope: October 15 release-note sections only; no account testing.",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "reading_scope": "仅10月15日release-note小节；未测试账户/地域；日期仅到日，时区未知。",
+  "published_at": "2026-10-15T00:00:00+08:00",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "3930e8dede7666d8dfd2",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-16/9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872.txt",
+  "source_sha256": "9d29d596452722bdd5ffd9d1253453e05e30061d71dc303baee369be38731872",
+  "fetched_at": "2026-10-16T01:11:21.166568+00:00"
+}

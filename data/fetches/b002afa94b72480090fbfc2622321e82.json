@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-18/a40fb1174877939fcb4c5bf2f2629a6c034857946adf42945d1cf84b2aea18e6.body",
+  "sha256": "a40fb1174877939fcb4c5bf2f2629a6c034857946adf42945d1cf84b2aea18e6",
+  "source_url": "https://humxn.io/humxn-launches-free-home-service-program",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-18T09:59:41.408758+00:00",
+  "source_id": "humxn",
+  "status": 200,
+  "headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "s-maxage=60, stale-while-revalidate=31535940",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Sun, 18 Oct 2026 09:59:43 GMT",
+    "Etag": "\"9mg8mm6xyv2sfh\"",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Nextjs-Cache": "STALE",
+    "X-Nextjs-Prerender": "1",
+    "X-Nextjs-Stale-Time": "300",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://humxn.io/humxn-launches-free-home-service-program",
+  "truncated": false,
+  "charset": "utf-8"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
+  "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
+  "text": "AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As...\nAI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As a result, the current workflow is split across a laptop, a cloud model API, and a cloud VM. NVIDIA RTX Spark is built for AI development. Thanks to the NVIDIA GB10 system-on-a-chip and large unified memory, developers can run local…\nSource",
+  "published_at": "2026-10-16T17:00:00+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-16T16:46:50+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b4f80026218d11971f35",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-18/7570a29357f952a7ea5db60e17867a244d59d9fb6c832e9e55b28579f91100db.body",
+  "source_sha256": "7570a29357f952a7ea5db60e17867a244d59d9fb6c832e9e55b28579f91100db",
+  "fetched_at": "2026-10-18T09:55:38.169897+00:00"
+}

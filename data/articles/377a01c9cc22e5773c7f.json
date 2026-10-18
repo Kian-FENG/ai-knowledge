@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/6a1ecb1a-a998-4cbb-be54-22df550a66ee?syn-25a6b1a6=1",
+  "title": "Wall Street’s AI wobbles",
+  "text": "Investors are dumping data centre bonds and abandoned listings are piling up",
+  "published_at": "2026-10-16T04:00:27+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "377a01c9cc22e5773c7f",
+  "source_id": "ft-ai",
+  "source_name": "Financial Times AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/0a4049608991b2808b8931c1a4c2719237148b76f0e3259b6a00f66750b5f021.body",
+  "source_sha256": "0a4049608991b2808b8931c1a4c2719237148b76f0e3259b6a00f66750b5f021",
+  "fetched_at": "2026-10-18T09:55:49.497076+00:00"
+}

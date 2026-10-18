@@ -1,0 +1,18 @@
+{
+  "url": "https://openai.com/index/benefit-street-partners",
+  "title": "Benefit Street Partners answers questions faster with Codex",
+  "text": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+  "published_at": "2026-10-16T00:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b6756c0a180ee554226c",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-18/fa7b02fd5d8817d12d712896b08c0758ed43031505eb4b4422bbb44860372a61.body",
+  "source_sha256": "fa7b02fd5d8817d12d712896b08c0758ed43031505eb4b4422bbb44860372a61",
+  "fetched_at": "2026-10-18T09:55:27.061057+00:00"
+}

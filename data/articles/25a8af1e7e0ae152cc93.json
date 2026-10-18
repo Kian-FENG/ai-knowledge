@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-trends/article/3371181/asml-eyes-hybrid-bonding-report-finds-chinese-firms-adopt-chip-packaging-technique",
+  "title": "ASML eyes hybrid bonding, report finds, as Chinese firms adopt chip packaging technique",
+  "text": "Dutch semiconductor equipment giant ASML is expanding into next-generation hybrid bonding, a technique that creates dense electrical connections by directly joining chips or silicon wafers, according to a new report. Major Chinese companies are also adopting the technology to improve chip performance.\nASML submitted 27 patent families related to hybrid bonding tools between December 2022 and November 2024, according to a report published by semiconductor and AI supply chain research firm...",
+  "published_at": "2026-10-16T12:30:12+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "25a8af1e7e0ae152cc93",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/e29651064aae1e910c0f43d9709d30540129596ba4167a03e6ad71cc8ee668c4.body",
+  "source_sha256": "e29651064aae1e910c0f43d9709d30540129596ba4167a03e6ad71cc8ee668c4",
+  "fetched_at": "2026-10-18T09:55:49.154889+00:00"
+}

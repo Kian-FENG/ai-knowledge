@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158310.htm",
+  "title": "英特尔掌机芯片砍掉P核！PTL-080曝光：8核CPU+4核Xe3 GPU",
+  "text": "快科技10月17日消息，据报道，硬件监控工具HWiNFO的预发布更新日志中出现了名为Panter Lake-H 080的新条目，其中Panter为拼写错误，实际指向英特尔尚未正式发布的Arc G系列掌机处理器PTL-080。\n据爆料人Jaykihn在社交平台X上透露，PTL-080的核心配置编码为0+8+0+4。按P核、E核、LPE低功耗能效核及Xe3图形核心的顺序解读，意味着这款芯片没有任何性能核，CPU部分仅由8个能效核构成，GPU则集成4个Xe3核心。\n作为对比，英特尔已发布的Arc G3与Arc G3 Extreme均采用2个P核、8个E核、4个LPE核的组合，合计14个CPU核心。\n两款产品的差异主要在图形单元，G3配备10个Xe3核心，G3 Extreme则为12个。PTL-080不仅GPU核心数大幅缩减，CPU架构也从混合核心调整为纯能效核。\n这并非首款曝光的精简型Arc G芯片。今年8月，Jaykihn曾披露一套编码为4+0+4+4的方案，即4个P核、4个LPE核与4个Xe3核心，目标功耗区间8W至25W。\nJaykihn后续表示，0+8+0+4方案有可能完全取代4+0+4+4，但最终决定尚未敲定。\n4个Xe3核心的图形规模意味着PTL-080的游戏性能将明显落后于Arc G3系列，其定位大概率是更低价的入门级掌机设备。\n目前英特尔尚未公布该芯片的主频、功耗限制、正式命名与售价，所有信息仍属第三方爆料，最终方案以官方发布为准。",
+  "published_at": "2026-10-17T23:31:38+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0b22c72fcd3da2057ba5",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52.body",
+  "source_sha256": "7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52",
+  "fetched_at": "2026-10-18T09:55:58.730930+00:00"
+}

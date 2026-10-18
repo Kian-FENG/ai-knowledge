@@ -1,0 +1,20 @@
+{
+  "url": "https://huggingface.co/tencent/Qwen3-8B-DSpine-b16",
+  "title": "tencent/Qwen3-8B-DSpine-b16",
+  "link_text": "tencent/Qwen3-8B-DSpine-b16",
+  "listing_hint": "2026-10-16T14:52:38.000Z",
+  "id": "c479c768bc32ea901a6a",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "tencent-hf",
+  "source_name": "Tencent · Hugging Face",
+  "section": 2,
+  "raw_path": "raw/2026-10-18/a0a87fe24b27034ab47122e0971c9444636471a9251cd2f4ebf0c0d9d39def48.body",
+  "source_sha256": "a0a87fe24b27034ab47122e0971c9444636471a9251cd2f4ebf0c0d9d39def48",
+  "fetched_at": "2026-10-18T09:55:31.836758+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-18T09:55:31.836758+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

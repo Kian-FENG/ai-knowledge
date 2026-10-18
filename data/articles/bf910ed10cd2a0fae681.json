@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158342.htm",
+  "title": "联想P7 AI主机1024开启预约：此芯P1 SoC + 后摩M50 dNPU方案",
+  "text": "快科技10月18日消息，联想(Lenovo)将于1024“程序员日”14:30在湖南长沙的长沙智谷举行联想AI主机P7超能创享会，并于同日开启这款新品的预约。\n联想AI主机P7基于此芯科技P1 SoC+后摩智能M50 dNPU方案，具备190TOPS本地AI算力，支持122B LLM本地部署，上下文窗口可达128K，本地推理能力达50TPS。\n此芯P1最高支持64GB LPDDR5 6400Mbps内存、4K 120帧显示输出+最多10路外接显示；接口支持4 x USB-C、PCIe 4.0、AI加速卡、2×GMAC等。其机身重量仅为300g，整机最大功耗30W，运行噪音＜35dB(A)。\n据悉，联想P7首发搭载天禧Claw技术架构，可精准、自主地执行复杂任务；全新升级的个人知识库成为个人专属的“私人图书馆”；四层安全守护，护航天禧Claw自主任务执行；全新Skills技能广场上线，天禧生态全面扩容。\n支撑这一性能的是联想与顶尖实验室联合研发的“天行AI计算架构”，在4比特量化下精度比肩16位全精度模型，同参数模型下推理速度提升2至5倍，兼具超快响应、超高精度与超长任务执行力。\n作为全行业唯一支持“一机双模”的设备，该设备不仅支持复杂任务最大化本地执行，还提供大模型API Key，可开放接入任何AI应用和智能体，秒变本地免费Token工厂。",
+  "published_at": "2026-10-18T11:00:25+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "bf910ed10cd2a0fae681",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-18/7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52.body",
+  "source_sha256": "7699cfd00b6b10b87fe4316e952e27579051faeec3666e61d6284b841822aa52",
+  "fetched_at": "2026-10-18T09:55:58.730930+00:00"
+}

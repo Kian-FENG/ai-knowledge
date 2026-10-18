@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0rc3",
+  "title": "v0.32.0rc3: [Bugfix] Fix NaN output of the Mamba2 chunk scan kernel on sm90 (#61718)",
+  "text": "Signed-off-by: Vadim Gimpelson vadim.gimpelson@gmail.com\nCo-authored-by: Claude noreply@anthropic.com",
+  "published_at": null,
+  "announced_at": null,
+  "updated_at": "2026-10-17T00:25:45+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "13d109f5467363c930ba",
+  "source_id": "vllm",
+  "source_name": "vLLM Releases",
+  "section": 3,
+  "raw_path": "raw/2026-10-18/fff659f20926fcca5d742a385bb51dc3af29060079602226c1255a457adf7d35.body",
+  "source_sha256": "fff659f20926fcca5d742a385bb51dc3af29060079602226c1255a457adf7d35",
+  "fetched_at": "2026-10-18T09:55:40.342053+00:00"
+}

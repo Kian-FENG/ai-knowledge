@@ -4,7 +4,7 @@
   "text": "It’s beginning to look like Anthropic waited too late to go public. Third-quarter revenue numbers disclosed to investors on Wednesday implied that its growth has slowed from the second quarter, which we reported is likely to put a ceiling on its IPO valuation. Anthropic might have been better off going public in June, when its growth was still spectacular. (Of course, a June IPO might have been impractical given that that’s when SpaceX went public.)\nAs things stand now, Anthropic’s slowing growth may remind investors of a longstanding question surrounding the company: How much of a moat does it really have? Yes, its AI models are as good as they get, but increasingly, businesses don’t need really expensive frontier models. As we wrote earlier this week, developers are increasingly opting for other models that are good enough for most tasks. Anthropic’s aggressive pricing has prompted companies such as Microsoft to cut its spending on the former’s models, we reported 10 days ago. (This trend seems to be spreading).",
   "published_at": "2026-10-16T00:01:30+00:00",
   "announced_at": null,
-  "updated_at": "2026-10-16T00:08:27+00:00",
+  "updated_at": "2026-10-16T01:21:35+00:00",
   "date_basis": "published",
   "extraction": "feed-content",
   "date_precision": "timestamp",
@@ -12,7 +12,7 @@
   "source_id": "the-information",
   "source_name": "The Information",
   "section": 1,
-  "raw_path": "raw/2026-10-16/f09902847ee64513776baaa302da3c50b68434c909113efe23cd0581276ba15e.body",
-  "source_sha256": "f09902847ee64513776baaa302da3c50b68434c909113efe23cd0581276ba15e",
-  "fetched_at": "2026-10-16T01:03:15.658771+00:00"
+  "raw_path": "raw/2026-10-18/3d321bf6bf22ff3ebffbea582d5a0209bf00ba99d3dbd478a51a9c970e7b21cb.body",
+  "source_sha256": "3d321bf6bf22ff3ebffbea582d5a0209bf00ba99d3dbd478a51a9c970e7b21cb",
+  "fetched_at": "2026-10-18T09:55:48.021684+00:00"
 }

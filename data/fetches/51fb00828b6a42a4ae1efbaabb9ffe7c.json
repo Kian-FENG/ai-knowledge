@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-18/de4929a88271ee3227255eb05886821eea7b7667ac8a99ce56204dd48502d0fa.body",
+  "sha256": "de4929a88271ee3227255eb05886821eea7b7667ac8a99ce56204dd48502d0fa",
+  "source_url": "https://artificialanalysis.ai/articles",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-18T09:55:39.822672+00:00",
+  "source_id": "artificial-analysis",
+  "status": 200,
+  "headers": {
+    "Age": "0",
+    "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Sun, 18 Oct 2026 09:55:40 GMT",
+    "Link": "</_next/static/media/09d69b6d2cb2dadb-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/2894d3242f139187-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/33b0a75b30dd1c81-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/5fc57f0bdf4f18a4-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/7ed4844278386875-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/css/ad2068b0e190da16.css>; rel=preload; as=\"style\", </_next/static/css/a11f285c37ac4068.css>; rel=preload; as=\"style\"",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "X-Matched-Path": "/[locale]/articles",
+    "X-Powered-By": "Next.js",
+    "X-Vercel-Cache": "MISS",
+    "X-Vercel-Id": "sfo1::sfo1::zvrq5-1792317340521-e9ec543e264b",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://artificialanalysis.ai/articles",
+  "truncated": false,
+  "charset": "utf-8"
+}
