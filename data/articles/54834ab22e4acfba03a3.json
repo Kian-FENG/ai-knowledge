@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22733",
+  "title": "Thunder-DeID+: Boundary-Aware Korean De-identification from Court Judgments to Broader Sensitive Documents",
+  "text": "arXiv:2610.22733v1 Announce Type: new\nAbstract: This study examines the transferability of a de-identification model developed for Korean court judgments to a broader range of sensitive documents, focusing on boundary precision, label granularity, and recall. The agglutinative structure of Korean causes Byte Pair Encoding (BPE) tokenizers to frequently merge Personally Identifiable Information (PII) with adjacent particles, which complicates accurate span recovery. Furthermore, current PII taxonomies lack sufficient granularity for legal texts. To address these issues, this study introduces Thunder-DeID+, which integrates a refined three-tier PII taxonomy with a boundary-aware tokenizer. The tokenizer enhances a pretrained BPE vocabulary by incorporating N-gram and boundary-scoring components to better align token and PII span boundaries. The proposed approach is evaluated using a tokenizer-independent word-segment-level protocol. On full-length judgments, the tokenizer consistently improves W. Strict Typed F1-score from 0.76-0.77 to 0.87-0.88 across four model sizes (150M, 395M, 750M, and 1B), mainly by increasing precision rather than model scale. With fine-tuning on 1,000 broader sensitive documents, the judgment-trained model further achieves 0.93 W. Strict Typed F1-score, indicating effective transfer beyond court judgments.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "54834ab22e4acfba03a3",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

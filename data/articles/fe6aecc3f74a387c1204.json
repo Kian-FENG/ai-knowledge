@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158709.htm",
+  "title": "苹果Mac也能玩《塞尔达传说：王国之泪》！M4 MacBook Air跑出90帧",
+  "text": "快科技10月19日消息，近日，一项名为MacNativeGames的开源项目引发游戏玩家关注。开发者liyong成功让任天堂旗下游戏《塞尔达传说：王国之泪》在苹果Mac电脑上运行，并公布了搭载M4芯片的MacBook Air实机演示画面。\n根据开发者公布的数据，《塞尔达传说：王国之泪》在M4 MacBook Air和M4 Mac mini上完成了运行测试，经过着色器缓存预热后，游戏帧率可以达到约90FPS。\n据项目介绍，由于任天堂Switch和苹果Apple Silicon芯片均采用ARM64架构，开发者利用这一共同点，让游戏原有的大量ARM64指令直接在苹果芯片上执行，同时对系统服务和图形接口进行适配。\n在图形渲染方面，项目将Switch使用的NVN图形指令转换至苹果Metal接口，并采用Metal 4及MetalFX等技术，支持2K画面输出、图像放大和帧插值等功能。\n通过这一方案，游戏能够减少传统CPU指令模拟带来的部分性能开销，为苹果芯片运行Switch游戏提供了另一种实现方式。\n目前，MacNativeGames项目已经在GitHub平台开源，支持《塞尔达传说：王国之泪》1.0.0、1.1.2、1.2.1和1.4.3版本，同时支持键盘操作以及Xbox、PlayStation等游戏手柄。\n按照开发者提供的说明，Mac版本需要搭载Apple Silicon芯片、运行macOS 26或更新系统，建议至少配备16GB内存。用户需要自行提供合法获得的游戏文件及相关密钥，再通过项目脚本构建应用。\n值得一提的是，该项目近期更新速度较快。截至10月19日，开发者已经加入iPhone和iPad的实验性支持，并在iPhone 14及搭载A16芯片的iPad上完成了初步游玩测试。",
+  "published_at": "2026-10-19T18:40:17+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "fe6aecc3f74a387c1204",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3.body",
+  "source_sha256": "cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3",
+  "fetched_at": "2026-10-19T22:00:44.426353+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22889",
+  "title": "NLData2Opt: Benchmarking Parameter Derivation and Prediction for Modeling Optimization Problems from Natural Language and Data",
+  "text": "arXiv:2610.22889v1 Announce Type: new\nAbstract: Formulating optimization problems from raw inputs of problem descriptions and data is time-consuming and costly. While Large Language Models (LLMs) offer a promising way to automate this process, existing benchmarks overestimate their capabilities by relying on idealized inputs where all data is relevant and complete. This diverges from reality, where data-centric reasoning is required to extract, compute, and predict parameters from noisy sources. To address this, we introduce NLData2Opt, a benchmark to evaluate LLMs on the multi-stage reasoning inherent in practical optimization workflows. NLData2Opt decomposes problems into problem descriptions and data, and requires models to (1) extract relevant parameters from data containing misleading attributes, (2) compute missing parameters derived by transforming existing data attributes, and (3) predict unavailable future values from historical observations. Evaluation results show substantial performance decline relative to existing benchmarks, indicating that benchmark progress does not directly translate to formulation accuracy in practical optimization workflows. NLData2Opt is available at https://github.com/sumarivyn/NLData2Opt.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "9c1f3428ab65ae4254cc",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

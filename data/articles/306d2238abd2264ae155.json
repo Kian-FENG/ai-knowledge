@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22508",
+  "title": "TCDA: Tunable Coded Distributed Arrays for Data Availability Sampling",
+  "text": "arXiv:2610.22508v1 Announce Type: new\nAbstract: Data availability sampling (DAS) lets blockchain nodes verify a block's data availability by downloading only a few random pieces of it. Its network layer must disseminate each block in time for validators to attest (PUT), store it, and serve any piece on request (GET). A trustless DAS must sustain any number of Byzantine peers. The only known design with this guarantee, Robust Distributed Arrays (RDA), achieves it by full replication: each group of nodes responsible for part of a block stores that part in full, so a single good node per group suffices. The price to pay is a PUT load on the critical path to finality that grows with the network and cannot be tuned, hence the data may not reach validators before the attestation deadline. Coding is the natural remedy, but it was not known when a coded layer remains robust against an unbounded adversary, what it costs, or what it gains. We propose TCDA, a coded layer that is provably robust given enough good nodes, wherever they lie, with a tunable knob: how much of its assigned data each node keeps. Turning the knob trades PUT and storage costs against GET cost. It can be set per data type and adjusted as the good-node population changes. At Ethereum's parameters, our evaluation for a 32 MiB block at the recommended uplink shows that RDA misses the attestation deadline at any network size, whereas TCDA can be tuned to meet it from 868 good nodes up to the 40,000 tested, storing 1.7 to 32 times less per node than replication, at the price of 2.5 to 7.7 round-trips per sample instead of about one.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "306d2238abd2264ae155",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

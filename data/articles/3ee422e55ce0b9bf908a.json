@@ -1,0 +1,18 @@
+{
+  "url": "https://zhidx.com/p/602295.html",
+  "title": "GPT-Image-3要来了？三个神秘代号曝光，网友实测生成猫咪惟妙惟肖",
+  "text": "智东西\n编译 | 孙小雯\n编辑 | 程茜\n智东西10月19日消息，据科技媒体TestingCatalog昨日报道，三个名为aurora-red-alpha、aurora-green-alpha和aurora-blue-alpha的模型条目短暂出现在OpenAI API的模型列表中。随后，测试者在AI模型评测平台Arena发现了同名图像模型，并晒出红、绿两个版本生成的猫咪图片。\nOpenAI未公布这三个模型的身份及发布安排。据外网AI模型测评博主Lumina推测，这可能就是GPT-Image-3。他体验后认为，红版生成更快，但画质稍逊；绿版速度较慢，效果更好，但没有公布具体耗时和完整测试记录；截至其发帖时，他尚未测试到蓝版。\n距离OpenAI上次更新图像模型，才过去一个多月。9月8日，OpenAI发布ChatGPT Images 2.5，推出Flare和Sunburst两个API模型。在Arena 10月7日的文生图总榜中，Sunburst、Flare分列前二。\n▲GPT-Image-2.5两款模型分列文生图榜前二（图源：Arena）\n一、API里先露面，外网博主用Aurora新模型画猫\n此次新模型的线索最初来自开发者社区。\nTestingCatalog称，其通过开发者社区Dev Mode的一则提醒，发现OpenAI API中新增了三个Aurora模型名称。这些条目随后被移除，该媒体据此猜测，这可能是OpenAI新模型的一次意外上线。\nLumina随后发帖称，三个同名模型正在Arena接受图像生成测试。在其公布的截图中，aurora-red-alpha生成了一张近距离猫咪肖像，猫的眼睛、胡须和毛发清晰可见；aurora-green-alpha同样画了一只猫，但取景更宽，背景也更明亮。\n▲Lumina测评red和green模型（图源：X）\n两张图风格上有细微的差异。Lumina形容，红版更像精心构图的肖像，绿版则接近日常拍摄的室内照片。\n从已经公开的两只猫来看，新模型的细节表现不错，不过还没有展现出代际间的巨大差距。TestingCatalog对这些样例的评价是：画面干净、细节丰富，但暂时谈不上惊艳。\n二、Images 2.5已有两款模型，匿名测试也有先例\n三个颜色代号，是否意味着三个独立模型？\nLumina猜测，OpenAI可能正在比较同一模型的不同训练检查点（checkpoint）或配置。从命名来看，三个代号共享“aurora”前缀，仅以颜色区分。目前，公开样例主要来自红、绿两个版本，测试者尚未测到蓝版，也没有公布统一条件下的完整对比结果，三个模型的具体差异仍不清楚。\nOpenAI此前就曾在同一代图像模型中，提供不同速度和精度的选择。今年9月发布的Images 2.5包含两款API模型：Flare面向多数应用，主打生成速度与图像质量；Sunburst强调精细编辑，适合广告素材、产品图片等任务，生成时间更长。\n据OpenAI介绍，Images 2.5相较Images 2.0，生成延迟最多降低50%，并改善了局部编辑和多轮修改中的一致性。例如，当用户只想改一件商品、一处背景或一句文案时，Images 2.5能更好地保留画面中的其他内容。\n该公司公布的合作伙伴反馈也提到了速度提升。Manus评估团队称，在其测试中，Flare生成高质量图片的速度达到GPT-Image-2的2至4倍，同时改善了透明背景的生成效果。\n至于先用代号接受匿名测试、再公布正式身份，模型界也已有先例。\n据Arena官方回顾，谷歌的Nano Banana于2025年8月12日以匿名模型身份出现在平台上，两周后的8月26日，正式以Gemini 2.5 Flash Image的身份发布。\n谷歌后来专门讲述了这个代号的由来：团队临近提交测试时，才敲定“Nano Banana”这个名字。谷歌解释，开发团队会将仍在打磨的模型送到Arena，通过匿名对比收集早期性能信号和真实用户反馈。\n结语：生图榜首已在手，OpenAI仍有新牌？\n10月15日，Black Forest Labs推出56亿参数、开放权重的FLUX 3 Image Klein，继续降低图像模型的部署门槛。生图赛道的竞争，既有头部模型争夺画质排名，也有厂商争取本地部署和定制开发需求。\nImages 2.5目前握有榜单优势，但同行持续推出新模型，OpenAI也需要加快迭代。此次Aurora现身测试平台，或预示着新一轮产品更新正在酝酿。生图模型的竞争还在继续，对于OpenAI来说，能否延续领先表现，如何持续吸引用户和开发者，仍是一场需要不断出牌的竞争。\n来源：TestingCatalog、Lumina、OpenAI、Arena、Google",
+  "published_at": "2026-10-19T22:23:05+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3ee422e55ce0b9bf908a",
+  "source_id": "zhidx",
+  "source_name": "智东西",
+  "section": 5,
+  "raw_path": "raw/2026-10-20/c16213cc7bb743b4b72b7230f8585252c05c3da7a507b3609c51a9de7e082182.body",
+  "source_sha256": "c16213cc7bb743b4b72b7230f8585252c05c3da7a507b3609c51a9de7e082182",
+  "fetched_at": "2026-10-19T22:00:39.756173+00:00"
+}

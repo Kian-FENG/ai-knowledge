@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158644.htm",
+  "title": "Adobe惊爆10.0满分极危漏洞！无需登录即可控制服务器：官方竟冷处理",
+  "text": "快科技10月19日消息，Adobe旗下电子商务网站建设平台Magento和Adobe Commerce近日爆出CVSS 10.0满分漏洞，代号BlockStrap（CVE-2026-103849）。\n远程攻击者无需任何身份验证，也不需要管理员介入，就能在网店服务器上执行任意代码并全面接管主机。Adobe却把这个补丁列为第2级优先，建议商户30天内完成更新，引发安全行业强烈质疑。\n漏洞由安全研究员vozec发现，根源在于Magento的邮件模板引擎存在架构缺陷，官方安全公告APSB26-153发布不到24小时，Sansec研究团队就成功复现了4条不同的远程代码执行（RCE）路径。\n这已经是Magento邮件模板引擎6周内第二个CVSS 10.0满分漏洞，上一个漏洞CVE-2026-756509月初遭大规模零日攻击后，Adobe才紧急发布热修复。\nSansec分析称，虽然攻击链路径相对复杂，但在现代自动化和AI辅助逆向工具普及的当下，把更新补丁反向解析成可用攻击脚本的门槛已大幅降低。\n针对Adobe给出的30天宽限期评级，Sansec批评风险评估过于乐观，强烈呼吁所有电商“立刻召回团队，今天就着手修补”，防止服务器被植入后门或窃取消费者信用卡交易数据。\nSansec的技术解析还显示，本次BlockStrap本质上是对9月防护机制的绕过，Adobe之前的防御逻辑是给可信模板指令加数字签名供验证，但攻击者发现，只要把恶意指令包在子模板里，这条数据照样会被系统连带签名，随后在上一层处理时被触发执行，整套防御架构形同虚设。\nSansec特别提醒，别信Adobe所谓第2级优先和30天内修补的建议，9月的StyleSmuggler热修复和10月的BlockStrap更新彼此独立，商户必须确保两个安全更新都已部署，只打一个无法覆盖全部威胁，而且必须立刻处理，绝不能拖。",
+  "published_at": "2026-10-19T16:49:06+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7ac120205dc2af342eea",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3.body",
+  "source_sha256": "cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3",
+  "fetched_at": "2026-10-19T22:00:44.426353+00:00"
+}

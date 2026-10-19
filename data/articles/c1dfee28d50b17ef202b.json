@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+  "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+  "text": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+  "published_at": "2026-10-19T20:09:24+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c1dfee28d50b17ef202b",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/0361594d5f1806271fd73c2e0921e2c4d83955d585b7e6a243ba7203e19759e6.body",
+  "source_sha256": "0361594d5f1806271fd73c2e0921e2c4d83955d585b7e6a243ba7203e19759e6",
+  "fetched_at": "2026-10-19T22:00:23.449998+00:00"
+}

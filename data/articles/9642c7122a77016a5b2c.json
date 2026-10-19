@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4032758104429449?f=rss",
+  "title": "智元联合NVIDIA及多所高校推出世界模型评测平台WorldOracle",
+  "text": "36氪获悉，智元、NVIDIA及多所高校研究人员联合开发的世界模型评测平台WorldOracle正式上线，并开放评测提交。该平台采用335条真实操作轨迹，约四成交互片段包含失败或次优操作，以真实执行结果检验模型预测能力。对7款世界模型的测试发现，部分模型虽能较准确还原机械臂动作，但对物体状态的预测仍存在较大偏差，长时序预测表现也明显下降。",
+  "published_at": "2026-10-19T20:21:35+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9642c7122a77016a5b2c",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5.body",
+  "source_sha256": "aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5",
+  "fetched_at": "2026-10-19T22:00:32.468104+00:00"
+}

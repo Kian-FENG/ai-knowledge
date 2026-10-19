@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+  "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+  "text": "At a creative industry event that took place today in Berlin — hosted in collaboration with Adobe, Bertelsmann, NVIDIA and UFA — the latest advancements in intelligent media were on display. Key to the news: the European Broadcasting Union (EBU) is collaborating with NVIDIA to expand its sovereign framework with cloud, open models and integration […]",
+  "published_at": "2026-10-19T15:00:31+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ca2be23ea0a1d60912da",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-20/d41bc0f3f788c07fa8755a4c9ea926f9b17f3c4a97a4371abbdf351c1303c73c.body",
+  "source_sha256": "d41bc0f3f788c07fa8755a4c9ea926f9b17f3c4a97a4371abbdf351c1303c73c",
+  "fetched_at": "2026-10-19T22:00:11.602040+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158636.htm",
+  "title": "拒绝大杂烩！英特尔Nova Lake至强E规格泄露：可选16P核或32E核",
+  "text": "快科技10月19日消息，据知名爆料人Jaykihn最新披露，英特尔正基于Nova Lake架构筹备全新的Xeon E处理器系列。\n该系列将采用单一核心类型设计：要么全部使用P核（性能核），要么全部使用E核（能效核），而非像消费级桌面CPU那样将两种核心混合搭配。\n据了解，泄露的产品线包含5种P核配置，分别为4、6、8、12与16核，另有4种E核配置，分别为4、8、16与32核。\n所有这些处理器均不包含LP-E，而LP-E核预计将成为消费级Nova Lake桌面产品线的标配。\nJaykihn在回复Club386时确认了这一架构差异，当被问及混合配置时，他表示需要P核与E核兼备的客户应转而采购常规Nova Lake-S处理器。\n这暗示英特尔有意为边缘计算产品保留独立配置，而非在消费级与Xeon E产品线上沿用同一套架构。\n而即将推出的处理器预计将采用英特尔W980芯片组。该芯片组早于今年2月由Jaykihn披露相关规格，当时他公开了英特尔900系列平台针对LGA-1954接口的细节。\n根据那次爆料，W980支持ECC内存，最多提供48条PCIe通道，并支持英特尔vPro功能。\n不过截至目前，英特尔尚未正式确认Nova Lake至强E的具体配置、频率、功耗限制或发布时间表。",
+  "published_at": "2026-10-19T16:35:15+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3a594fb57ebde0ba546f",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3.body",
+  "source_sha256": "cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3",
+  "fetched_at": "2026-10-19T22:00:44.426353+00:00"
+}

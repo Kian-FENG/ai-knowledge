@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+  "title": "Anthropic gives outside AI watchdog “employee-like” access",
+  "text": "Anthropic has granted external evaluators “employee-like access” to assess the risks of its models, following through on a commitment to increase safeguards over concerns the technology could run catastrophically out of control.\nMETR, a nonprofit that has worked with leading labs including OpenAI, Anthropic, Google, and Meta, now has a team embedded in the Claude maker’s office with access to its hardware and internal systems.\nA greater role for third-party evaluators is among the main concrete steps the labs have proposed in response to rising concern about the dangers more capable AI systems could pose to the economy, cyber security, and humanity at large.\nRead full article\nComments",
+  "published_at": "2026-10-18T16:25:19+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "796bbd796e41457364e7",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-20/e59a4adab26d59fcb9b9d42cd505a46be206ba9d59795f760adf98d6fee5d560.body",
+  "source_sha256": "e59a4adab26d59fcb9b9d42cd505a46be206ba9d59795f760adf98d6fee5d560",
+  "fetched_at": "2026-10-19T22:00:29.904928+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22567",
+  "title": "Who Do Perspectivist Models Predict Well? Annotator Agreement, Sparsity, and Performance",
+  "text": "arXiv:2610.22567v1 Announce Type: new\nAbstract: Successful completion of perspectivist natural language processing (NLP) annotation tasks requires algorithms to be aligned across diverse perspectives in order to predict how different humans will rate text. This work studies how the performance of such algorithms varies for annotators who behave differently than others, either by providing annotations that diverge from others' responses or by providing fewer annotations altogether. To aid with characterizing model performance, we curate the largest collection to date of perspectivist NLP datasets with ordinal annotations. After evaluating multiple classes of perspectivist algorithms across each of the datasets, we model the relationship between individual annotator idiosyncrasy and algorithm performance. In general, we find that algorithms perform better on annotators who tend to agree with others, but that annotator response rate does not have a statistically significant positive correlation with algorithm performance.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "8fe45dd20d7d7e64aeb5",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

@@ -11,6 +11,10 @@ Generated; published pages only. Do not hand-edit.
 
 - `source` [[reference/sources/asml-q3-2026-results-20261014|ASML第三季销售EUR116.62亿，预计2027–2028计划供给仍不足]]
 
+## interview
+
+- `source` [[reference/sources/gewu-embodied-angel-20261018|硬氪访谈：格物通智获近亿元天使轮，具身操作PoC仍待交付]]
+
 ## news
 
 - `source` [[reference/sources/amazon-decart-talks-20261011|Reuters转述WSJ：Amazon洽谈约70亿美元收购Decart，未达成]]
@@ -41,6 +45,7 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/anthropic-genesis-commitment-20261008|Anthropic 承诺三年提供 USD 1.5亿科研资源]]
 - `source` [[reference/sources/anthropic-haiku-55-pricing-20261007|Claude Haiku 5.5 发布：可调effort，价格按100K提示长度分档]]
 - `source` [[reference/sources/anthropic-metr-access-20261015|Anthropic让六名METR评估者获得近似内部风险团队访问]]
+- `source` [[reference/sources/anthropic-public-benefit-fund-20261018|Anthropic公共利益基金拟获5%股份，须经股东批准]]
 - `source` [[reference/sources/anthropic-scion-20261013|Anthropic内部Scion：Agent规模促使源码、审阅和CI重新设计]]
 - `source` [[reference/sources/anthropic-singapore-office-20261014|Anthropic开设新加坡办公室，与政府签署合作备忘录]]
 - `source` [[reference/sources/anthropic-unintended-actions-20261009|Anthropic 披露内部评估越界行为，暂停评估的实时联网]]
@@ -124,6 +129,7 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/rtx-spark-ecosystem-20261013|RTX Spark上市前生态更新：PAIR结束beta，Bolt模型仍待10月15日]]
 - `source` [[reference/sources/rtx-spark-retail-20261017|NVIDIA确认RTX Spark笔记本现售，起价USD2399]]
 - `source` [[reference/sources/runai-open-platform-20261013|NVIDIA开源Run:ai完整平台，GPU调度与组织配额可分模块采用]]
+- `source` [[reference/sources/sapiom-runtime-20260805|Sapiom以执行时路由、预算与权限控制承接生产Agent]]
 - `source` [[reference/sources/semigraph-products-undated|SemiGraph：3D角色与多模态AI互动产品身份背景]]
 - `source` [[reference/sources/spyre-inductor-20261013|IBM以Inductor扩展替代独立编译栈，Spyre适配仍需专用后端]]
 - `source` [[reference/sources/stacklok-agent-architecture-20261010|Stacklok 身份与 ToolHive/Mecatl 架构：新增跟踪背景]]
@@ -173,3 +179,4 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/dynamo-nemotron35-preview-20261015|Dynamo提供Nemotron Super VL实验配方，尚非QA生产版本]]
 - `source` [[reference/sources/flashinfer-v072-20261015|FlashInfer v0.7.2正式版扩展Rubin与Blackwell的MoE和注意力路径]]
 - `source` [[reference/sources/vllm-v0310-20261005|vLLM v0.31.0 正式发布：GPU 权重驻留重启与缓存隔离改进]]
+- `source` [[reference/sources/vllm-v0320-20261018|vLLM v0.32.0正式发布：结构化决策、低精度KV与安全默认值]]

@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.22",
+  "title": "v0.5.22",
+  "text": "Release v0.5.22",
+  "published_at": null,
+  "announced_at": null,
+  "updated_at": "2026-10-15T23:39:11+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6d0f4e95afe7efb24ef4",
+  "source_id": "sglang",
+  "source_name": "SGLang Releases",
+  "section": 3,
+  "raw_path": "raw/2026-10-16/a73ed6d1a4e67b5d2bf4c4ed83ed4d7b74206c564b17155bbf7e798b2b90ed12.body",
+  "source_sha256": "a73ed6d1a4e67b5d2bf4c4ed83ed4d7b74206c564b17155bbf7e798b2b90ed12",
+  "fetched_at": "2026-10-16T01:03:02.685559+00:00"
+}

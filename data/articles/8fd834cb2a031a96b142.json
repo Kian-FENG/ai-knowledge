@@ -1,0 +1,18 @@
+{
+  "url": "https://nvidianews.nvidia.com/news/nvidia-runs-record-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre",
+  "title": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre",
+  "text": "NVIDIA today announced a record-breaking quantum computing simulation on JUPITER, Europe’s first exascale supercomputer, allowing researchers to fully explore and validate magic state cultivation — a leading approach to fault-tolerant quantum computing that requires 90% fewer qubits than previous methods.",
+  "published_at": "2026-10-19T18:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8fd834cb2a031a96b142",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-20/d41bc0f3f788c07fa8755a4c9ea926f9b17f3c4a97a4371abbdf351c1303c73c.body",
+  "source_sha256": "d41bc0f3f788c07fa8755a4c9ea926f9b17f3c4a97a4371abbdf351c1303c73c",
+  "fetched_at": "2026-10-19T22:00:11.602040+00:00"
+}

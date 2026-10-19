@@ -1,0 +1,20 @@
+{
+  "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B-GGUF",
+  "title": "tencent/Hy-Memory-30B-A3B-GGUF",
+  "link_text": "tencent/Hy-Memory-30B-A3B-GGUF",
+  "listing_hint": "2026-10-19T07:52:21.000Z",
+  "id": "01f4b284fc284b410358",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "tencent-hf",
+  "source_name": "Tencent · Hugging Face",
+  "section": 2,
+  "raw_path": "raw/2026-10-20/7bd2e3263e8decde7e9999b7a5a2a7ba8a5fd9eb273d76f037136fedc6157b2f.body",
+  "source_sha256": "7bd2e3263e8decde7e9999b7a5a2a7ba8a5fd9eb273d76f037136fedc6157b2f",
+  "fetched_at": "2026-10-19T22:00:08.780177+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-19T22:00:08.780177+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

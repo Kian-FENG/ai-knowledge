@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-10-19T21:59:55.436541+00:00",
+  "reviewed_at": "2026-10-19T22:09:02.239958+00:00",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-18",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-17T18:00:00-07:00",
+    "end": "2026-10-18T18:00:00-07:00"
+  },
+  "generated_at": "2026-10-19T22:07:31.389535+00:00",
+  "generated_at_la": "2026-10-19T15:07:31.389535-07:00",
+  "report_sha256": "34eb0943e1bce5f10bf4f127339641d8d4c3f9ff93f62ad68c1b70a8787b4413",
+  "packet_sha256": "7d42d2c694251d42858da160411808d9d3786c7381e273a3f6da79a5ac8269e9",
+  "editorial_sha256": "97a149e8594a8fcf38fc364e8a24b7ab5f04e4a1512f76c0be85a82a9ab7eb5e",
+  "events": 4,
+  "new_pages": 6,
+  "updated_pages": 0,
+  "source_reading_limits": "See editorial source_checks / report / pending-evidence",
+  "prior_weekly": "2026-10-16 already complete; skipped unchanged",
+  "checks": {
+    "window": "passed",
+    "source_support": "reviewed-with-explicit-limits",
+    "event_deduplication": "passed",
+    "facts_analysis_separated": true,
+    "knowledge_readback": "6 published pages / hashes checked",
+    "tests": "49 passed",
+    "knowledge_validation": "190 pages passed",
+    "source_validation": "124 sources passed"
+  }
+}

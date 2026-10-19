@@ -1,0 +1,31 @@
+{
+  "raw_path": "raw/2026-10-20/4e9925bd203fbe5a3c64e6c486b8c0e63a393b179eba996a18d2580d008d2d6e.body",
+  "sha256": "4e9925bd203fbe5a3c64e6c486b8c0e63a393b179eba996a18d2580d008d2d6e",
+  "source_url": "https://www.court.gov.cn/index.html",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-19T22:00:22.352674+00:00",
+  "source_id": "spc",
+  "status": 200,
+  "headers": {
+    "Date": "Mon, 19 Oct 2026 22:00:37 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "87952",
+    "Connection": "close",
+    "Accept-Ranges": "bytes",
+    "Content-Security-Policy": "frame-ancestors 'self'",
+    "Etag": "\"6ad692e7-15790\"",
+    "Last-Modified": "Mon, 19 Oct 2026 22:00:07 GMT",
+    "Refere-Policy": "origin",
+    "Strict-Transport-Security": "max-age=31536000",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "SAMEORIGIN",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "master-only",
+    "X-Xss-Protection": "1; mode=block;",
+    "WZWS-RAY": "012-1792447237.630-src-w-cache02yzm-w-waf08yzm",
+    "VAR-Cache": "miss:Bypass"
+  },
+  "final_url": "https://www.court.gov.cn/index.html",
+  "truncated": false,
+  "charset": "utf-8"
+}

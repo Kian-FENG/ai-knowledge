@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+19 Oct 2026\n+New language model evaluation results available\n+MiniMax-M3.1-Flash\n+Intelligence Index: 42\n+MiniMax performance results now available\n+MiniMax-M3.1-Flash\n+18 Oct 2026\n+New language model evaluation results available\n+DeepSeek V4.1 Flash 1017 (Max)\n+Intelligence Index: 45\n+Baseten performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n+Fireworks performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n+Parasail performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n+DeepInfra performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n+DeepSeek performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n-Databricks performance results now available\n-GLM-5.3 (Max)\n-Baseten performance results now available\n-GLM-5.3 (Max)\n-CoreWeave performance results now available\n-Qwen3.8 27B (Xhigh)Gemma 4 31B (Non-reasoning)\n-Microsoft Azure performance results now available\n-GPT-5.5 (High)GPT-5.6 Sol (High)",
+  "id": "05e057e737e31758e93a",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-20/2900de231bd99b18a9dd02e61181896d2e381eb6a13d9e52335e5b03e0e98394.body",
+  "source_sha256": "2900de231bd99b18a9dd02e61181896d2e381eb6a13d9e52335e5b03e0e98394",
+  "fetched_at": "2026-10-19T22:00:18.566704+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-19T22:00:18.566704+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

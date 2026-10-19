@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia",
+  "title": "How DeepSeek Is Shaping Huawei’s AI Chips in a Growing Challenge to Nvidia",
+  "text": "DeepSeek is working closely with Huawei Technologies to shape the design of future AI chips, two people familiar with the matter said, in a collaboration that could help China build frontier AI models without Nvidia’s technology.\nThe relationship goes beyond the kinds of conversations companies have with chip suppliers about their semiconductor road maps. Huawei engineers are incorporating DeepSeek’s requests and suggestions into design decisions, such as how models calculate and move data between processors, for chips that will come out next year and beyond, the people said. To do this work, the Huawei engineers have been stationed at DeepSeek’s offices for an extended period, one of the people said.",
+  "published_at": "2026-10-19T16:00:47+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-19T16:01:13+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5cf17a5ba1928d0e1f5b",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/3bf672d9af8329b75ac378b2fe2646e5bb12ead8bbbc4f552b778a22030c3c71.body",
+  "source_sha256": "3bf672d9af8329b75ac378b2fe2646e5bb12ead8bbbc4f552b778a22030c3c71",
+  "fetched_at": "2026-10-19T22:00:24.919907+00:00"
+}

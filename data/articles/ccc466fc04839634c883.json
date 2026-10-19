@@ -1,0 +1,19 @@
+{
+  "url": "https://api-docs.deepseek.com/updates",
+  "title": "DeepSeek API Change Log：页面内容变化",
+  "summary": "-Change Log | DeepSeek API Docs\n+Your First API Call | DeepSeek API Docs\n-Change Log\n-Change Log\n+Your First API Call\n+Models & Pricing\n+Token & Token Usage\n+Rate Limit & Isolation\n+Error Codes\n+Agent Integrations\n+DeepSeek Harness\n+Claude Code\n+Codex\n+OpenCode\n+OpenClaw\n+Hermes\n+Reasonix\n+WorkBuddy/CodeBuddy\n+Qoder\n+Contribute Your Agent Integrations\n+Your First API Call\n-Change Log\n-Date: 2026-10-17​\n-Opening up the in-house search API​\n-DeepSeek's web and API search capabilities are powered by our in-house DeepSeek search engine, which reliably handles hundreds of millions of search requests from around the world every day. DeepSeek Search is an AI-native general-purpose search engine that indexes hundreds of billions of web pages, supports multilingual search, and returns highly relevant, authoritative, and timely results in real time. It filters SEO spam, GEO manipulation, and low-quality AIGC through strict detection mechanisms, ensuring authoritative and trustworthy information for users and LLMs. For usage details, see the Search & Fetch guide.\n-DeepSeek-V4.1-Flash-1017 Update​\n-DeepSeek V4.1 Flash has been upgraded to DeepSeek-V4.1-Flash-1017. The official web and APP models have also been updated to the new version. The API calling method and pricing remain unchanged — simply use deepseek-flash to access the latest model.\n-Performance–cost Pareto improvement\n-Compared with the previous DeepSeek V4.1, the new model delivers substantial improvements across benchmarks:\n-HLE (w/o tools): 42.6 (44.0*)\n-Terminal-Bench 4.0: 42.3\n-DeepSWE v1.1: 77.0\n-ProgramBench: 29.1\n-NL2Repo-Bench: 68.2\n-Automation-Bench v1.0.6: 60.5\n-Agents' Last Exam: 35.4\n-Apex Bench v1.1: 72.1\n-Chartography (w/tools): 83.0\n-BabyVision (w/tools): 92.5\n-ZeroBench-main (w/tools): 51.0",
+  "id": "ccc466fc04839634c883",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "deepseek-api-changelog",
+  "source_name": "DeepSeek API Change Log",
+  "section": 2,
+  "raw_path": "raw/2026-10-20/cef18d1fc5d7c5600c54210587b390f531f31ecadac2f56e64f4ec74ac11b0d0.body",
+  "source_sha256": "cef18d1fc5d7c5600c54210587b390f531f31ecadac2f56e64f4ec74ac11b0d0",
+  "fetched_at": "2026-10-19T22:00:04.080496+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-19T22:00:04.080496+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

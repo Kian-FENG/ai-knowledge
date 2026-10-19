@@ -1,0 +1,540 @@
+[
+  {
+    "id": "source-anthropic-public-benefit-fund-20261018",
+    "path": "reference/sources/anthropic-public-benefit-fund-20261018.md",
+    "query": "公共利益基金",
+    "published": true,
+    "default_query_visible": true,
+    "source_chain": [
+      {
+        "kind": "evidence",
+        "field": "sources",
+        "target": "https://www.anthropic.com/news/public-benefit-fund",
+        "resolution": {
+          "status": "external",
+          "target": "https://www.anthropic.com/news/public-benefit-fund"
+        }
+      },
+      {
+        "kind": "navigation",
+        "field": "related",
+        "target": "source-anthropic-employment-20261016",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/anthropic-employment-20261016.md",
+          "target": "source-anthropic-employment-20261016"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "source",
+        "target": "raw/2026-10-20/86f78174814505fe704a0329fbfbf4607a4b70bcc0ea6a5f23a8cd8d04952ab3.body",
+        "resolution": {
+          "status": "raw",
+          "path": "raw/2026-10-20/86f78174814505fe704a0329fbfbf4607a4b70bcc0ea6a5f23a8cd8d04952ab3.body",
+          "target": "raw/2026-10-20/86f78174814505fe704a0329fbfbf4607a4b70bcc0ea6a5f23a8cd8d04952ab3.body"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "url",
+        "target": "https://www.anthropic.com/news/public-benefit-fund",
+        "resolution": {
+          "status": "external",
+          "target": "https://www.anthropic.com/news/public-benefit-fund"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "evidence",
+        "target": "raw/2026-10-20/86f78174814505fe704a0329fbfbf4607a4b70bcc0ea6a5f23a8cd8d04952ab3.body",
+        "locator": "官方公告正文第1–9段完整阅读；未审阅股东决议、LLC文件或未公布的估值基线。",
+        "version": "sha256:86f78174814505fe704a0329fbfbf4607a4b70bcc0ea6a5f23a8cd8d04952ab3",
+        "resolution": {
+          "status": "raw",
+          "path": "raw/2026-10-20/86f78174814505fe704a0329fbfbf4607a4b70bcc0ea6a5f23a8cd8d04952ab3.body",
+          "target": "raw/2026-10-20/86f78174814505fe704a0329fbfbf4607a4b70bcc0ea6a5f23a8cd8d04952ab3.body"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "https://www.anthropic.com/news/public-benefit-fund",
+        "resolution": {
+          "status": "external",
+          "target": "https://www.anthropic.com/news/public-benefit-fund"
+        }
+      }
+    ],
+    "raw_hashes_ok": true
+  },
+  {
+    "id": "source-vllm-v0320-20261018",
+    "path": "reference/sources/vllm-v0320-20261018.md",
+    "query": "vLLM v0.32.0",
+    "published": true,
+    "default_query_visible": true,
+    "source_chain": [
+      {
+        "kind": "evidence",
+        "field": "sources",
+        "target": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+        "resolution": {
+          "status": "external",
+          "target": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0"
+        }
+      },
+      {
+        "kind": "navigation",
+        "field": "related",
+        "target": "source-vllm-v0310-20261005",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/vllm-v0310-20261005.md",
+          "target": "source-vllm-v0310-20261005"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "source",
+        "target": "raw/2026-10-20/89518969aab82d142d3b78698a0445f892bb3422acb879f646ce9a7b34ea387c.body",
+        "resolution": {
+          "status": "raw",
+          "path": "raw/2026-10-20/89518969aab82d142d3b78698a0445f892bb3422acb879f646ce9a7b34ea387c.body",
+          "target": "raw/2026-10-20/89518969aab82d142d3b78698a0445f892bb3422acb879f646ce9a7b34ea387c.body"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "url",
+        "target": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+        "resolution": {
+          "status": "external",
+          "target": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "evidence",
+        "target": "raw/2026-10-20/89518969aab82d142d3b78698a0445f892bb3422acb879f646ce9a7b34ea387c.body",
+        "locator": "v0.32.0 Highlights、Release Artifacts、Security、Breaking changes及GitHub Releases API日期字段；未逐项审阅PR、跑分或测试升级。",
+        "version": "sha256:89518969aab82d142d3b78698a0445f892bb3422acb879f646ce9a7b34ea387c",
+        "resolution": {
+          "status": "raw",
+          "path": "raw/2026-10-20/89518969aab82d142d3b78698a0445f892bb3422acb879f646ce9a7b34ea387c.body",
+          "target": "raw/2026-10-20/89518969aab82d142d3b78698a0445f892bb3422acb879f646ce9a7b34ea387c.body"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "evidence",
+        "target": "raw/2026-10-20/aa38d3548ff4dfac1349eb16528e0051bf66a1f4283ed7c9986ea64c8a28054a.json",
+        "locator": "tag_name; created_at; published_at; updated_at; prerelease; draft",
+        "version": "sha256:aa38d3548ff4dfac1349eb16528e0051bf66a1f4283ed7c9986ea64c8a28054a",
+        "resolution": {
+          "status": "raw",
+          "path": "raw/2026-10-20/aa38d3548ff4dfac1349eb16528e0051bf66a1f4283ed7c9986ea64c8a28054a.json",
+          "target": "raw/2026-10-20/aa38d3548ff4dfac1349eb16528e0051bf66a1f4283ed7c9986ea64c8a28054a.json"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+        "resolution": {
+          "status": "external",
+          "target": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0"
+        }
+      }
+    ],
+    "raw_hashes_ok": true
+  },
+  {
+    "id": "source-gewu-embodied-angel-20261018",
+    "path": "reference/sources/gewu-embodied-angel-20261018.md",
+    "query": "格物通智",
+    "published": true,
+    "default_query_visible": true,
+    "source_chain": [
+      {
+        "kind": "evidence",
+        "field": "sources",
+        "target": "https://36kr.com/p/4025325566054529?f=rss",
+        "resolution": {
+          "status": "external",
+          "target": "https://36kr.com/p/4025325566054529?f=rss"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "source",
+        "target": "raw/2026-10-20/aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5.body",
+        "resolution": {
+          "status": "raw",
+          "path": "raw/2026-10-20/aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5.body",
+          "target": "raw/2026-10-20/aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5.body"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "url",
+        "target": "https://36kr.com/p/4025325566054529?f=rss",
+        "resolution": {
+          "status": "external",
+          "target": "https://36kr.com/p/4025325566054529?f=rss"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "evidence",
+        "target": "raw/2026-10-20/aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5.body",
+        "locator": "36氪官方RSS内4199字符正文完整阅读，含融资段、蔡佳访谈与PoC段；原站网页访问失败，正文有少量替换字符，不据乱码推断；未核工商、官网或投资方文件。",
+        "version": "sha256:aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5",
+        "resolution": {
+          "status": "raw",
+          "path": "raw/2026-10-20/aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5.body",
+          "target": "raw/2026-10-20/aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5.body"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "https://36kr.com/p/4025325566054529?f=rss",
+        "resolution": {
+          "status": "external",
+          "target": "https://36kr.com/p/4025325566054529?f=rss"
+        }
+      }
+    ],
+    "raw_hashes_ok": true
+  },
+  {
+    "id": "source-sapiom-runtime-20260805",
+    "path": "reference/sources/sapiom-runtime-20260805.md",
+    "query": "Sapiom执行时路由",
+    "published": true,
+    "default_query_visible": true,
+    "source_chain": [
+      {
+        "kind": "evidence",
+        "field": "sources",
+        "target": "https://www.sapiom.ai/blog/series-a/",
+        "resolution": {
+          "status": "external",
+          "target": "https://www.sapiom.ai/blog/series-a/"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "source",
+        "target": "raw/2026-10-20/2f8f1e933a9d9fade7d78d8e2834ab710f080ca439a5d299389962406f87d6ab.txt",
+        "resolution": {
+          "status": "raw",
+          "path": "raw/2026-10-20/2f8f1e933a9d9fade7d78d8e2834ab710f080ca439a5d299389962406f87d6ab.txt",
+          "target": "raw/2026-10-20/2f8f1e933a9d9fade7d78d8e2834ab710f080ca439a5d299389962406f87d6ab.txt"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "url",
+        "target": "https://www.sapiom.ai/blog/series-a/",
+        "resolution": {
+          "status": "external",
+          "target": "https://www.sapiom.ai/blog/series-a/"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "evidence",
+        "target": "raw/2026-10-20/2f8f1e933a9d9fade7d78d8e2834ab710f080ca439a5d299389962406f87d6ab.txt",
+        "locator": "浏览工具读取官方Announcement、Infrastructure at the point of execution、产品和About段；存为web-tool文本提取快照，非HTTP原始响应；未核注册或客户账单。",
+        "version": "sha256:2f8f1e933a9d9fade7d78d8e2834ab710f080ca439a5d299389962406f87d6ab",
+        "resolution": {
+          "status": "raw",
+          "path": "raw/2026-10-20/2f8f1e933a9d9fade7d78d8e2834ab710f080ca439a5d299389962406f87d6ab.txt",
+          "target": "raw/2026-10-20/2f8f1e933a9d9fade7d78d8e2834ab710f080ca439a5d299389962406f87d6ab.txt"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "https://www.sapiom.ai/blog/series-a/",
+        "resolution": {
+          "status": "external",
+          "target": "https://www.sapiom.ai/blog/series-a/"
+        }
+      }
+    ],
+    "raw_hashes_ok": true
+  },
+  {
+    "id": "entity-sapiom",
+    "path": "reference/entities/sapiom.md",
+    "query": "Sapiom",
+    "published": true,
+    "default_query_visible": true,
+    "source_chain": [
+      {
+        "kind": "evidence",
+        "field": "sources",
+        "target": "source-sapiom-runtime-20260805",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/sapiom-runtime-20260805.md",
+          "target": "source-sapiom-runtime-20260805"
+        }
+      },
+      {
+        "kind": "navigation",
+        "field": "related",
+        "target": "source-sapiom-runtime-20260805",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/sapiom-runtime-20260805.md",
+          "target": "source-sapiom-runtime-20260805"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "evidence",
+        "target": "source-sapiom-runtime-20260805",
+        "locator": "产品与About段；有限阅读范围",
+        "version": "sha256:2f8f1e933a9d9fade7d78d8e2834ab710f080ca439a5d299389962406f87d6ab",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/sapiom-runtime-20260805.md",
+          "target": "source-sapiom-runtime-20260805"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "reference/sources/sapiom-runtime-20260805",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/sapiom-runtime-20260805.md",
+          "target": "reference/sources/sapiom-runtime-20260805"
+        }
+      }
+    ],
+    "raw_hashes_ok": true
+  },
+  {
+    "id": "note-execution-governance-and-delivery-20261018",
+    "path": "research/synthesis/execution-governance-and-delivery-20261018.md",
+    "query": "治理约束进入执行路径",
+    "published": true,
+    "default_query_visible": true,
+    "source_chain": [
+      {
+        "kind": "evidence",
+        "field": "sources",
+        "target": "source-anthropic-public-benefit-fund-20261018",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/anthropic-public-benefit-fund-20261018.md",
+          "target": "source-anthropic-public-benefit-fund-20261018"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "sources",
+        "target": "source-vllm-v0320-20261018",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/vllm-v0320-20261018.md",
+          "target": "source-vllm-v0320-20261018"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "sources",
+        "target": "source-gewu-embodied-angel-20261018",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/gewu-embodied-angel-20261018.md",
+          "target": "source-gewu-embodied-angel-20261018"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "sources",
+        "target": "source-sapiom-runtime-20260805",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/sapiom-runtime-20260805.md",
+          "target": "source-sapiom-runtime-20260805"
+        }
+      },
+      {
+        "kind": "navigation",
+        "field": "related",
+        "target": "source-anthropic-public-benefit-fund-20261018",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/anthropic-public-benefit-fund-20261018.md",
+          "target": "source-anthropic-public-benefit-fund-20261018"
+        }
+      },
+      {
+        "kind": "navigation",
+        "field": "related",
+        "target": "source-vllm-v0320-20261018",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/vllm-v0320-20261018.md",
+          "target": "source-vllm-v0320-20261018"
+        }
+      },
+      {
+        "kind": "navigation",
+        "field": "related",
+        "target": "source-gewu-embodied-angel-20261018",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/gewu-embodied-angel-20261018.md",
+          "target": "source-gewu-embodied-angel-20261018"
+        }
+      },
+      {
+        "kind": "navigation",
+        "field": "related",
+        "target": "source-sapiom-runtime-20260805",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/sapiom-runtime-20260805.md",
+          "target": "source-sapiom-runtime-20260805"
+        }
+      },
+      {
+        "kind": "navigation",
+        "field": "related",
+        "target": "entity-sapiom",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/entities/sapiom.md",
+          "target": "entity-sapiom"
+        }
+      },
+      {
+        "kind": "navigation",
+        "field": "related",
+        "target": "note-agent-total-cost-and-delivery-20261017",
+        "resolution": {
+          "status": "resolved",
+          "path": "research/synthesis/agent-total-cost-and-delivery-20261017.md",
+          "target": "note-agent-total-cost-and-delivery-20261017"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "evidence",
+        "target": "source-anthropic-public-benefit-fund-20261018",
+        "locator": "Key Takeaways / Detailed Notes / Questions Raised",
+        "version": "sha256:86f78174814505fe704a0329fbfbf4607a4b70bcc0ea6a5f23a8cd8d04952ab3",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/anthropic-public-benefit-fund-20261018.md",
+          "target": "source-anthropic-public-benefit-fund-20261018"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "evidence",
+        "target": "source-vllm-v0320-20261018",
+        "locator": "Key Takeaways / Detailed Notes / Questions Raised",
+        "version": "sha256:89518969aab82d142d3b78698a0445f892bb3422acb879f646ce9a7b34ea387c",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/vllm-v0320-20261018.md",
+          "target": "source-vllm-v0320-20261018"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "evidence",
+        "target": "source-gewu-embodied-angel-20261018",
+        "locator": "Key Takeaways / Detailed Notes / Questions Raised",
+        "version": "sha256:aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/gewu-embodied-angel-20261018.md",
+          "target": "source-gewu-embodied-angel-20261018"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "evidence",
+        "target": "source-sapiom-runtime-20260805",
+        "locator": "Key Takeaways / Detailed Notes / Questions Raised",
+        "version": "sha256:2f8f1e933a9d9fade7d78d8e2834ab710f080ca439a5d299389962406f87d6ab",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/sapiom-runtime-20260805.md",
+          "target": "source-sapiom-runtime-20260805"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "reference/sources/anthropic-public-benefit-fund-20261018",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/anthropic-public-benefit-fund-20261018.md",
+          "target": "reference/sources/anthropic-public-benefit-fund-20261018"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "reference/sources/vllm-v0320-20261018",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/vllm-v0320-20261018.md",
+          "target": "reference/sources/vllm-v0320-20261018"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "reference/sources/gewu-embodied-angel-20261018",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/gewu-embodied-angel-20261018.md",
+          "target": "reference/sources/gewu-embodied-angel-20261018"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "reference/sources/sapiom-runtime-20260805",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/sources/sapiom-runtime-20260805.md",
+          "target": "reference/sources/sapiom-runtime-20260805"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "reference/entities/sapiom",
+        "resolution": {
+          "status": "resolved",
+          "path": "reference/entities/sapiom.md",
+          "target": "reference/entities/sapiom"
+        }
+      },
+      {
+        "kind": "evidence",
+        "field": "body",
+        "target": "research/synthesis/agent-total-cost-and-delivery-20261017",
+        "resolution": {
+          "status": "resolved",
+          "path": "research/synthesis/agent-total-cost-and-delivery-20261017.md",
+          "target": "research/synthesis/agent-total-cost-and-delivery-20261017"
+        }
+      }
+    ],
+    "raw_hashes_ok": true
+  }
+]

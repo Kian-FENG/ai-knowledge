@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/cce1d9b5-5f36-4c42-ab7b-1b74fc788773?syn-25a6b1a6=1",
+  "title": "FTSE as hedge",
+  "text": "Plus, midterms and AI",
+  "published_at": "2026-10-19T05:30:05+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "24bd2f933c5ada421672",
+  "source_id": "ft-tech",
+  "source_name": "Financial Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/9f66eab097d7e0f3540ec4b43b54059e2532e31f615f89e911df5dc821866d27.body",
+  "source_sha256": "9f66eab097d7e0f3540ec4b43b54059e2532e31f615f89e911df5dc821866d27",
+  "fetched_at": "2026-10-19T22:00:26.706896+00:00"
+}

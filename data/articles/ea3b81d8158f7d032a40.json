@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+  "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+  "text": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+  "published_at": "2026-10-19T15:37:09+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ea3b81d8158f7d032a40",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/0361594d5f1806271fd73c2e0921e2c4d83955d585b7e6a243ba7203e19759e6.body",
+  "source_sha256": "0361594d5f1806271fd73c2e0921e2c4d83955d585b7e6a243ba7203e19759e6",
+  "fetched_at": "2026-10-19T22:00:23.449998+00:00"
+}

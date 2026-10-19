@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/video-games/pc-gaming/chip-fab-engineering-game-goes-viral-in-taiwan-realistic-and-stressful-simulation-is-basically-a-horror-game-say-some-players",
+  "title": "Web-based chip fab engineering game goes viral in Taiwan",
+  "text": "A new 3D web game where you live \"A Day in the Life of a Semiconductor Wafer Factory Worker\" has gone viral in Taiwan, where it was developed. Available in Chinese, English, and Japanese, Fab24hr is a work simulator where you play one of several semiconductor engineer roles in a blocky isometric 3D factory. Though the graphics might look basic, Taiwan’s TVBS news says that the game is so realistic that it resonates with fab workers but not always in a good way – some have likened it to \"a horror game\" or \"prison\" [machine translation].Fab24hrFab24hrFab24hrFab24hrFab24hr\nIf you head over to the Fab24hr site, the game UI loads pretty quickly and you are asked to input a character name and ‘Clock in.’ Then two game modes are presented. You can play the main story, dubbed ‘The life of a chip’ where you character works through 12 chapters shepherding a hearing-aid chip from the R&D line into the hands of an end user. In this mode your blocky fab worker character will simulate dealing with equipment failures, process anomalies, and production progress emergencies. You might also have to file reports about operational errors. Apparently there are three endings to this 12-chapter game, depending on your progress and decisions.\nAnother game mode is called ‘A day in the fab.’ Here you pick a factory location and role. For example, you can choose to be a Process Engineer. Your day started with the ETCH-03 semiconductor tool breaking, and “everyone is waiting for you to say what time it will be fixed.” Though this might sound like you’ve been thrown in at the deep end, if you pay attention to the handover from the previous shift, there should be clues to get you by. Technical terms are explained in the game so even those with no semiconductor industry experience should be able to ‘enjoy’ this escapade.\nI briefly tested the game in my browser, where it ran without issues. It didn’t take long to understand why some Taiwanese fab veterans felt this simulator was kind of stressful, or even “super scary.” It isn’t the kind of free-time escapism I’m looking for.",
+  "published_at": "2026-10-18T12:50:33+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "35059d03d4cf07adbe0d",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-20/cc8f0cc75f126d02592612dc035af185c465f79364685988ea86ab40b04d5a56.body",
+  "source_sha256": "cc8f0cc75f126d02592612dc035af185c465f79364685988ea86ab40b04d5a56",
+  "fetched_at": "2026-10-19T22:00:30.252526+00:00"
+}

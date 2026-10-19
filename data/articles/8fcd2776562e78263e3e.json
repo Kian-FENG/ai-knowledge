@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/15a049f3-b62e-40ed-b304-8a2452713338",
+  "title": "Data centres need protection from drone warfare",
+  "text": "AI infrastructure designs may now need to incorporate blast-resistant concrete, jamming gear and missile-defence systems",
+  "published_at": "2026-10-19T14:31:32+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8fcd2776562e78263e3e",
+  "source_id": "ft-tech",
+  "source_name": "Financial Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/9f66eab097d7e0f3540ec4b43b54059e2532e31f615f89e911df5dc821866d27.body",
+  "source_sha256": "9f66eab097d7e0f3540ec4b43b54059e2532e31f615f89e911df5dc821866d27",
+  "fetched_at": "2026-10-19T22:00:26.706896+00:00"
+}

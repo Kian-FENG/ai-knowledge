@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+  "title": "Four Gemini 4 Argon agents beat Minecraft without any human help",
+  "text": "Four AI agents running on Google's Gemini 4 Argon have beaten Minecraft for the first time without human help, slaying the Ender Dragon in a fully autonomous run. With no predefined roles or strategies, they coordinated on their own, wrote 2,783 programs, exchanged 229 chat messages, and died 605 times. The session cost $1,620.\nThe article Four Gemini 4 Argon agents beat Minecraft without any human help appeared first on The Decoder.",
+  "published_at": "2026-10-18T12:39:51+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9466e30e907dd46390ad",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/7bd611ba3b45d1c62ee6f91205fdf05dc4b6691a307798d24315e22017c0b2b5.body",
+  "source_sha256": "7bd611ba3b45d1c62ee6f91205fdf05dc4b6691a307798d24315e22017c0b2b5",
+  "fetched_at": "2026-10-19T22:00:25.738399+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22892",
+  "title": "Bengali Hallucination Detection with Retrieval and Programs: A System Study",
+  "text": "arXiv:2610.22892v1 Announce Type: new\nAbstract: Bengali hallucination detection must distinguish unsupported factual claims from incorrect reasoning, often without a supplied reference passage. We present and characterize an inference-only system that combines response-conditioned query rewriting, hybrid retrieval, and task-specific language-model judging. Six retrieval routes search question-answer and passage collections; a router directs each example to a 27B textual judge or a 14B agent that can compare retrieved answers, reason directly, or generate and execute Python. We characterize the system using version-specific code, saved predictions, execution traces, and corpus metadata from the Olikbochon challenge. Kaggle associates a displayed private macro-F1 of 0.956 with Version 2; its saved run processes 2,516 examples in 220.99 minutes on two T4 GPUs. Of 253 math-routed examples, 88 terminate through candidate matching, while execution traces expose 49 stderr-bearing run events across 35 examples. A later run changes six predictions despite identical core worker code. A bounded audit of 1,090 benchmark-related corpus records finds exact question or context overlap for 38 processed evaluation inputs, precluding an unqualified claim of corpus-independent generalization. The contribution is a concrete retrieval-and-computation judging architecture with an auditable operational characterization, not a controlled estimate of component gains. We distinguish the reported leaderboard result from independently recomputed diagnostics and identify the evidence needed for stronger effectiveness and reproducibility claims.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b8687e97a8497700f986",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

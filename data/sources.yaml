@@ -1313,3 +1313,15 @@ sources:
   enabled: true
   checked_at: '2026-10-18'
   note: README News标明2.0于10月15日发布；AGPL-3.0、工作区和路由主张已读，未运行或复现。
+
+- id: sapiom
+  name: Sapiom Official Blog
+  section: 1
+  poll_hours: 24
+  checked_at: '2026-10-19'
+  group: official
+  kind: web
+  url: https://www.sapiom.ai/blog/
+  fetch: browser
+  enabled: true
+  note: 官网融资及产品归属已通过浏览工具核查；机器采集许可未核实，使用浏览入口。

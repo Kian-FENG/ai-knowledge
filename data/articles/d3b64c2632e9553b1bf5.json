@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/microsoft-pulls-nscale-u-k-data-center-following-delays",
+  "title": "Microsoft Pulls Out of Nscale U.K. Data Center Following Delays",
+  "text": "Microsoft has pulled out of a planned U.K. data center Nscale was building for it, an Nscale spokesperson said, after the cloud provider faced delays accessing power to bring the site online.\nThe cancellation is likely to weigh on Nscale’s planned public offering this month as investor concerns ...",
+  "published_at": "2026-10-18T20:08:27+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-19T16:12:05+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d3b64c2632e9553b1bf5",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/3bf672d9af8329b75ac378b2fe2646e5bb12ead8bbbc4f552b778a22030c3c71.body",
+  "source_sha256": "3bf672d9af8329b75ac378b2fe2646e5bb12ead8bbbc4f552b778a22030c3c71",
+  "fetched_at": "2026-10-19T22:00:24.919907+00:00"
+}

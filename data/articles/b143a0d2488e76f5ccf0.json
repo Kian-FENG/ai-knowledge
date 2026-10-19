@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22597",
+  "title": "Broad and Efficient PII Detection with Unified Labels",
+  "text": "arXiv:2610.22597v1 Announce Type: new\nAbstract: Personally Identifiable Information (PII) detection models must efficiently find identifiers across diverse contexts while maintaining a low false-positive rate (FPR) on high-volume traffic. Recent detectors increasingly rely on complex architectures that raise deployment cost, yet many are fine-tuned on only a few synthetic datasets that limit their coverage. Combining public datasets is challenging because their taxonomies differ, and even after categories are mapped to a common schema, labels can disagree on what counts as a detection, producing inconsistent training and evaluation signals. To address these problems, we present a practical 141M-parameter encoder-based detector trained on 1.12 million examples from 77 public datasets, relabeled under a detailed definition of broad contextual detection for 12 structured PII categories. Evaluated on the AI4Privacy and Nemotron-PII benchmarks at a low-FPR operating point, our model achieves the highest recall against larger baselines in 11 of 14 comparisons under our labels and 9 of 14 under the original labels. Its largest recall gains include useful additional coverage, such as multilingual disclosures and IP addresses embedded in URLs. It achieves this with 2-10x higher throughput and 94-97% less peak GPU memory than the baselines, delivering leading detection performance at substantially lower cost.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b143a0d2488e76f5ccf0",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

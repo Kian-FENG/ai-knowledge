@@ -1,0 +1,64 @@
+Sapiom Raises $35 Million Series A to Power the Next Trillion AI Agents | Sapiom (https://www.sapiom.ai/blog/series-a/)
+citeturn18view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.sapiom.ai/blog/series-a/","lineno":null}); Total lines: 70
+L0: cite0†Skip to content L1: 
+L2: Sapiom raises $50Mcite1†Read storyRead L3: 
+L4: Productscite2†Blog cite3†Careers L5: 
+L6: cite4†Talk to us†sapiom.cal.com L7: 
+L8: News 5 August 2026 6 min read
+L9: # Sapiom Raises $35 Million Series A to Power the Next Trillion AI Agents.
+L10: 
+L11: Sapiom removes the infrastructure barriers to shipping and scaling agents, starting with the cost of execution.
+L12: 
+L13: Sapiom Company news
+L14: 
+L15: cite5†LinkedIn†www.linkedin.com cite6†X†x.com L16: 
+L17: cite7†Image L18: 
+L19: cite8†Announcement cite9†What Sapiom does cite10†New products cite11†Traction cite12†About Sapiom L20: SAN FRANCISCO, August 5, 2026. Sapiom, the platform builders use to ship, run, and scale AI agents, today announced a $35 million Series A. The round was led by Dragonfly, with participation from Accel, Gradient, Coinbase Ventures, Operator Collective, Formus Capital, and VanEck Ventures, alongside continued backing from existing investors including Okta Ventures, Menlo Ventures, Anthropic, and Array Ventures.
+L21: The Series A comes six months after Sapiom’s $15 million seed round and just 11 months after the company was founded, bringing total funding to $50 million.
+L22: ## From demo to production.
+L23: 
+L24: AI has made it possible to build capable agents faster than ever, but most never make it into production. The challenge is no longer getting an agent to work once. Rather, it is getting that agent to perform real work continuously, take actions, and scale without becoming unreliable, uncontrollable, or economically unsustainable.
+L25: 
+L26: cite13†Gartner forecasts†www.gartner.com that more than 40% of agentic AI projects will be canceled by the end of 2027, citing escalating costs first.
+L27: ## Infrastructure at the point of execution.
+L28: 
+L29: Sapiom removes the infrastructure barriers between a working agent demo and an agent running in production. The first barrier it is addressing is cost. Most agents run on infrastructure choices made once during development and rarely revisited. They execute through the same static stack for every task, even as requirements, prices, performance, and availability change. Instead of choosing the best path at runtime, they remain locked into yesterday’s decisions.
+L30: Sapiom sits at the point of execution, turning fixed infrastructure choices into real-time decisions. For every action, it selects the best allowed path across models, compute, tools, and services based on the requirements of the task, cost, quality, latency, reliability, and company policy. Budgets and permissions are enforced before execution, and every action is metered and recorded in a complete audit trail.
+L31: ## Sapiom Router, Agent Studio, and Sapiom Runtime.
+L32: 
+L33: Alongside the financing, Sapiom is launching Sapiom Router, Agent Studio, and Sapiom Runtime.
+L34:   * Router matches each model call to the right model instead of defaulting to the most expensive one.
+L35:   * Agent Studio gives engineering teams a local environment to build, test, inspect, and deploy agents with the context of their existing codebase.
+L36:   * Runtime provides the managed production infrastructure where those agents execute with the access, routing, recovery, step-level visibility, and controls required to operate at scale.
+L37: ## Operating at scale.
+L38: 
+L39: Since launching six months ago, the platform has processed more than 270 million transactions across more than 100,000 agents running daily. One customer reduced inference costs by 75% after moving their agents to Sapiom.
+L40: 
+L41: $35M Series A
+L42: 
+L43: $50M Total funding
+L44: 
+L45: 75%Inference savings for one customer
+L46: > Teams can build remarkable agent demos in days, but getting those agents into production economically, reliably, and with control is still brutally hard.
+L47: >
+L48: > Ilan Zerbib, Founder and CEO, Sapiom
+L49: “Every team is being forced to recreate the same infrastructure before its agents can perform real work,” Zerbib said. “Sapiom exists to remove those barriers. We are starting with cost because it is where the economics break first, but our ambition is much larger: to remove whatever stands between builders and the next trillion agents.”
+L50: > Agents are becoming employees with no manager and no budget, and increasingly, the CTO is the one acting as CFO, allocating real money with no visibility into where it goes.
+L51: >
+L52: > Haseeb Qureshi, General Partner, Dragonfly
+L53: 
+L54: “That’s not a governance problem you solve with another dashboard,” Qureshi said. “It’s an infrastructure problem, and it needs to be solved at the point where agents act and money moves. Sapiom is the only team that we have seen execute this at scale.”
+L55: As part of the round, Haseeb Qureshi, General Partner at Dragonfly, will join Sapiom’s board of directors.
+L56: ## About Sapiom.
+L57: 
+L58: Sapiom is the platform builders use to ship, run, and scale AI agents. It removes the infrastructure barriers between a working agent demo and an agent running in production, helping engineering teams operate agents economically, reliably, and with control. Sapiom’s mission is to unlock the next trillion agents.
+L59: Founded in San Francisco in 2025 by Ilan Zerbib, Sapiom has raised $50 million from investors including Dragonfly, Accel, Gradient, Coinbase Ventures, Okta Ventures, Menlo Ventures, Anthropic, Array Ventures, Operator Collective, Formus Capital, and VanEck Ventures.
+L60: Sapiom is hiring across engineering, ML, GTM, and DevRel, with a particular focus on routing policy, inference systems, and post-training. We operate our own inference capacity and see tens of millions of real agent executions, turning hard research questions into production engineering problems. We are a small team with no layers, shipping every day. Join us at cite14†sapiom.ai/careers†sapiom.ai .
+L61: 
+L62: Learn more at cite15†sapiom.ai†sapiom.ai .
+L63: 
+L64: Media Contact: media@sapiom.ai
+L65: Payment infrastructure for AI companies.
+L66: 
+L67: Productscite16†Connect cite17†Card vault cite18†Payments cite19†IssuingEarly access cite20†VoiceEarly access cite21†Agent identity cite22†Rules cite23†Observability cite24†Recovery & casesEarly access cite25†InsuranceEarly access Companycite3†Careers cite4†Contact†sapiom.cal.com Resourcescite2†Blog cite26†Documentation†docs.sapiom.ai cite4†Contact†sapiom.cal.com L68: 
+L69: © 2026 Sapiom, Inc.cite27†Privacy†docs.sapiom.ai cite28†Terms†docs.sapiom.ai 

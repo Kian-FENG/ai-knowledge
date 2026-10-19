@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/pc-components/gpu-drivers/vbios-on-rtx-cards-can-be-modified-without-flashing-thanks-to-a-solo-developers-project-provides-a-ui-for-quick-vbios-configuration",
+  "title": "You can now modify the vBIOS on Nvidia gaming GPUs without flashing thanks to a solo developer’s project",
+  "text": "Panchovix on GitHub recently released a VBIOS configurator for RTX 30-to 50-series cards that doesn’t require flashing. The loader provides a UI for easy configuration and lowers the risk of bricking your GPU by avoiding a risky flash process, and it's available for Linux, too.\nGo deeper with TH Premium: GPUs\n(Image credit: Noctua)\nDesktop GPU Roadmap\nNvidia's Enterprise GPU Roadmap\nTesting DirectStorage with GPU decompression\nThe GeForce RTX 30-series upgrade matrix — does your Ampere GPU need an upgrade in 2026?\nRubin in-depth\nThe Stout Owl: The ultimate Noctua G2 PC\nSoftware like MSI Afterburner or ASUS GPU Tweak is often the go-to tool for quickly changing your graphics card’s settings; however, those tools have hard limits to how much you can push the graphics card. If you want to tweak your GPU beyond the firmware’s set limits, you can change it by tweaking the parameters in the VBIOS. Configuring VBIOS is similar to changing BIOS settings in the BOOT menu. With the VBIOS loader, you can change settings beyond the firmware’s hard limits.\nThe way it works is by storing the modified VBIOS image in the GPU’s register key; as the Nvidia driver looks for a VBIOS override on startup, it finds the VBIOS image and restarts, applying the override settings. The flash chip on the graphics card is not overwritten, reducing the risk of bricking your GPU. However, this does not protect the card from any extreme settings that could destroy electrical components; it merely provides a safer and more convenient way to adjust and apply VBIOS settings, including a way to roll back to the default VBIOS settings should you face any instability.\nBricking a flash chip isn’t as catastrophic as it seems, however. As long as you have a backed-up version of the VBIOS, you can easily buy an SPI flash chip programmer or even build your own using a cheap Raspberry Pi Pico and its many clones; sometimes programming the flash chip may not even require desoldering. Programming a flash chip is very tedious and inconvenient, though, which is why avoiding the risk of a botched flash process altogether is so appealing.\nUnless you’re familiar with power delivery, voltage tables, and the patience required to test for hours, we wouldn’t recommend jumping into this unless you’re prepared to risk your GPU. However, you can still safely take advantage of this software by tweaking the fan curves and other settings you’ve applied and tested in software like MSI Afterburner if, for some reason, the startup settings don’t stick. This software will give your GPU new default settings that override at every startup, so long as Nvidia doesn’t remove the registry key that allows the VBIOS override.",
+  "published_at": "2026-10-19T16:30:39+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "71199fcace6e04e1c7a7",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-20/cc8f0cc75f126d02592612dc035af185c465f79364685988ea86ab40b04d5a56.body",
+  "source_sha256": "cc8f0cc75f126d02592612dc035af185c465f79364685988ea86ab40b04d5a56",
+  "fetched_at": "2026-10-19T22:00:30.252526+00:00"
+}

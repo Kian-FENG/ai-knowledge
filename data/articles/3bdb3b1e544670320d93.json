@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22919",
+  "title": "Where's the Indirect Evidence? Investigating Grammatical Generalization with Influence Functions",
+  "text": "arXiv:2610.22919v1 Announce Type: new\nAbstract: Language models generalize beyond their training corpus to learn linguistic phenomena (Patil et al., 2024; Misra and Mahowald, 2024), showing that there exists indirect evidence driving learning. Prior work has inferred that indirect evidence exists without identifying its character or considered specific hypotheses about what it might be. We explore an alternative bottom-up method for identifying indirect evidence. We use influence functions (Koh and Liang, 2017) to measure how individual training sentences affect model predictions in 15 grammatical phenomena from BLiMP (Warstadt et al., 2020). We filter out a phenomenon's direct evidence using hand-constructed rules and take the 60,000 most influential remaining sentences as indirect evidence. This indirect evidence substantially affects learning: retraining without it lowers held-out accuracy more than removing a matched random group for every phenomenon across five models (by a median of 12 points). We characterize the indirect evidence by its similarity to our direct evidence filters: it (partially) meets the filters' structural conditions at a median of 4.7 times the rate of a matched random group. Finally, clustering phenomena by indirect-evidence overlap recovers three of the five BLiMP categories that include multiple phenomena, suggesting that this method can reveal linguistic relationships.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "3bdb3b1e544670320d93",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

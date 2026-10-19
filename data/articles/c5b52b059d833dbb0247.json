@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158640.htm",
+  "title": "比DS V4.1 Flash-1017更强更便宜 又一款国产AI今天发布",
+  "text": "快科技10月19日消息，国产大模型已经进入新一轮高密度发布周期了，DeepSeek V4.1 Flash-1017已经惊艳登场，今晚据悉还有一款比它还强还便宜的国产大模型发布。\nAI领域的大V@MaxForAI刚刚预告，他被告知一款备受瞩目的模型即将于今天发布，同时Agentic能力优于deepseek_ai的V4.1-Flash-1017。\n不仅性能更强了，价格还会更低——不过他随后提到这个价格不包括缓存的，在这方面DeepSeek的优势是很难超越的。\nMaxForAI之前预告且测试了多个国产大模型，爆料准确度还是很可信的，限于NDA现在是不能说这个大模型是来自哪家的。\n如果只看性能，智谱GLM-5.5或者Kimi K3.1超过V4.1 Flash都没问题，毕竟这两个都是旗舰级大模型，但这次的新品还要在价格上比V4.1 Flash要便宜，那就可以排除上面这两款大模型了。\n结合今天中午就有的爆料，今晚发布的这个大模型有可能是稀宇科技的MiniMax M3.1 Flash，之前已经发过预览版，不过那时候的表现谈不上多好，更不太可能超过V4.1-Flash-1017。\nMiniMax M3.1 Flash也被人扒出已经在官网上线，1M上下文，支持多模态，支持low到max思考深度，但不可关闭，是专为Coding/Agent优化的轻量级大模型。\n当然，也有可能今晚发布的这个不是MiniMax M3.1 Flash，是智谱的GLM-5.5 Flash或者Kimi K2.8正式版，甚至有可能是一个不那么出名的国产AI大模型公司的新品，国产大模型中的黑马还是不少的。",
+  "published_at": "2026-10-19T16:41:38+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c5b52b059d833dbb0247",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3.body",
+  "source_sha256": "cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3",
+  "fetched_at": "2026-10-19T22:00:44.426353+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158708.htm",
+  "title": "腾讯AI管家Marvis原生版上架银河麒麟！适配飞腾、华为海思麒麟等国产CPU",
+  "text": "快科技10月19日消息，今日，麒麟软件宣布，腾讯旗下AI管家Marvis原生版正式上架银河麒麟软件商店，用户现可直接下载安装。\n据了解，Marvis由腾讯应用宝团队打造，定位为操作系统级个人AI管家，能够连接本地文件、应用软件及跨端设备，为用户提供一站式AI办公体验。\n与传统对话式AI不同，Marvis不仅能够回答问题，还可以直接调用电脑中的应用和功能，帮助用户完成实际操作。\n功能方面，Marvis支持软件下载与调用、电脑设置与体检、文档图片查找处理、知识检索、任务自动化、跨端远程控制等多项能力，覆盖日常办公中的多种使用场景。\n值得一提的是，此次上架的Marvis原生版提供X86-64和ARM64双架构版本，兼容多款国产处理器。\n其中，国产CPU平台覆盖飞腾、鲲鹏、海光、兆芯、华为海思麒麟等品牌，同时支持Intel、AMD等主流计算平台。\n麒麟软件表示，此次上架银河麒麟软件商店，Marvis团队围绕银河麒麟桌面环境开展了专项适配与测试验证。\n此次适配也意味着，搭载不同架构、不同品牌处理器的银河麒麟终端用户，均有机会使用Marvis提供的AI办公功能，进一步拓展国产操作系统的AI应用生态。",
+  "published_at": "2026-10-19T18:35:58+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f4b3fe6ac310f654e4e1",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3.body",
+  "source_sha256": "cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3",
+  "fetched_at": "2026-10-19T22:00:44.426353+00:00"
+}

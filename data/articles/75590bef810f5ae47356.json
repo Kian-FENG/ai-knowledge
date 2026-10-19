@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1158/1158725.htm",
+  "title": "性价比斩杀DS V4.1 Flash 国模MiniMax M3.1 Flash发布",
+  "text": "快科技10月19日消息，一如下午预告的那样，稀宇科技刚刚发布了MiniMax M3.1 Flash大模型，在性价比斩杀线中把才夺冠没多久的DeepSeek V4.1 Flash-1017给超了。\n据官方所说，此前以匿名身份处理了超过 200T Token 的 Space Bunny，正是 MiniMax M3.1 Flash的早期版本，今晚是正式发布。\n官方表示，作为新一代Flash 模型，M3.1 Flash在Agentic任务、编程、Computer Use及网络安全能力等方面实现了代际的提升，同时线上推理速度提升了近3倍，使用成本降低了70%。\nM3.1 Flash在多项基准测试中取得了全面进步，在复杂Agent任务 (Cowork)、Computer Use、软件开发 (Coding) 及网络安全方面，达到了领先模型水平。\n价格方面，Agentic类任务中，模型的综合使用成本较前代模型降低了70%。输入价格为每百万Token 1元，输出价格为每百万Token 4元，缓存读取价格为每百万Token 0.1 元——这个定价跟V4.1 Flash的闲时价格是一样的，但缓存0.1元的价格比后者的0.02元高不少，所以实际费用还得看Token效率。\n在官方公布的对比测试中，加入了与V4.1 Flash-1017版的评测，但不是所有项目都有对比，M3.1 Flash也不是每个项目都赢了，总体上跟V4.1 Flash互有胜负，水平相当。\n但在每任务的对比中，M3.1 Flash的帕累托曲线是赢了V4.1 Flash的，性价比更高。\n编程为主的DeepSWE评测中，M3.1 Flash比V4.1 Flash略逊一筹，写代码应该还是后者更强。\n目前M3.1 Flash 现已正式上线MiniMaxAPI、MPlan以及 MiniMax Code中，并将于稍后开放权重。\n不过也有网友反馈称MiniMax方面又改了旧套餐的规则，建议购买之前再看看其他人的反馈再做决定。",
+  "published_at": "2026-10-19T19:49:15+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "75590bef810f5ae47356",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3.body",
+  "source_sha256": "cca82b950a893812f6784e8ffd3d46483b1a8281680bee3c87cbf3315c73bda3",
+  "fetched_at": "2026-10-19T22:00:44.426353+00:00"
+}

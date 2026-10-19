@@ -2,6 +2,15 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-20
+
+- `entity` [[reference/entities/sapiom|Sapiom：Agent执行基础设施与成本控制]]
+- `source` [[reference/sources/anthropic-public-benefit-fund-20261018|Anthropic公共利益基金拟获5%股份，须经股东批准]]
+- `source` [[reference/sources/gewu-embodied-angel-20261018|硬氪访谈：格物通智获近亿元天使轮，具身操作PoC仍待交付]]
+- `source` [[reference/sources/sapiom-runtime-20260805|Sapiom以执行时路由、预算与权限控制承接生产Agent]]
+- `source` [[reference/sources/vllm-v0320-20261018|vLLM v0.32.0正式发布：结构化决策、低精度KV与安全默认值]]
+- `note` [[research/synthesis/execution-governance-and-delivery-20261018|从推理引擎到物理交付，治理约束开始进入执行路径]]
+
 ## 2026-10-18
 
 - `entity` [[reference/entities/humxn|HUMXN：以专业工作流程与家政补贴采集AI训练数据]]

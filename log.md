@@ -155,3 +155,10 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 10月17日日报4事件与10月16日周报21事件。新增10source、HUMXN entity与综合note，更新Reflection交付时间线；原始hash、事件日期/更新日和有限阅读逐页保存。reported与derived独立，source-checked只表示支持关系，未作独立实测。待review/finalize/readback。
 
 本批13页已review/finalize发布、默认query/get_page可见且raw证据hash通过；184页结构校验、123来源配置和49项离线测试通过。12新增、1更新；其余旧来源去重复用。
+
+
+## 2026-10-19 automation-ai 补10月18日日报
+
+新建4来源、Sapiom实体与综合note；Sapiom8月5日为背景，格物通智实体身份待核；Nscale退出仅feed原句纳有限报道，不把窗口外Reuters更新当当期确认。6页完成原文范围核对与综合，待审核发布及回查。
+
+本批6页已审核发布，默认自然语言query与get_page/证据raw hash回查通过；190页结构、124来源与49离线测试通过。日报4事件，149候选/49线索/7无日期，空栏目和覆盖缺口如实保留；待本轮选择性Git提交推送。

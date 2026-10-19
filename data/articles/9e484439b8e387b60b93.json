@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/a-chinese-hacker-used-ai-agents-to-break-into-more-than-100-company-websites-deere-and-sharkninja-among-websites-hit-by-open-source-ai-powered-problem-solving-platform-demo",
+  "title": "A Chinese hacker used AI agents to break into more than 100 company websites",
+  "text": "A Chinese-speaking hacker has been observed using artificial intelligence (AI) agents to probe and then gain unauthorized access to more than 100 websites belonging to some extremely well-known companies. From Deere, the farming equipment manufacturer, to SharkNinja, the company behind beloved kitchen appliances, the agents were able to leverage exposed instances of Carin, an open-source AI-powered problem-solving platform that has proven popular among hackers, a Reuters report explains.\nThis is just the latest example of hackers turning to AI agents in an attempt to level up their attacks on unsuspecting companies and services. Snorre Fagerland, principal threat researcher at the cybersecurity company NorForge, spotted the hacker's antics when observing Carin instances that had been inadvertently exposed.\nFagerland was able to watch multiple hackers go about their business, but the Chinese-speaking hacker was the most prolific, the report says. They targeted businesses based in the United States, Canada, Australia, and Japanese e-commerce sites. Notably, the hacker didn't get into detail when commanding their legion of AI agents. Fewer than 100 Chinese characters were used, yet the agents had attempted ot break into more than 1,200 different websites as of the week ending October 18, 2026.\nThese agents weren't simply throwing everything at a wall and hoping it stuck, either. Security researcher Fagerland was \"impressed\" by some of the tactics that had been used. In one case, the AI agents scoured digital records to find infrastructure associated with their target, located a public-facing control panel, identified a weakness, and then leveraged it to force the execution of malicious commands, the Reuters report detailed. \"It's ⁠not straightforward to come up with solutions like that,\" Fagerland told Reuters. \"It's not script kiddie stuff.\"\nVitally, the approach of using AI agents in this way means that they can be given instructions and then left to their own devices. With no supervision required, those commanding the agents are free to turn their attention elsewhere. While SharkNinja told Reuters that the attack only impacted a site used for product support information, the rest of the AI-aided hackers had more luck. One of the hackers monitored by Gargerland stole credit card data, while another tried to steal from a cryptocurrency exchange — although it isn't clear whether they were successful.",
+  "published_at": "2026-10-19T15:36:50+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9e484439b8e387b60b93",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-20/cc8f0cc75f126d02592612dc035af185c465f79364685988ea86ab40b04d5a56.body",
+  "source_sha256": "cc8f0cc75f126d02592612dc035af185c465f79364685988ea86ab40b04d5a56",
+  "fetched_at": "2026-10-19T22:00:30.252526+00:00"
+}

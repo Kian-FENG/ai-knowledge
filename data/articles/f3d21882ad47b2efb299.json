@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22657",
+  "title": "Secondhand Stress: How Stressful Disclosures Affect Psychosocial Wellbeing in Online Graduate Admissions Communities",
+  "text": "arXiv:2610.22657v1 Announce Type: new\nAbstract: Online communities provide spaces for individuals navigating stressful life transitions to disclose difficulties and seek peer support. Yet encountering others' distress may also have psychosocial implications for community members. Drawing on stress crossover theory, we examine how engagement with peer distress during graduate admissions is associated with subsequent psychosocial expression and participation, and whether similar associations extend through downstream interactions. We analyze 171,981 posts and 1,130,413 comments from two Reddit communities across three admissions cycles, using propensity-score stratification and baseline-adjusted comparisons. Users who engaged with distress disclosures during application preparation subsequently exhibited higher classifier-estimated anxiety, depression, and stress expression, alongside greater commenting activity and lexical redundancy. These associations recurred across admissions cycles, while no significant psychosocial associations were detected among downstream respondents interacting with previously exposed users. Our findings highlight how greater distress-related expression can coexist with continued community participation, while distinguishing direct engagement with distress disclosures from subsequent social contact. We discuss implications for designing online communities that preserve opportunities for self-disclosure and peer support while remaining attentive to the experiences of those encountering distress-related content.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "f3d21882ad47b2efb299",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

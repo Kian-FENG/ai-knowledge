@@ -1,0 +1,37 @@
+{
+  "period": "daily",
+  "date": "2026-10-18",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-18",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-17T18:00:00-07:00",
+    "end": "2026-10-18T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "7d42d2c694251d42858da160411808d9d3786c7381e273a3f6da79a5ac8269e9",
+  "editorial_sha256": "97a149e8594a8fcf38fc364e8a24b7ab5f04e4a1512f76c0be85a82a9ab7eb5e",
+  "report_path": "reports/daily/2026/10/2026-10-18/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-18/7d42d2c694251d42858da160411808d9d3786c7381e273a3f6da79a5ac8269e9.json",
+  "events": 4,
+  "generated_at": "2026-10-19T22:07:31.389535+00:00",
+  "timezone": "America/Los_Angeles",
+  "report_sha256": "34eb0943e1bce5f10bf4f127339641d8d4c3f9ff93f62ad68c1b70a8787b4413",
+  "actual_generated_at": "2026-10-19T15:07:31.389535-07:00",
+  "knowledge_pages": 6,
+  "quality_review": {
+    "window": "passed",
+    "source_support": "reviewed-with-explicit-limits",
+    "event_deduplication": "passed",
+    "facts_analysis_separated": true,
+    "knowledge_readback": "6 published pages / hashes checked",
+    "tests": "49 passed",
+    "knowledge_validation": "190 pages passed",
+    "source_validation": "124 sources passed"
+  },
+  "render_adjustments": [
+    "显示实际America/Los_Angeles生成时间",
+    "仅日期来源不显示解析器补齐的午夜",
+    "空栏目说明与阅读范围/入库回执"
+  ]
+}

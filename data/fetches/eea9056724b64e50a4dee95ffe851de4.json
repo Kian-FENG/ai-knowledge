@@ -1,0 +1,23 @@
+{
+  "raw_path": "raw/2026-10-20/c16213cc7bb743b4b72b7230f8585252c05c3da7a507b3609c51a9de7e082182.body",
+  "sha256": "c16213cc7bb743b4b72b7230f8585252c05c3da7a507b3609c51a9de7e082182",
+  "source_url": "https://zhidx.com/rss",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-19T22:00:39.756173+00:00",
+  "source_id": "zhidx",
+  "status": 200,
+  "headers": {
+    "Server": "nginx/1.12.2",
+    "Date": "Mon, 19 Oct 2026 22:00:41 GMT",
+    "Content-Type": "text/xml; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "X-Powered-By": "PHP/7.2.12",
+    "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "Cache-Control": "no-store, no-cache, must-revalidate",
+    "Pragma": "no-cache"
+  },
+  "final_url": "https://zhidx.com/rss",
+  "truncated": false,
+  "charset": "utf-8"
+}

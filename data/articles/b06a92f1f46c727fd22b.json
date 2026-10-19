@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22934",
+  "title": "ASR-Style Transcript Normalization Removes Useful Pragmatic Signal for Dialogue Act Classification",
+  "text": "arXiv:2610.22934v1 Announce Type: new\nAbstract: Automatic speech recognition (ASR) pipelines often normalize transcripts by removing filled pauses and punctuation and expanding colloquial forms, potentially discarding cues useful for dialogue act classification. We evaluate nine transcript conditions across six classifiers (TF-IDF logistic regression, RoBERTa, BERT, ALBERT, GPT-2, and BiLSTM) and three conversational corpora (Switchboard, ICSI MRDA, and SLUE-HVB), supplemented by multi-seed experiments, normalization controls, and real-ASR evaluations. Across five random seeds, heavy normalization reduces Macro-F1 in all 15 neural model-corpus combinations under the original preprocessing protocols. Removal using the original filler and backchannel lexicon consistently degrades performance on MRDA and SLUE-HVB but produces mixed effects on Switchboard. Punctuation-aware TF-IDF experiments show that punctuation removal reduces Macro-F1 by 0.036 on Switchboard and 0.078 on MRDA, demonstrating that the original linear baseline's apparent insensitivity resulted from tokenization. Restricting filler removal to um, uh, and erm preserves degradation on MRDA but largely eliminates the SLUE-HVB effect, where the original lexicon removes class-defining backchannel expressions. These findings demonstrate that normalization effects depend on preprocessing definitions, feature extraction, and conversational context, supporting task-dependent rather than indiscriminate transcript normalization.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b06a92f1f46c727fd22b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

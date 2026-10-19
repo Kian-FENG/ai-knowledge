@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/anthropic-commits-least-5-shares-new-public-benefit-fund",
+  "title": "Anthropic Commits At Least 5% of Shares to New Public Benefit Fund",
+  "text": "Anthropic announced the creation of a new fund that will get at least 5% of its shares and support public-benefit causes such as addressing the employment impact of AI.\nThe Anthropic Public Benefit Fund could get an additional 2% of the company’s shares on top of the initial 5% commitment, at ...",
+  "published_at": "2026-10-18T20:57:11+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-19T16:12:05+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "630f9d0267c6491770e4",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/3bf672d9af8329b75ac378b2fe2646e5bb12ead8bbbc4f552b778a22030c3c71.body",
+  "source_sha256": "3bf672d9af8329b75ac378b2fe2646e5bb12ead8bbbc4f552b778a22030c3c71",
+  "fetched_at": "2026-10-19T22:00:24.919907+00:00"
+}

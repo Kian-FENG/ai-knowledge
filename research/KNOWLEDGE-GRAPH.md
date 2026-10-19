@@ -280,3 +280,8 @@
 ## 2026-10-17日报与10月16日周报增量
 
 [[research/synthesis/agent-total-cost-and-delivery-20261017|Agent总成本、交付与审阅约束]]
+
+
+## 2026-10-18日报增量
+
+[[research/synthesis/execution-governance-and-delivery-20261018|执行治理与交付约束]]

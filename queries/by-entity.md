@@ -15,6 +15,7 @@ Generated; published pages only. Do not hand-edit.
 - `entity` [[reference/entities/peppermint|Peppermint：AI 与人工结合的临床试验账单平台]]
 - `entity` [[reference/entities/pluto-security|Pluto Security：AI工具供应链与运行时治理]]
 - `entity` [[reference/entities/reflection|Reflection：Beam 模型的开发者]]
+- `entity` [[reference/entities/sapiom|Sapiom：Agent执行基础设施与成本控制]]
 - `entity` [[reference/entities/semigraph|SemiGraph：3D角色与多模态AI互动]]
 - `entity` [[reference/entities/stacklok|Stacklok：MCP 治理与云原生 Agent 执行平台]]
 - `entity` [[reference/entities/third-moment-research|Third Moment Research：工作流定制与持续改进推理服务]]

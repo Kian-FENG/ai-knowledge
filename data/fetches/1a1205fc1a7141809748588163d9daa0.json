@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-20/af1aa58cbe1429006cf6a443b40edea4995bf9d701f3c5c399aa1e4d69d0e389.body",
+  "sha256": "af1aa58cbe1429006cf6a443b40edea4995bf9d701f3c5c399aa1e4d69d0e389",
+  "source_url": "https://www.c114.com.cn/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-19T22:00:41.829623+00:00",
+  "source_id": "c114",
+  "status": 200,
+  "headers": {
+    "Server": "Tengine",
+    "Content-Type": "text/html",
+    "Content-Length": "41033",
+    "Connection": "close",
+    "Date": "Mon, 19 Oct 2026 21:56:07 GMT",
+    "Cache-Control": "Public",
+    "X-Powered-By": "ASP.NET",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Via": "cache18.l2cn9466[0,0,200-0,H], cache39.l2cn9466[1,0], ens-cache10.cn8656[54,53,200-0,M], ens-cache24.cn8656[56,0]",
+    "Age": "276",
+    "Ali-Swift-Global-Savetime": "1792446967",
+    "X-Cache": "MISS TCP_REFRESH_MISS dirn:-2:-2",
+    "X-Swift-SaveTime": "Mon, 19 Oct 2026 22:00:43 GMT",
+    "X-Swift-CacheTime": "24",
+    "Timing-Allow-Origin": "*",
+    "EagleId": "7abfab2c17924472431811786e"
+  },
+  "final_url": "https://www.c114.com.cn/",
+  "truncated": false,
+  "charset": "gb18030"
+}

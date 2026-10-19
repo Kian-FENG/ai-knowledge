@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+  "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+  "text": "On Monday, a court granted the US government's request to deny release of a former OpenAI engineer accused of bugging a top-secret conference room to steal the frontier lab’s secrets.\nIn a court filing Sunday, US attorney Craig Missakian argued that Abdulrahman Alfozan must continue to be detained while the US makes its case that Alfozan brazenly spied on OpenAI, either for his own personal business gain or to benefit the Kingdom of Saudi Arabia.\nEvidence showed that Alfozan had been chatting with a member of the KSA royal family on WhatsApp, while pursuing opportunities to permanently move back to Saudi Arabia during the country's biggest AI push yet, the government argued. Shortly before his arrest, the FBI found he accessed a folder called \"Saudi Gov Docs\" on his iPhone, where he also allegedly stored photos of a second bug he planted in the offices.\nRead full article\nComments",
+  "published_at": "2026-10-19T20:21:53+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "21dc8fc69ccc990a68e3",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-20/e59a4adab26d59fcb9b9d42cd505a46be206ba9d59795f760adf98d6fee5d560.body",
+  "source_sha256": "e59a4adab26d59fcb9b9d42cd505a46be206ba9d59795f760adf98d6fee5d560",
+  "fetched_at": "2026-10-19T22:00:29.904928+00:00"
+}

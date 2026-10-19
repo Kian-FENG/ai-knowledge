@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22953",
+  "title": "Recognizing Atari and Assessing Sente: Controlled Evaluation Tasks for Language-Based Go Agents",
+  "text": "arXiv:2610.22953v1 Announce Type: new\nAbstract: Domain terminology provides concise descriptions of game states and strategic relationships, but whether game-playing language models can accurately recognize these concepts and relate them to move evaluation remains unclear. We construct a controlled evaluation set centered on atari and its relationship to sente in Go, examining terminology recognition under local board changes and move evaluation under different strategic conditions. We conduct our tests on LoGos, a Go language model, after fine-tuning it with terminology and commentary supervision. The model struggles to recognize changes in the atari relationship and assess its strategic implications. Its terminology predictions are associated with move preferences even when those preferences contradict the reference evaluation. Our controlled tests provide a framework for examining whether language-based Go agents connect domain terminology with precise board relationships and strategic move values.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d442eaadc466c7787f34",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

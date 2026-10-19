@@ -1,0 +1,26 @@
+{
+  "raw_path": "raw/2026-10-20/bfa6f948be2ca8085ca6eedaa79fa3f8f8fbffd4de2d1444f3fb892f008d6dca.body",
+  "sha256": "bfa6f948be2ca8085ca6eedaa79fa3f8f8fbffd4de2d1444f3fb892f008d6dca",
+  "source_url": "https://news.skhynix.com/en/feed/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-19T22:00:15.455226+00:00",
+  "source_id": "skhynix-newsroom",
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/rss+xml; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Date": "Mon, 19 Oct 2026 22:00:16 GMT",
+    "Last-Modified": "Mon, 19 Oct 2026 06:20:24 GMT",
+    "ETag": "\"53cdafb90eb7dabf0cde4912b32537fb\"",
+    "Server": "Apache",
+    "Link": "<https://news.skhynix.com/en/wp-json/>; rel=\"https://api.w.org/\"",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 e1c58c40260ab4676220a9a738c87722.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "SFO53-P8",
+    "X-Amz-Cf-Id": "YcCFS4qyieSZZ24fsbWQojfOXT8eEmvjq1UmrSy4J-b2lguuc52HmQ=="
+  },
+  "final_url": "https://news.skhynix.com/en/feed/",
+  "truncated": false,
+  "charset": "utf-8"
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-09-22-python-bytecode-startup",
+  "title": "Reducing vLLM startup time with one uv flagSep 22, 2026·7 min readShipping Python bytecode saved about 18 seconds per startup in H100 server benchmarks, with images and models already local.",
+  "link_text": "Reducing vLLM startup time with one uv flagSep 22, 2026·7 min readShipping Python bytecode saved about 18 seconds per startup in H100 server benchmarks, with images and models already local.",
+  "id": "6dab5e7222f73a0320e6",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-20/c5eef7b4026699729ab0e09e8b234725d6f553ef42cfe4b37fa0f23c0ca3c988.body",
+  "source_sha256": "c5eef7b4026699729ab0e09e8b234725d6f553ef42cfe4b37fa0f23c0ca3c988",
+  "fetched_at": "2026-10-19T22:00:15.585459+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-19T22:00:15.585459+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

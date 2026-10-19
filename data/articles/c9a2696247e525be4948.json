@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4032748449026946?f=rss",
+  "title": "MiniMax M3.1 Flash上线，性能全面加强，速度提升3倍，价格降低70%",
+  "text": "36氪获悉，MiniMax正式发布新一代Flash模型M3.1 Flash。此前以匿名身份处理了超过 200T Token 的 Space Bunny 模型，正是MiniMax M3.1 Flash的早期版本。作为新一代 Flash 模型，M3.1 Flash在Agentic任务、编程、Computer Use及网络安全能力等方面实现了代际的提升，同时线上推理速度提升了近3倍，使用成本降低了70%。据MiniMax预告，追求更高智能上限的Pro版本将于不久后推出。",
+  "published_at": "2026-10-19T20:03:51+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c9a2696247e525be4948",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5.body",
+  "source_sha256": "aeac8c4683d1b76d237535d89c07106540a42d43a5038622f44e110962f4e5b5",
+  "fetched_at": "2026-10-19T22:00:32.468104+00:00"
+}

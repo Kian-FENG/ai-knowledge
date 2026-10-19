@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22796",
+  "title": "Causal Latent Workspaces for Looped Transformers",
+  "text": "arXiv:2610.22796v1 Announce Type: new\nAbstract: Reusing a Transformer block across depth increases computation without replicating its parameters, but successive passes have no dedicated state through which positions can exchange compact summaries of their causal prefix. We introduce the causal latent workspace Transformer: an anchored, four-round shared-depth architecture in which each position writes gated vectors into prefix-specific latent slots and retrieves a content-addressed summary before the next shared block application. This path complements causal self-attention while the original input embedding remains accessible at every round. Across three byte-level corpora, three seeds, and two matched parameter budgets, the proposed model achieves the best mean held-out perplexity in five of six settings against five Transformer controls. At 101.71M parameters it leads on WikiText-103 raw, enwik8, and TinyStories, reaching perplexities 2.7820, 2.7843, and 1.6823; these improve upon the strongest non-workspace control on each corpus by 1.06%, 0.73%, and 1.01%. All nine seed-labelled comparisons at this budget favor the workspace. At 0.918M parameters it leads on WikiText-103 and TinyStories, whereas a conditioned loop is stronger on enwik8. Architectural ablations show that adding the workspace improves upon the anchored loop in all six settings and support refreshing its causal summaries at each round. Together, these results identify a causal, content-addressable prefix workspace as an effective structural augmentation of looped Transformers.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d6a0c7283f51df9c0bc8",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

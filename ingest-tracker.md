@@ -234,3 +234,15 @@
 - reference/entities/humxn.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
 - reference/entities/reflection.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
 - research/synthesis/agent-total-cost-and-delivery-20261017.md：原文归档、对象/URL/hash含草稿查重、有限阅读与综合关联、审核发布及默认query/get_page回查完成；raw hash核对通过。
+
+
+## automation-ai-2026-10-18
+
+- reference/sources/anthropic-public-benefit-fund-20261018.md：已归档、查重、限定阅读与综合，待review/finalize/readback。
+- reference/sources/vllm-v0320-20261018.md：已归档、查重、限定阅读与综合，待review/finalize/readback。
+- reference/sources/gewu-embodied-angel-20261018.md：已归档、查重、限定阅读与综合，待review/finalize/readback。
+- reference/sources/sapiom-runtime-20260805.md：已归档、查重、限定阅读与综合，待review/finalize/readback。
+- reference/entities/sapiom.md：已归档、查重、限定阅读与综合，待review/finalize/readback。
+- research/synthesis/execution-governance-and-delivery-20261018.md：已归档、查重、限定阅读与综合，待review/finalize/readback。
+
+本批6页全部review/finalize/default-query/get_page完成，raw hash通过；4source+1entity+1note新增、0知识页更新。格物通智entity与Nscale完整原始材料未完成，见本期pending-evidence。

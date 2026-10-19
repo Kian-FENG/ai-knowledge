@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-19/us-futures-climb-with-semiconductor-stocks-rebounding-after-rout",
+  "title": "Tech Stocks Pull S&P 500 Higher as Opportunistic Buyers Step In",
+  "text": "Chips companies rallied in Monday trading, helping stocks rebound after the worst week for the tech-heavy Nasdaq 100 Index since the tariff turmoil of April 2025.",
+  "published_at": "2026-10-19T11:41:42+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "fd56af7f578776ae2135",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/c481c6086a6791fb29ce153135cf0f6d57d77e6939c60757538e16bad40e90d7.body",
+  "source_sha256": "c481c6086a6791fb29ce153135cf0f6d57d77e6939c60757538e16bad40e90d7",
+  "fetched_at": "2026-10-19T22:00:27.783810+00:00"
+}

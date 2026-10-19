@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22638",
+  "title": "Inductive Learning of Concept Embeddings from Cross-Linguistic Colexification Patterns with Textual Attributes",
+  "text": "arXiv:2610.22638v1 Announce Type: new\nAbstract: The advent of distributional semantics as a framework for computational semantics marked a paradigm shift in the nature of representations, by which meanings are represented as dense vectors commonly known as word embeddings. Computational approaches to historical or typological language comparison, on the other hand, still mostly rely on discrete representations, while the potential of embedding-based methods remains largely untapped in this context. Recent studies have proposed concept embeddings as a language-independent, onomasiological counterpart to word embeddings, based on networks of cross-linguistic colexification patterns. While the resulting concept embeddings reflect meaningful semantic properties and relations, they suffer from a lack of scalability, since they rely on transductive embedding approaches which only learn embeddings for nodes present in the training data. In this study, we present an inductive framework for learning concept embeddings, combining the structural properties of full and partial colexification networks with semantic information from short concept descriptions. This framework allows the embedding of unseen concepts based on a short definition. We show that the resulting concept embeddings correlate with various cross-linguistic measures of similarity or relatedness, while generalizing well to new concepts that were absent from the training data.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "2302f70231bac40c22d6",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

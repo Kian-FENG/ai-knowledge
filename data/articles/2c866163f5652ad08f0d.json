@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22890",
+  "title": "MailRail: Mitigating Incast Congestion with User-Space, Node-Based Flow Control",
+  "text": "arXiv:2610.22890v1 Announce Type: new\nAbstract: Irregular workloads, such as those stemming from Graph Neural Networks (GNNs) and Mixture-of-Experts (MoE) models, frequently induce severe incast congestion in large-scale parallel environments. Existing fabric-level congestion control mechanisms rely on reactive, link-level rate limiting that degrades overall throughput. While receiver-driven, credit-based flow control offers a proactive alternative, as process counts scale memory slots per rank fall below usable thresholds, rendering traditional rank-based accounting untenable. To address this challenge, we introduce MailRail, an out-of-order, asynchronous messaging framework, along with a novel user-space, node-based credit flow control system. By shifting credit accounting from individual processes to shared per-node pools, our proactive, fabric-agnostic approach maintains sufficient credit availability even as process density grows, enabling processes to dynamically utilize freed credits without waiting for receiver-side redistribution. Experimental evaluations demonstrate that node-based flow control achieves up to a 1132x speedup over unconstrained execution at an adversarial incast ratio of 4096:1 while adding minimal overhead on uniform workloads.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "2c866163f5652ad08f0d",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}

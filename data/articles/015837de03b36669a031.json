@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.22690",
+  "title": "Fast Distributed $(\\Delta + 1)$-Edge Coloring in Bipartite Graphs",
+  "text": "arXiv:2610.22690v1 Announce Type: new\nAbstract: We show that, on bipartite $n$-vertex graphs in the LOCAL model of distributed computation, $(\\Delta + 1)$-edge coloring can be solved deterministically in $O(f(\\Delta) \\log n)$ rounds for some function $f$.\nIn particular this implies a deterministic $O(\\log n)$-round upper bound for $(\\Delta + 1)$-edge coloring on bipartite constant-degree graphs.\nOur results improve on the previous state-of-the-art bounds (which hold already on general graphs) whose $n$-dependencies are $\\widetilde{O}(\\log^5 n)$ rounds deterministically and $\\widetilde{O}(\\log^2 n)$ rounds randomized [Bernshteyn and Dhawan, J.\\ Comb.\\ Theory 2025].\nIn fact, we obtain the aforementioned results already for a more restrictive version of $(\\Delta + 1)$-edge coloring that corresponds to a \\emph{local-palette} strengthening of Vizing's theorem shown recently to hold [Christiansen, STOC 2023].\nIn this version, every edge $\\{u, v\\}$ has to be colored with a color from $\\{1, \\dots, \\max(\\operatorname{deg}(u), \\operatorname{deg}(v))+ 1\\}$.\nFor all of our results, the vertices do not need to know on which side of the bipartition they lie---the structural promise of bipartiteness suffices.",
+  "published_at": null,
+  "announced_at": "2026-10-19T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "015837de03b36669a031",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-20/c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229.body",
+  "source_sha256": "c12f03ed63f25e27c91f8264e72570f6acd55fccec59640a900d9cd513860229",
+  "fetched_at": "2026-10-19T22:00:17.294046+00:00"
+}
