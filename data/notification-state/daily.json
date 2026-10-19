@@ -94,24 +94,34 @@
       "notified_at": "2026-10-18T10:13:03.121496+00:00",
       "research_commit": "ef0152a656874625aca2d2196b21ce7ddc60f1c9",
       "git_remote_synced": true
+    },
+    "2026-10-18": {
+      "packet_sha256": "7d42d2c694251d42858da160411808d9d3786c7381e273a3f6da79a5ac8269e9",
+      "editorial_sha256": "97a149e8594a8fcf38fc364e8a24b7ab5f04e4a1512f76c0be85a82a9ab7eb5e",
+      "notified_at": "2026-10-19T22:11:03.535667+00:00",
+      "research_commit": "2b9fc87d062af8beafec512abb12b3fdc1cb8ad1",
+      "git_remote_synced": true
     }
   },
   "failed_source_ids": [
     "alibaba-cloud",
+    "apple-newsroom",
+    "characterai-followup",
     "huxiu",
     "jiqizhixin",
     "minimax",
     "ms-nadella",
     "nda",
     "qwen",
+    "samsung-hbm-followup",
     "techmeme-snapshot",
     "today"
   ],
-  "updated_at": "2026-10-18T10:13:03.121496+00:00",
+  "updated_at": "2026-10-19T22:11:03.535667+00:00",
   "git_sync": {
-    "date": "2026-10-17",
-    "research_commit": "ef0152a656874625aca2d2196b21ce7ddc60f1c9",
+    "date": "2026-10-18",
+    "research_commit": "2b9fc87d062af8beafec512abb12b3fdc1cb8ad1",
     "remote_synced": true,
-    "notified_at": "2026-10-18T10:13:03.121496+00:00"
+    "notified_at": "2026-10-19T22:11:03.535667+00:00"
   }
 }
