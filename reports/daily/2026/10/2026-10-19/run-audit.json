@@ -86,6 +86,9 @@
     "regenerated": false
   },
   "report_generated": true,
-  "local_committed": false,
-  "remote_synced": false
+  "local_committed": true,
+  "remote_synced": true,
+  "research_commit": "54937bd457995080491199c8fe220d0ca9af531d",
+  "remote_ref_verified": "54937bd457995080491199c8fe220d0ca9af531d",
+  "notification_sent_at": "2026-10-20T22:18:16.664823+00:00"
 }
