@@ -1325,3 +1325,27 @@ sources:
   fetch: browser
   enabled: true
   note: 官网融资及产品归属已通过浏览工具核查；机器采集许可未核实，使用浏览入口。
+
+- id: tenstorrent
+  name: Tenstorrent Official Newsroom
+  url: https://tenstorrent.com/newsroom
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-20'
+  note: 本次已通过浏览工具读取官网与产品归属；机器采集许可未核实，使用浏览入口。
+
+- id: orchestra-bio
+  name: Orchestra Bio Official
+  url: https://orchestra.bio/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-20'
+  note: 本次已通过浏览工具读取官网与产品归属；机器采集许可未核实，使用浏览入口。

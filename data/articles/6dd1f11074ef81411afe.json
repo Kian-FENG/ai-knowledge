@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24469",
+  "title": "Which Long Documents Matter? A Controlled Study of Data Selection for Context Extension",
+  "text": "arXiv:2610.24469v1 Announce Type: new\nAbstract: Natural long documents are widely used for context extension, but which selection pipelines are effective remains unclear. We conduct a controlled comparison on Qwen2.5-3B at 128K under matched 6B-token continued-training budgets. Random sampling of natural long documents (random-long) outperforms repacking at longer evaluation lengths. Within the same candidate pool, selecting documents with high LongPPL key-token density yields further gains, unlike the evaluated generic-quality and LLM-judge selectors. We introduce truncLongPPL to reduce scoring cost by computing key-token density over a truncated prefix. At 128K, scoring the first half of the reference span yields downstream performance close to full-span scoring with a measured $2.28\\times$ end-to-end scoring speedup. Across three training seeds, truncLongPPL achieves the highest mean scores among evaluated pipelines, exceeding random-long by 4.54 points on validation HELMET and 3.28 on held-out RULER, with gains most consistent in retrieval. At a 256K target context, it gains 2.82 average RULER points over random-long on Qwen2.5-3B. In short/long mixed training across Qwen2.5-3B, Qwen3-8B, and OLMo~3-7B, it gains 1.47--7.31 average RULER points over random-long mixing, with seven-task short-context averages within 0.23 points of the corresponding baselines. After supervised fine-tuning (SFT), Qwen3-8B and OLMo~3-7B models trained with selected long documents outperform their random-long counterparts by 1.13--1.67 points on LongBench v2 and 0.62--1.44 points on MRCR.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "6dd1f11074ef81411afe",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

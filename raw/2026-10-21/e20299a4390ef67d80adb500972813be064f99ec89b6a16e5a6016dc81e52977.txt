@@ -1,0 +1,152 @@
+[2610.22863] Understanding KV Residency in Production-Scale Agentic LLM Workloads (https://arxiv.org/abs/2610.22863)
+ [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.22863","lineno":null}); Total lines: 165
+    L1: 
+Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+
+Press Enter to search ·  L5: 
+# Computer Science > Distributed, Parallel, and Cluster Computing
+
+[Submitted on 16 Oct 2026]
+# Title:Understanding KV Residency in Production-Scale Agentic LLM Workloads
+
+Authors: ,  ,  ,  ,  ,  ,  L12: 
+View a PDF of the paper titled Understanding KV Residency in Production-Scale Agentic LLM Workloads, by Mayank Arya and 6 other authors
+
+ L16: > Abstract:Agentic large language model (LLM) applications turn one user request into a sequence of model and tool calls over a growing context. Retaining this context's key-value (KV) state in GPU memory lets later calls reuse it instead of recomputing it, but at fleet scale this needs substantial memory. We characterize four production Microsoft M365 workload traces (Deep Research, Enterprise Assistant, Coding Agent and Enterprise Chat) spanning more than 121 million model calls.
+In Deep Research, the application issues 89% of model calls and the median context grows from about 10K to 68K tokens by the 30th call. About 80% of context tokens are served from the prefix cache. With the public Llama-2-70B KV layout standing in for confidential models, one 99th-percentile Deep Research session exceeds the 80 GB HBM of an NVIDIA H100, and holding all live sessions at their peak needs an estimated 501.8 TB of HBM, although inference occupies only 5.6% of that retention time.
+Trace-driven replay shows that a one-hour idle cap cuts this ceiling by 3.6x while raising the share of calls that recompute context only from 4.07% to 4.53%. Under tighter budgets, eviction alone is insufficient: at one tenth of the busiest hour's demand, LRU eviction makes 63% of Deep Research calls recompute and clairvoyant furthest-next-use 31%, whereas multi-resolution retention (MRR), which demotes the LRU session's KV state to int4, lowers this to 13.6%.
+Placement imposes a separate limit: when the next call reaches a different deployment, cached-context reuse drops from 89% to 29%, and treating KV state as deployment-local raises the recompute floor under unlimited memory from 5.4% to 20.2%. These findings motivate retention that changes the representation of KV state, together with deployment-aware routing or migration. We plan to release AgenticTraceSim, a parametric trace generator, and a residency replay framework.
+Subjects:  | Distributed, Parallel, and Cluster Computing (cs.DC)
+Cite as:  |  [cs.DC]
+   | (or  [cs.DC] for this version)
+   |  arXiv-issued DOI via DataCite
+## Submission history
+
+From: Mayank Arya [ ]
+[v1] Fri, 16 Oct 2026 03:09:13 UTC (257 KB)
+
+Full-text links:
+
+## Access Paper:
+
+View a PDF of the paper titled Understanding KV Residency in Production-Scale Agentic LLM Workloads, by Mayank Arya and 6 other authors
+
+  *  L36:   *  L37: 
+ L39: 
+### Additional Features
+
+  *  L43: ### Current browse context:
+
+cs.DC
+
+ |    L48: 
+ |  |  L50: 
+Change to browse by:
+
+ L54: 
+### References & Citations
+
+  *  L58:   *  L59:   *  L60: 
+[Button: export BibTeX citation] Loading...
+
+## BibTeX formatted citation
+
+[Button: ×]
+
+loading...
+
+Data provided by:
+
+### Bookmark
+
+[Input] Bibliographic Tools
+# Bibliographic and Citation Tools
+
+[Input] Bibliographic Explorer Toggle
+
+Bibliographic Explorer ( )
+
+[Input] Connected Papers Toggle
+
+Connected Papers ( )
+
+[Input] Litmaps Toggle
+
+Litmaps ( )
+
+[Input] scite.ai Toggle
+
+scite Smart Citations ( )
+
+[Input] Code, Data, Media
+# Code, Data and Media Associated with this Article
+
+[Input] alphaXiv Toggle
+
+alphaXiv ( )
+
+[Input] Links to Code Toggle
+
+CatalyzeX Code Finder for Papers ( )
+
+[Input] DagsHub Toggle
+
+DagsHub ( )
+
+[Input] GotitPub Toggle
+
+Gotit.pub ( )
+
+[Input] Huggingface Toggle
+
+Hugging Face ( )
+
+[Input] ScienceCast Toggle
+ScienceCast ( )
+
+[Input] Demos
+# Demos
+
+[Input] Replicate Toggle
+
+Replicate ( )
+
+[Input] Spaces Toggle
+
+Hugging Face Spaces ( )
+
+[Input] Spaces Toggle
+
+TXYZ.AI ( )
+
+[Input] Related Papers
+# Recommenders and Search Tools
+
+[Input] Link to Influence Flower
+
+Influence Flower ( )
+
+[Input] Core recommender toggle
+
+CORE Recommender ( )
+
+  * Author
+  * Venue
+  * Institution
+  * Topic
+
+[Input] About arXivLabs
+# arXivLabs: experimental projects with community collaborators
+
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community?  .
+
+ | Disable MathJax ( )
+
+We gratefully acknowledge support from our major funders,  , , and all contributors.
+ ·  ·  ·  ·  ·  ·  ·  L161: 
+Major funding support from
+
+  

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24048",
+  "title": "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections",
+  "text": "arXiv:2610.24048v1 Announce Type: new\nAbstract: LLM agents that read untrusted content can be hijacked by prompt injections. Runtime monitors that try to catch a hijack before the agent acts, and benchmarks that score each task with a single run, share an assumption: whether an agent follows an injection is settled when the injection is read. We test this assumption with branching rollouts that replay an episode exactly up to the step at which the agent reads an injection and then resample the rest of the episode many times, splitting the outcome variance into a part fixed at read time and a part decided afterwards. Across four AgentDojo suites, a Qwen3 agent without thinking is largely decided at read time (0.91 of the outcome variance lies between states); with thinking on, this share drops to 0.62 (95% CI of the drop [-0.38, -0.22]), in the same direction for three attack templates and two success labels. How much is fixed at read time is a property of the model that the same measurement reveals, and thinking lowers the attack success rate of Qwen3 but raises it for two other models. Resampling from reasoning prefixes shows that the decision forms gradually as the agent reasons. Zero-shot chain-of-thought monitors built on cheaper models miss much of what is already decided, whereas stronger monitors, and a lookahead monitor that judges simulated next actions, come close to what the prefix determines. Finally, single-run labels of thinking agents disagree with a rerun up to 35% of the time, so benchmarks need repeated runs per task.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "069f8700224ef7b0b6cc",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+  "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+  "text": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+  "published_at": "2026-10-20T11:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "739162d7487a517b5d02",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/72a57d6e0336d07b926e1651700b9dea41253df18d398b2c56666b7d5ecb41d9.body",
+  "source_sha256": "72a57d6e0336d07b926e1651700b9dea41253df18d398b2c56666b7d5ecb41d9",
+  "fetched_at": "2026-10-20T22:02:35.807783+00:00"
+}

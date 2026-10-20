@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/big-tech/article/3371402/alibabas-risc-v-ip-powers-over-6-billion-shipped-chips-tech-giant-targets-ai-autos",
+  "title": "Alibaba’s RISC-V IP powers over 6 billion shipped chips as tech giant targets AI, autos",
+  "text": "Alibaba Group Holding’s research arm, Damo Academy, has seen more than 6 billion chips shipped based on its XuanTie RISC-V architecture, marking a milestone as the tech giant doubles down on the open standard in artificial intelligence and automotive systems.\nMeng Jianyi, chief scientist at Damo Academy, announced the figure on Monday at the annual RISC-V Summit China in Shenzhen. The achievement comes as Chinese companies seek to play a greater role in the global RISC-V ecosystem, an...",
+  "published_at": "2026-10-20T00:30:10+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5ecc508d64cedfe9df98",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/e2688fd36393bd0dce03516ac9db9f06769bfe9b2a3c0b9a099c3616fdb1062f.body",
+  "source_sha256": "e2688fd36393bd0dce03516ac9db9f06769bfe9b2a3c0b9a099c3616fdb1062f",
+  "fetched_at": "2026-10-20T22:02:38.989403+00:00"
+}

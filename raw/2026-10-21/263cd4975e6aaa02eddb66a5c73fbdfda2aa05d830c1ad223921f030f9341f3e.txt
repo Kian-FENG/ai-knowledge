@@ -1,0 +1,227 @@
+MiniMax AI | AGI Research, Product Updates & Partner News | MiniMax (https://www.minimax.io/news)
+citeturn4view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.minimax.io/news","lineno":null}); Total lines: 62
+L0: Models
+L1: 
+L2: cite0†Image: LLM LLM
+L3: 
+L4: cite1†MiniMax M3.1 Flash cite2†MiniMax M3 L5: 
+L6: cite3†Image: VIDEO VIDEO
+L7: 
+L8: cite4†MiniMax H3 L9: 
+L10: cite5†Image: SPEECH & MUSIC SPEECH & MUSIC
+L11: 
+L12: cite6†MiniMax Speech 2.8 cite7†MiniMax Music 3.0 L13: 
+L14: Product
+L15: 
+L16: cite8†MiniMax Code†agent.minimax.io cite9†MiniMax Design†design.minimax.io cite10†Audio cite11†Talkie†www.talkie-ai.com L17: 
+L18: API
+L19: 
+L20: Plan
+L21: 
+L22: Research
+L23: 
+L24: Company
+L25: 
+L26: cite12†Image: Intelligence with everyone Intelligence with everyone
+L27: 
+L28: cite13†About cite14†News cite15†Investor Relations†ir.minimax.io L29: 
+L30: cite16†Contact Us†platform.minimax.io L31: 
+L32: [Input]
+L33: Models
+L34: 
+L35: cite0†Image: LLM LLM
+L36: 
+L37: cite1†MiniMax M3.1 FlashNEW cite2†MiniMax M3NEW L38: 
+L39: cite3†Image: VIDEO VIDEO
+L40: 
+L41: cite4†MiniMax H3NEW L42: 
+L43: cite5†Image: SPEECH & MUSIC SPEECH & MUSIC
+L44: 
+L45: cite6†MiniMax Speech 2.8NEW cite7†MiniMax Music 3.0NEW L46: 
+L47: Product
+L48: 
+L49: cite8†MiniMax CodeNEW†agent.minimax.io cite9†MiniMax Design†design.minimax.io cite10†Audio cite11†Talkie†www.talkie-ai.com L50: 
+L51: API
+L52: 
+L53: Plan
+L54: 
+L55: Research
+L56: 
+L57: Company
+L58: 
+L59: cite12†Image: Intelligence with everyone Intelligence with everyone
+L60: 
+L61: cite13†About cite14†News cite15†Investor Relations†ir.minimax.io --------------------------------------------------------------------------------
+SGLang Blog – Releases, Benchmarks & Announcements (https://www.sglang.io/blog)
+citeturn4view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.sglang.io/blog","lineno":null}); Total lines: 10
+L0: cite0†GitHub†github.com L1: # Blog
+L2: 
+L3: Releases, benchmarks, and deep dives from the SGLang team.
+L4: 
+L5: [Input: Search any articles ...]
+L6: 
+L7: [Button: All][Button: Day-0 Support][Button: SGLang Deep Dive]
+L8: cite1†October 20, 2026 Unified Runtime for Full-Duplex Interactive Intelligence with SGLang Omni SGLang Omni Team SGLang Deep Dive cite2†October 14, 2026 Step 5 Preview: Day-0 Inference and RL Support with SGLang and Miles SGLang & Miles Team Day-0 Support cite3†October 13, 2026 SGLang Omni: Serving Multi-Stage Omni Models with Heterogeneous Stage Scheduling SGLang Omni Team SGLang Deep Dive cite4†September 23, 2026 Unified Radix Cache in SGLang: one tree for hybrid model prefix caching SGLang Team SGLang Deep Dive cite5†September 20, 2026 RLinf x SGLang: Integrating Cosmos3 from Fine-Tuning to Efficient Parallel Evaluation RLinf Team & SGLang Team SGLang Deep Dive cite6†September 10, 2026 DeepSeek-V4.1 Flash on SGLang: from 35 to 873 tokens/s SGLang Team SGLang Deep Dive cite7†September 9, 2026 SGLang and Miles Add Day-0 Support for DeepSeek-V4.1 SGLang & Miles Team Day-0 Support cite8†August 27, 2026 Breakable CUDA Graph in SGLang: 5× faster graph builds, 1.93× faster prefill SGLang Team & Meta Team SGLang Deep Dive cite9†August 19, 2026 Kimi K3: Architecture and SGLang Day-0 Support SGLang Team & Moonshot AI Team Day-0 SupportSGLang Deep Dive L9: © 2026 SGLang Team. All rights reserved.
+--------------------------------------------------------------------------------
+Blog | vLLM (https://vllm.ai/blog)
+citeturn4view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://vllm.ai/blog","lineno":null}); Total lines: 49
+L0: Menu
+L1: 
+L2: Search Docscite0†Documentation†docs.vllm.ai cite1†Blog cite2†Events cite3†Office Hours cite4†Contact cite5†Community cite6†GitHub†github.com L3: 
+L4: Theme
+L5: # Blog
+L6: 
+L7: Deep dives into inference engineering, performance breakthroughs, new model support, and the latest from the vLLM community.
+L8: 
+L9: cite7†Featured vLLM Support for NVIDIA Vera Rubin NVL72: 7.8x Throughput over GB200 NVL72 Oct 9, 2026·11 min read vLLM now runs on NVIDIA Vera Rubin NVL72 with day-0 model support, Rubin-tuned FlashInfer kernels, and locality-aware MoE, delivering 7.8x the per-GPU throughput of GB200 NVL72 on AgentX. L10: cite8†Introducing vLLM TorchTPU Oct 20, 2026·6 min read vllm-torchtpu is a new vLLM backend for Google Cloud TPUs built on TorchTPU, with Pallas kernels, multi-host parallelism, KV cache offloading, and disaggregated serving. cite9†Achieving near-zero-downtime scaling in Elastic Expert Parallelism Oct 19, 2026·12 min read How asynchronous preparation and NIXL EP enabled near-zero-downtime Elastic EP scaling in vLLM. cite10†Hyper Optimizing Kimi K3 in vLLM: Moving Fast and Responsibly Oct 16, 2026·12 min read How agent-assisted CuTe DSL optimizations accelerate Kimi K3 decode on NVIDIA GB300, and how scoped changes, correctness tests, and reproducible benchmarks help ship them responsibly. cite11†Scaling Kimi K3 on AMD Instinct MI355X: Matching NVIDIA HGX B300 Throughput per GPU on AgentX Oct 16, 2026·24 min read Inside the Kimi K3 optimization effort: understanding the bottlenecks and the decisions that made inference faster cite12†Serving Reflection Beam on vLLM from Day 0 Oct 16, 2026·11 min read vLLM supports Reflection's Beam-1.0 (501B total, 23B active) from day 0, with agent-driven optimization that cut decode latency 2.71× and DFlash2 speculative decoding with adaptive verification. cite13†Day 0 support for Muse Spark Open on vLLM Oct 15, 2026·9 min read Day-0 vLLM support for Muse Spark Open: 816B MoE, 1M context, multimodal inputs, DSpark speculative decoding, NVIDIA and AMD serving, initial TPU support, and LoRA RL. cite14†Announcing Day 0 Support for NVIDIA Nemotron 3.5 Super VL on vLLM Oct 15, 2026·6 min read Run NVIDIA Nemotron 3.5 Super VL on vLLM for multimodal agent workflows with image, document, and video understanding, OpenAI-compatible serving, and multi-token prediction. cite15†Adaptive Verification Without a Confidence Head Oct 14, 2026·16 min read An online-fitted acceptance estimator that lets every draft-model speculator use Adaptive Verification, by predicting the target's acceptance probability from the drafter's own logits and refitting continuously during serving. cite16†Push-Based KV Transfer to Improve TTFT and TPOT for Disaggregated Inference in vLLM Oct 14, 2026·15 min read A push-based NIXL connector for vLLM disaggregated serving: the prefill instance writes KV directly into decode memory over RDMA, taking the router relay, decode-side allocation, and transfer setup off the TTFT critical path. cite17†Finish RL Training Faster: Bitwise-Consistent, High-Performance, Agent-Driven Oct 14, 2026·35 min read We make vLLM rollout and the training forward give bitwise identical logprobs on DeepSeek-V4-Flash and Nemotron-3.5-Lightning-30B-A3B (NVFP4), keep 91% of rollout throughput on DeepSeek-V4-Flash, and open-source the agent skill. cite18†Improve TTFT for Multi-Turn Agentic Workloads with Bi-Directional KV Transfer in vLLM Oct 12, 2026·17 min read Bi-directional KV transfer lets vLLM prefill nodes reuse previously computed KV from decode nodes on later conversation turns, cutting redundant prefill recompute and reducing TTFT by up to 3.3x on long multi-turn prompts. cite19†DeepSeek-V4.1-Flash on vLLM: 5x Agentic Throughput Since Day 0 Oct 7, 2026·11 min read Within three weeks of release, vLLM made DeepSeek-V4.1-Flash 1.9x faster at low concurrency and lifted its throughput 5x on SemiAnalysis AgentX, with SWA bounded replay, CUDA graphs, DeepSeek's new kernels, and vLLM kernel fusions. cite20†Taking vLLM Apart: A Practical Guide to Disaggregated Serving Sep 29, 2026·19 min read What disaggregated serving actually buys you, how to run it end to end in vLLM today with prefill/decode plus the new GPU-less frontend and the things we're still working on. cite21†Watermarking in vLLM Sep 24, 2026·13 min read How vLLM implements distribution-preserving Gumbel-max text watermarking with efficient GPU kernels, statistical detection, speculative decoding, and repeated-context safeguards. cite22†Reducing vLLM startup time with one uv flag Sep 22, 2026·7 min read Shipping Python bytecode saved about 18 seconds per startup in H100 server benchmarks, with images and models already local. cite23†Announcing vllm-metal: Concurrent Serving on Apple Silicon Sep 22, 2026·10 min read vllm-metal brings vLLM's paged, continuously batched serving stack to Apple Silicon, with flatter TTFT under concurrent agent load, batched MTP, and automatic M5 prefill acceleration. cite24†PD Serving of Qwen3.8-2.4T Sep 21, 2026·17 min read How vLLM reaches 5K throughput and 180 interactivity on Qwen3.8-2.4T with GB300 NVL72 PD serving and how to reproduce results yourself. cite25†Scaling Multi-GPU Video Captioning with PyNvVideoCodec and vLLM Sep 18, 2026·4 min read How to leverage NVIDIA Hardware Video Decoders to Achieve Multi-GPU Scaling in Video Captioning and Description tasks. cite26†How we trained the fastest DSpark for Kimi-K3 using GB300 NVL72 Sep 15, 2026·9 min read How Speculators and Mooncake enabled multi-node DSpark training for Kimi K3. 【27†vLLM x Novita AI: Chord, Faster INT4 MoE for Kimi K2.x.
+--------------------------------------------------------------------------------
+Alibaba Cloud Press Room | Official Press Releases & Media Reports (https://www.alibabacloud.com/en/press-room)
+citeturn4view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.alibabacloud.com/en/press-room","lineno":null}); Redirected to URL: https://www.alibabacloud.com/en/press-room?_p_lc=1; Total lines: 155
+L0: [Button: Models][Button: Overview]cite0†Products [Button: Solutions][Button: Pricing][Button: Resources][Button: Partners][Button: Support]
+L1: 
+L2: [Button: See all results for ""]
+L3: 
+L4: cite1†AI Assistant ENcite2†Contact Us cite3†Docs cite4†Console†home.console.alibabacloud.com L5: 
+L6:   * cite5†About Alibaba Cloud L7:   * cite6†Press L8: 
+L9: BROWSE BY: [Select] [Select]
+L10: 
+L11: ###
+L12: 
+L13: ###
+L14: 
+L15: ###
+L16: 
+L17: ###
+L18: 
+L19: ###
+L20: 
+L21: ###
+L22: 
+L23: ###
+L24: 
+L25: ###
+L26: 
+L27: ###
+L28: 
+L29: ###
+L30: 
+L31: ###
+L32: 
+L33: ###
+L34: 
+L35: ###
+L36: 
+L37: ###
+L38: 
+L39: ###
+L40: 
+L41: ###
+L42: 
+L43: ###
+L44: 
+L45: ###
+L46: 
+L47:   * BROWSE BY: [Select] [Select]
+L48: 
+L49: ###
+L50: ###
+L51: 
+L52:   * ### A Free Trial That Lets You Build Big!
+L53: 
+L54: Start building with 80+ products and up to 12 months usage for Elastic Compute Service
+L55: 
+L56: cite7†Get Started for Free cite8†Get Started for Free L57: 
+L58: Why Alibaba Cloud
+L59: 
+L60: cite9†About Alibaba Cloud L61: 
+L62: cite10†Asia Accelerator L63: 
+L64: cite11†Our Global Network L65: 
+L66: cite12†Global Offices L67: 
+L68: cite13†Trust Center L69: 
+L70: cite14†Case Studies L71: 
+L72: cite15†Analyst Reports L73: 
+L74: Products & Pricings
+L75: 
+L76: cite16†Pricing Calculator L77: 
+L78: cite17†ECS L79: 
+L80: cite18†SAS L81: 
+L82: cite19†Model Studio L83: 
+L84: cite20†Database L85: 
+L86: cite21†Security L87: 
+L88: cite22†SMS L89: 
+L90: Solutions
+L91: cite23†Financial Services L92: 
+L93: cite24†Retail L94: 
+L95: cite25†Media L96: 
+L97: cite26†Gaming L98: 
+L99: cite27†ISV Solutions L100: 
+L101: Engage
+L102: 
+L103: cite28†Developer Community L104: 
+L105: cite29†Partner Network L106: 
+L107: cite30†Startups L108: 
+L109: cite31†Marketplace†marketplace.alibabacloud.com L110: 
+L111: cite32†Join Alibaba Cloud†careers.alibabacloud.com L112: 
+L113: Resources & Support
+L114: 
+L115: cite3†Documentation Center L116: 
+L117: cite33†Training & Certification†edu.alibabacloud.com L118: 
+L119: cite34†Service Notices L120: 
+L121: cite35†Health Dashboard†status.alibabacloud.com L122: 
+L123: cite36†Submit a Ticket†smartservice.console.alibabacloud.com L124: cite37†Security Report†report.alibabacloud.com L125: 
+L126: cite38†QwenCloud†www.qwencloud.com L127: 
+L128: cite32†Careers†careers.alibabacloud.com cite9†About Us cite39†Privacy Policy cite40†Legal cite41†Integrity Compliance Reporting Channel†aliyun.jubao.alibaba.com cite34†Service Notices cite42†Links L129: 
+L130: © 2009- Copyright by Alibaba Cloud All rights reserved
+L131: 
+L132:   *   *   *   *   *   *   *   * © 2009- Copyright by Alibaba Cloud All rights reserved
+L133: cite32†Careers†careers.alibabacloud.com cite9†About Us cite39†Privacy Policy cite40†Legal cite41†Integrity Compliance Reporting Channel†aliyun.jubao.alibaba.com cite34†Service Notices cite42†Links L134: 
+L135: cite43†Image: phone†img.alicdn.com Contact Us
+L136: ## Sales Support
+L137: 
+L138: Live-chat with our sales team or get in touch with a business development professional in your region.
+L139: 
+L140: cite2†Contact Sales L141: 
+L142: ## Technical Support
+L143: 
+L144: Open a ticket and get quick help from our technical team.
+L145: 
+L146: cite44†Open a Ticket >†smartservice.console.alibabacloud.com L147: 
+L148: ## Connect & Report Abuse
+L149: 
+L150: We look forward to your suggestion.
+L151: 
+L152: cite45†Post a Suggestion >†account.alibabacloud.com cite46†Report Abuse > L153: 
+L154: cite47†Hi, I'm Alibaba Cloud AI Assistant! I can help with questions and solutions. --------------------------------------------------------------------------------
+DeepSeek | Research & News (https://www.deepseek.com/en/news/)
+citeturn4view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.deepseek.com/en/news/","lineno":null}); Total lines: 39
+L0: cite0†DeepSeek Web†chat.deepseek.com cite1†DeepSeek Harness cite2†API Platform†platform.deepseek.com cite3†API Docs†api-docs.deepseek.com cite4†Downloads cite5†Join Us†talent.deepseek.com L1: 
+L2: [Button: 中文][Button: EN]
+L3: # Research & News
+L4: 
+L5: Dedicated to exploring the essence of AGI — driven by curiosity, answering the biggest questions with the longest-term vision.
+L6: 
+L7: cite6†NewsSeptember 10, 2026 Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.Introducing the smallest model in our new architecture family, with native visual understanding. Designed for greater capability, faster inference, and higher throughput. L8: cite7†NewsApril 24, 2026 DeepSeek-V4 Preview: Entering the Era of Affordable Million-Token Context DeepSeek-V4 Preview is officially live & open-sourced.
+L9: Welcome to the era of cost-effective 1M context length. cite8†NewsDecember 1, 2025 DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models DeepSeek-V3.2 and V3.2-Speciale launch with world-leading reasoning, thinking in tool-use, and gold-medal performance in IMO, CMO, ICPC & IOI 2025. cite9†NewsSeptember 29, 2025 Introducing DeepSeek-V3.2-Exp DeepSeek-V3.2-Exp debuts DeepSeek Sparse Attention (DSA) for faster, more efficient training & inference on long context, with API prices cut by 50%+. cite10†NewsSeptember 22, 2025 DeepSeek-V3.1 is now DeepSeek-V3.1-Terminus DeepSeek-V3.1-Terminus improves language consistency, reduces CN/EN mix-ups, and upgrades Code Agent & Search Agent performance. L10: [Button: View All]
+L11: ## Research Index
+L12: cite11†June 24, 2026DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence†arxiv.org cite12†February 25, 2026DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference†arxiv.org cite13†January 28, 2026DeepSeek-OCR 2: Visual Causal Flow†arxiv.org cite14†January 12, 2026Engram: Conditional Memory via Scalable Lookup†arxiv.org cite15†December 31, 2025mHC: Manifold-Constrained Hyper-Connections†arxiv.org cite16†December 2, 2025DeepSeek-V3.2: Pushing the Frontier of Open LLMs†arxiv.org cite17†November 27, 2025DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning†arxiv.org cite18†November 1, 2025Linear-Programming-Based Load Balancer (LPLB)†github.com cite19†October 21, 2025DeepSeek-OCR: Contexts Optical Compression†arxiv.org cite20†May 14, 2025Insights into DeepSeek-V3: Scaling Challenges & Hardware Reflections†arxiv.org L13: [Button: View All]
+L14: 
+L15: cite21†浙ICP备2023025841号†beian.miit.gov.cn cite22†浙B2-20250178†tsm.miit.gov.cn cite23†浙公网安备33010502011812号†beian.mps.gov.cn L16: 
+L17: service@deepseek.com
+L18: 
+L19: cite24†Image: QR Code Scan to follow DeepSeek on WeChat
+L20: 
+L21: Products
+L22: 
+L23: cite4†Downloads cite0†DeepSeek Web†chat.deepseek.com cite1†DeepSeek Harness cite2†API Platform†platform.deepseek.com cite3†API Docs†api-docs.deepseek.com cite25†API Pricing†api-docs.deepseek.com cite26†Service Status†status.deepseek.com L24: 
+L25: Research
+L26: cite6†DeepSeek V4.1 cite7†DeepSeek V4 cite8†DeepSeek V3.2 cite27†DeepSeek V3.1 cite28†DeepSeek R1 cite29†DeepSeek V3 cite30†More L27: 
+L28: Legal & Security
+L29: 
+L30: Report Security Issue (security@deepseek.com)cite31†Transparency L31: 
+L32: Join Us
+L33: 
+L34: cite5†Careers†talent.deepseek.com L35: 
+L36: © 2026 DeepSeek. All rights reserved.
+L37: 
+L38: [Button: 中文][Button: EN]
+

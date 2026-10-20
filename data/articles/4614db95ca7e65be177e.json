@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/openai-says-gpt-6-is-much-better-with-legacy-programming-languages-such-as-cobol-and-fortran/",
+  "title": "OpenAI says GPT-6 is much better with legacy programming languages such as COBOL and Fortran",
+  "text": "OpenAI improved its latest models for low-resource programming languages like COBOL, Fortran, and Visual Basic. On the new MultiLangBench, GPT-6 Astra hits an 87.4 percent test pass rate across 20 languages, up from about 38 percent for GPT-5.6 Terra. For COBOL migration specifically, GPT-6.1 Sol reaches up to 97.9 percent accuracy, a result that could matter for modernizing critical financial infrastructure.\nThe article OpenAI says GPT-6 is much better with legacy programming languages such as COBOL and Fortran appeared first on The Decoder.",
+  "published_at": "2026-10-20T16:40:29+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4614db95ca7e65be177e",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/429fdc752b50597c661151d1f5e5af6ae1bc9ca946340db2891c8d3a5bc55efc.body",
+  "source_sha256": "429fdc752b50597c661151d1f5e5af6ae1bc9ca946340db2891c8d3a5bc55efc",
+  "fetched_at": "2026-10-20T22:02:36.960633+00:00"
+}

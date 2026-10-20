@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+  "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+  "text": "Hoping to quell criticism, Meta has dropped the word “train” from its “streamlined” commercial terms of service that kick in on October 30.\nLast week, Meta faced backlash after legal experts warned that the tech giant’s sweeping new commercial terms of service seemed to give Meta permission to endlessly scrape websites linked on business pages. Talking to Nieman Lab, experts suggested that Meta could possibly use the policy to avoid millions in licensing fees from news organizations by requiring all business users to share a wealth of AI training data simply for running a business page.\nA Meta spokesperson confirmed that Meta did not alert users to the changed language following backlash. This potentially only adds to confusion ahead of the policy rollout. In response to backlash, Meta's spokesperson provided a statement to Ars, acknowledging Nieman Lab's initial report but not its follow-up report reiterating experts' concerns:\nRead full article\nComments",
+  "published_at": "2026-10-20T20:07:58+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "379ed475f59bcf1fc42a",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-21/e15887a3ee983327f196284205d126d5d32787df614b85fbf1bc008aad5b9ee6.body",
+  "source_sha256": "e15887a3ee983327f196284205d126d5d32787df614b85fbf1bc008aad5b9ee6",
+  "fetched_at": "2026-10-20T22:02:40.202951+00:00"
+}

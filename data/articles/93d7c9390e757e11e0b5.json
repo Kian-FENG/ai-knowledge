@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24365",
+  "title": "FlashMap: Flow Map Speculative Decoding",
+  "text": "arXiv:2610.24365v1 Announce Type: new\nAbstract: Speculative decoding accelerates large language model (LLM) inference by using a lightweight drafter to propose a block of tokens that the target model verifies in one parallel pass. Autoregressive drafters generate this block one token at a time, whereas block diffusion drafters such as DFlash generate it in one pass, making drafting faster. However, these diffusion drafters predict each token independently, ignoring dependencies between tokens in the block. We introduce FlashMap, a continuous flow drafter that conditions a flow map language model on the target model's hidden states and generates the whole block in one forward pass while capturing inter-token dependencies. On Qwen3-8B, FlashMap is faster than a matched DFlash baseline on every benchmark, with 7% higher average speedup and up to 6.1x lossless acceleration.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "93d7c9390e757e11e0b5",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24288",
+  "title": "BanglaShield: A Script-Robust Safety Classifier and Benchmark for Bangla Native, Romanized, and Code-Mixed Prompts",
+  "text": "arXiv:2610.24288v1 Announce Type: new\nAbstract: Safety classifiers for large language models (LLMs) are typically built and evaluated on standard-script text, yet Bangla, like many lower-resource languages, is routinely written in native script, in Latin-script romanization, and code-mixed with English, Hindi, or Urdu. We introduce BanglaShield, a resource and model for graded prompt-safety classification across these written forms. We consolidate 10,245 Bangla prompts from six sources under a four-level taxonomy (Safe, Offensive, Harmful, Severe) and render each prompt in three aligned forms that share labels and a group-aware split, enabling strictly paired comparisons. Benchmarking six contemporary LLMs, including a Bangla-specialized one, on 36,882 classification queries and 24,318 judged responses, we find that LLM classifiers label 47.0% of unsafe native-script prompts as Safe, rising to 63.4% under romanization, while response-level safety accuracy drops by 10.3 points. Three multilingual guard models also pass 30.3-57.3% of unsafe native-script prompts. Using a model's own classification as an input filter reduces harmful compliance by only about five points. In contrast, BanglaShield, a compact fine-tuned encoder, reaches 87.8 macro-F1 on native-script and 84.4 on romanized prompts, outperforming the best LLM on each form by 42.8-46.1 points with ~130x fewer parameters than Gemma 4 31B. We release the corpus, splits, judgments, and model.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d1093e2a16eb57234ad9",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

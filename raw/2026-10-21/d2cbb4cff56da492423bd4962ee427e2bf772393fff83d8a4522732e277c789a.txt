@@ -1,0 +1,325 @@
+Intelligent management platform for R&D - Orchestra (https://orchestra.bio/)
+citeturn20view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://orchestra.bio","lineno":null}); Total lines: 23
+L0: cite0†Image†framerusercontent.com L1: ### Orchestra Bio is joining OpenAI
+L2: 
+L3: Four years ago, we started Orchestra Bio to help biotech and pharma teams advance their drug development programs. Developing medicines is incredibly complex, spanning thousands of decisions and dependencies across discovery, preclinical, manufacturing, and clinical.
+L4: AI has now reached an inflection point where people and agents can take this on together. Agents can handle planning, orchestration, and analysis, while scientists and program leaders focus on the decisions that require their expertise.
+L5: 
+L6: Today, we’re thrilled to share that Orchestra Bio is joining OpenAI to continue our mission at an even greater scale. cite1†Read more about what’s next here.†openai.com L7: 
+L8: Thank you to all our customers, investors, and supporters for believing in us.
+L9: © 2026 Orchestra Bio Inc. All rights reserved
+L10: ### Orchestra Bio is joining OpenAI
+L11: 
+L12: Four years ago, we started Orchestra Bio to help biotech and pharma teams advance their drug development programs. Developing medicines is incredibly complex, spanning thousands of decisions and dependencies across discovery, preclinical, manufacturing, and clinical.
+L13: AI has now reached an inflection point where people and agents can take this on together. Agents can handle planning, orchestration, and analysis, while scientists and program leaders focus on the decisions that require their expertise.
+L14: 
+L15: Today, we’re thrilled to share that Orchestra Bio is joining OpenAI to continue our mission at an even greater scale. cite1†Read more about what’s next here.†openai.com L16: 
+L17: Thank you to all our customers, investors, and supporters for believing in us.
+L18: © 2026 Orchestra Bio Inc. All rights reserved
+L19: 
+L20: cite2†Image†framerusercontent.com L21: 
+L22: cite2†Image†framerusercontent.com --------------------------------------------------------------------------------
+[2610.22863] Understanding KV Residency in Production-Scale Agentic LLM Workloads (https://arxiv.org/abs/2610.22863)
+citeturn20view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.22863","lineno":null}); Total lines: 165
+L0: cite0†Search cite1†Submit cite2†Donate†info.arxiv.org cite3†Log in L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · cite4†Advanced search L5: 
+L6: # Computer Science > Distributed, Parallel, and Cluster Computing
+L7: 
+L8: [Submitted on 16 Oct 2026]
+L9: # Title:Understanding KV Residency in Production-Scale Agentic LLM Workloads
+L10: 
+L11: Authors:cite5†Mayank Arya , cite6†Agrim Bari , cite7†Anjaly Parayil , cite8†Yogesh Simmhan , cite9†Renee St. Amant , cite10†Victor Rühle , cite11†Saravan Rajmohan L12: 
+L13: View a PDF of the paper titled Understanding KV Residency in Production-Scale Agentic LLM Workloads, by Mayank Arya and 6 other authors
+L14: 
+L15: cite12†View PDF L16: > Abstract:Agentic large language model (LLM) applications turn one user request into a sequence of model and tool calls over a growing context. Retaining this context's key-value (KV) state in GPU memory lets later calls reuse it instead of recomputing it, but at fleet scale this needs substantial memory. We characterize four production Microsoft M365 workload traces (Deep Research, Enterprise Assistant, Coding Agent and Enterprise Chat) spanning more than 121 million model calls.
+L17: In Deep Research, the application issues 89% of model calls and the median context grows from about 10K to 68K tokens by the 30th call. About 80% of context tokens are served from the prefix cache. With the public Llama-2-70B KV layout standing in for confidential models, one 99th-percentile Deep Research session exceeds the 80 GB HBM of an NVIDIA H100, and holding all live sessions at their peak needs an estimated 501.8 TB of HBM, although inference occupies only 5.6% of that retention time.
+L18: Trace-driven replay shows that a one-hour idle cap cuts this ceiling by 3.6x while raising the share of calls that recompute context only from 4.07% to 4.53%. Under tighter budgets, eviction alone is insufficient: at one tenth of the busiest hour's demand, LRU eviction makes 63% of Deep Research calls recompute and clairvoyant furthest-next-use 31%, whereas multi-resolution retention (MRR), which demotes the LRU session's KV state to int4, lowers this to 13.6%.
+L19: Placement imposes a separate limit: when the next call reaches a different deployment, cached-context reuse drops from 89% to 29%, and treating KV state as deployment-local raises the recompute floor under unlimited memory from 5.4% to 20.2%. These findings motivate retention that changes the representation of KV state, together with deployment-aware routing or migration. We plan to release AgenticTraceSim, a parametric trace generator, and a residency replay framework.
+L20: Subjects:  | Distributed, Parallel, and Cluster Computing (cs.DC)
+L21: Cite as:  | cite13†arXiv:2610.22863 [cs.DC]
+L22:    | (or cite14†arXiv:2610.22863v1 [cs.DC] for this version)
+L23:    | cite15†https://doi.org/10.48550/arXiv.2610.22863†doi.org arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Mayank Arya [cite16†view email ]
+L27: [v1] Fri, 16 Oct 2026 03:09:13 UTC (257 KB)
+L28: 
+L29: Full-text links:
+L30: 
+L31: ## Access Paper:
+L32: 
+L33: View a PDF of the paper titled Understanding KV Residency in Production-Scale Agentic LLM Workloads, by Mayank Arya and 6 other authors
+L34: 
+L35:   * cite12†View PDF L36:   * cite17†TeX Source L37: 
+L38: cite18†view license L39: 
+L40: ### Additional Features
+L41: 
+L42:   * cite19†Audio Summary L43: ### Current browse context:
+L44: 
+L45: cs.DC
+L46: 
+L47: cite20†< prev |   cite21†next > L48: 
+L49: cite22†new | cite23†recent | cite24†2026-10 L50: 
+L51: Change to browse by:
+L52: 
+L53: cite25†cs L54: 
+L55: ### References & Citations
+L56: 
+L57:   * cite26†SciX†scixplorer.org L58:   * cite27†Google Scholar†scholar.google.com L59:   * cite28†Semantic Scholar†api.semanticscholar.org L60: 
+L61: [Button: export BibTeX citation] Loading...
+L62: 
+L63: ## BibTeX formatted citation
+L64: 
+L65: [Button: ×]
+L66: 
+L67: loading...
+L68: 
+L69: Data provided by:
+L70: 
+L71: ### Bookmark
+L72: 
+L73: [Input] Bibliographic Tools
+L74: # Bibliographic and Citation Tools
+L75: 
+L76: [Input] Bibliographic Explorer Toggle
+L77: 
+L78: Bibliographic Explorer (cite29†What is the Explorer?†info.arxiv.org )
+L79: 
+L80: [Input] Connected Papers Toggle
+L81: 
+L82: Connected Papers (cite30†What is Connected Papers?†www.connectedpapers.com )
+L83: 
+L84: [Input] Litmaps Toggle
+L85: 
+L86: Litmaps (cite31†What is Litmaps?†www.litmaps.co )
+L87: 
+L88: [Input] scite.ai Toggle
+L89: 
+L90: scite Smart Citations (cite32†What are Smart Citations?†www.scite.ai )
+L91: 
+L92: [Input] Code, Data, Media
+L93: # Code, Data and Media Associated with this Article
+L94: 
+L95: [Input] alphaXiv Toggle
+L96: 
+L97: alphaXiv (cite33†What is alphaXiv?†alphaxiv.org )
+L98: 
+L99: [Input] Links to Code Toggle
+L100: 
+L101: CatalyzeX Code Finder for Papers (cite34†What is CatalyzeX?†www.catalyzex.com )
+L102: 
+L103: [Input] DagsHub Toggle
+L104: 
+L105: DagsHub (cite35†What is DagsHub?†dagshub.com )
+L106: 
+L107: [Input] GotitPub Toggle
+L108: 
+L109: Gotit.pub (cite36†What is GotitPub?†gotit.pub )
+L110: 
+L111: [Input] Huggingface Toggle
+L112: 
+L113: Hugging Face (cite37†What is Huggingface?†huggingface.co )
+L114: 
+L115: [Input] ScienceCast Toggle
+L116: ScienceCast (cite38†What is ScienceCast?†sciencecast.org )
+L117: 
+L118: [Input] Demos
+L119: # Demos
+L120: 
+L121: [Input] Replicate Toggle
+L122: 
+L123: Replicate (cite39†What is Replicate?†replicate.com )
+L124: 
+L125: [Input] Spaces Toggle
+L126: 
+L127: Hugging Face Spaces (cite40†What is Spaces?†huggingface.co )
+L128: 
+L129: [Input] Spaces Toggle
+L130: 
+L131: TXYZ.AI (cite41†What is TXYZ.AI?†txyz.ai )
+L132: 
+L133: [Input] Related Papers
+L134: # Recommenders and Search Tools
+L135: 
+L136: [Input] Link to Influence Flower
+L137: 
+L138: Influence Flower (cite42†What are Influence Flowers?†influencemap.cmlab.dev )
+L139: 
+L140: [Input] Core recommender toggle
+L141: 
+L142: CORE Recommender (cite43†What is CORE?†core.ac.uk )
+L143: 
+L144:   * Author
+L145:   * Venue
+L146:   * Institution
+L147:   * Topic
+L148: 
+L149: [Input] About arXivLabs
+L150: # arXivLabs: experimental projects with community collaborators
+L151: 
+L152: arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+L153: 
+L154: Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+L155: Have an idea for a project that will add value for arXiv's community? cite44†Learn more about arXivLabs†info.arxiv.org .
+L156: 
+L157: cite45†Which authors of this paper are endorsers? | Disable MathJax (cite46†What is MathJax?†info.arxiv.org )
+L158: 
+L159: We gratefully acknowledge support from our major funders, cite47†member institutions†info.arxiv.org , , and all contributors.
+L160: cite48†About†info.arxiv.org · cite49†Help†info.arxiv.org · cite50†Contact†info.arxiv.org · cite51†Subscribe†info.arxiv.org · cite52†Copyright†info.arxiv.org · cite53†Privacy†info.arxiv.org · cite54†Accessibility†info.arxiv.org · cite55†Operational Status (opens in new tab)†status.arxiv.org L161: 
+L162: Major funding support from
+L163: 
+L164: cite56†(opens in new tab)†www.simonsfoundation.org cite57†(opens in new tab)†www.sfi.org.bm cite58†(opens in new tab)†www.schmidtsciences.org --------------------------------------------------------------------------------
+[2610.22791] Self-Evolving Coding Agents via Harness-Policy Optimization (https://arxiv.org/abs/2610.22791)
+citeturn20view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.22791","lineno":null}); Total lines: 167
+L0: cite0†Search cite1†Submit cite2†Donate†info.arxiv.org cite3†Log in L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · cite4†Advanced search L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 16 Oct 2026]
+L9: # Title:Self-Evolving Coding Agents via Harness-Policy Optimization
+L10: 
+L11: Authors:cite5†Zhepei Wei , cite6†Wenlin Yao , cite7†Baolin Peng , cite8†Danqing Wang , cite9†Qianhui Wu , cite10†Hao Cheng , cite11†Yu Meng , cite12†Jianfeng Gao L12: 
+L13: View a PDF of the paper titled Self-Evolving Coding Agents via Harness-Policy Optimization, by Zhepei Wei and 7 other authors
+L14: 
+L15: cite13†View PDF cite14†HTML (experimental) L16: > Abstract:Large language model (LLM) agents have shown promising potential in coding tasks, and their performance is jointly determined by the policy model and the harness that mediates their interaction with the environment. Indeed, harness and policy are mutually reinforcing and evolving only one component is suboptimal---a harness tuned for one checkpoint may not target the failure modes of an updated policy, while policy learning remains limited to the trajectories elicited by a fixed harness.
+L17: In light of this, we propose Self-HPO, a recursive self-improving framework for coding agents that alternates harness and policy optimization, using the evolving policy as its own harness proposer. Specifically, in each round, the current policy first analyzes its own failures and proposes new harness candidates (H-step).
+L18: The policy is then updated through reinforcement learning (RL) under the selected harness (P-step), and hard tasks identified during training form the next harness search set, keeping harness optimization targeted to the policy's evolving failure modes. Across three coding benchmarks, Self-HPO consistently outperforms harness-only and policy-only baselines, improving Qwen3.5-35B-A3B's average resolve rate from 57.8% to 64.8%, with gains generalizing to out-of-distribution settings.
+L19: Further analysis shows that both optimized components retain gains even when paired with their base counterparts, while their joint gain exceeds the sum of their individual gains. Self-HPO also improves reliability (Pass@1) and expands the capability frontier (Pass@k) over the base agent. Additionally, we show that with a stronger external model (e.g., Opus 4.8) as the harness proposer, the same framework yields a further performance boost.
+L20: Subjects:  | Computation and Language (cs.CL); Artificial Intelligence (cs.AI)
+L21: Cite as:  | cite15†arXiv:2610.22791 [cs.CL]
+L22:    | (or cite16†arXiv:2610.22791v1 [cs.CL] for this version)
+L23:    | cite17†https://doi.org/10.48550/arXiv.2610.22791†doi.org arXiv-issued DOI via DataCite
+L24: ## Submission history
+L25: 
+L26: From: Zhepei Wei [cite18†view email ]
+L27: [v1] Fri, 16 Oct 2026 01:07:52 UTC (4,495 KB)
+L28: 
+L29: Full-text links:
+L30: 
+L31: ## Access Paper:
+L32: 
+L33: View a PDF of the paper titled Self-Evolving Coding Agents via Harness-Policy Optimization, by Zhepei Wei and 7 other authors
+L34: 
+L35:   * cite13†View PDF L36:   * cite14†HTML (experimental) L37:   * cite19†TeX Source L38: 
+L39: cite20†view license†creativecommons.org L40: 
+L41: ### Additional Features
+L42: 
+L43:   * cite21†Audio Summary L44: ### Current browse context:
+L45: 
+L46: cs.CL
+L47: 
+L48: cite22†< prev |   cite23†next > L49: 
+L50: cite24†new | cite25†recent | cite26†2026-10 L51: 
+L52: Change to browse by:
+L53: 
+L54: cite27†cs L55: cite28†cs.AI L56: 
+L57: ### References & Citations
+L58: 
+L59:   * cite29†SciX†scixplorer.org L60:   * cite30†Google Scholar†scholar.google.com L61:   * cite31†Semantic Scholar†api.semanticscholar.org L62: 
+L63: [Button: export BibTeX citation] Loading...
+L64: 
+L65: ## BibTeX formatted citation
+L66: 
+L67: [Button: ×]
+L68: 
+L69: loading...
+L70: 
+L71: Data provided by:
+L72: 
+L73: ### Bookmark
+L74: 
+L75: [Input] Bibliographic Tools
+L76: # Bibliographic and Citation Tools
+L77: 
+L78: [Input] Bibliographic Explorer Toggle
+L79: 
+L80: Bibliographic Explorer (cite32†What is the Explorer?†info.arxiv.org )
+L81: 
+L82: [Input] Connected Papers Toggle
+L83: 
+L84: Connected Papers (cite33†What is Connected Papers?†www.connectedpapers.com )
+L85: 
+L86: [Input] Litmaps Toggle
+L87: 
+L88: Litmaps (cite34†What is Litmaps?†www.litmaps.co )
+L89: 
+L90: [Input] scite.ai Toggle
+L91: 
+L92: scite Smart Citations (cite35†What are Smart Citations?†www.scite.ai )
+L93: 
+L94: [Input] Code, Data, Media
+L95: # Code, Data and Media Associated with this Article
+L96: 
+L97: [Input] alphaXiv Toggle
+L98: 
+L99: alphaXiv (cite36†What is alphaXiv?†alphaxiv.org )
+L100: 
+L101: [Input] Links to Code Toggle
+L102: 
+L103: CatalyzeX Code Finder for Papers (cite37†What is CatalyzeX?†www.catalyzex.com )
+L104: 
+L105: [Input] DagsHub Toggle
+L106: 
+L107: DagsHub (cite38†What is DagsHub?†dagshub.com )
+L108: 
+L109: [Input] GotitPub Toggle
+L110: 
+L111: Gotit.pub (cite39†What is GotitPub?†gotit.pub )
+L112: 
+L113: [Input] Huggingface Toggle
+L114: 
+L115: Hugging Face (cite40†What is Huggingface?†huggingface.co )
+L116: 
+L117: [Input] ScienceCast Toggle
+L118: ScienceCast (cite41†What is ScienceCast?†sciencecast.org )
+L119: 
+L120: [Input] Demos
+L121: # Demos
+L122: 
+L123: [Input] Replicate Toggle
+L124: 
+L125: Replicate (cite42†What is Replicate?†replicate.com )
+L126: 
+L127: [Input] Spaces Toggle
+L128: 
+L129: Hugging Face Spaces (cite43†What is Spaces?†huggingface.co )
+L130: 
+L131: [Input] Spaces Toggle
+L132: 
+L133: TXYZ.AI (cite44†What is TXYZ.AI?†txyz.ai )
+L134: 
+L135: [Input] Related Papers
+L136: # Recommenders and Search Tools
+L137: 
+L138: [Input] Link to Influence Flower
+L139: 
+L140: Influence Flower (cite45†What are Influence Flowers?†influencemap.cmlab.dev )
+L141: 
+L142: [Input] Core recommender toggle
+L143: 
+L144: CORE Recommender (cite46†What is CORE?†core.ac.uk )
+L145: 
+L146:   * Author
+L147:   * Venue
+L148:   * Institution
+L149:   * Topic
+L150: 
+L151: [Input] About arXivLabs
+L152: # arXivLabs: experimental projects with community collaborators
+L153: 
+L154: arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+L155: 
+L156: Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+L157: Have an idea for a project that will add value for arXiv's community? cite47†Learn more about arXivLabs†info.arxiv.org .
+L158: 
+L159: cite48†Which authors of this paper are endorsers? | Disable MathJax (cite49†What is MathJax?†info.arxiv.org )
+L160: 
+L161: We gratefully acknowledge support from our major funders, cite50†member institutions†info.arxiv.org , , and all contributors.
+L162: cite51†About†info.arxiv.org · cite52†Help†info.arxiv.org · cite53†Contact†info.arxiv.org · cite54†Subscribe†info.arxiv.org · cite55†Copyright†info.arxiv.org · cite56†Privacy†info.arxiv.org · cite57†Accessibility†info.arxiv.org · cite58†Operational Status (opens in new tab)†status.arxiv.org L163: 
+L164: Major funding support from
+L165: 
+L166: cite59†(opens in new tab)†www.simonsfoundation.org cite60†(opens in new tab)†www.sfi.org.bm cite61†(opens in new tab)†www.schmidtsciences.org 

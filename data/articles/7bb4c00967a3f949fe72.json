@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24474",
+  "title": "Ben-Misandry: A Bengali Dataset and Late-Fusion Transformer Framework for Detecting Anti-Male Gender Hate",
+  "text": "arXiv:2610.24474v1 Announce Type: new\nAbstract: Gender based hate speech research in Bengali has focused almost exclusively on misogyny, leaving anti male hate, or misandry, entirely unstudied for this language and creating a systematic blind spot in moderation systems trained to catch attacks on women but not on men. We introduce Ben-Misandry, the first Bengali misandry detection dataset: 5,000 comments across six taxonomy classes, including a novel category for mocking male emotional vulnerability with no direct analogue in existing misogyny taxonomies. The corpus is taxonomy-controlled synthetic data generated with GPT-4.1, spot-checked by four human reviewers on a 500-comment sample who confirmed the large majority of assigned labels; a full inter-annotator- agreement study is left to future work. We benchmark it with a classical pipeline (seven classifiers over four text representations) and a transformer pipeline (BanglaBERT, XLM-RoBERTa, and two fusion strategies). The best classical model, a linear SVM over character-level TF-IDF, reaches 91.8% accuracy; a late fusion ensemble averaging BanglaBERT and XLM-RoBERTa softmax outputs reaches 96.6% accuracy and macro ROC-AUC above 99%, nominally ahead of every single model and early fusion, though we have not run significance testing to confirm these margins are meaningful. We relate this to classifier combination theory, under which averaging encoders with decorrelated errors is expected to reduce variance, and corroborate the decision boundary with Shapley explanations that recover the same class- discriminative vocabulary found in our exploratory analysis, while noting this cannot rule out the model partly keying on synthetic-generation artifacts. Our results indicate misandry detection in Bengali is feasible and measurable on this synthetic corpus, offered as an initial public resource pending validation on real-world data.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "7bb4c00967a3f949fe72",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

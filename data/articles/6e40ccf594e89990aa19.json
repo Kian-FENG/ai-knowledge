@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
+  "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+  "text": "Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cuts compute costs and energy use when running AI models. The release adds more pricing pressure on Western providers like OpenAI and Anthropic.\nThe article Deepseek open-sources the inference engine that powers its fastest and cheapest AI model appeared first on The Decoder.",
+  "published_at": "2026-10-20T18:56:15+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6e40ccf594e89990aa19",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/429fdc752b50597c661151d1f5e5af6ae1bc9ca946340db2891c8d3a5bc55efc.body",
+  "source_sha256": "429fdc752b50597c661151d1f5e5af6ae1bc9ca946340db2891c8d3a5bc55efc",
+  "fetched_at": "2026-10-20T22:02:36.960633+00:00"
+}

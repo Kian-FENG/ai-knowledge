@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24223",
+  "title": "Language Models are Lazy Poets: Creative Mode Collapse at Scale",
+  "text": "arXiv:2610.24223v1 Announce Type: new\nAbstract: While aligned large language models (LLMs) can successfully complete many creative tasks, their outputs tend to be highly self-similar. Though solutions to this problem of \"mode collapse\" have been proposed, comprehensive large-scale surveys of the phenomenon in specific textual genres are still lacking. We address this gap through an extensive treatment of LLM mode collapse in poetry. Across 15 poetic forms, 248 subject matter tags, and 16 open-weight models, we generate over 1.1 million poems. To our knowledge, this constitutes the largest corpus of LLM-generated poetry to date. At million-poem scale, we find that LLM poetic vocabularies and rhyming abilities are substantial, but severely underutilized. In other words, LLMs are \"lazy\" poets: despite possessing large poetic inventories, LLMs over-rely on a small number of words, opening phrases, and rhymes. Further, we find that lexical homogenization differs across models and poetic forms, noting observed rhyming vocabulary is correlated with model size.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "cefa5d1ad7b765123692",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

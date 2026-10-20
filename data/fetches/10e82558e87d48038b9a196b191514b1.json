@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-21/cfe6cd2a8e783d97cb70213feb6b7eec1873b69a41342b40132ddf7bc21dc181.body",
+  "sha256": "cfe6cd2a8e783d97cb70213feb6b7eec1873b69a41342b40132ddf7bc21dc181",
+  "source_url": "https://www.sglang.io/blog",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-20T22:02:26.768053+00:00",
+  "source_id": "sglang-blog",
+  "status": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "13325",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline; filename=\"blog\"",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Tue, 20 Oct 2026 22:02:27 GMT",
+    "Etag": "W/\"f85d0e684956937f6c059c49f07a3fab\"",
+    "Last-Modified": "Tue, 20 Oct 2026 18:20:21 GMT",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "X-Vercel-Cache": "HIT",
+    "X-Vercel-Id": "sfo1::t84xr-1792533747390-0f9ad4c01336",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://www.sglang.io/blog",
+  "truncated": false,
+  "charset": "utf-8"
+}

@@ -1,0 +1,33 @@
+{
+  "raw_path": "raw/2026-10-21/533f590f5af74c1ed6fb71a31cdbe498a9d97602dc1dfa76df16f9b6038f3874.body",
+  "sha256": "533f590f5af74c1ed6fb71a31cdbe498a9d97602dc1dfa76df16f9b6038f3874",
+  "source_url": "https://about.fb.com/news/feed/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-20T22:02:20.522595+00:00",
+  "source_id": "meta-newsroom",
+  "status": 200,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Tue, 20 Oct 2026 22:02:21 GMT",
+    "Content-Type": "application/rss+xml; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "Last-Modified": "Thu, 15 Oct 2026 10:31:07 GMT",
+    "ETag": "W/\"e4fbac585b3e6e78364dc2a559cab1c8\"",
+    "X-hacker": "If you're reading this, you should visit https://join.a8c.com/viphacker and apply to join the fun, mention this header.",
+    "X-Powered-By": "WordPress VIP <https://wpvip.com>",
+    "Host-Header": "a9130478a60e5f9135f765b23f26593b",
+    "Link": "<https://about.fb.com/news/>; rel=\"canonical\"",
+    "Content-Encoding": "gzip",
+    "x-rq": "sjc7 177 249 80",
+    "cache-control": "max-age=300, must-revalidate",
+    "x-cache": "STALE",
+    "accept-ranges": "bytes",
+    "Strict-Transport-Security": "max-age=31536000",
+    "X-Remembering": "Eric Binnion <https://friendsofericbinnion.wordpress.com/>"
+  },
+  "final_url": "https://about.fb.com/news/feed/",
+  "truncated": false,
+  "charset": "utf-8"
+}

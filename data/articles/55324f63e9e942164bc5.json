@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/policy/article/3371540/china-creates-state-owned-firm-xiongan-develop-nations-ai-data-resources",
+  "title": "China creates state-owned firm in Xiongan to develop nation’s AI data resources",
+  "text": "China has set up a new state-owned enterprise dedicated to managing the country’s massive data resources, a significant move designed to turbocharge the nation’s artificial intelligence industry and bolster its digital economy.\nThe National Data Group Co – based in China’s “city of the future”, Xiongan New Area in northern Hebei province – is tasked with “developing and utilising data resources, unlocking the value of data elements, serving AI development and fostering a data industry...",
+  "published_at": "2026-10-20T12:23:29+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "55324f63e9e942164bc5",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/e2688fd36393bd0dce03516ac9db9f06769bfe9b2a3c0b9a099c3616fdb1062f.body",
+  "source_sha256": "e2688fd36393bd0dce03516ac9db9f06769bfe9b2a3c0b9a099c3616fdb1062f",
+  "fetched_at": "2026-10-20T22:02:38.989403+00:00"
+}

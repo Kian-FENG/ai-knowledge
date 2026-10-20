@@ -1,0 +1,31 @@
+{
+  "raw_path": "raw/2026-10-21/ec858e02aba510a17b6f02333d634b63bf88cfce18674e03b04c3a5b16b0f4d6.body",
+  "sha256": "ec858e02aba510a17b6f02333d634b63bf88cfce18674e03b04c3a5b16b0f4d6",
+  "source_url": "https://www.minimax.io/blog/minimax-m31f",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-20T22:04:53.981388+00:00",
+  "source_id": "minimax",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Security-Policy": "frame-ancestors 'none';",
+    "X-Frame-Options": "DENY",
+    "Vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "alb_receive_time": "1792533894.936",
+    "alb_request_id": "94d94ddc117ae0964b2e36c925dc211dcddd43b4",
+    "Expires": "Tue, 20 Oct 2026 22:04:54 GMT",
+    "Cache-Control": "max-age=0, no-cache, no-store",
+    "Pragma": "no-cache",
+    "Date": "Tue, 20 Oct 2026 22:04:54 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "Transfer-Encoding",
+    "Akamai-GRN": "0.e100d817.1792533894.76da69d4",
+    "Access-Control-Allow-Origin": "*",
+    "X-From": "ak"
+  },
+  "final_url": "https://www.minimax.io/blog/minimax-m31f",
+  "truncated": false,
+  "charset": "utf-8",
+  "text": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost - MiniMax Research | MiniMax\nModels\nLLM\nMiniMax M3.1 Flash\nMiniMax M3\nVIDEO\nMiniMax H3\nSPEECH & MUSIC\nMiniMax Speech 2.8\nMiniMax Music 3.0\nProduct\nMiniMax Code\nMiniMax Design\nAudio\nTalkie\nAPI\nPlan\nResearch\nCompany\nIntelligence with everyone\nAbout\nNews\nInvestor Relations\nContact Us\nModels\nLLM\nMiniMax M3.1 FlashNEW\nMiniMax M3NEW\nVIDEO\nMiniMax H3NEW\nSPEECH & MUSIC\nMiniMax Speech 2.8NEW\nMiniMax Music 3.0NEW\nProduct\nMiniMax CodeNEW\nMiniMax Design\nAudio\nTalkie\nAPI\nPlan\nResearch\nCompany\nIntelligence with everyone\nAbout\nNews\nInvestor Relations\nMiniMax M3.1 Flash: Redefining Agent Performance and Cost\n2026-10-19\nAIM3.1 Flash\nToday, we officially roll out MiniMax M3.1 Flash.\nSpace Bunny 🐰, which processed more than 200 trillion tokens while operating anonymously, was an early version of MiniMax M3.1 Flash.\nAs a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%.\nStronger Capabilities Across the Board\nM3.1 Flash improves across a broad range of benchmarks, reaching the level of leading models in complex agentic tasks (cowork), computer use, software development (coding), and cybersecurity.\nComplex Tasks and Automation:\nM3.1 Flash ranks among the top performers on AutomationBench-AA. It can complete real enterprise workflows across SaaS systems, solving practical problems in sales, marketing, operations, customer service, finance, and HR from end to end.\nScoring 76.2 on BankerToolBench, it excels at complex real-world challenges such as multi-step planning, maintaining consistency across documents and files, financial compliance, and chained tool calls.\nCoding and Software Engineering:\nIt achieves 73.7% on DeepSWE v1.1, placing it alongside top models. DeepSWE focuses on complex software tasks that require models to independently understand code, develop features, fix issues, and validate their work through testing. M3.1 Flash demonstrates strong execution across long sequences of steps, supporting complex software development workflows at a lower cost.\nComputer Use:\nIt scores 61.7 points on OSWorld V2, which measures AI computer operation and cross-application task execution, and 29.6 points on Agents’ Last Exam (ALE), which evaluates performance on real professional work and complex tasks. It ranks first among Chinese models on both benchmarks.\nM3.1 Flash demonstrates strong capabilities in interacting with real environments, using tools, and executing long sequences of tasks—moving beyond understanding a task to taking action and delivering results.\nCybersecurity:\nIt achieves a strong score of 82% on CyberGym, demonstrating leading capabilities in vulnerability discovery and validation.\nIn in-depth evaluations by our internal security experts, the model performed strongly in code auditing, vulnerability patching, penetration testing, malware analysis, and reverse engineering, enabling efficient, low-cost support for building complex security systems.\nWe have further optimized M3.1 Flash’s inference efficiency through more aggressive sparsity. In everyday use, output speeds can reach 200+ TPS (tokens per second), with median (P50) speeds consistently reaching 170+ TPS.\nPricing: Most Cost-Effective\nFor agentic tasks, the model’s overall usage cost is 70% lower than its predecessor.\nFlat pricing per 1M tokens: $0.15 input · $0.60 output · $0.015 cached input.\nModelInput\nUSD / 1M tokensOutput\nUSD / 1M tokensCached input\nUSD / 1M tokensMiniMax-\nM3.1-Flash$0.15$0.60$0.015\nRedefining Capability and Cost for Agentic Tasks\nAcross three benchmarks—Automation-Bench for complex agentic task execution, DeepSWE for real-world coding, and Agents’ Last Exam (ALE) for computer use in real-world tasks with economic value—M3.1 Flash delivers performance on par with top models at a very low task cost, setting a highly competitive new standard for performance and cost.\nM3.1 Flash is now available through the MiniMax API, M Plan, and MiniMax Code. Model weights will be released later.\nDownload MiniMax Code for desktop: https://agent.minimax.io/download\nSubscribe to M Plan: https://www.minimax.io/m-plan\nAPI access: platform.minimax.io\nFlash represents our ongoing exploration of the balance between efficiency and capability. Pro, which pushes the boundaries of intelligence, will also arrive later.\nIntelligence with Everyone."
+}

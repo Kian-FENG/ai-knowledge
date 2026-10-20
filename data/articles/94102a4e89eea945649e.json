@@ -1,0 +1,19 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-20/deepseek-unveils-open-source-tool-to-help-cut-ai-operating-costs",
+  "title": "DeepSeek open-sources DeepInfer, its high-performance inference framework that powers its production services, starting with support for DeepSeek-V4.1-Flash",
+  "link_text": "DeepSeek open-sources DeepInfer, its high-performance inference framework that powers its production services, starting with support for DeepSeek-V4.1-Flash",
+  "id": "94102a4e89eea945649e",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "techmeme-river",
+  "source_name": "Techmeme River",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/4dbe0526ec7b941d3f2b49a989ad278ca790ffb19025d628571db4fc577c2f6f.body",
+  "source_sha256": "4dbe0526ec7b941d3f2b49a989ad278ca790ffb19025d628571db4fc577c2f6f",
+  "fetched_at": "2026-10-20T22:02:49.158204+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-20T22:02:49.158204+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

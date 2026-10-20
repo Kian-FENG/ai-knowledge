@@ -1,0 +1,175 @@
+{
+  "records": [
+    {
+      "record": "web-browser1.txt",
+      "raw_path": "raw/2026-10-21/59d49d805455ea4f4efbcf5f84165cfa95e3aca65f097e03a8a21e1dd24c6699.txt",
+      "sha256": "59d49d805455ea4f4efbcf5f84165cfa95e3aca65f097e03a8a21e1dd24c6699",
+      "fetched_at": "2026-10-20T22:16:27.310191+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-browser2.txt",
+      "raw_path": "raw/2026-10-21/3c8716f254d1d7453b053d4ae172d691c0ef7c388edaff98b9ba0fa902ae7af1.txt",
+      "sha256": "3c8716f254d1d7453b053d4ae172d691c0ef7c388edaff98b9ba0fa902ae7af1",
+      "fetched_at": "2026-10-20T22:16:27.342964+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-browser3.txt",
+      "raw_path": "raw/2026-10-21/b6daaf1a99909816a8be93a5cf9e6c98dc843bd95d4044b1916b7f1030a80071.txt",
+      "sha256": "b6daaf1a99909816a8be93a5cf9e6c98dc843bd95d4044b1916b7f1030a80071",
+      "fetched_at": "2026-10-20T22:16:27.375633+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-browser4.txt",
+      "raw_path": "raw/2026-10-21/6802b70bdcabed45c1fd9f8dc1cdb70c04454ee7e5e67b14b6f279f694f397a6.txt",
+      "sha256": "6802b70bdcabed45c1fd9f8dc1cdb70c04454ee7e5e67b14b6f279f694f397a6",
+      "fetched_at": "2026-10-20T22:16:27.407631+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-identityPapers.txt",
+      "raw_path": "raw/2026-10-21/d2cbb4cff56da492423bd4962ee427e2bf772393fff83d8a4522732e277c789a.txt",
+      "sha256": "d2cbb4cff56da492423bd4962ee427e2bf772393fff83d8a4522732e277c789a",
+      "fetched_at": "2026-10-20T22:16:27.440632+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-infraStartup.txt",
+      "raw_path": "raw/2026-10-21/b1c5195389ef7e2837d9a367a28d4905f7273bd747a23173d8dd535d2d7ab27a.txt",
+      "sha256": "b1c5195389ef7e2837d9a367a28d4905f7273bd747a23173d8dd535d2d7ab27a",
+      "fetched_at": "2026-10-20T22:16:27.472813+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-initialWeb.txt",
+      "raw_path": "raw/2026-10-21/138f3b916b00aa3fe51da2f34daba51d5a3fb367ddf43dfb94111955ce327d76.txt",
+      "sha256": "138f3b916b00aa3fe51da2f34daba51d5a3fb367ddf43dfb94111955ce327d76",
+      "fetched_at": "2026-10-20T22:16:27.504502+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-officialLists.txt",
+      "raw_path": "raw/2026-10-21/263cd4975e6aaa02eddb66a5c73fbdfda2aa05d830c1ad223921f030f9341f3e.txt",
+      "sha256": "263cd4975e6aaa02eddb66a5c73fbdfda2aa05d830c1ad223921f030f9341f3e",
+      "fetched_at": "2026-10-20T22:16:27.536250+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-officialMore.txt",
+      "raw_path": "raw/2026-10-21/b400ead259412513e932ffcec1ca8216d310dee789bf1e84d2b53cd90907e2c2.txt",
+      "sha256": "b400ead259412513e932ffcec1ca8216d310dee789bf1e84d2b53cd90907e2c2",
+      "fetched_at": "2026-10-20T22:16:27.568336+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-orchestraRetry.txt",
+      "raw_path": "raw/2026-10-21/49b5a15b4ebdd09c776497c4e6808eea1a000ac62f0475e2691f07890f953c8a.txt",
+      "sha256": "49b5a15b4ebdd09c776497c4e6808eea1a000ac62f0475e2691f07890f953c8a",
+      "fetched_at": "2026-10-20T22:16:27.600086+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-primaryDiscovery.txt",
+      "raw_path": "raw/2026-10-21/d20c5b043a770b464e09dc5e6a78ecf17f8cd241b840ffa04f8b9c9e48b30a04.txt",
+      "sha256": "d20c5b043a770b464e09dc5e6a78ecf17f8cd241b840ffa04f8b9c9e48b30a04",
+      "fetched_at": "2026-10-20T22:16:27.631801+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-readDetails.txt",
+      "raw_path": "raw/2026-10-21/1c475d45c5adfe70edf82cc546bed44a3054b2c8d250085e1f455f3e76abde58.txt",
+      "sha256": "1c475d45c5adfe70edf82cc546bed44a3054b2c8d250085e1f455f3e76abde58",
+      "fetched_at": "2026-10-20T22:16:27.664647+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-researchStartup.txt",
+      "raw_path": "raw/2026-10-21/34f028b9c1e32c0950039a0ede0490b1d215f12432827f0494cd72f6f8972758.txt",
+      "sha256": "34f028b9c1e32c0950039a0ede0490b1d215f12432827f0494cd72f6f8972758",
+      "fetched_at": "2026-10-20T22:16:27.699683+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-search1.txt",
+      "raw_path": "raw/2026-10-21/0dddd55e239ae4797009204c56a8d73c874acb610761d5426dd962d82f03cddd.txt",
+      "sha256": "0dddd55e239ae4797009204c56a8d73c874acb610761d5426dd962d82f03cddd",
+      "fetched_at": "2026-10-20T22:16:27.738619+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-search2.txt",
+      "raw_path": "raw/2026-10-21/16430daa77e95fe032fb62f18b8b0db51726d38b0ea18f6310e81c8e0c967ba7.txt",
+      "sha256": "16430daa77e95fe032fb62f18b8b0db51726d38b0ea18f6310e81c8e0c967ba7",
+      "fetched_at": "2026-10-20T22:16:27.770852+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-search3.txt",
+      "raw_path": "raw/2026-10-21/e7901bd5ff32e155029a5673ddf917e133e4ead496f5b68256ee07f39240ac89.txt",
+      "sha256": "e7901bd5ff32e155029a5673ddf917e133e4ead496f5b68256ee07f39240ac89",
+      "fetched_at": "2026-10-20T22:16:27.804038+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-search4.txt",
+      "raw_path": "raw/2026-10-21/904eb1f526ef94fd549274478a7cb921eb0e4050121d20b8e2b7b95709eb16f9.txt",
+      "sha256": "904eb1f526ef94fd549274478a7cb921eb0e4050121d20b8e2b7b95709eb16f9",
+      "fetched_at": "2026-10-20T22:16:27.836101+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-search5.txt",
+      "raw_path": "raw/2026-10-21/97e9f3869aac0a6be8c4df22099d9d2de29bad69bd04b2e29e5c68d458496eb2.txt",
+      "sha256": "97e9f3869aac0a6be8c4df22099d9d2de29bad69bd04b2e29e5c68d458496eb2",
+      "fetched_at": "2026-10-20T22:16:27.867732+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-selectedOfficial.txt",
+      "raw_path": "raw/2026-10-21/07e926d9e2ea3fbb2485b8968b0d8d042e2a1d09067bc72f21353df34ceb0eba.txt",
+      "sha256": "07e926d9e2ea3fbb2485b8968b0d8d042e2a1d09067bc72f21353df34ceb0eba",
+      "fetched_at": "2026-10-20T22:16:27.899622+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "web-startupRead.txt",
+      "raw_path": "raw/2026-10-21/cb093961088590608a89ea6cf8843cdca69deadd8d4aab0092431cf8d964febe.txt",
+      "sha256": "cb093961088590608a89ea6cf8843cdca69deadd8d4aab0092431cf8d964febe",
+      "fetched_at": "2026-10-20T22:16:27.933052+00:00",
+      "scope": "浏览/搜索工具实际返回文本；各页面及原始请求见记录，未保证所有内容均用于结论。"
+    },
+    {
+      "record": "dynamo-api-archive.json",
+      "raw_path": "raw/2026-10-21/3de7ebc25136392d26695bba9f41c1c614777de672bd00acb85a015fe0be287e.json",
+      "sha256": "3de7ebc25136392d26695bba9f41c1c614777de672bd00acb85a015fe0be287e",
+      "fetched_at": "2026-10-20T22:13:46.788365+00:00"
+    },
+    {
+      "record": "flashinfer-api-archive.json",
+      "raw_path": "raw/2026-10-21/f0dcfda8a47b11a57962bdd62f832d1c556771b91ec195071a48376bc86ba361.json",
+      "sha256": "f0dcfda8a47b11a57962bdd62f832d1c556771b91ec195071a48376bc86ba361",
+      "fetched_at": "2026-10-20T22:13:46.853677+00:00"
+    },
+    {
+      "record": "mooncake-api-archive.json",
+      "raw_path": "raw/2026-10-21/b08a3366af0e9706713db069cbdaad4f63d73a114fbd21586a0c7d2af8df9d60.json",
+      "sha256": "b08a3366af0e9706713db069cbdaad4f63d73a114fbd21586a0c7d2af8df9d60",
+      "fetched_at": "2026-10-20T22:13:46.821274+00:00"
+    },
+    {
+      "record": "sglang-api-archive.json",
+      "raw_path": "raw/2026-10-21/69112e48c5e668d4eaa34617858d83b2cc2d5c06872f95fc33b95d98c11dead4.json",
+      "sha256": "69112e48c5e668d4eaa34617858d83b2cc2d5c06872f95fc33b95d98c11dead4",
+      "fetched_at": "2026-10-20T22:07:45.505702+00:00"
+    },
+    {
+      "record": "vllm-api-archive.json",
+      "raw_path": "raw/2026-10-21/31476f14bba68f55e5156cb2efa464196a7722c84cc57a525ac72d18e339af02.json",
+      "sha256": "31476f14bba68f55e5156cb2efa464196a7722c84cc57a525ac72d18e339af02",
+      "fetched_at": "2026-10-20T22:13:46.756084+00:00"
+    }
+  ],
+  "note": "仅网页/摘要/所列范围读取；检索未命中不等于不存在。原文只是资料。"
+}

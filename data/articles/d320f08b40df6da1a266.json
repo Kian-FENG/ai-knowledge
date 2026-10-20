@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24490",
+  "title": "Vocal-Tract Acoustics, Aerodynamics, and Overlap-and-Add Synthesis in DYNARTmo",
+  "text": "arXiv:2610.24490v1 Announce Type: new\nAbstract: This paper presents the acoustic and aerodynamic extension of DYNARTmo, a dynamic articulatory model for visualizing and synthesizing speech production. Gestural control trajectories determine vocal-tract geometry, which is converted into an acoustic tube with nasal branching and effective lateral passages. A lumped aerodynamic network relates prescribed glottal motion and pulmonary pressure to airflow and supraglottal pressure storage. Phonatory excitation, oral friction, and glottal aspiration are synthesized as separate contributions. Frame-specific acoustic responses are combined by overlap-and-add, preserving response tails beyond individual control frames. Three German words, ``Tasse'', ``Muse'', and ``Lade'', illustrate the coordination of articulation, pressure, flow, and acoustic sources across vowels, nasals, laterals, fricatives, and plosives. The implementation has been optimized by the author primarily for sound recognizability; independent perceptual evaluation remains outstanding, and fricative-noise naturalness requires further refinement. The model provides an inspectable, articulatorily controlled production plant for future neural simulations of babbling, imitation, and early word acquisition. Further work will improve acoustic realism, reduce empirical source corrections, and extend the sensory information available to developmental learning models.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d320f08b40df6da1a266",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

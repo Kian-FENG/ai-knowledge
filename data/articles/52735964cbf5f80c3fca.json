@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/",
+  "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time",
+  "text": "Mistral AI launched Voxtral 3, a new family of language models built for real-time voice agents. The system combines speech-to-text, text-to-speech, and a voice agent SDK, supports more than 50 languages, and lets agents tap into external tools during live conversations. It can run on your own infrastructure or through EU-hosted APIs to keep data under your control.\nThe article Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time appeared first on The Decoder.",
+  "published_at": "2026-10-20T17:17:55+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "52735964cbf5f80c3fca",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/429fdc752b50597c661151d1f5e5af6ae1bc9ca946340db2891c8d3a5bc55efc.body",
+  "source_sha256": "429fdc752b50597c661151d1f5e5af6ae1bc9ca946340db2891c8d3a5bc55efc",
+  "fetched_at": "2026-10-20T22:02:36.960633+00:00"
+}

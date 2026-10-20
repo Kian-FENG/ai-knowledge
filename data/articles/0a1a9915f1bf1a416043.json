@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/research/claude-shaped-science",
+  "title": "Claude-shaped science",
+  "link_text": "Claude-shaped science",
+  "id": "0a1a9915f1bf1a416043",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "anthropic-research",
+  "source_name": "Anthropic Research",
+  "section": 2,
+  "raw_path": "raw/2026-10-21/a36cdb7239113ee8af29eae9eeb711a4df3fcba60542db7a477fbddd22549e37.body",
+  "source_sha256": "a36cdb7239113ee8af29eae9eeb711a4df3fcba60542db7a477fbddd22549e37",
+  "fetched_at": "2026-10-20T22:02:17.622461+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-20T22:02:17.622461+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

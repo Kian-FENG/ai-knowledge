@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24715",
+  "title": "When Do Repetition Loops Lock? Truncation Sampling, Bounded Penalties, and a Blind Spot in DRY",
+  "text": "arXiv:2610.24715v1 Announce Type: new\nAbstract: Language models sometimes repeat verbatim until the generation limit. We study the exit rather than the entrance: given that a span has already been repeated $n$ times, when is escape still possible? Along the loop the context is deterministic, so loop survival under any sampler can be computed exactly from one forward pass. Pure sampling leaves a positive escape probability at every step; top-$p$ with threshold $\\pi>1/2$ locks a position exactly when the continuation probability reaches $\\pi$. A bounded penalty can leave a position locked; a penalty that outgrows the model's preference for the loop over unseen tokens guarantees escape under top-$p$. The same analysis predicts a blind spot in the widely deployed DRY sampler: its sequence breakers cap the penalty at $\\lambda b^{g-1-a}$ for loops whose longest breaker-free run has $g$ tokens. On eleven open models, 66\\% of locked units with $g=6$ stay locked under DRY and 1\\% with $g=8$. In free generation with llama.cpp, all 109 loops that survive DRY have $g\\le 7$. We propose DRY-C, which adds a term that grows exponentially with the number of verbatim recurrences, up to its look-back window. With it, none of 720 structured-output generations looped to the length limit, and task completion stayed close to DRY's.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "a0d5307313fa256071e8",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

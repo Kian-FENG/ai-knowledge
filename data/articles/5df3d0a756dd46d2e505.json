@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24172",
+  "title": "Prosodic Structure as a Critical Component in Phonemic Language Modelling at BabyLM Scale",
+  "text": "arXiv:2610.24172v1 Announce Type: new\nAbstract: Human children learn language from continuous, prosodically structured speech long before they can read, yet almost all language models train on orthographic text. Building on previous phonemic BabyLM training (Goriely et al., 2024; arXiv:2410.22906), we ask whether supplying an estimate of the prosody infants exploit improves phonemic language modelling at BabyLM scale. We compare an orthographic baseline to three conditions forming a ladder of phonological richness. All conditions are trained as BERT MLMs at 10M and 100M words. Addressing the ecological validity of existing metrics in the small-data regime, we build a lexical decision task and two semantic organisation tasks. Our new lexical decision task offers improved insights into the distinction between wordlikeness, token familiarity, and lexicality as factors. Triphone phonotactic control and pseudo-log-likelihood scoring shows that these scores reflect phonotactic familiarity rather than wordhood: every model sits near or below chance on an adversarial inverted condition, revealing prior results of this kind as partly artefactual. On our new semantic tasks, a prosodically annotated phoneme stream gives the strongest taxonomic organisation at both the 10M and 100M word scales. Phonemic models with boundary structure are competitive with the orthographic baseline. These findings suggest that prosodic structure is a key component of phonemic language modelling in the small-data regime most analogous to infant learning.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "5df3d0a756dd46d2e505",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

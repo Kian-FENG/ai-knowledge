@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-21/ec858e02aba510a17b6f02333d634b63bf88cfce18674e03b04c3a5b16b0f4d6.body",
+  "sha256": "ec858e02aba510a17b6f02333d634b63bf88cfce18674e03b04c3a5b16b0f4d6",
+  "source_url": "https://www.minimax.io/blog/minimax-m31f",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-20T22:04:53.981388+00:00",
+  "source_id": "minimax",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Security-Policy": "frame-ancestors 'none';",
+    "X-Frame-Options": "DENY",
+    "Vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "alb_receive_time": "1792533894.936",
+    "alb_request_id": "94d94ddc117ae0964b2e36c925dc211dcddd43b4",
+    "Expires": "Tue, 20 Oct 2026 22:04:54 GMT",
+    "Cache-Control": "max-age=0, no-cache, no-store",
+    "Pragma": "no-cache",
+    "Date": "Tue, 20 Oct 2026 22:04:54 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "Transfer-Encoding",
+    "Akamai-GRN": "0.e100d817.1792533894.76da69d4",
+    "Access-Control-Allow-Origin": "*",
+    "X-From": "ak"
+  },
+  "final_url": "https://www.minimax.io/blog/minimax-m31f",
+  "truncated": false,
+  "charset": "utf-8"
+}

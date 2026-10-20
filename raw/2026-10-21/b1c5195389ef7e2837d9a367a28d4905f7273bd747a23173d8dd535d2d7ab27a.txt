@@ -1,0 +1,362 @@
+Achieving near-zero-downtime scaling in Elastic Expert Parallelism | vLLM Blog (https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime)
+citeturn7view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime","lineno":null}); Total lines: 163
+L0: Menu
+L1: 
+L2: Search Docscite0†Documentation†docs.vllm.ai cite1†Blog cite2†Events cite3†Office Hours cite4†Contact cite5†Community cite6†GitHub†github.com L3: 
+L4: Theme
+L5: 
+L6: cite1†Blog L7: # Achieving near-zero-downtime scaling in Elastic Expert Parallelism
+L8: 
+L9: October 19, 2026 12 min read
+L10: 
+L11: Itay Alroy (NVIDIA)
+L12: 
+L13: cite7†#large-scale-serving cite8†#elastic-ep cite9†#expert-parallelism cite10†#moe cite11†#nixl cite12†#cuda-graphs L14:   * cite13†Overlapping topology preparation with serving L15:   * cite14†Expand EP communication in place L16:   * cite15†Preserve CUDA graphs on existing workers L17:   * cite16†Prepare joining workers independently L18:   * cite17†Performance on DeepSeek V4 Pro L19:   * cite18†Scale-up and scale-down timings L20:   * cite19†Maintaining the SLO while adding GPUs L21:   * cite20†Try Elastic EP L22:   * cite21†What comes next L23:   * cite22†Restore warm workers with Dynamo Snapshot L24:   * cite23†Achieve state-of-the-art EP communication with NIXL EP L25:   * cite24†Connect Elastic EP to Dynamo and llm-d orchestration L26:   * cite25†Acknowledgements L27: Table of Contents
+L28: Traditionally, changing the number of GPUs in a vLLM service required adding or removing entire model replicas or restarting the engine with a different GPU count. As models grow larger, each replica needs more GPUs, so scaling by replica adds or removes GPUs in increasingly large increments. Restarting vLLM to scale DeepSeek V4 Pro from 16 to 20 GB200 GPUs stopped serving for 197 seconds (see the cite17†performance section for details), leaving those expensive GPUs allocated without generating tokens.
+L29: In our cite26†first Elastic EP post , we showed how vLLM could add or remove GPUs from a running DEP deployment (data-parallel attention with expert-parallel MoE) without restarting it. While we avoided a restart, serving still stopped throughout reconfiguration as we initialized new workers, prepared the expanded communication groups, loaded model weights, and repeated kernel warmup and CUDA graph capture.
+L30: In our DeepSeek V4 Pro benchmark, this pause lasted 100 seconds when scaling from 16 to 20 GPUs and 56 seconds when scaling back to 16 GPUs (full details in the cite17†performance section ).
+L31: In this post, we describe how asynchronous preparation and cite27†NIXL EP†github.com enabled Elastic EP reconfiguration with near-zero downtime. In the same benchmark, we reduced downtime to 0.82 seconds when scaling from 16 to 20 GPUs and 1.96 seconds when scaling back to 16 GPUs, allowing us to scale up and down with almost no impact on serving performance.
+L32: ## Overlapping topology preparation with serving
+L33: We reorganized vLLM's reconfiguration flow into two phases: background preparation and a short commit. Existing workers use separate background threads to prepare and warm up target communication, transfer model weights, and synchronize execution-related information (such as autotuning results) with joining workers, while continuing to serve requests with their current communication groups and CUDA graphs.
+L34: In parallel, joining workers initialize, receive model weights, and prepare their communication and GPU execution. During the commit phase, vLLM briefly pauses its schedulers, activates the prepared topology, and resumes serving. These changes were introduced in cite28†asynchronous preparation†github.com and cite29†prepare/commit optimizations†github.com .
+L35: Preparation covers four main tasks:
+L36: 
+L37:   1. Initialize joining workers. Start their processes and allocate storage for the model and execution.
+L38:   2. Prepare communication. Set up the target communication groups and expand the EP communicator.
+L39:   3. Transfer model weights. Transfer the required weights from existing workers to joining workers over NVLink or RDMA.
+L40:   4. Prepare execution. Complete the required compilation, kernel warmup, tuning setup, and CUDA graph construction on joining workers.
+L41: After the commit phase, asynchronous Expert Parallel Load Balancing (EPLB) allows new workers to begin handling attention while existing workers handle expert computation. EPLB then redistributes experts across the expanded group in the background.
+L42: 
+L43: The main challenge is preparing communication and GPU execution without involving or disrupting the workers that are serving requests.
+L44: ## Expand EP communication in place
+L45: 
+L46: Before NIXL EP, the EP communication backends available in vLLM used fixed membership: each instance was created for a specific set of ranks. Adding or removing ranks requires a new instance. Even when that instance can be created in the background, two problems remain.
+L47: First, the old and new instances need separate communication buffers and other resources, including memory registrations, IPC handles, and RDMA Queue Pairs (QPs). Keeping both instances alive increases communication memory usage and requires repeating setup rather than reusing existing resources.
+L48: Second, switching EP communicators changes the buffers and communication state used by the EP communication kernels. This invalidates previously captured CUDA graphs, which must be recaptured before serving can resume. That requires repeating warmup and graph construction for many batch shapes across all retained workers.
+L49: In our DeepSeek V4 Pro benchmark, even with asynchronous preparation, performing warmup and graph recapture during the commit phase resulted in serving pauses of 58 seconds during scale-up and 44 seconds during scale-down.
+L50: To solve these problems, we designed NIXL EP, an EP communication library tailor-made for Elastic EP. It adds or removes ranks in place, reusing the same NIXL agent, buffers, and connections. New peers can be connected while existing workers continue serving, and only joining peers need new connections and registrations. NIXL EP also keeps captured EP dispatch and combine entries valid across reconfiguration, allowing retained workers to reuse their existing CUDA graphs.
+L51: During preparation, vLLM's background thread connects joining peers without activating them. The commit phase then activates the prepared peers without replacing the communicator.
+L52: 
+L53: cite30†Image: The same NIXL EP communicator progresses from the current active group to connected inactive joining peers, then activates the target group at commit. The same NIXL EP communicator progresses from the current active group to connected inactive joining peers, then activates the target group at commit.
+L54: Figure 1. Connecting and activating new EP peers. Green ranks are active; gray ranks are connected but masked. During the commit phase, new peers are activated without replacing the agent or buffers.
+L55: 
+L56: vLLM still creates new DP coordination groups and EPLB groups for the target topology, but their communication runs outside the captured model forward pass, so switching to them does not invalidate CUDA graphs.
+L57: ## Preserve CUDA graphs on existing workers
+L58: 
+L59: A CUDA graph records GPU operations so that vLLM can replay a forward pass without repeatedly launching each operation from the CPU. A captured kernel node includes its launch configuration and argument values, including pointers to input and output tensors. Memory contents can change between replays, but the recorded pointers must remain valid. These requirements are part of the cite31†CUDA graph execution contract†docs.pytorch.org .
+L60: vLLM cite32†captures separate graphs for different batch shapes and execution modes†docs.vllm.ai and runs warmup forward passes before each capture.
+L61: 
+L62: Preserving captured CUDA graphs requires more than keeping the communicator object alive. NIXL EP also keeps kernel launch configurations, graph-visible communication arguments, and input and output tensor addresses stable across reconfiguration. Its kernels read active group membership from device state that can be updated in place.
+L63: We also changed vLLM to keep the captured arguments, launch configurations, and input and output tensor addresses of the surrounding compute kernels stable across reconfiguration:
+L64:   * We reuse retained workers' fused-MoE execution objects instead of rebuilding them for a different active EP size.
+L65:   * We keep the addresses and layouts of graph-visible workspaces and dispatch outputs stable across reconfiguration so that captured expert kernels can continue using them. Dispatch outputs also serve as inputs to expert computation. If their addresses or layouts changed with EP size, captured expert kernels would still use the old pointers and offsets.
+L66:   * We preserve the backing storage of expert-routing tensors and update mappings in place. This allows EPLB to change the mapping contents without moving the tensors used by captured kernels.
+L67: Together, these changes allow retained workers to cite33†reuse their existing CUDA graphs†github.com after both scale-up and scale-down.
+L68: ## Prepare joining workers independently
+L69: 
+L70: Existing workers have graphs to preserve. Joining workers have none.
+L71: 
+L72: Joining workers normally prepare by running model forward passes with EP dispatch and combine, as well as exchanging batch information with other workers. These steps require other workers to participate, but existing workers are already serving real requests on the current topology.
+L73: NIXL EP lets each joining worker temporarily mask every remote EP peer during warmup and graph preparation. Only that worker's local rank is active for EP communication. We also modified vLLM so that these preparation passes do not wait for DP batch information from other workers. This lets joining workers run their dummy batches and capture CUDA graphs without requiring existing workers to participate.
+L74: cite34†Image: Existing workers serve with their current peers active and joining peers masked. Each joining worker keeps only itself active for local warmup and graph capture, masking all remote peers, including other joining workers. Existing workers serve with their current peers active and joining peers masked. Each joining worker keeps only itself active for local warmup and graph capture, masking all remote peers, including other joining workers.
+L75: Figure 2. Green ranks are active for EP communication; gray ranks are masked. Existing workers serve together while each joining worker masks all remote EP peers for preparation.
+L76: 
+L77: After capture, NIXL EP can reactivate peers without invalidating the graphs. Joining workers reuse their locally captured graphs when they begin serving as part of the expanded group.
+L78: ## Performance on DeepSeek V4 Pro
+L79: 
+L80: All experiments in this section used cite35†DeepSeek V4 Pro†huggingface.co on GB200 GPUs, with TP=1 and DP/EP sizes of 16 and 20. Model weights were pre-downloaded in safetensors format on shared Lustre storage and loaded using the default `--load-format auto`. Measurements used warm kernel-compilation caches (Triton, TileLang, and FlashInfer).
+L81: ### Scale-up and scale-down timings
+L82: 
+L83: The table shows which stages run while serving is paused and which run in the background while existing workers continue serving.
+L84: Stage  | A: Blocking  | B: Async preparation  | C: Async preparation + graph reuse
+L85: --- | --- | --- | ---
+L86: Initialize joining workers  | Serving paused  | Background  | Background
+--------------------------------------------------------------------------------
+Laplace Intelligence red-teams robots and self-driving cars before they hit the real world | TechCrunch (https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/)
+citeturn7view1 [wordlim: 25] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/","lineno":null}); Total lines: 245
+L0:   * cite0†Latest L1:   * cite1†Startups L2:   * cite2†Venture L3:   * cite3†Apple L4:   * cite4†Security L5:   * cite5†AI L6:   * cite6†Apps L7:   * cite7†Disrupt 2026 L8: 
+L9:   * cite8†Events L10:   * cite9†Podcasts L11:   * cite10†Newsletters L12: 
+L13: [Input: Search...][Button: Submit]
+L14: ### Topics
+L15: 
+L16: cite0†Latest L17: 
+L18: cite5†AI L19: 
+L20: cite11†Amazon L21: 
+L22: cite6†Apps L23: 
+L24: cite12†Biotech & Health L25: 
+L26: cite13†Climate L27: 
+L28: cite14†Cloud Computing L29: 
+L30: cite15†Commerce L31: 
+L32: cite16†Crypto L33: 
+L34: cite17†Enterprise L35: 
+L36: cite18†EVs L37: 
+L38: cite19†Fintech L39: 
+L40: cite20†Fundraising L41: 
+L42: cite21†Gadgets L43: 
+L44: cite22†Gaming L45: 
+L46: cite23†Google L47: 
+L48: cite24†Government & Policy L49: 
+L50: cite25†Hardware L51: 
+L52: cite26†Instagram L53: 
+L54: cite27†Layoffs L55: 
+L56: cite28†Media & Entertainment L57: 
+L58: cite29†Meta L59: 
+L60: cite30†Microsoft L61: 
+L62: cite31†Privacy L63: 
+L64: cite32†Robotics L65: 
+L66: cite4†Security L67: 
+L68: cite33†Social L69: 
+L70: cite34†Space L71: 
+L72: cite1†Startups L73: 
+L74: cite35†TikTok L75: 
+L76: cite36†Transportation L77: 
+L78: cite2†Venture L79: ### More from TechCrunch
+L80: 
+L81: cite37†Staff L82: 
+L83: cite8†Events L84: 
+L85: cite38†Startup Battlefield L86: 
+L87: cite39†StrictlyVC†strictlyvc.com L88: 
+L89: cite10†Newsletters L90: 
+L91: cite9†Podcasts L92: 
+L93: cite40†Videos L94: 
+L95: cite41†Partner Content L96: 
+L97: cite42†TechCrunch Brand Studio L98: 
+L99: cite43†Contact Us L100: 
+L101: cite44†Image Image Credits:Malte Mueller / Getty Images
+L102: 
+L103: cite32†Robotics L104: # Laplace Intelligence red-teams robots and self-driving cars before they hit the real world
+L105: 
+L106: cite45†Rebecca Bellan L107: 
+L108: 5:30 AM PDT · October 19, 2026
+L109: 
+L110: If there’s one lesson the cite46†OpenAI-Hugging Face incident taught us, it’s that AI agents can be unpredictable.
+L111: “Imagine if something like that happened in the physical world,” Howie Sun, CEO and co-founder of cite47†Laplace Intelligence†www.laplaceintelligence.com , told TechCrunch. “AI agents are moving from computers into the real world, and we don’t really want physical AI to fail in the real world.”
+L112: Ann Arbor-based Laplace is building automated red-teaming — essentially, stress-testing a system by deliberately trying to make it fail — for robotics and physical AI. The company is betting that the only way to make sure physical AI is safe is to have AI test it.
+L113: 
+L114: “Our goal is to help companies discover and fix problems before deployment — and, over time, build a shared foundation of evidence that customers, insurers, and regulators can trust,” Sun said.
+L115: Laplace is one of 20 startups competing in Startup Battlefield 200, the startup pitch competition taking place at cite48†TechCrunch Disrupt in San Francisco this week, October 13-15. It will cite48†present on the Disrupt Stage Tuesday afternoon , October 13.
+L116: 
+L117: cite49†Image Howie Sun, CEO, Laplace Intelligence.Image Credits:Laplace Intelligence
+L118: Sun, alongside his co-founder and chief scientist Henry Liu, founded Laplace a year ago out of the University of Michigan. Sun has spent the last eight years in academia researching how to challenge autonomous driving AI in simulation. In 2023, he and Liu — his then-PhD adviser — published a cite50†paper†scholar.google.com on the subject that made it onto the cover of the top scientific journal Nature.
+L119: That’s when the calls started coming in from autonomous vehicle companies interested in implementing their ideas.
+L120: “I realized that I wanted to build this and take it from purely academic research into a product that’s useful in the real world,” Sun said.
+L121: 
+L122: Using their academic research as a base, Sun and Liu built Laplace, so named for “Laplace’s demon,” an 1814 thought experiment by French scholar Pierre-Simon Laplace, who imagined that if you knew the exact state of everything in the universe, you could predict the future with total precision.
+L123: “We are essentially using simulation to predict the real world’s future,” Sun said.
+L124: 
+L125: At the startup’s core is a high-fidelity cite51†simulation†demo.laplaceintelligence.com reconstructed from the real world, paired with an AI agent that constantly probes for weaknesses and failure points. The goal is to ensure that any physical AI — be it a robot, autonomous vehicle, or smart city solution — is safe in simulation before it’s deployed in the real world.
+L126: The simulation environment is a post-trained version of Nvidia’s Cosmos, an AI world simulation platform, which is grounded in the real world, allowing Laplace to reconstruct anything from an Arizona highway to a Paris pedestrian crossing. Simulations are generated by blending a mesh of different real-world information. A Google Street View image could serve as a reference from which an entire street is generated.
+L127: But rather than generating something random, the simulator combines real-world map data to re-create an environment that’s true to scale.
+L128: Developers can then use language prompts to change the setting in real time, like adding in afternoon traffic. Sun says Laplace pulls real-time traffic and congestion information from navigation providers like TomTom.
+L129: Within Laplace’s simulations, not only is the environment simulated, but also the behavior of other actors. For example, during a demo, Sun directed the test agent vehicle to swerve into oncoming traffic. The car it would have hit — or driven through, as is common among some generative world models — moved out of its way to avoid a collision.
+L130: 
+L131: “It’s truly an interactive simulation environment,” Sun said. “Everyone is reacting to everything … This is more like a world model with interactive participants.”
+L132: While the simulated environment is an important part of Laplace’s product, the real unique selling point is the AI agents the startup is developing to automatically design corner cases (tricky, rare scenarios that could trip up an AI system), moving the human further out of the loop.
+L133: 
+L134: “They can design from the news, from police reports on collisions — all kinds of information to actively challenge the autonomous vehicles and other physical AI agents,” Sun said.
+L135: cite52†Image Henry Liu, chief scientist, Laplace Intelligence.Image Credits:Laplace Intelligence
+L136: Today, autonomous vehicle developers mostly train an AI to handle edge cases using recorded footage that they then turn into a simulation, or by relying on humans to come up with new ideas and design them. While many AV companies have done what Laplace is pitching and started embracing AI to create edge cases for training — cite53†self-driving truck company Waabi comes to mind — the need for this kind of technology will really become apparent when we start placing generalized robots in the real world.
+L137: “There’s less data on generalized robotics,” Sun said. “No one knows what the edge cases will be in the real world.”
+L138: 
+L139: Despite Sun and Liu coming from academia, with no shiny Silicon Valley tech company pedigrees, the two have managed to start generating revenue and even turn a modest profit. Most of the money is coming from autonomous driving use cases, with customers including Texas-based autonomous trucking firm Bot Auto and a major Japanese automotive manufacturer.
+L140: Laplace is also working with Nvidia and T-Mobile on a free smart city pilot for San Jose, California, to provide high-level traffic operations. Laplace is also in the early stages of working with partners building humanoid robotics for warehouses.
+L141: Most of Laplace’s customer contracts are project-based today, and the company is working toward turning that into recurring revenue. The startup’s near-term goal — which it hopes will be aided by competing at Disrupt — is to raise funds and scale so it can compete with its rivals.
+L142: 
+L143: Chief among its rivals is cite54†Applied Intuition , a buzzy late-stage startup that’s raised $1.2 billion to date at a $15 billion post-money valuation.
+L144: Sun isn’t too worried. He believes Laplace’s core methodology of using AI to test AI is a “new paradigm that changes the testing of physical AI entirely,” turning it into a “dynamic interactive testing process.”
+L145: 
+L146: “That will be the biggest moat,” he said.
+L147: 
+L148: This article has been updated to clarify Laplace’s relationship with Nvidia.
+L149: 
+L150: Topics
+L151: 
+L152: cite5†AI , cite55†autonomous vehicles , cite32†Robotics , cite56†self-driving cars , cite57†Startup Battlefield 200 , cite58†TechCrunch Disrupt , cite36†Transportation L153: When you purchase through links in our articles, cite59†we may earn a small commission . This doesn’t affect our editorial independence.
+L154: 
+L155: cite60†Image: Rebecca Bellan L156: 
+L157: Rebecca Bellan
+L158: 
+L159: Senior Reporter
+L160: 
+L161: Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.
+L162: You can contact or verify outreach from Rebecca by emailing cite61†[email protected] or via encrypted message at rebeccabellan.491 on Signal.
+L163: 
+L164: cite45†View Bio L165: 
+L166: cite62†Image: Event Logo L167: 
+L168: November 4
+L169: 
+L170: Boston
+L171: 
+L172: Buy One Pass, Get a Second Free
+L173: Cover more ground at TechCrunch’s ultimate founder bootcamp of the year by bringing your co-founder or partner for free
+L174: Book before the BOGO deal expires
+L175: 
+L176: cite63†Register Now L177: ## Most Popular
+L178: 
+L179:   * ###
+L180: 
+L181: cite64†People are using AI to make their smart TVs dumb again L182: 
+L183:     * cite65†Sarah Perez L184: 
+L185:   * ###
+L186: 
+L187: cite66†Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’ L188: 
+L189:     * cite67†Anthony Ha L190: 
+L191:   * ###
+L192: 
+L193: cite68†Anthropic says its workforce has become less junior and is spending more time in meetings L194: 
+L195:     * cite67†Anthony Ha L196: 
+L197:   * ###
+L198: 
+L199: cite69†Replit makes OpenAI its default over Anthropic, CEO says L200: 
+L201:     * cite70†Kirsten Korosec L202:     * cite71†Lucas Ropek L203:     * cite45†Rebecca Bellan L204:   * ###
+L205: 
+L206: cite72†Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept L207: 
+L208:     * cite73†Connie Loizos L209: 
+L210:   * ###
+L211: 
+L212: cite74†India becomes the latest country to report rogue AI agent activity L213: 
+L214:     * cite75†Aditya Mehta L215: 
+L216:   * ###
+L217: 
+L218: cite76†Tesla reveals SpaceX-powered Roadster that flies and falls with style L219: 
+L220:     * cite77†Sean O'Kane L221: 
+L222: Loading the next article
+L223: 
+L224: Error loading the next article
+L225: 
+L226:   * cite78†TechCrunch L227:   * cite37†Staff L228:   * cite43†Contact Us L229:   * cite79†Advertise L230:   * cite80†Site Map L231:   * cite81†Terms of Service L232:   * cite82†Privacy Policy L233:   * cite83†RSS Terms of Use L234:   * cite84†Code of Conduct L235: 
+L236:   * cite85†Voice AI L237:   * cite86†Anthropic L238:   * cite87†Flock L239:   * cite88†Startup Battlefield L240:   * cite7†Disrupt 2026 L241:   * cite89†Tech Layoffs L242:   * cite90†ChatGPT L243: 
+L244: © 2026 TechCrunch Media LLC.
+--------------------------------------------------------------------------------
+Tenstorrent hits $6.2B valuation to scale open-weight AI chips | TechCrunch (https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/)
+citeturn7view2 [wordlim: 25] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/","lineno":null}); Total lines: 226
+L0:   * cite0†Latest L1:   * cite1†Startups L2:   * cite2†Venture L3:   * cite3†Apple L4:   * cite4†Security L5:   * cite5†AI L6:   * cite6†Apps L7:   * cite7†Disrupt 2026 L8: 
+L9:   * cite8†Events L10:   * cite9†Podcasts L11:   * cite10†Newsletters L12: 
+L13: [Input: Search...][Button: Submit]
+L14: ### Topics
+L15: 
+L16: cite0†Latest L17: 
+L18: cite5†AI L19: 
+L20: cite11†Amazon L21: 
+L22: cite6†Apps L23: 
+L24: cite12†Biotech & Health L25: 
+L26: cite13†Climate L27: 
+L28: cite14†Cloud Computing L29: 
+L30: cite15†Commerce L31: 
+L32: cite16†Crypto L33: 
+L34: cite17†Enterprise L35: 
+L36: cite18†EVs L37: 
+L38: cite19†Fintech L39: 
+L40: cite20†Fundraising L41: 
+L42: cite21†Gadgets L43: 
+L44: cite22†Gaming L45: 
+L46: cite23†Google L47: 
+L48: cite24†Government & Policy L49: 
+L50: cite25†Hardware L51: 
+L52: cite26†Instagram L53: 
+L54: cite27†Layoffs L55: 
+L56: cite28†Media & Entertainment L57: 
+L58: cite29†Meta L59: 
+L60: cite30†Microsoft L61: 
+L62: cite31†Privacy L63: 
+L64: cite32†Robotics L65: 
+L66: cite4†Security L67: 
+L68: cite33†Social L69: 
+L70: cite34†Space L71: 
+L72: cite1†Startups L73: 
+L74: cite35†TikTok L75: 
+L76: cite36†Transportation L77: 
+L78: cite2†Venture L79: ### More from TechCrunch
+L80: 
+L81: cite37†Staff L82: 
+L83: cite8†Events L84: 
+L85: cite38†Startup Battlefield L86: 
+L87: cite39†StrictlyVC†strictlyvc.com L88: 
+L89: cite10†Newsletters L90: 
+L91: cite9†Podcasts L92: 
+L93: cite40†Videos L94: 
+L95: cite41†Partner Content L96: 
+L97: cite42†TechCrunch Brand Studio L98: 
+L99: cite43†Contact Us L100: 
+L101: In Brief
+L102: 
+L103: Posted:
+L104: 
+L105: 11:37 AM PDT · October 19, 2026
+L106: 
+L107: cite44†Image: Tenstorrent Image Credits:Tenstorrent
+L108: 
+L109:   * cite45†Image: Marina Temkin L110: 
+L111:   * cite46†Marina Temkin L112: # Tenstorrent hits $6.2B valuation to scale open-weight AI chips
+L113: 
+L114: Tenstorrent, a chip startup focused on inference, has raised $1.5 billion at a $6.2 billion valuation. The round comes five months after the 10-year-old Nvidia challenger cite47†reportedly†www.bloomberg.com received acquisition interest from Intel and Qualcomm at valuations of as much as $5 billion.
+L115: The fresh round, which more than doubled Tenstorrent’s valuation from the cite48†$2.6 billion it fetched in late 2024, was led by Trace Capital, a new firm launched by Quiet Capital co-founder Ben Mahdavi, and Innovation X. Other backers included Cadence Ventures, Eclipse, Fidelity, SanDisk, and T. Rowe Price.
+L116: Jim Keller, a prominent microprocessor engineer and Tenstorrent CEO, told Bloomberg that the company decided to remain independent and raise more capital after it showed that its Galaxy servers could run DeepSeek models. The new capital will go toward scaling chips tailored for serving open-weight AI models and video generation.
+L117: Tenstorrent is part of a wave of AI hardware startups trying to chip away at Nvidia’s dominance. Among them is Etched, an AI chip maker that was fielding investment offers at valuations of $40 billion or more, cite49†TechCrunch reported earlier this month.
+L118: 
+L119: Topics
+L120: 
+L121: cite5†AI , cite20†Fundraising , cite50†In Brief , cite51†Tenstorrent , cite2†Venture L122: ### Newsletters
+L123: 
+L124: cite10†See More L125: 
+L126: Subscribe for the industry’s biggest tech news
+L127: 
+L128: ##### TechCrunch Daily News
+L129: 
+L130: Every weekday and Sunday, you can get the best of TechCrunch’s coverage.
+L131: 
+L132: ##### TechCrunch Mobility
+L133: 
+L134: TechCrunch Mobility is your destination for transportation news and insight.
+L135: 
+L136: ##### Startups Weekly
+L137: 
+L138: Startups are the core of TechCrunch, so get our best coverage delivered weekly.
+L139: ##### StrictlyVC
+L140: 
+L141: Provides movers and shakers with the info they need to start their day.
+L142: 
+L143: No newsletters selected.
+L144: 
+L145: [Input: Email address]
+L146: 
+L147: [Button: Subscribe]
+L148: 
+L149: By submitting your email, you agree to our cite52†Terms and cite53†Privacy Notice .
+L150: 
+L151: ## Related
+L152: 
+L153:   * cite54†Image: Google CEO Sundar Pichai L154: 
+L155: cite5†AI L156: 
+L157: ### cite55†Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers L158: 
+L159:     * cite56†Julie Bort L160: 3 hours ago
+L161: 
+L162:   * cite57†Image: Nvidia CEO Jensen Huang L163: 
+L164: cite1†Startups L165: ### cite58†Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool L166: 
+L167:     * cite56†Julie Bort L168: 1 day ago
+L169: 
+L170:   * cite59†Image: Jensen Huang, co-founder and chief executive officer of Nvidia Corp L171: 
+L172: cite5†AI L173: 
+L174: ### cite60†Nvidia launches new open models to run agents in the enterprise and on PCs  L175: 
+L176:     * cite56†Julie Bort L177: 1 day ago
+L178: 
+L179: ## Latest in Fundraising
+L180: 
+L181:   * cite61†Image: An electrical sensor is attached to a tree trunk. L182: 
+L183: cite13†Climate L184: ### cite62†Plants can speak using electricity, so this startup built an AI model to decipher their language L185: 
+L186:     * cite63†Tim De Chant L187: 5 hours ago
+L188: 
+L189:   * cite64†Image L190: 
+L191: cite36†Transportation L192: 
+L193: ### cite65†SpaceX alum’s aviation startup, Reliable Robotics, lands $115M, topping $1B valuation L194: 
+L195:     * cite66†Kirsten Korosec L196: 8 hours ago
+L197: 
+L198:   * cite67†Image L199: 
+L200: cite20†Fundraising L201: ### cite68†Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool L202: 
+L203:     * cite69†Ivan Mehta L204: 10 hours ago
+L205: 
+L206:   * cite70†TechCrunch L207:   * cite37†Staff L208:   * cite43†Contact Us L209:   * cite71†Advertise L210:   * cite72†Site Map L211: 
+L212:   * cite52†Terms of Service L213:   * cite53†Privacy Policy L214:   * cite73†RSS Terms of Use L215:   * cite74†Code of Conduct L216: 
+L217:   * cite75†Voice AI L218:   * cite76†Anthropic L219:   * cite77†Flock L220:   * cite78†Startup Battlefield L221:   * cite7†Disrupt 2026 L222:   * cite79†Tech Layoffs L223:   * cite80†ChatGPT L224: 
+L225: © 2026 TechCrunch Media LLC.
+

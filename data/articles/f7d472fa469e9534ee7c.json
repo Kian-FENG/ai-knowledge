@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ithome.com/1/015/601.htm",
+  "title": "Adobe Lightroom 移动版新增“睁眼”AI 修图，一键修复闭眼照片",
+  "text": "IT之家 10 月 20 日消息，Adobe 公司昨日宣布，Lightroom 移动版修图软件已经支持“睁眼”AI 修图功能，用户只需要点一下，就能修复照片中闭着的眼睛。\nIT之家了解到，Adobe 此前已经在 Photoshop Elements 中提供类似功能，不过它只是从同一人物的另一张照片中提取眼睛进行替换，因此修复效果有时并不理想。\n相比之下，Lightroom 移动版的“睁眼”功能使用生成式 AI，替换后的眼睛可以与照片的光线、人物姿势匹配。系统还会选择 Lightroom 照片库同一个人的其他照片做参考，确保生成的眼睛在颜色、大小和形状上都与本人相符。",
+  "published_at": "2026-10-20T14:54:13+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f7d472fa469e9534ee7c",
+  "source_id": "ithome",
+  "source_name": "IT之家",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/8871642029996566a39445bae38f8d49859eb0c3fe2d8c5f76ea8b7bd24a1934.body",
+  "source_sha256": "8871642029996566a39445bae38f8d49859eb0c3fe2d8c5f76ea8b7bd24a1934",
+  "fetched_at": "2026-10-20T22:02:42.362961+00:00"
+}

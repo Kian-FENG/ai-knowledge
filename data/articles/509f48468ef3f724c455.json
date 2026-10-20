@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+  "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+  "text": "Muse, the new general-purpose AI agent from Meta, can expose sensitive information when users share conversations through web links, researchers reported Monday. In response to questions from Ars about the behavior, Meta said it's suspending the sharing feature while the company reviews it and considers making changes.\nLike many online services, Muse has allowed users to share searches, conversations, images, and similar content with other people. Such share features usually involve clicking an option to create a unique URL that anyone can use to load a page hosting the content. To keep potentially sensitive information from being accessible to unintended people, the URLs typically contain a long sequence of text that can’t be easily guessed.\nA single query is all that's required\nMuse, which Meta CEO Mark Zuckerberg said last month was “built from the ground up for privacy and security,” seems to take the same precautions. But a central design decision for constructing URLs has made the links easy to discover. As a result, researchers from security firm Claroc said they were able to enumerate 6,800 links Muse users created for sharing conversations with others. After opening a few hundred of them, the researchers found information that was clearly not intended to be publicly available, including:\nRead full article\nComments",
+  "published_at": "2026-10-20T12:33:13+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "509f48468ef3f724c455",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-21/e15887a3ee983327f196284205d126d5d32787df614b85fbf1bc008aad5b9ee6.body",
+  "source_sha256": "e15887a3ee983327f196284205d126d5d32787df614b85fbf1bc008aad5b9ee6",
+  "fetched_at": "2026-10-20T22:02:40.202951+00:00"
+}

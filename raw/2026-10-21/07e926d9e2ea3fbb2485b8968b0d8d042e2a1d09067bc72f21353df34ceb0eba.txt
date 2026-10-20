@@ -1,0 +1,316 @@
+Amazon's TorchNeuron runs PyTorch on AWS Trainium chips (https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai)
+citeturn5view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai","lineno":null}); Total lines: 104
+L0: # Amazon opens its AWS Trainium AI chips to every PyTorch developer, no rewrite needed
+L1: 
+L2: TorchNeuron lets developers run their existing AI code on AWS Trainium chips with virtually no changes, reducing the friction to adopting new hardware.
+L3: 
+L4: cite0†Image: Launch of TorchNeuron — a Native PyTorch Backend for AWS Trainium†assets.aboutamazon.com L5: 
+L6: cite1†Image: Isaac Schultz†assets.aboutamazon.com L7: 
+L8: Written by cite2†Isaac Schultz L9: 
+L10: 4 min read
+L11: 
+L12: * * *
+L13: ## Key takeaways
+L14: 
+L15:   * Amazon's TorchNeuron runs existing PyTorch code on cite3†Trainium with no rewrite.
+L16:   * TorchNeuron will be open-sourced at the PyTorch Conference on October 20.
+L17:   * Startups and enterprises in robotics, video, world models, self-driving cars, speech, drug discovery, LLMs, and finance are already building on it.
+L18: 
+L19: * * *
+L20: Today, 85% of AI researchers and developers write their code in PyTorch. Until now, the hardware that code could run on was far more limited than the code itself, and expanding to new chips meant rewriting and revalidating work that took months to perfect.
+L21: Amazon is now closing that gap. With cite4†TorchNeuron†github.com , the PyTorch code developers already write runs natively on Amazon's cite5†AWS Trainium chips , with a single configuration change and no rewrite. TorchNeuron will be released under an open-source license at the PyTorch Conference North America on October 20.
+L22: ## What does “no code change” actually mean?
+L23: 
+L24: Think of your AI code as a car you've spent years fine-tuning. The engine, the suspension—every part working together. A new, more affordable engine comes along with serious horsepower, but installing it would mean tearing down the car and rebuilding it piece by piece. TorchNeuron lets you swap in the new engine without taking the car apart.
+L25: In a side-by-side demonstration, Amazon engineers ran the same AI training script on a conventional chip and on cite6†Trainium†aws.amazon.com . The only difference was a setting that told the code which chip to use. Results showed that the AI model learned the same things at the same rate.
+L26: For developers, this is significant. PyTorch already has a built-in way for new hardware to register itself. TorchNeuron plugs into that standard mechanism, meaning the tools developers already use to test, debug, and scale their AI models all work on Trainium without modification.
+L27: ## Why TorchNeuron matters for developers and for the industry
+L28: 
+L29: The real cost of cite7†AI goes beyond the price of a chip. For many companies, especially cite8†startups , the most expensive line item is engineering time. Every week a developer spends adapting software for new hardware is a week not spent improving the product. For small teams with limited resources, that trade-off can contribute to whether a company succeeds or fails.
+L30: And it’s not just startups. For large enterprises running massive AI fleets, the ability to use the same hardware for both cite9†training and inference is a game changer. During off-peak hours, capacity that served inference workloads can shift seamlessly to training jobs, getting more value from the same hardware instead of leaving specialized hardware idle.
+L31: By reducing the friction of adopting new hardware, TorchNeuron introduces something the AI industry has largely lacked: meaningful choice. When developers can move between chips without penalty, chipmakers have to earn developers' business, and developers benefit from lower costs and faster iteration.
+L32: ## From voice AI to drug discovery: who's already building on TorchNeuron
+L33: 
+L34: cite10†Image: Launch of TorchNeuron — a Native PyTorch Backend for AWS Trainium†assets.aboutamazon.com L35: 
+L36: TorchNeuron's early adopters span a wide range of AI applications. From real-time voice to molecular design, they share a common thread: they moved to Trainium without rewriting their code.
+L37: Cartesia is building intelligence that learns from and interacts with the world the way humans do, starting with conversation. With PyTorch native support on Trainium, Cartesia ran its standard inference pipeline with minimal changes to its PyTorch code. The applications extend into healthcare, too.
+L38: The Lieber Institute for Brain Development, the largest research institute dedicated to developing new medical interventions for major neuropsychiatric conditions like schizophrenia, uses biological, chemical, and language AI models across drug target and drug discovery. Molecular dynamics simulations are powerful but extremely computationally expensive, and an emerging generation of AI tools offers the potential to accelerate or replace them.
+L39: TorchNeuron allows the Lieber Institute to explore these strategies on Trainium, from initial model exploration through optimizing performance for bottlenecks.
+L40: ## Opening up the chips ecosystem
+L41: 
+L42: Amazon's approach extends beyond its own hardware. The company is contributing changes upstream to PyTorch itself, working with the PyTorch community to remove code that ties the framework to specific chips. The goal is to make PyTorch more hardware-agnostic for the entire developer community, not just Trainium users.
+L43: To maintain quality, Amazon tests TorchNeuron against hundreds of thousands of AI models on every build, so issues are caught before any customer workload runs.
+L44: 
+L45: Hugging Face has enabled native Trainium support directly in its popular AI development tools, allowing developers to work on Trainium natively without requiring any Amazon-specific code.
+L46: TorchNeuron integrates with TorchTitan, PyTorch's native distributed training framework, giving developers a standard path for scaling model training across Trainium instances using Fully Sharded Data Parallelism (FSDP)—the same tools and patterns they use on any other PyTorch device.
+L47: For developers who want to go deeper, TorchNeuron offers tools for scaling training across multiple chips and writing custom low-level code for maximum performance. Amazon has also made a major open-source contribution to vLLM, a popular open-source tool for speeding up inference, and open-sourced its complete set of performance kernels, giving developers a starting point when building their own.
+L48: ## What's next
+L49: 
+L50: TorchNeuron supports cite11†Trainium2†aws.amazon.com and cite12†Trainium3 . It will be released as open-source under the Apache 2.0 license at cite13†PyTorch Conference North America†events.linuxfoundation.org on October 20.
+L51: TorchNeuron is the latest chapter in Amazon’s decade-long investment in cite14†custom silicon . Since acquiring chip design company Annapurna Labs in 2015, Amazon has built cite15†four chip families from the ground up, each designed for a specific cite16†cloud workload. With TorchNeuron, the company is now making that hardware accessible to any developer who writes in PyTorch.
+L52: Learn more about cite17†TorchNeuron: Native PyTorch backend for AWS Trainium†pytorch.org and why cite8†AI startups are choosing AWS Trainium to train world models .
+L53: 
+L54: Trending news and stories
+L55:   1. cite18†Amazon introduces 2 new AI products from Bee: Bee Frontier and Bee Eclipse L56:   2. cite19†Amazon's Holiday Kids Gift Book is back with 600+ toys, games, and gifts for every age L57:   3. cite20†Shop top deals from Amazon’s 2026 Holiday Beauty Event L58:   4. cite21†Introducing all-new Amazon Alexa Tablets—powerful tablets with Alexa+ built in L59: 
+L60: More Amazon News
+L61: 
+L62: Previous slide
+L63: 
+L64: 1 / 1 Next slide
+L65: 
+L66: cite22†Amazon Content Partners is now available for independent content creators L67: 
+L68: cite23†Innovation at Amazon L69: cite24†Amazon announces new tools and services to help sellers go global from day one L70: 
+L71: cite23†Innovation at Amazon L72: 
+L73: cite25†Amazon gives sellers an even smarter Seller Assistant and a new plugin for Amazon Quick and Anthropic’s Claude L74: 
+L75: cite23†Innovation at Amazon L76: 
+L77: cite26†Inside a decade of Amazon chip design, built workload by workload L78: 
+L79: cite23†Innovation at Amazon L80: 
+L81: cite27†What is the Amazon Influencer Program? Your questions answered. L82: 
+L83: cite23†Innovation at Amazon L84: cite28†Amazon's AI SVP on why AI's biggest breakthroughs haven't happened yet L85: 
+L86: cite23†Innovation at Amazon L87: 
+L88: cite29†Amazon CEO Andy Jassy on why Amazon is spending big on AI infrastructure L89: 
+L90: cite23†Innovation at Amazon L91: 
+L92: cite30†Andy Jassy explains how going back to the starting line drives reinvention at Amazon L93: 
+L94: cite23†Innovation at Amazon L95: 
+L96: Scroll to top button
+L97: 
+L98: cite31†Amazon News cite32†Press Center†press.aboutamazon.com cite33†Amazon.com†amazon.com cite34†Investor Resources†ir.aboutamazon.com L99: 
+L100: Country & Language:cite35†EN L101: cite36†Careers†www.amazon.jobs cite37†Site Map cite38†More from Amazon L102: 
+L103: cite33†Amazon.com†amazon.com cite39†Conditions of Use†www.amazon.com cite40†Amazon Privacy Policy†www.amazon.com © 1996-2026 Amazon.com, Inc. or its affiliates
+--------------------------------------------------------------------------------
+Advancing coding in low‑resource programming languages | OpenAI (https://openai.com/index/low-resource-programming-languages)
+citeturn5view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://openai.com/index/low-resource-programming-languages","lineno":null}); Redirected to URL: https://openai.com/index/low-resource-programming-languages/; Total lines: 165
+L0: cite0†Skip to main content L1: 
+L2:   * [Button: Research]
+L3:   * [Button: Products]
+L4:   * [Button: Business]
+L5:   * [Button: Developers]
+L6:   * [Button: Company]
+L7:   * cite1†Foundation(opens in a new window)†openaifoundation.org L8: 
+L9: cite2†Try ChatGPT(opens in a new window)†chatgpt.com [Button: Login]
+L10: 
+L11: OpenAI
+L12: 
+L13: October 19, 2026
+L14: 
+L15: cite3†Publication cite4†Research L16: # cite5†Image [ COBOL ][ OCaml]cite6†Image [ Fortran][ Visual Basic ]cite7†Image Advancing coding in low‑resource programming languages
+L17: 
+L18: Loading…
+L19: 
+L20: Share
+L21: 
+L22: 1. Building SQLite from scratch (MultiLangBench)
+L23: 
+L24:   * cite8†1. Building SQLite from scratch (MultiLangBench) L25:   * cite9†2. Migrating a COBOL codebase L26:   * cite10†Advancing capabilities for enterprise software L27: 
+L28:   * cite8†1. Building SQLite from scratch (MultiLangBench) L29:   * cite9†2. Migrating a COBOL codebase L30:   * cite10†Advancing capabilities for enterprise software L31: Our latest model advances bring stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic. These languages have less code and documentation available for models to learn from than languages like Python and JavaScript, yet support critical infrastructure and essential services around the world.
+L32: COBOL cite11†supports⁠(opens in a new window)†www.ibm.com more than 40% of online banking systems, 80% of in-person credit card transactions and 95% of ATM transactions, while Fortran is used in cite12†weather forecasting⁠(opens in a new window)†repository.library.noaa.gov and cite13†nuclear reactor safety analysis⁠(opens in a new window)†www.nrc.gov . Improving AI’s ability to work in these languages could help teams maintain and modernize the software that essential services depend on.
+L33: This work is guided by feedback from developers and enterprise customers who have told us that coding models often struggle with these languages. Maintaining and modernizing this software can be difficult: documentation may be incomplete, original developers may have left the company, and important business rules may only exist in code. Whether teams are fixing bugs or migrating to another language, they need to preserve the behavior their systems depend on.
+L34: To measure progress, we developed two evaluations. MultiLangBench tests whether a model can build a SQLite-compatible database engine from scratch across 20 different programming languages. Our COBOL migration evaluation tests whether a model can migrate existing programs to another language while preserving their behavior. Together, they test two complementary skills: building new software and preserving what existing software does.
+L35: Our latest models show substantial improvements across both evaluations, delivering much higher accuracy at lower cost.
+L36: 
+L37: On MultiLangBench, GPT‑6 Astra achieves an average test pass rate of 87.4% across 20 programming languages, up from 26.8% for GPT‑5.6 Sol, with improvements in every language tested. GPT‑6 Luna also outperforms GPT‑5.6 Sol, reaching 40.3% at approximately 78% lower estimated API cost.
+L38: On our COBOL migration evaluation, GPT‑6.1 Sol achieves 86.6% accuracy at low reasoning effort, compared with just 5.4% for GPT‑5.6 Sol, while costing 39% less. At higher reasoning effort, accuracy reaches 97.9%, nearly saturating the evaluation.
+L39: 
+L40: Together, these results show that our models are becoming significantly better at working with a wide range of programming languages, while also becoming more cost-efficient.
+L41: ## 1. Building SQLite from scratch (MultiLangBench)
+L42: 
+L43: MultiLangBench asks a model to build a SQLite-compatible database engine in a specified programming language. The model must organize a codebase, manage state, handle errors, and add new features while preserving existing functionality.
+L44: To compare implementations across languages, we use database files as a shared interface. The candidate program receives an initial database and a SQL query, then produces a modified database. We use the reference SQLite implementation to check whether the resulting database has the expected contents. This lets us apply the same tests regardless of the language used to build the engine.
+L45: We adapted tests from SQLite’s existing test suite to this format. The evaluation measures how much working functionality a model can build over an extended coding session, reporting both test pass rate and API cost.
+L46: At maximum reasoning effort, GPT‑6 Astra achieves an average test pass rate of 87.4% across the 20 languages, up from 26.8% for GPT‑5.6 Sol. Improvements extend to every language tested, including COBOL (10.9% to 72.1%), OCaml (25.6% to 85.8%), Fortran (21.4% to 83.5%), and Visual Basic (27.5% to 89.4%). Astra scores above 83% in 19 of the 20 languages, with COBOL remaining the hardest at 72%.
+L47: GPT‑6 Luna offers a lower-cost option that also improves on GPT‑5.6 Sol in every language tested. At maximum reasoning effort, it reaches an average test pass rate of 40.3%. Gains include COBOL (10.9% to 17.1%), OCaml (25.6% to 34.1%), Fortran (21.4% to 31.4%), and Visual Basic (27.5% to 41.6%). These improvements come at an estimated average API cost of $0.77 per sample, compared with $3.48 for GPT‑5.6 Sol, approximately 78% lower.
+L48: C C#C++COBOL Common Lisp Fortran Go Java JavaScript Lean OCaml PHP PowerShell Python Ruby Rust Scala Swift Visual Basic Zig
+L49: 
+L50: We are releasing the MultiLangBench evaluation setup and test suite on cite14†GitHub⁠(opens in a new window)†github.com , along with results for each language. Developers can inspect what the evaluation tests, review performance in the languages they use, and identify gaps that matter for their own work.
+L51: ## 2. Migrating a COBOL codebase
+L52: 
+L53: Our second evaluation asks models to migrate COBOL programs to C++, Java, Kotlin, Python, or Rust while preserving what each program does.
+L54: Successful migration requires understanding both the program’s business logic and COBOL’s specific language behavior. COBOL programs often process financial transactions and business records, where details such as rounding rules and missing-record handling reflect business requirements. For example, COBOL’s fixed-point arithmetic discards excess decimal digits unless rounding is explicitly requested.
+L55: A rewrite that rounds those values instead can run without errors while producing different financial results.
+L56: To test whether these behaviors are preserved, we evaluate our models on hidden tests that require byte-for-byte parity on observable outputs. A migration is considered successful only if all tests pass. Behavior-preserving capabilities like these are useful for teams maintaining and modernizing older systems, though applying it to production software still requires expert review and testing against the system’s business rules and dependencies.
+L57: On this evaluation, GPT‑6.1 Sol achieves 86.6% accuracy at low reasoning effort, compared with GPT‑5.6 Sol’s 5.4% at the same setting at just 61% of the API cost. At higher reasoning effort, accuracy reaches 97.9%, bringing the evaluation close to saturation. These evaluation results demonstrate progress toward more accurate, affordable code migration for teams modernizing the software their businesses depend on.
+L58: ## Advancing capabilities for enterprise software
+L59: 
+L60: These evaluations, alongside direct feedback from developers and enterprise customers, help us see where our models are improving and where they still fall short.
+L61: 
+L62: Our goal is to help models apply software engineering skills across more languages: understanding unfamiliar repositories, planning changes, using build tools, running tests, and debugging failures.
+L63: You can try our latest models through the API on coding tasks in the languages your team uses. Your feedback on what works, where the models struggle, and which languages or workflows we should focus on next helps shape how we train and evaluate models to better support the software you depend on.
+L64: 
+L65:   * cite15†Software & Engineering L66:   * cite16†GPT L67:   * cite17†Learning Paradigms L68:   * cite18†2026 L69: ## Author
+L70: 
+L71: OpenAI
+L72: ## Keep reading
+L73: 
+L74: cite19†View all L75: 
+L76: cite20†Introducing the Rosalind Academic Plan ResearchOct 15, 2026 L77: 
+L78: cite21†Sharing AI progress in mathematics ResearchOct 6, 2026 L79: 
+L80: cite22†Advancing computer use with Ironclad PublicationOct 6, 2026 L81: 
+L82: Research
+L83: 
+L84:   * cite23†Research Index L85:   * cite24†Research Overview L86:   * cite25†Economic Research L87: 
+L88: Latest Advancements
+L89: 
+L90:   * cite26†GPT-6.1 Sol L91:   * cite27†GPT-6 Astra L92:   * cite28†GPT-5.6 L93:   * cite29†GPT-5.5 L94: 
+L95: Safety
+L96:   * cite30†Safety Approach L97:   * cite31†Deployment Safety(opens in a new window)†deploymentsafety.openai.com L98:   * cite32†Security & Privacy L99:   * cite33†Trust & Transparency L100: 
+L101: Products
+L102:   * cite2†ChatGPT(opens in a new window)†chatgpt.com L103:   * cite34†ChatGPT Business(opens in a new window)†chatgpt.com L104:   * cite35†ChatGPT Enterprise(opens in a new window)†chatgpt.com L105:   * cite36†ChatGPT for Education(opens in a new window)†chatgpt.com L106:   * cite37†Codex†chatgpt.com L107:   * cite38†Dots(opens in a new window)†chatgpt.com L108:   * cite39†Release Notes L109: 
+L110: API Platform
+L111: 
+L112:   * cite40†Overview L113:   * cite41†API Log In(opens in a new window)†platform.openai.com L114:   * cite42†Docs(opens in a new window)†developers.openai.com L115: 
+L116: Business
+L117:   * cite43†Overview L118:   * cite44†Solutions L119:   * cite45†Resources L120:   * cite46†Plugins L121:   * cite47†Customer Stories L122:   * cite48†Partner Network L123:   * cite49†Contact Sales L124: 
+L125: Developers
+L126: 
+L127:   * cite50†Apps SDK(opens in a new window)†developers.openai.com L128:   * cite51†Open Models L129:   * cite52†Docs(opens in a new window)†developers.openai.com L130:   * cite53†Resources(opens in a new window)†developers.openai.com L131:   * cite54†Developer Forum(opens in a new window)†community.openai.com L132: 
+L133: Company
+L134:   * cite55†About Us L135:   * cite56†Our Charter L136:   * cite57†Careers L137:   * cite19†News L138: 
+L139: Support
+L140: 
+L141:   * cite58†Help Center(opens in a new window)†help.openai.com L142:   * cite59†OpenAI Status(opens in a new window)†status.openai.com L143: 
+L144: More
+L145: 
+L146:   * cite60†Stories L147:   * cite61†Academy L148:   * cite62†Supply Co. L149:   * cite63†Livestreams L150:   * cite64†Podcast L151:   * cite65†RSS L152: 
+L153: Terms & Policies
+L154: 
+L155:   * cite66†Terms of Use L156:   * cite67†Privacy Policy L157:   * cite68†Other Policies L158: cite69†(opens in a new window)†x.com cite70†(opens in a new window)†www.youtube.com cite71†(opens in a new window)†www.linkedin.com cite72†(opens in a new window)†github.com cite73†(opens in a new window)†www.instagram.com cite74†(opens in a new window)†www.tiktok.com cite75†(opens in a new window)†discord.gg L159: 
+L160: OpenAI © 2015–2026 Your privacy choices
+L161: 
+L162: English United States
+L163: 
+L164: [Input: Search]
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn5view2 [wordlim: 200] Source: open({"ref_id":"https://openai.com/index/openai-to-acquire-orchestra-bio","lineno":null}); Total lines: 1
+L0: Failed to fetch https://openai.com/index/openai-to-acquire-orchestra-bio: (400) Timeout fetching
+--------------------------------------------------------------------------------
+MiniMax M3.1 Flash: Redefining Agent Performance and Cost - MiniMax Research | MiniMax (https://www.minimax.io/blog/minimax-m31f)
+citeturn5view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn4view0","id":1}); Total lines: 123
+L0: Models
+L1: 
+L2: cite0†Image: LLM LLM
+L3: 
+L4: cite1†MiniMax M3.1 Flash cite2†MiniMax M3 L5: 
+L6: cite3†Image: VIDEO VIDEO
+L7: 
+L8: cite4†MiniMax H3 L9: 
+L10: cite5†Image: SPEECH & MUSIC SPEECH & MUSIC
+L11: 
+L12: cite6†MiniMax Speech 2.8 cite7†MiniMax Music 3.0 L13: 
+L14: Product
+L15: 
+L16: cite8†MiniMax Code†agent.minimax.io cite9†MiniMax Design†design.minimax.io cite10†Audio cite11†Talkie†www.talkie-ai.com L17: 
+L18: API
+L19: 
+L20: Plan
+L21: 
+L22: Research
+L23: 
+L24: Company
+L25: 
+L26: cite12†Image: Intelligence with everyone Intelligence with everyone
+L27: 
+L28: cite13†About cite14†News cite15†Investor Relations†ir.minimax.io L29: 
+L30: cite16†Contact Us†platform.minimax.io L31: 
+L32: [Input]
+L33: Models
+L34: 
+L35: cite0†Image: LLM LLM
+L36: 
+L37: cite1†MiniMax M3.1 FlashNEW cite2†MiniMax M3NEW L38: 
+L39: cite3†Image: VIDEO VIDEO
+L40: 
+L41: cite4†MiniMax H3NEW L42: 
+L43: cite5†Image: SPEECH & MUSIC SPEECH & MUSIC
+L44: 
+L45: cite6†MiniMax Speech 2.8NEW cite7†MiniMax Music 3.0NEW L46: 
+L47: Product
+L48: 
+L49: cite8†MiniMax CodeNEW†agent.minimax.io cite9†MiniMax Design†design.minimax.io cite10†Audio cite11†Talkie†www.talkie-ai.com L50: 
+L51: API
+L52: 
+L53: Plan
+L54: 
+L55: Research
+L56: 
+L57: Company
+L58: 
+L59: cite12†Image: Intelligence with everyone Intelligence with everyone
+L60: 
+L61: cite13†About cite14†News cite15†Investor Relations†ir.minimax.io L62: # MiniMax M3.1 Flash: Redefining Agent Performance and Cost
+L63: 
+L64: 2026-10-19
+L65: 
+L66: AI M3.1 Flash
+L67: 
+L68: Today, we officially roll out MiniMax M3.1 Flash.
+L69: 
+L70: Space Bunny 🐰, which processed more than 200 trillion tokens while operating anonymously, was an early version of MiniMax M3.1 Flash.
+L71: 
+L72: As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly three times faster and reducing usage costs by 70%.
+L73: ### Stronger Capabilities Across the Board
+L74: 
+L75: M3.1 Flash improves across a broad range of benchmarks, reaching the level of leading models in complex agentic tasks (cowork), computer use, software development (coding), and cybersecurity.
+L76: 
+L77: cite17†Image†filecdn.minimax.chat L78: 
+L79: Complex Tasks and Automation:
+L80:   * M3.1 Flash ranks among the top performers on AutomationBench-AA. It can complete real enterprise workflows across SaaS systems, solving practical problems in sales, marketing, operations, customer service, finance, and HR from end to end.
+L81:   * Scoring 76.2 on BankerToolBench, it excels at complex real-world challenges such as multi-step planning, maintaining consistency across documents and files, financial compliance, and chained tool calls.
+L82: 
+L83: Coding and Software Engineering:
+L84:   * It achieves 73.7% on DeepSWE v1.1, placing it alongside top models. DeepSWE focuses on complex software tasks that require models to independently understand code, develop features, fix issues, and validate their work through testing. M3.1 Flash demonstrates strong execution across long sequences of steps, supporting complex software development workflows at a lower cost.
+L85: 
+L86: Computer Use:
+L87:   * It scores 61.7 points on OSWorld V2, which measures AI computer operation and cross-application task execution, and 29.6 points on Agents’ Last Exam (ALE), which evaluates performance on real professional work and complex tasks. It ranks first among Chinese models on both benchmarks.
+L88:   * M3.1 Flash demonstrates strong capabilities in interacting with real environments, using tools, and executing long sequences of tasks—moving beyond understanding a task to taking action and delivering results.
+L89: Cybersecurity:
+L90: 
+L91:   * It achieves a strong score of 82% on CyberGym, demonstrating leading capabilities in vulnerability discovery and validation.
+L92:   * In in-depth evaluations by our internal security experts, the model performed strongly in code auditing, vulnerability patching, penetration testing, malware analysis, and reverse engineering, enabling efficient, low-cost support for building complex security systems.
+L93: We have further optimized M3.1 Flash’s inference efficiency through more aggressive sparsity. In everyday use, output speeds can reach 200+ TPS (tokens per second), with median (P50) speeds consistently reaching 170+ TPS.
+L94: ### Pricing: Most Cost-Effective
+L95: 
+L96: For agentic tasks, the model’s overall usage cost is 70% lower than its predecessor.
+L97: 
+L98: Flat pricing per 1M tokens: $0.15 input · $0.60 output · $0.015 cached input.
+L99: 
+L100: Model  | Input
+L101: USD / 1M tokens  | Output
+L102: USD / 1M tokens  | Cached input
+L103: USD / 1M tokens
+L104: --- | --- | --- | ---
+L105: MiniMax-
+L106: M3.1-Flash  | $0.15  | $0.60  | $0.015
+L107: ### Redefining Capability and Cost for Agentic Tasks
+L108: 
+L109: Across three benchmarks—Automation-Bench for complex agentic task execution, DeepSWE for real-world coding, and Agents’ Last Exam (ALE) for computer use in real-world tasks with economic value—M3.1 Flash delivers performance on par with top models at a very low task cost, setting a highly competitive new standard for performance and cost.
+L110: 
+L111: cite18†Image†filecdn.minimax.chat cite19†Image†filecdn.minimax.chat cite20†Image†filecdn.minimax.chat L112: M3.1 Flash is now available through the MiniMax API, M Plan, and MiniMax Code. Model weights will be released later.
+L113: 
+L114: Download MiniMax Code for desktop: cite8†https://agent.minimax.io/download†agent.minimax.io L115: 
+L116: Subscribe to M Plan: cite21†https://www.minimax.io/m-plan L117: 
+L118: API access: cite22†platform.minimax.io†t.co L119: 
+L120: Flash represents our ongoing exploration of the balance between efficiency and capability. Pro, which pushes the boundaries of intelligence, will also arrive later.
+L121: 
+L122: Intelligence with Everyone.
+--------------------------------------------------------------------------------
+Achieving near-zero-downtime scaling in Elastic Expert Parallelism | vLLM Blog (https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime)
+citeturn5view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn4view2","id":9}); Total lines: 163
+L0: Menu
+L1: 
+L2: Search Docscite0†Documentation†docs.vllm.ai cite1†Blog cite2†Events cite3†Office Hours cite4†Contact cite5†Community cite6†GitHub†github.com L3: 
+L4: Theme
+L5: 
+L6: cite1†Blog L7: # Achieving near-zero-downtime scaling in Elastic Expert Parallelism
+L8: 
+L9: October 19, 2026 12 min read
+L10: 
+L11: Itay Alroy (NVIDIA)
+L12: 
+L13: cite7†#large-scale-serving cite8†#elastic-ep cite9†#expert-parallelism cite10†#moe cite11†#nixl cite12†#cuda-graphs L14:   * cite13†Overlapping topology preparation with serving L15:   * cite14†Expand EP communication in place L16:   * cite15†Preserve CUDA graphs on existing workers L17:   * cite16†Prepare joining workers independently L18:   * cite17†Performance on DeepSeek V4 Pro L19:   * cite18†Scale-up and scale-down timings L20:   * cite19†Maintaining the SLO while adding GPUs L21:   * cite20†Try Elastic EP L22:   * cite21†What comes next L23:   * cite22†Restore warm workers with Dynamo Snapshot L24:   * cite23†Achieve state-of-the-art EP communication with NIXL EP L25:   * cite24†Connect Elastic EP to Dynamo and llm-d orchestration L26:   * cite25†Acknowledgements L27: Table of Contents
+L28: Traditionally, changing the number of GPUs in a vLLM service required adding or removing entire model replicas or restarting the engine with a different GPU count. As models grow larger, each replica needs more GPUs, so scaling by replica adds or removes GPUs in increasingly large increments. Restarting vLLM to scale DeepSeek V4 Pro from 16 to 20 GB200 GPUs stopped serving for 197 seconds (see the cite17†performance section for details), leaving those expensive GPUs allocated without generating tokens.
+L29: In our cite26†first Elastic EP post , we showed how vLLM could add or remove GPUs from a running DEP deployment (data-parallel attention with expert-parallel MoE) without restarting it. While we avoided a restart, serving still stopped throughout reconfiguration as we initialized new workers, prepared the expanded communication groups, loaded model weights, and repeated kernel warmup and CUDA graph capture.
+L30: In our DeepSeek V4 Pro benchmark, this pause lasted 100 seconds when scaling from 16 to 20 GPUs and 56 seconds when scaling back to 16 GPUs (full details in the cite17†performance section ).
+L31: In this post, we describe how asynchronous preparation and cite27†NIXL EP†github.com enabled Elastic EP reconfiguration with near-zero downtime. In the same benchmark, we reduced downtime to 0.82 seconds when scaling from 16 to 20 GPUs and 1.96 seconds when scaling back to 16 GPUs, allowing us to scale up and down with almost no impact on serving performance.
+L32: ## Overlapping topology preparation with serving
+

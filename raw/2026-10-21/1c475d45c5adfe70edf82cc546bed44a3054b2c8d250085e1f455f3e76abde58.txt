@@ -1,0 +1,216 @@
+Achieving near-zero-downtime scaling in Elastic Expert Parallelism | vLLM Blog (https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime)
+citeturn13view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn7view0","lineno":78}); Total lines: 163
+L0: Menu
+L1: 
+L2: Search Docscite0†Documentation†docs.vllm.ai cite1†Blog cite2†Events cite3†Office Hours cite4†Contact cite5†Community cite6†GitHub†github.com L3: 
+L4: Theme
+L5: 
+L6: cite1†Blog L7: # Achieving near-zero-downtime scaling in Elastic Expert Parallelism
+L8: 
+L9: October 19, 2026 12 min read
+L10: 
+L11: Itay Alroy (NVIDIA)
+L12: 
+L13: cite7†#large-scale-serving cite8†#elastic-ep cite9†#expert-parallelism cite10†#moe cite11†#nixl cite12†#cuda-graphs L14:   * cite13†Overlapping topology preparation with serving L15:   * cite14†Expand EP communication in place L16:   * cite15†Preserve CUDA graphs on existing workers L17:   * cite16†Prepare joining workers independently L18:   * cite17†Performance on DeepSeek V4 Pro L19:   * cite18†Scale-up and scale-down timings L20:   * cite19†Maintaining the SLO while adding GPUs L21:   * cite20†Try Elastic EP L22:   * cite21†What comes next L23:   * cite22†Restore warm workers with Dynamo Snapshot L24:   * cite23†Achieve state-of-the-art EP communication with NIXL EP L25:   * cite24†Connect Elastic EP to Dynamo and llm-d orchestration L26:   * cite25†Acknowledgements L27: Table of Contents
+L28: Traditionally, changing the number of GPUs in a vLLM service required adding or removing entire model replicas or restarting the engine with a different GPU count. As models grow larger, each replica needs more GPUs, so scaling by replica adds or removes GPUs in increasingly large increments. Restarting vLLM to scale DeepSeek V4 Pro from 16 to 20 GB200 GPUs stopped serving for 197 seconds (see the cite17†performance section for details), leaving those expensive GPUs allocated without generating tokens.
+L29: In our cite26†first Elastic EP post , we showed how vLLM could add or remove GPUs from a running DEP deployment (data-parallel attention with expert-parallel MoE) without restarting it. While we avoided a restart, serving still stopped throughout reconfiguration as we initialized new workers, prepared the expanded communication groups, loaded model weights, and repeated kernel warmup and CUDA graph capture.
+L30: In our DeepSeek V4 Pro benchmark, this pause lasted 100 seconds when scaling from 16 to 20 GPUs and 56 seconds when scaling back to 16 GPUs (full details in the cite17†performance section ).
+L31: In this post, we describe how asynchronous preparation and cite27†NIXL EP†github.com enabled Elastic EP reconfiguration with near-zero downtime. In the same benchmark, we reduced downtime to 0.82 seconds when scaling from 16 to 20 GPUs and 1.96 seconds when scaling back to 16 GPUs, allowing us to scale up and down with almost no impact on serving performance.
+L32: ## Overlapping topology preparation with serving
+L33: We reorganized vLLM's reconfiguration flow into two phases: background preparation and a short commit. Existing workers use separate background threads to prepare and warm up target communication, transfer model weights, and synchronize execution-related information (such as autotuning results) with joining workers, while continuing to serve requests with their current communication groups and CUDA graphs.
+L34: In parallel, joining workers initialize, receive model weights, and prepare their communication and GPU execution. During the commit phase, vLLM briefly pauses its schedulers, activates the prepared topology, and resumes serving. These changes were introduced in cite28†asynchronous preparation†github.com and cite29†prepare/commit optimizations†github.com .
+L35: Preparation covers four main tasks:
+L36: 
+L37:   1. Initialize joining workers. Start their processes and allocate storage for the model and execution.
+L38:   2. Prepare communication. Set up the target communication groups and expand the EP communicator.
+L39:   3. Transfer model weights. Transfer the required weights from existing workers to joining workers over NVLink or RDMA.
+L40:   4. Prepare execution. Complete the required compilation, kernel warmup, tuning setup, and CUDA graph construction on joining workers.
+L41: After the commit phase, asynchronous Expert Parallel Load Balancing (EPLB) allows new workers to begin handling attention while existing workers handle expert computation. EPLB then redistributes experts across the expanded group in the background.
+L42: 
+L43: The main challenge is preparing communication and GPU execution without involving or disrupting the workers that are serving requests.
+L44: ## Expand EP communication in place
+L45: 
+L46: Before NIXL EP, the EP communication backends available in vLLM used fixed membership: each instance was created for a specific set of ranks. Adding or removing ranks requires a new instance. Even when that instance can be created in the background, two problems remain.
+L47: First, the old and new instances need separate communication buffers and other resources, including memory registrations, IPC handles, and RDMA Queue Pairs (QPs). Keeping both instances alive increases communication memory usage and requires repeating setup rather than reusing existing resources.
+L48: Second, switching EP communicators changes the buffers and communication state used by the EP communication kernels. This invalidates previously captured CUDA graphs, which must be recaptured before serving can resume. That requires repeating warmup and graph construction for many batch shapes across all retained workers.
+L49: In our DeepSeek V4 Pro benchmark, even with asynchronous preparation, performing warmup and graph recapture during the commit phase resulted in serving pauses of 58 seconds during scale-up and 44 seconds during scale-down.
+L50: To solve these problems, we designed NIXL EP, an EP communication library tailor-made for Elastic EP. It adds or removes ranks in place, reusing the same NIXL agent, buffers, and connections. New peers can be connected while existing workers continue serving, and only joining peers need new connections and registrations. NIXL EP also keeps captured EP dispatch and combine entries valid across reconfiguration, allowing retained workers to reuse their existing CUDA graphs.
+L51: During preparation, vLLM's background thread connects joining peers without activating them. The commit phase then activates the prepared peers without replacing the communicator.
+L52: 
+L53: cite30†Image: The same NIXL EP communicator progresses from the current active group to connected inactive joining peers, then activates the target group at commit. The same NIXL EP communicator progresses from the current active group to connected inactive joining peers, then activates the target group at commit.
+L54: Figure 1. Connecting and activating new EP peers. Green ranks are active; gray ranks are connected but masked. During the commit phase, new peers are activated without replacing the agent or buffers.
+L55: 
+L56: vLLM still creates new DP coordination groups and EPLB groups for the target topology, but their communication runs outside the captured model forward pass, so switching to them does not invalidate CUDA graphs.
+L57: ## Preserve CUDA graphs on existing workers
+L58: 
+L59: A CUDA graph records GPU operations so that vLLM can replay a forward pass without repeatedly launching each operation from the CPU. A captured kernel node includes its launch configuration and argument values, including pointers to input and output tensors. Memory contents can change between replays, but the recorded pointers must remain valid. These requirements are part of the cite31†CUDA graph execution contract†docs.pytorch.org .
+L60: vLLM cite32†captures separate graphs for different batch shapes and execution modes†docs.vllm.ai and runs warmup forward passes before each capture.
+L61: 
+L62: Preserving captured CUDA graphs requires more than keeping the communicator object alive. NIXL EP also keeps kernel launch configurations, graph-visible communication arguments, and input and output tensor addresses stable across reconfiguration. Its kernels read active group membership from device state that can be updated in place.
+L63: We also changed vLLM to keep the captured arguments, launch configurations, and input and output tensor addresses of the surrounding compute kernels stable across reconfiguration:
+L64:   * We reuse retained workers' fused-MoE execution objects instead of rebuilding them for a different active EP size.
+L65:   * We keep the addresses and layouts of graph-visible workspaces and dispatch outputs stable across reconfiguration so that captured expert kernels can continue using them. Dispatch outputs also serve as inputs to expert computation. If their addresses or layouts changed with EP size, captured expert kernels would still use the old pointers and offsets.
+L66:   * We preserve the backing storage of expert-routing tensors and update mappings in place. This allows EPLB to change the mapping contents without moving the tensors used by captured kernels.
+L67: Together, these changes allow retained workers to cite33†reuse their existing CUDA graphs†github.com after both scale-up and scale-down.
+L68: ## Prepare joining workers independently
+L69: 
+L70: Existing workers have graphs to preserve. Joining workers have none.
+L71: 
+L72: Joining workers normally prepare by running model forward passes with EP dispatch and combine, as well as exchanging batch information with other workers. These steps require other workers to participate, but existing workers are already serving real requests on the current topology.
+L73: NIXL EP lets each joining worker temporarily mask every remote EP peer during warmup and graph preparation. Only that worker's local rank is active for EP communication. We also modified vLLM so that these preparation passes do not wait for DP batch information from other workers. This lets joining workers run their dummy batches and capture CUDA graphs without requiring existing workers to participate.
+L74: cite34†Image: Existing workers serve with their current peers active and joining peers masked. Each joining worker keeps only itself active for local warmup and graph capture, masking all remote peers, including other joining workers. Existing workers serve with their current peers active and joining peers masked. Each joining worker keeps only itself active for local warmup and graph capture, masking all remote peers, including other joining workers.
+L75: Figure 2. Green ranks are active for EP communication; gray ranks are masked. Existing workers serve together while each joining worker masks all remote EP peers for preparation.
+L76: 
+L77: After capture, NIXL EP can reactivate peers without invalidating the graphs. Joining workers reuse their locally captured graphs when they begin serving as part of the expanded group.
+L78: ## Performance on DeepSeek V4 Pro
+L79: 
+L80: All experiments in this section used cite35†DeepSeek V4 Pro†huggingface.co on GB200 GPUs, with TP=1 and DP/EP sizes of 16 and 20. Model weights were pre-downloaded in safetensors format on shared Lustre storage and loaded using the default `--load-format auto`. Measurements used warm kernel-compilation caches (Triton, TileLang, and FlashInfer).
+L81: ### Scale-up and scale-down timings
+L82: 
+L83: The table shows which stages run while serving is paused and which run in the background while existing workers continue serving.
+L84: Stage  | A: Blocking  | B: Async preparation  | C: Async preparation + graph reuse
+L85: --- | --- | --- | ---
+L86: Initialize joining workers  | Serving paused  | Background  | Background
+L87: Prepare target communication  | Serving paused  | Background  | Background
+L88: Transfer model weights  | Serving paused  | Background  | Background
+L89: Warmup and graph capture on joining workers  | Serving paused  | Serving paused  | Background
+L90: Warmup and graph capture on existing workers  | Serving paused  | Serving paused  | Not needed (existing graphs stay valid)
+L91: Activate the target topology  | Serving paused  | Serving paused  | Serving paused
+L92: Configuration C is supported only by NIXL EP.
+L93: 
+L94:   * Downtime: the observed serving interruption, when in-flight requests stop progressing and new requests are not admitted.
+L95:   * Total time: the duration of the full scaling operation, including preparation.
+L96: 
+L97: The two durations are measured separately.
+L98: Metric  | A: Blocking  | B: Async preparation  | C: Async preparation + graph reuse
+L99: --- | --- | --- | ---
+L100: 16 to 20 GPUs: downtime  | 99.62 s  | 58.04 s  | 0.82 s
+L101: 20 to 16 GPUs: downtime  | 56.25 s  | 44.07 s  | 1.96 s
+L102: 16 to 20 GPUs: total time  | 99.72 s  | 97.27 s  | 92.34 s
+L103: 20 to 16 GPUs: total time  | 56.21 s  | 51.46 s  | 9.32 s
+L104: 
+L105: All configurations passed numerical correctness checks, including checks on every joining worker.
+L106: ### Maintaining the SLO while adding GPUs
+L107: 
+L108: We served DeepSeek V4 Pro on 16 GPUs, then gradually increased the incoming request rate from about 8 to 16 requests per second. We replayed the same 11,391-request scenario against three deployments: one stayed at 16 GPUs, one restarted with 20 GPUs, and one scaled to 20 GPUs using Elastic EP with NIXL EP. The service-level objective (SLO) was a rolling p95 time to first token below 5 seconds.
+L109: cite36†Image: Elastic EP stays below the SLO throughout the scenario. During preparation, its serving performance matches the static 16-GPU deployment. After scaling, it matches the recovered 20-GPU deployment's performance. Elastic EP stays below the SLO throughout the scenario. During preparation, its serving performance matches the static 16-GPU deployment. After scaling, it matches the recovered 20-GPU deployment's performance.
+L110: Figure 3. End-to-end serving under rising request load. Curves show 30-second rolling p95 outcomes, with failed requests assigned a 30-second penalty rather than a measured TTFT.
+L111:   * Elastic EP completed all 11,391 requests and stayed below the SLO throughout the scenario.
+L112:   * During preparation, Elastic EP matched the static 16-GPU deployment's serving performance, with no visible degradation from background preparation.
+L113:   * After scaling, Elastic EP matched the recovered 20-GPU deployment's performance, with no visible post-scale degradation.
+L114: ## Try Elastic EP
+L115: 
+L116: Background preparation, CUDA graph reuse, and independent graph capture on joining workers are all available today in the latest cite37†vLLM†pypi.org and cite38†NIXL†pypi.org releases. Install them with pip and start using Elastic EP.
+L117: For a complete usage example, see the cite39†`cuda_graphs_heavy_nixl_ep` case in vLLM's Elastic EP test†github.com . The example includes the server configuration and scaling API calls. It scales from two GPUs to four and back while sending requests, checking serving during preparation and model accuracy around each resize.
+L118: ## What comes next
+L119: ### Restore warm workers with Dynamo Snapshot
+L120: 
+L121: We have effectively solved the long serving interruption. The next challenge is getting new capacity ready sooner. We plan to integrate cite40†Dynamo Snapshot†developer.nvidia.com so joining workers can restore initialized process and CUDA state instead of repeating compilation, kernel warmup, graph construction, and other startup work.
+L122: Communication for the target topology must be prepared separately because it is not restored from the snapshot. Restoring large model weights from checkpoint storage can dominate restore time, so we plan to keep Elastic EP's GPU-to-GPU weight transfer from existing workers instead.
+L123: ### Achieve state-of-the-art EP communication with NIXL EP
+L124: 
+L125: We aim for state-of-the-art dispatch and combine performance with NIXL EP while maintaining full support for Elastic EP and fault tolerance. An upcoming NIXL EP performance update is the next step toward that goal (see the cite41†NIXL EP roadmap RFC†github.com ).
+L126: ### Connect Elastic EP to Dynamo and llm-d orchestration
+L127: 
+L128: With the engine-level capability in place, the next step is to use Elastic EP from orchestrator autoscalers. Work toward this integration is already underway across the vLLM, Dynamo, and llm-d communities.
+L129: 
+L130: These efforts include cite42†vLLM's external-load-balancer work†github.com and cite43†Dynamo's Elastic EP proposal†github.com .
+L131: If you run inference at scale, we encourage you to try Elastic EP and share your workloads and operational requirements. If you build inference infrastructure, we welcome contributions to vLLM Elastic EP and NIXL EP. Let's get Elastic EP running in production.
+L132: ## Acknowledgements
+L133: 
+L134:   * Tyler Michael Smith and Sage Moore from Red Hat for their invaluable feedback and thorough reviews throughout this work.
+L135:   * Linoy Geva (NVIDIA) for her work on serving performance during preparation.
+L136:   * The entire NIXL team for their efforts on NIXL EP.
+L137:   * Tzu-Ling Kan, Julien Mancuso, and the entire Dynamo team for their efforts to support Elastic EP in Dynamo.
+L138: 
+L139: Share:
+L140: 
+L141: cite44†View Markdown Source†github.com L142: cite45†OlderHyper Optimizing Kimi K3 in vLLM: Moving Fast and Responsibly cite46†NewerIntroducing vLLM TorchTPU L143: ## Related Posts
+L144: cite26†Elastic Expert Parallelism in vLLM May 14, 2026·11 min read How Elastic Expert Parallelism lets vLLM scale Mixture-of-Experts serving up or down at runtime by changing data-parallel workers, redistributing experts, and coordinating live topology changes without server restarts. cite47†From Day 0 to Production SLAs: Serving GLM-5.2 on 24 NVIDIA B300 GPUs with vLLM Jul 23, 2026·18 min read How we took GLM-5.2-NVFP4 from 40 ms to 17 ms mean TPOT on 24 B300 GPUs with vLLM: P/D disaggregation, MTP speculative decoding, Model Runner V2, and the SLA-first trade-offs behind the final configuration. cite48†Push-Based KV Transfer to Improve TTFT and TPOT for Disaggregated Inference in vLLM Oct 14, 2026·15 min read A push-based NIXL connector for vLLM disaggregated serving: the prefill instance writes KV directly into decode memory over RDMA, taking the router relay, decode-side allocation, and transfer setup off the TTFT critical path. L145:   * cite13†Overlapping topology preparation with serving L146:   * cite14†Expand EP communication in place L147:   * cite15†Preserve CUDA graphs on existing workers L148:   * cite16†Prepare joining workers independently L149:   * cite17†Performance on DeepSeek V4 Pro L150:   * cite18†Scale-up and scale-down timings L151:   * cite19†Maintaining the SLO while adding GPUs L152:   * cite20†Try Elastic EP L153:   * cite21†What comes next L154:   * cite22†Restore warm workers with Dynamo Snapshot L155:   * cite23†Achieve state-of-the-art EP communication with NIXL EP L156:   * cite24†Connect Elastic EP to Dynamo and llm-d orchestration L157:   * cite25†Acknowledgements L158: Table of Contents
+L159: 
+L160: © 2026 vLLM·All rights reserved.
+L161: 
+L162: cite6†GitHub†github.com cite49†X†x.com cite50†LinkedIn†www.linkedin.com cite51†Slack†slack.vllm.ai cite52†Discuss†discuss.vllm.ai --------------------------------------------------------------------------------
+OpenAI acquires Orchestra Bio | OpenAI (https://openai.com/index/openai-to-acquire-orchestra-bio/)
+citeturn13view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://openai.com/index/openai-to-acquire-orchestra-bio/","lineno":null}); Total lines: 141
+L0: cite0†Skip to main content L1: 
+L2:   * [Button: Research]
+L3:   * [Button: Products]
+L4:   * [Button: Business]
+L5:   * [Button: Developers]
+L6:   * [Button: Company]
+L7:   * cite1†Foundation(opens in a new window)†openaifoundation.org L8: 
+L9: cite2†Try ChatGPT(opens in a new window)†chatgpt.com [Button: Login]
+L10: 
+L11: OpenAI
+L12: 
+L13: October 20, 2026
+L14: 
+L15: cite3†Company L16: # OpenAI acquires Orchestra Bio
+L17: 
+L18: AI-powered drug development platform accelerates progress toward new treatments.
+L19: 
+L20: Loading…
+L21: 
+L22: Share
+L23: 
+L24: Bringing Rosalind and Orchestra together
+L25: 
+L26:   * cite4†Bringing Rosalind and Orchestra together L27:   * cite5†Designed for the way biopharma teams work L28: 
+L29:   * cite4†Bringing Rosalind and Orchestra together L30:   * cite5†Designed for the way biopharma teams work L31: OpenAI has acquired cite6†Orchestra Bio⁠(opens in a new window)†orchestra.bio , a platform that helps biopharma teams coordinate the complex process of drug development. We’re bringing Orchestra’s team and technology together with cite7†Rosalind , our AI models and tools for life sciences research. Our goal is to help scientists make discoveries and manage the work needed to turn them into treatments that reach patients sooner.
+L32: Developing a new medicine is extraordinarily complex, taking roughly 10 to 15 years on average from target discovery to regulatory approval in the United States. Beyond the science, teams must orchestrate programs across internal departments and external partners, often relying on disconnected systems. We’re now at an inflection point where AI can help take on these specialized tasks and complex workflows.
+L33: ## Bringing Rosalind and Orchestra together
+L34: 
+L35: cite7†Rosalind brings our AI models and tools to life sciences researchers. cite8†GPT‑Rosalind helps scientists reason through questions in biology and chemistry. cite9†Rosalind Workbench⁠ connects those capabilities with scientific tools and data to help researchers analyze results and plan experiments.
+L36: Orchestra brings a team with experience across biotech, software, and AI, along with a platform built to coordinate drug development. Together, we aim to build agents that help teams connect scientific findings with the studies, decisions, and next steps needed to advance a potential medicine.
+L37: ## Designed for the way biopharma teams work
+L38: 
+L39: Orchestra Bio is a platform where people and AI agents work together to advance drug programs. Scientists and program leaders delegate the monitoring and tracking of studies and campaigns to agents, freeing up time to guide the work, make decisions, and address issues before they cause delays.
+L40: A problem in one part of a drug program can affect many others. A failed manufacturing batch, for example, can delay the start of a clinical trial. Orchestra’s agents help teams identify which activities and timelines are affected, gather the relevant information, and compare ways to respond. Scientists and program leaders can then use that analysis to decide what to do next.
+L41: Realizing the potential of AI in life sciences requires close collaboration with the organizations working at the forefront of drug discovery and development. Our partnership with cite10†Novo Nordisk⁠ aims to translate its scale and scientific expertise into faster R&D and commercial execution while maintaining strong governance. At cite11†Moderna⁠ , AI is helping teams translate insights from complex data into experimental workflows, with the potential to accelerate R&D.
+L42: Our vision is for AI to help scientists across the full process of discovering and developing new medicines: exploring ideas, designing experiments, interpreting results, and coordinating the work needed to advance promising treatments. Bringing Orchestra Bio together with Rosalind is a step toward that vision. Alongside researchers and our partners, we aim to make more discoveries possible and help new medicines reach patients sooner.
+L43: 
+L44:   * cite12†2026 L45: ## Author
+L46: 
+L47: OpenAI
+L48: ## Keep reading
+L49: 
+L50: cite13†View all L51: 
+L52: cite14†Introducing the Rosalind Academic Plan ResearchOct 15, 2026 L53: 
+L54: cite15†How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules Applied AISep 10, 2026 L55: 
+L56: cite16†Introducing new capabilities to GPT-Rosalind ProductJun 3, 2026 L57: 
+L58: Research
+L59: 
+L60:   * cite17†Research Index L61:   * cite18†Research Overview L62:   * cite19†Economic Research L63: 
+L64: Latest Advancements
+L65: 
+L66:   * cite20†GPT-6.1 Sol L67:   * cite21†GPT-6 Astra L68:   * cite22†GPT-5.6 L69:   * cite23†GPT-5.5 L70: 
+L71: Safety
+L72:   * cite24†Safety Approach L73:   * cite25†Deployment Safety(opens in a new window)†deploymentsafety.openai.com L74:   * cite26†Security & Privacy L75:   * cite27†Trust & Transparency L76: 
+L77: Products
+L78:   * cite2†ChatGPT(opens in a new window)†chatgpt.com L79:   * cite28†ChatGPT Business(opens in a new window)†chatgpt.com L80:   * cite29†ChatGPT Enterprise(opens in a new window)†chatgpt.com L81:   * cite30†ChatGPT for Education(opens in a new window)†chatgpt.com L82:   * cite31†Codex†chatgpt.com L83:   * cite32†Dots(opens in a new window)†chatgpt.com L84:   * cite33†Release Notes L85: 
+L86: API Platform
+L87: 
+L88:   * cite34†Overview L89:   * cite35†API Log In(opens in a new window)†platform.openai.com L90:   * cite36†Docs(opens in a new window)†developers.openai.com L91: 
+L92: Business
+L93:   * cite37†Overview L94:   * cite38†Solutions L95:   * cite39†Resources L96:   * cite40†Plugins L97:   * cite41†Customer Stories L98:   * cite42†Partner Network L99:   * cite43†Contact Sales L100: 
+L101: Developers
+L102: 
+L103:   * cite44†Apps SDK(opens in a new window)†developers.openai.com L104:   * cite45†Open Models L105:   * cite46†Docs(opens in a new window)†developers.openai.com L106:   * cite47†Resources(opens in a new window)†developers.openai.com L107:   * cite48†Developer Forum(opens in a new window)†community.openai.com L108: 
+L109: Company
+L110:   * cite49†About Us L111:   * cite50†Our Charter L112:   * cite51†Careers L113:   * cite13†News L114: 
+L115: Support
+L116: 
+L117:   * cite52†Help Center(opens in a new window)†help.openai.com L118:   * cite53†OpenAI Status(opens in a new window)†status.openai.com L119: 
+L120: More
+L121: 
+L122:   * cite54†Stories L123:   * cite55†Academy L124:   * cite56†Supply Co. L125:   * cite57†Livestreams L126:   * cite58†Podcast L127:   * cite59†RSS L128: 
+L129: Terms & Policies
+L130: 
+L131:   * cite60†Terms of Use L132:   * cite61†Privacy Policy L133:   * cite62†Other Policies L134: cite63†(opens in a new window)†x.com cite64†(opens in a new window)†www.youtube.com cite65†(opens in a new window)†www.linkedin.com cite66†(opens in a new window)†github.com cite67†(opens in a new window)†www.instagram.com cite68†(opens in a new window)†www.tiktok.com cite69†(opens in a new window)†discord.gg L135: 
+L136: OpenAI © 2015–2026 Your privacy choices
+L137: 
+L138: English United States
+L139: 
+L140: [Input: Search]
+

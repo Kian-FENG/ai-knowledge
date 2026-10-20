@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+  "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+  "text": "In copyright lawsuits over AI training, Meta has spent weeks blaming staff for downloading torrents. The company has now been ordered to name executives who authorized decisions to pirate books from shadow libraries like Anna’s Archive and LibGen, TorrentFreak reported.\nIn a discovery order impacting a class action raised by book authors—including Richard Kadrey and Sarah Silverman—as well as a lawsuit from publisher Entrepreneur Media, Magistrate Judge Thomas Hixon largely agreed that Meta must clearly identify key decision-makers. Following testimony from Meta staff who downloaded torrents, the order could expose a wider range of supervisors, managers, and executives whom staffers said greenlit the piracy.\nMeta had been hoping to avoid detailing the chain of command, particularly for leadership involved in early AI training. According to a Meta court filing, its initial efforts to compile massive AI datasets were managed through an “informal approach\" where supposedly nobody with authority made any decisions. Instead, Meta insisted that a “decision” was “made only in the sense” that some staffers “technically” downloaded torrents.\nRead full article\nComments",
+  "published_at": "2026-10-20T17:40:20+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5e09c3ded611dfaae191",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-21/e15887a3ee983327f196284205d126d5d32787df614b85fbf1bc008aad5b9ee6.body",
+  "source_sha256": "e15887a3ee983327f196284205d126d5d32787df614b85fbf1bc008aad5b9ee6",
+  "fetched_at": "2026-10-20T22:02:40.202951+00:00"
+}

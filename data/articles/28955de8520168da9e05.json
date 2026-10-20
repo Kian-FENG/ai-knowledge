@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/interpretability-key-physical-ai-says-world-mechanics-ceo-sonia-joseph",
+  "title": "Interpretability Is the Key to Physical AI, Says World Mechanics CEO Sonia Joseph",
+  "text": "Two of the hardest problems in AI right now are creating models that understand the physical world—so called world models—and making sense of the internal workings of AI models—otherwise known as mechanistic interpretability.\nTypically, these are treated as two separate problems: researchers working on world models are often not concerned with their internal workings, and interpretability researchers tend to focus on the language models that power most AI tools we currently use. But Sonia Joseph, the co-founder and CEO of a new startup, World Mechanics, argues that world models and interpretability are two sides of the same coin. Joseph joined the latest episode of AI Deep Dive to explain that connection, which could be key to making AI useful in the physical world, from medicine to manufacturing. (The full episode is available here.)",
+  "published_at": "2026-10-20T00:39:43+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-20T01:09:45+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "28955de8520168da9e05",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/292aabfb052b27c9dfd5508fb31ebc5aebc219eb59ba61d92c822a9079d9e57d.body",
+  "source_sha256": "292aabfb052b27c9dfd5508fb31ebc5aebc219eb59ba61d92c822a9079d9e57d",
+  "fetched_at": "2026-10-20T22:02:37.341760+00:00"
+}

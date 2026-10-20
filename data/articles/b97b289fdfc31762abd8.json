@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24764",
+  "title": "BanglaBBQ: A Bias Benchmark for Question Answering in the Bangladeshi Context",
+  "text": "arXiv:2610.24764v1 Announce Type: new\nAbstract: This paper introduces BanglaBBQ, a question-answering bias benchmark designed to capture stereotypes grounded in the Bangladeshi context, in both Bangla and English. Following KoBBQ and PakBBQ, BanglaBBQ adapts the original Bias Benchmark for Question Answering (BBQ) by classifying its templates into three groups: directly translated (DT), modified to align target groups or contexts with Bangladesh (TM), and removed when deemed unsuitable for the Bangladeshi context (SR). This process retains 140 templates across six categories, comprising 76 DT and 64 TM templates. Five newly authored (NA) categories, based on stereotypes common in Bangladeshi society, are then added: marital status, age and political perception, regional origin, educational background, and mental-health status. Native Bangladeshi annotators judged all 466 newly authored templates, and 372 were retained because a strict majority of English annotators identified the intended target and rated the attitude as common enough. Each newly authored template is linked to a documented source and a verbatim quote from it. Each evaluated template also has a counter-stereotypical version of its disambiguated context. The dataset was evaluated using two open-weight models (Qwen3-4B and Qwen3-8B) and two closed models (GPT-4.1-mini and Gemini 2.5 Flash). All four lean towards the stereotyped person when the context is ambiguous, in both languages, and the effect of language differs by model, so English results do not predict behaviour in Bangla. On the adapted BBQ templates, both Qwen3 models are also less accurate when the context contradicts a stereotype than when it confirms it. On the newly authored templates, the closed models follow counter-stereotypical evidence almost perfectly, and all four models are more biased on the templates that annotators validated than on those they rejected.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b97b289fdfc31762abd8",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

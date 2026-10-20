@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24614",
+  "title": "Safety Kernel: Mechanistic Alignment for Cross-Lingual Defense in LLMs",
+  "text": "arXiv:2610.24614v1 Announce Type: new\nAbstract: The safety capabilities of large language models (LLMs) are highly uneven across different languages, often allowing cross-lingual attacks to bypass safety guardrails. Existing alignment methods predominantly rely on external alignment signals and provide limited insight into underlying neuron-level mechanisms, making it difficult to provide a unified internal target for cross-lingual safety interventions. To address this, we analyze cross-lingual safety behavior at the neuron level and identify a compact set of safety-related neurons shared across languages, termed the safety kernel (SK). Specifically, we first utilize multilingual parallel safe and unsafe prompts to compute safety contrast with activation responsiveness (SCAR) scores, identifying language-wise safety-neuron candidates from internal activation patterns. We then intersect the resulting language-wise safety-neuron sets to obtain the SK, and validate its functional relevance to cross-lingual safety behavior through activation suppression and activation-state transfer interventions. Finally, building on the SK coordinates, we introduce SK-Masked LoRA, which constrains LoRA adaptation to the feed-forward network (FFN) output dimensions corresponding to the SK, thereby focusing safety-related changes on the cross-lingually shared neuron coordinates. Extensive experiments demonstrate that SK-Masked LoRA substantially reduces attack success rates across multiple languages, including languages excluded from SK discovery, while intervening on only a small fraction of internal neuron coordinates and producing generally limited changes in the model's general capabilities.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "3e4c106c9d5a0e63bd06",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

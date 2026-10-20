@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-20/salesforce-to-buy-marketing-platform-braze-for-5-7-billion",
+  "title": "Salesforce Fills Marketing Hole With $5.7 Billion Deal for Braze",
+  "text": "Salesforce Inc. plugged a gap in its marketing platform with an agreement to buy Braze Inc. for an enterprise value of about $5.7 billion, aiming to add more artificial intelligence features to products that were increasingly seen as outdated.",
+  "published_at": "2026-10-20T12:12:14+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7203ce49631b91ca1919",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/8a25751a98b4bf6aabddd9183ea400c2b733d6b762011b169922882798ba5c6f.body",
+  "source_sha256": "8a25751a98b4bf6aabddd9183ea400c2b733d6b762011b169922882798ba5c6f",
+  "fetched_at": "2026-10-20T22:02:39.255372+00:00"
+}

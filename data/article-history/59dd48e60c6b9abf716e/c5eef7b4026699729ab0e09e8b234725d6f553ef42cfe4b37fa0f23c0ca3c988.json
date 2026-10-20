@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime",
+  "title": "Achieving near-zero-downtime scaling in Elastic Expert ParallelismOct 19, 2026·12 min readHow asynchronous preparation and NIXL EP enabled near-zero-downtime Elastic EP scaling in vLLM.",
+  "link_text": "Achieving near-zero-downtime scaling in Elastic Expert ParallelismOct 19, 2026·12 min readHow asynchronous preparation and NIXL EP enabled near-zero-downtime Elastic EP scaling in vLLM.",
+  "id": "59dd48e60c6b9abf716e",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-20/c5eef7b4026699729ab0e09e8b234725d6f553ef42cfe4b37fa0f23c0ca3c988.body",
+  "source_sha256": "c5eef7b4026699729ab0e09e8b234725d6f553ef42cfe4b37fa0f23c0ca3c988",
+  "fetched_at": "2026-10-19T22:00:15.585459+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-19T22:00:15.585459+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

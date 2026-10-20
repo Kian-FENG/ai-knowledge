@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+🔔 New article published\n+HealthBench and HealthBench Professional: Evaluating models in realistic health conversations\n+We’re launching leaderboards for HealthBench and HealthBench Professional, two benchmarks evaluating how AI models respond in realistic health conversations\n-Intelligence Index: 42\n+Intelligence Index: 43\n+SiliconFlow performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n+Together AI performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n+Novita performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n+Systalyze performance results now available\n+GLM-5.2 (Non-reasoning)GLM-5.2 (Max)DeepSeek V4.1 Flash 1017 (Max)\n+PrimaLabs performance results now available\n+Nemotron 3.5 Lightning\n+Baseten performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n-DeepSeek V4.1 Flash (Max)DeepSeek V4.1 Flash (Non-reasoning)DeepSeek V4.1 Flash (Max)DeepSeek V4.1 Flash (Non-reasoning)DeepSeek V4.1 Flash (Max)DeepSeek V4.1 Flash (Non-reasoning)Kimi K3 (Max)\n+DeepSeek V4.1 Flash (Max)DeepSeek V4.1 Flash (Non-reasoning)DeepSeek V4.1 Flash (Max)DeepSeek V4.1 Flash (Non-reasoning)Kimi K3 (Max)\n-Qwen3.8 27B (Non-reasoning)GLM-5.3 (Max)Qwen3.8 27B (Xhigh)\n-SambaNova performance results now available\n-MiniMax-M3\n-Makora performance results now available\n-GLM-5.3 (Max)\n-Anthropic performance results now available\n-Claude Fable 5.1 (High, Default Fallback)Claude Fable 5.1 (Xhigh, Default Fallback)Claude Fable 5.1 (Medium, Default Fallback)Claude Fable 5.1 (Low, Default Fallback)Claude Fable 5.1 (Max, Default Fallback)\n+Qwen3.8 27B (Non-reasoning)",
+  "id": "e469221c3cb69ce64bfd",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-21/b54ce11a86e3f0b84cdd52ccb144f31eb55f1d51ee0844e4b776508545f76470.body",
+  "source_sha256": "b54ce11a86e3f0b84cdd52ccb144f31eb55f1d51ee0844e4b776508545f76470",
+  "fetched_at": "2026-10-20T22:02:31.187372+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-20T22:02:31.187372+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

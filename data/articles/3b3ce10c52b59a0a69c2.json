@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24187",
+  "title": "Reasoning with Context Management and External Memory",
+  "text": "arXiv:2610.24187v1 Announce Type: new\nAbstract: Reasoning models maintain information about the status of their reasoning process through in-context memory. Complex problems require larger context windows and memory requirements. In this scenario, context management without caching risks discarding useful information for reasoning. We propose RCMEM, an approach that extends context management with an external memory to maintain additional information without burdening the reasoning model with additional context. RCMEM significantly reduces computation time on problems that require repeated computation of intermediate steps, while achieving better performance on complex problems. We demonstrate our approach on a few mathematics problems using model sizes ranging from 0.4 to 25 million parameters, and GPT-2.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "3b3ce10c52b59a0a69c2",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

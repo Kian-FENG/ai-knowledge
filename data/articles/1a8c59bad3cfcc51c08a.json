@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159039.htm",
+  "title": "DeepSeek把核心商业秘密也开源了：每张卡每小时能赚38美元",
+  "text": "快科技10月20日消息，DeepSeek能受到全球网友的支持与认可，不仅在于他们推出了便宜好用的大模型，还把一堆AI基建技术免费开源给社区，今天他们又把核心的商业机密都公开了。\n他们发布了DeepSeek V4.1 Flash 大规模推理部署实践的文章，开源了大规模云服务推理框架DeepInfer，解决的是如何让大模型的能力以合理的成本服务海量用户。\n在V4.1 Flash设计之初，DeepSeek就确定了三个目标：\n1、兼容多种厂商的计算芯片：支持在不同硬件平台上部署，并充分发挥各平台的性能。\n2、基于常见硬件组织Prefill和Decode：用常见的8卡机器做 Prefill，用常见的64～128 卡超节点做Decode，围绕两个阶段的负载特征设计计算、通信与调度。\n3、支持将KVCache保留72小时以上：为上下文复用提供更长的时间窗口，在缓存命中时减少重复的Prefill 计算，并将长时间保留缓存所需的容量与管理开销纳入系统设计。\nDeepSeek提到，基于DeepInfer框架，他们已实现 DeepSeek V4.1 Flash 的高吞吐、低延迟大规模推理服务。\n目前单一集群的服务吞吐是155万亿Tokens/天，整体收入是每卡每小时38美金（按谷价）。\nDeepSeek公布的这两个数据都很有意思，155万亿Token/天的吞吐量可以看出他们每天给全球提供了多大的服务能力，每张卡每小时38美元的收入也证明了他们的收入。\n不过DeepSeek没有公布他们具体有多少集群，也没有明确的显卡数量，因此现在还不能估算他们每天的真实收入和Token吞吐量。\n让AI汇总分析下了OpenAI及Anthropic两家每天的Token吞吐量，两家合计规模在100万亿Token/天，上限估计在160万亿左右。\n只不过跟DeepSeek的数据不好直接对比，因为这两家的大模型数量多，而且旗舰级产品公认参数量在5万亿以上，因此单价高，Token吞吐量自然也不会很高，但他们的每天收入要比DeepSeek高出1-2个量级。\n对DeepSeek这套开源感兴趣的可以参考他们的文章。",
+  "published_at": "2026-10-20T17:53:57+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1a8c59bad3cfcc51c08a",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/82d51217de36669a2a31f357b0754e78cce6319d137ba52bf3a54d8d268b0a65.body",
+  "source_sha256": "82d51217de36669a2a31f357b0754e78cce6319d137ba52bf3a54d8d268b0a65",
+  "fetched_at": "2026-10-20T22:02:48.089688+00:00"
+}

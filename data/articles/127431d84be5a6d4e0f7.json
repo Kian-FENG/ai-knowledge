@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/6c6fb412-5eca-4ed3-8b3d-f1c367712c5c?syn-25a6b1a6=1",
+  "title": "Waiting for good IPO",
+  "text": "Anthropic’s shrinking window to list",
+  "published_at": "2026-10-20T05:30:09+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "127431d84be5a6d4e0f7",
+  "source_id": "ft-tech",
+  "source_name": "Financial Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/de7eb9763a00ad0a21c16e52f5bb4c3f1e69de11e45df67e4ad4dc6513a7f2b3.body",
+  "source_sha256": "de7eb9763a00ad0a21c16e52f5bb4c3f1e69de11e45df67e4ad4dc6513a7f2b3",
+  "fetched_at": "2026-10-20T22:02:38.123715+00:00"
+}

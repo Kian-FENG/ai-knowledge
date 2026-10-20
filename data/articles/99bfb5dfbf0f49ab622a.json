@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24593",
+  "title": "Training with Ciphers to Enhance In-Context Terminology Learning For Translation from Rare Languages",
+  "text": "arXiv:2610.24593v1 Announce Type: new\nAbstract: Fine-tuning LLMs with in-context examples (IC-Train) lets translation models adapt to new parallel data at deployment, but it is unclear whether they actually learn the translations of rare terms from those examples. We formalize this capability as in-context term learning (ICTL). We show that standard IC-Train develops this capability only weakly, and propose RareCipherFT, which strengthens it without any lexical resources. RareCipherFT pairs each training target with in-context examples that share a rare term with it. It then replaces that term with a character-shuffled cipher in both the context and the reference, so the term can only be recovered by copying from context. The ciphered fraction of training data is annealed to preserve translation quality. Across seven translation directions between English and Tamil, Assamese, Mizo, Nepali and Hausa, and four models from 1B to 7B parameters, RareCipherFT raises term recall over standard IC-Train by 5-15 absolute points without lowering COMET. Probes using synonyms, nonce words and controls for shared surface context show that these gains come from linking source terms to their in-context translations rather than from shortcuts.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "99bfb5dfbf0f49ab622a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

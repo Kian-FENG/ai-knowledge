@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/accelerating-mamba-2-with-high-performance-forward-pass-kernels-in-nvidia-cuda-tile/",
+  "title": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
+  "text": "NVIDIA CUDA Tile (cuTile) is a Python-based DSL and parallel programming model for NVIDIA GPUs that automatically leverages advanced hardware capabilities to...\nNVIDIA CUDA Tile (cuTile) is a Python-based DSL and parallel programming model for NVIDIA GPUs that automatically leverages advanced hardware capabilities to deliver peak performance for tile-level GPU programming. By abstracting thread- and warp-level scheduling behind high-level, tile-centric primitives, cuTile enables you to write GPU kernels in Python while compiler optimizations automatically…\nSource",
+  "published_at": "2026-10-19T17:00:00+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-19T19:29:30+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "be58f6497da33a853d87",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-20/311debd4a34e2de9039140d7326a1f6d88cdbf922cde9099858c27dedccc7991.body",
+  "source_sha256": "311debd4a34e2de9039140d7326a1f6d88cdbf922cde9099858c27dedccc7991",
+  "fetched_at": "2026-10-19T22:00:15.553723+00:00"
+}

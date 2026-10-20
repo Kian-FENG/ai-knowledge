@@ -1,0 +1,91 @@
+{
+  "started_at": "2026-10-20T22:01:55.811030+00:00",
+  "completed_editorial_at": "2026-10-20T22:15:21.805138+00:00",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-19",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-18T18:00:00-07:00",
+    "end": "2026-10-19T18:00:00-07:00"
+  },
+  "settings": {
+    "timezone": "Asia/Singapore",
+    "daily_timezone": "America/Los_Angeles",
+    "daily_hour": 18,
+    "weekly_timezone": "America/Los_Angeles",
+    "weekly_hour": 18,
+    "weekly_weekday": 4,
+    "lookback_days": 14,
+    "max_items": 24,
+    "sections": [
+      "MaaS市场与产品形态",
+      "AI公司发展与新公司",
+      "模型能力与技术演进",
+      "AI Infra社区与工程趋势",
+      "模型与AI Infra论文",
+      "GPU与供应链"
+    ],
+    "max_response_bytes": 8000000,
+    "timeout_seconds": 15
+  },
+  "git_start": {
+    "head": "9c1a7dcae39b93b98a3c9164b61fafd65b535dfd",
+    "branch": "main",
+    "upstream": "origin/main",
+    "remote": "git@github.com:Kian-FENG/ai-knowledge.git",
+    "ahead_behind": [
+      0,
+      0
+    ],
+    "baseline_dirty_files": 1214,
+    "baseline_snapshot": "/tmp/ai-automation-2026-10-19/baseline.json"
+  },
+  "collector": {
+    "id": "20261020T220215-9601b4c9",
+    "enabled_at_start": 123,
+    "statuses": {
+      "ok": 82,
+      "needs-browser": 40,
+      "failed": 1
+    },
+    "arxiv": {
+      "source_id": "arxiv",
+      "name": "arXiv model and infra papers",
+      "group": "research",
+      "status": "ok",
+      "saved": 60,
+      "unchanged": 0,
+      "unknown_date": 0,
+      "future_date": 0,
+      "truncated": 432,
+      "needs_fulltext": 60,
+      "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+      "entries": 500,
+      "oldest_entry_at": "2026-10-20T00:00:00-04:00",
+      "candidates": 500,
+      "listing_is_complete": false
+    }
+  },
+  "events": 11,
+  "new_pages": 14,
+  "updated_pages": 0,
+  "deduplicated_events": [
+    "Anthropic fund Oct18",
+    "vLLM0.32.0 Oct18",
+    "DeepSeek Flash1017/search Oct17"
+  ],
+  "validation": {
+    "knowledge_pages": 204,
+    "source_definitions": 126,
+    "offline_tests": 49,
+    "default_readback_passed": 14
+  },
+  "weekly": {
+    "due_date": "2026-10-16",
+    "already_complete": true,
+    "regenerated": false
+  },
+  "report_generated": true,
+  "local_committed": false,
+  "remote_synced": false
+}

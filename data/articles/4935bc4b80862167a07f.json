@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.23868",
+  "title": "Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation",
+  "text": "arXiv:2610.23868v1 Announce Type: new\nAbstract: Machine translation systems often preserve meaning but systematically flatten linguistic style, a failure that is most acute when translating into non-Western languages. The RASTA framework of Havaldar et al. (2025a) addresses this through retrieval-augmented stylistic alignment, but relies on GPT-4, a closed, proprietary model. We investigate whether an open-weight translation specialist, Hunyuan-MT-7B, can serve as an open-weight alternative. We evaluate three variants of the model, the base model, a LoRA supervised fine-tune, and a GRPO-steered policy. We do this across three style dimensions (formality, politeness, and intimacy) and twelve directed language pairs, measuring style alignment with the correlation-based metric $\\mathcal{A}$. We find that fine-tuning does not reliably improve alignment: the three variants are statistically indistinguishable in aggregate. The open backbone does not match RASTA-GPT-4 overall, but the shortfall is concentrated in formality and largely closes for intimacy and Chinese directions, where the open model matches or surpasses GPT-4 on individual pairs. An accessible RASTA pipeline built on an open model is thus already viable for parts of the problem.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "4935bc4b80862167a07f",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

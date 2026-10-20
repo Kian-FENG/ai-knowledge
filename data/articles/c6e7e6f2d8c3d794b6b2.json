@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/flashinfer-ai/flashinfer/releases/tag/v0.7.2rc5",
+  "title": "Release v0.7.2rc5",
+  "text": "Full Changelog: v0.7.2rc4...v0.7.2rc5",
+  "published_at": null,
+  "announced_at": null,
+  "updated_at": "2026-10-20T04:41:17+00:00",
+  "date_basis": "updated",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c6e7e6f2d8c3d794b6b2",
+  "source_id": "flashinfer",
+  "source_name": "FlashInfer",
+  "section": 3,
+  "raw_path": "raw/2026-10-21/2554732a50d2b391e16fe811c7379b7179e0a2ed975f03de5772bf0b44509a08.body",
+  "source_sha256": "2554732a50d2b391e16fe811c7379b7179e0a2ed975f03de5772bf0b44509a08",
+  "fetched_at": "2026-10-20T22:02:33.737825+00:00"
+}

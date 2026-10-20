@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24259",
+  "title": "SLA-LENS: From Classroom Transcripts to CSLA-Informed and Evidence-Linked L2 Interaction Analytics",
+  "text": "arXiv:2610.24259v1 Announce Type: new\nAbstract: What happens after a learner makes an error, and how does the instructor's response shape the next turn? Investigating these exchanges across classrooms requires context-sensitive annotation that is difficult to scale manually. We introduce SLA-LENS, an end-to-end LLM-assisted framework that connects classroom transcripts to structured pedagogical annotations and evidence-linked descriptive analytics. Grounded in interactionist Second Language Acquisition (SLA) theory, its annotation schema captures second language learner errors, pedagogical functions, and uptake or repair while accounting for speaker roles, conversational context, and hierarchical labels. We apply the framework to 40 authentic online L2 Spanish classroom transcripts comprising over 21,000 sentence-level instances. We evaluate proprietary and open-weight LLMs, including task-specific QLoRA adaptation, using expert-reviewed gold annotations, held-out silver data, and metrics sensitive to different types of annotation error. A deterministic reporting layer generates reproducible visualizations of participation, feedback, learner errors, uptake, and temporal interaction patterns, linked to supporting transcript evidence. By making these patterns accessible and inspectable, SLA-LENS supports systematic classroom discourse research, pedagogical reflection, and curriculum design.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "64be1b986c7a3117c227",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

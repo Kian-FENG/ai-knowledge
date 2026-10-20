@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24290",
+  "title": "Beyond Clean Accuracy: The Practical Challenges and Benefits of Pixel-Based Language Models",
+  "text": "arXiv:2610.24290v1 Announce Type: new\nAbstract: Pixel-based language models process rendered text without relying on a fixed subword vocabulary, offering a promising approach to noisy and multilingual inputs. However, their practical value depends on whether they can be reliably adapted to downstream tasks. To this end, we systematically examine this question through fine-tuning behavior, typographical robustness, and zero-shot crosslingual transfer. Under our tested settings, pixel-based models require longer training and broader labelled-data coverage than text-based models, while delayed learning and learning-rate-dependent failures make adaptation less reliable. Our analyses further suggest that task-relevant information is less readily accessible in pretrained pixel representations, placing greater demands on fine-tuning. Once successfully adapted, however, pixel-based models lose substantially less accuracy under typographical noise and achieve higher target-language accuracy than English-pretrained text-based counterparts on two crosslingual benchmarks, despite weaker clean English performance. Together, these findings reveal a central trade-off: replacing tokenization with rendering reduces sensitivity to corrupted and unfamiliar inputs, but shifts a central bottleneck to downstream adaptation.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "dea511831769df8999e9",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

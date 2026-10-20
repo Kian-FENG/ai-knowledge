@@ -1,0 +1,143 @@
+Latest NVIDIA Nemotron topics - NVIDIA Developer Forums (https://forums.developer.nvidia.com/c/ai-data-science/nvidia-nemotron/669)
+citeturn3search0 [wordlim: 200] Crawled: today; Nemotron 3.5 Super VL: Unexpected Model ID in NVIDIA Build API Response nemotron  |  | 0  | 21  | October 19, 2026 ... Nemotron 3.5 Lightning + OpenCode Desktop 1.18.21: repeated STOP commands ignored and prohibited PostgreSQL access used during governed agent task agentic-ai ,  nemotron  |  | 0  | 118  | August 22, 2026
+
+# AI & Data Science   NVIDIA Nemotron
+
+Topic  |  | Replies  | Views  | Activity
+--- | --- | --- | --- | ---
+Introducing NVIDIA NemoClaw nemotron NVIDIA NemoClaw is an open source stack that simplifies running OpenClaw always-on assistants more safely, with a single command. It installs the NVIDIA OpenShell runtime, part of the NVIDIA Agent Toolkit, a secure envir…  |  | 0  | 6100  | March 16, 2026
+Welcome to the NVIDIA Nemotron forum Welcome to the NVIDIA moderated Community Support channel for NVIDIA Nemotron. We value your feedback and are happy to help navigate your experience. Please note that you may come across periods where we might be experi…  |  | 0  | 2135  | August 28, 2023
+Manual Verification Request - OTP SMS Not Received (+213 Algeria) nim  |  | 0  | 10  | October 19, 2026
+Nemotron 3.5 Super VL: Unexpected Model ID in NVIDIA Build API Response nemotron  |  | 0  | 21  | October 19, 2026
+Request to Contact the NVIDIA Nemotron Development Team nemotron  |  | 0  | 5  | October 17, 2026
+--------------------------------------------------------------------------------
+Nemotron 3.5 Super VL: Unexpected Model ID in NVIDIA Build API Response - NVIDIA Nemotron - NVIDIA Developer Forums (https://forums.developer.nvidia.com/t/nemotron-3-5-super-vl-unexpected-model-id-in-nvidia-build-api-response/386280)
+citeturn3search1 [wordlim: 200] Published: yesterday; Crawled: yesterday; AI & Data Science NVIDIA Nemotron ... wentian001 October 19, 2026, 5:43am 1 ... Does the hosted endpoint actually serve the vision-language model corresponding to the NVIDIA Nemotron 3.5 Super VL 120B-A12B NVFP4 release?
+
+# Nemotron 3.5 Super VL: Unexpected Model ID in NVIDIA Build API Response
+
+AI & Data Science NVIDIA Nemotron
+
+nemotron
+
+wentian001 October 19, 2026, 5:43am 1
+
+Hello NVIDIA Team,
+
+I am a master’s student at Nanyang Technological University (NTU), Singapore. I am evaluating NVIDIA Nemotron 3.5 Super VL for mechanical CAD geometry understanding research.
+
+I recently tested the NVIDIA Build hosted API using the following endpoint:
+
+`https://integrate.api.nvidia.com/v1/chat/completions`
+
+Requested model ID:
+
+`nvidia/nemotron-3.5-super-vl-120b-a12b`
+
+Model ID returned in the API response:
+
+`private/nvidia/nemotron-3.5-super-120b-a12b`
+
+The request returned HTTP 200 with a valid JSON response:
+
+  * HTTP status: 200
+  * Finish reason: `stop`
+  * Model response: “Two plus two equals four.”
+  * No truncation or API error was reported.
+
+However, the returned model ID differs from the requested ID. It includes the `private/` prefix and does not contain `-vl`.
+
+I would appreciate clarification on the following questions:
+
+  1. Is `private/nvidia/nemotron-3.5-super-120b-a12b` an internal serving alias for `nvidia/nemotron-3.5-super-vl-120b-a12b`?
+  2. Does the hosted endpoint actually serve the vision-language model corresponding to the NVIDIA Nemotron 3.5 Super VL 120B-A12B NVFP4 release?
+  3. If these are different models, which API model ID should I use to access the intended vision-language model?
+
+I have only tested text input so far. I have not submitted an image request because I would first like to verify the model identity.
+
+I have retained the request and response IDs and can provide them privately if needed.
+
+Thank you for your assistance!--------------------------------------------------------------------------------
+Nemotron-3.5-Super-VL-120B-A12B-NVFP4 on a single DGX Spark: 34–49 tok/s decode with LiLiCorr (≤16K) + thermal shutdowns at 32K+ - DGX Spark / GB10 - NVIDIA Developer Forums (https://forums.developer.nvidia.com/t/nemotron-3-5-super-vl-120b-a12b-nvfp4-on-a-single-dgx-spark-34-49-tok-s-decode-with-lilicorr-16k-thermal-shutdowns-at-32k/385991)
+citeturn3search2 [wordlim: 200] Published: 5 days ago; Crawled: yesterday; Speed numbers for the new Nemotron 3.5 Super VL 120B-A12B NVFP4 on a single DGX Spark, using NVIDIA’s Spark recipe from the model card (LiLiCorr speculative decoding) with a capped context. ... ronspie314 October 19, 2026, 2:40am 6 ...   * NVIDIA’s local-ai-inference-recipes Nemotron 3.5 Super VL NVFP4 recipe, run unchanged, also powered the unit off (twice). ... Open Questions:
+The setup is one lane of dgx-spark-qwen38, which serves this model on a Spark with one command: `curl -fsSL https://raw.githubusercontent.com/hasso5703/dgx-spark-qwen38/main/get.sh | bash`. Measurements and method: docs/nemotron-super-lane.md.
+
+cecil.deveau October 18, 2026, 4:11am 5
+
+I put a limit on the clock (got the idea from one of the vision threads) and I’ve had it running on a repo all day long.
+
+I’m still not sure what the best setup is on a single spark, or what I’ll end up running when I get a second box, but this model feels good so far.
+
+ronspie314 October 19, 2026, 2:40am 6
+
+OOM error points to a setup misconfiguration rather than just large context limits. Verify your settings against Hugging Face DGX Spark config for this model, Spark Arena, or DGX Spark — recipes .
+
+ronspie314 October 19, 2026, 2:47am 7
+
+Thank you @cecil.deveau and @basbunarhasan ..
+
+Since the first post I’ve added 1-second logging of power, GPU temperature, clocks, memory and all kernel thermal zones (fsync’d to disk, so the last readings survive the cut). --------------------------------------------------------------------------------
+Latest Technical Blog topics - NVIDIA Developer Forums (https://forums.developer.nvidia.com/c/blogs-events/technical-blog/318)
+citeturn3search3 [wordlim: 200] Crawled: today; Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile cutile  |  | 0  | 11  | October 19, 2026 ... NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning nemotron  |  | 0  | 74  | October 15, 2026 ... NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform  |  | 0  | 179  | October 13, 2026 ... ReplaySSM: Rethinking State Storage for Faster Hybrid-Model Decoding nemotron  |  | 0  | 42  | October 12, 2026
+NVIDIA Developer Forums
+
+# Technical Blogs & Events   Technical Blog
+
+Topic  |  | Replies  | Views  | Activity
+--- | --- | --- | --- | ---
+NVIDIA Vera Rubin POD: Seven Chips, Five Rack-Scale Systems, One AI Supercomputer  |  | 1  | 173  | October 20, 2026
+Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile cutile  |  | 0  | 11  | October 19, 2026
+Code, Test, and Deploy on One Machine with NVIDIA RTX Spark  |  | 0  | 22  | October 16, 2026
+NVIDIA BlueField-4 Powers New Scale-In Network Infrastructure for Agentic AI Factories agentic-ai  |  | 1  | 123  | October 16, 2026
+Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72   agentic-ai  |  | 0  | 82  | October 15, 2026
+NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning nemotron  |  | 0  | 74  | October 15, 2026
+Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym  |  | 0  | 31  | October 14, 2026
+--------------------------------------------------------------------------------
+Topics tagged llm (https://forums.developer.nvidia.com/tag/llm/949)
+citeturn3search4 [wordlim: 200] Crawled: yesterday; Running EXL3 on Jetson Nano 8GB Jetson Orin Nano jetson ,  llm ,  llama  |  | 1  | 20  | October 19, 2026Nemotron 3.5 Bolt and Super VL on one Spark, with one command DGX Spark / GB10 Projects llm ,  agentic-ai ,  nemotron  |  | 0  | 116  | October 17, 2026 ... Three times ( VoiceClone | VoiceDesign | CustomVoice ) - Faster-Qwen3-TTS for NVIDIA DGX Spark (GB10) DGX Spark / GB10 Projects docker ,  spark ,  llm ,  speech ,  llama ,  dgx  |  | 63  | 4190  | October 11, 2026Open WebUI needs sign in Jetson AGX Orin llm  |  | 4  | 89  | October 10, 2026
+--------------------------------------------------------------------------------
+News | AWS News Blog (https://aws.amazon.com/blogs/aws/category/news/)
+citeturn3search5 [wordlim: 200] Crawled: yesterday; ## AWS Weekly Roundup: AWS Lambda Web Functions, Amazon S3 on the Vercel Marketplace, and more (October 19, 2026)by Daniel Abib on 19 OCT 2026 in Amazon Aurora, Amazon Bedrock AgentCore, Amazon CloudFront, Amazon CloudWatch, Amazon DynamoDB, Amazon EC2, Amazon OpenSearch Service, Amazon S3 Tables, Amazon SageMaker AI, Amazon SageMaker HyperPod, Amazon SageMaker JumpStart, Amazon Simple Storage Service (S3), Announcements, AWS Lambda, AWS Trainium, News Permalink Comments Share
+--------------------------------------------------------------------------------
+Federal Register / Vol. 91, No. 180 / Friday, September 18, 2026 / Rules and Regulations 59063 (https://www.govinfo.gov/content/pkg/FR-2026-09-18/pdf/FR-2026-09-18.pdf)
+citeturn3search12 [wordlim: 200] Published: last month; Comment due date: Send comments on or before October 19, 2026. ... SUPPLEMENTARY INFORMATION: The Department of State’s Directorate of Defense Trade Controls (DDTC) administers the ITAR (22 CFR parts 120 through 130) to, among other things, regulate the export, reexport, retransfer, and temporary import of defense articles and defense services described on the USML at ITAR § 121.1. ... Government are subject to the Export Administration Regulations (EAR) (15 CFR parts 730 through 774), which include the Commerce Control List (CCL) in Supplement No. 1 to part 774.
+--------------------------------------------------------------------------------
+Nemotron Personas (de_DE) | NVIDIA NGC (https://catalog.ngc.nvidia.com/orgs/nvidia/nemotron-personas/resources/nemotron-personas-dataset-de_de/-)
+citeturn3search6 [wordlim: 200] Published: yesterday; Crawled: today; This dataset was created in collaboration with Soofi, a consortium of German AI research institutes and startups that develops sovereign open-source models for German and European companies.Nemotron-Personas-Germany-Extended supports German model builders in developing Sovereign AI systems that incorporate important region-specific demographics, language, and cultural context. ... October 19, 2026 ...     `@software{nvidia/Nemotron-Personas-Germany,
+--------------------------------------------------------------------------------
+NVIDIA Developer (https://developer.nvidia.com/)
+citeturn3search7 [wordlim: 200] Crawled: today; With OpenShell runtime and part of the NVIDIA Agent Toolkit, it provides additional security for running autonomous agents.OpenShellNemotronAgent Launch Agent Hermes Agent Deploy Hermes, the self-improving AI agent from Nous Research, on a Brev CPU-backed VM with a secure browser dashboard and first-run provider setup for NVIDIA NIM, OpenAI, Anthropic, and Gemini.AgentNIMNous Research Launch Robotics Isaac Sim Lab Try the simplified approach to using Isaac Lab and Isaac Sim in the cloud, without local installation.IsaacOmniverseRobotics Launch Workshop Build an Agent You can learn how to create AI agents that can perform complex tasks using Large Language Models (LLMs) and tools using the Build an Agent launchable.Agent Launch Physical AI Video Data Augmentation for Physical AI Turn real or simulated RGB video into diverse, model-ready physical AI datasets using agent skills to curate, augment, auto-label, and generate training data in one unified workflow.Physical AIRoboticsDataset Launch Blueprint Video Search and Summarization Build vision agents capable of ingesting massive volumes of live or archived videos and extract insights for summarization and interactive Q&A.Vision AIVideoBlueprint Launch
+--------------------------------------------------------------------------------
+Version 615.71.10(Linux) :: NVIDIA Data Center GPU Driver Documentation (https://docs.nvidia.com/datacenter/tesla/tesla-release-notes-615-71-10/index.html)
+citeturn3search8 [wordlim: 200] Published: yesterday; Crawled: yesterday; Version 615.71.10(Linux) (PDF) - Last updated October 19, 2026 ...   * To conform to OpenCL 3.0 spec, starting with 610.xx drivers, NVIDIA OpenCL implementation will return the error `CL_INVALID_BUFFER_SIZE` when clCreateBuffer and related APIs are called with size greater than the value returned by `CL_DEVICE_MAX_MEM_ALLOC_SIZE`.
+--------------------------------------------------------------------------------
+Podcast AI News Flash | Escúchalo en Amazon Music (https://music.amazon.com/es-ar/podcasts/8b349127-0e84-4a67-9b63-a3eeb91c07b9/ai-news-flash)
+citeturn3search9 [wordlim: 200] Crawled: today; Ayer[10/19 15:00] DHS orders DeepSeek products removed from federal civilian IT systems and bars them from procurement, including third-party services built on DeepSeek models / Amazon's TorchNeuron lets PyTorch code run on Trainium chips without rewrites, while Nvidia wins AI cloud startup Modal as a first customer for its Vera CPU AI News Flash for October 19, 2026 at 15:00 UTC. ... Amazon's TorchNeuron lets PyTorch code run on Trainium chips without rewrites, while Nvidia wins AI cloud startup Modal as a first customer for its Vera CPU https://www.reuters.com/business/nvidia-wins-fast-growing-ai-startup-modal-new-central-processors-2026-10-19/ 3.
+--------------------------------------------------------------------------------
+Diamond Sawblades and Parts Thereof From the People's Republic of China: Notice of Covered Merchandise Referral and Initiation of Covered Merchandise Inquiry | 91 FR 66099 (https://thefederalregister.org/documents/2026-21281/diamond-sawblades-and-parts-thereof-from-the-people-s-republic-of-china-notice-of-covered-merchandise-referral-and-initi)
+citeturn3search10 [wordlim: 200] Published: yesterday; Crawled: yesterday;   * Published Monday, October 19, 2026 ... Applicable October 19, 2026. ... Section 517(a)(3) of the Act defines covered merchandise as merchandise that is subject to an antidumping duty order issued under section 736 of the Act or a countervailing duty order issued under section 706 of the Act.
+--------------------------------------------------------------------------------
+AI Chip and Lithography Export Controls Explained (2026) (https://www.itechguides.com/how-export-controls-affect-access-to-advanced-ai-chips-and-lithography-equipment-2026/)
+citeturn3search11 [wordlim: 200] Published: yesterday; Crawled: yesterday; # How Export Controls Affect Access to Advanced AI Chips and Lithography Equipment (2026) ... iTechGuides Team iTechGuides · October 19, 2026 · 10 min read ... The December 2, 2024 package covered 24 types of semiconductor-manufacturing equipment and three software-tool categories, in addition to HBM controls and 140 additions to the PRC Entity List. ... The control stack also covers U.S.-person support, specified military or intelligence end uses, listed end users and foreign-direct-product situations in which a non-U.S. item is produced with controlled U.S. technology or software.
+--------------------------------------------------------------------------------
+Administrative Calendar (https://www.sos.alabama.gov/sites/default/files/election-2026/Admin%20Calendar%20-2026.pdf)
+citeturn3search13 [wordlim: 200] Published: 6 months ago;     <td>Monday, October 19, 2026</td> ...     <td>Monday, October 19, 2026</td>
+--------------------------------------------------------------------------------
+Administrative Calendar (https://www.sos.alabama.gov/sites/default/files/election-2026/Admin%20Calendar-2026.pdf)
+citeturn3search14 [wordlim: 200] Published: last year; workers is no more than 20 nor less than 15 days before the election. [§ 17-8-1(a)]  | Monday, October 19, 2026 ... applicant or by his or her designee. [§ 17-11-3(d)]  | Thursday, October 29, 2026Prepared by Elections Division
+--------------------------------------------------------------------------------
+General description of the course of the training: (https://www.famictech.com/Portals/0/PDF/trainings/2026-10-19-Hydraulic%20Modeling/agenda.pdf)
+citeturn3search15 [wordlim: 200] Published: 7 months ago; Session 1 (2.5h) October 19, 2026 Session 4 (2.5h) October 26, 2026 | Fundamental notions Recap • Circuit and Installation • Simulation Options • Fluid/Line Configuration • Recap on Project Template for Test Bench Use (Part A) Simulation and Validation Tools • Energy and Power Dynamic Instruments • Other Plotters • Detect Open Fluid Path in a Circuit • Create Initial Conditions • Steady State Option Manufacturer Products Modeling (1/2) • Pressure Compensation Strategies • Model a Restrictive Pressure Compensator • Model a Bypass Pressure Compensator (OPTIONAL) • Model a Precompensated Valve • Model a Postcompensated Valve • One among: • Model an Open Loop PCLS Pump • Close Loop Pump with Displacement Control • Control the Torque of a Pump ... Session 1 (2.5h) October 19, 2026 Session 6 (2.5h) October 30, 2026 | Fundamental notions Recap • Circuit and Installation • Simulation Options • Fluid/Line Configuration • Recap on Project Template for Test Bench Use (Part A) Simulation and Validation Tools • Energy and Power Dynamic Instruments • Other Plotters • Detect Open Fluid Path in a Circuit • Create Initial Conditions • Steady State Option Mechanical Modeling (Part B) • Export and modify a mechanism • Create an Advanced Mechanism (Overview) Component Sizing (Part B) • Create a Sizing Sheet • Link Parameter between two Sizing Sheets (Overview)
+--------------------------------------------------------------------------------
+The National Bank of Canada (the “Bank”) short form base shelf prospectus dated June 27, 2024, as amended or supplemented, the prospectus supplement entitled (https://app.nbcstructuredsolutions.ca/api/v1/public/documents/products%2F895867%2F12184_EN_CLIENT_SUMMARY.pdf)
+citeturn3search16 [wordlim: 200] Published: 2.1 years ago; Coupon Payment Valuation Dates/ | Coupon Payment Dates/ | | Coupon Payment Valuation Dates/ | Coupon Payment Dates/ --- | --- | --- | --- | --- Call Valuation Dates | Call Dates | | Call Valuation Dates | Call Dates October 11, 2024 | October 21, 2024* | | April 11, 2028 | April 19, 2028 November 12, 2024 | November 19, 2024* | | May 12, 2028 | May 19, 2028 December 12, 2024 | December 19, 2024* | | June 12, 2028 | June 19, 2028 January 13, 2025 | January 20, 2025* | | July 12, 2028 | July 19, 2028 February 11, 2025 | February 19, 2025* | | August 14, 2028 | August 21, 2028 March 12, 2025 | March 19, 2025 | | September 12, 2028 | September 19, 2028 April 11, 2025 | April 21, 2025 | | October 12, 2028 | October 19, 2028 May 12, 2025 | May 20, 2025 | | November 10, 2028 | November 20, 2028 June 12, 2025 | June 19, 2025 | | December 12, 2028 | December 19, 2028 July 14, 2025 | July 21, 2025 | | January 12, 2029 | January 19, 2029 August 12, 2025 | August 19, 2025 | | February 12, 2029 | February 20, 2029 September 12, 2025 | September 19, 2025 | | March 12, 2029 | March 19, 2029 October 10, 2025 | October 20, 2025 | | April 12, 2029 | April 19, 2029 November 12, 2025 | November 19, 2025 | | May 14, 2029 | May 22, 2029 December 12, 2025 | December 19, 2025 | | June 12, 2029 | June 19, 2029 January 12, 2026 | January 19, 2026 | | July 12, 2029 | July 19, 2029 February 11, 2026 | February 19, 2026 | | August 13, 2029 | August 20, 2029 March 12, 2026 | March 19, 2026 | | September 12, 2029 | September 19, 2029 April 13, 2026 | April 20, 2026 | | October 12, 2029 | October 19, 2029 May 11, 2026 | May 19, 2026 | | November 9, 2029 | November 19, 2029 June 12, 2026 | June 19, 2026 | | December 12, 2029 | December 19, 2029 July 13, 2026 | July 20, 2026 | | January 14, 2030 | January 21, 2030 August 12, 2026 | August 19, 2026 | | February 11, 2030 | February 19, 2030 September 14, 2026 | September 21, 2026 | | March 12, 2030 | March 19, 2030 October 9, 2026 | October 19, 2026 | | April 12, 2030 | April 22, 2030 November 12, 2026 | November 19, 2026 | | May 13, 2030 | May 21, 2030 December 14, 2026 | December 21, 2026 | | June 12, 2030 | June 19, 2030 January 12, 2027 | January 19, 2027 | | July 12, 2030 | July 19, 2030 February 11, 2027 | February 19, 2027 | | August 12, 2030 | August 19, 2030 March 12, 2027 | March 19, 2027 | | September 12, 2030 | September 19, 2030 April 12, 2027 | April 19, 2027 | | October 11, 2030 | October 21, 2030 May 12, 2027 | May 19, 2027 | | November 12, 2030 | November 19, 2030 June 14, 2027 | June 21, 2027 | | December 12, 2030 | December 19, 2030 July 12, 2027 | July 19, 2027 | | January 13, 2031 | January 20, 2031 August 12, 2027 | August 19, 2027 | | February 11, 2031 | February 19, 2031 September 13, 2027 | September 20, 2027 | | March 12, 2031 | March 19, 2031 October 12, 2027 | October 19, 2027 | | April 14, 2031 | April 21, 2031 November 12, 2027 | November 19, 2027 | | May 12, 2031 | May 20, 2031 December 13, 2027 | December 20, 2027 | | June 12, 2031 | June 19, 2031 January 12, 2028 | January 19, 2028 | | July 14, 2031 | July 21, 2031 February 14, 2028 | February 22, 2028 | | August 12, 2031 | August 19, 2031 March 13, 2028 | March 20, 2028 | | September 12, 2031 | Maturity Date** The Note Securities are not callable on such dates.
+--------------------------------------------------------------------------------
+The National Bank of Canada (the “Bank”) short form base shelf prospectus dated June 27, 2024, as amended or supplemented, the prospectus supplement entitled (https://app.nbcstructuredsolutions.ca/api/v1/public/documents/products%2F914455%2F14018_EN_CLIENT_SUMMARY.pdf)
+citeturn3search17 [wordlim: 200] Published: 1.4 years ago; Coupon Payment Valuation Dates/ | Coupon Payment Dates/ | | Coupon Payment Valuation Dates/ | Coupon Payment Dates/ --- | --- | --- | --- | --- Call Valuation Dates | Call Dates | | Call Valuation Dates | Call Dates July 21, 2025 | July 28, 2025* | | January 19, 2029 | January 26, 2029 August 19, 2025 | August 26, 2025* | | February 16, 2029 | February 26, 2029 September 19, 2025 | September 26, 2025* | | March 19, 2029 | March 26, 2029 October 20, 2025 | October 27, 2025* | | April 19, 2029 | April 26, 2029 November 19, 2025 | November 26, 2025* | | May 18, 2029 | May 28, 2029 December 18, 2025 | December 29, 2025 | | June 18, 2029 | June 26, 2029 January 19, 2026 | January 26, 2026 | | July 19, 2029 | July 26, 2029 February 19, 2026 | February 26, 2026 | | August 20, 2029 | August 27, 2029 March 19, 2026 | March 26, 2026 | | September 19, 2029 | September 26, 2029 April 20, 2026 | April 27, 2026 | | October 19, 2029 | October 26, 2029 May 19, 2026 | May 26, 2026 | | November 19, 2029 | November 26, 2029 June 18, 2026 | June 26, 2026 | | December 18, 2029 | December 27, 2029 July 20, 2026 | July 27, 2026 | | January 21, 2030 | January 28, 2030 August 19, 2026 | August 26, 2026 | | February 19, 2030 | February 26, 2030 September 21, 2026 | September 28, 2026 | | March 19, 2030 | March 26, 2030 October 19, 2026 | October 26, 2026 | | April 18, 2030 | April 26, 2030 November 19, 2026 | November 26, 2026 | | May 17, 2030 | May 27, 2030 December 18, 2026 | December 29, 2026 | | June 18, 2030 | June 26, 2030 January 19, 2027 | January 26, 2027 | | July 19, 2030 | July 26, 2030 February 19, 2027 | February 26, 2027 | | August 19, 2030 | August 26, 2030 March 19, 2027 | March 29, 2027 | | September 19, 2030 | September 26, 2030 April 19, 2027 | April 26, 2027 | | October 21, 2030 | October 28, 2030 May 18, 2027 | May 26, 2027 | | November 19, 2030 | November 26, 2030 June 18, 2027 | June 28, 2027 | | December 18, 2030 | December 27, 2030 July 19, 2027 | July 26, 2027 | | January 20, 2031 | January 27, 2031 August 19, 2027 | August 26, 2027 | | February 19, 2031 | February 26, 2031 September 20, 2027 | September 27, 2027 | | March 19, 2031 | March 26, 2031 October 19, 2027 | October 26, 2027 | | April 21, 2031 | April 28, 2031 November 19, 2027 | November 26, 2027 | | May 16, 2031 | May 26, 2031 December 20, 2027 | December 29, 2027 | | June 18, 2031 | June 26, 2031 January 19, 2028 | January 26, 2028 | | July 21, 2031 | July 28, 2031 February 18, 2028 | February 28, 2028 | | August 19, 2031 | August 26, 2031 March 20, 2028 | March 27, 2028 | | September 19, 2031 | September 26, 2031 April 19, 2028 | April 26, 2028 | | October 20, 2031 | October 27, 2031 May 18, 2028 | May 26, 2028 | | November 19, 2031 | November 26, 2031 June 19, 2028 | June 27, 2028 | | December 18, 2031 | December 29, 2031 July 19, 2028 | July 26, 2028 | | January 19, 2032 | January 26, 2032 August 21, 2028 | August 28, 2028 | | February 19, 2032 | February 26, 2032 September 19, 2028 | September 26, 2028 | | March 19, 2032 | March 29, 2032 October 19, 2028 | October 26, 2028 | | April 19, 2032 | April 26, 2032 November 20, 2028 | November 27, 2028 | | May 18, 2032 | May 26, 2032 December 18, 2028 | December 27, 2028 | | June 18, 2032 | Maturity Date** The Note Securities are not callable on such dates.
+--------------------------------------------------------------------------------
+Semiconductor market to remain solid ‘at least through next year,’ South Korea finance minister says (https://www.reddit.com/r/StockMarket/comments/1x8i9gq/semiconductor_market_to_remain_solid_at_least/)
+citeturn3reddit18 [wordlim: 200] Published: 3 days ago; How much demand came online for the supply vs demand to shift so much? ... Great for SK Hynix and Samsung's memory division, but their other tech companies, even within the same conglomerate, like Samsung Mobile, are actually seeing their businesses face difficulties or even harm. ... this simply boils down to what the fab space was used for the HBM memory just isn't used for other things so you can't just shift and resell it to cover the gap that has formed. so there is a massive gut of demand for normal memory that will take at least a year even if Chinese fabs really starts cranking out memory as well. ... Worth watching Korea's monthly export data, which comes out early each month, since chip shipments there tend to show demand shifts before the big memory makers report earnings. ... [Monday October 19 2026] [+1 votes]
+--------------------------------------------------------------------------------
+Daily Discussion Monday 2026-10-12 (https://www.reddit.com/r/AMD_Stock/comments/1x3rzbr/daily_discussion_monday_20261012/)
+citeturn3reddit19 [wordlim: 200] Published: last week;   [Monday October 19 2026] [+1 votes]
+

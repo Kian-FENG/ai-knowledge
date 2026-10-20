@@ -1,0 +1,86 @@
+[
+  {
+    "path": "reference/sources/minimax-m31-flash-20261019.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/sources/minimax-m31-flash-20261019.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/sources/openai-orchestra-bio-20261019.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/sources/openai-orchestra-bio-20261019.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/sources/memsilicon-lpu-series-a-20261019.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/sources/memsilicon-lpu-series-a-20261019.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/sources/openai-low-resource-code-20261019.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/sources/openai-low-resource-code-20261019.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/sources/sglang-v0522-20261019.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/sources/sglang-v0522-20261019.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/sources/vllm-elastic-ep-20261019.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/sources/vllm-elastic-ep-20261019.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/sources/microsoft-agentic-insider-20261019.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/sources/microsoft-agentic-insider-20261019.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/papers/kv-residency-261022863.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/papers/kv-residency-261022863.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/papers/self-hpo-261022791.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/papers/self-hpo-261022791.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/sources/tenstorrent-series-e-20261019.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/sources/tenstorrent-series-e-20261019.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/sources/aws-torchneuron-announcement-20261019.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/sources/aws-torchneuron-announcement-20261019.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/entities/tenstorrent.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/entities/tenstorrent.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "reference/entities/orchestra-bio.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"reference/entities/orchestra-bio.md\"\n  ]\n}\n",
+    "stderr": ""
+  },
+  {
+    "path": "research/synthesis/agent-cost-beyond-token-price-20261019.md",
+    "exit": 0,
+    "result": "{\n  \"reviewed\": [\n    \"research/synthesis/agent-cost-beyond-token-price-20261019.md\"\n  ]\n}\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,152 @@
+[2610.22791] Self-Evolving Coding Agents via Harness-Policy Optimization (https://arxiv.org/abs/2610.22791)
+ [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.22791","lineno":null}); Total lines: 167
+    L1: 
+Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+
+Press Enter to search ·  L5: 
+# Computer Science > Computation and Language
+
+[Submitted on 16 Oct 2026]
+# Title:Self-Evolving Coding Agents via Harness-Policy Optimization
+
+Authors: ,  ,  ,  ,  ,  ,  ,  L12: 
+View a PDF of the paper titled Self-Evolving Coding Agents via Harness-Policy Optimization, by Zhepei Wei and 7 other authors
+
+  L16: > Abstract:Large language model (LLM) agents have shown promising potential in coding tasks, and their performance is jointly determined by the policy model and the harness that mediates their interaction with the environment. Indeed, harness and policy are mutually reinforcing and evolving only one component is suboptimal---a harness tuned for one checkpoint may not target the failure modes of an updated policy, while policy learning remains limited to the trajectories elicited by a fixed harness.
+In light of this, we propose Self-HPO, a recursive self-improving framework for coding agents that alternates harness and policy optimization, using the evolving policy as its own harness proposer. Specifically, in each round, the current policy first analyzes its own failures and proposes new harness candidates (H-step).
+The policy is then updated through reinforcement learning (RL) under the selected harness (P-step), and hard tasks identified during training form the next harness search set, keeping harness optimization targeted to the policy's evolving failure modes. Across three coding benchmarks, Self-HPO consistently outperforms harness-only and policy-only baselines, improving Qwen3.5-35B-A3B's average resolve rate from 57.8% to 64.8%, with gains generalizing to out-of-distribution settings.
+Further analysis shows that both optimized components retain gains even when paired with their base counterparts, while their joint gain exceeds the sum of their individual gains. Self-HPO also improves reliability (Pass@1) and expands the capability frontier (Pass@k) over the base agent. Additionally, we show that with a stronger external model (e.g., Opus 4.8) as the harness proposer, the same framework yields a further performance boost.
+Subjects:  | Computation and Language (cs.CL); Artificial Intelligence (cs.AI)
+Cite as:  |  [cs.CL]
+   | (or  [cs.CL] for this version)
+   |  arXiv-issued DOI via DataCite
+## Submission history
+
+From: Zhepei Wei [ ]
+[v1] Fri, 16 Oct 2026 01:07:52 UTC (4,495 KB)
+
+Full-text links:
+
+## Access Paper:
+
+View a PDF of the paper titled Self-Evolving Coding Agents via Harness-Policy Optimization, by Zhepei Wei and 7 other authors
+
+  *  L36:   *  L37:   *  L38: 
+ L40: 
+### Additional Features
+
+  *  L44: ### Current browse context:
+
+cs.CL
+
+ |    L49: 
+ |  |  L51: 
+Change to browse by:
+
+ L55:  L56: 
+### References & Citations
+
+  *  L60:   *  L61:   *  L62: 
+[Button: export BibTeX citation] Loading...
+
+## BibTeX formatted citation
+
+[Button: ×]
+
+loading...
+
+Data provided by:
+
+### Bookmark
+
+[Input] Bibliographic Tools
+# Bibliographic and Citation Tools
+
+[Input] Bibliographic Explorer Toggle
+
+Bibliographic Explorer ( )
+
+[Input] Connected Papers Toggle
+
+Connected Papers ( )
+
+[Input] Litmaps Toggle
+
+Litmaps ( )
+
+[Input] scite.ai Toggle
+
+scite Smart Citations ( )
+
+[Input] Code, Data, Media
+# Code, Data and Media Associated with this Article
+
+[Input] alphaXiv Toggle
+
+alphaXiv ( )
+
+[Input] Links to Code Toggle
+
+CatalyzeX Code Finder for Papers ( )
+
+[Input] DagsHub Toggle
+
+DagsHub ( )
+
+[Input] GotitPub Toggle
+
+Gotit.pub ( )
+
+[Input] Huggingface Toggle
+
+Hugging Face ( )
+
+[Input] ScienceCast Toggle
+ScienceCast ( )
+
+[Input] Demos
+# Demos
+
+[Input] Replicate Toggle
+
+Replicate ( )
+
+[Input] Spaces Toggle
+
+Hugging Face Spaces ( )
+
+[Input] Spaces Toggle
+
+TXYZ.AI ( )
+
+[Input] Related Papers
+# Recommenders and Search Tools
+
+[Input] Link to Influence Flower
+
+Influence Flower ( )
+
+[Input] Core recommender toggle
+
+CORE Recommender ( )
+
+  * Author
+  * Venue
+  * Institution
+  * Topic
+
+[Input] About arXivLabs
+# arXivLabs: experimental projects with community collaborators
+
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community?  .
+
+ | Disable MathJax ( )
+
+We gratefully acknowledge support from our major funders,  , , and all contributors.
+ ·  ·  ·  ·  ·  ·  ·  L163: 
+Major funding support from
+
+  

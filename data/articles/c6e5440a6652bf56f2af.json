@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24428",
+  "title": "When Opposite Premises Translate Identically: A Source-Conditioned Diagnostic for Multilingual Commonsense Items",
+  "text": "arXiv:2610.24428v1 Announce Type: new\nAbstract: Multilingual reasoning comparisons depend on translated premises preserving the relations in their English sources. Automatic translation scores can rank source-target pairs, but an acceptance decision alone cannot certify a counterfactual benchmark field. We test a source-contrast diagnostic for ACCORD premises: reverse the English polarity, translate both arms independently, count identical target outputs, and score each arm against its own source. Across 71 matched question identities at two containing-item depths, five target languages, and three translation checkpoints, Swahili has 63, 113, and 67 exact collisions among 710 pairs per checkpoint. At a human-reference-calibrated threshold, round-trip NLI passes both arms of 3 of the 113 NLLB-3.3B collisions, while LaBSE passes 78. Each collision proves at least one unfaithful translation, but does not identify its arm. These controlled measurements do not establish screening accuracy on spontaneous translation errors or a language-by-hop reasoning effect; the study has no native equivalence labels or answer-model evaluation.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "c6e5440a6652bf56f2af",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

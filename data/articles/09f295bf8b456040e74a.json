@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24118",
+  "title": "Do LMs Know What Variables Do? Interpreting Code Representations via Variable Roles",
+  "text": "arXiv:2610.24118v1 Announce Type: new\nAbstract: Variable roles describe recurring behaviors such as accumulation, traversal, and retaining the best candidate encountered. We use Sajaniemi's independently defined taxonomy to study which role distinctions can be recovered from large language models, how sparse autoencoders (SAEs) retain those distinctions, and whether associated directions support control of generation. We introduce static annotation rules for all eleven roles and a corpus of 126,926 natural-code files across five languages. Across five model-SAE systems, residual probes outperform individual SAE features and tested lexical baselines, with modest losses after neutral target renaming. Combining SAE features closes much of the single-feature gap, but probes on SAE reconstructions are less sensitive to role-changing edits reviewed by LLMs. High paired ranking accuracy coexists with frequent false positives at fixed thresholds. During generation, interventions often change role annotations at the cost of correctness; changes accompanied by passing tests show no clear aggregate advantage over random controls. The benchmark separates role-related recoverability, SAE fidelity, and correctness-preserving control through matched prediction, source edits, and generation interventions.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "09f295bf8b456040e74a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

@@ -1,0 +1,263 @@
+Tenstorrent raises $1.5 billion for AI compute (https://www.axios.com/2026/10/19/tenstorrent-ai-compute)
+citeturn14news12 [wordlim: 100] Published: yesterday; Date: Mon Oct 19 14:06:36 2026 UTC ... Tenstorrent, a Santa Clara, California-based inference chipmaker, on Monday announced that it's raised $1.5 billion at a $6.2 billion post-money valuation led by Trace Capital and Innovation X.
+Tenstorrent raises $1.5 billion for AI compute
+Date: Mon Oct 19 14:06:36 2026 UTC
+
+Tenstorrent raises $1.5 billion for AI compute
+
+Tenstorrent, a Santa Clara, California-based inference chipmaker, on Monday announced that it's raised $1.5 billion at a $6.2 billion post-money valuation led by Trace Capital and Innovation X.
+Why it matters: The startup was courted earlier this year by Intel and Qualcomm, but is opting to remain independent. At least for now.
+Other investors include Agostinelli Group, Cadence Ventures, Morgan Stanley, Sandisk, Tether Investments and insiders ARK Invest, Brett Barna, Eclipse, Fidelity, Maverick Silicon, Protagonist, T. Rowe Price, Troluce Capital, Virtu Financial, and XTX Markets.
+The bottom line: Tenstorrent began as a chipmaker that's been working to siphon off a smidge of Nvidia's market share - including by licensing its designs to companies that want their own AI chips. It's since expanded into servers, and the new money will be used to scale manufacturing.
+--------------------------------------------------------------------------------
+Home (https://www.selectiveinferenceseminar.com/)
+citeturn14search0 [wordlim: 200] Crawled: yesterday;   * Monday, October 19, 2026 [link] ...     * Abstract: We introduce Rolling Conformal Prediction (rolling-CP), a distribution-free predictive inference method for the setting of sequential model training. ...     * Links:  [Relevant papers: paper #1]
+
+International Seminar on Selective Inference
+
+A weekly online seminar on selective inference, multiple testing, and post-selection inference.
+
+Mailing List
+
+For announcements and Zoom invitations please subscribe to our mailing list. Our seminar (typically) runs on Mondays, at 8:30am PT / 11:30am ET / 4:30pm London / 5:30pm Amsterdam / 6:30pm Tel Aviv. 
+
+  * Monday, October 19, 2026 [link]
+
+    * Speaker: Ruiting Liang (University of Chicago)
+
+    * Title: Rolling Conformal Prediction in Sequential Model Training
+
+    * Abstract: We introduce Rolling Conformal Prediction (rolling-CP), a distribution-free predictive inference method for the setting of sequential model training. Rolling-CP first calibrates each incoming observation against the current predictor and then rolls it into future training. In this way, we avoid the need for data splitting. Remarkably, although the models at times n=1,2, ..., may have entirely different properties and accuracy levels, for exchangeable data it is nonetheless possible to establish a guarantee of marginal coverage, with a familiar universal factor-two guarantee (a worst case guarantee of 1-2\alpha coverage, as compared to the target level 1-\alpha), without any assumptions of stability or any restrictions on the model training process. --------------------------------------------------------------------------------
+Tether Invests in Tenstorrent to Expand Access to Open AI Computing Infrastructure - Tether.io (https://tether.io/news/tether-invests-in-tenstorrent-to-expand-access-to-open-ai-computing-infrastructure/)
+citeturn14search1 [wordlim: 200] Published: today; Crawled: today; 20 October, 2026 – Tether Capital today announced its participation in the $1.5 billion Series E funding round of Tenstorrent, an AI computing company developing high-performance processors, systems and software.
+
+October 20, 2026
+
+Image: Print
+
+Tether Invests in Tenstorrent to Expand Access to Open AI Computing Infrastructure
+
+### Investment supports Tether’s ambition to make AI more accessible by giving developers and businesses greater control over the technology powering it
+
+20 October, 2026 – Tether Capital today announced its participation in the $1.5 billion Series E funding round of Tenstorrent, an AI computing company developing high-performance processors, systems and software. The round values Tenstorrent at $6.2 billion and advances Tether’s efforts to support open AI infrastructure, giving more people and businesses the ability to develop and run AI systems independently.
+
+As artificial intelligence becomes more widely used, access to the computing power needed to run it remains concentrated among a small number of technology companies. Developers and businesses often depend on expensive, proprietary hardware and cloud services, limiting their ability to choose how and where their AI systems operate.
+--------------------------------------------------------------------------------
+Beyond the Benchmark Shape: Evaluating AI-Generated CUDA and Triton Kernels Under Realistic AI Workloads | Deaimer Research (https://www.deaimer.com/research/beyond-the-benchmark-shape-evaluating-ai-generated-cuda-and--0041e838)
+citeturn14search2 [wordlim: 200] Published: yesterday; Crawled: yesterday; Oct 19, 2026 ... Progress at the kernel level can be consequential: a cheaper attention operation or more efficient data layout may influence model capacity, inference throughput, or latency. ... The paper makes three proposal-level contributions: it identifies a measurable gap between static benchmark success and shift-aware deployment evidence; it defines the Workload-Shift and Transfer Protocol (WSTP) with preregisterable hypotheses and controlled comparisons; and it specifies an artifact and reporting contract that can support independent replication.
+
+Benchmarks Paper
+
+# Beyond the Benchmark Shape: Evaluating AI-Generated CUDA and Triton Kernels Under Realistic AI Workloads
+
+Oct 19, 2026
+
+By Muhammad Sarmad
+
+Prefer to read offline?Download the full research as a PDF.
+
+Download PDF
+
+Image: Beyond the Benchmark Shape: Evaluating AI-Generated CUDA and Triton Kernels Under Realistic AI Workloads
+
+## Abstract
+
+Large language models and coding agents can increasingly write GPU kernels, but a kernel that compiles, agrees with a reference on familiar inputs, and wins a timing test has not necessarily become a safe or economically meaningful replacement in an AI system. Performance depends on tensor shape, numerical format, memory layout, compiler behavior, GPU generation, launch mechanism, and the surrounding training or inference workload. Recent work has made important progress: KernelBench established executable kernel-generation evaluation; KernelBench-X documented category-dependent correctness and hardware-efficiency gaps; SOL-ExecBench introduced hardware-oriented performance bounds; Atrex-Bench incorporated trace-derived workload weights; and FastKernels studied production-oriented integration [6–10]. --------------------------------------------------------------------------------
+第5 回評価WG 
+資料１－３ 
+ 
+ 
+ポスト５Ｇ情報通信システム基盤強化研究開発事業
+（AI 基 (https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/innovation/evaluation_wg/pdf/005_01_03.pdf)
+citeturn14search13 [wordlim: 200] Published: 4 months ago; 北海道大学は2024年6月、Rapidusと人材育成や研究等に関する包括連携協 ... • Tenstorrent（米国）において、1.5〜2年の
+• Tenstorrent（米国）において、1.5〜2年の
+• EDAベンダー（Synopsys・Cadence）と連
+• 東京大学内に設置されている「AIチップ設計拠
+点」を活⽤し、対面or オンラインで学習。
+OJTを実施。
+携し、SoC設計フローの各⼯程に合わせたコース
+を整備。
+• シングルナノ世代の最先端CPU及びAI/MLアクセラ
+レータ開発技術などを学び、即戦⼒人材を育成する。
+• 先端EDAツールを使いこなすスペシャリストの育
+• 設計における問題点の抽出と改善策の提案・試
+⾏が⾏える28nmノード以細の半導体設計者を
+育成する。
+成を図る。
+＜コース一覧＞
+＜主な対象分野＞
+＜コース一覧＞
+受講者が希望コースを選択可
+•
+以下９つのコースから希望コースを選択可
+実践コース
+SoC設計オンデマンドコース
+RTL合成
+SoC設計実習コース
+テスト
+設計
+最適化
+検証
+配置配線・
+レイアウト
+設計
+RTL設計・
+シミュレーション
+論理検証
+問題解決コース
+フロントエンドコース
+技術分野 適応分野 | RISC-Vプロセッサ、AIアクセラレータ、 Chipletなど データセンター、⾃動⾞SoC、 エッジ・IoTデバイス --- | ---＜期待される効果＞
+バックエンドコース
+RTL合成
+エミュレータコース
+論理検証
+アナログ・
+PCBシミュレー
+ション
+デ
+ジ
+タ
+ル
+回
+路
+ア
+ナ
+ロ
+グ
+回
+路
+◆最先端の半導体設計に必要な知識・実践能⼒を身につける。
+◆全体を俯瞰しながら、⾼度な半導体設計ができる。
+◆半導体設計者としての国際感覚および交渉能⼒を強化する。
+半導体設計特論
+※上記コースの受講者がオプションとして選択可
+15--------------------------------------------------------------------------------
+Tenstorrent (https://tenstorrent.com/terms/enterprise-terms-of-sale)
+citeturn14search3 [wordlim: 200] Crawled: last week; Last Updated: October 6, 2026 ... Except for: (a) returns of Products that fail to conform to the Product Warranty during the applicable Warranty Period as set forth in Section 8.1 (Limited Product Warranty); or (b) returns of Products that are rejected during the Acceptance Period as set forth in Section 3.5 (Acceptance) (collectively, "Permitted Returns"), Purchaser may not return any Product for any reason without Tenstorrent's prior written consent.
+
+# Enterprise Product Terms of Sale
+
+Last Updated: October 6, 2026
+
+These Enterprise Product Terms of Sale (these "Terms") govern the purchase and use of Products by the entity identified as the purchaser on the applicable Ordering Document (or, in the case of a Channel Sale, the end customer that acquires the Products through a Channel Partner) ("Purchaser") from the Tenstorrent entity identified on such Ordering Document ("Tenstorrent"). Tenstorrent and Purchaser may each be referred to herein as a “Party” or collectively as the “Parties”. These Terms, together with the applicable Ordering Document, constitute the entire agreement between the Parties with respect to the purchase of Products and supersede any prior or contemporaneous agreements, representations, or understandings relating to the same subject matter.
+
+These Terms become effective and legally binding on the date on which Purchaser first: (a) executes or submits an Ordering Document that references these Terms; (b) clicks "agree," "accept," or a similar acceptance button in connection with a purchase of Products; (c) in the case of a Channel Sale, executes a written acknowledgment accepting these Terms, or agrees in an order form or other writing with a Channel Partner or Tenstorrent to be bound by these Terms; or (d) otherwise takes any action indicating acceptance of these Terms (the earliest such date, the "Effective Date"). --------------------------------------------------------------------------------
+Exploiting the Flexibility of LLM Inference for F… - arXiv (https://arxiv-troller.com/paper/3347873/)
+citeturn14search4 [wordlim: 200] Published: 4 days ago; Crawled: yesterday; arXiv ID ... October 19, 2026 ... In this paper, we investigate the potential of LLM inference cluster to provide frequency regulation services through inference request scheduling.First, we model the problem as a hierarchical Markov decision process that includes request-to-replica dispatching and token-level resource allocation.
+
+← Back to Search
+
+# Exploiting the Flexibility of LLM Inference for Frequency Regulation Service
+
+Authors: Yimeng Sun, Zhaohao Ding
+
+arXiv ID
+
+2610.23532
+
+Submitted
+
+October 16, 2026
+
+Last Updated
+
+October 19, 2026
+
+Categories
+
+eess.SY cs.SY
+
+### Abstract
+
+While the widespread deployment of Large Language Models (LLMs) has significantly driven up power demands in computing clusters, the unique execution characteristics of LLM inference offer a novel opportunity to utilize these clusters as controllable loads. In this paper, we investigate the potential of LLM inference cluster to provide frequency regulation services through inference request scheduling. First, we model the problem as a hierarchical Markov decision process that includes request-to-replica dispatching and token-level resource allocation. Then, we introduce a reward redistribution network to address the temporal asynchrony between millisecond-level scheduling decisions and second-level frequency regulation signals. Furthermore, we develop an optimization framework based on a mean-field approximation to enable coordination among a large number of replicas under high request concurrency. Simulations using real-world data demonstrate that the proposed approach accurately tracks frequency regulation signals without compromising service-level objectives.--------------------------------------------------------------------------------
+ScoutRoute: Efficient Mixture-of-Experts Routing … - arXiv (https://arxiv-troller.com/paper/3347784/)
+citeturn14search5 [wordlim: 200] Published: 4 days ago; Crawled: yesterday; October 19, 2026 ... Existing routing approaches typically rely on jointly trained gating networks, prompt-based predictors, or computationally expensive multi-model inference, limiting their flexibility and efficiency.This paper presents ScoutRoute, a lightweight post-hoc routing framework that predicts expert competence using internal language model signals extracted from a single forward pass through an inexpensive scout model.
+--------------------------------------------------------------------------------
+Chipmaker Tenstorrent raises $1.5 billion at $6.2 billion valuation - Bloomberg By Investing.com (https://www.investing.com/news/stock-market-news/chipmaker-tenstorrent-raises-15-billion-at-62-billion-valuation--bloomberg-4957417)
+citeturn14search6 [wordlim: 200] Published: yesterday; Crawled: yesterday; Investing.com -- Artificial intelligence chip startup Tenstorrent Inc. has secured $1.5 billion in a Series E funding round, elevating its valuation to $6.2 billion, Bloomberg reported.The capital injection marks a significant step up from its previous $2.6 billion valuation in 2024, highlighting sustained investor appetite for alternative silicon architectures despite broader market scrutiny.
+--------------------------------------------------------------------------------
+BS-Spec: BFP-Based Bit-Sharing for Self-Speculati… - arXiv (https://arxiv-troller.com/paper/3347218/)
+citeturn14search7 [wordlim: 200] Published: 4 days ago; Crawled: yesterday; arXiv ID ... October 19, 2026 ... Speculative decoding improves inference throughput, but conventional approaches require a separate draft model and KV cache, while existing self-speculative methods suffer from workload-insensitive draft configurations and inefficient mixed-precision execution.In this paper, we present BS-Spec, a block floating point (BFP)-based bit-sharing framework that jointly optimizes draft construction, workload-aware precision selection, and hardware execution.
+--------------------------------------------------------------------------------
+GPUs for LLM inference: from $0.16 per GPU-hour (Oct 19, 2026) (https://gpueconomy.com/use-cases/llm-inference)
+citeturn14search8 [wordlim: 200] Crawled: yesterday; # GPUs for LLM inferenceAs of October 19, 2026 — An 8B model at 16-bit: from $0.16 per GPU-hour on the NVIDIA V100 32GB (Geodd), 38 cards qualify; A 70B model at 8-bit: from $0.65 per GPU-hour on the NVIDIA RTX PRO 6000 Blackwell (Hostinger), 18 cards qualify; A 70B model at 16-bit on one GPU: from $1.71 per GPU-hour on the AMD Instinct MI300X (TensorWave), 10 cards qualify.
+--------------------------------------------------------------------------------
+Tenstorrent USA, Inc. announced that it has received $1.5 billion in funding from a group of investors | MarketScreener India (https://in.marketscreener.com/news/tenstorrent-usa-inc-announced-that-it-has-received-1-5-billion-in-funding-from-a-group-of-investo-ce785cdbdd8ff527)
+citeturn14search9 [wordlim: 200] Published: yesterday; Crawled: yesterday; Tenstorrent USA, Inc. announced that it has raised $1.5 billion in a round of funding co-led by new investors Trace Capital Investments Zrt. and Innovation X Advisors, LLC on October 19, 2026.
+--------------------------------------------------------------------------------
+The Inference Desk — Monday, October 19, 2026 (https://betabriefing.ai/channels/the-inference-desk/briefings/2026-10-19/)
+citeturn14search10 [wordlim: 200] Published: yesterday; Crawled: yesterday; 🛠️ The Inference Desk# Monday, October 19, 2026 ... Researchers from Stanford, UC Berkeley, and affiliated labs published an arXiv preprint (2610.18861) on Tuesday, October 13, introducing HybridAgents. ... Instead of co-evolving model weights alongside environment code, this Apache 2.0 framework recursively improves an agent's execution harness while leaving the underlying model untouched.
+--------------------------------------------------------------------------------
+alkhder at AlexandriaX-2026: Context-Aware Englis… - arXiv (https://arxiv-troller.com/paper/3346866/)
+citeturn14search11 [wordlim: 200] Published: 5 days ago; Crawled: yesterday; October 19, 2026 ... This paper describes team Alkhder's submission to Subtask 1 of the AlexandriaX-2026 shared task, which asks systems to translate English dialogue turns into thirteen Arabic dialects. ... At inference, conversations are translated autoregressively and the model is fed its own previous outputs back as context without using any gold target-side test information.
+--------------------------------------------------------------------------------
+31 January 2026 (https://www.fundslibrary.co.uk/FundsLibrary.DataRetrieval/Documents.aspx/?id=16a122fd-2c15-400d-a4b4-b7fc6f5c7861&r=1&type=sl.ra.full&user=9uCYGzXNEGo9ccc3ZKyWJ%2Bc5cl6pwA5wNcdpWgndO5lVMNZzuFnxKoME38a9m%2BLE)
+citeturn14search14 [wordlim: 200] Published: 6 months ago; Name Business Country Epic Games Gaming platform United States | 2026 Total value US$’000 27,404 | 2026 % of net assets 1.5 | 2025 Total value US$’000 27,018 | 2025 % of net assets 2.0 --- | --- | --- | --- | --- Name Business Country Faire Wholesale Online wholesale marketplace United States | 2026 Total value US$’000 26,864 | 2026 % of net assets 1.5 | 2025 Total value US$’000 27,997 | 2025 % of net assets 2.0 Name Business Country Flix European long-distance bus and Germany train provider | 2026 Total value US$’000 24,140 | 2026 % of net assets 1.3 | 2025 Total value US$’000 24,114 | 2025 % of net assets 1.8 Name Business Country nspire Social networking and China e-commerce platform | 2026 Total value US$’000 24,000 | 2026 % of net assets 1.3 | 2025 Total value US$’000 – | 2025 % of net assets – Name Business Country Bolttech Global insurance platform services Singapore | 2026 Total value US$’000 23,941 | 2026 % of net assets 1.3 | 2025 Total value US$’000 20,000 | 2025 % of net assets 1.5 Name Business Country Nuro Delivery business, using self-driving United purpose-built electric vehicles States | 2026 Total value US$’000 23,568 | 2026 % of net assets 1.3 | 2025 Total value US$’000 14,870 | 2025 % of net assets 1.1 Name Business Country Rappi Provider of an on-demand delivery United platform designed to connect States consumers with local stores | 2026 Total value US$’000 20,745 | 2026 % of net assets 1.2 | 2025 Total value US$’000 23,190 | 2025 % of net assets 1.7 Name Business Country Kepler Computing Semiconductor company United States | 2026 Total value US$’000 20,043 | 2026 % of net assets 1.1 | 2025 Total value US$’000 20,221 | 2025 % of net assets 1.5 Name Business Country Avanci Application software United States | 2026 Total value US$’000 20,000 | 2026 % of net assets 1.1 | 2025 Total value US$’000 – | 2025 % of net assets – Name Business Country Zetwerk Manufacturing Fabricated metal products India | 2026 Total value US$’000 19,320 | 2026 % of net assets 1.1 | 2025 Total value US$’000 19,488 | 2025 % of net assets 1.4 Name Business Country Brex Corporate credit cards for startups United States | 2026 Total value US$’000 19,075 | 2026 % of net assets 1.1 | 2025 Total value US$’000 28,014 | 2025 % of net assets 2.1 Name Business Country Rippling (People Center) US software company United States | 2026 Total value US$’000 18,304 | 2026 % of net assets 1.0 | 2025 Total value US$’000 – | 2025 % of net assets – Name Business Country Chime Financial Digital banking platform United States | 2026 Total value US$’000 17,246 | 2026 % of net assets 1.0 | 2025 Total value US$’000 24,987 | 2025 % of net assets 1.9 Name Business Country Superhuman Platform Online platform for checking United Grammarly) grammar, spelling and improving States written communication | 2026 Total value US$’000 16,705 | 2026 % of net assets 0.9 | 2025 Total value US$’000 25,435 | 2025 % of net assets 1.9 Name Business Country Solugen Solugen exists to scale synthetic United biology and bring green chemicals States to the world | 2026 Total value US$’000 15,651 | 2026 % of net assets 0.9 | 2025 Total value US$’000 30,301 | 2025 % of net assets 2.2 Name Business Country Oddity Online direct-to-customer skincare United and cosmetics States | 2026 Total value US$’000 15,270 | 2026 % of net assets 0.9 | 2025 Total value US$’000 22,180 | 2025 % of net assets 1.6 Name Business Country Cellares Biotech company providing robust United and reproducible cell therapy States | 2026 Total value US$’000 15,000 | 2026 % of net assets 0.8 | 2025 Total value US$’000 – | 2025 % of net assets – Name Business Country Merlin Labs Autonomous flight technology United States | 2026 Total value US$’000 14,654 | 2026 % of net assets 0.8 | 2025 Total value US$’000 13,483 | 2025 % of net assets 1.0 Name Business Country Tanium Provides security and systems United management solutions States | 2026 Total value US$’000 14,274 | 2026 % of net assets 0.8 | 2025 Total value US$’000 15,698 | 2025 % of net assets 1.2 Name Business Country Runway AI Artificial Intelligence based United applications developer States | 2026 Total value US$’000 13,494 | 2026 % of net assets 0.8 | 2025 Total value US$’000 10,000 | 2025 % of net assets 0.7 Name Business Country Dailyhunt Telephone voice, data, text India Ver Se Innovation) messaging, and roaming services | 2026 Total value US$’000 10,257 | 2026 % of net assets 0.6 | 2025 Total value US$’000 34,314 | 2025 % of net assets 2.5 Name Business Country Tenstorrent Processor architecture and United software solutions States | 2026 Total value US$’000 9,619 | 2026 % of net assets 0.5 | 2025 Total value US$’000 10,000 | 2025 % of net assets 0.7 Name Business Country Workrise Technologies Online platform connecting United contractors with work States | 2026 Total value US$’000 9,527 | 2026 % of net assets 0.5 | 2025 Total value US$’000 14,467 | 2025 % of net assets 1.1	Denotes listed investment previously held in the portfolio as a private company investment.
+--------------------------------------------------------------------------------
+中野　RISC-V Internship Prg 2025 (https://riscv.or.jp/wp-content/uploads/fc93189b5c6f2bf4e66b48d0ff460b4b.pdf)
+citeturn14search15 [wordlim: 200] BOS and Tenstorrent Unveil Eagle-N, Industry's First Automotive AI Accelerator Chiplet SoC, @CES. ... • 250 TOPS(INT8), 2X of TOP/$, 1.5 of TOPS/W ... • Mass Production 2026
+--------------------------------------------------------------------------------
+COVINGTON — Medical Device and Digital Health (https://www.cov.com/-/media/files/corporate/publications/2026/08/fda-releases-highly-anticipated-discussion-paper-august-2026.pdf)
+citeturn14search16 [wordlim: 200] Published: last month; Crawled: last month; The GenAI Discussion Paper reflects FDA’s recognition that many genAI-enabled devices will rely on third-party foundation models. ... Under the approach described by FDA, foundation model developers and platform providers could voluntarily submit information about underlying models to FDA, such as through model cards. ... FDA-2026-N-7874 through **October 19, 2026**.
+--------------------------------------------------------------------------------
+Sign of the times (https://www.reddit.com/r/agi/comments/1x7b0fx/sign_of_the_times/)
+citeturn14reddit17 [wordlim: 200] Published: 4 days ago;   What’s interesting is that the restricted astra model ( the one without internet or journal paper access) had already memorized several key complex physics equations that are required to solve each problem. ... [Monday October 19 2026] [+1 votes]
+--------------------------------------------------------------------------------
+October's AI model wars are heating up. The Information reports Anthropic is preparing a new model, Google has Gemini 4 Carbon on deck, and OpenAI may launch a new Terra model. Three frontier AI labs could unleash their next models before the month is over. (https://www.reddit.com/r/singularity/comments/1x9ywfa/octobers_ai_model_wars_are_heating_up_the/)
+citeturn14reddit18 [wordlim: 200] Published: yesterday; [Monday October 19 2026] [+281 votes] ... Demis was too focused on scientific research and not deployable and monetizable model releases. ... Interpreting implicit intent/instructions is how you avoid getting paperclipped. ... Domain; inference engine optimization, Hermes agent profile and env optimization, and forking things like zellij and ghostty.
+--------------------------------------------------------------------------------
+Any Tenstorrent Ascalon Atlantis news? (https://www.reddit.com/r/RISCV/comments/1tqbk3h/any_tenstorrent_ascalon_atlantis_news/)
+citeturn14reddit19 [wordlim: 200] Published: 4 months ago;     So it seems this is the guy who was Founder, former Executive Chairman and CEO at Arm Technology (China), and was the one in the news because he was dismissed by the board on June 4, 2020, but because he held the company's seal stamp ("Chop") the dismissal wasn't considered official. ...         Yes, 1.5 or 1.6 GHz for the Atlantis dev board (made in an older process) is what Tenstorrent has been saying for half a year.
+--------------------------------------------------------------------------------
+Does A Fish Need a Bicycle? The Case for On-Chip NPUs in DBMS (https://www.vldb.org/cidrdb/papers/2026/p24-baumstark.pdf)
+citeturn14search20 [wordlim: 200] Published: 10 months ago; CIDR’26, January 18-21, 2026, Chaminade, USA ... Each Tensix core integrates five RISC-V CPUs, vector and matrix units, data packers, and up to 1.5 MB of local SRAM. ... The Tenstorrent architecture requires compiling three separate kernels for offloading: a reading kernel to move data from shared memory to PE memory, a compute kernel for executing workloads, and a writing kernel to transfer results back.
+--------------------------------------------------------------------------------
+Federal Register / Vol. 91, No. 200 / Monday, October 19, 2026 / Notices — 66095 (https://www.govinfo.gov/content/pkg/FR-2026-10-19/pdf/2026-21286.pdf)
+citeturn14search21 [wordlim: 200] Published: 3 days ago; Crawled: 3 days ago; 200 / Monday, October 19, 2026 / Notices — 66095 ... Irving, Limited; Irving Paper Limited; Miramichi Timber Holdings Limited; Rothesay Paper Holdings Ltd.
+--------------------------------------------------------------------------------
+[D] Self-Promotion Thread (https://www.reddit.com/r/MachineLearning/comments/1wvi1j8/d_selfpromotion_thread/)
+citeturn14reddit22 [wordlim: 200] Published: 2 weeks ago; [Monday October 19 2026] [+1 votes] ... Dataville provides a common REST API and MCP server for accessing curated datasets, including SEC EDGAR, Wikipedia, Census data, arXiv, and OpenAlex. ... Disclosure first: this is my own project. remove-audio.com runs an AI model for voice/music separation on WebGPU inside the browser, so the video stays on your machine.
+--------------------------------------------------------------------------------
+It has begun…🦾☠️ (https://www.reddit.com/r/artificial/comments/1x5g7lx/it_has_begun/)
+citeturn14reddit23 [wordlim: 200] Published: 6 days ago;         [Monday October 19 2026] [+1 votes] ...       It ***is*** eyebrow-raising that all of the models tested for that paper were non-Anthropic models. 100% worth bearing in mind when analyzing the testing process they outlined. ... I've run a small text (chat) model on a Raspberry Pi Zero (on CPU) as a test. ... So... free AI inference?
+--------------------------------------------------------------------------------
+There was no major mathematical breakthrough by AI announced in the last 24 hours. (https://www.reddit.com/r/singularity/comments/1xa7zm4/there_was_no_major_mathematical_breakthrough_by/)
+citeturn14reddit24 [wordlim: 200] Published: yesterday; In a preprint listed on 19 October 2026, researchers from Google DeepMind and the University of Cambridge report that a Gemini-based AI system uncovered previously unknown mathematical structures in 11 six-state Turing machines. ... There is 3-page paper on the arxiv today that would have been an annals paper a year ago...
+--------------------------------------------------------------------------------
+AI In Mathematics: October 17, 2026 (https://www.reddit.com/r/math/comments/1x8dxkw/ai_in_mathematics_october_17_2026/)
+citeturn14reddit25 [wordlim: 200] Published: 3 days ago; * informal announcements of AI-assisted discoveries, such as those not yet published in a peer-reviewed journal, or not uploaded as a paper to arXiv; ...   [Monday October 19 2026] [+2 votes]
+--------------------------------------------------------------------------------
+About Tenstorrent (https://tenstorrent.com/vision)
+citeturn14view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://tenstorrent.com/vision","lineno":null}); Total lines: 166
+L0: cite0†Skip to main content L1: 
+L2: [Select]
+L3: 
+L4: Some tracking technologies are important for the correct functioning of our websites and are always on. By clicking "Allow All" you are also directing us to use optional tracking technologies. cite1†Privacy Notice .
+L5: 
+L6: [Button: Customize]
+L7: 
+L8: [Button: Allow All][Button: Only Necessary]
+--------------------------------------------------------------------------------
+Laplace — The What-if Engine for the Physical World (https://www.laplaceintelligence.com/)
+citeturn14view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.laplaceintelligence.com/","lineno":null}); Total lines: 0
+L0 is out of bounds--------------------------------------------------------------------------------
+Self-Evolving Coding Agents via Harness-Policy Optimization (https://arxiv.org/html/2610.22791v1)
+citeturn14view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/html/2610.22791v1","lineno":null}); Total lines: 512
+L0: ##### Report GitHub Issue
+L1: 
+L2: [Button: ×]
+L3: 
+L4: Title: [Input: Enter title]
+L5: 
+L6: Content selection saved. Describe the issue below:
+L7: 
+L8: Description:
+L9: 
+L10: [Button: Submit without GitHub] [Button: Submit in GitHub]
+L11: 
+L12: cite0†Back to arXiv L13: 
+L14: cite1†Why HTML?†info.arxiv.org cite2†Report Issue cite3†Back to Abstract cite4†Download PDF --------------------------------------------------------------------------------
+Internal Error ()
+citeturn14view3 [wordlim: 200] Source: open({"ref_id":"https://arxiv.org/html/2610.22863v1","lineno":null}); Total lines: 1
+L0: Failed to fetch https://arxiv.org/html/2610.22863v1: (404) Not Found
+

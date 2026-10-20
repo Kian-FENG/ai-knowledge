@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:https://github.com/ai-dynamo/dynamo/releases</id>
+  <link type="text/html" rel="alternate" href="https://github.com/ai-dynamo/dynamo/releases"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/ai-dynamo/dynamo/releases.atom"/>
+  <title>Release notes from dynamo</title>
+  <updated>2026-10-20T01:00:33Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Repository/942206898/v1.6.0-muse-spark-open-dev.1</id>
+    <updated>2026-10-20T02:09:56Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-muse-spark-open-dev.1"/>
+    <title>Dynamo v1.6.0-muse-spark-open-dev.1</title>
+    <content type="html">&lt;h1&gt;&lt;strong&gt;Release Notes&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dynamo v1.6.0-muse-spark-open-dev.1&lt;/strong&gt; is an experimental snapshot build with early &lt;strong&gt;Meta Muse Spark Open&lt;/strong&gt; support on the Dynamo &lt;strong&gt;SGLang&lt;/strong&gt;, &lt;strong&gt;vLLM&lt;/strong&gt;, and &lt;strong&gt;TensorRT-LLM&lt;/strong&gt; backends. It is &lt;strong&gt;not recommended for production&lt;/strong&gt; and is not a QA-gated release. APIs, behavior, and defaults may change before stable support. Use it for evaluation, testing, and early feedback only.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamo v1.6.0-muse-spark-open-dev.1 adds serving for &lt;strong&gt;&lt;code&gt;meta-models/Muse-Spark-Open-816B-A42B-NVFP4&lt;/code&gt;&lt;/strong&gt; on Dynamo &lt;strong&gt;SGLang&lt;/strong&gt; (recommended), &lt;strong&gt;vLLM&lt;/strong&gt;, and &lt;strong&gt;TensorRT-LLM&lt;/strong&gt;. The frontend gains the &lt;code&gt;muse_spark&lt;/code&gt; reasoning and tool-call parsers, plus Responses API support for native, deferred, and custom tools, commentary streaming, conversation replay, and client tool search. The vLLM and SGLang containers are built on digest-pinned public Muse Spark Open model images (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16700&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16700/hovercard&quot;&gt;#16700&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Kubernetes recipes cover ten GB200 and GB300 targets: six SGLang (aggregated, 1P1D disaggregated, and KV-aware routed), two vLLM aggregated, and two TensorRT-LLM aggregated. All use TP4/EP4 with an FP8 KV cache and a 1M-token context, with shared model-cache manifests and an AIPerf agentic trace benchmark under &lt;code&gt;recipes/muse-spark-open-816b-a42b&lt;/code&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16553&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16553/hovercard&quot;&gt;#16553&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16557&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16557/hovercard&quot;&gt;#16557&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16567&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16567/hovercard&quot;&gt;#16567&lt;/a&gt;, brought onto this branch by &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16856&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16856/hovercard&quot;&gt;#16856&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Base Branch&lt;/strong&gt;: &lt;code&gt;main&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Base Commit&lt;/strong&gt;: &lt;code&gt;165d854ba6b18df8f0bebfebe20e7e29b062b1b2&lt;/code&gt; (2026-09-03)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Release Branch&lt;/strong&gt;: &lt;code&gt;release/1.6.0-muse-spark-open-dev.1&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Release Tip&lt;/strong&gt;: &lt;code&gt;6b9d12ebcd371ced77af980b0ae72e7f0f054c2d&lt;/code&gt; (2026-10-20)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;SGLang&lt;/strong&gt;: &lt;code&gt;lmsysorg/sglang:dev-muse-spark-open&lt;/code&gt; (digest-pinned, CUDA 13.0)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;vLLM&lt;/strong&gt;: &lt;code&gt;vllm/vllm-openai:muse-spark-open&lt;/code&gt; (digest-pinned, CUDA 13.0)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;TensorRT-LLM&lt;/strong&gt;: &lt;code&gt;1.3.0rc25&lt;/code&gt; (&lt;code&gt;nvcr.io/nvidia/tensorrt-llm/release&lt;/code&gt;, CUDA 13.1), NIXL v1.3.1&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Container Images&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Arch&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Image&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;SGLang (CUDA 13.0)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multi-arch (&lt;code&gt;amd64&lt;/code&gt; + &lt;code&gt;arm64&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/sglang-runtime:1.6.0-muse-spark-open-dev.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM (CUDA 13.0)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multi-arch (&lt;code&gt;amd64&lt;/code&gt; + &lt;code&gt;arm64&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/vllm-runtime:1.6.0-muse-spark-open-dev.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;TensorRT-LLM (CUDA 13.1)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;arm64&lt;/code&gt; only&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/tensorrtllm-runtime:1.6.0-muse-spark-open-dev.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The recipes pin these images by digest.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Backend Versions&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Source&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;CUDA&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Python&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;SGLang&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;lmsysorg/sglang:dev-muse-spark-open@sha256:8cfc5a72cb296771f5f8a4a4688cb6d05685610a830cbb616fa4ab0eb7bb2b0a&lt;/code&gt;, rebaselined on NVIDIA CUDA 13.0.3 for compliance&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;upstream image&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NIXL from the upstream SGLang image; VP8/VP9-only FFmpeg for Rust media decoding&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;vllm/vllm-openai:muse-spark-open@sha256:c91025b5be1039a93ca975d1d44f352b0e770bb6c8b142b5056cf92204ca137c&lt;/code&gt;, rebaselined on NVIDIA CUDA 13.0.3 for compliance&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Keeps the model image&#39;s Transformers stack; vLLM-Omni disabled; NIXL from the upstream vLLM image&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;TensorRT-LLM&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;nvcr.io/nvidia/tensorrt-llm/release:1.3.0rc25&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.1&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NIXL v1.3.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Model&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Precision&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;GPU&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;meta-models/Muse-Spark-Open-816B-A42B-NVFP4&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NVFP4 weights, FP8 KV cache&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;GB200, GB300&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;816B total / 42B active parameters; 1M-token context; TP4/EP4; &lt;code&gt;muse_spark&lt;/code&gt; reasoning and tool-call parsers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;About Muse Spark Open&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Muse Spark Open&lt;/strong&gt; is a Meta mixture-of-experts model (816B total parameters, 42B active) published as &lt;code&gt;meta-models/Muse-Spark-Open-816B-A42B-NVFP4&lt;/code&gt; (NVFP4). This build serves it through Dynamo&#39;s SGLang, vLLM, and TensorRT-LLM backends, with aggregated, disaggregated, and KV-aware routed serving on SGLang and aggregated serving on vLLM and TensorRT-LLM.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;Frontend and Responses API&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Muse Spark Open parsers:&lt;/strong&gt; Added the &lt;code&gt;muse_spark&lt;/code&gt; reasoning and tool-call parsers on the unified parser path. Parser, protocol, and renderer crates are pinned to published versions across the root, Python, and KVBM workspaces, including &lt;code&gt;dynamo-parsers =8.2.0-muse-spark-open-dev.1&lt;/code&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16700&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16700/hovercard&quot;&gt;#16700&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Native, deferred, and custom tool support, with expanded &lt;code&gt;tool_choice&lt;/code&gt; handling (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16700&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16700/hovercard&quot;&gt;#16700&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Responses API:&lt;/strong&gt; Commentary-phase streaming, conversation history replay, and client-side tool-search handling (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16700&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16700/hovercard&quot;&gt;#16700&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;SGLang Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Muse Spark Open runtime:&lt;/strong&gt; Built on a digest-pinned public SGLang model image, with compatibility fixes for the multimodal encode worker, argument handling, and model registration (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16700&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16700/hovercard&quot;&gt;#16700&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;vLLM Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Muse Spark Open runtime:&lt;/strong&gt; Built on a digest-pinned public vLLM model image that preserves the model&#39;s dependency combination. vLLM-Omni is disabled for this release and unused InstantTensor is removed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backend compatibility:&lt;/strong&gt; Fixes for the embedding worker, renderer, and KV-event APIs, and an explicit &lt;code&gt;imageio&amp;gt;=2.37.0&lt;/code&gt; requirement for video request processing (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16700&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16700/hovercard&quot;&gt;#16700&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;TensorRT-LLM Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TensorRT-LLM 1.3.0rc25:&lt;/strong&gt; Runtime on the &lt;code&gt;1.3.0rc25&lt;/code&gt; release image with LLM worker updates and unit tests (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16700&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16700/hovercard&quot;&gt;#16700&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Containers&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Compliance:&lt;/strong&gt; Stricter license and attribution auditing for the shipped images, including exact Rust/Go binary dependencies, Python environments, and removal of unneeded development packages from the SGLang base. Native &lt;code&gt;amd64&lt;/code&gt; and &lt;code&gt;arm64&lt;/code&gt; final-image audits are required (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16700&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16700/hovercard&quot;&gt;#16700&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Recipes&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Muse Spark Open recipes:&lt;/strong&gt; Added &lt;code&gt;recipes/muse-spark-open-816b-a42b&lt;/code&gt; with shared model-cache PVC and download job, six SGLang targets (aggregated, 1P1D disaggregated with NIXL, and KV-aware routed on GB200 and GB300), two experimental vLLM aggregated targets, and a perf/trace reference (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16553&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16553/hovercard&quot;&gt;#16553&lt;/a&gt;) (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/6b9d12ebcd371ced77af980b0ae72e7f0f054c2d/recipes/muse-spark-open-816b-a42b&quot;&gt;recipe folder&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/6b9d12ebcd371ced77af980b0ae72e7f0f054c2d/recipes/muse-spark-open-816b-a42b/README.md&quot;&gt;README&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TensorRT-LLM recipes:&lt;/strong&gt; Added experimental aggregated TensorRT-LLM targets for GB200 and GB300 (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16567&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16567/hovercard&quot;&gt;#16567&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display name:&lt;/strong&gt; Capitalized &quot;Open&quot; in the recipe display name (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16557&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16557/hovercard&quot;&gt;#16557&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Deployment is Kubernetes-based (Dynamo Platform + &lt;code&gt;DynamoGraphDeployment&lt;/code&gt;). Full steps (namespace, Hugging Face token secret, model-cache PVC, model download job, DGD apply, and a &lt;code&gt;/v1/chat/completions&lt;/code&gt; smoke test) are in the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/6b9d12ebcd371ced77af980b0ae72e7f0f054c2d/recipes/muse-spark-open-816b-a42b/README.md&quot;&gt;recipe README&lt;/a&gt; and the linked recipe page. Recipes expect a Hugging Face token secret named &lt;code&gt;hf-token-secret&lt;/code&gt; and a ReadWriteMany storage class for the &lt;code&gt;shared-model-cache&lt;/code&gt; PVC.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Known Issues / Limitations&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Experimental snapshot build, not QA-gated; not for production.&lt;/li&gt;
+&lt;li&gt;The vLLM and TensorRT-LLM recipes are experimental and aggregated only. Their results cover the first 500 trace requests and are functional validation, not full-trace benchmarks.&lt;/li&gt;
+&lt;li&gt;SGLang disaggregated recipes do not support video requests (the image has no &lt;code&gt;decord2&lt;/code&gt;) or frontend decoding (&lt;code&gt;DYN_SGL_FRONTEND_DECODING=true&lt;/code&gt;) for image or video inputs. Use an aggregated SGLang recipe for video.&lt;/li&gt;
+&lt;li&gt;Disaggregated recipes omit provider-specific networking; configure RDMA for long-context requests. SGLang GB200 recipes and GB300 disaggregated recipes require ComputeDomain with Dynamic Resource Allocation (DRA).&lt;/li&gt;
+&lt;li&gt;The TensorRT-LLM image is &lt;code&gt;arm64&lt;/code&gt; only, matching the GB200 and GB300 recipes.&lt;/li&gt;
+&lt;li&gt;Targets Hopper and Blackwell GPUs. vLLM serving CI on A100 and L4 hardware hit CUDA &lt;code&gt;no kernel image is available&lt;/code&gt; errors, and broader backend serving CI was not fully green at merge of &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5892144709&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/16700&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16700/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/16700&quot;&gt;#16700&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content>
+    <author>
+      <name>ynpandey-nv</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/20666257?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/942206898/v1.6.0-beam-1.0-501b-dev.1</id>
+    <updated>2026-10-19T23:39:54Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-beam-1.0-501b-dev.1"/>
+    <title>Dynamo v1.6.0-beam-1.0-501b-dev.1</title>
+    <content type="html">&lt;h1&gt;&lt;strong&gt;Release Notes&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dynamo v1.6.0-beam-1.0-501b-dev.1&lt;/strong&gt; is an experimental snapshot build with early &lt;strong&gt;Reflection Beam-1.0-501B-A23B&lt;/strong&gt; support on the Dynamo &lt;strong&gt;SGLang&lt;/strong&gt; and &lt;strong&gt;vLLM&lt;/strong&gt; backends. It is &lt;strong&gt;not recommended for production&lt;/strong&gt; and is not a QA-gated release. APIs, behavior, and defaults may change before stable support. Use it for evaluation, testing, and early feedback only.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamo v1.6.0-beam-1.0-501b-dev.1 serves &lt;strong&gt;&lt;code&gt;reflection/Beam-1.0-501B-A23B&lt;/code&gt;&lt;/strong&gt; on Dynamo &lt;strong&gt;SGLang&lt;/strong&gt; and &lt;strong&gt;vLLM&lt;/strong&gt;. The frontend adds a Beam parser family on the unified v2 route and derives a Beam turn grammar for every chat turn, so tool calls, structured answers, and reasoning follow the model&#39;s channel format. &lt;code&gt;/v1/completions&lt;/code&gt; can now echo the prompt with its logprobs. The vLLM runtime uses &lt;code&gt;vllm/vllm-openai:v0.31.0-ubuntu2404&lt;/code&gt; and the SGLang runtime uses &lt;code&gt;lmsysorg/sglang:v0.5.21-cu130-runtime&lt;/code&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16702&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16702/hovercard&quot;&gt;#16702&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Kubernetes recipes cover aggregated and 1P1D disaggregated serving on both backends across H200, B200, B300, GB200, and GB300. Every target uses DFlash2 speculative decoding (block length 8), FP8 KV cache, KV-aware routing, and up to 1M tokens of context, with FP8 weights on H200 and NVFP4 weights on the Blackwell GPUs. The recipes include a shared model-cache PVC and download job, an AIPerf synthetic benchmark, and a recipe page on the docs site under &lt;code&gt;recipes/beam-1.0-501b&lt;/code&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16666&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16666/hovercard&quot;&gt;#16666&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16677&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16677/hovercard&quot;&gt;#16677&lt;/a&gt;, cherry-picked in &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16846&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16846/hovercard&quot;&gt;#16846&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Release Branch&lt;/strong&gt;: &lt;code&gt;release/1.6.0-beam-1.0-501b-dev.1&lt;/code&gt;, tip &lt;code&gt;ef20f7776f20f6c81f8159063918e086eda308d7&lt;/code&gt; (2026-10-19)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Base Commit&lt;/strong&gt;: &lt;code&gt;c5773baaa579eac59e84860d31e7273d14308a7c&lt;/code&gt; on &lt;code&gt;main&lt;/code&gt; (2026-10-14)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;vLLM&lt;/strong&gt;: &lt;code&gt;v0.31.0&lt;/code&gt; (&lt;code&gt;vllm/vllm-openai&lt;/code&gt;, CUDA 13.0), NIXL v1.4.1&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;SGLang&lt;/strong&gt;: &lt;code&gt;v0.5.21&lt;/code&gt; (&lt;code&gt;lmsysorg/sglang&lt;/code&gt;, CUDA 13.0), NIXL v1.5.0&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Container Images&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Arch&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Image&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM (CUDA 13.0)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multi-arch (&lt;code&gt;amd64&lt;/code&gt; + &lt;code&gt;arm64&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/vllm-runtime:1.6.0-beam-1.0-501b-dev.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;SGLang (CUDA 13.0)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multi-arch (&lt;code&gt;amd64&lt;/code&gt; + &lt;code&gt;arm64&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/sglang-runtime:1.6.0-beam-1.0-501b-dev.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Backend Versions&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Source&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;CUDA&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Python&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;vllm/vllm-openai:v0.31.0-ubuntu2404&lt;/code&gt;, compliance baseline on &lt;code&gt;nvidia/cuda:13.0.2-base-ubuntu24.04&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NIXL v1.4.1; Beam parser crates &lt;code&gt;dynamo-parsers-v2&lt;/code&gt; 0.10.0 and &lt;code&gt;dynamo-renderer&lt;/code&gt; 8.1.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;SGLang&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;lmsysorg/sglang:v0.5.21-cu130-runtime&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NIXL v1.5.0; publishes KV events for KV-aware routing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Model&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Precision&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;GPU&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;reflection/Beam-1.0-501B-A23B-NVFP4&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NVFP4 weights, FP8 KV cache&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;B200, B300, GB200, GB300&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;served as &lt;code&gt;Beam-1.0-501B-A23B&lt;/code&gt;; up to 1,048,576 context tokens&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;reflection/Beam-1.0-501B-A23B-FP8&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;FP8 weights, FP8 KV cache&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;H200&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;served as &lt;code&gt;Beam-1.0-501B-A23B&lt;/code&gt;; up to 1,048,576 context tokens&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;reflection/Beam-1.0-501B-A23B-DFlash2&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;draft checkpoint&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;every target&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;DFlash2 speculative decoding, block length 8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;About Beam-1.0-501B-A23B&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Beam-1.0-501B-A23B&lt;/strong&gt; is Reflection&#39;s Beam 1.0 model, published on Hugging Face as &lt;code&gt;reflection/Beam-1.0-501B-A23B-NVFP4&lt;/code&gt; and &lt;code&gt;reflection/Beam-1.0-501B-A23B-FP8&lt;/code&gt;, with a &lt;code&gt;reflection/Beam-1.0-501B-A23B-DFlash2&lt;/code&gt; draft checkpoint. This build serves it through Dynamo&#39;s SGLang and vLLM backends, aggregated or disaggregated, with DFlash2 speculative decoding and up to 1M tokens of context.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;Frontend (Beam Serving)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Beam parser family:&lt;/strong&gt; Added the Beam parser family on the unified v2 route. The parser resumes in the channel an assistant prefill leaves open, and the Beam route keeps only the model&#39;s own stop-token text (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16702&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16702/hovercard&quot;&gt;#16702&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beam turn grammar:&lt;/strong&gt; Every chat turn is constrained by a structural-tag grammar derived from the Beam response template. Forced tool choices stay on the Harmony wire, &lt;code&gt;builtin_tools&lt;/code&gt; are declared by name for the 1.0 chat template, and a &lt;code&gt;response_format&lt;/code&gt; answer is held in the final channel with its tool arguments framed (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16702&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16702/hovercard&quot;&gt;#16702&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Request policy:&lt;/strong&gt; Tools whose &lt;code&gt;strict&lt;/code&gt; schema Beam cannot honor are served as non-strict, with one warning per request. &lt;code&gt;preserve_thinking=false&lt;/code&gt; is accepted as a no-op, and &lt;code&gt;allow_missing_thinking&lt;/code&gt; defaults to true (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16702&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16702/hovercard&quot;&gt;#16702&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Completions echo:&lt;/strong&gt; &lt;code&gt;/v1/completions&lt;/code&gt; echoes the prompt together with its logprobs (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16702&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16702/hovercard&quot;&gt;#16702&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Parser crates:&lt;/strong&gt; Pinned &lt;code&gt;dynamo-renderer&lt;/code&gt; 8.1.0 and &lt;code&gt;dynamo-parsers-v2&lt;/code&gt; 0.10.0 from &lt;code&gt;frontend-crates&lt;/code&gt; at the Beam release revision (&lt;a href=&quot;https://github.com/ai-dynamo/frontend-crates/commit/ef8f401393a730cae8ac5c96fe1d564dcf48a017&quot;&gt;&lt;code&gt;ef8f4013&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/frontend-crates/pull/430&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/frontend-crates/pull/430/hovercard&quot;&gt;frontend-crates#430&lt;/a&gt;) (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16702&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16702/hovercard&quot;&gt;#16702&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;vLLM Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lazy engine-launch imports:&lt;/strong&gt; The vLLM engine-launch imports load lazily, which the Beam vLLM engine needs, and &lt;code&gt;chat_utils&lt;/code&gt; is imported from its new vLLM location when present (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16702&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16702/hovercard&quot;&gt;#16702&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Recipes&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Beam-1.0-501B-A23B recipes:&lt;/strong&gt; Added &lt;code&gt;recipes/beam-1.0-501b&lt;/code&gt; with a shared model-cache PVC and download job, an AIPerf benchmark, and a docs-site recipe page (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16666&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16666/hovercard&quot;&gt;#16666&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16677&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16677/hovercard&quot;&gt;#16677&lt;/a&gt;, cherry-picked in &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16846&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16846/hovercard&quot;&gt;#16846&lt;/a&gt;; &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/ef20f7776f20f6c81f8159063918e086eda308d7/recipes/beam-1.0-501b&quot;&gt;recipe folder&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/ef20f7776f20f6c81f8159063918e086eda308d7/docs/fern/pages/recipes/model-recipes/beam-1-0-501b.mdx&quot;&gt;recipe guide&lt;/a&gt;):
+&lt;ul&gt;
+&lt;li&gt;SGLang and vLLM, aggregated and 1P1D disaggregated, on H200 (FP8, 8 GPUs aggregated or 16 disaggregated) and on B200, B300, GB200, and GB300 (NVFP4, 8 GPUs).&lt;/li&gt;
+&lt;li&gt;DFlash2 block length 8, FP8 KV cache with 64-token pages, and up to 1,048,576 context tokens on every target.&lt;/li&gt;
+&lt;li&gt;KV-aware routing: SGLang publishes KV events and vLLM uses prediction-based routing. Disaggregated targets move KV between prefill and decode over NIXL, and vLLM targets add native host offload.&lt;/li&gt;
+&lt;li&gt;An AIPerf synthetic chat benchmark (8,192 input and 1,024 output tokens, streaming, one concurrency point per Job).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reflection logo:&lt;/strong&gt; Added the Reflection provider logo to the recipe catalog (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16677&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16677/hovercard&quot;&gt;#16677&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Deployment is Kubernetes-based (Dynamo Platform + &lt;code&gt;DynamoGraphDeployment&lt;/code&gt;). Full steps — namespace, model-cache PVC, Hugging Face download job (target checkpoint plus the DFlash2 draft), DGD apply, and a &lt;code&gt;/v1/chat/completions&lt;/code&gt; smoke test — are in the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/ef20f7776f20f6c81f8159063918e086eda308d7/recipes/beam-1.0-501b/README.md&quot;&gt;recipe README&lt;/a&gt;. The benchmark workflow is in &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/ef20f7776f20f6c81f8159063918e086eda308d7/recipes/beam-1.0-501b/perf/README.md&quot;&gt;perf/README.md&lt;/a&gt;. For gated Hugging Face repositories, add an &lt;code&gt;HF_TOKEN&lt;/code&gt; secret reference to the download Job.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Known Issues / Limitations&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Experimental snapshot build — not QA-gated; not for production.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;shared-model-cache&lt;/code&gt; PVC needs at least 2Ti on a ReadWriteMany storage class; set &lt;code&gt;storageClassName&lt;/code&gt; in &lt;code&gt;model-cache/model-cache.yaml&lt;/code&gt; before applying it.&lt;/li&gt;
+&lt;li&gt;Disaggregated targets need GPUDirect-capable RDMA devices on both roles and NIXL/UCX connectivity between them. A TCP fallback works without RDMA, but KV transfer then goes through host memory and the pod network.&lt;/li&gt;
+&lt;li&gt;vLLM disaggregated targets register the whole KV pool as one memory region. If the NIC rejects it (&lt;code&gt;NIXL_ERR_BACKEND&lt;/code&gt;), lower &lt;code&gt;--gpu-memory-utilization&lt;/code&gt;; the B300 and GB300 disaggregated profiles already ship at 0.5.&lt;/li&gt;
+&lt;li&gt;Every target requires the DFlash2 draft checkpoint in addition to the target checkpoint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content>
+    <author>
+      <name>ynpandey-nv</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/20666257?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/942206898/v1.6.0-nemotron-3.5-super-vl-dev.1</id>
+    <updated>2026-10-15T22:09:49Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-nemotron-3.5-super-vl-dev.1"/>
+    <title>Dynamo v1.6.0-nemotron-3.5-super-vl-dev.1</title>
+    <content type="html">&lt;h1&gt;&lt;strong&gt;Release Notes&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dynamo v1.6.0-nemotron-3.5-super-vl-dev.1&lt;/strong&gt; is an experimental snapshot build with early &lt;strong&gt;NVIDIA Nemotron 3.5 Super VL&lt;/strong&gt; support on the Dynamo &lt;strong&gt;vLLM&lt;/strong&gt; and &lt;strong&gt;TensorRT-LLM&lt;/strong&gt; backends. It is &lt;strong&gt;not recommended for production&lt;/strong&gt; and is not a QA-gated release. APIs, behavior, and defaults may change before stable support. Use it for evaluation, testing, and early feedback only.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamo v1.6.0-nemotron-3.5-super-vl-dev.1 serves &lt;strong&gt;&lt;code&gt;nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4&lt;/code&gt;&lt;/strong&gt;, a multimodal MoE model with up to 1M-token context, on Dynamo &lt;strong&gt;vLLM&lt;/strong&gt; and &lt;strong&gt;TensorRT-LLM&lt;/strong&gt;. The vLLM runtime moves to a CUDA 13.4 vLLM nightly with Mamba2, top-p sampling, and FlashInfer fixes. The TensorRT-LLM runtime uses &lt;code&gt;1.3.0rc29&lt;/code&gt; with quantized MTP head loading, draft KV-pool reuse, and a guided-decoding fix for multimodal input (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16549&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16549/hovercard&quot;&gt;#16549&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Kubernetes recipes cover aggregated and disaggregated vLLM targets on H100, H200, B200, B300, GB200, GB300, and VR200, plus aggregated and disaggregated TensorRT-LLM targets on B200. Every target uses NVFP4 weights, FP8 KV cache, MTP speculative decoding, session-affinity routing, and 1M context. The recipes include a shared model-cache PVC and download job, and an AIPerf SWE-bench Pro trace-replay benchmark under &lt;code&gt;recipes/nemotron-3.5-super-vl-120b-a12b&lt;/code&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16544&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16544/hovercard&quot;&gt;#16544&lt;/a&gt;, cherry-picked in &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16552&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16552/hovercard&quot;&gt;#16552&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Release Branch&lt;/strong&gt;: &lt;code&gt;release/1.6.0-nemotron-3.5-super-vl-dev.1&lt;/code&gt;, tip &lt;code&gt;5f601dba872b1a26b40090c319df8edbb8f946bd&lt;/code&gt; (2026-10-15)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;vLLM&lt;/strong&gt;: nightly &lt;code&gt;cu134-nightly-bb87d227d4b964abb2a966cdf9194f3d376d9bbe&lt;/code&gt; base (CUDA 13.4), NIXL v1.3.2&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;TensorRT-LLM&lt;/strong&gt;: &lt;code&gt;1.3.0rc29&lt;/code&gt; (&lt;code&gt;nvcr.io/nvidia/tensorrt-llm/release&lt;/code&gt;), NIXL v1.3.1&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Container Images&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Arch&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Image&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM (CUDA 13.4)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multi-arch (&lt;code&gt;amd64&lt;/code&gt; + &lt;code&gt;arm64&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/vllm-runtime:1.6.0-nemotron-3.5-super-vl-dev.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;TensorRT-LLM (CUDA 13.1)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multi-arch (&lt;code&gt;amd64&lt;/code&gt; + &lt;code&gt;arm64&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/tensorrtllm-runtime:1.6.0-nemotron-3.5-super-vl-dev.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Backend Versions&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Source&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;CUDA&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Python&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;vllm/vllm-openai:cu134-nightly-bb87d227d4b964abb2a966cdf9194f3d376d9bbe&lt;/code&gt;, compliance baseline on &lt;code&gt;nvidia/cuda:13.4.1-base-ubuntu24.04&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.4&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NIXL v1.3.2; vLLM-Omni disabled on CUDA so the nightly&#39;s Transformers and tokenizers stay in place&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;TensorRT-LLM&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;nvcr.io/nvidia/tensorrt-llm/release:1.3.0rc29&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.1&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NIXL v1.3.1; TensorRT-LLM #19303, #19558, #19597 backported&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Model&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Precision&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;GPU&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NVFP4 weights, FP8 KV cache&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;H100, H200, B200, B300, GB200, GB300, VR200&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;served as &lt;code&gt;nvidia/nemotron-3.5-super-vl-120b-a12b&lt;/code&gt;; &lt;code&gt;nemotron_v3&lt;/code&gt; reasoning and &lt;code&gt;qwen3_coder&lt;/code&gt; tool-call parsers; built-in MTP head for speculative decoding&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;About Nemotron 3.5 Super VL&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Nemotron 3.5 Super VL&lt;/strong&gt; is an NVIDIA 120B-A12B multimodal MoE preview model, published on Hugging Face as &lt;code&gt;nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4&lt;/code&gt;. It reasons before answering, supports tool calling, and serves up to 1M tokens of context. This build serves it through Dynamo vLLM on Hopper, Blackwell, and Rubin, and through Dynamo TensorRT-LLM on B200, with MTP speculative decoding on both.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;vLLM Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CUDA 13.4 runtime:&lt;/strong&gt; Moved the vLLM runtime to the &lt;code&gt;cu134-nightly-bb87d227&lt;/code&gt; base and refreshed the amd64 and arm64 compliance baselines against CUDA 13.4.1. vLLM-Omni is skipped on CUDA because the nightly needs Transformers 5.16.1 or later; CPU and XPU images keep Omni (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16549&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16549/hovercard&quot;&gt;#16549&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Model and sampling fixes:&lt;/strong&gt; Backported vLLM #60797, which stores the convolution history in Mamba2 prefill checkpoints so cached prefixes resume with the correct state, and vLLM #58231, which preserves forced large logits in split top-p masking (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16549&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16549/hovercard&quot;&gt;#16549&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FlashInfer kernels:&lt;/strong&gt; Backported FlashInfer &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3792274229&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/5267&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/issues/5267/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/issues/5267&quot;&gt;#5267&lt;/a&gt; (stochastic rounding on SM107) and an opt-in multi-wave KV split for long-context attention from FlashInfer &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3954135233&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/6331&quot; data-hovercard-type=&quot;issue&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/issues/6331/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/issues/6331&quot;&gt;#6331&lt;/a&gt; and vLLM #61077, enabled with &lt;code&gt;VLLM_FLASHINFER_MULTI_WAVE_KV_SPLIT&lt;/code&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16549&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16549/hovercard&quot;&gt;#16549&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Disaggregated serving with CPU offload:&lt;/strong&gt; Dynamo now detects NIXL inside a vLLM &lt;code&gt;MultiConnector&lt;/code&gt;, so a worker that combines NIXL transfer with CPU KV offload sets up the NIXL side channel correctly (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16549&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16549/hovercard&quot;&gt;#16549&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;TensorRT-LLM Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;TensorRT-LLM 1.3.0rc29 with MTP fixes:&lt;/strong&gt; Backported TensorRT-LLM #19558 and #19597, which load quantized MTP heads and their replacement modules, and #19303, which publishes the one-model draft KV pool so the draft no longer attends over unwritten pages on reused prefixes (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16549&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16549/hovercard&quot;&gt;#16549&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multimodal with guided decoding:&lt;/strong&gt; Guided decoding stays in CUDA graphs and drains its host functions before multimodal encoders run, avoiding a deadlock on image input. Dynamo also runs media preprocessing off the event loop so image decoding no longer blocks request handling (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16549&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16549/hovercard&quot;&gt;#16549&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Build and Compliance&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Runtime attribution:&lt;/strong&gt; License attribution now covers system Python roots, vendored Python distributions, and Rust and Go dependencies embedded in shipped binaries, with architecture-specific completeness checks for both runtimes. AI Simulate is pinned to the published &lt;code&gt;0.13.0-dev.2&lt;/code&gt; release (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16549&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16549/hovercard&quot;&gt;#16549&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Recipes&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nemotron 3.5 Super VL recipes:&lt;/strong&gt; Added &lt;code&gt;recipes/nemotron-3.5-super-vl-120b-a12b&lt;/code&gt;, with a shared model-cache PVC and download job and SWE-bench Pro deployments (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16544&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16544/hovercard&quot;&gt;#16544&lt;/a&gt;, cherry-picked in &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16552&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16552/hovercard&quot;&gt;#16552&lt;/a&gt;; &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/5f601dba872b1a26b40090c319df8edbb8f946bd/recipes/nemotron-3.5-super-vl-120b-a12b&quot;&gt;recipe folder&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/5f601dba872b1a26b40090c319df8edbb8f946bd/docs/fern/pages/recipes/model-recipes/nemotron-3-5-super-vl-120b-a12b.mdx&quot;&gt;recipe guide&lt;/a&gt;):
+&lt;ul&gt;
+&lt;li&gt;vLLM aggregated and disaggregated targets on H100, H200, B200, B300, GB200, GB300, and VR200, from 2 GPUs (H200) to 11 GPUs (VR200 7P4D). They use KV-aware routing with session affinity, MTP3 or MTP5, and CPU KV offload.&lt;/li&gt;
+&lt;li&gt;TensorRT-LLM aggregated (4 workers) and 2P2D disaggregated targets on B200 with MTP3, load-based placement, and session affinity for prefix reuse.&lt;/li&gt;
+&lt;li&gt;An AIPerf 0.13 job that replays 400 SWE-bench Pro agent trajectories (median input 222K tokens, 99% KV cache hit rate) to measure throughput and latency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Deployment is Kubernetes-based (Dynamo Platform + &lt;code&gt;DynamoGraphDeployment&lt;/code&gt;). Full steps — namespace and Hugging Face token secret, model-cache PVC, download job, DGD apply, and a &lt;code&gt;/v1/chat/completions&lt;/code&gt; smoke test — are in the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/5f601dba872b1a26b40090c319df8edbb8f946bd/docs/fern/pages/recipes/model-recipes/nemotron-3-5-super-vl-120b-a12b.mdx&quot;&gt;recipe guide&lt;/a&gt;. The benchmark workflow is in &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/5f601dba872b1a26b40090c319df8edbb8f946bd/recipes/nemotron-3.5-super-vl-120b-a12b/perf/README.md&quot;&gt;perf/README.md&lt;/a&gt;. Recipes expect a Hugging Face token secret named &lt;code&gt;hf-token-secret&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Known Issues / Limitations&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Experimental snapshot build — not QA-gated; not for production.&lt;/li&gt;
+&lt;li&gt;TensorRT-LLM recipes in this build cover B200 only.&lt;/li&gt;
+&lt;li&gt;TensorRT-LLM workers publish no KV events, so the router places new sessions by load and relies on session affinity for prefix-cache reuse.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;shared-model-cache&lt;/code&gt; PVC needs a ReadWriteMany storage class; set &lt;code&gt;storageClassName&lt;/code&gt; in &lt;code&gt;model-cache/model-cache.yaml&lt;/code&gt; before applying it.&lt;/li&gt;
+&lt;li&gt;GB200, GB300, and VR200 disaggregated recipes require the NVIDIA DRA driver with ComputeDomain support for multi-node NVLink.&lt;/li&gt;
+&lt;li&gt;The published VR200 results used a synthetic MTP acceptance length; the VR200 recipes default to natural acceptance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content>
+    <author>
+      <name>ynpandey-nv</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/20666257?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/942206898/v1.6.0-glm-5.3-flash-dev.1</id>
+    <updated>2026-10-14T04:01:46Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-glm-5.3-flash-dev.1"/>
+    <title>Dynamo v1.6.0-glm-5.3-flash-dev.1</title>
+    <content type="html">&lt;h1&gt;&lt;strong&gt;Release Notes&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dynamo v1.6.0-glm-5.3-flash-dev.1&lt;/strong&gt; is an experimental snapshot build with early &lt;strong&gt;GLM-5.3-Flash&lt;/strong&gt; support on the Dynamo &lt;strong&gt;SGLang&lt;/strong&gt; backend. It is &lt;strong&gt;not recommended for production&lt;/strong&gt; and is not a QA-gated release. APIs, behavior, and defaults may change before stable support. Use it for evaluation, testing, and early feedback only.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamo v1.6.0-glm-5.3-flash-dev.1 serves &lt;strong&gt;&lt;code&gt;RadixArk/GLM-5.3-Flash-NVFP4&lt;/code&gt;&lt;/strong&gt; on Dynamo &lt;strong&gt;SGLang&lt;/strong&gt;. The container is built from &lt;code&gt;lmsysorg/sglang:v0.5.21-cu130-runtime&lt;/code&gt; (CUDA 13) and applies GLM-5.3-Flash backports for prefill/decode accounting, linear-attention cache handling, SM100 PTX KDA, and Mamba slot cleanup, plus a scoped cuDNN workaround in the vision encoder. Transformers 5.19.0 and tokenizers 0.23.2 are pinned so image and video requests load &lt;code&gt;Glm5NextProcessor&lt;/code&gt; instead of falling back to text-only tokenization (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15751&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15751/hovercard&quot;&gt;#15751&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Kubernetes recipes cover a 4-GPU aggregated profile on B200 or GB200 and a 12-GPU GB200 disaggregated profile (two TP4/EP4 prefill workers and one TP4 decode worker). Aggregated serving uses round-robin routing and accepts text, images, and video. Disaggregated serving uses KV-aware routing with worker KV events and Mooncake transfer over NVLink, and accepts text and images. All three profiles use NVFP4 weights, FP8 KV cache, EAGLE speculative decoding with ReplaySSM, and HiCache. A shared model-cache download pins revision &lt;code&gt;f46cf340d35a22d0d83d0c1dac8957cf2b1bcd35&lt;/code&gt;, and an AIPerf text-trace reference ships with the recipes (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15752&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15752/hovercard&quot;&gt;#15752&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16387&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16387/hovercard&quot;&gt;#16387&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Release Branch&lt;/strong&gt;: &lt;code&gt;release/1.6.0-glm-5.3-flash-dev.1&lt;/code&gt;, tip &lt;code&gt;6beb56900f9c83c3d7720432006ffc42d0c328c2&lt;/code&gt; (2026-10-14)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;SGLang&lt;/strong&gt;: &lt;code&gt;lmsysorg/sglang:v0.5.21-cu130-runtime&lt;/code&gt; (CUDA 13.0); disaggregated KV transfer uses Mooncake over NVLink&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Container Images&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Arch&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Image&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;SGLang (CUDA 13)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multi-arch (&lt;code&gt;amd64&lt;/code&gt; + &lt;code&gt;arm64&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/sglang-runtime:1.6.0-glm-5.3-flash-dev.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Backend Versions&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Source&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;CUDA&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Python&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;SGLang&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;lmsysorg/sglang:v0.5.21-cu130-runtime&lt;/code&gt;, source &lt;code&gt;e00930c5489053f26d86b179cee0d087f846acbb&lt;/code&gt;, with six upstream GLM-5.3-Flash backports and one local vision-encoder workaround&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Transformers 5.19.0; tokenizers 0.23.2; NIXL/UCX are not added to the CUDA runtime&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Model&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Precision&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;GPU&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;RadixArk/GLM-5.3-Flash-NVFP4&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NVFP4&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;4x B200 or 4x GB200 aggregated; 12x GB200 disaggregated&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;revision &lt;code&gt;f46cf340d35a22d0d83d0c1dac8957cf2b1bcd35&lt;/code&gt;; FP8 E4M3 KV; EAGLE ReplaySSM; text, image, and video on aggregated profiles&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;About GLM-5.3-Flash&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;GLM-5.3-Flash&lt;/strong&gt; is a Z.AI mixture-of-experts model (320B total parameters, 18B active) with hybrid sparse and linear attention and Manifold-Constrained Hyper-Connections. This preview serves the NVFP4 checkpoint &lt;code&gt;RadixArk/GLM-5.3-Flash-NVFP4&lt;/code&gt; through Dynamo&#39;s SGLang backend, aggregated on B200 or GB200 or disaggregated on GB200.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;SGLang Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GLM-5.3-Flash runtime:&lt;/strong&gt; Builds the CUDA SGLang image on &lt;code&gt;lmsysorg/sglang:v0.5.21-cu130-runtime&lt;/code&gt; and applies upstream backports for prefill/decode latency and retraction accounting, linear-attention hooks and cache accounting, PTX KDA safety and SM100 support, and Mamba slot cleanup before decode preallocation. A local patch disables cuDNN only around the GLM vision downsample convolution. Transformers 5.19.0 and tokenizers 0.23.2 are pinned so AutoProcessor registers &lt;code&gt;Glm5NextProcessor&lt;/code&gt; for image and video inputs (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15751&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15751/hovercard&quot;&gt;#15751&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Recipes&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GLM-5.3-Flash SGLang recipes:&lt;/strong&gt; Added &lt;code&gt;recipes/glm-5.3-flash/sglang&lt;/code&gt; — shared model-cache PVC and pinned Hugging Face download, B200 aggregated (&lt;code&gt;agg-b200-agentic&lt;/code&gt;, 1x TP4), GB200 aggregated (&lt;code&gt;agg-gb200-agentic&lt;/code&gt;, 1x TP4), and GB200 disaggregated (&lt;code&gt;disagg-gb200-agentic&lt;/code&gt;, 2 prefill TP4/EP4 + 1 decode TP4, Mooncake over NVLink) profiles, real EAGLE verification by default, and an AIPerf text-trace reference (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/6beb56900f9c83c3d7720432006ffc42d0c328c2/recipes/glm-5.3-flash&quot;&gt;recipe folder&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/6beb56900f9c83c3d7720432006ffc42d0c328c2/recipes/glm-5.3-flash/README.md&quot;&gt;README&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15752&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15752/hovercard&quot;&gt;#15752&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16387&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16387/hovercard&quot;&gt;#16387&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Deployment is Kubernetes-based (Dynamo Platform and &lt;code&gt;DynamoGraphDeployment&lt;/code&gt;). GB200 profiles also create a ComputeDomain and require the NVIDIA DRA driver. Full steps — namespace, &lt;code&gt;hf-token-secret&lt;/code&gt;, model-cache PVC, pinned Hugging Face download, Kustomize render, DGD apply, and a &lt;code&gt;/v1/chat/completions&lt;/code&gt; smoke test — are in the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/6beb56900f9c83c3d7720432006ffc42d0c328c2/recipes/glm-5.3-flash/README.md&quot;&gt;recipe README&lt;/a&gt;. The SGLang checkpoint is &lt;code&gt;RadixArk/GLM-5.3-Flash-NVFP4&lt;/code&gt; and is not the checkpoint used by the sibling vLLM recipes. Recipes expect registry credentials for &lt;code&gt;nvcr.io&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Known Issues / Limitations&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Experimental snapshot build — not QA-gated; not for production.&lt;/li&gt;
+&lt;li&gt;The disaggregated GB200 recipe accepts text and images only. Video input is available on the aggregated B200 and GB200 recipes.&lt;/li&gt;
+&lt;li&gt;Disaggregated GB200 workers must share one NVLink clique and require the ComputeDomain CRD and NVIDIA DRA driver.&lt;/li&gt;
+&lt;li&gt;Synthetic acceptance replaces real speculative verification and is for performance experiments only.&lt;/li&gt;
+&lt;li&gt;End-to-end multimodal generation with this rebuilt image has not been validated. The image build checks that the GLM image and video processors load.&lt;/li&gt;
+&lt;li&gt;Measured performance results are not included. The recipe ships an AIPerf text-trace job only.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content>
+    <author>
+      <name>ynpandey-nv</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/20666257?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/942206898/v1.5.0-motif-3-dev.2</id>
+    <updated>2026-10-14T05:11:54Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/ai-dynamo/dynamo/releases/tag/v1.5.0-motif-3-dev.2"/>
+    <title>Dynamo v1.5.0-motif-3-dev.2</title>
+    <content type="html">&lt;h1&gt;&lt;strong&gt;Release Notes&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dynamo v1.5.0-motif-3-dev.2&lt;/strong&gt; is an experimental snapshot build with early &lt;strong&gt;Motif-3 NVFP4&lt;/strong&gt; support on the Dynamo &lt;strong&gt;vLLM&lt;/strong&gt; backend. It is &lt;strong&gt;not recommended for production&lt;/strong&gt; and is not a QA-gated release. APIs, behavior, and defaults may change before stable support. Use it for evaluation, testing, and early feedback only.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamo v1.5.0-motif-3-dev.2 serves &lt;strong&gt;&lt;code&gt;Motif-Technologies/Motif-3-NVFP4&lt;/code&gt;&lt;/strong&gt; on Dynamo &lt;strong&gt;vLLM&lt;/strong&gt;. The amd64 CUDA 13.0 runtime is built on Motif&#39;s vLLM &lt;code&gt;v0.26.0-motif3&lt;/code&gt; base, with vLLM-Omni disabled, and installs NIXL v1.3.2. The image bakes in Motif NIXL compatibility fixes: KV-cache rank follows the attention backend&#39;s MLA flag (rank 3 for MLA, rank 4 otherwise), and Motif keeps its NHD cache layout (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16291&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16291/hovercard&quot;&gt;#16291&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Kubernetes recipes cover aggregated serving on two B200 GPUs and disaggregated 3P1D serving on eight B200 GPUs: three TP2 prefill workers and one TP2 decode worker, with KV-aware routing and NIXL transfer. Both profiles use expert parallelism, MTP2, an FP8 KV cache, a 262,144-token context, prefix caching, and a shared model cache. The 3P1D recipe from &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16314&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16314/hovercard&quot;&gt;#16314&lt;/a&gt; is on this branch in &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16392&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16392/hovercard&quot;&gt;#16392&lt;/a&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/b3132ac9f4757db523c79dc2f2066b52e0412848/recipes/motif-3&quot;&gt;recipe folder&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Base Branch&lt;/strong&gt;: &lt;code&gt;release/1.5.0&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Base Commit&lt;/strong&gt;: &lt;code&gt;f5802d355b59b5006c67a16c3ed1615cfcab5686&lt;/code&gt; (2026-08-18)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Preview Branch&lt;/strong&gt;: &lt;code&gt;release/1.5.0-motif-3-dev.2&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Preview Tip&lt;/strong&gt;: &lt;code&gt;b3132ac9f4757db523c79dc2f2066b52e0412848&lt;/code&gt; (2026-10-14)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;vLLM&lt;/strong&gt;: &lt;code&gt;ghcr.io/motiftechnologies/vllm:v0.26.0-motif3@sha256:c90d471174ec29a0f6c5ecba718a6905a4180be72f2c6d37ce9dad4d799fa836&lt;/code&gt; (CUDA 13.0), NIXL v1.3.2&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Container Images&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Arch&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Image&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM (CUDA 13.0)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;amd64&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/vllm-runtime:1.5.0-motif-3-dev.2&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Backend Versions&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Source&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;CUDA&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Python&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;ghcr.io/motiftechnologies/vllm:v0.26.0-motif3@sha256:c90d471174ec29a0f6c5ecba718a6905a4180be72f2c6d37ce9dad4d799fa836&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NIXL v1.3.2 (&lt;code&gt;nixl-cu13&lt;/code&gt;); vLLM-Omni disabled; Motif NIXL patch applied at build; amd64 only&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Model&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Precision&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;GPU&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;Motif-Technologies/Motif-3-NVFP4&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NVFP4 (&lt;code&gt;modelopt_nvfp4&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;2x B200&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;aggregated vLLM; TP2, expert parallelism, MTP2, FP8 KV cache, 262K context&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;Motif-Technologies/Motif-3-NVFP4&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NVFP4 (&lt;code&gt;modelopt_nvfp4&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;8x B200&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;disaggregated 3P1D; 3× TP2 prefill + 1× TP2 decode, KV-aware routing, NIXL transfer, MTP2, FP8 KV cache, 262K context&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;About Motif-3&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Motif-3 NVFP4&lt;/strong&gt; is Motif Technologies&#39; preview checkpoint published on Hugging Face as &lt;code&gt;Motif-Technologies/Motif-3-NVFP4&lt;/code&gt;. This build serves it through Dynamo&#39;s vLLM backend as either an aggregated two-GPU B200 deployment or an eight-GPU 3P1D deployment with KV-aware routing.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;vLLM Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Motif NIXL compatibility:&lt;/strong&gt; The runtime image patches the pinned Motif vLLM source during the build so workers can transfer KV cache without a writable source tree. Cache-rank checks use the attention backend&#39;s MLA flag, and Motif retains the NHD layout (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16291&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16291/hovercard&quot;&gt;#16291&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Recipes&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Motif-3 NVFP4 recipes:&lt;/strong&gt; &lt;code&gt;recipes/motif-3&lt;/code&gt; includes a shared model-cache PVC and Hugging Face download Job, an aggregated B200 chat profile, and a disaggregated 3P1D profile with KV-aware routing and NIXL transfer. Both default to real MTP2 verification. An optional synthetic acceptance length of 2.13 is available for benchmarking, including a concurrency-64 disaggregated run with a 32-request warmup (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/b3132ac9f4757db523c79dc2f2066b52e0412848/recipes/motif-3&quot;&gt;recipe folder&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/b3132ac9f4757db523c79dc2f2066b52e0412848/recipes/motif-3/README.md&quot;&gt;README&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16392&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16392/hovercard&quot;&gt;#16392&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16314&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16314/hovercard&quot;&gt;#16314&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Deployment is Kubernetes-based (Dynamo Platform + &lt;code&gt;DynamoGraphDeployment&lt;/code&gt;). Full steps — namespace, &lt;code&gt;hf-token-secret&lt;/code&gt;, model-cache PVC, download Job, aggregated or 3P1D apply, and a &lt;code&gt;/v1/chat/completions&lt;/code&gt; smoke test — are in the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/b3132ac9f4757db523c79dc2f2066b52e0412848/recipes/motif-3/README.md&quot;&gt;recipe README&lt;/a&gt; and the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/b3132ac9f4757db523c79dc2f2066b52e0412848/docs/fern/pages/recipes/model-recipes/motif-3.mdx&quot;&gt;Fern guide&lt;/a&gt;. The download Job is the only step that needs the Hugging Face token. For 3P1D, each TP2 worker occupies two GPUs on one node, and the fabric must allow NIXL/UCX transfer between nodes. Optional Nscale scheduling is a Kustomize component on the generic manifest.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Known Issues / Limitations&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Experimental snapshot build — not QA-gated; not for production.&lt;/li&gt;
+&lt;li&gt;The vLLM runtime image is amd64 only, and recipes reference it by tag rather than digest.&lt;/li&gt;
+&lt;li&gt;The runtime image carries Motif-specific vLLM compatibility code. Do not replace its vLLM package with an unrelated wheel.&lt;/li&gt;
+&lt;li&gt;Disaggregated serving is validated for TP2 on both prefill and decode. Other tensor-parallel sizes are unvalidated.&lt;/li&gt;
+&lt;li&gt;Shipped manifests use real MTP verification. Results measured with synthetic acceptance length 2.13 are a benchmark-only proxy and are not reproduced by the manifests as shipped.&lt;/li&gt;
+&lt;li&gt;In the reference aggregated chat trace, 35 requests exceed the 262,144-token context limit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content>
+    <author>
+      <name>ynpandey-nv</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/20666257?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/942206898/v1.6.0-minimax-m3-dev.1</id>
+    <updated>2026-10-12T18:28:55Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-minimax-m3-dev.1"/>
+    <title>Dynamo v1.6.0-minimax-m3-dev.1</title>
+    <content type="html">&lt;h1&gt;&lt;strong&gt;Release Notes&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dynamo v1.6.0-minimax-m3-dev.1&lt;/strong&gt; is an experimental snapshot build with early &lt;strong&gt;MiniMax M3&lt;/strong&gt; support on the Dynamo &lt;strong&gt;vLLM&lt;/strong&gt; backend. It is &lt;strong&gt;not recommended for production&lt;/strong&gt; and is not a QA-gated release. APIs, behavior, and defaults may change before stable support. Use it for evaluation, testing, and early feedback only.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamo v1.6.0-minimax-m3-dev.1 serves &lt;strong&gt;&lt;code&gt;nvidia/MiniMax-M3-NVFP4&lt;/code&gt;&lt;/strong&gt; on Dynamo &lt;strong&gt;vLLM&lt;/strong&gt;. The published container is built from pinned vLLM nightly &lt;code&gt;8a728663c1c3&lt;/code&gt; (CUDA 13) and includes the MiniMax M3 reasoning and structured-output parser, a GB200-safe vision patch embedding, and KV-offload fixes for EAGLE/MTP. vLLM-Omni is excluded from this image. Prefill load accounting charges only GPU compute, and finalized VP9/WebM inputs can be decoded when duration is stored on the container rather than the stream (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/14856&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14856/hovercard&quot;&gt;#14856&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Kubernetes recipes serve the same checkpoint on GB200 with tensor parallelism 4, FP8 KV cache, real EAGLE3 verification, KV-aware routing, and a one-million-token context. The aggregated profile uses 12 GPUs and 400 GB of CPU KV offload per replica. The disaggregated profile uses 24 GPUs and transfers KV from prefill to decode with NIXL. Both profiles share a model-cache download for the target and &lt;code&gt;Inferact/MiniMax-M3-EAGLE3-GQA&lt;/code&gt; draft, and a perf/trace reference ships with the recipes (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15096&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15096/hovercard&quot;&gt;#15096&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16043&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16043/hovercard&quot;&gt;#16043&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Release Branch&lt;/strong&gt;: &lt;code&gt;release/1.6.0-minimax-m3-dev.1&lt;/code&gt;, tip &lt;code&gt;1cf43bce3fc865a14dcd8f9bb857f6b726617ed0&lt;/code&gt; (2026-10-09)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;vLLM&lt;/strong&gt;: nightly &lt;code&gt;8a728663c1c3&lt;/code&gt; (CUDA 13), NIXL v1.3.2&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Container Images&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Arch&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Image&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM (CUDA 13)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multi-arch (&lt;code&gt;amd64&lt;/code&gt; + &lt;code&gt;arm64&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/vllm-runtime:1.6.0-minimax-m3-dev.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Backend Versions&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Source&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;CUDA&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Python&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on pinned nightly &lt;code&gt;vllm-nightly-8a728663c1c3&lt;/code&gt;, with MiniMax M3 reasoning, vision, and KV-offload patches&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NIXL v1.3.2; Transformers 5.14.1; tokenizers 0.22.2; vLLM-Omni excluded&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Model&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Precision&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;GPU&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvidia/MiniMax-M3-NVFP4&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NVFP4&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;12x GB200 aggregated, 24x GB200 disaggregated&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;target checkpoint, revision &lt;code&gt;901464083161bf8612a29ff7ad29914cd4ab4a85&lt;/code&gt;; FP8 KV; up to 1M context; multimodal input enabled&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;Inferact/MiniMax-M3-EAGLE3-GQA&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;with both profiles&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;EAGLE3 draft, revision &lt;code&gt;96692486b5fd38ebf8fd2a5f6bb53427d30819a8&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;About MiniMax M3&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;MiniMax M3&lt;/strong&gt; is served in this preview as &lt;code&gt;nvidia/MiniMax-M3-NVFP4&lt;/code&gt; (NVFP4) through Dynamo&#39;s vLLM backend on GB200, with aggregated or prefill/decode disaggregated workers, EAGLE3 speculative decoding, and KV-aware routing.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;vLLM Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MiniMax M3 runtime:&lt;/strong&gt; Pins the CUDA 13 vLLM runtime to nightly &lt;code&gt;8a728663c1c3&lt;/code&gt; and applies the MiniMax M3 reasoning/structured-output parser, the vision-tower patch embedding used on GB200, and KV-offload fixes that keep the final sampled token out of the prefix cache and preserve EAGLE/MTP offload hits. vLLM-Omni is not installed (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/14856&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14856/hovercard&quot;&gt;#14856&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Routing and media decode:&lt;/strong&gt; Prefill load accounting counts only tokens that still need GPU compute, including when KV is already resident on host or disk. Finalized VP9/WebM inputs decode when duration is present on the container and missing from the video stream (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/14856&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14856/hovercard&quot;&gt;#14856&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Recipes&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MiniMax M3 recipes:&lt;/strong&gt; Added &lt;code&gt;recipes/minimax-m3&lt;/code&gt; — shared model-cache PVC and pinned Hugging Face download, vLLM aggregated (&lt;code&gt;agg-gb200-agentic&lt;/code&gt;, 3x TP4, 400 GB CPU KV offload per replica) and disaggregated (&lt;code&gt;disagg-gb200-agentic&lt;/code&gt;, 3 prefill + 3 decode TP4, NIXL transfer) GB200 profiles, real EAGLE3 verification by default, and a perf/trace reference (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/1cf43bce3fc865a14dcd8f9bb857f6b726617ed0/recipes/minimax-m3&quot;&gt;recipe folder&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/1cf43bce3fc865a14dcd8f9bb857f6b726617ed0/recipes/minimax-m3/README.md&quot;&gt;README&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15096&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15096/hovercard&quot;&gt;#15096&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/16043&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/16043/hovercard&quot;&gt;#16043&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Deployment is Kubernetes-based (Dynamo Platform, ComputeDomain, the NVIDIA DRA driver, and &lt;code&gt;DynamoGraphDeployment&lt;/code&gt;). Full steps — namespace, &lt;code&gt;hf-token-secret&lt;/code&gt;, model-cache PVC, Hugging Face download of the target and EAGLE3 draft, cluster Kustomize render, DGD apply, and a &lt;code&gt;/v1/chat/completions&lt;/code&gt; smoke test — are in the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/1cf43bce3fc865a14dcd8f9bb857f6b726617ed0/recipes/minimax-m3/README.md&quot;&gt;recipe README&lt;/a&gt;. The token needs access to &lt;code&gt;nvidia/MiniMax-M3-NVFP4&lt;/code&gt; and &lt;code&gt;Inferact/MiniMax-M3-EAGLE3-GQA&lt;/code&gt;. Recipes expect registry credentials for &lt;code&gt;nvcr.io&lt;/code&gt; and a Hugging Face token secret named &lt;code&gt;hf-token-secret&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Known Issues / Limitations&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Experimental snapshot build — not QA-gated; not for production.&lt;/li&gt;
+&lt;li&gt;This image does not include vLLM-Omni.&lt;/li&gt;
+&lt;li&gt;Recipes in this build are vLLM on GB200 only.&lt;/li&gt;
+&lt;li&gt;Disaggregated workers must share a compatible NVLink domain.&lt;/li&gt;
+&lt;li&gt;The synthetic-acceptance benchmark option bypasses real EAGLE3 verification. Use it only for controlled performance experiments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content>
+    <author>
+      <name>nv-nmailhot</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/219894992?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/942206898/v1.6.0-deepseek-v4.1-flash-dev.2</id>
+    <updated>2026-10-08T23:42:32Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/ai-dynamo/dynamo/releases/tag/v1.6.0-deepseek-v4.1-flash-dev.2"/>
+    <title>Dynamo v1.6.0-deepseek-v4.1-flash-dev.2</title>
+    <content type="html">&lt;h1&gt;&lt;strong&gt;Release Notes&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dynamo v1.6.0-deepseek-v4.1-flash-dev.2&lt;/strong&gt; is an experimental snapshot build with early &lt;strong&gt;DeepSeek-V4.1-Flash&lt;/strong&gt; support on the Dynamo &lt;strong&gt;vLLM&lt;/strong&gt; backend. It is &lt;strong&gt;not recommended for production&lt;/strong&gt; and is not a QA-gated release. APIs, behavior, and defaults may change before stable support. Use it for evaluation, testing, and early feedback only.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamo v1.6.0-deepseek-v4.1-flash-dev.2 adds serving for &lt;strong&gt;&lt;code&gt;deepseek-ai/DeepSeek-V4.1-Flash&lt;/code&gt;&lt;/strong&gt; on Dynamo &lt;strong&gt;vLLM&lt;/strong&gt;. The published container is built from multi-arch &lt;code&gt;vllm/vllm-openai:v0.31.0&lt;/code&gt; (CUDA 13.0.2, source &lt;code&gt;db9527a46873454610df6dbedf79a36d6bf1a7f6&lt;/code&gt;) and carries NIXL transfer patches that advance the connector protocol to 14. vLLM Omni is disabled in this image (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15532&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15532/hovercard&quot;&gt;#15532&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Kubernetes recipes cover aggregated and 1P1D disaggregated vLLM profiles on B200, GB200, and H200. B200 and GB200 use eight GPUs with MXFP4 sparse-indexer KV, sparse-indexer logits, and &lt;code&gt;deep_gemm_mega_moe&lt;/code&gt;. H200 uses 16 GPUs for aggregated serving or eight for disaggregated serving, with CUTLASS MoE. Every vLLM profile uses expert parallelism, expert load balancing, KV-aware routing, and DSpark with three draft tokens. Disaggregated profiles transfer KV over NIXL/UCX. The shared model-cache download pins Hugging Face revision &lt;code&gt;dba1be0a40aa45a94ad051997016db3960a90277&lt;/code&gt;, and measured agentic results ship with the recipes (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15941&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15941/hovercard&quot;&gt;#15941&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Release Branch&lt;/strong&gt;: &lt;code&gt;release/1.6.0-deepseek-v4.1-flash-dev.2&lt;/code&gt;, tip &lt;code&gt;a201d5bd608e67a3c1def7eebace3201e6de0000&lt;/code&gt; (2026-10-08)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;vLLM&lt;/strong&gt;: &lt;code&gt;v0.31.0&lt;/code&gt; (&lt;code&gt;vllm/vllm-openai&lt;/code&gt;, digest &lt;code&gt;sha256:c1c9f6fd5c109ba7f0546a59f5b2f15fb87f64c77782e90a27b648b42a8e67c3&lt;/code&gt;), NIXL v1.3.2 (connector protocol 14)&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Container Images&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Arch&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Image&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM (CUDA 13.0.2)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multi-arch (&lt;code&gt;amd64&lt;/code&gt; + &lt;code&gt;arm64&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/vllm-runtime:1.6.0-deepseek-v4.1-flash-dev.2&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Backend Versions&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Source&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;CUDA&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Python&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;vllm/vllm-openai:v0.31.0&lt;/code&gt;, with NIXL telemetry, region-dedup, and piecewise-prefix patches&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0.2&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NIXL v1.3.2; connector protocol 14; vLLM Omni disabled&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Model&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Precision&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;GPU&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;deepseek-ai/DeepSeek-V4.1-Flash&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;MXFP4 experts; B200/GB200 sparse-indexer KV and sparse-indexer logits; H200 CUTLASS MoE&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;8x B200, 8x GB200, 16x H200 aggregated, 8x H200 disaggregated&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;deepseek_v41&lt;/code&gt; reasoning and tool-call parsers; DSpark-3; up to 1,048,576-token context; text serving&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;About DeepSeek-V4.1-Flash&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;DeepSeek-V4.1-Flash&lt;/strong&gt; is a Mixture-of-Experts checkpoint from DeepSeek (&lt;code&gt;deepseek-ai/DeepSeek-V4.1-Flash&lt;/code&gt;). This preview serves it through Dynamo&#39;s vLLM backend, with aggregated or 1P1D disaggregated workers, DSpark speculative decoding, and KV-aware routing on B200, GB200, and H200.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;vLLM Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Patched vLLM 0.31.0 runtime:&lt;/strong&gt; Pins the CUDA 13 vLLM runtime to multi-arch &lt;code&gt;v0.31.0&lt;/code&gt; and applies the NIXL telemetry, region-dedup, and piecewise-prefix patches so workers in this image use connector protocol 14. vLLM Omni stays disabled (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15532&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15532/hovercard&quot;&gt;#15532&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Recipes&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DeepSeek-V4.1-Flash vLLM recipes:&lt;/strong&gt; Added aggregated and 1P1D disaggregated Kustomize profiles for B200 (8 GPU), GB200 (8 GPU), and H200 (16 GPU aggregated, 8 GPU disaggregated). Profiles use expert parallelism, EPLB, KV-aware routing, and DSpark-3. Disaggregated KV transfer uses NIXL/UCX (InfiniBand on B200 and H200; one NVLink clique on GB200). Includes the shared model-cache download, agentic benchmark job, and deployment guide (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/a201d5bd608e67a3c1def7eebace3201e6de0000/recipes/deepseek-v4.1-flash&quot;&gt;recipe folder&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/a201d5bd608e67a3c1def7eebace3201e6de0000/docs/fern/pages/recipes/model-recipes/deepseek-v4-1-flash.mdx&quot;&gt;docs&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/a201d5bd608e67a3c1def7eebace3201e6de0000/recipes/deepseek-v4.1-flash/perf/README.md&quot;&gt;benchmarks&lt;/a&gt;) (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15941&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15941/hovercard&quot;&gt;#15941&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Deployment is Kubernetes-based (Dynamo Platform + &lt;code&gt;DynamoGraphDeployment&lt;/code&gt;). Full steps — namespace, model-cache PVC, Hugging Face download job pinned to revision &lt;code&gt;dba1be0a40aa45a94ad051997016db3960a90277&lt;/code&gt;, Kustomize render, DGD apply, and a &lt;code&gt;/v1/chat/completions&lt;/code&gt; smoke test — are in the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/a201d5bd608e67a3c1def7eebace3201e6de0000/docs/fern/pages/recipes/model-recipes/deepseek-v4-1-flash.mdx&quot;&gt;recipe docs&lt;/a&gt;. Recipes expect an &lt;code&gt;nvcr.io&lt;/code&gt; image-pull secret, a Hugging Face token secret named &lt;code&gt;hf-token-secret&lt;/code&gt;, and Kustomize v5.8.1. GB200 workers schedule on ARM64 nodes; B200 and H200 workers schedule on AMD64 nodes.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Known Issues / Limitations&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a branch-specific snapshot build, not a QA-gated stable release.&lt;/li&gt;
+&lt;li&gt;Workers in this runtime image use NIXL connector protocol 14. CUDA dev and local-dev images stay on protocol 13; do not mix them in one KV transfer.&lt;/li&gt;
+&lt;li&gt;GB200 disaggregated workers must share one NVLink clique.&lt;/li&gt;
+&lt;li&gt;H200 disaggregated serving places prefill and decode on separate RDMA-capable nodes and selects NICs from the &lt;code&gt;rdma/ib&lt;/code&gt; device plugin. Do not set a static &lt;code&gt;UCX_NET_DEVICES&lt;/code&gt; value.&lt;/li&gt;
+&lt;li&gt;B200 and GB200 disaggregated recipes still need the cluster&#39;s RDMA device and interface settings in the Kustomization.&lt;/li&gt;
+&lt;li&gt;SGLang profiles in &lt;code&gt;recipes/deepseek-v4.1-flash&lt;/code&gt; still use &lt;code&gt;sglang-runtime:1.6.0-deepseek-v4.1-flash-dev.1&lt;/code&gt;. They are not served by this vLLM image.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content>
+    <author>
+      <name>ynpandey-nv</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/20666257?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/942206898/v1.5.0-kimi-k3-post.1</id>
+    <updated>2026-10-08T20:14:58Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/ai-dynamo/dynamo/releases/tag/v1.5.0-kimi-k3-post.1"/>
+    <title>Dynamo v1.5.0-kimi-k3-post.1</title>
+    <content type="html">&lt;h1&gt;&lt;strong&gt;Release Notes&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dynamo v1.5.0-kimi-k3-post.1&lt;/strong&gt; is an experimental snapshot build with &lt;strong&gt;Kimi-K3&lt;/strong&gt; support on the Dynamo &lt;strong&gt;SGLang&lt;/strong&gt; backend. It is &lt;strong&gt;not recommended for production&lt;/strong&gt; and is not a QA-gated release. APIs, behavior, and defaults may change before stable support. Use it for evaluation, testing, and early feedback only.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamo v1.5.0-kimi-k3-post.1 serves &lt;strong&gt;&lt;code&gt;moonshotai/Kimi-K3&lt;/code&gt;&lt;/strong&gt; from an SGLang runtime built on Dynamo 1.5.1 and SGLang &lt;code&gt;v0.5.18&lt;/code&gt;. The image includes the two Kimi-K3 fixes that base still needs: DCP prefill/decode with DSpark draft-KV transfer, and the SM100 MoonViT cuDNN guard for image encode (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15657&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15657/hovercard&quot;&gt;#15657&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;GB300 SGLang recipes run that image. Aggregated serving uses two workers (16x GB300, DCP8 attention, TP8 MoE) with load-aware routing and DSpark. Disaggregated serving is 1P1D (16x GB300; prefill TEP8, decode DCP8 attention and TEP8 MoE) with Mooncake KV transfer over NVLink. Workers set &lt;code&gt;SGLANG_FORCE_COARSE_WAR_BARRIER=1&lt;/code&gt;. The recipe includes a shared model cache and an AIPerf replay of the 64K-ISL / 400-OSL / 90% KV-reuse agentic trace (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15658&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15658/hovercard&quot;&gt;#15658&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15919&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15919/hovercard&quot;&gt;#15919&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Release Branch&lt;/strong&gt;: &lt;code&gt;release/1.5.0-kimi-k3-post.1&lt;/code&gt;, tip &lt;code&gt;a0dcfbf6d3aa788e8dba806189f1611d9293a52f&lt;/code&gt; (2026-10-08)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;SGLang image commit&lt;/strong&gt;: &lt;code&gt;22031aba1fb33524370a26150e9fd7a7751d9fef&lt;/code&gt; on &lt;code&gt;release/1.5.1-kimi-k3-post.1&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;SGLang&lt;/strong&gt;: &lt;code&gt;lmsysorg/sglang:v0.5.18-cu130-runtime&lt;/code&gt; (CUDA 13.0)&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Container Images&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Arch&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Image&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;SGLang (CUDA 13)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multi-arch (&lt;code&gt;amd64&lt;/code&gt; + &lt;code&gt;arm64&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/sglang-runtime:1.5.1-kimi-k3-post.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Backend Versions&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Source&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;CUDA&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Python&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;SGLang&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;lmsysorg/sglang:v0.5.18-cu130-runtime&lt;/code&gt; with the Kimi-K3 DCP/DSpark and SM100 MoonViT patches&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Disaggregated KV transfer uses Mooncake; DSpark draft is &lt;code&gt;RadixArk/Kimi-K3-DSpark&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Model&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Precision&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;GPU&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;moonshotai/Kimi-K3&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;MXFP4 experts, FP8 KV cache&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;GB300&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;multimodal (text + image) MoE, up to 1M-token context; &lt;code&gt;kimi_k3&lt;/code&gt; reasoning and tool-call parsers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;About Kimi-K3&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://huggingface.co/moonshotai/Kimi-K3&quot; rel=&quot;nofollow&quot;&gt;Kimi-K3&lt;/a&gt; is Moonshot AI&#39;s hybrid-attention mixture-of-experts model with multimodal (text + image) support and up to 1M-token context. This preview serves it through Dynamo&#39;s SGLang backend with aggregated and 1P1D disaggregated agentic recipes on GB300, using DSpark speculative decoding.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;SGLang Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Kimi-K3 runtime on SGLang v0.5.18:&lt;/strong&gt; The published runtime is Dynamo 1.5.1 SGLang with two baked-in fixes: DCP prefill/decode plus DSpark draft-KV transfer, and a MoonViT cuDNN guard so SM100 image encode does not crash. The image build checks the patched files against the benchmarked hashes (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15657&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15657/hovercard&quot;&gt;#15657&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Recipes&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GB300 SGLang recipes on the post.1 image:&lt;/strong&gt; Aggregated serving is two TP8/DCP8 workers (16x GB300) with load-aware routing, prefix caching, and DSpark. Disaggregated serving is 1P1D (16x GB300) with Mooncake KV transfer over MNNVL and the same DSpark draft. Workers set &lt;code&gt;SGLANG_FORCE_COARSE_WAR_BARRIER=1&lt;/code&gt;. Context length is 1,048,576. The perf job replays the agentic Mooncake trace; the published GB300 figures use synthetic acceptance length 4.05 (aggregated: 91.3 output tok/s/GPU, 55.6 user tok/s P50, TTFT P50 486 ms at concurrency 36; 1P1D: 62.0 output tok/s/GPU, 77.6 user tok/s P50, TTFT P50 4,793 ms at concurrency 18) (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/a0dcfbf6d3aa788e8dba806189f1611d9293a52f/recipes/kimi-k3&quot;&gt;recipe folder&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/a0dcfbf6d3aa788e8dba806189f1611d9293a52f/docs/fern/pages/recipes/model-recipes/kimi-k3.mdx&quot;&gt;docs&lt;/a&gt;) (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15658&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15658/hovercard&quot;&gt;#15658&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15919&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15919/hovercard&quot;&gt;#15919&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Deployment is Kubernetes-based (Dynamo Platform + &lt;code&gt;DynamoGraphDeployment&lt;/code&gt;). Use the GB300 SGLang manifests under &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/a0dcfbf6d3aa788e8dba806189f1611d9293a52f/recipes/kimi-k3/sglang&quot;&gt;recipes/kimi-k3/sglang&lt;/a&gt;: create the namespace, Hugging Face token secret &lt;code&gt;hf-token-secret&lt;/code&gt;, and &lt;code&gt;nvcr.io&lt;/code&gt; pull secret, populate the shared model cache, apply the aggregated or disaggregated manifest, and smoke-test &lt;code&gt;/v1/chat/completions&lt;/code&gt; with model &lt;code&gt;moonshotai/Kimi-K3&lt;/code&gt;. Benchmark steps are in the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/a0dcfbf6d3aa788e8dba806189f1611d9293a52f/recipes/kimi-k3/perf/README.md&quot;&gt;perf README&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Known Issues / Limitations&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This is a branch-specific snapshot build, not a QA-gated stable release.&lt;/li&gt;
+&lt;li&gt;This snapshot publishes an SGLang image only. vLLM manifests on the branch still reference &lt;code&gt;nvcr.io/nvidia/ai-dynamo/vllm-runtime:1.4.0-kimi-k3-dev.1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;SGLang manifests on this branch are GB300-only (aggregated 16x and disaggregated 1P1D 16x). There is no H200 SGLang profile.&lt;/li&gt;
+&lt;li&gt;The GB300 tok/s figures above use synthetic speculative acceptance (&lt;code&gt;acc_len&lt;/code&gt; 4.05). They are not real DSpark verification results. The serving manifests default to real DSpark; synthetic acceptance is a benchmark-only setting.&lt;/li&gt;
+&lt;li&gt;During a long prefill, the canary health check (&lt;code&gt;DYN_HEALTH_CHECK_REQUEST_TIMEOUT&lt;/code&gt;, 3 seconds) can fail and Kubernetes can restart a busy worker. If the worker log shows &lt;code&gt;Health check timeout for&lt;/code&gt; on &lt;code&gt;generate&lt;/code&gt;, set &lt;code&gt;DYN_HEALTH_CHECK_ENABLED=false&lt;/code&gt; on each SGLang worker.&lt;/li&gt;
+&lt;li&gt;Requests containing &lt;code&gt;logprobs&lt;/code&gt; or &lt;code&gt;stop_token_ids&lt;/code&gt; are not supported and may cause disaggregated recipes to crash or enter a bad state.&lt;/li&gt;
+&lt;li&gt;With JSON structured decoding, output for non-object top-level items can appear in &lt;code&gt;reasoning_content&lt;/code&gt; instead of &lt;code&gt;content&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content>
+    <author>
+      <name>ynpandey-nv</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/20666257?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/942206898/v1.5.1</id>
+    <updated>2026-10-07T01:54:13Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/ai-dynamo/dynamo/releases/tag/v1.5.1"/>
+    <title>Dynamo v1.5.1</title>
+    <content type="html">&lt;h1&gt;&lt;strong&gt;Dynamo v1.5.1 - Release Notes&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamo v1.5.1 is a patch release on top of &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/releases/tag/v1.5.0&quot;&gt;v1.5.0&lt;/a&gt;. It fixes &lt;strong&gt;Dynamo Router overload recovery&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;min_tokens&lt;/code&gt; on tokenizer-free SGLang decode workers&lt;/strong&gt;, &lt;strong&gt;Qwen3-VL video routing across mixed workers&lt;/strong&gt;, and &lt;strong&gt;reinforcement learning worker discovery on Kubernetes&lt;/strong&gt;. It bounds &lt;strong&gt;client-supplied multimodal input&lt;/strong&gt; (inline &lt;code&gt;data:&lt;/code&gt; URL size, remote media downloads, image dimensions, and base64 audio) across the SGLang, TensorRT-LLM, vLLM, and vLLM-Omni paths, and moves all media fetching onto a single aiohttp client. It also upgrades the frontend runtime libraries to fix &lt;strong&gt;Anthropic Messages API requests from Claude Code&lt;/strong&gt; against strict chat templates, moves ModelExpress to v0.6.0, pins PyNvVideoCodec at 2.2.3, and moves the in-tree FFmpeg build to 9.0.1.&lt;/p&gt;
+&lt;p&gt;Two changes need action on upgrade. See &lt;strong&gt;Breaking Changes&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Base Branch&lt;/strong&gt;: &lt;code&gt;release/1.5.1&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Breaking Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Egress Proxy Opt-In:&lt;/strong&gt; Workers that fetch request media through an ambient HTTP proxy must now set &lt;code&gt;DYN_MM_TRUST_EGRESS_PROXY=1&lt;/code&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/14474&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14474/hovercard&quot;&gt;#14474&lt;/a&gt;). Without it, a policy-checked media fetch that would route through a proxy is refused, because the proxy resolves the destination outside Dynamo&#39;s address check. Fetches that go direct, including hosts listed in &lt;code&gt;NO_PROXY&lt;/code&gt;, are unaffected, and the check does not run under &lt;code&gt;DYN_MM_ALLOW_INTERNAL=1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SGLang Diffusion Local References:&lt;/strong&gt; Local image and video files passed as &lt;code&gt;input_reference&lt;/code&gt; to SGLang image-diffusion and video-generation workers now require &lt;code&gt;DYN_MM_LOCAL_PATH&lt;/code&gt; to name the allowed directory (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/14435&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14435/hovercard&quot;&gt;#14435&lt;/a&gt;). Previously any local path was accepted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Bug Fixes&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Router Overload Hint Expiry:&lt;/strong&gt; Fixed a Dynamo Router condition where a worker that rejected requests for lack of capacity stayed marked overloaded after the pressure ended, so clients kept receiving HTTP 529 from an idle worker (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5327287390&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14210&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14210/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14210&quot;&gt;#14210&lt;/a&gt;). Overload hints raised on the request path now expire after one second, while overload state reported by the worker monitor stays independent, so a drained worker returns to rotation without a restart.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SGLang Tokenizer-Free Min Tokens:&lt;/strong&gt; Fixed requests with a positive &lt;code&gt;min_tokens&lt;/code&gt; failing on SGLang decode workers started with &lt;code&gt;skip_tokenizer_init&lt;/code&gt;, where SGLang rejects the &lt;code&gt;min_new_tokens&lt;/code&gt; field (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5340230535&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14276&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14276/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14276&quot;&gt;#14276&lt;/a&gt;). Dynamo now enforces the minimum itself on that path, and cancellation or early stream closure aborts every unfinished choice in multi-choice (&lt;code&gt;n&lt;/code&gt;) requests. Requests without &lt;code&gt;min_tokens&lt;/code&gt; and workers that keep a tokenizer are unchanged.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Split Stop-Sequence Leak:&lt;/strong&gt; Fixed hidden stop sequences that arrive split across several decode steps leaking their leading fragments into client output (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5358967864&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14378&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14378/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14378&quot;&gt;#14378&lt;/a&gt;). The decoder now holds back text that could still complete a stop sequence and releases it only once it cannot match, or when the engine finishes on its own, for example at &lt;code&gt;max_tokens&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Qwen3-VL Video Contract Agreement:&lt;/strong&gt; Fixed a Qwen3-VL deployment serving video with a prompt-expansion contract that only some of its workers publish (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5415309304&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14624&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14624/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14624&quot;&gt;#14624&lt;/a&gt;). Replicas with different installed packages or engine flags can publish different video contracts; when the workers in a group disagree, Dynamo now disables exact video routing for that group while text serving continues, and keeps the existing group serving until a rebuilt one commits.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sidecar Worker Namespace Suffix:&lt;/strong&gt; Fixed vLLM sidecar and mocker workers registering under the base namespace while reinforcement learning discovery on Kubernetes searched the suffixed one, so RL workloads could not find their workers (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5479327786&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14955&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14955/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14955&quot;&gt;#14955&lt;/a&gt;). Worker registration now applies &lt;code&gt;DYN_NAMESPACE_WORKER_SUFFIX&lt;/code&gt; at most once, which keeps operator-upgraded workloads whose &lt;code&gt;DYN_NAMESPACE&lt;/code&gt; already carries the suffix working, and an explicit command-line namespace still takes precedence.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GPU Memory Service Admission Timeout:&lt;/strong&gt; Fixed the vLLM GPU Memory Service worker ignoring a configured &lt;code&gt;gms_ro_connect_timeout_ms&lt;/code&gt; during its initial weights load, which could leave startup waiting indefinitely behind lock contention (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5466750118&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14877&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14877/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14877&quot;&gt;#14877&lt;/a&gt;). Deployments that do not set the timeout keep the existing unbounded wait.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inline Data URL Size Cap:&lt;/strong&gt; Added a size cap on inline &lt;code&gt;data:&lt;/code&gt; media URLs, enforced by both the frontend and the workers (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5380397334&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14437&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14437/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14437&quot;&gt;#14437&lt;/a&gt;). A &lt;code&gt;data:&lt;/code&gt; URL larger than &lt;code&gt;DYN_MM_MAX_DATA_URL_MB&lt;/code&gt; (default 16 MiB) now returns HTTP 400 with a message naming the variable, where before any size was accepted. To raise the limit, set the variable on both the frontend and the workers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SGLang Diffusion Input References:&lt;/strong&gt; Fixed SGLang image-diffusion and video-generation workers handing a client-supplied &lt;code&gt;input_reference&lt;/code&gt; to the generator after only a non-empty check (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5380322309&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14435&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14435/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14435&quot;&gt;#14435&lt;/a&gt;). Dynamo now validates the reference and downloads a remote one to a temporary local file first, capped by &lt;code&gt;DYN_MM_MAX_FILE_SIZE_MB&lt;/code&gt; (default 64 MiB), which matches the vLLM-Omni and TensorRT-LLM workers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;vLLM-Omni Input Validation:&lt;/strong&gt; Fixed non-numeric or out-of-range image &lt;code&gt;width&lt;/code&gt; and &lt;code&gt;height&lt;/code&gt; values and malformed base64 audio crashing the vLLM-Omni worker or ending a realtime session (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5380375531&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14436&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14436/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14436&quot;&gt;#14436&lt;/a&gt;). Image dimensions outside 1 to 4096 are now rejected with a clear error, an unusable realtime audio chunk emits an &lt;code&gt;invalid_audio&lt;/code&gt; error event instead of closing the connection, and percent-encoded &lt;code&gt;data:&lt;/code&gt; reference audio for text-to-speech now decodes correctly instead of producing corrupted audio.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Fetch Address Pinning:&lt;/strong&gt; Fixed media fetches resolving a hostname once to validate it and again to connect, so a server that answered differently the second time was checked on one address and dialed on another (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5388237207&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14474&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14474/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14474&quot;&gt;#14474&lt;/a&gt;). The Python workers and the Rust frontend now connect only to the addresses that passed validation, while TLS still verifies the original hostname.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Single aiohttp HTTP Backend:&lt;/strong&gt; Removed the opt-in httpx backend from Dynamo&#39;s HTTP client, leaving aiohttp as the only backend (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5405531726&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14563&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14563/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14563&quot;&gt;#14563&lt;/a&gt;). Setting &lt;code&gt;DYN_HTTP_BACKEND=httpx&lt;/code&gt; now logs a warning and uses aiohttp. The TensorRT-LLM multimodal processor&#39;s remote &lt;code&gt;.safetensors&lt;/code&gt; download now streams asynchronously, so it no longer blocks the event loop for up to the 300-second download timeout.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Dependency Changes&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frontend Runtime Libraries:&lt;/strong&gt; Upgraded &lt;code&gt;dynamo-renderer&lt;/code&gt; to v5.1.2 and &lt;code&gt;dynamo-tokenizers&lt;/code&gt; to v1.8.1, fixing Anthropic Messages API failures when Claude Code sends a non-leading system message to a model whose chat template requires system content first (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5406732075&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14595&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14595/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14595&quot;&gt;#14595&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DeepSeek V4 Reasoning Effort:&lt;/strong&gt; The renderer now defaults an omitted or invalid reasoning effort to &lt;code&gt;high&lt;/code&gt;, treats &lt;code&gt;none&lt;/code&gt; as thinking disabled, and lets a top-level &lt;code&gt;reasoning_effort&lt;/code&gt; override the template argument (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5406732075&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14595&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14595/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14595&quot;&gt;#14595&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenAI Response Fields:&lt;/strong&gt; Upgraded &lt;code&gt;dynamo-protocols&lt;/code&gt; to v5.4.1, so &lt;code&gt;/v1/chat/completions&lt;/code&gt; responses omit absent optional fields such as &lt;code&gt;usage&lt;/code&gt; instead of returning &lt;code&gt;null&lt;/code&gt; (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5318628594&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14154&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14154/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14154&quot;&gt;#14154&lt;/a&gt;). Client code that indexes raw response dictionaries should check for those keys.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ModelExpress:&lt;/strong&gt; Upgraded ModelExpress to v0.6.0 in the SGLang and vLLM runtime images (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5493386742&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/15026&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15026/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/15026&quot;&gt;#15026&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PyNvVideoCodec and FFmpeg:&lt;/strong&gt; Pinned PyNvVideoCodec at 2.2.3 in the runtime images and moved the in-tree FFmpeg build to 9.0.1 (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5470819217&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14925&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14925/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14925&quot;&gt;#14925&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frontend aiohttp:&lt;/strong&gt; Raised aiohttp in the Frontend image to 3.14.4, matching the other images (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5719493506&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/15676&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15676/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/15676&quot;&gt;#15676&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Documentation&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Migration After Shutdown Grace:&lt;/strong&gt; Clarified across the fault-tolerance guides that requests can finish during the shutdown grace period, that unfinished requests are cancelled when it expires, and that they can migrate to another worker when migration is enabled and the request allows it, with configuration guidance for rolling upgrades and scale-downs (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5466311140&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14872&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14872/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14872&quot;&gt;#14872&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stale Documentation Links:&lt;/strong&gt; Repaired documentation links that pointed at moved pages on &lt;code&gt;main&lt;/code&gt; and returned 404 (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5613334124&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/15308&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15308/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/15308&quot;&gt;#15308&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Agent Skills Tab:&lt;/strong&gt; Moved Agent Skills from a single Reference page into its own documentation tab, with an overview and one page per skill category, and listed all 27 skills (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;5317974399&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/ai-dynamo/dynamo/issues/14146&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/14146/hovercard&quot; href=&quot;https://github.com/ai-dynamo/dynamo/pull/14146&quot;&gt;#14146&lt;/a&gt;). The old Reference URL redirects to the new overview.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Key Dependencies&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Backend runtime versions are unchanged from v1.5.0:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;Dynamo&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;SGLang&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;TensorRT-LLM&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;vLLM&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;NIXL&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;UCX&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;v1.5.1&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;v0.5.18&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;v1.3.0rc25&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;v0.28.0&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;v1.4.0&lt;/code&gt; (SGLang) / &lt;code&gt;v1.3.1&lt;/code&gt; (TensorRT-LLM) / &lt;code&gt;v1.3.2&lt;/code&gt; (vLLM)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;v1.21.0&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;CUDA Variants&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;SGLang&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;TensorRT-LLM&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;vLLM&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.1&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Dynamo Ecosystem&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;AIPerf&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;AISimulate&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;ModelExpress&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;vLLM-Omni&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;v0.12.0&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;v0.12.0&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;v0.6.0&lt;/code&gt; (from &lt;code&gt;v0.5.0&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;v0.28.0rc1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Known Issues&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SGLang Sidecar Inference 500 Errors:&lt;/strong&gt; Every inference request sent to the SGLang sidecar still fails with HTTP 500 and the error &lt;code&gt;&#39;GenerateReqInput&#39; object has no attribute &#39;batch_size&#39;&lt;/code&gt;. The cause is a protocol mismatch with the bundled SGLang version that is corrected in upstream SGLang v0.5.19. No workaround is available yet; the fix is targeted for v1.6.0.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Video Decode Worker Crash:&lt;/strong&gt; Some H.264 videos sent as multimodal input crash the worker serving the request when PyNvVideoCodec 2.2.3 decodes the final frame, and later requests to that worker fail until it restarts. The issue also affects v1.5.0 on SGLang, TensorRT-LLM, and vLLM. Image and audio inputs are not affected. No workaround is available yet; the fix is targeted for v1.6.0.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Carried forward from v1.5.0:&lt;/strong&gt; The other known issues documented in the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/releases/tag/v1.5.0&quot;&gt;v1.5.0 release notes&lt;/a&gt; still apply.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content>
+    <author>
+      <name>dagil-nvidia</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/221734541?s=60&amp;v=4"/>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Repository/942206898/v1.5.0-motif-3-dev.1</id>
+    <updated>2026-10-02T00:11:20Z</updated>
+    <link rel="alternate" type="text/html" href="https://github.com/ai-dynamo/dynamo/releases/tag/v1.5.0-motif-3-dev.1"/>
+    <title>Dynamo v1.5.0-motif-3-dev.1</title>
+    <content type="html">&lt;h1&gt;&lt;strong&gt;Release Notes&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Dynamo v1.5.0-motif-3-dev.1&lt;/strong&gt; is an experimental snapshot build with early &lt;strong&gt;Motif-3 NVFP4&lt;/strong&gt; support on the Dynamo &lt;strong&gt;vLLM&lt;/strong&gt; backend. It is &lt;strong&gt;not recommended for production&lt;/strong&gt; and is not a QA-gated release. APIs, behavior, and defaults may change before stable support. Use it for evaluation, testing, and early feedback only.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Dynamo v1.5.0-motif-3-dev.1 serves &lt;strong&gt;&lt;code&gt;Motif-Technologies/Motif-3-NVFP4&lt;/code&gt;&lt;/strong&gt; on Dynamo &lt;strong&gt;vLLM&lt;/strong&gt;. The runtime image is an amd64 CUDA 13.0 build on Motif&#39;s vLLM &lt;code&gt;v0.26.0-motif3&lt;/code&gt; base, with vLLM-Omni disabled so that base can serve without &lt;code&gt;vllm-rs&lt;/code&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15332&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15332/hovercard&quot;&gt;#15332&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The Kubernetes recipe is aggregated-only: two B200 GPUs, tensor parallelism 2, expert parallelism, Dynamo MTP2 speculative decoding, an FP8 KV cache, and a 262,144-token context. It includes a shared model-cache PVC and Hugging Face download Job, plus an AIPerf &lt;code&gt;0.13.0&lt;/code&gt; chat-trace Job at concurrency 11. The recipe from &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15534&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15534/hovercard&quot;&gt;#15534&lt;/a&gt; is on this branch in &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15536&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15536/hovercard&quot;&gt;#15536&lt;/a&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/0d8bafd1c22248341dceb07b9a3f586f1f208651/recipes/motif-3&quot;&gt;recipe folder&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Base Branch&lt;/strong&gt;: &lt;code&gt;release/1.5.0&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Base Commit&lt;/strong&gt;: &lt;code&gt;f5802d355b59b5006c67a16c3ed1615cfcab5686&lt;/code&gt; (2026-08-18)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Preview Branch&lt;/strong&gt;: &lt;code&gt;release/1.5.0-motif-3-dev.1&lt;/code&gt;&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Preview Tip&lt;/strong&gt;: &lt;code&gt;0d8bafd1c22248341dceb07b9a3f586f1f208651&lt;/code&gt; (2026-10-01)&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;vLLM&lt;/strong&gt;: &lt;code&gt;ghcr.io/motiftechnologies/vllm:v0.26.0-motif3@sha256:c90d471174ec29a0f6c5ecba718a6905a4180be72f2c6d37ce9dad4d799fa836&lt;/code&gt; (CUDA 13.0), NIXL v1.3.2&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Container Images&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Arch&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Image&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM (CUDA 13.0)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;amd64&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;nvcr.io/nvidia/ai-dynamo/vllm-runtime:1.5.0-motif-3-dev.1&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Backend Versions&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Backend&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Source&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;CUDA&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Python&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;vLLM&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;Dynamo-built runtime on &lt;code&gt;ghcr.io/motiftechnologies/vllm:v0.26.0-motif3@sha256:c90d471174ec29a0f6c5ecba718a6905a4180be72f2c6d37ce9dad4d799fa836&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;13.0&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;3.12&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NIXL v1.3.2; vLLM-Omni disabled; amd64 only&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;Models&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&quot;left&quot;&gt;Model&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Precision&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;GPU&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&quot;left&quot;&gt;&lt;code&gt;Motif-Technologies/Motif-3-NVFP4&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;NVFP4 (&lt;code&gt;modelopt_nvfp4&lt;/code&gt;)&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;2x B200&lt;/td&gt;
+&lt;td align=&quot;left&quot;&gt;aggregated vLLM; TP2, expert parallelism, Dynamo MTP2, FP8 KV cache, 262K context&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;&lt;strong&gt;About Motif-3&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Motif-3 NVFP4&lt;/strong&gt; is Motif Technologies&#39; preview checkpoint published on Hugging Face as &lt;code&gt;Motif-Technologies/Motif-3-NVFP4&lt;/code&gt;. This build serves it through Dynamo&#39;s vLLM backend as an aggregated two-GPU B200 deployment with MTP2 speculative decoding.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3&gt;&lt;strong&gt;vLLM Backend&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Motif vLLM runtime:&lt;/strong&gt; amd64 Dynamo vLLM runtime on Motif&#39;s &lt;code&gt;v0.26.0-motif3&lt;/code&gt; image, with vLLM-Omni disabled so the Motif base can serve without &lt;code&gt;vllm-rs&lt;/code&gt; (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15332&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15332/hovercard&quot;&gt;#15332&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;Recipes&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Motif-3 NVFP4 recipe:&lt;/strong&gt; Added &lt;code&gt;recipes/motif-3&lt;/code&gt; — shared model-cache PVC and Hugging Face download Job, one aggregated B200 chat profile (TP2, expert parallelism, Dynamo MTP2, FP8 KV cache, 262K context), and an AIPerf &lt;code&gt;0.13.0&lt;/code&gt; chat-trace Job at concurrency 11 (&lt;a href=&quot;https://github.com/ai-dynamo/dynamo/tree/0d8bafd1c22248341dceb07b9a3f586f1f208651/recipes/motif-3&quot;&gt;recipe folder&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/0d8bafd1c22248341dceb07b9a3f586f1f208651/recipes/motif-3/README.md&quot;&gt;README&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15536&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15536/hovercard&quot;&gt;#15536&lt;/a&gt;, &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/pull/15534&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/ai-dynamo/dynamo/pull/15534/hovercard&quot;&gt;#15534&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong&gt;Getting Started&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Deployment is Kubernetes-based (Dynamo Platform + &lt;code&gt;DynamoGraphDeployment&lt;/code&gt;). Full steps — namespace, &lt;code&gt;hf-token-secret&lt;/code&gt;, model-cache PVC, download Job, aggregated DGD apply, and a &lt;code&gt;/v1/chat/completions&lt;/code&gt; smoke test — are in the &lt;a href=&quot;https://github.com/ai-dynamo/dynamo/blob/0d8bafd1c22248341dceb07b9a3f586f1f208651/recipes/motif-3/README.md&quot;&gt;recipe README&lt;/a&gt;. The base manifest has no cluster-specific scheduling; use the Kustomization in that folder to add node selectors or tolerations. The download Job is the only step that needs the Hugging Face token. No image-pull secret is required for the public runtime image.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Known Issues / Limitations&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Experimental snapshot build — not QA-gated; not for production.&lt;/li&gt;
+&lt;li&gt;Aggregated serving only. There is no disaggregated Motif-3 profile.&lt;/li&gt;
+&lt;li&gt;The vLLM runtime image is amd64 only, and the recipe references it by tag rather than digest.&lt;/li&gt;
+&lt;li&gt;The runtime image carries Motif-specific vLLM compatibility code. Do not replace its vLLM package with an unrelated wheel.&lt;/li&gt;
+&lt;li&gt;Shipped manifests use real MTP verification. Figures measured with synthetic acceptance length 2.13 are a benchmark-only proxy and are not reproduced by the manifests as shipped. A real-MTP chat-trace result is not attached.&lt;/li&gt;
+&lt;li&gt;In the reference 8K/1K chat trace, 35 requests exceed the 262,144-token context limit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</content>
+    <author>
+      <name>ynpandey-nv</name>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/20666257?s=60&amp;v=4"/>
+  </entry>
+</feed>

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24355",
+  "title": "Koi: Evidence-Guided, Self-Calibrating Planning for Multi-Cloud, Heterogeneous LLM Inference Fleets",
+  "text": "arXiv:2610.24355v1 Announce Type: new\nAbstract: Deploying a large language model (LLM) requires choosing the right accelerator, parallelization strategy, engine configuration, and replica count amongst ~140 other variables across clouds, regions, and markets. These decisions are intertwined, and the best cluster-wide plan continually changes as jobs contend for shared capacity on shifting workloads. We present Koi, a self-calibrating cluster planner for heterogeneous, multi-cloud fleets. Koi uses a Recursive Language Model (RLM) hierarchy to propose hypotheses and reason over deployment while deterministic components predict serving behavior, score candidates, and control placement. It represents inference behavior as a fixed causal graph linking decisions (e.g., accelerator, parallelism), runtime mediators (e.g., KV-cache pressure, communication overhead), and outcomes (e.g., latency, throughput). Each deployment strengthens or weakens scoped causal relationships, building a comprehensive playbook for inference that the planner employs to guide future decisions. Job-wise configurations are composed into cluster-wide plans and evaluated against serving objectives, resource constraints, SLO risks, and cost. Across benchmarks, Koi achieves 1.18x greater goodput than the strongest baseline while reducing $/token by 20% in a real heterogeneous cluster. Ablations isolate the contribution of Koi's architecture: a pure language model attains a composite score of 35.3, the same model equipped with Koi's deterministic tools reaches 51.6, and the full Koi planner reaches 70.8.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "ac3dc5d44172ea544aac",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24424",
+  "title": "Toward a Universal Local Speech Feature Extractor Through Distillation",
+  "text": "arXiv:2610.24424v1 Announce Type: new\nAbstract: Self-supervised speech models commonly consist of a set of convolutional neural network (CNN) layers used as a local feature extractor, followed by transformer layers. The CNN layers are computationally demanding, and are also similar across models and resemble the much simpler mel spectral features. We hypothesize that the CNN layers can be replaced by a simple, universal model. To test this hypothesis, we learn a two-layer feature extractor via distillation from one or more teacher models (HuBERT, data2vec, and WavLM). Experiments on SUPERB(-SG) benchmark tasks show that our model largely retains the performance of the teacher models and can also be used in an unseen model (wav2vec 2.0). Our feature extractor requires only 3% of the MACs of the CNNs, resulting in a $>$20% overall inference runtime reduction.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "290fba544c3239f8a743",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

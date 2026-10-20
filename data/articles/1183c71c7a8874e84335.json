@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-20/us-sanctions-china-s-y-combinator-in-google-ai-secrets-case",
+  "title": "US Sanctions Chinese Venture Firm in Google AI Secrets Case",
+  "text": "The US government has blacklisted a Chinese venture firm established by ex-Microsoft Corp. AI scientist Lu Qi for alleged ties to a startup accused of stealing technology from Alphabet Inc.’s Google.",
+  "published_at": "2026-10-20T07:11:11+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1183c71c7a8874e84335",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/8a25751a98b4bf6aabddd9183ea400c2b733d6b762011b169922882798ba5c6f.body",
+  "source_sha256": "8a25751a98b4bf6aabddd9183ea400c2b733d6b762011b169922882798ba5c6f",
+  "fetched_at": "2026-10-20T22:02:39.255372+00:00"
+}

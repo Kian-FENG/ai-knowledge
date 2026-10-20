@@ -1,0 +1,18 @@
+{
+  "url": "https://www.technologyreview.com/2026/10/20/1145282/robotic-therapy-for-stroke-patients/",
+  "title": "Robotic therapy for stroke patients",
+  "text": "Strokes leave 5 million people with long-term impairments each year, and a growing shortage of physical therapists makes it hard for them to get the care they need. A new approach tries to solve that problem by combining artificial intelligence and human therapy.\nJohannes Lachner, a former MIT postdoc who is now an assistant professor at Purdue University, and Noah Geiger, a former visiting student at MIT, developed a robotic system that uses generative AI and real-time force feedback to learn from real therapists. Drawing on what it’s learned, it gives patients just the right amount of assistance during physical rehabilitation exercises like reaching, lifting their arms, and performing tasks of daily living.\nThe goal is “not to replace therapists, but to extend their reach,” Lachner says.\n“Initial robotic experiments have already demonstrated the feasibility of this approach,” he reports. “The next phase of the project aims to develop therapist-specific models and evaluate them in a long-term clinical study with the same patients who previously received manual therapy.” Beyond that, he envisions possible applications in contact-rich industrial settings or collaborative workspaces.",
+  "published_at": "2026-10-20T21:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "256ba8300616f2779f5c",
+  "source_id": "mit-tech-review",
+  "source_name": "MIT Technology Review",
+  "section": 2,
+  "raw_path": "raw/2026-10-21/773124ee6a8e5ed29c201cb6a14c1210b60aa7fde202677dbe84741a16d9d808.body",
+  "source_sha256": "773124ee6a8e5ed29c201cb6a14c1210b60aa7fde202677dbe84741a16d9d808",
+  "fetched_at": "2026-10-20T22:02:39.433422+00:00"
+}

@@ -4,11 +4,25 @@ Generated; published pages only. Do not hand-edit.
 
 ## 2026-10-20
 
+- `entity` [[reference/entities/orchestra-bio|Orchestra Bio：已被OpenAI收购的药物研发协调平台]]
 - `entity` [[reference/entities/sapiom|Sapiom：Agent执行基础设施与成本控制]]
+- `entity` [[reference/entities/tenstorrent|Tenstorrent：Galaxy系统与RISC-V计算IP]]
+- `paper` [[reference/papers/kv-residency-261022863|KV驻留论文提示：Agent的显存成本还取决于空闲留存与部署位置]]
+- `paper` [[reference/papers/self-hpo-261022791|Self-HPO交替优化harness与策略模型，避免把系统改进全归因于模型]]
 - `source` [[reference/sources/anthropic-public-benefit-fund-20261018|Anthropic公共利益基金拟获5%股份，须经股东批准]]
+- `source` [[reference/sources/aws-torchneuron-announcement-20261019|AWS宣布TorchNeuron原生PyTorch后端，开源安排在次日]]
 - `source` [[reference/sources/gewu-embodied-angel-20261018|硬氪访谈：格物通智获近亿元天使轮，具身操作PoC仍待交付]]
+- `source` [[reference/sources/memsilicon-lpu-series-a-20261019|铭芯启睿披露超4亿元A轮与CEO变动，第一代LPU仍在研发]]
+- `source` [[reference/sources/microsoft-agentic-insider-20261019|微软将内部Agent纳入持续风险控制，Guardian方案仍须验证]]
+- `source` [[reference/sources/minimax-m31-flash-20261019|MiniMax M3.1 Flash上线API与订阅，权重仍待发布]]
+- `source` [[reference/sources/openai-low-resource-code-20261019|OpenAI公布低资源编程评测，将COBOL迁移的行为一致性纳入验证]]
+- `source` [[reference/sources/openai-orchestra-bio-20261019|OpenAI确认收购Orchestra Bio，将研发协调平台接入Rosalind]]
 - `source` [[reference/sources/sapiom-runtime-20260805|Sapiom以执行时路由、预算与权限控制承接生产Agent]]
+- `source` [[reference/sources/sglang-v0522-20261019|SGLang 0.5.22正式发布，扩展推测解码并改变升级要求]]
+- `source` [[reference/sources/tenstorrent-series-e-20261019|Tenstorrent宣布15亿美元E轮，62亿美元是投后估值]]
+- `source` [[reference/sources/vllm-elastic-ep-20261019|vLLM用异步准备与NIXL EP减少扩缩容停顿，容量就绪仍需时间]]
 - `source` [[reference/sources/vllm-v0320-20261018|vLLM v0.32.0正式发布：结构化决策、低精度KV与安全默认值]]
+- `note` [[research/synthesis/agent-cost-beyond-token-price-20261019|Agent成本竞争从token单价扩展到迁移、留存与验收]]
 - `note` [[research/synthesis/execution-governance-and-delivery-20261018|从推理引擎到物理交付，治理约束开始进入执行路径]]
 
 ## 2026-10-18

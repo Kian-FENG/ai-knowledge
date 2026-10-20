@@ -1,0 +1,419 @@
+ASML reports transactions under its current share buyback program | Mon, 10/19/2026 - 14:00 (https://www.investor.asml.com/news-releases/news-release-details/asml-reports-transactions-under-its-current-share-buyback-program-5)
+citeturn12search0 [wordlim: 200] Published: yesterday; Crawled: yesterday; Share buyback - October 19, 2026 ... ASML’s current share buyback program was announced on 28 January 2026.
+
+Share buyback - October 19, 2026
+
+ASML reports transactions under its current share buyback program
+
+VELDHOVEN, the Netherlands – ASML Holding N.V. (ASML) reports the following transactions, conducted under ASML's current share buyback program.
+
+Date  | Total repurchased shares  | Weighted average price  | Total repurchased value
+12-Oct-26  | 47,500  | €1,591.62  | €75,601,931
+13-Oct-26  | 48,870  | €1,534.85  | €75,008,198
+14-Oct-26  | -  | -  | -
+15-Oct-26  | 69,468  | €1,444.83  | €100,369,687
+16-Oct-26  | 68,029  | €1,485.44  | €101,052,903
+
+ASML’s current share buyback program was announced on 28 January 2026. Further details are available on our website.
+
+This regular update of the transactions conducted under the buyback program is to be made public under the Market Abuse Regulation (Nr. 596/2014).
+
+About ASML
+
+ASML is a leading supplier to the semiconductor industry. The company provides chipmakers with hardware, software and services to mass produce the patterns of integrated circuits (microchips). Together with its partners, ASML drives the advancement of more affordable, more powerful, more energy-efficient microchips. ASML enables groundbreaking technology to solve some of humanity's toughest challenges, such as in healthcare, energy use and conservation, mobility and agriculture. ASML is a multinational company headquartered in Veldhoven, the Netherlands, with offices across EMEA, the US and Asia. Every day, ASML’s more than 44,100 employees (FTE) challenge the status quo and push technology to new limits. ASML is traded on Euronext Amsterdam and NASDAQ under the symbol ASML. Discover ASML – our products, technology and career opportunities – at www.asml.com.
+
+Media Relations contacts
+Monique Mols, phone +31 6 528 444 18  | Investor Relations contacts
+Jim Kavanagh, phone +31 40 268 3938
+Pete Convertito, phone +1 203 919 1714
+Peter Cheang, phone +886 3 659 6771--------------------------------------------------------------------------------
+Share buyback | ASML - Supplying the semiconductor industry (https://www.investor.asml.com/news/share-buyback?page=0)
+citeturn12search1 [wordlim: 200] Crawled: yesterday; October 19, 2026ASML reports transactions under its current share buyback program
+
+  * Press releases
+  * Announcements
+  * Share buyback
+
+October 19, 2026
+
+ASML reports transactions under its current share buyback program
+
+October 12, 2026
+
+ASML reports transactions under its current share buyback program
+
+October 5, 2026
+
+ASML reports transactions under its current share buyback program
+
+September 28, 2026
+
+ASML reports transactions under its current share buyback program
+
+September 21, 2026
+
+ASML reports transactions under its current share buyback program
+
+September 14, 2026
+
+ASML reports transactions under its current share buyback program
+
+September 7, 2026
+
+ASML reports transactions under its current share buyback program
+
+August 31, 2026
+
+ASML reports transactions under its current share buyback program
+
+August 24, 2026
+
+ASML reports transactions under its current share buyback program
+
+August 17, 2026
+
+ASML reports transactions under its current share buyback program
+--------------------------------------------------------------------------------
+Laplace Intelligence red-teams robots and self-driving cars before they hit the real world | TechCrunch (https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/)
+citeturn12search2 [wordlim: 25] Published: yesterday; Crawled: today; “Imagine if something like that happened in the physical world,” Howie Sun, CEO and co-founder of Laplace Intelligence, told TechCrunch. ... Image Henry Liu, chief scientist, Laplace Intelligence.Image Credits:Laplace Intelligence
+
+ImageImage Credits:Malte Mueller / Getty Images
+
+Robotics
+
+# Laplace Intelligence red-teams robots and self-driving cars before they hit the real world
+
+Rebecca Bellan
+
+5:30 AM PDT · October 19, 2026
+
+If there’s one lesson the OpenAI-Hugging Face incident taught us, it’s that AI agents can be unpredictable. 
+
+“Imagine if something like that happened in the physical world,” Howie Sun, CEO and co-founder of Laplace Intelligence, told TechCrunch. “AI agents are moving from computers into the real world, and we don’t really want physical AI to fail in the real world.”
+
+Ann Arbor-based Laplace is building automated red-teaming — essentially, stress-testing a system by deliberately trying to make it fail — for robotics and physical AI. The company is betting that the only way to make sure physical AI is safe is to have AI test it.
+
+“Our goal is to help companies discover and fix problems before deployment — and, over time, build a shared foundation of evidence that customers, insurers, and regulators can trust,” Sun said.
+
+Laplace is one of 20 startups competing in Startup Battlefield 200, the startup pitch competition taking place at TechCrunch Disrupt in San Francisco this week, October 13-15. It will present on the Disrupt Stage Tuesday afternoon, October 13.
+
+ImageHowie Sun, CEO, Laplace Intelligence.Image Credits:Laplace Intelligence
+
+Sun, alongside his co-founder and chief scientist Henry Liu, founded Laplace a year ago out of the University of Michigan. Sun has spent the last eight years in academia researching how to challenge autonomous driving AI in simulation. In 2023, he and Liu — his then-PhD adviser — published a paper on the subject that made it onto the cover of the top scientific journal Nature. That’s when the calls started coming in from autonomous vehicle companies interested in implementing their ideas. 
+
+Using their academic research as a base, Sun and Liu built Laplace, so named for “Laplace’s demon,” an 1814 thought experiment by French scholar Pierre-Simon Laplace, who imagined that if you knew the exact state of everything in the universe, you could predict the future with total precision.
+
+“We are essentially using simulation to predict the real world’s future,” Sun said. 
+
+At the startup’s core is a high-fidelity simulation reconstructed from the real world, paired with an AI agent that constantly probes for weaknesses and failure points. The goal is to ensure that any physical AI — be it a robot, autonomous vehicle, or smart city solution — is safe in simulation before it’s deployed in the real world. 
+
+The simulation environment is a post-trained version of Nvidia’s Cosmos, an AI world simulation platform, which is grounded in the real world, allowing Laplace to reconstruct anything from an Arizona highway to a Paris pedestrian crossing. Simulations are generated by blending a mesh of different real-world information. A Google Street View image could serve as a reference from which an entire street is generated. But rather than generating something random, the simulator combines real-world map data to re-create an environment that’s true to scale. 
+
+“They can design from the news, from police reports on collisions — all kinds of information to actively challenge the autonomous vehicles and other physical AI agents,” Sun said.
+
+ImageHenry Liu, chief scientist, Laplace Intelligence.Image Credits:Laplace Intelligence
+
+Today, autonomous vehicle developers mostly train an AI to handle edge cases using recorded footage that they then turn into a simulation, or by relying on humans to come up with new ideas and design them. While many AV companies have done what Laplace is pitching and started embracing AI to create edge cases for training — self-driving truck company Waabi comes to mind — the need for this kind of technology will really become apparent when we start placing generalized robots in the real world. 
+
+“There’s less data on generalized robotics,” Sun said. “No one knows what the edge cases will be in the real world.”
+
+Despite Sun and Liu coming from academia, with no shiny Silicon Valley tech company pedigrees, the two have managed to start generating revenue and even turn a modest profit. --------------------------------------------------------------------------------
+MaaS Daily — 大模型 API 价格与全球 MaaS 每日动态 (https://daily.maas.click/)
+citeturn12search3 [wordlim: 200] Published: yesterday; Crawled: yesterday; 10月19日，百度千帆与阿里百炼同日上架DeepSeek-`V4.1`-Flash-1017，并同步引入峰谷定价，闲时22:00-08:00价格更低。 ... MiniMax本周新增MiniMax-`M3.1`-Flash，定位原生多模态、1M上下文的Frontier Coding模型，思考深度可调。 ... M Plan 和 Token Plan 用户M2.5、M2.7 系列模型请求将于〖2026年10月19日〗统一路由至 M3.1 Flash Preview。
+
+MAAS DAILY / 今日重点
+
+[Button: 暂停]
+
+# MaaS Daily · 今日模型与平台变化
+
+## 百度千帆 · DeepSeek-V4.1-Flash-1017上架，V4-Pro下架
+
+百度千帆 · 服务下线
+
+DeepSeek-V4-Pro 从定价列表中移除，疑似下架或替换
+
+查看记录与依据 ↗查看各家近期变化 ↓
+
+## 阿里百炼 · DeepSeek-V4.1-Flash-1017定价上线，峰谷计费
+
+阿里百炼 · 价格变化
+
+deepseek-v4.1-flash-1017 新增定价，采用峰谷计费（闲时22:00-08:00，忙时其余时段）
+
+查看记录与依据 ↗查看各家近期变化 ↓
+
+2026.10.19官方来源追踪 · AI 摘要全部动态 ↗
+
+MaaS Daily
+
+最近更新2026-10-19T05:37:21+00:00
+
+## 各家产品，最近发生了什么
+
+2026.10.19[Button: 复制简报 ↗]
+
+近 7 天 · 2026-10-13 — 2026-10-19 · 按厂家与平台汇总，重复摘要合并，保留最近记录。
+
+### 阿里百炼
+
+4 条变化 · 最近 10.19
+
+[Button: ＋ 关注]
+
+  * 价格变化
+
+`deepseek-v4.1-flash-1017` 新增定价，采用峰谷计费（闲时22:00-08:00，忙时其余时段）
+
+10.19 ↗
+  * 服务下线
+
+阿里百炼模型列表移除 `fun-music-v1` 音乐生成模型
+
+10.16 ↗
+  * 价格变化
+
+`qwen-audio-3.1-tts-flash` 输入单价由 1.5 元上调至 1.677 元/百万 Token
+
+10.13 ↗
+  * 价格变化
+
+`qwen-audio-3.1-tts-flash` 输出单价由 12 元上调至 13.636 元/百万 Token
+
+10.13 ↗
+展开更多变化
+
+### 阿里百炼
+
+DeepSeek-V4.1-Flash-1017定价上线，峰谷计费1 项来源
+
+定价+2 / −0详情来源 ↗＋
+
+新增 deepseek-v4.1-flash-1017 的定价行，并明确峰谷时段划分（闲时22:00-08:00，忙时其余），对应新模型版本上架。
+
+新增 2 行
+
+>   * `deepseek-v4.1-flash-1017`
+>   * `deepseek-v4.1-flash-1017` 按峰谷价格计费：闲时为 UTC+8 22:00 至次日 08:00，忙时为其余时段。
+
+Image: MiniMax
+
+### MiniMax
+
+1 项来源
+
+模型列表~1 处变更+1 / −2详情来源 ↗＋
+
+> | MiniMax-`M3.1`-Flash | 原生多模态、1M 上下文的 Frontier Coding 模型，思考深度可调
+
+变更 1 处（旧 → 新）
+
+>   * 按量付费 API 用户存量用户可继续调用至正式下线日，正式下线后相关 API 调用将不再可用。请提前核查调用情况，并在下线前完成模型迁移。M Plan 和 Token Plan 用户M2.5、M2.7 系列模型请求将于〖2026年10月19日〗统一路由至 M3.1 Flash Preview。原模型名称保留作为兼容入口→按量付费 API 用户存量用户可继续调用至正式下线日，正式下线后相关 API 调用将不再可用。请提前核查调用情况，并在下线前完成模型迁移。M Plan 和 Token Plan 用户M2.5、M2.7 系列模型请求将于〖2026年10月19日〗统一路由至 M3.1 Flash。原模型名称保留作为兼容入口，用户无需修改模
+
+新增 1 行
+
+>   * | MiniMax-`M3.1`-Flash | 原生多模态、1M 上下文的 Frontier Coding 模型，思考深度可调
+
+删除 2 行
+
+>   * MiniMax-M3.1-Flash-Preview 暂时仅通过 M Plan 和 MiniMax Code 提供。
+>   * | MiniMax-M3.1-Flash-Preview | 原生多模态、1M 上下文的 Frontier Coding 模型，思考深度可调
+
+Image: Artificial Analysis
+
+--------------------------------------------------------------------------------
+Howie Sun - Stealth Startup | LinkedIn (https://www.linkedin.com/in/howie-haowei-sun)
+citeturn12search4 [wordlim: 200] Crawled: 3 weeks ago; # Howie Sun ...   * Howie Sun ... We’re excited to share that Laplace Intelligence has been selected for TechCrunch’s 2026 Startup Battlefield 200 — one of 200 startups chosen from thousands of applicants worldwide. ... Official announcement: https://lnkd.in/g3FJT3i8 #StartupBattlefield #Disrupt2026 #PhysicalAI #WorldModels #Robotics...more ... Henry Liu and the entire team at UMTRI, Mcity, and CCAT for hosting this vital research exchange....more...more
+
+### Howie Sun
+
+3w
+
+Howie Sun shared this
+
+We’re excited to share that Laplace Intelligence has been selected for TechCrunch’s 2026 Startup Battlefield 200 — one of 200 startups chosen from thousands of applicants worldwide. At Laplace, we’re building automated red teaming for Physical AI — using world models to challenge robots before the real world does. Our platform continuously discovers failure modes and generates adversarial scenarios, helping teams test autonomous systems against the situations they are least prepared for. Because the real world will eventually challenge every robot. We want to find those failures first. We’re honored to join this year’s Startup Battlefield community and bring this vision to TechCrunch Disrupt 2026, October 13–15 in San Francisco. Thank you to everyone who has supported us along the way. If you’re building or deploying robots, autonomous vehicles, or other Physical AI systems, we’d love to connect at Disrupt. Official announcement: https://lnkd.in/g3FJT3i8 #StartupBattlefield #Disrupt2026 #PhysicalAI #WorldModels #Robotics...more
+
+  * Howie Sun
+
+This is a step toward agentic world models for Physical AI: grounded in the real world, controllable, and responsive. Huge thanks to Jun Gao, Jiawei Wang, and the Laplace team for the work behind this demo — and to NVIDIA AI for open-sourcing OmniDreams, which Laplace World is built upon. Demo below...more
+
+  * Howie Sun
+
+### Howie Sun
+
+3mo
+
+Howie Sun shared this
+
+Excited to share that I'll be co-organizing and speaking at a CVPR 2026 tutorial session: 🚗 Building GenAI-based Simulation Environment for End-to-End Autonomous Driving 📅 Wednesday, June 3, 2026 · 1:30–4:00 PM MDT 📍 Room 201, Denver Convention Center My talk — "Introduction to TeraSim: Uncovering Unknown Unsafe Events" — is about using simulation to automatically surface the rare, long-tail unsafe scenarios that autonomous driving systems struggle with most. Honored to be on stage with a brilliant lineup: • Henry Liu (University of Michigan) — 20 Years of Autonomous Vehicles and Remaining Challenges • Zan Gojcic (NVIDIA) — Generative Reconstruction for Closed-Loop AV Simulation • Jun Gao (University of Michigan & NVIDIA) — Recent Advances in Generative World Simulators for Autonomous Driving • Xintao Yan (The University of Hong Kong) — Toward Long-Horizon AV Simulation: Structured Autoregressive World Modeling and Retrieval-based Evaluation Big thanks to Jiawei Wang and the organizing team (incl. Shuo Feng, Tsinghua University) for making this happen. If you'll be at CVPR in Denver, come join us in Room 201 — would love to see you there. 🔗 Tutorial website: https://lnkd.in/e3pYpYgc #CVPR2026 #AutonomousDriving #GenerativeAI #Simulation #AVSafety #ComputerVision...more
+
+Building GenAI-based Simulation Environment for End-to-End Autonomous Driving
+
+Image: Building GenAI-based Simulation Environment for End-to-End Autonomous Driving
+
+Building GenAI-based Simulation Environment for End-to-End Autonomous Driving
+
+`` ``
+
+42 `` `` `` `` `` `` ``
+
+  * Howie Sun
+
+--------------------------------------------------------------------------------
+AI 日报 · 2026-10-20 (周二) | GeekXiao's Blog (https://geekxiao.com/ai-daily-report-2026-10-20/cn/)
+citeturn12search5 [wordlim: 200] Published: today; Crawled: today; 2026.10.20 32 分钟阅读 ... 数据统计周期：每日 08:00 (北京/新加坡时间) 更新 ... AI锐评：过去 24 小时里，「MiniMax 发布 M3.1 Flash 并开源权重」这个 AI 动态声量最高，原帖拿到 6423 个赞、87.8万 次浏览，同一事件还有 47 条 X 帖子、6 家媒体和 1 条 HN 讨论；腾讯紧接着开源了自托管的协作平台 Octop，让多 Agent 能够直接接管远程沙箱协同干活；美国国土安全部则下令联邦文职机构清除 DeepSeek 及其衍生应用，在政策层面给跨国开源模型筑起了合规高墙；而 Tenstorrent 凭借能在 Galaxy 服务器上跑通开源大模型直接斩获 15 亿美元融资。 ... ### MiniMax (official) @MiniMax_AI丨2026年10月19日 19:56 （UTC+8）MiniMax 发布 M3.1 Flash 并定于 10 月 23 日开源权重：MiniMax 推出 M3.1 Flash，此前以 Space Bunny 测试版本登顶榜单；新模型推理成本仅为 M3 的三分之一，运行速度达到 3 倍；官方定价每百万输入 token 0.15 美元，开源权重定于 10 月 23 日公布。
+## 1. X平台AI 动态
+
+来自 AI 实验室成员、创始人、研究员和分析师的 X 一手动态，按真实互动、触达、跨平台共振和账号权重排序。
+
+TOP 01 X平台AI动态 🔥 97.2 (开源权重) 赞 6423 · 转发 558 · 评论 367 · 浏览 87.8万 · 同事件帖子/媒体/HN 54 条 +2
+
+查看原文 1 ↗ 查看原文 2 ↗ 查看原文 3 ↗
+
+### MiniMax (official) @MiniMax_AI丨2026年10月19日 19:56 （UTC+8）
+
+MiniMax 发布 M3.1 Flash 并定于 10 月 23 日开源权重：MiniMax 推出 M3.1 Flash，此前以 Space Bunny 测试版本登顶榜单；新模型推理成本仅为 M3 的三分之一，运行速度达到 3 倍；官方定价每百万输入 token 0.15 美元，开源权重定于 10 月 23 日公布。
+
+💡 AI置评：Agent 经济学终于跑通，极速与低价把多智能体落地门槛直接打穿
+
+TOP 02 X平台AI动态 🔥 93.7 (桌面端体验) 赞 8250 · 转发 214 · 评论 2003 · 浏览 131.4万 · 同事件帖子/媒体/HN 3 条
+--------------------------------------------------------------------------------
+DeepSeek、MiniMax出手，国产AI大模型“新战场”来了 _ 东方财富网 (https://finance.eastmoney.com/news/1354%2C202610193900167915.html)
+citeturn12search6 [wordlim: 200] Published: yesterday; Crawled: today; 2026年10月19日 21:40 ... 　　10月19日，MiniMax发布新一代Flash模型M3.1 Flash，并预告追求智能上限的Pro版本即将推出。 ... 　　M3.1 Flash在BankerToolBench的测试得分为76.2，擅长处理多步骤规划、跨文档/跨文件一致性、金融业务合规、工具链式调用等真实复杂问题。
+
+DeepSeek、MiniMax出手，国产AI大模型“新战场”来了
+
+2026年10月19日 21:40
+
+来源： 中国基金报
+
+　　〖导读〗DeepSeek、MiniMax加码Flash模型，开启国产AI大模型“新战场”
+
+　　中国基金报记者邱德坤
+
+　　AI大模型行业正在迎来新战场。
+
+　　10月19日，MiniMax发布新一代Flash模型M3.1 Flash，并预告追求智能上限的Pro版本即将推出。
+
+　　10月17日，DeepSeek更新Flash模型至V4.1 Flash-1017版本，官方网页端、App与API（应用程序编程接口）已同步切换为新模型。
+
+　　MiniMax、DeepSeek均是头部大模型厂商，两者接连更新Flash模型，意味着国产Flash模型在复杂任务上的竞争将更加明显。
+
+　　国产Flash模型迎来重要选手
+
+　　Flash模型是AI大模型厂商推出的轻量化、高性价比版本，核心设计思路是用极低的算力消耗获得完成复杂任务的能力。
+
+　　以M3.1 Flash为例，其在处理复杂Agent（智能体）任务、电脑操作、软件开发，以及网络安全等方面的能力大幅提升。
+--------------------------------------------------------------------------------
+大模型竞逐智能体时代！MiniMax上新价格降七成 多只概念股Q3业绩“报喜”(名单) _ 东方财富网 (https://finance.eastmoney.com/a/202610203900485117.html)
+citeturn12search7 [wordlim: 200] Published: today; Crawled: today; 　　10月19日晚间，MiniMax正式发布新一代Flash模型M3.1 Flash。 ... 海外方面，OpenAI于9月底发布新一代智能体产品Dot，并于10月7日正式向全球ChatGPT用户推出GPT-6。 ... 　　协创数据体量达1060.79亿元居首，锐捷网络以911.85亿元位居次席，科大讯飞、分众传媒、三六零、昆仑万维等多股市值均超500亿元。 ... 　　此外，美年健康预计前三季度归母净利润9100万元至1亿元，同比增长75.47%至92.83%，其中，结合AI技术手段取得的收入达4.19亿元，同比增长67.98%。
+
+首页 > 财经频道 > 正文
+
+大模型竞逐智能体时代！MiniMax上新价格降七成 多只概念股Q3业绩“报喜”(名单)
+
+2026年10月20日 07:48
+
+来源： 东方财富研究中心
+
+　　国产大模型竞争焦点加速转向智能体，MiniMax、DeepSeek一周内相继升级Agent能力。
+
+　　机构认为，AI叙事正从“模型能力竞赛”切换至“智能体商业化兑现”阶段。
+
+　　MiniMax、DeepSeek接连出招
+
+　　10月19日晚间，MiniMax正式发布新一代Flash模型M3.1 Flash。该模型在Agentic任务、编程、Computer Use及网络安全能力等方面实现代际提升，同时线上推理速度提升近3倍。
+
+　　MiniMax同时预告，追求更高智能上限的Pro版本将于不久后推出。
+
+　　不仅性能与速度提升，MiniMax新模型还实现了使用成本的降低。据悉，M3.1 Flash输入价格为每百万Token 1元，输出价格为4元，缓存读取价格为 0.1元。--------------------------------------------------------------------------------
+AI 日报 | 2026 年 10 月 19 日 | zglg.work (https://zglg.work/ai/today/2026-10-19)
+citeturn12search8 [wordlim: 200] Published: yesterday; Crawled: yesterday; #24 Models 2026/10/19 22:54:55 ... 10月19日，MiniMax 的新模型 M3.1 Flash 上线，搜狐网的报道把这次更新直接放进“国产大模型新战场”的框架里。
+#24 Models 2026/10/19 22:54:55
+
+### MiniMax M3.1 Flash 上线：国产大模型竞速又添一员
+
+10月19日，MiniMax 的新模型 M3.1 Flash 上线，搜狐网的报道把这次更新直接放进“国产大模型新战场”的框架里。具体定价、上下文长度与 Agent 能力尚未在这条报道中披露，模型的实际位置还要靠官方文档和开发者实测来确认。--------------------------------------------------------------------------------
+新浪AI热点小时报丨2026年10月19日20时_今日实时AI热点速递|html|flash|汪达与巨像|机器人|模型_新浪新闻 (https://k.sina.com.cn/article_7857201856_1d45362c001908rmzq.html?from=tech)
+citeturn12search9 [wordlim: 200] Published: yesterday; Crawled: yesterday; 2026年10月19日 20:00 新浪网 作者 ... 　　10月19日下午，MiniMax官方账号发布一条短视频，配文“Welcome back，Space Bunny”。 ... 该模型自9月下旬上线后，3天内即登顶 OpenRouter和 OpenCode的Token日调用量榜首，与DeepSeek V4.1 Flash、GLM 5.3 Flash一同占据前三名。
+
+# 新浪AI热点小时报丨2026年10月19日20时_今日实时AI热点速递
+
+新浪AI热点小时报丨2026年10月19日20时_今日实时AI热点速递
+
+2026年10月19日 20:00 新浪网 作者
+
+Image: avatar
+
+每日新闻摘录
+
+举报 缩小字体 放大字体 收藏 微博 微信
+
+## 1、MiniMax认领Space Bunny，M3.1 Flash即将发布
+
+　　10月19日下午，MiniMax官方账号发布一条短视频，配文“Welcome back，Space Bunny”。此举被视为官方认领匿名模型Space Bunny（太空兔）。该模型自9月下旬上线后，3天内即登顶 OpenRouter和 OpenCode的Token日调用量榜首，与DeepSeek V4.1 Flash、GLM 5.3 Flash一同占据前三名。
+
+　　http://finance.sina.com.cn/jjxw/2026-10-19/doc-inivueui7732275.shtml
+
+## 2、DeepSeek开放自研搜索API，定价仅为海外厂商十分之一
+
+　　21世纪经济报道记者 陈归辞日前，DeepSeek将V4.1 Flash模型更新至V4.1-Flash-1017版本，并开放了自研搜索API，提供搜索与抓取两个接口。--------------------------------------------------------------------------------
+Laplace Intelligence company information, funding & investors | Dealroom.co (https://app.dealroom.co/companies/laplace_intelligence)
+citeturn12search10 [wordlim: 200] Crawled: today; Laplace Intelligence is an Ann Arbor-based startup that provides an AI-powered simulation platform to stress-test autonomous systems such as vehicles, robots, and smart-city infrastructure. ... Keywords: AI simulation, autonomous vehicle testing, robotics safety, physical AI, red-teaming, virtual testing, scenario generation, failure analysis, smart city simulation, Howie Sun, Henry Liu, University of Michigan, Nvidia Cosmos, edge case testing, digital twin, AV safety, automated testing, stress testing, interactive simulation, foundation models, fleet operations, urban planning, logistics optimization, warehouse automation
+
+Image: Laplace Intelligence
+
+# Laplace Intelligence
+
+Save
+
+AI simulation platform for autonomous systems testing.
+
+Website
+
+laplaceintelligence.com
+
+Something missing? Suggest an update
+
+  * B2B
+  * saas
+  * subscription
+  * robotics
+  * transportation
+  * artificial intelligence
+  * deep tech
+
+  * dt and ls
+  * core ai
+  * ai data preparation and generation
+  * ai applications
+  * autonomous mobility
+  * av simulation
+
+Overview
+
+Similar companies
+
+No known external funding
+
+Contact us to add funding data
+
+More about Laplace Intelligence
+
+Made with AI
+
+Edit
+
+Laplace Intelligence is an Ann Arbor-based startup that provides an AI-powered simulation platform to stress-test autonomous systems such as vehicles, robots, and smart-city infrastructure. The company spun out of the University of Michigan and was founded by CEO Howie Sun and Chief Scientist Henry Liu. --------------------------------------------------------------------------------
+Physical AI testing startup Laplace Intelligence (https://superintelligencenews.com/applications/physical-ai-testing-laplace-intelligence/)
+citeturn12search11 [wordlim: 200] Published: last week; Crawled: 2 days ago; The updated source also adds new background on the founders: CEO Howie Sun and chief scientist Henry Liu started the company a year ago out of the University of Michigan, building on Sun’s academic research and a 2023 paper that reached the cover of Nature. ... Laplace Intelligence was founded by Howie Sun, the company’s CEO, and Henry Liu, its chief scientist.
+--------------------------------------------------------------------------------
+AI芯片强，不代表半导体全面复苏！TXN财报将揭开传统芯片的真实需求 (https://www.reddit.com/r/Go_Stock/comments/1xa3i05/ai%E8%8A%AF%E7%89%87%E5%BC%BA%E4%B8%8D%E4%BB%A3%E8%A1%A8%E5%8D%8A%E5%AF%BC%E4%BD%93%E5%85%A8%E9%9D%A2%E5%A4%8D%E8%8B%8Ftxn%E8%B4%A2%E6%8A%A5%E5%B0%86%E6%8F%AD%E5%BC%80%E4%BC%A0%E7%BB%9F%E8%8A%AF%E7%89%87%E7%9A%84%E7%9C%9F%E5%AE%9E%E9%9C%80%E6%B1%82/)
+citeturn12reddit12 [wordlim: 200] Published: yesterday; [Monday October 19 2026] [+2 votes] ... 本周10月21日，德州仪器$TXN将公布第三季度财报。 ... 这些数据已经说明传统半导体需求确实出现改善，但不同终端市场之间的增长差异仍然很大。
+--------------------------------------------------------------------------------
+两大巨头突然合作！机构：AI裂缝下的必然选择！ (https://www.reddit.com/r/AlphaStructureLab/comments/1x9wfdo/%E4%B8%A4%E5%A4%A7%E5%B7%A8%E5%A4%B4%E7%AA%81%E7%84%B6%E5%90%88%E4%BD%9C%E6%9C%BA%E6%9E%84ai%E8%A3%82%E7%BC%9D%E4%B8%8B%E7%9A%84%E5%BF%85%E7%84%B6%E9%80%89%E6%8B%A9/)
+citeturn12reddit13 [wordlim: 200] Published: yesterday; [Monday October 19 2026] [+3 votes] ... 10月14日，费城半导体指数重挫4.3%，连续六个交易日下跌，创下2025年5月以来最长连跌纪录，较6月高点累计跌幅超过20%。 ... 直接导火索是9月CPI同比上涨3.7%，超出预期的3.6%，核心CPI也高于预期，10月加息押注随之升温。
+--------------------------------------------------------------------------------
+2025年10月20日星期一 (https://zjrb.zjol.com.cn/images/2025-10/20/zjrb2025102000003v01n.pdf)
+citeturn12search14 [wordlim: 200] Published: 8 months ago; 个真实存在的问题。 ... 6 卷等相关成果出版亮相。 ... 浙大城市学院等联合研发的“中国传统绘画大模型”首次发布，这是人工智 ... 如今的领军者，微软、谷歌也好，阿里、腾讯也好，他们并非单一业务的玩家， ... 本报杭州10 月19 日讯（记者王晨辉）19 日，由浙江省对口区域
+

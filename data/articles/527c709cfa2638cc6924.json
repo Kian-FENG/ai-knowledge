@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24236",
+  "title": "Preserving Reasoning Diversity in Reinforcement Learning with Verifiable Rewards via Adaptive Replay",
+  "text": "arXiv:2610.24236v1 Announce Type: new\nAbstract: Reinforcement Learning with Verifiable Rewards (RLVR) improves the reasoning capabilities of large language models, but often reduces the diversity of their reasoning behaviors. We study this phenomenon from the perspective of finite-sample learning dynamics and show that limited on-policy rollouts can progressively suppress semantically distinct but equally rewarded reasoning modes. Once a mode becomes sufficiently under-sampled, standard on-policy RLVR rarely recovers it. Motivated by this observation, we propose TAR, a Targeted Adaptive Replay framework that preserves diverse correct reasoning behaviors already present in the base policy. TAR constructs a compact memory bank of diverse base-model solutions and selectively replays them through an adaptive mechanism that activates only when stored behaviors are being suppressed during RLVR. Across six mathematical reasoning benchmarks and two Qwen2.5 model scales, TAR consistently achieves a better balance between reasoning performance and diversity preservation than existing diversity-preserving post-training methods, while substantially reducing the forgetting of correct base-model solutions. Code is available at https://github.com/wenzhilics/tar.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "527c709cfa2638cc6924",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

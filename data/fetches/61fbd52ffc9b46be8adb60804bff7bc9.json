@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-21/a3d521c134e4d455ef8d5c2c720cb1264f7067f28b70a7df014fd45fd24c3740.body",
+  "sha256": "a3d521c134e4d455ef8d5c2c720cb1264f7067f28b70a7df014fd45fd24c3740",
+  "source_url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-20T22:04:56.201297+00:00",
+  "source_id": "amazon-news",
+  "status": 200,
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Date": "Tue, 20 Oct 2026 22:02:42 GMT",
+    "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Link": "</_next/static/media/06389fc2ceb131fb.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/2573a0816525bbf7.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/337fd6ec2b734835.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/42439b8f44a5716c.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/476c2f4d793101fd.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/4d6a9fb8ff3b8fc2.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/665b265b8ab38986.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/7fe83725c48c9c69.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/b6b6385034af0a3e.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/c3d0f0661915be47.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/d180bbba8bf4e40d.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/d892c3e5c534541d.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/media/e3d5535913b6b6d3.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/f90a977ffdd12ef5.p.woff>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff\", </_next/static/css/c9945c7442fc7d5c.css>; rel=preload; as=\"style\", </_next/static/css/b04376dbda111721.css>; rel=preload; as=\"style\", </_next/static/css/645c7dc07309115c.css>; rel=preload; as=\"style\", </_next/static/css/3477cf02ffac4501.css>; rel=preload; as=\"style\", </_next/static/css/e9fb153fea3d5240.css>; rel=preload; as=\"style\", </_next/static/css/295689712baf0450.css>; rel=preload; as=\"style\"",
+    "X-Powered-By": "Next.js",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 36558cb00b679b60f8b6b32e03075a28.cloudfront.net (CloudFront)",
+    "Age": "135",
+    "X-Cache": "Hit from cloudfront",
+    "X-Amz-Cf-Pop": "SFO5-P1",
+    "X-Amz-Cf-Id": "3D5hpUqW4w6aqRFAQO0HurGtQns-ssS6uMS86I71dbDuWysts_tO7Q=="
+  },
+  "final_url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
+  "truncated": false,
+  "charset": "utf-8"
+}

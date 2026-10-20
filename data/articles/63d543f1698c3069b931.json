@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/20/world/asia/china-deepseek-us-ban.html",
+  "title": "China Criticizes U.S. Ban on DeepSeek A.I. in Government Systems",
+  "text": "The response came after Homeland Security ordered the removal and exclusion of products developed by the Chinese company.",
+  "published_at": "2026-10-20T21:55:59+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "63d543f1698c3069b931",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/d1160b7b5a311249db6df9b84f21354fbe73b103e3a4d8d1c1b2624a0be88570.body",
+  "source_sha256": "d1160b7b5a311249db6df9b84f21354fbe73b103e3a4d8d1c1b2624a0be88570",
+  "fetched_at": "2026-10-20T22:02:43.677872+00:00"
+}

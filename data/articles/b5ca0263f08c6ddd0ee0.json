@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159066.htm",
+  "title": "时隔16年！大神用AI修复初代光追Demo：RTX 5070 Ti就能跑",
+  "text": "快科技10月20日消息，近日一位Reddit网友发帖展示了一项硬核实验：他成功在最新的RTX 5070 Ti显卡上运行了2010年发布的NVIDIA Design Garage技术演示Demo。\n这一成果并非依靠官方补丁，而是通过大语言模型对老旧软件进行深度逆向工程和代码重构实现的。\n据了解，Design Garage是英伟达在GeForce GTX 470时代推出的经典光线追踪演示程序，主要展示当时Fermi架构的实时光影能力。\n不过随着显卡架构的演进，该Demo在GTX 1070之后便难以运行，而在最新的RTX 50系列显卡上更是彻底失效。\n核心原因在于，基于Blackwell架构的RTX 50系列显卡已经完全移除了对32位CUDA的硬件支持，导致原本的32位程序无法直接调用GPU资源。\n为了解决这一架构断层，该网友利用AI技术对程序的动态链接库和SBF文件进行了全面扫描。AI成功识别出了程序对早期OptiX 3引擎的依赖，并还原了SceniX图形层中约280个关键函数的调用逻辑。\n最关键的突破在于，AI辅助将原本的32位PTX着色器代码进行了重新编译，使其能够适配现代渲染管线。\n在具体实现上，开发者构建了一个名为optix.1.dll的替换库。该库充当了翻译官的角色，它并不直接执行渲染，而是通过共享内存技术，将32位Demo发出的指令实时传输给一个独立的64位后端进程。\n这个后端进程基于现代的OptiX 9.1引擎开发，能够直接调用RTX 5070 Ti的硬件光追单元，通过这种方式，原本被硬件拒之门外的32位应用间接获得了现代GPU的加速能力。\n在修复过程中，AI帮助开发者分阶段恢复了赛车的几何模型、材质细节以及Monte Carlo照明系统，即使是复杂的法线贴图和玻璃着色器，也在AI的辅助下完成了从32位到64位环境的平滑迁移。\n测试结果显示，RTX 5070 Ti在运行这16年前的Demo时，不仅画质得到了完整保留，运行效率也远超当年。",
+  "published_at": "2026-10-20T18:31:58+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b5ca0263f08c6ddd0ee0",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/82d51217de36669a2a31f357b0754e78cce6319d137ba52bf3a54d8d268b0a65.body",
+  "source_sha256": "82d51217de36669a2a31f357b0754e78cce6319d137ba52bf3a54d8d268b0a65",
+  "fetched_at": "2026-10-20T22:02:48.089688+00:00"
+}

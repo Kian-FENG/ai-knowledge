@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+  "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+  "text": "Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records.\n\"People have the ability to share specific Muse artifacts, which creates a page that can be accessed by those with the link,\" Muse spokesperson Tracy Clayton says in an emailed statement to The Verge. \"However, we've paused this functionality while we review this report and consider changes to how these links can be dis …\nRead the full story at The Verge.",
+  "published_at": "2026-10-20T14:07:34-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-20T14:07:34-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "edff2445aa44f28f9d3d",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-21/457c12c23bfd6e9e6032d896b95d151a513b4a2a4a0b4ac76fb74794d0b87904.body",
+  "source_sha256": "457c12c23bfd6e9e6032d896b95d151a513b4a2a4a0b4ac76fb74794d0b87904",
+  "fetched_at": "2026-10-20T22:02:37.084956+00:00"
+}

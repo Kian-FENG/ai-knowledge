@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24478",
+  "title": "Beyond Recall Saturation: Scaling Hard-Negative Reranker Training for Industrial Legal Retrieval",
+  "text": "arXiv:2610.24478v1 Announce Type: new\nAbstract: Industrial retrieval systems often improve quality by enlarging embedding candidate pools or adopting complex training pipelines. We show that, under a sufficiently large but practical candidate pool, embedding recall exhibits diminishing returns, motivating a closer examination of reranker quality. On Chinese legal retrieval benchmarks, embedding top-300 reaches a high-recall operating region, while relevant evidence may still be ranked below the output cutoff. We compare hard-negative strategies for reranker training, including embedding-mined, self-mined, and dynamic-negative variants, under aligned retrieval protocols that evaluate reranking after candidate retrieval. Among the evaluated staged configurations, an embedding-to-self-mined pipeline provides a favorable trade-off; additional dynamic stages do not improve all held-out metrics. The selected pipeline scales from a 0.6B to a 4B reranker. Relative to the native 4B reranker, the trained 4B Stage2 model improves reported metrics on the STARD and CSAID benchmarks and on an internal development set, and is preferred in 72.4\\% of non-tied comparisons on 410 de-identified, reconstructed internal operational-query inputs in a latency-sensitive offline preference evaluation. These results support evaluating the retrieval and reranking stages separately when selecting an optimization target for industrial retrieval systems.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "ea107947ff861c5f4551",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

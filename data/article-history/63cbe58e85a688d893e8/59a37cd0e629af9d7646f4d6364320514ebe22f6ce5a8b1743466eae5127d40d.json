@@ -1,0 +1,18 @@
+{
+  "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
+  "title": "Amazon opens its AWS Trainium AI chips to every PyTorch developer, no rewrite needed",
+  "text": "TorchNeuron lets developers run their existing AI code on AWS Trainium chips with virtually no changes, reducing the friction to adopting new hardware.",
+  "published_at": "2026-10-19T13:00:10+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "63cbe58e85a688d893e8",
+  "source_id": "amazon-news",
+  "source_name": "About Amazon",
+  "section": 5,
+  "raw_path": "raw/2026-10-20/59a37cd0e629af9d7646f4d6364320514ebe22f6ce5a8b1743466eae5127d40d.body",
+  "source_sha256": "59a37cd0e629af9d7646f4d6364320514ebe22f6ce5a8b1743466eae5127d40d",
+  "fetched_at": "2026-10-19T22:00:13.702358+00:00"
+}

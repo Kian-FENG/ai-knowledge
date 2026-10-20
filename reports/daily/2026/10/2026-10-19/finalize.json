@@ -1,0 +1,19 @@
+{
+  "published": [
+    "reference/sources/minimax-m31-flash-20261019.md",
+    "reference/sources/openai-orchestra-bio-20261019.md",
+    "reference/sources/memsilicon-lpu-series-a-20261019.md",
+    "reference/sources/openai-low-resource-code-20261019.md",
+    "reference/sources/sglang-v0522-20261019.md",
+    "reference/sources/vllm-elastic-ep-20261019.md",
+    "reference/sources/microsoft-agentic-insider-20261019.md",
+    "reference/papers/kv-residency-261022863.md",
+    "reference/papers/self-hpo-261022791.md",
+    "reference/sources/tenstorrent-series-e-20261019.md",
+    "reference/sources/aws-torchneuron-announcement-20261019.md",
+    "reference/entities/tenstorrent.md",
+    "reference/entities/orchestra-bio.md",
+    "research/synthesis/agent-cost-beyond-token-price-20261019.md"
+  ],
+  "indices": 6
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159086.htm",
+  "title": "全球开源第一！小米MiMo-V2.6-Pro上线WorkBuddy：支持1M超长上下文",
+  "text": "快科技10月20日消息，今日，小米技术官微宣布，Xiaomi MiMo-V2.6-Pro大模型正式上线WorkBuddy，面向专业、长程及复杂工作流提供AI能力支持。\n据小米介绍，MiMo-V2.6-Pro在Artificial Analysis智能指数评测中获得46分，位居全球开源模型第一。\n在核心能力方面，MiMo-V2.6-Pro支持1M超长上下文窗口，能够处理大规模文本及复杂信息，同时具备多智能体分工协作能力，可将复杂任务拆分，由多个智能体协同完成。\n多模态方面，新模型支持图像、视频、音频、文本全模态联合理解，能够综合分析不同类型的信息内容。\n应用场景上，MiMo-V2.6-Pro主要面向专业办公及复杂任务处理，涵盖长任务托管、深度研究、设计出稿、文档办公、小工具开发等多个领域。\n此次上线WorkBuddy，也意味着小米MiMo系列大模型的应用场景进一步拓展，从模型能力建设向实际办公生产力场景延伸。\n据了解，MiMo-V2.6系列于9月21日正式发布并开源，包括Pro和Flash两款原生全模态模型。",
+  "published_at": "2026-10-20T19:58:55+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "eb84e0893af23460c52e",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/82d51217de36669a2a31f357b0754e78cce6319d137ba52bf3a54d8d268b0a65.body",
+  "source_sha256": "82d51217de36669a2a31f357b0754e78cce6319d137ba52bf3a54d8d268b0a65",
+  "fetched_at": "2026-10-20T22:02:48.089688+00:00"
+}

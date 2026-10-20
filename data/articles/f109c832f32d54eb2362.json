@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159022.htm",
+  "title": "AMD十四年后再战Arm处理器！6核心设计：为入门Surface打造",
+  "text": "快科技10月20日消息，有关AMD代号Sound Wave的Arm处理器传言再起。\n根据DigiTimes的报道，微软为应对苹果入门级MacBook Neo的激进定价和零部件成本上涨，正重新考虑Surface策略，计划推出一款12英寸入门级Surface，包括重新评估处理器选择，报道标题特别提到AMD的Arm架构处理器可能回归。\n此前就有传闻称Sound Wave将用于微软2026年Surface产品线，Kepler_L2称AMD主要为微软即将推出的设备设计了这款处理器，不过该预测尚未兑现。\nAMD上一次做Arm处理器要追溯到2012年，当时宣布代号K12的Arm架构处理器，与自家x86处理器针脚兼容，两年后首款产品Opteron A1100亮相，但从未真正上市，整个计划随即被取消。Sound Wave如果落地，将是AMD时隔十余年重返Arm赛道。\nSound Wave传闻规格为6个Arm CPU核心，包括2个性能核加4个能效核，配RDNA 3.5架构核显4个CU，16MB MALL缓存，第四代AI引擎，支持LPDDR5X-9600内存，采用台积电3nm工艺，功耗目标5-10W。\n目前尚不能完全确定Sound Wave是否与微软计划有关，DigiTimes的报道也未指明具体处理器、确认发布时间或透露哪些规格可能降级。也不能保证传闻设备会用AMD硬件而非另一款高通芯片。",
+  "published_at": "2026-10-20T17:11:16+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f109c832f32d54eb2362",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/82d51217de36669a2a31f357b0754e78cce6319d137ba52bf3a54d8d268b0a65.body",
+  "source_sha256": "82d51217de36669a2a31f357b0754e78cce6319d137ba52bf3a54d8d268b0a65",
+  "fetched_at": "2026-10-20T22:02:48.089688+00:00"
+}

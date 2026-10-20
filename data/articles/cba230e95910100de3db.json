@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/",
+  "title": "Cloudflare's Clairic pulls data from documents faster and cheaper than LLMs",
+  "text": "Cloudflare has released an AI model it says pulls data from documents faster and more cheaply than large language models.\nThe article Cloudflare's Clairic pulls data from documents faster and cheaper than LLMs appeared first on The Decoder.",
+  "published_at": "2026-10-20T12:04:56+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "cba230e95910100de3db",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/429fdc752b50597c661151d1f5e5af6ae1bc9ca946340db2891c8d3a5bc55efc.body",
+  "source_sha256": "429fdc752b50597c661151d1f5e5af6ae1bc9ca946340db2891c8d3a5bc55efc",
+  "fetched_at": "2026-10-20T22:02:36.960633+00:00"
+}

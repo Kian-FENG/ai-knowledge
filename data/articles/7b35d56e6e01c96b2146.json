@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/coreweaves-debt-binge-brought-perilous-moment-reckoning",
+  "title": "How CoreWeave’s Debt Binge Brought a Moment of Reckoning",
+  "text": "In early 2023, Blackstone CEO Steve Schwarzman gathered with Jas Khaira, the company’s lead AI investor, and other top executives at the finance giant’s Park Avenue headquarters in Manhattan for a debate: Should they give billions of dollars to a little-known data center developer—CoreWeave—that they had turned down just a few months earlier?\nCoreWeave had gotten Blackstone to return to the table after landing a multiyear, multibillion-dollar contract to sell cloud computing services to Microsoft. It needed $2.3 billion to buy Nvidia GPUs and secure a data center to house them.\nIn Blackstone’s discussion of the deal, several executives in the room had deep misgivings, according to a person who attended the meeting. CoreWeave was still something of a mystery, a six-year-old, privately held firm that had generated only $16 million in revenue in the previous year. Schwarzman himself was personally worried his investment team could be making a mistake, the person said.",
+  "published_at": "2026-10-20T13:35:43+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-20T21:16:11+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7b35d56e6e01c96b2146",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/292aabfb052b27c9dfd5508fb31ebc5aebc219eb59ba61d92c822a9079d9e57d.body",
+  "source_sha256": "292aabfb052b27c9dfd5508fb31ebc5aebc219eb59ba61d92c822a9079d9e57d",
+  "fetched_at": "2026-10-20T22:02:37.341760+00:00"
+}

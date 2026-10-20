@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24275",
+  "title": "Modeling bilingual naming performance through laterally-connected SOMs",
+  "text": "arXiv:2610.24275v1 Announce Type: new\nAbstract: Computational models have explanatory power to understand cognition in individuals, but there is usually not enough training data to build such models with traditional machine learning. However, alternative architectures that model neural and cognitive processes in more detail can be more easily fit to individuals and can lead to mechanistic insights into human behavior. BiLex is such a computational model of the bilingual lexicon, containing a shared semantic system and phonetic language systems represented through self-organizing maps. In this study, BiLex was extended further into biological realism with excitatory and inhibitory lateral connections. This extension makes it possible to account for response times as well as common errors such as those based on semantic concept familiarity, typicality, and specificity. The Boston Naming Test was simulated in Spanish and English, and model performance approximated naming accuracy and error types in Spanish-English bilinguals with varying primary and secondary language histories. The results indicated that the approach captures semantic-level processes in bilingual lexical access, thus modeling the semantic cognition of individual subjects. In the future, such models may serve as a foundation for modeling impairments and treatment options.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "a5a85f9b9534032b7a6b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

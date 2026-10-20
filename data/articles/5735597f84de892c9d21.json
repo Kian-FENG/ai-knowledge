@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24730",
+  "title": "GLOSS-MT: Controllable Low-Resource Machine Translation with an Editable Dictionary",
+  "text": "arXiv:2610.24730v1 Announce Type: new\nAbstract: Adapting a pretrained machine translation (MT) model to new terminology usually requires new parallel data and another round of fine-tuning, which is costly for low-resource languages. We ask whether controllability can be added to MT, and the fine-tuning burden reduced, without degrading the pretrained model. GLOSS-MT looks up the source's noun phrases in an offline English-Twi dictionary, replaces every phrase found by its Twi translation in place, and fine-tunes a translation model once to translate these mixed inputs. We apply the same data and pipeline to NLLB-200 (600M, 1.3B, 3.3B), OPUS-MT en-tw and TranslateGemma 4B. On a document-level English-to-Asante Twi benchmark (84 documents, four domains), every fine-tune scores above its pretrained base in chrF2 (+2.85 to +5.48), and the three NLLB fine-tunes are the best open systems (50.12-50.80). A direct controllability test on human-translated Bible passages shows that the three fine-tunes tested write 79-97% of the dictionary terms, and that replacing every dictionary entry by a different term changes the output accordingly (70-97% of the new terms appear) with no retraining. We release the models, data and code.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "5735597f84de892c9d21",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

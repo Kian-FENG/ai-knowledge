@@ -1,0 +1,495 @@
+meta-models/Muse-Spark-Open-816B-A42B · Hugging Face (https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B)
+citeturn8view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","lineno":null}); Total lines: 498
+L0: [Input: Search models, datasets, users...]
+L1: 
+L2:   * cite0†Models L3:   * cite1†Datasets L4:   * cite2†Spaces L5:   * cite3†Buckets new L6:   * cite4†Docs L7:   * cite5†Enterprise L8:   * cite6†Pricing L9:   *     * Website
+L10: 
+L11:       * cite7†Tasks L12:       * cite8†HuggingChat L13:       * cite9†Collections L14:       * cite10†Languages L15:       * cite11†Organizations L16:     * Community
+L17:       * cite12†Blog L18:       * cite13†Posts L19:       * cite14†Daily Papers L20:       * cite15†Hardware L21:       * cite16†Learn L22:       * cite17†Discord L23:       * cite18†Forum†discuss.huggingface.co L24:       * cite19†GitHub†github.com L25:     * Solutions
+L26: 
+L27:       * cite5†Team & Enterprise L28:       * cite20†Hugging Face PRO L29:       * cite21†Enterprise Support L30:       * cite22†Inference Providers L31:       * cite23†Inference Endpoints L32:       * cite3†Storage Buckets L33: 
+L34:   * * * *
+L35: 
+L36:   * cite24†Log In L37:   * cite25†Sign Up L38: #
+L39: 
+L40: cite26†meta-models L41: 
+L42: /
+L43: 
+L44: cite27†Muse-Spark-Open-816B-A42B L45: 
+L46: Like [Button: 607]
+L47: 
+L48: Follow
+L49: 
+L50: cite28†Image†cdn-avatars.huggingface.co Meta Inc. [Button: 2.75k]
+L51: 
+L52: cite29†Image-Text-to-Text cite30†Transformers cite31†Safetensors cite32†PyTorch cite33†English cite34†muse_spark cite35†facebook cite36†meta cite37†muse cite38†muse-spark cite39†conversational cite40†Eval Results L53: 
+L54: License: muse-model-license
+L55: 
+L56: cite27†Model card cite41†Files xet cite42†Community 15 L57: 
+L58: Deploy
+L59: 
+L60: Copy to bucket new
+L61: 
+L62: Use this model
+L63: ### Instructions to use meta-models/Muse-Spark-Open-816B-A42B with libraries, inference providers, notebooks, and local apps. Follow these links to get started.
+L64: 
+L65:   * Libraries
+L66:   * cite43†Transformers L67: How to use meta-models/Muse-Spark-Open-816B-A42B with Transformers:
+L68: 
+L69:     # Use a pipeline as a high-level helper
+L70:     from transformers import pipeline
+L71: 
+L72:     pipe = pipeline("image-text-to-text", model="meta-models/Muse-Spark-Open-816B-A42B")
+L73:     messages = [
+L74:         {
+L75:             "role": "user",
+L76:             "content": [
+L77:                 {"type": "image", "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/p-blog/candy.JPG"},
+L78:                 {"type": "text", "text": "What animal is on the candy?"}
+L79:             ]
+L80:         },
+L81:     ]
+L82:     pipe(text=messages)
+L83: 
+L84:     # pip install -U transformers accelerate
+L85:     # Load model directly
+L86:     from transformers import AutoProcessor, AutoModelForMultimodalLM
+L87: 
+L88:     processor = AutoProcessor.from_pretrained("meta-models/Muse-Spark-Open-816B-A42B")
+L89:     model = AutoModelForMultimodalLM.from_pretrained("meta-models/Muse-Spark-Open-816B-A42B", device_map="auto")
+L90:     messages = [
+L91:         {
+--------------------------------------------------------------------------------
+Visko — Live Models to predict the world (https://www.visko.ai/)
+citeturn8view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.visko.ai/","lineno":null}); Total lines: 111
+L0: cite0†Models cite1†Research cite2†News L1: 
+L2: # We build Live Models to predict the world.
+L3: 
+L4: Introducing Orbis→cite3†Image Our foundation model that creates living worlds and streams them in real time.
+L5: 
+L6: Our Mission
+L7: 
+L8: ## We empower anyone to build limitless living worlds where humans and machines learn, practice, and play.We empower anyone to build limitless living worlds where humans and machines learn, practice, and play.
+L9: 
+L10: Our Mission
+L11: ## We empower anyone to build limitless living worlds where humans and machines learn, practice, and play.We empower anyone to build limitless living worlds where humans and machines learn, practice, and play.
+L12: 
+L13: ## Where worlds go live
+L14: 
+L15: ### Orbis
+L16: 
+L17: Our foundation model that creates living worlds and streams them in real time.
+L18: 
+L19:   * Generate in real-time
+L20:   * Infinite-length generation
+L21:   * Persistent memory
+L22:   * Interactive
+L23:   * Physics-grounded
+L24: 
+L25: cite4†Try Orbis cite5†Learn more L26: ### Morphe
+L27: 
+L28: Our expert model that changes or animates persons in a video while keeping everything else the same.
+L29: 
+L30:   * Identity holds
+L31:   * Background persists
+L32:   * Details match
+L33: 
+L34: cite6†Try Morphe [Button: Report coming soon]
+L35: 
+L36: ### Kinesis
+L37: 
+L38: Our expert model that adds or changes anything in a video, exactly when and where you want.
+L39: 
+L40:   * Precise element control
+L41:   * Space-time keyframes
+L42: 
+L43: cite7†Try Kinesis cite8†Learn more L44: 
+L45: ## Pillars of Visko Models
+L46: 
+L47: ### Real-time generation
+L48: 
+L49: cite9†Image L50: 
+L51: ### Persistent memory
+L52: 
+L53: cite10†Image L54: ### Interactive
+L55: 
+L56: cite11†Image L57: 
+L58: ### Infinite-length generation
+L59: 
+L60: cite12†Image L61: 
+L62: ### Physics-grounded
+L63: 
+L64: cite13†Image†assets.visko.ai L65: 
+L66: ### Full-duplex
+L67: 
+L68: cite14†Image†assets.visko.ai L69: 
+L70: ### Real-time generation
+L71: 
+L72: cite9†Image L73: 
+L74: ### Persistent memory
+L75: 
+L76: cite10†Image L77: 
+L78: ### Interactive
+L79: 
+L80: cite11†Image L81: 
+L82: ### Infinite-length generation
+L83: 
+L84: cite12†Image L85: 
+L86: ### Physics-grounded
+L87: 
+L88: cite13†Image†assets.visko.ai L89: 
+L90: ### Full-duplex
+L91: 
+L92: cite14†Image†assets.visko.ai L93: 
+L94: ## Research
+L95: ### Introducing Live Models: A Frontier for World Models
+L96: 
+L97: Video models generate clips. Live Models generate worlds that keep running. Learn about the six functional pillars behind them and what they make possible.
+L98: 
+L99: cite15†Read more → L100: 
+L101: cite16†Image: Introducing Visko Live Models --------------------------------------------------------------------------------
+The Team Behind Kubernetes is Building AI Infrastructure (https://stacklok.com/company/)
+citeturn8view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://stacklok.com/company/","lineno":null}); Total lines: 347
+L0: Introducing Mecatl: the open cloud-native harness by Stacklok
+L1: 
+L2: cite0†Learn more†mecatl.dev L3: 
+L4:   * cite1†Projects L5:   * Solutions
+L6:   * Resources
+L7:   * cite2†Registry L8:   * About Us
+L9: 
+L10: cite3†Demo L11: 
+L12:   * cite1†Projects L13:   * Solutions
+L14:     * cite4†Use Case L15:       * cite5†MCP Registry L16:       * cite6†MCP Gateway L17:       * cite7†MCP Runtime L18:       * cite8†AI Gateway L19:     * cite4†Industry L20:       * cite9†Financial Services L21:       * cite10†Manufacturing L22:       * cite11†Retail L23:       * cite12†Software L24:       * cite13†Telecommunications L25:     * cite4†Teams L26:       * cite14†Platform Engineering L27:       * cite15†AI Enablement L28:       * cite16†Finance L29:       * cite17†HR L30:   * Resources
+L31:     * cite18†Blog L32:     * cite19†Docs†docs.stacklok.com L33:     * cite20†Guides L34:     * cite21†Case Studies L35:     * cite22†Videos L36:   * cite2†Registry L37:   * About Us
+L38: 
+L39:     * cite23†Company L40:     * cite24†Contact L41: 
+L42:   * cite3†Demo L43: # We’re paving the path to an agentic future
+L44: We’re building an open architecture for the next generation of AI agents, so that enterprises and developers can move freely between models and providers and stay in control of their costs, their data and their destiny. That work includes ToolHive, an open source platform for running MCP servers, and Mecatl, an open source cloud-native agent harness. We’re early, and if you want to work alongside a community-minded team with deep Kubernetes roots, come build with us.
+L45: 
+L46: cite25†Join us L47: 
+L48: cite26†Image L49: 
+L50: cite27†Image L51: cite28†Image L52: 
+L53: cite29†Image L54: 
+L55: cite30†Image L56: 
+L57: cite31†Image L58: 
+L59: cite32†Image L60: 
+L61: cite33†Image L62: 
+L63: cite34†Image L64: 
+L65: cite35†Image L66: 
+L67: cite36†Image L68: 
+L69: cite37†Image L70: 
+L71: cite38†Image L72: 
+L73: cite39†Image L74: 
+L75: cite40†Image L76: 
+L77: cite41†Image L78: 
+L79: cite42†Image L80: 
+L81: cite26†Image L82: 
+L83: cite27†Image L84: 
+L85: cite28†Image L86: 
+L87: cite29†Image L88: 
+L89: cite30†Image L90: 
+L91: cite31†Image L92: 
+L93: cite32†Image L94: 
+L95: cite33†Image L96: 
+L97: cite34†Image L98: 
+L99: cite35†Image L100: 
+L101: cite36†Image L102: 
+L103: cite37†Image L104: 
+L105: cite38†Image L106: 
+L107: cite39†Image L108: 
+L109: cite40†Image L110: 
+L111: cite41†Image L112: 
+L113: cite42†Image L114: 
+L115: cite26†Image L116: 
+L117: cite27†Image L118: 
+L119: cite28†Image L120: 
+L121: cite29†Image L122: 
+L123: cite30†Image L124: 
+L125: cite31†Image L126: 
+L127: cite32†Image L128: 
+L129: cite33†Image L130: 
+L131: cite34†Image L132: 
+L133: cite35†Image L134: cite36†Image L135: 
+L136: cite37†Image L137: 
+L138: cite38†Image L139: 
+L140: cite39†Image L141: 
+L142: cite40†Image L143: 
+L144: cite41†Image L145: 
+L146: cite42†Image L147: ## Meet our leadership team
+L148: 
+L149:   * cite43†Image: Craig McLuckie L150: 
+L151: ### Craig McLuckie
+L152: 
+L153: CEO
+L154: 
+L155:   * cite44†Image: Joe Beda L156: 
+L157: ### Joe Beda
+L158: 
+L159: CTO
+L160: 
+L161:   * cite45†Image: Shanis Windland L162: 
+L163: ### Shanis Windland
+L164: 
+L165: COO
+L166: 
+L167:   * cite46†Image: Scott Buchanan L168: 
+L169: ### Scott Buchanan
+L170: 
+L171: CMO
+L172: 
+L173:   * cite47†Image: Brian Dussault L174: 
+L175: ### Brian Dussault
+L176: 
+L177: Sr. Director of Engineering and Security
+L178: 
+L179:   * cite48†Image: Derek Tu L180: 
+L181: ### Derek Tu
+L182: 
+L183: Head of Product
+L184: 
+L185: ## Investors
+L186: 
+L187: cite49†Image: Accel L188: 
+L189: cite50†Image: Madrona --------------------------------------------------------------------------------
+Peppermint Raises $4.7M Seed for Clinical Research Finance | Peppermint (https://www.getpeppermint.ai/peppermint-raises-4-7m-seed)
+citeturn8view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.getpeppermint.ai/peppermint-raises-4-7m-seed","lineno":null}); Total lines: 64
+L0: Peppermint Raises $4.7M to Bring Scientific Precision to the Finances of Clinical Researchcite0†Learn more L1: 
+L2:   * cite1†How it works L3:   * cite2†Compare L4:   * cite3†About L5: 
+L6: cite4†Sign in†app.getpeppermint.ai cite5†Book a demo L7: 
+L8:   * cite1†How it works L9:   * cite2†Compare L10:   * cite3†About L11: 
+L12: cite5†Book a demo cite4†Sign in†app.getpeppermint.ai L13: # Peppermint Raises $4.7M to Bring Scientific Precision to the Finances of Clinical Research
+L14: 
+L15: Company’s AI-powered platform was purpose-built for clinical trial teams and hospital systems to transform clinical research into a scalable engine for financial growth and scientific discovery
+L16: SAN FRANCISCO — October 8, 2026 — cite6†Peppermint†getpeppermint.ai , an AI-powered platform that streamlines financial operations and accelerates growth for clinical research teams, today announced $4.7 million in seed funding led by cite7†Moxxie†www.moxxie.vc , with participation from cite8†Homebrew†www.homebrew.co , cite9†Better Tomorrow Ventures†btv.vc , cite10†Layout Ventures†www.layoutventures.com , cite11†Digital Health Venture Partners†www.dhvp.io , cite12†Night Capital,†nightcapvc.com and angel investors Benjamin Mann and Evan Moore.
+L17: The funding will further enable the founding team, who previously built payments and reconciliation infrastructure for Robinhood, to transform clinical research into a scalable engine for financial growth and scientific discovery.
+L18: Despite advances in the science and technology driving novel drug development, the industry still relies on an antiquated and fragmented financial framework. Instead of payments flowing smoothly between sponsors, CROs, health systems, and research sites, clinical research relies on a patchwork of systems that were never designed to work together.
+L19: Every party absorbs the cost of that complexity. Health systems carry it across an entire research portfolio, where the finances of clinical research remain one of the least visible lines on the balance sheet. Sites feel it most acutely: One-third of sites have more than 90 days’ worth of overdue receivables, and 50% of sites have three months or less of operating capital, according to a cite13†2024 survey†myscrs.org by the Society for Clinical Research Sites (SCRS).
+--------------------------------------------------------------------------------
+利太智药完成近5000万元种子轮融资 讯飞创投出手 _ 东方财富网 (https://finance.eastmoney.com/a/202610103892000121.html)
+citeturn8view4 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"https://finance.eastmoney.com/a/202610103892000121.html","lineno":null}); Total lines: 190
+L0:   * cite0†财经 L1:   * cite1†焦点 L2:   * cite2†股票†stock.eastmoney.com L3:   * cite3†新股†stock.eastmoney.com L4:   * cite4†期指†stock.eastmoney.com L5:   * cite5†期权†option.eastmoney.com L6:   * cite6†行情†quote.eastmoney.com L7:   * cite7†数据†data.eastmoney.com L8:   * cite8†全球†stock.eastmoney.com L9:   * cite9†美股†stock.eastmoney.com L10:   * cite10†港股†hk.eastmoney.com L11:   * cite11†期货†futures.eastmoney.com L12:   * cite12†外汇†forex.eastmoney.com L13:   * cite13†银行†bank.eastmoney.com L14:   * cite14†基金†www.1234567.com.cn L15:   * cite15†理财†money.eastmoney.com L16:   * cite16†债券†bond.eastmoney.com L17:   * cite17†直播†roadshow.eastmoney.com L18:   * cite18†股吧†guba.eastmoney.com L19:   * cite19†基金吧†guba.eastmoney.com L20:   * cite20†博客†blog.eastmoney.com L21:   * cite21†财富号†caifuhao.eastmoney.com L22:   * cite22†搜索†so.eastmoney.com L23: cite23†iframe†same.eastmoney.com L24: 
+L25: 行情中心
+L26: 
+L27: cite24†指数†quote.eastmoney.com cite25†期指†quote.eastmoney.com cite26†期权†quote.eastmoney.com cite27†个股†quote.eastmoney.com cite28†板块†quote.eastmoney.com cite29†排行†quote.eastmoney.com cite30†新股†quote.eastmoney.com cite31†基金†quote.eastmoney.com cite32†港股†quote.eastmoney.com cite33†美股†quote.eastmoney.com cite34†期货†quote.eastmoney.com cite35†外汇†quote.eastmoney.com cite36†黄金†quote.eastmoney.com cite37†自选股†quote.eastmoney.com cite38†自选基金†favor.fund.eastmoney.com L28: 
+L29: [Input] [Input]
+L30: 
+L31: 数据中心
+L32: cite39†资金流向†acttg.eastmoney.com cite40†主力排名†acttg.eastmoney.com cite41†板块资金†acttg.eastmoney.com cite42†个股研报†acttg.eastmoney.com cite43†新股申购†acttg.eastmoney.com cite44†转债申购†acttg.eastmoney.com cite45†北交所申购†acttg.eastmoney.com cite46†AH股比价†acttg.eastmoney.com cite47†年报大全†data.eastmoney.com cite48†融资融券†acttg.eastmoney.com cite49†龙虎榜†acttg.eastmoney.com cite50†限售解禁†acttg.eastmoney.com cite51†IPO审核†acttg.eastmoney.com cite52†大宗交易†acttg.eastmoney.com cite53†估值分析†acttg.eastmoney.com L33: 
+L34: cite54†首页†www.eastmoney.com > cite55†财经频道 > 正文
+L35: 利太智药完成近5000万元种子轮融资 讯飞创投出手
+L36: 
+L37: 2026年10月10日 22:37
+L38: 
+L39: 作者： 科创板日报记者 徐杰
+L40: 
+L41: 来源： 财联社
+L42: 
+L43: 小 中 大
+L44: 
+L45: 东方财富APP
+L46: 
+L47: 方便，快捷
+L48: 
+L49: 手机查看财经快讯
+L50: 
+L51: 专业，丰富
+L52: 
+L53: 一手掌握市场脉搏
+L54: 
+L55: 　　《科创板日报》10日讯，近日，利太智药（北京）科技有限公司（下称“利太智药”）完成cite56†种子†quote.eastmoney.com 轮融资，融资金额近5000万元，投资方为讯飞cite57†创投†quote.eastmoney.com 、L2F光源创业者基金及知名产业方。
+L56: 
+L57: 　　本轮资金将主要用于算力租用、核心管线研发、专利申报、人才招募及日常运营。
+L58: 
+L59: 　　利太智药成立于2026年7月，总部位于北京市海淀区，是一家AI原生多肽cite58†创新药†quote.eastmoney.com 物研发企业，专注于以生成式AI技术开展多肽新药设计。
+--------------------------------------------------------------------------------
+Microsoft-Decision-1: Our model for fast decision-making (https://commandline.microsoft.com/microsoft-decision-1-model-foundry/)
+citeturn8view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://commandline.microsoft.com/microsoft-decision-1-model-foundry/","lineno":null}); Total lines: 124
+L0: cite0†Source†news.microsoft.com L1: 
+L2: By builders, for builders.
+L3: 
+L4: A Microsoft publication
+L5: 
+L6: Search articles [Input: Search articles...]
+L7: 
+L8: cite1†Image L9: 
+L10: cite2†Deep Dive L11: 
+L12: Introducing Microsoft-Decision-1, our model for fast decision-making
+L13: # Introducing Microsoft-Decision-1, our model for fast decision-making
+L14: 
+L15: Our new decision-scoring model delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models.
+L16: 
+L17: By cite3†Achint Srivastava VP of Software Engineering, Office of the CTO, Microsoft
+L18: 
+L19: 2026.10.09
+L20: Decision models are quickly emerging as an important new category in AI. Unlike LLMs, which are designed to generate text or reason through complex problems, decision models are purpose-built to deliver structured outputs that software can immediately act on. And once you understand that capability—making decisions and classifying things at very low cost with high performance—all kinds of useful tasks get unlocked.
+L21: Today we’re introducing Microsoft-Decision-1, our new model for fast decision-scoring, available in cite4†Microsoft Foundry†ai.azure.com and through cite5†OpenRouter†openrouter.ai . This model is designed for routing, classification, prioritization, verification, and workflow control, making it easier to incorporate decision intelligence into existing applications, agents, and workflows in a secure, trusted environment.
+L22: Microsoft-Decision-1 delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models.
+L23: Microsoft-Decision-1 achieved the highest accuracy in our 36-benchmark comparison, spanning nearly 150,000 questions across benchmarks kept blind from training. And in our benchmarking, it was the fastest measured: 2.5 times quicker than H2O-Lightning-4B v1.1, the runner-up, and 35 times quicker than GPT-6 Sol.
+L24: 
+L25: Editor’s note: This post was updated from the original to add benchmarks for Jev on accuracy and calibration.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn8view6 [wordlim: 200] Source: open({"ref_id":"https://x.com/satyanadella/status/2108931348857827686","lineno":null}); Total lines: 1
+L0: Failed to fetch https://x.com/satyanadella/status/2108931348857827686: (403) Forbidden
+--------------------------------------------------------------------------------
+Nous Research (https://nousresearch.com/)
+citeturn8view7 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://nousresearch.com/","lineno":null}); Total lines: 148
+L0: Nous Hermes
+L1: 
+L2: Community Portal
+L3: 
+L4: Nous Hermes
+L5: 
+L6: Community Portal
+L7: 
+L8: cite0†Image Hermes : About Nous Toggle`⌘``K`
+L9: 
+L10: Open Source • MIT License Open Source · MIT License
+L11: 
+L12: # Nous Research Nous Research
+L13: 
+L14: Nous Research is a pioneer in open AI training and research. We created Hermes Agent, the most widely used open source agent harness in the world.
+L15: 
+L16: We are on a mission to create and proliferate open access to intelligence.
+L17: 
+L18: cite1†Read Mission cite1†The Internet's Own AI L19: 
+L20: cite2†Image cite2†Image L21: ## The Internet's Own AI
+L22: 
+L23: Open Source
+L24: 
+L25: ### Leading the American Open Source Movement
+L26: 
+L27: We train models, build agents, and develop infrastructure to accelerate adoption of open intelligence globally.
+L28: 
+L29: cite3†Image cite3†Image L30: 
+L31: Mission
+L32: 
+L33: ### Advancing Human Rights and Freedoms
+L34: 
+L35: We believe that powerful AI should be in the hands of the many rather than the privileged few. Our aim is to create and democratize access to the world's best intelligence.
+L36: 
+L37: cite4†Image cite4†Image L38: 
+L39: Research
+L40: ### Understanding the Intelligence Frontier
+L41: 
+L42: Our primary research focus areas include agents, model architecture, data synthesis, fine-tuning, and reasoning, all aimed at advancing our understanding of models and how they can benefit humanity.
+L43: 
+L44: cite5†Image cite5†Image L45: 
+L46: cite6†Image L47: 
+L48: Elevate your soul.md
+L49: ## Hermes Agent Hermes Agent
+L50: 
+L51: The self-improving AI agent built by Nous Research. The only agent with a built-in learning loop — creates skills from experience,The self-improving AI agent built by Nous Research. The only agent with a built-in learning loop: creates skills from experience,
+L52: improves them during use, nudges itself to persist knowledge, and builds a deepening model of who you are across sessions.improves them during use, nudges itself to persist knowledge, and builds a deepening model of who you are across sessions.
+L53: 
+L54: cite7†Learn more†hermes-agent.nousresearch.com cite8†About hermes†portal.nousresearch.com cite9†Install Hermes†hermes-agent.nousresearch.com L55: 
+L56: TUI TUI
+L57: ### Terminal Velocity
+L58: 
+L59: cite10†Image cite10†Image L60: 
+L61: cite11†Install via terminal†hermes-agent.nousresearch.com cite9†Install via terminal†hermes-agent.nousresearch.com L62: 
+L63: Desktop GUI
+L64: 
+L65: ### Hermes Application
+L66: 
+L67: cite12†Image cite12†Image L68: 
+L69: cite13†Get Hermes Desktop†hermes-agent.nousresearch.com cite9†Download for Mac / Windows / Linux†hermes-agent.nousresearch.com L70: 
+L71: Portal Portal
+L72: 
+L73: ### Nous Portal
+L74: 
+L75: cite14†Image cite14†Image L76: 
+L77: cite15†Power your Hermes†portal.nousresearch.com cite16†Power your Hermes†portal.nousresearch.com --------------------------------------------------------------------------------
+Healthleap | Inpatient Risk Screening (https://www.healthleap.ai/)
+citeturn8view8 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.healthleap.ai/","lineno":null}); Redirected to URL: https://healthleap.ai/; Total lines: 216
+L0: cite0†Google Tag Manager†www.googletagmanager.com L1: 
+L2: cite1†Healthleap announces $38M in Seed and Series A FundingAnnouncing $38M in Seed and Series A†www.linkedin.com L3: 
+L4: Resources
+L5: 
+L6: cite2†Press cite3†Events L7: 
+L8: cite4†Book a demo Menu
+L9: 
+L10: Close
+L11: 
+L12: cite5†About cite6†Evidence cite7†Careers cite2†Press cite3†Events L13: 
+L14: cite4†Book a demo L15: # Healthleap AI malnutrition screening for hospitals
+L16: 
+L17: cite8†Healthleap Series A Announcement†player.vimeo.com L18: 
+L19:   *   *   *   *   *   *   *   *   *   *   *   * ## Healthcare is missing malnourished patients.
+L20: 
+L21: Up to 50%
+L22:     of inpatients are at risk of malnutrition
+L23: 
+L24: <9%
+L25:     are diagnosed
+L26: 
+L27: ~5,500
+L28:     malnourished patients missed per year at a typical 1,000-bed hospital
+L29: 
+L30: ## Automatically screen every patient daily
+L31: ### Prioritize at-risk patients for dietitians to act on
+L32: 
+L33: Healthleap analyzes every adult inpatient's chart each day and writes a nutrition-risk score into the EHR flowsheet each morning. The registered dietitian's routine doesn't change, but instead of chasing false flags, the day starts with the highest-acuity patients already at the top of the list. Healthleap sits upstream of CDI, closing the identification gap that comes before it.
+L34: ## Scored and sorted by severity of nutrition risk
+L35: 
+L36: Each morning, every adult inpatient is scored and sorted by nutrition-risk severity. The sickest patients sit at the top of the list in the dietitian's EHR, not buried in chart review.
+L37: 
+L38: Today's priority list Updated each morning
+L39: 
+L40:   * 1
+L41: 
+L42: Bed 7B
+L43: 
+L44: 64 F · 4 days LOS
+L45: 
+L46: 0.94
+L47:   * 2
+L48: 
+L49: Bed 3A
+L50: 
+L51: 71 M · 2 days LOS
+L52: 
+L53: 0.89
+L54:   * 3
+L55: 
+L56: Bed 12C
+L57: 
+L58: 58 F · 6 days LOS
+L59: 
+L60: 0.81
+L61:   * 4
+L62: 
+L63: Bed 9D
+L64: 
+L65: 47 M · 1 day LOS
+L66: 
+L67: 0.76
+L68: 
+L69: Synced to the EHR flowsheet
+L70: ## We fit upstream of CDI and coding
+L71: 
+L72: Healthleap identifies at-risk patients on day one, before CDI and coding workflows can engage. We don't replace them; we feed them a cleaner, earlier signal.
+L73: 
+L74:   1. Day 0
+L75: 
+L76: ### Patient admitted
+L77: 
+L78: Risk isn't continuously captured and surfaced.
+L79: 
+L80: ↓
+L81:   2. Day 1
+L82: 
+L83: ### Healthleap identifies risk
+L84: 
+L85: Daily prioritization, written into the EHR.
+L86: 
+L87: ↓
+L88:   3. Downstream
+L89: 
+L90: ### CDI and coding engage
+L91: 
+L92: Existing investment, fed an earlier signal.
+L93: 
+L94: ↓
+L95:   4. Outcome
+

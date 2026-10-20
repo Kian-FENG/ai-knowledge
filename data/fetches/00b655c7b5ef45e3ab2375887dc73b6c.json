@@ -1,0 +1,32 @@
+{
+  "raw_path": "raw/2026-10-21/ef0b1ec14e92866856c3054e682628e394889769383f1c694fb31426d21b4ff3.body",
+  "sha256": "ef0b1ec14e92866856c3054e682628e394889769383f1c694fb31426d21b4ff3",
+  "source_url": "https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-20T22:04:55.252207+00:00",
+  "source_id": "vllm-blog",
+  "status": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "19839",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Tue, 20 Oct 2026 22:04:55 GMT",
+    "Etag": "W/\"ea1c9c84c2a0448c5e2aa442a7f5f069\"",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "X-Matched-Path": "/blog/2026-10-19-elastic-ep-near-zero-downtime",
+    "X-Nextjs-Prerender": "1",
+    "X-Nextjs-Stale-Time": "300",
+    "X-Vercel-Cache": "HIT",
+    "X-Vercel-Id": "sfo1::hksmt-1792533895920-f69c3765380b",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://vllm.ai/blog/2026-10-19-elastic-ep-near-zero-downtime",
+  "truncated": false,
+  "charset": "utf-8"
+}

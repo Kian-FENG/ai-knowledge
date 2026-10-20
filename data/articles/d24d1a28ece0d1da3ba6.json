@@ -1,0 +1,19 @@
+{
+  "url": "https://developers.openai.com/api/docs/changelog",
+  "title": "OpenAI API Changelog：页面内容变化",
+  "summary": "-Run scans in CI\n+CI/CD\n+Overview\n+GitHub Actions\n+Oct 20\n+Feature\n+v1/responses\n+You can now choose 12-hour prompt caching in the API. 12-hour prompt caching keeps shared instructions, tools, and context cached longer to benefit from lower cached-input pricing, even when requests are hours apart. 12-hour cache writes cost 2.5x the input token price. Read more here.\n+Oct 16\n+Feature\n+v1/agents\n+OpenAI-hosted sandboxes in the Agents API now include the Artifact SDK and skills for creating and editing spreadsheets, presentations, and Word documents.\n+Added Ultrafast mode to the Agents API. Set agent.service_tier to ultrafast with a supported model to reduce the time between generated tokens.\n+Oct 9\n+Feature\n+v1/agents\n+You can now pre-warm an OpenAI-hosted sandbox before attaching it to an Agents API session. Prewarming improves latency by creating and configuring the sandbox before a user finishes sending their message. This means the user doesn't have to wait for all this work to complete.\n+OpenAI-hosted sandbox compute is now billed during active turns. You no longer pay for idle time between turns.",
+  "id": "d24d1a28ece0d1da3ba6",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "openai-api-changelog",
+  "source_name": "OpenAI API Changelog",
+  "section": 0,
+  "raw_path": "raw/2026-10-21/be60c7873becfa824965e2e05d2b43f59a3346037d27bde738d5e9441397ad04.body",
+  "source_sha256": "be60c7873becfa824965e2e05d2b43f59a3346037d27bde738d5e9441397ad04",
+  "fetched_at": "2026-10-20T22:02:16.801974+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-20T22:02:16.801974+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

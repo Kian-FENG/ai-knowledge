@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24663",
+  "title": "What RL Brings to Reasoning: A Few Decisions the Base Model Would Not Make",
+  "text": "arXiv:2610.24663v1 Announce Type: new\nAbstract: Reinforcement learning with verifiable rewards (RLVR) substantially improves mathematical reasoning, but what it adds to the base model remains unclear. We investigate this through a sequence of generation-time interventions on Qwen3-4B-Base, measuring how much of its RL-trained counterpart's gain each intervention recovers on 120 AIME problems. Power sampling with the same 8,192-token output limit brings no gain beyond greedy decoding. Yet borrowing the RL model's token only where the two models' greedy choices differ, roughly 4% of generated positions, recovers 90.5% of the pass@1 gain, with similar recovery across three model pairs on MATH-500. We find that even a single opening token has a substantial effect: forcing the base model to begin with \"Alright\" recovers 35% of the RL gain. The opening alone is insufficient, however. Later replacements after the same opening add another 5.2 percentage points to pass@1, and the fixed rules we test for inserting reflective words such as \"Wait\" do not reproduce this benefit. Sparse replacement also retains much of the base model's diversity while staying close to the RL model at pass@1. At k=256, it solves 67.5% of the problems, significantly more than the RL model (61.4%) and a mixture of whole responses matched in pass@1 (61.45%). The comparison is at equal attempt counts rather than equal compute, since rl-replace consults both models at every decoding step. These results show that the opening can recover a meaningful part of the RL gain, but a larger contribution comes from later choices, which can be borrowed while retaining much of the base model's diversity. Code is available at https://github.com/CyrusZhang04/WhatRLBrings.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d910fc120cc6ad5520b5",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

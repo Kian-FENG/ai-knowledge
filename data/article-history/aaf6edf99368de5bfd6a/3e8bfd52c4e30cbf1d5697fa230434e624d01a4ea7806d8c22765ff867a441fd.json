@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/19/technology/saudis-aided-family-openai-engineer.html",
+  "title": "Saudis Aided Family of Engineer Accused of Bugging OpenAI, Prosecutors Say",
+  "text": "Saudi officials paid for his wife and son to fly out of the U.S. and offered to cover his bail, according to court filings. A judge ordered the engineer to remain in custody.",
+  "published_at": "2026-10-19T21:17:42+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "aaf6edf99368de5bfd6a",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-20/3e8bfd52c4e30cbf1d5697fa230434e624d01a4ea7806d8c22765ff867a441fd.body",
+  "source_sha256": "3e8bfd52c4e30cbf1d5697fa230434e624d01a4ea7806d8c22765ff867a441fd",
+  "fetched_at": "2026-10-19T22:00:26.579409+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24830",
+  "title": "HEL: A Heterogeneous Extensible Layer for GPU-Resident Runtime Orchestration",
+  "text": "arXiv:2610.24830v1 Announce Type: new\nAbstract: We describe a GPU-resident runtime system, HEL, built on stateful services that persist throughout the lifespan of a user application. A HEL programmer expresses a workload as an application that spawns coroutine-like tasks, which are then scheduled and run by the HEL runtime. HEL supports synchronous and asynchronous tasks, tasks with runtime dependencies, batched task submission, and automatic retries. Applications and tasks run alongside each other on the spatially partitioned GPU. Using producer-consumer and host-RPC benchmarks together with a PFPL compression case study, we show that HEL demonstrates a performance advantage for underutilized GPUs and for scenarios where HEL enables hiding task latency.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "0775b79e5c0c0323e0e4",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

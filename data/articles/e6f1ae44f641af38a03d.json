@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+  "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+  "text": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+  "published_at": "2026-10-19T22:49:27+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e6f1ae44f641af38a03d",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/72a57d6e0336d07b926e1651700b9dea41253df18d398b2c56666b7d5ecb41d9.body",
+  "source_sha256": "72a57d6e0336d07b926e1651700b9dea41253df18d398b2c56666b7d5ecb41d9",
+  "fetched_at": "2026-10-20T22:02:35.807783+00:00"
+}

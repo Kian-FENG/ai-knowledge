@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+  "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+  "text": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday that says Spotify has also made changes to its recommendation system to highlight more music made by human artists.\n\"Our editors hold the same standard and don't program content identified as slop or spam,\" Spotify says. \"Since we made these changes, we've seen a marked decrease in listener concerns about this content showing up in recommendations.\"\nThough Spotify has stopped short of mandating labels on all AI tracks, it launched an \"AI Persona\" badge for  …\nRead the full story at The Verge.",
+  "published_at": "2026-10-20T10:18:37-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-20T11:53:21-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7a091aa12d54f3f37fcd",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-21/457c12c23bfd6e9e6032d896b95d151a513b4a2a4a0b4ac76fb74794d0b87904.body",
+  "source_sha256": "457c12c23bfd6e9e6032d896b95d151a513b4a2a4a0b4ac76fb74794d0b87904",
+  "fetched_at": "2026-10-20T22:02:37.084956+00:00"
+}

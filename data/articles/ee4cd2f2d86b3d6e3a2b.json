@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/tech-industry/cyber-security/chinese-crime-ring-steals-millions-of-dollars-in-gift-cards-from-staples-customer-service-system-group-acquired-more-than-15-000-gift-cards-worth-more-than-usd5-million",
+  "title": "Chinese crime ring steals more than $5 million in gift cards from Staples customer service",
+  "text": "Millions of dollars worth of gift cards were stolen and then used to buy high-value tech gear at retailers like Target, Sephora, and Lowe's after a Chinese crime ring gained access to an internal Staples system and then used it to issue more than 15,000 cards to itself. While the hack hasn't been made public to date, a 404 Media report notes that it actually took place back in 2023.\nThe outlet reviewed court records that show that Homeland Security Investigations (HSI) was told about the hack in October of that year. The hack came to light after it led to a search warrant that was unsealed last week. And while the document doesn't specifically name Staples as the victim of the hack, 404 Media has confirmed that it was the company affected based on other information. Such information includes the fact that the victim company is headquartered in Massachusetts, that it uses Blackhawk Networks to fulfill gift card orders, and that the company uses an internal customer support system called Nexus. The report notes that a reference to Nexus can be found on a former Staples executive's LinkedIn profile.\nWhile Staples was under the impression that Nexus could not be accessed from beyond its own network, hackers found that not to be the case. They then \"performed multiple heap dump requests,\" a process that captures all of the data held in an app's memory. That information gave the hackers the tools they needed to hijack logged-in sessions of Staples customer service employees. From there, they were able to issue gift cards at will.\nOnce the gift cards had been issued, the crime group sent runners to physical retail stores to spend them before they were identified and canceled. Target found that 35 gift cards were used at a New Hampshire store, with high-value products from Apple, Bose, and Beats all bought. All 35 cards were used within a period of just a single hour, although not all of them were obtained via this hack.\nIn total, Target told investigators that 3,850 gift cards worth over $140,000 were used across 85 different stores in just two days. Sephora was hit for $58,600 worth of sales, while Lowe's saw $226,000 spent across online and in-store purchases. In total, 4,630 stolen gift cards were used with a value of around $425,000.\nThis hack was just the tip of the iceberg, too. Last April, a Department of Justice announcement confirmed that three Chinese nationals had been sentenced for their part in a gift card fraud conspiracy. Including the Staples hack, the crime group stole more than $100 million worth of gift cards.\nChinese organized crime groups often pop up on the radar of U.S.-based law enforcement. Earlier this year, a Chinese phishing service that was used to generate scam websites using AI was dismantled. The service was linked to almost $2 billion in losses.",
+  "published_at": "2026-10-20T10:50:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ee4cd2f2d86b3d6e3a2b",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-21/53801c73252dd971d5e2f0487b04d14ba1bdf89cda1ec48af57eb47fed4ddf4f.body",
+  "source_sha256": "53801c73252dd971d5e2f0487b04d14ba1bdf89cda1ec48af57eb47fed4ddf4f",
+  "fetched_at": "2026-10-20T22:02:40.787494+00:00"
+}

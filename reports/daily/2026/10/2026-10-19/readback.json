@@ -1,0 +1,114 @@
+[
+  {
+    "path": "reference/sources/minimax-m31-flash-20261019.md",
+    "id": "source-minimax-m31-flash-20261019",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/sources/openai-orchestra-bio-20261019.md",
+    "id": "source-openai-orchestra-bio-20261019",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 3
+  },
+  {
+    "path": "reference/sources/memsilicon-lpu-series-a-20261019.md",
+    "id": "source-memsilicon-lpu-series-a-20261019",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/sources/openai-low-resource-code-20261019.md",
+    "id": "source-openai-low-resource-code-20261019",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/sources/sglang-v0522-20261019.md",
+    "id": "source-sglang-v0522-20261019",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/sources/vllm-elastic-ep-20261019.md",
+    "id": "source-vllm-elastic-ep-20261019",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/sources/microsoft-agentic-insider-20261019.md",
+    "id": "source-microsoft-agentic-insider-20261019",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/papers/kv-residency-261022863.md",
+    "id": "paper-kv-residency-261022863",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/papers/self-hpo-261022791.md",
+    "id": "paper-self-hpo-261022791",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/sources/tenstorrent-series-e-20261019.md",
+    "id": "source-tenstorrent-series-e-20261019",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/sources/aws-torchneuron-announcement-20261019.md",
+    "id": "source-aws-torchneuron-announcement-20261019",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/entities/tenstorrent.md",
+    "id": "entity-tenstorrent",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "reference/entities/orchestra-bio.md",
+    "id": "entity-orchestra-bio",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 1
+  },
+  {
+    "path": "research/synthesis/agent-cost-beyond-token-price-20261019.md",
+    "id": "note-agent-cost-beyond-token-price-20261019",
+    "published": true,
+    "default_query_visible": true,
+    "raw_evidence_hashes_match": true,
+    "evidence_count": 11
+  }
+]

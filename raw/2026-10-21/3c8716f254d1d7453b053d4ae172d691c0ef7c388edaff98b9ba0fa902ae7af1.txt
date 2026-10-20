@@ -1,0 +1,393 @@
+Seed Research (https://seed.bytedance.com/en/research)
+citeturn9view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://seed.bytedance.com/en/research","lineno":null}); Total lines: 86
+L0: cite0†Home cite1†Models cite2†Blog & Publication cite3†Seed Edge cite4†Join Us L1: 
+L2: Try now
+L3: 
+L4: [Button: 中文]
+L5: 
+L6: cite0†Home cite1†Models cite2†Blog & Publication cite3†Seed Edge cite4†Join Us L7: 
+L8: Try now
+L9: 
+L10: cite5†Try Dola†www.dola.com cite6†Try in Playground†ai.byteplus.com L11: ## Blog
+L12: 
+L13: cite7†Foundation models cite8†Visual cite9†Audio cite10†AI Infra cite11†Frontier research L14: 
+L15: cite12†SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction As a native audio-visual full-duplex LLM, SeedRealtime can jointly understand audio, visual, and temporal information, accurately identify the interaction target and user intent, delivering a brand-new "watch, listen, and speak" experience.Learn more L16: cite13†One-take Creation, Flexible Referencing: Introducing Seedance 2.5 30-second long-form storytelling with fully upgraded multimodal referencing and editing capabilities.Jul 31, 2026 cite14†From Speech to Audio Creation | Introducing the Seed Audio 1.0 Audio Creation Model A unified framework for joint modeling of voice, sound effects, ambient sound, and other audio elements.Jul 20, 2026 cite15†Beyond Generation, It Understands Design | Introducing Seedream 5.0 Pro A multimodal image generation model that features advanced reasoning and efficient content creation.Jul 8, 2026 cite16†EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law Agents exhibit a clear log-sigmoid pattern in environment learning.Jul 7, 2026 L17: ## Publications
+L18: cite17†Sep 28, 2026Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression cite18†Jul 6, 2026EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments cite19†Jun 30, 2026Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity cite20†May 29, 2026Task-Focused Memorization for Multimodal Agents cite21†May 16, 2026Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference cite22†Apr 26, 2026MegaScale-Omni: A Hyper-Scale, Workload-Resilient System for MultiModal LLM Training in Production cite23†Apr 22, 2026Seed3D 2.0: Advancing High-Fidelity Simulation-Ready 3D Content Generation cite24†Apr 15, 2026Seedance 2.0: Advancing Video Generation for World Complexity cite25†Apr 11, 2026Protenix-v2: Broadening the Reach of Structure Prediction and Biomolecular Design cite26†Jan 27, 2026Post-LayerNorm Is Back: Stable, ExpressivE, and Deep L19: cite27†Image: ByteDance Seed†lf-flow-web-cdn.doubao.com L20: 
+L21: Advancing the frontier of intelligence, in service of humanity
+L22: 
+L23: cite28†Image†lf-flow-web-cdn.doubao.com L24: 
+L25: Join ByteDance Seed
+L26: 
+L27: Models
+L28: 
+L29: cite29†Seed2.1 L30: 
+L31: cite30†Seedance 2.5 L32: 
+L33: cite31†Seedream 5.0 Pro L34: 
+L35: cite32†SeedRealtime L36: 
+L37: cite33†Seed Audio 1.0 L38: 
+L39: cite34†Seed GR-RL L40: 
+L41: Learn More
+L42: 
+L43: cite35†Publications L44: 
+L45: cite36†Seed Edge L46: 
+L47: cite37†Seed STEM Fellows Program L48: 
+L49: cite38†Seed Campus Recruitment L50: 
+L51: cite39†Transparency L52: 
+L53: Copyright© 2026 Bytedance Seed
+L54: cite40†Disclaimer Contact us : seed.feedback@bytedance.com
+L55: 
+L56: Models
+L57: 
+L58: cite29†Seed2.1 cite30†Seedance 2.5 cite31†Seedream 5.0 Pro cite32†SeedRealtime cite33†Seed Audio 1.0 cite34†Seed GR-RL --------------------------------------------------------------------------------
+News: Research, Product & Company Updates | SpaceXSI (https://x.ai/news)
+citeturn9view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://x.ai/news","lineno":null}); Total lines: 83
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Try for free†grok.com L3: 
+L4: Products
+L5: 
+L6: cite1†Grok†grok.com cite2†Business cite3†Government L7: 
+L8: Download
+L9: 
+L10: cite4†iOS†apps.apple.com cite5†Android†play.google.com cite6†Grok on X†x.com cite7†Grok Bot L11: 
+L12: Developers
+L13: 
+L14: cite8†API Console†console.x.ai cite9†Documentation†docs.x.ai cite10†Grok Build L15: 
+L16: cite1†Try for free†grok.com L17: 
+L18: cite11†Oct 14, 2026 Introducing Grok Voice 3.0 The world’s most intelligent voice model.Read More L19: cite12†Product·Oct 20, 2026 Using Grok Bot to detect and respond to incidents cite13†Product·Oct 12, 2026 Introducing The X Subscription cite14†Product·Sep 28, 2026 Team Bots: shared AI teammates that learn as they work cite15†Product·Sep 22, 2026 How SpaceXSI is using Grok Bot to scale customer support L20: ## All posts
+L21: cite16†Introducing Grok 4.7 SpaceXSI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models.Sep 21, 2026 cite17†Introducing Grok Voice Transcribe 2.0 Announcing SpaceXSI's newest speech-to-text model, with unparalleled accuracy and cost effectiveness.Sep 18, 2026 cite18†Memory in Grok Build Grok Build now carries conventions, decisions, and project facts from one session to the next.
+L22: Notes are written in the background as you work and read back when you return to the project.Sep 16, 2026 cite19†Setting Grok Bot loose on procurement We gave Grok Bot access to vendor spend, contracts, and usage data.
+L23: It found more than $100,000 in direct savings.Sep 4, 2026 cite20†Designing Grok Bot for a world of persistent agents How we designed Grok Bot for agents that persist beyond a single session — from a chat history to a Bot roster, presence, a computer of the Bot’s own, and work that starts without a prompt.Sep 3, 2026 cite21†Grok Bot for Enterprise Grok Bot is now available for enterprises.
+L24: Grok and Cursor Enterprise customers have free usage for the next two weeks, and can invite their whole organization, including people without an existing seat.Sep 3, 2026 cite22†Biosecurity at the frontier LatchBio evaluated Grok's performance on biosecurity monitoring and adversarial biological tasks.
+L25: They found that Grok 4.6 detects and refuses dangerous queries more reliably than any other frontier system.Sep 1, 2026 cite23†Grok Bot now works with X Grok Bot now has a tighter integration with X.Aug 29, 2026 cite24†Grok 4.6 on Microsoft Foundry Grok 4.6 is now available via Microsoft Foundry.Aug 26, 2026 cite25†Grok Bot is now included with more plans Grok Bot is now available for SuperGrok, Cursor Pro, and all Cursor Teams plans.Aug 26, 2026 cite26†Grok 4.6 on Gemini Enterprise Agent Platform Grok 4.6 is now available via Gemini Enterprise Agent Platform.Aug 21, 2026 cite27†Grok 4.6 on Amazon Bedrock Grok 4.6 is now available via Amazon Bedrock.Aug 19, 2026 cite28†Grok Build on web and mobile Grok Build is now available on every plan, on the web and on mobile.Aug 19, 2026 cite29†Grok 4.6 in GitHub Copilot Grok 4.6, our latest coding model, is now available in GitHub Copilot.Aug 14, 2026 cite30†Introducing Grok 4.6 Grok 4.6 builds on Grok 4.5 with a particular focus on long-running agents and more ambitious interactive and visual work.Aug 12, 2026 【31†Introducing Grok Bot Grok Bot is your team of always-on agents.
+--------------------------------------------------------------------------------
+Press Announcements and News Releases | Qualcomm (https://www.qualcomm.com/news/releases)
+citeturn9view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.qualcomm.com/news/releases","lineno":null}); Total lines: 309
+L0: cite0†Enable accessibility L1: 
+L2: You need to enable JavaScript to run this app.
+L3: 
+L4: Products
+L5: 
+L6: Applications
+L7: 
+L8: Developer
+L9: 
+L10: Support
+L11: 
+L12: Company
+L13: 
+L14: cite1†Newsroom L15: 
+L16: cite1†Newsroom L17: 
+L18: Latest News
+L19: 
+L20: [Input: Search All News & Media]
+L21: 
+L22: 3932 results
+L23: 
+L24: Press Note
+L25: 
+L26: cite2†Qualcomm to Unite Regional V2X Standards Under Global V2X Solution L27: 
+L28: Oct 20, 2026
+L29: 
+L30: cite3†Auto L31: 
+L32: Press Note
+L33: 
+L34: cite4†Qualcomm Announces Long-Term Patent Cross-License Agreement with Transsion L35: 
+L36: Oct 16, 2026
+L37: 
+L38: cite5†Licensing L39: 
+L40: Press Release
+L41: 
+L42: cite6†Qualcomm Statement on Trial Verdict Win L43: Oct 13, 2026
+L44: 
+L45: cite7†Company L46: 
+L47: Press Note
+L48: 
+L49: cite8†Qualcomm Launches 2027 Innovation Fellowship Program for North America L50: 
+L51: Oct 12, 2026
+L52: 
+L53: Press Note
+L54: 
+L55: cite9†gFiber, Qualcomm, and Gemtek Unveil an AI-Native Wi-Fi 8 Broadband Gateway at Network X 2026 L56: 
+L57: Oct 12, 2026
+L58: 
+L59: cite10†Dragonwing cite11†AI cite12†Wi-Fi L60: 
+L61: Press Note
+L62: 
+L63: cite13†Qualcomm Unveils AI-Native Broadband Innovations Across Fiber, Wi-Fi 8, Fixed Wireless, and Network Infrastructure and Security at Network X 2026 L64: 
+L65: Oct 12, 2026
+L66: 
+L67: cite10†Dragonwing cite11†AI cite14†Broadband L68: Press Note
+L69: 
+L70: cite15†Huawei and Qualcomm Announce Broad Patent License Agreement L71: 
+L72: Oct 5, 2026
+L73: 
+L74: cite5†Licensing L75: 
+L76: Press Release
+L77: 
+L78: cite16†Qualcomm Announces Renewal of Global Patent License Agreement with Apple L79: 
+L80: Sep 24, 2026
+L81: 
+L82: cite5†Licensing L83: 
+L84: Press Note
+L85: 
+L86: cite17†Snapdragon Sound Elite Gen 2 Advances Intelligent Audio Wearables for the Agentic Age L87: 
+L88: Sep 23, 2026
+L89: 
+L90: cite18†Snapdragon Summit cite19†Snapdragon Sound cite11†AI L91: 
+L92: Press Note
+L93: 
+L94: cite20†Qualcomm to Acquire PickNik to Advance the Future of Open Robotics and Physical AI L95: Sep 23, 2026
+L96: 
+L97: cite21†Robotics L98: 
+L99: Press Note
+L100: 
+L101: cite22†Snapdragon Leads the Agentic AI Age with Two of the World’s Fastest Mobile SoCs Powering the Next Generation of Smartphones L102: 
+L103: Sep 22, 2026
+L104: 
+L105: cite18†Snapdragon Summit cite23†Snapdragon Mobile Platform cite11†AI L106: 
+L107: Press Note
+L108: 
+L109: cite24†Snapdragon X Series Powers Googlebook: the First Laptops Designed for Gemini Intelligence L110: 
+L111: Sep 21, 2026
+L112: 
+L113: cite25†Snapdragon X Elite cite26†Snapdragon cite27†PC L114: 
+L115: Press Release
+L116: cite28†Qualcomm Announces Multi-Generational Product Collaboration with Amazon to Build Next-Generation AI Data Center Infrastructure L117: 
+L118: Sep 8, 2026
+L119: 
+L120: cite29†Data Center cite30†AI Infrastructure cite11†AI L121: 
+L122: Press Note
+L123: 
+L124: cite31†Qualcomm Introduces Dragonwing Q-2390 and IQ-2390 Processors, Expanding Access to Intelligent Connected Devices L125: 
+L126: Sep 1, 2026
+L127: 
+L128: cite32†IoT L129: 
+L130: Press Note
+L131: 
+L132: cite33†Qualcomm and HUMAIN Unveil Horizon Ultra AI PC at LEAP 2026, Bringing AI Directly to the Device L133: 
+L134: Aug 31, 2026
+L135: 
+L136: cite34†AI PC cite26†Snapdragon L137: Press Note
+L138: 
+L139: cite35†Adobe Becomes First Global Software Company to Migrate AI Workloads onto HUMAIN Platform, Accelerated by Qualcomm L140: 
+L141: Aug 31, 2026
+L142: 
+L143: cite29†Data Center cite36†Dragonfly cite11†AI L144: 
+L145: Press Note
+L146: 
+L147: cite37†Qualcomm Launches Comprehensive Robotics Investment Initiative in Japan, Anchored by New Qualcomm Japan Robotics Center L148: 
+L149: Aug 25, 2026
+L150: 
+L151: cite21†Robotics cite11†AI L152: 
+L153: Press Note
+L154: 
+L155: cite38†Arduino VENTUNO Q is Here: Bringing Agentic AI to the Physical World with Qualcomm Dragonwing IQ8 Series L156: 
+L157: Aug 25, 2026
+L158: 
+L159: cite32†IoT --------------------------------------------------------------------------------
+Press releases & announcements | ASML - Supplying the semiconductor industry (https://www.asml.com/en/news/press-releases)
+citeturn9view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.asml.com/en/news/press-releases","lineno":null}); Redirected to URL: https://investor.asml.com/news/press-releases-and-announcements; Total lines: 117
+L0:   * cite0†Investors L1:   * [Button: News]
+L2: 
+L3:     * cite1†News overview L4:     * cite2†Press releases & announcements L5:     * cite3†Media library L6:     * cite4†News alerts L7: 
+L8:   * [Button: Share information]
+L9: 
+L10:     * cite5†Share information overview L11:     * cite6†Share price L12:     * cite7†SEC filings L13:     * cite8†Analyst coverage L14: 
+L15:   * cite9†Quarterly results L16:   * cite10†Annual reports L17:   * [Button: Financial events]
+L18: 
+L19:     * cite11†Financial events overview L20:     * cite12†Capital Markets Days L21:     * cite13†Shareholder meetings†www.asml.com L22:   * [Button: Investor resources]
+L23: 
+L24:     * cite14†Investor resources overview L25:     * cite15†Financial overview L26:     * cite16†Factsheet L27:     * cite17†Capital return & financing L28:     * cite18†Sustainability overview L29:     * cite19†Share buyback L30: 
+L31:   * cite20†Contact Investor Relations L32:   * cite21†Contact Media Relations L33:   * cite22†Go to asml.com†www.asml.com L34: ## Search
+L35: 
+L36: Search[Input: Search website]
+L37: 
+L38: [Input: Search news]
+L39: 
+L40: [Select]
+L41: 
+L42: [Input]
+L43: 
+L44: October 14, 2026
+L45: 
+L46: cite23†ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026 L47: 
+L48: ASML reports €11.7 billion total net sales and €5.0 billion net income in Q3 2026 Full-year 2026 total net sales expected to be between €44 billion and €45 billion, with a gross margin around 56%
+L49: 
+L50: September 8, 2026
+L51: 
+L52: cite24†ASML begins construction of new Eindhoven campus, strengthening its presence in the Brainport region L53: ASML starts construction of its BIC North campus in Eindhoven to expand manufacturing capacity, with the first phase expected to be completed in 2029.
+L54: 
+L55: September 8, 2026
+L56: 
+L57: cite25†Intel Foundry and ASML Collaborate to Accelerate Industry Readiness for High-NA EUV L58: 
+L59: Intel Foundry and ASML share progress on High NA EUV manufacturing, reticle stitching and larger-format masks, with over one million wafers processed to date.
+L60: 
+L61: September 8, 2026
+L62: cite26†Samsung Electronics and ASML expand strategic collaboration for next-generation semiconductor manufacturing L63: 
+L64: Samsung and ASML expand their High NA EUV collaboration, with plans for DRAM manufacturing adoption by 2028 and a transition to 12-inch photomasks.
+L65: 
+L66: September 8, 2026
+L67: 
+L68: cite27†ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV L69: ASML and TSMC launch an initiative to advance 12-inch photomasks for High NA EUV, targeting a pilot line by 2031 and advanced node production by 2033.
+L70: 
+L71: July 15, 2026
+L72: 
+L73: cite28†High NA EUV reaches new readiness milestone with first high-volume Logic product L74: 
+L75: Intel Foundry uses ASML’s High NA EUV technology to produce a subset of Intel® Core™ Ultra Series 3 processors, marking a milestone in high-volume chip manufacturing.
+L76: 
+L77: July 15, 2026
+L78: cite29†ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 2026 L79: 
+L80: ASML increases outlook, expects 2026 total net sales to be between €43 billion and €45 billion, with a gross margin between 54% and 56%
+L81: 
+L82: May 16, 2026
+L83: 
+L84: cite30†Tata Electronics and ASML announce strategic partnership to advance the semiconductor manufacturing ecosystem in India --------------------------------------------------------------------------------
+Internal Error ()
+citeturn9view4 [wordlim: 200] Source: open({"ref_id":"https://pr.tsmc.com/english/latest-news","lineno":null}); Total lines: 1
+L0: Failed to fetch https://pr.tsmc.com/english/latest-news: (400) Timeout fetching
+--------------------------------------------------------------------------------
+国家数据局 (https://www.nda.gov.cn/)
+citeturn9view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.nda.gov.cn/","lineno":null}); Total lines: 0
+L0 is out of bounds--------------------------------------------------------------------------------
+机器之心 (https://www.jiqizhixin.com/)
+citeturn9view6 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.jiqizhixin.com/","lineno":null}); Total lines: 32
+L0: cite0†机器之心·PRO通讯会员一份让您从此不再担心错失AI赛道良机的业内通讯†pro.jiqizhixin.com L1: 
+L2: 会员通讯cite1†Image†cdn.jiqizhixin.com L3: 
+L4: Week 42 · 编码智能体训练为何要重新审视源代码？本周，前 OpenAI 可解释团队创建人发文剖析神经网络可解释性；Meta 发布 Muse Wonder 并开源 Muse Spark Open 权重。
+L5: 
+L6: cite2†Image†cdn.jiqizhixin.com 订阅会员畅读
+L7: 
+L8: 专题解读
+L9: 
+L10: 444
+L11: 
+L12: cite3†Image†cdn.jiqizhixin.com cite4†当 LLM 学会抽象，语言学还有什么不可替代的价值？†pro.jiqizhixin.com L13: 
+L14: cite3†Image†cdn.jiqizhixin.com cite5†将经验存到权重更能帮助 LLM 获得长期记忆吗？†pro.jiqizhixin.com L15: 
+L16: cite3†Image†cdn.jiqizhixin.com cite6†TypeSafe CEO 为何主张代码模型必须放弃拟人化？†pro.jiqizhixin.com L17: cite7†Image: 未登录†cdn.jiqizhixin.com L18: 
+L19: 登录
+L20: 
+L21: cite7†Image: empty_user†cdn.jiqizhixin.com L22: 
+L23: 去登录
+L24: 
+L25: cite8†文章库 cite9†PRO会员通讯†pro.jiqizhixin.com cite10†SOTA！模型 cite11†AI Shortlist cite12†AI 好好用†aihaohaoyong.com cite13†2026 云程奖 L26: 
+L27: cite8†文章库 cite0†PRO通讯会员†pro.jiqizhixin.com cite10†SOTA！模型 cite11†AI Shortlist L28: 
+L29: cite12†AI 好好用†aihaohaoyong.com cite13†2026 云程奖 L30: 
+L31: cite7†Image†cdn.jiqizhixin.com 登录
+--------------------------------------------------------------------------------
+Blog — Reflection (https://reflection.ai/blog)
+citeturn9view7 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://reflection.ai/blog","lineno":null}); Total lines: 64
+L0: Beam
+L1: 
+L2:   * cite0†Beam Model card L3:   * cite1†PlatformAPI (opens in a new tab)†platform.reflection.ai L4:   * cite2†DevelopersDocumentation hub (opens in a new tab)†developers.reflection.ai L5:   * cite3†WeightsPull the weights from Hugging Face (opens in a new tab)†huggingface.co L6:   * cite4†Learn moreRead about our partners L7: 
+L8: cite1†Try Beam today Get an API key and start building with Beam on Reflection's API Platform†platform.reflection.ai L9: 
+L10: [Button: Beam][Button: Solutions][Button: Safety][Button: Resources]cite5†Careers L11: cite6†Get in touch L12: 
+L13: Beam
+L14: 
+L15:   * cite0†Beam Model card L16:   * cite1†PlatformAPI (opens in a new tab)†platform.reflection.ai L17:   * cite2†DevelopersDocumentation hub (opens in a new tab)†developers.reflection.ai L18:   * cite3†WeightsPull the weights from Hugging Face (opens in a new tab)†huggingface.co L19:   * cite4†Learn moreRead about our partners L20: cite1†Try Beam today Platform†platform.reflection.ai L21: # Blog
+L22: 
+L23: cite7†NewsProduct Beam is now available Read more L24: 
+L25: [Button: All][Button: News][Button: Product]
+L26: 
+L27:   * cite8†News Introducing Beam: Reflection’s 501B open-weight model October 5, 2026|8 min read L28:   * cite9†News Building Frontier Open Intelligence August 9, 2025 L29: 
+L30: cite10†Image L31: 
+L32: Get the latest news direct to your inbox
+L33: 
+L34: [Input][Input][Input][Input][Input][Input][Input][Input]Email address[Input: Subscribe for updates]
+L35: 
+L36: Website[Input]
+L37: 
+L38: Submit
+L39: 
+L40: Unsubscribe anytime using the link in every email.
+L41: 
+L42: Company
+L43:   * cite11†About L44:   * cite12†Newsroom L45:   * cite13†Blog L46:   * cite5†Careers L47:   * cite6†Contact us L48: 
+L49: Connect with us
+L50: 
+L51:   * cite14†LinkedIn (opens in a new tab)†www.linkedin.com L52:   * cite15†X (opens in a new tab)†x.com L53:   * cite16†YouTube (opens in a new tab)†www.youtube.com L54:   * cite17†Discord (opens in a new tab)†discord.gg L55: 
+L56: Legal
+L57: 
+L58:   * cite18†Privacy Policy L59:   * cite19†Terms of Service L60:   * cite20†Other Policies L61:   * My Privacy Choices
+L62: 
+L63: © 2026 Reflection AI. All rights reserved.
+--------------------------------------------------------------------------------
+Namespace: Blog (https://namespace.so/blog)
+citeturn9view8 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://namespace.so/blog","lineno":null}); Total lines: 77
+L0: # Namespace Blog
+L1: 
+L2: cite0†I Gave 100 Fly Brains Their Own Computers to Play Doom L3: 
+L4: Running 100 simulated fruit fly brains from the MaleCNS connectome, each on its own Namespace Devbox, to see how silencing a handful of neurons changes how a fly plays Doom.
+L5: 
+L6: cite1†Agata Fin†twitter.com L7: 
+L8: •October 14, 2026
+L9: 
+L10: cite2†Announcing our $42M Series B Namespace recently closed a $42 million Series B round led by Scale Venture Partners, with participation from NEA, 20VC, and others, bringing its total funding to $65 million. L11: cite3†Hugo Santos†twitter.com L12: 
+L13: •October 5, 2026
+L14: 
+L15: cite4†Introducing Git Snapshots for Cursor Origin and GitHub Git Snapshots prepare a repository and working tree once and reuse that snapshot across Namespace Linux and macOS runners. Available on Cursor Origin through Buildkite, and on GitHub through GitHub Actions or Buildkite. L16: 
+L17: cite1†Nicolas Dular†twitter.com L18: 
+L19: •September 30, 2026
+L20: cite5†How we made container image loading fast Here's how a container image boots before its own download finishes: baked into a disk ahead of time, replicated everywhere, then streamed in block by block. L21: 
+L22: cite1†Matteo Kamm†twitter.com L23: 
+L24: •September 15, 2026
+L25: cite6†Cursor & Namespace: Partnering with Cursor to give cloud agents a real computer We're partnering with Cursor to give cloud agents a real computer. Cursor starts and manages the agent, while shell commands, file edits, repo access, builds, and tests run on Namespace Devboxes, including support for Mac. L26: 
+L27: cite3†Hugo Santos†twitter.com L28: 
+L29: •September 2, 2026
+L30: cite7†Hunting a delayed deadlock that hid for two years in Namespace's tiered Bazel cache A bug sat dormant in Namespace's tiered Bazel cache for two years before causing a severe performance regression. Here's how a semaphore held across client-paced gRPC uploads and HTTP/2 flow control formed a circular deadlock, and how we fixed it. L31: 
+L32: cite1†Matteo Kamm†twitter.com L33: 
+L34: •August 20, 2026
+L35: cite8†Introducing Bazel Remote Execution Run multi-platform Bazel builds and tests on Namespace Bazel Remote Execution. Fan actions across remote workers, reuse cache hits across CI and local builds, and inspect every invocation from a UI or agent-ready report. Pay only for what you use with pay-as-you-go pricing and no charge for egress. L36: 
+L37: cite1†Matteo Kamm†twitter.com L38: 
+L39: •August 19, 2026
+L40: 
+L41: [Button: More Articles]
+L42: 
+L43: cite9†All systems operational†namespace-status.com L44: 
+L45: Solutions
+L46:   * cite10†GitHub Actions L47:   * cite11†Docker Builds L48:   * cite12†Mac & iOS L49:   * cite13†Bazel L50:   * cite14†Usage Insights L51: 
+L52: Resources
+L53: 
+L54:   * cite15†Documentation L55:   * cite16†Changelog L56:   * cite17†API†buf.build L57:   * cite18†Blog L58:   * cite19†Support L59: 
+L60: Security
+L61: 
+L62:   * cite20†Trust center†trust.namespace.so L63:   * cite21†Terms of Service L64:   * cite22†Privacy Policy L65: 
+L66: Company
+L67: 
+L68:   * cite23†About us L69:   * cite24†Careers L70:   * cite25†Contact us L71:   * cite9†Status†namespace-status.com L72: 
+L73: 2026 Namespace Labs, Inc. All right reserved.
+L74: 
+L75: cite22†Privacy Policy cite21†Terms of Service --------------------------------------------------------------------------------
+Blog | Vinci (https://www.getvinci.ai/blog/)
+citeturn9view9 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.getvinci.ai/blog/","lineno":null}); Total lines: 35
+L0: cite0†Schedule a Demo L1: 
+L2: cite0†Schedule a Demo L3: # Blog
+L4: 
+L5: Updates and perspectives from Vinci on making physics continuously computable.
+L6: cite1†Featured Blog Why Physics Needs to Move at the Pace of Design Vinci raises $250M Series B at $1.5B valuation to build the intelligence infrastructure for a new era of hardware engineering.
+L7: October 6, 2026 [Button: View All] [Button: Product Updates ] cite2†Blog Zero-Shot Physics AI: Why Generalization Will Define the Future of Engineering cite3†Blog What Breaks, What Validates, What Automates: What I Heard at DAC 2026 cite4†Blog Why Foundation Models for Physics Must Be Geometry-Native cite5†Blog Engineering AI and Intellectual Property: Why Capability Is the Next Competitive Advantage cite6†Blog The End of Physics Silos in Engineering AI cite7†Blog Why Physical-World AI Requires Secure Engineering Infrastructure cite8†Blog The Physics Bottleneck Slowing Modern Engineering cite9†Blog Why Physical-World AI Must Be Deterministic cite10†Product Updates Vinci Release 1.24: More Visibility Into Material Characterization Workflows cite11†Blog Foundation Model for Physics: The Next Layer of Intelligence for Engineering cite12†Category Frameworks Continuous Physics Reasoning: Why Episodic Simulation Workflows Are No Longer Enough cite13†Blog Vinci’s First Public Technical Showcase: EPTC 2025 cite14†Blog Ubiquitous Simulation: Why Every Engineer needs a Sim Copilot cite15†Blog Trusting AI in Engineering cite16†Blog Beyond Thermal: The Future of AI-Native Hardware Design cite17†Blog From Days to Seconds: How AI-Native Simulation Rewrites Hardware Development Timelines cite18†Blog A Foundation Model for Physics: What it is, and what it Changes L8: ## Seeing is Believing. Schedule a Demo Today.
+L9: 
+L10: First Name [Input]
+L11: 
+L12: Last Name [Input]
+L13: 
+L14: Company Email [Input]
+L15: 
+L16: Role
+L17: 
+L18: [Input: ] [Input]
+L19: 
+L20: [Input: Search]
+L21: 
+L22:   * Engineer
+L23:   * C-Suite
+L24:   * Researcher
+L25:   * Investor
+L26:   * Other
+L27: 
+L28: [Input]
+L29: 
+L30: Website [Input]
+L31: 
+L32: [Button: SCHEDULE A DEMO]
+L33: 
+L34: All fields required. By submitting this form you are agreeing to Vinci4d's cite19†Privacy Policy and cite20†Terms of Use 

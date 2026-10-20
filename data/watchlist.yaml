@@ -2,6 +2,30 @@
 # sources 指向 data/sources.yaml 的来源 ID；browser 列出 HTTP 采集不可用、需要用浏览器
 # 打开核查的入口；channels 记录首发渠道（多为公众号或社交平台），只能经媒体与检索发现。
 companies:
+- id: tenstorrent
+  name: Tenstorrent / Galaxy / TT-Ascalon / Tensix
+  region: US (company disclosure; legal domicile unverified)
+  urls:
+  - https://tenstorrent.com/newsroom/tenstorrent-announces-series-e
+  sources:
+  - tenstorrent
+  browser:
+  - https://tenstorrent.com/newsroom
+  source_page: reference/entities/tenstorrent.md
+  tracking_since: '2026-10-20'
+  note: 官网核对Jim Keller与产品归属；USD1.5B E轮/USD6.2B投后估值为公司披露，交付/财务/法定身份未独立审计。
+- id: orchestra-bio
+  name: Orchestra Bio / OpenAI
+  region: unverified
+  urls:
+  - https://orchestra.bio/
+  sources:
+  - orchestra-bio
+  browser:
+  - https://orchestra.bio/
+  source_page: reference/entities/orchestra-bio.md
+  tracking_since: '2026-10-20'
+  note: 官网与OpenAI均确认收购；新入跟踪不是新成立；研发周期效果和集成开放范围待核。
 - id: sapiom
   name: Sapiom / Router / Agent Studio / Runtime
   region: US (company disclosure; legal domicile unverified)

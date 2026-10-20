@@ -1,0 +1,24 @@
+{
+  "period": "daily",
+  "date": "2026-10-19",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-19",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-18T18:00:00-07:00",
+    "end": "2026-10-19T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "3ace4cb9dae21f7de05710f87b712acd0eff33e047321f6aca9b4e385010874a",
+  "editorial_sha256": "0d28adb85f721d99a0139babdac1e0484cb68d3567c18dc4a46163fa162c8ff6",
+  "report_path": "reports/daily/2026/10/2026-10-19/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-19/3ace4cb9dae21f7de05710f87b712acd0eff33e047321f6aca9b4e385010874a.json",
+  "events": 11,
+  "generated_at": "2026-10-20T22:13:58.269815+00:00",
+  "timezone": "America/Los_Angeles",
+  "manual_review": {
+    "reviewed_at": "2026-10-20T22:15:21.803214+00:00",
+    "note": "补实际LA/UTC生成时间、日精度显示、范围与原始漏采区间；生成器版本另存revisions/manual-format。",
+    "report_sha256": "a601da5d13181069d59a0806650a977d66508b4d4e6a2127e2ac2bee98796750"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-20/judge-reluctant-to-intervene-in-qualcomm-arm-licensing-talks",
+  "title": "Judge Reluctant to Intervene in Qualcomm-Arm Licensing Talks",
+  "text": "A federal judge weighing an antitrust claim against Arm Holdings Plc expressed reluctance to get involved in licensing fees that Qualcomm Inc. would have to pay Arm for using new technology needed to design the next generation of chips for computers, phones, vehicles and data centers.",
+  "published_at": "2026-10-20T21:01:34+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "153723732849294b2ce0",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/8a25751a98b4bf6aabddd9183ea400c2b733d6b762011b169922882798ba5c6f.body",
+  "source_sha256": "8a25751a98b4bf6aabddd9183ea400c2b733d6b762011b169922882798ba5c6f",
+  "fetched_at": "2026-10-20T22:02:39.255372+00:00"
+}

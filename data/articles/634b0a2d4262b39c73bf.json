@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24539",
+  "title": "EGIP: An Evidence-Grounded Interaction Protocol for Clinical Agents",
+  "text": "arXiv:2610.24539v1 Announce Type: new\nAbstract: Interactive clinical agents acquire evidence through patient dialogue and diagnostic examinations, yet their performance also depends on how the interaction environment exposes information, available actions, and examination results. When these conditions are implicit or inconsistently controlled, final-answer accuracy can conflate diagnostic reasoning with the effects of the interaction protocol. We propose the \\textbf{E}vidence-\\textbf{G}rounded \\textbf{I}nteraction \\textbf{P}rotocol (EGIP), which enforces role-specific information boundaries, exposes diagnostic actions without revealing their results, retrieves examination results from stored clinical records, and organizes acquired evidence for final decision-making. By separating evidence acquisition from terminal prediction, EGIP enables different decision strategies to operate on the same observations. We evaluate EGIP across two clinical-agent frameworks, five datasets, and six language models. EGIP improves diagnostic accuracy over native baselines across all primary comparisons. A clinician review further shows that the proportion of automatically scored correct responses jointly judged evidence-supported rises from 10.20\\% to 36.55\\%. These findings support the effectiveness of EGIP as a unified interaction protocol for improving clinical-agent performance through controlled evidence access and acquisition.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "634b0a2d4262b39c73bf",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

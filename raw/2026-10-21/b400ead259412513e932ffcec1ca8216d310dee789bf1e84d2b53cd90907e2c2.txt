@@ -1,0 +1,88 @@
+Tenstorrent Announces a $1.5B Series E at a $6.2B valuation | Tenstorrent (https://tenstorrent.com/newsroom/tenstorrent-announces-series-e)
+citeturn16view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn15view0","id":14}); Total lines: 58
+L0: cite0†Skip to main content L1: 
+L2: [Select]
+L3: 
+L4: Some tracking technologies are important for the correct functioning of our websites and are always on. By clicking "Allow All" you are also directing us to use optional tracking technologies. cite1†Privacy Notice .
+L5: 
+L6: [Button: Customize]
+L7: 
+L8: [Button: Allow All][Button: Only Necessary]
+L9: 
+L10: cite2†Back L11: 
+L12: cite3†Announcements cite4†Newsroom L13: # Tenstorrent Announces a $1.5B Series E at a $6.2B valuation
+L14: 
+L15: The equity raise will fund volume manufacturing and global commercial expansion as chip designers, sovereign players, and inference platforms move to own their AI compute.
+L16: 
+L17: Oct 19, 2026
+L18: 
+L19: •
+L20: 
+L21: Share
+L22: 
+L23: cite5†Image L24: 
+L25: Tenstorrent, the AI computing company, has closed $1.5B in Series E funding at a $6.2B post-money valuation.
+L26: The round was led by Trace Capital and Innovation X, with participation from new and existing investors including Agostinelli Group, ARK Invest, Brett Barna, Cadence Ventures, Eclipse, Fidelity Management & Research Company, Maverick Silicon, Morgan Stanley, Protagonist, Sandisk, T. Rowe Price*, Tether Investments, Troluce Capital, Virtu Financial, and XTX Markets.
+L27: Tenstorrent will use the capital to deploy Galaxy servers at scale, continuing to serve open-weight models across LLMs and video generation, and advance the AI and CPU IP it licenses to customers designing their own silicon.
+L28: Tenstorrent sells AI compute at every level of the stack — from a single card or workstation to racks, superclusters, and custom IP. With an open-source software stack, developers can run frontier models locally and enterprises can deploy models on-prem at industry-leading latency and throughput.
+L29: “We built one architecture and sell it at every size,” said Jim Keller, CEO of Tenstorrent. “The future of compute is open, scalable, and owned by the people building on it. Our investors believe in that model too, and we appreciate their support.”
+L30: 
+L31: “Jim and his team bring decades of hands-on silicon, software, and IP experience, and we’re excited to partner with Tenstorrent as Galaxy continues to scale,” said Ben Mahdavi, Founder at Trace Capital.
+L32: “Few companies design the chip and the software that runs on it. Tenstorrent does both, and its video generation results beat industry benchmarks ahead of our expectations,” said George Bousis, Co-Founder and Managing Partner at Protagonist. “We are excited to double down in the Series E to back Jim and the team through this next phase of growth.”
+L33: 
+L34: About Tenstorrent
+L35: Tenstorrent is an AI compute company led by CEO Jim Keller — architect of Apple A4/A5, AMD Zen, and Tesla’s Full Self-Driving chip. The company builds RISC-V-based AI processors and systems for developers, enterprises, and sovereign infrastructure worldwide. In addition to servers and workstations, Tenstorrent licenses its TT-Ascalon RISC-V CPU and Tensix AI cores to chip designers including Samsung and LG.
+L36: Backed by Bezos Expeditions, Samsung, LG Electronics, Hyundai Motor Group, Fidelity Management and Research Company, and others, Tenstorrent operates from Santa Clara, Austin, Toronto, Belgrade, Tokyo, and Bangalore. tenstorrent.com
+L37: About Trace Capital
+L38: 
+L39: Trace Capital is an investment firm that invests in, acquires, and builds exceptional businesses across stages and industries. The firm takes a long-term, concentrated approach to businesses at the forefront of technological change and the industries being transformed by it.
+L40: Trace Capital was founded in 2026 by Ben Mahdavi, who previously co-founded Quiet Capital and led its Access strategy. During his time at Quiet, the firm invested in many of the leading technology businesses of the past decade.
+L41: 
+L42: www.tracecap.com
+L43: 
+L44: About Innovation X
+L45: Founded in 2016 by Roger Monteforte, Innovation X is a late-stage venture capital firm that invests in privately held companies with innovative or disruptive technologies across defense technology, fintech, artificial intelligence, infrastructure, and the space economy. Innovation X Advisors has over $4.5B under management across multiple funds (as reported on Form ADV as of 12/31/2025).
+L46: cite6†Announcements Newsroom Vayavya Labs and Tenstorrent Partner to Accelerate RISC-V Hardware and Software Development Through Virtual Platform Modeling Oct 8, 2026 cite7†Newsroom Announcements Tenstorrent and Smallest.ai Partner to Bring Production-Grade Voice AI On-Prem Oct 2, 2026 cite8†Newsroom Announcements ai& and Tenstorrent Launch JapanFold, Bringing Open-Source, Sovereign Drug Discovery to Japan Sep 3, 2026 L47: 
+L48: Keep up to date with Tenstorrent news.
+L49: 
+L50: [Input: Email]
+L51: 
+L52: [Button: Submit]
+L53: cite9†Support cite10†Vision cite11†Careers L54: 
+L55: cite2†Newsroom cite12†FAQ L56: 
+L57: cite13†Terms cite1†Privacy cite14†Quality cite15†Patents cite16†Trademarks cite17†Contact Us cite18†Cookies cite19†Your Privacy Choices --------------------------------------------------------------------------------
+Securing the agentic insider - The Official Microsoft Blog (https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/)
+citeturn16view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn10view8","id":4}); Total lines: 42
+L0: cite0†Official Microsoft Blog L1: # Securing the agentic insider
+L2: 
+L3: Oct 19, 2026 (October 19, 2026) | cite1†Hayete Gallot - Executive Vice President, Microsoft Security L4: 
+L5: cite2†Image: Dark teal graphic with a circular wave pattern surrounding the words Contain the AI Insider in green and blue. L6: In the last few months, concerns have arisen about AI safety as a growing number of incidents were publicly disclosed. These incidents exposed how powerful models have become and how they represent a significant threat if not handled well. And with the global race on innovation, the challenge will compound as models become even more powerful.
+L7: While most have been worried about threat actors using powerful models to attack, the focus has been less on agents within our own walls. Since we were the ones who deployed agents internally for our companies, we implicitly trusted our agents.
+L8: cite3†Unfortunately, frontier models, regardless of their origin, cannot be trusted†snscratchpad.com . This is not because models are inherently malicious. Models have been trained to attain results, which often leads to reward hacking, and models are not optimized around organizational norms or judgment. Agents are unpredictable. They will adapt as the context changes, may not behave as intended and will collaborate and collude with other agents to reach their objectives, without needing to be compromised.
+L9: Agents have been unleashed in the enterprise, at scale, and their numbers are growing rapidly. These agents are frequently overprivileged, have access to data, tools and systems and can take actions and make decisions in critical processes. They have become active participants in the enterprise.
+L10: 
+L11: They are agentic insiders.
+L12: Monitoring and securing those agents must become continuous. We need to understand in real time what the agents are doing and what risks those actions create, and we need to adjust their ability to act accordingly.
+L13: 
+L14: To manage and control these insiders, we will need Guardian Agents — an established industry term — that watch and moderate every action of every agent, before it happens, 24/7.
+L15: An agent brings together a model, a harness that orchestrates its work, an action space of tools and resources and a runtime in which it executes. Securing agents requires protection across multiple layers: identity, permissions, data, endpoints, network, cloud and runtime.
+L16: In July, cite4†we announced Project Perception , an agentic security system that uses our new cyber stack and teams of red, blue and green agents to help defenders act with speed, while defending against AI driven attacks from outside of the enterprise.
+L17: 
+L18: The same cyber stack is also directly applicable to managing and governing the agentic insiders that run in the enterprise.
+L19: Project Perception can be leveraged to contain agentic insiders, implementing deterministic controls on non-deterministic intelligence:
+L20:   * Sensors/Signals/Actuators: bring together signals across the various sensors (identity, data, cloud, endpoint, network, runtime) to discover agents in the enterprise and bring them under management by assigning an identity, container and set of policy and permissions.
+L21:   * Context: use those signals to compute, dynamically, the risk associated with what the agents are attempting to do.
+L22:   * Harness/agents/models: based on dynamic agent risk, a team of Guardian Agents, with green and blue agents, actively and continually supervise every action of every agent and surgically respond as the risk profile increases, in real time.
+L23: This is where agentic security changes the equation for security practitioners.
+L24: 
+L25: Project Perception can supervise in real time while providing traceability for practitioners to examine what happened, understand why the risk emerged and apply the judgment needed to update their security system accordingly. Agentic security provides speed. Practitioners provide judgment. That is how defenders begin operating at the same speed as the systems they are protecting against.
+L26: Today, security systems can reliably observe the actions of the agents. Those signals are essential and tell us what we need to contain. Our security controls should increasingly be able to ask not only “What is happening?” but also “Why is it happening?” Is this consistent with the intent of the task?” This will require greater transparency into the model itself, not only the input and output tokens, but the thinking and chain of thought tokens.
+L27: Only then can we truly understand whether the model’s intent is aligned with the purpose of the agent. Model transparency will not replace containment. It will make containment smarter and stronger. And it will allow us to better inform accountability and traceability. This needs to be the next step in securing agentic insiders.
+L28: With Project Perception, cite5†you can get started today on the journey to secure your agentic insiders†www.microsoft.com . There should not be a choice between innovation and safety.
+L29: 
+L30: Hayete Gallot leads Microsoft’s work to help organizations operate securely in an AI-driven world. Her scope includes identity, threat protection, compliance and data security at global scale.
+L31: 
+L32: Tags: cite6†Agentic AI , cite7†AI , cite8†Project Perception , cite9†Security L33: cite10†Surface Laptop Ultra†www.microsoft.com cite11†Surface Pro†www.microsoft.com cite12†Surface Laptop†www.microsoft.com cite13†Surface RTX Spark Dev Box†www.microsoft.com cite14†Explore Copilot†www.microsoft.com cite15†Explore Microsoft products†www.microsoft.com cite16†Windows 11 apps†www.microsoft.com cite17†Account profile†account.microsoft.com cite18†Download Center†www.microsoft.com cite19†Microsoft Store support†go.microsoft.com cite20†Returns†www.microsoft.com cite21†Order tracking†www.microsoft.com cite22†Certified Refurbished†www.microsoft.com cite23†Why buy from Microsoft Store†www.microsoft.com cite24†Flexible Payments†www.microsoft.com cite25†Microsoft in education†www.microsoft.com cite26†Devices for education†www.microsoft.com cite27†Microsoft Teams for Education†www.microsoft.com cite28†Microsoft 365 Education†www.microsoft.com cite29†How to buy for your school†www.microsoft.com cite30†Educator training and development†education.microsoft.com cite31†Deals for students and parents†www.microsoft.com cite32†AI for education†www.microsoft.com L34: cite33†Microsoft AI†www.microsoft.com cite34†Microsoft Security†www.microsoft.com cite35†Dynamics 365†www.microsoft.com cite36†Microsoft 365†www.microsoft.com cite37†Microsoft Power Platform†www.microsoft.com cite38†Microsoft Teams†www.microsoft.com cite39†Microsoft Copilot†www.microsoft.com cite40†Small Business†www.microsoft.com cite41†Azure†azure.microsoft.com cite42†Microsoft Developer†developer.microsoft.com cite43†Microsoft Learn†learn.microsoft.com cite44†Support for AI marketplace apps†www.microsoft.com cite45†Microsoft Tech Community†techcommunity.microsoft.com cite46†Microsoft Marketplace†marketplace.microsoft.com cite47†Software companies†www.microsoft.com cite48†Visual Studio†visualstudio.microsoft.com cite49†Careers†careers.microsoft.com cite50†About Microsoft†www.microsoft.com cite51†Company news†news.microsoft.com cite52†Privacy at Microsoft†www.microsoft.com cite53†Investors†www.microsoft.com cite54†Diversity and inclusion†www.microsoft.com cite55†Accessibility†www.microsoft.com cite56†Sustainability†www.microsoft.com L35: cite57†English (United States)†www.microsoft.com L36: 
+L37: cite58†Your Privacy Choices†aka.ms cite58†Your Privacy Choices†aka.ms L38: 
+L39: cite59†Consumer Health Privacy†go.microsoft.com cite60†Contact us†support.microsoft.com cite61†Privacy†go.microsoft.com cite62†Manage cookies cite63†Terms of use†go.microsoft.com cite64†Trademarks†www.microsoft.com cite65†About our ads†choice.microsoft.com L40: 
+L41: cite66†iframe†www.googletagmanager.com cite67†Image†www.facebook.com 

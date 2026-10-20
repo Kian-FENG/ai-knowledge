@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/6dd31584-064c-4015-bf5d-e5747799ccd5?syn-25a6b1a6=1",
+  "title": "AI debt worries spark surge in default insurance trading",
+  "text": "Volumes of credit default swaps linked to big tech groups soar as investors seek protection against boom unravelling",
+  "published_at": "2026-10-20T04:00:19+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0df56fa122434b5d260b",
+  "source_id": "ft-tech",
+  "source_name": "Financial Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/de7eb9763a00ad0a21c16e52f5bb4c3f1e69de11e45df67e4ad4dc6513a7f2b3.body",
+  "source_sha256": "de7eb9763a00ad0a21c16e52f5bb4c3f1e69de11e45df67e4ad4dc6513a7f2b3",
+  "fetched_at": "2026-10-20T22:02:38.123715+00:00"
+}

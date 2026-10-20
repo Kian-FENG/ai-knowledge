@@ -285,3 +285,34 @@
 ## 2026-10-18日报增量
 
 [[research/synthesis/execution-governance-and-delivery-20261018|执行治理与交付约束]]
+
+
+## 2026-10-19 日报新增知识
+
+[[reference/sources/minimax-m31-flash-20261019|minimax-m31-flash-20261019]]
+
+[[reference/sources/openai-orchestra-bio-20261019|openai-orchestra-bio-20261019]]
+
+[[reference/sources/memsilicon-lpu-series-a-20261019|memsilicon-lpu-series-a-20261019]]
+
+[[reference/sources/openai-low-resource-code-20261019|openai-low-resource-code-20261019]]
+
+[[reference/sources/sglang-v0522-20261019|sglang-v0522-20261019]]
+
+[[reference/sources/vllm-elastic-ep-20261019|vllm-elastic-ep-20261019]]
+
+[[reference/sources/microsoft-agentic-insider-20261019|microsoft-agentic-insider-20261019]]
+
+[[reference/papers/kv-residency-261022863|kv-residency-261022863]]
+
+[[reference/papers/self-hpo-261022791|self-hpo-261022791]]
+
+[[reference/sources/tenstorrent-series-e-20261019|tenstorrent-series-e-20261019]]
+
+[[reference/sources/aws-torchneuron-announcement-20261019|aws-torchneuron-announcement-20261019]]
+
+[[reference/entities/tenstorrent|tenstorrent]]
+
+[[reference/entities/orchestra-bio|orchestra-bio]]
+
+[[research/synthesis/agent-cost-beyond-token-price-20261019|agent-cost-beyond-token-price-20261019]]

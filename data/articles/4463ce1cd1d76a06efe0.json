@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24818",
+  "title": "Efficiency Measured in English: Tokeniser Coverage Bounds Small Language Models on Indic Scripts",
+  "text": "arXiv:2610.24818v1 Announce Type: new\nAbstract: Small Language Models with quantisation and parameter-efficient adaptation are widely offered as the route to multilingual AI under compute constraints, and their efficiency is almost always reported as a single memory figure. We show that this figure is measured in English and does not transfer. Across a 131k-sentence corpus spanning eleven Indic scripts, TinyLlama-1.1B's tokeniser emits 1.34 subword tokens per Latin-script word and 22.60 per Kannada word. This is not inefficiency; it is absence. Its vocabulary contains 0% of Odia's codepoints, 1% of Telugu's and 2% of Kannada's, and for five of eleven scripts the measured fertility sits at the UTF-8 byte-fallback ceiling, on Odia at 99.6% of it, with 93.6% of emitted tokens being raw bytes. Because SentencePiece byte fallback never raises an unknown-token marker, this failure is entirely silent: TinyLlama's UNK rate is 0.0% on every script, including the one it reads as bytes. We further show that low fertility can indicate the opposite of efficiency: mBERT posts its best score anywhere (1.10 tokens/word, on Odia) while discarding 87.9% of the text as UNK. MuRIL, an Indic-vocabulary encoder with a fifth of TinyLlama's parameters, reads every script at 1.23-2.26 tokens/word with zero UNK and zero byte fallback. The binding constraint is the vocabulary, not the parameter count. The consequence is concrete: on a 2048-token context window, the same model gives an English user 1,528 words of usable context and a Kannada user 91.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "4463ce1cd1d76a06efe0",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}

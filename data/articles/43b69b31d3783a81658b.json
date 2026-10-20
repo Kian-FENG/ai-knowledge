@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.24250",
+  "title": "Can This LLM Annotate My Data? Estimating Zero-Shot LLM Performance",
+  "text": "arXiv:2610.24250v1 Announce Type: new\nAbstract: Large language models (LLMs) are increasingly used in annotation tasks with varying success. While several studies have demonstrated the opportunities and shortcomings of LLMs for annotation, a critical question remains unanswered: is it possible to predict how well they will perform on a new dataset? To answer this and related questions, we construct two task families which induce 461 text classification datasets. We find that it is possible to predict LLM performance - to a certain degree - and that contrary to other work which highlights the usefulness of LLM verbalizations of self-confidence, internal log-probabilities are the most predictive signal.",
+  "published_at": null,
+  "announced_at": "2026-10-20T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "43b69b31d3783a81658b",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-21/d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af.body",
+  "source_sha256": "d90ff1e43e72ef50b7b8bae1df060b05843a507ff803c4081d585a0fb39eb0af",
+  "fetched_at": "2026-10-20T22:02:28.434628+00:00"
+}
