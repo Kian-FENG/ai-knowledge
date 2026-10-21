@@ -108,26 +108,42 @@
       "notified_at": "2026-10-20T22:18:16.664823+00:00",
       "research_commit": "54937bd457995080491199c8fe220d0ca9af531d",
       "git_remote_synced": true
+    },
+    "2026-10-20": {
+      "packet_sha256": "fa33d7bbf3a91a6c0911b4a26a2cdee88fc95fd89a8f99b7001d6dfb549bac60",
+      "editorial_sha256": "8aba723bda0151f3be5b3296a809b5eec68fa2a8cb597b0f6ea2d53a151b5d86",
+      "notified_at": "2026-10-21T22:17:15.690503+00:00",
+      "research_commit": "6828846d148852b8fb299dfcccb48c1cc6d46f2a",
+      "git_remote_synced": true
     }
   },
   "failed_source_ids": [
     "alibaba-cloud",
     "apple-newsroom",
+    "asml",
     "huxiu",
     "jiqizhixin",
-    "laplace-identity",
+    "minimax",
     "ms-nadella",
     "nda",
     "qwen",
     "techmeme-snapshot",
-    "today",
-    "tsmc"
+    "tenstorrent",
+    "today"
   ],
-  "updated_at": "2026-10-20T22:18:16.664823+00:00",
+  "updated_at": "2026-10-21T22:17:15.690503+00:00",
   "git_sync": {
-    "date": "2026-10-19",
-    "research_commit": "54937bd457995080491199c8fe220d0ca9af531d",
+    "date": "2026-10-20",
+    "research_commit": "6828846d148852b8fb299dfcccb48c1cc6d46f2a",
     "remote_synced": true,
-    "notified_at": "2026-10-20T22:18:16.664823+00:00"
+    "notified_at": "2026-10-21T22:17:15.690503+00:00"
+  },
+  "schedule_issue": {
+    "status": "unresolved",
+    "host_timezone": "America/New_York",
+    "target_timezone": "America/Los_Angeles",
+    "target_hour": 18,
+    "observed_trigger_utc": "2026-10-21T22:04:44+00:00",
+    "note": "cron当地18点本次约为LA15点；已通知，未擅自改变统计窗口。"
   }
 }
