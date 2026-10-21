@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.26864",
+  "title": "H2DF: Calibrated Target Bands for Controllable Language-Model Unlearning",
+  "text": "arXiv:2610.26864v1 Announce Type: new\nAbstract: Gradient ascent (GA) is a simple language-model unlearning baseline, but it continues increasing forget loss after useful forgetting has occurred. This unbounded pressure can damage retained utility and make forgotten examples abnormally high-loss. We introduce H2DF, a calibrated target-band objective that applies GA-like pressure below a data-dependent lower target and suppresses, or reverses, that pressure after the target region is reached. The targets are estimated from matched non-member examples before training, so the base objective requires one forget-batch forward/backward pass per optimization step; our reported TOFU variant adds sparse retain replay every tenth step. We instantiate a one-sided objective for TOFU question answering and a two-sided objective for MUSE-News language modeling. Across three TOFU seeds, H2DF obtains a forget NLL of 1.528 with margin 0.049 and retain NLL of 1.165 with margin 0.047, matching GradDiff while using retain replay only every tenth step and showing substantially lower variability than GA. On MUSE-News, H2DF improves retention over GA and NPO and is competitive with SimNPO, but does not dominate it. Ablations show that the upper target reduces overshoot and that validation-based checkpoint selection is important. These results support calibrated target bands as a practical mechanism for controlling forgetting strength, while also exposing sensitivity to random seed and calibration quality.",
+  "published_at": null,
+  "announced_at": "2026-10-21T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "eb36af6d6aeb6d7e94df",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-22/efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3.body",
+  "source_sha256": "efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3",
+  "fetched_at": "2026-10-21T22:05:28.011473+00:00"
+}

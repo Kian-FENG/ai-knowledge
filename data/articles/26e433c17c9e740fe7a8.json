@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/deepseek-open-sources-framework-behind-high-margin-ai-inference",
+  "title": "DeepSeek Open-Sources Framework Behind Its High-Margin AI Inference",
+  "text": "DeepSeek has open-sourced DeepInfer, the in-house framework for running its own models. The move reveals some of the technical secrets behind how the Chinese AI developer achieves high efficiency and low compute costs when running its models at scale.\nAccess to DeepInfer is likely to help ...",
+  "published_at": "2026-10-21T04:02:29+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T21:00:27+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "26e433c17c9e740fe7a8",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9.body",
+  "source_sha256": "e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9",
+  "fetched_at": "2026-10-21T22:05:37.799727+00:00"
+}

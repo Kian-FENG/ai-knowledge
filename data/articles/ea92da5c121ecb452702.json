@@ -1,0 +1,18 @@
+{
+  "url": "https://openai.com/index/building-chatgpt-ad-stack",
+  "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+  "text": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+  "published_at": "2026-10-21T07:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ea92da5c121ecb452702",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-22/4eaca265c721164384082221b91da344b2ce84618497444e134265fb175d9e23.body",
+  "source_sha256": "4eaca265c721164384082221b91da344b2ce84618497444e134265fb175d9e23",
+  "fetched_at": "2026-10-21T22:05:15.687185+00:00"
+}

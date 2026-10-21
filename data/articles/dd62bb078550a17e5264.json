@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+  "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+  "text": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
+  "published_at": "2026-10-21T19:30:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "dd62bb078550a17e5264",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/a5a06bbe0d23c43b1a8c19dcbd8a38340140712f69f32b80ae857a92f8f6af1c.body",
+  "source_sha256": "a5a06bbe0d23c43b1a8c19dcbd8a38340140712f69f32b80ae857a92f8f6af1c",
+  "fetched_at": "2026-10-21T22:05:36.692953+00:00"
+}

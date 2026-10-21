@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-21-flint",
+  "title": "Day-0 Support for Flint on vLLMOct 21, 2026·5 min readvLLM supports both Flint checkpoints (40B total, 2.5B active) from day 0, decoding a single request at about 500 tokens/s on one GPU.",
+  "link_text": "Day-0 Support for Flint on vLLMOct 21, 2026·5 min readvLLM supports both Flint checkpoints (40B total, 2.5B active) from day 0, decoding a single request at about 500 tokens/s on one GPU.",
+  "id": "3b031f6c198ac9415336",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-22/0820186619941b1d2714e296abe9ed5e958f46f6bb8849d0278450b7cdbc4a6f.body",
+  "source_sha256": "0820186619941b1d2714e296abe9ed5e958f46f6bb8849d0278450b7cdbc4a6f",
+  "fetched_at": "2026-10-21T22:05:26.519569+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-21T22:05:26.519569+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

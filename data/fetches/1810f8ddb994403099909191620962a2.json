@@ -1,0 +1,39 @@
+{
+  "raw_path": "raw/2026-10-22/be50f4c4baa26d7f44cacbc1ac1b5d0f39fe8c442f40ccbc9a52996bf26d016c.body",
+  "sha256": "be50f4c4baa26d7f44cacbc1ac1b5d0f39fe8c442f40ccbc9a52996bf26d016c",
+  "source_url": "https://newsletter.semianalysis.com/feed",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-21T22:05:30.635070+00:00",
+  "source_id": "semianalysis",
+  "status": 200,
+  "headers": {
+    "Date": "Wed, 21 Oct 2026 22:05:31 GMT",
+    "Content-Type": "application/xml; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "CF-Ray": "a4e3906e6ca4a2db-SJC",
+    "CF-Cache-Status": "HIT",
+    "Age": "2121",
+    "Cache-Control": "no-cache",
+    "Content-Encoding": "gzip",
+    "ETag": "W/\"2ffbc1-sw+ru6s5XEZJ1aMDpouRHAaPDts\"",
+    "Server": "cloudflare",
+    "x-sub": "semianalysis",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Vary": "Accept-Encoding",
+    "x-cluster": "substack",
+    "x-deploy": "4376e2194f",
+    "x-powered-by": "Express",
+    "x-served-by": "Substack",
+    "x-service": "web",
+    "Server-Timing": "cfEdge;dur=7,cfOrigin;dur=0,cfWorker;dur=7",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "final_url": "https://newsletter.semianalysis.com/feed",
+  "truncated": false,
+  "charset": "utf-8",
+  "response_headers_redacted": [
+    "Set-Cookie",
+    "set-cookie"
+  ]
+}

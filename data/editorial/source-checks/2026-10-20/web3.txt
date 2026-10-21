@@ -1,0 +1,210 @@
+meta-models/Muse-Spark-Open-816B-A42B · Hugging Face (https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B)
+citeturn2view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","lineno":null}); Total lines: 498
+L0: [Input: Search models, datasets, users...]
+L1:
+L2:   * cite0†Models L3:   * cite1†Datasets L4:   * cite2†Spaces L5:   * cite3†Buckets new L6:   * cite4†Docs L7:   * cite5†Enterprise L8:   * cite6†Pricing L9:   *     * Website
+L10:
+L11:       * cite7†Tasks L12:       * cite8†HuggingChat L13:       * cite9†Collections L14:       * cite10†Languages L15:       * cite11†Organizations L16:     * Community
+L17:       * cite12†Blog L18:       * cite13†Posts L19:       * cite14†Daily Papers L20:       * cite15†Hardware L21:       * cite16†Learn L22:       * cite17†Discord L23:       * cite18†Forum†discuss.huggingface.co L24:       * cite19†GitHub†github.com L25:     * Solutions
+L26:
+L27:       * cite5†Team & Enterprise L28:       * cite20†Hugging Face PRO L29:       * cite21†Enterprise Support L30:       * cite22†Inference Providers --------------------------------------------------------------------------------
+利太智药完成近5000万元种子轮融资 讯飞创投出手 _ 东方财富网 (https://finance.eastmoney.com/a/202610103892000121.html)
+citeturn2view1 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"https://finance.eastmoney.com/a/202610103892000121.html","lineno":null}); Total lines: 190
+L0:   * cite0†财经 L1:   * cite1†焦点 L2:   * cite2†股票†stock.eastmoney.com L3:   * cite3†新股†stock.eastmoney.com L4:   * cite4†期指†stock.eastmoney.com L5:   * cite5†期权†option.eastmoney.com L6:   * cite6†行情†quote.eastmoney.com L7:   * cite7†数据†data.eastmoney.com L8:   * cite8†全球†stock.eastmoney.com L9:   * cite9†美股†stock.eastmoney.com L10:   * cite10†港股†hk.eastmoney.com L11:   * cite11†期货†futures.eastmoney.com L12:   * cite12†外汇†forex.eastmoney.com L13:   * cite13†银行†bank.eastmoney.com L14:   * cite14†基金†www.1234567.com.cn L15:   * cite15†理财†money.eastmoney.com L16:   * cite16†债券†bond.eastmoney.com --------------------------------------------------------------------------------
+Microsoft-Decision-1: Our model for fast decision-making (https://commandline.microsoft.com/microsoft-decision-1-model-foundry/)
+citeturn2view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://commandline.microsoft.com/microsoft-decision-1-model-foundry/","lineno":null}); Total lines: 124
+L0: cite0†Source†news.microsoft.com L1:
+L2: By builders, for builders.
+L3:
+L4: A Microsoft publication
+L5:
+L6: Search articles [Input: Search articles...]
+L7:
+L8: cite1†Image L9:
+L10: cite2†Deep Dive L11:
+L12: Introducing Microsoft-Decision-1, our model for fast decision-making
+L13: # Introducing Microsoft-Decision-1, our model for fast decision-making
+L14:
+L15: Our new decision-scoring model delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models.
+L16:
+L17: By cite3†Achint Srivastava VP of Software Engineering, Office of the CTO, Microsoft
+L18:
+L19: 2026.10.09
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn2view3 [wordlim: 200] Source: open({"ref_id":"https://x.com/satyanadella/status/2108931348857827686","lineno":null}); Total lines: 1
+L0: Failed to fetch https://x.com/satyanadella/status/2108931348857827686: (403) Forbidden
+--------------------------------------------------------------------------------
+Meet Odyssey-3: Our Most Powerful Foundation World Model (https://odyssey.systems/meet-odyssey-3)
+citeturn2view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://odyssey.systems/meet-odyssey-3","lineno":null}); Total lines: 661
+L0: cite0†About L1:
+L2: cite1†News L3:
+L4: cite2†Careers L5:
+L6: cite3†Contact L7:
+L8: cite4†Try Odyssey-3†experience.odyssey.systems L9:
+L10: cite5†Get API Access†developer.odyssey.ml L11:
+L12: cite0†About L13:
+L14: cite1†News L15:
+L16: cite2†Careers L17:
+L18: cite3†Contact L19:
+L20: cite4†Try Odyssey-3†experience.odyssey.systems L21:
+L22: cite0†About L23:
+L24: cite1†News L25:
+L26: cite2†Careers L27:
+L28: cite3†Contact L29:
+L30: cite4†Try Odyssey-3†experience.odyssey.systems L31:
+L32: Meet Odyssey-3: Our Most Powerful Foundation World Model
+--------------------------------------------------------------------------------
+Do Agent Teams Pay Off? A Case Study on Vibe Code Bench | Vals AI (https://www.vals.ai/blogs/multi-agent-vibe-code-bench)
+citeturn2view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.vals.ai/blogs/multi-agent-vibe-code-bench","lineno":null}); Total lines: 162
+L0: cite0†Benchmarks L1:
+L2: cite1†Models L3:
+L4: cite2†Comparison L5:
+L6: cite3†Vals Smith L7:
+L8: cite4†App Reports L9:
+L10: cite5†Government L11:
+L12: cite6†News L13:
+L14: cite7†Blog L15:
+L16: cite8†Hackathon L17:
+L18: cite9†About L19:
+L20: cite7†Blog Research
+L21: # Do Agent Teams Pay Off? A Case Study on Vibe Code Bench
+L22:
+L23: We ran GPT 6 Sol and Claude Opus 5.5 on Vibe Code Bench as single agents and as teams, at medium and max reasoning effort. Teams cost 1.8 to 5.1 times as much, and only for Sol at medium effort was the difference in score statistically significant. Whether a team is worth it depends on the model, task, and budget: a team can boost performance, but higher reasoning effort is an alternative worth weighing.
+L24:
+L25: Katrina Drozdov • 10/09/2026
+--------------------------------------------------------------------------------
+Can AI automate AI R&D yet? | Epoch AI (https://epoch.ai/publications/innovationeval)
+citeturn2view6 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://epoch.ai/publications/innovationeval","lineno":null}); Total lines: 1136
+L0: cite0†Image: Menu cite1†Image: Menu L1:
+L2: [Input]
+L3:
+L4: cite2†Latest Our work
+L5:
+L6: #### Featured
+L7:
+L8:   * cite3†Trends in AI L9:   * cite4†Data on AI L10:   * cite5†Capabilities & benchmarking L11:
+L12: #### Publications
+L13:
+L14:   * cite6†Papers & reports L15:   * cite7†Data Insights L16:   * cite8†Newsletter L17:   * cite9†Podcast L18:   * cite10†All publications L19:
+L20: #### Data explorers
+L21:
+L22:   * cite5†AI capabilities L23:   * cite11†AI models L24:   * cite12†AI data centers L25:   * cite13†AI chip sales L26:   * cite14†AI companies L27:   * cite15†Polling on AI usage L28:   * cite4†All data explorers --------------------------------------------------------------------------------
+The Live AI Lab the World Runs On (https://decart.ai/)
+citeturn2view7 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://decart.ai/","lineno":null}); Total lines: 151
+L0: Decart at NVIDIA GTC in Berlin · cite0†Happening now → L1:
+L2: cite1†Optimization Stack L3:
+L4: Model
+L5:
+L6: Explore
+L7:
+L8: Company
+L9:
+L10: cite2†Start Building†platform.decart.ai L11:
+L12: cite3†Contact us L13:
+L14: cite3†Contact us L15: # The Live AI Lab
+L16: the World Runs On
+L17:
+L18: We build the infrastructure and models that make AI run at the speed of reality.
+L19:
+L20: cite4†Try Lucy 2.5 L21:
+L22: Your browser does not support the video tag.
+L23:
+L24: Partners and customers
+--------------------------------------------------------------------------------
+The Official Microsoft Blog (https://blogs.microsoft.com/)
+citeturn2view8 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://blogs.microsoft.com/","lineno":null}); Total lines: 68
+L0: cite0†Official Microsoft Blog L1: ## Featured
+L2:
+L3: Oct 20, 2026 (October 20, 2026) | cite1†Douglas Phillips - President and Chief Technology Officer, Microsoft Specialized Clouds L4:
+L5: cite2†Advancing digital sovereignty with greater control and choice L6:
+L7: Oct 19, 2026 (October 19, 2026) | cite3†Hayete Gallot - Executive Vice President, Microsoft Security L8:
+L9: cite4†Securing the agentic insider L10:
+L11: Oct 12, 2026 (October 12, 2026) | cite5†Scott Guthrie - Executive Vice President, Cloud + AI L12:
+L13: cite6†Microsoft to expand Azure Maia system to multi-gigawatt deployments --------------------------------------------------------------------------------
+新闻动态 - 模思智能 (https://www.mosi.cn/news)
+citeturn2view9 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.mosi.cn/news","lineno":null}); Total lines: 108
+L0: 模型
+L1:
+L2:   * 音频理解
+L3:   * 音频生成
+L4:   * 视频理解
+L5:   * 视频生成
+L6:
+L7:   * 语音转录
+L8:   * 通用音频理解
+L9:   * 音乐理解
+L10:
+L11:   * cite0†MOSS-Transcribe-Diarize L12:
+L13:   * cite1†MOSS-Audio L14:
+L15:   * cite2†MOSS-Music L16:
+L17:   * 语音生成
+L18:   * 音效生成
+L19:
+L20:   * cite3†MOSS-TTS L21:   * cite4†MOSS-TTSD L22:   * cite5†MOSS-TTS-Nano L23:   * cite6†MOSS-VoiceGenerator L24:
+L25:   * cite7†MOSS-SoundEffect L26:
+L27:   * cite8†MOSS-VL L28:   * cite9†MOSS-VL-Realtime L29:
+L30:   * cite10†MOVA L31:
+L32: ### 语音转录
+L33:
+L34:   * cite0†MOSS-Transcribe-Diarize L35:
+L36: ### 通用音频理解
+L37:
+L38:   * cite1†MOSS-Audio L39:
+L40: ### 音乐理解
+L41:
+L42:   * cite2†MOSS-Music --------------------------------------------------------------------------------
+ModCraft (https://www.modcraft.games/)
+citeturn2view10 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.modcraft.games/","lineno":null}); Total lines: 204
+L0: cite0†Beta L1:
+L2: 发现、下载和分享游戏 Mod。
+L3:
+L4: cite1†沪公网安备31010402336453号†beian.mps.gov.cn cite2†沪ICP备2026004483号-1†beian.miit.gov.cn L5:
+L6: 增值电信业务经营许可证 合字B2-20260555
+L7:
+L8: ## 联系我们
+L9:
+L10: 官方邮箱：support@modcraft.games
+L11:
+L12: 官方 QQ 群：[Button: 967957285]
+L13: ## 相关链接
+L14:
+L15:   * cite3†用户协议 L16:   * cite4†隐私政策 L17:   * cite5†社区公约 L18:
+L19: © 2026 ModCraft. 保留所有权利。
+L20:
+L21: cite6†Image†assets.modcraftcdn.com L22:
+L23: cite7†Image†assets.modcraftcdn.com L24:
+L25: cite8†Image†assets.modcraftcdn.com L26:
+L27: cite9†Image†assets.modcraftcdn.com L28:
+L29: cite10†Image†assets.modcraftcdn.com L30:
+L31: cite11†Image†assets.modcraftcdn.com L32:
+L33: cite12†Image†assets.modcraftcdn.com L34:
+L35: cite13†Image†assets.modcraftcdn.com L36:
+L37: cite14†Image†assets.modcraftcdn.com L38:
+L39: cite15†Image†assets.modcraftcdn.com L40:
+L41: cite16†Image†assets.modcraftcdn.com L42:
+L43: cite17†Image†assets.modcraftcdn.com --------------------------------------------------------------------------------
+Newsroom - Apple (https://www.apple.com/newsroom/)
+citeturn2view11 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.apple.com/newsroom/","lineno":null}); Total lines: 34
+L0:   * cite0†Apple L1:   *     * cite1†Store L2:
+L3:     * cite2†Mac L4:
+L5:     * cite3†iPad L6:
+L7:     * cite4†iPhone L8:
+L9:     * cite5†Watch L10:
+L11:     * cite6†Vision L12:
+L13:     * cite7†AirPods L14:
+L15:     * cite8†TV & Home L16:
+L17:     * cite9†Entertainment L18:
+L19:     * cite10†Accessories L20:
+L21:     * cite11†Support†support.apple.com L22:
+L23:   * [Input: Search apple.com][Input][Input][Input][Input]
+L24:
+L25:   * 0+
+L26:
+L27: [Input]
+L28:
+L29: opens in new window
+L30:
+L31: Stay up to date with the latest articles from Apple Newsroom.
+L32:
+L33: [Button: Dismiss ]

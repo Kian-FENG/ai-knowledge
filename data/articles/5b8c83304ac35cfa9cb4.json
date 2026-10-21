@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.27566",
+  "title": "Learned Readout Tokens for Extracting Large Language Model Confidence",
+  "text": "arXiv:2610.27566v1 Announce Type: new\nAbstract: Large language models (LLMs) are increasingly used within everyday applications where their responses have significant downstream impacts. For responsible deployment of such systems, we desire insight into how much we can trust their individual outputs. A popular approach for estimating LLM confidence is to train probes on the hidden states of the LLM's tokens to predict the correctness of the model's output. These probes typically read hidden states from tokens that are already in the model's vocabulary. In this work, we introduce a new approach to confidence probes that learn a new readout token and utilize its hidden states to train the probe. We show that our learned readout approach ScratchProbe outperforms its existing-token counterpart on a variety of datasets and LLMs. We also extend our method to a multi-token approach which we show provides further performance improvements. Finally, since the learned readout changes only the position a probe reads from, any existing probe can adopt it. Applied to a state-of-the-art probe, it improves AUROC on every backbone, in domain and out of domain.",
+  "published_at": null,
+  "announced_at": "2026-10-21T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "5b8c83304ac35cfa9cb4",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-22/efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3.body",
+  "source_sha256": "efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3",
+  "fetched_at": "2026-10-21T22:05:28.011473+00:00"
+}

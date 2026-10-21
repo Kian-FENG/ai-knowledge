@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.27304",
+  "title": "Global Security Blind Spots: Translation as a Safety Bypass in Low-Resource Languages",
+  "text": "arXiv:2610.27304v1 Announce Type: new\nAbstract: Large language models are deployed globally, yet safety alignment and evaluation remain concentrated in English: harmful requests refused in English can elicit unsafe completions when translated into low-resource languages. We evaluate ten widely deployed LLMs across 79 languages (English plus 78 low-resource) under a translation-bypass threat model, using a metric conditioned on English safety, which separates translation bypass from unsafety already present in English. English safety does not transfer reliably: conditioned on safe English completions, mean bypass rates range from 21.9% to 44.4%. Bypass risk concentrates in a subset of language families, a pattern broadly shared across models. The shared ordering is confounded with translation degeneracy, but its variation across models is significant and survives every control we apply. We also show that per-model bypass rates do not identify a stable ranking: nine of ten models change rank across three conditioning schemes that estimate the same quantity, with no change to any underlying response.",
+  "published_at": null,
+  "announced_at": "2026-10-21T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "0ca19c58fff3a2aef06e",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-22/efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3.body",
+  "source_sha256": "efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3",
+  "fetched_at": "2026-10-21T22:05:28.011473+00:00"
+}

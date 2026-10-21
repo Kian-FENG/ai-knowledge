@@ -1,0 +1,18 @@
+{
+  "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
+  "title": "NVIDIA Advances Isaac Platform for General-Purpose Robotics With New Reference Humanoid, Frameworks, Simulation Pipelines and Data",
+  "text": "NVIDIA today announced a major expansion of the NVIDIA Isaac™ open robotics development platform, adding a reference humanoid, datasets and runtime, along with updates to its robot learning framework.",
+  "published_at": "2026-10-21T10:20:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8d3c0a8863993a14a3db",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-22/d35bb067a41dfa4e7005172f7e20c7492a8ffbfc615eebe8edc7f8d19391187d.body",
+  "source_sha256": "d35bb067a41dfa4e7005172f7e20c7492a8ffbfc615eebe8edc7f8d19391187d",
+  "fetched_at": "2026-10-21T22:05:21.726379+00:00"
+}

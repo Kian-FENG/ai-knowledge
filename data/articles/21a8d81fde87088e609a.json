@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.27541",
+  "title": "EviDial: When Correct Depression Predictions Lack Evidence",
+  "text": "arXiv:2610.27541v1 Announce Type: new\nAbstract: Depression dialogue benchmarks commonly assess models by comparing predicted symptom labels with clinical scale scores. However, a prediction may agree with a benchmark label even when the dialogue lacks enough evidence to justify it. We introduce EviDial, a benchmark that distinguishes label agreement from evidence-grounded assessment. EviDial comprises 382 depression dialogues from three sources and 2,744 participant-symptom cells, each classified as having absent, partial, conflicting, or sufficient evidence. Because evidence sufficiency lacks a directly observable gold standard, we derive calibrated evidence references from multiple judgments using generalizability theory, many-facet Rasch measurement, and random-effects latent class analysis. Our audit reveals that 82.8% of participant-symptom cells lack sufficient textual evidence for the corresponding symptom assessment, with substantial variation across sources. Across model families and prompting strategies, 69.2%-96.9% of predictions judged correct by benchmark labels are nonetheless unsupported by sufficient dialogue evidence. Further analyses show that strong agreement among LLM evaluators need not reflect independent evidence judgments, underscoring the need to calibrate automated reference panels. These findings demonstrate that label-based evaluation can overestimate evidence-grounded performance by conflating agreement with clinical labels and support in the observed dialogue. EviDial provides a measurement layer for separating these constructs and auditing LLM-based depression assessment more faithfully.",
+  "published_at": null,
+  "announced_at": "2026-10-21T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "21a8d81fde87088e609a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-22/efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3.body",
+  "source_sha256": "efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3",
+  "fetched_at": "2026-10-21T22:05:28.011473+00:00"
+}

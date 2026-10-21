@@ -4,7 +4,9 @@ Generated; published pages only. Do not hand-edit.
 
 ## company
 
+- `entity` [[reference/entities/arda|Arda]]
 - `entity` [[reference/entities/decart|Decart：优化栈DOS与实时世界模型]]
+- `entity` [[reference/entities/firefly-physical-safety|Firefly]]
 - `entity` [[reference/entities/halluminate|Halluminate：知识工作评测与强化学习环境公司]]
 - `entity` [[reference/entities/healthleap|Healthleap：住院风险识别与临床团队工作流]]
 - `entity` [[reference/entities/humxn|HUMXN：以专业工作流程与家政补贴采集AI训练数据]]

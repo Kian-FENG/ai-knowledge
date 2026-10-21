@@ -1,0 +1,18 @@
+{
+  "url": "https://nvidianews.nvidia.com/news/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms",
+  "title": "NVIDIA, Nokia and Leading Telecom Operators Turn Networks Into Distributed Intelligence Platforms",
+  "text": "NVIDIA today announced that leading global telecom operators are turning their networks into distributed intelligence platforms, adding NVIDIA accelerated computing to centralized data centers, metro sites and cell sites so they can serve models and applications closer to the people, businesses and machines that use them.",
+  "published_at": "2026-10-21T10:11:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9cf669d749c148253ed8",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-22/d35bb067a41dfa4e7005172f7e20c7492a8ffbfc615eebe8edc7f8d19391187d.body",
+  "source_sha256": "d35bb067a41dfa4e7005172f7e20c7492a8ffbfc615eebe8edc7f8d19391187d",
+  "fetched_at": "2026-10-21T22:05:21.726379+00:00"
+}

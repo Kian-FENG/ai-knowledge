@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod/",
+  "title": "Achieve Productive AI Capacity Faster and More Predictably with NVIDIA DSX POD",
+  "text": "AI factories turn energy into intelligence. But before an AI workload can produce its first token, operators must bring an interconnected system of compute,...\nAI factories turn energy into intelligence. But before an AI workload can produce its first token, operators must bring an interconnected system of compute, networking, storage, power, cooling, and software online as one productive unit. In a conventional data center build, teams must first select the site, design power and cooling for the deployment, lay out the data center…\nSource",
+  "published_at": "2026-10-21T09:35:32+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T09:35:35+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3c46a6dfc80ab06c0e8a",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-22/bff9bee659657c6edbac7256ab0fedbe3ebd1645746c54cb4a8f21141943cd5a.body",
+  "source_sha256": "bff9bee659657c6edbac7256ab0fedbe3ebd1645746c54cb4a8f21141943cd5a",
+  "fetched_at": "2026-10-21T22:05:28.459193+00:00"
+}

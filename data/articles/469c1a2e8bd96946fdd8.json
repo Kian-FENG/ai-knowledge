@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/big-tech/article/3371649/washingtons-deepseek-ban-may-deter-us-firms-adopting-chinese-ai-models-experts",
+  "title": "Washington’s DeepSeek ban may deter US firms from adopting Chinese AI models: experts",
+  "text": "The US government’s latest ban on Chinese artificial intelligence start-up DeepSeek could have a chilling effect on the wider American business community and deter companies from adopting low-cost Chinese AI models, industry experts say.\nThe US Department of Homeland Security (DHS) ordered federal civilian agencies to remove DeepSeek products and third-party services built on the Chinese AI model from their IT systems, according to a directive signed in July and published on Monday.\nThe...",
+  "published_at": "2026-10-21T14:00:12+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "469c1a2e8bd96946fdd8",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/ad1f0a203c30ed3f079c2bedf2deb664ecc598b19bb4faf83d09705a2e2d7547.body",
+  "source_sha256": "ad1f0a203c30ed3f079c2bedf2deb664ecc598b19bb4faf83d09705a2e2d7547",
+  "fetched_at": "2026-10-21T22:05:38.748571+00:00"
+}

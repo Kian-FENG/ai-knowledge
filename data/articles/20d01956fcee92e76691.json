@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
+  "title": "Walmart is inviting AI agents to shop for you",
+  "text": "Walmart will soon let AI agents shop on its website for you. Next month, the retail giant will allow you to use an AI agent on the site, with systems in place to let you approve and review purchases and set spending limits.\nThe embrace of AI agents stands in stark contrast to Amazon, which blocked Perplexity's shopping agent and Meta's Muse AI assistant. But Walmart is opening its doors to AI shoppers - as long as they follow the retailer's rules. It has outlined a set of terms for agents, saying that \"agents must not take actions beyond what the shopper intends\" and cannot change a customer's payment method. Agents also can only access inf …\nRead the full story at The Verge.",
+  "published_at": "2026-10-21T15:30:00-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T17:36:21-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "20d01956fcee92e76691",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-22/33140708b3f4d95d3c7ca705cd3c8fddc4044c0a055520d72d3b70580e25d326.body",
+  "source_sha256": "33140708b3f4d95d3c7ca705cd3c8fddc4044c0a055520d72d3b70580e25d326",
+  "fetched_at": "2026-10-21T22:05:37.118184+00:00"
+}

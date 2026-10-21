@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/bank-hackers-got-claude-dirty-work",
+  "title": "How Bank Hackers Got Claude to Do Their Dirty Work",
+  "text": "Soon after Anthropic announced its Mythos model in April and said it was exceptionally good at cybersecurity, security professionals said it was only a matter of time before hackers used similar models to supercharge their own attacks.\nThat time has come, according to an example we reported about today. And it looks like hackers don’t even need a Mythos-class model to automate powerful cyberattacks.",
+  "published_at": "2026-10-21T17:30:53+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T17:40:42+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b5495540cda1b33ecbbd",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9.body",
+  "source_sha256": "e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9",
+  "fetched_at": "2026-10-21T22:05:37.799727+00:00"
+}

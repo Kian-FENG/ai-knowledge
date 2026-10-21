@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4035563698443396?f=rss",
+  "title": "英飞凌与英伟达合作开发氮化镓电源转换系统，支持800伏直流AI数据中心",
+  "text": "10月21日，英飞凌宣布深化与英伟达的合作，推进面向AI数据中心的800伏直流（800 VDC）供电架构，重点开发高压中间总线转换器（IBC）。英飞凌将利用氮化镓（GaN）功率半导体技术，提高电源转换效率和功率密度，降低能量损耗及散热需求。此次合作延续双方自2025年启动的800伏直流供电架构项目，涵盖中间总线转换及电源路径保护等环节，旨在支持更高功率密度的AI数据中心，并提升服务器机架带电插拔维护能力。（界面）",
+  "published_at": "2026-10-21T19:47:40+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c44f4770553f0a80ffa3",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/e2fd0a89548f1c73798c0371ce0d099ea7d28c9ce91399116349114d6e54f244.body",
+  "source_sha256": "e2fd0a89548f1c73798c0371ce0d099ea7d28c9ce91399116349114d6e54f244",
+  "fetched_at": "2026-10-21T22:05:42.990189+00:00"
+}

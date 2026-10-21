@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+21 Oct 2026\n+Makora performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n+20 Oct 2026\n+GMI performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n+PrimaLabs performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)\n-Multiverse Computing performance results now available\n-Qwen3.8 27B (Non-reasoning)",
+  "id": "b4ef656d38fc8228a317",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-22/07c181a779a64c0e93009580e72ab7b5dc5afb5a58f155db9377f8cf028a07d3.body",
+  "source_sha256": "07c181a779a64c0e93009580e72ab7b5dc5afb5a58f155db9377f8cf028a07d3",
+  "fetched_at": "2026-10-21T22:05:30.810740+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-21T22:05:30.810740+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

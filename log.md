@@ -169,3 +169,8 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 新增9来源、2论文、Tenstorrent/Orchestra实体与综合note；拟选11事件。原始归档、对象/URL/hash查重与所列范围阅读完成，待审核发布与默认回查；论文仅摘要，铭芯实体暂缓。
 
 本批14页已review/finalize/default-query/get_page及raw hash回查；204页结构与126来源校验通过，49项离线测试通过。日报11事件，保留日精度边界与采集缺口。待选择性Git提交推送。
+
+
+## 2026-10-21 automation-ai 补10月20日日报
+
+日报11事件；新建9source+2paper+2entity+1note，既有标准知识页更新0。来源归档、对象/URL/hash查重、范围阅读、综合关联、review/finalize、默认query/get_page和raw hash全部完成；公司披露reported、综合derived，未独立复现。218页结构、129来源与49离线测试通过。论文仅摘要、日精度边界与采集缺口及调度早触发已披露；待本次选择性Git提交推送。

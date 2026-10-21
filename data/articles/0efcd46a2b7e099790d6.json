@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.27370",
+  "title": "SHAM-Bench: A Span-level Hallucination Benchmark Across Multiple Tasks",
+  "text": "arXiv:2610.27370v1 Announce Type: new\nAbstract: Span-level hallucination detection pinpoints unsupported content in LLM outputs, enabling actionable feedback and targeted mitigation. Existing evaluations for span-level hallucination detection methods are fragmented across tasks, annotation formats, and metrics, and most span-level datasets cover only a single NLG domain, making it difficult to assess whether a detection method actually generalizes across tasks and domains. In this paper, we introduce SHAM-Bench (Span-level Hallucination Benchmark Across Multiple Tasks), a unified benchmark for span-level hallucination detection spanning six NLG tasks, aggregated from existing human-annotated datasets totaling 6,461 examples under a common schema and evaluation protocol. Using SHAM-Bench, we evaluate existing hallucination detection methods and find that fine-tuned detectors often perform well in-domain but degrade under distribution shift, whereas prompt-based methods with reasoning are more robust across tasks. Our analysis further shows that subtle unsupported content remains difficult to detect and span-level evaluation is still challenged by ambiguous span boundaries and noisy labels. We release the dataset, evaluation code, and a public leaderboard to support future research on broadly generalizable hallucination detection.",
+  "published_at": null,
+  "announced_at": "2026-10-21T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "0efcd46a2b7e099790d6",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-22/efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3.body",
+  "source_sha256": "efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3",
+  "fetched_at": "2026-10-21T22:05:28.011473+00:00"
+}

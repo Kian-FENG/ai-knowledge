@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/pc-components/ssds/4tb-samsung-990-pro-m-2-ssd-falls-27-percent-hits-20-cents-per-gigabyte-our-favorite-high-capacity-pcie-gen-4-drive-is-the-ultimate-storage-for-your-game-library",
+  "title": "4TB Samsung 990 Pro M.2 SSD falls 27%, hits 20 cents per gigabyte",
+  "text": "At one point in time, it was the fastest PCIe Gen 4 drive you could buy. Now, the next generation of PCIe 5.0 drives is available, but the 4TB Samsung 990 Pro still offers extremely fast performance and whopping amounts of capacity in a single-sided M.2 2280 form factor. The main issue at the moment is price. Thanks to the AI boom driving up the prices of memory and storage, SSDs have reached insane highs, so to be able to take advantage of a large 27% discount in these times is nothing to be sniffed at. The 4TB Samsung 990 Pro has fallen from $1,099 to this new price of $799.90, a saving of over $300. This works out as roughly 20 cents per Gigabyte of storage capacity.\n● Grab this SSD deal at Amazon\nHaving reviewed the Samsung 990 Pro 4TB when it was released, we found it to be one of the best 4TB SSDs on the market and among the best SSDs overall. The 990 Pro boasts maximum sequential reads of 7,450 MB/s and sequential writes of 6,900 MB/s, with random reads/writes coming in at 1.6 million and 1.55 million IOPS, respectively, while endurance is rated for 2,400 TBW.\n990 Pro 4TB SSD: was $1099.99 now $799.90\nThe Samsung 990 Pro 4TB is among the fastest Gen 4 SSDs available thanks to read and write speeds of up to 7450/6900 MB/s, almost maxing out the Gen 4 bandwidth. This M.2 NVMe drive comes in the 2280 form factor and holds enough capacity to store a large selection of your favorite games or files.\nRandom reads/writes come in at 1.6 million and 1.55 million IOPS, respectively, while endurance is rated for a respectable 2,400 TBW.View Deal\nSamsung uses 236-layer TLC V-NAND to achieve its 4TB capacity, while also using a single-sided design, making the 990 Pro ideal for use in computers where space is a finite resource. When we tested the Samsung 990 Pro 4TB, we found it scored above the competition on almost every test. On 3DMark's storage test, it had the lowest latency result, a big plus for responsive load times in gaming.\n(Image credit: Tom's Hardware)\nThe Samsung 990 Pro is also excellent at sustaining strong write performance. In our IOMeter sustained sequential write tests, the 4TB 990 Pro was able to maintain a speed of 6.2 GB/s for 75 seconds thanks to its generous 10GB of pSLC cache. Once the data spills over into the TLC, it operates at 1.6 GB/s. The Samsung 990 Pro is also a leader in power efficiency, delivering 421.1 MB/s per watt. That number puts it ahead of all competitors but the Addlink A93 4TB and Lexar NM790 4TB.\n(Image credit: Tom's Hardware)\nThe Samsung 990 Pro is certainly nowhere near the all-time low prices of years gone by, and I'm not sure at the moment when, if at all, we'll ever see those low prices again on storage, certainly not for some considerable time. If you want 4TB of storage now, then the Samsung 990 Pro is a formidable choice; just try to grab it when there's as much of a discount as possible.",
+  "published_at": "2026-10-21T16:07:49+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3d3977bc3e3845884bea",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-22/3678ea4ecc65e29302848cd207b645927e62525c66ad47475c43844178cc7139.body",
+  "source_sha256": "3678ea4ecc65e29302848cd207b645927e62525c66ad47475c43844178cc7139",
+  "fetched_at": "2026-10-21T22:05:40.565609+00:00"
+}

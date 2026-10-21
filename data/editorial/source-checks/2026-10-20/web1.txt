@@ -1,0 +1,460 @@
+ChatGPT release notes | OpenAI Help Center (https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
+citeturn0view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://help.openai.com/en/articles/6825453-chatgpt-release-notes","lineno":null}); Total lines: 2748
+L0: [Input: Search for articles...]
+L1:
+L2:   1. cite0†All Collections L3:   2. cite1†ChatGPT L4:   3. ChatGPT release notes
+L5:
+L6: # ChatGPT release notes
+L7:
+L8: Review the latest updates and release notes for ChatGPT.
+L9:
+L10: Updated: yesterday
+L11:
+L12: # October 20, 2026
+L13: ## Introducing locked chats
+L14: Locked chats let you keep selected conversations in your account while hiding them from regular chat history, pinned chats, and search. Open them with your 4-digit account PIN or supported device authentication. Your retention and model-improvement settings stay unchanged.
+L15: Locked chats are rolling out gradually to Free, Go, Plus, and Pro users on the web, in the iOS and Android apps, and in the cite2†new ChatGPT desktop app for macOS and Windows. To lock a chat, open a chat’s more options menu (•••) and select Lock chat.
+L16: cite3†Learn more about locked chats .
+L17: # October 16, 2026
+L18: ## Create and collaborate on slides in ChatGPT
+L19:
+L20: ChatGPT Slides lets you create presentations and keep working on them with your team in Space. Start from a conversation, files, or an outline, or share an example deck to guide the style and layout.
+L21:
+L22:   * Create and refine. Edit text, images, shapes, and charts directly, or ask ChatGPT to make changes. Generate custom images or add your own.
+L23:
+L24:   * Work together. Invite teammates to edit the same deck in real time and leave shared comments.
+L25:   * Present or export. Present directly from ChatGPT. On the web, export to PowerPoint, PDF, or Google Slides. In the desktop app, open your deck in PowerPoint or Keynote when those apps are installed.
+L26:
+L27: Slides is rolling out to eligible Pro, Business, and Enterprise users with Space access on the web and in the desktop app. To get started, ask ChatGPT in Work to create a presentation in Space.
+--------------------------------------------------------------------------------
+Newsroom \ Anthropic (https://www.anthropic.com/news)
+citeturn0view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.anthropic.com/news","lineno":null}); Total lines: 456
+L0: cite0†Skip to main content L1:
+L2: cite1†News Research Policy Commitments
+L3:
+L4: Company
+L5:
+L6: Try Claude
+L7:
+L8: [Input: Enter search...][Input]
+L9: # News
+L10:
+L11: Latest news
+L12:
+L13: October 21, 2026
+L14:
+L15: cite2†Announcements L16:
+L17: Sep 22, 2026
+L18:
+L19: cite3†Image: Video thumbnail L20:
+L21: cite4†Introducing Claude Opus 5.5 Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads. L22:
+L23: cite2†Announcements L24:
+L25: Oct 18, 2026cite5†Investing in the public benefit We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. L26:
+L27: cite2†Announcements L28: Oct 6, 2026cite6†Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals. L29:
+L30: cite2†Announcements L31:
+L32: Oct 7, 2026cite7†Introducing Claude Haiku 5.5 Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use. L33:
+L34: cite2†Announcements L35: Sep 28, 2026cite8†Introducing Claude Sonnet 5.5 Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work. L36:
+L37: Features
+L38:
+L39:   *   *   *   *   * cite9†Features L40:
+L41: Sep 21, 2026cite10†The Situation Report L42:
+L43: A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.
+L44:
+L45: cite10†Read more L46:
+L47: cite11†Economics L48:
+L49: Sep 9, 2026cite12†Scenarios for our economic future --------------------------------------------------------------------------------
+DeepSeek | Research & News (https://www.deepseek.com/en/news/)
+citeturn0view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.deepseek.com/en/news/","lineno":null}); Total lines: 39
+L0: cite0†DeepSeek Web†chat.deepseek.com cite1†DeepSeek Harness cite2†API Platform†platform.deepseek.com cite3†API Docs†api-docs.deepseek.com cite4†Downloads cite5†Join Us†talent.deepseek.com L1:
+L2: [Button: 中文][Button: EN]
+L3: # Research & News
+L4:
+L5: Dedicated to exploring the essence of AGI — driven by curiosity, answering the biggest questions with the longest-term vision.
+L6:
+L7: cite6†NewsSeptember 10, 2026 Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.Introducing the smallest model in our new architecture family, with native visual understanding. Designed for greater capability, faster inference, and higher throughput. L8: cite7†NewsApril 24, 2026 DeepSeek-V4 Preview: Entering the Era of Affordable Million-Token Context DeepSeek-V4 Preview is officially live & open-sourced.
+L9: Welcome to the era of cost-effective 1M context length. cite8†NewsDecember 1, 2025 DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models DeepSeek-V3.2 and V3.2-Speciale launch with world-leading reasoning, thinking in tool-use, and gold-medal performance in IMO, CMO, ICPC & IOI 2025. cite9†NewsSeptember 29, 2025 Introducing DeepSeek-V3.2-Exp DeepSeek-V3.2-Exp debuts DeepSeek Sparse Attention (DSA) for faster, more efficient training & inference on long context, with API prices cut by 50%+. cite10†NewsSeptember 22, 2025 DeepSeek-V3.1 is now DeepSeek-V3.1-Terminus DeepSeek-V3.1-Terminus improves language consistency, reduces CN/EN mix-ups, and upgrades Code Agent & Search Agent performance. L10: [Button: View All]
+L11: ## Research Index
+--------------------------------------------------------------------------------
+Qwen (https://qwen.ai/blog)
+citeturn0view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://qwen.ai/blog","lineno":null}); Total lines: 0
+L0 is out of bounds--------------------------------------------------------------------------------
+Kimi Research Blog | Moonshot AI (https://www.kimi.com/en/blog/)
+citeturn0view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.kimi.com/en/blog/","lineno":null}); Total lines: 157
+L0:   * Products Products
+L1:
+L2: Products
+L3:
+L4: cite0†Kimi cite1†Kimi Work cite2†Kimi Code cite3†Kimi Browser Extension cite4†Kimi Office Extension cite5†Downloads L5:
+L6: cite6†All products L7:
+L8:   * Business Business
+L9:
+L10: cite7†Kimi Business cite8†Business plans cite9†Contact sales L11:
+L12:   * Research Research
+L13:
+L14: cite10†Kimi K3 cite11†PerceptionBench cite12†Kimi K2.6 cite13†Agent Swarm cite14†WorldVQA cite15†Kimi K2.5 cite16†Kimi Vendor Verifier cite17†Kimi K2 Thinking cite18†Kimi K2 L15:
+L16: cite19†All research L17:
+L18: cite20†Download†appsupport.moonshot.cn L19:
+L20: cite20†Download†appsupport.moonshot.cn cite21†Try Kimi L21: # Research
+L22:
+L23: Our research seeks the optimal conversion from energy into intelligence.
+L24:
+L25: cite22†Image: Kimi K3†kimi-file.kimi.ai L26:
+L27: #### Kimi K3
+L28:
+L29: 2026-07-16
+L30:
+L31: cite23†Image: PerceptionBench†kimi-file.kimi.ai L32:
+L33: #### PerceptionBench
+L34:
+L35: 2026-07-16
+L36:
+L37: cite24†Image: Kimi K2.6†kimi-file.kimi.ai L38:
+L39: #### Kimi K2.6
+L40:
+L41: 2026-04-20
+L42:
+L43: cite25†Image: Agent Swarm†kimi-file.kimi.ai L44:
+L45: #### Agent Swarm
+L46:
+L47: 2026-02-09
+L48:
+L49: cite26†Image: WorldVQA†kimi-file.kimi.ai L50:
+L51: #### WorldVQA
+L52:
+L53: 2026-02-03
+L54:
+L55: cite27†Image: Kimi K2.5†kimi-file.kimi.ai L56: #### Kimi K2.5
+L57:
+L58: 2026-01-27
+L59:
+L60: cite28†Image: Kimi Vendor Verifier†kimi-file.kimi.ai L61:
+L62: #### Kimi Vendor Verifier
+L63:
+L64: 2026-01-22
+L65:
+L66: cite29†Image: Kimi K2 Thinking†kimi-file.kimi.ai L67:
+L68: #### Kimi K2 Thinking
+L69:
+L70: 2025-11-06
+L71:
+L72: cite30†Image: Kimi-K2-Instruct-0905†kimi-file.kimi.ai L73:
+L74: #### Kimi-K2-Instruct-0905
+L75:
+L76: 2025-09-05
+L77:
+L78: cite31†Image: Kimi K2†kimi-file.kimi.ai L79:
+L80: #### Kimi K2
+L81:
+L82: 2025-07-11
+L83:
+L84: cite32†Image: Kimi-Researcher†kimi-file.kimi.ai L85:
+L86: #### Kimi-Researcher
+L87:
+L88: 2025-06-20
+L89:
+L90: cite33†Image: Kimi-Dev†kimi-file.kimi.ai L91: #### Kimi-Dev
+L92:
+L93: 2025-06-17
+L94:
+L95: cite34†Image: Kimi-Audio†kimi-file.kimi.ai L96:
+L97: #### Kimi-Audio
+L98:
+L99: 2025-04-26
+L100:
+L101: cite35†Image: Kimina-Prover Preview†kimi-file.kimi.ai L102:
+L103: #### Kimina-Prover Preview
+L104:
+L105: 2025-04-15
+L106:
+L107: cite36†Image: Kimi-VL†kimi-file.kimi.ai L108:
+L109: #### Kimi-VL
+L110:
+L111: 2025-04-10
+L112:
+L113: cite37†Image: Muon is Scalable for LLM Training†kimi-file.kimi.ai L114:
+L115: #### Muon is Scalable for LLM Training
+L116:
+L117: 2025-02-23
+L118:
+L119: cite38†Image: MoBA: Mixture of Block Attention for Long-Context LLMs†kimi-file.kimi.ai --------------------------------------------------------------------------------
+Alibaba Cloud Press Room | Official Press Releases & Media Reports (https://www.alibabacloud.com/en/press-room)
+citeturn0view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.alibabacloud.com/en/press-room","lineno":null}); Redirected to URL: https://www.alibabacloud.com/en/press-room?_p_lc=1; Total lines: 155
+L0: [Button: Models][Button: Overview]cite0†Products [Button: Solutions][Button: Pricing][Button: Resources][Button: Partners][Button: Support]
+L1:
+L2: [Button: See all results for ""]
+L3:
+L4: cite1†AI Assistant ENcite2†Contact Us cite3†Docs cite4†Console†home.console.alibabacloud.com L5:
+L6:   * cite5†About Alibaba Cloud L7:   * cite6†Press L8:
+L9: BROWSE BY: [Select] [Select]
+L10:
+L11: ###
+L12:
+L13: ###
+L14:
+L15: ###
+L16:
+L17: ###
+L18:
+L19: ###
+L20:
+L21: ###
+L22:
+L23: ###
+L24:
+L25: ###
+L26:
+L27: ###
+L28:
+L29: ###
+L30:
+L31: ###
+L32:
+L33: ###
+L34:
+L35: ###
+L36:
+L37: ###
+L38:
+L39: ###
+L40:
+L41: ###
+L42:
+L43: ###
+L44:
+L45: ###
+L46:
+L47:   * BROWSE BY: [Select] [Select]
+L48:
+L49: ###
+L50: ###
+L51:
+L52:   * ### A Free Trial That Lets You Build Big!
+L53:
+L54: Start building with 80+ products and up to 12 months usage for Elastic Compute Service
+L55:
+L56: cite7†Get Started for Free cite8†Get Started for Free L57:
+L58: Why Alibaba Cloud
+L59:
+L60: cite9†About Alibaba Cloud L61:
+L62: cite10†Asia Accelerator L63:
+L64: cite11†Our Global Network L65:
+L66: cite12†Global Offices L67:
+L68: cite13†Trust Center L69:
+L70: cite14†Case Studies L71:
+L72: cite15†Analyst Reports L73:
+L74: Products & Pricings
+L75:
+L76: cite16†Pricing Calculator L77:
+L78: cite17†ECS L79:
+L80: cite18†SAS L81:
+L82: cite19†Model Studio L83:
+L84: cite20†Database L85:
+L86: cite21†Security L87:
+L88: cite22†SMS L89:
+L90: Solutions
+L91: cite23†Financial Services L92:
+L93: cite24†Retail L94:
+L95: cite25†Media L96:
+L97: cite26†Gaming L98:
+L99: cite27†ISV Solutions L100:
+L101: Engage
+L102:
+L103: cite28†Developer Community L104:
+L105: cite29†Partner Network L106:
+L107: cite30†Startups L108:
+L109: cite31†Marketplace†marketplace.alibabacloud.com L110:
+L111: cite32†Join Alibaba Cloud†careers.alibabacloud.com L112:
+L113: Resources & Support
+L114:
+L115: cite3†Documentation Center L116:
+L117: cite33†Training & Certification†edu.alibabacloud.com L118:
+L119: cite34†Service Notices L120:
+L121: cite35†Health Dashboard†status.alibabacloud.com L122:
+L123: cite36†Submit a Ticket†smartservice.console.alibabacloud.com L124: cite37†Security Report†report.alibabacloud.com L125:
+L126: cite38†QwenCloud†www.qwencloud.com L127:
+L128: cite32†Careers†careers.alibabacloud.com cite9†About Us cite39†Privacy Policy cite40†Legal cite41†Integrity Compliance Reporting Channel†aliyun.jubao.alibaba.com cite34†Service Notices cite42†Links L129:
+L130: © 2009- Copyright by Alibaba Cloud All rights reserved
+L131:
+L132:   *   *   *   *   *   *   *   * © 2009- Copyright by Alibaba Cloud All rights reserved
+--------------------------------------------------------------------------------
+MiniMax AI | AGI Research, Product Updates & Partner News | MiniMax (https://www.minimax.io/news)
+citeturn0view6 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.minimax.io/news","lineno":null}); Total lines: 62
+L0: Models
+L1:
+L2: cite0†Image: LLM LLM
+L3:
+L4: cite1†MiniMax M3.1 Flash cite2†MiniMax M3 L5:
+L6: cite3†Image: VIDEO VIDEO
+L7:
+L8: cite4†MiniMax H3 L9:
+L10: cite5†Image: SPEECH & MUSIC SPEECH & MUSIC
+L11:
+L12: cite6†MiniMax Speech 2.8 cite7†MiniMax Music 3.0 L13:
+L14: Product
+L15:
+L16: cite8†MiniMax Code†agent.minimax.io cite9†MiniMax Design†design.minimax.io cite10†Audio cite11†Talkie†www.talkie-ai.com L17:
+L18: API
+L19:
+L20: Plan
+L21:
+L22: Research
+L23:
+L24: Company
+L25:
+L26: cite12†Image: Intelligence with everyone Intelligence with everyone
+L27:
+L28: cite13†About cite14†News cite15†Investor Relations†ir.minimax.io L29:
+L30: cite16†Contact Us†platform.minimax.io L31:
+L32: [Input]
+L33: Models
+L34:
+L35: cite0†Image: LLM LLM
+L36:
+L37: cite1†MiniMax M3.1 FlashNEW cite2†MiniMax M3NEW L38:
+L39: cite3†Image: VIDEO VIDEO
+L40:
+L41: cite4†MiniMax H3NEW L42:
+L43: cite5†Image: SPEECH & MUSIC SPEECH & MUSIC
+L44:
+L45: cite6†MiniMax Speech 2.8NEW cite7†MiniMax Music 3.0NEW L46:
+L47: Product
+L48:
+L49: cite8†MiniMax CodeNEW†agent.minimax.io cite9†MiniMax Design†design.minimax.io cite10†Audio cite11†Talkie†www.talkie-ai.com L50:
+L51: API
+L52:
+L53: Plan
+L54:
+L55: Research
+L56:
+L57: Company
+L58:
+L59: cite12†Image: Intelligence with everyone Intelligence with everyone
+L60:
+L61: cite13†About cite14†News cite15†Investor Relations†ir.minimax.io --------------------------------------------------------------------------------
+Seed Research (https://seed.bytedance.com/en/research)
+citeturn0view7 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://seed.bytedance.com/en/research","lineno":null}); Total lines: 86
+L0: cite0†Home cite1†Models cite2†Blog & Publication cite3†Seed Edge cite4†Join Us L1:
+L2: Try now
+L3:
+L4: [Button: 中文]
+L5:
+L6: cite0†Home cite1†Models cite2†Blog & Publication cite3†Seed Edge cite4†Join Us L7:
+L8: Try now
+L9:
+L10: cite5†Try Dola†www.dola.com cite6†Try in Playground†ai.byteplus.com L11: ## Blog
+L12:
+L13: cite7†Foundation models cite8†Visual cite9†Audio cite10†AI Infra cite11†Frontier research L14:
+L15: cite12†SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction As a native audio-visual full-duplex LLM, SeedRealtime can jointly understand audio, visual, and temporal information, accurately identify the interaction target and user intent, delivering a brand-new "watch, listen, and speak" experience.Learn more L16: cite13†One-take Creation, Flexible Referencing: Introducing Seedance 2.5 30-second long-form storytelling with fully upgraded multimodal referencing and editing capabilities.Jul 31, 2026 cite14†From Speech to Audio Creation | Introducing the Seed Audio 1.0 Audio Creation Model A unified framework for joint modeling of voice, sound effects, ambient sound, and other audio elements.Jul 20, 2026 cite15†Beyond Generation, It Understands Design | Introducing Seedream 5.0 Pro A multimodal image generation model that features advanced reasoning and efficient content creation.Jul 8, 2026 cite16†EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law Agents exhibit a clear log-sigmoid pattern in environment learning.Jul 7, 2026 L17: ## Publications
+L18: cite17†Sep 28, 2026Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression cite18†Jul 6, 2026EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments cite19†Jun 30, 2026Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity cite20†May 29, 2026Task-Focused Memorization for Multimodal Agents cite21†May 16, 2026Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference cite22†Apr 26, 2026MegaScale-Omni: A Hyper-Scale, Workload-Resilient System for MultiModal LLM Training in Production cite23†Apr 22, 2026Seed3D 2.0: Advancing High-Fidelity Simulation-Ready 3D Content Generation cite24†Apr 15, 2026Seedance 2.0: Advancing Video Generation for World Complexity cite25†Apr 11, 2026Protenix-v2: Broadening the Reach of Structure Prediction and Biomolecular Design cite26†Jan 27, 2026Post-LayerNorm Is Back: Stable, ExpressivE, and Deep --------------------------------------------------------------------------------
+News: Research, Product & Company Updates | SpaceXSI (https://x.ai/news)
+citeturn0view8 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://x.ai/news","lineno":null}); Total lines: 83
+L0: cite0†iframe†www.googletagmanager.com L1:
+L2: cite1†Try for free†grok.com L3:
+L4: Products
+L5:
+L6: cite1†Grok†grok.com cite2†Business cite3†Government L7:
+L8: Download
+L9:
+L10: cite4†iOS†apps.apple.com cite5†Android†play.google.com cite6†Grok on X†x.com cite7†Grok Bot L11:
+L12: Developers
+L13:
+L14: cite8†API Console†console.x.ai cite9†Documentation†docs.x.ai cite10†Grok Build L15:
+L16: cite1†Try for free†grok.com L17:
+L18: cite11†Oct 14, 2026 Introducing Grok Voice 3.0 The world’s most intelligent voice model.Read More L19: cite12†Product·Oct 20, 2026 Using Grok Bot to detect and respond to incidents cite13†Product·Oct 12, 2026 Introducing The X Subscription cite14†Product·Sep 28, 2026 Team Bots: shared AI teammates that learn as they work cite15†Product·Sep 22, 2026 How SpaceXSI is using Grok Bot to scale customer support L20: ## All posts
+L21: cite16†Introducing Grok 4.7 SpaceXSI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models.Sep 21, 2026 cite17†Introducing Grok Voice Transcribe 2.0 Announcing SpaceXSI's newest speech-to-text model, with unparalleled accuracy and cost effectiveness.Sep 18, 2026 cite18†Memory in Grok Build Grok Build now carries conventions, decisions, and project facts from one session to the next.
+L22: Notes are written in the background as you work and read back when you return to the project.Sep 16, 2026 cite19†Setting Grok Bot loose on procurement We gave Grok Bot access to vendor spend, contracts, and usage data.
+L23: It found more than $100,000 in direct savings.Sep 4, 2026 cite20†Designing Grok Bot for a world of persistent agents How we designed Grok Bot for agents that persist beyond a single session — from a chat history to a Bot roster, presence, a computer of the Bot’s own, and work that starts without a prompt.Sep 3, 2026 【21†Grok Bot for Enterprise Grok Bot is now available for enterprises.
+--------------------------------------------------------------------------------
+Latest News - Taiwan Semiconductor Manufacturing Company Limited (https://pr.tsmc.com/english/latest-news)
+citeturn0view9 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://pr.tsmc.com/english/latest-news","lineno":null}); Total lines: 323
+L0:   * cite0†Dedicated IC Foundry†www.tsmc.com L1:
+L2: cite0†Dedicated IC Foundry†www.tsmc.com L3:     * cite1†Overview†www.tsmc.com L4:     * Technology
+L5:       * cite1†Overview†www.tsmc.com L6:       * cite2†Logic Technology†www.tsmc.com L7:       * cite3†Specialty Technology†www.tsmc.com L8:       * cite4†TSMC 3DFabric®†3dfabric.tsmc.com L9:       * cite5†Technology Platforms†www.tsmc.com L10:       * cite6†Future R&D Plans†www.tsmc.com L11:     * Manufacturing
+L12:       * cite7†Overview†www.tsmc.com L13:       * cite8†Fab Locations†www.tsmc.com L14:       * cite9†Fab Capacity†www.tsmc.com L15:       * cite10†GIGAFAB® Facilities†www.tsmc.com L16:       * cite11†Engineering Performance Optimization†www.tsmc.com L17:       * cite12†Agile and Intelligent Operations†www.tsmc.com L18:     * Open Innovation Platform®
+L19:       * cite13†Overview†www.tsmc.com L20:       * cite14†IP Alliance†www.tsmc.com L21:       * cite15†EDA Alliance†www.tsmc.com L22:       * cite16†Design Center Alliance†www.tsmc.com L23:       * cite17†Cloud Alliance†www.tsmc.com L24:       * cite18†Value Chain Alliance†www.tsmc.com L25:       * cite19†TSMC 3DFabric® Alliance†www.tsmc.com L26:     * Services
+L27:       * cite20†Overview†www.tsmc.com L28:       * cite21†Advanced Packaging†www.tsmc.com L29:       * cite22†Mask Services†www.tsmc.com L30:       * cite23†eFoundry®†www.tsmc.com L31:       * cite24†CyberShuttle®†www.tsmc.com L32:       * cite25†University FinFET Program†www.tsmc.com L33:     * Grand Alliance
+L34:       * cite26†Overview†www.tsmc.com L35:       * cite27†Innovate with TSMC!†www.tsmc.com L36:   * cite28†Investors†investor.tsmc.com L37:
+L38: cite28†Investors†investor.tsmc.com L39:     * cite28†Overview†investor.tsmc.com L40:     * Financials
+L41:       * cite29†Fundamentals†investor.tsmc.com L42:       * cite30†Quarterly Results†investor.tsmc.com L43:       * cite31†Annual Reports†investor.tsmc.com L44:       * cite32†Monthly Revenue†investor.tsmc.com L45:       * cite33†Historical Information†investor.tsmc.com L46:       * cite34†SEC Filings†investor.tsmc.com L47:       * cite35†Financial Reports†investor.tsmc.com L48:       * cite36†Financial Calendar†investor.tsmc.com L49:       * cite37†Credit Rating†investor.tsmc.com L50:     * Corporate Governance
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn0view10 [wordlim: 200] Source: open({"ref_id":"https://www.asml.com/en/news/press-releases","lineno":null}); Total lines: 1
+L0: Failed to fetch https://www.asml.com/en/news/press-releases: (401) Unauthorized
+--------------------------------------------------------------------------------
+Press Announcements and News Releases | Qualcomm (https://www.qualcomm.com/news/releases)
+citeturn0view11 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.qualcomm.com/news/releases","lineno":null}); Total lines: 309
+L0: cite0†Enable accessibility L1:
+L2: You need to enable JavaScript to run this app.
+L3:
+L4: Products
+L5:
+L6: Applications
+L7:
+L8: Developer
+L9:
+L10: Support
+L11:
+L12: Company
+L13:
+L14: cite1†Newsroom L15:
+L16: cite1†Newsroom L17:
+L18: Latest News
+L19:
+L20: [Input: Search All News & Media]
+L21:
+L22: 3932 results
+L23:
+L24: Press Note
+L25:
+L26: cite2†Qualcomm to Unite Regional V2X Standards Under Global V2X Solution L27:
+L28: Oct 20, 2026
+L29:
+L30: cite3†Auto L31:
+L32: Press Note
+L33:
+L34: cite4†Qualcomm Announces Long-Term Patent Cross-License Agreement with Transsion L35:
+L36: Oct 16, 2026
+L37:
+L38: cite5†Licensing L39:
+L40: Press Release
+L41:
+L42: cite6†Qualcomm Statement on Trial Verdict Win L43: Oct 13, 2026
+L44:
+L45: cite7†Company L46:
+L47: Press Note
+L48:
+L49: cite8†Qualcomm Launches 2027 Innovation Fellowship Program for North America L50:
+L51: Oct 12, 2026
+L52:
+L53: Press Note
+L54:
+L55: cite9†gFiber, Qualcomm, and Gemtek Unveil an AI-Native Wi-Fi 8 Broadband Gateway at Network X 2026 L56:
+L57: Oct 12, 2026
+L58:
+L59: cite10†Dragonwing cite11†AI cite12†Wi-Fi L60:
+L61: Press Note
+L62:
+L63: cite13†Qualcomm Unveils AI-Native Broadband Innovations Across Fiber, Wi-Fi 8, Fixed Wireless, and Network Infrastructure and Security at Network X 2026 L64:
+L65: Oct 12, 2026
+L66:
+L67: cite10†Dragonwing cite11†AI cite14†Broadband L68: Press Note
+L69:
+L70: cite15†Huawei and Qualcomm Announce Broad Patent License Agreement L71:
+L72: Oct 5, 2026
+L73:
+L74: cite5†Licensing L75:
+L76: Press Release
+L77:
+L78: cite16†Qualcomm Announces Renewal of Global Patent License Agreement with Apple L79:
+L80: Sep 24, 2026
+L81:
+L82: cite5†Licensing L83:
+L84: Press Note
+L85:
+L86: cite17†Snapdragon Sound Elite Gen 2 Advances Intelligent Audio Wearables for the Agentic Age L87:
+L88: Sep 23, 2026
+L89:
+L90: cite18†Snapdragon Summit cite19†Snapdragon Sound cite11†AI L91:
+L92: Press Note
+L93:
+L94: cite20†Qualcomm to Acquire PickNik to Advance the Future of Open Robotics and Physical AI

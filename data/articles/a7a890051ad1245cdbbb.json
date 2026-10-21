@@ -1,0 +1,19 @@
+{
+  "url": "https://developers.openai.com/api/docs/changelog",
+  "title": "OpenAI API Changelog：页面内容变化",
+  "summary": "+Oct 21\n+Feature\n+You can now choose which service tiers projects can use in Platform settings. Organization settings can restrict service tiers for all projects. See service tier errors.",
+  "id": "a7a890051ad1245cdbbb",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "openai-api-changelog",
+  "source_name": "OpenAI API Changelog",
+  "section": 0,
+  "raw_path": "raw/2026-10-22/e6c36b00a47c56fbe7ebabc514d98503365a7a207e73e4da335ae0febf3c8e96.body",
+  "source_sha256": "e6c36b00a47c56fbe7ebabc514d98503365a7a207e73e4da335ae0febf3c8e96",
+  "fetched_at": "2026-10-21T22:05:15.764951+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-21T22:05:15.764951+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

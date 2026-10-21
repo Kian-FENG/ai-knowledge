@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.27237",
+  "title": "CEFR-oriented Russian Text Simplification Using Reinforcement Learning",
+  "text": "arXiv:2610.27237v1 Announce Type: new\nAbstract: We present a study on controlled automatic simplification of Russian texts using preference-based optimization algorithms with a focus on adapting texts to the A1, A2 and B1 proficiency levels. We fine-tune YandexGPT using Rejection Sampling and Direct Preference Optimization (DPO) methods to improve control over the complexity of the generated text. We compare several training configurations that differ in dataset composition, text type and the strategy used to construct preference pairs for DPO. For automatic evaluation we train a regression model based on ruRoBERTa-large to predict continuous complexity scores corresponding to CEFR levels. We also consider semantic similarity, lexical coverage and quantitative readability metrics. Human evaluation assesses simplicity, fluency and adequacy. Our best model achieves 87.15\\% target level accuracy, an MAE of 0.35 CEFR levels and a target interval MAE of 0.11. Manual assessment shows that 75% of the evaluated simplifications match the target morphological and syntactic level, and fluency and adequacy scores are especially high for A2 and B1. Although A1 remains the most challenging level, the model significantly reduces the proportion of vocabulary and grammatical constructions beyond the target level while generally preserving meaning. Our model is freely available on $\\href{https://huggingface.co/kmustakova/RuSimplifier_DPO}{HuggingFace}$.",
+  "published_at": null,
+  "announced_at": "2026-10-21T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "10e0abd3d001d3a12526",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-22/efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3.body",
+  "source_sha256": "efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3",
+  "fetched_at": "2026-10-21T22:05:28.011473+00:00"
+}

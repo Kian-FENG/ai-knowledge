@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/nvidia-moves-back-gpu-cloud-provider-firmus-investors-balk-ipo",
+  "title": "Nvidia Moves to Back GPU Cloud Provider Firmus After Investors Balk at Its IPO",
+  "text": "Nvidia is in talks to invest hundreds of millions of dollars in Australian AI cloud provider Firmus, which abruptly pulled its initial public offering early this month, according to people familiar with the talks.\nThe discussion indicates that Nvidia is likely to continue backing a group of unproven firms known as neoclouds that is facing financial pressure after they stacked up on debt to purchase Nvidia graphics processing units for data centers. Nvidia has already put more than $170 billion on the line for such firms and other large customers, including credit guarantees to help them raise the debt, according to The Information’s analysis.",
+  "published_at": "2026-10-20T23:40:17+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T00:10:45+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b3d1ad6b3a9203fe553b",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9.body",
+  "source_sha256": "e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9",
+  "fetched_at": "2026-10-21T22:05:37.799727+00:00"
+}

@@ -266,3 +266,23 @@
 - research/synthesis/agent-cost-beyond-token-price-20261019.md：已归档/查重/限定阅读/综合关联，待review/finalize/query/get_page。
 
 本批14页已review/finalize/default-query/get_page及raw hash回查；204页结构与126来源校验通过，49项离线测试通过。日报11事件，保留日精度边界与采集缺口。待选择性Git提交推送。
+
+
+## automation-ai-2026-10-20
+
+- reference/sources/chatgpt-locked-chats-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/sources/grok-incident-operations-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/sources/arda-launch-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/sources/firefly-series-a-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/sources/deepinfer-open-code-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/sources/sglang-omni-interaction-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/sources/torchtpu-open-source-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/sources/llmd-10-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/papers/kvcompass-261024179.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/papers/koi-261024355.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/sources/rtx5500-orders-reported-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/entities/arda.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- reference/entities/firefly-physical-safety.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+- research/synthesis/agent-serving-state-and-portability-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
+
+14新增、0既有标准知识页更新；旧发布去重。待核：Anthropic草稿/原始S-1、ASI/Pigment、睿质身份/旧融资、工信部原始统计口径、政策/WorkBuddy/NVHBM；论文全文与性能配置未审。详情见本期编辑、证据包及报告覆盖。

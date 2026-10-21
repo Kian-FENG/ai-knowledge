@@ -1,0 +1,26 @@
+{
+  "period": "daily",
+  "date": "2026-10-20",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-20",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-19T18:00:00-07:00",
+    "end": "2026-10-20T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "fa33d7bbf3a91a6c0911b4a26a2cdee88fc95fd89a8f99b7001d6dfb549bac60",
+  "editorial_sha256": "8aba723bda0151f3be5b3296a809b5eec68fa2a8cb597b0f6ea2d53a151b5d86",
+  "report_path": "reports/daily/2026/10/2026-10-20/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-20/fa33d7bbf3a91a6c0911b4a26a2cdee88fc95fd89a8f99b7001d6dfb549bac60.json",
+  "events": 11,
+  "generated_at": "2026-10-21T22:13:38.726200+00:00",
+  "timezone": "America/Los_Angeles",
+  "report_sha256": "749739308d993797580b9b878c2f413a3867828ac2fc30db63d2d0696aee2d6b",
+  "manual_review": {
+    "reviewed_at": "2026-10-21T22:15:10.688783+00:00",
+    "note": "核对六栏、事实/判断、阅读范围、日精度显示、生成时间、触发偏差、原文与Git基线；生成原版保存在revisions/manual-format。",
+    "knowledge_pages": 14,
+    "default_query_get_page_raw_hash": "passed"
+  }
+}

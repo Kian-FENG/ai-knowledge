@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/pc-components/cpus/amd-and-intel-will-work-together-to-create-a-single-pytorch-code-path-for-ai-inference-on-cpus-amd-zendnn-library-gets-folded-into-intel-onednn-to-make-cpu-ai-simpler",
+  "title": "AMD and Intel will work together to create a single PyTorch code path for AI inference on CPUs",
+  "text": "Intel and AMD are integrating their CPU optimizations for PyTorch into a unified library, offering tuning for both AMD and Intel chips through the oneDNN library. AMD has maintained a downstream version of oneDNN called ZenDNN, which is now moving into the open-source oneDNN, published by the UXL Foundation and driven by Intel. AMD also announced it's joining the UXL Foundation as a \"steering member,\" which \"influences the future of the UXL Foundation\" in exchange for a contribution of $20,000 per year.\nGo deeper with TH Premium: AI and data centers\n(Image credit: Microsoft)\nThe data center cooling state of play\nThe custom AI ASIC state of play\nAmerica’s AI chip rules keep changing — and the rest of the world is paying the price\nGTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year\nDemand for data center CPUs has surged, and AI agents are responsible\nAMD says the move to unify these efforts under oneDNN was recommended by the x86 Ecosystem Advisory Group (EAG), which is a joint initiative that primarily exists between Intel and AMD and was established in 2024. The two companies have collaborated through the EAG previously, such as with the ACE extensions for x86 that we learned about earlier this year.\nThe oneDNN backend is used for CPU inference, and it's built to accelerate that workload for the latest Intel (and now AMD) chips in frameworks like PyTorch. When oneDNN was added to PyTorch as a backend in late 2023, it showed a 1.24x improvement with the Float32 data type, and 2.21x for the BFloat16 data type.\nFrom the oneDNN GitHub, the library \"detects hardware features at runtime\" to generate optimized kernels for the platform, as well as provides low-precision data types. It also features optimized instructions for common AI and machine learning operations, such as matrix multiplication and convolution.\nFor developers, the move simplifies working with PyTorch across different systems, ensuring a single backend provides the proper optimizations for whatever hardware you're running. Although the news here is focused on the x86 guard, oneDNN is a cross-platform library that works on Arm and RISC-V architectures as well.\nIntel originally developed oneDNN, built on top of previously deep learning libraries, before it was folded into the UXL Foundation. Intel was among the founding members of the UXL Foundation, alongside Arm, Qualcomm, Google Cloud, and others.",
+  "published_at": "2026-10-21T12:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "575a222c37eff56c0189",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-22/3678ea4ecc65e29302848cd207b645927e62525c66ad47475c43844178cc7139.body",
+  "source_sha256": "3678ea4ecc65e29302848cd207b645927e62525c66ad47475c43844178cc7139",
+  "fetched_at": "2026-10-21T22:05:40.565609+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159439.htm",
+  "title": "五年了还在修！微软承认Win11界面太乱：将动用AI整改缝合UI",
+  "text": "快科技10月21日消息，微软产品设计副总裁迭戈・巴卡（Diego Baca）近日在X平台回复博主Chris Pirillo提问时，正面回应了关于Windows 11长期存在界面风格不统一的问题。\n他同时透露，微软正在借助AI加快修复这些遗留的视觉设计缺陷。\n在回应中，Baca公开承认了Windows用户多年来持续抱怨的设计一致性问题。并表示\"Windows跨模块的一致性是大家共同的期望，这目前是一项正在持续推进加速的工作流\"。\n这一表述间接承认了Windows 11自发布以来在不同功能模块、设置界面与控件样式上长期存在的视觉与交互不统一现象，并明确将其列为团队当前的工作重心之一。\n从行业观察视角看，Windows 11自2021年发布至今已历时五年，但系统内部仍存在明显的视觉断层，部分设置面板与对话框仍保留较早时代的UI风格，与新版Fluent Design体系存在明显脱节。\n还有部分界面甚至被Windows Latest等媒体指出仍残留Windows 7及更早时代的视觉痕迹。这种新旧UI并存的现象，既是微软长期在系统向后兼容性上的取舍结果，也是设计一致性问题难以根治的根源所在。\n目前Baca并未透露AI在Windows 11一致性改造中的具体落地时间表与改造范围，亦未明确\"代理舰队\"是否会以自动化形式参与系统级UI重构。\n但从其表述的整体方向看，AI在微软内部Windows设计流程中的角色正从辅助工具向更深度的参与环节演进，这一趋势的最终效果仍需观察后续Windows 11功能更新中所呈现的实际改造幅度。",
+  "published_at": "2026-10-21T18:51:34+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e310fb5d7af04d86ae21",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1.body",
+  "source_sha256": "8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1",
+  "fetched_at": "2026-10-21T22:05:47.277608+00:00"
+}

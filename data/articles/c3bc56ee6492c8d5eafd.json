@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4035583366681737?f=rss",
+  "title": "PerturbAI与OpenAI合作开发AI推理智能体，加速生物医学研究",
+  "text": "10月21日，生物技术公司PerturbAI宣布与OpenAI及斯克里普斯研究所合作开发AI推理框架，利用数千个智能体并行分析生物实验数据、检索科学文献并提出可验证的研究假设。合作将进一步合作探索新药物靶点。（界面）",
+  "published_at": "2026-10-21T20:07:41+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c3bc56ee6492c8d5eafd",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/e2fd0a89548f1c73798c0371ce0d099ea7d28c9ce91399116349114d6e54f244.body",
+  "source_sha256": "e2fd0a89548f1c73798c0371ce0d099ea7d28c9ce91399116349114d6e54f244",
+  "fetched_at": "2026-10-21T22:05:42.990189+00:00"
+}

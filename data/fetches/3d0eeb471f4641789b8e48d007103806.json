@@ -1,0 +1,23 @@
+{
+  "raw_path": "raw/2026-10-22/15b8cdf420fb18eff27fd79a48b1b57e00d6c4c05e46e958fbbd2ae298033605.body",
+  "sha256": "15b8cdf420fb18eff27fd79a48b1b57e00d6c4c05e46e958fbbd2ae298033605",
+  "source_url": "https://uk.marketscreener.com/news/bytedance-alibaba-tencent-place-over-35-billion-worth-of-nvidia-chip-orders-ce785cdbd08ff024",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-21T22:07:26.579280+00:00",
+  "source_id": "cna-reuters",
+  "status": 403,
+  "headers": {
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "520",
+    "Expires": "Wed, 21 Oct 2026 22:07:28 GMT",
+    "Date": "Wed, 21 Oct 2026 22:07:28 GMT",
+    "Connection": "close",
+    "Server-Timing": "ak_p; desc=\"1792620447547_400414155_10604285_19_9520_64_297_-\";dur=1",
+    "Strict-Transport-Security": "max-age=15768000 ; includeSubDomains ; preload",
+    "Akamai-Cache-Status": "NotCacheable from child",
+    "Akamai-GRN": "0.cbd5dd17.1792620448.a1cefd"
+  },
+  "final_url": "https://uk.marketscreener.com/news/bytedance-alibaba-tencent-place-over-35-billion-worth-of-nvidia-chip-orders-ce785cdbd08ff024",
+  "truncated": false
+}

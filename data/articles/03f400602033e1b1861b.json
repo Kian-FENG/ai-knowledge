@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/big-tech/article/3371592/deepseek-open-sources-new-tool-slash-ai-costs-fight-against-closed-source-rivals",
+  "title": "DeepSeek seeks ‘total victory’ over closed-source AI with new open-source tool",
+  "text": "Chinese artificial intelligence start-up DeepSeek has fully open-sourced an internally developed framework designed to run AI models efficiently, as a senior researcher at the company described the growing divide between open-source and closed-source AI as a battle between “light and darkness”.\nThe company on Tuesday released DeepInfer, an inference framework tailored to support its DeepSeek-V4.1-Flash model on both Nvidia’s SM100 Blackwell graphics processing units (GPUs) and Huawei...",
+  "published_at": "2026-10-21T05:03:27+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "03f400602033e1b1861b",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/ad1f0a203c30ed3f079c2bedf2deb664ecc598b19bb4faf83d09705a2e2d7547.body",
+  "source_sha256": "ad1f0a203c30ed3f079c2bedf2deb664ecc598b19bb4faf83d09705a2e2d7547",
+  "fetched_at": "2026-10-21T22:05:38.748571+00:00"
+}

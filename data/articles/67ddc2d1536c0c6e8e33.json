@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/tech-industry/jensen-huang-nvidia-gtc-keynote-disrupted-by-greenpeace-protest-over-chips-in-russian-drones-what-are-you-doing-about-that-heckler-demands-before-being-thrown-out",
+  "title": "Jensen Huang Nvidia GTC keynote disrupted by Greenpeace protest over chips in Russian drones",
+  "text": "Protesters disrupted Jensen Huang's Nvidia GTC keynote in Berlin on Wednesday morning. Just minutes into the CEO's customary address, the broadcast was interrupted by a heckler from the crowd demanding the CEO answer claims that the company's chips were found inside Russian drones, and charges of environmental destruction more broadly. While the incident wasn't fully picked up by Nvidia's livestream, footage filmed by attendees shows protestors standing on chairs with a large banner that reads \"Nvidia, clean up your dirty business!\"\nMultiple videos and images shared to X show protestors brandishing a large banner with a Greenpeace logo. \"Jensen, what about the technology that was found in Russian drones? Those were Nvidia chips. What are you doing about that?\" one of the protestors called out across the auditorium. \"What are you doing about that? What are you doing about the environmental destruction?\" the heckler demanded.\nGTC Keynote disrupted by protestors. What looks like @Greenpeace #GTC #GTCBerlin https://t.co/LqSdpmQLi0October 21, 2026\nHuang can be heard on the broadcast and in the video stating, \"It's okay, go easy,\" as security rushed to escort the protesters out of the hall. \"I'll talk to you later,\" Huang stated as the individuals were removed from the premises.\nThe complaint raised by the protester appears to relate to recent reports that Nvidia Jetson chips have been found in Russian cruise missiles used against Ukraine, as well as in AI drones. Reports indicate Russia's S-71 'Monochrome' weapon has autonomous targeting capability powered by Nvidia's consumer-grade Jetson Orin chip. \"Our Jetson Orin modules are consumer-grade products sold to students, developers, and startups for a wide range of beneficial applications,\" Nvidia told Tom's Hardware at the time. The company reiterated that the chips are not available in Russia and are not designed for military purposes, but admitted it cannot track the resale of pre-owned Jetson chips after they are sold.\nA report in August claimed that a Russian AI drone killed three civilians in Ukraine, the first documented case of civilian deaths caused by a Russian drone using fully autonomous targeting. Images of the recovered drones confirmed they contained Jetson Orin modules. \"All important issues, but let me get through my keynote,\" Huang quipped before continuing his presentation.\nHuang is in Berlin for Nvidia's three-day GTC event, taking place from October 20-22. The customary keynote, given this morning, also includes fireside chats and talks for developers and business leaders.",
+  "published_at": "2026-10-21T09:57:06+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "67ddc2d1536c0c6e8e33",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-22/3678ea4ecc65e29302848cd207b645927e62525c66ad47475c43844178cc7139.body",
+  "source_sha256": "3678ea4ecc65e29302848cd207b645927e62525c66ad47475c43844178cc7139",
+  "fetched_at": "2026-10-21T22:05:40.565609+00:00"
+}

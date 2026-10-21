@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159407.htm",
+  "title": "移动端性能猛兽！酷睿Ultra 9 4995HX规格流出：28核心144MB缓存",
+  "text": "快科技10月21日消息，英特尔次世代移动端处理器Nova Lake（酷睿Ultra 4000系列）的规格近日遭到深度泄露，两款顶级型号酷睿Ultra 9 4995HX与4970H的参数浮出水面。\n其中作为旗舰的4995HX将凭借28核心的恐怖规格，刷新移动端处理器的性能上限。\n据爆料人Jaykihn透露，针对顶级发烧玩家和移动工作站的酷睿Ultra 9 4995HX采用8+16+4的核心排布：8颗Coyote Cove性能核、16颗Arctic Wolf能效核，再加4颗超低功耗能效核。\n整套规格合计28核28线程，配备144MB大容量末级缓存，足以应对高负载专业计算任务。\n而面向主流高性能本的Nova Lake-H系列里，酷睿Ultra 9 4970H走了不一样的升级思路。它依旧是16核规格，组合为4性能核+8能效核+4低功耗能效核，CPU核心总数和上代持平，但核显性能迎来大幅提升。\n这颗芯片内置12个Battlemage架构的Xe3P核显单元，目标是让高性能轻薄本拥有接近主流独立显卡的图形能力。\n制造工艺方面，Nova Lake全系已确认放弃英特尔自家的18A工艺，转而采用台积电N2P制程。\n泄露信息显示，它的计算裸片面积大约97.68平方毫米，先进2nm工艺带来更高集成度，才能在笔记本有限空间里塞下更多核心。\n除此之外，HX系列功耗区间跨度也很大，基础55W，最高可以冲到160W，能充分释放散热模组的潜力。\n根据当前节奏判断，Nova Lake-HX与Nova Lake-H芯片预计将于CES 2027前后首次搭载于新一批笔记本产品亮相。\n不过从产品形态看，本次移动平台更新并未伴随新独立显卡的同步发布，Nova Lake将主要依托现有的消费级与准专业级显卡产品线来支撑整体性能表现。",
+  "published_at": "2026-10-21T17:39:00+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6209a7b0d7ec291c92f7",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1.body",
+  "source_sha256": "8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1",
+  "fetched_at": "2026-10-21T22:05:47.277608+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159354.htm",
+  "title": "AI最实用的一集：逆向《上古卷轴4：湮灭》重制版 帧率暴增48%！",
+  "text": "快科技10月21日消息，mod作者LTSharpe近日借助Claude AI逆向工程《上古卷轴4：湮灭》重制版，开发出性能优化补丁，平均帧率提升最高48%，卡顿减少90%，且不改变任何画质。\n《上古卷轴4：湮灭》重制版因硬件利用率低下，饱受卡顿和掉帧困扰，LTSharpe的设备是锐龙7 5800X和RX 9070 XT，不算老旧却仍被游戏压垮。\n于是他付费订阅Anthropic的Claude AI，与AI合作逆向工程游戏，构建了可重复的基准测试框架，系统性诊断性能瓶颈，然后用修改后的机器码测试修复效果。\n整个过程没有源代码，《上古卷轴4》和重制版使用虚幻引擎都不是开源软件，逆向工程难度对人类团队都极高。\n据LTSharpe所述，两周内Claude成功诊断并修复了重制版虚幻引擎代码、底层Gamebryo原版引擎、AMD帧生成代码乃至虚幻引擎本身的Bug，既提升性能又减少崩溃。\n应用补丁后帧率提升可达48%，大世界卡顿基本消失，还有部分修复针对AMD显卡，解决Alt+Tab切屏后FSR超分和帧生成被游戏Bug禁用的问题。",
+  "published_at": "2026-10-21T15:59:39+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "71492cb45154fae9f774",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1.body",
+  "source_sha256": "8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1",
+  "fetched_at": "2026-10-21T22:05:47.277608+00:00"
+}

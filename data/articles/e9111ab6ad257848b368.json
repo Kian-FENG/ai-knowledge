@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.27367",
+  "title": "Explore More, Validate Less: Efficient Reflective Prompt Optimization",
+  "text": "arXiv:2610.27367v1 Announce Type: new\nAbstract: Reflective prompt optimization improves instructions using task feedback, but coupling candidate generation with full-validation-based selection can make search costly and sequential. We propose a two-stage framework that decouples reflective candidate-pool construction from validation allocation. During construction, we sample multiple parents and reuse each parent's training responses across parallel reflection branches. Each revision is screened against its parent on a small training minibatch, allowing locally improved candidates to support further revisions without full validation. After construction, an exploration policy selects candidates from the frozen pool under a fixed full-validation budget, and the prompt with the highest measured validation score is returned. This separation allows candidate-pool size and validation budget to be set independently. We evaluate random selection and learned score prediction with similarity-based exploration on five benchmarks using Qwen3.5-9B and Llama-3.1-8B-Instruct. With 100 retained candidates and 20 full validations, our framework improves over the initial solver by up to 11.22 percentage points. Learned selection improves over the initial solver in all ten comparisons, although neither selection policy consistently outperforms the other. These results support separating reflective search from budgeted validation while leaving room for stronger candidate-selection policies.",
+  "published_at": null,
+  "announced_at": "2026-10-21T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e9111ab6ad257848b368",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-22/efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3.body",
+  "source_sha256": "efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3",
+  "fetched_at": "2026-10-21T22:05:28.011473+00:00"
+}

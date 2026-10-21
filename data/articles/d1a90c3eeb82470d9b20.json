@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.27266",
+  "title": "Auditing Safety Preference Supervision with Recorded Derivations",
+  "text": "arXiv:2610.27266v1 Announce Type: new\nAbstract: Preference labels align model training, but the judgments behind them are difficult to inspect or verify. In this paper, we examine how preference construction can be checked when intermediate decisions are recorded, and which of them remain uncertain. We present Symbolic Preference Labeling, a method in which a pretrained language model classifies predefined attributes of prompts and responses. Explicit rules assign response verdicts, and a fixed verdict ranking determines the preference label. Each preference label has a recorded derivation: the response verdicts and preference label can be recomputed from the stored attribute assignments, rules, and verdict ranking without rerunning the language model. On 200 prompts annotated by human raters, the language model produces valid structured outputs for 192 prompts. All eight parsing failures occur in the subset of self-harm prompts marked as harmful. Using 465 preference pairs, we train one policy model with direct preference optimization across five training seeds. Mean measured benign refusal is 40.82 percent on 1,319 benign prompts that resemble unsafe ones, and mean measured toxic refusal is 84.98 percent on 655 toxic prompts. This study distinguishes the reproducibility of preference labels from attribute correctness. The recorded derivations make preference construction open to inspection, while attribute correctness and semantic safety require separate validation.",
+  "published_at": null,
+  "announced_at": "2026-10-21T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "d1a90c3eeb82470d9b20",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-22/efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3.body",
+  "source_sha256": "efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3",
+  "fetched_at": "2026-10-21T22:05:28.011473+00:00"
+}

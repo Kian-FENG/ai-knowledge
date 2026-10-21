@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-21/sap-cloud-growth-beats-forecast-in-sign-of-software-s-resilience",
+  "title": "SAP Cloud Growth Beats Forecast in Sign of Software’s Resilience",
+  "text": "SAP SE reported higher growth for its cloud products than anticipated in a sign that the boom in artificial intelligence hasn’t undermined demand for the German software maker’s offerings.",
+  "published_at": "2026-10-21T20:19:49+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d440d9a2e15d7a7bb413",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/ab9963e59b968f3f35da677b29644c44892513f64597a6c9a2e509c565c28152.body",
+  "source_sha256": "ab9963e59b968f3f35da677b29644c44892513f64597a6c9a2e509c565c28152",
+  "fetched_at": "2026-10-21T22:05:39.574448+00:00"
+}

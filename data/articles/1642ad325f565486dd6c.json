@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/developing-an-ai-factory-digital-twin-with-an-agent-assisted-workflow/",
+  "title": "Developing an AI Factory Digital Twin with an Agent-Assisted Workflow",
+  "text": "Building an AI factory digital twin requires developers to bring site plans, equipment assets, and engineering requirements into a consistent model that teams...\nBuilding an AI factory digital twin requires developers to bring site plans, equipment assets, and engineering requirements into a consistent model that teams can inspect, revise, and prepare for simulation. Connecting these inputs into an editable workflow helps teams explore design alternatives and incorporate engineering feedback as the design evolves. The NVIDIA Omniverse DSX Blueprint…\nSource",
+  "published_at": "2026-10-21T09:38:49+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T19:49:30+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1642ad325f565486dd6c",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-22/bff9bee659657c6edbac7256ab0fedbe3ebd1645746c54cb4a8f21141943cd5a.body",
+  "source_sha256": "bff9bee659657c6edbac7256ab0fedbe3ebd1645746c54cb4a8f21141943cd5a",
+  "fetched_at": "2026-10-21T22:05:28.459193+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/european-leaders-vera-cpu-infrastructure/",
+  "title": "European Leaders Turn to NVIDIA Vera CPUs to Build Local Infrastructure",
+  "text": "Nebius and Nscale are among global technology partners looking to NVIDIA Vera CPUs to build the next wave of infrastructure. Their momentum reflects rapid advancements in agentic computing.  Agents do more than generate answers: they retrieve information, run software tools, execute code and evaluate results. Each step depends on fast CPU processing.  Vera accelerates that […]",
+  "published_at": "2026-10-20T10:30:11+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c582a39d486e86676aaa",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-22/d35bb067a41dfa4e7005172f7e20c7492a8ffbfc615eebe8edc7f8d19391187d.body",
+  "source_sha256": "d35bb067a41dfa4e7005172f7e20c7492a8ffbfc615eebe8edc7f8d19391187d",
+  "fetched_at": "2026-10-21T22:05:21.726379+00:00"
+}

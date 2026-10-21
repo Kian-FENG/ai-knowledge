@@ -1,0 +1,18 @@
+{
+  "url": "https://36kr.com/newsflashes/4035590806492294?f=rss",
+  "title": "OpenAI与谷歌云达成合作，将开放前沿模型及Codex",
+  "text": "10月21日，OpenAI宣布与谷歌云合作，将其前沿模型及Codex智能体工作流接入谷歌云Model Garden，计划于未来几周内正式开放。企业客户还将能够通过谷歌云市场购买相关模型，并使用谷歌云消费承诺支付费用。OpenAI模型还将陆续接入谷歌Antigravity和Gemini Agent。OpenAI表示，微软仍是其主要云合作伙伴。（界面）",
+  "published_at": "2026-10-21T20:15:15+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "94b6643b4d7f86265052",
+  "source_id": "36kr",
+  "source_name": "36氪",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/e2fd0a89548f1c73798c0371ce0d099ea7d28c9ce91399116349114d6e54f244.body",
+  "source_sha256": "e2fd0a89548f1c73798c0371ce0d099ea7d28c9ce91399116349114d6e54f244",
+  "fetched_at": "2026-10-21T22:05:42.990189+00:00"
+}

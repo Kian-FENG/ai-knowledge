@@ -1,0 +1,19 @@
+{
+  "url": "https://www.wsj.com/tech/cybersecurity/ai-just-found-a-bug-that-puts-up-to-70-of-the-worlds-websites-at-risk-fd0902ea?st=tBLRBh&reflink=desktopwebshare_permalink",
+  "title": "PHP's creators disclose a critical memory-management vulnerability, dubbed “PHP2Shell”, that affects up to 70% of websites, discovered via GPT-5.6 Sol in August",
+  "link_text": "PHP's creators disclose a critical memory-management vulnerability, dubbed “PHP2Shell”, that affects up to 70% of websites, discovered via GPT-5.6 Sol in August",
+  "id": "a44bdbd80d003d2d75e3",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "techmeme-river",
+  "source_name": "Techmeme River",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/029c0e8f1dddcdeb89ece750f7dba03269ef0460323d629c4ed4512736bb868e.body",
+  "source_sha256": "029c0e8f1dddcdeb89ece750f7dba03269ef0460323d629c4ed4512736bb868e",
+  "fetched_at": "2026-10-21T22:05:47.160756+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-21T22:05:47.160756+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

@@ -1,0 +1,39 @@
+{
+  "raw_path": "raw/2026-10-22/d294acacac29751efa63703491cfc5478980b49f55c059b6c4d36bab21ac8297.body",
+  "sha256": "d294acacac29751efa63703491cfc5478980b49f55c059b6c4d36bab21ac8297",
+  "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-21T22:07:26.000813+00:00",
+  "source_id": "openai",
+  "status": 403,
+  "headers": {
+    "Date": "Wed, 21 Oct 2026 22:07:56 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Accept-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+    "Cf-Mitigated": "challenge",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Server": "cloudflare",
+    "Critical-Ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
+    "Cross-Origin-Embedder-Policy": "require-corp",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Cross-Origin-Resource-Policy": "same-origin",
+    "Origin-Agent-Cluster": "?1",
+    "Permissions-Policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
+    "Referrer-Policy": "same-origin",
+    "Server-Timing": "chlray;desc=\"a4e393fbaff87396\"",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4XssUhMV3ah1dAE%2BiQmxvU4zLwilhJx%2Fq7KclG0SZw6PeWaXv2BYw%2BfoQFB7BHuqs%2FWMp3Mg9tZ%2BJn8TRnPk%2F6MHRXv5%2FVXoHfbonzTclqw5EMiM2GRP1mucO81oxfPmuxKj5hBSxxc1gAtbqw%3D%3D\"}]}",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4e393fbaff87396-SJC",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "final_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  "truncated": false,
+  "response_headers_redacted": [
+    "set-cookie"
+  ]
+}

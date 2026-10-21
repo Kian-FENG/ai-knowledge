@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/20/technology/spacex-earnings-elon-musk.html",
+  "title": "SpaceX Swings to a Profit, Even as A.I. Spending Soars",
+  "text": "Elon Musk’s rocket company also said its revenue had more than doubled, driven by its Starlink internet satellite service and artificial intelligence products.",
+  "published_at": "2026-10-20T20:32:32+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "331ac372348211db734f",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-21/d1160b7b5a311249db6df9b84f21354fbe73b103e3a4d8d1c1b2624a0be88570.body",
+  "source_sha256": "d1160b7b5a311249db6df9b84f21354fbe73b103e3a4d8d1c1b2624a0be88570",
+  "fetched_at": "2026-10-20T22:02:43.677872+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+  "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+  "text": "Google would certainly prefer that everyone used its Gemini models with Google Cloud services, but soon, you'll have more options. OpenAI and Google have come to an arrangement that will see the former's frontier models arrive in Google Cloud services. Perhaps more importantly, GPT models will soon appear in Antigravity, Google's agent-powered coding tool.\nFor enterprise customers and AI enthusiasts, OpenAI's latest model will appear in Google's \"Model Garden\" in the coming weeks, adding to its 200-plus options. The garden already offers access to Google's Gemini models, as well as an assortment of open models like Mistral, Llama, and Gemma. Anthropic's Claude AI has also been available for some time. Google says it's now the only large cloud provider offering access to all three leading closed LLMs.\nWhile OpenAI notes that Microsoft continues to be its primary cloud partner, the full suite of current GPT 6 and 6.1 models—Astra, Sol, and Luna—will launch on Google Cloud. Astra will naturally cost the most to run, but Google's system supports dynamically moving workloads between LLMs based on performance, latency, and efficiency.\nRead full article\nComments",
+  "published_at": "2026-10-21T18:51:42+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7b066c33c960e613f21e",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-22/9f5a747153197ad3db7926827c5278fa986ec6b54306fcd6409a75be5d5b148e.body",
+  "source_sha256": "9f5a747153197ad3db7926827c5278fa986ec6b54306fcd6409a75be5d5b148e",
+  "fetched_at": "2026-10-21T22:05:40.058210+00:00"
+}

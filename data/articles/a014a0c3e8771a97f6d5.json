@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/ai-finds-flaw-popular-web-hosting-software-sparking-global-race-patch",
+  "title": "AI Finds Flaw in Popular Web Hosting Software, Sparking Global Race to Patch",
+  "text": "The creators of PHP, an open source programming language used by the majority of the world’s websites, on Wednesday urged web maintainers across the globe to install a new update after researchers using AI found a flaw that could put those websites at risk of being hacked.\nThe flaw is the latest ...",
+  "published_at": "2026-10-21T14:51:08+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T21:00:26+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a014a0c3e8771a97f6d5",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9.body",
+  "source_sha256": "e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9",
+  "fetched_at": "2026-10-21T22:05:37.799727+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+  "title": "NVIDIA Open Models Advance Europe’s Sovereign Intelligence Across Industries",
+  "text": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5 Super VL and Nemotron 3.5 Bolt models; new NVIDIA Nemotron Retriever models for embedding, reranking […]",
+  "published_at": "2026-10-21T10:00:07+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d46c8940730c093aa2d0",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-22/d35bb067a41dfa4e7005172f7e20c7492a8ffbfc615eebe8edc7f8d19391187d.body",
+  "source_sha256": "d35bb067a41dfa4e7005172f7e20c7492a8ffbfc615eebe8edc7f8d19391187d",
+  "fetched_at": "2026-10-21T22:05:21.726379+00:00"
+}

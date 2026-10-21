@@ -1,0 +1,18 @@
+{
+  "url": "https://openai.com/index/att-legal",
+  "title": "How AT&T is rethinking in-house legal work with OpenAI",
+  "text": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+  "published_at": "2026-10-21T17:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "39cad894cdd240fbe2db",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-22/4eaca265c721164384082221b91da344b2ce84618497444e134265fb175d9e23.body",
+  "source_sha256": "4eaca265c721164384082221b91da344b2ce84618497444e134265fb175d9e23",
+  "fetched_at": "2026-10-21T22:05:15.687185+00:00"
+}

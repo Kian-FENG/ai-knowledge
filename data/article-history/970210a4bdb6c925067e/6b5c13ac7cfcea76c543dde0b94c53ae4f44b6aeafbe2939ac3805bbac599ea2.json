@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-20-vllm-torchtpu",
+  "title": "Introducing vLLM TorchTPUOct 20, 2026·6 min readvllm-torchtpu is a new vLLM backend for Google Cloud TPUs built on TorchTPU, with Pallas kernels, multi-host parallelism, KV cache offloading, and disag",
+  "link_text": "Introducing vLLM TorchTPUOct 20, 2026·6 min readvllm-torchtpu is a new vLLM backend for Google Cloud TPUs built on TorchTPU, with Pallas kernels, multi-host parallelism, KV cache offloading, and disag",
+  "id": "970210a4bdb6c925067e",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-21/6b5c13ac7cfcea76c543dde0b94c53ae4f44b6aeafbe2939ac3805bbac599ea2.body",
+  "source_sha256": "6b5c13ac7cfcea76c543dde0b94c53ae4f44b6aeafbe2939ac3805bbac599ea2",
+  "fetched_at": "2026-10-20T22:02:26.632427+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-20T22:02:26.632427+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

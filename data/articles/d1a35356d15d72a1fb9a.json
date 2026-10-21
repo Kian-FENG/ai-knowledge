@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
+  "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
+  "text": "OpenAI's GPT-5.6 Sol discovered a critical PHP vulnerability as part of the Patch the Planet initiative that could affect millions of websites. Security firm Wiz independently found the same flaw using Google's Gemini 4 Argon. OpenAI warns that the same AI capabilities that find vulnerabilities can help attackers too.\nThe article OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites appeared first on The Decoder.",
+  "published_at": "2026-10-21T19:45:01+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d1a35356d15d72a1fb9a",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/68567d519ad0effb999196e59c6e8c920935a6877113a681877a9d4c03e73863.body",
+  "source_sha256": "68567d519ad0effb999196e59c6e8c920935a6877113a681877a9d4c03e73863",
+  "fetched_at": "2026-10-21T22:05:37.783601+00:00"
+}

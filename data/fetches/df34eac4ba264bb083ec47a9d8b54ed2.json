@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-22/fcb7bbea114fdf54d8e89e1aa2b5ba9ba221ddbc047e21952de11d76619f7807.body",
+  "sha256": "fcb7bbea114fdf54d8e89e1aa2b5ba9ba221ddbc047e21952de11d76619f7807",
+  "source_url": "https://www.sglang.io/blog/omni-interactive-runtime",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-21T22:07:07.178892+00:00",
+  "source_id": "sglang-blog",
+  "status": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "9650",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline; filename=\"omni-interactive-runtime\"",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Wed, 21 Oct 2026 22:07:08 GMT",
+    "Etag": "W/\"e3f23c827a75c7fb09c3ff2775e59b42\"",
+    "Last-Modified": "Wed, 21 Oct 2026 19:26:18 GMT",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "X-Vercel-Cache": "HIT",
+    "X-Vercel-Id": "sfo1::sz8g5-1792620428504-8c28f2040935",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://www.sglang.io/blog/omni-interactive-runtime",
+  "truncated": false,
+  "charset": "utf-8"
+}

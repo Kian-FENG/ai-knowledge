@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/design-proteins-with-rfd4-proteina-using-reward-guided-inference-time-search/",
+  "title": "Design Proteins with RFD4-Proteina Using Reward-Guided Inference-Time Search",
+  "text": "Protein design is a search problem. Choose amino acids for an eight-residue protein sequence and more than 25 billion combinations are possible. Choose amino...\nProtein design is a search problem. Choose amino acids for an eight-residue protein sequence and more than 25 billion combinations are possible. Choose amino acids for a 100-residue protein sequence and the number of possibilities exceeds the number of atoms in the observable universe. Somewhere in that space is a protein that opens a path to a new therapy. There are too many combinations to…\nSource",
+  "published_at": "2026-10-21T12:30:00+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T12:57:05+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "280febea489348bb11f8",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-22/bff9bee659657c6edbac7256ab0fedbe3ebd1645746c54cb4a8f21141943cd5a.body",
+  "source_sha256": "bff9bee659657c6edbac7256ab0fedbe3ebd1645746c54cb4a8f21141943cd5a",
+  "fetched_at": "2026-10-21T22:05:28.459193+00:00"
+}

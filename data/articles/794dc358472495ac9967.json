@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159436.htm",
+  "title": "整整优化几个月：20年前的奔腾超频4.5GHz！跑现代游戏意外能玩",
+  "text": "快科技10月21日消息，硬件改装爱好者PreslerTech近日将一颗约20年历史的Intel Pentium Extreme Edition 965超频至4.5GHz，搭配RTX 2080 Ti成功运行Doom（2016）、GTA 5、《战地4》和《魔兽世界：至暗之夜》等游戏。\nPentium Extreme Edition 965是NetBurst架构最后一批旗舰之一，2006年发布，65nm工艺，2个物理核心，支持超线程共4线程，默认频率3.73GHz，每核2MB L2缓存，TDP 130W，当时因高功耗和低效能而饱受批评。\nPreslerTech在香港二手市场花约500欧元（快科技注：当前约3747元人民币）买到这颗收藏品，这个价格并不便宜。\nPreslerTech认为，当年奔腾的困境不能全怪架构，供电、内存延迟、慢速硬盘和软件环境都拖了后腿。\n因此他选择尽可能消除这些瓶颈，主板用2008年的华硕Rampage Formula配X48芯片组，8GB OCZ DDR2内存跑DDR2-750频率，时序CL4-4-4-12，供电用be quiet! Power Zone 2 1000W，散热用Dark Rock TF风冷压住CPU和供电模块。\n显卡是RTX 2080 Ti，存储用三星870 Evo加Intel 750 NVMe SSD，网卡和USB 3.0均用独立扩展卡替换老旧板载方案。\n操作系统也下了大功夫，基于Windows 10 IoT Enterprise LTSC，花了几个月优化后台进程、驱动和中断行为，让老双核尽量少承担额外任务。\n超频结果稳定4.5GHz，核心电压约1.336V，比默认频率提升约20%，放在封闭机箱内，当然这并非极限超频，全程采用的是风冷散热。\n四款游戏实际运行表现出乎意料，帧率虽不高但帧间隔舒适，游戏体验可接受，PreslerTech认为，针对性优化内存和系统延迟后，老处理器的潜力远超当年测试成绩的预期。",
+  "published_at": "2026-10-21T18:43:09+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "794dc358472495ac9967",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1.body",
+  "source_sha256": "8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1",
+  "fetched_at": "2026-10-21T22:05:47.277608+00:00"
+}

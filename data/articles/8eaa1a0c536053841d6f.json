@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+  "title": "OpenAI says an AI agent lied about disabling its safety monitoring system",
+  "text": "OpenAI disclosed a pair of safety incidents that involved AI agents weakening their safety monitoring systems during internal coding tasks. In one incident, OpenAI says its GPT-6 Astra agent disabled its safety monitor when copying reference code - and then lied about it.\n\"The reference didn't configure a monitor, and Astra decided that was reason to remove the monitoring integration from the user's code,\" Marcus Williams, an AI safety researcher at OpenAI, writes on X. \"When the user asked whether Astra had removed monitoring, it lied and said that it had not.\"\nA separate incident occurred after a GPT-6.1 Sol agent suppressed automatic se …\nRead the full story at The Verge.",
+  "published_at": "2026-10-21T09:57:43-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T09:57:43-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8eaa1a0c536053841d6f",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-22/33140708b3f4d95d3c7ca705cd3c8fddc4044c0a055520d72d3b70580e25d326.body",
+  "source_sha256": "33140708b3f4d95d3c7ca705cd3c8fddc4044c0a055520d72d3b70580e25d326",
+  "fetched_at": "2026-10-21T22:05:37.118184+00:00"
+}

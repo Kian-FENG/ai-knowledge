@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.27241",
+  "title": "Predicting Linear Relational Decodability Without the Relation",
+  "text": "arXiv:2610.27241v1 Announce Type: new\nAbstract: Linear relational embeddings (LREs) approximate a language model's subject-to-object mapping with an affine function. Their faithfulness varies enormously across relations, from near zero for person_father to the ceiling for country_capital_city. We investigate the factors that contribute to this variation and demonstrate that it can be significantly predicted from a readout that is not aware of the underlying relation. To do so, we propose a novel form of the Jacobian lens, the entity lens. Whereas the Jacobian lens is estimated across all tokens and concepts, the entity lens EL_t is trained to predict what the model will output for an entity of type t under the neutral prompt \"{} is known for\"; e.g., we train ELs for countries and persons. After estimating an entity lens, we measure how highly it ranks the model's answer for a relation without using any relation-specific information in estimation and prediction. Across 28 relations of the LRE dataset on Olmo-3-7B this relation-agnostic score correlates with LRE faithfulness at \\rho = 0.7355 (p < .01). This suggests that linear decodability is largely a property of what a subject's representation already carries, rather than of the relation being decoded. Moving the unit of analysis from the relation to the individual fact, we conclude that new relation datasets and analysis methods are needed to address several problems in existing datasets, most prominently semantically weak first tokens (e.g., most predicted universities' first token is \"University\") and reference competition (e.g., the LLM confuses obscure actor names with competing non-actor entities that have the same last name). Our full pipeline is available at https://github.com/jonasrohw/entity-lens",
+  "published_at": null,
+  "announced_at": "2026-10-21T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "15650244d9bde65aa133",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-22/efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3.body",
+  "source_sha256": "efd5516f98a5d70dae9eb33296c1cd9394ab610467a836762960fb0bd9adf4e3",
+  "fetched_at": "2026-10-21T22:05:28.011473+00:00"
+}

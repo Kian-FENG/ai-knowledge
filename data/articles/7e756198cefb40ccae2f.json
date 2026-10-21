@@ -1,0 +1,18 @@
+{
+  "url": "https://www.cisa.gov/news-events/news/cisa-fbi-and-partners-warn-organizations-safepay-ransomware-actors-targeting-multiple-critical",
+  "title": "CISA, FBI and Partners Warn Organizations of SafePay Ransomware Actors Targeting Multiple Critical Infrastructure Sectors",
+  "text": "",
+  "published_at": "2026-10-21T12:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "metadata-only",
+  "date_precision": "timestamp",
+  "id": "7e756198cefb40ccae2f",
+  "source_id": "cisa",
+  "source_name": "CISA News",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/faa21755488cb951f42a25e28ff5a785c79b9e4103bdb665139472e7d434e713.body",
+  "source_sha256": "faa21755488cb951f42a25e28ff5a785c79b9e4103bdb665139472e7d434e713",
+  "fetched_at": "2026-10-21T22:05:30.542147+00:00"
+}

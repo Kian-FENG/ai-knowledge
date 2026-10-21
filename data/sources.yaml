@@ -1349,3 +1349,34 @@ sources:
   enabled: true
   checked_at: '2026-10-20'
   note: 本次已通过浏览工具读取官网与产品归属；机器采集许可未核实，使用浏览入口。
+
+- id: arda
+  name: Arda Official and Investor Announcements
+  url: https://arda.ai/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-21'
+  note: 官网与Accel已读以核对身份和制造软件归属；机器采集许可尚未核实，使用浏览入口。
+- id: firefly
+  name: Firefly Physical Safety AI
+  url: https://firefly.co/insights/firefly-series-a
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-21'
+  note: 官方融资与产品公告单独核对；同名航天及云管理公司不同；常规机器采集许可尚未核实。
+- id: reuters-syndicated
+  name: Reuters Licensed Syndication
+  url: https://uk.marketscreener.com/
+  kind: web
+  group: media
+  section: 5
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-21'
+  note: 仅逐条阅读带Reuters署名和时间的正文，不作为全量feed，也不把转载当独立证实。

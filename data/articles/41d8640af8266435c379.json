@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159421.htm",
+  "title": "Intel、AMD在一起！联手简化x86 CPU AI开发",
+  "text": "快科技10月21日消息，Intel与AMD联合宣布合作，将双方针对PyTorch的x86 CPU优化成果整合到开源深度学习库oneDNN中，减少x86 AI生态软件碎片化，简化PyTorch在x86系统上的开发部署。\noneDNN由统一加速基金会（UXL）管理，旨在提升AI工作负载在CPU上的运行效率。\n根据x86生态系统顾问小组的建议，Intel和AMD已将oneDNN认定为PyTorch内x86加速的默认开源库。AMD正将自家的ZenDNN优化整合进oneDNN，并以指导委员会成员身份加入UXL基金会。\n此前Intel有oneDNN，AMD有ZenDNN，两套独立优化路径迫使开发者针对不同CPU分别适配，增加了维护成本。\n之后开发者通过oneDNN这个统一入口，即可获得面向Intel和AMD处理器的PyTorch CPU优化，在不同x86平台上获得更一致的开发体验。\n双方还在AI计算扩展（AI Compute Extensions）方面展开合作，这是面向x86设计的下一代指令集架构，能够加速矩阵乘法，未来将通过oneDNN更新进一步集成至PyTorch中。",
+  "published_at": "2026-10-21T18:06:36+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "41d8640af8266435c379",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1.body",
+  "source_sha256": "8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1",
+  "fetched_at": "2026-10-21T22:05:47.277608+00:00"
+}

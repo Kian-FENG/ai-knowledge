@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/21/insider/trump-ai-videos-photos.html",
+  "title": "How The New York Times Reports on A.I. Images",
+  "text": "A Times reporter and editors discuss the challenges of sifting through what’s real and what’s not in pursuit of the news.",
+  "published_at": "2026-10-21T13:21:54+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "443f77b80ccf038c78f8",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/3c277cd36c6bb471063b890413a1c074b09a7ec5d9904d33c479b59a646c81d5.body",
+  "source_sha256": "3c277cd36c6bb471063b890413a1c074b09a7ec5d9904d33c479b59a646c81d5",
+  "fetched_at": "2026-10-21T22:05:38.388339+00:00"
+}

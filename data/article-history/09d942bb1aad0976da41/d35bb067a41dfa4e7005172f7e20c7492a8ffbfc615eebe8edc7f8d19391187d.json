@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+  "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
+  "text": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within.  Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and actions, monitor what they do and […]",
+  "published_at": "2026-10-21T10:10:01+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "09d942bb1aad0976da41",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-22/d35bb067a41dfa4e7005172f7e20c7492a8ffbfc615eebe8edc7f8d19391187d.body",
+  "source_sha256": "d35bb067a41dfa4e7005172f7e20c7492a8ffbfc615eebe8edc7f8d19391187d",
+  "fetched_at": "2026-10-21T22:05:21.726379+00:00"
+}

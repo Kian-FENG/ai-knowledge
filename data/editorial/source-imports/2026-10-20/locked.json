@@ -1,0 +1,8 @@
+{
+  "title": "ChatGPT release notes — Introducing locked chats",
+  "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+  "text": "Agent browser extract; reading scope: October 20, 2026 section, not entire historical release log.\nOctober 20, 2026\nIntroducing locked chats\nLocked chats let you keep selected conversations in your account while hiding them from regular chat history, pinned chats, and search. Open them with your 4-digit account PIN or supported device authentication. Your retention and model-improvement settings stay unchanged.\nLocked chats are rolling out gradually to Free, Go, Plus, and Pro users on the web, in the iOS and Android apps, and in the new ChatGPT desktop app for macOS and Windows. To lock a chat, open a chat’s more options menu (•••) and select Lock chat.",
+  "date_basis": "published",
+  "extraction": "full-text",
+  "published_at": "2026-10-20"
+}

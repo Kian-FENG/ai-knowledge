@@ -1,0 +1,371 @@
+{
+  "checked_at": "2026-10-21T22:13:37.736000+00:00",
+  "run_id": "20261021T220514-09b9dc77",
+  "checks": [
+    {
+      "source_id": "meta-muse-card",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "visko",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "stacklok",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "peppermint",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "cls-eastmoney",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "ms-decision",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "ms-nadella",
+      "status": "failed",
+      "note": "X原帖403，不以无新消息替代故障。"
+    },
+    {
+      "source_id": "nous",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "healthleap",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "qwen",
+      "status": "failed",
+      "note": "官网博客空正文；已打开QwenLM官方GitHub组织并参考HF机器列表，但未逐仓库/公众号核查，不能判断无新事件。"
+    },
+    {
+      "source_id": "minimax",
+      "status": "failed",
+      "note": "News入口仅导航；已知19日M3.1 Flash去重，未逐个产品页核对20日增量或权重交付。"
+    },
+    {
+      "source_id": "bytedance-seed",
+      "status": "checked",
+      "note": "实际读取官方Research列表，最新可见论文9月28日，未核定额外本期发布；公众号与私域未覆盖。"
+    },
+    {
+      "source_id": "alibaba-cloud",
+      "status": "failed",
+      "note": "Press Room仅导航与空条目；未完成官方新闻正文覆盖。"
+    },
+    {
+      "source_id": "xai",
+      "status": "checked",
+      "note": "实际阅读20日incident-sweep主文，内部案例不同于新品GA；未按异常外链推定产品归属。"
+    },
+    {
+      "source_id": "qualcomm",
+      "status": "checked",
+      "note": "官方列表20日条目为V2X；未完成裁员媒体线索的一手核查。"
+    },
+    {
+      "source_id": "asml",
+      "status": "failed",
+      "note": "浏览官方Press Releases返回401；官网兜底检索未获得本期合格正文。"
+    },
+    {
+      "source_id": "tsmc",
+      "status": "checked",
+      "note": "本次官网恢复可读，最新列表为15日三季报；未见列表中的20日新公告，不能覆盖闭门供应链信息。"
+    },
+    {
+      "source_id": "nda",
+      "status": "failed",
+      "note": "官网首页返回空正文；政策搜索仅发现旧资料，未完成20日政策正文覆盖。"
+    },
+    {
+      "source_id": "jiqizhixin",
+      "status": "failed",
+      "note": "可见会员导航与简介；会员正文、公众号未覆盖。"
+    },
+    {
+      "source_id": "reflection",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "namespace",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "vinci",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "today",
+      "status": "failed",
+      "note": "官方blog浏览不可访问；不重复以旧融资当新事件。"
+    },
+    {
+      "source_id": "typesafe",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "globalfoundries",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "cna-reuters",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "odyssey",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "vals-ai",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "epoch-innovationeval",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "decart",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "microsoft-blog",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "mosi",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "modcraft",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "apple-newsroom",
+      "status": "failed",
+      "note": "官网仅导航，新闻列表未返回。"
+    },
+    {
+      "source_id": "pluto-security",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "semigraph",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "third-moment",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "humxn",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "pilotdeck",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "sapiom",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "tenstorrent",
+      "status": "failed",
+      "note": "Newsroom本次仅cookie/导航；前期E轮已去重，未完成全列表覆盖。"
+    },
+    {
+      "source_id": "orchestra-bio",
+      "status": "checked",
+      "note": "打开官网仅简短品牌/现有收购说明；19日报已收录，不重复列20日新收购。"
+    },
+    {
+      "source_id": "arda",
+      "status": "checked",
+      "note": "官网产品/团队及Accel投资公告实际读取；新建跟踪实体，累计融资口径有媒体差异，使用投资方USD230M累计值。"
+    },
+    {
+      "source_id": "firefly",
+      "status": "checked",
+      "note": "官方公告项目fetch成功全文；浏览工具同源不可达，已记录获取路径差异；同名公司已区分。"
+    },
+    {
+      "source_id": "reuters-syndicated",
+      "status": "checked",
+      "note": "实际打开配置入口；仅核查本次返回的可见主页、标题或列表片段，未逐外链核对所有文章与交付；未核定额外本期增量，不等于全站无新闻。"
+    },
+    {
+      "source_id": "openai",
+      "status": "checked",
+      "note": "实际阅读ChatGPT 20日locked chats小节，归档有限摘录；20日官网客户案例feed已筛看，未逐客户验效。"
+    },
+    {
+      "source_id": "anthropic",
+      "status": "checked",
+      "note": "实际打开News与Research列表，未核定新增本期产品公告；sitemap大量重现旧URL仅线索。IPO草稿/成本与Nscale报道已发现，但原始S-1及完整WSJ正文未读，未写成公司已确认财务事实。"
+    },
+    {
+      "source_id": "anthropic-research",
+      "status": "checked",
+      "note": "实际打开研究列表，仅列表级核查；没有逐条阅读所有旧文。"
+    },
+    {
+      "source_id": "deepseek",
+      "status": "checked",
+      "note": "实际打开官网News、API更新与DeepInfer仓库；News仍列9月10日、API17日Flash1017/搜索接口为旧背景，DeepInfer固定20日774ce244 README。"
+    },
+    {
+      "source_id": "deepseek-api-changelog",
+      "status": "checked",
+      "note": "实际读取17日更新小节；不是20日新模型发布；不重复转载榜单。"
+    },
+    {
+      "source_id": "kimi",
+      "status": "checked",
+      "note": "实际打开官方Research列表和MoonshotAI组织；博客最新可见K3/PerceptionBench为7月16日，未确认20日新模型；未覆盖私域或逐仓库提交。"
+    },
+    {
+      "source_id": "huxiu",
+      "status": "failed",
+      "note": "采集器robots读取/许可失败；浏览同源已尝试，未完成可用正文核对；不能断言无新闻。"
+    },
+    {
+      "source_id": "techmeme-snapshot",
+      "status": "failed",
+      "note": "尝试261020/h2355历史快照不可访问；当前river线索已归档，媒体漏采未全量补回。"
+    },
+    {
+      "source_id": "sglang",
+      "status": "checked",
+      "note": "Releases API近8版本核对，正式0.5.22为19日去重；20日Omni文章是技术文章/运行时进展，不把它当0.5.23正式发版。"
+    },
+    {
+      "source_id": "sglang-blog",
+      "status": "checked",
+      "note": "HTTP原文完整取得并阅读Omni主文/评测表/限制与附录；浏览工具不可达。日期依据官方博客列表20日，仅到日。"
+    },
+    {
+      "source_id": "vllm",
+      "status": "checked",
+      "note": "Releases API近8版本，正式0.32.0为18日去重；20日TorchTPU是插件发布，未冒充主仓库新版本。"
+    },
+    {
+      "source_id": "vllm-blog",
+      "status": "checked",
+      "note": "TorchTPU正文全文，v7x推荐及其他TPU实验状态、编译开销和未来功能已核；未部署。"
+    },
+    {
+      "source_id": "dynamo",
+      "status": "checked",
+      "note": "GitHub releases近8版本原始JSON核对，20日02:09:56Z Muse dev.1为experimental/not QA/not production；只列覆盖，不当正式1.6稳定版。"
+    },
+    {
+      "source_id": "flashinfer",
+      "status": "checked",
+      "note": "Releases API近8版本：20日04:30:32Z v0.7.2rc5为预发布，正式0.7.2为15日去重；未逐PR核查。"
+    },
+    {
+      "source_id": "mooncake",
+      "status": "checked",
+      "note": "Releases API近8版本最新0.3.14-rc1仍9月7日；无本期正式新版本，不代表仓库无提交。"
+    },
+    {
+      "source_id": "pytorch-blog",
+      "status": "checked",
+      "note": "TorchTPU引言有限阅读，采集版显示21日更新；报告优先20日Google/vLLM文本。其他大会条目未全部全文核对。"
+    },
+    {
+      "source_id": "google-cloud-blog",
+      "status": "checked",
+      "note": "20日TorchTPU及llm-d原文已读；未逐基准外链/所有大会产品公告核查，客户与性能数值不独立确认。"
+    },
+    {
+      "source_id": "arxiv",
+      "status": "checked",
+      "note": "本轮266候选保存60/截断201，列表不完整，21日公告不冒充20日；本期两篇取已归档20日官方RSS，补读摘要与v1史。全文、图表和代码未审。"
+    },
+    {
+      "source_id": "reuters-ai-exclusives",
+      "status": "checked",
+      "note": "围绕Oct20执行Reuters与DeepSeek/NVIDIA/Anthropic检索，回查Reuters署名RTX订单全文；其他独家线索未全覆盖。"
+    },
+    {
+      "source_id": "bloomberg-ai",
+      "status": "checked",
+      "note": "执行Oct20 Bloomberg/AI检索并筛feed线索，Anthropic草稿/Pigment等未完成一手核查；不根据摘要写成确认事件。"
+    },
+    {
+      "source_id": "ft-nyt-wsj-ai",
+      "status": "checked",
+      "note": "执行FT/NYT/WSJ与Oct20 AI检索；NYT robots受限，WSJ草稿全文未取得，搜索返回旧或无关结果。"
+    },
+    {
+      "source_id": "china-ai-companies-zh",
+      "status": "checked",
+      "note": "执行20日中文AI公司与新公司检索，睿质20日专访与11日融资报道对照，暂不列新融资；官网身份未核不建实体。"
+    },
+    {
+      "source_id": "china-ai-policy-zh",
+      "status": "checked",
+      "note": "执行20日工信部/国家数据局/算力检索；2592EFLOPS媒体引述找到，原始发布会口径未读，未将数字用于跨国比较。"
+    },
+    {
+      "source_id": "china-chips-zh",
+      "status": "checked",
+      "note": "执行20日HBM/GPU/产能检索，回查Reuters署名订单文；NVHBM、国产供应线索未全部一手核验。"
+    },
+    {
+      "source_id": "embodied-world-models-zh",
+      "status": "checked",
+      "note": "执行20日具身/世界模型/开源/融资检索，返回多篇18日及旧资料；Arda机器人部分仍扩展目标，未当机器人量产。"
+    },
+    {
+      "source_id": "supply-chain-en",
+      "status": "checked",
+      "note": "执行Oct20 HBM/CoWoS/memory prices检索；大量媒体、社交/旧文返回，未作价格或产量验证；合格订单文保留匿名归因。"
+    },
+    {
+      "source_id": "newsroom-fallback",
+      "status": "checked",
+      "note": "执行Qwen/MiniMax/ASML官方域名兜底检索，未取得合格额外本期主文；TSMC和Qualcomm列表可读。"
+    },
+    {
+      "source_id": "startup-discovery",
+      "status": "checked",
+      "note": "实际执行中英文新创公司发现检索，回查Arda官网+Accel、Firefly官网；新增2个实体。ASI/Pigment及睿质等尚缺本轮一手身份/融资证据，保留候选；名单不代表全行业。"
+    }
+  ]
+}

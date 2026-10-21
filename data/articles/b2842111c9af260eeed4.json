@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime/",
+  "title": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
+  "text": "An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using...\nAn AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using tools, credentials, and services to pursue their assigned goals. Monitoring and enforcement need to operate outside the agent’s reach so that it can’t alter or disable them. NVIDIA Sentry is a security software framework that monitors AI…\nSource",
+  "published_at": "2026-10-21T09:52:16+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T09:52:19+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b2842111c9af260eeed4",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-22/bff9bee659657c6edbac7256ab0fedbe3ebd1645746c54cb4a8f21141943cd5a.body",
+  "source_sha256": "bff9bee659657c6edbac7256ab0fedbe3ebd1645746c54cb4a8f21141943cd5a",
+  "fetched_at": "2026-10-21T22:05:28.459193+00:00"
+}

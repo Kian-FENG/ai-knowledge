@@ -1,0 +1,18 @@
+{
+  "url": "https://www.technologyreview.com/2026/10/21/1146124/interspecies-communication-impossible-issue/",
+  "title": "Interspecies communication",
+  "text": "Humans are far from the only species with a gift for gab, and our furry, feathered, and finned friends could have a lot to tell us. Decoding how animals communicate with one another could offer a window into the inner lives of other species and help humans realize that “animals are sentient creatures who think, who have hopes and dreams of their own,” says Con Slobodchikoff, the founder of Zoolingua, a company working on dog-to-human speech.\nThe sticking points\nTeasing all this out is complex. To decipher howls, squeaks, and clicks, researchers must match the creatures making sounds with what’s happening around them. Prairie dogs, for example, utter a different series of yips when a coyote approaches than when a hawk is nearby. It’s painstaking work, especially for difficult-to-­observe species, like deep-diving whales or subterranean mole rats.\nThere are other hurdles. Many animals communicate not just through sound but through visual cues, touch, pheromones, or a combination of signals, some of which might be difficult for us to perceive. And without a multispecies Rosetta stone, it’s hard to know if translations are accurate.\nThe progress\nOver the past 50 years, a growing arsenal of devices has made it easier to observe the sophisticated ways animals communicate. Hydrophones at the bottom of the ocean can capture humpback whale song, and tiny wearable “biologgers” can record a bat’s every squeak.\nIn the last decade, advances in AI have leveled up our ability to make sense of it all. The technology can detect different calls, distinguish which sounds belong to which animal, and spot patterns. Researchers at the Earth Species Project (ESP), a nonprofit founded in 2018 to decode animal communication, recently used machine learning to detect vocalizations of carrion crows and determine which bird made which call.\nThey suspect that more advanced AI could translate critters’ chatter. Large language models like Claude and ChatGPT excel at finding relationships between words, explains Sara Keen, one of ESP’s behavioral ecologists. ESP hopes its own NatureLM—trained on human speech, music, and animal sounds—will be able to interpret the vocalizations of a variety of species.\nThat promise, however, is still theoretical. Yossi Yovel, a neuroecologist at Tel Aviv University, worries that these models will put too much emphasis on acoustic similarities and make mistakes—like lumping together similar sounds that have different meanings.\nAs for a two-way convo? It’s not clear when—or whether—that will happen. Still, “a lot of animals have an evolutionary structure that is similar enough that we should be able to understand what they’re saying,” Slobodchikoff says.\nProgress meter ………… 4\nResearchers have amassed heaps of data on animal communication, but they’re still trying to figure out how to decipher it all.",
+  "published_at": "2026-10-21T09:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "35fd782a25e98e250453",
+  "source_id": "mit-tech-review",
+  "source_name": "MIT Technology Review",
+  "section": 2,
+  "raw_path": "raw/2026-10-22/1612e435bb8838e5785ad9468bd8af177bdc114b18dbeab264c6bbd32497ed9d.body",
+  "source_sha256": "1612e435bb8838e5785ad9468bd8af177bdc114b18dbeab264c6bbd32497ed9d",
+  "fetched_at": "2026-10-21T22:05:39.351062+00:00"
+}

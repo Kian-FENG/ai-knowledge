@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/meta-faces-25-billion-new-mexico-penalty",
+  "title": "Meta Faces $25 Billion New Mexico Penalty",
+  "text": "Meta Platforms on Wednesday was ordered to pay $25 billion in penalties following a New Mexico court ruling tied to the Cambridge Analytica data scandal, according to a court judgment.\nThe ruling by a New Mexico state judge said the violations could have amounted to $219.5 billion, but the judge ...",
+  "published_at": "2026-10-21T18:23:06+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T21:00:27+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4bbb1391bc639509dd60",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9.body",
+  "source_sha256": "e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9",
+  "fetched_at": "2026-10-21T22:05:37.799727+00:00"
+}

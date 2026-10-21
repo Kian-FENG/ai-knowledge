@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+  "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+  "text": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs.\nComplex engineering feats — from advanced chips to aircraft to industrial systems —– depend on simulation to predict how designs will perform before they’re built. As designs become more complex, simulations take longer to run, increasing computing demands and limiting the number of ideas teams can test.\nNVIDIA cuDSS accelerates solving large sparse systems — the math-heavy step that repeats throughout engineering and scientific simulations and often limits how many designs a team can test — by tapping into GPUs. This lets applications reduce time to results and increase simulation throughput, enabling end users to explore larger more realistic models, more accurate representations and a wider design space at a reduced cost.\nRead All NVIDIA in Europe Announcements\nIndustry leaders are already integrating NVIDIA cuDSS into their tools to transform workflows for their end customers:\nApplied Materials: With cuDSS, Applied Materials accelerated sparse solves in Ginestra, its physics-based, defect-centric simulation platform, by up to 10x versus CPU-only approaches, speeding exploration of semiconductor materials and device reliability.\nCOMSOL: Using COMSOL Multiphysics with NVIDIA cuDSS on NVIDIA accelerated computing, ZEISS SMT achieved a measured 4x speedup in an EUV lithography plasma simulation benchmark, completing the full simulation in six days and 14 hours.\nCadence: Uses cuDSS in its Celsius software to accelerate simulations of heat, structural stress and warpage in advanced chips and 3D chip designs, helping customers including Nokia analyze complex designs faster.\nDassault Systèmes: Dassault Systèmes reports an 8-10x speedup using cuDSS within its Abaqus structural and computer simulation technology electromagnetic solvers for performance-critical simulations across industries.\nSiemens: Siemens uses cuDSS in Simcenter STAR-CCM+ to accelerate simulations of structures in fluid-structure interaction workflows.\nSynopsys: Synopsys uses cuDSS in its Sentaurus Device simulator tool to accelerate simulations of advanced logic, memory and power chips, helping Infineon model increasingly complex devices faster.\nAccelerated Simulation at Scale\nAs simulation workloads grow in size and complexity, cuDSS can scale out of the box from individual workstations to large computing clusters.\nDevelopers can integrate cuDSS into existing engineering, scientific and optimization software offerings, bringing GPU acceleration to tools already used by engineers and researchers. They can use cuDSS through C, C++,  Python and Fortran interfaces.\nLearn more about cuDSS by visiting the NVIDIA demo booth and Dassault Systèmes booth at GTC Berlin.\nFeatured image courtesy of Dassault Systèmes.\nRead All NVIDIA in Europe Announcements",
+  "published_at": "2026-10-21T10:30:25+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b2b697f42a42e82a6010",
+  "source_id": "nvidia-blog",
+  "source_name": "NVIDIA Blog",
+  "section": 5,
+  "raw_path": "raw/2026-10-22/ce9a446f801c0d4cce7f0e1264197eb9777b653d90c79cf2c0fafa6f094a414a.body",
+  "source_sha256": "ce9a446f801c0d4cce7f0e1264197eb9777b653d90c79cf2c0fafa6f094a414a",
+  "fetched_at": "2026-10-21T22:05:22.306274+00:00"
+}

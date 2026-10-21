@@ -2,6 +2,24 @@
 # sources 指向 data/sources.yaml 的来源 ID；browser 列出 HTTP 采集不可用、需要用浏览器
 # 打开核查的入口；channels 记录首发渠道（多为公众号或社交平台），只能经媒体与检索发现。
 companies:
+- id: arda
+  name: Arda / Arda Industries
+  region: US (website/portfolio disclosure; legal domicile unverified)
+  urls: [https://arda.ai/, https://www.accel.com/news/our-investment-in-arda]
+  sources: [arda]
+  browser: [https://arda.ai/]
+  tracking_since: '2026-10-21'
+  source_page: reference/entities/arda.md
+  note: 官网与Accel核对Bob McGrew与制造软件；USD230M为投资方累计融资披露，非单轮、估值或收入。
+- id: firefly
+  name: Firefly / physical safety AI
+  region: US (announcement dateline; legal domicile unverified)
+  urls: [https://firefly.co/insights/firefly-series-a]
+  sources: [firefly]
+  browser: [https://firefly.co/insights/firefly-series-a]
+  tracking_since: '2026-10-21'
+  source_page: reference/entities/firefly-physical-safety.md
+  note: 官网核对James Batt Buckley、Alex Penn与实体安全平台；不混同航天/云管理同名公司，USD20M A轮为公司披露。
 - id: tenstorrent
   name: Tenstorrent / Galaxy / TT-Ascalon / Tensix
   region: US (company disclosure; legal domicile unverified)

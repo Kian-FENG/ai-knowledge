@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-21/texas-instruments-forecast-tops-estimates-after-demand-picks-up",
+  "title": "Texas Instruments Gives Sales Forecast That Tops Estimates",
+  "text": "Texas Instruments Inc., the biggest maker of analog and embedded processing chips, gave a strong revenue forecast for the current period, lifted by demand from automotive and industrial customers.",
+  "published_at": "2026-10-21T20:03:19+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0e34ced9d884fd824d97",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/ab9963e59b968f3f35da677b29644c44892513f64597a6c9a2e509c565c28152.body",
+  "source_sha256": "ab9963e59b968f3f35da677b29644c44892513f64597a6c9a2e509c565c28152",
+  "fetched_at": "2026-10-21T22:05:39.574448+00:00"
+}

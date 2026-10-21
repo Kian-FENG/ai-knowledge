@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-22/fd4e7bf89a523fafc34675d28631e70d8f575be830210fd460cfa530a1b8e2d6.body",
+  "sha256": "fd4e7bf89a523fafc34675d28631e70d8f575be830210fd460cfa530a1b8e2d6",
+  "source_url": "https://firefly.co/insights/firefly-series-a",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-21T22:08:05.162460+00:00",
+  "source_id": "firefly",
+  "status": 200,
+  "headers": {
+    "Age": "0",
+    "Cache-Control": "private, no-cache, no-store, max-age=0, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Wed, 21 Oct 2026 22:08:06 GMT",
+    "Link": "</_next/static/media/184eb68df66fab56-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/3c9648a51cc8b9c0-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/67fda7c6597dc2d5-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/d109b27dd1cd7a0e-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/ec10966dde464df8-s.p.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/css/c207d32fc3df18f0.css?dpl=dpl_2J1M1UDoJdJnLohEpcNxRnyjRzMN>; rel=preload; as=\"style\", </_next/static/css/0e4022bbc976a233.css?dpl=dpl_2J1M1UDoJdJnLohEpcNxRnyjRzMN>; rel=preload; as=\"style\"",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "X-Matched-Path": "/insights/[slug]",
+    "X-Powered-By": "Next.js",
+    "X-Vercel-Cache": "MISS",
+    "X-Vercel-Id": "sfo1::iad1::fxwsq-1792620486210-71114f19c2d8",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://firefly.co/insights/firefly-series-a",
+  "truncated": false,
+  "charset": "utf-8"
+}

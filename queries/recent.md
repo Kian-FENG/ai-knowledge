@@ -2,6 +2,23 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-21
+
+- `entity` [[reference/entities/arda|Arda]]
+- `entity` [[reference/entities/firefly-physical-safety|Firefly]]
+- `paper` [[reference/papers/koi-261024355|Koi用语言模型提出集群计划，再由确定性组件约束评分与放置]]
+- `paper` [[reference/papers/kvcompass-261024179|KVCompass提出跨地域前缀缓存发现平面，区分缓存身份与动态位置]]
+- `source` [[reference/sources/arda-launch-20261020|Arda公开亮相，Accel披露累计融资2.30亿美元]]
+- `source` [[reference/sources/chatgpt-locked-chats-20261020|ChatGPT开始逐步推送锁定聊天，以账户PIN或设备认证隐藏会话]]
+- `source` [[reference/sources/deepinfer-open-code-20261020|DeepSeek公开DeepInfer代码，离线引擎与完整在线服务仍有明确边界]]
+- `source` [[reference/sources/firefly-series-a-20261020|Firefly披露2000万美元A轮，将安全摄像头、对讲机与传感器接入同一平台]]
+- `source` [[reference/sources/grok-incident-operations-20261020|Grok Bot披露工单监测与经人工批准的批量处置工作流]]
+- `source` [[reference/sources/llmd-10-20261020|llm-d 1.0把会话路由、流量公平与分离升级纳入同一集群服务栈]]
+- `source` [[reference/sources/rtx5500-orders-reported-20261020|路透称三家中国平台订购逾350亿美元RTX PRO 5500，订单不等于交付]]
+- `source` [[reference/sources/sglang-omni-interaction-20261020|SGLang Omni将持续交互纳入图与会话运行时，保留不同语音架构的取舍]]
+- `source` [[reference/sources/torchtpu-open-source-20261020|TorchTPU开放原生PyTorch后端，vLLM插件明确区分推荐与实验硬件]]
+- `note` [[research/synthesis/agent-serving-state-and-portability-20261020|Agent服务竞争同时转向状态连续性与硬件可迁移性]]
+
 ## 2026-10-20
 
 - `entity` [[reference/entities/orchestra-bio|Orchestra Bio：已被OpenAI收购的药物研发协调平台]]

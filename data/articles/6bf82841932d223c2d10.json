@@ -1,0 +1,18 @@
+{
+  "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering/",
+  "title": "Mistral Advances AI for Engineering with NVIDIA",
+  "text": "Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.",
+  "published_at": "2026-10-21T12:00:20+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6bf82841932d223c2d10",
+  "source_id": "mistral",
+  "source_name": "Mistral AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/e4170ee032eed649fa5f8dea4c9f7d71a26854150d36bea75bbb51ec117cd30d.body",
+  "source_sha256": "e4170ee032eed649fa5f8dea4c9f7d71a26854150d36bea75bbb51ec117cd30d",
+  "fetched_at": "2026-10-21T22:05:19.413776+00:00"
+}

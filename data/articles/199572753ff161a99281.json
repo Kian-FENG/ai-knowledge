@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/nvidia-put-170-billion-line-neoclouds",
+  "title": "Nvidia Has Put More Than $170 Billion on the Line for Neoclouds",
+  "text": "Nvidia has become something of a central bank for companies expanding the market for its chips beyond tech giants, backstopping customers and demand. But as Nvidia-backed cloud firms come under pressure, the question is how much further it will go.\nThe chipmaker has already disclosed as much as $164.5 billion in guarantees and other commitments to support new data centers, including agreements to pay landlords if tenants default on leases and promises to buy capacity, filings show, as of the company’s July quarter. That’s on top of more than $7 billion it has invested or agreed to invest directly in AI cloud providers.",
+  "published_at": "2026-10-20T22:09:51+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T00:07:16+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "199572753ff161a99281",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9.body",
+  "source_sha256": "e1904105b5ec5372f4e8fe6e6e9a7971977128a074a1d20693baa2bc139195e9",
+  "fetched_at": "2026-10-21T22:05:37.799727+00:00"
+}

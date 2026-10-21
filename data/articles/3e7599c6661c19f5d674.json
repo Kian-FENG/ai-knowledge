@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-21-humming",
+  "title": "Announcing Humming: Fast, Flexible Kernels for Quantized InferenceOct 21, 2026·19 min readIntroducing Humming, a quantized inference kernel library from Ant Group and the vLLM community, with broad GP",
+  "link_text": "Announcing Humming: Fast, Flexible Kernels for Quantized InferenceOct 21, 2026·19 min readIntroducing Humming, a quantized inference kernel library from Ant Group and the vLLM community, with broad GP",
+  "id": "3e7599c6661c19f5d674",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-22/0820186619941b1d2714e296abe9ed5e958f46f6bb8849d0278450b7cdbc4a6f.body",
+  "source_sha256": "0820186619941b1d2714e296abe9ed5e958f46f6bb8849d0278450b7cdbc4a6f",
+  "fetched_at": "2026-10-21T22:05:26.519569+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-21T22:05:26.519569+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

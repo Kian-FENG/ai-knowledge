@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159389.htm",
+  "title": "AMD炮轰TOPS指标过时！物理AI要的是毫秒级保命 不是跑分",
+  "text": "快科技10月21日消息，据报道，AMD自适应与嵌入式计算集团高级副总裁兼总经理Salil Raje近日在官方博客中公开批评，传统的AI芯片跑分指标（如TOPS）已无法充分衡量物理AI系统的真实性能。\n因为物理AI面临的是真实物理世界的严苛约束，纸面上的峰值算力并不等同于实际执行能力。对于机器人制造商而言，最需要是将先进模型与在规定时限内精确执行计算结果的实时控制能力相结合。\n在传统AI领域，业界习惯用TOPS等跑分数据来衡量芯片性能，但Raje指出，这套评价体系在物理AI时代已经失效。物理AI要求机器人在真实环境中感知、推理并执行物理动作。\n如果AI模型算得再快，却因数据搬运或调度延迟错过了毫秒级的控制窗口，结果不是卡顿，而是碰撞和翻车。因此，平均延迟远远不够，跑分高不代表不会出事，系统必须抑制延迟抖动和最大延迟。\n为应对这一挑战，AMD提出了仿生异构架构，将机器人比作人体。\n大脑负责感知与推理，由锐龙AI嵌入式X100系列处理器的Kria AI模块承担；脊椎负责确定性通信与整合，由Versal自适应SoC充当；关节的精密运动控制交给Zynq SoC；传感器的一级处理则由Spartan FPGA完成。\n不同任务交给最适合的计算引擎，从而突破带宽、功耗和延迟的瓶颈。\n据AMD引用的第三方测试，Kria AI SOM实现了低于0.1秒的AI推理时间，并支持每秒8000次控制决策。在开放导航基准测试中，锐龙AI嵌入式配置的控制时序可靠性最高达到英伟达Jetson T5000的3.4倍，可用算力余量多1.6倍，同时运行的自主智能体数量最高多2.3倍。\nFoundation Robotics与Generative Bionics已采用该方案设计产品。从堆算力跑分到保实时控制，物理AI的竞争规则正在被重新书写。",
+  "published_at": "2026-10-21T17:00:23+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "efa1c96d1c479f4d3b3b",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1.body",
+  "source_sha256": "8f8f60244588419b7561927308b913200fc47b78d5fbf0a3cc6cd1ebb5dbf0a1",
+  "fetched_at": "2026-10-21T22:05:47.277608+00:00"
+}

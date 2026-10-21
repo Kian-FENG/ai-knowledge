@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/21/business/gm-ai-electric-vehicles-china.html",
+  "title": "GM Aims to Bring ‘Eyes-Off’ Driving to AI-Powered Cars Within 2 Years",
+  "text": "General Motors is seeking help from artificial intelligence to keep up with Chinese companies that introduce vehicles very quickly.",
+  "published_at": "2026-10-21T18:23:52+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c86f436dc3f260d430e9",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/3c277cd36c6bb471063b890413a1c074b09a7ec5d9904d33c479b59a646c81d5.body",
+  "source_sha256": "3c277cd36c6bb471063b890413a1c074b09a7ec5d9904d33c479b59a646c81d5",
+  "fetched_at": "2026-10-21T22:05:38.388339+00:00"
+}

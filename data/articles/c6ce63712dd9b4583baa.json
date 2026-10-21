@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/nvidias-dsx-pod-could-cut-ai-data-center-setup-from-six-months-to-as-little-as-14-days/",
+  "title": "Nvidia's DSX POD could cut AI data center setup from six months to as little as 14 days",
+  "text": "Nvidia wants AI data centers to ship fully preassembled in containers.\nThe article Nvidia's DSX POD could cut AI data center setup from six months to as little as 14 days appeared first on The Decoder.",
+  "published_at": "2026-10-21T13:42:05+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c6ce63712dd9b4583baa",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/68567d519ad0effb999196e59c6e8c920935a6877113a681877a9d4c03e73863.body",
+  "source_sha256": "68567d519ad0effb999196e59c6e8c920935a6877113a681877a9d4c03e73863",
+  "fetched_at": "2026-10-21T22:05:37.783601+00:00"
+}

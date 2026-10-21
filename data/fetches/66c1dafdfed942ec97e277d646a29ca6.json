@@ -1,0 +1,30 @@
+{
+  "raw_path": "raw/2026-10-22/4f9a0d250427143aa989b2610e35eccf6875a6436ac2290d9433b9eed2b19880.body",
+  "sha256": "4f9a0d250427143aa989b2610e35eccf6875a6436ac2290d9433b9eed2b19880",
+  "source_url": "https://arda.ai/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-21T22:08:08.589302+00:00",
+  "source_id": "arda",
+  "status": 200,
+  "headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Content-Length": "45912",
+    "Content-Type": "text/html",
+    "Date": "Wed, 21 Oct 2026 22:08:10 GMT",
+    "Etag": "\"4c9606c3c398570f6016932168d07230\"",
+    "Framer-Site-Id": "9b8c5f9f6168735fe91e11c4359e20fec7807009b625d980211a4890a7c374bd",
+    "Last-Modified": "Tue, 20 Oct 2026 18:02:43 GMT",
+    "Link": "<https://framerusercontent.com>; rel=\"preconnect\", <https://framerusercontent.com>; rel=\"preconnect\"; crossorigin=\"\"",
+    "Server": "Framer/24ab00f",
+    "Server-Timing": "region;desc=\"us-west-2\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"24ab00f\", instance;desc=\"9424099\", route;dur=1;desc=\"id=augiA20Il&locale=default\", country;desc=\"US\", ss-only-routes",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Accept-Encoding, Accept",
+    "X-Content-Type-Options": "nosniff",
+    "Connection": "close"
+  },
+  "final_url": "https://arda.ai/",
+  "truncated": false,
+  "charset": "utf-8"
+}

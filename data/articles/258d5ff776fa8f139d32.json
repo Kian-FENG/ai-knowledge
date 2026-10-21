@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+  "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+  "text": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web.\nThe AI agent is built around Claude Opus 5.5. Here's Anthropic's description of what it can do:\nEach morning, it sends you a short brief on the most important items across your connected apps. Throughout the day, it keeps tabs on those apps and messages you only when something needs your attention. You can also hand it tasks of a …\nRead the full story at The Verge.",
+  "published_at": "2026-10-21T15:53:20-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T15:54:52-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "258d5ff776fa8f139d32",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-22/33140708b3f4d95d3c7ca705cd3c8fddc4044c0a055520d72d3b70580e25d326.body",
+  "source_sha256": "33140708b3f4d95d3c7ca705cd3c8fddc4044c0a055520d72d3b70580e25d326",
+  "fetched_at": "2026-10-21T22:05:37.118184+00:00"
+}
