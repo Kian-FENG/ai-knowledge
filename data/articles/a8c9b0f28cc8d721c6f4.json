@@ -1,0 +1,19 @@
+{
+  "url": "https://artificialanalysis.ai/changelog",
+  "title": "Artificial Analysis Changelog：页面内容变化",
+  "summary": "+22 Oct 2026\n+New language model evaluation results available\n+Ling 3.1 Flash 1019\n+Intelligence Index: 44\n+InclusionAI performance results now available\n+Ling 3.1 Flash 1019\n+LithosAI performance results now available\n+DeepSeek V4.1 Flash 1017 (Max)DeepSeek V4.1 Flash 1017 (Max)DeepSeek V4.1 Flash 1017 (Max)DeepSeek V4.1 Flash 1017 (Max)\n+DigitalOcean performance results now available\n+Beam 1.0\n-Novita performance results now available\n-MiMo-V2.6-ProMiMo-V2.6-Flash\n-01 Sept 2026\n-🔔 New article published\n-Claude Fable 5.1 tops the Artificial Analysis Intelligence Index\n-Anthropic's new frontier model scores 66 at max effort and leads on agentic knowledge work, but the 75% cache read price cut only partly offsets higher token usage\n-New language model evaluation results available\n-Claude Fable 5.1 (High, Default Fallback)\n-Intelligence Index: 51\n-New language model evaluation results available\n-Claude Fable 5.1 (Xhigh, Default Fallback)\n-Intelligence Index: 53\n-New language model evaluation results available\n-Claude Fable 5.1 (Medium, Default Fallback)\n-Intelligence Index: 49\n-New language model evaluation results available\n-Claude Fable 5.1 (Low, Default Fallback)\n-Intelligence Index: 47\n-New language model evaluation results available\n-Claude Fable 5.1 (Max, Default Fallback)\n-Intelligence Index: 53\n-DigitalOcean performance results now available\n-GLM-5.3-FlashGLM-5.3 (Max)",
+  "id": "a8c9b0f28cc8d721c6f4",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "artificial-analysis-changelog",
+  "source_name": "Artificial Analysis Changelog",
+  "section": 2,
+  "raw_path": "raw/2026-10-23/7b8c3677e5528eb4a0d3a8337c6ff14a7ff48c6efc955385acf068e444a51fba.body",
+  "source_sha256": "7b8c3677e5528eb4a0d3a8337c6ff14a7ff48c6efc955385acf068e444a51fba",
+  "fetched_at": "2026-10-22T22:00:25.112173+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-22T22:00:25.112173+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159808.htm",
+  "title": "NS2也被破解了！惨无人道 任天堂还是没防住",
+  "text": "近日，继PS5 14.20固件火速被破解之后，任天堂Switch 2也惨被破解。\n据悉，名为ns2jb的漏洞已经对外公布，该方案是纯软件、需要连线的越狱，面向当前最新的23.0.1版本固件，无需焊接改机芯片。\n开发者借助SmileBASIC 4里的整型溢出漏洞作为突破口，一步步拿下文件系统模块权限，最终实现任意原生代码执行。\n利用该漏洞，玩家可以运行自制程序、修改游戏、备份存档，还能够直接调用主机大部分外设硬件。\n团队也已经使用该漏洞对《马里奥卡丁车世界》进行了MOD修改演示。\n目前，该项目代码已经上传至Gitlab，不过它属于有线tethered越狱，重启主机之后需要重新执行漏洞。",
+  "published_at": "2026-10-22T22:45:04+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "cebc19f6963743886eba",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c.body",
+  "source_sha256": "d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c",
+  "fetched_at": "2026-10-22T22:00:48.253488+00:00"
+}

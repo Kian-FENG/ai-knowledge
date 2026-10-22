@@ -1,7 +1,7 @@
 {
   "url": "https://mistral.ai/news/voxtral-3/",
   "title": "Voxtral 3",
-  "text": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.",
+  "text": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages, accurate transcription, emotional TTS, deep tool use.",
   "published_at": "2026-10-20T12:00:22+00:00",
   "announced_at": null,
   "updated_at": null,
@@ -12,7 +12,7 @@
   "source_id": "mistral",
   "source_name": "Mistral AI",
   "section": 1,
-  "raw_path": "raw/2026-10-21/6dfedbedddf7ce55e0ec8a18e6a6e6cb15dab7aa9b3166668daeb9bfa32c0c2d.body",
-  "source_sha256": "6dfedbedddf7ce55e0ec8a18e6a6e6cb15dab7aa9b3166668daeb9bfa32c0c2d",
-  "fetched_at": "2026-10-20T22:02:20.469311+00:00"
+  "raw_path": "raw/2026-10-23/976f5bc715a612df94bd9e83791fdf91b9b2b1cd5728178107867de002517b84.body",
+  "source_sha256": "976f5bc715a612df94bd9e83791fdf91b9b2b1cd5728178107867de002517b84",
+  "fetched_at": "2026-10-22T22:00:14.796567+00:00"
 }

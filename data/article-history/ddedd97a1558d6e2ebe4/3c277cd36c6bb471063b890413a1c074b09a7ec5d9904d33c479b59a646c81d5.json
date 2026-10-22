@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/21/technology/anthropic-ai-agent-claude-duet.html",
+  "title": "Anthropic Joins the A.I. Agent Race With Claude Duet",
+  "text": "The tool, which is not yet widely available, will compete with OpenAI’s dots and Meta’s Muse. It is built for work and not personal errands.",
+  "published_at": "2026-10-21T20:41:01+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ddedd97a1558d6e2ebe4",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-22/3c277cd36c6bb471063b890413a1c074b09a7ec5d9904d33c479b59a646c81d5.body",
+  "source_sha256": "3c277cd36c6bb471063b890413a1c074b09a7ec5d9904d33c479b59a646c81d5",
+  "fetched_at": "2026-10-21T22:05:38.388339+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+  "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
+  "text": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [language] that would let Meta scrape entire sites,\" James Grimmelmann, a professor of digital and information law at Cornell Law School, tells Nieman Lab.\nInitially, Meta's new terms for business accounts appeared to give the company permission to train its AI on news sites. The terms, which go into effect October 30th, stated that Meta \"may use any  …\nRead the full story at The Verge.",
+  "published_at": "2026-10-22T16:32:05-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T16:32:05-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "32b3170e24109d9a6879",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-23/354037668354a7fdbccceaef0698b1984eb9857bb57a45cf4e0d038241cca48b.body",
+  "source_sha256": "354037668354a7fdbccceaef0698b1984eb9857bb57a45cf4e0d038241cca48b",
+  "fetched_at": "2026-10-22T22:00:31.257206+00:00"
+}

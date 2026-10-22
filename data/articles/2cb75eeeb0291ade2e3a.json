@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.29319",
+  "title": "OSynth: A Longitudinal, Context-Sensitive Evaluation of Meeting Understanding",
+  "text": "arXiv:2610.29319v1 Announce Type: new\nAbstract: Meeting notetakers are increasingly deployed in settings where longitudinal context is available including calendar metadata, prior meetings, emails, slides, and speaker enrollments; however, meeting corpora remain limited in terms of size, domain coverage, and available context. We present OSynth, a large-scale synthetic dataset of simulated organizations comprising 570 hours of meeting audio together with associated artifacts and a latent ground-truth state. In a pairwise comparison, human raters distinguish OSynth meetings from real meeting transcripts with only 56% accuracy based on excerpts of 150-300 words. Across state-of-the-art LLMs, additional context yields significant gains on several entity-sensitive dimensions, demonstrating limitations of contemporary approaches and the potential usefulness of OSynth in developing better-contextualized meeting-understanding systems.",
+  "published_at": null,
+  "announced_at": "2026-10-22T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "2cb75eeeb0291ade2e3a",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-23/e4a342cf3284123fee89388a7421ab292865d7dcb1aea749884ab1174fcc1848.body",
+  "source_sha256": "e4a342cf3284123fee89388a7421ab292865d7dcb1aea749884ab1174fcc1848",
+  "fetched_at": "2026-10-22T22:00:22.348797+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+  "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+  "text": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+  "published_at": "2026-10-22T19:07:09+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "264af0525447e45c75f4",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/2ee82d200701dde8f0d93376d55235d2f34e114eb28998fa9ddb00ea36e38bc6.body",
+  "source_sha256": "2ee82d200701dde8f0d93376d55235d2f34e114eb28998fa9ddb00ea36e38bc6",
+  "fetched_at": "2026-10-22T22:00:29.713963+00:00"
+}

@@ -2,6 +2,24 @@
 # sources 指向 data/sources.yaml 的来源 ID；browser 列出 HTTP 采集不可用、需要用浏览器
 # 打开核查的入口；channels 记录首发渠道（多为公众号或社交平台），只能经媒体与检索发现。
 companies:
+- id: recursive
+  name: Recursive / Flint / Eureka Machine
+  region: US (website disclosure; legal domicile unverified)
+  urls: [https://recursive.com/, https://recursive.com/updates/introducing-recursive-flint]
+  sources: [recursive]
+  browser: [https://recursive.com/updates]
+  tracking_since: '2026-10-22'
+  source_page: reference/entities/recursive.md
+  note: 官网页尾Recursive Superintelligence, Inc.与RecursiveSI模型卡相互支持产品归属；新跟踪不是本期成立，RSI效果为厂商披露。
+- id: blacksmith
+  name: Blacksmith / CI cloud
+  region: US (website disclosure; legal domicile unverified)
+  urls: [https://www.blacksmith.sh/blog/series-c]
+  sources: [blacksmith]
+  browser: [https://www.blacksmith.sh/blog]
+  tracking_since: '2026-10-22'
+  source_page: reference/entities/blacksmith.md
+  note: 官网页尾Blacksmith Software Inc及CEO署名核对CI云身份；累计融资USD125M、估值USD1B、ARR倍数不混同。
 - id: arda
   name: Arda / Arda Industries
   region: US (website/portfolio disclosure; legal domicile unverified)
@@ -190,6 +208,7 @@ companies:
   urls:
   - https://www.anthropic.com/news
   - https://www.anthropic.com/research
+  - https://claude.com/resources/product-announcements
   sources: [anthropic, anthropic-research, anthropic-sitemap]
   note: 威胁情报报告、事件评估等页面可能不在 Newsroom，由站点地图发现新 URL
 - id: deepseek

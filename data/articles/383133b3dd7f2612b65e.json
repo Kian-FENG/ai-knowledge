@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/openai-asks-gov-newsom-strengthen-ai-regulations",
+  "title": "OpenAI Asks Gov. Newsom to Strengthen AI Regulations",
+  "text": "OpenAI would support requirements for AI companies to have shutdown controls for their models, mandated annual independent audits, and stronger cybersecurity practices, a senior company official wrote in a letter to California Gov. Gavin Newsom.\nOpenAI “would recommend strengthening SB53,” ...",
+  "published_at": "2026-10-21T23:32:08+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T10:34:26+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "383133b3dd7f2612b65e",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec.body",
+  "source_sha256": "16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec",
+  "fetched_at": "2026-10-22T22:00:31.374399+00:00"
+}

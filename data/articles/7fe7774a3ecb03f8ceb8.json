@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+  "title": "Discord now formats Markdown previews right",
+  "text": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company. LLMs and AI agents often rely on Markdown files for instructions and context, so these improved previews could be helpful for people sharing information about AI projects on the platform.\n\"When you upload a Markdown (.md) file, you'll now see the file rendered all nice and neat and pretty instead of with a bunch of symbols,\" Discord says. \"This includes tables, formatting, all that good stuff. Totally great for when you're doing a casual Sunday-night sharing READ …\nRead the full story at The Verge.",
+  "published_at": "2026-10-22T14:58:19-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T14:58:19-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7fe7774a3ecb03f8ceb8",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-23/354037668354a7fdbccceaef0698b1984eb9857bb57a45cf4e0d038241cca48b.body",
+  "source_sha256": "354037668354a7fdbccceaef0698b1984eb9857bb57a45cf4e0d038241cca48b",
+  "fetched_at": "2026-10-22T22:00:31.257206+00:00"
+}

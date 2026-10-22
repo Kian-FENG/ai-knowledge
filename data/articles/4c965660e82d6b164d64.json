@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.28710",
+  "title": "Translation and data ethics",
+  "text": "arXiv:2610.28710v1 Announce Type: new\nAbstract: This chapter introduces data ethics for translation and discusses a number of ethical issues regarding data. These include issues of copyright, ownership and bias, which apply to all types of data, whereas there are further issues particular to minoritised language communities and those on either side of the digital divide, as data is implicated in power imbalances and dynamics. We close with a discussion of responsibility and regulation, and reflect on the growing attention on data ethics from translation studies researchers.",
+  "published_at": null,
+  "announced_at": "2026-10-22T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "4c965660e82d6b164d64",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-23/e4a342cf3284123fee89388a7421ab292865d7dcb1aea749884ab1174fcc1848.body",
+  "source_sha256": "e4a342cf3284123fee89388a7421ab292865d7dcb1aea749884ab1174fcc1848",
+  "fetched_at": "2026-10-22T22:00:22.348797+00:00"
+}

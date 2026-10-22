@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/microsoft-warns-chinese-state-linked-cyberattacks-powered-ai-agent",
+  "title": "Microsoft Warns of Chinese State-Linked Cyberattacks Powered by AI Agent",
+  "text": "Microsoft said it has observed cyberattacks by a Chinese state-aligned actor known as Storm-0940 that used a Chinese AI agent called Artex to automate the attacks targeting hundreds of organizations globally across a wide range of industries.\nThe attacks took place as early as September. In ...",
+  "published_at": "2026-10-22T00:41:28+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T10:34:26+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5d14a7003b6fe7148186",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec.body",
+  "source_sha256": "16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec",
+  "fetched_at": "2026-10-22T22:00:31.374399+00:00"
+}

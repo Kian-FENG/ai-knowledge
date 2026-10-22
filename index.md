@@ -116,3 +116,5 @@
 ## 2026-10-18补报研究
 
 [[research/synthesis/agent-total-cost-and-delivery-20261017|10月17日日报与10月16日周报知识增量]]
+
+- [[research/synthesis/agent-distribution-attention-and-delivery-20261021|Agent竞争连接采购分发、注意力管理和可验收交付]]（2026-10-21日报综合）

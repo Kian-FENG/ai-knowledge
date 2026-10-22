@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/datadog-offered-buy-security-startup-upwind-nearly-4-billion",
+  "title": "Datadog Offered $4 Billion to Buy Cloud Security Startup ‘Upwind’",
+  "text": "Enterprise software firm Datadog recently offered to buy Israeli cloud cybersecurity startup Upwind Security for nearly $4 billion, according to someone with direct knowledge of the talks, the latest sign of white-hot interest in such firms.\nUpwind has fielded other takeover attempts from multiple bidders in recent months but hasn’t accepted any offers. It is finalizing a $300 million funding round at a roughly $3.8 billion valuation, meaning the Datadog offer doesn’t carry much of a premium over the private valuation, said two people with knowledge of the situation. The startup sells software to keep tabs on applications, including so-called AI agents, that run in the cloud and to detect and automatically respond to potential evidence of hacks or breaches.",
+  "published_at": "2026-10-22T17:27:13+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T17:53:27+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9634db27acdf2193854d",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec.body",
+  "source_sha256": "16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec",
+  "fetched_at": "2026-10-22T22:00:31.374399+00:00"
+}

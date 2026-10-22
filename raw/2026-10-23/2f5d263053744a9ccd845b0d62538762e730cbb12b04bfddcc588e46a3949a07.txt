@@ -1,0 +1,107 @@
+Browser-tool extracted source (not raw HTTP). URL and original line positions retained.
+Building the CI cloud: our Series C | Blacksmith (https://www.blacksmith.sh/blog/series-c)
+citeturn35view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.blacksmith.sh/blog/series-c","lineno":null}); Total lines: 103
+L0: MENU
+L1: 
+L2: Close
+L3: 
+L4: 【0†LOG IN†app.blacksmith.sh】
+L5: 
+L6: [
+L7: 
+L8: Oct 21, 2026
+L9: 
+L10:  ]
+L11: # Building the CI cloud: our Series C
+L12: 
+L13: 【1†Image†cdn.sanity.io】
+L14: 
+L15: Aditya Jayaprakash
+L16: 
+L17: Co-founder, CEO
+L18: 
+L19: TL;DR
+L20: 
+L21: Sequoia is leading our Series C at a $1B valuation to scale the CI cloud.
+L22: 
+L23: Get started!
+L24: 
+L25: 【0†Try us Free†app.blacksmith.sh】
+L26: 
+L27: Writing code used to be the slow part of shipping software. It isn't anymore.
+L28: Today we are announcing our Series C, led by Sequoia Capital at a $1B valuation, with participation from Premji Invest and existing investors Peak XV Partners, GV, and Y Combinator, bringing our total raised to $125M.
+L29: Every code change still has to be built and tested before anyone merges it. That step is CI, and most companies are struggling to keep up with the volume of CI they need to run. Anthropic 【2†wrote†claude.com】 last month that its CI job volume grew 25x in six months as Claude took over most of its code output. They’re further along the adoption curve, but we’re seeing the same trend across our customers, and expect many to reach that point soon.
+L30: As agents write more of the world's software, the question that matters is whether it can be trusted.
+L31: Blacksmith is the CI cloud. Companies bring us their CI workloads, and we run them faster than they could anywhere else, with zero operational overhead. High-growth startups and household enterprise names are all feeling the same pain: the CI they run themselves on a general-purpose cloud has turned into an operational nightmare or simply cannot keep up with how fast their developers push. CI is the spikiest workload a company runs.
+L32: A single customer's demand regularly jumps from zero to tens of thousands of CPUs and back again, and we have spent most of the last three years building infrastructure that absorbs that as a matter of routine. We power CI for some of the fastest-moving teams in software, including Mercury, Granola, Handshake, and LangChain.
+L33: Since January, the number of CI jobs running on Blacksmith each week has grown from 5 million to more than 90 million, and our ARR has grown 17x.
+L34: 
+L35: 【3†Image†cdn.sanity.io】
+L36: 
+L37: The capital goes towards scaling our team and growing our compute footprint. Blacksmith manages just under 10 MW of compute across data centers in the U.S. and Europe today, and we are working to 5x that footprint in 2027.
+L38: Thank you to the more than 10,000 companies who trust us with their most critical workloads every day. If you’re interested in joining a highly motivated team working at break neck speed across NY and SF, check out our 【4†open roles】.
+L39: 
+L40: 【5†Image†cdn.sanity.io】
+L41: 
+L42: 【6†Copy Link】
+L43: 
+L44: / More articles
+L45: 
+L46: ■
+L47: 
+L48: 【7†Announcing Blacksmith’s Series B led by Peak XV Partners News Aug 12, 2026】
+L49: 
+L50: 【8†The GitHub Actions control plane is no longer free News Dec 16, 2025】
+L51: 
+L52: 【9†The two faces of tomorrow News Sep 18, 2025】
+L53: 【10†Image: World globe】
+L54: ### Start with 3,000 free minutes per month or book a live demo with our engineers
+L55: 
+L56: 【0†Try for free†app.blacksmith.sh】【11†Contact Our Team】
+L57: 
+L58: / Sign up for news
+L59: 
+L60: [Input: Email*]
+L61: 
+L62: [Input] [Input] [Input]
+L63: 
+L64: Thanks for subscribing!
+L65: 
+L66: Oops! Something went wrong while submitting the form.
+L67: 
+L68: / Product
+L69: 
+L70: 【12†Pricing】【13†Docs†docs.blacksmith.sh】【14†Security】【15†■ Status†status.blacksmith.sh】
+L71: 
+L72: / Resources
+L73: 
+L74: 【16†Support】【17†Customers】【18†Blog】【19†Guides】
+L75: 
+L76: / Company
+L77: 【20†About】【4†Careers】【21†Terms†docs.blacksmith.sh】【22†Privacy†docs.blacksmith.sh】【6†Cookie settings】
+L78: 
+L79: © 2026 Blacksmith Software Inc
+L80: 
+L81: 【6†Close Cookie Preference Manager】
+L82: 
+L83: Cookie settings
+L84: 
+L85: By clicking 'Accept all cookies', you agree to storing cookies on your device to enhance site navigation, analyze site usage and assist in our marketing efforts as outlined in our 【22†privacy policy†docs.blacksmith.sh】.
+L86: 
+L87: Strictly necessary (always active)
+L88: 
+L89: Cookies required to enable basic website functionality.
+L90: [Input]Marketing
+L91: 
+L92: Cookies used to deliver advertising that is more relevant to you and your interests.
+L93: 
+L94: [Input]Personalization
+L95: 
+L96: Cookies allowing the website to remember choices you make (such as your user name, language, or the region you are in).
+L97: 
+L98: [Input]Analytics
+L99: 
+L100: Cookies helping understand how this website performs, how visitors interact with the site, and whether there may be technical issues.
+L101: 
+L102: 【6†ACCEPT】【6†SAVE SETTINGS】
+

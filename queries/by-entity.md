@@ -5,6 +5,7 @@ Generated; published pages only. Do not hand-edit.
 ## company
 
 - `entity` [[reference/entities/arda|Arda]]
+- `entity` [[reference/entities/blacksmith|Blacksmith]]
 - `entity` [[reference/entities/decart|Decart：优化栈DOS与实时世界模型]]
 - `entity` [[reference/entities/firefly-physical-safety|Firefly]]
 - `entity` [[reference/entities/halluminate|Halluminate：知识工作评测与强化学习环境公司]]
@@ -17,6 +18,7 @@ Generated; published pages only. Do not hand-edit.
 - `entity` [[reference/entities/orchestra-bio|Orchestra Bio：已被OpenAI收购的药物研发协调平台]]
 - `entity` [[reference/entities/peppermint|Peppermint：AI 与人工结合的临床试验账单平台]]
 - `entity` [[reference/entities/pluto-security|Pluto Security：AI工具供应链与运行时治理]]
+- `entity` [[reference/entities/recursive|Recursive]]
 - `entity` [[reference/entities/reflection|Reflection：Beam 模型的开发者]]
 - `entity` [[reference/entities/sapiom|Sapiom：Agent执行基础设施与成本控制]]
 - `entity` [[reference/entities/semigraph|SemiGraph：3D角色与多模态AI互动]]

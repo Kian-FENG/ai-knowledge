@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.28939",
+  "title": "Koala: Non-disruptive Reconfiguration for Long-running Stateful Dataflows",
+  "text": "arXiv:2610.28939v1 Announce Type: new\nAbstract: Stateful dataflow systems must decide where state lives relative to the tasks that process it. For long-running applications that require frequent reconfiguration due to changes in resource allocation, partitioning, or task placement, this design choice presents a core trade-off between adaptability and performance. Co-locating state with computation ensures low latency at steady state but makes reconfiguration disruptive, as any change forces state migration. On the other hand, keeping state in an external store makes reconfiguration seamless, but incurs overhead on every access.\nWe present Koala, a reconfiguration protocol for distributed dataflow systems that retains the operational performance of embedded-state architectures while matching the disruption-free adaptability of external-state designs. Unlike prior protocols which relocate all state regardless of whether it will soon be accessed, Koala migrates state in a fine-grained, lazy manner. To achieve that, it employs a lightweight ownership transfer mechanism that safely decouples event routing from state location. We implement Koala in a new streaming dataflow system and evaluate it on real-world and synthetic benchmarks. When compared with the state-of-the-art protocol DRRS, Koala consumes backlog up to 23x faster and transfers 8.7x less state on average during reconfiguration.",
+  "published_at": null,
+  "announced_at": "2026-10-22T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "e0364007ed882baa0ad6",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-23/e4a342cf3284123fee89388a7421ab292865d7dcb1aea749884ab1174fcc1848.body",
+  "source_sha256": "e4a342cf3284123fee89388a7421ab292865d7dcb1aea749884ab1174fcc1848",
+  "fetched_at": "2026-10-22T22:00:22.348797+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "raw_path": "raw/2026-10-23/47079720b319003596ef2de8ad967b244e5de1d20d9fbe3a28899e1e29b262ea.body",
+  "sha256": "47079720b319003596ef2de8ad967b244e5de1d20d9fbe3a28899e1e29b262ea",
+  "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-22T22:04:15.334801+00:00",
+  "source_id": "nvidia-newsroom",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Accept-Ranges": "bytes",
+    "Date": "Thu, 22 Oct 2026 22:04:15 GMT",
+    "Content-Length": "75956",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close"
+  },
+  "final_url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+  "truncated": false,
+  "charset": "utf-8"
+}

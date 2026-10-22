@@ -1,0 +1,138 @@
+[
+  {
+    "path": "reference/sources/openai-google-cloud-20261021.md",
+    "id": "source-openai-google-cloud-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 5
+  },
+  {
+    "path": "reference/sources/claude-duet-preview-20261021.md",
+    "id": "source-claude-duet-preview-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 5
+  },
+  {
+    "path": "reference/sources/chatgpt-ads-89-countries-20261021.md",
+    "id": "source-chatgpt-ads-89-countries-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 5
+  },
+  {
+    "path": "reference/sources/claude-security-continuous-20261021.md",
+    "id": "source-claude-security-continuous-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 5
+  },
+  {
+    "path": "reference/sources/blacksmith-series-c-20261021.md",
+    "id": "source-blacksmith-series-c-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 6
+  },
+  {
+    "path": "reference/sources/recursive-flint-20261021.md",
+    "id": "source-recursive-flint-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 8
+  },
+  {
+    "path": "reference/sources/humming-quantized-inference-20261021.md",
+    "id": "source-humming-quantized-inference-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 6
+  },
+  {
+    "path": "reference/sources/patch-planet-php-coordination-20261021.md",
+    "id": "source-patch-planet-php-coordination-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 5
+  },
+  {
+    "path": "reference/sources/distributed-biological-reasoning-20261021.md",
+    "id": "source-distributed-biological-reasoning-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 5
+  },
+  {
+    "path": "reference/papers/dstill-261027379.md",
+    "id": "paper-dstill-261027379",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 5
+  },
+  {
+    "path": "reference/papers/context-compaction-261027301.md",
+    "id": "paper-context-compaction-261027301",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 5
+  },
+  {
+    "path": "reference/sources/nvidia-dsx-pod-20261021.md",
+    "id": "source-nvidia-dsx-pod-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 5
+  },
+  {
+    "path": "reference/sources/nvidia-supply-capacity-20261021.md",
+    "id": "source-nvidia-supply-capacity-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 5
+  },
+  {
+    "path": "reference/sources/google-a5x-availability-20261021.md",
+    "id": "source-google-a5x-availability-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 8
+  },
+  {
+    "path": "reference/entities/recursive.md",
+    "id": "entity-recursive",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 4
+  },
+  {
+    "path": "reference/entities/blacksmith.md",
+    "id": "entity-blacksmith",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 3
+  },
+  {
+    "path": "research/synthesis/agent-distribution-attention-and-delivery-20261021.md",
+    "id": "note-agent-distribution-attention-and-delivery-20261021",
+    "lifecycle": "published",
+    "query_visible": true,
+    "evidence_hashes": "passed",
+    "references": 35
+  }
+]

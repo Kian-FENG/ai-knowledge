@@ -1,0 +1,377 @@
+Browser-tool extracted source (not raw HTTP). URL and original line positions retained.
+Introducing Flint - Recursive (https://recursive.com/updates/introducing-recursive-flint)
+citeturn32view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://recursive.com/updates/introducing-recursive-flint","lineno":null}); Total lines: 198
+L0: 【0†Introducing Flint, a fast, intelligent model for coding locally on your laptop →】
+L1: 
+L2: 【1†Updates】
+L3: 
+L4: 【2†Join us】
+L5: 
+L6: 【0†Introducing Flint, a fast, intelligent model for coding locally on your laptop →】
+L7: 
+L8: 【1†Updates】
+L9: 
+L10: 【2†Join us】
+L11: 
+L12: 【0†Introducing Flint, a fast, intelligent model for coding locally on your laptop →】
+L13: 
+L14: ACCESS
+L15: 
+L16: CONNECT
+L17: 
+L18: 【1†Updates】
+L19: 
+L20: 【3†Home】
+L21: 
+L22: 【2†Join us】
+L23: 
+L24: 【4†X†x.com】
+L25: 
+L26: 【5†Linkedin†www.linkedin.com】
+L27: 
+L28: 【6†See open roles†jobs.ashbyhq.com】
+L29: 【0†Introducing Flint, a fast, intelligent model for coding locally on your laptop →】
+L30: 
+L31: 【1†Updates】
+L32: 
+L33: 【2†Join us】
+L34: 
+L35: 【1†Updates】
+L36: 
+L37: /
+L38: 
+L39: Introducing Flint
+L40: # Introducing Flint
+L41: 
+L42: #### Local model with the fastest inference and strongest coding performance in its class. Built with automated research.
+L43: 
+L44: 【7†Image†framerusercontent.com】
+L45: ## Introducing Flint
+L46: 
+L47: We’re introducing Recursive Flint, a mixture-of-experts (MoE) model built for fast agentic coding on local hardware. Flint has 40 billion total parameters and activates just 2.5 billion per token. Our small team of people and agents built it from scratch in under four months.
+L48: Flint leads MoE models with fewer than 50 billion total parameters on agentic coding benchmarks, including SWE-Bench Pro v2, Terminal-Bench 2.1, and SWE-Bench Verified. It also rivals the coding performance of dense models with 25–40 billion parameters, while running more than five times faster.
+L49: With our optimized inference engine, Flint generates more than 125 tokens per second on an M4 Pro MacBook Pro and more than 150 tokens per second on a 64GB NVIDIA RTX Spark at short contexts—up to twice as fast as comparable models.
+L50: Building Flint was a practical test of Recursive’s Eureka Machine, our system for large-scale automated AI research and development. Our Eureka Machine helped develop nearly every part of Flint’s model-building stack, from data and training recipes to infrastructure and inference optimization.
+L51: 
+L52: 【8†Image†framerusercontent.com】
+L53: ##### Mean score reported across Terminal-Bench 2.1, SWE-Bench Pro v2, SWE-Bench Verified, LiveCodeBench v6, IFBench, and IFEval. Speed: Average tokens/s throughout a 128k-token session. *Muse measured at 124k tokens. Prefill excluded.
+L54: ## State-of-the-art local agentic coding performance
+L55: 
+L56: Flint is the best-performing MoE model with fewer than 50 billion total parameters on agentic coding benchmarks. It rivals the strongest dense models of similar total size while running significantly faster.
+L57: 
+L58: 【9†Image†framerusercontent.com】
+L59: ##### Sampling parameters across all Flint evaluations: temperature: 1.0, top-p: 0.95, top-k: 20. (1) LiveCodeBench v6 / IFBench / IFEval: single-turn, average pass@1 across 5 attempts. (2) Agentic evaluations: agent timeouts of up to 5 hours, average pass@1 over at least 5 attempts. Terminal-Bench 2.1: Terminus 2 (XML), internet access, solutions obtained through retrieval counted as unsuccessful. SWE-Bench Pro v2 and SWE-Bench Verified: mini-swe-agent, no internet access.
+L60: Use Flint as your daily coding model for tasks you want to run locally, without sending your data to a remote server. For complex tasks, break the work into smaller subtasks and provide explicit instructions. While Flint is very capable, it may need more guidance than the larger closed-source coding models you’re used to.
+L61: 
+L62: Flint supports context windows of up to 512k tokens. For the best results on coding and other tasks, we recommend staying within 256k tokens.
+L63: To turn Flint’s computational efficiency into a faster coding experience, we optimized the entire inference stack—from how its weights are represented to the kernels that execute it on local hardware.
+L64: ## Fast inference on your local AI device
+L65: 
+L66: Flint brings strong coding capability to your own hardware, so you can work offline, keep your data on your computer, and avoid API fees.
+L67: 
+L68: With our optimized inference engine, Flint runs up to twice as fast as other models in its class on Apple Silicon and NVIDIA RTX Spark. It is also more than five times faster than dense models with 25–40 billion parameters that achieve similar coding benchmark scores.
+L69: 
+L70: 【10†Image†framerusercontent.com】
+L71: ## How we built Flint with automated research
+L72: 
+L73: Recursive’s Eureka Machine automates the full research loop: proposing ideas, implementing them, testing them, and using the results to decide what to try next. It explores multiple directions in parallel, builds on earlier experiments, and combines promising ideas. Our 【11†earlier blog post】 describes the system and its results on our initial test problems.
+L74: Our Eureka Machine contributed throughout Flint’s development, from data, optimizers, and training recipes to infrastructure and inference performance. Its discoveries helped our small team build Flint from scratch and reach state-of-the-art results on our target benchmarks in under four months.
+L75: 
+L76: Flint’s local inference speed illustrates how these contributions compound across the model-building stack.
+L77: Architecture. We started by searching for an architecture that would improve throughput on local hardware by activating fewer parameters per token. Starting from a baseline with 35 billion total parameters and 3 billion active parameters, our Eureka Machine explored different expert configurations and widths.
+L78: The resulting Flint architecture—40 billion total parameters, with 2.5 billion active per token—was projected to offer the best combination of speed and coding performance among the configurations our Eureka Machine tested.
+L79: Quantization. After training, our Eureka Machine searched for quantization recipes that shrink Flint’s memory footprint while preserving its capabilities. Against common practice, it quantized the output layer (lm_head) to 4 bits. Because Flint has only 2.5 billion active parameters, its output layer is a large share of the weights read for each token.
+L80: To recover accuracy, it added an offline distillation stage in which the quantized model trains on its own pre-sampled responses from a self-discovered coreset, with the 16-bit model as teacher. This nearly halved the number of training steps compared with our quantization-aware training baseline. The final NVFP4 model scores within 0.7 points of the 16-bit model across our benchmarks.
+L81: Kernels. Our Eureka Machine then optimized how the quantized model runs on Apple Silicon and NVIDIA RTX Spark. It produced specialized kernels for low-bit projections, MoE operations, attention, and prompt processing, tailored to the model and hardware. On M4 and M5 chips, it produced a Metal megakernel that fuses the entire decode forward pass.
+L82: Flint’s inference speed is one example of how our Eureka Machine’s improvements build on one another. We applied the same approach throughout development, combining discoveries across data, training, and infrastructure to improve the final model.
+L83: ## Running Flint
+L84: 
+L85: Flint’s weights are 【12†available on Hugging Face†huggingface.co】 under the Apache 2.0 license. Download the model, run it locally with your data kept on your device, and adapt it for your own applications.
+L86: 
+L87: Flint works with tools and frameworks including llama.cpp, Ollama, Unsloth, LM Studio, vLLM, and SGLang. We’re also releasing 【13†rec†github.com】, a lightweight inference engine optimized for Flint on M4 Pro and M5 Pro/Max, with a simple setup to get you running quickly.
+L88: See our 【14†documentation†docs.recursive.com】 for setup instructions and examples.
+L89: ## What’s next
+L90: 
+L91: Our goal at Recursive is to build recursively self-improving superintelligence to automate knowledge discovery. We’re starting with model development: building a research process that improves with each model it produces.
+L92: 
+L93: Flint is our starting point. Our small team built it from scratch in under four months, with Eureka Machine proposing ideas, implementing them, and testing whether they worked across the model-building stack.
+L94: Our bet is that more capable models can make Eureka Machine a better researcher, helping us build the next generation faster and deliver more capability for the same cost. That work will include increasingly capable local models and the infrastructure to run them, as part of a broader effort to advance AI research and development.
+L95: 
+L96: If you want to help build this future, 【15†join us†www.recursive.com】!
+L97: ## Related
+L98: 
+L99: 【11†First Steps Toward Automated AI Research Early results from Recursive’s automated AI research system on model training and GPU kernel benchmarks Jun 11, 2026】
+L100: 
+L101: 【16†Notable Researchers Join $4 Billion Effort to Build Self-Improving A.I.Recursive Superintelligence, founded by former Google, Meta and OpenAI researchers, is part of a growing effort to automate the creation of artificial intelligence.May 13, 2026†www.nytimes.com】
+L102: 【17†The Race to Superintelligence - With Richard Socher As AI’s capabilities improve, reports of “rogue” agents and misaligned systems are becoming more frequent. In response, some activists, academics, and politicians have called for a pause in development, warning of the dangers that superintelligent AI could pose. But Richard Socher, the CEO of AI startup Recursive as well as the AI search engine You.com, sees another path.
+L103: In his new book, "The Eureka Machine," Socher lays out his vision for how self-improving AI could lead to breakthroughs in science, medicine, economics, and more.Sep 9, 2026†www.youtube.com】
+L104: 【18†Image†framerusercontent.com】
+L105: 
+L106: © 2026 Recursive Superintelligence, Inc. All rights reserved.
+L107: 
+L108: ACCESS
+L109: 
+L110: 【3†Home】
+L111: 
+L112: 【1†Updates】
+L113: 
+L114: 【2†Join us】
+L115: 
+L116: CONNECT
+L117: 
+L118: 【4†X†x.com】
+L119: 
+L120: 【5†LinkedIn†www.linkedin.com】
+L121: 
+L122: 【19†Privacy Policy】
+L123: 
+L124: 【20†Terms of use】
+L125: 
+L126: 【21†Model Terms】
+L127: 
+L128: 【18†Image†framerusercontent.com】
+L129: 
+L130: © 2026 Recursive Superintelligence, Inc. All rights reserved.
+L131: 
+L132: ACCESS
+L133: 
+L134: 【3†Home】
+L135: 
+L136: 【1†Updates】
+L137: 
+L138: 【2†Join us】
+L139: 
+L140: CONNECT
+L141: 
+L142: 【4†X†x.com】
+L143: 
+L144: 【5†LinkedIn†www.linkedin.com】
+L145: 
+L146: 【19†Privacy Policy】
+L147: 
+L148: 【20†Terms of use】
+L149: 
+L150: 【21†Model Terms】
+L151: 【18†Image†framerusercontent.com】
+L152: 
+L153: © 2026 Recursive Superintelligence, Inc. All rights reserved.
+L154: 
+L155: ACCESS
+L156: 
+L157: 【3†Home】
+L158: 
+L159: 【1†Updates】
+L160: 
+L161: 【2†Join us】
+L162: 
+L163: CONNECT
+L164: 
+L165: 【4†X†x.com】
+L166: 
+L167: 【5†LinkedIn†www.linkedin.com】
+L168: 
+L169: 【19†Privacy Policy】
+L170: 
+L171: 【20†Terms of use】
+L172: 
+L173: 【21†Model Terms】
+L174: 
+L175: 【18†Image†framerusercontent.com】
+L176: 
+L177: © 2026 Recursive Superintelligence, Inc. All rights reserved.
+L178: 
+L179: ACCESS
+L180: 
+L181: 【3†Home】
+L182: 
+L183: 【1†Updates】
+L184: 
+L185: 【2†Join us】
+L186: 
+L187: CONNECT
+L188: 
+L189: 【4†X†x.com】
+L190: 
+L191: 【5†LinkedIn†www.linkedin.com】
+L192: 
+L193: 【19†Privacy Policy】
+L194: 
+L195: 【20†Terms of use】
+L196: 
+L197: 【21†Model Terms】
+
+
+Release date located in official updates index (not inferred from collection time):
+Recursive (https://recursive.com/updates)
+citeturn24view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://recursive.com/updates","lineno":null}); Total lines: 171
+L0: 【0†Introducing Flint, a fast, intelligent model for coding locally on your laptop →】
+L1: 
+L2: 【1†Updates】
+L3: 
+L4: 【2†Join us】
+L5: 
+L6: 【0†Introducing Flint, a fast, intelligent model for coding locally on your laptop →】
+L7: 
+L8: 【1†Updates】
+L9: 
+L10: 【2†Join us】
+L11: 
+L12: 【0†Introducing Flint, a fast, intelligent model for coding locally on your laptop →】
+L13: 
+L14: ACCESS
+L15: 
+L16: CONNECT
+L17: 
+L18: 【1†Updates】
+L19: 
+L20: 【3†Home】
+L21: 
+L22: 【2†Join us】
+L23: 
+L24: 【4†X†x.com】
+L25: 
+L26: 【5†Linkedin†www.linkedin.com】
+L27: 
+L28: 【6†See open roles†jobs.ashbyhq.com】
+L29: 【0†Introducing Flint, a fast, intelligent model for coding locally on your laptop →】
+L30: 
+L31: 【1†Updates】
+L32: 
+L33: 【2†Join us】
+L34: 
+L35: 【7†Image†framerusercontent.com】
+L36: 
+L37: 【7†Image†framerusercontent.com】
+L38: 
+L39: 【0†Oct 21, 2026 Introducing Flint Introducing Flint Local model with the fastest inference and strongest coding performance in its class. Built with automated research.Explore the model release FLINT 40B total · ~2B active FLINT 40B total · ~2B active】
+L40: 【8†First Steps Toward Automated AI Research Early results from Recursive’s automated AI research system on model training and GPU kernel benchmarks Jun 11, 2026】
+L41: 
+L42: 【9†Notable Researchers Join $4 Billion Effort to Build Self-Improving A.I.Recursive Superintelligence, founded by former Google, Meta and OpenAI researchers, is part of a growing effort to automate the creation of artificial intelligence.May 13, 2026†www.nytimes.com】
+L43: 【10†The Race to Superintelligence - With Richard Socher As AI’s capabilities improve, reports of “rogue” agents and misaligned systems are becoming more frequent. In response, some activists, academics, and politicians have called for a pause in development, warning of the dangers that superintelligent AI could pose. But Richard Socher, the CEO of AI startup Recursive as well as the AI search engine You.com, sees another path.
+L44: In his new book, "The Eureka Machine," Socher lays out his vision for how self-improving AI could lead to breakthroughs in science, medicine, economics, and more.Sep 9, 2026†www.youtube.com】
+L45: 【11†What happens when AI starts building itself?Richard Socher has been a major figure in AI for some time, best known for founding the early chatbot startup You.com and, before that, his work on ImageNet. Now he’s joining the current generation of research-focused AI startups with Recursive Superintelligence, a San Francisco-based startup that came out of stealth on Wednesday with $650 million in funding.May 14, 2026†techcrunch.com】
+L46: 【12†This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good For the past few days I’ve been testing an impressive open-weight AI coding model called Flint. It suggests that fully recursive self-improvement, or RSI—an exciting and controversial approach that uses AI to build AI—is getting closer.Oct 21, 2026†www.wired.com】
+L47: 
+L48: 【13†Image†framerusercontent.com】
+L49: ## Automating scientific discovery for the benefit of humanity
+L50: 
+L51: 【2†Join us】
+L52: 
+L53: 【6†See open roles†jobs.ashbyhq.com】
+L54: 
+L55: 【13†Image†framerusercontent.com】
+L56: 
+L57: ## Automating scientific discovery for the benefit of humanity
+L58: 
+L59: 【2†Join us】
+L60: 
+L61: 【6†See open roles†jobs.ashbyhq.com】
+L62: 
+L63: 【13†Image†framerusercontent.com】
+L64: 
+L65: ## Automating scientific discovery for the benefit of humanity
+L66: 
+L67: 【2†Join us】
+L68: 
+L69: 【6†See open roles†jobs.ashbyhq.com】
+L70: 
+L71: 【13†Image†framerusercontent.com】
+L72: ## Automating scientific discovery for the benefit of humanity
+L73: 
+L74: 【2†Join us】
+L75: 
+L76: 【6†See open roles†jobs.ashbyhq.com】
+L77: 
+L78: 【14†Image†framerusercontent.com】
+L79: 
+L80: © 2026 Recursive Superintelligence, Inc. All rights reserved.
+L81: 
+L82: ACCESS
+L83: 
+L84: 【3†Home】
+L85: 
+L86: 【1†Updates】
+L87: 
+L88: 【2†Join us】
+L89: 
+L90: CONNECT
+L91: 
+L92: 【4†X†x.com】
+L93: 
+L94: 【5†LinkedIn†www.linkedin.com】
+L95: 
+L96: 【15†Privacy Policy】
+L97: 
+L98: 【16†Terms of use】
+L99: 
+L100: 【17†Model Terms】
+L101: 
+L102: 【14†Image†framerusercontent.com】
+L103: 
+L104: © 2026 Recursive Superintelligence, Inc. All rights reserved.
+L105: 
+L106: ACCESS
+L107: 
+L108: 【3†Home】
+L109: 
+L110: 【1†Updates】
+L111: 
+L112: 【2†Join us】
+L113: CONNECT
+L114: 
+L115: 【4†X†x.com】
+L116: 
+L117: 【5†LinkedIn†www.linkedin.com】
+L118: 
+L119: 【15†Privacy Policy】
+L120: 
+L121: 【16†Terms of use】
+L122: 
+L123: 【17†Model Terms】
+L124: 
+L125: 【14†Image†framerusercontent.com】
+L126: 
+L127: © 2026 Recursive Superintelligence, Inc. All rights reserved.
+L128: 
+L129: ACCESS
+L130: 
+L131: 【3†Home】
+L132: 
+L133: 【1†Updates】
+L134: 
+L135: 【2†Join us】
+L136: 
+L137: CONNECT
+L138: 
+L139: 【4†X†x.com】
+L140: 
+L141: 【5†LinkedIn†www.linkedin.com】
+L142: 
+L143: 【15†Privacy Policy】
+L144: 
+L145: 【16†Terms of use】
+L146: 
+L147: 【17†Model Terms】
+L148: 
+L149: 【14†Image†framerusercontent.com】
+L150: 
+L151: © 2026 Recursive Superintelligence, Inc. All rights reserved.
+L152: 
+L153: ACCESS
+L154: 
+L155: 【3†Home】
+L156: 
+L157: 【1†Updates】
+L158: 
+L159: 【2†Join us】
+L160: CONNECT
+L161: 
+L162: 【4†X†x.com】
+L163: 
+L164: 【5†LinkedIn†www.linkedin.com】
+L165: 
+L166: 【15†Privacy Policy】
+L167: 
+L168: 【16†Terms of use】
+L169: 
+L170: 【17†Model Terms】

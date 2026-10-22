@@ -286,3 +286,29 @@
 - research/synthesis/agent-serving-state-and-portability-20261020.md：原始归档、查重、限定阅读/综合、审核发布及默认query/get_page、raw hash回查完成。
 
 14新增、0既有标准知识页更新；旧发布去重。待核：Anthropic草稿/原始S-1、ASI/Pigment、睿质身份/旧融资、工信部原始统计口径、政策/WorkBuddy/NVHBM；论文全文与性能配置未审。详情见本期编辑、证据包及报告覆盖。
+
+
+## automation-ai-2026-10-21（实际运行2026-10-22 UTC）
+
+本批14事件，14来源/论文页+Recursive和Blacksmith实体+综合note，共17新页；0既有标准页更新。原文归档、URL/对象/版本含草稿查重、限定阅读与关联已完成，待review/finalize/default-query/get_page。
+- reference/sources/openai-google-cloud-20261021.md
+- reference/sources/claude-duet-preview-20261021.md
+- reference/sources/chatgpt-ads-89-countries-20261021.md
+- reference/sources/claude-security-continuous-20261021.md
+- reference/sources/blacksmith-series-c-20261021.md
+- reference/sources/recursive-flint-20261021.md
+- reference/sources/humming-quantized-inference-20261021.md
+- reference/sources/patch-planet-php-coordination-20261021.md
+- reference/sources/distributed-biological-reasoning-20261021.md
+- reference/papers/dstill-261027379.md
+- reference/papers/context-compaction-261027301.md
+- reference/sources/nvidia-dsx-pod-20261021.md
+- reference/sources/nvidia-supply-capacity-20261021.md
+- reference/sources/google-a5x-availability-20261021.md
+- reference/entities/recursive.md
+- reference/entities/blacksmith.md
+- research/synthesis/agent-distribution-attention-and-delivery-20261021.md
+
+本批17页已review/finalize发布，默认自然语言query/get_page可见且所有raw证据hash通过。235页结构待本次最终校验；49项离线测试通过，初次综合页3领域标签已修正为2领域。
+
+最终检查：235知识页结构、132来源配置与49项离线测试全部通过；14事件六栏、manifest/editorial/report哈希与141个packet raw依赖通过。1214既有dirty基线中仅daily/index追加本期行且选择性暂存，其余字节原样；34个新fetch/extracted文件的Cookie/Auth响应头元数据已过滤，raw不改。待本次普通Git提交推送。

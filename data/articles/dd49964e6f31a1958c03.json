@@ -1,0 +1,18 @@
+{
+  "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/",
+  "title": "Expanding Claude availability and deployment choice on Google Cloud",
+  "text": "Every organization has unique requirements for building and scaling generative AI. At Google Cloud, we are committed to giving developers model choice and architectural flexibility to run workloads however they need.\nToday, we’re announcing the general availability of an Anthropic-managed deployment option for Claude Models on Google Cloud. This gives teams more choice in how they run their models, helping them consolidate AI workloads on Google Cloud alongside our existingGoogle-managed deployment option.\nBoth options deliver the same frontier models on day zero, the same pricing, and the same Google Cloud billing. The difference comes down to who acts as your data processor and whether you need access to the new Claude platform features when they launch:\n[NEW] Claude Models on Google Cloud (Anthropic managed)\nDelivers day-zero access to Claude models and Claude Platform features such as Claude Managed Agents (beta), skills, and code execution. Anthropic operates the stack as the data processor on Google Cloud infrastructure under Anthropic’s terms of service, while organizations authenticate with Google Cloud IAM, maintain Cloud Audit Logging, and consolidate spend under their existing Google Cloud billing and eligible commitments.\nLearn more: Claude Models on Google Cloud (Anthropic-managed).\nClaude Models on Google Cloud (Google managed)\nContinues to deliver day-zero access to the latest Claude models with strict governance, compliance, and sovereignty requirements. Google Cloud operates as the data processor under existing customer agreements, providing VPC Service Controls, Customer-Managed Encryption Keys (CMEK), and data residency in the U.S., EU, and APAC. New Claude Platform features roll out over time as they are integrated into the Google-managed infrastructure. Teams also benefit from native integrations with Google Cloud services like BigQuery and Model Armor, along with standard billing and eligible commitment drawdown.\nLearn more: Claude Models on Google Cloud (Google managed)\nComparing deployment options\nFeature\nAnthropic-managed\nGoogle-managed\nModel availability\nAvailable on Day 0\nAvailable on Day 0\nFirst-party tools and betas\nAvailable on Day 0\nAvailable once integrated into the Google-managed infrastructure\nData processor and terms\nAnthropic (under Anthropic’s Commercial Terms)\nGoogle Cloud (under existing Google Cloud customer agreements)\nPricing & commitments\nStandard pricing (draws down eligible Google Cloud commitments)\nNo matter how you choose to deploy, you can access Anthropic's latest frontier models on Google Cloud, including Claude Fable 5.1, Sonnet 5.5, Haiku 5.5, and Opus 5.5, with new platform features available immediately on the Anthropic-managed option and rolling out on the Google-managed option once integrated. This gives developers the full spectrum of reasoning, coding, and multi-modal capabilities with Google Cloud IAM and Marketplace billing. Get started.",
+  "published_at": "2026-10-22T21:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "dd49964e6f31a1958c03",
+  "source_id": "google-cloud-blog",
+  "source_name": "Google Cloud Blog",
+  "section": 5,
+  "raw_path": "raw/2026-10-23/7d3be8e776e5f338308277586ed7efcec204a24e26025d887674d22c27ea5b42.body",
+  "source_sha256": "7d3be8e776e5f338308277586ed7efcec204a24e26025d887674d22c27ea5b42",
+  "fetched_at": "2026-10-22T22:00:16.324687+00:00"
+}

@@ -174,3 +174,12 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 ## 2026-10-21 automation-ai 补10月20日日报
 
 日报11事件；新建9source+2paper+2entity+1note，既有标准知识页更新0。来源归档、对象/URL/hash查重、范围阅读、综合关联、review/finalize、默认query/get_page和raw hash全部完成；公司披露reported、综合derived，未独立复现。218页结构、129来源与49离线测试通过。论文仅摘要、日精度边界与采集缺口及调度早触发已披露；待本次选择性Git提交推送。
+
+
+## automation-ai-2026-10-21（实际运行2026-10-22 UTC）
+
+本批14事件，14来源/论文页+Recursive和Blacksmith实体+综合note，共17新页；0既有标准页更新。原文归档、URL/对象/版本含草稿查重、限定阅读与关联已完成，待review/finalize/default-query/get_page。
+
+本批17页已review/finalize发布，默认自然语言query/get_page可见且所有raw证据hash通过。235页结构待本次最终校验；49项离线测试通过，初次综合页3领域标签已修正为2领域。
+
+最终检查：235知识页结构、132来源配置与49项离线测试全部通过；14事件六栏、manifest/editorial/report哈希与141个packet raw依赖通过。1214既有dirty基线中仅daily/index追加本期行且选择性暂存，其余字节原样；34个新fetch/extracted文件的Cookie/Auth响应头元数据已过滤，raw不改。待本次普通Git提交推送。

@@ -346,3 +346,5 @@
 [[reference/entities/firefly-physical-safety|Firefly]]
 
 [[research/synthesis/agent-serving-state-and-portability-20261020|Agent服务竞争同时转向状态连续性与硬件可迁移性]]
+
+- [[research/synthesis/agent-distribution-attention-and-delivery-20261021|Agent竞争连接采购分发、注意力管理和可验收交付]]（2026-10-21日报综合）

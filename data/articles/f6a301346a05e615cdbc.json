@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/research/formal-verification",
+  "title": "LLMs are making formal software verification feasible at a much larger scale",
+  "link_text": "LLMs are making formal software verification feasible at a much larger scale",
+  "id": "f6a301346a05e615cdbc",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "anthropic-research",
+  "source_name": "Anthropic Research",
+  "section": 2,
+  "raw_path": "raw/2026-10-23/e197dd3f88a28a588a36311fb7455794e09dd7608768443ca8fd57708a06a70c.body",
+  "source_sha256": "e197dd3f88a28a588a36311fb7455794e09dd7608768443ca8fd57708a06a70c",
+  "fetched_at": "2026-10-22T22:00:12.376924+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-22T22:00:12.376924+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

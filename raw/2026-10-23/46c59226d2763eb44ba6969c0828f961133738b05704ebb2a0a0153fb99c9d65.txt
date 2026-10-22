@@ -1,0 +1,534 @@
+Internal Error ()
+citeturn9view0 [wordlim: 200] Source: open({"ref_id":"https://x.com/satyanadella/status/2108931348857827686","lineno":null}); Total lines: 1
+L0: Failed to fetch https://x.com/satyanadella/status/2108931348857827686: (403) Forbidden
+--------------------------------------------------------------------------------
+Nous Research (https://nousresearch.com/)
+citeturn9view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://nousresearch.com/","lineno":null}); Total lines: 151
+L0: Nous Hermes
+L1: 
+L2: Community Portal
+L3: 
+L4: Nous Hermes
+L5: 
+L6: Community Portal
+L7: 
+L8: 【0†Image】Hermes : About Nous Toggle`⌘``K`
+L9: 
+L10: Open Source • MIT License Open Source · MIT License
+L11: 
+L12: # Nous Research Nous Research
+L13: 
+L14: Nous Research is a pioneer in open AI training and research. We created Hermes Agent, the most widely used open source agent harness in the world.
+L15: 
+L16: We are on a mission to create and proliferate open access to intelligence.
+L17: 
+L18: 【1†Read Mission】【1†The Internet's Own AI】
+L19: 
+L20: 【2†Image】【2†Image】
+L21: ## The Internet's Own AI
+L22: 
+L23: Open Source
+L24: 
+L25: ### Leading the American Open Source Movement
+L26: 
+L27: We train models, build agents, and develop infrastructure to accelerate adoption of open intelligence globally.
+L28: 
+L29: 【3†Image】【3†Image】
+L30: 
+L31: Mission
+L32: 
+L33: ### Advancing Human Rights and Freedoms
+L34: 
+L35: We believe that powerful AI should be in the hands of the many rather than the privileged few. Our aim is to create and democratize access to the world's best intelligence.
+L36: 
+L37: 【4†Image】【4†Image】
+L38: 
+L39: Research
+L40: ### Understanding the Intelligence Frontier
+L41: 
+L42: Our primary research focus areas include agents, model architecture, data synthesis, fine-tuning, and reasoning, all aimed at advancing our understanding of models and how they can benefit humanity.
+L43: 
+L44: 【5†Image】【5†Image】
+L45: 
+L46: 【6†Image】
+L47: 
+L48: Elevate your soul.md
+L49: ## Hermes Agent Hermes Agent
+L50: 
+L51: The self-improving AI agent built by Nous Research. The only agent with a built-in learning loop — creates skills from experience,The self-improving AI agent built by Nous Research. The only agent with a built-in learning loop: creates skills from experience,
+L52: improves them during use, nudges itself to persist knowledge, and builds a deepening model of who you are across sessions.improves them during use, nudges itself to persist knowledge, and builds a deepening model of who you are across sessions.
+L53: 
+L54: 【7†Learn more†hermes-agent.nousresearch.com】【8†About hermes†portal.nousresearch.com】【9†Install Hermes†hermes-agent.nousresearch.com】
+L55: 
+L56: TUI TUI
+L57: ### Terminal Velocity
+L58: 
+L59: 【10†Image】【10†Image】
+L60: 
+L61: 【11†Install via terminal†hermes-agent.nousresearch.com】【9†Install via terminal†hermes-agent.nousresearch.com】
+L62: 
+L63: Desktop GUI
+L64: 
+L65: ### Hermes Application
+L66: 
+L67: 【12†Image】【12†Image】
+L68: 
+L69: 【13†Get Hermes Desktop†hermes-agent.nousresearch.com】【9†Download for Mac / Windows / Linux†hermes-agent.nousresearch.com】
+L70: 
+L71: Portal Portal
+L72: 
+L73: ### Nous Portal
+L74: 
+L75: 【14†Image】【14†Image】
+L76: 
+L77: 【15†Power your Hermes†portal.nousresearch.com】【16†Power your Hermes†portal.nousresearch.com】
+L78: ## Announcements
+L79: 【17†@NousResearch Meshy is offering Hermes users a month of Pro, which includes API access and 1,000 credits, for $1. After you subscribe and install the plugin, create a key at meshy.ai/developers/keys and paste it into Settings &gt; Plugins &gt; Meshy in Hermes Desktop.
+L80: meshy.ai/pricing?utm_me… x.com/NousResearch/s…Oct 22, 2026†x.com】【18†@NousResearch Our CEO @dillonrolnick sat down with @eastdakota, CEO of @Cloudflare, for a wide-ranging conversation about agents, the future of the internet, and the fight for digital sovereignty. Thanks to the @usv team for hosting! x.com/mattcynamon/st…Oct 22, 2026†x.com】【19†@NousResearch Hermes Agent now has an official plugin for @MeshyAI.
+L81: Ask Hermes to make a 70m poly treasure chest for Godot, or to turn a photo of a mug into a model you can print, and it does the job through Meshy's MCP server. In Hermes Desktop the models render in chat, rigged characters animate inline, and a gallery stores every model and prompt. On messaging apps, Hermes sends a short preview video so you can create on the go.
+L82: https://t.co/QlxZUDEBn3 Oct 22, 2026†x.com】【20†@NousResearch Jensen closed his GTC Berlin 2026 keynote with this Hermes Agent demo as the finale. He introduced it by saying the way to build an agent is to ask an agent to build it for you, so he installed and set up a customized Hermes in one prompt. Then he used Hermes, running on @nvidia RTX Spark, to create a simulated training environment for the @huggingface Microduck.
+L83: Hermes planned an obstacle course with Nemotron and had GPT-6 Astra build it using FreeCAD, Omniverse libraries, Blender, Newton, and Isaac Lab. Hermes trained thousands of simulated ducks on that course until the validated policy was ready to run on the real robot in the physical world. At Nous, we believe open source is a practical tool as much as a philosophical ideal.
+L84: It gives users the ability to build powerful, complex workflows chaining numerous local+cloud models, devices, and tools themselves instead of waiting for a company to enable them.Oct 21, 2026†x.com】【21†@NousResearch Krea 3 from @krea_ai is now available in Nous Portal Fast mode does 2k edits in under 8 seconds, and Ultra is a higher quality tier outperforming Nano Banana Pro It supports precise controls: draw a box to create a bounded editing region leaving the rest of an image unchanged, or specify a hex code to apply precise color https://t.co/uomohWX1dw Oct 21, 2026†x.com】【22†@NousResearch Look for Nightwing in Dolores Park this Friday for a chance to grab the sold out Rebellion shirt and hang out with fellow Hermes heads x.com/yaboilyrical/s…Oct 19, 2026†x.com】【23†@NousResearch Let’s see your Nous fit pics Oct 18, 2026†x.com】【24†@NousResearch Motion.Oct 16, 2026†x.com】【25†@NousResearch Editor's Note: This tweet was intended as satire by our social intern, who did not expect it to be taken seriously.
+L85: Hermes was not selected for the list as we do not do paid PR placements; we think it is a wonderful invention and perhaps TIME will see fit to recognize it eventually.Oct 16, 2026†x.com】【26†@NousResearch Another in-depth review from @zacbowden for @WindowsCentral: windowscentral.com/hardware/nvidi…Oct 16, 2026†x.com】
+L86: 10 announcements loaded
+L87: 
+L88: 【27†Image】【28†Image】【29†Image】【30†Image】【31†Image】
+L89: 
+L90: 【32†Image: Nous girl seal: Rebellion to tyrants is obedience to God.】【33†Image: Nous girl seal: Rebellion to tyrants is obedience to God.】
+L91: 
+L92: The Internet's Own AI
+L93: 
+L94: © 2026, Nous Research, Inc.
+L95: 
+L96: 【34†Terms】|【35†Privacy】
+L97: 
+L98: MIT License · 2026
+L99: 
+L100: 【36†Image】
+L101: 
+L102: Nous Research Nous Research
+L103: 
+L104: The Internet's Own AI.
+L105: 
+L106: Research
+L107: 
+L108: Nous
+L109:   * 【37†Research】
+L110:   * 【38†Releases】
+L111:   * 【39†Careers】
+L112:   * 【40†Blog】
+L113:   * 【41†Shop†shop.nousresearch.com】
+L114:   * 【42†Contact】
+L115: 
+L116: Products
+L117: 
+L118: Hermes
+L119:   * 【9†Agent†hermes-agent.nousresearch.com】
+L120:   * 【43†Business†portal.nousresearch.com】
+L121:   * 【44†Enterprise†portal.nousresearch.com】
+L122:   * 【45†Via Terminal†hermes-agent.nousresearch.com】
+L123:   * 【45†For Mac OS†hermes-agent.nousresearch.com】
+L124:   * 【45†For Windows†hermes-agent.nousresearch.com】
+L125:   * 【45†For Linux†hermes-agent.nousresearch.com】
+L126:   * 【8†In the Cloud†portal.nousresearch.com】
+L127: 
+L128: Resources
+L129: 
+L130: Community
+L131:   * 【46†Go to Discord†discord.gg】
+L132:   * 【47†Go to Github†github.com】
+L133:   * 【48†Go to x.com†x.com】
+L134:   * 【49†Go to Youtube†youtube.com】
+L135: 
+L136: Platform
+L137: 
+L138: Portal
+L139: 
+L140:   * 【15†Create account†portal.nousresearch.com】
+L141:   * 【15†Sign in†portal.nousresearch.com】
+L142:   * 【50†Plans†portal.nousresearch.com】
+L143: 
+L144: © 2026, Nous Research, Inc.
+L145: 
+L146: Open Source
+L147: 
+L148: MIT License
+L149: 
+L150: 【51†Terms†portal.nousresearch.com】|【52†Privacy†portal.nousresearch.com】
+--------------------------------------------------------------------------------
+Healthleap | Inpatient Risk Screening (https://www.healthleap.ai/)
+citeturn9view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.healthleap.ai/","lineno":null}); Redirected to URL: https://healthleap.ai/; Total lines: 216
+L0: 【0†Google Tag Manager†www.googletagmanager.com】
+L1: 
+L2: 【1†Healthleap announces $38M in Seed and Series A FundingAnnouncing $38M in Seed and Series A†www.linkedin.com】
+L3: 
+L4: Resources
+L5: 
+L6: 【2†Press】【3†Events】
+L7: 
+L8: 【4†Book a demo】Menu
+L9: 
+L10: Close
+L11: 
+L12: 【5†About】【6†Evidence】【7†Careers】【2†Press】【3†Events】
+L13: 
+L14: 【4†Book a demo】
+L15: # Healthleap AI malnutrition screening for hospitals
+L16: 
+L17: 【8†Healthleap Series A Announcement†player.vimeo.com】
+L18: 
+L19:   *   *   *   *   *   *   *   *   *   *   *   * ## Healthcare is missing malnourished patients.
+L20: 
+L21: Up to 50%
+L22:     of inpatients are at risk of malnutrition
+L23: 
+L24: <9%
+L25:     are diagnosed
+L26: 
+L27: ~5,500
+L28:     malnourished patients missed per year at a typical 1,000-bed hospital
+L29: 
+L30: ## Automatically screen every patient daily
+L31: ### Prioritize at-risk patients for dietitians to act on
+L32: 
+L33: Healthleap analyzes every adult inpatient's chart each day and writes a nutrition-risk score into the EHR flowsheet each morning. The registered dietitian's routine doesn't change, but instead of chasing false flags, the day starts with the highest-acuity patients already at the top of the list. Healthleap sits upstream of CDI, closing the identification gap that comes before it.
+L34: ## Scored and sorted by severity of nutrition risk
+L35: 
+L36: Each morning, every adult inpatient is scored and sorted by nutrition-risk severity. The sickest patients sit at the top of the list in the dietitian's EHR, not buried in chart review.
+L37: 
+L38: Today's priority list Updated each morning
+L39: 
+L40:   * 1
+L41: 
+L42: Bed 7B
+L43: 
+L44: 64 F · 4 days LOS
+L45: 
+L46: 0.94
+L47:   * 2
+L48: 
+L49: Bed 3A
+L50: 
+L51: 71 M · 2 days LOS
+L52: 
+L53: 0.89
+L54:   * 3
+L55: 
+L56: Bed 12C
+L57: 
+L58: 58 F · 6 days LOS
+L59: 
+L60: 0.81
+L61:   * 4
+L62: 
+L63: Bed 9D
+L64: 
+L65: 47 M · 1 day LOS
+L66: 
+L67: 0.76
+L68: 
+L69: Synced to the EHR flowsheet
+L70: ## We fit upstream of CDI and coding
+L71: 
+L72: Healthleap identifies at-risk patients on day one, before CDI and coding workflows can engage. We don't replace them; we feed them a cleaner, earlier signal.
+L73: 
+L74:   1. Day 0
+L75: 
+L76: ### Patient admitted
+L77: 
+L78: Risk isn't continuously captured and surfaced.
+L79: 
+L80: ↓
+L81:   2. Day 1
+L82: 
+L83: ### Healthleap identifies risk
+L84: 
+L85: Daily prioritization, written into the EHR.
+L86: 
+L87: ↓
+L88:   3. Downstream
+L89: 
+L90: ### CDI and coding engage
+L91: 
+L92: Existing investment, fed an earlier signal.
+L93: 
+L94: ↓
+L95:   4. Outcome
+L96: ### Reimbursement & quality capture
+L97: 
+L98: Severity, LOS, and incremental revenue follow.
+L99: ## Validated against the clinical reference standard.
+L100: 
+L101: Co-authored research with leaders from Cedars-Sinai, Johns Hopkins, and Stanford, and published in Applied Clinical Informatics. To our knowledge, Healthleap offers the only commercially available, peer-reviewed AI malnutrition screening tool.
+L102: 
+L103: Peer-reviewed
+L104: 
+L105: 88%higher sensitivity
+L106:     Than nurse-administered malnutrition screening
+L107: 
+L108: 4 days earlier identification
+L109:     Of patients with malnutrition
+L110: 
+L111: 0.95 AUROC
+L112:     during stay; 0.92 on day one
+L113: Studied across 166k+ admissions over 3.75 years (Bernstein et al., Applied Clinical Informatics).
+L114: 
+L115: 【9†Read the peer-reviewed study†www.thieme-connect.de】
+L116: ## Partner Impact
+L117: 
+L118: ### Penn Medicine
+L119: 
+L120: $23.8M$23.8M$23.8M
+L121: 
+L122: Annualized financial impact at a single site
+L123: 
+L124: 8,632
+L125:     Bed-days saved, annualized
+L126: 
+L127: 【10†Download the case study】
+L128: 
+L129: ### Cedars-Sinai
+L130: 
+L131: $11M$11M$11M
+L132: 
+L133: Annual impact
+L134: 
+L135: 39%
+L136:     More diagnoses, same staffing
+L137: 
+L138: Every 1,000 additional reimbursable malnutrition cases captured is roughly $5M in incremental reimbursement.
+L139: ## Malnutrition is just the start
+L140: 
+L141: The same EHR-native daily screening intelligence we use for malnutrition is already being extended to other conditions that hospitals consistently struggle to identify early and address in time.
+L142: 
+L143:   * 【11†Image†cdn.ploy.ai】
+L144: 
+L145: ### Malnutrition
+L146: 
+L147: Risk identification, validated against the clinical reference standard.
+L148: 
+L149:   * 【12†Image†cdn.ploy.ai】
+L150: ### Delirium & toxic metabolic encephalopathy
+L151: 
+L152: Identification designed to surface patients who may be missed.
+L153: 
+L154:   * 【13†Image†cdn.ploy.ai】
+L155: 
+L156: ### Aspiration pneumonia
+L157: 
+L158: Identifying patients at elevated aspiration risk before complications develop.
+L159: 
+L160:   * 【14†Image†cdn.ploy.ai】
+L161: 
+L162: ### Congestive heart failure readmissions
+L163: 
+L164: Flagging the patients most likely to return before they leave.
+L165: 
+L166:   * 【15†Image†cdn.ploy.ai】
+L167: 
+L168: ### Pressure injuries
+L169: 
+L170: Earlier identification of at-risk patients for prevention protocols.
+L171: ## Close gaps. Improve care. Strengthen margins.
+L172: 
+L173: CFO
+L174:     Measurable incremental reimbursement, contractual ROI floor.
+L175: 
+L176: CMO
+L177:     Measurable improvement in O:E ratios, length of stay, and severity capture.
+L178: 
+L179: Nutrition director
+L180:     Prioritize the highest-risk patients, not false flags
+L181: 
+L182: > The AI in Healthleap stands for actionable insights.
+L183: 
+L184: Richard Riggs, MD, Chief Medical Officer, Healthleap
+L185: ## Questions about Healthleap
+L186: 
+L187: What is Healthleap?+
+L188: 
+L189: Healthleap provides inpatient risk-screening for hospitals. Its widely adopted malnutrition module is the only validated screening tool of its kind. It analyzes adult inpatient EHR data to identify patients who may be at nutritional risk and help registered dietitians prioritize patients for early intervention.
+L190: 
+L191: How does daily malnutrition screening work?+
+L192: Healthleap analyzes adult inpatient charts each day and writes a nutrition-risk score into the EHR flowsheet each morning. Clinical nutrition teams can use the scores to prioritize patients for assessment within their existing workflow.
+L193: 
+L194:   * 【6†Read the clinical evidence】
+L195: Does Healthleap diagnose malnutrition or replace clinicians?+
+L196: No. Healthleap is clinical decision support, not a diagnostic tool, and it does not provide treatment recommendations. Its risk signals support registered dietitians' assessments. Clinicians remain responsible for clinical decisions and patient care.
+L197: 
+L198: What evidence supports Healthleap's malnutrition screening?+
+L199: Co-authored research with leaders from Cedars-Sinai, Johns Hopkins, and Stanford, and published in Applied Clinical Informatics. To our knowledge, Healthleap offers the only commercially available, validated AI malnutrition screening tool. The Evidence page separates peer-reviewed clinical validation from hospital deployment and finance-reviewed results.
+L200: 
+L201:   * 【9†Read the peer-reviewed study†www.thieme-connect.de】
+L202:   * 【6†See evidence and its sources】
+L203: How does Healthleap fit with CDI and coding?+
+L204: Healthleap supports risk identification upstream of clinical documentation improvement (CDI) and coding. It surfaces patients for clinical assessment; it does not replace those downstream workflows. Assessment, diagnosis, documentation, and coding remain with the hospital's qualified professionals.
+L205: 
+L206:   * 【16†Hospital implementation results】
+L207: ## See what you've been missing.
+L208: 
+L209: Healthleap helps health systems find inpatients at risk for malnutrition and now other conditions earlier than other screening tools leading to measurable impact on reimbursement, length of stay, and severity capture.
+L210: 
+L211: 【4†Get in touch】
+L212: 
+L213: 【5†About】【6†Evidence】【7†Careers】【17†Clinical Use & Safety】【18†Privacy】【19†Terms】【4†Contact】
+L214: 
+L215: © 2026 Healthleap
+--------------------------------------------------------------------------------
+Qwen (https://qwen.ai/blog)
+citeturn9view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://qwen.ai/blog","lineno":null}); Total lines: 0
+L0 is out of bounds--------------------------------------------------------------------------------
+MiniMax AI | AGI Research, Product Updates & Partner News | MiniMax (https://www.minimax.io/news)
+citeturn9view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.minimax.io/news","lineno":null}); Total lines: 62
+L0: Models
+L1: 
+L2: 【0†Image: LLM】LLM
+L3: 
+L4: 【1†MiniMax M3.1 Flash】【2†MiniMax M3】
+L5: 
+L6: 【3†Image: VIDEO】VIDEO
+L7: 
+L8: 【4†MiniMax H3】
+L9: 
+L10: 【5†Image: SPEECH & MUSIC】SPEECH & MUSIC
+L11: 
+L12: 【6†MiniMax Speech 2.8】【7†MiniMax Music 3.0】
+L13: 
+L14: Product
+L15: 
+L16: 【8†MiniMax Code†agent.minimax.io】【9†MiniMax Design†design.minimax.io】【10†Audio】【11†Talkie†www.talkie-ai.com】
+L17: 
+L18: API
+L19: 
+L20: Plan
+L21: 
+L22: Research
+L23: 
+L24: Company
+L25: 
+L26: 【12†Image: Intelligence with everyone】Intelligence with everyone
+L27: 
+L28: 【13†About】【14†News】【15†Investor Relations†ir.minimax.io】
+L29: 
+L30: 【16†Contact Us†platform.minimax.io】
+L31: 
+L32: [Input]
+L33: Models
+L34: 
+L35: 【0†Image: LLM】LLM
+L36: 
+L37: 【1†MiniMax M3.1 FlashNEW】【2†MiniMax M3NEW】
+L38: 
+L39: 【3†Image: VIDEO】VIDEO
+L40: 
+L41: 【4†MiniMax H3NEW】
+L42: 
+L43: 【5†Image: SPEECH & MUSIC】SPEECH & MUSIC
+L44: 
+L45: 【6†MiniMax Speech 2.8NEW】【7†MiniMax Music 3.0NEW】
+L46: 
+L47: Product
+L48: 
+L49: 【8†MiniMax CodeNEW†agent.minimax.io】【9†MiniMax Design†design.minimax.io】【10†Audio】【11†Talkie†www.talkie-ai.com】
+L50: 
+L51: API
+L52: 
+L53: Plan
+L54: 
+L55: Research
+L56: 
+L57: Company
+L58: 
+L59: 【12†Image: Intelligence with everyone】Intelligence with everyone
+L60: 
+L61: 【13†About】【14†News】【15†Investor Relations†ir.minimax.io】
+--------------------------------------------------------------------------------
+Seed Research (https://seed.bytedance.com/en/research)
+citeturn9view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://seed.bytedance.com/en/research","lineno":null}); Total lines: 86
+L0: 【0†Home】【1†Models】【2†Blog & Publication】【3†Seed Edge】【4†Join Us】
+L1: 
+L2: Try now
+L3: 
+L4: [Button: 中文]
+L5: 
+L6: 【0†Home】【1†Models】【2†Blog & Publication】【3†Seed Edge】【4†Join Us】
+L7: 
+L8: Try now
+L9: 
+L10: 【5†Try Dola†www.dola.com】【6†Try in Playground†ai.byteplus.com】
+L11: ## Blog
+L12: 
+L13: 【7†Foundation models】【8†Visual】【9†Audio】【10†AI Infra】【11†Frontier research】
+L14: 
+L15: 【12†SeedRealtime Audio-Visual Full-Duplex LLM Released: Toward Omni-Modal Natural Interaction As a native audio-visual full-duplex LLM, SeedRealtime can jointly understand audio, visual, and temporal information, accurately identify the interaction target and user intent, delivering a brand-new "watch, listen, and speak" experience.Learn more】
+L16: 【13†One-take Creation, Flexible Referencing: Introducing Seedance 2.5 30-second long-form storytelling with fully upgraded multimodal referencing and editing capabilities.Jul 31, 2026】【14†From Speech to Audio Creation | Introducing the Seed Audio 1.0 Audio Creation Model A unified framework for joint modeling of voice, sound effects, ambient sound, and other audio elements.Jul 20, 2026】【15†Beyond Generation, It Understands Design | Introducing Seedream 5.0 Pro A multimodal image generation model that features advanced reasoning and efficient content creation.Jul 8, 2026】【16†EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law Agents exhibit a clear log-sigmoid pattern in environment learning.Jul 7, 2026】
+L17: ## Publications
+L18: 【17†Sep 28, 2026Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression】【18†Jul 6, 2026EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments】【19†Jun 30, 2026Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity】【20†May 29, 2026Task-Focused Memorization for Multimodal Agents】【21†May 16, 2026Charon: A Unified and Fine-Grained Simulator for Large-Scale LLM Training and Inference】【22†Apr 26, 2026MegaScale-Omni: A Hyper-Scale, Workload-Resilient System for MultiModal LLM Training in Production】【23†Apr 22, 2026Seed3D 2.0: Advancing High-Fidelity Simulation-Ready 3D Content Generation】【24†Apr 15, 2026Seedance 2.0: Advancing Video Generation for World Complexity】【25†Apr 11, 2026Protenix-v2: Broadening the Reach of Structure Prediction and Biomolecular Design】【26†Jan 27, 2026Post-LayerNorm Is Back: Stable, ExpressivE, and Deep】
+L19: 【27†Image: ByteDance Seed†lf-flow-web-cdn.doubao.com】
+L20: 
+L21: Advancing the frontier of intelligence, in service of humanity
+L22: 
+L23: 【28†Image†lf-flow-web-cdn.doubao.com】
+L24: 
+L25: Join ByteDance Seed
+L26: 
+L27: Models
+L28: 
+L29: 【29†Seed2.1】
+L30: 
+L31: 【30†Seedance 2.5】
+L32: 
+L33: 【31†Seedream 5.0 Pro】
+L34: 
+L35: 【32†SeedRealtime】
+L36: 
+L37: 【33†Seed Audio 1.0】
+L38: 
+L39: 【34†Seed GR-RL】
+L40: 
+L41: Learn More
+L42: 
+L43: 【35†Publications】
+L44: 
+L45: 【36†Seed Edge】
+L46: 
+L47: 【37†Seed STEM Fellows Program】
+L48: 
+L49: 【38†Seed Campus Recruitment】
+L50: 
+L51: 【39†Transparency】
+L52: 
+L53: Copyright© 2026 Bytedance Seed
+L54: 【40†Disclaimer】Contact us : seed.feedback@bytedance.com
+L55: 
+L56: Models
+L57: 
+L58: 【29†Seed2.1】【30†Seedance 2.5】【31†Seedream 5.0 Pro】【32†SeedRealtime】【33†Seed Audio 1.0】【34†Seed GR-RL】
+L59: 
+L60: Learn More
+L61: 
+L62: 【35†Publications】【36†Seed Edge】【37†Seed STEM Fellows Program】【38†Seed Campus Recruitment】
+L63: 
+L64: 【39†Transparency】
+L65: 
+L66: 【27†Image: ByteDance Seed†lf-flow-web-cdn.doubao.com】
+L67: 
+L68: Advancing the frontier of intelligence, in service of humanity
+L69: 
+L70: 【28†Image†lf-flow-web-cdn.doubao.com】
+L71: 
+L72: Join ByteDance Seed
+L73: 
+L74: Copyright© 2026 Bytedance Seed
+L75: 【40†Disclaimer】
+L76: 
+L77: Contact us : seed.feedback@bytedance.com
+L78: 
+L79: 【27†Image: ByteDance Seed†lf-flow-web-cdn.doubao.com】
+L80: 
+L81: Advancing the frontier of intelligence, in service of humanity
+L82: 
+L83: 【28†Image†lf-flow-web-cdn.doubao.com】Contact us : seed.feedback@bytedance.com
+L84: 
+L85: Copyright© 2026 Bytedance Seed【40†Disclaimer】
+

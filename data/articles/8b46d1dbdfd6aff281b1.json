@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159705.htm",
+  "title": "iPhone Duo内屏支持边缘光：暗光视频通话自带虚拟补光灯",
+  "text": "快科技10月22日消息，苹果首款折叠屏iPhone Duo再度曝光一项细节。据Miles Franklin发现，iPhone Duo的内屏支持一项名为“边缘光”（Edge Light）的功能，该设置去年先出现在搭载苹果自研芯片的Mac上，如今扩展到了这款折叠屏手机。\n边缘光的用途很具体。在FaceTime等应用进行视频通话时，它会让屏幕四周边缘发光，在光线不足的环境里从正面均匀照亮人脸。\n它本质上是一个虚拟环形补光灯：环形灯的柔光来自镜头周围一圈光源，而边缘光的做法是把整块屏幕当成光源使用，既省去额外购买灯架的麻烦，也免去补光设备挡在镜头前的困扰。\n这项设置属于可选功能，用户可自行开启或关闭。放大的屏幕在折叠机型上留下另一种可能：展开后的大尺寸内屏边框更长，能提供更均匀的环绕光。\n对经常在晚上或昏暗房间里开视频会议的人来说，这确实是个实用细节，而不是参数表上一行能凑数的功能。\niPhone Duo计划于10月23日正式发售。不过，该产品上市初期可能面临供应紧张。部分苹果零售店员工已被告知，首发当天可能没有可供未预约顾客直接购买的现货，并被要求劝告未预订的消费者不要直接前往门店购买。",
+  "published_at": "2026-10-22T15:40:03+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "8b46d1dbdfd6aff281b1",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c.body",
+  "source_sha256": "d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c",
+  "fetched_at": "2026-10-22T22:00:48.253488+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159779.htm",
+  "title": "微软最强自研芯片杀到！Maia 300用上台积电2nm：288GB HBM4带宽18TB/s",
+  "text": "快科技10月22日消息，微软近日正式发布第三代最强自研AI加速器Maia 300。这款芯片基于台积电N2P（2nm增强版）芯粒架构打造，单芯片FP4算力达13.8 PFLOPS，专为长上下文推理、低延迟对话及多步骤智能体任务设计。\nMaia 300的核心突破在于内存子系统。8组HBM4堆栈带来288GB容量，较上一代Maia 200的216GB HBM3提升33%，带宽则从7.1TB/s跃升至18TB/s，增幅达2.5倍。\n对于大模型推理而言，KV缓存和模型权重对内存带宽的消耗极为敏感，更大的容量与带宽直接决定了长上下文场景下的推理效率。\n值得一提的是，该芯片采用多芯粒设计，计算芯粒使用台积电N2P工艺，内存与I/O芯粒则搭配3nm制程，在控制成本的同时将先进工艺集中用在最关键的环节。\n机架级设计同样激进。单个机架集成96颗Maia 300，整机功耗约167kW，HBM总容量达27.6TB，聚合带宽约1.7PB/s。\n微软表示，在机架规模下，Maia 300的Token吞吐量最高可达Maia 200的7倍。与英伟达最新的GB300机架相比，后者搭载72颗GPU、功耗约142kW，Maia 300在芯片密度上翻倍，每兆瓦推理性能高出约40%。\n从系统层面看，微软正在将Maia 300定位为Azure及Microsoft 365 Copilot等服务的“主力推理系统”。Maia 300计划于2027年开始量产部署，微软同步将Azure Maia家族扩展至多吉瓦级规模。\n在AI推理需求持续吞噬算力成本的背景下，微软正试图用自研芯片将每一瓦电力、每一美元投入的产出效率推到新的上限。",
+  "published_at": "2026-10-22T18:22:28+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0b1dfb7c7453faa80e0b",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c.body",
+  "source_sha256": "d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c",
+  "fetched_at": "2026-10-22T22:00:48.253488+00:00"
+}

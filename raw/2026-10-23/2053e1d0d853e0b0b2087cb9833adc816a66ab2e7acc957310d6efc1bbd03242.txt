@@ -1,0 +1,591 @@
+Do Agent Teams Pay Off? A Case Study on Vibe Code Bench | Vals AI (https://www.vals.ai/blogs/multi-agent-vibe-code-bench)
+citeturn13view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.vals.ai/blogs/multi-agent-vibe-code-bench","lineno":null}); Total lines: 162
+L0: 【0†Benchmarks】
+L1: 
+L2: 【1†Models】
+L3: 
+L4: 【2†Comparison】
+L5: 
+L6: 【3†Vals Smith】
+L7: 
+L8: 【4†App Reports】
+L9: 
+L10: 【5†Government】
+L11: 
+L12: 【6†News】
+L13: 
+L14: 【7†Blog】
+L15: 
+L16: 【8†Hackathon】
+L17: 
+L18: 【9†About】
+L19: 
+L20: 【7†Blog】 Research
+L21: # Do Agent Teams Pay Off? A Case Study on Vibe Code Bench
+L22: 
+L23: We ran GPT 6 Sol and Claude Opus 5.5 on Vibe Code Bench as single agents and as teams, at medium and max reasoning effort. Teams cost 1.8 to 5.1 times as much, and only for Sol at medium effort was the difference in score statistically significant. Whether a team is worth it depends on the model, task, and budget: a team can boost performance, but higher reasoning effort is an alternative worth weighing.
+L24: 
+L25: Katrina Drozdov • 10/09/2026
+L26: 【10†Image: Do Agent Teams Pay Off? A Case Study on Vibe Code Bench】
+L27: 
+L28: Both OpenAI and Anthropic now ship native multi-agent support: a lead agent can spawn subagents, hand each of them part of a task, and assemble what they return. We wanted to measure what that buys, what it costs, and which kinds of work it helps, on tasks that resemble real software projects.
+L29: We used 【11†Vibe Code Bench】, our benchmark for building complete web applications from a product spec, as a test bed. Each app is deployed with Docker Compose and graded by browser agents that click through its workflows. The work splits naturally into a database, an API, an interface, and deployment, and bugs at the seams between those pieces show up directly in the score. We ran GPT 6 Sol and Claude Opus 5.5 on 50 apps, each as a single agent and as a team, at medium and max reasoning effort.
+L30: In a team, the lead agent can hand parts of the build to subagents, up to five at once, and subagents cannot spawn their own. Both leads received the same short instruction: split the work into independent parts, delegate each one, then integrate and verify the result; the task prompt, sandbox, and grader were otherwise identical. Score is the share of an app’s UI tests that pass, averaged over the 50 apps. Each of the eight setups ran once.
+L31: ## Key findings
+L32:   * Teams cost 1.8 to 5.1 times as much as single agents, and only one difference in score was statistically significant. Sol’s medium-effort team gained 7.3 points over its single agent (p = 0.005). The other three differences, from −0.3 to +3.4 points, were not statistically significant.
+L33:   * For Sol, higher effort raised the score more than a team did; for Opus, neither higher effort nor a team made a significant difference. Higher effort came at a higher price, though: Sol’s max-effort single agent cost 1.6 times as much as its medium-effort team ($4.82 vs. $3.07 per app) and took three times as long.
+--------------------------------------------------------------------------------
+Can AI automate AI R&D yet? | Epoch AI (https://epoch.ai/publications/innovationeval)
+citeturn13view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://epoch.ai/publications/innovationeval","lineno":null}); Total lines: 1136
+L0: 【0†Image: Menu】【1†Image: Menu】
+L1: 
+L2: [Input]
+L3: 
+L4: 【2†Latest】Our work
+L5: 
+L6: #### Featured
+L7: 
+L8:   * 【3†Trends in AI】
+L9:   * 【4†Data on AI】
+L10:   * 【5†Capabilities & benchmarking】
+L11: 
+L12: #### Publications
+L13: 
+L14:   * 【6†Papers & reports】
+L15:   * 【7†Data Insights】
+L16:   * 【8†Newsletter】
+L17:   * 【9†Podcast】
+L18:   * 【10†All publications】
+L19: 
+L20: #### Data explorers
+L21: 
+L22:   * 【5†AI capabilities】
+L23:   * 【11†AI models】
+L24:   * 【12†AI data centers】
+L25:   * 【13†AI chip sales】
+L26:   * 【14†AI companies】
+L27:   * 【15†Polling on AI usage】
+L28:   * 【4†All data explorers】
+L29: #### Our benchmarks
+L30: 
+L31:   * 【16†Epoch Capabilities Index】
+L32:   * 【17†MirrorCode】
+L33:   * 【18†FrontierMath: Open Problems】
+L34:   * 【19†Epoch Automation Reports】
+L35:   * 【20†Earthborne Rangers】
+L36: 
+L37: Topics
+L38: 
+L39: #### AI progress
+L40: 
+L41:   * 【21†Scaling】
+L42:   * 【22†Software progress】
+L43:   * 【23†Open models】
+L44:   * 【24†Capabilities & benchmarks】
+L45:   * 【25†Math】
+L46: 
+L47: #### Industry
+L48: 
+L49:   * 【26†Leading companies】
+L50:   * 【27†Finances】
+L51:   * 【28†Geopolitics】
+L52: 
+L53: #### Infrastructure
+L54: 
+L55:   * 【29†Chips】
+L56:   * 【30†Data centers】
+L57:   * 【31†Energy】
+L58: #### Impacts
+L59: 
+L60:   * 【32†Adoption & use】
+L61:   * 【33†Economic impact】
+L62:   * 【34†Future of AI】
+L63: 
+L64: About
+L65: 
+L66: #### Who we are
+L67: 
+L68:   * 【35†About us】
+L69:   * 【36†Our team】
+L70:   * 【37†Transparency】
+L71: 
+L72: #### Engage with us
+L73: 
+L74:   * 【38†Careers】
+L75:   * 【39†Press】
+L76:   * 【40†Work with our experts】
+L77:   * 【41†Donate】
+L78: 
+L79: 【42†Contact】
+L80: 
+L81: [Input: Search epoch.ai]
+L82: 
+L83:   * 【2†Latest】
+L84:   * Our work
+L85: 
+L86: #### Featured
+L87: 
+L88: 【3†Trends in AI】【4†Data on AI】【5†Capabilities & benchmarking】
+L89: #### Publications
+L90: 
+L91: 【6†Papers & reports】【7†Data Insights】【8†Newsletter】【9†Podcast】【10†All publications】
+L92: 
+L93: #### Data explorers
+L94: 
+L95: 【5†AI capabilities】【11†AI models】【12†AI data centers】【13†AI chip sales】【14†AI companies】【15†Polling on AI usage】【4†All data explorers】
+L96: 
+L97: #### Our benchmarks
+L98: 
+L99: 【16†Epoch Capabilities Index】【17†MirrorCode】【18†FrontierMath: Open Problems】【19†Epoch Automation Reports】【20†Earthborne Rangers】
+L100: 
+L101:   * 【43†Navigate by topic】
+L102: #### AI progress
+L103: 
+L104: 【21†Scaling】【22†Software progress】【23†Open models】【24†Capabilities & benchmarks】【25†Math】
+L105: 
+L106: #### Industry
+L107: 
+L108: 【26†Leading companies】【27†Finances】【28†Geopolitics】
+L109: 
+L110: #### Infrastructure
+L111: 
+L112: 【29†Chips】【30†Data centers】【31†Energy】
+L113: 
+L114: #### Impacts
+L115: 
+L116: 【32†Adoption & use】【33†Economic impact】【34†Future of AI】
+L117: 
+L118:   * 【35†About】
+L119: 
+L120: #### Who we are
+L121: 
+L122: 【35†About us】【36†Our team】【37†Transparency】
+L123: #### Engage with us
+L124: 
+L125: 【38†Careers】【39†Press】【40†Work with our experts】【41†Donate】
+L126: 
+L127:   * 【42†Contact】
+L128:   * Report
+L129: 
+L130: Oct. 7, 2026
+L131: 
+L132: # Can AI automate AI R&D yet?
+L133: 
+L134: Early evidence from InnovationEval: No
+L135: 
+L136: Cite
+L137: 
+L138: By 【44†David Owen】
+L139: ### Contents
+L140: 
+L141:   * 【45†Introduction】
+L142:   * 【46†Methodology】
+L143:   * 【47†Results】
+L144:   * 【48†AI struggles at end-to-end AI algorithms R&D… for now】
+L145:   * 【49†Appendix: evaluation details】
+L146: 
+L147: Introduction
+L148: 
+L149:   * 【45†Introduction】
+L150:   * 【46†Methodology】
+L151:   * 【47†Results】
+L152:   * 【48†AI struggles at end-to-end AI algorithms R&D… for now】
+--------------------------------------------------------------------------------
+The Live AI Lab the World Runs On (https://decart.ai/)
+citeturn13view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://decart.ai/","lineno":null}); Total lines: 135
+L0: 【0†Optimization Stack】
+L1: 
+L2: Model
+L3: 
+L4: Explore
+L5: 
+L6: Company
+L7: 
+L8: 【1†Start Building†platform.decart.ai】
+L9: 
+L10: 【2†Contact us】
+L11: 
+L12: 【2†Contact us】
+L13: # The Live AI Lab
+L14: the World Runs On
+L15: 
+L16: We build the infrastructure and models that make AI run at the speed of reality.
+L17: 
+L18: 【3†Try Lucy 2.5】
+L19: 
+L20: Your browser does not support the video tag.
+L21: 
+L22: Partners and customers
+L23: 【4†Image: Adobe†cdn.sanity.io】【5†Image: Amazon†cdn.sanity.io】【6†Image: WPP†cdn.sanity.io】【7†Image: eBay†cdn.sanity.io】【8†Image: ElevenLabs†cdn.sanity.io】【9†Image: fal†cdn.sanity.io】【10†Image: NVIDIA†cdn.sanity.io】【11†Image: Toyota†cdn.sanity.io】【12†Image: Twitch†cdn.sanity.io】【13†Image: Comcast†cdn.sanity.io】
+L24: 【4†Image†cdn.sanity.io】【5†Image†cdn.sanity.io】【6†Image†cdn.sanity.io】【7†Image†cdn.sanity.io】【8†Image†cdn.sanity.io】【9†Image†cdn.sanity.io】【10†Image†cdn.sanity.io】【11†Image†cdn.sanity.io】【12†Image†cdn.sanity.io】【13†Image†cdn.sanity.io】
+L25: ## E v e r y t h i n g h u m a n i t y i s a b o u t t o b u i l d r u n s o n a l i m i t e d n u m b e r o f c h i p s.
+L26: 
+L27: ## T h e f u t u r e d e p e n d s o n e x t r a c t i n g f a r m o r e p e r f o r m a n c e f r o m t h e c o m p u t e w e a l r e a d y h a v e.
+L28: 
+L29: Your browser does not support the video tag.
+L30: 
+L31: Introducing
+L32: ## Decart Optimization Stack.
+L33: 
+L34: Frontier optimization technology that extracts up to 100× more performance from the chips you already run.
+L35: 
+L36: 【0†Learn more】
+L37: 
+L38: Built across:
+L39: 
+L40:   * 【14†Image†cdn.sanity.io】Google TPUs
+L41:   * 【15†Image†cdn.sanity.io】AWS Trainium
+L42:   * 【16†Image†cdn.sanity.io】Nvidia GPUs
+L43: 
+L44:   * 【14†Image†cdn.sanity.io】Google TPUs
+L45:   * 【15†Image†cdn.sanity.io】AWS Trainium
+L46:   * 【16†Image†cdn.sanity.io】Nvidia GPUs
+L47: 
+L48: 【17†Image†cdn.sanity.io】
+L49: ### Hardware agnostic
+L50: 
+L51: Run optimized workloads across every major chip architecture. Your workload shouldn't care what it runs on.
+L52: 
+L53: 【18†Image†cdn.sanity.io】
+L54: 
+L55: ### Peak hardware performance
+L56: 
+L57: Extract more from the compute you already have. No new racks. No new contracts. New ceiling.
+L58: 
+L59: 【19†Image†cdn.sanity.io】
+L60: 
+L61: ### Ultra-fast inference
+L62: 
+L63: Frontier models at lower latency and higher token throughput. Intelligence at the speed of reality.
+L64: 
+L65: ## Deploy the Live AI layer
+L66: 
+L67: 【2†Contact us】
+L68: ## One stack powers every layer of Live AI.
+L69: 
+L70: DOS powers Decart's proprietary models as well as external LLMs and agentic workloads.
+L71: 
+L72:   * 【20†Image: Wear this Viking warrior armor】
+L73:   * 【21†Image: Wear this cowboy ghost outfit】
+L74:   * 【22†Image: Wear this pink streetwear look】
+L75:   * 【23†Image: Wear this military cargo jacket】
+L76:   * 【24†Image: Wear this double-breasted suit】
+L77: 
+L78: Lucy Version 2.5
+--------------------------------------------------------------------------------
+The Official Microsoft Blog (https://blogs.microsoft.com/)
+citeturn13view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://blogs.microsoft.com/","lineno":null}); Total lines: 68
+L0: 【0†Official Microsoft Blog】
+L1: ## Featured
+L2: 
+L3: Oct 20, 2026 (October 20, 2026) | 【1†Douglas Phillips - President and Chief Technology Officer, Microsoft Specialized Clouds】
+L4: 
+L5: 【2†Advancing digital sovereignty with greater control and choice】
+L6: 
+L7: Oct 19, 2026 (October 19, 2026) | 【3†Hayete Gallot - Executive Vice President, Microsoft Security】
+L8: 
+L9: 【4†Securing the agentic insider】
+L10: 
+L11: Oct 12, 2026 (October 12, 2026) | 【5†Scott Guthrie - Executive Vice President, Cloud + AI】
+L12: 
+L13: 【6†Microsoft to expand Azure Maia system to multi-gigawatt deployments】
+L14: Oct 1, 2026 (October 1, 2026) | 【7†Microsoft Corporate Blogs】
+L15: 
+L16: 【8†Microsoft 365 and LinkedIn leadership update】
+L17: 
+L18: Sep 28, 2026 (September 28, 2026) | 【9†Jessica Hawk - CVP, Azure Product Marketing】
+L19: 
+L20: 【10†New Microsoft data innovations unlock what only your business knows】
+L21: 
+L22: Sep 25, 2026 (September 25, 2026) | 【11†Jared Spataro - Chief Marketing Officer, AI at Work】
+L23: 
+L24: 【12†Introducing the new Copilot with Home, Code and Autopilot】
+L25: ## More News
+L26: 
+L27: Sep 17, 2026 (September 17, 2026) | 【13†Kathleen Hogan - Executive Vice President and Chief Strategy and Transformation Officer】
+L28: 
+L29: ### 【14†What we’ve learned from Microsoft’s own AI transformation】
+L30: 
+L31: Sep 16, 2026 (September 16, 2026) | 【15†Justin Spelhaug - President, Microsoft Elevate】
+L32: 
+L33: ### 【16†Microsoft’s commitment for AI in education: Protecting students, strengthening learning】
+L34: 
+L35: Sep 1, 2026 (September 1, 2026) | 【17†Rani Borkar - President, Azure Hardware Systems and Infrastructure】
+L36: ### 【18†The yield imperative: Turning AI infrastructure into useful intelligence】
+L37: 
+L38: Jul 28, 2026 (July 28, 2026) | 【19†Judson Althoff - CEO, Microsoft Commercial Business】
+L39: 
+L40: ### 【20†Looking back on Microsoft’s FY26: From AI experimentation to Frontier Transformation】
+L41: 
+L42: Jul 27, 2026 (July 27, 2026) | 【3†Hayete Gallot - Executive Vice President, Microsoft Security】
+L43: 
+L44: ### 【21†Rethinking security for the age of AI】
+L45: 
+L46: Jul 22, 2026 (July 22, 2026) | 【22†Chris Barry - President, US Public Sector Industries】
+L47: ### 【23†Powering America’s Genesis Mission: Microsoft’s commitment to scientific discovery】
+L48: 
+L49: Jul 20, 2026 (July 20, 2026) | 【5†Scott Guthrie - Executive Vice President, Cloud + AI】
+L50: 
+L51: ### 【24†Microsoft expands Azure AI and HPC infrastructure with AMD】
+L52: 
+L53: Jul 6, 2026 (July 6, 2026) | 【7†Microsoft Corporate Blogs】
+L54: 
+L55: ### 【25†The latest in our company transformation】
+L56: 
+L57: 【26†View More】
+L58: ## Press Tools
+L59: 【27†Surface Laptop Ultra†www.microsoft.com】 【28†Surface Pro†www.microsoft.com】 【29†Surface Laptop†www.microsoft.com】 【30†Surface RTX Spark Dev Box†www.microsoft.com】 【31†Explore Copilot†www.microsoft.com】 【32†Explore Microsoft products†www.microsoft.com】 【33†Windows 11 apps†www.microsoft.com】 【34†Account profile†account.microsoft.com】 【35†Download Center†www.microsoft.com】 【36†Microsoft Store support†go.microsoft.com】 【37†Returns†www.microsoft.com】 【38†Order tracking†www.microsoft.com】 【39†Certified Refurbished†www.microsoft.com】 【40†Why buy from Microsoft Store†www.microsoft.com】 【41†Flexible Payments†www.microsoft.com】 【42†Microsoft in education†www.microsoft.com】 【43†Devices for education†www.microsoft.com】 【44†Microsoft Teams for Education†www.microsoft.com】 【45†Microsoft 365 Education†www.microsoft.com】 【46†How to buy for your school†www.microsoft.com】 【47†Educator training and development†education.microsoft.com】 【48†Deals for students and parents†www.microsoft.com】 【49†AI for education†www.microsoft.com】
+--------------------------------------------------------------------------------
+新闻动态 - 模思智能 (https://www.mosi.cn/news)
+citeturn13view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.mosi.cn/news","lineno":null}); Total lines: 108
+L0: 模型
+L1: 
+L2:   * 音频理解
+L3:   * 音频生成
+L4:   * 视频理解
+L5:   * 视频生成
+L6: 
+L7:   * 语音转录
+L8:   * 通用音频理解
+L9:   * 音乐理解
+L10: 
+L11:   * 【0†MOSS-Transcribe-Diarize】
+L12: 
+L13:   * 【1†MOSS-Audio】
+L14: 
+L15:   * 【2†MOSS-Music】
+L16: 
+L17:   * 语音生成
+L18:   * 音效生成
+L19: 
+L20:   * 【3†MOSS-TTS】
+L21:   * 【4†MOSS-TTSD】
+L22:   * 【5†MOSS-TTS-Nano】
+L23:   * 【6†MOSS-VoiceGenerator】
+L24: 
+L25:   * 【7†MOSS-SoundEffect】
+L26: 
+L27:   * 【8†MOSS-VL】
+L28:   * 【9†MOSS-VL-Realtime】
+L29: 
+L30:   * 【10†MOVA】
+L31: 
+L32: ### 语音转录
+L33: 
+L34:   * 【0†MOSS-Transcribe-Diarize】
+L35: 
+L36: ### 通用音频理解
+L37: 
+L38:   * 【1†MOSS-Audio】
+L39: 
+L40: ### 音乐理解
+L41: 
+L42:   * 【2†MOSS-Music】
+L43: ### 语音生成
+L44: 
+L45:   * 【3†MOSS-TTS】
+L46:   * 【4†MOSS-TTSD】
+L47:   * 【5†MOSS-TTS-Nano】
+L48:   * 【6†MOSS-VoiceGenerator】
+L49: 
+L50: ### 音效生成
+L51: 
+L52:   * 【7†MOSS-SoundEffect】
+L53: 
+L54: ### 视频理解
+L55: 
+L56:   * 【8†MOSS-VL】
+L57:   * 【9†MOSS-VL-Realtime】
+L58: 
+L59: ### 视频生成
+L60: 
+L61:   * 【10†MOVA】
+L62: 
+L63: 产品
+L64: 
+L65:   * 【11†Mossland†mossland.studio】
+L66:   * 【12†MosMos†mosmos.io】
+L67:   * MOSS Live（敬请期待）
+L68: 
+L69: 【13†API†platform.mosi.cn】【14†博客】
+L70: 
+L71: 公司
+L72: 
+L73:   * 【15†关于我们】
+L74:   * 【16†公司新闻】
+L75:   * 【17†加入我们】
+L76: 
+L77: 【18†EN】/【16†中文】
+L78: # 新闻动态
+L79: 
+L80: 融资信息【19†模思智能完成超10亿元Pre-A轮融资，押注下一代AI全模态实时交互基座】2026年10月12日【19†阅读全文】
+L81: 
+L82: 交流活动【20†邱锡鹏教授出席华为 HC 大会并受聘昇腾 MVP，共探人工智能的科学新前沿】2026年9月18日【20†阅读全文】
+L83: 
+L84: 交流活动【21†模思智能亮相 2026 Inclusion · 外滩大会，带来模型实时交互体验】2026年9月9日【21†阅读全文】
+L85: 
+L86: 主题演讲【22†模思智能亮相 ChinaJoy，CEO 李世民围绕 “联接 AI、人与物理世界” 发表演讲】2026年7月31日【22†阅读全文】
+L87: 
+L88: 动态观察【23†邱锡鹏教授：下一代 AI，真正缺的不是更多模态，而是理解情境】2026年7月23日【23†阅读全文】
+L89: 
+L90: 模型资讯【24†MOSS-Transcribe-Diarize 荣获第二届 MLC-SLM 竞赛第一名】2026年7月22日【24†阅读全文】
+L91: 
+L92: 交流活动【25†模思智能正式亮相 2026 WAIC 世界人工智能大会】2026年7月18日【25†阅读全文】
+L93: 荣誉奖项【26†模思智能成功入围 2026 SAIL 奖 TOP30】2026年6月22日【26†阅读全文】
+L94: 
+L95: 人物访谈【27†模思智能程沁源：当 AI 从数字世界进入物理世界，交互技术将被重新定义】2026年6月12日【27†阅读全文】
+L96: 
+L97: 已显示 9 篇，共 10 篇
+L98: 
+L99: [Button: 加载更多]
+L100: 
+L101: 【28†隐私政策】【29†用户协议】mosi@mosi.cn
+L102: 
+L103: * * *
+L104: 
+L105: © 2026 上海模思智能科技有限公司
+L106: 
+L107: 【30†沪公网安备31010402335380号†beian.mps.gov.cn】|【31†沪ICP备2025111052号†beian.miit.gov.cn】
+--------------------------------------------------------------------------------
+ModCraft (https://www.modcraft.games/)
+citeturn13view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.modcraft.games/","lineno":null}); Total lines: 204
+L0: 【0†Beta】
+L1: 
+L2: 发现、下载和分享游戏 Mod。
+L3: 
+L4: 【1†沪公网安备31010402336453号†beian.mps.gov.cn】【2†沪ICP备2026004483号-1†beian.miit.gov.cn】
+L5: 
+L6: 增值电信业务经营许可证 合字B2-20260555
+L7: 
+L8: ## 联系我们
+L9: 
+L10: 官方邮箱：support@modcraft.games
+L11: 
+L12: 官方 QQ 群：[Button: 967957285]
+L13: ## 相关链接
+L14: 
+L15:   * 【3†用户协议】
+L16:   * 【4†隐私政策】
+L17:   * 【5†社区公约】
+L18: 
+L19: © 2026 ModCraft. 保留所有权利。
+L20: 
+L21: 【6†Image†assets.modcraftcdn.com】
+L22: 
+L23: 【7†Image†assets.modcraftcdn.com】
+L24: 
+L25: 【8†Image†assets.modcraftcdn.com】
+L26: 
+L27: 【9†Image†assets.modcraftcdn.com】
+L28: 
+L29: 【10†Image†assets.modcraftcdn.com】
+L30: 
+L31: 【11†Image†assets.modcraftcdn.com】
+L32: 
+L33: 【12†Image†assets.modcraftcdn.com】
+L34: 
+L35: 【13†Image†assets.modcraftcdn.com】
+L36: 
+L37: 【14†Image†assets.modcraftcdn.com】
+L38: 
+L39: 【15†Image†assets.modcraftcdn.com】
+L40: 
+L41: 【16†Image†assets.modcraftcdn.com】
+L42: 
+L43: 【17†Image†assets.modcraftcdn.com】
+L44: 【18†Image†assets.modcraftcdn.com】
+L45: 
+L46: 【19†Image†assets.modcraftcdn.com】
+L47: # 人人都能做 Mod
+L48: 
+L49: 无需编程，说出想法，让AI 帮你做出可玩的 Mod
+L50: 
+L51: 开始创作【20†浏览社区内容】
+L52: 
+L53: 我希望能给已经认识的人物写备注、加自定义标签，再按标签筛选。 已在人物面板加入备注和自定义标签，也可以按标签筛选已认识的人物。 Mod 已打包，可以下载体验或上传到社区。
+L54: 
+L55: 我希望能给已经认识的人物写备注、加自定义标签，再按标签筛选。
+L56: 
+L57: 读取人物数据修改人物面板编译并打包
+L58: 
+L59: 已在人物面板加入备注和自定义标签，也可以按标签筛选已认识的人物。
+L60: 
+L61: Mod 已打包，可以下载体验或上传到社区。
+L62: 
+L63: 下载上传到社区
+L64: 
+L65: 帮我..._
+L66: 
+L67: 模型：ModCraft V1 Pro【21†进入编辑器†editor.modcraft.games】
+L68: ## 【22†热门游戏】
+L69: 
+L70: 【23†怪物猎人：崛起1287】【24†守墓人2 4257】【25†烽沙20195】【26†黑神话：悟空12128】【27†魔女：终末旅途26121】【28†空洞骑士：丝之歌1652】【29†太吾绘卷：天幕心帷1467】【30†PEAK 931】【31†Palworld / 幻兽帕鲁69】【32†Valheim: 英灵神殿26】【33†剑星34】【34†缺氧28】【35†墨境11】【36†Lethal Company 致命公司31】【37†R.E.P.O.22】【38†光与影：33号远征队612】【39†雨中冒险 2 22】【40†Subnautica - 深海迷航00】
+L71: 
+L72: ## 【41†热门 Mod】
+L73: 
+L74: 怪物猎人：崛起
+L75: ### 【42†斩龙】
+L76: 
+L77: 【42†为怪物猎人崛起增加了斩龙】
+L78: 
+L79: 【43†云雾敛】·287·9 天前更新【42†立即查看】
+L80: 
+L81:   1. 【44†Image: 斩龙 封面】怪物猎人：崛起斩龙云雾敛·287
+L82:   2. 【45†Image: BepInEx（必装前置） 封面】守墓人2 BepInEx（必装前置）爱哭小猫猫·99
+L83:   3. 【46†Image: 共享仓库 封面】守墓人2共享仓库-云轩·79
+L84:   4. 【47†Image: 烽沙专用UE4SS 封面】烽沙烽沙专用UE4SS爱哭小猫猫·76
+L85:   5. 【48†Image: 一键无限资源 封面】烽沙一键无限资源Steven·57
+L86:   6. 【49†Image: 快速走路 封面】守墓人2快速走路Steven·37
+L87: ## 【50†最新 Mod】
+L88: 
+L89: 【51†74二郎神人形boss强化—基础版】
+L90: 
+L91: 【26†黑神话：悟空】【51†内容补充】
+L92: 
+L93: 【51†二郎神人形boss强化—基础版】【51†强化杨戬的性能，攻速提高，每破盾一次攻速提升，玩家变身会回复满血进行反制。】
+L94: 
+L95: 【52†小小天龙】今天更新
+L96: 
+L97: 【53†00非生物因素一对多主控传送网络 Mod】
+L98: 
+L99: 【54†非生物因素】【53†功能扩展】
+L100: 
+L101: 【53†非生物因素一对多主控传送网络 Mod】【53†解决了需要在家做多个传送门，并且分不清每个传送门都去哪的问题。】
+L102: 
+L103: 【55†modder_2qoph3tj】今天更新
+L104: 
+L105: 【56†1648 boss技能控制mod】
+L106: 
+L107: 【26†黑神话：悟空】【56†工具辅助】
+L108: 
+L109: 【56†boss技能控制mod】【56†可控制boss单独出招，也可以组合出招。】
+L110: 
+L111: 【57†落尘乊】今天更新
+L112: 
+L113: 【58†10丝之歌常驻小地图显示Mod】
+L114: 
+L115: 【28†空洞骑士：丝之歌】【58†功能扩展】
+L116: 
+L117: 【58†丝之歌常驻小地图显示Mod】【58†在拥有并佩戴罗盘后，游戏界面右上角会常驻显示小地图及角色当前位置，小地图需要用羽毛笔更新。不会提前解锁地图影响游戏正常进行。】
+L118: 【59†modder_dydka6uk】1 天前更新
+L119: 
+L120: 【60†1721 MOBA操作模式Mod】
+L121: 
+L122: 【26†黑神话：悟空】【60†功能扩展】
+L123: 
+L124: 【60†MOBA操作模式Mod】【60†把《黑神话：悟空》改成 MOBA 式操作：固定俯视镜头、右键点地自动走位、Q/W/E/R/D/F 放技能并各自计算冷却，能在游戏内菜单里自由改装技能与冷却时间。】
+L125: 
+L126: 【61†迈克杰克逊】1 天前更新
+L127: 
+L128: 【62†10终末账簿-先透支，后偿还——12 张「欠条」债务流卡牌，独立卡包】
+L129: 
+L130: 【27†魔女：终末旅途】【62†内容补充】
+L131: 
+L132: 【62†终末账簿-先透支，后偿还——12 张「欠条」债务流卡牌，独立卡包】【62†文件：endledger_v1.3_art.zip 标题：终末账簿 The Ledger of the End 一句话：先透支，后偿还——12 张「欠条」债务流卡牌，含独立卡包。 分类：内容补充 标签：卡包 / 卡牌强化 / 数值调整】
+L133: 
+L134: 【63†modder_nd2myx7z】2 天前更新
+L135: 
+L136: 【64†10 Make 只因！great again！】
+L137: 
+L138: 【31†Palworld / 幻兽帕鲁】【64†数值调整】
+

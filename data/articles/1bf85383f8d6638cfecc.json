@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
+  "title": "Major US banks are locking out AI agents that log in with customer credentials",
+  "text": "Customers are letting AI agents use their credentials to access accounts at Morgan Stanley, JPMorgan, and other major U.S. banks, sometimes without direct instructions. Morgan Stanley has blocked agents, while other banks are restricting access. Most plan to limit agents to read-only access.\nThe article Major US banks are locking out AI agents that log in with customer credentials appeared first on The Decoder.",
+  "published_at": "2026-10-22T18:26:02+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1bf85383f8d6638cfecc",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/3990622c711eebb1891e44a3169f8bc2eb25c5a6e33a8afc9954cd2f63388c91.body",
+  "source_sha256": "3990622c711eebb1891e44a3169f8bc2eb25c5a6e33a8afc9954cd2f63388c91",
+  "fetched_at": "2026-10-22T22:00:30.999600+00:00"
+}

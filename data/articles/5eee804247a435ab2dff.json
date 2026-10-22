@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+  "title": "Canva’s first AI image model plans designs before generating them",
+  "text": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an announcement on Thursday.\nCanva Craft can generate images at up to 2K resolution and in more than 30 aspect ratios. In addition to generating social media posts and marketing content, it's also supposed to create realistic scenes, digital art, environmental imagery, and more. The model's two-stage sy …\nRead the full story at The Verge.",
+  "published_at": "2026-10-22T17:51:25-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T17:53:22-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5eee804247a435ab2dff",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-23/354037668354a7fdbccceaef0698b1984eb9857bb57a45cf4e0d038241cca48b.body",
+  "source_sha256": "354037668354a7fdbccceaef0698b1984eb9857bb57a45cf4e0d038241cca48b",
+  "fetched_at": "2026-10-22T22:00:31.257206+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159735.htm",
+  "title": "美商海盗船WS3000工作站电源首发6599元：四组原生12V-2×6接口",
+  "text": "快科技10月22日消息，美商海盗船推出了新款WS3000工作站电源，价格6599元。\n这是一款支持ATX 3.1和PCIe 5.1标准的全模组产品，采用单路+12V设计，获得80 PLUS 230V EU铂金认证，转换效率达到94%，功耗更低、噪音更低、温度更低，可为任何工作站构建提供充足功率、丰富连接以及可靠且清洁的电力传输。\n与许多同类产品不同，WS3000工作站电源额定功率为3000W，仅支持220~240V交流输入使用，采用C19/C20接口，支持16A电流。\n同时内建多种电路保护功能，包括过流保护（OCP）、过压保护（OVP）、短路保护（SCP）、过功率保护（OPP）和过温保护（OTP），确保高要求工作负载下的性能和稳定性。\nWS3000工作站电源整体尺寸为175 x 150×86mm，内置140mm双滚珠轴承风扇，提供四组原生12V-2×6供电接口，最多八个8Pin供电接口（通过四组双6+2Pin线缆），为用户打造性能强大的工作站提供可靠选择，满足AI/ML、3D渲染和专业内容创建需求。",
+  "published_at": "2026-10-22T16:43:00+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "9f1aa1ef09aec9244415",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c.body",
+  "source_sha256": "d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c",
+  "fetched_at": "2026-10-22T22:00:48.253488+00:00"
+}

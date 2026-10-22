@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159784.htm",
+  "title": "马斯克TeraFab工厂或2028Q3实现量产 2027将生产首个SRAM测试芯片",
+  "text": "快科技10月22日消息，埃隆·马斯克正在积极推进TeraFab项目的时间表。传闻在最近一次SpaceX电话会议上，马斯克透露TeraFab工厂计划2028年第三季度实现量产，也可能等到第四季度。\n在马斯克看来，这一时间表“非常激进”，因为美国地区生产先进逻辑芯片的晶圆厂通常需要三年或更长时间才能建成。\n另有消息称，SpaceX计划2027年5月至6月之间在位于奥斯汀的研究设施生产首个SRAM测试芯片，以完成开发及优化制造工艺。\n有分析人士指出，确保拿到生产设备仍是TeraFab项目面临的主要难题，尤其是来自ASML（阿斯麦）等供应商的关键设备。\n近日ASML公布2026年第三季度财报，表示订单量增长强劲；虽然2027年和2028年产能都将增长30%，但预计现有供应计划仍无法完全满足客户需求。尽管ASML已在研究进一步扩大生产，但TeraFab工厂能否在期限内拿到足够数量的光刻机仍是未知数。\n此前有报道称，TeraFab工厂将于2027年中旬接收首台EUV光刻机。不过考虑到厂房建设进度稍慢，要到2027年末才完成，预计EUV光刻机会晚一些搬入，并可能闲置一段时间。",
+  "published_at": "2026-10-22T18:41:49+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5ec03d0aa28aacff12d6",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c.body",
+  "source_sha256": "d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c",
+  "fetched_at": "2026-10-22T22:00:48.253488+00:00"
+}

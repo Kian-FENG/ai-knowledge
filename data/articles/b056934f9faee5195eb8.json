@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+  "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
+  "text": "Security researchers at Symantec have found an offensive AI agent that hijacks unprotected language models on the web and uses them to attack servers, steal databases, and install cryptominers on its own. It runs up to 100,000 steps without human input. The owner of the hijacked model gets stuck with the bill.\nThe article An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks appeared first on The Decoder.",
+  "published_at": "2026-10-22T11:30:56+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "b056934f9faee5195eb8",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/3990622c711eebb1891e44a3169f8bc2eb25c5a6e33a8afc9954cd2f63388c91.body",
+  "source_sha256": "3990622c711eebb1891e44a3169f8bc2eb25c5a6e33a8afc9954cd2f63388c91",
+  "fetched_at": "2026-10-22T22:00:30.999600+00:00"
+}

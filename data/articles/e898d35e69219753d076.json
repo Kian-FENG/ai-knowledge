@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159746.htm",
+  "title": "1800+元 极摩客推新款迷你主机：用上已停产的Intel奔腾双核CPU",
+  "text": "快科技10月22日消息，极摩客近日推出了NucBox G3 Ultra新款迷你主机，虽然名字中带Ultra，核心却是一颗Intel已停产的奔腾Gold 7505。这颗芯片发布于2020年，距今已有将近6年，Intel官方产品页已将奔腾Gold 7505标注为停产状态。\n具体规格上，奔腾Gold 7505基于Tiger Lake架构，采用Intel 10nm SuperFin工艺，双核四线程，4MB L3缓存，最高加速频率3.5GHz，集成UHD核显带48个执行单元。原设计TDP为15W，采用BGA1449封装直接焊在主板上。\n这颗芯片当年定位就是入门级移动市场，性能大致相当于十代酷睿i3的低配版，放到现在跑日常办公尚可，但面对2021年以后的软件和游戏已力不从心。\n极摩客提供8W、10W和15W三档可配置功耗，配风扇和铜热管散热，16GB LPDDR4-3200内存直接焊在主板上，无法升级。\n存储可选256GB、512GB和1TB SSD，机身内有两个M.2 2280插槽，一个支持PCIe Gen4 NVMe最高8TB，另一个走SATA。\n连接方面配备Wi-Fi 6、蓝牙5.2和千兆网口，三个USB 3.2 Gen2 Type-A、一个USB 2.0 Type-A、3.5mm音频口和两个HDMI 2.0输出，各支持4K 60Hz显示，但没有USB-C。\n机身尺寸114×106×44mm，重280克，预装Windows 11专业版。\n价格方面，NucBox G3 Ultra256GB版定价269.99美元（快科技注：当前约1801元人民币），512GB版299.99美元（快科技注：当前约2001元人民币）。作为参照，同价位竞品普遍采用更新的Intel N系列，极摩客选用停产老芯片大概率是清库存策略，但价格并未体现出老芯片的成本优势。",
+  "published_at": "2026-10-22T17:05:12+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e898d35e69219753d076",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c.body",
+  "source_sha256": "d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c",
+  "fetched_at": "2026-10-22T22:00:48.253488+00:00"
+}

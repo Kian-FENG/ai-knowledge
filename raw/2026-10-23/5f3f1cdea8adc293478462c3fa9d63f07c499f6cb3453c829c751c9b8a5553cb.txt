@@ -1,0 +1,368 @@
+Browser-tool extracted source (not raw HTTP). URL and original line positions retained.
+Introducing Claude Duet | Claude by Anthropic (https://claude.com/resources/articles/claude-duet)
+citeturn33view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://claude.com/resources/articles/claude-duet","lineno":null}); Total lines: 364
+L0: Product
+L1: 
+L2: Developers
+L3: 
+L4: Enterprise
+L5: 
+L6: Resources
+L7: 
+L8: Pricing
+L9: 
+L10: 【0†Login†claude.ai】
+L11: 
+L12: 【1†Contact sales】【2†Try Claude†claude.ai】
+L13: 
+L14: Claude Resources
+L15: 
+L16: 【3†Home】【4†Articles】【5†Guides】【6†Webinars】【7†Videos】
+L17: 
+L18: 【3†Home】【4†Articles】【5†Guides】【6†Webinars】【7†Videos】
+L19: 
+L20: Search
+L21: 
+L22: 【8†Image: Claude Duet app icon†assets.claude.com】
+L23: # Introducing Claude Duet
+L24: 
+L25: A research preview is available by waitlist today, starting with US Pro and Max subscribers.
+L26: 
+L27: 【9†Join the waitlist】
+L28: 
+L29:   * Category【10†Announcements】
+L30: 
+L31:   * Date October 21, 2026
+L32: 
+L33:   * Reading time 5 min
+L34: 
+L35:   * Share[Button: Copy link]
+L36: Today, we’re opening a research preview of Claude Duet, a new app where Claude works as a proactive agent. It comes to you with what needs your attention, completes tasks you ask of it, keeps working even when you step away, and checks with you before it acts on your behalf. We built Claude Duet for professionals and small business owners with more on their plates than they can track.
+L37: 
+L38: 【11†Introducing Claude Duet†www.youtube-nocookie.com】
+L39: It’s available as a standalone app on iOS and Android, and on claude.ai. For this research preview, Claude Duet is included in Pro and Max plans and uses the same usage limits as the rest of Claude. To get access, 【9†join the waitlist (opens in new tab)】.
+L40: ## Put your attention where it matters most
+L41: 
+L42: We designed Claude Duet to be a partner you can trust. Professionals of all kinds have to juggle many decisions a day, and we think they’ll find Claude Duet most useful. It helps you prioritize where to spend your time and energy, and to leave room for the ambitious projects that felt impossible or daunting before.
+L43: What makes Claude Duet so helpful is its judgment. We designed it around 【12†Claude Opus 5.5 (opens in new tab)†www.anthropic.com】 and built it to be resourceful and to decide what needs you, what can wait, and when to check with you first.
+L44: Each morning, it sends you a short brief on the most important items across your connected apps. Throughout the day, it keeps tabs on those apps and messages you only when something needs your attention. You can also hand it tasks of all shapes—from simple administrative tasks of scheduling meetings to more complex ones, such as building dashboards with dozens of tools, creating financial or sales forecasts, prototyping, and building web apps.
+L45: ## Safety and discretion are built in
+L46: 
+L47: Claude Duet draws on years of security, safety, and privacy work on agents, both our own and the infrastructure businesses use to run theirs:
+L48:   * Claude Duet draws on our 【13†framework for trustworthy agents (opens in new tab)†www.anthropic.com】, which also guides agents like Claude Code and Claude in Chrome.
+L49:   * Claude Duet’s handling of credentials follows the design we use for 【14†Claude Managed Agents (opens in new tab)†www.anthropic.com】, so it never directly sees your passwords or sign-in tokens.
+L50:   * Actions are approved by our 【15†auto mode classifier (opens in new tab)†www.anthropic.com】, the same safeguard that protects Claude and Claude Code from taking steps you didn’t ask for.
+L51:   * Claude Duet’s defenses against hidden instructions and prompt injection come from our 【16†browser-use research (opens in new tab)†www.anthropic.com】, and our models and safeguards also cover this more broadly.
+L52:   * We run adversarial tests for Claude Duet’s security infrastructure. Red teams and an external firm penetration tested Claude Duet, and it’s covered by our public 【17†bug bounty program (opens in new tab)†hackerone.com】.
+L53: How Claude Duet handles sensitive information. We’re also releasing Claude Duet with a new dedicated classifier and safety system prompt that checks each message and guards against leaks of sensitive information. An agent that reads email and sends messages for you is constantly deciding where information should go. This new classifier and prompt are designed to reject requests to share the strictest tier of information, including credit card numbers and government identification.
+L54: Other sensitive information, such as health or personal finances, are let through only when you’ve explicitly instructed Claude Duet to send it.
+L55: We’re continuing to develop and strengthen these protections, and will share more details about how Claude Duet is designed for safety in the coming days.
+L56: ## How testers are using Claude Duet
+L57: People at Anthropic have been using Claude Duet to accomplish more, but also to leave more room for thinking and being present. Boris Cherny, who leads our Claude Code team, talks through his mental to-do list with Claude Duet on walks, instead of saving the work for his desk. Chelsea Larsson, who leads our model and product behavior design team, hands Claude Duet her to-do list before leaving to be with her kids and it saves the results for an evening report.
+L58: And the team behind Claude Duet uses it to build the product. Karan Ahuja, who leads the team, works with it to schedule user interviews, partner with him on prototypes, and even ship code.
+L59: We gave small business owners and entrepreneurs early access to Claude Duet, and some have been using it to help run their businesses. Here’s what some of them said:
+L60: 
+L61: 【18†Image†assets.claude.com】
+L62: 
+L63: > Jess gets a rundown from Claude Duet each morning. One day, without being asked, it flagged a property showing that was on her calendar for the wrong day. “[This is] exactly the kind of thing I want caught without having to ask,” she said.
+L64: 
+L65: Jess Provencher, broker and owner, Pro Homes
+L66: 【19†Image†assets.claude.com】
+L67: 
+L68: > Amin owns Shahs of Kabob in South Florida with about 110 employees. He’s used Claude Duet for accounting, customer support, and marketing, and has worked through his invoices store by store. “It brings it all together,” he said. “I don’t need to open up 100 tabs.”
+L69: 
+L70: Amin Ebrahimi, owner, Shahs of Kabob
+L71: 
+L72: 【20†Image†assets.claude.com】
+L73: > Mya had a call coming up with a potential client. Claude Duet saw it on her calendar and prepared a brief. It also noticed the call fell right before her flight and offered to move it. “I didn’t realize that it was right before my flight,” she said. “I love that proactivity.”
+L74: 
+L75: Mya Dalton, a brand strategist
+L76: ## How Claude Duet works
+L77: 
+L78: Your context from Claude is the foundation. Claude Duet carries over your memory, skills, and connected apps from your Claude account, so setting it up requires minimal work. What changes is how you work together: Claude Duet comes to you first, and you can message it through typing or voice in one ongoing thread, so a quick reply and a weeklong project both start in the same place.
+L79: Work continues when you step away. Claude Duet has a virtual machine with its own browser, so it doesn’t require your laptop or phone to be on. Describe a task in a short message, and it works out which apps to use and what steps to take in the background. You’ll receive a notification when the task is complete or needs your review.
+L80: Receive a message when something needs you. Claude Duet checks your connected accounts every few hours, because checking nonstop would use up your plan’s limits much faster. We’re continuing to test its judgment about when to message you, and we’ll keep tuning it based on what testers tell us. You can also tell it what you want to hear about and how often.
+L81: Important decisions stay with you. Claude Duet reads, drafts, and prepares work on its own. But before it sends a message, makes a payment, signs a document, or deletes anything, it shows you exactly what it’s about to do and waits for your approval. A few things are off-limits even with your approval, like trading securities or moving money between accounts. You’re also able to disconnect any app Claude Duet has access to.
+L82: Connect with the tools your business runs on. Claude Duet can use the over 6,000 connectors and plugins in the 【21†Claude Marketplace (opens in new tab)】 to:
+L83:   * Find the Gmail and Slack messages you’ve missed and help you reply.
+L84:   * Check Intuit QuickBooks or Stripe for unpaid invoices and draft reminders.
+L85:   * Prepare and run payroll in Gusto, with hours, bonuses, and reimbursements filled in.
+L86:   * Draft a job posting and, once you edit and approve, post it to LinkedIn.
+L87:   * Help prepare agreements and send them for review and signature through Docusign.
+L88:   * Draft follow-up emails using the contact and deal history in HubSpot.
+L89:   * Turn your product launch into a social campaign in Canva.
+L90:   * Set up, design, and manage your Shopify store. Coming soon, a richer visual editor will let you design your storefront and preview it before anything goes live.
+L91: You can also use Claude Duet to purchase things for your business using Link, Stripe’s digital wallet. Claude Duet confirms the item with you, and Link asks you to approve the spend. It then pays with a virtual card, so your real card number isn’t shared. It can also use Shop Pay from Shopify to check out at online stores. Coming soon, with your permission, it will be able to sign in to sites with logins you’ve saved in 1Password.
+L92: 
+L93: 【22†Image: Logos of apps that work with Claude Duet†assets.claude.com】
+L94: ## Join the research preview
+L95: 
+L96: This is an early version of Claude Duet, and it still might misread a thread or miscalibrate what’s urgent. We built its core functionality around work, so personal errands, such as booking tickets, aren’t quite as strong, and it can’t yet show you its browser. For now, Claude Duet lives in its own app, separate from the main Claude app. What we learn from early users will shape how the two work together.
+L97: During the research preview, Claude Duet shares your plan’s usage limits with the rest of Claude, and it uses them differently than a typical conversation does. Its background checks count toward those limits, and larger tasks, like building a financial model or a deck, require more model turns and background work.
+L98: 
+L99: We’re starting today with Pro and Max users in the US. Join the 【9†waitlist (opens in new tab)】 and we’ll email as soon as Claude Duet’s ready for you.
+L100: 
+L101: 【9†Join the waitlist】
+L102: ## Related articles
+L103: 
+L104: Explore more product news and best practices for teams building with Claude.
+L105: 【23†ArticleOct 22, 2026 The full Claude Platform, available on Google Cloud Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.Claude Platform】【24†ArticleOct 21, 2026 HCLTech joins the Claude Partner Network as a Global Premier partner HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.】【25†ArticleOct 21, 2026 Claude Security now scans continuously and tracks fixes Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP.
+L106: Available in public beta for Claude Enterprise customers.Claude Security】【26†ArticleOct 15, 2026 Code Review is now generally available Catch more bugs before they reach production.Claude Code】
+L107: ## Transform how your organization operates with Claude
+L108: 
+L109: 【27†See pricing】【1†Contact sales】
+L110: 
+L111: ### Get the developer newsletter
+L112: 
+L113: Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+L114: 
+L115: [Input: Enter your email]
+L116: 
+L117: Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+L118: 
+L119: © 2026 Anthropic PBC
+L120: ## Products
+L121: 
+L122:   * 【28†Claude】
+L123:   * 【29†Claude Code】
+L124:   * 【30†Claude Cowork】
+L125:   * 【9†Claude Duet】
+L126:   * 【31†Claude Tag】
+L127:   * 【32†Claude Science】
+L128:   * 【33†Claude Security】
+L129:   * 【34†Download app】
+L130:   * 【35†Pricing】
+L131:   * 【0†Log in†claude.ai】
+L132: 
+L133: ## Capabilities
+L134: 
+L135:   * 【36†Artifacts】
+L136:   * 【37†Design】
+L137:   * 【21†Connectors】
+L138:   * 【38†Plugins】
+L139:   * 【39†Skills】
+L140: 
+L141: ## Extensions
+L142: 
+L143:   * 【40†Claude in Chrome】
+L144:   * 【41†Claude for Google Workspace】
+L145:   * 【42†Claude for Microsoft 365】
+L146: ## Models
+L147: 
+L148:   * 【43†Mythos (including Fable)†www.anthropic.com】
+L149:   * 【44†Opus†www.anthropic.com】
+L150:   * 【45†Sonnet†www.anthropic.com】
+L151:   * 【46†Haiku†www.anthropic.com】
+L152: 
+L153: ## Enterprise
+L154: 
+L155:   * 【47†Overview】
+L156:   * 【48†Claude Code for Enterprise】
+L157: 
+L158: ## Departments
+L159: 
+L160:   * 【49†Customer support】
+L161:   * 【50†Cybersecurity】
+L162:   * 【51†Legal】
+L163:   * 【52†Sales】
+L164: ## Industries
+L165: 
+L166:   * 【53†Financial advisors】
+L167:   * 【54†Financial services】
+L168:   * 【55†Government】
+L169:   * 【56†Healthcare】
+L170:   * 【57†Higher education】
+L171:   * 【58†K-12 teachers】
+L172:   * 【59†Life sciences】
+L173:   * 【60†Nonprofits】
+L174:   * 【61†Small business】
+L175: 
+L176: ## Programs
+L177: 
+L178:   * 【62†Campus】
+L179:   * 【63†Frontier Academy】
+L180:   * 【64†Scientists】
+L181:   * 【65†Startups】
+L182: ## Developers
+L183: 
+L184:   * 【66†Developer docs†code.claude.com】
+L185:   * 【67†Developer blog†claude.dev】
+L186:   * 【68†Community】
+L187:   * 【69†Console†platform.claude.com】
+L188:   * 【70†Engineering at Anthropic†www.anthropic.com】
+L189: 
+L190: ## Platform
+L191: 
+L192:   * 【71†Overview】
+L193:   * 【72†Marketplace】
+L194:   * 【73†Claude on AWS】
+L195:   * 【74†Google Cloud】
+L196:   * 【75†Microsoft Foundry】
+L197:   * 【76†Managed Agents】
+L198: ## Resources
+L199: 
+L200:   * 【3†Overview】
+L201:   * 【4†Articles】
+L202:   * 【6†Webinars】
+L203:   * 【77†Claude partner network】
+L204:   * 【78†Claude Academy†academy.claude.com】
+L205:   * 【79†Customer stories】
+L206:   * 【80†Events†www.anthropic.com】
+L207:   * 【81†Powered by Claude】
+L208:   * 【82†Service partners】
+L209: ## Help and security
+L210: 
+L211:   * 【83†Availability†www.anthropic.com】
+L212:   * 【84†Check files】
+L213:   * 【85†Regional compliance】
+L214:   * 【86†Report abuse】
+L215:   * 【87†Security and compliance†trust.anthropic.com】
+L216:   * 【88†Status†status.anthropic.com】
+L217:   * 【89†Support center†support.claude.com】
+L218: ## Company
+L219: 
+L220:   * 【90†Anthropic†www.anthropic.com】
+L221:   * 【91†Careers†www.anthropic.com】
+L222:   * 【92†Policy†www.anthropic.com】
+L223:   * 【93†Research†www.anthropic.com】
+L224:   * 【94†Anthropic news†www.anthropic.com】
+L225:   * 【95†Policy on the AI Exponential†www.anthropic.com】
+L226:   * 【96†Responsible Scaling Policy†www.anthropic.com】
+L227:   * 【97†Transparency†anthropic.com】
+L228: ## Terms and policies
+L229: 
+L230:   * [Button: Privacy choices]
+L231:   * 【98†Privacy policy†www.anthropic.com】
+L232:   * 【99†Responsible disclosure policy†www.anthropic.com】
+L233:   * 【100†Terms of service: Commercial†www.anthropic.com】
+L234:   * 【101†Terms of service: Consumer†www.anthropic.com】
+L235:   * 【102†Terms of Service: US K-12†anthropic.com】
+L236:   * 【103†Data Processing Agreement: US K-12†anthropic.com】
+L237:   * 【104†Usage Policy†www.anthropic.com】
+L238: ## Products
+L239: 
+L240:   * 【28†Claude】
+L241:   * 【29†Claude Code】
+L242:   * 【30†Claude Cowork】
+L243:   * 【9†Claude Duet】
+L244:   * 【31†Claude Tag】
+L245:   * 【32†Claude Science】
+L246:   * 【33†Claude Security】
+L247:   * 【34†Download app】
+L248:   * 【35†Pricing】
+L249:   * 【0†Log in†claude.ai】
+L250: 
+L251: ## Capabilities
+L252: 
+L253:   * 【36†Artifacts】
+L254:   * 【37†Design】
+L255:   * 【21†Connectors】
+L256:   * 【38†Plugins】
+L257:   * 【39†Skills】
+L258: 
+L259: ## Extensions
+L260: 
+L261:   * 【40†Claude in Chrome】
+L262:   * 【41†Claude for Google Workspace】
+L263:   * 【42†Claude for Microsoft 365】
+L264: ## Models
+L265: 
+L266:   * 【43†Mythos (including Fable)†www.anthropic.com】
+L267:   * 【44†Opus†www.anthropic.com】
+L268:   * 【45†Sonnet†www.anthropic.com】
+L269:   * 【46†Haiku†www.anthropic.com】
+L270: 
+L271: ## Enterprise
+L272: 
+L273:   * 【47†Overview】
+L274:   * 【48†Claude Code for Enterprise】
+L275: 
+L276: ## Departments
+L277: 
+L278:   * 【49†Customer support】
+L279:   * 【50†Cybersecurity】
+L280:   * 【51†Legal】
+L281:   * 【52†Sales】
+L282: ## Industries
+L283: 
+L284:   * 【53†Financial advisors】
+L285:   * 【54†Financial services】
+L286:   * 【55†Government】
+L287:   * 【56†Healthcare】
+L288:   * 【57†Higher education】
+L289:   * 【58†K-12 teachers】
+L290:   * 【59†Life sciences】
+L291:   * 【60†Nonprofits】
+L292:   * 【61†Small business】
+L293: 
+L294: ## Programs
+L295: 
+L296:   * 【62†Campus】
+L297:   * 【63†Frontier Academy】
+L298:   * 【64†Scientists】
+L299:   * 【65†Startups】
+L300: ## Developers
+L301: 
+L302:   * 【66†Developer docs†code.claude.com】
+L303:   * 【67†Developer blog†claude.dev】
+L304:   * 【68†Community】
+L305:   * 【69†Console†platform.claude.com】
+L306:   * 【70†Engineering at Anthropic†www.anthropic.com】
+L307: 
+L308: ## Platform
+L309: 
+L310:   * 【71†Overview】
+L311:   * 【72†Marketplace】
+L312:   * 【73†Claude on AWS】
+L313:   * 【74†Google Cloud】
+L314:   * 【75†Microsoft Foundry】
+L315:   * 【76†Managed Agents】
+L316: ## Resources
+L317: 
+L318:   * 【3†Overview】
+L319:   * 【4†Articles】
+L320:   * 【6†Webinars】
+L321:   * 【77†Claude partner network】
+L322:   * 【78†Claude Academy†academy.claude.com】
+L323:   * 【79†Customer stories】
+L324:   * 【80†Events†www.anthropic.com】
+L325:   * 【81†Powered by Claude】
+L326:   * 【82†Service partners】
+L327: ## Help and security
+L328: 
+L329:   * 【83†Availability†www.anthropic.com】
+L330:   * 【84†Check files】
+L331:   * 【85†Regional compliance】
+L332:   * 【86†Report abuse】
+L333:   * 【87†Security and compliance†trust.anthropic.com】
+L334:   * 【88†Status†status.anthropic.com】
+L335:   * 【89†Support center†support.claude.com】
+L336: ## Company
+L337: 
+L338:   * 【90†Anthropic†www.anthropic.com】
+L339:   * 【91†Careers†www.anthropic.com】
+L340:   * 【92†Policy†www.anthropic.com】
+L341:   * 【93†Research†www.anthropic.com】
+L342:   * 【94†Anthropic news†www.anthropic.com】
+L343:   * 【95†Policy on the AI Exponential†www.anthropic.com】
+L344:   * 【96†Responsible Scaling Policy†www.anthropic.com】
+L345:   * 【97†Transparency†anthropic.com】
+L346: ## Terms and policies
+L347: 
+L348:   * [Button: Privacy choices]
+L349:   * 【98†Privacy policy†www.anthropic.com】
+L350:   * 【99†Responsible disclosure policy†www.anthropic.com】
+L351:   * 【100†Terms of service: Commercial†www.anthropic.com】
+L352:   * 【101†Terms of service: Consumer†www.anthropic.com】
+L353:   * 【102†Terms of Service: US K-12†anthropic.com】
+L354:   * 【103†Data Processing Agreement: US K-12†anthropic.com】
+L355:   * 【104†Usage Policy†www.anthropic.com】
+L356: 
+L357: © 2026 Anthropic PBC
+L358: 
+L359: * * *
+L360: 
+L361: 【105†Add to Preferred Sources†www.google.com】
+L362: 
+L363: English
+

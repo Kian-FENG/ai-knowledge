@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+  "title": "Meta turns Muse sharing back on",
+  "text": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application.\nResearchers at Claroc reported earlier this week that Muse the web addresses for shared conversations from Muse were named after a conversation's title and written into public DNS. Ars Technica said Tuesday that Meta paused the sharing feature after it reached out about what was going on.\nIn a post today on X, Meta's David Singleton says that \"The underlying is …\nRead the full story at The Verge.",
+  "published_at": "2026-10-22T16:24:04-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T16:33:38-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "50dd0c98f11d38b5c2cf",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-23/354037668354a7fdbccceaef0698b1984eb9857bb57a45cf4e0d038241cca48b.body",
+  "source_sha256": "354037668354a7fdbccceaef0698b1984eb9857bb57a45cf4e0d038241cca48b",
+  "fetched_at": "2026-10-22T22:00:31.257206+00:00"
+}

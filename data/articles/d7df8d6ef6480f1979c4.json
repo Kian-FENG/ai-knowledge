@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/tech-trends/article/3371818/unitree-developing-ai-system-let-humanoid-robots-improve-themselves",
+  "title": "Unitree developing AI system to let humanoid robots improve themselves",
+  "text": "Unitree Robotics is developing a “self-evolving” feedback loop designed to allow humanoid robots to write code, run simulations and improve their real-world performance independently, founder Wang Xingxing said, in a move that mirrors a broader push towards “self-improving” artificial intelligence.\nSpeaking on Thursday at a physical AI conference hosted by Unitree in Hangzhou, Wang unveiled the project, dubbed “Unitree Rehearsal”, which he called the company’s most important initiative of the...",
+  "published_at": "2026-10-22T13:30:12+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d7df8d6ef6480f1979c4",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/2c3f9d67e65d6494447ea46eac31cadd0efb9618d3199ee8941d50bb29916a56.body",
+  "source_sha256": "2c3f9d67e65d6494447ea46eac31cadd0efb9618d3199ee8941d50bb29916a56",
+  "fetched_at": "2026-10-22T22:00:34.945768+00:00"
+}

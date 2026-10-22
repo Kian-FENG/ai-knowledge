@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+  "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+  "text": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast […]",
+  "published_at": "2026-10-22T15:00:02+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "af6b159eb6ea2f663c90",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-23/f0fb5b9e462e6bccbb1e2e7c52ac28c9b87446ecc247a7f1f43bd6f03c5d4ac9.body",
+  "source_sha256": "f0fb5b9e462e6bccbb1e2e7c52ac28c9b87446ecc247a7f1f43bd6f03c5d4ac9",
+  "fetched_at": "2026-10-22T22:00:17.445640+00:00"
+}

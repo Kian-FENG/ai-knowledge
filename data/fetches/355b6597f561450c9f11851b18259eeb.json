@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-23/38ffcb4bfef01cb6b4e58f90e3d1089f96933d86becfad1943a682e13286260c.body",
+  "sha256": "38ffcb4bfef01cb6b4e58f90e3d1089f96933d86becfad1943a682e13286260c",
+  "source_url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-22T22:04:18.274547+00:00",
+  "source_id": "nvidia-blog",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "32606",
+    "Server": "Apache",
+    "Link": "<https://blogs.nvidia.com/?p=99227>; rel=shortlink",
+    "Content-Encoding": "gzip",
+    "Edge-Cache-Tag": "blogs.nvidia.com,blogs.nvidia.com/blog/,blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+    "Date": "Thu, 22 Oct 2026 22:04:18 GMT",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "x-accept": "application/atom+xml, application/rss+xml, text/html, */*",
+    "Country-Code": "c_code=US; Path=/; Secure",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "Akamai-Cache-Status": "Hit from child",
+    "Akamai-GRN": "0.ecf12417.1792706658.a2b6d309"
+  },
+  "final_url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+  "truncated": false,
+  "charset": "utf-8"
+}

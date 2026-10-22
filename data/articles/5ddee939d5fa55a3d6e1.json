@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+  "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+  "text": "Microsoft AI chief Mustafa Suleyman. | Getty Images\nFor years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now \"it is finally here,\" Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose conditions up to four times more accurately than human doctors.\nThe findings, published Thursday in one of the world's most prestigious journals, Science, are based on tests pitting Microsoft's AI system against human physicians on a series of scenarios drawn from medical case reports and emergency department data. Microsoft compiled the cases into its own benchmark, S …\nRead the full story at The Verge.",
+  "published_at": "2026-10-22T14:00:00-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T15:48:37-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5ddee939d5fa55a3d6e1",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-23/354037668354a7fdbccceaef0698b1984eb9857bb57a45cf4e0d038241cca48b.body",
+  "source_sha256": "354037668354a7fdbccceaef0698b1984eb9857bb57a45cf4e0d038241cca48b",
+  "fetched_at": "2026-10-22T22:00:31.257206+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+  "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+  "text": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+  "published_at": "2026-10-22T16:47:17+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6af0fd42e696c932c3bb",
+  "source_id": "techcrunch-ai",
+  "source_name": "TechCrunch AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/2ee82d200701dde8f0d93376d55235d2f34e114eb28998fa9ddb00ea36e38bc6.body",
+  "source_sha256": "2ee82d200701dde8f0d93376d55235d2f34e114eb28998fa9ddb00ea36e38bc6",
+  "fetched_at": "2026-10-22T22:00:29.713963+00:00"
+}

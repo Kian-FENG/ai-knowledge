@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/",
+  "title": "Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\"",
+  "text": "Anthropic has launched Claude Duet, a proactive AI agent that handles tasks on its own, even when the user is offline. The app is built on Claude Opus 5.5 and connects to services like Gmail, Slack, and Stripe through more than 6,000 connectors. It asks for approval before sensitive actions like payments. With Duet, Anthropic is responding to similar products from xAI, Meta, and OpenAI.\nThe article Anthropic takes on Grok Bot, Meta's Muse, and OpenAI's Dots with its always-on agent \"Claude Duet\" appeared first on The Decoder.",
+  "published_at": "2026-10-22T08:35:22+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1b5147a9ed248a8384c5",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/3990622c711eebb1891e44a3169f8bc2eb25c5a6e33a8afc9954cd2f63388c91.body",
+  "source_sha256": "3990622c711eebb1891e44a3169f8bc2eb25c5a6e33a8afc9954cd2f63388c91",
+  "fetched_at": "2026-10-22T22:00:30.999600+00:00"
+}

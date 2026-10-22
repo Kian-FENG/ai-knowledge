@@ -1,0 +1,19 @@
+{
+  "url": "https://www.reuters.com/business/ai-safety-group-metr-finds-flaws-openais-internal-monitoring-system-2026-10-22/",
+  "title": "METR says a pilot test of OpenAI's monitoring system found vulnerabilities, including an exploit that could have let AI agents hide hundreds of recent actions",
+  "link_text": "METR says a pilot test of OpenAI's monitoring system found vulnerabilities, including an exploit that could have let AI agents hide hundreds of recent actions",
+  "id": "9a27a9e28d1a6c107a57",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "techmeme-river",
+  "source_name": "Techmeme River",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/425b9f1dee5e3fd1bcd995b808aaad09ca306a37660ec78485f3dfc991fc4687.body",
+  "source_sha256": "425b9f1dee5e3fd1bcd995b808aaad09ca306a37660ec78485f3dfc991fc4687",
+  "fetched_at": "2026-10-22T22:00:46.687359+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-22T22:00:46.687359+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

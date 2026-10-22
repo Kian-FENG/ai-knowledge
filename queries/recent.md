@@ -2,6 +2,26 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-22
+
+- `entity` [[reference/entities/blacksmith|Blacksmith]]
+- `entity` [[reference/entities/recursive|Recursive]]
+- `paper` [[reference/papers/context-compaction-261027301|上下文压缩论文提醒：当前问题表现不能代替后续任务的证据保留]]
+- `paper` [[reference/papers/dstill-261027379|DStill以轨迹蒸馏改善单步扩散草稿的一致性]]
+- `source` [[reference/sources/blacksmith-series-c-20261021|Blacksmith披露10亿美元估值C轮，Agent代码增长推高CI需求]]
+- `source` [[reference/sources/chatgpt-ads-89-countries-20261021|ChatGPT广告新增26国，OpenAI披露累计超过10万广告主]]
+- `source` [[reference/sources/claude-duet-preview-20261021|Claude Duet开放美国Pro/Max候补研究预览，把主动跟进纳入个人助手]]
+- `source` [[reference/sources/claude-security-continuous-20261021|Claude Security将一次扫描扩展为持续监测、修复追踪与API工作流]]
+- `source` [[reference/sources/distributed-biological-reasoning-20261021|OpenAI等披露数千Agent解释细胞数据，结果仍是待实验检验的线索]]
+- `source` [[reference/sources/google-a5x-availability-20261021|Google Cloud公布A5X扩展，正文明确Rubin实例下月才正式可用]]
+- `source` [[reference/sources/humming-quantized-inference-20261021|蚂蚁与vLLM介绍Humming，以统一量化描述降低多硬件部署维护成本]]
+- `source` [[reference/sources/nvidia-dsx-pod-20261021|NVIDIA发布DSX POD参考设计，14天部署以场地已准备为前提]]
+- `source` [[reference/sources/nvidia-supply-capacity-20261021|NVIDIA以产能预付款扩展基板、封装、测试与光引擎供应]]
+- `source` [[reference/sources/openai-google-cloud-20261021|OpenAI模型将进入Google Cloud，云承诺消费成为新的分发渠道]]
+- `source` [[reference/sources/patch-planet-php-coordination-20261021|OpenAI披露PHP漏洞协调响应，AI发现能力推动修复流程扩容]]
+- `source` [[reference/sources/recursive-flint-20261021|Recursive发布Flint开放权重，本地编码与自动化研发共同优化]]
+- `note` [[research/synthesis/agent-distribution-attention-and-delivery-20261021|Agent竞争连接采购分发、注意力管理和可验收交付]]
+
 ## 2026-10-21
 
 - `entity` [[reference/entities/arda|Arda]]

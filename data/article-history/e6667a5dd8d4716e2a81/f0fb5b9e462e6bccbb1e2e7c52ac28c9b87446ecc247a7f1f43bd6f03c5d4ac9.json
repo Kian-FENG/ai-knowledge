@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+  "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+  "text": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards and keep sensitive data within controlled environments. Some open models go further, […]",
+  "published_at": "2026-10-22T05:00:02+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "e6667a5dd8d4716e2a81",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-23/f0fb5b9e462e6bccbb1e2e7c52ac28c9b87446ecc247a7f1f43bd6f03c5d4ac9.body",
+  "source_sha256": "f0fb5b9e462e6bccbb1e2e7c52ac28c9b87446ecc247a7f1f43bd6f03c5d4ac9",
+  "fetched_at": "2026-10-22T22:00:17.445640+00:00"
+}

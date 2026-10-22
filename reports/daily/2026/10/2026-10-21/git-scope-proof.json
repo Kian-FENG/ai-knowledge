@@ -1,0 +1,225 @@
+{
+  "baseline_head": "4f0afb8fe8393567cc8ef984b0d96aa1ba2da548",
+  "baseline_dirty_files": 1214,
+  "new_or_previously_clean_paths_staged": 784,
+  "partial_staged": [
+    "reports/daily/index.md"
+  ],
+  "initial_dirty_bytes_changed": [
+    "reports/daily/index.md"
+  ],
+  "redacted_fetch_metadata": [
+    {
+      "path": "data/extracted/7d386a247cf511655ef59c29e0ce692a4113054b35862085d61b33a2f04ac95d.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/012b94e07f5647da901cb352689c7948.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/01fe183df9924af3a990c39016687fd8.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/0815fcf72ae14684acde4dc2b99d2726.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/08ee7b3c4fb14527bd6c4fb479a574c9.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/0ec9d085d7ce40069744b2158eb50d62.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/166155a509d54c948b0d75882b1c8d08.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/1dfa5e16c285449ab378457d292cd4ae.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/3559ce602eca4b7c9dc39b08aa9d2a50.json",
+      "removed_header_names": [
+        "Set-Cookie",
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/45b2112f73e74837927b5402e23e3c86.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/46249a8141e64175b868972e69302ca8.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/591cc65fa8bd46cfbea894e48aed55e3.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/61d5bc5426b04414af94be259b1e7d43.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/6657d085b14c4af69332516012d9bfd8.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/6c6457a17dfd4e268db41683a4ff71bd.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/6e507613878642a1b824a0d5872f8b09.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/737a52e9a0974553884266651045a8ea.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/7c7ed00c72484bb5bb306213ffd616b1.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/7f3f4a6f18fe4b7daa961513178962da.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/8120b7031bc541f190bc2074208da389.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/922261840c6a4459932b3bbea80138c6.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/942bf83cee554694a2992d5dbd4743a1.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/996fcc6904e143d1815f72cb4d386049.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/9b741cb7e562410babaf4be3daf2537c.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/9b949939bbe948919347dced97494a83.json",
+      "removed_header_names": [
+        "Set-Cookie",
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/b1b29e9069434255be0b2ba9dde789ff.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/be4da90b807840a8ac2b4cb6b58d8a1a.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/cc82a9ebeabc42a89bb852bb7adef710.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/cd13b5e4ba5b494487a7e39004e2029c.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/d04b7a671d23482e96cc52ce6946255a.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/d6409b12466842fa9fb4ac6e01537a9a.json",
+      "removed_header_names": [
+        "Set-Cookie",
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/e1cc0820a12a4b2ca81601d6469822b1.json",
+      "removed_header_names": [
+        "set-cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/f253299088464b7791fce51ac4a2cfa6.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    },
+    {
+      "path": "data/fetches/f4cd88498f6b4597bcf4650b9a02dfdd.json",
+      "removed_header_names": [
+        "Set-Cookie"
+      ]
+    }
+  ],
+  "secret_pattern_scan": "no matches",
+  "packet_raw_dependencies": 141,
+  "packet_raw_dependencies_staged": true,
+  "staged_files_final": 786,
+  "verified_at": "2026-10-22T22:18:09.502793+00:00"
+}

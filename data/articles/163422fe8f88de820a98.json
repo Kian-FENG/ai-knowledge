@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/nvidias-powerful-b300-chips-spotted-chinese-state-owned-network",
+  "title": "Nvidia’s Powerful B300 Chips Spotted on Chinese State-Owned Network",
+  "text": "Israeli security firm Lava said it found 32 Nvidia Blackwell Ultra B300 chips through monitoring systems linked to the network of China Telecom, a state-owned telecommunications company.   The B300 is one of Nvidia’s most powerful data-center chips and is barred from being sold to China by ...",
+  "published_at": "2026-10-22T12:00:44+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T12:00:44+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "163422fe8f88de820a98",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec.body",
+  "source_sha256": "16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec",
+  "fetched_at": "2026-10-22T22:00:31.374399+00:00"
+}

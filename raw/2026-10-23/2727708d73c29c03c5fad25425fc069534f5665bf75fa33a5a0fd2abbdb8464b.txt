@@ -1,0 +1,194 @@
+Internal Error ()
+citeturn11view0 [wordlim: 200] Source: open({"ref_id":"https://www.huxiu.com/rss/0.xml","lineno":null}); Total lines: 1
+L0: Failed to fetch https://www.huxiu.com/rss/0.xml: (400) Timeout fetching
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn11view1 [wordlim: 200] Source: open({"ref_id":"https://www.ithome.com/rss/","lineno":null}); Total lines: 1
+L0: Failed to fetch https://www.ithome.com/rss/: (400) Unsupported content-type: text/xml
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn11view2 [wordlim: 200] Source: open({"ref_id":"https://www.leiphone.com/feed","lineno":null}); Total lines: 1
+L0: Failed to fetch https://www.leiphone.com/feed: (400) Timeout fetching
+--------------------------------------------------------------------------------
+机器之心 (https://www.jiqizhixin.com/)
+citeturn11view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.jiqizhixin.com/","lineno":null}); Total lines: 32
+L0: 【0†机器之心·PRO通讯会员一份让您从此不再担心错失AI赛道良机的业内通讯†pro.jiqizhixin.com】
+L1: 
+L2: 会员通讯【1†Image†cdn.jiqizhixin.com】
+L3: 
+L4: Week 42 · 编码智能体训练为何要重新审视源代码？本周，前 OpenAI 可解释团队创建人发文剖析神经网络可解释性；Meta 发布 Muse Wonder 并开源 Muse Spark Open 权重。
+L5: 
+L6: 【2†Image†cdn.jiqizhixin.com】订阅会员畅读
+L7: 
+L8: 专题解读
+L9: 
+L10: 444
+L11: 
+L12: 【3†Image†cdn.jiqizhixin.com】【4†当 LLM 学会抽象，语言学还有什么不可替代的价值？†pro.jiqizhixin.com】
+L13: 
+L14: 【3†Image†cdn.jiqizhixin.com】【5†将经验存到权重更能帮助 LLM 获得长期记忆吗？†pro.jiqizhixin.com】
+L15: 
+L16: 【3†Image†cdn.jiqizhixin.com】【6†TypeSafe CEO 为何主张代码模型必须放弃拟人化？†pro.jiqizhixin.com】
+L17: 【7†Image: 未登录†cdn.jiqizhixin.com】
+L18: 
+L19: 登录
+L20: 
+L21: 【7†Image: empty_user†cdn.jiqizhixin.com】
+L22: 
+L23: 去登录
+L24: 
+L25: 【8†文章库】【9†PRO会员通讯†pro.jiqizhixin.com】【10†SOTA！模型】【11†AI Shortlist】【12†AI 好好用†aihaohaoyong.com】【13†2026 云程奖】
+L26: 
+L27: 【8†文章库】【0†PRO通讯会员†pro.jiqizhixin.com】【10†SOTA！模型】【11†AI Shortlist】
+L28: 
+L29: 【12†AI 好好用†aihaohaoyong.com】【13†2026 云程奖】
+L30: 
+L31: 【7†Image†cdn.jiqizhixin.com】登录
+--------------------------------------------------------------------------------
+Blog — Reflection (https://reflection.ai/blog)
+citeturn11view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://reflection.ai/blog","lineno":null}); Total lines: 64
+L0: Beam
+L1: 
+L2:   * 【0†Beam Model card】
+L3:   * 【1†PlatformAPI (opens in a new tab)†platform.reflection.ai】
+L4:   * 【2†DevelopersDocumentation hub (opens in a new tab)†developers.reflection.ai】
+L5:   * 【3†WeightsPull the weights from Hugging Face (opens in a new tab)†huggingface.co】
+L6:   * 【4†Learn moreRead about our partners】
+L7: 
+L8: 【1†Try Beam today Get an API key and start building with Beam on Reflection's API Platform†platform.reflection.ai】
+L9: 
+L10: [Button: Beam][Button: Solutions][Button: Safety][Button: Resources]【5†Careers】
+L11: 【1†Try Beam (opens in a new tab)†platform.reflection.ai】【6†Get in touch】
+L12: 
+L13: Beam
+L14: 
+L15:   * 【0†Beam Model card】
+L16:   * 【1†PlatformAPI (opens in a new tab)†platform.reflection.ai】
+L17:   * 【2†DevelopersDocumentation hub (opens in a new tab)†developers.reflection.ai】
+L18:   * 【3†WeightsPull the weights from Hugging Face (opens in a new tab)†huggingface.co】
+L19:   * 【4†Learn moreRead about our partners】
+L20: 【1†Try Beam today Platform†platform.reflection.ai】
+L21: # Blog
+L22: 
+L23: 【7†NewsProduct Beam is now available Read more】
+L24: 
+L25: [Button: All][Button: News][Button: Product]
+L26: 
+L27:   * 【8†News Introducing Beam: Reflection’s 501B open-weight model October 5, 2026|8 min read】
+L28:   * 【9†News Building Frontier Open Intelligence August 9, 2025】
+L29: 
+L30: 【10†Image】
+L31: 
+L32: Get the latest news direct to your inbox
+L33: 
+L34: [Input][Input][Input][Input][Input][Input][Input][Input]Email address[Input: Subscribe for updates]
+L35: 
+L36: Website[Input]
+L37: 
+L38: Submit
+L39: 
+L40: Unsubscribe anytime using the link in every email.
+L41: 
+L42: Company
+L43:   * 【11†About】
+L44:   * 【12†Newsroom】
+L45:   * 【13†Blog】
+L46:   * 【5†Careers】
+L47:   * 【6†Contact us】
+L48: 
+L49: Connect with us
+L50: 
+L51:   * 【14†LinkedIn (opens in a new tab)†www.linkedin.com】
+L52:   * 【15†X (opens in a new tab)†x.com】
+L53:   * 【16†YouTube (opens in a new tab)†www.youtube.com】
+L54:   * 【17†Discord (opens in a new tab)†discord.gg】
+L55: 
+L56: Legal
+L57: 
+L58:   * 【18†Privacy Policy】
+L59:   * 【19†Terms of Service】
+L60:   * 【20†Other Policies】
+L61:   * My Privacy Choices
+L62: 
+L63: © 2026 Reflection AI. All rights reserved.
+--------------------------------------------------------------------------------
+Namespace: Blog (https://namespace.so/blog)
+citeturn11view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://namespace.so/blog","lineno":null}); Total lines: 77
+L0: # Namespace Blog
+L1: 
+L2: 【0†I Gave 100 Fly Brains Their Own Computers to Play Doom】
+L3: 
+L4: Running 100 simulated fruit fly brains from the MaleCNS connectome, each on its own Namespace Devbox, to see how silencing a handful of neurons changes how a fly plays Doom.
+L5: 
+L6: 【1†Agata Fin†twitter.com】
+L7: 
+L8: •October 14, 2026
+L9: 
+L10: 【2†Announcing our $42M Series B Namespace recently closed a $42 million Series B round led by Scale Venture Partners, with participation from NEA, 20VC, and others, bringing its total funding to $65 million.】
+L11: 【3†Hugo Santos†twitter.com】
+L12: 
+L13: •October 5, 2026
+L14: 
+L15: 【4†Introducing Git Snapshots for Cursor Origin and GitHub Git Snapshots prepare a repository and working tree once and reuse that snapshot across Namespace Linux and macOS runners. Available on Cursor Origin through Buildkite, and on GitHub through GitHub Actions or Buildkite.】
+L16: 
+L17: 【1†Nicolas Dular†twitter.com】
+L18: 
+L19: •September 30, 2026
+L20: 【5†How we made container image loading fast Here's how a container image boots before its own download finishes: baked into a disk ahead of time, replicated everywhere, then streamed in block by block.】
+L21: 
+L22: 【1†Matteo Kamm†twitter.com】
+L23: 
+L24: •September 15, 2026
+L25: 【6†Cursor & Namespace: Partnering with Cursor to give cloud agents a real computer We're partnering with Cursor to give cloud agents a real computer. Cursor starts and manages the agent, while shell commands, file edits, repo access, builds, and tests run on Namespace Devboxes, including support for Mac.】
+L26: 
+L27: 【3†Hugo Santos†twitter.com】
+L28: 
+L29: •September 2, 2026
+L30: 【7†Hunting a delayed deadlock that hid for two years in Namespace's tiered Bazel cache A bug sat dormant in Namespace's tiered Bazel cache for two years before causing a severe performance regression. Here's how a semaphore held across client-paced gRPC uploads and HTTP/2 flow control formed a circular deadlock, and how we fixed it.】
+L31: 
+L32: 【1†Matteo Kamm†twitter.com】
+L33: 
+L34: •August 20, 2026
+L35: 【8†Introducing Bazel Remote Execution Run multi-platform Bazel builds and tests on Namespace Bazel Remote Execution. Fan actions across remote workers, reuse cache hits across CI and local builds, and inspect every invocation from a UI or agent-ready report. Pay only for what you use with pay-as-you-go pricing and no charge for egress.】
+L36: 
+L37: 【1†Matteo Kamm†twitter.com】
+L38: 
+L39: •August 19, 2026
+L40: 
+L41: [Button: More Articles]
+L42: 
+L43: 【9†All systems operational†namespace-status.com】
+L44: 
+L45: Solutions
+L46:   * 【10†GitHub Actions】
+L47:   * 【11†Docker Builds】
+L48:   * 【12†Mac & iOS】
+L49:   * 【13†Bazel】
+L50:   * 【14†Usage Insights】
+L51: 
+L52: Resources
+L53: 
+L54:   * 【15†Documentation】
+L55:   * 【16†Changelog】
+L56:   * 【17†API†buf.build】
+L57:   * 【18†Blog】
+L58:   * 【19†Support】
+L59: 
+L60: Security
+L61: 
+L62:   * 【20†Trust center†trust.namespace.so】
+L63:   * 【21†Terms of Service】
+L64:   * 【22†Privacy Policy】
+L65: 
+L66: Company
+L67: 
+L68:   * 【23†About us】
+L69:   * 【24†Careers】
+L70:   * 【25†Contact us】
+L71:   * 【9†Status†namespace-status.com】
+L72: 
+L73: 2026 Namespace Labs, Inc. All right reserved.
+L74: 
+L75: 【22†Privacy Policy】【21†Terms of Service】
+L76: 【26†Image†px.ads.linkedin.com】
+

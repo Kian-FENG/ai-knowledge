@@ -1380,3 +1380,34 @@ sources:
   enabled: true
   checked_at: '2026-10-21'
   note: 仅逐条阅读带Reuters署名和时间的正文，不作为全量feed，也不把转载当独立证实。
+
+- id: claude-product
+  name: Claude Product Announcements
+  url: https://claude.com/resources/product-announcements
+  kind: web
+  group: official
+  section: 0
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-22'
+  note: 已实际阅读Claude Duet和Claude Security官方产品公告；anthropic.com新闻页未完整覆盖此入口，机器采集许可未核实。
+- id: recursive
+  name: Recursive Superintelligence Official
+  url: https://recursive.com/updates
+  kind: web
+  group: official
+  section: 2
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-22'
+  note: 官网和链接的RecursiveSI模型卡核对Flint归属；仅浏览核查，机器采集许可未核实。
+- id: blacksmith
+  name: Blacksmith Official Blog
+  url: https://www.blacksmith.sh/blog
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  enabled: true
+  checked_at: '2026-10-22'
+  note: CEO署名融资公告及官网页尾核对CI云产品归属；融资、ARR和估值保留各自口径，机器采集许可未核实。

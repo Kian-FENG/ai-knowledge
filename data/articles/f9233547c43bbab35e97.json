@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/21/us/politics/php-vulnerability-ai-openai-cybersecurity.html",
+  "title": "A.I. Discovered a Critical Vulnerability in PHP, a Coding Language Behind Many Websites",
+  "text": "The disclosure heightened concerns about A.I.’s potential to upend cybersecurity unless shortcomings are addressed.",
+  "published_at": "2026-10-21T19:04:36+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "f9233547c43bbab35e97",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/e777c8b98f1763b25689226d6db97c4003a55c8540977cd14cc4e78740cca770.body",
+  "source_sha256": "e777c8b98f1763b25689226d6db97c4003a55c8540977cd14cc4e78740cca770",
+  "fetched_at": "2026-10-22T22:00:33.980204+00:00"
+}

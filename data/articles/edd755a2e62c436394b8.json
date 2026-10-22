@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159800.htm",
+  "title": "性能直追Astra 国产旗舰大模型Kimi K3.1开测：惊艳一众网友",
+  "text": "快科技10月22日消息，月底之前有望发布的国产大模型中，2款旗舰级的产品是Kimi K3.1和智谱GLM-5.5，前者已经多次曝光，现在开始在Arena上测试了，代号为Kibitz。\nKibitz大模型已经被多个网友验证了分词器等特征，基本确定是Kimi K3.1，此前的爆料称其主要提升是在长程自主任务，游戏及3D代码增强，还有操作电脑的能力，整体模式看齐OpenAI等前沿大模型的一线玩法。\n今天也有多位网友实际测试了K3.1大模型的能力，表现可以说惊艳了众人，不论是鹈鹕还是3D动画，性能都很强，可以跟GPT-6 Astra有得一拼。\n依照之前的管理，在Arena竞技场上测试的大模型通常会在一周后发布，本月底依然能有机会看到Kimi K3.1官宣上线。\nKimi K3.1的性能应该会是国产AI大模型的新标杆，也应该有能力进入全球TOP3，AA榜单上估计也会是首个突破50分的国产大模型，希望能达到55分甚至60分左右。\n除了性能，K3.1还要解决的就是可用性及性价比，此前的K3就因为算力资源的问题导致速度偏慢，套餐给的额度也不高，所以这两个月来声名不显，存在感远不如DeepSeek V4.1 Flash这样的大模型。",
+  "published_at": "2026-10-22T20:15:59+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "edd755a2e62c436394b8",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c.body",
+  "source_sha256": "d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c",
+  "fetched_at": "2026-10-22T22:00:48.253488+00:00"
+}

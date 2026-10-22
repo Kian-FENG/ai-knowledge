@@ -1,0 +1,32 @@
+{
+  "raw_path": "raw/2026-10-23/cbed68410d97f977df28b7fa7dc761a5d6b629305a6ab440bffda2f5ee0fda87.body",
+  "sha256": "cbed68410d97f977df28b7fa7dc761a5d6b629305a6ab440bffda2f5ee0fda87",
+  "source_url": "https://artificialanalysis.ai/articles",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-22T22:00:24.318104+00:00",
+  "source_id": "artificial-analysis",
+  "status": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "421",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Thu, 22 Oct 2026 22:00:24 GMT",
+    "Etag": "W/\"eee4d9101171bf237f7a5d4a9818b381\"",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "X-Matched-Path": "/en/articles",
+    "X-Nextjs-Prerender": "1",
+    "X-Nextjs-Stale-Time": "300",
+    "X-Vercel-Cache": "HIT",
+    "X-Vercel-Id": "sfo1::sfxwl-1792706424934-8ec1ef193012",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://artificialanalysis.ai/articles",
+  "truncated": false,
+  "charset": "utf-8"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/videos/2026-10-22/openai-helped-find-potentially-catastrophic-cyber-flaw-video",
+  "title": "OpenAI Helped Find Potentially Catastrophic Cyber Flaw",
+  "text": "OpenAI’s model helped identify a potentially catastrophic cybersecurity vulnerability in a programming language that runs millions of websites and applications. Greg Brockman, president of OpenAI, and Matthew Prince, CEO of Cloudflare — which helped protect websites before the flaw was publicly exposed — join Ed Ludlow on “Bloomberg Tech” to explain how AI is empowering cyber defenders and attackers. (Source: Bloomberg)",
+  "published_at": "2026-10-22T17:43:44+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4d0266554287f6eb1a5e",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/ea7379b07d04dc426ce8880f99a8ca77cea27b2911aafa797ccf40f0ec7be841.body",
+  "source_sha256": "ea7379b07d04dc426ce8880f99a8ca77cea27b2911aafa797ccf40f0ec7be841",
+  "fetched_at": "2026-10-22T22:00:34.307106+00:00"
+}

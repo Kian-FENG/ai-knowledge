@@ -1,0 +1,19 @@
+{
+  "url": "https://developers.openai.com/api/docs/changelog",
+  "title": "OpenAI API Changelog：页面内容变化",
+  "summary": "+ChatGPT EDU\n+Education plans\n+Higher education setup\n+Oct 22\n+Update\n+gpt-6-luna\n+v1/decisions\n+The Decisions API is now generally available with gpt-6-luna. Cache shared input across requests for prompt-cache discounts, include images in individual question instructions, and pass structured data directly with input_json. Each request now supports up to 400 questions, increased from 200 in public beta. Review the changes since public beta.",
+  "id": "217715a592891cb39704",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "openai-api-changelog",
+  "source_name": "OpenAI API Changelog",
+  "section": 0,
+  "raw_path": "raw/2026-10-23/8c118d4a27e224118a42f6078a2ea807e6179ef12ab32e7d5c362561131cdf81.body",
+  "source_sha256": "8c118d4a27e224118a42f6078a2ea807e6179ef12ab32e7d5c362561131cdf81",
+  "fetched_at": "2026-10-22T22:00:11.554042+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-22T22:00:11.554042+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

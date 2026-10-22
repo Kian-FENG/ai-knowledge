@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159790.htm",
+  "title": "PC品牌转向企业客户：锁定DRAM长单保障2027盈利",
+  "text": "快科技10月22日消息，据Wccftech报道，由于人工智能（AI）基础设施投资引发DRAM需求激增，PC品牌不得不寻找零碎资源。\n有消息人士透露，上半年很多PC品牌都没有拿到足够的DRAM和SSD供应，只拿到所需的70%至80%。PC品牌已通过签下长期供应协议（LTA）防止类似情况再次发生，预计明年采购应该不会出现问题。\n消费市场面临的情况比企业市场严峻得多，零部件成本上涨迫使PC制造商提高价格，需求也随之减少。Omdia预计2026年第三季度全球PC出货量同比下降21%，平均销售价格也有两位数上涨；到了2027年，出货量将再下降7%。\n能够本地运行AI工作负载且无需依赖云端的AI PC成为主要受益者，其中很大一部分是高端产品，定价1500美元以上的PC预计第三季度出货量将增长36.8%。\n由于企业客户对价格上调没有那么敏感，愿意花费高价购买性能更强的PC，而且下单量更大且更具可预测性。随着DRAM成本持续攀升，服务好这一细分市场可以更好地确保PC制造商的利润率。",
+  "published_at": "2026-10-22T19:01:22+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "57fe7d4ef891745d7fa7",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c.body",
+  "source_sha256": "d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c",
+  "fetched_at": "2026-10-22T22:00:48.253488+00:00"
+}

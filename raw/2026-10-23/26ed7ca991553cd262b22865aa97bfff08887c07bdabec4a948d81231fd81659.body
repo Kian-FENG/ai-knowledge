@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0"><channel><title>智东西</title>
+<description>智东西：智能产业第一媒体！</description>
+<link>https://zhidx.com</link>
+<pubDate>Fri, 23 Oct 2026 06:00:44 +0800</pubDate>
+<language>zh-cn</language>
+<generate>https://zhidx.com/rss</generate>
+<item><title><![CDATA[全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/929a50aa93d0cdd94aafc7769a623562/6ada3300/uploads/2026/10/6ad9dc5c9eaab_6ad9dc5c9bc37_6ad9dc5c9bc04_111.jpg"><strong>智东西</strong><br />
+<strong>作者 | 程茜</strong><br />
+<strong>编辑 | 心缘</strong></p>
+<p class="p2">智东西10月22日报道，今日，科大讯飞发布数个大模型及AI应用新成果，包括端云一体大模型讯飞星火X2.6、语音基座模型SparkAudio 1.0、星火具身多模态交互技术、WinWork数字员工平台、超级AI教师助手讯飞星光等。</p>
+<p class="p2">其<span style="color: #0f59a4;"><strong>端云一体讯飞星火X2.6基座模型</strong></span>基于<span style="color: #0f59a4;"><strong>全国产算力</strong></span>完成能力升级，包含<strong><span style="color: #0f59a4;">云端的293-A30B模型</span></strong>及端侧的<strong><span style="color: #0f59a4;">X2.6-4B模型</span></strong>，后一模型已开源。</p>
+<p class="js_darkmode__text__42"><span class="js_darkmode__text__43">云端模型293-A30B支持百万token上下文，输入价格为0.9元/百万tokens，输入缓存命中价格为0.08元/百万tokens，输出价格为3.6元/百万tokens。<span class="js_darkmode__8 js_darkmode__text__44">输入缓存未命中、输出价格</span>比DeepSeek-V4.1-Flash-1017更低。</span></p>
+<p><img class="alignnone wp-image-603904 size-full" src="https://oss.zhidx.com/85b11ca866fa7640f7f705476e8d2399/6ada3300/uploads/2026/10/6ada1115eecff_6ada1115ec240_6ada1115ec20c_222.png" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="1408" height="558" /></p>
+<p class="p2">根据科大讯飞公布的测试结果，星火X2.6-4B模型在信息搜索问答、办公文档处理、日程任务管理、本地表格操作、跨工具协同、多轮工具调用、复杂知识搜索上均超越了其上一代Spark-X2.5-4B以及Qwen3.5-4B、Gemma4-E4B、Qwen3.5-9B模型。</p>
+<p class="p2"><img class="alignnone wp-image-603683 size-full" src="https://oss.zhidx.com/6a4a721c242748da3debe63407ed36a1/6ada3300/uploads/2026/10/6ad9c93dc1db0_6ad9c93dbeae2_6ad9c93dbea9f_2.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2344" height="1279" /></p>
+<p>此外科大讯飞还官宣了数个AI硬件，如<strong><span style="color: #0f59a4;">讯飞AI录音环、讯飞AI眼镜、讯飞AI PC系列</span></strong>等产品。其中灵机N9000 AIPC笔记本最高具备160 TOPS本地AI算力；星火办公一体机提供2240 TOPS AI算力，支持大模型私有化部署。</p>
+<p>目前，科大讯飞的产品矩阵已经以讯飞星火基座大模型为底座，在教育、医疗、教育、法律、汽车、机器人等领域实现应用。</p>
+<p class="p2">科大讯飞创始人、董事长刘庆峰称，今天的AI正成为人类历史上有史以来最具颠覆性的技术革命和产业革命，没有之一。</p>
+<p class="p2">他认为，全栈自主可控大模型是AI安全性和极致性价比的必然选择，这就需要全栈自主可控的端云一体大模型来解决。未来会有60%的任务在本地跑，30%的任务通过云端协同处理，10%的任务在云端独立处理，这也是科大讯飞此次推出端云一体大模型X2.6的关键原因。</p>
+<h2 class="p2"><strong>一、基于全国产算力训练，首发端云一体大模型</strong></h2>
+<p class="p2">在科大讯飞公开的基准测试结果中，代码能力方面，星火X2.6在SWE Pro、SWE Multilingual两项测试集中拿下第一，SWE Verified测试集中仅次于DeepSeek-V4.1-Flash 1017；智能体赛道上，其在企业运维类Agent和通用工具调用MCP-Atlas中，都处于第一梯队；在推理能力方面，星火X2.6在AA-LCR v1.1测试集中与MiniMax M3持平。</p>
+<p><img class="alignnone wp-image-603682 size-full" src="https://oss.zhidx.com/013bf0916bd78aa75e8c7c9f4557dc47/6ada3300/uploads/2026/10/6ad9c93a48471_6ad9c93a42cf3_6ad9c93a42cad_1.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2443" height="1279" /></p>
+<p class="p2">在训练侧，该模型突破了国产芯片长程任务训练瓶颈，以国产超大规模智算平台飞星二号万卡训练2000B 256K长度数据时间为例，训练时间由4.5个月缩短至1.2个月，超长上下文训练效率提升至原来的<strong><span style="color: #0f59a4;">4倍</span></strong>。刘庆峰称，星火X2.6就是在过去2-3个月训练出来的。</p>
+<p class="p2">推理层面，科大讯飞基于国产异构算力的分布式推理技术、首个全国产硬件的四层KV Cache架构，攻克了长上下文场景下容量不足、推理时延高、缓存命中率低等难题，飞星二号国产芯片推理效率达到优化前的<strong><span style="color: #0f59a4;">4.5倍</span></strong>，KV Cache命中率由63%提升至<strong><span style="color: #0f59a4;">95.7%</span></strong>。</p>
+<p class="p2">在端侧模型方面，科大讯飞打造了星火X2.6-4B模型。刘庆峰称，这是因为4B大小是非常适合在机器人、汽车平台、AI PC上部署使用的。其上一代星火X2.5-4B端侧模型从9月1日开源至今，下载量达到<strong><span style="color: #0f59a4;">256万次</span></strong>，位列全球端侧模型前四。</p>
+<p class="p2">为提升端侧模型能力，科大讯飞采用了<strong><span style="color: #0f59a4;">端云一体训练技术</span></strong>。星火采用端侧模型能力感知的自适应迭代后训练算法，根据端侧能力动态选择教师模型、调整训练比重。</p>
+<p class="p2">基于端侧模型精准路由的“云+端”协同架构，先由端侧模型判断任务交给哪种方式完成：纯端办、纯云办、还是由端云协办。这之中的一个关键问题就是端云路由是否准确，科大讯飞引入基于评语模型的端云路由协同训练机制，将端云路由准确率由81.2%提升至<strong><span style="color: #0f59a4;">96.1%</span></strong>。</p>
+<p><img class="alignnone wp-image-603684 size-full" src="https://oss.zhidx.com/7dbf46941f683dd9a1ef7633abe2adc6/6ada3300/uploads/2026/10/6ad9c93f1b78f_6ad9c93f183d0_6ad9c93f18393_3.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2468" height="1279" /></p>
+<p class="p2">在端云一体的星火X2.6模型之上，科大讯飞推出了两款产品：<strong><span style="color: #0f59a4;">星火Loomy</span></strong>面向日常办公，帮助用户写报告、做PPT、分析数据，让日常工作轻松完成；<strong><span style="color: #0f59a4;">星火AStudio</span></strong>面向专业办公，帮助用户写代码、搞研究，让复杂工作自主推进。</p>
+<p><img class="alignnone wp-image-603686 size-full" src="https://oss.zhidx.com/78861a50de5e9a41533c70b8501515e2/6ada3300/uploads/2026/10/6ad9c9430eae5_6ad9c9430bcfd_6ad9c9430bcc2_5.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2352" height="1279" /></p>
+<p class="p2">现场演示人员扮演一个创业公司的总经理，让星火AStudio可以在不联网的情况下，帮用户查看最近各大区的周报、邮件，然后分析经营情况并进行整理。模型在检索内容后，会生成可视化表格、三项待办事项、风险等，还会提供相应的对应邮件链接。</p>
+<p><img class="alignnone wp-image-603685 size-full" src="https://oss.zhidx.com/c3cf3fa54e064739aa6c21225646c3d9/6ada3300/uploads/2026/10/6ad9c94075f30_6ad9c94072f2c_6ad9c94072efd_4.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="1706" height="1279" /></p>
+<p class="p2">在和云端模型协作的任务中，模型会先对本地数据进行梳理，有需要云端协作任务时，再发起协作申请。在这之前，本地模型会对数据进行脱敏处理。云端处理完后，本地模型会将之前的脱敏信息在此处理，生成完整的内容。</p>
+<h2 class="p2"><strong>二、语音基座大模型能分析复杂音频，讯飞AI录音环一点就能随时录音、整理</strong></h2>
+<p class="p2">在让AI从数字世界进入物理世界方面，科大讯飞发布了星火语音基座大模型SparkAudio 1.0以及新款AI硬件讯飞AI录音环等。</p>
+<p class="p2"><strong><span style="color: #0f59a4;">星火语音基座大模型SparkAudio 1.0</span></strong>，基于全国产算力训练。现场SparkAudio 1.0分析出了一段复杂音频中的背景音乐、男性声音、机械运转声、自行车铃声等诸多声音。</p>
+<p><img class="alignnone wp-image-603700 size-full" src="https://oss.zhidx.com/69ac9225e39ca8cb6d30c18a3d529a57/6ada3300/uploads/2026/10/6ad9cdb7a2344_6ad9cdb79f1e8_6ad9cdb79f196_12.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="1707" height="1279" /></p>
+<p class="p2">这一模型背后有三项技术创新，分别为半监督音频编码器带来20%的效果提升，动态分段端到端建模使响应时间降低15%，双范式协同解码使成本降低60%。</p>
+<p><img class="alignnone wp-image-603699 size-full" src="https://oss.zhidx.com/c8c654ce17464381bc68ea9a4f47b791/6ada3300/uploads/2026/10/6ad9cdb6557d0_6ad9cdb652e19_6ad9cdb652ddd_11.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2425" height="1279" /></p>
+<p class="p2">该模型已经在讯飞输入法16.0、讯飞听见、讯飞智能办公本、讯飞翻译机等产品中上线。其中，讯飞智能办公本升级后，支持手写标注说话人姓名，后续发言自动对应；抢话、多人交叠发言时也能区分说话人；识别中英混合、专业术语。</p>
+<p class="p2">科大讯飞还发布了一款新的AI硬件<strong><span style="color: #0f59a4;">讯飞AI录音环</span></strong>，重量为35g，贴合手机磁吸设计。用户只需点击录音环上的录音按钮，就是随时随地记录。录音结束后，其会通过WiFi 6高速传输，2小时录音约10秒传至手机、2分钟转成文字，还能智能区分说话人、生成AI会议纪要、提炼重点及待办事项，并支持多语种同声转译。</p>
+<section class="js_darkmode__text__188">
+<p class="js_darkmode__text__196"><span class="js_darkmode__text__197">该设备目前已在电商平台开售，售价1299元。</span></p>
+</section>
+<p><img class="alignnone wp-image-603702 size-full" src="https://oss.zhidx.com/ebbc092e5152d8f8c998041a4eee3ce8/6ada3300/uploads/2026/10/6ad9cdbaa14ae_6ad9cdba9e53f_6ad9cdba9e4fe_14.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2515" height="1279" /></p>
+<p class="p2">在多模态交互方面，科大讯飞主要提升了座舱、眼镜等智能终端理解需求的能力。</p>
+<p class="p2"><strong><span style="color: #0f59a4;">讯飞AI眼镜</span></strong>具备显示能力，重量为40g，支持90dB展会噪声抑制，8米远距拾音。这一设备能翻译120+语种，可以连接PC与云端智能体，支持远程指挥电脑端办公工作。该设备售价为4299元起。</p>
+<p><img class="alignnone wp-image-603701 size-full" src="https://oss.zhidx.com/b627d8d928482848051a222623d417a8/6ada3300/uploads/2026/10/6ad9cdb8ec99d_6ad9cdb8e9a45_6ad9cdb8e9a04_13.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2331" height="1279" /></p>
+<p class="p2"><strong><span style="color: #0f59a4;">讯飞星火智慧座舱SparkAuto Space 3.0</span></strong>的多人交互响应率、多么题啊交互正确率、车外远场交互距离、复杂智能体任务成功率等都大幅提升。</p>
+<p><img class="alignnone wp-image-603745 size-full" src="https://oss.zhidx.com/25f3a68d3b656ab76643d6b0228f1eae/6ada3300/uploads/2026/10/6ad9d53a72607_6ad9d53a6f830_6ad9d53a6f7f9_15.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2374" height="1279" /></p>
+<p class="p2">机器人的具身多模态交互会面临开放空间机器人移动降噪识别、多人交互声源及视觉时空对齐、多模态交互及动作联动协同等难题。</p>
+<p class="p2">基于此，科大讯飞发布了<strong><span style="color: #0f59a4;">机器人超脑平台V3.0</span></strong>，能实现复杂空间的动态降噪、多目标人的交互意图识别、语音与动作统一的规划与执行、视觉触发的主动交互。</p>
+<p class="p2">在“7×24小时”AI无人超市场景中，机器人可以结合语音、视觉与位置信息，识别不同顾客的需求，在多人插话或者用户需求反复变化时，也能完成取货、递送与扫码结账等任务。</p>
+<p><img class="alignnone wp-image-603746 size-full" src="https://oss.zhidx.com/70e86c85402d25e118944418e324ca55/6ada3300/uploads/2026/10/6ad9d53bb541f_6ad9d53bb23ee_6ad9d53bb23b4_16.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="1706" height="1279" /></p>
+<p class="p2">机器人超脑平台V3.0将向开发者开放，包括星火超脑板、多模态交互模组、具身智能开发套件及具身多模交互Harness。</p>
+<p class="p2">在为组织提效方面，AI要完成从个人提效到组织提效的跨越，核心在于读懂业务、嵌入业务流程，实现人、数字员工协同作业。</p>
+<p class="p2">基于此，讯飞推出讯飞<strong><span style="color: #0f59a4;">星帆WinWork平台</span></strong>。该平台可以通过搭建企业业务本体的方式，沉淀企业的业务规程、业务数据与专家知识库，让数字员工更理解业务；WinWork还能嵌入企业业务流程，支撑数字员工参与完整工作闭环，从自主识别任务、拆解规划、智能分发，到联动各类业务系统执行。</p>
+<p><img class="alignnone wp-image-603749 size-full" src="https://oss.zhidx.com/dd354c9aed839f0ffa556998d8822b02/6ada3300/uploads/2026/10/6ad9d53fbadfe_6ad9d53fb7f6d_6ad9d53fb7f3e_19.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2614" height="1279" /></p>
+<p class="p2">此外，科大讯飞还推出了基于星火端云大模型、国产操作系统的<strong><span style="color: #0f59a4;">讯飞AI PC系列产品</span></strong>。其中灵机N9000 AIPC笔记本最高具备160 TOPS本地AI算力；星火办公一体机提供2240 TOPS AI算力，支持大模型私有化部署。</p>
+<p><img class="alignnone wp-image-603750 size-full" src="https://oss.zhidx.com/fb237853a9e6ae81f7a6838d2d00b541/6ada3300/uploads/2026/10/6ad9d54159852_6ad9d54156853_6ad9d5415680e_20.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2376" height="1279" /></p>
+<h2 class="p2"><strong>三、给老师、学生、律师、医生、患者都配上AI助手</strong></h2>
+<p class="p2">在教育领域，讯飞发布了一款面向老师的<strong><span style="color: #0f59a4;">超级AI助手讯飞星光</span></strong>。</p>
+<p class="p2">讯飞星光将备课、教研、家校沟通和事务助理整合到同一工作台，支持教案、动画、情景视频创编、多角色模拟圆桌研讨、规范填报、统计分析与可视化呈现，对内打通智学网，校信等内部通道，对外打通企业微信、QQ、飞书、钉钉等多平台远控通道。</p>
+<p><img class="alignnone wp-image-603698 size-full" src="https://oss.zhidx.com/aad6078eac7e763e9b43b4ae66887f2c/6ada3300/uploads/2026/10/6ad9cdb56791b_6ad9cdb564923_6ad9cdb5648e6_10.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="1280" height="960" /></p>
+<p class="p2">▲帮老师填写家校沟通表</p>
+<p class="p2">在备课场景中，为了让学生理解电流方向与磁极方向的关系，老师向讯飞星光提出需求，系统生成可旋转观察的三维交互资源，还可结合摄像头手势操作，让学生模拟右手螺旋定则。</p>
+<p><img class="alignnone wp-image-603688 size-full" src="https://oss.zhidx.com/7e4b6fc31d34dd0f31cedc582113a39b/6ada3300/uploads/2026/10/6ad9c945ed96c_6ad9c945ea771_6ad9c945ea72b_7.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="1706" height="1279" /></p>
+<p class="p2">▲可旋转观察的三维交互资源</p>
+<p class="p2">针对学生，<strong><span style="color: #0f59a4;">科大讯飞AI学习机上线了“探究学”功能</span></strong>。例如蚂蚁爬行最短路径问题，可以通过三维立体观察，展开长方体表面比较不同路线，让孩子先思考、再动手、最后验证。</p>
+<p><img class="alignnone wp-image-603696 size-full" src="https://oss.zhidx.com/99e4555bfe919f70adefca0ca0f75b60/6ada3300/uploads/2026/10/6ad9cdb11e640_6ad9cdb11b939_6ad9cdb11b8fb_8.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2556" height="1279" /></p>
+<p class="p2">在医疗领域，<strong><span style="color: #0f59a4;">讯飞影像云</span></strong>是全球性医学影像AI服务平台，覆盖了全国超过2.6亿人口的区域。医学影像云平台支持影像共享、智能辅诊、质控与报告生成；讯飞晓医是居民身边的AI健康助手，已累计完成AI咨询超过2.2亿次，下载量突破4400万。</p>
+<p class="p2">在法律领域，科大讯飞推出一站式<strong><span style="color: #0f59a4;">AI超级法律助手讯飞晓法</span></strong>，覆盖案情梳理、证据审查、诉讼策略、庭审策略和文书起草等任务。</p>
+<h2><img class="alignnone wp-image-603697 size-full" src="https://oss.zhidx.com/9f4f1db4dc86bd38d93a31812bee0b8b/6ada3300/uploads/2026/10/6ad9cdb3c52de_6ad9cdb3c21a1_6ad9cdb3c2169_9.jpg" alt="全国产芯片训练的大模型来了！百万上下文，价格比DeepSeek V4.1 Flash更低" width="2528" height="1279" /></h2>
+<h2 class="p2"><strong>结语：AI落地需精细化调度模型，端云协同是大势所趋</strong></h2>
+<p>从科大讯飞本次的新模型与系列新品集中发布可以看出，其正基于讯飞星火基座模型，逐步为企业和个人，打造一套直接可交付的商业化AI方案。</p>
+<p>其这次首发的端云一体大模型X2.6，核心是对AI任务需求做精细化拆分调度，以此平衡性能、成本、数据安全三者的矛盾，给开发者与企业提供新的落地选择。尤其对教育、医疗、法律这类对数据出境非常敏感的行业来说，这套架构可以契合其私有化、本地部署的需求。</p>
+<p class="p2">此外，如今大模型行业的竞争，正持续向算力适配、场景落地、数据安全、软硬一体交付等方向延伸，未来只有模型能力、缺少行业闭环与硬件载体的纯底座玩家或被淘汰。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603664.html</link>
+<pubDate>Thu, 22 Oct 2026 21:35:27 +0800</pubDate>
+<source>智东西</source>
+<author>程茜</author>
+</item>
+<item><title><![CDATA[24小时，从真实问题到落地跑通，安克黑客松让创新成为“有源之水”]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/692d46db8476453a1979fdf1cfff0440/6ada3300/uploads/2026/10/6ad9f63cbba83_6ad9f63cb878b_6ad9f63cb874e_%E6%9C%AA%E6%A0%87%E9%A2%98-1.png"><strong>智东西</strong><br />
+<strong>作者 |  云鹏</strong><br />
+<strong>编辑｜漠影</strong></p>
+<p>现在，试想这样一些场景：</p>
+<p>当你上课时遇到没听懂的地方，轻点两下夹在领口上的录音豆，课后AI就会从你点击的那一刻讲起，为你细心答疑，不需要举手、不需要打断任何人；</p>
+<p>当快递件丢失时，AI系统直接通过摄像头逐帧分析，智能锁定可疑人员，快速定位，输出一条拼接完整的视频，省去大量人工复查时间、大幅降低沟通成本；</p>
+<p>在大洋彼岸的欧洲用户家中，家庭储能智能调度系统通过AI优化光储经济，减少太阳能浪费，一年为用户省下数百欧元的电费；</p>
+<p>今天，这些场景绝非空谈，而是选手们在为期24小时的安克AI黑客松大赛中做出的优秀作品。这些作品有着成熟的方案构想，甚至基于真实的安克智能硬件产品，在大赛现场真正“跑起来”了。</p>
+<p>场景与作品的背后，是一场大比拼：来自<span style="color: #0f59a4;"><strong>180</strong></span>多所高校和开发者社区的<span style="color: #0f59a4;"><strong>1800</strong></span>多份报名历经层层选拔，最终<span style="color: #0f59a4;"><strong>33</strong></span>支队伍杀入线下决赛，在<span style="color: #0f59a4;"><strong>24小时</strong></span>内完成了从想法到可演示、可验证成果的转换，4支冠军队伍脱颖而出。</p>
+<p>放在过去，24小时做出这样一个能跑起来的版本，本身就是黑客松最大的看点。但今天，在AI的辅助加持下，“快速写出一个Demo”的成本趋近于零。Stack Overflow 2025年开发者调查显示，84%的开发者正在使用或计划使用AI工具。黑客松真正稀缺的已经不再是代码能力，而是<span style="color: #0f59a4;"><strong>值得解的真问题、能接入真实世界的接口，以及作品做完之后的去处。</strong></span></p>
+<p>安克的首次黑客松大赛，提供了一个可观察的新样本。</p>
+<h2>一、 24小时的价值正在被重新定义</h2>
+<p><span style="color: #0f59a4;"><strong>“互联网改变的是距离，AI时代改变的是时间。”</strong></span>这是安克创新CIO Neil对AI的判断。</p>
+<p>这句话，安克自己先验证了一遍。安克创新2026年半年度报告显示，过去一年公司总Token消耗达30万亿，员工日均Token消耗4500亿，同比增长30倍；AI承担了超过95%的基础代码生成，节省约80%的开发工时。</p>
+<p><img class="alignnone size-full wp-image-603880" src="https://oss.zhidx.com/e662e263826d208cd5d614040472c0ce/6ada3300/uploads/2026/10/6ad9f68fa6681_6ad9f68fa3a6f_6ad9f68fa3a2f_ScreenShot_2026-10-21_173615_272.png" alt="24小时，从真实问题到落地跑通，安克黑客松让创新成为“有源之水”" width="934" height="523" /></p>
+<p>在黑客松大赛的Workshop分享中，我们看到创客们可以用Launch平台快速上线路演作品，作品可以直接转化为可访问链接，从硬件360度拆解展示、产品使用模拟动画、像素风交互演示到对接动态数据源生成实时更新的BI看板，平台功能应有尽有。</p>
+<p><span style="color: #0f59a4;"><strong>这样优秀的产品源于安克内部的“AI基础设施”高速迭代：</strong></span>基于AI的辅助开发，25年年中，团队仅用数天就完成了第一版原型；今年清明节假期期间，团队仅用3天完成全功能上线，在全公司正式推广。从数天到3天，被压缩的正是Neil说的“时间”。</p>
+<p>放在24小时的黑客松赛制里，这意味着：写代码的时间被AI压缩之后，选手之间拉开差距的，不再是谁敲得更快，而是代码之外的东西——创意可不可行、使用场景选得对不对、用户痛点和问题抓得准不准。</p>
+<p>正如大模型狂飙突进之下，行业核心关注焦点已经转向<span style="color: #0f59a4;"><strong>AI能否在真实世界中落地应用、实现商业价值。</strong></span></p>
+<p>安克黑客松向选手们开放了真实场景、真实问题、真实产品SDK，让诸多优秀创意和作品获得真实生长土壤，这背后，是<span style="color: #0f59a4;"><strong>安克对AI的长期坚定投入，以及对于极致创新的积极探求。</strong></span></p>
+<p>那么，代码之外真正拉开差距的“真问题”和“真实接口”到底长什么样？我们不妨来关注这场黑客松的冠军作品。</p>
+<h2>二、“拆解”决赛落地作品，理想如何照进现实？</h2>
+<p>要看懂这些冠军作品为什么能赢，先要换一把尺子。在WaytoAGI创始人AJ看来，<span style="color: #0f59a4;"><strong>模型决定AI的上限，而场景决定AI的价值。</strong></span>换句话说，代码能力如今人人都有，真正拉开差距的，是选手有没有找准“值得解的真问题”，有没有把它放进“真实世界里能跑通的方案”。</p>
+<p><img class="alignnone size-full wp-image-603881" src="https://oss.zhidx.com/a1022089dbe6525203f568c00e45d4aa/6ada3300/uploads/2026/10/6ad9f6bc3b545_6ad9f6bc389a8_6ad9f6bc3896f_ScreenShot_2026-10-21_173504_112.png" alt="24小时，从真实问题到落地跑通，安克黑客松让创新成为“有源之水”" width="1030" height="601" /></p>
+<p>▲WaytoAGI创始人AJ</p>
+<p>这场比赛的打分标准也印证了这点。产品创新与AI原生性占比达到35%，用户价值与场景落地同样占比35%，两者相加近七成。最终脱颖而出、能让人记住的，恰恰是把“真实”两个字做实的作品。它能<span style="color: #0f59a4;"><strong>创新性地解决真实需求痛点，拥有落地价值。</strong></span></p>
+<p>为期2天的活动中，我们身在现场，看到创客们激烈探讨、灵感碰撞、熬夜奋战开发。最终的路演环节，<span style="color: #0f59a4;"><strong>智能录音、智能安防、充电储能、智能服务</strong></span>四大赛道上都涌现出诸多令人印象深刻的作品。</p>
+<p>在智能录音赛道，“举手豆”团队利用<span style="color: #0f59a4;"><strong>安克Soundcore录音豆</strong></span>的功能以及背后<span style="color: #0f59a4;"><strong>AI大模型的上下文理解、记忆、个性化服务能力，</strong></span>打造了一套独特的AI辅助课堂学习方案。</p>
+<p><img class="alignnone size-full wp-image-603882" src="https://oss.zhidx.com/6fbdf46a651ecc19ceffb6c9f937f902/6ada3300/uploads/2026/10/6ad9f6ee73a54_6ad9f6ee70787_6ad9f6ee70735_ScreenShot_2026-10-21_173416_467.png" alt="24小时，从真实问题到落地跑通，安克黑客松让创新成为“有源之水”" width="1045" height="527" /></p>
+<p>团队成员在实际的生活学习中发现，很多学生因为担心打扰他人，羞于主动举手提问，这影响了学生对课堂内容的消化吸收。</p>
+<p>为此，他们利用AI技术和智能录音设备，实现针对性的<span style="color: #0f59a4;"><strong>AI讲解答疑，</strong></span>提升学习效率和教学质量。同时，这款产品还能让老师更好地了解学生学习状态，得到教学效果的及时反馈与分析，进一步辅助优化教学策略。</p>
+<p>从真实的教学痛点、真实的录音豆产品到“举手豆”的诞生，在AI智能硬件和AI技术加持下，团队将想法变为现实。</p>
+<p><span style="color: #0f59a4;"><strong>评委中的安克录音豆团队相关负责人在现场点评环节特别提到，这一作品所解决的痛点与他们实际研发中的功能高度一致。</strong></span>这意味着作品方向确实可行，未来并有望落地验证。</p>
+<p>在安克海外市场长期深耕的智能安防领域，“驿站追迹”团队将目光放到了<span style="color: #0f59a4;"><strong>“快递丢失”</strong></span>这一棘手物流问题上。</p>
+<p>团队利用<span style="color: #0f59a4;"><strong>Anker eufy智能摄像头、开放的产品SDK以及AI技术，</strong></span>通过对多路视频流进行智能分析，实现了对丢失快递的高效识别和追踪，解决了传统物流监控中人工审核低效且不准确的痛点。</p>
+<p><img class="alignnone size-full wp-image-603883" src="https://oss.zhidx.com/d1e3c9e3dad551a29eca070d0cc064be/6ada3300/uploads/2026/10/6ad9f744bc201_6ad9f744b8f24_6ad9f744b8ee8_ScreenShot_2026-10-22_194458_276.png" alt="24小时，从真实问题到落地跑通，安克黑客松让创新成为“有源之水”" width="1383" height="702" /></p>
+<p>团队成员特别提到，经过测试，他们发现安克的摄像头有着安装简易、功耗低的特点。在实际应用中，<span style="color: #0f59a4;"><strong>安克设备对人物的动态追踪和时间关键词提取功能效果最符合需求。团队利用安克产品已有的功能，简化了整个产品的落地流程，</strong></span>并解决了低功耗和多路并发的问题。</p>
+<p>正如前文所说，安克海量产品在实际消费者使用中，能够收获大量真实反馈。这些反馈可以给智能服务类产品的打造提供真实的数据土壤。</p>
+<p>智能服务赛道的冠军OntoCare本体队，通过构建服务本体和决策本体，以图谱节点方式增加业务规则和SKU，实现SOP快速更新迭代，相比传统Workflow和Prompt方案，面对多国政策法规变化时，可以更好规避底层代码重构问题。</p>
+<p>此外，团队还通过红蓝对抗和案例驱动，开发了一套自进化系统，<span style="color: #0f59a4;"><strong>将客服问题解决率从83%提升至98%。</strong></span></p>
+<p><img class="alignnone size-full wp-image-603884" src="https://oss.zhidx.com/40121e8e41f7721098070c179a41b52f/6ada3300/uploads/2026/10/6ad9f7963b088_6ad9f7962fae8_6ad9f7962fab5_ScreenShot_2026-10-19_180217_446.png" alt="24小时，从真实问题到落地跑通，安克黑客松让创新成为“有源之水”" width="1137" height="618" /></p>
+<p>在赛后采访中我们了解到，这一项目的灵感来源于安克实际客服场景面临的挑战，<span style="color: #0f59a4;"><strong>团队从真实客服系统中找到痛点，在真实售后数据中得以检验。</strong></span></p>
+<p>在一个个优秀团队案例中我们可以看到，基于AI技术以及安克的智能硬件、SDK等底层支撑，Builder能够快速将自己的想法变为现实。更重要的是，这些想法源于真实场景中的真实问题，<span style="color: #0f59a4;"><strong>有机会演变为千万用户用得上的技术。</strong></span></p>
+<p>在今天的AI创业浪潮中，<span style="color: #0f59a4;"><strong>最大的陷阱往往是“拿着锤子找钉子”：</strong></span>先有AI技术，再去生搬硬套应用场景。而安克黑客松上的优秀作品，则是基于安克亿级的设备数，这些应用一旦落地，就可以<span style="color: #0f59a4;"><strong>在真实场景中形成数据飞轮，进一步加速AI技术的迭代，</strong></span>这也是安克在AI时代展现出的巨大潜力所在。</p>
+<h2>三、 让想象落地，给灵感插上“真实”的翅膀，安克AI黑客松为何如此难得？</h2>
+<p>为什么上述这些优秀的创客作品我们很难在其他黑客松赛事中看到？这就不得不提到安克AI黑客松的“稀缺”之处，源于四个关键方面：</p>
+<p><span style="color: #0f59a4;"><strong>第一，是从赛题、场景、产品、技术到最终评价标准都紧密围绕“真实”二字。</strong></span></p>
+<p>此次四条赛道的赛题都源于安克真实产品线与真实业务需求。而智能录音、智能安防、充电储能、智能客服这些领域几乎都有一个共同特点：绝非短时间内可以做好的赛道，都需要<span style="color: #0f59a4;"><strong>长期大量投入、扎实的产品布局、实打实的市场份额和用户。</strong></span></p>
+<p>这些不是纸面上的赛题，而是安克创新做了十几年、全球几千万家庭正在使用、已经进入市场的真实产品，是有源之水、有本之木。</p>
+<p>在AI已经足够强大、足够普及、足够能干活的今天，竞争焦点已经从技术转向了场景。</p>
+<p><span style="color: #0f59a4;"><strong>第二个稀缺之处，是敢把“家底”开放给参赛者的底气。</strong></span></p>
+<p>安克敢于将正在服务全球上亿用户的接口向本次黑客松的参赛者开放，展现了公司强大的<span style="color: #0f59a4;"><strong>技术自信。</strong></span></p>
+<p>这些SDK对Builder们来说是真正好用、易用、实用的SDK，这些关键能力通过SDK被快速调用，让很多想法在真实产品上得以实现。这离不开安克底层技术接口极高的完备程度和安全性。</p>
+<p><span style="color: #0f59a4;"><strong>参赛者们并非从零开始，而是站在成熟的技术和产品底座上创新。</strong></span>纵观行业，安克敢于在赛事中开放底座的这份勇气，无疑能让这家公司更好地吸引全球创新人才。</p>
+<p><span style="color: #0f59a4;"><strong>第三个稀缺之处，是对优秀人才的极致发掘：不设门槛，公司一把手在内的顶级评审团直接对话创客。</strong></span></p>
+<p>据了解，此次AI黑客松“报名即审”，不设学历、背景与专业门槛，只看创新能力与动手实践能力，招募范围覆盖了180多所高校和40多个开发者社群。</p>
+<p>从<span style="color: #0f59a4;"><strong>安克创新创始人阳萌、极客邦科技创始人兼CEO霍太稳、WaytoAGI创始人AJ、线性资本创始人兼CEO王淮，</strong></span>到<span style="color: #0f59a4;"><strong>亚马逊云科技中国区行业集群总经理田锋，</strong></span>从智能硬件巨头、云巨头到AI开发社群、投资机构，AI黑客松的创客们能够获得与行业顶尖评审阵容直面对话的机会。</p>
+<p><img class="alignnone size-full wp-image-603885" src="https://oss.zhidx.com/4faec0491fb7f56f5933898acc8f174e/6ada3300/uploads/2026/10/6ad9f7f2e92da_6ad9f7f2e5f60_6ad9f7f2e5f20_ScreenShot_2026-10-19_182025_460.png" alt="24小时，从真实问题到落地跑通，安克黑客松让创新成为“有源之水”" width="1812" height="1050" /></p>
+<p><span style="color: #0f59a4;"><strong>第四，是优秀的参赛者和作品都“有去处”。</strong></span></p>
+<p>诚然，超过18万元的总奖池、各赛道冠军3万元的奖金，对于创客们来说都有着十足的激励性。优秀选手有机会直通终面，并获得SSP Offer保留机会；入围选手也将优先进入安克高潜人才池。</p>
+<p>在丰厚奖池和成长激励之外，安克AI黑客松更核心的吸引力在于优秀作品<span style="color: #0f59a4;"><strong>“有机会进一步进入真实产品线”，</strong></span>或对接合作资源。</p>
+<p>相比大部分模拟赛事纸上谈兵式的“脑洞秀”，<span style="color: #0f59a4;"><strong>行业真正需要的是能把“空中楼阁般的AI创意”转化为“物理世界可跑通产品”的真实土壤。安克这场黑客松让创意从阶段性成果走向更长期的落地探索，拥有长期的延展价值。</strong></span></p>
+<p>正如亚马逊云科技汽车与制造行业架构师总监黄鹏飞在开幕演讲中所说，安克的基因就是“把一个品类做到极致，再把能力扩展到下一个品类”，这种“较真”的精神是贯穿始终的。</p>
+<p><img class="alignnone size-full wp-image-603886" src="https://oss.zhidx.com/7b7b2ef8c122b337ac97bb8cabff9b23/6ada3300/uploads/2026/10/6ad9f811d09fe_6ad9f811cdb2f_6ad9f811cdaf0_ScreenShot_2026-10-21_173546_939.png" alt="24小时，从真实问题到落地跑通，安克黑客松让创新成为“有源之水”" width="983" height="580" /></p>
+<p>▲亚马逊云科技汽车与制造行业架构师总监黄鹏飞</p>
+<h2>结语：AI时代的的下半场，答案在真实场景里</h2>
+<p>纵观行业发展，这场黑客松更像是当前AI行业演进的一个“缩影”：<span style="color: #0f59a4;"><strong>大模型狂飙突进之下，一味卷参数、卷跑分、卷排名已经成为过去式，行业核心关注焦点逐渐转向：AI能否在真实世界中落地应用、实现商业价值。</strong></span></p>
+<p>从一颗别在领口的录音豆、一台驻留快递站点的智能摄像头到一套在欧洲家庭中高效运转的智能储能系统，24小时集中开发、精彩路演后，这些优秀作品真的有机会进入真实产品研发中。真实的硬件正成为AI的“感官”和“四肢”，<span style="color: #0f59a4;"><strong>AI也不再是贴在硬件上的一项功能，而是从一个具体场景里长出来的解法。</strong></span></p>
+<p>对个人Builder而言，这意味着能力坐标正在移动。“会写代码”已不是拉开差距的地方。从这次的冠军作品里能看到一条共同路径：从身边具体的问题出发，把方案放到真实的数据和设备上验证，并尽量复用已有的能力，而非从零重造。当写代码的时间被AI压缩，<span style="color: #0f59a4;"><strong>写得快不再是优势，判断得准才是。</strong></span></p>
+<p>对于硬件行业来说，这或许也是AI时代做硬件的一种答案。当模型可以租用、代码可以生成，硬件的价值不再只取决于参数和品类，而是越来越取决于它能把AI带进多少真实场景、解决多少真实问题。<span style="color: #0f59a4;"><strong>设备在哪里，场景就在哪里，AI带来的价值提升也就在哪里。</strong></span></p>
+<p>一场优秀的黑客松，比赛结束绝非终点，而是无数创意腾飞的起点。黑客松不是一场PR式的营销噱头，而是检验一家科技公司AI技术底座硬度的“试金石”。安克的这次尝试未必是唯一答案，但它至少说明：<span style="color: #0f59a4;"><strong>AI时代的创新，终究要在真实场景里接受检验。</strong></span></p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603876.html</link>
+<pubDate>Thu, 22 Oct 2026 19:40:09 +0800</pubDate>
+<source>智东西</source>
+<author>云鹏</author>
+</item>
+<item><title><![CDATA[法律AI独角兽再融37亿，英伟达曾投，ARR半年翻倍]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/0ef54832aa82c74850b3646c4ab23f9c/6ada3300/uploads/2026/10/6ada08e009478_6ada08e00638a_6ada08e006357_%E5%A4%B4%E5%9B%BE2.png?x-oss-process=image/resize,m_fill,w_1024,h_436"><strong>智东西</strong><br />
+<strong> 编译 | 孙小雯</strong><br />
+<strong> 编辑 | 程茜</strong></p>
+<p>智东西10月22日消息，昨日，<span style="color: #0f59a4"><strong>瑞典法律AI独角兽Legora</strong></span>宣布完成<span style="color: #0f59a4"><strong>5.5亿美元（约合人民币36.96亿元）</strong></span>E轮融资，投后估值达到<span style="color: #0f59a4"><strong>88亿美元（约合人民币591.36亿元）</strong></span>。该公司计划将资金用于拓展北美、欧洲及亚太市场，并继续开发面向法律工作的智能体。</p>
+<p>本轮融资由Atreides Management领投，<span style="color: #0f59a4"><strong>摩根大通</strong></span>、富达管理研究公司、美国资本集团等新投资者参投，现有投资方基准资本、<strong><span style="color: #0f59a4">红点创投、Accel</span></strong>等继续参与。</p>
+<p>Legora成立于2023年，主要为<strong><span style="color: #0f59a4">律所和企业法务部门开发AI工作平台</span></strong>。该平台结合大模型、客户文件、业务规则及法律工具，辅助律师审查合同、起草文件、整理证据，并执行多步骤法律任务。</p>
+<p>Legora联合创始人兼CEO Max Junestrand拥有<strong><span style="color: #0f59a4">技术和商业背景</span></strong>，曾在瑞典皇家理工学院和斯德哥尔摩经济学院学习计算机与商科，之后在爱立信从事软件开发，也曾在麦肯锡工作。</p>
+<p>Junestrand并非律师出身。据他透露，为了解律师的实际需求，创业初期，团队曾搬进北欧大型律所Mannheimer Swartling的办公室，与律师共同打磨产品。</p>
+<p><img class="alignnone size-full wp-image-603841" src="https://oss.zhidx.com/5aadc11403ae5a2020d011c00e4592ae/6ada3300/uploads/2026/10/6ad9ea2901a85_6ad9ea28f269f_6ad9ea28f2669_%E5%88%9B%E5%A7%8B%E4%BA%BA%E7%85%A7%E7%89%87.png" alt="法律AI独角兽再融37亿，英伟达曾投，ARR半年翻倍" width="1962" height="1248" /></p>
+<p>▲Legora联合创始人兼CEO Max Junestrand</p>
+<p>此前，Legora已完成6轮融资，累计融资约8.66亿美元（约合人民币58.20亿元）。今年4月，Legora为D轮追加5000万美元（约合人民币3.36亿元），<span style="color: #0f59a4"><strong>英伟达旗下投资机构NVentures</strong></span>和企业协作软件公司Atlassian在此时加入，使D轮融资总额达到6亿美元（约合人民币40.32亿元）。</p>
+<p>资金之外，Legora的收入也在增长。该公司在此次融资公告中称，其<strong><span style="color: #0f59a4">年度经常性收入（ARR）已超过2亿美元（约合人民币13.44亿元）</span></strong>，从突破1亿美元（约合人民币6.72亿元）到突破2亿美元（约合人民币13.44亿元），用时不到六个月。本轮投后估值相比今年4月D轮融资时的56亿美元（约合人民币376.32亿元），<strong><span style="color: #0f59a4">半年上涨约57%</span></strong>。</p>
+<h2><strong>一、服务14万多名法律人士，可审合同、起草文件</strong></h2>
+<p>据Legora披露，目前其已覆盖<strong><span style="color: #0f59a4">80多个市场，服务2400多家律所及企业法务团队、14万多名法律专业人士</span></strong>。</p>
+<p>该公司称，<strong><span style="color: #0f59a4">美国已成为其收入贡献最大的市场</span></strong>。除律所外，其也在拓展企业法务客户，今年第三季度，企业法务团队占新增客户的比例已超过40%。</p>
+<p>Legora将其法律AI工作平台称为<span style="color: #0f59a4"><strong>“智能体操作系统”aOS</strong></span>。该公司称，平台连接客户文件、数据源和工具，由核心智能体Legora Agent拆解任务、调用工具并执行，最终结果交由律师审核。</p>
+<p>针对具体工作，平台提供不同工具。其中，<strong><span style="color: #0f59a4">Tabular Review</span></strong>用于批量审查文档，可从数千份文件中提取信息并整理为表格，帮助律师比较合同条款、识别风险，分析结果附有原文出处。</p>
+<p><img class="alignnone size-full wp-image-603842" src="https://oss.zhidx.com/8dc00cf3e64f9c1edfba84dd239e6a25/6ada3300/uploads/2026/10/6ad9eab37b88d_6ad9eab374114_6ad9eab3740e7_%E6%95%B4%E7%90%86%E8%A1%A8%E6%A0%BC.png" alt="法律AI独角兽再融37亿，英伟达曾投，ARR半年翻倍" width="2277" height="1253" /></p>
+<p>▲Tabular Review将文件信息整理为表格，并展示对应的合同原文（图源：Legora）</p>
+<p><strong><span style="color: #0f59a4">Word插件</span></strong>则支持律师在文档中起草、修改和审查合同，按律所预设规则标出不符合要求的条款，并提出修改建议。 Legora称，本轮融资将<span style="color: #0f59a4"><strong>支持其继续完善aOS，进一步开发法律服务请求受理、法规变化监测及法律研究等功能</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603846" src="https://oss.zhidx.com/6ea1717dff5426e9c1f2d1f11ceed11b/6ada3300/uploads/2026/10/6ad9eaf21cc0c_6ad9eaf219bf5_6ad9eaf219bb5_Word%E6%8F%92%E4%BB%B6.png" alt="法律AI独角兽再融37亿，英伟达曾投，ARR半年翻倍" width="1048" height="1046" /></p>
+<p>▲Legora Word插件生成合同修改建议（图源：Legora）</p>
+<h2><strong>二、Harvey上月融资5.5亿美元，两家公司争夺大型律所客户</strong></h2>
+<p>Legora扩张的同时，<strong><span style="color: #0f59a4">美国法律AI独角兽Harvey</span></strong>也在融资。今年9月，这家竞争对手完成了同样规模的5.5亿美元（约合人民币36.96亿元）融资，<strong><span style="color: #0f59a4">估值达到155亿美元（约合人民币1041.6亿元）</span></strong>。</p>
+<p>两家公司均面向律所和企业法务部门，提供法律研究、合同审查、文件起草及智能体工作流等功能。</p>
+<p>目前，两家公司均已获得众多美国头部律所客户。Harvey今年9月称，按营收排名的美国前100家律所中，80%使用其产品；Legora则在10月披露，<strong><span style="color: #0f59a4">美国前50家律所中，超过半数已成为其客户</span></strong>。</p>
+<p>除了应用平台，Harvey也在开发法律专用模型。今年8月，该公司公布法律模型Harvey Tenet的研究预览。这一模型由该公司与Fireworks合作，基于Kimi K3进行后训练，面向需要连续执行多个步骤的法律任务。</p>
+<p>据路透社报道，一些大型律所在采购外部AI工具的同时，也在自行开发相关功能。例如，年利达律师事务所于2025年在全所部署Legora。该律所在今年5月的公告中称，其已成立由律师和数据科学家组成的团队，针对现成软件无法满足的复杂业务需求，设计定制AI工作流。</p>
+<h2><strong>结语：资本押注法律AI，实际提效是客户付费关键</strong></h2>
+<p>Legora的增长表明，法律AI的客户正在从律所扩展到企业内部法务，其产品也从单项检索、起草工具，延伸至连续处理多步骤任务的工作平台。</p>
+<p>Legora与Harvey接连获得大额融资，说明资本仍看好AI在专业服务市场的商业化机会。对于法律AI公司来说，单项功能只是起点，让产品进入律所和企业法务团队的日常工作，并获得客户持续付费，才是扩大业务规模的基础。</p>
+<p>随着法律AI承担的工作增多，客户对产品的要求也会更加具体：能否减少重复劳动、缩短业务处理时间，并提供可供律师核查的结果，将影响客户是否愿意持续使用和付费。</p>
+<p>来源：Legora、Harvey、路透社、TechCrunch</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603833.html</link>
+<pubDate>Thu, 22 Oct 2026 18:58:22 +0800</pubDate>
+<source>智东西</source>
+<author>孙 小雯</author>
+</item>
+<item><title><![CDATA[PHP差点被远程“开门”？OpenAI先发现，官方紧急补墙]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/77d42301a9cbc6d54d6009b6ebf00159/6ada3300/uploads/2026/10/6ada14f5d6936_6ada14f5d346d_6ada14f5d342c_1.png"><strong>智东西</strong><br />
+<strong>编译 | 黄菲</strong><br />
+<strong>编辑 | 江宇</strong></p>
+<p>智东西10月22日消息，昨日，美国AI公司OpenAI披露，其参与的安全研究工作协助发现了开源编程语言PHP中的两项严重安全漏洞，即攻击者在特定条件下无需身份验证便可在受影响的服务器上执行代码。目前，PHP项目已于10月21日发布安全更新，修复这两项漏洞。</p>
+<p>此次漏洞排查由OpenAI发起的开源软件安全项目Patch the Planet提供支持。该项目通过AI模型与安全工程手段，协助软件维护者和安全研究人员发现、验证并修复严重漏洞。</p>
+<p>据PHP基金会（The PHP Foundation，支持PHP开发与维护的非营利组织）披露，安全公司Calif于2026年7月30日启动PHP安全审计。</p>
+<p>其中，PHP核心维护团队主导漏洞修复与版本发布，OpenAI和网络安全公司Wiz、Cloudflare则提供技术与协调支持，协助相关机构在漏洞公开前完成防护准备。</p>
+<h2><strong>一、两项漏洞涉及PHP底层机制，最高评分达9.2</strong></h2>
+<p>根据PHP基金会10月21日发布的公告，此次修复涉及两项严重的远程代码执行漏洞，编号分别为CVE-2026-109618和CVE-2026-109619，二者的CVSS 4.0评分均为9.2。</p>
+<p>CVSS 4.0评分是用来衡量网络安全漏洞严重程度的标准，评分范围0.0至10.0分，分数越高，通常代表漏洞越严重。</p>
+<p>第一项漏洞CVE-2026-109618与内存耗尽（OOM）引发的内存损坏有关。当请求恰好在特定时机触及PHP的内存限制时，程序可能留下尚未完整初始化的内部数据，后续清理过程又可能将其当作有效数据处理，进而造成内存损坏。</p>
+<p>在Apache的mod_php运行环境下，攻击者无需身份验证即可通过请求触发这一问题，研究人员已在默认配置下验证远程代码执行的可能性。</p>
+<p>在PHP-FPM环境下，研究人员也通过应用程序代码路径确认了远程代码执行风险。</p>
+<p>第二项漏洞CVE-2026-109619涉及过期的全局状态与释放后使用问题。当程序在特定情况下发生致命错误时，内部状态可能仍指向此前请求使用过的内存。</p>
+<p>后续由同一工作进程处理的请求可能继续访问这块已经释放的内存，导致工作进程崩溃，研究人员也已在实际应用场景中验证远程代码执行的可能性。</p>
+<p>这两项漏洞均涉及PHP底层的内存管理和错误处理机制，几乎每个请求都可能经过相关代码路径。</p>
+<p>由于这些机制处于PHP运行流程的核心位置，修复工作不仅要消除安全风险，还要兼顾向后兼容性、运行性能及大量第三方扩展的正常运行。</p>
+<p>PHP官方公告提出，所有处理Web请求的PHP安装环境均可能受到影响，包括PHP-FPM、Apache mod_php、php-cgi、FrankenPHP和LiteSpeed等运行方式。</p>
+<p>其中，Apache mod_php环境的风险最高，研究人员已证明攻击者可以在应用程序代码运行前触发攻击。</p>
+<p>PHP项目已发布PHP 8.5.12、8.4.27、8.3.36和8.2.35四个维护版本，修复上述漏洞。</p>
+<p>官方建议用户尽快升级至相应修复版本。对于暂时无法升级的用户，部分临时措施可以降低特定攻击路径的风险，但不能替代完整更新。</p>
+<h2><strong>二、AI辅助排查揭示漏洞影响，PHP修复工作持续数月</strong></h2>
+<p>此次安全排查并非始于2026年。PHP基金会披露，2024年，PHP接受了多年未开展的外部安全审计。</p>
+<p>该审计由PHP基金会获得资金支持后组织开展，具体工作由安全公司Quarkslab执行。</p>
+<p>在修复审计发现的问题时，一名受PHP基金会聘用的PHP核心开发人员首次发现了与内存耗尽有关的异常迹象。</p>
+<p>该研究人员当时推测这一问题可能存在可利用的攻击路径，但尚未找到明确的远程代码执行方法。</p>
+<p>PHP安全团队随后尝试了多种修复方案，但每种方案都面临不同限制，包括破坏向后兼容性、引入新的拒绝服务风险，或要求大量第三方扩展同步修改。</p>
+<p>由于当时尚未发现明确的远程代码执行路径，加之熟悉PHP底层机制的核心开发人员数量有限，修复工作多次停滞、重启。</p>
+<p>2026年7月30日，PHP基金会将项目纳入OpenAI的Patch the Planet计划，由Calif开展进一步安全审计。</p>
+<p>8月11日，Calif研究人员Ryan A报告了一条可实现远程代码执行的攻击路径，其根因正是PHP团队在2024年发现的内存耗尽问题。</p>
+<p>OpenAI也在同一天独立报告了相同根因，并于9月18日提交了其他攻击路径。Wiz于8月24日提交相关发现。</p>
+<p>这些报告让PHP团队明确了原有内存问题可能造成的完整影响。</p>
+<p>从8月11日起，修复该问题成为PHP基金会安全团队的首要任务。由于漏洞涉及PHP底层机制，修复需要在安全性、兼容性和性能之间进行权衡，PHP基金会安排多名人员持续投入，并与外部研究人员、软件分发方和服务提供商协调。</p>
+<p>在此期间，PHP的安全工作机制也发生了变化。PHP基金会于2026年5月成立生态系统安全团队（Ecosystem Security Team），负责协助安全团队开展报告分流、协调和代码加固工作。</p>
+<p>基金会还陆续引入人员处理安全报告、漏洞修复及系统加固，并使用OpenAI的Daybreak Red等工具验证报告和漏洞利用方法。</p>
+<p>10月20日，两个漏洞的编号开始在网络论坛和社交媒体传播，相关帖子还错误地给出了发布时间和CVSS评分。</p>
+<p>PHP项目因此提前发布预告，并将原定于10月22日的安全更新提前至10月21日发布，为软件分发方留出准备更新包的时间。</p>
+<p>最终，PHP项目在10月21日发布四个维护版本，修复两项漏洞。</p>
+<p>此次事件也促使PHP基金会重新审视安全决策流程，希望让复杂漏洞的修复工作更快获得管理层介入，并减少因决策机制和资源不足造成的延误。</p>
+<h2><strong>三、AI能加快漏洞发现，但不能替代安全维护人员</strong></h2>
+<p>OpenAI称，此次事件体现了AI辅助安全研究的潜力。</p>
+<p>AI模型能够帮助研究人员发现影响范围广泛的软件漏洞，并在漏洞公开前为维护团队争取修复时间。OpenAI将这一阶段称为“防御者窗口期”（Defender’s Window），即维护者和安全服务商有机会先于攻击者发现问题、开发补丁并准备防护措施。</p>
+<p>不过，漏洞发现只是整个安全响应过程的一部分。</p>
+<p>PHP基金会披露，自2026年7月1日以来，团队已发布15个CVE编号的漏洞公告，同时处理了100多份最终被判定为无效、重复或无法复现的报告。</p>
+<p>随着AI辅助研究增多，安全团队需要投入更多精力筛选报告、复现问题和评估风险。AI可以协助验证报告、归并具有相同根因的问题，但最终判断和补丁开发仍由专业人员负责。</p>
+<p>此次PHP漏洞修复所面临的兼容性、性能和第三方扩展适配问题，也难以仅凭模型发现漏洞就自动解决。</p>
+<p>这暴露出开源软件安全维护中的现实压力。PHP被广泛用于政府服务、在线商店、银行和媒体网站等场景，但其底层安全工作仍依赖规模有限的核心开发者团队，以及PHP基金会提供的资金和人员支持。</p>
+<p>即使AI能够更快发现漏洞，维护团队仍需要足够的工程资源完成修复、测试和版本发布。</p>
+<p>为应对这一问题，OpenAI提出了一套面向广泛使用软件的重大漏洞协同响应框架，涵盖漏洞验证与修复、向受影响组织提前通报、协调政府及基础设施服务商、准备更新，以及补丁发布后的部署指导。</p>
+<p>OpenAI还称，将通过Patch the Planet等计划提供模型访问权限、安全工程支持和响应协调，帮助更多开源项目应对安全问题。</p>
+<h2><strong>结语：AI加速漏洞发现，开源安全仍需长期维护</strong></h2>
+<p>AI辅助研究正在缩短软件漏洞从发现到验证的时间，但发现漏洞并不意味着风险已经消除。</p>
+<p>对于PHP等广泛应用的开源基础软件而言，AI可以提高漏洞排查效率，却无法取代专业人员在维护中的作用。</p>
+<p>随着AI发现漏洞的能力继续增强，如何为开源维护团队提供足够的工程资源，并建立高效的修复机制，将成为软件安全体系需要面对的重要问题。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603625.html</link>
+<pubDate>Thu, 22 Oct 2026 16:23:58 +0800</pubDate>
+<source>智东西</source>
+<author>黄 菲</author>
+</item>
+<item><title><![CDATA[RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/a243048c2cba3870eeed547f297394bb/6ada3300/uploads/2026/10/6ad9943b4796b_6ad9943b4483e_6ad9943b44801_3.png"><strong>智东西</strong><br />
+<strong>作者 | 黄菲</strong><br />
+<strong>编辑 | 江宇</strong></p>
+<p>智东西10月22日报道，昨夜，前Meta FAIR研究总监田渊栋参与创办的AI初创公司Recursive Superintelligence（以下简称Recursive）推出首款本地编程模型Flint，该模型主打高速推理，在英伟达RTX Spark上的生成速度超过<strong><span style="color: #0f59a4">150 Token/秒</span></strong>，在搭载苹果M4 Pro芯片的MacBook Pro上超过<span style="color: #0f59a4"><strong>125 Token/秒</strong></span>，最高可达同类模型的<span style="color: #0f59a4"><strong>2倍</strong></span>。</p>
+<p><img class="aligncenter size-full wp-image-603737" src="https://oss.zhidx.com/e35469bb2e4fc02eb5e8e730b7dbcf74/6ada3300/uploads/2026/10/6ad9d44b74cf2_6ad9d44b721d4_6ad9d44b7219d_22.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="984" /></p>
+<p>▲Recursive官宣推出Flint模型，图源：X</p>
+<p>田渊栋随后在X平台转发了这一消息，并介绍了Flint的四大亮点。</p>
+<p><img class="aligncenter size-full wp-image-603521" src="https://oss.zhidx.com/0cfa5760d1a633d7c1f5d1e270489340/6ada3300/uploads/2026/10/6ad9a4cfe80e9_6ad9a4cfe4d7e_6ad9a4cfe4d4f_12.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="489" /></p>
+<p>▲田渊栋发文Flint亮相，图源：X</p>
+<p>性能方面，Flint在Terminal-Bench 2.1、SWE-Bench Pro v2和SWE-Bench Verified三项Agent编程基准测试中，分别取得了<span style="color: #0f59a4"><strong>54.9%、89.7%和74.2%</strong></span>的成绩，表现<span style="color: #0f59a4"><strong>领先于总参数量低于500亿的其他MoE模型</strong></span>。</p>
+<p><img class="aligncenter size-full wp-image-603740" src="https://oss.zhidx.com/bcbe8d40c7765c175ddd168dd0a283cc/6ada3300/uploads/2026/10/6ad9d4e16fb0b_6ad9d4e16cf7a_6ad9d4e16cf4b_23.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="215" /></p>
+<p>▲Flint在Terminal-Bench 2.1、SWE-Bench Pro v2和SWE-Bench Verified的表现，图源：Recursive</p>
+<p><span style="color: #0f59a4"><strong>训练方面，Flint完全从零构建</strong></span>，经历了分词器开发、预训练、中期训练、监督微调（SFT）和强化学习（RL）等环节。推理速度方面，Flint最高生成速度可达同类模型的2倍。</p>
+<p>值得一提的是，<strong><span style="color: #0f59a4">Recursive仅用了4个月，就完成了Flint整套模型训练流程的搭建。</span></strong></p>
+<p>有网友在体验Flint后称，模型能够很好地完成自己交给它的任务，但执行时间比预期更长。此外，该网友还反馈，即使关闭思考模式，模型的回答依然过于冗长。</p>
+<p><img class="aligncenter size-full wp-image-603733" src="https://oss.zhidx.com/a19a8c91409c532c4d2f439770fe832a/6ada3300/uploads/2026/10/6ad9d3b2034fb_6ad9d3b20051e_6ad9d3b2004e4_19.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="266" /></p>
+<p>另一位网友则称，Flint<span style="color: #0f59a4"><strong>每Token</strong><strong>仅激活25亿参数</strong></span>这一点最吸引他。他目前在一台配备48GB内存的M5 Pro设备上运行约50个Agent，系统往往会因内存压力提前终止部分进程，算力反而还没成为瓶颈。因此，他希望Flint能够常驻本地内存、随时调用，接手部分原本由Qwen处理的日常任务，并考虑将其加入自己的模型调度系统。</p>
+<p><img class="aligncenter size-full wp-image-603726" src="https://oss.zhidx.com/926526da3be423501ac5804fc9e4c9b1/6ada3300/uploads/2026/10/6ad9d35a3f575_6ad9d35a3c7ed_6ad9d35a3c7af_19.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="192" /></p>
+<p>Flint的亮相，也让其背后的AI初创公司Recursive再次受到关注。</p>
+<p>今年5月，Recursive正式公开亮相，并宣布获得<span style="color: #0f59a4"><strong>6.5亿美元融资（约合人民币43.68亿元）</strong></span>，公司估值达到<span style="color: #0f59a4"><strong>46.5亿美元（约合人民币312.46亿元）</strong></span>。</p>
+<p>彼时，田渊栋在官宣加入Recursive时就曾提到，其将<span style="color: #0f59a4"><strong>递归自我改进（Recursive Self-Improvement，RSI）作为核心研究方向</strong></span>，希望让AI系统自主开展实验、持续改进自身，进而推动科学研究自动化。</p>
+<p>时隔约5个月，Recursive交出了首款模型Flint。Recursive联合创始人、首席执行官、“提示工程之父”理查德·索赫尔（Richard Socher）也在社交平台X上称，其团队借助自动化研究系统Eureka Machine，从零开发了Flint。</p>
+<p>Flint可以直接在用户自己的设备上运行，帮助开发者分析代码库、修复程序错误、实现新功能和编写测试。</p>
+<p><img class="aligncenter size-full wp-image-603425" src="https://oss.zhidx.com/c97f6003f81caf4bea357f8e3d54460d/6ada3300/uploads/2026/10/6ad976fa2e732_6ad976fa2b3b7_6ad976fa2b381_2.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="603" /></p>
+<p>▲Recursive联合创始人兼首席执行官理查德·索赫尔，图源：X</p>
+<p>目前，Flint已采用Apache 2.0许可证开源。开发者可以通过Hugging Face获取模型权重，并借助兼容的推理工具在本地部署运行。</p>
+<p><span style="color: #0f59a4">开源地址：</span></p>
+<p><span style="color: #0f59a4">GitHub：</span></p>
+<p><span style="color: #0f59a4">https://github.com/recursive-oss/rec</span></p>
+<p><span style="color: #0f59a4">Hugging Face：</span></p>
+<p><span style="color: #0f59a4">https://huggingface.co/stepfun-ai/Step-3.5-Flash</span></p>
+<h2><strong>一、编程基准表现领先，挑战同规模MoE模型</strong></h2>
+<p>Flint采用仅解码器的混合专家（Mixture of Experts，MoE）架构，<span style="color: #0f59a4"><strong>总参数量为398亿</strong></span>，每Token处理时约激活25亿参数。</p>
+<p>与每次推理都需要调用全部模型参数的稠密模型相比，MoE架构可以根据输入选择部分专家参与计算，从而减少单次推理需要激活的参数量。</p>
+<p>在Terminal-Bench 2.1、SWE-bench Pro v2、SWE-bench Verified、LiveCodeBench v6、IFBench和IFEval这6项基准测试中，Flint BF16版本的平均得分为<span style="color: #0f59a4"><strong>80.6分</strong></span>，仅次于Qwen3.8的<span style="color: #0f59a4"><strong>84.7分</strong></span>，高于Muse Glimmer的<span style="color: #0f59a4"><strong>74.8分</strong></span>、Qwen3.6的<span style="color: #0f59a4"><strong>71.7分</strong></span>和Qwen3.5的<span style="color: #0f59a4"><strong>68.9分</strong></span>。</p>
+<p>具体来看，Qwen 3.8在Terminal-Bench 2.1和LiveCodeBench v6上分别<span style="color: #0f59a4"><strong>领先Flint 18.1和10个百分点</strong></span>；<span style="color: #0f59a4"><strong>Flint则在IFBench和IFEval两项指令遵循测试中领先其他对比模型。</strong></span></p>
+<p>Flint的NVFP4量化版本在6项测试中的平均得分为<span style="color: #0f59a4"><strong>80.0分</strong></span>，比BF16版本<span style="color: #0f59a4"><strong>低0.6分</strong></span>；在LiveCodeBench v6测试中，其得分则比BF16版本<span style="color: #0f59a4"><strong>高0.5个百分点</strong></span>。</p>
+<p><img src="https://oss.zhidx.com/c36790e9f7e15d1be93e99a3c33d9aef/6ada3300/uploads/2026/10/6ad97f36478e8_6ad97f363fb8f_6ad97f363fb5d_7.png" /></p>
+<p>▲Flint在编程基准测试中的表现，图源：Recursive</p>
+<p>总体来看，Flint的编程表现可以媲美总参数量为<strong><span style="color: #0f59a4">250亿至400亿</span></strong>的稠密模型，生成速度则是这些模型的<span style="color: #0f59a4"><strong>5倍</strong></span>。</p>
+<p>在上下文长度方面，<span style="color: #0f59a4"><strong>Flint最高支持约51.2万Token的上下文</strong></span>，并建议开发者将实际使用长度控制在<span style="color: #0f59a4"><strong>25.6万Token</strong></span>以内，以获得更好的编程效果。</p>
+<p>不过，与参数规模更大的闭源编程模型相比，Flint在处理复杂任务时可能需要更明确的指令。Recursive建议开发者将复杂任务拆分为较小的子任务，以提高执行效果。</p>
+<h2><strong>二、适配本地设备运行，推理速度最高超150 Token/秒</strong></h2>
+<p>在推理速度方面，Recursive公布的测试数据显示，在配备48GiB内存的苹果M4 Pro设备上，Flint 40B A2B使用MLX推理框架时，短上下文场景下的生成速度达到<span style="color: #0f59a4"><strong>131.22 Token/秒</strong></span>，约为Qwen3.6 35B A3B（65.55 Token/秒）的<span style="color: #0f59a4"><strong>2倍</strong></span>、Nemotron 3.5 Lightning 30B A3B（58.00 Token/秒）的<span style="color: #0f59a4"><strong>2.3倍</strong></span>，也明显快于Muse Glimmer 30B（14.54 Token/秒）。</p>
+<p>在英伟达RTX Spark上，Flint NVFP4版本的生成速度达到<span style="color: #0f59a4"><strong>155.82 Token/秒</strong></span>。</p>
+<p><img src="https://oss.zhidx.com/eaa832538a668cc3b03fa59e127db284/6ada3300/uploads/2026/10/6ad9b2e686365_6ad9b2e6830bd_6ad9b2e683091_6.png" /></p>
+<p>▲Recursive公布的Flint推理速度，图源：Recursive</p>
+<p>针对不同硬件，Recursive还优化了专用计算内核。这些优化使Flint在RTX Spark上的<span style="color: #0f59a4"><strong>生成速度提升55%</strong></span>，且无需修改模型权重。</p>
+<p>Recursive还推出了<span style="color: #0f59a4"><strong>自研推理引擎rec</strong></span>，用于在本地运行其语言模型。</p>
+<p>官方测试显示，在配备48GB内存的苹果M4 Pro设备上，使用4 bit量化模型时，rec的Token生成速度达到llama.cpp的<span style="color: #0f59a4"><strong>1.4至2.6倍</strong></span>。</p>
+<p>该测试覆盖了1K至252K Token的不同输入长度，每次生成1024 Token，各组测试均重复运行5次，统计结果不包含提示词预填充阶段的耗时。</p>
+<p><img class="aligncenter size-full wp-image-603613" src="https://oss.zhidx.com/b128e5a133e4b1274c1bd54bd5f5a6fc/6ada3300/uploads/2026/10/6ad9b4486cb05_6ad9b44869e0d_6ad9b44869de6_16.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="521" /></p>
+<p>▲推理引擎rec与llama.cpp在苹果M4 Pro上的Token生成吞吐量对比，图源：GitHub</p>
+<p><span style="color: #0f59a4"><strong>在部署方面，Flint支持通过SGLang、Ollama和LM Studio等工具在本地运行。</strong></span>模型支持离线使用，开发者可以根据自身硬件条件选择合适的运行方式，减少对远程服务的依赖。</p>
+<h2><strong>三、自动化系统参与研发，优化模型架构与推理效率</strong></h2>
+<p>Recursive在Flint的开发过程中，通过持续实验、评估和迭代优化，不断提高模型训练和推理效率。</p>
+<p>该公司自研的自动化研究系统Eureka Machine能够自动提出研究方案、编写实现代码并开展实验，再根据实验结果决定下一步尝试方向。该系统还可以并行探索多条技术路线，利用此前实验结果调整后续方案，并组合不同方案中的有效改进。</p>
+<p>其团队借助自动化研究系统Eureka Machine，在不到4个月的时间内从零开发了Flint。在研发过程中，Eureka Machine还参与了训练数据处理、优化器选择和训练方案设计，并对模型基础设施与推理性能进行优化。</p>
+<p><span style="color: #0f59a4"><strong>模型架构调整就是一个例子。</strong></span></p>
+<p>Recursive最初测试的基准方案总参数量为350亿，每Token激活30亿参数。随后，该自动化研究系统Eureka Machine探索了不同的专家配置和网络宽度，最终选出总参数量约400亿、每Token激活约25亿参数的架构。</p>
+<p>Recursive认为，这一方案在其测试过的配置中，更好地兼顾了运行速度与编程能力。</p>
+<p>模型训练完成后，该系统又继续优化模型占用的内存和推理效率。</p>
+<p>在量化环节，Eureka Machine尝试将模型输出层的<span style="color: #0f59a4"><strong>参数精度压缩至4位</strong></span>，并<span style="color: #0f59a4"><strong>加入离线蒸馏步骤</strong></span>，以弥补低精度处理可能造成的性能损失。最终采用NVFP4格式的模型，在其基准测试中的得分与16位精度版本<span style="color: #0f59a4"><strong>相差不到0.7分</strong></span>。</p>
+<p>Recursive的模型训练时间优化实验经历了<span style="color: #0f59a4"><strong>6轮</strong></span>迭代，训练耗时从最初的<span style="color: #0f59a4"><strong>141.5秒逐步降至77.5秒</strong></span>，整体<span style="color: #0f59a4"><strong>缩短约45%</strong></span>。最后一轮采用递归优化方案，将训练耗时进一步压缩至77.5秒，<span style="color: #0f59a4"><strong>较此前纪录快2.2秒</strong></span>，创下该组实验的新低。</p>
+<p><img class="aligncenter size-full wp-image-603605" src="https://oss.zhidx.com/4faefd54c2eadaf9f8a5607aa3ece203/6ada3300/uploads/2026/10/6ad9b29021f81_6ad9b2901f0fe_6ad9b2901f0bc_5.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="561" /></p>
+<p>▲Eureka Machine优化模型训练耗时的实验结果，图源：Recursive</p>
+<p>Recursive希望将这种研发方式延伸至后续模型开发，让每一代模型的研发成果反过来提高Eureka Machine的研究能力，进而加快下一代模型的开发。</p>
+<h2><strong>四、八位AI大牛联手创业，三位华人坐镇创始团队</strong></h2>
+<p>Recursive于2026年5月结束隐身，办公地位于美国旧金山和英国伦敦，其研究方向涉及自动化算法、模型训练和能够自我改进的编程Agent。</p>
+<p>该公司团队已有25人以上，其不少成员曾在Salesforce、Uber、OpenAI、谷歌DeepMind、谷歌Brain和Meta等企业及研究机构任职。</p>
+<p>Recursive的联合创始人团队共有8人，包括联合创始人兼首席执行官理查德·索赫尔（Richard Socher）、田渊栋（Yuandong Tian）、蒂姆·罗克特舍尔（Tim Rocktäschel）、施天麟（Tim Shi）、乔什·托宾（Josh Tobin）、熊才明（Caiming Xiong）、杰夫·克鲁恩（Jeff Clune）和阿列克谢·多索维茨基（Alexey Dosovitskiy）。</p>
+<p><img class="aligncenter size-full wp-image-603461" src="https://oss.zhidx.com/7ab212b61012b3492b3d792a3f484674/6ada3300/uploads/2026/10/6ad98628e03b0_6ad98628d578b_6ad98628d5755_10.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="896" /></p>
+<p>▲Recursive Superintelligence八位联合创始人，图源：Recursive</p>
+<p>Recursive联合创始人兼首席执行官<span style="color: #0f59a4"><strong>理查德·索赫尔（Richard Socher）</strong></span>是AI领域的知名研究者和连续创业者。</p>
+<p>他曾师从斯坦福大学教授、AI研究者吴恩达，研究方向包括自然语言处理和深度学习，参与过ImageNet、GloVe等相关研究，谷歌学术引用量超过24万次。</p>
+<p>他也是早期推动神经网络应用于自然语言处理的研究者之一，并因较早系统研究提示工程而被称为“提示工程之父”。</p>
+<p>索赫尔曾创办AI初创公司MetaMind，该公司于2016年被企业软件公司Salesforce收购。此后，他创办了AI搜索公司You.com，并曾担任Salesforce首席科学家兼执行副总裁。</p>
+<p>值得一提的是，Recursive创始团队中有三位华人。</p>
+<p><span style="color: #0f59a4"><strong>田渊栋</strong></span>曾担任Meta基础AI研究团队（FAIR）的研究科学家总监，研究方向涉及强化学习、规划与效率，以及大型语言模型的理论研究。</p>
+<p>他本科及硕士毕业于上海交通大学，2013年获美国卡内基梅隆大学机器人研究所博士学位。博士毕业后，田渊栋于2013年至2014年在谷歌自动驾驶汽车团队担任软件工程师，随后加入Meta FAIR从事AI研究近十年，并于2025年离开Meta。</p>
+<p><img class="aligncenter size-full wp-image-603444" src="https://oss.zhidx.com/3848aeaa04f0c9601c08589fe8cf8774/6ada3300/uploads/2026/10/6ad983613f1c1_6ad98361372bb_6ad983613728e_8.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="451" /></p>
+<p>▲Recursive联合创始人田渊栋，图源：田渊栋个人官网</p>
+<p><span style="color: #0f59a4"><strong>熊才明</strong></span>曾任企业软件公司Salesforce AI研究高级副总裁，长期从事AI研究与模型开发。加入Salesforce之前，他曾在MetaMind担任高级研究员，与索赫尔有过共事经历。</p>
+<p>他本科及硕士毕业于华中科技大学，后于纽约州立大学布法罗分校取得计算机科学与工程博士学位，并在加州大学洛杉矶分校完成统计学博士后研究。</p>
+<p><img class="aligncenter size-full wp-image-603482" src="https://oss.zhidx.com/c49dd49a15eafa002380211abf6630cc/6ada3300/uploads/2026/10/6ad98a8dda226_6ad98a8dd75b5_6ad98a8dd7577_11.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1000" height="538" /></p>
+<p>▲Recursive联合创始人熊才明（Caiming Xiong），图源：熊才明个人网站</p>
+<p><span style="color: #0f59a4"><strong>施天麟（Tim Shi）</strong></span>是清华大学姚班校友，曾在斯坦福大学人工智能实验室攻读博士学位，研究方向涉及机器学习与AI系统。</p>
+<p>2017年，他加入OpenAI，参与早期AI Agent研究。随后，他联合创办企业AI公司Cresta，并担任联合创始人兼首席技术官，推动AI技术在企业销售和客服场景中的应用。此后，他参与创办Recursive Superintelligence。</p>
+
+<p><img class="aligncenter size-full wp-image-603525" src="https://oss.zhidx.com/89bd7f884cf8583ba49c262d6cef3a6b/6ada3300/uploads/2026/10/6ad9a8e369f36_6ad9a8e366cc4_6ad9a8e366c86_15.png" alt="RSI，田渊栋交卷了！40B本地编程模型开源，MacBook Pro可跑" width="1890" height="1138" /></p>
+<p>▲Recursive联合创始人施天麟（Tim Shi），图源：施天麟个人网站</p>
+<p>其他联合创始人也拥有不同的研究和创业经历。<span style="color: #0f59a4"><strong>蒂姆·罗克特舍尔</strong></span>是伦敦大学学院教授，曾在谷歌DeepMind从事AI研究；<span style="color: #0f59a4"><strong>杰夫·克鲁恩</strong></span>长期研究开放式算法和自我改进AI。</p>
+<h2><strong>结语：速度与实用性兼得，本地编程模型研发提速</strong></h2>
+<p>Flint的推出体现了本地编程模型在代码生成能力之外，对运行效率与部署体验的重视。</p>
+<p>模型在本地运行，可以减少对云端算力的依赖，也有助于降低代码和数据向远程服务器传输的需求，也让开发者拥有更灵活的使用方式。</p>
+<p>Recursive将混合专家架构与自动化研发系统Eureka Machine结合，既优化了模型的本地运行效率，也探索了以自动化系统加快模型研发的新路径。</p>
+<p>来源：Recursive</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603419.html</link>
+<pubDate>Thu, 22 Oct 2026 12:30:50 +0800</pubDate>
+<source>智东西</source>
+<author>黄 菲</author>
+</item>
+<item><title><![CDATA[1000亿！曝DeepSeek拿下中国AI最大融资]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/94770f22f47327483684e3b778e8b1ca/6ada3300/uploads/2026/10/6ad9837a91e1b_6ad9837a8ef03_6ad9837a8eeb3_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-22-1130031.png"><b>智东西（公众号：</b><b>zhidxcom</b><b>）<br />
+</b><strong>编译 |<span class="Apple-converted-space">  </span>杨京丽</strong><br />
+<strong>编辑 |<span class="Apple-converted-space">  云鹏</span></strong></p>
+<p>智东西10月22日消息，刚刚，据彭博社报道，DeepSeek在最新一轮融资中已筹集约<span style="color: #0f59a4"><strong>1000亿元（约合150亿美元）</strong></span>，创下<span style="color: #0f59a4"><strong>中国AI行业规模最大的融资纪录</strong></span>，<span style="color: #0f59a4"><strong>宁德时代和腾讯</strong></span>位列本轮融资规模最大的投资者之列。</p>
+<p><img class="alignnone wp-image-603491" src="https://oss.zhidx.com/8a35f09155cd5d66e2f5172053e4c51e/6ada3300/uploads/2026/10/6ad98cfe250aa_6ad98cfe21c41_6ad98cfe21c0b_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-22-121126.png" alt="1000亿！曝DeepSeek拿下中国AI最大融资" width="1000" height="485" /></p>
+<p>据知情人士透露，DeepSeek在与投资者接洽期间至少两次上调融资目标，最初目标为500亿元，<a href="https://mp.weixin.qq.com/s/d6hJ61WYMl9xgecF8P5YIQ">后提高至800亿元</a>，最终达到<span style="color: #0f59a4"><strong>1000亿元</strong></span>。由于相关细节尚未公开，知情人士要求匿名。</p>
+<p>彭博社称，DeepSeek已开始加大投入，推进AI数据中心基础设施建设，并开发更多面向中国及海外市场的开源模型。</p>
+<p>这轮融资将为DeepSeek<span style="color: #0f59a4"><strong>筹备IPO</strong></span>提供资金基础。DeepSeek也借此缩小与OpenAI、Anthropic等美国头部AI实验室之间的资金差距。9月9日，据路透社报道，DeepSeek已经聘请中信证券，为其在上交所科创板进行IPO做准备。</p>
+<p>据彭博社报道，月之暗面正在推进2027年第一季度在香港进行IPO。DeepSeek上市可能成为中国资本市场的一项重要里程碑。</p>
+<p>过去一段时间，DeepSeek持续推出<span style="color: #0f59a4"><strong>高性能、低成本</strong></span>模型，吸引了国内外开发者关注，收获美国等海外市场客户。</p>
+<p>10月17日，DeepSeek发布并开源<span style="color: #0f59a4"><strong>DeepSeek-V4.1-Flash-1017</strong></span>，在软件工程能力DeepSWE v1.1测试中，得分超GPT-6 Astra、GPT-6.1 Sol、Claude Opus 5等模型，单项任务平均费用较上一版本下降约六成。</p>
+<p>10月20日，DeepSeek又开源了其内部使用的、大规模云服务推理框架<span style="color: #0f59a4"><strong>DeepInfer</strong></span>和生产级token编解码组件<span style="color: #0f59a4"><strong>deepseek-recipe</strong></span>，并发布详细技术报告，介绍了DeepSeek V4.1 Flash推理系统的整体架构与关键实现。</p>
+<p>DeepSeek持续推进模型、框架和工具开放，走出了一条区别于部分海外头部AI实验室闭源商业化路线的发展路径。</p>
+<p>随着DeepSeek获得大额融资，中国头部AI公司的资金和算力投入正在进入新的阶段。DeepSeek能否依靠这轮融资持续扩大模型性能、基础设施和海外商业化优势，仍有待其后续产品和IPO进展验证。</p>
+<p>来源：彭博社、路透社</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603434.html</link>
+<pubDate>Thu, 22 Oct 2026 12:30:14 +0800</pubDate>
+<source>智东西</source>
+<author>杨 京丽</author>
+</item>
+<item><title><![CDATA[Meta，一年减少12000人]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/8d40cc0f955b2b4b1de8fd40bbe0baa2/6ada3300/uploads/2026/10/6ad95127e448f_6ad95127d945e_6ad95127d9426_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-22-0755281.png"><strong>智东西</strong><br />
+<strong>作者 | 杨京丽</strong><br />
+<strong>编辑 | 李水青</strong></p>
+<p>智东西10月22日报道，今天凌晨，Meta公布2026年第三季度财报。其AI业务逐步进入产品和商业化验证阶段：Meta旗下应用日活跃人数达到<span style="color: #0f59a4"><strong>36.4亿</strong></span>，广告收入同比增长<span style="color: #0f59a4"><strong>26%</strong></span>；个人智能体Muse上线约一个半月后，在美国和加拿大已有超过<span style="color: #0f59a4"><strong>1000万人</strong></span>配置了自己的智能体，日活跃使用比例约为25%。</p>
+<p>本财季，Meta营收达到<span style="color: #0f59a4"><strong>646.01亿美元（约合人民币4313亿元）</strong></span>，同比增长<span style="color: #0f59a4"><strong>26%</strong></span>；净利润为<span style="color: #0f59a4"><strong>98.60亿美元（约合人民币658亿元）</strong></span>，同比增长<span style="color: #0f59a4"><strong>264%</strong></span>；摊薄后每股收益为<span style="color: #0f59a4"><strong>3.83美元（约合人民币25.57元）</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603384" src="https://oss.zhidx.com/4f0ea8e020918be78b131163e13527cd/6ada3300/uploads/2026/10/6ad94e8ce3e72_6ad94e8cda469_6ad94e8cda436_Meta-revenue-growth-watermarked-v2.png" alt="Meta，一年减少12000人" width="2030" height="1112" /></p>
+<p>▲Meta近3年营收及增长情况（智东西制图）</p>
+<p>由于计入一笔与美国青少年心理健康诉讼相关的<span style="color: #0f59a4"><strong>98.9亿美元（约合人民币660亿元）</strong></span>费用，Meta营业利润同比<span style="color: #0f59a4"><strong>下降37%</strong></span>至129.88亿美元，营业利润率从去年同期的40%降至20%。剔除这笔费用后，本季每股收益为7.40美元（约合人民币49.40元）。</p>
+<p>Meta的AI基础设施投入也在快速增加。本季资本支出达到<span style="color: #0f59a4"><strong>349.1亿美元（约合人民币2331亿元）</strong></span>，自由现金流<span style="color: #0f59a4"><strong>转为负值</strong></span>，为<span style="color: #0f59a4"><strong>-21.20亿美元（约合人民币-141.5亿元）</strong></span>。</p>
+<p>截至2026年9月30日，Meta全球员工人数为<span style="color: #0f59a4"><strong>66775人</strong></span>，较去年同期减少<span style="color: #0f59a4"><strong>15%</strong></span>，约减少<span style="color: #0f59a4"><strong>1.2万人</strong></span>。Meta正在将更多资源集中到AI模型、数据中心、智能眼镜和新产品开发。此外，Meta董事会还批准设立新的公开交易无投票权<span style="color: #0f59a4"><strong>C类普通股</strong></span>，预计于2027年1月生效。</p>
+<p>截至美东时间10月21日收盘，Meta报<span style="color: #0f59a4"><strong>697.52美元/股（约合人民币4657元/股）</strong></span>，上涨0.47%，总市值约<span style="color: #0f59a4"><strong>1.78万亿美元（约合人民币11.88万亿元）</strong></span>。盘后Meta股价一度<span style="color: #0f59a4"><strong>上涨7%</strong></span>，至746.50美元/股（约合人民币4984元/股）。截至盘后美东时间20时，Meta股价上涨<span style="color: #0f59a4"><strong>2.14%</strong></span>，至<span style="color: #0f59a4"><strong>712.48美元/股（约合人民币4757元/股）</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603387" src="https://oss.zhidx.com/22a2ad342c61d90ec3cad402bf580580/6ada3300/uploads/2026/10/6ad953ebb1fa7_6ad953ebaef33_6ad953ebaeef8_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-22-080040.png" alt="Meta，一年减少12000人" width="1232" height="784" /></p>
+<p>▲Meta股价（图源：msn）</p>
+<h2>一、广告收入4210亿元，AI改善核心业务变现</h2>
+<p>广告仍是Meta最主要的收入来源。本季广告收入达到630.61亿美元（约合人民币4210亿元），同比增长26%，占总营收约97.6%。</p>
+<p>按业务分部看，Meta本季Family of Apps收入为641.58亿美元（约合人民币4283亿元），同比增长26%；Reality Labs收入为4.43亿美元（约合人民币29.57亿元），同比下降6%。</p>
+<p><img class="alignnone size-full wp-image-603382" src="https://oss.zhidx.com/8a2ffd2b182bda2e5be15fe6af2c0577/6ada3300/uploads/2026/10/6ad94d995f55f_6ad94d995c829_6ad94d995c7f6_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-22-073613.png" alt="Meta，一年减少12000人" width="2880" height="926" /></p>
+<p>▲Meta近两年业务营收情况（图源：Meta）</p>
+<p>从广告经营指标看，Meta旗下应用广告展示量同比增长10%，平均广告价格同比上涨14%。截至9月，Meta旗下应用日活跃人数平均达到36.4亿，同比增长3%。在用户规模增速放缓的情况下，广告价格上涨和单用户价值提升，成为推动收入增长的主要因素。</p>
+<p>Meta首席财务官苏珊·李（Susan Li）在财报电话会议上称，AI推荐系统正在直接改善用户参与度和广告转化效果。第三季度，Instagram全球人均使用时长实现两位数增长；Meta将生成式检索架构部署到Facebook Feed和Reels后，相关观看时长继续提升。</p>
+<p>Meta本季研发费用达到200.54亿美元（约合人民币1339亿元），同比增长32%；收入成本为133.69亿美元（约合人民币893亿元）。Meta还将部分内容理解模型迁移到自研Muse模型家族，在内部测试中，相关模型将Instagram、Threads、Facebook和广告系统的单位内容处理成本降低了80%以上。</p>
+<p>Muse也开始从模型变成产品。Meta创始人兼CEO马克·扎克伯格（Mark Zuckerberg）在电话会议上称，Muse上线约一个半月后，美国和加拿大已有超过1000万人配置个人智能体，日活跃使用比例约为25%。购物是最常见的使用场景之一，超过四分之一的用户参与其中，平均客单价超过200美元。</p>
+<p>扎克伯格称，Muse已经展现出清晰的产品与市场匹配，未来希望将Muse发展为服务数十亿人的产品。</p>
+<p>Reality Labs本季收入为4.43亿美元（约合人民币29.6亿元），同比下降6%；经营亏损为41.29亿美元（约合人民币275.7亿元）。苏珊·李称，Reality Labs收入下降主要因为Quest头显销量下滑，但AI眼镜收入仍在快速增长。扎克伯格称，Muse将从下个月开始接入Meta智能眼镜，成为智能眼镜下一阶段体验和订阅业务的核心。</p>
+<h2>二、资本支出增长80%，自由现金流由正转负</h2>
+<p>本季Meta资本支出达到349.1亿美元（约合人民币2331亿元），同比增长约80%。其中，购买物业和设备的现金支出为339.42亿美元，融资租赁本金支付为9.64亿美元，主要用于数据中心、服务器和网络基础设施建设。</p>
+<p><img class="alignnone size-full wp-image-603383" src="https://oss.zhidx.com/70e1b1785bb027581c7595d422324f70/6ada3300/uploads/2026/10/6ad94dd6643c7_6ad94dd65f92f_6ad94dd65f8fb_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-22-074149.png" alt="Meta，一年减少12000人" width="2462" height="1456" /></p>
+<p>同期，Meta经营活动现金流为327.86亿美元（约合人民币2189亿元），低于资本支出，自由现金流为负21.20亿美元（约合人民币-141.5亿元）。去年同期，Meta自由现金流为106.25亿美元（约合人民币709.4亿元）。</p>
+<p><img class="alignnone size-full wp-image-603381" src="https://oss.zhidx.com/912ae31e08bc1e1c691e4775ee1ec8ae/6ada3300/uploads/2026/10/6ad94d97dfd70_6ad94d97dc992_6ad94d97dc95e_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-22-073843.png" alt="Meta，一年减少12000人" width="2826" height="1106" /></p>
+<p>▲Meta近两年自由现金流变化情况（图源：Meta）</p>
+<p>电话会议中，扎克伯格称，Muse当前运行成本较高，公司计划在未来一年将其成本效益提升10倍以上。Meta将通过使用更小模型、利用非高峰算力、提高GPU利用率和减少推理Token等方式压低成本。管理层认为，随着模型能力提升，未来可以用更小、更高效的模型达到当前前沿模型的智能水平。</p>
+<p>Meta还在拓宽AI算力的应用场景，除支持Muse外，也将其用于广告推荐、内容理解、企业API和Muse Code等业务，以提高算力利用率并分散单一产品商业化风险。</p>
+<p>Meta预计，2026年资本支出将在1350亿至1450亿美元（约合人民币9013亿至9680亿元）之间；Reality Labs全年经营亏损预计为180亿至190亿美元（约合人民币1201亿至1268亿元），2027年有望收窄至约150亿美元（约合人民币1001亿元）。</p>
+<p>截至2026年9月30日，Meta全球员工人数为66775人，同比减少15%。Meta董事会还批准设立新的公开交易无投票权C类普通股，预计于2027年1月生效。Meta计划向现有A类和B类普通股股东按一比一派发C类股票，以拓展未来融资、员工激励和并购工具，同时保持创始人主导的治理结构。</p>
+<h2>结语：AI带来增长，现金流持续承压</h2>
+<p>Meta第三季度财报显示，广告展示量、广告价格和用户规模仍在增长，AI正在持续改善推荐、互动和广告转化效率。Muse应用也展现出用户增长、购物交易和企业服务潜力。</p>
+<p>但与此同时，模型推理、数据中心和智能眼镜投入不断推高成本，单季自由现金流已经转负。Meta预计第四季度营收将继续增长，至730亿至760亿美元（约合人民币4875亿至5075亿元）。市场接下来将重点观察，AI新增收入能否覆盖持续上升的基础设施投入。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603352.html</link>
+<pubDate>Thu, 22 Oct 2026 12:29:41 +0800</pubDate>
+<source>智东西</source>
+<author>杨 京丽</author>
+</item>
+<item><title><![CDATA[英伟达投的AI语音独角兽发两款新模型，半秒内就能实时响应，附实测]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/9224f1037c29b3f1202dcbe1f0d9c1e2/6ada3300/uploads/2026/10/6ad8cc65f10b5_6ad8cc65ed857_6ad8cc65ed821_%E5%A4%B4%E5%9B%BE1.jpg?x-oss-process=image/resize,m_fill,w_1024,h_437"><strong>智东西</strong><br />
+<strong> 作者 | 孙小雯</strong><br />
+<strong> 编辑 | 程茜</strong></p>
+<p>智东西10月22日消息，10月20日，<span style="color: #0f59a4"><strong>英国AI音频独角兽ElevenLabs</strong></span>发布实时语音系列模型Eleven Realtime，包括<span style="color: #0f59a4"><strong>面向自然交流的Eleven Realtime v1 Mini</strong></span>，以及<span style="color: #0f59a4"><strong>面向客服、多步骤任务的Eleven Realtime v1 Max</strong></span>。两款模型均支持超过90种语言，可使用ElevenLabs声音库中<span style="color: #0f59a4"><strong>超过1.7万种音色</strong></span>。</p>
+<p>此次发布主打<span style="color: #0f59a4"><strong>简化语音智能体的搭建和调试</strong></span>。过去，开发者需要分别选择语音识别、大语言模型和语音合成等组件，再调整接话、打断等交互细节。<span style="color: #0f59a4"><strong>Eleven Realtime统一配置和调优底层组件</strong></span>，开发者选择Mini或Max后，即可围绕具体业务设置角色、知识库和工具，无需再逐项选择底层模型。</p>
+<p>实时语音的难点之一，是既要答得对，又不能让用户等太久。据第三方AI评测机构Artificial Analysis的独立测试，<strong><span style="color: #0f59a4">Max在Big Bench Audio语音推理评测中以98.8%的正确率位列第三，平均首次音频响应时间为0.57秒</span>。</strong></p>
+<p>此次模型发布，智东西测试了其中的Architect搭建助手。从实测体验来看，<span style="color: #000000">用语音修改Agent设置比较方便，多项操作无需手动点击。不过，中文口音明显，回复偏长，延迟也较高。</span></p>
+<p>ElevenLabs于2022年成立，从文本转语音起家，逐步将业务扩展至语音识别、音效、音乐和对话智能体。今年2月，<span style="color: #0f59a4"><strong>公司完成5亿美元（约33.4亿元人民币）D轮融资，估值110亿美元（约734.2亿元人民币）</strong></span>；9月的一笔员工股份交易使其估值达到220亿美元（约1468.4亿元人民币）。投资方既有<span style="color: #0f59a4"><strong>红杉资本、a16z</strong></span>，也包括<span style="color: #0f59a4"><strong>英伟达旗下NVentures和LG Technology Ventures</strong></span>等产业资本。</p>
+<p>其两位联合创始人Mati Staniszewski和Piotr Dabkowski分别在Palantir和谷歌工作多年，<span style="color: #0f59a4"><strong>2025年已跻身《福布斯》亿万富翁行列</strong></span>。公司也在考虑IPO，CEO Mati Staniszewski此前透露，希望未来两年至两年半内具备上市条件。</p>
+<p>目前，两款模型可通过<span style="color: #0f59a4"><strong>ElevenAgents平台或Realtime API</strong></span>使用。用户可在平台中创建或打开Agent，选择Realtime模型；开发者也可通过API接入自己的应用。该API兼容OpenAI Realtime规范，目前仅支持WebSocket连接。</p>
+<p>产品及演示入口：https://ElevenLabs.io/zh/realtime<br />
+Agent搭建入口：https://ElevenLabs.io/app/agents<br />
+API接入文档：https://ElevenLabs.io/docs/eleven-agents/guides/openai-realtime-compatibility</p>
+<h2><strong>一、实测语音修改Agent设置，操作方便，但中文口音明显</strong></h2>
+<p>为了测试语音搭建Agent是否方便，智东西通过ElevenLabs的Architect搭建助手，尝试用英文修改语言、切换音色，再让助手改用中文交流，并用中文继续修改设置。</p>
+<p>首先，我们用英文要求修改Agent的语言设置。Architect理解指令后完成了修改，过程比较顺畅，不需要手动寻找菜单、切换选项。<br />
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=117482438328405&amp;bvid=BV1qTn262Ekb&amp;cid=42944432339&amp;p=1" width="300" height="150" frameborder="no" allowfullscreen="allowfullscreen"></iframe><br />
+接着，我们要求它换个声音。这次没能如愿：Architect自身的音色不支持切换，所创建Agent的音色则可以在设置中选择。打开音色库后，可以看到可选声音确实不少。<br />
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=117482438328405&amp;bvid=BV1qTn262Ekb&amp;cid=42944432534&amp;p=2" width="300" height="150" frameborder="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p><img class="alignnone size-full wp-image-603346" src="https://oss.zhidx.com/11c253ae98e130279e875d0c45f59ade/6ada3300/uploads/2026/10/6ad8c72636d94_6ad8c72633df9_6ad8c72633d99_%E9%9F%B3%E8%89%B2%E5%BA%93.png" alt="英伟达投的AI语音独角兽发两款新模型，半秒内就能实时响应，附实测" width="2342" height="1129" /><br />
+▲ElevenLabs音色库中的可选声音</p>
+<p>随后，我们让Architect改用中文交流。它能听懂要求，但中文带着明显的外国口音，听起来有点“塑料”，部分表达需要仔细听才能明白。<br />
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=117482438328405&amp;bvid=BV1qTn262Ekb&amp;cid=42944432590&amp;p=3" width="300" height="150" frameborder="no" allowfullscreen="allowfullscreen"></iframe><br />
+不过，中文指令的执行比较顺利。我们用中文要求修改Agent的语言设置，它也完成了相应修改。<br />
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=117482438328405&amp;bvid=BV1qTn262Ekb&amp;cid=42944432626&amp;p=4" width="300" height="150" frameborder="no" allowfullscreen="allowfullscreen"></iframe><br />
+实测下来，通过语音直接修改设置，还是让人有些惊喜。用户说清楚要求，助手就能完成部分配置，省去了寻找菜单、填写表单的操作。</p>
+<p>不过，Architect有些“话密”，一个简单要求也可能引出一长串解释，且不易被打断。</p>
+<p><img class="alignnone size-full wp-image-603347" src="https://oss.zhidx.com/0ae157b611f99a605fe67f0373f4af9d/6ada3300/uploads/2026/10/6ad8c7729152c_6ad8c7728e87c_6ad8c7728e837_%E5%BA%9F%E8%AF%9D%E5%BE%88%E5%A4%9A.png" alt="英伟达投的AI语音独角兽发两款新模型，半秒内就能实时响应，附实测" width="2102" height="1080" /><br />
+▲Architect执行指令时，有时会给出较长的解释</p>
+<p>此外，测试中存在较明显的响应等待和偶发卡顿，可能受到网络影响。回复偏长、打断响应不够及时，以及中文语音不够自然，是本次体验中较突出的不足。</p>
+<p>注：本次实测范围为Architect搭建助手。运行创建的Agent需要付费购买Token，因此我们没能继续测试Mini、Max的实际对话表现。</p>
+<h2><strong>二、Mini用于教学和角色互动，Max处理客服及多步骤任务</strong></h2>
+<p>ElevenLabs在官方演示中展示了两款模型的应用场景。</p>
+<p>该公司称，Mini主打低成本的自然对话，适用于AI助手、教学辅导和互动角色；Max则面向客服、潜在客户筛选及多步骤工作流，更适合需要逐步推理、频繁调用工具的任务。<br />
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=117482438328405&amp;bvid=BV1qTn262Ekb&amp;cid=42944432852&amp;p=5" width="300" height="150" frameborder="no" allowfullscreen="allowfullscreen"></iframe><br />
+<span style="color: #0f59a4"><strong>第三方AI评测机构Artificial Analysis</strong></span>对两款模型进行了独立测试。在语音推理评测Big Bench Audio中，Max的正确率为<span style="color: #0f59a4"><strong>98.8%</strong></span>，Mini为<span style="color: #0f59a4"><strong>75.9%</strong></span>。该测试通过语音提出1000道题，涉及逻辑判断、物品计数、路径推理等任务，再对模型的口头回答进行评分。</p>
+<p>截至10月21日，Max在这一单项中位列第三，仅次于<span style="color: #0f59a4"><strong>阶跃星辰的StepAudio 3 Realtime</strong></span>（99.7%）和<span style="color: #0f59a4"><strong>阿里的Qwen Audio 3.0 Realtime Plus</strong></span>（99.2%）。</p>
+<p><img class="alignnone size-full wp-image-603432" src="https://oss.zhidx.com/ca021a83343f88b5c726fc94028866b2/6ada3300/uploads/2026/10/6ad97bd2e392f_6ad97bd2e0e7c_6ad97bd2e0e42_AA%E6%A6%9C%E5%8D%95-%E6%8E%92%E5%90%8D%E7%AC%AC%E4%B8%89.jpg" alt="英伟达投的AI语音独角兽发两款新模型，半秒内就能实时响应，附实测" width="1363" height="936" /></p>
+<p>▲Big Bench Audio语音推理评测排名，Eleven Realtime v1 Max以98.8%的正确率位列第三（图源：Artificial Analysis）</p>
+<p>Max的延迟也较低。据ElevenLabs发布公告，Max和Mini在Big Bench Audio测试中的<span style="color: #0f59a4"><strong>平均首次音频响应时间分别为</strong><strong>0.57秒、0.62秒</strong></span>。作为参考，Artificial Analysis官网所列<strong><span style="color: #0f59a4">Qwen Audio 3.0 Realtime Plus的同项指标为1.54秒</span></strong>。该指标衡量模型开始发声所需的时间。</p>
+<p>在<span style="color: #0f59a4"><strong>真人参与实时对话的Speech Agent Arena评测</strong></span>中，Max的<span style="color: #0f59a4"><strong>工具使用任务完成率为87.1%，Mini为60.3%</strong></span>。该指标衡量模型通过正确的工具调用完成任务的比例，Max在这一项上比Mini高出26.8%。</p>
+<p>不过，在停顿、打断等接话表现上，Mini的综合成绩略高。在<span style="color: #0f59a4"><strong>Full-Duplex-Bench（全双工对话评测）</strong></span>中，Artificial Analysis选取停顿处理、轮次交接、用户打断和附和回应四类项目计算加权得分，<span style="color: #0f59a4"><strong>Mini为95.8%，Max为94.1%</strong></span>。这些项目考察模型能否在用户停顿时继续等待、用户说完后及时接话，以及区分真正的打断和“嗯”“对”等附和声。</p>
+<h2><strong>三、从配音、转写到实时交互，延续级联架构</strong></h2>
+<p>此次Realtime发布前，ElevenLabs已分别推出语音合成、语音识别模型，并提供语音Agent搭建服务。</p>
+<p>语音合成方面，今年9月，该公司发布<span style="color: #0f59a4"><strong>文本转语音模型Eleven v4及其低延迟版本v4 Turbo</strong></span>，重点改善情绪表达、声音克隆和多角色对话效果。用户可以用自然语言或标签控制台词的语气、重音，并加入笑声等声音，v4 Turbo则针对语音Agent等低延迟场景优化。</p>
+<p>语音识别方面，去年11月推出的<span style="color: #0f59a4"><strong>Scribe v2 Realtime面向实时转写</strong></span>；今年1月发布的<span style="color: #0f59a4"><strong>Scribe v2则重点处理长录音和复杂音频</strong></span>，支持说话人区分、词级时间戳，及热词提示。</p>
+<p>在单项模型之外，ElevenLabs早在2024年11月就推出了Conversational AI，支持开发者结合知识库、函数和大语言模型创建语音Agent。</p>
+<p>技术路线上，Eleven Realtime延续采用级联架构，由语音识别、大语言模型和语音合成等独立组件协同完成对话。该公司认为，这种方式便于分别测试和升级各环节，也能通过中间生成的文字排查错误、约束回答，并接入更强的大语言模型。</p>
+<p>不过，该公司也在技术博客中提到，语音转成文字时会丢失部分语调、节奏和情绪信息，需要通过额外建模补充。其优化方向是在保留各组件可控性的同时，改善声音表现、延迟和轮次交接。</p>
+<p>定价方面，Realtime API按音频连接时长和Token用量计费。超出套餐额度后，两款模型的音频连接费用均为每分钟0.08美元；<span style="color: #0f59a4"><strong>Mini每百万输入Token收费0.20美元、输出Token收费6美元；Max分别为1.80美元、9美元。</strong></span></p>
+<h2><strong>结语：实时语音加速接入Agent，交互体验仍需打磨</strong></h2>
+<p>ElevenLabs此次发布Realtime，将语音识别、推理和语音生成组合成可直接选用的实时交互方案。其在改善对话表现的同时，也降低了语音Agent的搭建门槛。</p>
+<p>这一赛道已聚集多家大厂。OpenAI的GPT-Realtime、谷歌的Gemini Live，以及阿里的Qwen-Audio-Realtime系列等，都在强化实时语音交互与工具调用能力。尽管技术路线和产品侧重有所不同，但各家目标一致：<span style="color: #0f59a4"><strong>让用户通过自然对话，推动AI完成具体任务</strong></span>。</p>
+<p>要让对话顺畅、任务持续推进，还需要整套系统配合。网络延迟、接话时机和工具执行都会影响使用体验，OpenAI此前也披露了底层网络架构的优化，以减少停顿和打断延迟。</p>
+<p>从智东西此次的体验来看，<span style="color: #0f59a4"><strong>通过语音创建文档、修改设置已经让人惊喜，但响应速度、打断处理及页面切换时的语音连续性仍需打磨</strong></span>。随着模型和产品继续迭代，我们期待这类应用能在连续交流和任务执行中表现得更稳定，让语音成为用户日常工作中真正顺手的操作方式。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603345.html</link>
+<pubDate>Thu, 22 Oct 2026 11:40:17 +0800</pubDate>
+<source>智东西</source>
+<author>孙 小雯</author>
+</item>
+<item><title><![CDATA[刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/4780f9889e41e48967f8d98a73a6c954/6ada3300/uploads/2026/10/6ad943a06378e_6ad943a0606cd_6ad943a060698_966d64538f74fd36bdba44559485098f_%E5%89%AF%E6%9C%AC.jpg"><strong>智东西<br />
+</strong><strong>作者 |  江宇</strong><br />
+<strong>编辑｜心缘</strong></p>
+<p>智东西10月22日报道，今日凌晨，<span style="color: #0f59a4;"><strong>Anthropic推出全新个人AI智能体应用Claude Duet</strong></span>，主打主动处理工作任务，能够连接用户的邮件、日历、银行及企业业务系统，在用户没有发出指令的情况下主动发现待办事项，并持续执行任务。</p>
+<p><img class="alignnone size-full wp-image-603372" src="https://oss.zhidx.com/ededaccc89882be2a03579a7a4b0af78/6ada3300/uploads/2026/10/6ad946fdf3d37_6ad946fdf0b81_6ad946fdf0b48_6838bc202d3d832ef81b9d05adb18bb7.png" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="969" /></p>
+<p><span style="color: #0f59a4;"><strong>Claude Duet基于Claude Opus 5.5模型构建</strong></span>，可以调用Claude Marketplace中的<span style="color: #0f59a4;"><strong>超过6000个连接器和插件</strong></span>，完成财务分析、招聘管理、客户沟通、薪资处理等工作。即使用户关闭电脑或手机，Claude Duet也能在<span style="color: #0f59a4;"><strong>独立的虚拟机</strong></span>中继续运行。</p>
+<p><span style="color: #0f59a4;"><strong>目前，Claude Duet已推出iOS、Android及网页独立应用</strong></span>，首批面向美国Pro和Max订阅用户开放研究预览候补申请，尚未全面开放使用。</p>
+<p>Claude Duet的亮相，也引发了海外AI圈的讨论。</p>
+<p>OpenAI旗下ChatGPT和Codex负责人、被开发者戏称为“重置之神”的Thibault Sottiaux（网名Tibo）在评论区调侃道：“Dot，认识一下Duet。Duet，认识一下Dot。你们要友好相处。”</p>
+<p><img class="alignnone size-full wp-image-603365" src="https://oss.zhidx.com/b563ef193a5b6b8de6ca540854376831/6ada3300/uploads/2026/10/6ad9444eedcb4_6ad9444eeab4f_6ad9444eeab10_09e85e5d3c735e483b932b8c2edc3740.png" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="162" /></p>
+<p>有网友称：“Duet已经赢了，它用的是Opus模型，这就说明了一切。”他还隔空喊话Tibo：“希望你手里还有点招数，尤其是在模型方面。”</p>
+<p><img class="alignnone size-full wp-image-603373" src="https://oss.zhidx.com/63ecae52a22d430fa9a935da9b2a9e0d/6ada3300/uploads/2026/10/6ad94714319a8_6ad947142edd8_6ad947142eda2_c2e8401eac887ef340d7553f6bc0e7db.png" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="197" /></p>
+<p>还有网友晒出经典的“蜘蛛侠互指”表情包，配文称：“Muse、Dots、Grok，现在又来了Duet。”</p>
+<p><img class="alignnone size-full wp-image-603364" src="https://oss.zhidx.com/ea694aca8c7ff7b265662fff2ecea305/6ada3300/uploads/2026/10/6ad94446714bc_6ad944466e51f_6ad944466e4d4_139a1075c6cd6c97f19fa18f7d69e8b5.png" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="968" /></p>
+<p>也有网友说：“糟糕，我今天刚从Claude转投Grok Bot。”另一位网友则称：“Grok Bot、Dot现在有竞争对手了，等这个已经很久了。”</p>
+<p><img class="alignnone size-full wp-image-603366" src="https://oss.zhidx.com/8a4672b808a84e0bca1bf526eb5da2b7/6ada3300/uploads/2026/10/6ad944590103a_6ad94458f2604_6ad94458f25cd_0255c197a8dcd8153de1e4eb6e5a0568.png" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="321" /></p>
+<p>就在9月，Meta和OpenAI已先后推出个人AI智能体Muse和Dots。随着Anthropic加入，这场围绕个人AI助理的竞争又多了一位参与者。</p>
+<h2><strong>一、每天主动汇报待办事项，招聘、财务都能管理</strong></h2>
+<p><span style="color: #0f59a4;"><strong>Claude Duet的一大特点，是能够在用户没有主动提问的情况下，提前发现需要处理的工作。</strong></span></p>
+<p>根据Anthropic发布的演示视频，Claude Duet每天早上会主动发送一份<span style="color: #0f59a4;"><strong>工作简报</strong></span>，从连接的各类应用中提取信息，告诉用户今天有哪些重要事项、哪些决定需要尽快作出。视频展示了一位经营咖啡公司的用户Nicole使用Claude Duet的一天。早上，Claude Duet向Nicole发送工作简报，列出了三件事。</p>
+<p><img class="size-full wp-image-603360" src="https://oss.zhidx.com/afec644718925c6d2fa3d14ba055f90e/6ada3300/uploads/2026/10/6ad943ece702e_6ad943ece3dc8_6ad943ece3d81_b9f11cf86a7c35bdad616b7160232e47.jpg" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="556" /></p>
+<p>Claude Duet不仅列出待办事项，还<span style="color: #0f59a4;"><strong>提前准备了对应的处理材料</strong></span>，包括许可证申请文件、招聘安排以及合同还价草案。</p>
+<p>在工作简报之外，它还主动提出，可以根据公司的最新经营数据制作一份<span style="color: #0f59a4;"><strong>销售仪表盘</strong></span>。Nicole回复一句“Go for it！（放手做吧）”，Claude Duet便表示将从销售终端、线上商店、客户关系管理系统（CRM）、客服、薪资系统及银行账户中提取数据。用户无须逐一打开各个平台、下载数据再进行整理，Claude Duet能够自行调用相应工具完成任务。</p>
+<p><img class="size-full wp-image-603363" src="https://oss.zhidx.com/cb4ed5461005cf04b14836612ba1e98c/6ada3300/uploads/2026/10/6ad944372a10c_6ad94437271de_6ad94437271a2_2691d7cc953d6f74677a4671a323c74c.jpg" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="559" /></p>
+<p>Claude Duet还能<span style="color: #0f59a4;"><strong>主动提醒</strong></span>Nicole，芝加哥门店将在26天后开业，但卫生许可证尚未提交。它已经提前起草申请文件，并提示用户审阅后付款。</p>
+<p><img class="size-full wp-image-603362" src="https://oss.zhidx.com/1e759b6b4b0cac86fac2da22a19e8654/6ada3300/uploads/2026/10/6ad9441a000a1_6ad94419f13b9_6ad94419f1382_3be86f3dbb35479854539d64c5c2baf2.jpg" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="552" /></p>
+<p>除此以外，<span style="color: #0f59a4;"><strong>Claude Duet也会根据工作的进展调整任务优先级</strong></span>。例如，当Northfield的续约事务暂时不需要立即处理时，它会主动告知用户，这件事可以等到下周一再继续。</p>
+
+<p>招聘场景进一步展示了Claude Duet如何参与一项<span style="color: #0f59a4;"><strong>持续数小时的工作</strong></span>。</p>
+<p>演示中，Claude Duet先向用户汇报，面试小组正在面试三位候选人，面试结束后将整理相关记录。</p>
+<p><img class="size-full wp-image-603359" src="https://oss.zhidx.com/bdc62814991df35b797fa327dc9a311b/6ada3300/uploads/2026/10/6ad943dcb3f1d_6ad943dcb0eb6_6ad943dcb0e6a_cd1edbf82b5e05fa03e99eee6203255f.jpg" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="549" /></p>
+<p>随后，它根据面试官反馈生成汇总，指出Jenn是所有面试官的首选候选人，同时提醒用户，Jenn还拿到了另一份工作邀请。</p>
+<p><img class="size-full wp-image-603361" src="https://oss.zhidx.com/7d3059ea25df1a4512e2147762370bda/6ada3300/uploads/2026/10/6ad9440fd387a_6ad9440fcf70a_6ad9440fcf6c9_52f596202b8c26dfb754c4638f9ee5fc.jpg" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="554" /></p>
+<p>Nicole确认Jenn也是自己的首选后，要求Claude Duet从人力资源文件夹中提取薪酬方案，并起草录用邮件。Claude Duet随即生成邮件草稿，附上Jenn的薪酬方案PDF，交由用户确认发送。</p>
+<p><img class="size-full wp-image-603357" src="https://oss.zhidx.com/5edbb1e6a63c8a8aa28879015fc42f1e/6ada3300/uploads/2026/10/6ad943bca8632_6ad943bca5075_6ad943bca502c_ec1678007a79ce82c9548bc60c400f95.jpg" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="557" /></p>
+<h2><strong>二、接入超6000个工具，人离开后也能继续干活</strong></h2>
+<p><span style="color: #0f59a4;"><strong>Claude Duet可以继承用户现有Claude账户中的记忆、技能及已连接的应用，降低初次配置成本</strong></span>。</p>
+<p>交互方式上，Claude Duet支持<span style="color: #0f59a4;"><strong>文字和语音输入</strong></span>。用户可以在同一条持续进行的对话中安排任务、查看进展，并随时补充新的要求。</p>
+<p>与需要用户保持设备在线的传统自动化工具不同，<span style="color: #0f59a4;"><strong>Claude Duet拥有自己的虚拟机和浏览器</strong></span>。用户交代任务后，它能够自行判断需要调用哪些应用、执行哪些操作，并在后台持续运行。即使用户离开电脑或关闭手机，任务也不会因此中断。任务完成或需要用户审阅时，Claude Duet会发送通知。</p>
+<p>不过，它目前还无法向用户展示自己的浏览器操作过程。</p>
+<p><span style="color: #0f59a4;"><strong>在工具连接方面，Claude Duet可以利用Claude Marketplace中的超过6000个连接器和插件，接入企业日常使用的软件服务</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603356" src="https://oss.zhidx.com/ef32ab68a63fb031d9fb448d3d45c898/6ada3300/uploads/2026/10/6ad943b4e4f18_6ad943b4e21df_6ad943b4e219a_fd9962f021edf26c12b1d33ef8363c6f.png" alt="刚刚，Claude个人智能体空降！主动找你汇报，突袭Muse和Dot" width="1000" height="562" /></p>
+<p>例如，它可以从Gmail和Slack中查找遗漏的重要消息并起草回复；通过QuickBooks或Stripe检查未支付的发票并准备催款提醒；在Gusto中填写工时、奖金及报销信息，准备薪资发放。</p>
+<p>在招聘与销售业务中，它还能起草招聘信息，待用户审核后发布至领英；利用HubSpot中的客户联系记录及交易历史撰写跟进邮件；通过Docusign准备协议并发送签署；利用Canva将产品发布计划制作成社交媒体营销活动。</p>
+<p>对于经营网店的商家，Claude Duet还能够连接Shopify，协助设计和管理店铺。Anthropic称，未来还将推出更完善的可视化编辑器，允许用户在店铺正式上线前预览设计效果。</p>
+<p>在支付环节，Claude Duet支持通过Stripe的数字钱包Link购买企业所需商品。用户确认商品后，Link会再次请求支付授权，并使用虚拟卡完成付款，避免向商家直接提供真实银行卡号。</p>
+<p>它还支持通过Shopify的Shop Pay完成线上购物结算。未来，Anthropic计划让Claude Duet在获得用户授权后，使用保存在1Password中的登录信息访问网站。</p>
+<h2><strong>三、付款、发邮件必须经过批准，后台检查也消耗额度</strong></h2>
+<p>由于Claude Duet需要连接邮件、银行及其他企业应用，Anthropic在产品介绍中专门强调了安全。</p>
+<p>首先，在账户凭证方面，Claude Duet沿用了Claude Managed Agents的相关设计，<span style="color: #0f59a4;"><strong>不</strong></span><strong style="color: #0f59a4;">会直接接触用户的密码或登录令牌。</strong></p>
+<p>其次，Claude Duet能够自主读取信息、起草文件和准备操作，但涉及向外发送消息、付款、签署文件或删除内容时，必须先向用户展示即将执行的操作，并<span style="color: #0f59a4;"><strong>等待确认</strong></span>。</p>
+<p>部分操作即使获得用户批准，也不会执行，例如证券交易或账户之间的资金转移。</p>
+<p>针对敏感信息泄露问题，<span style="color: #0f59a4;"><strong>Anthropic还为Claude Duet配备了新的专用分类器和安全系统提示词，用于检查消息内容并阻止敏感信息外传</strong></span>。</p>
+<p>对于信用卡号码、政府签发的身份识别号码等最高敏感级别的信息，系统会拒绝相关分享请求。对于健康、个人财务等其他敏感信息，只有用户明确指示发送时才允许传递。</p>
+<p>Anthropic称，Claude Duet的安全基础设施已经接受内部红队和外部安全公司的渗透测试，并纳入公开漏洞悬赏计划。</p>
+<p><span style="color: #0f59a4;"><strong>在主动通知机制方面，Claude Duet并不会不间断监控所有连接的账户</strong></span>。</p>
+<p>它目前每隔几个小时检查一次连接的应用，主要原因是持续检查会更快耗尽用户的套餐额度。用户也可以自行设置希望收到哪些通知以及通知频率。Claude Duet的主动性和后台执行能力都存在使用成本。</p>
+<p>目前，Claude Duet与Claude主产品共享Pro和Max套餐的使用额度。后台定期检查会消耗额度，制作财务模型、演示文稿等复杂任务则会调用更多轮模型推理，产生更高消耗。</p>
+<p>Anthropic也明确承认，Claude Duet仍处于早期阶段，可能误解对话内容，或者错误判断事项的紧急程度。</p>
+<p><span style="color: #0f59a4;"><strong>由于当前产品主要围绕工作场景设计，其订票等个人生活事务处理能力仍不够成熟。</strong></span></p>
+<p>此次预览版仅面向美国Pro和Max用户开放候补申请，用户需要等待官方邮件通知后才能获得使用资格。Claude Duet目前以独立应用形式提供，尚未整合进Claude主应用。</p>
+<h2><strong>结语：个人AI智能体竞争继续升温</strong></h2>
+<p>Claude Duet加入后，个人AI智能体赛道又多了一个新产品。</p>
+<p>9月8日，Meta推出由超级智能实验室研发的个人AI智能体Muse；9月30日，OpenAI推出全天候个人智能体Dots；10月21日，Anthropic正式公布Claude Duet。</p>
+<p>几款产品都将主动提供服务作为重要方向，希望AI能够利用用户已有的信息和工具，提前发现需要处理的事务，并在获得授权后执行操作。</p>
+<p>随着Meta、OpenAI和Anthropic相继入场，个人AI智能体的竞争正在延伸至应用连接、持续执行、主动判断以及操作权限管理等多个方面。谁能让AI真正可靠地承担日常事务，仍有待观察。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603353.html</link>
+<pubDate>Thu, 22 Oct 2026 07:04:32 +0800</pubDate>
+<source>智东西</source>
+<author>江 宇</author>
+</item>
+<item><title><![CDATA[腾讯内部的“AI搜索配方”，公开了！]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/c4622d060571092b7736313b1b892f14/6ada3300/uploads/2026/10/6ad866df64f8d_6ad866df620ec_6ad866df620af_%E6%99%BA%E4%B8%9C%E8%A5%BF%E5%A4%B4%E5%9B%BE%E6%A8%A1%E6%9D%BF.png"><strong>智东西<br />
+</strong><strong>作者 |  毕伟豪</strong><br />
+<strong> 编辑｜漠影</strong></p>
+<p>把一个<span style="color: #0f59a4;"><strong>AI时代很常见的问题</strong></span>输进搜索框——查查腾讯最近的股价、产品和成员变动。这是谷歌的非AI搜索结果：</p>
+<p><img class="alignnone size-full wp-image-603137" src="https://oss.zhidx.com/e7086a38a422e9c3b910278eefe3760b/6ada3300/uploads/2026/10/6ad87178a10c3_6ad871789e105_6ad871789e0c7_1.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1269" height="782" /></p>
+<p>▲谷歌搜索结果</p>
+<p>在谷歌的传统搜索中，用户得到的是一系列网页链接；而在元宝搜索中，同样的问题呈现出的结果却大不相同。</p>
+<p><img class="alignnone size-full wp-image-603138" src="https://oss.zhidx.com/bd94e0be2af0d1455cb95cec81bcd691/6ada3300/uploads/2026/10/6ad87179c5821_6ad87179c26f6_6ad87179c26b0_2.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1580" height="1170" /></p>
+<p>▲接入元宝搜索的WorkBuddy</p>
+<p>两种搜索结果的差别，恰好折射出搜索正在经历的变化。</p>
+<p>过去，搜索引擎返回网页链接，用户需要自己筛选、比对和整理信息，进入AI时代，搜索则开始直接<span style="color: #0f59a4;"><strong>整合多方资料、生成答案</strong></span>。</p>
+<p>AI时代对于搜索的更高要求，刚好对应着大模型落地的两大痛点——<span style="color: #0f59a4;"><strong>幻觉和知识滞后</strong></span>，即模型能力再强，也可能产生幻觉，或者因知识更新不及时而给出过时信息。</p>
+<p>而当能够调用工具、执行任务的Agent成为焦点，检索中的错误或过时信息，可能会沿着后续工具调用传递下去，<span style="color: #0f59a4;"><strong>影响整个任务的判断与执行</strong></span>。</p>
+<p>搜索因此不只要找得全、更新及时，还要尽可能准确，并将信息整理成<span style="color: #0f59a4;"><strong>Agent能够直接使用的结果</strong></span>。</p>
+<p>对于这种根源性问题，<span style="color: #0f59a4;"><strong>RAG（检索增强生成）</strong></span>是缓解知识滞后、提升回答可靠性的重要技术路径之一。</p>
+<p>但开发者以及企业想要自建RAG，需要建立与长期维护信源采集、数据清洗、索引构建等多个环节，这也意味着<span style="color: #0f59a4;"><strong>高昂的成本</strong></span>，而现成搜索API的价值正是降低接入和运维门槛。</p>
+<p>10月20日，腾讯升级元宝搜索，并通过腾讯云向个人开发者和企业提供API服务。</p>
+<p>过去一年，元宝搜索持续进行优化，整合全网公开资源和腾讯优质内容，构建了千亿级的索引规模，并经过了WorkBuddy、ima等腾讯内部应用的锤炼。</p>
+<p>此次升级的意义，不只是发布一项搜索能力，更在于腾讯将<span style="color: #0f59a4;"><strong>经过内部业务打磨和规模化验证的搜索基础设施</strong></span>，开放给全行业，成为外部开发者可以直接调用的通用服务。</p>
+<p>这也让腾讯在自有AI应用中积累的工程经验与技术能力，有机会进一步转化为AI行业的基础设施。</p>
+<h2><strong>一、实测WorkBuddy、ima都在用的搜索能力，到底好不好？</strong></h2>
+<p>对开发者来说，给Agent增加搜索能力有两种选择：自己搭建检索链路，可以更灵活地控制搜索逻辑，但也需要<span style="color: #0f59a4;"><strong>持续投入研发、信源维护和运维</strong></span>；接入现成的搜索服务，则能减少这部分工程投入，<span style="color: #0f59a4;"><strong>搜索质量与服务稳定性也更依赖服务提供方</strong></span>。</p>
+<p>此次升级后，元宝搜索提供Skill、MCP和API三种接入方式，并推出<span style="color: #0f59a4;"><strong>限时免费额度</strong></span>：每月2000次，10月、11月通过邀请码每月最高可享受6000次调用，开发者可以先接入测试，再决定是否用于实际业务。</p>
+<p><img class="alignnone size-full wp-image-603139" src="https://oss.zhidx.com/a8dbff9207fa34c030086b6f8b1d0597/6ada3300/uploads/2026/10/6ad8717b4c0ad_6ad8717b4900d_6ad8717b48fd4_3.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1786" height="572" /></p>
+<p>▲元宝搜索的免费额度</p>
+<p>智东西通过API对元宝搜索进行了实测。接入流程不复杂，首先，在腾讯云获取API Key，随后打开终端，输入一条curl命令，就能发起搜索请求：</p>
+<blockquote><p>curl -sS -X POST https://api.wsa.cloud.tencent.com/SearchPro \<br />
+-H &#8220;Content-Type: application/json; charset=utf-8&#8221; \<br />
+-H &#8220;Authorization: Bearer 秘钥&#8221; \<br />
+-d &#8216;{&#8220;Query&#8221;:&#8221;今日AI新闻&#8221;}&#8217;</p></blockquote>
+<p>将代码中的“秘钥”替换为实际获取的API Key，执行后即可向元宝搜索提交查询，并在终端查看返回结果。</p>
+<p><img class="alignnone size-full wp-image-603140" src="https://oss.zhidx.com/fe6cd085531029c69b0aba96605e8e21/6ada3300/uploads/2026/10/6ad8717f38874_6ad8717f35b73_6ad8717f35b41_4.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1542" height="1056" /></p>
+<p>▲终端的原始返回结果</p>
+<p>完成API调用后，我们又将接口<span style="color: #0f59a4;"><strong>封装成Skill接入DeepSeek Harness</strong></span>，让Agent能够根据任务需要自主调用搜索。这样，搜索能力就从一次手动请求，变成了Agent工作流中可以随时调用的一环。</p>
+<p><img class="alignnone size-full wp-image-603141" src="https://oss.zhidx.com/e22652008126ac82d4060aeec22b4f7c/6ada3300/uploads/2026/10/6ad8718167da3_6ad8718164d15_6ad8718164ce7_5.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1152" height="550" /></p>
+<p>▲元宝搜索接入DeepSeek Harness的Skiil文件</p>
+<p>接入完成后，我们测试了一下基本的新闻检索，比如输入提示词，用元宝搜索查一下今天的社会新闻，可以看到元宝仅用时17秒就返回了结果。</p>
+<p><img class="alignnone size-full wp-image-603142" src="https://oss.zhidx.com/df8c0e0951ad8e89231364340b6099ba/6ada3300/uploads/2026/10/6ad871828f4c0_6ad871828c1b9_6ad871828c173_6.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1478" height="1204" /></p>
+<p>普通网页搜索结果以标题、摘要和链接为核心，接下来，Agent还可以<span style="color: #0f59a4;"><strong>结合网页抓取工具读取相关内容</strong></span>，进一步完成信息整理。</p>
+<p><img class="alignnone size-full wp-image-603143" src="https://oss.zhidx.com/a77fcfbc45e90be2de21633cf27f3040/6ada3300/uploads/2026/10/6ad87184965bb_6ad87184931e9_6ad87184931b8_7.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1606" height="334" /></p>
+<p>元宝搜索返回的不只有以标题、摘要和链接为核心的网页结果，还有一类<span style="color: #0f59a4;"><strong>垂类信源</strong></span>，面向天气、股价、金价等场景<span style="color: #0f59a4;"><strong>提供结构化数据</strong></span>。</p>
+<p>比如查询“北京今日天气”，就会返回一个结构化的VR卡片，能够很清晰地反映信息。</p>
+<p><img class="alignnone size-full wp-image-603144" src="https://oss.zhidx.com/31221d0727027dacc1f343bf822ab285/6ada3300/uploads/2026/10/6ad87185a0641_6ad871859d25d_6ad871859d22b_8.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1712" height="872" /></p>
+<p>我们还尝试了搜索腾讯股价，也同样命中了垂类信源，元宝搜索的返还结果中包含股价卡片，数据来自腾讯自选股。</p>
+<p><img class="alignnone size-full wp-image-603145" src="https://oss.zhidx.com/950fb50b371571465e6294cce8d4aacb/6ada3300/uploads/2026/10/6ad8718709e93_6ad8718706e8e_6ad8718706e51_9.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="2118" height="946" /></p>
+<p>这意味着，面对有明确数据结构的任务，Agent不必总是先打开网页、抓取正文，再提取所需字段，可以<span style="color: #0f59a4;"><strong>直接处理搜索接口返回的数据</strong></span>。</p>
+<p>对于需要连续调用工具、整理信息并执行下一步操作的Agent来说，少一次抓取和解析，能够提高不少效率。</p>
+<p><img class="alignnone size-full wp-image-603146" src="https://oss.zhidx.com/fc7848d6742630216aa49cbe88d1ee52/6ada3300/uploads/2026/10/6ad871889a984_6ad871889745e_6ad871889741a_10.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1672" height="1160" /></p>
+<p>随后，我们选取了<span style="color: #0f59a4;"><strong>政策查询、学术研究和开发者资源整理</strong></span>等任务，并结合DeepSeek Harness中的抓取工具，进一步测试元宝搜索在实际场景中的表现。</p>
+<p>我们首先测试了政策信息检索，输入“用元宝搜索查询今年的人工智能相关政策信息”。约42秒后，Agent便整理出了一份政策信息清单，按照时间、文件名称、发布主体和关键内容制成表格，并进一步归纳出几条政策主线。</p>
+<p><img class="alignnone size-full wp-image-603147" src="https://oss.zhidx.com/7c7b255a44882903e006d1cce6322fb4/6ada3300/uploads/2026/10/6ad87189e8785_6ad87189e5413_6ad87189e53e0_11.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="2170" height="1282" /></p>
+<p>从结果来看，信息主要来自工信部、商务部等权威机构网站，既方便快速了解政策动态，也为后续查找原文、核对具体条款提供了清晰入口。</p>
+<p>学术研究是另一个适合搜索与Agent协作的场景。我们以近期受到关注的递归自我改进（RSI）为主题，调用元宝搜索去查找近半年相关论文，并整理研究进展。约2分半钟后，系统便返回了相关资料。</p>
+<p><img class="alignnone size-full wp-image-603148" src="https://oss.zhidx.com/dee0cb791d646e51c518b320b42a1511/6ada3300/uploads/2026/10/6ad8718bc3f81_6ad8718bc12ef_6ad8718bc12ad_12.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1732" height="1212" /></p>
+<p>在此基础上，我们进一步结合arXiv API获取论文信息、交叉核对文献，生成一份RSI综述。两者配合，让Agent能够把搜索结果继续转化为更系统的研究材料。</p>
+<p><img class="alignnone size-full wp-image-603149" src="https://oss.zhidx.com/8fa7b332f2de090fac4ee6004ff16b54/6ada3300/uploads/2026/10/6ad8718dc88ed_6ad8718dc5772_6ad8718dc573a_13.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1582" height="1432" /></p>
+<p>开发者资源整理也能够反映元宝搜索的能力，我们让DeepSeek Harness调用元宝搜索查找Python入门学习资源，它最终整理出67项内容，从环境配置、基础语法到练习和项目实践逐步展开，并区分官方文档与社区教程，形成了一份结构清晰的学习清单。</p>
+<p><img class="alignnone size-full wp-image-603150" src="https://oss.zhidx.com/d57a2818c3fd7012f7647eb7ec506245/6ada3300/uploads/2026/10/6ad871900b421_6ad8719008447_6ad8719008405_14.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1932" height="1454" /></p>
+<p>这类任务的价值不只在于找到网页，对于开发者而言，搜索服务提供信息入口，<span style="color: #0f59a4;"><strong>Agent则负责把信息组织成更贴近实际需求的成果</strong></span>。</p>
+<p>最后，我们进一步提高了任务复杂度，让DeepSeek Harness调用元宝搜索梳理腾讯近期的产品动态、人员变化、官方技术信息和关键业务数据，并生成一份带有来源链接的资料清单。</p>
+<p><img class="alignnone size-full wp-image-603151" src="https://oss.zhidx.com/bef8aef529f68f004fda45d2b6197c88/6ada3300/uploads/2026/10/6ad871949a477_6ad8719496df5_6ad8719496dc6_15.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1958" height="1534" /></p>
+<p>最终输出接近300行，分成四个部分，包含日期、事件摘要和来源链接，部分财务信息还细化到了季度营收、资本开支等指标。系统也对部分来源进行了分级，并对缺乏官方确认的信息作出了提示。</p>
+<p>从单次新闻检索，到政策信息汇总、学术资料整理，再到企业专题调研，这几组测试呈现出一条比较清晰的路径：</p>
+<p>元宝搜索负责帮助Agent<span style="color: #0f59a4;"><strong>发现和获取外部信息</strong></span>，Agent再根据任务要求，将这些信息<span style="color: #0f59a4;"><strong>整理成表格、学习清单或专题资料</strong></span>。</p>
+<p>需要说明的是，前文提到的任务完成时间，是<span style="color: #0f59a4;"><strong>Agent执行任务的整体耗</strong><strong>时</strong></span>，并非搜索接口本身的响应时间，包含模型整理结果、后续网页抓取等处理环节。</p>
+<p>在我们通过VS Code进行测试的过程中，连续调用5次，API单次调用耗时为345—485毫秒，<span style="color: #0f59a4;"><strong>平均耗时仅为约0.42秒</strong></span>，速度是相当快的，体感上几乎是发出指令后秒回。</p>
+<p><img class="alignnone size-full wp-image-603152" src="https://oss.zhidx.com/3accbca5dce56073267b4438b4b732f9/6ada3300/uploads/2026/10/6ad87196921ce_6ad871968f1bd_6ad871968f18c_16.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="1576" height="652" /></p>
+<h2><strong> 二、从内部打样到全面开放：元宝搜索的能力外溢</strong></h2>
+<p>在对外提供服务之前，<span style="color: #0f59a4;"><strong>元宝搜索已经应用于腾讯内部多个产品</strong></span>：</p>
+<p>WorkBuddy需要搜索外部信息，支撑调研、分析等办公任务；ima需要将互联网信息与用户已有的知识结合；腾讯视频和腾讯金融科技，则分别涉及内容检索和专业领域的信息查询。</p>
+<p><img class="alignnone size-full wp-image-603153" src="https://oss.zhidx.com/d6bee0be6b7dc266457619af30b8e83b/6ada3300/uploads/2026/10/6ad87198a67d8_6ad87198a389c_6ad87198a3868_17.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="2494" height="1592" /></p>
+<p>▲WorkBuddy企业版中的元宝搜索技能</p>
+<p>在WorkBuddy中，元宝搜索能帮助智能体更准确地理解搜索意图，在技术文档、官方API等场景中更快找到所需资料，减少不必要的工具调用和模型轮次。</p>
+<p>WorkBuddy团队反馈，以前做调研，需要先搜集大量网页，再逐一判断信息是否可信，接入元宝搜索后，<span style="color: #0f59a4;"><strong>权威信息可以直接进入工作流，结论也能追溯出处</strong></span>。</p>
+<p>团队也因此无需再自行维护信源和抓取链路，能<span style="color: #0f59a4;"><strong>将更多精力投入智能体的任务规划与交付</strong></span>。</p>
+<p>根据腾讯披露的数据，<span style="color: #0f59a4;"><strong>元宝搜索日均调用量已达数亿次</strong></span>，支撑WorkBuddy、ima、腾讯金融科技、腾讯视频等50多个核心业务。</p>
+<p>腾讯云副总裁、腾讯元宝搜索研发负责人马晋在接收智东西等媒体采访时提到，在WorkBuddy中，接入元宝搜索后任务的<span style="color: #0f59a4;"><strong>平均搜索调用次数从8次左右降低到5次左右</strong></span>，元宝搜索内部评测的搜索满意度，也较升级前<span style="color: #0f59a4;"><strong>提升了10%—20%</strong></span>。最快版本的接口响应时间从原来的400—500ms优化到了<span style="color: #0f59a4;"><strong>300ms以内</strong></span>。</p>
+<p>这些内部应用，为搜索能力提供了不同业务场景下的使用经验。但内部产品验证与对外提供标准化服务，并不是同一件事。</p>
+<p>在内部，搜索可以围绕既定的模型、数据和业务流程进行适配；面向外部开发者，则需要考虑<span style="color: #0f59a4;"><strong>不同模型、Agent框架和应用场景的兼容</strong></span>性，还要让开发者能够独立调用、灵活组合，并承担稳定的服务质量。</p>
+<p>这也是元宝搜索此次升级的重点之一。通过Skill、MCP和API，腾讯将搜索能力封装为不同的接入方式，供开发者按需使用。</p>
+<p>开发团队不必从头搭建完整的搜索基础设施，可以<span style="color: #0f59a4;"><strong>把更多精力放在具体应用和任务流程上</strong></span>。</p>
+<p>从内部业务到外部开发者，腾讯正在尝试把搜索从自有产品中的一项能力，进一步变成可以被不同AI应用复用的服务。</p>
+<h2><strong>三、模型自带VS独立搜索API，谁是未来？</strong></h2>
+<p>随着大模型开始联网获取信息，搜索正在成为模型和Agent的重要组成部分。不过，各家厂商并没有采用完全相同的产品路线。</p>
+<p>以OpenAI和谷歌为例，两家都将搜索整合进模型API：OpenAI通过Web Search工具联网检索，谷歌则通过Google Search grounding调用搜索，并将检索结果、来源信息用于生成回答。</p>
+<p>需要注意的是，这类“模型内置搜索”并不意味着模型权重本身具备了搜索能力，而是平台<span style="color: #0f59a4;"><strong>将检索、结果处理与回答生成衔接起来</strong></span>。</p>
+<p>另一条路径是将搜索作为独立服务开放，开发者可以单独调用搜索能力，再根据业务需求选择模型，并将检索结果接入Agent工作流。</p>
+<p>两种路径的区别在于：前者将搜索与模型调用整合，减少开发者自行编排的工作；后者则将搜索能力独立出来，<span style="color: #0f59a4;"><strong>给开发者更多模型选择和流程控制空间</strong></span>。</p>
+<p>因此，对元宝搜索这样的独立搜索API而言，竞争关键已不只是能否搜到信息，还包括<span style="color: #0f59a4;"><strong>信源质量、响应速度、调用成本</strong></span>，以及<span style="color: #0f59a4;"><strong>能否稳定支撑Agent的多步检索与任务执行</strong></span>。</p>
+<p>从这个角度看，元宝搜索此次升级，不能只看它提供了多少种接入方式，还要看其搜索能力能否在不同业务场景下持续提供有用的信息。</p>
+<p>根据腾讯披露的信息，元宝搜索已构建千亿级索引，<span style="color: #0f59a4;"><strong>覆盖金融、政务、医疗等13个垂直行业，并接入157个权威信源</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603154" src="https://oss.zhidx.com/19a2e83b5dbc324bda649ab7b498692e/6ada3300/uploads/2026/10/6ad8719a96af8_6ad8719a93cf5_6ad8719a93cc1_18.png" alt="腾讯内部的“AI搜索配方”，公开了！" width="908" height="634" /></p>
+<p>在检索技术层面，腾讯介绍，其采用<span style="color: #0f59a4;"><strong>自研磁盘向量索引并与倒排索引融合</strong></span>，相关优化使召回率从不足80%提升至93%以上，机器数量则从3200台降至400台。</p>
+<p>在找到信息之后，系统还需要判断哪些内容更值得呈现。元宝搜索通过大模型<span style="color: #0f59a4;"><strong>重构排序链路</strong></span>，并使用<span style="color: #0f59a4;"><strong>Gist Token压缩技术</strong></span>，优化推理延迟与成本，试图兼顾结果质量和服务效率。</p>
+<p>信源治理方面，马晋在采访中提到，元宝搜索会<span style="color: #0f59a4;"><strong>从站点、账号、页面三个层级评估内容质量</strong></span>，并结合真实性、内容丰富度、专业度等因素判断信源价值。针对不同问题，也会调整权威性和时效性的权重。</p>
+<p>对于AI生成的低质内容，马晋直言团队会通过模型识别单篇内容，并“拉黑”频繁发布此类内容的网站或账号。</p>
+<p>这些技术指标说明了腾讯在检索、排序和内容治理上的投入，但还不能直接等同于最终答案的准确率。对于开发者而言，更重要的是这些能力在实际任务中能否持续转化为可靠的搜索结果，以及稳定、可控的调用体验。</p>
+<p>马晋在与智东西等媒体沟通的过程中，提到了一个很有意思的观点：<span style="color: #0f59a4;"><strong>让搜索能力</strong><strong>，</strong><strong>成为AI行业的水电煤</strong></span>。</p>
+<p>这背后，是腾讯对Agent基础设施市场的判断。随着AI应用从回答问题走向执行任务，开发者对实时信息、可靠信源和稳定检索能力的需求也在增加。</p>
+<p>腾讯希望通过独立的AI搜索服务，将内部积累的搜索能力封装成开箱即用的云服务，让开发者和企业无需从头搭建检索链路，也能<span style="color: #0f59a4;"><strong>以更低的接入成本、更快地为自己的AI应用补上搜索能力</strong></span>。</p>
+<h2><strong>结语：腾讯B端Agent市场，再落一子</strong></h2>
+<p>如果说大模型决定了AI的能力上限，那么搜索、数据获取和工具调用等基础设施，则决定了这些能力能否真正进入业务、完成任务。</p>
+<p>随着Agent从回答问题走向复杂任务执行，AI产业的竞争也在从模型能力向更完整的基础设施与开发者生态延伸。</p>
+<p>对云厂商而言，<span style="color: #0f59a4;"><strong>谁能为开发者提供可靠的信息来源、便捷的工具接入和稳定的服务支撑</strong></span>，谁就更有机会成为Agent应用落地的重要底座。</p>
+<p>腾讯此次开放元宝搜索，也是在模型之外，进一步争夺Agent时代的基础服务入口。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603034.html</link>
+<pubDate>Wed, 21 Oct 2026 20:30:15 +0800</pubDate>
+<source>智东西</source>
+<author>毕 伟豪</author>
+</item>
+<item><title><![CDATA[跟微软抢客户，AI办公独角兽融资16亿，英伟达投了]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/a9d7f16332b9980c7d501e236e2d8695/6ada3300/uploads/2026/10/6ad842bdd2452_6ad842bdcf782_6ad842bdcf74c_GettyImages-2183848501-%E6%8B%B7%E8%B4%9D.jpg"><strong>智东西</strong><br />
+<strong>编译 | 程茜</strong><br />
+<strong>编辑 | 心缘</strong></p>
+<p class="p2">智东西10月21日消息，今日凌晨，据彭博社报道，法国AI办公工具独角兽Pigment已完成一轮<strong><span style="color: #0f59a4;">2.5亿美元（约合人民币16.7亿元）</span></strong>融资，估值达到<span style="color: #0f59a4;"><strong>23亿美元（约合人民币153.61亿元）</strong></span>。该公司计划争夺目前正在使用微软、甲骨文、IBM等厂商AI办公产品的企业客户。</p>
+<p class="p2">本轮融资由欧洲基金Scaleup Europe Fund领投，<strong><span style="color: #0f59a4;">英伟达</span></strong>以及World Innovation Lab、Iconiq、IVP、Meritech Capital等机构参投。</p>
+<p class="p2">Pigment联合创始人兼CEO埃莱奥诺尔·克雷斯波（Eléonore Crespo）告诉彭博社，该公司计划在本轮融资中引入亚洲投资者，以支持其亚洲市场扩张计划。</p>
+<p>该公司成立于2019年，核心业务是开发AI办公软件，帮助员工进行财务预测、PPT制作、规划运营等。根据官方消息，该公司此前共完成5轮融资，累计融资额达达<strong><span style="color: #0f59a4;">3.97亿美元（约合人民币26.51亿元）</span></strong>。其于2024年4月获得1.45亿欧元（约合人民币10.87亿元）融资，跻身独角兽。</p>
+<p><img class="alignnone wp-image-602900 size-full" src="https://oss.zhidx.com/b58f444514eaaf5d8e0420faea736c51/6ada3300/uploads/2026/10/6ad843c791265_6ad843c788497_6ad843c78845e_ScreenShot_2026-10-21_124641_400.png" alt="跟微软抢客户，AI办公独角兽融资16亿，英伟达投了" width="1730" height="522" /></p>
+<p>▲Pigment此前融资情况（图源：Pigment）</p>
+<p class="p2">其年度经常性收入（ARR）已突破<strong><span style="color: #0f59a4;">1亿美元（约合人民币6.7亿元）</span></strong>，较去年实现翻番。克雷斯波称，其预计明年收入将再度翻倍。其客户包括<strong><span style="color: #0f59a4;">谷歌、Anthropic、Uber、西门子</span></strong>等不同赛道的头部企业。</p>
+<p class="p2">克雷斯波称，他们正在希望拿下新的客户，这些客户目前在用SAP、甲骨文、IBM、安普兰、微软等企业的AI办公产品。她认为，面向企业员工的AI工具，易用性还需要大幅提升。</p>
+<p class="p2">上周，英伟达创始人、CEO黄仁勋在欧洲行巴黎站的一个招待酒会上就剧透了这一消息。10月14日，据法国《回声报》报道，黄仁勋称英伟达将投资四家法国公司：法国医疗服务平台Doctolib、Pigment、机器人创企Genesis AI、AI材料科学创企Entalpic，当时并未公开具体投资金额。</p>
+<p class="p2">克雷斯波于2010年硕士毕业于巴黎高等矿业学院。在创办Pigment前，她曾在谷歌担任财务分析师、在Index Ventures担任投资人，主导对多家欧洲独角兽企业的投资。她认为，面向企业员工的AI工具必须完全为员工量身打造且交互快捷、方便，并能预先接入所有数据、系统，这也是Pigment和其他工具的差异化所在。</p>
+<p>另一位联合创始人为罗曼·尼科利（Romain Niccoli）。在创办Pigment前，他是法国广告科技公司Criteo的联合创始人兼CTO，该公司于2013年上市。</p>
+<p><img class="alignnone wp-image-602898 size-full" src="https://oss.zhidx.com/bbed1671a4bf527f411fe37ad9ad34a3/6ada3300/uploads/2026/10/6ad841a5adebc_6ad841a5aaebe_6ad841a5aae82_ScreenShot_2026-10-21_123746_525.png" alt="跟微软抢客户，AI办公独角兽融资16亿，英伟达投了" width="1018" height="916" /></p>
+<p class="p1">▲从左至右：克雷斯波、尼科利（图源：Pigment）</p>
+<p class="p2">因此，Pigment为企业打造的业务规划AI平台，就可以将企业的财务、人力和销售数据集中起来，让员工无需在不同平台间拼接、手动汇总数据等。其已经打造了分析师智能体、建模智能体、规划智能体等。企业员工上传指令、自有知识还可以生成自定义智能体。</p>
+<p><img class="alignnone wp-image-602897 size-full" src="https://oss.zhidx.com/64f6bb573eb7f26e1acfcad7a41ea5cd/6ada3300/uploads/2026/10/6ad840c22c28f_6ad840c229630_6ad840c2295e5_ScreenShot_2026-10-21_123149_935.png" alt="跟微软抢客户，AI办公独角兽融资16亿，英伟达投了" width="1712" height="1242" /></p>
+<p class="p2">彭博社称，Pigment接下来的目标是开发能<strong><span style="color: #0f59a4;">部署在企业现有企业资源规划软件之上的智能体</span></strong>，这类软件涵盖会计、人力资源等相关工作。</p>
+<p class="p2">目前，欧莱雅正基于Pigment推出AI薪酬规划工具，供其9.5万名员工使用。</p>
+<h2 class="p2"><strong>结语：做企业AI工具需绑定企业数据，浅层套壳难以从大厂手里抢客户</strong></h2>
+<p class="p2">彭博社称，Pigment的增长，反映出欧洲整体的AI发展思路。欧洲本土几乎没有前沿大模型厂商，但正在形成一个持续壮大的企业AI应用生态，面向法律、金融等各行各业提供可付费落地的AI产品。</p>
+<p class="p2">在底层大模型能力调用门槛持续走低的当下，企业AI应用是将模型能力转化为真实业务价值的关键一环，这或许将成为欧洲在AI赛道差异化突围的支持。</p>
+<p class="p2">不过，这一赛道的挑战也不小，如果面向企业的AI应用功能没有差异化，只做套壳、简单问答等基本功能，很难从微软、SAP等企业中抢到客户。因此，面向企业的AI工具需要进一步绑定企业的核心业务，拿到持续沉淀的业务数据，才能提供工具的易用性。</p>
+<p>来源：彭博社、Pigment</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/602892.html</link>
+<pubDate>Wed, 21 Oct 2026 20:03:09 +0800</pubDate>
+<source>智东西</source>
+<author>程茜</author>
+</item>
+<item><title><![CDATA[谷歌联手Meta奇袭英伟达，开源TorchTPU，给PyTorch代码搬家]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/cf44369ce3718a6e5f981b58bf149713/6ada3300/uploads/2026/10/6ad85984e4036_6ad85984e0dda_6ad85984e0d9f_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-21-1418451.png"><b>智东西（公众号：</b><b>zhidxcom</b><b>）<br />
+</b><strong>编译 |<span class="Apple-converted-space">  </span>杨京丽</strong><br />
+<strong>编辑 |<span class="Apple-converted-space">  李水青</span></strong></p>
+<p>智东西10月21日消息，今日，谷歌宣布<span style="color: #0f59a4"><strong>开源TorchTPU</strong></span>，这是谷歌和Meta PyTorch团队共同开发的<span style="color: #0f59a4"><strong>原生TPU软件栈</strong></span>，开发者可以用较少代码改动，将现有PyTorch模型部署到谷歌TPU上。</p>
+<p><img class="alignnone wp-image-602949" src="https://oss.zhidx.com/a37df764db564b56dd0acee62a55bf5a/6ada3300/uploads/2026/10/6ad853ecb1461_6ad853ecae621_6ad853ecae5f1_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-21-135436.png" alt="谷歌联手Meta奇袭英伟达，开源TorchTPU，给PyTorch代码搬家" width="1000" height="478" /></p>
+<p>据TechCrunch报道，目前多数AI应用运行在英伟达GPU上，谷歌此次开源，或许<span style="color: #0f59a4"><strong>试图打破<span class="qnt-link"><span class="qnt-link-text">英伟达</span></span><i class="iQ0nfn0xOJ_NHhXB4aoZ"></i>在AI产业的主导地位</strong></span>。</p>
+<p>PyTorch是用于开发和训练AI模型的开源深度学习框架，由Facebook AI Research（现Meta AI）团队于2016年启动开发，并于2017年正式开源发布。如今，PyTorch已成为全球AI研究和应用开发中使用最广泛的框架之一，覆盖大语言模型、计算机视觉和生成式AI等领域。</p>
+<p>围绕TorchTPU，谷歌还将TPU接入vLLM、SGLang、llm-d、TorchTitan、VeRL、Ray、Hugging Face和LiteRT等工具，覆盖<span style="color: #0f59a4"><strong>大模型训练、推理、强化学习、集群调度以及端侧部署</strong></span>等场景。</p>
+<p>谷歌称，基于TorchTPU的训练方案已在最多<span style="color: #0f59a4"><strong>8000颗Ironwood TPU上完成验证</strong></span>，在Qwen3-8B训练测试中实现最高<span style="color: #0f59a4"><strong>52%</strong></span>的模型浮点运算利用率；在推理侧，印度AI模型公司Zenteiq.ai使用相关方案后，整体推理吞吐量<span style="color: #0f59a4"><strong>提升超过4倍</strong></span>。</p>
+<p>对于开发者而言，已有的PyTorch模型可以更容易迁移到TPU，常用的训练、推理和任务调度工具也能继续使用。开发者还可以根据模型规模、运行速度和成本，在TPU、GPU和CPU之间灵活选择。</p>
+<p><img class="alignnone wp-image-602950" src="https://oss.zhidx.com/97e355bae9eb6e37257daf1f5cf9b328/6ada3300/uploads/2026/10/6ad853eead020_6ad853eea9de1_6ad853eea9dac_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-21-103508.png" alt="谷歌联手Meta奇袭英伟达，开源TorchTPU，给PyTorch代码搬家" width="1000" height="484" /></p>
+<p><span style="color: #0f59a4">开源地址：</span></p>
+<p><span style="color: #0f59a4">https://github.com/google-pytorch/torch_tpu</span></p>
+<h2>一、TorchTPU开源，PyTorch模型可直接迁移至TPU</h2>
+<p>TorchTPU支持开发者使用标准PyTorch API在TPU上运行模型。开发者可以先通过eager mode调试模型，再使用torch.compile进行编译优化，从而提升TPU利用率并降低内存开销。</p>
+<p>谷歌称，TorchTPU还支持分布式计算和多种诊断工具，可以减少开发者针对不同硬件反复修改代码的工作量。</p>
+<p>Meta PyTorch工程总监贾娜·范·格鲁嫩（Jana van Greunen）说：“Meta需要在多种硬件架构上运行大模型、广告和推荐系统，TorchTPU让Meta能够将PyTorch工作负载部署到谷歌TPU上，并直接向相关工程团队反馈使用情况。”</p>
+<p>谷歌还与Hugging Face合作，让Hugging Face Hub上的热门开源模型原生运行在TorchTPU上。</p>
+<p>在大模型开发库Transformers v5中，开发者只需设置device_map=&#8221;tpu&#8221;，即可将模型部署到TPU。在扩散模型工具库Diffusers中，开发者可以使用torch.compile和张量并行，在多颗TPU上运行大型生成模型。</p>
+<p><img class="alignnone wp-image-602953" src="https://oss.zhidx.com/7a0b4659ba41857544538074b0ab6b4a/6ada3300/uploads/2026/10/6ad854caeec5a_6ad854caebde6_6ad854caebdac_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE-2026-10-21-135756.png" alt="谷歌联手Meta奇袭英伟达，开源TorchTPU，给PyTorch代码搬家" width="1000" height="425" /></p>
+<h2>二、多款开源工具接入TPU，降低大模型推理成本</h2>
+<p>随着推理模型和Agent模型规模扩大，推理成本与延迟逐渐成为生产环境中的主要瓶颈。谷歌已将TorchTPU接入多个开源推理框架，并通过Kubernetes集群管理系统的原生路由能力，帮助开发者在TPU和GPU之间调度工作负载。</p>
+<p>此次谷歌重点围绕三类工具展开合作：vLLM是用于高效部署大语言模型的推理引擎，SGLang主要面向结构化生成和Agent工作负载，llm-d则负责在大规模服务器集群中编排和调度推理服务。相关更新覆盖模型运行、请求处理和集群调度等环节。</p>
+<p>谷歌已与Inferact合作，为vLLM推出基于TorchTPU的原生后端，支持连续批处理、量化和多芯片并行，同时保留vLLM原有的模型执行、请求调度和API服务架构，开发者无需大幅调整现有系统。</p>
+<p>谷歌还与RadixArk合作，为SGLang开发TorchTPU后端。SGLang可以复用不同请求之间的缓存，减少重复提示词的计算，并针对多步骤生成和Agent任务优化延迟与吞吐量。</p>
+<p>此外，谷歌宣布与红帽、IBM及超过500名贡献者、25家机构共同发布llm-d 1.0。该项目可以根据缓存情况分配请求，并将推理过程中的不同阶段拆分处理。1.0版本新增多租户流量控制、高可用路由和面向Agent的会话路由。</p>
+<p>在谷歌 Kubernetes Engine（GKE）上，开发者可以通过统一的llm-d端点，在GPU和TPU之间选择更适合具体工作负载的硬件。</p>
+<p>据AI模型公司Zenteiq.ai创始人萨希库马尔·加内桑（Sashikumaar Ganesan）称，该公司使用基于llm-d的GKE Inference Gateway生成合成数据后，整体推理吞吐量提升超过4倍，在1000颗TPU v6e加速器上的日生成Token数从14.7亿提升至59.7亿。</p>
+<h2>三、支持8000颗TPU系统训练大模型，效率最高52%</h2>
+<p>在训练侧，谷歌将TorchTPU接入PyTorch社区的训练、强化学习和编排框架。</p>
+<p>TorchTitan是PyTorch原生的可扩展分布式训练参考实现，目前已完成与TorchTPU的生产级集成。</p>
+<p>TorchTitan为多类模型提供了预训练配方，包括Llama 3 70B和405B、Qwen3-8B和Qwen3-32B、MuseGlimmer 30B等稠密模型，Qwen3-235B等混合专家模型，以及FLUX.1系列12B等扩散Transformer模型。</p>
+<p>谷歌称，TorchTitan已在8000颗Ironwood TPU（TPU v7x）上完成验证。在Qwen3-8B训练测试中，TorchTPU训练路径实现最高52%的模型浮点运算利用率，并在最多8192颗Ironwood TPU上保持接近线性的扩展能力。</p>
+<p>针对强化学习场景，谷歌向VeRL贡献了TPU后端和端到端参考配方。该方案基于训练器与采样器分离的架构，支持在数学推理数据集上运行GRPO（群体相对策略优化），同时保留原有的硬件无关模型和算法代码。</p>
+<p>谷歌也为Ray加入TorchTPU支持。开发者可以在同一套Ray工作流中调度CPU、GPU和TPU资源，用于数据处理、训练、强化学习和推理，并将不同阶段的任务分配到更适合的加速器上。</p>
+<h2>四、PyTorch模型可运行在手机、电脑和物联网设备上</h2>
+<p>谷歌此次还宣布，LiteRT正式加入PyTorch生态。LiteRT原名TensorFlow Lite，是谷歌面向端侧AI推理推出的高性能框架。</p>
+<p>通过LiteRT-Torch，开发者可以使用一次调用将PyTorch模型转换为LiteRT格式。该方案基于Core ATen算子构建，模型代码仍可保持在PyTorch体系内。</p>
+<p>对于大语言模型，LiteRT-Torch可以将Hugging Face Transformers模型导出到LiteRT-LM，支持在Android、iOS、macOS、Windows、Linux、Web和物联网设备上运行。</p>
+<p>在硬件支持方面，LiteRT可通过XNNPack调用CPU，通过开源ML Drift调用GPU，并通过统一API适配主要芯片平台的NPU。</p>
+<p>谷歌还在GitHub上预览发布TPU agent suite。该工具通过插件接入多种代码编排工具和模型组合，可协助开发者完成PyTorch模型在TPU上的部署、问题诊断、用户问答和推理性能调优。</p>
+<h2>结语：谷歌为TPU争取更多开发者</h2>
+<p>谷歌此次开源TorchTPU，让开发者更容易把已有PyTorch模型迁移到TPU上，并继续使用熟悉的训练、推理和部署工具，由此可以降低开发者对单一硬件平台的依赖。</p>
+<p>目前，英伟达GPU仍拥有成熟的软件生态和广泛的开发者基础，TorchTPU很难在短期内改变这一格局。但如果谷歌能够持续完善TPU工具链，并在性能和价格上展现优势，TPU有望在部分大模型训练和推理场景中获得更多应用。</p>
+<p>来源：谷歌云、TechCrunch</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/602826.html</link>
+<pubDate>Wed, 21 Oct 2026 18:55:37 +0800</pubDate>
+<source>智东西</source>
+<author>杨 京丽</author>
+</item>
+<item><title><![CDATA[荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/98fa287e6f815783e33f1598dd67058b/6ada3300/uploads/2026/10/6ad887fb6a7bd_6ad887fb67ba2_6ad887fb67b5c_%E6%88%AA%E5%B1%8F2026-10-21-17.24.33.png"><strong>智东西</strong><br />
+<strong>作者 | ZeR0</strong><br />
+<strong>编辑 | 漠影 </strong></p>
+<p>智东西10月21日报道，今日，荣耀端出电竞全家桶，一口气发布手机、平板、耳机、手柄、配件等多款电竞新品。</p>
+<p>荣耀WIN2和荣耀WIN RT2采用同款全新战斗美学设计，提供“指定赢”、“快开黑”、“红蓝Buff”三款配色，配备<span style="color: #0f59a4;"><strong>2K 185Hz</strong></span>双芯绿洲屏与天王星超大风扇、LPDDR5X Ultra旗舰高速内存与UFS 4.1旗舰高速闪存。</p>
+<p><img class="alignnone size-full wp-image-603192" src="https://oss.zhidx.com/d6465881152f0283899597dd9aa24367/6ada3300/uploads/2026/10/6ad88463ec913_6ad88463e9aa1_6ad88463e9a62_IMG_7969.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>该系列手机正面采用<span style="color: #0f59a4;"><strong>0.93mm</strong></span>极窄四等边设计，镜头模组处新增支持<span style="color: #0f59a4;"><strong>40+种</strong></span>游戏光效的全新WIN能量环，配备雾面金属中框，支持整机IP68+IP69+IP69K超可靠防尘防水能力。</p>
+<p><img class="alignnone size-full wp-image-603205" src="https://oss.zhidx.com/28d372390bb58e014c79a89dcbf0fadb/6ada3300/uploads/2026/10/6ad8860405eb9_6ad88604033a2_6ad886040333f_%E6%88%AA%E5%B1%8F2026-10-21-17.10.30.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p>荣耀WIN2搭载2nm第六代骁龙8超级至尊版芯片、<span style="color: #0f59a4;"><strong>10100mAh</strong></span>超大容量巨无霸青海湖电池，支持有线超级快充<span style="color: #0f59a4;"><strong>100W</strong></span>，无线超级快充<span style="color: #0f59a4;"><strong>80W</strong></span>。根据荣耀实验室数据，其安兔兔综合性能跑分高达<span style="color: #0f59a4;"><strong>5702964分</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603191" src="https://oss.zhidx.com/1457f1e45ffbe3978d073c09b3eb086c/6ada3300/uploads/2026/10/6ad8844e22a72_6ad8844e1f6fa_6ad8844e1f6ca_IMG_7966.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>荣耀WIN RT2搭载第五代骁龙8至尊版和更大的<span style="color: #0f59a4;"><strong>12070mAh</strong></span>青海湖巨无霸电池，带来<span style="color: #0f59a4;"><strong>185Hz</strong></span>游戏体验。</p>
+<p><img class="alignnone size-full wp-image-603193" src="https://oss.zhidx.com/0e5939668e15f40f95b4965a43957422/6ada3300/uploads/2026/10/6ad8847a6b65a_6ad8847a68916_6ad8847a688e5_IMG_7970.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>荣耀WIN平板拥有<span style="color: #0f59a4;"><strong>8.4英寸</strong></span>黄金电竞尺寸、<span style="color: #0f59a4;"><strong>240Hz OLED</strong></span>电竞屏，搭载第五代骁龙8至尊版，跑分超过<span style="color: #0f59a4;"><strong>460万分</strong></span>；荣耀幻影引擎支持点对点像素级超分提升；首创双VC同步风冷架构，整机散热总面积高达<span style="color: #0f59a4;"><strong>38000+平方毫米</strong></span>，搭配最高<span style="color: #0f59a4;"><strong>15000转</strong></span>强冷风扇，整机壳温至高直降<span style="color: #0f59a4;"><strong>8℃</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603194" src="https://oss.zhidx.com/b7259c080914f26d696c5f3ac2c44dbb/6ada3300/uploads/2026/10/6ad884873d202_6ad884873a344_6ad884873a306_IMG_7976.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="751" /></p>
+<p>荣耀WIN2首销国补到手价<span style="color: #0f59a4;"><strong>4999元起</strong></span>，荣耀WIN RT2首销国补到手价<span style="color: #0f59a4;"><strong>3149元起</strong></span>，均已开售。</p>
+<p><img class="alignnone size-full wp-image-603222" src="https://oss.zhidx.com/0e81ce668196f35d5ed600736f318b66/6ada3300/uploads/2026/10/6ad8876c2a2c3_6ad8876c26d91_6ad8876c26d46_%E6%88%AA%E5%B1%8F2026-10-21-17.13.45.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p><img class="alignnone size-full wp-image-603223" src="https://oss.zhidx.com/db19c2039d1b806c7b763c45aae02403/6ada3300/uploads/2026/10/6ad8877961bfa_6ad887795eb22_6ad887795eadd_%E6%88%AA%E5%B1%8F2026-10-21-17.13.47.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p>荣耀还带来一款搭载第四代骁龙8s移动平台的荣耀WIN Turbo2电竞手机，将于10月30日10:08开售，国补到手价<span style="color: #0f59a4;"><strong>2251.65元起</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603241" src="https://oss.zhidx.com/073618140a9b8d4dcd2617a4792862d3/6ada3300/uploads/2026/10/6ad88b9583f93_6ad88b9581015_6ad88b9580fe7_IMG_8002.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>此外，作为2026三角洲行动烽火联赛和烽火世界杯战略合作伙伴和指定手机，荣耀WIN系列宣布，荣耀WIN2和三角洲行动职业赛事的联名款手机将于10月30日开启电商预约，11月登场。</p>
+<p><img class="alignnone size-full wp-image-603219" src="https://oss.zhidx.com/0a6622c73f513b47106d1488fe9c19f8/6ada3300/uploads/2026/10/6ad88730c4968_6ad88730c1811_6ad88730c17a3_%E6%88%AA%E5%B1%8F2026-10-21-17.12.20.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p>荣耀WIN平板12+256GB国补到手价<span style="color: #0f59a4;"><strong>3699元</strong></span>，16+512GB国补到手价<span style="color: #0f59a4;"><strong>4699元</strong></span>，现已开启预约，10月31日10:08抢先发售。</p>
+<p><img class="alignnone size-full wp-image-603220" src="https://oss.zhidx.com/8a5c6e9ebb411890550fa85af2f86c8e/6ada3300/uploads/2026/10/6ad887591d9ee_6ad887591ad00_6ad887591acb9_%E6%88%AA%E5%B1%8F2026-10-21-17.13.39.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p>荣耀WIN耳机支持<span style="color: #0f59a4;"><strong>40ms</strong></span>低延迟、<span style="color: #0f59a4;"><strong>55dB</strong></span>降噪，内置<span style="color: #0f59a4;"><strong>12.4mm</strong></span>镀钛振膜，通过Hi-Res金标认证，10月21日开启预约，10月31日正式发售，建议零售价<span style="color: #0f59a4;"><strong>269元</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603195" src="https://oss.zhidx.com/7f7bca5a7ee00514d35197cae2c7b29c/6ada3300/uploads/2026/10/6ad88492c142f_6ad88492be528_6ad88492be4ef_IMG_7979.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>荣耀WIN游戏手柄建议零售价399元，10月21日开启预约，11月2日开售，建议零售价为<span style="color: #0f59a4;"><strong>399元</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603199" src="https://oss.zhidx.com/3a38ee04743c4abba695b78a7a547090/6ada3300/uploads/2026/10/6ad88527d000a_6ad88527cd12f_6ad88527cd0ff_IMG_8003.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>还有多款荣耀WIN平板配件将于10月31日开售：散热背夹售价<span style="color: #0f59a4;"><strong>199元</strong></span>、游戏手柄售价<span style="color: #0f59a4;"><strong>299元</strong></span>、腕带支架保护壳售价<span style="color: #0f59a4;"><strong>199元</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603221" src="https://oss.zhidx.com/00bee0cfc49fadd409bd2b225f4a3b4d/6ada3300/uploads/2026/10/6ad887625f14b_6ad887625bede_6ad887625be8d_%E6%88%AA%E5%B1%8F2026-10-21-17.13.41.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<h2><strong>一、多重散热黑科技叠加：50秒疾速降温10℃</strong></h2>
+<p>荣耀WIN2带来荣耀东风双子星涡轮散热，采用全新双风扇设计，实现<span style="color: #0f59a4;"><strong>1.19CFM</strong></span>超大总风量与<span style="color: #0f59a4;"><strong>150%</strong></span>散热性能提升。</p>
+<p><img class="alignnone size-full wp-image-603206" src="https://oss.zhidx.com/f10d1a8d3119883eb813ed9b5aa2adc1/6ada3300/uploads/2026/10/6ad88620a038c_6ad886209d188_6ad886209d130_%E6%88%AA%E5%B1%8F2026-10-21-17.10.38.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p>同时，荣耀WIN2采用行业首创的立体风网散热架构，双风扇协同立体散热，做到整机降温“无死角”，使背板直降<span style="color: #0f59a4;"><strong>14.4℃</strong></span>，让SoC直降<span style="color: #0f59a4;"><strong>10.2℃</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-603209" src="https://oss.zhidx.com/83f26376438c5b99a6e68e8d9695f6f2/6ada3300/uploads/2026/10/6ad8862b6c97d_6ad8862b69958_6ad8862b69912_%E6%88%AA%E5%B1%8F2026-10-21-17.10.41.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p>它引入风道黑科技，模拟核电站冷却塔贯流设计，风阻优化<span style="color: #0f59a4;"><strong>21%</strong></span>，风量利用率提升<span style="color: #0f59a4;"><strong>229%</strong></span>，有效的让风瞬进顺出。</p>
+<p><img class="alignnone size-full wp-image-603210" src="https://oss.zhidx.com/b7d51d10e66e4345964e26f62bbcbd97/6ada3300/uploads/2026/10/6ad886341e271_6ad886341ae8c_6ad886341ae42_%E6%88%AA%E5%B1%8F2026-10-21-17.10.43.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p>荣耀WIN2扇叶设计同样迎来创新升级，行业首发黄金分割圆弧扇叶涡轮，让同风量风噪降低<span style="color: #0f59a4;"><strong>9dB</strong></span>，总风量提升<span style="color: #0f59a4;"><strong>284%</strong></span>。</p>
+<p>在双风扇加持下，面对某国民级回合制RPG游戏30℃室温、60帧最高画质跑1小时和4小时极限测试，荣耀WIN2均实现全程满帧，平均帧率达60.0FPS，机身最高温仅<span style="color: #0f59a4;"><strong>48.1℃</strong></span>，并支持4款热门游戏2K画质+185Hz满电到关机全程一条线。</p>
+<p><img class="alignnone size-full wp-image-603184" src="https://oss.zhidx.com/59436cd5ce9a6be94e9b002f283c397b/6ada3300/uploads/2026/10/6ad883be91069_6ad883be8dc3c_6ad883be8dbf8_IMG_7954.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>据荣耀披露，实测头部手游在其2K画质+185Hz模式下，从满电运行至关机，帧率曲线保持稳定。</p>
+<p><img class="alignnone size-full wp-image-603183" src="https://oss.zhidx.com/c1007f38853847272d8604900f7f2bd3/6ada3300/uploads/2026/10/6ad883b3d4114_6ad883b3c84d3_6ad883b3c8491_IMG_7955.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="719" /></p>
+<p>荣耀WIN RT2搭载荣耀WIN2同款天王星超大风扇，支持行业超快疾速降温，可实现<span style="color: #0f59a4;"><strong>50秒</strong></span>直降<span style="color: #0f59a4;"><strong>10℃</strong></span>，有效压制游戏发热、防止过热降频，保障性能持久稳帧输出。</p>
+<p><img class="alignnone size-full wp-image-603212" src="https://oss.zhidx.com/17b3bc68ae48d86daf3ac1e06c45372f/6ada3300/uploads/2026/10/6ad8864c59602_6ad8864c568f4_6ad8864c568b3_%E6%88%AA%E5%B1%8F2026-10-21-17.10.46.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<h2><strong>二、全系搭配2K+185Hz双芯绿洲屏，</strong>支持40+款原生高刷游戏</h2>
+<p>全新荣耀幻影引擎支持AI渲显分离，1%Low帧提升<span style="color: #0f59a4;"><strong>20FPS</strong></span>，配合AI光追技术，等效光线渲染约<span style="color: #0f59a4;"><strong>1.2亿/s</strong></span>。</p>
+<p>荣耀WIN2全系标配<span style="color: #0f59a4;"><strong>2K 185Hz</strong></span>双芯绿洲屏，支持<span style="color: #0f59a4;"><strong>40+款</strong></span>原生高刷游戏。</p>
+<p><img class="alignnone size-full wp-image-603215" src="https://oss.zhidx.com/b12aa0af38313d2a336999924c129485/6ada3300/uploads/2026/10/6ad8868d2eac0_6ad8868d2c03d_6ad8868d2bfd6_%E6%88%AA%E5%B1%8F2026-10-21-17.11.07.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p>它内置荣耀自研WIN DISPLAY超显芯片，实现晶体管密度提升<span style="color: #0f59a4;"><strong>10%</strong></span>、主频性能提升<span style="color: #0f59a4;"><strong>17.5%</strong></span>，带来行业首发的分频双套Demura像素校准、行业首发的全高刷<span style="color: #0f59a4;"><strong>5920Hz</strong></span> PWM零风险调光、行业独家的芯片级动态离焦舒缓，以及行业领先的芯片级亮度控制方案。</p>
+
+<p>同时，其针对暗光游戏护眼专项优化，新增游戏黑平衡与游戏柔光舒缓，叠加3D游戏防眩晕、个性化显示、专业色彩管理、动态离焦等多重护眼能力，为玩家带来全面电竞护眼体验。</p>
+<p><img class="alignnone size-full wp-image-603187" src="https://oss.zhidx.com/72b2808120dfd1e3346d29901fc2e744/6ada3300/uploads/2026/10/6ad88410dc800_6ad88410d95d3_6ad88410d9566_IMG_7959.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>触控体验同样升级。</p>
+<p>荣耀WIN2系列配备WIN TOUCH触控芯片，带来全新触控体验，包括行业领先的<span style="color: #0f59a4;"><strong>5000Hz</strong></span>瞬时触控采样率、<span style="color: #0f59a4;"><strong>520Hz</strong></span>真十指触控采样率和<span style="color: #0f59a4;"><strong>800Hz</strong></span>陀螺仪采样率。</p>
+<p><img class="alignnone size-full wp-image-603188" src="https://oss.zhidx.com/1870bf8e1f079000a418947869eb8509/6ada3300/uploads/2026/10/6ad88419b3a0d_6ad88419af83e_6ad88419af809_IMG_7960.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>国民级FPS游戏满帧最高画质下、满帧运行时，其点击时延仅<span style="color: #0f59a4;"><strong>21ms</strong></span>。</p>
+<p>这款电竞手机还针对《永劫无间》提供个性化振感适配，带来更好游戏体验。</p>
+<p><img class="alignnone size-full wp-image-603218" src="https://oss.zhidx.com/643612a9c82e3ca96257245d1ba966d7/6ada3300/uploads/2026/10/6ad886f9b88f4_6ad886f9b5b9f_6ad886f9b5b49_%E6%88%AA%E5%B1%8F2026-10-21-17.11.48.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<h2><strong>三、环绕低音炮拉满沉浸感，弱网信号翻倍提升，配备2亿AI超清主摄</strong></h2>
+<p>围绕玩家电竞体验需求，荣耀WIN2系列在影音沉浸、网络增强、操控手感与游戏服务等多维度带来升级。</p>
+<p>荣耀WIN2搭载超大音腔双1216环绕低音炮，叠加18cc行业领先双开放音腔，实现音腔体积较行业领先水平提升<span style="color: #0f59a4;"><strong>2250%</strong></span>，AI敌方脚步声增强<span style="color: #0f59a4;"><strong>300%</strong></span>，低频综合效果提升<span style="color: #0f59a4;"><strong>100%</strong></span>，影音沉浸感拉满。</p>
+<p><img class="alignnone size-full wp-image-603189" src="https://oss.zhidx.com/be586108938e9dafa8e465547abaec74/6ada3300/uploads/2026/10/6ad8842d4c107_6ad8842d491e4_6ad8842d491b0_IMG_7962.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>通信方面，它搭载荣耀鸿燕七芯通信架构，首发第三代自研射频增强芯片C3，拥有2颗5G电竞芯片，4颗WiFi抢网芯片，实现弱网信号提升<span style="color: #0f59a4;"><strong>100%</strong></span>，弱网游戏卡顿减少<span style="color: #0f59a4;"><strong>45%</strong></span>，同档领先网络低延迟。</p>
+<p><img class="alignnone size-full wp-image-603190" src="https://oss.zhidx.com/cae96d09a6f0a09ad62d666923d1b6f8/6ada3300/uploads/2026/10/6ad8843a060d1_6ad8843a032da_6ad8843a03229_IMG_7964.jpg" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="750" /></p>
+<p>操控方面，为了带来更便捷的游戏操作体验，荣耀WIN2新增<span style="color: #0f59a4;"><strong>电竞WIN键</strong></span>，支持自定义键位映射，可实现游戏高频操作快捷触发。</p>
+<p><img class="alignnone size-full wp-image-603216" src="https://oss.zhidx.com/d3aad131b7c04ba05bde60bf600653ac/6ada3300/uploads/2026/10/6ad886d74d6b3_6ad886d745b65_6ad886d745b1e_%E6%88%AA%E5%B1%8F2026-10-21-17.11.32.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p>影像方面，荣耀WIN2系列配备旗舰同款<span style="color: #0f59a4;"><strong>2亿</strong></span>AI超清主摄，拥有<span style="color: #0f59a4;"><strong>1/1.4&#8221;</strong></span>超大底，支持<span style="color: #0f59a4;"><strong>4倍</strong></span>无损变焦，搭配OIS+EIS双防抖与档位超强防抖CIPA 7.0，可轻松拍出超清特写人像。</p>
+<p><img class="alignnone size-full wp-image-603217" src="https://oss.zhidx.com/8823d1821d3cc811aba03452452cc930/6ada3300/uploads/2026/10/6ad886df7083c_6ad886df6d8e4_6ad886df6d855_%E6%88%AA%E5%B1%8F2026-10-21-17.11.35.png" alt="荣耀掀桌电竞手机！国补价2251元起，全系2K+185Hz、1万mAh大电池" width="1000" height="329" /></p>
+<p>系统方面，该系列搭载全新<span style="color: #0f59a4;"><strong>MagicOS 11</strong></span>系统，配备YOYO自动执行、YOYO学习助手，可化身学习搭子。</p>
+<p>荣耀WIN2还支持USB3.2协议，并配备超大X轴线性马达和3D超声波指纹。</p>
+<h2><strong>结语：优化整体游戏体验链路，补齐主力手机功能</strong></h2>
+<p>继Magic9系列旗舰手机后，荣耀在WIN电竞手机产品线上继续打出配置拉满、价格又非常有竞争力的组合拳。</p>
+<p>荣耀这次同时推出手机、小尺寸平板、耳机、手柄和散热配件，又加入赛事合作与联名款，试图覆盖拥有不同预算、不同屏幕尺寸和不同操作方式的消费人群。</p>
+<p>185Hz高刷开始成为新一代旗舰电竞手机的标配，同时关于能效的竞争覆盖了更多技术维度，既要实现更大的电池、更快的充电、更强的散热，又要在全面升级的硬件配置、更激进的性能调度与发热管理之间取得平衡。</p>
+<p>如今电竞手机正在围绕“连续玩得稳”重新组织硬件，并通过完整日常功能争取更广的主力机用户。新发布的荣耀WIN2系列不仅进一步拉高电竞旗舰性能，把散热、显示、触控、影音、网络增强均作为卖点，而且正在补齐主力机功能，兼顾高清摄影与调用AI助手的日常使用需求。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/602947.html</link>
+<pubDate>Wed, 21 Oct 2026 18:13:55 +0800</pubDate>
+<source>智东西</source>
+<author>ZeR0</author>
+</item>
+<item><title><![CDATA[黄仁勋投的复旦女学霸，又要融资了！估值冲刺2688亿]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/8461592d0326b4fcd0d59804d19a1d8e/6ada3300/uploads/2026/10/6ad88591d5ddc_6ad88591d30dc_6ad88591d3050_13.png"></p>
+<p class="ds-markdown-paragraph"><span class=""><strong>智东西</strong><br />
+<strong>编译 | 黄菲</strong><br />
+<strong>编辑 | 江宇</strong></span></p>
+<p>智东西10月21日消息，据Business Insider今日报道，AI基础设施初创公司Fireworks AI正就新一轮融资进行初步洽谈，拟以300亿至400亿美元（约合人民币2016亿至2688亿元）的公司估值融资。若最终按这一估值区间完成融资，其公司估值将较今年7月D轮融资时的175亿美元（约合人民币1176亿元）提高约71%至129%。</p>
+<p><img class="aligncenter size-full wp-image-603201" src="https://oss.zhidx.com/873f3f94bbc789a694ea69501ff54b45/6ada3300/uploads/2026/10/6ad885909f717_6ad885909c8be_6ad885909c88d_12.png" alt="黄仁勋投的复旦女学霸，又要融资了！估值冲刺2688亿" width="1000" height="537" /></p>
+<p>▲7月公布的融资公告，图源：Fireworks AI</p>
+<p class="ds-markdown-paragraph"><span class="">知情人士称，目前融资谈判仍处于早期阶段，最终估值可能发生变化。该公司拒绝置评。</span></p>
+<p class="ds-markdown-paragraph"><span class="">此次融资洽谈发生在该公司10月9日披露安全事件后不久。</span></p>
+<p>在此次安全事件中，入侵者利用内部凭证入侵Fireworks AI，可能导致少量客户API密钥泄露，但该公司已撤销凭证并通知客户，称模型与数据未遭访问。</p>
+<p class="ds-markdown-paragraph"><span class="">随着企业对AI模型部署、推理算力和定制化工具的需求增长，Fireworks AI凭借模型推理基础设施实现了快速增长，但该事件也给客户信任带来考验。</span></p>
+<h2><strong>一、估值目标最高达2688亿元，英伟达参与D轮投资</strong></h2>
+<p>Fireworks AI成立于2022年，由7名前Meta工程师和前谷歌工程师共同创立，包括乔琳（Lin Qiao）、本尼·陈（Benny Chen）、赵晨宇（Chenyu Zhao）、德米特罗·朱尔加科夫（Dmytro Dzhulgakov）、德米特罗·伊夫琴科（Dmytro Ivchenko）、詹姆斯·里德（James Reed）和帕维尔·加巴尔茨基（Pawel Garbacki）。</p>
+<p><img class="aligncenter size-full wp-image-603200" src="https://oss.zhidx.com/5f6959a5f46366f67fde8949e522608f/6ada3300/uploads/2026/10/6ad8858d3673c_6ad8858d33404_6ad8858d333d2_11.png" alt="黄仁勋投的复旦女学霸，又要融资了！估值冲刺2688亿" width="1000" height="950" /></p>
+<p>▲Fireworks AI七位联合创始人合照，图源：Fireworks AI</p>
+<p>值得一提的是，该公司联合创始人团队中有3位是华人，分别为联合创始人兼首席执行官、前Meta工程高级总监乔琳；前Meta首席软件工程师本尼·陈以及前谷歌高级软件工程师赵晨宇。</p>
+<p>其中，乔琳拥有复旦大学计算机科学专业本硕学位，后在美国加州大学圣塔芭芭拉分校取得计算机科学博士学位。</p>
+<p>加入Fireworks AI之前，她曾在计算机国际商业公司IBM、职业社交平台领英（LinkedIn）和Meta任职，并在Meta负责PyTorch相关工作。</p>
+<p><img class="aligncenter size-full wp-image-603173" src="https://oss.zhidx.com/46a829d321eac2c8e9fab06e1f4275b2/6ada3300/uploads/2026/10/6ad87be426ef2_6ad87be424450_6ad87be424421_9.png" alt="黄仁勋投的复旦女学霸，又要融资了！估值冲刺2688亿" width="1000" height="541" /></p>
+<p>▲Fireworks AI联合创始人兼首席执行官乔琳，图源：Business Insider</p>
+<p>另一位华人联合创始人本尼·陈本科毕业于美国加州大学洛杉矶分校（UCLA），获计算机科学与工程、计算机科学双方向学士学位，GPA高达3.9。</p>
+<p>创立Fireworks AI前，本尼·陈与乔琳一样在Meta任职。2014年，他担任Meta的软件工程师；2021年时，本尼·陈成为了该公司的首席软件工程师。</p>
+<p><img class="aligncenter size-full wp-image-603252" src="https://oss.zhidx.com/7b1a68fd3a4e8776012d831cd9b595ae/6ada3300/uploads/2026/10/6ad890acb02eb_6ad890acad5fb_6ad890acad5c4_14.png" alt="黄仁勋投的复旦女学霸，又要融资了！估值冲刺2688亿" width="1000" height="2202" /></p>
+<p>▲本尼·陈履历，图源：领英</p>
+<p>赵晨宇本科则毕业于加州大学伯克利分校，拥有电子工程与计算机科学以及工程数学与统计学双学位。他在谷歌任职约9年。</p>
+<p>任职期间，他担任该公司的高级资深软件工程师，负责谷歌云Vertex相关业务，是约50人工程师团队的技术经理。</p>
+<p><img class="aligncenter size-full wp-image-603253" src="https://oss.zhidx.com/fc46d0d3754a53485b1bb288ba8c1a4c/6ada3300/uploads/2026/10/6ad890af6e645_6ad890af6b6a8_6ad890af6b672_15.png" alt="黄仁勋投的复旦女学霸，又要融资了！估值冲刺2688亿" width="1000" height="1355" /></p>
+<p>▲赵晨宇履历，图源：领英</p>
+<p class="ds-markdown-paragraph"><span class="">今年7月，该公司宣布完成15.05亿美元（约合人民币101.14亿元）D轮融资，估值达到175亿美元（约合人民币1176亿元）。</span></p>
+<p class="ds-markdown-paragraph"><span class="">本轮融资由投资管理公司Atreides Management、风险投资公司Index Ventures、TCV领投，芯片巨头英伟达、风险投资公司Lightspeed Venture Partners、Bessemer Venture Partners、Menlo Ventures等机构参与投资。</span></p>
+<p class="ds-markdown-paragraph"><span class="">在此之前，该公司于2025年10月完成2.5亿美元（约合人民币16.8亿元）C轮融资，估值达到40亿美元（约合人民币269亿元），由风险投资公司Lightspeed Venture Partners、Index Ventures和投资机构Evantic领投。</span></p>
+<p>据The Information于今年9月25日报道，Fireworks AI正考虑以300亿美元（约合人民币2016亿元）的估值寻求新一轮融资。</p>
+<h2><strong>二、从模型推理到专业化智能，企业需求推动收入增长</strong></h2>
+<p>Fireworks AI并不以开发面向消费者的通用聊天机器人为主要业务，而是向企业提供AI模型推理基础设施和软件服务，帮助客户运行、微调和部署开源权重模型及定制化AI模型。</p>
+<p>该公司将自身的业务方向概括为“专业化智能”（Specialized Intelligence），即结合企业的专有数据、业务流程和具体应用场景，对模型进行定制和优化，使其更好地完成特定任务。</p>
+<p>乔琳曾将Fireworks AI比作AI时代的“送水人”。企业无需自行搭建和维护昂贵的算力基础设施，即可通过该平台部署模型，并根据Token使用量付费。</p>
+<p>根据Fireworks AI今年7月公布的D轮融资公告，该公司年化营收已超过10亿美元（约合人民币67.2亿元），每日处理的Token超过40万亿个，其中超过95%来自基于客户专有数据定制、针对特定任务优化的模型。</p>
+<p>这一业务模式使Fireworks AI能够从企业持续增长的模型调用和定制化需求中获得收入。</p>
+<h2><strong>三、竞争对手环伺，安全事件考验客户信任</strong></h2>
+<p>Fireworks AI所处的模型基础设施市场竞争激烈。</p>
+<p>竞争对手既包括模型基础设施初创公司Together AI、Baseten和Replicate，也包括云服务巨头亚马逊云、谷歌云、云服务微软Azure以及数据库与云服务巨头甲骨文。</p>
+<p>与大型云服务商相比，Fireworks AI专注于模型推理、微调和部署等环节，试图通过优化推理效率、降低使用成本及提供定制化服务吸引企业客户。</p>
+<p>不过，随着云服务商不断扩展模型部署和推理服务能力，Fireworks AI这类专业化基础设施企业仍面临竞争压力。</p>
+<p>除市场竞争外，近期发生的安全事件也为Fireworks AI带来新的考验。</p>
+<p>Fireworks AI于10月9日发布安全公告称，其在10月6日发现内部凭证遭到未经授权使用。</p>
+<p>入侵者借此访问了少量客户账户中用于模型评估任务的环境变量，其中包含API密钥和外部服务Token等机密信息。</p>
+<p>该公司称，调查尚未发现客户模型、数据集、个人信息或推理流量遭到未经授权访问的证据。</p>
+<p>目前，该公司已撤销涉事内部凭证及受影响的API密钥，通知已确认受到影响的客户，并与网络安全专业机构合作调查事件。</p>
+<p>10月10日，乔琳在社交平台X上发文称，该公司已控制住事态、撤销相关凭证并通知所有已确认受影响的客户，调查仍在进行。她还承诺，将把这次攻击转化为AI基础设施领域最有力的安全回应。</p>
+<p><img class="aligncenter size-full wp-image-603180" src="https://oss.zhidx.com/4e137dbe96b302e6e0adb247d03174ef/6ada3300/uploads/2026/10/6ad87f4b3ae67_6ad87f4b37e25_6ad87f4b37de5_10.png" alt="黄仁勋投的复旦女学霸，又要融资了！估值冲刺2688亿" width="1000" height="573" /></p>
+<p>▲乔琳在社交平台X上发文，图源：X</p>
+<p>对于企业AI基础设施提供商而言，客户不仅关注模型成本和部署效率，也关注专有数据及访问凭证是否得到妥善保护。</p>
+<p>尽管此次事件中尚未发现客户模型或推理流量遭到访问，环境变量中的凭证被获取，仍意味着相关客户需要检查并轮换受影响的密钥和Token。</p>
+<h2><strong>结语：估值跃升背后，增长与信任同样重要</strong></h2>
+<p>Fireworks AI估值快速攀升，反映出资本对AI推理基础设施赛道及企业定制化服务前景的看好。</p>
+<p>但在云服务巨头持续加码、同类初创公司竞争加剧的背景下，高估值仍需收入持续增长支撑。</p>
+<p>近期安全事件也让客户信任成为其业务扩张必须面对的问题。</p>
+<p>来源：Business Insider</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603165.html</link>
+<pubDate>Wed, 21 Oct 2026 17:46:31 +0800</pubDate>
+<source>智东西</source>
+<author>黄 菲</author>
+</item>
+<item><title><![CDATA[DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/18dfcd09b9a99efb43da253981d89518/6ada3300/uploads/2026/10/6ad85ee464d2d_6ad85ee45fa31_6ad85ee45f9e9_075ea7dd5de77ad1d365b4e2dd75ab32.jpg"><strong>智东西</strong><br />
+<strong> 作者 | 江宇</strong><br />
+<strong> 编辑 | 漠影</strong></p>
+<p>一批民间开源插件正涌入DeepSeek Harness。</p>
+<p>智东西10月21日报道，截至今日，DeepSeek Harness在全球开发者平台GitHub上已经拿下超过<span style="color: #0f59a4;"><strong>25万Stars</strong></span>。开源短短两个多月，DeepSeek Harness已经吸引一批开发者为它打造插件，相关开源项目不断涌现。</p>
+<p><img class="alignnone size-full wp-image-602985" src="https://oss.zhidx.com/1e287800826f75799cf235409a626a00/6ada3300/uploads/2026/10/6ad85f0299d06_6ad85f0296a31_6ad85f02969f5_0bc4f360d888bc2833965b4a3afe6f5b.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="720" /></p>
+<p class="p1">为此，我们从GitHub、X、Reddit等平台搜罗了<span style="color: #0f59a4;"><strong>一批DeepSeek Harness第三方插件及适配项目</strong></span>，综合参考项目在GitHub上的Star数，以及其在X、Reddit等社区获得的关注度和业内知名开发者的推荐情况，从中筛选出12个值得关注的项目。</p>
+<p>这批项目里，有的已经在GitHub上拿下<span style="color: #0f59a4;"><strong>数万甚至超过10万Stars</strong></span>，有的获得了现任DeepSeek产品部负责人、DeepSeek Harness团队负责人<span style="color: #0f59a4;"><strong>崔添翼的关注和推荐</strong></span>。</p>
+<p>还有一些小工具，专门解决具体问题：让纯文本模型看懂截图，让长任务在上下文压缩后接着跑，或者直接在对话里修改简历。</p>
+<p>其中，<span style="color: #0f59a4;"><strong>开源设计工具OpenDesign</strong></span>的主仓库Star数已达到10.28万；<span style="color: #0f59a4;"><strong>侧边栏增强插件DSH Better Sidebar</strong></span>获得约4400 Stars，<span style="color: #0f59a4;"><strong>上下文管理插件dsh-context</strong></span>获得约2700 Stars，这两款插件均获得了崔添翼的关注和推荐。</p>
+<p>这些项目的用途五花八门。</p>
+<p>有的将文件管理、代码编辑和Git操作集中到一个<span style="color: #0f59a4;"><strong>侧边栏</strong></span>，有的专门盯着Agent的Token消耗，还有的能让DeepSeek Harness<span style="color: #0f59a4;"><strong>操作浏览器、跨会话找回</strong></span>之前的信息。</p>
+<p>开发者们各自瞄准一个使用痛点，给DeepSeek Harness补上自己想要的功能。</p>
+<p>围绕插件生态，DeepSeek Harness团队此前称，<span style="color: #0f59a4;"><strong>其将持续支持第三方插件生态的发展，改善第三方插件的发现、获取和管理体验，并建设官方插件市场。</strong></span></p>
+<p>目前，DeepSeek Harness已经提供<span style="color: #0f59a4;"><strong>实验性的自定义插件市场功能</strong></span>。用户启用后，可以在插件页面的“发现”（Discover）标签中添加第三方索引，浏览和安装插件。</p>
+<p>在官方插件市场进一步完善之前，社区开发者已经各显神通。下面，我们就来看看，这些“为爱发电”的民间项目到底有什么惊喜。</p>
+<h2><strong>一、工作台大改造！侧边栏、上下文、插件市场都有人操心</strong></h2>
+<p>先来看更贴近日常使用的一类插件。聊天时想顺手查看文件，运行Agent时想知道上下文还剩多少，安装新插件时又得四处找GitHub地址……这些看似琐碎的需求，都有社区开发者专门做了工具来解决。</p>
+<p><strong>1、DSH Better Sidebar：崔添翼推荐，给DeepSeek Harness装上增强版侧边栏</strong></p>
+<blockquote><p>https://github.com/omdsh-dev/DSH-better-sidebar</p></blockquote>
+<p><span style="color: #0f59a4;"><strong>DSH Better Sidebar是一款界面增强插件</strong></span>，它把文件管理、代码编辑、终端操作、Git管理以及子Agent信息整合到了侧边栏和底部工作台中。</p>
+<p><img class="alignnone size-full wp-image-602992" src="https://oss.zhidx.com/d952fa37b644ca311ff42b38e70baf0b/6ada3300/uploads/2026/10/6ad85f2f239a6_6ad85f2f2066f_6ad85f2f20631_74758043d5f1b50f9780251b3ac980df.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="838" /></p>
+<p>例如，用户让DeepSeek Harness修改代码后，可以直接在侧边栏查看文件、检查改动，必要时再打开终端操作，不用在编辑器、终端和DeepSeek Harness之间反复切换。</p>
+<p><img class="alignnone size-full wp-image-602987" src="https://oss.zhidx.com/662e851f8be16d37ebcfea888c86ea2c/6ada3300/uploads/2026/10/6ad85f14a8bca_6ad85f14a5cc0_6ad85f14a5c8e_5da5fbacdf17d1607405fbed2e4597fe.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="617" /></p>
+<p>这款插件还提供扩展接口，其他开发者可以在其基础上添加新的侧边栏页面或文件预览器。</p>
+<p>9月27日，崔添翼曾在X上专门分享这款插件，介绍它如何利用DeepSeek Harness原生界面能力扩展工作台。</p>
+<p><img class="alignnone size-full wp-image-602997" src="https://oss.zhidx.com/ded65300c7ebcd02ce88c6b76947ce04/6ada3300/uploads/2026/10/6ad85f64bc2cb_6ad85f64b8fab_6ad85f64b8f7d_c3c1c62b577944843f04f6a5be0b3185.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="1235" /></p>
+<p>值得注意的是，这款插件与DeepSeek Harness宿主版本存在对应关系，安装时需要选择匹配的插件版本。</p>
+<p><strong>2、dsh-context：把Agent的上下文消耗摊开给你看</strong></p>
+<blockquote><p>https://github.com/bowenliang123/dsh-context</p></blockquote>
+<p>dsh-context可以让用户看清楚，Agent到底把上下文用在了哪里。它提供<span style="color: #0f59a4;"><strong>上下文可视化面板</strong></span>，可以查看当前会话占用了多少Token、系统提示词和工具结果各占多少比例，以及上下文如何随着任务推进不断增长。</p>
+<p><img class="alignnone size-full wp-image-602998" src="https://oss.zhidx.com/2b76e662fd1f6f28e351ffd224745c68/6ada3300/uploads/2026/10/6ad85fb0807f8_6ad85fb07da66_6ad85fb07da26_44ef36d0c9fa9e41f98d58965b8ca3cc.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="641" /></p>
+<p>当Agent运行时间较长、回答质量出现波动时，用户可以通过图表检查上下文组成，查看是否发生了压缩等事件。它还支持跨会话统计、Token和费用估算，以及多Agent使用情况展示。</p>
+<p><img class="alignnone size-full wp-image-602999" src="https://oss.zhidx.com/078d640bd0d0934ab57835cb56668205/6ada3300/uploads/2026/10/6ad85fb7608df_6ad85fb75d881_6ad85fb75d851_3915c6787a0cf9cb9055c4e4a22a9f8e.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="569" /></p>
+<p>▲The Context Insights page</p>
+<p>崔添翼等DeepSeek Harness团队成员曾推荐这款插件，并为项目点Star。</p>
+<p><strong>3、dsh-market：民间开发者自己搭了一个插件商店</strong></p>
+<blockquote><p>https://github.com/dsh-market/dsh-market</p></blockquote>
+<p>有了越来越多的第三方插件，去哪找、怎么装，就成了新的麻烦。dsh-market把<span style="color: #0f59a4;"><strong>插件市场</strong></span>直接搬进DeepSeek Harness，支持按名称、功能和类别搜索插件，查看插件介绍，并在界面中完成安装和管理。</p>
+<p><img class="alignnone size-full wp-image-603000" src="https://oss.zhidx.com/8637655bbbbe9b308dfce2d610e48d0f/6ada3300/uploads/2026/10/6ad85fc0e3dae_6ad85fc0e0d8c_6ad85fc0e0d5e_5467131dfc1fb0856398aab234fc78d5.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="1020" /></p>
+<p>它还提供主题管理、收藏等功能，让用户寻找插件时不必每次都去GitHub搜索。</p>
+<p>随着DeepSeek Harness新版加入实验性的Discover功能，dsh-market也提供了兼容的市场索引。用户可以把其社区插件目录接入DeepSeek Harness原生发现页面。</p>
+<p>不过，社区市场收录并不等于官方质量认证，安装前仍需核对插件来源。</p>
+<p><strong>4、DSH Desktop：桌面客户端也有人重新造了一遍</strong></p>
+<p>https://github.com/anywhere-labs/dsh-desktop</p>
+<p>除了给界面添加功能，还有开发者索性自己做了一套桌面客户端。DSH Desktop是一款由社区独立开发的<span style="color: #0f59a4;"><strong>桌面客户端项</strong><strong>目</strong></span>，围绕DeepSeek Harness运行时提供桌面窗口、终端集成及插件管理等功能。</p>
+<p><img class="alignnone size-full wp-image-603001" src="https://oss.zhidx.com/ab2d97fed6129ae58aa1b3f43c22ad5b/6ada3300/uploads/2026/10/6ad85fcd3bc6a_6ad85fcd38afd_6ad85fcd38aba_aba0310955fe94e7afc7c8292ad4502a.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="1168" /></p>
+<p>这款客户端同样采用可组合的插件架构，开发者可以根据自己的需求调整界面、增加功能，把DeepSeek Harness改造成自己习惯的工作环境。</p>
+<p>目前，DeepSeek也已经提供官方DeepSeek Harness桌面版。DSH Desktop属于独立社区项目，其兼容性取决于客户端所搭载的DeepSeek Harness运行时版本。</p>
+<h2><strong>二、给Agent补上眼睛和双手！看图、搜索、操作浏览器</strong></h2>
+<p>如果说前面几款插件主要在改造DeepSeek Harness的使用界面，接下来这三款则直接给Agent增加了新本领。看不懂图片，就接入视觉引擎；没法联网，就补上搜索工具；需要操作网页，还有插件能替它点击和填写表单。</p>
+<p><strong>5、ModLens：给纯文本模型外挂一双“眼睛”</strong></p>
+<blockquote><p>https://github.com/liustack/modlens</p></blockquote>
+<p>当用户发来一张界面截图，底层模型却无法直接理解图片时，该怎么办？ModLens提供了一种解决办法：<span style="color: #0f59a4;"><strong>通过外部视觉引擎分析图片，再把OCR识别结果、页面布局和图像语义等信息转换成结构化数据，供Agent使用。</strong></span></p>
+<p><img class="alignnone size-full wp-image-603002" src="https://oss.zhidx.com/b89a6c88ac911be6cd233c64cdaad20d/6ada3300/uploads/2026/10/6ad85fdd58d03_6ad85fdd55e23_6ad85fdd55df5_5873422da7e1922b6929511a76fa2224.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="1113" /></p>
+<p>例如，开发者可以向DeepSeek Harness提供一张网页设计截图，让视觉服务识别其中的文字和界面结构，再交给Agent参考。</p>
+<p><span style="color: #0f59a4;"><strong>这款插件主要面向视觉能力不足或仅支持文本输入的模型</strong></span>，但需要配置相应视觉API或CLI服务，具体成本取决于所使用的视觉提供方。</p>
+<p><strong>6、ModSearch：给DeepSeek Harness补上联网搜索能力</strong></p>
+<blockquote><p>https://github.com/liustack/modsearch</p></blockquote>
+<p>ModSearch解决的是另一个常见问题：<span style="color: #0f59a4;"><strong>当底层模型不能联网时，怎样让它获取网上的实时信息？</strong></span>这款插件支持网页搜索、页面内容抓取，并能把搜索结果整理成带有来源信息的结构化数据。</p>
+<p><img class="alignnone size-full wp-image-603003" src="https://oss.zhidx.com/8462912ae5e7c18bd62f91a1a59cc06e/6ada3300/uploads/2026/10/6ad86003a1a50_6ad860039cb22_6ad860039caea_3ab3b1ef7229d0a9952e29c5680ce456.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="1047" /></p>
+<p>它可以连接Firecrawl、Keenable、Tavily、Exa等搜索服务，部分默认通道提供免密钥额度。</p>
+<p>例如，用户让DeepSeek Harness搜集某个开源项目的最新资料，插件可以帮助Agent搜索相关页面、读取网页内容，再将获取的信息交给模型处理，省去人工逐个复制网页内容的步骤。</p>
+<p>ModSearch还支持X平台搜索，但相关能力需要配合Grok Build使用，并非所有搜索通道都免费、免登录。</p>
+<p><strong>7、dsh-browser：让DeepSeek Harness直接操作浏览器</strong></p>
+<blockquote><p>https://github.com/omdsh-dev/dsh-browser</p></blockquote>
+<p>如果用户查完资料，还想让Agent帮忙点击网页、填写表单，dsh-browser就能派上用场。<span style="color: #0f59a4;"><strong>它提供了Chrome扩展与DeepSeek Harness插件的组合方案</strong></span>，让Agent通过浏览器页面结构执行导航、点击、输入等操作。</p>
+<p><img class="alignnone size-full wp-image-603005" src="https://oss.zhidx.com/cdd636626192f4fe206a1739ae14cacd/6ada3300/uploads/2026/10/6ad86025ccfd9_6ad86025ca329_6ad86025ca2e1_c15016e48def44c06119e89bb3810f4b.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="1035" /></p>
+<p>例如，用户可以让DeepSeek Harness进入一个网页，查找指定位置的信息，再根据任务要求进行后续操作。这款插件主要<span style="color: #0f59a4;"><strong>依靠页面结构获取元素信息</strong></span>，无需每次都把网页转换成截图，再交给视觉模型识别。</p>
+<p>当然，网页操作涉及授权和隐私。插件对受浏览器保护的页面存在访问限制，用户也需要谨慎设置操作权限。</p>
+<h2><strong>三、Agent干活别再“失忆”！长任务和跨会话记忆也有外挂</strong></h2>
+<p>长任务最怕干到一半，Agent把前面的事情给忘了。上下文被压缩、会话被清空，用户又得重新交代背景和进度。</p>
+<p>针对这个问题，社区开发者给出了两种方案：一种把<span style="color: #0f59a4;"><strong>计划和进度存进文件</strong></span>，另一种直接<span style="color: #0f59a4;"><strong>给Agent接入记忆系统</strong></span>。</p>
+<p><strong>8、Planning with Files：把任务计划写下来，断了还能接着干</strong></p>
+<blockquote><p>https://github.com/OthmanAdi/planning-with-files</p></blockquote>
+<p><span style="color: #0f59a4;"><strong>Planning with Files是一套面向长任务的文件化规划方案</strong></span>，目前已经适配多种AI编程Agent，并提供DeepSeek Harness专用插件。它会将任务计划、研究发现和执行进度保存到文件中，使Agent能够在后续执行时重新读取这些信息。</p>
+<p><img class="alignnone size-full wp-image-603007" src="https://oss.zhidx.com/21d1e75f2ac2c2d8ecd5d9445cacb940/6ada3300/uploads/2026/10/6ad8604ad273b_6ad8604acfa3d_6ad8604acf9da_a1340f74e2c0654fc6d264e7cd623dc6.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="1175" /></p>
+<p>比如，用户让DeepSeek Harness开发一个网站，涉及页面设计、接口开发和测试等多个环节。通过这套方案，Agent可以持续记录任务完成情况，在会话中断或上下文压缩后，再依据文件恢复进度。项目还提供任务状态检查等功能，帮助Agent判断各个阶段是否真正完成。</p>
+<p>这样一来，用户就不用在每次重新开启任务时，都从头向Agent解释哪些工作已经做完、接下来还要做什么。</p>
+<p><strong>9、OpenViking：接入4万Stars记忆系统，帮Agent找回往事</strong></p>
+<blockquote><p>https://github.com/volcengine/OpenViking</p></blockquote>
+<p>Planning with Files主要负责保存任务计划，而OpenViking进一步瞄准了Agent的记忆问题。<span style="color: #0f59a4;"><strong>OpenViking由火山引擎开源，是一套面向Agent的上下文与记忆管理系统，提供记忆、知识检索和Skills管理能力。</strong></span></p>
+<p><img class="alignnone size-full wp-image-603008" src="https://oss.zhidx.com/b5e9ebe12dfa373e07ffac63cd534b13/6ada3300/uploads/2026/10/6ad8605dea572_6ad8605de7aeb_6ad8605de7aaf_b2f2c66697223e30f6546a2d324473d1.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="976" /></p>
+<p>它已经提供DeepSeek Harness专用记忆插件，可以记录会话信息，在后续任务中检索并召回相关内容。</p>
+<p>例如，用户之前向Agent交代过一个项目的技术背景，再次打开新会话时，记忆系统可以帮助Agent找回相关资料，减少重复输入。</p>
+<p>不过，OpenViking的接入门槛相对更高，除了安装DeepSeek Harness插件，还需要配置能够访问的OpenViking服务。</p>
+<h2><strong>四、10万Stars项目也来了！设计、简历、编程都有专用方案</strong></h2>
+<p>还有一批开发者，直接把已经成熟的开源工具接进DeepSeek Harness。这些工具有的已经积累数万Stars，原本就有自己的产品和用户群。通过适配DeepSeek Harness，它们又多了一种由AI Agent参与操作的方式。</p>
+<p><strong>10、OpenDesign：超10万Stars的AI设计工作台</strong></p>
+<blockquote><p>https://github.com/nexu-io/open-design</p></blockquote>
+<p>这是本次盘点中GitHub<span style="color: #0f59a4;"><strong>热度最高</strong></span>的项目。OpenDesign是一款开源AI设计工作台，支持制作网页、交互原型、应用界面、仪表盘和演示文稿等内容。</p>
+<p><img class="alignnone size-full wp-image-603010" src="https://oss.zhidx.com/5b18676dde40d8791f43d4b15e106a02/6ada3300/uploads/2026/10/6ad8606f3f8c8_6ad8606f3c1d0_6ad8606f3c1a1_fcbe1e92b3e039a1046e9de4388cdcd6.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="1193" /></p>
+<p>用户可以在工作台中提出设计需求，结合AI Agent生成和修改作品，并通过可视化界面继续调整。</p>
+<p><img class="alignnone size-full wp-image-603011" src="https://oss.zhidx.com/5d9c33f39f172e817d1a0d42a52b164b/6ada3300/uploads/2026/10/6ad860819fa19_6ad860819bfb5_6ad860819bf81_35c79768db8518c3f29ab09bf3aa3b05.jpg" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="362" /></p>
+<p>OpenDesign支持连接多种编程Agent，其中就包括DeepSeek Harness。根据项目接入文档，它能够调用用户已安装的DeepSeek Harness，并通过专门的运行时适配组件进行通信，让DeepSeek Harness参与设计工作流。</p>
+<p><strong>11、Reactive Resume：4万多Stars的简历工具，让Agent来帮忙</strong></p>
+<blockquote><p>https://github.com/reactive-resume/reactive-resume</p></blockquote>
+<p>在一众面向程序员的插件中，Reactive Resume算是一个比较接地气的项目。它原本是一款开源简历制作工具，支持简历创建、编辑和管理。现在，项目提供了专用DeepSeek Harness插件，通过MCP服务将简历管理能力接入Agent。</p>
+<p><img class="alignnone size-full wp-image-603012" src="https://oss.zhidx.com/a2f4d81714c3cd0769c4192312467123/6ada3300/uploads/2026/10/6ad8609116012_6ad8609113174_6ad8609113132_dcc4db667be75b448966c2ae9821107a.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="1182" /></p>
+<p><span style="color: #0f59a4;"><strong>用户可以直接在DeepSeek Harness对话中读取已有简历、创建新简历或修改简历内容</strong></span>，不用每次都自己打开简历编辑界面逐项调整。</p>
+<p>比如，用户想针对一个岗位修改项目经历，就可以让Agent读取简历内容，根据要求调整相关描述，再通过工具接口保存修改结果。</p>
+<p>这一方案需要配置Reactive Resume的API密钥，具体操作能力也取决于其服务接口。</p>
+<p><strong>12、DeepSeek Reasonix：把另一个编程Agent招来当帮手</strong></p>
+<blockquote><p>https://github.com/esengine/DeepSeek-Reasonix</p></blockquote>
+<p>最后这款项目主要面向有复杂开发需求的用户。DeepSeek Reasonix是一款独立的AI编程Agent，支持处理软件工程任务。</p>
+<p>其开发者提供了DeepSeek Harness接入方案，通过Agent Client Protocol（ACP）协议，让Reasonix以子Agent的形式接受DeepSeek Harness分配的任务。</p>
+<p><img class="alignnone size-full wp-image-603014" src="https://oss.zhidx.com/e94d65af5ed26fc686f5535de7b18756/6ada3300/uploads/2026/10/6ad860b3979ed_6ad860b394a01_6ad860b3949cc_4ec71c52cdcf3302bed3fc6fc7f97311.png" alt="DeepSeek Harness不可错过的12款神器！还有崔添翼推荐的" width="1000" height="587" /></p>
+<p><span style="color: #0f59a4;"><strong>例如，DeepSeek Harness在处理一个较复杂的软件项目时，可以把其中一部分编程任务交给Reasonix执行，再接收其返回的结果。</strong></span></p>
+<p>该方案已针对DeepSeek Harness 0.2.1-rc.2进行验证。接入时需要预先安装Reasonix、配置模型服务，并使用与DeepSeek Harness宿主版本匹配的ACP组件。</p>
+<h2><strong>结语：民间插件越做越多，怎么管理成了新问题</strong></h2>
+<p>这12个项目只是DeepSeek Harness第三方生态的一部分。插件多了之后，新的麻烦也随之出现。</p>
+<p>DeepSeek Harness本身还在持续迭代，部分插件可能因为宿主版本升级而无法正常运行。不同插件的安装方式、依赖环境和权限要求也不一样，用户找到了想用的功能，未必就能顺利装上。尤其是能够读取本地文件、执行命令或操作浏览器的插件，还涉及权限和安全问题。</p>
+<p>目前，DeepSeek Harness已经推出实验性的插件发现机制。接下来，官方插件市场如何建设，能否让用户更方便地找到兼容、可信的插件，值得继续关注。</p>
+<p>从目前这批项目来看，DeepSeek Harness的“一切皆插件”，已经吸引了一批社区开发者动手实践。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/602940.html</link>
+<pubDate>Wed, 21 Oct 2026 17:42:30 +0800</pubDate>
+<source>智东西</source>
+<author>江 宇</author>
+</item>
+<item><title><![CDATA[Muse豆包遭集体“拉黑”，AI还能替我办事吗？]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/d40b2bc2a9b61d186df574d5a95e8d2d/6ada3300/uploads/2026/10/6ad7261033861_6ad7261030805_6ad72610307b0_%E6%96%B0%E6%99%BA%E4%B8%9C%E8%A5%BF%E5%A4%B4%E6%9D%A1%E5%A4%B4%E5%9B%BE%E6%A8%A1%E6%9D%BF.png?x-oss-process=image/resize,m_fill,w_1024,h_436"><strong>智东西</strong><br />
+<strong>作者 | 李水青</strong><br />
+<strong>编辑 | 心缘</strong></p>
+<p>近期，<span style="color: #0f59a4;"><strong>个人智能体（Agent）</strong></span>刚爆火就撞上“<span style="color: #0f59a4;"><strong>门禁</strong></span>”。</p>
+<p>Meta在9月初用Muse打响个人Agent第一枪，而后OpenAI的Dots、阿里“千问Go”、字节“Spell”、腾讯LightVela等相继跟进，个人Agent创企Instinct完成10亿美元融资……赛道骤然升温。</p>
+<p><span style="color: #0f59a4;"><strong>然而，互联网平台并不“开门”：</strong></span>Muse等Agent被亚马逊、本地服务点评平台Yelp、电商交易平台eBay、达美航空、阿迪达斯、摩根大通等限制或封禁访问；xAI的Grok、OpenAI的Dots和Instinct的相关服务也遇到亚马逊等平台的拦截。xAI的创始人埃隆·马斯克回应说，也许“我们应该创办一家与亚马逊竞争的公司”。</p>
+<p><img class="alignnone size-full wp-image-602591" src="https://oss.zhidx.com/d2786623e3c09327c8982221c1198c7b/6ada3300/uploads/2026/10/6ad7261b56975_6ad7261b52fd6_6ad7261b52f96_ScreenShot_2026-10-20_161214_742.png" alt="Muse豆包遭集体“拉黑”，AI还能替我办事吗？" width="1304" height="576" /><br />
+▲马斯克在X平台上回应Grok“办事”被亚马逊阻拦</p>
+<p>国内，相似的AI“门禁”现象也在发生。10月14日，<span style="color: #0f59a4;"><strong>豆包手机助手</strong></span>发布公告，包括微信、淘宝、支付宝、美团、Kimi、DeepSeek在内的<span style="color: #0f59a4;"><strong>155款</strong></span>App拒绝其自动化操作。虽然豆包手机助手更聚焦AI手机侧落地，技术架构不同，但涉及的核心矛盾有相似之处。</p>
+<p>AI公司希望Agent全权代用户上网办事，平台却因规则、商业利益和安全风险选择拦截。落到用户体验上，就是<span style="color: #0f59a4;"><strong>AI订餐、买票、购物等任务的跨网通办无从谈起。</strong></span></p>
+<p>为此，Meta和硅谷AI Infra厂商Sierra等牵头紧急推“个人Agent协议”，试图化解平台拦截，但OpenAI、Anthropic暂未入局，一场更深层的利益重分配谈判暗流涌动……</p>
+<p>个人Agent这第一道“门禁”如何过？成为全球产业关注的新焦点。</p>
+<h2><strong>一、Muse吃亚马逊闭门羹，豆包手机助手被155款App拒操作</strong></h2>
+<p>最近几周，Meta的Muse、xAI的Grok、OpenAI的Dots和Instinct等服务的用户反馈称，他们的AI Agent在一些热门网站上无法执行任务。</p>
+<p>有人反映，eBay因为他们使用了AI助手而封禁了他们的账户；还有人抱怨说，谷歌在Instinct帮他们清理Gmail收件箱时将其踢出了系统；由用户称，阿迪达斯官网拒绝了其Muse的购物需求。</p>
+<p><img class="alignnone size-full wp-image-602592" src="https://oss.zhidx.com/a88709beff999694f4169a3eea322316/6ada3300/uploads/2026/10/6ad7261c9d657_6ad7261c9a52d_6ad7261c9a4e9_ScreenShot_2026-10-20_160121_586.png" alt="Muse豆包遭集体“拉黑”，AI还能替我办事吗？" width="1284" height="1346" /></p>
+<p>其中最值得关注的是“当红炸子鸡”Muse的“遭遇”。这是Meta于9月8日上线的能跨网站办事的个人Agent产品，上线当日带动其股价上涨超11%，仅用13天便登顶美区App Store免费榜，达到同期ChatGPT上线初期日活的近3倍，从而带动全球头部玩家在数周内密集入场。</p>
+<p><img class="alignnone size-full wp-image-602590" src="https://oss.zhidx.com/9c0101837a6cdccbeb98dd55075d775c/6ada3300/uploads/2026/10/6ad726192da06_6ad726192a6b3_6ad726192a680_ScreenShot_2026-10-20_161918_407.png" alt="Muse豆包遭集体“拉黑”，AI还能替我办事吗？" width="1296" height="992" /></p>
+<p>据外媒The Verge报道，Muse最近遭到了亚马逊的抵制，亚马逊称其“持续访问”违反了网站政策。xAI的Grok、Instinct的AI助手以及OpenAI的Dots也无法访问亚马逊。</p>
+<p>美国本地生活点评平台Yelp相关人士告诉外媒TechCrunch，他们只允许付费使用其数据许可计划的AI Agent访问网站；达美航空则禁止AI Agent代表用户预订机票；摩根大通和嘉信理财也证实，出于安全考虑，他们正在阻止AI Agent访问账户。</p>
+<p>一些用户称，不少之前可以与他们的AI Agent配合使用的网站，现在也无法访问，例如美国头部汽车交易平台Cars和美国国家铁路客运公司Amtrak。在这些头部厂商的带动下，还有其他公司也在悄悄地阻止Agent访问这些网站。</p>
+<p>在国内，类似的现象也在发生。10月14日，豆包手机助手SAEP（屏幕自动化操作声明协议）结束公示，155款主流App明确拒绝自动化操作。</p>
+<p>其中，包括微信、QQ、腾讯会议、元宝、王者荣耀、WorkBuddy等66款腾讯系应用，以及淘宝、支付宝、高德地图、盒马、千问等23款阿里系应用，Kimi、DeepSeek等同行AI产品也选择关闭权限。</p>
+<p><img class="alignnone size-full wp-image-602594" src="https://oss.zhidx.com/c356cb289542195715249d9524799249/6ada3300/uploads/2026/10/6ad72676592a7_6ad72676562db_6ad726765629c_%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_2026-10-20_162842_638.jpg" alt="Muse豆包遭集体“拉黑”，AI还能替我办事吗？" width="929" height="915" />▲部分拒绝豆包手机助手访问的App</p>
+<p>个人Agent跨网站办事的前提是“全网畅通”，但互联网平台拥有拒绝AI Agent访问的权限，成为当下个人Agent落地的一个共性矛盾。</p>
+<h2><strong>二、Perplexity撞门亚马逊：官司打了，Agent门禁先例未定</strong></h2>
+<p>实际上，现在Meta、OpenAI等厂商遇上的麻烦，早已有冲突范本。</p>
+<p>去年，亚马逊就已经开始与AI Agent作斗争，它禁止了Perplexity的Agent购物功能，并起诉了这家AI初创公司，这引发了人们对网络Agent未来发展的法律和实践问题的思考。</p>
+
+<p>事件发生时，亚马逊对外宣称，平台已经多次向Perplexity提出要求：禁止Perplexity的AI Agent程序在亚马逊网站上执行购物下单操作。亚马逊同时补充，代为客户采购商品的第三方企业，必须做到运营透明，并且尊重平台服务商的接入选择权。</p>
+<p>Perplexity对此作出回应：亚马逊抵制AI Agent在站内自主活动，根源在于AI Agent选购商品会降低亚马逊平台广告曝光量，广告收入承压是亚马逊的核心顾虑。Perplexity将自家AI Agent定义为用户的延伸，并且反驳，亚马逊并不承认用户有权委托助手、Agent工具代表自己完成操作。</p>
+<p><img class="alignnone size-full wp-image-602595" src="https://oss.zhidx.com/f7a64ad312abcb30c139c5da0b1029cb/6ada3300/uploads/2026/10/6ad726dab1467_6ad726daae44e_6ad726daae428_images.jpeg" alt="Muse豆包遭集体“拉黑”，AI还能替我办事吗？" width="678" height="452" /></p>
+<p>可以看到，两边的诉求非常明确：平台方亚马逊需要维护平台服务条款和透明，深层是希望避免自身广告、交易链路收益受冲击；而AI方Perplexity则认为Agent是用户本人的数字代理人，用户有权雇助手替自己操作。</p>
+<p>尽管一位法官后来下令Perplexity停止其AI Agent在其网站上购物，但上诉法院在8月份推翻了这一裁决。亚马逊随后提交了修改后的诉状。</p>
+<p>总的来说，这件事本身没有落定结论，法律边界模糊。</p>
+<p>一位互联网业内人士告诉我们，超级App的商业模式建立在用户停留、信息流广告、交易链路之上；如果Agent一键直达结果、跳过首页、推荐流，平台会丢失曝光、数据主权、交易抽成，安全是表层理由，流量利益是核心矛盾。</p>
+<h2><strong>三、巨头的折中路线：Meta绕道沃尔玛，阿里先扫好自家院子</strong></h2>
+<p>这场旷日持久的法律纠纷，并没有阻止OpenAI、Meta和谷歌推出各自的智能助手。但它们也面临着与Perplexity相同的问题。</p>
+<p>这是否会影响人们对Anthropic和OpenAI的故事和估值的看法？</p>
+<p>“绝对会。”AI安全评估机构EquiStamp的首席执行官Chris Canal告诉The Verge，因为它们的核心卖点就是“随便帮你在网上做事”，能干的网站变少，产品吸引力大幅下降。</p>
+<p>本月初，Meta就一些网站屏蔽Muse一事发表了声明。该公司称：“拒绝个人Agent就等于拒绝其背后的客户。我们宁愿与企业合作解决根本问题，也不愿看到他们失去客户。”</p>
+<p>那么眼下问题何解？</p>
+<p>Meta选择了定向打通的折中路线。他们没有像Perplexity一样与亚马逊直接对抗，而是与沃尔玛、Gap、丝芙兰、百思买等零售商合作，使得Muse能在这些网站上购物。与此同时，全球头部电商建站服务商Shopify也向AI Agent开放了其线上商城网络。</p>
+<p>OpenAI、谷歌等厂商还未表态。The Verge已联系OpenAI和谷歌，就其AI Agent面临的障碍征求意见，但尚未收到回复，Instinct也拒绝置评。</p>
+<p>国内个人Agent厂商的应对方式异曲同工，都是选择部分打通。</p>
+<p>阿里选择先在自有生态中实现办事闭环，阿里千问Go！优先在自有淘宝、支付宝生态内打通代办能力，在围墙内做管家，不强行跨外部App打通；在自家生态内可以自动价保、查航班理赔，外部App不碰，规避风控对抗。</p>
+<h2><strong>四、明门禁之外还有暗桩，Agent被当可疑分子，真人跟着遭殃</strong></h2>
+<p>即使网站没有直接禁止AI Agent，它们仍然可能与网络上无处不在的反机器人系统发生冲突。</p>
+<p>Reddit上的报告显示，谷歌正在以“可疑活动”为由封禁一些使用Muse的账户；而其他用户则反映，尽管沃尔玛与Meta有合作关系，但在沃尔玛结账时仍然遇到问题。</p>
+<p>Canal补充道：“有很多机制并非专门针对Agent，而是旨在阻止试图进行诈骗或黑客攻击的机器人或程序。这些AI Agent会触发同样的防护措施。”</p>
+<p>网络架构提供商Cloudflare也为网站打击不受欢迎的AI访问者发挥了作用。继2025年推出一键屏蔽AI爬虫功能后，Cloudflare开始屏蔽那些同时抓取网站内容用于搜索索引和AI训练的爬虫，让网络免受AI机器人涌入的影响。</p>
+<p>据悉，这些机器人给互联网基础设施带来了压力，并严重扰乱了电子邮件收件箱，最终可能导致人们在购买音乐会门票、预订服务或购买某些产品时，与机器人竞争的难度比现在更大。</p>
+<p>虽然这些限制措施或许有助于阻止一些AI Agent和机器人访问网站，但Canal表示，随着越来越多的网站推出验证用户身份的界面，最终会让网络使用起来更加“烦人”。</p>
+<p>“我们可能很快就会在一个简单的杂货购物网站上看到这些限制，用户需要完成一系列繁琐的步骤来证明自己是真人，无论是使用电脑还是手机。”</p>
+<h2><strong>结语：通用跨平台个人Agent遇阻，定向打通是当下可行形态</strong></h2>
+<p>每一家AI厂商都承诺，他们的个人Agent将能帮用户完成各种任务。但如果互联网上的其他平台不配合，又该怎么办？</p>
+<p>海外由Meta、Sierra牵头推出自发的个人Agent协议，试图给Agent发身份凭证，化解平台拦截，但利益分配尚未谈妥；国内字节推出SAEP协议，试图解决Agent身份识别问题，也迎来150余款App集体“关门”。</p>
+<p>国内同时在推进Agent互联国家标准，但标准是底线框架，无法解决平台的流量、广告、商业利益冲突，背后同样叠加安全考量。</p>
+<p>无论国内国外，个人Agent的第一道门槛，都是互联网平台的访问门禁。</p>
+<p>可以预测，理想状态的通用跨App的全开放Agent短期或许很难跑通。Meta、阿里等厂商选择折中方案，通过自有生态或商业合作实现定向打通，让个人Agent的“跨网办事”能力被部分兑现，是当下更可行的形态。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/602587.html</link>
+<pubDate>Wed, 21 Oct 2026 16:42:23 +0800</pubDate>
+<source>智东西</source>
+<author>李水青</author>
+</item>
+<item><title><![CDATA[OpenAI又出手！收购生物医药AI创企，让Agent帮药企管研发]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/c855f91948d6d821abb977e99c4ec8e5/6ada3300/uploads/2026/10/6ad86690af34f_6ad86690abf69_6ad86690abf2b_%E5%A4%B4%E5%9B%BE2.png?x-oss-process=image/resize,m_fill,w_1024,h_437"><strong>智东西</strong><br />
+<strong> 编译 | 孙小雯</strong><br />
+<strong> 编辑 | 程茜</strong></p>
+<p>智东西10月21日消息，今天凌晨，OpenAI宣布已收购<span style="color: #0f59a4"><strong>美国</strong><strong>AI药物开发协作平台Orchestra Bio</strong></span>，将其团队和技术整合进生命科学业务Rosalind。</p>
+<p>Orchestra成立于2022年，主要为生物技术公司和药企提供研发管理软件，帮助团队制定研发计划、管理预算，并追踪项目进度。其创始团队曾在生物研发软件公司Benchling担任早期管理职务。</p>
+<p>OpenAI希望借此<strong><span style="color: #0f59a4">构建能够协调药物开发的智能体，帮助科研团队将研究发现转化为后续实验、决策和行动。</span></strong>截至发稿时，双方尚未披露交易金额。</p>
+<p><img class="alignnone size-full wp-image-603166" src="https://oss.zhidx.com/2edb6ea33e8421a4ccea5ffb144e616b/6ada3300/uploads/2026/10/6ad877cc5c99d_6ad877cc59185_6ad877cc5912f_OpenAI%E5%AE%98%E6%96%B9%E5%85%AC%E5%91%8A%E4%B8%AD%E8%8B%B13.png" alt="OpenAI又出手！收购生物医药AI创企，让Agent帮药企管研发" width="850" height="590" /></p>
+<p>▲OpenAI官网公告</p>
+<h2><strong>一、Orchestra用AI协调药物研发，将与OpenAI科研模型整合</strong></h2>
+<p>截至2025年8月，Orchestra<span style="color: #0f59a4"><strong>已获2000万美元融资，投资方包括a16z、8VC、Insight Partners等。</strong><span style="color: #000000">其中，8VC为其A轮融资领投方</span></span><span style="color: #000000">。</span>同年11月，Orchestra与生物技术创业社区MBC BioLabs达成合作，向社区内的初创企业推广研发管理软件。Orchestra称，其客户涉及<span style="color: #0f59a4"><strong>神经退行性疾病、癌症、代谢性疾病和生物制造等领域。</strong></span></p>
+<p>OpenAI在此次收购公告中称，在美国，一款新药从靶点发现到获批，平均需要<strong><span style="color: #0f59a4">约10至15年</span></strong>。研发团队不仅要解决科学问题，还要协调内部部门和外部合作伙伴，信息分散、环节相互依赖增加了管理难度。例如，一批药品生产失败，就可能导致临床试验延期。而Orchestra的智能体可梳理受影响的任务和时间安排，汇总相关信息、比较应对方案，供科学家和项目负责人决策。</p>
+<p>具体而言，Orchestra将整合进的Rosalind，是OpenAI面向生命科学研究的产品体系，<span style="color: #0f59a4"><strong>旨在通过AI模型和科研工具加快科学发现及药物研发。</strong></span></p>
+<p>今年4月，OpenAI发布<span style="color: #0f59a4"><strong>首款生命科学专用模型GPT-Rosalind。</strong><span style="color: #000000">该模型可<span style="color: #0f59a4"><strong>辅助生物学、药物发现和转化医学研究，涵盖化学、蛋白质工程和基因组学等领域</strong></span>。围绕这一模型，OpenAI还提供了科研工作台Rosalind Workbench，用于连接科研工具和数据，辅助研究人员分析结果、规划实验。</span></span>同期，OpenAI推出了<span style="color: #0f59a4"><strong>连接50多个科研工具和数据源的Codex生命科学研究插件</strong></span>。</p>
+<p>6月，该公司更新GPT-Rosalind，加强药物化学、基因组学和实验辅助能力。在OpenAI公布的评测中，<span style="color: #0f59a4"><strong>新版模型在辅助实验排错和优化的LabWorkBench上得分为63.2%，高于GPT-5.5的55.8%，同时少用5.3%的token</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-602957" src="https://oss.zhidx.com/1e9cfec40137254e0856b351926360bb/6ada3300/uploads/2026/10/6ad856f650f1f_6ad856f64e0ab_6ad856f64e05a_GPT-Rosalind-%E4%B8%BA%E7%9C%9F%E5%AE%9E%E4%B8%96%E7%95%8C%E5%AE%9E%E9%AA%8C%E5%AE%A4%E5%B7%A5%E4%BD%9C%E6%8F%90%E4%BE%9B%E6%9B%B4%E5%BC%BA%E6%94%AF%E6%8C%81.png" alt="OpenAI又出手！收购生物医药AI创企，让Agent帮药企管研发" width="1759" height="1170" /></p>
+<p>▲GPT-Rosalind与GPT-5.5的LabWorkBench评测对比（图源：OpenAI）</p>
+<p><span style="color: #0f59a4"><strong>OpenAI同期还展示了一套研究流程：</strong></span>模型从液体活检数据中分析分子变化，再查询靶点、抑制剂和耐药相关证据，为研究人员提供后续研究选项。各步骤及分析结果均可供专家检查。</p>
+<p><img class="alignnone size-full wp-image-602959" src="https://oss.zhidx.com/9379d3446a591d9026516e360eef00d8/6ada3300/uploads/2026/10/6ad8572807fd9_6ad8572805378_6ad857280531c_%E6%B6%B2%E4%BD%93%E6%B4%BB%E6%A3%80.png" alt="OpenAI又出手！收购生物医药AI创企，让Agent帮药企管研发" width="3840" height="2160" /></p>
+<p>▲GPT-Rosalind调用NGS分析插件处理ctDNA数据的示例（图源：OpenAI）</p>
+<p>商业化方面，GPT-Rosalind于9月结束研究预览，面向全球符合条件的机构开放，并于10月5日起计费。</p>
+<p>OpenAI称，其正与<span style="color: #0f59a4"><strong>安进、莫德纳、诺和诺德等药企，以及艾伦研究所、赛默飞等机构和企业开展合作</strong></span>。其中，与诺和诺德的合作旨在加快药物研发和商业化进程；与莫德纳的合作则通过AI协助团队分析复杂数据、规划实验。</p>
+<p>OpenAI透露，其目标是让AI在新药研发全流程中辅助科学家，包括探索研究思路、设计实验、解读结果和协调项目推进。<span style="color: #0f59a4"><strong>整合Orchestra是实现这一目标的其中一步。</strong></span></p>
+<h2><strong>二、AI企业收购交易频频，OpenAI年内已达十笔</strong></h2>
+<p>据Crunchbase统计，2026年截至9月29日，<span style="color: #0f59a4"><strong>曾获VC注资的AI公司收购其他AI创企的交易已达195起</strong><strong>，超过2025年全年。</strong><span style="color: #000000">2026年截至9月29日，OpenAI已有10笔AI相关收购</span></span><span style="color: #000000">。</span>通过收购引入专业团队、扩充产品线，正成为AI公司越来越常用的扩张方式。</p>
+<p><img class="alignnone size-full wp-image-602960" src="https://oss.zhidx.com/8a064d90c318230d7b732b81b1f8e39c/6ada3300/uploads/2026/10/6ad85761dc893_6ad85761d9811_6ad85761d97d0_AI%E5%88%9B%E4%BC%81%E6%94%B6%E8%B4%AD%E6%95%B0%E9%87%8F.png" alt="OpenAI又出手！收购生物医药AI创企，让Agent帮药企管研发" width="1080" height="550" /></p>
+<p>▲2026年截至9月29日，曾获VC注资的AI公司收购其他AI创企的交易已达195起（图源：Crunchbase）</p>
+<p><span style="color: #000000">医疗与科研应用也是模型厂商收购布局的重点方向。</span>2026年1月，OpenAI宣布收购<span style="color: #0f59a4"><strong>医疗数据公司Torch</strong></span>，并披露已收购<span style="color: #0f59a4"><strong>科研写作平台Crixet</strong></span>。同年4月，Anthropic收购<span style="color: #0f59a4"><strong>AI生物技术公司Coefficient Bio</strong></span>的消息公开，交易据报道约为4亿美元。据Crunchbase统计，截至2026年9月29日，在年内已披露金额的AI创企间收购交易中，<span style="color: #0f59a4"><strong>Anthropic收购Coefficient Bio的交易金额位列前五</strong></span>。</p>
+<h2><strong>结语：模型厂商押注新战场，竞争从模型延伸至服务</strong></h2>
+<p>OpenAI此次收购Orchestra，也反映出模型厂商的竞争正<strong><span style="color: #0f59a4">从基模研发延伸至行业应用</span></strong>，生命科学等专业领域正在成为新的竞争阵地。</p>
+<p>从科研模型、研究工具到药物开发管理软件，模型厂商正尝试覆盖药企更多工作环节，并通过整合模型与软件，争取专业市场的客户和预算。此次收购为这一布局带来了团队和产品，后续能否扩大业务，仍取决于模型厂商能否将这些能力整合成完整的服务，并与药企建立持续、深入的合作。</p>
+<p>未来，行业经验、软件服务和客户协作能力，将在模型厂商争夺专业市场的过程中占据更重要的位置。</p>
+<div class="flex flex-col">
+<div class="group/user-message flex flex-col items-end gap-2">
+<div class="w-full">
+<div class="group/user-message flex w-full flex-col gap-1 items-end">
+<div class="bg-user-message text-user-message min-w-0 max-w-(--user-chat-width) overflow-hidden break-words px-(--thread-content-margin) [&amp;_.contain-inline-size]:[contain:initial] bubble-vBnidZ py-2.5 rounded-2xl relative text-start">
+<div class="flex flex-col items-end gap-1">
+<div class="relative w-full min-w-0 text-size-chat leading-relaxed">
+<div class="">
+<div>
+<div class="text-size-chat whitespace-pre-wrap" dir="auto">来源：OpenAI、Orchestra Bio、路透社</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/602942.html</link>
+<pubDate>Wed, 21 Oct 2026 16:29:26 +0800</pubDate>
+<source>智东西</source>
+<author>孙 小雯</author>
+</item>
+<item><title><![CDATA[Muse 40天下载量超1000万，留存率成下一道大考]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/45edf91013640d043e204b3c4fe5d990/6ada3300/uploads/2026/10/6ad86790958c1_6ad8679092aea_6ad8679092ab1_Muse.jpg"><strong>智东西</strong><br />
+<strong> 编译 | 栗子</strong><br />
+<strong> 编辑 | 云鹏</strong></p>
+<p>智东西10月21日消息，据CNBC等美国媒体报道，Meta旗下AI助手Muse自当地时间9月8日上线以来，下载量持续攀升。</p>
+<p>据市场情报机构Sensor Tower的数据，Muse全球下载量已达1090万次，其中美国市场贡献1020万次。</p>
+<p>上线40天美国下载量突破1000万，使Muse成为少数达到这一里程碑的移动应用之一。</p>
+<h2>一、40天1000万美国下载，此前只有11款应用做到</h2>
+<p>Sensor Tower高级洞察分析师卡拉·李（Kara Lee）称，迄今为止只有11款其他应用在发布后40天内达到过美国下载量1000万的门槛。</p>
+<p>最近一个（2023年7月）是Meta自家的Threads，其是Meta在2023年7月推出的社交应用，直接对标X，主打文字帖子、图片和短视频，与Instagram账号体系打通。其余大多为移动游戏，如《堡垒之夜》《PUBG Mobile》《宝可梦GO》等。</p>
+<p>与竞争对手相比，Muse的早期美国下载量明显领先。ChatGPT上线40天美国下载量为370万，Grok为50万，Claude为20万。不过在全球范围内，ChatGPT同期约1500万下载量仍高于Muse。</p>
+<p>但Sensor Tower指出，这一对比并不完全对等，因为Muse目前仅在美国和加拿大上线，而ChatGPT同期已覆盖日本、巴西、德国等市场。其中，仅日本一国就占ChatGPT全球安装量的25%。</p>
+<h2>二、留存率高于AI竞品，日活突破250万</h2>
+<p>除下载量之外，Muse在留存和活跃度上的表现也优于同类AI应用。Sensor Tower数据显示，Muse在美国的7日留存率为30%，14日留存率为23%。相比之下，ChatGPT、Claude、Grok等竞品的平均7日留存率为19%，14日留存率为16%。</p>
+<p>10月16日，Muse日活跃用户首次达到250万，过去七天日活环比增长15%。对一款上线仅一个多月的AI应用来说，这个增速说明它不只是被下载，还有相当一部分用户在持续使用。</p>
+<p>从榜单方面看，自上线以来，Muse几乎一直占据美国App Store免费榜第一（仅在10月19日被流媒体应用Kick短暂超越，随后又重新夺回榜首）。过去30天，它同样位居Google Play榜首。</p>
+<p>下载榜和日活榜同时靠前，说明Muse的热度不是靠一次性的推广冲量，而是有一定持续性的用户活跃在支撑。</p>
+<h2>三、Meta的推法？跨应用导流+广告加码</h2>
+<p>Muse的快速增长，与Meta的推广能力直接相关。Meta将Muse与其社交产品体系打通，借助Facebook、Instagram等应用向用户导流。</p>
+<p>Sensor Tower数据显示，Meta在10月将总广告支出的39%用于推广Muse，高于9月的23%。换句话说，Meta每花出去五美元的广告费，就有近两美元砸在Muse上，并且推广力度在一个月内明显加码。</p>
+<p>大力推广的效果，直接体现在曝光量上。</p>
+<p>10月Muse在美国广告曝光量品牌排名中升至第21位，而9月还排在第73位。一个月内从70名开外冲进前25名，说明Meta不是“小步试水”，而是在集中资源把Muse往美国大众用户面前推。而同期，ChatGPT、Claude等竞品并没有出现同等量级的广告投放。</p>
+<p>Meta推的不只是一个新应用，也是它在AI助手赛道上的存在感。但下载和留存是两件事。广告可以把人拉进来，能不能留住，则取决于产品是否持续有用。</p>
+<p>Muse目前的7日留存率是30%，高于ChatGPT、Claude、Grok的平均水平，说明初期体验不差。</p>
+<p>但初期热度往往带有尝鲜成分，真正的考验在于当广告曝光回落、新鲜感过去，用户是否还会主动打开并习惯使用它？AI应用的长期黏性，最终取决于它能否成为日常任务的一部分，而不是一个被反复推荐、偶尔点开的应用。</p>
+<h2>四、华尔街预期强劲，2030年最高贡献360亿美元收入</h2>
+<p>Muse的早期表现，让华尔街给出了较为激进的增长假设。</p>
+<p>德意志银行分析师本杰明·布莱克（Benjamin Black）预计，到2030年Muse可能贡献Meta收入的8%，约合360亿美元（约合2418.9亿元人民币）。即使在较保守的预测下，也能带来24亿美元（约合161.3亿元人民币）的销售额。</p>
+<p>布莱克在报告中称，Meta在当前AI智能体产品中有独特优势，其将移动应用生态、面向消费者的无缝界面、自主完成交易的能力、大部分功能免费、以及常驻虚拟机的始终在线特性组合在一起，使得它在当下的市场中几乎没有直接对标的产品。</p>
+<p>与此同时，OpenAI的ChatGPT却在美国市场出现“降温”迹象。</p>
+<p>Sensor Tower数据显示，过去30天ChatGPT美国下载量较前一个30天周期下降25%。有意思的是，这一下滑发生在Muse快速增长的同一时间窗口内。两者在美国市场的此消彼长，成为外界观察AI助手竞争格局的一个切口。</p>
+<p>Meta将于本周三美股盘后发布财报。对投资者来说，Muse的早期下载和留存数据，很可能会成为财报电话会上被追问的话题之一。它到底是一个短期冲量的营销产物，还是能沉淀为Meta下一个用户入口？</p>
+<p>而对Meta来说，Muse的意义不只是又一个高下载量应用。因为ChatGPT已经在美国用户中建立了较强的认知，而Muse能否在这个市场里撕开一道口子，则很大程度上决定了它在AI助手这条赛道上，是继续做一个追赶者，还是有机会分走一块蛋糕？</p>
+<p>财报里的用户数据和广告支出等细节，会比下载量更能说明问题。</p>
+<h2>结语：下载量只是入场券，留存才是真正的比赛</h2>
+<p>Muse用40天在美国拿到千万下载，证明Meta推新应用的那套打法，放到AI助手上同样管用。</p>
+<p>但AI助手不是社交产品，用户不会因为它在另一个App里被反复推荐就反复打开和习惯使用。真正决定它能不能留下来的，是它到底有没有用。</p>
+<p>来源：TechCrunch、Yahoo Finance</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/603018.html</link>
+<pubDate>Wed, 21 Oct 2026 15:21:00 +0800</pubDate>
+<source>智东西</source>
+<author>栗子</author>
+</item>
+<item><title><![CDATA[永久保留缓存！OpenAI重磅更新，比DeepSeek还久？]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/fb2b58db805bd36be21b578fd93a95e9/6ada3300/uploads/2026/10/6ad83bddc344e_6ad83bddc055a_6ad83bddc051b_1%E7%9A%84.png"><strong>AI应用风向标（公众号：ZhidxcomAI）</strong><br />
+<strong>作者｜毕伟豪</strong><br />
+<strong> 编辑｜漠影</strong></p>
+<p>智东西10月21日报道，刚刚，ChatGPT和Codex负责人Tibo宣布OpenAI模型的API服务将<span style="color: #0f59a4;"><strong>提供12小时缓存保留服务选项</strong></span>，Codex和Work登录用户缓存将会<span style="color: #0f59a4;"><strong>永久保留</strong></span>。</p>
+<p><img class="alignnone size-full wp-image-602886" src="https://oss.zhidx.com/f9eeced5390e4e6c5d242f7cf7ad631e/6ada3300/uploads/2026/10/6ad838e3e3483_6ad838e3e0635_6ad838e3e05e4_6f84f6ae985ef9e5c5028dee5e49993f.png" alt="永久保留缓存！OpenAI重磅更新，比DeepSeek还久？" width="1192" height="478" /></p>
+<p>这次更新也是Tibo的<span style="color: #0f59a4;"><strong>28天计划中一项重磅升级</strong></span>，在好多天的重置以及小改进之后，Tibo终于憋了个大招出来。</p>
+<p>在发布更新之前，Tibo还发文表示看到了一些用户的额度消耗速度异常情况，并对大约40000个账户进行信用点返还。</p>
+<p><img class="alignnone size-full wp-image-602885" src="https://oss.zhidx.com/24becabba7d747f2ff4d0daf357a1036/6ada3300/uploads/2026/10/6ad838e26227a_6ad838e25eef5_6ad838e25eeb2_4d91483c01c9c83874aade62b76fc257.png" alt="永久保留缓存！OpenAI重磅更新，比DeepSeek还久？" width="1194" height="614" /></p>
+<p>从文档中来看，API一侧的缓存保留选项对GPT-5.6及以上版本模型生效，OpenAI提供默认30分钟以及12小时的缓存保留可选项，Codex和Work的永久缓存尚未发布公告。</p>
+<p>不过，12小时缓存也不是单纯延长保留时间。根据OpenAI的API文档，选择12小时缓存后，<span style="color: #0f59a4;"><strong>缓存写入价格将从未缓存输入Token价格的1.25倍升至2.5倍</strong></span>，而缓存读取价格不变。</p>
+<p><img class="alignnone size-full wp-image-602884" src="https://oss.zhidx.com/2d77103281554d070ce9f08e11908a3e/6ada3300/uploads/2026/10/6ad83879316c3_6ad838792e41c_6ad838792e3eb_9a9d833640958cc0b1c61377389aceb2.png" alt="永久保留缓存！OpenAI重磅更新，比DeepSeek还久？" width="1792" height="1318" /></p>
+<p>至于Codex和Work面向登录用户提供的“永久缓存”，目前还需要进一步确认其具体实现。</p>
+<p>永久保留缓存究竟指缓存状态的保留策略、缓存命中后的计费安排，还是面向用户的某种权益，需要结合官方对这项更新的具体说明判断。</p>
+<p>不过，从机理上推测，Codex和Work的永久缓存大概率不是真的缓存保留，<span style="color: #0f59a4;"><strong>可能是重新计算缓存时不计费</strong></span>，为用户永久保留缓存并不现实。</p>
+<p>OpenAI官方API文档明确指出，12 小时缓存设置规定的是缓存读取计费资格所对应的最短生命周期，<span style="color: #0f59a4;"><strong>并不保证每次请求都能复用已存储的KV张量</strong></span>，也不保证降低延迟。</p>
+<p><img class="alignnone size-full wp-image-602883" src="https://oss.zhidx.com/73e776bbdbec9e52467b579ef224579c/6ada3300/uploads/2026/10/6ad83876a91f4_6ad83876a47dd_6ad83876a47a5_fc3d61f51adb385b784b001b2859317a.png" alt="永久保留缓存！OpenAI重磅更新，比DeepSeek还久？" width="1800" height="516" /></p>
+<p>换言之，缓存有效期、实际缓存命中率和请求延迟是三个不同的概念，12小时的限制仅为是否按缓存命中计费的标准。</p>
+<p>从API一侧推断，相比于永久保留缓存，这次更新的永久保留更像是缓存“补贴”，用于降低用户的额度消耗。</p>
+<p>不过OpenAI这次关于缓存的更新时间也非常微妙，就在昨天，<span style="color: #0f59a4;"><strong>DeepSeek刚开源了推理框架</strong></span>，其中就包括设计目标高达3天的缓存保留，相比于OpenAI此前默认的30分钟高出太多。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/602861.html</link>
+<pubDate>Wed, 21 Oct 2026 15:00:01 +0800</pubDate>
+<source>智东西</source>
+<author>毕 伟豪</author>
+</item>
+<item><title><![CDATA[ManageEngine卓豪发布30+智能体，零Token使用成本，用于自主IT运维]]></title>
+<description><![CDATA[<p><img src="https://oss.zhidx.com/243df5cf1d5fbd2994496db2fd10eff6/6ada3300/uploads/2026/10/6ad8376a277a9_6ad8376a246e3_6ad8376a24696_%E6%88%AA%E5%B1%8F2026-10-21-11.52.04.png"><strong>智东西</strong><br />
+<strong>作者 | ZeR0</strong><br />
+<strong>编辑 | 漠影 </strong></p>
+<p>智东西10月21日报道，10月20日，国际企业IT管理解决方案企业ManageEngine卓豪面向中国市场推出<span style="color: #0f59a4;"><strong>30余款</strong><strong>Zia智雅智能体</strong></span>，并计划到2026年底扩展至<span style="color: #0f59a4;"><strong>100余款</strong></span>，旨在强化IT管理全栈能力、常规任务自动化处理能力，并实现更高效、更具自主性的业务执行。</p>
+<p>这些智能体由自研Zia智雅大模型驱动，不产生额外Token成本，直接集成在客户已使用的产品内，可直接复用各产品已有的业务运行上下文，无需额外采购AI平台或智能体工作流工具，也无需复杂配置。该系列智能体将于今年10月28日在深圳举办的ManageEngine卓豪用户大会上正式亮相。</p>
+<p>这是ManageEngine卓豪继今年5月在全球推出智能体后，面向中国市场的深度本土化落地。依托其自研的Zia智雅大模型及位于北京、上海的本地数据中心，ManageEngine卓豪正在加速中国企业IT运维的智能化升级，让企业在确保数据隐私安全的前提下，便捷使用先进AI能力，同时免除Token的额外开销。</p>
+<p>其产品全面适配国内企业IT基础设施需求，支持人大金仓数据库、麒麟和欧拉操作系统、Arm架构、东方通中间件，并兼容DeepSeek等主流模型，助力中国企业在现有技术栈内落地AI驱动的IT管理。</p>
+<p>ManageEngine卓豪已服务中国超过5000家企业，拥有100余家合作伙伴，持续加码中国市场。卓豪公司计划在未来5年内投资<span style="color: #0f59a4;"><strong>4.25亿元</strong></span>，重点布局数据中心、AI研发、技术支持与合作伙伴赋能。</p>
+<p>在发布会期间，ManageEngine卓豪全球及中国区管理团队与智东西等媒体进行交流，进一步分享了对智能体如何融入企业IT管理的思考。</p>
+<h2><strong>一、依托三大优势，让“零Token成本”成为智能运维新常态</strong></h2>
+<p>企业正从AI辅助分析阶段迈向自主执行阶段，智能体AI在企业IT管理中的重要性日益凸显。</p>
+<p>埃森哲中国调研显示，63%的中国企业已部署AI助手或AI驱动的知识管理系统，而一年前该比例仅为28%。Gartner对IT负责人的调研显示，75%的IT管理者正在试点、部署或已经落地各类AI智能体，这表明企业正加速向AI驱动的工作模式转型。</p>
+<p>然而，规模化落地智能体AI也带来了成本和数据隐私方面的全新挑战。许多AI解决方案按Token、单次操作或使用量计费，随着采用规模扩大，成本不断攀升。此外，依赖外部第三方模型可能会带来企业敏感数据泄露风险，而运行私有大模型则需要投入GPU基础设施、运维资源和专业技术人才。</p>
+<p>针对这一行业痛点，ManageEngine卓豪发布<span style="color: #0f59a4;"><strong>Zia智雅智能体</strong></span>。该智能体运行于ManageEngine卓豪自研的Zia智雅大模型上，无Token限制，不消耗积分，也无需按用量计费。</p>
+<p>通过免除AI智能体的额外成本，ManageEngine卓豪帮助企业IT团队将智能体部署到生产环境中，同时无需担忧AI成本持续攀升。</p>
+<p>据ManageEngine卓豪全球副总裁Mathivanan分享，能实现零Token成本智能体AI，主要依托ManageEngine卓豪的三大核心优势：30年的工程技术积淀，经过验证的自研AI模型，以及自有运营的基础设施。Zia智雅大模型为卓豪公司全系列产品中的AI功能提供支撑，服务超1.5亿用户，支持120余款产品。</p>
+<p>他谈道，ManageEngine卓豪希望能够让客户的数据留在内网不会泄漏出去。当客户接入DeepSeek这类公共大模型时，其数据仍能保持隐私性，同时ManageEngine卓豪配备的报警系统也会进一步保障数据隐私安全。</p>
+<p>“ManageEngine卓豪依托内部AI研发工程团队，以及北京、上海本地数据中心，致力于通过实用、专业的AI能力，帮助企业构建真正可落地的智能IT底座。我们坚信，智能化能力不该用Token或者操作次数来计量，企业不应为大规模使用AI、深度嵌入IT运维流程而承担更多成本。”Mathivanan说。</p>
+<p>ManageEngine卓豪还提供<span style="color: #0f59a4;"><strong>Zia智雅智能体构建器</strong></span>，来帮助客户构建定制AI智能体，支持：1）用低代码、无代码组件组装智能体；2）定义触发条件、执行操作和审批护栏；3）利用ManageEngine产品已有上下文；4）从工作流调用，或通过Ask Zia用自然语言调用。</p>
+<p>同时，ManageEngine卓豪通过MCP Server将自身能力以MCP API的形式开放共享，支持用户按需使用WorkBuddy等第三方智能体工具来实现更复杂的功能。</p>
+<h2><strong>二、30+智能体全栈覆盖，把排查工作缩短到分钟级</strong></h2>
+<p>ManageEngine卓豪此次推出的30余款Zia智雅智能体，深度嵌入其五大核心解决方案领域：<span style="color: #0f59a4;"><strong>全栈可观测性（FSO）、统一服务管理（USM）、统一端点管理与安全（UEMS）、身份与访问管理（IAM）、安全信息与事件管理</strong></span>，支持云、本地部署与托管服务提供商（MSP）环境，真正实现“检测‑调查‑关联分析‑问题处置‑归档”的端到端完整工作链路。</p>
+<p><img class="alignnone size-full wp-image-602882" src="https://oss.zhidx.com/11442b008a9825749dfedf3d56369d21/6ada3300/uploads/2026/10/6ad837f3311a0_6ad837f32e19a_6ad837f32e14c_%E6%88%AA%E5%B1%8F2026-10-21-11.36.42.png" alt="ManageEngine卓豪发布30+智能体，零Token使用成本，用于自主IT运维" width="1000" height="691" /></p>
+<p>本次推出的智能体包含<span style="color: #0f59a4;"><strong>根因分析智能体、应用性能监控助手、一线服务台专家、知识库文章生成助手、设备故障排查智能体和资源纳管</strong></span>等，可帮助企业自动化处理日常IT工作、加速故障响应、减少人工工作量，从而提升IT团队生产力；能够将平均故障解决时间（MTTR）缩短<span style="color: #0f59a4;"><strong>40%-60%</strong></span>，可自主处理<span style="color: #0f59a4;"><strong>40%-60%</strong></span>的一线服务台工单，将原本耗费数小时的排查工作压缩至<span style="color: #0f59a4;"><strong>分钟级</strong></span>，帮助企业实现更快的服务交付、更高效的运维，提升IT投入回报率。</p>
+<p>“据测算，大型企业每年在智能体AI推理上的成本可达20万至40万元人民币。”ManageEngine卓豪中国首席运营官李飞说，“Zia智雅大模型驱动的智能体不再收取额外的Token费用，我们希望以此帮助中国企业规模化落地AI，降低运营成本，切实帮助IT团队摆脱重复劳动，将更多精力投入到业务创新上。”</p>
+<p>Mathivanan谈道，ManageEngine卓豪的差异化优势包括实现智能体产品覆盖全业务场景、可实现内部操作的联动，以及通过分析内部系统数据进行风险预测。李飞称，ManageEngine卓豪开发的智能体在安全审计、回滚机制、安全护栏及权限设计等方面均有充分保障。</p>
+<p>全球智慧动力系统解决方案提供商福田康明斯成立19年来已累计销售296万台发动机。据福田康明斯IT经理刘元福分享，其IT系统管理面临运维复杂程度加大和安全生产要求增高两大挑战，ManageEngine卓豪产品则带来统一纳管、安全闭环、减负提效、集成合规4个关键成效。他期待Zia智雅产品能灵活应对各类运维难题，在遇到一些问题时自动做出响应。</p>
+<h2><strong>结语：数据全程留在本地数据中心，客户数据不会用于模型训练</strong></h2>
+<p>依托长期积累的IT领域能力，ManageEngine卓豪希望让AI真正进入IT运维的工作流与实际场景，帮助IT团队以更智能、更高效的方式应对日益复杂的企业IT环境。</p>
+<p>ManageEngine卓豪严格落实中国网络安全等级保护制度（MLPS）要求，确保数据“可用不可见、可控可审计”。</p>
+<p>其所有智能体均运行于自研的Zia智雅大模型之上，数据全程留存在北京和上海的双活数据中心，不向外部第三方模型传输。</p>
+<p>客户数据不会用于AI模型训练，以此保护数据机密性，确保企业使用AI时不会损害数据隐私。</p>
+<img src="https://oss.zhidx.com/0d49c4009e5e59cd60b34823b1febc14/6ada3300/uploads/2018/08/zdx_suffix.jpeg">]]></description>
+<link>https://zhidx.com/p/602388.html</link>
+<pubDate>Wed, 21 Oct 2026 12:33:33 +0800</pubDate>
+<source>智东西</source>
+<author>ZeR0</author>
+</item>
+</channel></rss>

@@ -1,0 +1,21 @@
+{
+  "raw_path": "raw/2026-10-23/7f0148dc2f1056fc567a954bffe39d4d635efad19bc1077677430cbdf22c799d.body",
+  "sha256": "7f0148dc2f1056fc567a954bffe39d4d635efad19bc1077677430cbdf22c799d",
+  "source_url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-22T22:04:12.546368+00:00",
+  "source_id": "nvidia-newsroom",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Accept-Ranges": "bytes",
+    "Date": "Thu, 22 Oct 2026 22:04:13 GMT",
+    "Content-Length": "75848",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close"
+  },
+  "final_url": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+  "truncated": false,
+  "charset": "utf-8"
+}

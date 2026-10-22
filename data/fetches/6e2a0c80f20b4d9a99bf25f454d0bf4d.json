@@ -1,0 +1,32 @@
+{
+  "raw_path": "raw/2026-10-23/579805ae3a0271ac4ddac8c7e6595f5fe70c6cb8b820b8586a3cdad9a58c8679.body",
+  "sha256": "579805ae3a0271ac4ddac8c7e6595f5fe70c6cb8b820b8586a3cdad9a58c8679",
+  "source_url": "https://vllm.ai/blog/2026-10-21-humming",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-22T22:04:19.155450+00:00",
+  "source_id": "vllm-blog",
+  "status": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "105978",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Thu, 22 Oct 2026 22:04:19 GMT",
+    "Etag": "W/\"5b4578ec597e7423176fa8d83a1401b8\"",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "X-Matched-Path": "/blog/2026-10-21-humming",
+    "X-Nextjs-Prerender": "1",
+    "X-Nextjs-Stale-Time": "300",
+    "X-Vercel-Cache": "HIT",
+    "X-Vercel-Id": "sfo1::k98qj-1792706659800-daade8acba81",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://vllm.ai/blog/2026-10-21-humming",
+  "truncated": false,
+  "charset": "utf-8"
+}

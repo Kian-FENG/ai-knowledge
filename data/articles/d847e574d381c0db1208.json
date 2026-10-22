@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/tech-industry/cyber-security/480-000-phishing-emails-sent-from-a-pc-hidden-behind-a-fridge-in-a-japanese-hotel-room-chinese-couple-arrested-over-fraud-operation-leaching-hotel-wi-fi",
+  "title": "480,000 phishing emails sent from a PC hidden behind a fridge in a Japanese hotel room",
+  "text": "A computer, found hidden behind a fridge in a Japanese hotel room, was responsible for sending around 480,000 phishing emails, Hackread reports. The computer was placed there by a Chinese couple who lived locally, and the pair have now been arrested for both the hidden phishing PC and a separate slew of purchases that were made using stolen credit card details. Ye Jiafeng, 39, and his wife, Shen Qi, 39, now face multiple charges including fraudulent obstruction of business and trespass as well as computer fraud.\nThe scam began on 15 May, 2025, when Ye connected the computer to hotel Wi-Fi and then hid it behind a fridge. There it stayed, sending around 480,000 emails. When it was discovered, the machine had around 2.4 million email addresses, presumably just waiting to be phished. The emails claimed to be from credit card companies and sent unsuspecting recipients to fake websites in an attempt to capture their credit card information. It's believed that the computer was administered remotely, allowing it to remain in situ without any in-person maintenance required.\nUltimately, the computer would likely have remained in place if the recipient of one of the phishing emails hadn't reached out to the hotel. The hotel's IP address was found in metadata linked to the messages, and staff discovered the computer before reporting it to the police. Police are still investigating whether the two scammers were the brains of the operation or simply working for someone else.\nWhile phishing was the couple's chosen scam this time around, it isn't their first foray into using technology to part victims from their cash. Ye and Shen are claimed to have used credit card details stored on a smartphone to buy items in Kobe. But that wasn't the only phone that they had — media reports claim that police found 74 of them at their home, and the couple had spent 10 million yen (around $63,000) of other people's money using stolen card details since 2024. It's unknown whether the phones found by police account for all of those that were used, or if there were others that have yet to be identified.\nPhishing has long been a lucrative option for criminals around the globe, but it has also spawned a spin-off industry recently. A China-based phishing-as-a-service operation was dismantled by the FBI earlier this year. The service made it easier for criminals to create scam sites using AI and is believed to have been responsible for almost $2 billion in losses and 3.87 million stolen credit cards.",
+  "published_at": "2026-10-22T09:30:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d847e574d381c0db1208",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-23/904af2b1f371b81a58e3345b93c3cadd00647cf7ecbd625d6ebe0cb4f96b08fe.body",
+  "source_sha256": "904af2b1f371b81a58e3345b93c3cadd00647cf7ecbd625d6ebe0cb4f96b08fe",
+  "fetched_at": "2026-10-22T22:00:36.487364+00:00"
+}

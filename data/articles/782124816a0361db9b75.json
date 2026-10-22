@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
+  "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+  "text": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...\nAI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting with frontier-class architectures that demand hundreds of gigabytes of memory. NVIDIA DGX Spark was built to bring AI development to the desk, and now you’ll be able to link even more Spark nodes together. At GTC Berlin…\nSource",
+  "published_at": "2026-10-22T16:00:00+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-21T20:23:47+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "782124816a0361db9b75",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-23/5a2d1c768c18fd042826a0fd77e1bfd21eba7bd8edb6fe619e33eb8ae8951470.body",
+  "source_sha256": "5a2d1c768c18fd042826a0fd77e1bfd21eba7bd8edb6fe619e33eb8ae8951470",
+  "fetched_at": "2026-10-22T22:00:22.583441+00:00"
+}

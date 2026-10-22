@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/22/business/media/ai-disinfo-chatbots-elections.html",
+  "title": "A.I. and Its Dangers Are Embedded In the Midterm Elections",
+  "text": "The midterms are the first elections in which artificial intelligence is integrated into every major social media platform. Efforts to blunt its harms are uneven.",
+  "published_at": "2026-10-22T17:07:44+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d68c77b171a9b8824bb2",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/e777c8b98f1763b25689226d6db97c4003a55c8540977cd14cc4e78740cca770.body",
+  "source_sha256": "e777c8b98f1763b25689226d6db97c4003a55c8540977cd14cc4e78740cca770",
+  "fetched_at": "2026-10-22T22:00:33.980204+00:00"
+}

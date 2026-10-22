@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-23/f838fcec26317e398baead8ad43d06362d8b26a8ad7474e3727aecfb896c5a31.body",
+  "sha256": "f838fcec26317e398baead8ad43d06362d8b26a8ad7474e3727aecfb896c5a31",
+  "source_url": "https://www.tencent.com/en-us/media/news.html",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-22T22:00:16.892191+00:00",
+  "source_id": "tencent-newsroom",
+  "status": 200,
+  "headers": {
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Server": "nginx",
+    "X-FastCGI-Cache": "MISS",
+    "Content-Length": "33180",
+    "Accept-Ranges": "bytes",
+    "Connection": "close",
+    "Strict-Transport-Security": "max-age=16070400;preload",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"",
+    "Date": "Thu, 22 Oct 2026 22:00:19 GMT",
+    "EO-LOG-UUID": "10393292368723760395",
+    "EO-Cache-Status": "HIT",
+    "Cache-Control": "max-age=900",
+    "NEL": "{\"success_fraction\":0.1,\"report_to\":\"eo-nel\",\"max_age\":604800}",
+    "Report-To": "{\"endpoints\":[{\"url\":\"https://nel.teo-rum.com/eo-cgi/nel\"}],\"group\":\"eo-nel\",\"max_age\":604800}"
+  },
+  "final_url": "https://www.tencent.com/newsroom/all-news/",
+  "truncated": false,
+  "charset": "utf-8"
+}

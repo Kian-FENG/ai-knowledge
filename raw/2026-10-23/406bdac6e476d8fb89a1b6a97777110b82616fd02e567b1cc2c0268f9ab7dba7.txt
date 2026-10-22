@@ -1,0 +1,33 @@
+arXiv abstract and v1 submission history only; PDF/tables/code not read.
+
+[2610.27301] Evaluating Context Compaction on the Questions That Come Later (https://arxiv.org/abs/2610.27301)
+citeturn25view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.27301","lineno":null}); Total lines: 302
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 19 Oct 2026]
+L9: # Title:Evaluating Context Compaction on the Questions That Come Later
+L10: 
+L11: Authors:【5†Junwei Yao】, 【6†Yongxi Zhou】, 【7†Zike Yang】, 【8†Zhijun Wang】, 【9†Jianan Liu】, 【10†Yanxian Chen】, 【11†Wenbo Ye】
+L12: 
+L13: View a PDF of the paper titled Evaluating Context Compaction on the Questions That Come Later, by Junwei Yao and 6 other authors
+L14: 
+L15: 【12†View PDF】 【13†HTML (experimental)】
+L16: > Abstract:Language-model agents compact their context for the question at hand, but the compacted context must also serve questions that come later. We evaluate compaction on these later questions, using four corpora that annotate the evidence of several questions per text and recorded agent trajectories, and compare every method with random deletion at the same budget.
+L17: On MultiRC, keeping the sentences that gpt-6-luna (through the OpenAI Decisions API) judges necessary for the current question raises its accuracy on that question by 11.4 points at 25% of the tokens. On the later questions, however, no method that selects sentences for the current question does detectably better than deleting sentences at random.
+L18: Deleting words instead of sentences does better: LLMLingua-2, which ignores the question, beats random sentence deletion at the same token count by 12.5 points on the later MultiRC questions. It keeps about twice random deletion's share of the evidence's content words, and at equal content-word retention its gain shrinks to 7.3 points (exploratory).
+L19: On FEVER, label accuracy can overstate what the kept text supports: the gain of sentence selection is no longer detected when answers are scored against the kept evidence, and the 21.0-point gain of LLMLingua-2 is not shown to rest on the kept text.
+L20: The ranking also depends on the setting: on Evidence Inference sentence selection beats LLMLingua-2 at a nominal 25% budget, and on $\tau$-bench trajectories, whose later tool calls need exact identifiers, it beats random deletion while LLMLingua-2 shows no detected gain. Scores on the question a compaction was made for do not reliably show how it serves later ones.
+L21: Subjects:  | Computation and Language (cs.CL); Artificial Intelligence (cs.AI)
+L22: Cite as:  | 【14†arXiv:2610.27301】 [cs.CL]
+L23:    | (or 【15†arXiv:2610.27301v1】 [cs.CL] for this version)
+L24:    | 【16†https://doi.org/10.48550/arXiv.2610.27301†doi.org】 arXiv-issued DOI via DataCite (pending registration)
+L25: ## Submission history
+L26: 
+L27: From: Junwei Yao [【17†view email】]
+L28: [v1] Mon, 19 Oct 2026 21:15:56 UTC (502 KB)

@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.29497",
+  "title": "How Not to Be Censored: Inclusion Safety in Client-Led Consensus",
+  "text": "arXiv:2610.29497v1 Announce Type: new\nAbstract: Blockchain consensus protocols implicitly follow a client-server architecture: validators are the only active participants, while clients (i.e., users) merely submit transactions and rely on validators to include them. This abstraction obscures a fundamental question: what should a client do to guarantee the timely inclusion of its own transaction? We study this question by introducing a leaderless consensus protocol in which clients are active. We define inclusion safety: the guarantee that a client's transaction enters some of the blocks produced for an epoch, and that every block omitting it belongs to a fork that is eventually abandoned. Because every transaction carries a reference to a block of the previous epoch, clients help select the surviving fork. This yields two paths to inclusion: reaching sufficiently many honest replicas within an epoch, or relaying a block containing the transaction across epochs until the corresponding fork becomes canonical. In a generalized model spanning synchrony and asynchrony, the client's and the replicas' connectivity are substitutes for inclusion safety: it is achieved either if the client is well connected, or if the client is poorly connected but honest replicas communicate reliably, provided the client reaches at least one of them. However, the substitution is imperfect: when inclusion safety rests on the replicas' connectivity, it requires a longer epoch compared to when the client is well connected.",
+  "published_at": null,
+  "announced_at": "2026-10-22T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "908746baa27118e3d918",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-23/e4a342cf3284123fee89388a7421ab292865d7dcb1aea749884ab1174fcc1848.body",
+  "source_sha256": "e4a342cf3284123fee89388a7421ab292865d7dcb1aea749884ab1174fcc1848",
+  "fetched_at": "2026-10-22T22:00:22.348797+00:00"
+}

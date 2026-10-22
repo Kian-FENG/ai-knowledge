@@ -1,0 +1,18 @@
+{
+  "url": "https://blogs.nvidia.com/blog/dsx-power/",
+  "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+  "text": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem. Power is now the biggest bottleneck in infrastructure. More than $300 billion […]",
+  "published_at": "2026-10-22T05:00:25+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "6f92d29565569592ae8a",
+  "source_id": "nvidia-newsroom",
+  "source_name": "NVIDIA Newsroom",
+  "section": 5,
+  "raw_path": "raw/2026-10-23/f0fb5b9e462e6bccbb1e2e7c52ac28c9b87446ecc247a7f1f43bd6f03c5d4ac9.body",
+  "source_sha256": "f0fb5b9e462e6bccbb1e2e7c52ac28c9b87446ecc247a7f1f43bd6f03c5d4ac9",
+  "fetched_at": "2026-10-22T22:00:17.445640+00:00"
+}

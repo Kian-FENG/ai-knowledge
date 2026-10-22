@@ -1,0 +1,33 @@
+arXiv abstract and v1 submission history only; PDF/tables/code not read.
+
+[2610.27379] DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding (https://arxiv.org/abs/2610.27379)
+citeturn25view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://arxiv.org/abs/2610.27379","lineno":null}); Total lines: 165
+L0: 【0†Search】 【1†Submit】 【2†Donate†info.arxiv.org】 【3†Log in】
+L1: 
+L2: Search arXiv [Input: Search papers by title, author, abstract, or ID...] [Input] [Input]
+L3: 
+L4: Press Enter to search · 【4†Advanced search】
+L5: 
+L6: # Computer Science > Computation and Language
+L7: 
+L8: [Submitted on 19 Oct 2026]
+L9: # Title:DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding
+L10: 
+L11: Authors:【5†Shreyas Kulkarni】, 【6†Uttam Gurram】, 【7†Madhav Kanda】, 【8†Krishna Teja Chitty Venkata】, 【9†Shichu Chen】, 【10†Kartik Balasubramaniam】, 【11†Supriyo Chakraborty】, 【12†Sambit Sahu】
+L12: 
+L13: View a PDF of the paper titled DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding, by Shreyas Kulkarni and 7 other authors
+L14: 【13†View PDF】
+L15: > Abstract:Block-diffusion speculative decoding accelerates large language model inference by drafting multiple tokens in parallel. However, one-step drafting in discrete diffusion is limited by token factorization error: each token is predicted from the same masked block, without conditioning on the tokens selected at other positions in that step. This can produce inconsistent drafts and reduce acceptance length.
+L16: Iterative refinement mitigates this limitation by conditioning later predictions on previously committed tokens, though additional passes increase drafting cost. To address this trade-off between draft fidelity and inference latency, we introduce DStill, a two-stage framework that distills a target-conditioned drafter's own multi-step refinement into one-step drafting.
+L17: We first train the drafter to complete partially revealed blocks, then use its refinement trajectories to train a student to predict the final completion in one pass. Using a curriculum that gradually transitions from partial to fully masked inputs, we successfully transfer the multi-step refinement capabilities into one step.
+L18: Across reasoning, math, code benchmarks on three model families DStill improves acceptance length by up to 28% and speedup by up to 25% over one-step DFlash, achieving up to 6.45x speedup over auto-regressive decoding.
+L19: Subjects:  | Computation and Language (cs.CL); Machine Learning (cs.LG)
+L20: Cite as:  | 【14†arXiv:2610.27379】 [cs.CL]
+L21:    | (or 【15†arXiv:2610.27379v1】 [cs.CL] for this version)
+L22:    | 【16†https://doi.org/10.48550/arXiv.2610.27379†doi.org】 arXiv-issued DOI via DataCite (pending registration)
+L23: ## Submission history
+L24: 
+L25: From: Shreyas Kulkarni [【17†view email】]
+L26: [v1] Mon, 19 Oct 2026 23:05:16 UTC (70 KB)
+L27: 
+L28: Full-text links:

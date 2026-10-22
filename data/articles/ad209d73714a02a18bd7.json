@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159756.htm",
+  "title": "服务器CPU出货明年再涨四成！英特尔新品却还在延后",
+  "text": "快科技10月22日消息，集邦咨询发布AI服务器产业研究，预估服务器CPU出货量2026年同比增长31%，2027年在AI推理需求带动下再涨超过40%。\n增长的理由在推理，AI Agent（智能体）类应用铺开之后，服务器上的推理负载明显变重，而推理不只是GPU算矩阵，还要调度任务、调用工具、管理上下文，这些活主要落在CPU上。\n配比的变化最能说明问题，集邦咨询指出，服务器机柜里CPU与GPU、ASIC的数量比，过去是1比8，也就是8颗加速芯片配1颗CPU，接下来会往1比2甚至1比1走，按这个趋势，同样的加速卡规模需要多出几倍CPU。\n现在的盘子还是x86的，2025年以英特尔、AMD为主的x86阵营占了近90%的市场，AMD的份额已有提升，基于Arm架构的产品市占率刚过10%。\n英特尔这边遇到了坎,新品在制程和封装阶段要做调整，出货时程往后延，目前靠既有的Emerald Rapids和Granite Rapids两条产品线支撑，产能紧张，整体出货成长受到拖累。\nAMD的新一代Venice已在2026年进入小规模量产，出货主力还是Genoa和Turin，加单受台积电产能紧绷限制，但集邦咨询预估其2026年服务器CPU市占会明显升到27%左右。\nArm这边的阵容厚得多，亚马逊云科技的Graviton持续导入，英伟达Grace需求扩张，谷歌自研Axion进入大量出货阶段，微软Cobalt 100和Arm自研的AGI也进入量产，2026年Arm阵营的出货成长会快过x86，市占率突破20%。\n再往后一年，集邦咨询预估Arm的份额会扩到30%，动能来自英伟达Vera的大规模出货，谷歌、亚马逊云科技、微软、OpenAI、Arm、华为的新CPU陆续进入量产，以及阿里巴巴倚天720、730的带动。\nx86那边，英特尔新品仍处于小量释放阶段，AMD出货更稳，加上2027年上半年还有新品，份额会继续往上走。",
+  "published_at": "2026-10-22T17:33:30+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ad209d73714a02a18bd7",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c.body",
+  "source_sha256": "d5a63261f5f45d6eec38ad11beeb17de99400ec89460699f7b345fca4e54e87c",
+  "fetched_at": "2026-10-22T22:00:48.253488+00:00"
+}

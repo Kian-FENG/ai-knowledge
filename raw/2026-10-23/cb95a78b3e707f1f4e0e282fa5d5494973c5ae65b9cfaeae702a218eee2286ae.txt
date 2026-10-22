@@ -1,0 +1,614 @@
+meta-models/Muse-Spark-Open-816B-A42B · Hugging Face (https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B)
+citeturn10view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","lineno":null}); Total lines: 498
+L0: [Input: Search models, datasets, users...]
+L1: 
+L2:   * 【0†Models】
+L3:   * 【1†Datasets】
+L4:   * 【2†Spaces】
+L5:   * 【3†Buckets new】
+L6:   * 【4†Docs】
+L7:   * 【5†Enterprise】
+L8:   * 【6†Pricing】
+L9:   *     * Website
+L10: 
+L11:       * 【7†Tasks】
+L12:       * 【8†HuggingChat】
+L13:       * 【9†Collections】
+L14:       * 【10†Languages】
+L15:       * 【11†Organizations】
+L16:     * Community
+L17:       * 【12†Blog】
+L18:       * 【13†Posts】
+L19:       * 【14†Daily Papers】
+L20:       * 【15†Hardware】
+L21:       * 【16†Learn】
+L22:       * 【17†Discord】
+L23:       * 【18†Forum†discuss.huggingface.co】
+L24:       * 【19†GitHub†github.com】
+L25:     * Solutions
+L26: 
+L27:       * 【5†Team & Enterprise】
+L28:       * 【20†Hugging Face PRO】
+L29:       * 【21†Enterprise Support】
+L30:       * 【22†Inference Providers】
+L31:       * 【23†Inference Endpoints】
+L32:       * 【3†Storage Buckets】
+L33: 
+L34:   * * * *
+L35: 
+L36:   * 【24†Log In】
+L37:   * 【25†Sign Up】
+L38: #
+L39: 
+L40: 【26†meta-models】
+L41: 
+L42: /
+L43: 
+L44: 【27†Muse-Spark-Open-816B-A42B】
+L45: 
+L46: Like [Button: 658]
+L47: 
+L48: Follow
+L49: 
+L50: 【28†Image†cdn-avatars.huggingface.co】 Meta Inc. [Button: 2.8k]
+L51: 
+L52: 【29†Image-Text-to-Text】 【30†Transformers】 【31†Safetensors】 【32†PyTorch】 【33†English】 【34†muse_spark】 【35†facebook】 【36†meta】 【37†muse】 【38†muse-spark】 【39†conversational】 【40†Eval Results】
+L53: 
+L54: License: muse-model-license
+L55: 
+L56: 【27†Model card】 【41†Files xet】 【42†Community 15】
+L57: 
+L58: Deploy
+L59: 
+L60: Copy to bucket new
+L61: 
+L62: Use this model
+L63: ### Instructions to use meta-models/Muse-Spark-Open-816B-A42B with libraries, inference providers, notebooks, and local apps. Follow these links to get started.
+L64: 
+L65:   * Libraries
+L66:   * 【43†Transformers】
+L67: How to use meta-models/Muse-Spark-Open-816B-A42B with Transformers:
+L68: 
+L69:     # Use a pipeline as a high-level helper
+L70:     from transformers import pipeline
+L71: 
+L72:     pipe = pipeline("image-text-to-text", model="meta-models/Muse-Spark-Open-816B-A42B")
+L73:     messages = [
+L74:         {
+L75:             "role": "user",
+L76:             "content": [
+L77:                 {"type": "image", "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/p-blog/candy.JPG"},
+L78:                 {"type": "text", "text": "What animal is on the candy?"}
+L79:             ]
+L80:         },
+L81:     ]
+L82:     pipe(text=messages)
+L83: 
+L84:     # pip install -U transformers accelerate
+L85:     # Load model directly
+L86:     from transformers import AutoProcessor, AutoModelForMultimodalLM
+L87: 
+L88:     processor = AutoProcessor.from_pretrained("meta-models/Muse-Spark-Open-816B-A42B")
+L89:     model = AutoModelForMultimodalLM.from_pretrained("meta-models/Muse-Spark-Open-816B-A42B", device_map="auto")
+L90:     messages = [
+L91:         {
+L92:             "role": "user",
+L93:             "content": [
+L94:                 {"type": "image", "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/p-blog/candy.JPG"},
+L95:                 {"type": "text", "text": "What animal is on the candy?"}
+L96:             ]
+L97:         },
+L98:     ]
+L99:     inputs = processor.apply_chat_template(
+L100:     	messages,
+L101:     	add_generation_prompt=True,
+L102:     	tokenize=True,
+L103:     	return_dict=True,
+L104:     	return_tensors="pt",
+L105:     ).to(model.device)
+L106:     outputs = model.generate(**inputs, max_new_tokens=256)
+L107:     print(processor.decode(outputs[0][inputs["input_ids"].shape[-1]:]))
+L108:   * Inference
+L109:   * Inference Providers
+L110:   * 【44†HuggingChat】
+L111:   * Notebooks
+L112:   * 【45†Google Colab】
+L113:   * 【46†Kaggle】
+L114:   * Local Apps 【47†Settings】
+L115:   * 【48†vLLM】
+L116: 
+L117: How to use meta-models/Muse-Spark-Open-816B-A42B with vLLM:
+--------------------------------------------------------------------------------
+Visko — Live Models to predict the world (https://www.visko.ai/)
+citeturn10view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.visko.ai/","lineno":null}); Total lines: 111
+L0: 【0†Models】【1†Research】【2†News】
+L1: 
+L2: # We build Live Models to predict the world.
+L3: 
+L4: Introducing Orbis→【3†Image】Our foundation model that creates living worlds and streams them in real time.
+L5: 
+L6: Our Mission
+L7: 
+L8: ## We empower anyone to build limitless living worlds where humans and machines learn, practice, and play.We empower anyone to build limitless living worlds where humans and machines learn, practice, and play.
+L9: 
+L10: Our Mission
+L11: ## We empower anyone to build limitless living worlds where humans and machines learn, practice, and play.We empower anyone to build limitless living worlds where humans and machines learn, practice, and play.
+L12: 
+L13: ## Where worlds go live
+L14: 
+L15: ### Orbis
+L16: 
+L17: Our foundation model that creates living worlds and streams them in real time.
+L18: 
+L19:   * Generate in real-time
+L20:   * Infinite-length generation
+L21:   * Persistent memory
+L22:   * Interactive
+L23:   * Physics-grounded
+L24: 
+L25: 【4†Try Orbis】【5†Learn more】
+L26: ### Morphe
+L27: 
+L28: Our expert model that changes or animates persons in a video while keeping everything else the same.
+L29: 
+L30:   * Identity holds
+L31:   * Background persists
+L32:   * Details match
+L33: 
+L34: 【6†Try Morphe】[Button: Report coming soon]
+L35: 
+L36: ### Kinesis
+L37: 
+L38: Our expert model that adds or changes anything in a video, exactly when and where you want.
+L39: 
+L40:   * Precise element control
+L41:   * Space-time keyframes
+L42: 
+L43: 【7†Try Kinesis】【8†Learn more】
+L44: 
+L45: ## Pillars of Visko Models
+L46: 
+L47: ### Real-time generation
+L48: 
+L49: 【9†Image】
+L50: 
+L51: ### Persistent memory
+L52: 
+L53: 【10†Image】
+L54: ### Interactive
+L55: 
+L56: 【11†Image】
+L57: 
+L58: ### Infinite-length generation
+L59: 
+L60: 【12†Image】
+L61: 
+L62: ### Physics-grounded
+L63: 
+L64: 【13†Image†assets.visko.ai】
+L65: 
+L66: ### Full-duplex
+L67: 
+L68: 【14†Image†assets.visko.ai】
+L69: 
+L70: ### Real-time generation
+L71: 
+L72: 【9†Image】
+L73: 
+L74: ### Persistent memory
+L75: 
+L76: 【10†Image】
+L77: 
+L78: ### Interactive
+L79: 
+L80: 【11†Image】
+L81: 
+L82: ### Infinite-length generation
+L83: 
+L84: 【12†Image】
+L85: 
+L86: ### Physics-grounded
+L87: 
+L88: 【13†Image†assets.visko.ai】
+L89: 
+L90: ### Full-duplex
+L91: 
+L92: 【14†Image†assets.visko.ai】
+L93: 
+L94: ## Research
+L95: ### Introducing Live Models: A Frontier for World Models
+L96: 
+L97: Video models generate clips. Live Models generate worlds that keep running. Learn about the six functional pillars behind them and what they make possible.
+L98: 
+L99: 【15†Read more →】
+L100: 
+L101: 【16†Image: Introducing Visko Live Models】
+L102: ### Introducing Visko Live Models
+L103: 
+L104: Generating a frame is easy. Keeping a world alive is harder. Learn how our Live Models work today and where they are headed next.
+L105: 
+L106: 【5†Read more →】
+L107: 
+L108: 【0†Models】【1†Research】【2†News】【17†Terms of service】【18†Privacy policy】
+L109: 
+L110: © 2026 Visko Platform, Inc. All rights reserved.
+--------------------------------------------------------------------------------
+The Team Behind Kubernetes is Building AI Infrastructure (https://stacklok.com/company/)
+citeturn10view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://stacklok.com/company/","lineno":null}); Total lines: 347
+L0: Introducing Mecatl: the open cloud-native harness by Stacklok
+L1: 
+L2: 【0†Learn more†mecatl.dev】
+L3: 
+L4:   * 【1†Projects】
+L5:   * Solutions
+L6:   * Resources
+L7:   * 【2†Registry】
+L8:   * About Us
+L9: 
+L10: 【3†Demo】
+L11: 
+L12:   * 【1†Projects】
+L13:   * Solutions
+L14:     * 【4†Use Case】
+L15:       * 【5†MCP Registry】
+L16:       * 【6†MCP Gateway】
+L17:       * 【7†MCP Runtime】
+L18:       * 【8†AI Gateway】
+L19:     * 【4†Industry】
+L20:       * 【9†Financial Services】
+L21:       * 【10†Manufacturing】
+L22:       * 【11†Retail】
+L23:       * 【12†Software】
+L24:       * 【13†Telecommunications】
+L25:     * 【4†Teams】
+L26:       * 【14†Platform Engineering】
+L27:       * 【15†AI Enablement】
+L28:       * 【16†Finance】
+L29:       * 【17†HR】
+L30:   * Resources
+L31:     * 【18†Blog】
+L32:     * 【19†Docs†docs.stacklok.com】
+L33:     * 【20†Guides】
+L34:     * 【21†Case Studies】
+L35:     * 【22†Videos】
+L36:   * 【2†Registry】
+L37:   * About Us
+L38: 
+L39:     * 【23†Company】
+L40:     * 【24†Contact】
+L41: 
+L42:   * 【3†Demo】
+L43: # We’re paving the path to an agentic future
+L44: We’re building an open architecture for the next generation of AI agents, so that enterprises and developers can move freely between models and providers and stay in control of their costs, their data and their destiny. That work includes ToolHive, an open source platform for running MCP servers, and Mecatl, an open source cloud-native agent harness. We’re early, and if you want to work alongside a community-minded team with deep Kubernetes roots, come build with us.
+L45: 
+L46: 【25†Join us】
+L47: 
+L48: 【26†Image】
+L49: 
+L50: 【27†Image】
+L51: 【28†Image】
+L52: 
+L53: 【29†Image】
+L54: 
+L55: 【30†Image】
+L56: 
+L57: 【31†Image】
+L58: 
+L59: 【32†Image】
+L60: 
+L61: 【33†Image】
+L62: 
+L63: 【34†Image】
+L64: 
+L65: 【35†Image】
+L66: 
+L67: 【36†Image】
+L68: 
+L69: 【37†Image】
+L70: 
+L71: 【38†Image】
+L72: 
+L73: 【39†Image】
+L74: 
+L75: 【40†Image】
+L76: 
+L77: 【41†Image】
+L78: 
+L79: 【42†Image】
+L80: 
+L81: 【26†Image】
+L82: 
+L83: 【27†Image】
+L84: 
+L85: 【28†Image】
+L86: 
+L87: 【29†Image】
+L88: 
+L89: 【30†Image】
+L90: 
+L91: 【31†Image】
+L92: 
+L93: 【32†Image】
+L94: 
+L95: 【33†Image】
+L96: 
+L97: 【34†Image】
+L98: 
+L99: 【35†Image】
+L100: 
+L101: 【36†Image】
+L102: 
+L103: 【37†Image】
+L104: 
+L105: 【38†Image】
+L106: 
+L107: 【39†Image】
+L108: 
+L109: 【40†Image】
+L110: 
+L111: 【41†Image】
+L112: 
+L113: 【42†Image】
+L114: 
+L115: 【26†Image】
+L116: 
+L117: 【27†Image】
+L118: 
+L119: 【28†Image】
+L120: 
+L121: 【29†Image】
+L122: 
+L123: 【30†Image】
+L124: 
+L125: 【31†Image】
+L126: 
+L127: 【32†Image】
+L128: 
+L129: 【33†Image】
+L130: 
+L131: 【34†Image】
+L132: 
+L133: 【35†Image】
+L134: 【36†Image】
+L135: 
+L136: 【37†Image】
+L137: 
+L138: 【38†Image】
+L139: 
+L140: 【39†Image】
+L141: 
+L142: 【40†Image】
+L143: 
+L144: 【41†Image】
+L145: 
+L146: 【42†Image】
+L147: ## Meet our leadership team
+L148: 
+L149:   * 【43†Image: Craig McLuckie】
+L150: 
+L151: ### Craig McLuckie
+L152: 
+L153: CEO
+L154: 
+L155:   * 【44†Image: Joe Beda】
+L156: 
+L157: ### Joe Beda
+L158: 
+L159: CTO
+L160: 
+L161:   * 【45†Image: Shanis Windland】
+L162: 
+L163: ### Shanis Windland
+L164: 
+L165: COO
+L166: 
+L167:   * 【46†Image: Scott Buchanan】
+L168: 
+L169: ### Scott Buchanan
+L170: 
+L171: CMO
+L172: 
+L173:   * 【47†Image: Brian Dussault】
+L174: 
+L175: ### Brian Dussault
+L176: 
+L177: Sr. Director of Engineering and Security
+L178: 
+L179:   * 【48†Image: Derek Tu】
+L180: 
+L181: ### Derek Tu
+L182: 
+L183: Head of Product
+L184: 
+L185: ## Investors
+L186: 
+L187: 【49†Image: Accel】
+L188: 
+L189: 【50†Image: Madrona】
+L190: 
+L191: 【51†Image: Bain Capital】
+L192: 
+L193: ## Benefits
+L194: ### Flexible workspace
+L195: 
+L196: Do your best work in a setup designed for impact and flexibility. Roles are hybrid or fully remote, depending on team and location.
+L197: 
+L198: ### Healthcare
+L199: 
+L200: Stay healthy and supported with comprehensive medical, dental, and vision plans for you and your family.
+L201: 
+L202: ### Paid time off
+L203: 
+L204: Take the time you need to recharge. Our policy includes flexible vacation days and paid holidays to support your well-being and focus.
+L205: ### Paid parental leave
+L206: 
+L207: Recover and bond with your growing family. Paid leave is available with options for how and when you take your time.
+L208: 
+L209: ### Equity ownership
+L210: 
+L211: Share in what you help build, and know that you’re joining a team with a track record of strong outcomes.
+--------------------------------------------------------------------------------
+Peppermint Raises $4.7M Seed for Clinical Research Finance | Peppermint (https://www.getpeppermint.ai/peppermint-raises-4-7m-seed)
+citeturn10view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.getpeppermint.ai/peppermint-raises-4-7m-seed","lineno":null}); Total lines: 64
+L0: Peppermint Raises $4.7M to Bring Scientific Precision to the Finances of Clinical Research【0†Learn more】
+L1: 
+L2:   * 【1†How it works】
+L3:   * 【2†Compare】
+L4:   * 【3†About】
+L5: 
+L6: 【4†Sign in†app.getpeppermint.ai】 【5†Book a demo】
+L7: 
+L8:   * 【1†How it works】
+L9:   * 【2†Compare】
+L10:   * 【3†About】
+L11: 
+L12: 【5†Book a demo】 【4†Sign in†app.getpeppermint.ai】
+L13: # Peppermint Raises $4.7M to Bring Scientific Precision to the Finances of Clinical Research
+L14: 
+L15: Company’s AI-powered platform was purpose-built for clinical trial teams and hospital systems to transform clinical research into a scalable engine for financial growth and scientific discovery
+L16: SAN FRANCISCO — October 8, 2026 — 【6†Peppermint†getpeppermint.ai】, an AI-powered platform that streamlines financial operations and accelerates growth for clinical research teams, today announced $4.7 million in seed funding led by 【7†Moxxie†www.moxxie.vc】, with participation from 【8†Homebrew†www.homebrew.co】, 【9†Better Tomorrow Ventures†btv.vc】, 【10†Layout Ventures†www.layoutventures.com】, 【11†Digital Health Venture Partners†www.dhvp.io】, 【12†Night Capital,†nightcapvc.com】 and angel investors Benjamin Mann and Evan Moore.
+L17: The funding will further enable the founding team, who previously built payments and reconciliation infrastructure for Robinhood, to transform clinical research into a scalable engine for financial growth and scientific discovery.
+L18: Despite advances in the science and technology driving novel drug development, the industry still relies on an antiquated and fragmented financial framework. Instead of payments flowing smoothly between sponsors, CROs, health systems, and research sites, clinical research relies on a patchwork of systems that were never designed to work together.
+L19: Every party absorbs the cost of that complexity. Health systems carry it across an entire research portfolio, where the finances of clinical research remain one of the least visible lines on the balance sheet. Sites feel it most acutely: One-third of sites have more than 90 days’ worth of overdue receivables, and 50% of sites have three months or less of operating capital, according to a 【13†2024 survey†myscrs.org】 by the Society for Clinical Research Sites (SCRS).
+L20: Peppermint is the first AI-powered financial operations platform designed exclusively for clinical research, bringing the uncompromising precision and auditable accuracy of clinical science to its own revenue cycle.
+L21: Co-founders David Freeman and VJ Thurimella met at X1, where they were the respective first business hire and first engineer. Together, they helped build the financial infrastructure behind the consumer credit card business that Robinhood acquired to launch its Gold Card.
+L22: When they saw the inefficiency of financial systems behind clinical research – and how it was depriving research teams of not only cash, but visibility into how much a study actually generates in revenue, how much it costs to run, and the metrics behind both – they knew their fintech experience could break open the industry’s financial black box.
+L23: “At X1 and Robinhood we helped build systems designed for precision and scale, to process billions of dollars every year,” said Freeman. “We’re bringing that architecture to clinical research, converting earnings into friction-free collections that also provide CROs and sponsors with cleaner data from the source.”
+--------------------------------------------------------------------------------
+利太智药完成近5000万元种子轮融资 讯飞创投出手 _ 东方财富网 (https://finance.eastmoney.com/a/202610103892000121.html)
+citeturn10view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://finance.eastmoney.com/a/202610103892000121.html","lineno":null}); Total lines: 190
+L0:   * 【0†财经】
+L1:   * 【1†焦点】
+L2:   * 【2†股票†stock.eastmoney.com】
+L3:   * 【3†新股†stock.eastmoney.com】
+L4:   * 【4†期指†stock.eastmoney.com】
+L5:   * 【5†期权†option.eastmoney.com】
+L6:   * 【6†行情†quote.eastmoney.com】
+L7:   * 【7†数据†data.eastmoney.com】
+L8:   * 【8†全球†stock.eastmoney.com】
+L9:   * 【9†美股†stock.eastmoney.com】
+L10:   * 【10†港股†hk.eastmoney.com】
+L11:   * 【11†期货†futures.eastmoney.com】
+L12:   * 【12†外汇†forex.eastmoney.com】
+L13:   * 【13†银行†bank.eastmoney.com】
+L14:   * 【14†基金†www.1234567.com.cn】
+L15:   * 【15†理财†money.eastmoney.com】
+L16:   * 【16†债券†bond.eastmoney.com】
+L17:   * 【17†直播†roadshow.eastmoney.com】
+L18:   * 【18†股吧†guba.eastmoney.com】
+L19:   * 【19†基金吧†guba.eastmoney.com】
+L20:   * 【20†博客†blog.eastmoney.com】
+L21:   * 【21†财富号†caifuhao.eastmoney.com】
+L22:   * 【22†搜索†so.eastmoney.com】
+L23: 【23†iframe†same.eastmoney.com】
+L24: 
+L25: 行情中心
+L26: 
+L27: 【24†指数†quote.eastmoney.com】 【25†期指†quote.eastmoney.com】 【26†期权†quote.eastmoney.com】 【27†个股†quote.eastmoney.com】 【28†板块†quote.eastmoney.com】 【29†排行†quote.eastmoney.com】 【30†新股†quote.eastmoney.com】 【31†基金†quote.eastmoney.com】 【32†港股†quote.eastmoney.com】 【33†美股†quote.eastmoney.com】 【34†期货†quote.eastmoney.com】 【35†外汇†quote.eastmoney.com】 【36†黄金†quote.eastmoney.com】 【37†自选股†quote.eastmoney.com】 【38†自选基金†favor.fund.eastmoney.com】
+L28: 
+L29: [Input] [Input]
+L30: 
+L31: 数据中心
+L32: 【39†资金流向†acttg.eastmoney.com】 【40†主力排名†acttg.eastmoney.com】 【41†板块资金†acttg.eastmoney.com】 【42†个股研报†acttg.eastmoney.com】 【43†新股申购†acttg.eastmoney.com】 【44†转债申购†acttg.eastmoney.com】 【45†北交所申购†acttg.eastmoney.com】 【46†AH股比价†acttg.eastmoney.com】 【47†年报大全†data.eastmoney.com】 【48†融资融券†acttg.eastmoney.com】 【49†龙虎榜†acttg.eastmoney.com】 【50†限售解禁†acttg.eastmoney.com】 【51†IPO审核†acttg.eastmoney.com】 【52†大宗交易†acttg.eastmoney.com】 【53†估值分析†acttg.eastmoney.com】
+L33: 
+L34: 【54†首页†www.eastmoney.com】 > 【55†财经频道】 > 正文
+L35: 利太智药完成近5000万元种子轮融资 讯飞创投出手
+L36: 
+L37: 2026年10月10日 22:37
+L38: 
+L39: 作者： 科创板日报记者 徐杰
+L40: 
+L41: 来源： 财联社
+L42: 
+L43: 小 中 大
+L44: 
+L45: 东方财富APP
+L46: 
+L47: 方便，快捷
+L48: 
+L49: 手机查看财经快讯
+L50: 
+L51: 专业，丰富
+L52: 
+L53: 一手掌握市场脉搏
+L54: 
+L55: 　　《科创板日报》10日讯，近日，利太智药（北京）科技有限公司（下称“利太智药”）完成【56†种子†quote.eastmoney.com】轮融资，融资金额近5000万元，投资方为讯飞【57†创投†quote.eastmoney.com】、L2F光源创业者基金及知名产业方。
+L56: 
+L57: 　　本轮资金将主要用于算力租用、核心管线研发、专利申报、人才招募及日常运营。
+L58: 
+L59: 　　利太智药成立于2026年7月，总部位于北京市海淀区，是一家AI原生多肽【58†创新药†quote.eastmoney.com】物研发企业，专注于以生成式AI技术开展多肽新药设计。
+L60: 　　创始人贾寅君博士毕业于协和临床医学八年制，曾任清华大学智能产业研究院博士后，以共一第一顺位作者在《Science》发表DrugCLIP研究，因希望将AI能力转化为患者可用药物而创业。核心团队清北本博占比达85%，覆盖AI算法、多肽化学、药物研发等领域，并组建了“学术+产业+商业”顾问矩阵。
+L61: 
+L62: 　　早期突破基因组级虚拟筛选技术；当前构建PepUmi合成数据集与遵循Scaling Law的PepUni生成大模型，生成环肽亲和力达nM级；首创PepMirror镜像多肽模型实现稳定性与亲和力解耦优化，并搭建72小时多肽生成-合成闭环平台验证AI设计有效性。
+L63: 
+L64: 　　利太智药已与国内多家上市药企、生物技术公司、顶级三甲【59†医院†quote.eastmoney.com】及国家重点实验室达成合作，多个合作项目进入临床前测试阶段。输出的苗头化合物在多项成药性指标上展现优势，多条自研管线处于HIT-to-lead阶段，预计2027年初产出具备成药潜力的候选化合物。
+L65: 
+L66: 　　AI原生多肽药物研发获政策与趋势双重驱动，正迈向研发体系系统性重构的新阶段。
+L67: 　　政策方面，工业和信息化部等十部门印发《医药工业发展“十五五”规划》，提出加快【60†人工智能†quote.eastmoney.com】、量子计算等新技术赋能药物研发，强化跨学科交叉融合与前沿技术供给，支持多方联合攻关，培育新增长点。
+L68: 
+L69: 　　市场空间方面，【61†中信建投†quote.eastmoney.com】研报指出，全球AI制药市场2025年规模约24.9亿美元，2035年有望突破460亿美元，CAGR有望超过33%。
+L70: 
+L71: 　　行业趋势方面，中国科学院院士陈凯先认为，AI对未来医药研究的赋能作用将从辅助工具进阶至人工智能原生发展阶段。在这一阶段，AI将成为新药研发流程中的核心组织力量，成为与科研人员协同合作的“伙伴科学家”，实现研发体系的系统性重构，将传统线性串联的研发模式升级为多维度融合的并行优化模式。
+L72: 
+L73: （文章来源：财联社）
+L74: 
+L75: 文章来源：财联社 责任编辑：156
+L76: 
+L77: 原标题：利太智药完成近5000万元种子轮融资 讯飞创投出手
+L78: 
+L79: 郑重声明：东方财富发布此内容旨在传播更多信息，与本站立场无关，不构成投资建议。据此操作，风险自担。
+L80: 
+L81: 【62†举报†help.eastmoney.com】
+L82: 【63†东方财富网†weibo.com】
+L83: 
+L84: 分享到微信朋友圈
+L85: 
+L86: 打开微信，
+L87: 
+L88: 点击底部的“发现”
+L89: 
+L90: 使用“扫一扫”
+L91: 
+L92: 即可将网页分享至朋友圈
+L93: 
+--------------------------------------------------------------------------------
+Microsoft-Decision-1: Our model for fast decision-making (https://commandline.microsoft.com/microsoft-decision-1-model-foundry/)
+citeturn10view5 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://commandline.microsoft.com/microsoft-decision-1-model-foundry/","lineno":null}); Total lines: 124
+L0: 【0†Source†news.microsoft.com】
+L1: 
+L2: By builders, for builders.
+L3: 
+L4: A Microsoft publication
+L5: 
+L6: Search articles [Input: Search articles...]
+L7: 
+L8: 【1†Image】
+L9: 
+L10: 【2†Deep Dive】
+L11: 
+L12: Introducing Microsoft-Decision-1, our model for fast decision-making
+L13: # Introducing Microsoft-Decision-1, our model for fast decision-making
+L14: 
+L15: Our new decision-scoring model delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models.
+L16: 
+L17: By 【3†Achint Srivastava】VP of Software Engineering, Office of the CTO, Microsoft
+L18: 
+L19: 2026.10.09
+L20: Decision models are quickly emerging as an important new category in AI. Unlike LLMs, which are designed to generate text or reason through complex problems, decision models are purpose-built to deliver structured outputs that software can immediately act on. And once you understand that capability—making decisions and classifying things at very low cost with high performance—all kinds of useful tasks get unlocked.
+L21: Today we’re introducing Microsoft-Decision-1, our new model for fast decision-scoring, available in 【4†Microsoft Foundry†ai.azure.com】 and through 【5†OpenRouter†openrouter.ai】. This model is designed for routing, classification, prioritization, verification, and workflow control, making it easier to incorporate decision intelligence into existing applications, agents, and workflows in a secure, trusted environment.
+L22: Microsoft-Decision-1 delivers top performance in latency and quality on structured decision tasks to outperform both LLMs and other decision models.
+L23: Microsoft-Decision-1 achieved the highest accuracy in our 36-benchmark comparison, spanning nearly 150,000 questions across benchmarks kept blind from training. And in our benchmarking, it was the fastest measured: 2.5 times quicker than H2O-Lightning-4B v1.1, the runner-up, and 35 times quicker than GPT-6 Sol.
+L24: 
+L25: Editor’s note: This post was updated from the original to add benchmarks for Jev on accuracy and calibration.
+L26: ## How Microsoft-Decision-1 works
+L27: 
+L28: To build Microsoft-Decision-1, we post trained Qwen3.5-9B for fast, single-pass decision scoring and will soon rebase it on other models, including Microsoft AI (MAI) and OpenAI. When given a fixed set of answer options, Microsoft-Decision-1 provides a calibrated probability score for each option. The model supports yes/no, multiple-choice, and rating options, as well as rubric-based grading of AI responses and agent actions, all through a simple structured API call.
+L29: To build a reliable decision model, we had to address several challenges:
+L30: ### 1. Speed
+L31: 
+L32: Each decision adds delay, especially when one step depends on another. For example, adding just 100 milliseconds to each of 20 sequential decisions adds two seconds to the overall workflow.
+L33: 
+L34: Microsoft-Decision-1 P50 latency is ~35x faster than GPT-6 Sol.
+L35: ### 2. Quality that generalizes
+L36: It’s easy to overfit a model for one benchmark or one type of decision task. We need to know whether that quality carries over to various tasks the model wasn’t trained on. That’s why we evaluated Microsoft-Decision-1 across dozens of benchmarks kept blinded from training, spanning routing, ranking, long context, multilingual and out-of-distribution tasks, reasoning, and safety.
+

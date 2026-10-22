@@ -1,0 +1,375 @@
+Browser-tool extracted source (not raw HTTP). URL and original line positions retained.
+Claude Security now scans continuously and tracks fixes | Claude by Anthropic (https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes)
+citeturn29view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes","lineno":null}); Total lines: 371
+L0: Product
+L1: 
+L2: Developers
+L3: 
+L4: Enterprise
+L5: 
+L6: Resources
+L7: 
+L8: Pricing
+L9: 
+L10: 【0†Login†claude.ai】
+L11: 
+L12: 【1†Contact sales】【2†Try Claude†claude.ai】
+L13: 
+L14: Claude Resources
+L15: 
+L16: 【3†Home】【4†Articles】【5†Guides】【6†Webinars】【7†Videos】
+L17: 
+L18: 【3†Home】【4†Articles】【5†Guides】【6†Webinars】【7†Videos】
+L19: 
+L20: Search
+L21: # Claude Security now scans continuously and tracks fixes
+L22: 
+L23: Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
+L24: 
+L25:   * Category【8†Announcements】
+L26: 
+L27:   * Product Claude Security
+L28: 
+L29:   * Date October 21, 2026
+L30: 
+L31:   * Reading time 5 min
+L32: 
+L33:   * Share[Button: Copy link]
+L34: Since 【9†Claude Security】 entered public beta in April, thousands of organizations have used it to find over a million vulnerabilities.
+L35: Instead of waiting for someone to start a scan, Claude Security now keeps up with your repositories as your code changes, keeps track of which findings get fixed, and uses what your team tells it about your environment to decide what matters. Claude Security is powered by our full family of models, including Claude Mythos, with no Cyber Verification Program access required.
+L36: The latest version of Claude Security is available today in public beta for Claude Enterprise customers. Organizations receive $25,000 in free usage credits each month, for two months. The offer applies to usage through December 31, 2026. You can view full terms in the 【10†Help Center†support.claude.com】.
+L37: ## Continuous monitoring keeps up with your code
+L38: 
+L39: A scan captures one moment, and code changes every day. Teams told us they wanted coverage that stays current without anyone having to schedule it.
+L40: Create a project, connect your repositories through the Claude GitHub app (including GitHub Enterprise Server) or with an access token from GitLab and other Git providers, and choose the branch and scope for each. Claude runs a deep baseline scan, then scans changes regularly based upon their risk and complexity, so your list of findings stays close to the current state of your code.
+L41: A project can hold multiple repositories, so Claude can catch issues that live between services, like a backend that trusts input a client was supposed to validate.
+L42: 
+L43: 【11†Image: Claude Security UI†assets.claude.com】
+L44: ## Findings are marked fixed when the fix ships
+L45: 
+L46: Most fixes happen outside the tool that found the issue. Claude Security checks open findings against the code that changed and marks them fixed when the fix lands, whether your team fixed it in Claude Code or in a separate process. If Claude Security finds the issue again later, the finding reopens automatically.
+L47: 
+L48: 【12†Image: Claude Security UI†assets.claude.com】
+L49: ## Your team’s knowledge shapes the scan
+L50: 
+L51: Every environment has controls a scanner can’t see from the code alone. Teams wanted a way to tell Claude Security about those controls, and to look across services that depend on each other. Now, each project has a knowledge base where you can describe how your code is deployed, which security policies apply, and anything a new security engineer on your team would need to know.
+L52: 
+L53: 【13†Image: Claude Security UI†assets.claude.com】
+L54: Claude Security also generates a threat model from your code that your team can review and edit. Subsequent scans use those threat models to decide what’s worth flagging. Added context also helps Claude Security skip risks your environment already handles.
+L55: ## Severity and exploit paths for every finding
+L56: 
+L57: Each finding comes with a severity rating, judged against your project’s threat model, and an explanation of how an attacker could reach the vulnerable code, so teams can fix what’s actually reachable first. Findings can include a diagram of the attack path.
+L58: 
+L59: 【14†Image: Claude Security UI†assets.claude.com】
+L60: ## Findings reach your tools, with controls for larger rollouts
+L61: 
+L62: The new API lets you integrate Claude Security into your existing workflows. You can list and read projects and findings, resolve or reopen findings, and create and manage projects and their repositories. Users can create a personal access token in Claude Security settings, and it can only see and change what the user can. Webhooks can also notify your systems when a new finding lands.
+L63: Claude Security is also available as an MCP connector in 【15†Claude.ai†claude.ai】 and Claude Code. An engineer can pull up a finding, ask Claude about it, start the fix, and mark it resolved in the same session.
+L64: 
+L65: New role-based access controls let admins decide who can view projects, triage findings, and create projects. Organizations can open Claude Security to more teams that own the code without giving everyone access to create projects.
+L66: ## Getting started
+L67: 
+L68: The latest version of 【16†Claude Security†claude.ai】 is available in public beta for Claude Enterprise customers starting today. Admins can enable it in the admin console and set who on their team can access it.
+L69: 
+L70: Use the 【17†Getting Started Guide†academy.claude.com】 to set up your first project, and visit the 【10†Help Center†support.claude.com】 for more details.
+L71: Organizations receive $25,000 in free usage credits each month, for two months. The offer applies to usage through December 31, 2026. You can view full terms in the 【10†Help Center†support.claude.com】.
+L72: 
+L73: > “Claude Security found many material issues that a traditional pen test conducted at the same time missed, several of which would have had significant impact if exploited in the wild.”
+L74: 
+L75: Jon Donovan, Software Engineer, IonQ
+L76: > “Claude Security scanned our code once to set a baseline. Now it keeps up as our code changes, and our team fixes issues right in Claude instead of switching to another tool.”
+L77: 
+L78: Jake Meredith, Product Security, Gusto
+L79: 
+L80: > “The API and MCP additions are a game changer and will be the path forward for IonQ’s Product Security team to further operationalize Claude Security.”
+L81: 
+L82: Joe Coniglio, Security Engineer, IonQ
+L83: > “Claude Security found a number of logic flaws that none of our other tools had caught. Once we wrote our own risk policy into the threat model, focusing on what external users can actually reach, the findings matched how we prioritize instead of only a severity score”
+L84: 
+L85: Nathan Hunstad, Director of Security, Vanta
+L86: 
+L87: > “Claude Security found many material issues that a traditional pen test conducted at the same time missed, several of which would have had significant impact if exploited in the wild.”
+L88: Jon Donovan, Software Engineer, IonQ
+L89: 
+L90: > “Claude Security scanned our code once to set a baseline. Now it keeps up as our code changes, and our team fixes issues right in Claude instead of switching to another tool.”
+L91: 
+L92: Jake Meredith, Product Security, Gusto
+L93: 
+L94: > “The API and MCP additions are a game changer and will be the path forward for IonQ’s Product Security team to further operationalize Claude Security.”
+L95: 
+L96: Joe Coniglio, Security Engineer, IonQ
+L97: > “Claude Security found a number of logic flaws that none of our other tools had caught. Once we wrote our own risk policy into the threat model, focusing on what external users can actually reach, the findings matched how we prioritize instead of only a severity score”
+L98: 
+L99: Nathan Hunstad, Director of Security, Vanta
+L100: 
+L101: > “Claude Security found many material issues that a traditional pen test conducted at the same time missed, several of which would have had significant impact if exploited in the wild.”
+L102: Jon Donovan, Software Engineer, IonQ
+L103: 
+L104: > “Claude Security scanned our code once to set a baseline. Now it keeps up as our code changes, and our team fixes issues right in Claude instead of switching to another tool.”
+L105: 
+L106: Jake Meredith, Product Security, Gusto
+L107: 
+L108: 1/4
+L109: Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.
+L110: ## Related articles
+L111: 
+L112: Explore more product news and best practices for teams building with Claude.
+L113: 【18†ArticleOct 22, 2026 The full Claude Platform, available on Google Cloud Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.Claude Platform】【19†ArticleOct 21, 2026 HCLTech joins the Claude Partner Network as a Global Premier partner HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.】【20†ArticleOct 21, 2026 Introducing Claude Duet A research preview is available by waitlist today, starting with US Pro and Max subscribers.】【21†ArticleOct 15, 2026 Code Review is now generally available Catch more bugs before they reach production.Claude Code】
+L114: ## Transform how your organization operates with Claude
+L115: 
+L116: 【22†See pricing】【1†Contact sales】
+L117: 
+L118: ### Get the developer newsletter
+L119: 
+L120: Product updates, how-tos, community spotlights, and more. Delivered monthly to your inbox.
+L121: 
+L122: [Input: Enter your email]
+L123: 
+L124: Please provide your email address if you'd like to receive our monthly developer newsletter. You can unsubscribe at any time.
+L125: 
+L126: © 2026 Anthropic PBC
+L127: ## Products
+L128: 
+L129:   * 【23†Claude】
+L130:   * 【24†Claude Code】
+L131:   * 【25†Claude Cowork】
+L132:   * 【26†Claude Duet】
+L133:   * 【27†Claude Tag】
+L134:   * 【28†Claude Science】
+L135:   * 【9†Claude Security】
+L136:   * 【29†Download app】
+L137:   * 【30†Pricing】
+L138:   * 【0†Log in†claude.ai】
+L139: 
+L140: ## Capabilities
+L141: 
+L142:   * 【31†Artifacts】
+L143:   * 【32†Design】
+L144:   * 【33†Connectors】
+L145:   * 【34†Plugins】
+L146:   * 【35†Skills】
+L147: 
+L148: ## Extensions
+L149: 
+L150:   * 【36†Claude in Chrome】
+L151:   * 【37†Claude for Google Workspace】
+L152:   * 【38†Claude for Microsoft 365】
+L153: ## Models
+L154: 
+L155:   * 【39†Mythos (including Fable)†www.anthropic.com】
+L156:   * 【40†Opus†www.anthropic.com】
+L157:   * 【41†Sonnet†www.anthropic.com】
+L158:   * 【42†Haiku†www.anthropic.com】
+L159: 
+L160: ## Enterprise
+L161: 
+L162:   * 【43†Overview】
+L163:   * 【44†Claude Code for Enterprise】
+L164: 
+L165: ## Departments
+L166: 
+L167:   * 【45†Customer support】
+L168:   * 【46†Cybersecurity】
+L169:   * 【47†Legal】
+L170:   * 【48†Sales】
+L171: ## Industries
+L172: 
+L173:   * 【49†Financial advisors】
+L174:   * 【50†Financial services】
+L175:   * 【51†Government】
+L176:   * 【52†Healthcare】
+L177:   * 【53†Higher education】
+L178:   * 【54†K-12 teachers】
+L179:   * 【55†Life sciences】
+L180:   * 【56†Nonprofits】
+L181:   * 【57†Small business】
+L182: 
+L183: ## Programs
+L184: 
+L185:   * 【58†Campus】
+L186:   * 【59†Frontier Academy】
+L187:   * 【60†Scientists】
+L188:   * 【61†Startups】
+L189: ## Developers
+L190: 
+L191:   * 【62†Developer docs†code.claude.com】
+L192:   * 【63†Developer blog†claude.dev】
+L193:   * 【64†Community】
+L194:   * 【65†Console†platform.claude.com】
+L195:   * 【66†Engineering at Anthropic†www.anthropic.com】
+L196: 
+L197: ## Platform
+L198: 
+L199:   * 【67†Overview】
+L200:   * 【68†Marketplace】
+L201:   * 【69†Claude on AWS】
+L202:   * 【70†Google Cloud】
+L203:   * 【71†Microsoft Foundry】
+L204:   * 【72†Managed Agents】
+L205: ## Resources
+L206: 
+L207:   * 【3†Overview】
+L208:   * 【4†Articles】
+L209:   * 【6†Webinars】
+L210:   * 【73†Claude partner network】
+L211:   * 【74†Claude Academy†academy.claude.com】
+L212:   * 【75†Customer stories】
+L213:   * 【76†Events†www.anthropic.com】
+L214:   * 【77†Powered by Claude】
+L215:   * 【78†Service partners】
+L216: ## Help and security
+L217: 
+L218:   * 【79†Availability†www.anthropic.com】
+L219:   * 【80†Check files】
+L220:   * 【81†Regional compliance】
+L221:   * 【82†Report abuse】
+L222:   * 【83†Security and compliance†trust.anthropic.com】
+L223:   * 【84†Status†status.anthropic.com】
+L224:   * 【85†Support center†support.claude.com】
+L225: ## Company
+L226: 
+L227:   * 【86†Anthropic†www.anthropic.com】
+L228:   * 【87†Careers†www.anthropic.com】
+L229:   * 【88†Policy†www.anthropic.com】
+L230:   * 【89†Research†www.anthropic.com】
+L231:   * 【90†Anthropic news†www.anthropic.com】
+L232:   * 【91†Policy on the AI Exponential†www.anthropic.com】
+L233:   * 【92†Responsible Scaling Policy†www.anthropic.com】
+L234:   * 【93†Transparency†anthropic.com】
+L235: ## Terms and policies
+L236: 
+L237:   * [Button: Privacy choices]
+L238:   * 【94†Privacy policy†www.anthropic.com】
+L239:   * 【95†Responsible disclosure policy†www.anthropic.com】
+L240:   * 【96†Terms of service: Commercial†www.anthropic.com】
+L241:   * 【97†Terms of service: Consumer†www.anthropic.com】
+L242:   * 【98†Terms of Service: US K-12†anthropic.com】
+L243:   * 【99†Data Processing Agreement: US K-12†anthropic.com】
+L244:   * 【100†Usage Policy†www.anthropic.com】
+L245: ## Products
+L246: 
+L247:   * 【23†Claude】
+L248:   * 【24†Claude Code】
+L249:   * 【25†Claude Cowork】
+L250:   * 【26†Claude Duet】
+L251:   * 【27†Claude Tag】
+L252:   * 【28†Claude Science】
+L253:   * 【9†Claude Security】
+L254:   * 【29†Download app】
+L255:   * 【30†Pricing】
+L256:   * 【0†Log in†claude.ai】
+L257: 
+L258: ## Capabilities
+L259: 
+L260:   * 【31†Artifacts】
+L261:   * 【32†Design】
+L262:   * 【33†Connectors】
+L263:   * 【34†Plugins】
+L264:   * 【35†Skills】
+L265: 
+L266: ## Extensions
+L267: 
+L268:   * 【36†Claude in Chrome】
+L269:   * 【37†Claude for Google Workspace】
+L270:   * 【38†Claude for Microsoft 365】
+L271: ## Models
+L272: 
+L273:   * 【39†Mythos (including Fable)†www.anthropic.com】
+L274:   * 【40†Opus†www.anthropic.com】
+L275:   * 【41†Sonnet†www.anthropic.com】
+L276:   * 【42†Haiku†www.anthropic.com】
+L277: 
+L278: ## Enterprise
+L279: 
+L280:   * 【43†Overview】
+L281:   * 【44†Claude Code for Enterprise】
+L282: 
+L283: ## Departments
+L284: 
+L285:   * 【45†Customer support】
+L286:   * 【46†Cybersecurity】
+L287:   * 【47†Legal】
+L288:   * 【48†Sales】
+L289: ## Industries
+L290: 
+L291:   * 【49†Financial advisors】
+L292:   * 【50†Financial services】
+L293:   * 【51†Government】
+L294:   * 【52†Healthcare】
+L295:   * 【53†Higher education】
+L296:   * 【54†K-12 teachers】
+L297:   * 【55†Life sciences】
+L298:   * 【56†Nonprofits】
+L299:   * 【57†Small business】
+L300: 
+L301: ## Programs
+L302: 
+L303:   * 【58†Campus】
+L304:   * 【59†Frontier Academy】
+L305:   * 【60†Scientists】
+L306:   * 【61†Startups】
+L307: ## Developers
+L308: 
+L309:   * 【62†Developer docs†code.claude.com】
+L310:   * 【63†Developer blog†claude.dev】
+L311:   * 【64†Community】
+L312:   * 【65†Console†platform.claude.com】
+L313:   * 【66†Engineering at Anthropic†www.anthropic.com】
+L314: 
+L315: ## Platform
+L316: 
+L317:   * 【67†Overview】
+L318:   * 【68†Marketplace】
+L319:   * 【69†Claude on AWS】
+L320:   * 【70†Google Cloud】
+L321:   * 【71†Microsoft Foundry】
+L322:   * 【72†Managed Agents】
+L323: ## Resources
+L324: 
+L325:   * 【3†Overview】
+L326:   * 【4†Articles】
+L327:   * 【6†Webinars】
+L328:   * 【73†Claude partner network】
+L329:   * 【74†Claude Academy†academy.claude.com】
+L330:   * 【75†Customer stories】
+L331:   * 【76†Events†www.anthropic.com】
+L332:   * 【77†Powered by Claude】
+L333:   * 【78†Service partners】
+L334: ## Help and security
+L335: 
+L336:   * 【79†Availability†www.anthropic.com】
+L337:   * 【80†Check files】
+L338:   * 【81†Regional compliance】
+L339:   * 【82†Report abuse】
+L340:   * 【83†Security and compliance†trust.anthropic.com】
+L341:   * 【84†Status†status.anthropic.com】
+L342:   * 【85†Support center†support.claude.com】
+L343: ## Company
+L344: 
+L345:   * 【86†Anthropic†www.anthropic.com】
+L346:   * 【87†Careers†www.anthropic.com】
+L347:   * 【88†Policy†www.anthropic.com】
+L348:   * 【89†Research†www.anthropic.com】
+L349:   * 【90†Anthropic news†www.anthropic.com】
+L350:   * 【91†Policy on the AI Exponential†www.anthropic.com】
+L351:   * 【92†Responsible Scaling Policy†www.anthropic.com】
+L352:   * 【93†Transparency†anthropic.com】
+L353: ## Terms and policies
+L354: 
+L355:   * [Button: Privacy choices]
+L356:   * 【94†Privacy policy†www.anthropic.com】
+L357:   * 【95†Responsible disclosure policy†www.anthropic.com】
+L358:   * 【96†Terms of service: Commercial†www.anthropic.com】
+L359:   * 【97†Terms of service: Consumer†www.anthropic.com】
+L360:   * 【98†Terms of Service: US K-12†anthropic.com】
+L361:   * 【99†Data Processing Agreement: US K-12†anthropic.com】
+L362:   * 【100†Usage Policy†www.anthropic.com】
+L363: 
+L364: © 2026 Anthropic PBC
+L365: 
+L366: * * *
+L367: 
+L368: 【101†Add to Preferred Sources†www.google.com】
+L369: 
+L370: English
+

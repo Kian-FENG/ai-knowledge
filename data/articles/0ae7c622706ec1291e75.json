@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/openai-numerous-vulnerabilities-ai-exploit-evaluators-find",
+  "title": "OpenAI Had Numerous Vulnerabilities Its AI Could Exploit, Evaluators Find",
+  "text": "OpenAI’s systems had multiple vulnerabilities that would allow AI agents to circumvent monitoring and take arbitrary unauthorized actions, evaluators from AI safety nonprofits METR and Redwood Research found during a three-week pilot with OpenAI from late July to early August. The nonprofits ...",
+  "published_at": "2026-10-22T15:00:53+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T15:00:53+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0ae7c622706ec1291e75",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec.body",
+  "source_sha256": "16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec",
+  "fetched_at": "2026-10-22T22:00:31.374399+00:00"
+}

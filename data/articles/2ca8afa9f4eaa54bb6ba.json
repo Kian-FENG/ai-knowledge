@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+  "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+  "text": "Amazon has warned that vulnerabilities in a programming language that underpins much of the Internet, discovered using AI tools, are being “broadly exploited” as governments and companies rush to secure their systems.\nThe world’s largest cloud computing provider on Wednesday said it had identified an attempt by hackers to exploit the bug four days before the weakness was disclosed to the public.\nAmazon added the flaws were “now being broadly exploited in the wild.”\nRead full article\nComments",
+  "published_at": "2026-10-22T15:25:02+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2ca8afa9f4eaa54bb6ba",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-23/c5f8af3dfac6a4356d03626afd968c7b00ac1e21c4f71ef8a1963aa3951c9d3a.body",
+  "source_sha256": "c5f8af3dfac6a4356d03626afd968c7b00ac1e21c4f71ef8a1963aa3951c9d3a",
+  "fetched_at": "2026-10-22T22:00:35.966704+00:00"
+}

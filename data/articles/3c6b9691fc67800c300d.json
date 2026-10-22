@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/news/world/article/3371694/websites-go-dark-worldwide-ai-exposes-critical-security-flaws",
+  "title": "Websites pulled offline worldwide as AI finds critical security flaws",
+  "text": "Government agencies and companies around the world shut down websites as they raced Thursday to protect themselves from hacks after artificial intelligence uncovered critical flaws in a widely used programming language called PHP.\nWiz, one of the cybersecurity firms that found the two flaws, estimated that PHP code helps run about 70 per cent of the world’s websites – from online stores and news outlets to government services.\nIt called the flaws “among the most severe vulnerabilities discovered...",
+  "published_at": "2026-10-21T22:10:59+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3c6b9691fc67800c300d",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/2c3f9d67e65d6494447ea46eac31cadd0efb9618d3199ee8941d50bb29916a56.body",
+  "source_sha256": "2c3f9d67e65d6494447ea46eac31cadd0efb9618d3199ee8941d50bb29916a56",
+  "fetched_at": "2026-10-22T22:00:34.945768+00:00"
+}
