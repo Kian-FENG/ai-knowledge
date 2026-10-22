@@ -183,3 +183,5 @@ query 支持仅按领域/类型/标签/兼容置信度过滤；ingest 的 JSON �
 本批17页已review/finalize发布，默认自然语言query/get_page可见且所有raw证据hash通过。235页结构待本次最终校验；49项离线测试通过，初次综合页3领域标签已修正为2领域。
 
 最终检查：235知识页结构、132来源配置与49项离线测试全部通过；14事件六栏、manifest/editorial/report哈希与141个packet raw依赖通过。1214既有dirty基线中仅daily/index追加本期行且选择性暂存，其余字节原样；34个新fetch/extracted文件的Cookie/Auth响应头元数据已过滤，raw不改。待本次普通Git提交推送。
+
+Git回执：日报已生成、本地研究提交`86dcbe9f8207bf736471ee7eee5d355b76125b46`已普通推送origin/main，ls-remote核实接收，ahead/behind 0/0。实际聊天通知后记录daily通知状态；1214既有无关dirty状态保留。

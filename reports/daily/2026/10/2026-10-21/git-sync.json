@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-21",
+  "report_generated": true,
+  "local_committed": true,
+  "remote_synced": true,
+  "research_commit": "86dcbe9f8207bf736471ee7eee5d355b76125b46",
+  "remote": "origin",
+  "remote_url": "git@github.com:Kian-FENG/ai-knowledge.git",
+  "target_branch": "main",
+  "remote_ref_verified": "86dcbe9f8207bf736471ee7eee5d355b76125b46",
+  "verification": "ordinary git push succeeded; independent git ls-remote confirmed exact research commit; ahead/behind 0/0",
+  "verified_at": "2026-10-22T22:19:14.554646+00:00",
+  "notified_at": "2026-10-22T22:19:14.554646+00:00",
+  "unrelated_dirty_files_preserved": 1214,
+  "scope": "786 research/evidence/report files committed; existing daily/index staged only this date; no force push",
+  "coverage_failures": [
+    "alibaba-cloud",
+    "apple-newsroom",
+    "huxiu",
+    "ithome",
+    "jiqizhixin",
+    "leiphone",
+    "minimax",
+    "ms-nadella",
+    "nda",
+    "qwen",
+    "techmeme-snapshot",
+    "today"
+  ]
+}
