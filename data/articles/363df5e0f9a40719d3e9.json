@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.30552",
+  "title": "Repair Changes Which Layers to Remove: Exact Optima for Depth Pruning of Language Models",
+  "text": "arXiv:2610.30552v1 Announce Type: new\nAbstract: Depth pruning removes entire transformer layers to make large language models faster, and recent methods recover quality by replacing the removed layers with a training-free linear map. Which layers to remove, however, is chosen with heuristic scores whose distance from the best choice is unknown. We evaluate every subset of layer groups exactly (about 53,000 pruned models across four families, with and without repair) and find that the best layers to remove depend on the repair: linear repair absorbs the interaction among nearby layers and turns the optimum from a split layout into a contiguous block, so methods that choose layers without the repair miss the repaired optimum by up to 189%. We therefore select layers under the repair that will be applied. A greedy search at the cost of SLEB lowers perplexity by 20% to 66% relative to ReplaceMe on five models up to 27B parameters, and with a task objective it is up to 25 points more accurate given the same data. A second-order expansion of the loss yields a score that selects the repaired block from one forward and one backward pass of the intact model.",
+  "published_at": null,
+  "announced_at": "2026-10-23T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "363df5e0f9a40719d3e9",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-24/10ac0e313a6369ced6aa3aa8e1bcf765c8a208795fe0c2a9365be7ea029a893b.body",
+  "source_sha256": "10ac0e313a6369ced6aa3aa8e1bcf765c8a208795fe0c2a9365be7ea029a893b",
+  "fetched_at": "2026-10-23T22:03:19.181667+00:00"
+}

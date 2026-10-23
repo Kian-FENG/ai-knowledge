@@ -1,0 +1,20 @@
+{
+  "url": "https://huggingface.co/tencent/WeVisOne-VL-4B",
+  "title": "tencent/WeVisOne-VL-4B",
+  "link_text": "tencent/WeVisOne-VL-4B",
+  "listing_hint": "2026-10-22T09:48:14.000Z",
+  "id": "55876e608f690109e4f8",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "tencent-hf",
+  "source_name": "Tencent · Hugging Face",
+  "section": 2,
+  "raw_path": "raw/2026-10-24/1e29d5f0fcfbee6b706386e67fb33802bcee0afe5d93c5aa7bb5a3a8fe3359c1.body",
+  "source_sha256": "1e29d5f0fcfbee6b706386e67fb33802bcee0afe5d93c5aa7bb5a3a8fe3359c1",
+  "fetched_at": "2026-10-23T22:03:10.950839+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-23T22:03:10.950839+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

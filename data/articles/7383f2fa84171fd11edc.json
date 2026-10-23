@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
+  "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
+  "text": "The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and...\nThe Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and end-to-end performance tuning within TensorRT by customizing different optimizations for different models. For more details, see Part 1 of this series, which introduces the challenges associated with scheduling (a critical stage in deep learning…\nSource",
+  "published_at": "2026-10-23T17:27:52+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-23T17:27:55+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7383f2fa84171fd11edc",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-24/2c7dfe10f29e43bd0ded378803355b5a8aa90be4aa757d499bd989eb0de2d2cf.body",
+  "source_sha256": "2c7dfe10f29e43bd0ded378803355b5a8aa90be4aa757d499bd989eb0de2d2cf",
+  "fetched_at": "2026-10-23T22:03:18.593126+00:00"
+}

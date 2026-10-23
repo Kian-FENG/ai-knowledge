@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.30349",
+  "title": "Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable",
+  "text": "arXiv:2610.30349v1 Announce Type: new\nAbstract: LLMs are increasingly consulted for moral judgment. We aim to improve performance on such tasks by rewarding good arguments, on the premise that arguing well increases the likelihood of judging well. We train a reinforcement learning policy initialized from a state-of-the-art language model in a self-judged tournament with masked thinking: the generated arguments are judged pairwise on argument quality by the policy itself. As an empirical basis, we extract authentic dilemmas from classic novels, using a logic solver to verify that each constitutes a conflict. We show that our judge rates argument quality like human annotators, and the policy then adopts the language register that it rewards. Testing on the external benchmarks MoralChoice, ELEPHANT, and MORABLES, we find that the policy becomes more decisive and invariant to the order in which options are presented, but sycophancy and reframing remain a challenge to validity. Two ablation studies with synthetic dilemmas and unmasked thinking match the reordering gains, but show a weaker register shift and higher sycophancy. We conclude that consistency is not validity: consistency under reordering can be optimized without improving the moral judgment it is meant to signal.",
+  "published_at": null,
+  "announced_at": "2026-10-23T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "72c024d61112cb204acd",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-24/10ac0e313a6369ced6aa3aa8e1bcf765c8a208795fe0c2a9365be7ea029a893b.body",
+  "source_sha256": "10ac0e313a6369ced6aa3aa8e1bcf765c8a208795fe0c2a9365be7ea029a893b",
+  "fetched_at": "2026-10-23T22:03:19.181667+00:00"
+}

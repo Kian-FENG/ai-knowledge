@@ -1,0 +1,92 @@
+[
+  {
+    "path": "reference/sources/openai-decisions-and-usage-tiers-20261006.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/sources/claude-anthropic-managed-gcp-20261022.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/sources/uber-chatgpt-work-rollout-20261022.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/sources/agent-skills-aaif-20261022.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/sources/nirva-funding-reported-20261022.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/sources/claude-formal-verification-20261022.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/sources/google-agent-compute-engine-20261022.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/sources/sglang-unified-memory-20261022.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/papers/target-regeneration-261029013.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/papers/target-probability-reuse-261029210.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/sources/nvidia-minerva-observability-20261022.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/sources/astralive-data-stack-background-20260710.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/entities/nirva.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "reference/entities/astralive.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  },
+  {
+    "path": "research/synthesis/agent-scale-cost-and-trust-20261022.md",
+    "query": "passed",
+    "get_page": "published",
+    "raw_hash": "passed"
+  }
+]

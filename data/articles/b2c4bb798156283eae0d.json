@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.30785",
+  "title": "Invisibilization as a Source of Probability Bias in Language Models",
+  "text": "arXiv:2610.30785v1 Announce Type: new\nAbstract: Language models are aligned to avoid using protected attributes such as race, ethnicity, and gender to inform their responses. Therefore, they increasingly refuse or hedge when such attributes appear in a prompt. However, if a system must decide how much to learn from what people tell it, it is costly to refuse valuable information because of its source. In this article, we measure the cost of declining information in a two-urn game with an exact Bayesian answer. We present leading LLM models from two developers (OpenAI and Anthropic) with a prompt that requires them to decide how far to trust an unverifiable report from a participant whose description we randomize across ten configurations (6,600 sessions). We show that leading models often decline to assess the reporter, treating information as worthless at rates set by the description rather than by the evidence. At its widest, models decline a Black-described reporter 46% of the time and a white-described reporter 9%; yet, when they do assess the information, the Black-described reporter receives slightly more trust. The bias is invisible to audits that compare average trust or look only at assessed cases. It grows with reasoning effort, follows words rather than categories (models invoke race for \"Black\" but not for its Spanish translation negro, and never for \"Indigenous\"), and worsens under warning instructions a practitioner would try first. We also present a scoring option that reduces the refusal rate bias. When a model's trust is scored against revealed truth over repeated rounds, it credits identical records equally. In four of five configurations from Anthropic and OpenAI, the racial gap in trust falls below 0.02 by the last rounds.",
+  "published_at": null,
+  "announced_at": "2026-10-23T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "b2c4bb798156283eae0d",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-24/10ac0e313a6369ced6aa3aa8e1bcf765c8a208795fe0c2a9365be7ea029a893b.body",
+  "source_sha256": "10ac0e313a6369ced6aa3aa8e1bcf765c8a208795fe0c2a9365be7ea029a893b",
+  "fetched_at": "2026-10-23T22:03:19.181667+00:00"
+}

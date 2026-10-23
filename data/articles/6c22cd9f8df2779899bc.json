@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.30379",
+  "title": "MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments",
+  "text": "arXiv:2610.30379v1 Announce Type: new\nAbstract: LLM agents are flexible in language interaction, but using them as long-horizon planners is costly and prone to hallucinated or invalid actions. This paper targets a different role for LLMs: constrained bridges between language and symbolic planning. We propose MemPlan, a memory-conditioned PDDL planning framework for partially observable interactive text environments. MemPlan keeps the PDDL domain fixed and reconstructs the PDDL problem at each step from parsed observations, candidate hypotheses, and interaction memory. Positive graph memory assigns relevance-based action costs to candidate hypotheses for missing objects, locations, or conditions, guiding the planner toward more plausible checks. Negative memory records execution-refuted assumptions and compiles them into exclusion constraints, preventing repeated attempts at candidates already contradicted by feedback. A unified schema-conditioned language--symbol interface, trained offline with supervised fine-tuning, connects text environments to the planning loop through observation-to-fact parsing and symbolic-action-to-command grounding. Experiments on TextWorld, ALFWorld, and Robotouille show that MemPlan improves task completion and step efficiency over language-only and PDDL-aware baselines, while substantially reducing online token cost compared with LLM-planning baselines such as ReAct. The same fine-tuned interface is also reused across TextWorld task types without task-specific fine-tuning. Our code and data are available at: https://github.com/tewiSong/MemPlan.",
+  "published_at": null,
+  "announced_at": "2026-10-23T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "6c22cd9f8df2779899bc",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-24/10ac0e313a6369ced6aa3aa8e1bcf765c8a208795fe0c2a9365be7ea029a893b.body",
+  "source_sha256": "10ac0e313a6369ced6aa3aa8e1bcf765c8a208795fe0c2a9365be7ea029a893b",
+  "fetched_at": "2026-10-23T22:03:19.181667+00:00"
+}

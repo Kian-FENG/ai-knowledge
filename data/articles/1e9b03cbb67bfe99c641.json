@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+  "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+  "text": "US chip champion Intel was so confused by the US government ban on foreign-made robots that it requested and received a waiver “out of an abundance of caution.” The tech company wanted to make sure that it could continue using certain robotic vehicles in its US chip fabs.\nThe uncertainty surrounding the Federal Communications Commission ban on certain foreign-made robots was revealed in the agency’s decision to grant Intel’s waiver request. On October 22, the FCC published its order allowing Intel to continue using the foreign-made robots in US semiconductor manufacturing facilities for a period of one year.\nThe robots in question are automated guided vehicles operating on “tracks or predefined paths” while often requiring operator oversight, according to Intel’s website. They help to move materials and items around within warehouses and factory floors.\nRead full article\nComments",
+  "published_at": "2026-10-23T17:18:31+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "1e9b03cbb67bfe99c641",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-24/a52d63439264a34c4f3470a53872fc6cc0f78be15fa07f42c1531ae85e9b1cc8.body",
+  "source_sha256": "a52d63439264a34c4f3470a53872fc6cc0f78be15fa07f42c1531ae85e9b1cc8",
+  "fetched_at": "2026-10-23T22:03:31.798618+00:00"
+}

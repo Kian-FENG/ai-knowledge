@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1160/1160101.htm",
+  "title": "Intel称半导体技术上已经赶超台积电：个别差距无需吹毛求疵",
+  "text": "快科技10月23日消息，过去十来年中半导体工艺的领导者是台积电，他们取代了Intel领先数十年的地位，不过Intel现在认为他们在技术层面上已经赶超台积电了。\n美国知名博客节目Dwarkesh Patel日前采访了多位Intel高管，谈论了在半导体技术上的历史与进展，其中CTO Pushkar Ranade也回应了与台积电的竞争关系。\n他回答了Intel是否追赶上了台积电的问题，答案就是看技术层面，Intel确实做到了赶超台积电，在性能、功耗、面积和密度等方面可能还差几个百分点，但是到了这个阶段就没必要吹毛求疵了。\n他也承认了在芯片产能上追赶台积电还是个长期过程，这是一个缓慢而渐进的过程，急不来。\n这也不是Intel第一次如此表态了，实际上前不久Intel高管就首次明确了他们在下一代工艺14A上跟台积电的A14工艺差距在5%以内。\n他们的表态说的很含糊，没有明确是Intel领先台积电5%，还是台积电领先Intel 5%，这两种情况会有不同的结果。\n但是话说回来，Intel CTO说到了这个阶段没必要对几个百分点的差距纠结也很有道理，14A工艺能不能拿到更多的大客户订单，差距不在那5%的技术指标上，产能有多大、良率控制得如何、能不能按时交付、芯片代工价格有没有竞争力，这些才是决定Intel与台积电抢占代工市场的关键。",
+  "published_at": "2026-10-23T19:10:56+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "124bbfa2b6fe81a56e11",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b.body",
+  "source_sha256": "44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b",
+  "fetched_at": "2026-10-23T22:03:38.736253+00:00"
+}

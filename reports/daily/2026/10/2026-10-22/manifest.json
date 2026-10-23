@@ -1,0 +1,27 @@
+{
+  "period": "daily",
+  "date": "2026-10-22",
+  "window": {
+    "period": "daily",
+    "date": "2026-10-22",
+    "timezone": "America/Los_Angeles",
+    "start": "2026-10-21T18:00:00-07:00",
+    "end": "2026-10-22T18:00:00-07:00"
+  },
+  "status": "analyzed",
+  "packet_sha256": "0a1092338f9fc8769fdfd634d3886b71491fddd51a84ebcee903c16b5305c544",
+  "editorial_sha256": "06357c5f33a3e2f316969e5c937e939016c8e11fbf04446ef4cc3af9d1d016d9",
+  "report_path": "reports/daily/2026/10/2026-10-22/report.md",
+  "packet_path": "data/packets/daily/2026/10/2026-10-22/0a1092338f9fc8769fdfd634d3886b71491fddd51a84ebcee903c16b5305c544.json",
+  "events": 11,
+  "generated_at": "2026-10-23T22:15:26.469452+00:00",
+  "timezone": "America/Los_Angeles",
+  "report_sha256": "02cfe9b2a0daa855cd474e1c9aaa7899887671888987ba2bfa272841385f87f3",
+  "manual_review": {
+    "reviewed_at": "2026-10-23T22:16:21.896542+00:00",
+    "note": "核对六栏11事件、事实/判断、原文日期与日精度显示、UTC/LA实际生成、采集时区与媒体gap、去重、来源支持和15页发布检索回查。原生成版保留revisions/manual-format。",
+    "new_knowledge_pages": 14,
+    "updated_knowledge_pages": 1,
+    "default_query_get_page_raw_hash": "passed"
+  }
+}

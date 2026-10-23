@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.30885",
+  "title": "From Perpetrators' Digital Footprints to Behavioral Communities: An Ontology-Driven Framework for Bengali Cyberbullying Analysis--- FULL VERSION",
+  "text": "arXiv:2610.30885v1 Announce Type: new\nAbstract: Cyberbullying involves behavioral and contextual patterns beyond isolated abusive messages. However, existing approaches remain fragmented across content detection, semantic representation, and network analysis, with limited interpretable perpetrator representations, multi-scale structural modeling, and explanations of behavior-driven similarity and influence propagation. These limitations hinder the identification of persistent perpetrators, characterization of behavioral communities, and assessment of potentially influential users. This paper proposes Ontology-Driven Cyberbullying Behavior and Network Analysis (ODCBNA), a perpetrator-centric framework integrating requirements-driven ontology design, knowledge graph construction, behavioral modeling, community analysis, and influence modeling. Using the Bengali Contextual and Diverse Cyberbullying (BenCoDiC) corpus as a use case, ODCBNA identifies $1{,}063$ users with at least three bullying comments or replies as perpetrators and represents each through a $64$-dimensional behavioral and contextual feature vector. Cosine similarity and $k$-nearest-neighbor modeling produce a weighted network with $27{,}554$ edges. Louvain analysis identifies six communities with a modularity of approximately $0.495$ and $27$ sub-communities. Feature-contribution analysis identifies the Video, Impact, and User Profile groups as the strongest contributors to behavioral similarity and community separation, while contextual dimensions support interpretation. Community-constrained influence analysis shows that IM Greedy achieves small positive gains in all six communities, although different seed-selection methods produce comparable diffusion spreads despite limited seed overlap. These findings provide an interpretable basis for understanding perpetrator behavior, community organization, and potential influence patterns in Bengali online environments.",
+  "published_at": null,
+  "announced_at": "2026-10-23T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "2d57b15a32f304040516",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-24/10ac0e313a6369ced6aa3aa8e1bcf765c8a208795fe0c2a9365be7ea029a893b.body",
+  "source_sha256": "10ac0e313a6369ced6aa3aa8e1bcf765c8a208795fe0c2a9365be7ea029a893b",
+  "fetched_at": "2026-10-23T22:03:19.181667+00:00"
+}

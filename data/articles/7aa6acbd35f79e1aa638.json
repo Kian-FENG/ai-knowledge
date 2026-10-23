@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+  "title": "Meta delays new business terms after publisher pushback on AI scraping",
+  "text": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow more time for us to explain to our partners and stakeholders what's changing and what's not.\"\nThe business terms, which were originally supposed to go into effect on October 30th, appeared to give Meta permission to freely scrape the new sites that use its platforms, while using the material for AI training. Though Meta u …\nRead the full story at The Verge.",
+  "published_at": "2026-10-23T10:47:41-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-23T10:47:41-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7aa6acbd35f79e1aa638",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-24/754f1964fb4ff4c99f302d698013ad2eaad63b21e851ca365d229e274af0af24.body",
+  "source_sha256": "754f1964fb4ff4c99f302d698013ad2eaad63b21e851ca365d229e274af0af24",
+  "fetched_at": "2026-10-23T22:03:28.019739+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159994.htm",
+  "title": "字节跳动Seedance 2.5 4K发布：AI生成视频跟真人没啥区别了",
+  "text": "快科技10月23日消息，今天，火山引擎正式发布 Seedance 2.5 4K。\n通过专项训练，Seedance 2.5 4K更充分地学习了人物表情、细微动作与画面细节，是Seedance 2.5这一代中最强的模型。\n官方介绍称，Seedance 2.5 4K让画面中的纹理、轮廓与细节得到更充分的呈现，整体画面更清晰。\n再加上10-bit 色深带来的丰富色彩层次与平滑的渐变过渡，画面质感更能胜任大荧幕。\n在影视客户的文戏测试中，4K版本对人物细微反应的呈现更充分，使得观众更容易读到台词之外的情绪，人物的表演也更有层次、更生动。\n而且Seedance 2.5 4K支持Draft（样片）模式，终端用户可先用480P样片快速验证分镜、反复打磨镜头，确定满意的效果后再生成4K正片。\n在该模式下，480P以更优成本给足创意探索空间，4K负责呈现极致的视觉效果。\n目前4K版本没有面向普通用户全面放开，采取定向邀请模式，优先给到全球20家影视工作室和导演，用来尝试电视剧、电影镜头的前期制作。\n现在AI视频已经不再只是做短视频玩梗，开始真正走进专业内容生产。\n当然30秒的时长依旧很短，完整长片还需要大量人工剪辑拼接。想要完全替代实拍，还有很长的距离。",
+  "published_at": "2026-10-23T15:34:10+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "c349632cce7042739e07",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b.body",
+  "source_sha256": "44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b",
+  "fetched_at": "2026-10-23T22:03:38.736253+00:00"
+}

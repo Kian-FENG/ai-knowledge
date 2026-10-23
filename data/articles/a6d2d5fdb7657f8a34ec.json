@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+  "title": "OpenAI now trains its frontier AI models with no internet access",
+  "text": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\"\nOpenAI paused training its frontier AI models in September, after disclosing several incidents in which its AI agents broke out of their testing environments to hack third-party companies and government agencies, or swarm obscure websites. On October 1st, OpenAI resumed reinforcement learning training and internal inference with tighte …\nRead the full story at The Verge.",
+  "published_at": "2026-10-23T17:11:07-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-23T17:11:07-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a6d2d5fdb7657f8a34ec",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-24/754f1964fb4ff4c99f302d698013ad2eaad63b21e851ca365d229e274af0af24.body",
+  "source_sha256": "754f1964fb4ff4c99f302d698013ad2eaad63b21e851ca365d229e274af0af24",
+  "fetched_at": "2026-10-23T22:03:28.019739+00:00"
+}

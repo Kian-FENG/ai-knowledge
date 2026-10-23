@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1160/1160107.htm",
+  "title": "PC玩家又挨一刀 内存涨价不算完：更难的是根本买不到！",
+  "text": "快科技10月23日消息，根据Trendforce最新DRAM市场报告预测，2027年面向PC市场的内存供应将出现收缩，消费端DRAM不仅更贵，也更难买到。\n2026年的内存涨价主要由需求端驱动，AI数据中心凭借资金大量采购闪存和DRAM，三星、美光和SK海力士的产品价高者得，虽然三大厂产能拉满，但价格仍在飙升。\n2027年可能供应端也恶化，Trendforce分析指出，2029年新一波晶圆厂建成投产前，产能增幅有限。至于PC市场，分析师明确预测DRAM供应量将下降。\nDDR市场内部竞争也在加剧，所有厂商的AI工作站产品线使用与消费级显卡相同的GDDR芯片，用量却是三倍，且随AI模型规模增长继续扩大。此外NVIDIA DGX/RTX Spark和AMD Strix Halo的内存容量相当于八台普通消费笔记本，消耗同样的LPDDR。\nTrendforce此前预测内存年底涨幅15%至20%，但高价对需求的抑制效应可能成为回旋镖，企业无法无限期推迟升级和采购，2026年延迟的购买需求将在2027或2028年集中释放，届时根本没有足够供应接住。",
+  "published_at": "2026-10-23T19:22:09+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "10aadeaee683255779f7",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b.body",
+  "source_sha256": "44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b",
+  "fetched_at": "2026-10-23T22:03:38.736253+00:00"
+}

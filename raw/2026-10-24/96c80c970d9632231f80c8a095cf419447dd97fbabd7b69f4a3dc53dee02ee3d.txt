@@ -1,0 +1,9 @@
+Agent source extract; official announcement October 22, 2026, date-only.
+Claude Models on Google Cloud (Anthropic managed) is now generally available, giving Google Cloud customers the full set of Claude Platform features, with Google Cloud IAM credentials, billing, and commitment retirement.
+The Anthropic managed offering is currently available with US and Global endpoints. Anthropic operates the service and acts as the data processor.
+Customers receive new features and betas the same day as the native Claude Platform. Managed Agents, advisor strategy and MCP connector retain their beta status.
+Fast Mode on Claude Opus 5.5 is also generally available. Input and output tokens are $8 and $40 per million.
+Claude Fable 5.1, Opus 5.5, Sonnet 5.5, and Haiku 5.5 are available.
+The Google managed offering remains available for customers needing Google Cloud as data processor, strict regional residency or native integrations.
+Existing discount holders should contact their account executive; discounts cannot be applied retroactively.
+Scope: all announcement main sections read; no API/purchase test or linked contract audit; speed multiples not adopted.

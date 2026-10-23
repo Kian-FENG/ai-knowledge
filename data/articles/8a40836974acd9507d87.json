@@ -1,0 +1,18 @@
+{
+  "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+  "url": "https://openai.com/index/uber-chatgpt-work-rollout/",
+  "text": "Agent source extract. Official announcement October 22, 2026; date-only.\nUber announced the company-wide rollout of ChatGPT Work, an agent within ChatGPT Enterprise, starting today. The rollout will make it available to more than 30,000 employees across Uber’s global workforce.\nExpanding from an initial pilot of 1,000 employees, it is Uber’s first company-wide deployment of an agentic platform tailored for knowledge work.\nIt connects with Google Drive, Gmail, Google Calendar and Slack. GPT-6.1 Sol will be deployed as the default capability within ChatGPT Work.\nUber’s internal AI skills library, approved integrations and dedicated employee training support rollout. Software engineering teams will continue using Codex.\nThe companies plan to share further insights into adoption, use cases and measurable outcomes as rollout progresses.\nScope: announcement main text and quotations read. Announced seat availability is not measured active use, completed rollout or demonstrated productivity; contract value and actual usage not disclosed.",
+  "date_basis": "published",
+  "published_at": "2026-10-22T00:00:00+08:00",
+  "extraction": "full-text",
+  "date_precision": "date-only",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "8a40836974acd9507d87",
+  "source_id": "openai",
+  "source_name": "OpenAI News",
+  "section": 0,
+  "raw_path": "raw/2026-10-24/c184c99b10ddf05950c1e9d02131117ff8f3fc2f698591ddd660e33494e9ce53.txt",
+  "source_sha256": "c184c99b10ddf05950c1e9d02131117ff8f3fc2f698591ddd660e33494e9ce53",
+  "fetched_at": "2026-10-23T22:08:47.831714+00:00"
+}

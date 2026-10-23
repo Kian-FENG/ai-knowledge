@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1160/1160070.htm",
+  "title": "顶配4.7万元！戴尔全新 XPS 16笔记本开卖：RTX Spark芯片+128GB内存",
+  "text": "快科技10月24日消息，据报道，戴尔XPS 16 Creator Edition已结束美国Best Buy独家发售状态，正式在全球多个市场上市。这款定位对标苹果MacBook Pro 16的旗舰创作本，最高可选128GB内存与1600尼特峰值亮度的OLED屏幕。\n核心算力来自英伟达RTX Spark N1X芯片。该芯片由英伟达与联发科联合开发，采用台积电3nm工艺，将最高20核Grace CPU与6144个CUDA核心的Blackwell RTX GPU集成于单颗SoC之中，FP4精度AI算力最高可达1 PFLOPS。\n统一内存架构是N1X的关键设计。CPU与GPU共享最高128GB的LPDDR5X-9400内存，带宽约300GB/s。数据无需在独立显存与系统内存之间反复搬运，GPU可直接调用系统内存中的模型权重，让本地运行大模型成为可能。\nXPS 16 Creator Edition配备16英寸3.2K OLED面板，SDR模式下峰值亮度400尼特，HDR模式下可达1600尼特，支持30至120Hz可变刷新率。无论是HDR视频剪辑还是高动态范围内容创作，这块屏幕都能提供足够的亮度余量和色彩表现。\n选配方面，用户可选18核或20核版本，对应5120核与6144核GPU配置。顶配20核版本搭配128GB内存时，北美市场定价为6999美元（约合人民币4.7万元）。\n不过戴尔在北美暂未开放自定义配置，128GB内存必须捆绑2TB SSD，加拿大市场对应售价为9699加元（约合人民币47525元）。\n起售价各市场存在明显差异。美国起售价3799美元（约合人民币25491元），英国3845英镑（约合人民币34990元），欧元区4419欧元（约合人民币34468元），澳大利亚6030澳元（约合人民币27437元）。\n所有配置均配备99Wh电池，预装Windows 11家庭版，专业版需付费升级。\n对于需要本地运行大模型或处理超大型创作工程的用户，128GB内存版本提供了桌面级的工作负载承载能力。戴尔此次全球铺货，也让这款旗舰创作本进入了更多专业用户的采购清单。",
+  "published_at": "2026-10-23T17:52:38+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2bc23e6c923681012f61",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b.body",
+  "source_sha256": "44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b",
+  "fetched_at": "2026-10-23T22:03:38.736253+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-23/moonshot-debuts-first-ai-upgrade-since-its-own-deepseek-moment",
+  "title": "Moonshot Debuts First AI Upgrade Since Its Own DeepSeek Moment",
+  "text": "Moonshot AI, the Chinese upstart that had its own DeepSeek moment over the summer, released the first major upgrade to the seminal model that thrust the $50 billion company into the frontier.",
+  "published_at": "2026-10-23T17:18:10+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0e42f3f5fc2d79301adb",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/fbfa21a81c60d8d0824d91604b1f64011667deb63c3b0b519e7f208c7186a1c8.body",
+  "source_sha256": "fbfa21a81c60d8d0824d91604b1f64011667deb63c3b0b519e7f208c7186a1c8",
+  "fetched_at": "2026-10-23T22:03:30.314801+00:00"
+}

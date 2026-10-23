@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-23-minimax-m31-flash",
+  "title": "vLLM Delivers Day-0 Support for MiniMax-M3.1-FlashOct 23, 2026·17 min readDay-0 vLLM support for MiniMax-M3.1-Flash on NVIDIA Blackwell, NVIDIA Rubin, and AMD MI350-series GPUs, with NVFP4 MSA kernels",
+  "link_text": "vLLM Delivers Day-0 Support for MiniMax-M3.1-FlashOct 23, 2026·17 min readDay-0 vLLM support for MiniMax-M3.1-Flash on NVIDIA Blackwell, NVIDIA Rubin, and AMD MI350-series GPUs, with NVFP4 MSA kernels",
+  "id": "50cb4eba8a3e4759af97",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-24/1915b55044db532c74ff2ac02fc2c29630f09a374e6a7faf735cf369709ba8c9.body",
+  "source_sha256": "1915b55044db532c74ff2ac02fc2c29630f09a374e6a7faf735cf369709ba8c9",
+  "fetched_at": "2026-10-23T22:03:17.589085+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-23T22:03:17.589085+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

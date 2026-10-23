@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1160/1160088.htm",
+  "title": "涨声不断！RTX 5080/5070 Ti 16GB价格失控：最高涨2000元",
+  "text": "快科技10月23日消息，据报道，随着英伟达准备推出24GB版本的RTX 5080，现有16GB型号的价格正在中国大陆市场大幅上涨。\n据博板堂渠道数据，RTX 5080 16GB的现货价格已从此前的12700至13500元，攀升至14500至15000元，涨幅约2000元。RTX 5070 Ti 16GB同步跟进，价格从9000至9150元涨至9650至9850元，涨幅约600元。\n华硕与技嘉已率先执行调价。华硕RTX 5080 16G系列全线上涨1000元，RTX 5070 Ti 16G、5070及5060 Ti 16G系列各上涨200元。技嘉同样对RTX 5080和RTX 5070 Ti 16GB全系进行了价格调整。\n这轮涨价的直接推手，是16GB型号即将为24GB版本让路。多方消息指出，英伟达可能停止生产RTX 5080 16GB，将产能转向24GB版本。停产预期叠加渠道清库，反而把现货价格推得更高。\n24GB版RTX 5080的规格已基本明确。它将搭载GB203-450核心，显存从16GB GDDR7升级至24GB，显存速率由30Gbps提升至32Gbps，带宽从960GB/s增至1024GB/s，整卡TDP从360W上调至415W。\n价格方面，渠道预估24GB版本可能达到19999元左右，显著高于当前16GB型号的官方定价。\nGDDR7显存的供应紧张是更深层的背景。DRAM原厂将产能优先分配给利润更高的HBM，消费级显卡的显存采购成本持续走高，RTX 50系列中高端型号的价格压力短期内难以缓解。\n对于计划入手RTX 5080或5070 Ti的玩家，16GB型号的涨价窗口与24GB版本的定价悬念，构成了一个两难的选择题。",
+  "published_at": "2026-10-23T18:18:55+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "39f3808551bd664dcf7b",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b.body",
+  "source_sha256": "44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b",
+  "fetched_at": "2026-10-23T22:03:38.736253+00:00"
+}

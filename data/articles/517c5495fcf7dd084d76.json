@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/tech-industry/cyber-security/fcc-bans-first-two-devices-from-the-us-under-new-chip-level-rule-huawei-subsidiary-chip-boasts-face-detection-algorithm",
+  "title": "FCC issues first bans under new chip-level rule",
+  "text": "The FCC recently imposed a new rule allowing it to ban devices based on the internal chips instead of basing bans on individual products or brands, thus closing the loophole of rebranded products with parts from Chinese manufacturers on US export restriction lists. Using this new rule, the FCC has banned two devices from being sold and marketed in the US for the first time: a dashboard camera and a wireless video transmitter. As reported by The Verge, these devices were banned due to the HiSilicon Smart Vision SoC (System on a Chip) they contain, which features built-in detection algorithms for faces. HiSilicon is a subsidiary of Huawei, and the firm and its subsidiaries are on the FCC’s Covered List of entities that pose a risk to US national security.\nThe Hi3516CV610 UHD Smart Vision is an SoC for surveillance and camera products. The SoC is meant to be used for things like vehicle dashcams and wireless CCTV systems; fully equipped with WiFi, Ethernet, video encoding chips, an Arm Cortex-A7, and an NPU (Neural Processing Unit) for AI features. The NPU is what the FCC is concerned about, explaining that it is a device that contains logic-bearing “smart” components produced by entities on the Covered List.\n(Image credit: HiSilicon)\nOn the SoC’s data sheet, the Intelligent Video Engine (IVE) uses the NPU that runs a built-in dedicated multimodal large model and transformer feature acceleration. The transformer feature acceleration allows the AI model to understand the relationship between objects from one video frame to another, keeping “attention” between related objects: pets, faces, human figures, and parcels, as the data sheet advertises. For consumers, this potentially means the AI in a surveillance camera can understand whether it is your pet that is escaping, or an unknown person is stealing your parcel after understanding that it was placed by a courier worker.\nHowever, the FCC believes the logic-bearing AI in the SoC can do something much more nefarious, surveying US citizens and logging faces for foreign surveillance. Huawei already had a previous AI chip scandal, using shell companies to deceive TSMC into producing AI chips for them, going against the US’ request for TSMC to halt supplies to a list of Chinese customers; among other Huawei scandals leading to other product bans in the US.",
+  "published_at": "2026-10-23T12:15:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "517c5495fcf7dd084d76",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-24/10ea4d2aee558c50287c9360f79c78b6e6f4ffab75c18cd52c516bb460fcf46c.body",
+  "source_sha256": "10ea4d2aee558c50287c9360f79c78b6e6f4ffab75c18cd52c516bb460fcf46c",
+  "fetched_at": "2026-10-23T22:03:31.704355+00:00"
+}

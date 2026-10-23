@@ -1,0 +1,20 @@
+{
+  "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+  "title": "MiniMaxAI/MiniMax-M3.1-Flash",
+  "link_text": "MiniMaxAI/MiniMax-M3.1-Flash",
+  "listing_hint": "2026-10-17T06:37:50.000Z",
+  "id": "2eb678169a42e5138185",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "minimax-hf",
+  "source_name": "MiniMax · Hugging Face",
+  "section": 2,
+  "raw_path": "raw/2026-10-24/5167d5923f357eec2a270cc2a3c729e032cd5de1737176679671a809e364a099.body",
+  "source_sha256": "5167d5923f357eec2a270cc2a3c729e032cd5de1737176679671a809e364a099",
+  "fetched_at": "2026-10-23T22:03:10.184738+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-23T22:03:10.184738+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

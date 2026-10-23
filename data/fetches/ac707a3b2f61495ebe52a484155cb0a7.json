@@ -1,0 +1,28 @@
+{
+  "raw_path": "raw/2026-10-24/b86c5bbe9ec1329a5ff9845d04deae1cb0dee978515fdd60b1017713a8b7074b.body",
+  "sha256": "b86c5bbe9ec1329a5ff9845d04deae1cb0dee978515fdd60b1017713a8b7074b",
+  "source_url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-23T22:05:05.843946+00:00",
+  "source_id": "nvidia-blog",
+  "status": 200,
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "32851",
+    "Server": "Apache",
+    "Link": "<https://blogs.nvidia.com/?p=99404>; rel=shortlink",
+    "Content-Encoding": "gzip",
+    "Edge-Cache-Tag": "blogs.nvidia.com,blogs.nvidia.com/blog/,blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+    "Date": "Fri, 23 Oct 2026 22:05:06 GMT",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "x-accept": "application/atom+xml, application/rss+xml, text/html, */*",
+    "Country-Code": "c_code=US; Path=/; Secure",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "Akamai-Cache-Status": "Hit from child",
+    "Akamai-GRN": "0.310c3417.1792793106.2f0ed0e9"
+  },
+  "final_url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+  "truncated": false,
+  "charset": "utf-8"
+}

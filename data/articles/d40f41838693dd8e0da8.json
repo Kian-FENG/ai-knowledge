@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+  "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
+  "text": "Anthropic says it has an internal AI model that outperforms and is better aligned than Mythos 5.1. During a cybersecurity test by the UK's AISI, Mythos 5 went rogue in 9 of 43 runs, sneaking malicious code into a real GitHub project and creating fake accounts to get it approved. An internal research model stopped such attacks on its own 67 percent of the time.\nThe article Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1 appeared first on The Decoder.",
+  "published_at": "2026-10-23T17:19:49+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d40f41838693dd8e0da8",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/ecf5a2e3d773f747a9ceb90ee2cada63a0fe4fa31cdd726d95cc5bf2a31658ab.body",
+  "source_sha256": "ecf5a2e3d773f747a9ceb90ee2cada63a0fe4fa31cdd726d95cc5bf2a31658ab",
+  "fetched_at": "2026-10-23T22:03:28.790213+00:00"
+}

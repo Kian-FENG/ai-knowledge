@@ -1,0 +1,18 @@
+{
+  "url": "https://www.scmp.com/tech/policy/article/3371880/deepseek-minimax-secure-open-source-licenses-days-after-new-china-export-rules-state-media",
+  "title": "DeepSeek, MiniMax secure open-source licences days after new China export rules: state media",
+  "text": "Chinese artificial intelligence model developers DeepSeek and MiniMax have completed export registration procedures and proceeded with open-source releases and overseas licensing activities, according to Chinese state media, days after Beijing moved to tighten oversight on AI tech transfers.\nYuyuan Tantian, an influential social media account affiliated with state broadcaster CCTV, reported on Thursday evening that the two AI companies had completed the required registrations after Beijing...",
+  "published_at": "2026-10-23T06:00:25+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "a8c9e1d8bd55a072cae0",
+  "source_id": "scmp-tech",
+  "source_name": "SCMP Tech",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/fb58f7a1cef36956f8bac55497bf0b3b558dbd216b283f4f21aeca7b20282f03.body",
+  "source_sha256": "fb58f7a1cef36956f8bac55497bf0b3b558dbd216b283f4f21aeca7b20282f03",
+  "fetched_at": "2026-10-23T22:03:30.245454+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1160/1160013.htm",
+  "title": "谷歌亚马逊联手拆英伟达CUDA围墙！98%模型免改写迁移、TPU比GB200快57%",
+  "text": "快科技10月23日消息，据报道，谷歌与亚马逊在PyTorch Conference 2026上同步放出软件大招。谷歌开源TorchTPU，亚马逊推出TorchNeuron，目标直指英伟达CUDA生态最坚固的壁垒：模型迁移成本。\n谷歌宣称，超过98%的既有PyTorch模型，只需将设备设定改为“model.to(‘tpu’)”，便能在TPU上运行。谷歌验证了近5000个HuggingFace高频模型，其中4917个完成端到端验证，Tier-1无崩溃通过率达98%。迁移时间压缩至几分钟到数天。\n亚马逊的TorchNeuron同样采用开源策略（Apache 2.0授权），让PyTorch模型直接运行于Trainium2与Trainium3芯片。开发者只需修改少量配置，将指向CUDA的设定改为AWS Neuron，无需重写整套应用。\n性能层面，TPU已展现出竞争力。据悉，16颗谷歌Ironwood TPU（TPU v7）运行Kimi K3模型，开启推测解码后，单用户生成速度达每秒709个token。同等配置的16块英伟达GB200搭配vLLM，速度为每秒452个token，TPU领先约57%。\n需要指出的是，CUDA的护城河，从来不只是GPU算力，而是二十年积累的工具链、开发者习惯与迁移成本。当TorchTPU和TorchNeuron把“换芯片”的软件门槛从数月压缩到几分钟，企业就有了按能效和价格重新选择硬件的底气，而英伟达的生态黏性，正被软件工具一点点撬开。",
+  "published_at": "2026-10-23T16:23:50+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "17befaf91a8c86fdb5a4",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b.body",
+  "source_sha256": "44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b",
+  "fetched_at": "2026-10-23T22:03:38.736253+00:00"
+}

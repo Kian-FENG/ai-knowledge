@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/f57a1f1c-60ce-432d-a901-673ae7d1241e?syn-25a6b1a6=1",
+  "title": "US Treasury proposes tighter rules on investing in sensitive Chinese tech",
+  "text": "Restrictions would apply to investments in areas including AI, hypersonic weapons and biotech",
+  "published_at": "2026-10-22T23:13:15+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7346ecb906adab8cc668",
+  "source_id": "ft-tech",
+  "source_name": "Financial Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/537d47617d9956efb07182edf14909430cada21b287d19a4d4174a356b677faf.body",
+  "source_sha256": "537d47617d9956efb07182edf14909430cada21b287d19a4d4174a356b677faf",
+  "fetched_at": "2026-10-23T22:03:29.426628+00:00"
+}

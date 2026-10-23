@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/ce0e9d68-c63f-4666-9909-512b929e6284?syn-25a6b1a6=1",
+  "title": "Winter arrives in markets",
+  "text": "Bonds and stocks tell the same chilly story",
+  "published_at": "2026-10-23T05:30:08+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "5ae9ca2b70bf792268b3",
+  "source_id": "ft-ai",
+  "source_name": "Financial Times AI",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/1f1d4ccf28993072d061454d2fab52623afcf4c589076f0b213426196a1c12ff.body",
+  "source_sha256": "1f1d4ccf28993072d061454d2fab52623afcf4c589076f0b213426196a1c12ff",
+  "fetched_at": "2026-10-23T22:03:30.436271+00:00"
+}

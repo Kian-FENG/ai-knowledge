@@ -1,0 +1,29 @@
+{
+  "raw_path": "raw/2026-10-24/1dabf10160eafa192c0345680362a339c9a21ee7c916862a6959d91c51fb6698.body",
+  "sha256": "1dabf10160eafa192c0345680362a339c9a21ee7c916862a6959d91c51fb6698",
+  "source_url": "https://www.sglang.io/blog/unified-memory",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-23T22:04:44.014264+00:00",
+  "source_id": "sglang-blog",
+  "status": 200,
+  "headers": {
+    "Access-Control-Allow-Origin": "*",
+    "Age": "0",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Disposition": "inline; filename=\"unified-memory\"",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Fri, 23 Oct 2026 22:04:44 GMT",
+    "Etag": "W/\"a536a120d5d9c6bea577d73a76821b6b\"",
+    "Last-Modified": "Fri, 23 Oct 2026 22:04:44 GMT",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000",
+    "X-Vercel-Cache": "MISS",
+    "X-Vercel-Id": "sfo1::6rszx-1792793084641-d619c959cffa",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "final_url": "https://www.sglang.io/blog/unified-memory",
+  "truncated": false,
+  "charset": "utf-8"
+}

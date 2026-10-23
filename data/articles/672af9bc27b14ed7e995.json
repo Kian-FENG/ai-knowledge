@@ -1,0 +1,18 @@
+{
+  "url": "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/",
+  "title": "Anthropic's Claude now writes code and proves it safe automatically",
+  "text": "Anthropic had Claude generate mathematical proofs that existing code is correct, producing roughly 180 million lines of proof code for 123 open-source libraries. Along the way, the model caught bugs that years of testing had missed. Anthropic's goal: making formal verification with AI as routine as standard testing.\nThe article Anthropic's Claude now writes code and proves it safe automatically appeared first on The Decoder.",
+  "published_at": "2026-10-23T11:32:19+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "672af9bc27b14ed7e995",
+  "source_id": "the-decoder",
+  "source_name": "The Decoder",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/ecf5a2e3d773f747a9ceb90ee2cada63a0fe4fa31cdd726d95cc5bf2a31658ab.body",
+  "source_sha256": "ecf5a2e3d773f747a9ceb90ee2cada63a0fe4fa31cdd726d95cc5bf2a31658ab",
+  "fetched_at": "2026-10-23T22:03:28.790213+00:00"
+}

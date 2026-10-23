@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1159/1159989.htm",
+  "title": "笔记本杀死低端CPU！AMD锐龙3几乎不更新：主战高端游戏产品",
+  "text": "快科技10月23日消息，日本科技媒体MyNavi Tech+近日采访了AMD客户端产品经理Travis Kirsch，期间谈及了锐龙3产品线为何几乎停滞更新。Kirsch直言市场中锐龙3的市场规模已经不大，AMD的主战场是高端游戏领域。\n目前锐龙3产品线仅剩AM4平台三款和AM5平台一款，与锐龙5以上的阵容形成鲜明对比，Kirsch表示，AMD始终会为低价位需求的用户提供一些SKU，但这不是主要焦点。他强调，AMD认为高端高性能游戏市场才是主战场。\n回顾历史，AMD此前长期在高端和低端两个市场同时布局，从早期的Duron到Sempron，再到速龙，最终演变为锐龙3。\nKirsch透露他在速龙时代开始担任产品经理，当时低端CPU在市场占比很大，但如今这个市场已经大幅萎缩，主要原因是他认为笔记本CPU席卷了低价位市场，低端台式机需求被大量替代。\n关于当前锐龙3主要用于移动端芯片的问题，Kirsch解释称AMD在服务器、桌面和移动端共享架构，在合理场景下会将移动端芯片用于桌面端解决方案。\n锐龙3面向低价市场，CCD+IOD的芯片组合在价格上不适合做锐龙3，而且锐龙3需要集成显卡，因此使用移动端芯片是合理选择。不过当被问及初代锐龙3没有集成显卡时，Kirsch坦言“那个时候真的很艰难”。",
+  "published_at": "2026-10-23T15:24:27+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "0efb6930f744d7a290ff",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b.body",
+  "source_sha256": "44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b",
+  "fetched_at": "2026-10-23T22:03:38.736253+00:00"
+}

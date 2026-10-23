@@ -1,0 +1,18 @@
+{
+  "title": "Nirva official identity and product scope",
+  "url": "https://www.nirva.life/",
+  "text": "Agent source extract from official homepage and linked About page; no publication date visible.\nThe homepage describes Nirva as AI wearable jewelry for self-awareness, automatically journaling life, tracking moods, mapping social relationships and offering everyday guidance.\nThe site invites users to join an email list for preorder information. Footer: © 2026, nirva labs.\nThe linked About page describes a team of engineers, researchers, designers and artists and an initial emotional-intelligence wearable product. It does not expose named founders or financing figures in readable text.\nScope: homepage and About visible textual main content read; no legal registry, image-only investor logos or clinical efficacy reviewed.",
+  "date_basis": "unknown",
+  "published_at": null,
+  "extraction": "full-text",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
+  "id": "51c52f89a22fadae5177",
+  "source_id": "nirva",
+  "source_name": "Nirva Labs Official",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/e7b0a4d2f01042aee4ffee2df6efc08a235c9d8882a720b99d12d7a38b6caea0.txt",
+  "source_sha256": "e7b0a4d2f01042aee4ffee2df6efc08a235c9d8882a720b99d12d7a38b6caea0",
+  "fetched_at": "2026-10-23T22:08:48.538276+00:00",
+  "date_precision": "timestamp"
+}

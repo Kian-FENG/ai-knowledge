@@ -1,0 +1,18 @@
+{
+  "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+  "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+  "text": "Using Google's products and services has always been fundamentally precarious—doing so gives the world's largest advertising company a lot of juicy personal data. Google has long said it won't use the sensitive data from products like Gmail, Drive, and Photos for ad personalization, but a change to the company's privacy policy appears to dismantle that firewall.\nOn October 16, Google issued an update to its privacy policy, spotted by Android Authority. The ad personalization section used to include a clear limit on data from certain apps. \"We don’t show you personalized ads based on your content from Drive, Gmail, or Photos,\" the document said. Now, Google has updated it with the following language.\nUpdated language on when your sensitive data might inform ads.\nCredit:\nGoogle\nThis equivocation opens the door to using data from apps like Gmail and Photos in ads when it's shared with other Google services, and it just so happens Google has a mechanism for doing that, with Personal Intelligence. The company released Personal Intelligence in early 2026, allowing users to hand data from multiple apps to Google AI products. The idea is that the added context from your existing data will lead to better AI answers, but it's also proving to be a privacy minefield.\nRead full article\nComments",
+  "published_at": "2026-10-23T20:19:55+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7be3008f9053e2beb69c",
+  "source_id": "ars-ai",
+  "source_name": "Ars Technica AI",
+  "section": 2,
+  "raw_path": "raw/2026-10-24/a52d63439264a34c4f3470a53872fc6cc0f78be15fa07f42c1531ae85e9b1cc8.body",
+  "source_sha256": "a52d63439264a34c4f3470a53872fc6cc0f78be15fa07f42c1531ae85e9b1cc8",
+  "fetched_at": "2026-10-23T22:03:31.798618+00:00"
+}

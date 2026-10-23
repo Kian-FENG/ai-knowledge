@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/",
+  "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1",
+  "text": "Deploying a trained neural network involves more than translating each operator into a GPU kernel. It is a compilation problem with many legitimate answers. For...\nDeploying a trained neural network involves more than translating each operator into a GPU kernel. It is a compilation problem with many legitimate answers. For example, when NVIDIA TensorRT builds an engine, it makes interdependent decisions about graph-IR transformations, fusion, implementation selection, memory placement, and quantization. This process is called scheduling.\nSource",
+  "published_at": "2026-10-23T17:27:35+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-23T17:27:38+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "7e6eaaa1dc0a2da95bb5",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-24/2c7dfe10f29e43bd0ded378803355b5a8aa90be4aa757d499bd989eb0de2d2cf.body",
+  "source_sha256": "2c7dfe10f29e43bd0ded378803355b5a8aa90be4aa757d499bd989eb0de2d2cf",
+  "fetched_at": "2026-10-23T22:03:18.593126+00:00"
+}

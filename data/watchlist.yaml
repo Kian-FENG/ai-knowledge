@@ -434,6 +434,28 @@ companies:
   tracking_since: '2026-10-12'
   note: 核对产品与编辑器归属，运营法定主体未核实；媒体种子轮非官方融资确认；不与同名工具合并。
 
+- id: nirva
+  name: Nirva / Nirva Labs
+  urls:
+  - https://www.nirva.life/
+  - https://www.nirva.life/about
+  sources:
+  - nirva
+  source_page: reference/entities/nirva.md
+  tracking_since: '2026-10-23'
+  note: 官网页尾nirva labs支持品牌归属；法定主体/注册地未独立核实。融资为SiliconANGLE报道，USD25M本轮与USD33M累计分开；尚未实际交付。
+
+- id: astralive
+  name: 星忆智能 / AstrAlive Intelligence
+  urls:
+  - https://www.xy-ai.tech/
+  - https://www.xy-ai.tech/blog/
+  sources:
+  - astralive
+  source_page: reference/entities/astralive.md
+  tracking_since: '2026-10-23'
+  note: 核实官网品牌与EgoKit/HBR Engine/AstraData归属；注册主体、成立日期和本轮融资原始公告待核，官网July10内容仅背景。
+
 communities:
 - name: SGLang
   urls:

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.bloomberg.com/news/articles/2026-10-23/us-futures-slip-as-big-tech-wavers-oil-extends-gains",
+  "title": "Futures Drop as Tech Stocks Slide, Oil Prices Climb Past $101 a Barrel",
+  "text": "The S&P 500 fell for a second day on Friday as oil prices rose and technology megacaps treaded water after Thursday’s selloff. Chips stocks offered some relief, as the Philadelphia Semiconductor Index, or the SOX, ended the day higher.",
+  "published_at": "2026-10-23T11:24:19+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "16bc480286c255e75853",
+  "source_id": "bloomberg-tech",
+  "source_name": "Bloomberg Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/fbfa21a81c60d8d0824d91604b1f64011667deb63c3b0b519e7f208c7186a1c8.body",
+  "source_sha256": "fbfa21a81c60d8d0824d91604b1f64011667deb63c3b0b519e7f208c7186a1c8",
+  "fetched_at": "2026-10-23T22:03:30.314801+00:00"
+}

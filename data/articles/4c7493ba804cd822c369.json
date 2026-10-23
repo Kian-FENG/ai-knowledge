@@ -1,0 +1,18 @@
+{
+  "url": "https://www.ft.com/content/bb564eb1-79d4-4694-aa24-1155202a9abc?syn-25a6b1a6=1",
+  "title": "OpenAI trims valuation target to $1.25tn after pitching higher price",
+  "text": "AI lab floated $1.4tn price tag earlier this month, according to documents seen by the FT",
+  "published_at": "2026-10-22T21:50:16+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4c7493ba804cd822c369",
+  "source_id": "ft-tech",
+  "source_name": "Financial Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/537d47617d9956efb07182edf14909430cada21b287d19a4d4174a356b677faf.body",
+  "source_sha256": "537d47617d9956efb07182edf14909430cada21b287d19a4d4174a356b677faf",
+  "fetched_at": "2026-10-23T22:03:29.426628+00:00"
+}

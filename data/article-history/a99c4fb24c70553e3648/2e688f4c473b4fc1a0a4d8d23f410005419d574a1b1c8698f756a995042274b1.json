@@ -1,0 +1,19 @@
+{
+  "url": "https://www.sglang.io/blog/unified-memory",
+  "title": "October 22, 2026Unified Memory in SGLang: 1.9× as many prefixes retained, 37.9% less time for returning requestsSGLang TeamSGLang Deep Dive",
+  "link_text": "October 22, 2026Unified Memory in SGLang: 1.9× as many prefixes retained, 37.9% less time for returning requestsSGLang TeamSGLang Deep Dive",
+  "id": "a99c4fb24c70553e3648",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "sglang-blog",
+  "source_name": "SGLang Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-23/2e688f4c473b4fc1a0a4d8d23f410005419d574a1b1c8698f756a995042274b1.body",
+  "source_sha256": "2e688f4c473b4fc1a0a4d8d23f410005419d574a1b1c8698f756a995042274b1",
+  "fetched_at": "2026-10-22T22:00:20.983154+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-22T22:00:20.983154+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+  "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+  "text": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny.\nTake this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between the model and the speaker does have a mostly natural back and forth (though for some reason, the model initially mistakes the speaker for somebody named \"Ronaldo\").\nWe made the first AI model you can have a realistic conversation with that was trained entirely on speech!\nDessa is a full-duplex speech-to-sp …\nRead the full story at The Verge.",
+  "published_at": "2026-10-23T15:32:39-04:00",
+  "announced_at": null,
+  "updated_at": "2026-10-23T15:32:39-04:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "60b56cc3037dbda3a951",
+  "source_id": "the-verge-ai",
+  "source_name": "The Verge AI",
+  "section": 0,
+  "raw_path": "raw/2026-10-24/754f1964fb4ff4c99f302d698013ad2eaad63b21e851ca365d229e274af0af24.body",
+  "source_sha256": "754f1964fb4ff4c99f302d698013ad2eaad63b21e851ca365d229e274af0af24",
+  "fetched_at": "2026-10-23T22:03:28.019739+00:00"
+}

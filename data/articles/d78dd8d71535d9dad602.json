@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1160/1160001.htm",
+  "title": "模型发布即适配！沐曦曦云C系列GPU Day 0跑通MiniMax M3.1 Flash：Agent成本暴降70%",
+  "text": "快科技10月23日消息，MiniMax新一代面向智能体场景的前沿模型M3.1 Flash于10月23日正式开源权重，沐曦股份曦云C系列GPU率先同步完成Day 0深度适配。这是沐曦继M2.5、M2.7、M3之后，第四次实现MiniMax旗舰模型的发布即适配。\nM3.1 Flash的核心规格为总参数428B、激活参数23B，支持1M超长上下文窗口，并可处理图像与视频输入。模型新增可调思考深度reasoning_effort能力，在复杂Agent任务、Computer Use、软件工程及网络安全场景中实现能力跃升。\n据MiniMax官方披露，该模型线上推理速度较前代提升近3倍，Agent任务综合Token使用成本下降70%。\n在基准测试中，M3.1 Flash的表现全面对标顶尖模型。AutomationBench-AA位列最前列，BankerToolBench得分76.2，DeepSWE v1.1取得73.7%，OSWorld V2达到61.7分、ALE达到29.6分，两项Computer Use指标均为国产模型第一。\n值得一提的是，快速的Day 0响应，依托的是沐曦自主GPU硬件与MXMACA全栈软件栈的软硬一体体系。\nMXMACA覆盖底层驱动、MXCC编译器、算子库及主流推理框架适配，原生兼容vLLM与SGLang，能够将前沿模型的适配周期大幅压缩。M3.1 Flash在发布当日即可在曦云C系列GPU上稳定运行，正是这一体系效率的直接体现。\n自2025年12月以来，沐曦已完成45个主流旗舰模型的Day 0适配，覆盖MiniMax、智谱、阶跃星辰、DeepSeek、阿里千问等国内头部模型厂商，适配速度与生态广度均位居国产GPU行业前列。",
+  "published_at": "2026-10-23T15:53:18+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d78dd8d71535d9dad602",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b.body",
+  "source_sha256": "44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b",
+  "fetched_at": "2026-10-23T22:03:38.736253+00:00"
+}

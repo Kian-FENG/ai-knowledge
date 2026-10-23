@@ -1,0 +1,19 @@
+{
+  "url": "https://developers.openai.com/api/docs/changelog",
+  "title": "OpenAI API Changelog：页面内容变化",
+  "summary": "+Scheduled automations\n+Model catalogs",
+  "id": "5dcaa6554b1a4e0089ca",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "openai-api-changelog",
+  "source_name": "OpenAI API Changelog",
+  "section": 0,
+  "raw_path": "raw/2026-10-24/21bbc8d155525d6b08ffbd24b15f8da11e87413dee82beb53de4dffa1a409414.body",
+  "source_sha256": "21bbc8d155525d6b08ffbd24b15f8da11e87413dee82beb53de4dffa1a409414",
+  "fetched_at": "2026-10-23T22:03:07.095211+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-23T22:03:07.095211+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

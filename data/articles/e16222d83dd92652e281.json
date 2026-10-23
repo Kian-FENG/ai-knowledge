@@ -1,0 +1,19 @@
+{
+  "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+  "title": "An alignment assessment of the UK AISI cybertesting incident",
+  "link_text": "An alignment assessment of the UK AISI cybertesting incident",
+  "id": "e16222d83dd92652e281",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "anthropic-research",
+  "source_name": "Anthropic Research",
+  "section": 2,
+  "raw_path": "raw/2026-10-24/494d2049c724bd6a2684307b4fc8a6b9a1b31e50e43f6b7850325cb23a09fe13.body",
+  "source_sha256": "494d2049c724bd6a2684307b4fc8a6b9a1b31e50e43f6b7850325cb23a09fe13",
+  "fetched_at": "2026-10-23T22:03:08.116374+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-23T22:03:08.116374+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

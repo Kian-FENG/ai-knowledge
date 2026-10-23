@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/deepseek-raises-nearly-16-billion-second-funding-round",
+  "title": "DeepSeek Raises Nearly $16 billion in Second Funding Round",
+  "text": "DeepSeek has closed its second funding round, raising 106 billion yuan ($15.9 billion) in one of the biggest-ever fundraising deals in China’s AI sector, according to three people with knowledge of the matter.\nThe amount is more than double DeepSeek’s original fundraising target of 50 billion ...",
+  "published_at": "2026-10-23T06:13:02+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-23T10:08:06+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4d35a5ba459c0ba307a7",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/b284d429e2dc3d9db10b4fcd022c6067a3a672cba42e3bef04f73cbcabef70fa.body",
+  "source_sha256": "b284d429e2dc3d9db10b4fcd022c6067a3a672cba42e3bef04f73cbcabef70fa",
+  "fetched_at": "2026-10-23T22:03:28.639934+00:00"
+}

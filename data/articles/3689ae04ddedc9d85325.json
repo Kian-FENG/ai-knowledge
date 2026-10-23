@@ -1,0 +1,19 @@
+{
+  "url": "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
+  "title": "Investigating alignment failures in AISI’s incident",
+  "link_text": "Investigating alignment failures in AISI’s incident",
+  "id": "3689ae04ddedc9d85325",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "uk-aisi",
+  "source_name": "UK AI Security Institute Blog",
+  "section": 2,
+  "raw_path": "raw/2026-10-24/626e2fed49bc257adeb4863fd28414d34e97c6297bd30e264f65b73df2ad3cc8.body",
+  "source_sha256": "626e2fed49bc257adeb4863fd28414d34e97c6297bd30e264f65b73df2ad3cc8",
+  "fetched_at": "2026-10-23T22:03:20.834325+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-23T22:03:20.834325+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

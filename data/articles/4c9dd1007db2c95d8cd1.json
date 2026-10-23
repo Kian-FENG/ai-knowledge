@@ -1,0 +1,18 @@
+{
+  "url": "https://www.nytimes.com/2026/10/23/business/energy-environment/ohio-election-gas-prices.html",
+  "title": "Why Anger About Data Centers and Energy Prices May Not Swing Votes",
+  "text": "In Ohio, many voters say their frustration about the increase in electricity and fuel prices and the growth of data centers won’t influence whom they vote for.",
+  "published_at": "2026-10-23T16:00:09+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "4c9dd1007db2c95d8cd1",
+  "source_id": "nyt-tech",
+  "source_name": "New York Times Technology",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/d31a3e18cc5954ae29a9032b04d659804bf7516843bad8e78161970c4fd1c74b.body",
+  "source_sha256": "d31a3e18cc5954ae29a9032b04d659804bf7516843bad8e78161970c4fd1c74b",
+  "fetched_at": "2026-10-23T22:03:29.535525+00:00"
+}

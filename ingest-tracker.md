@@ -314,3 +314,25 @@
 最终检查：235知识页结构、132来源配置与49项离线测试全部通过；14事件六栏、manifest/editorial/report哈希与141个packet raw依赖通过。1214既有dirty基线中仅daily/index追加本期行且选择性暂存，其余字节原样；34个新fetch/extracted文件的Cookie/Auth响应头元数据已过滤，raw不改。待本次普通Git提交推送。
 
 Git回执：日报已生成、本地研究提交`86dcbe9f8207bf736471ee7eee5d355b76125b46`已普通推送origin/main，ls-remote核实接收，ahead/behind 0/0。实际聊天通知后记录daily通知状态；1214既有无关dirty状态保留。
+
+
+## automation-ai-2026-10-22（实际运行2026-10-23 UTC）
+
+14新页、1既有Decisions来源页更新；星忆官网为July10背景，融资待核。已原文归档、URL/对象/含草稿查重、模板起草与综合关联，待review/finalize/default-query/get_page。
+- reference/sources/openai-decisions-and-usage-tiers-20261006.md
+- reference/sources/claude-anthropic-managed-gcp-20261022.md
+- reference/sources/uber-chatgpt-work-rollout-20261022.md
+- reference/sources/agent-skills-aaif-20261022.md
+- reference/sources/nirva-funding-reported-20261022.md
+- reference/sources/claude-formal-verification-20261022.md
+- reference/sources/google-agent-compute-engine-20261022.md
+- reference/sources/sglang-unified-memory-20261022.md
+- reference/papers/target-regeneration-261029013.md
+- reference/papers/target-probability-reuse-261029210.md
+- reference/sources/nvidia-minerva-observability-20261022.md
+- reference/sources/astralive-data-stack-background-20260710.md
+- reference/entities/nirva.md
+- reference/entities/astralive.md
+- research/synthesis/agent-scale-cost-and-trust-20261022.md
+
+本批15页已审核发布：14新增、1既有Decisions来源更新；默认query/get_page及所有raw hash通过。249页结构、135来源配置和49离线测试全部通过。来源页曾被schema拦截的media分类已改为有效news后重新审核，无工具代码改动。11事件六栏与日期/生成/采集时区、去重、范围已人工审阅，待本次选择性Git提交推送。

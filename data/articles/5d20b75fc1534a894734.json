@@ -1,0 +1,19 @@
+{
+  "url": "https://vllm.ai/blog/2026-10-23-glm53-part2-pcp-dcp-hisparse",
+  "title": "GLM-5.3 Optimizations, Part 2: PCP, DCP, and Hybrid HiSparse on 16 H200sOct 23, 2026·13 min readvLLM serves GLM-5.3 on 16 H200s with PCP and DCP prefill and Hybrid HiSparse decode, reaching 1M-token c",
+  "link_text": "GLM-5.3 Optimizations, Part 2: PCP, DCP, and Hybrid HiSparse on 16 H200sOct 23, 2026·13 min readvLLM serves GLM-5.3 on 16 H200s with PCP and DCP prefill and Hybrid HiSparse decode, reaching 1M-token c",
+  "id": "5d20b75fc1534a894734",
+  "text": "",
+  "extraction": "metadata-only",
+  "lead": true,
+  "source_id": "vllm-blog",
+  "source_name": "vLLM Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-24/1915b55044db532c74ff2ac02fc2c29630f09a374e6a7faf735cf369709ba8c9.body",
+  "source_sha256": "1915b55044db532c74ff2ac02fc2c29630f09a374e6a7faf735cf369709ba8c9",
+  "fetched_at": "2026-10-23T22:03:17.589085+00:00",
+  "date_basis": "discovered",
+  "discovered_at": "2026-10-23T22:03:17.589085+00:00",
+  "date_precision": "timestamp",
+  "published_at": null
+}

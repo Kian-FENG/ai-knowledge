@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/briefings/exclusive-physical-ai-startup-tractian-becomes-unicorn",
+  "title": "Exclusive: Physical AI Startup Tractian Becomes a Unicorn",
+  "text": "Tractian, a 7-year-old physical AI startup based in Atlanta, Georgia, has raised $130 million at a valuation of $1.4 billion in a Series D funding round led by Sapphire Ventures. Tractian provides sensors to assess the condition of machines, predicting how long it will take for them to fail and ...",
+  "published_at": "2026-10-22T16:00:47+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-22T16:00:47+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "349feb8485a20b9e6323",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-23/16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec.body",
+  "source_sha256": "16e4b2873b218943a6723ad3047ec3722650c0bd6b716c7020fd5f2a8aabecec",
+  "fetched_at": "2026-10-22T22:00:31.374399+00:00"
+}

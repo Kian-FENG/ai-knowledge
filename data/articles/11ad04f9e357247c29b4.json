@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1160/1160012.htm",
+  "title": "惠普战99 Ultra \"Gorgon Halo\" 移动工作站首发59999元：搭载锐龙AI Max+ PRO 495",
+  "text": "快科技10月23日消息，惠普上架新款战99 Ultra（ZHAN99 Ultra 16 G3a AI）移动工作站，标价59999元。\n性能方面，工作站搭载锐龙AI Max+ PRO 495，16核32线程，最高加速频率5.2GHz，集成Radeon 8065S核显与XDNA 2架构NPU，整机AI算力达131TOPS。\n最大亮点是192GB LPDDR5X 统一内存。CPU、GPU、NPU共享内存池，最多可分配160GB给集成显卡使用。样机内存规格为LPDDR5X-8533，内存为板载设计无法后期升级，但192GB已是当前AMD笔记本的内存上限。\n这款机型很有可能就是全球市场的ZBook Ultra G3a 16寸，支持100W性能释放，可选5G蜂窝网络连接，集成96Whr电池，起始质量1.9kg。\n该产品在描述中提到2种屏幕规格，分别为“4K”（这里应指3840 x 2400）和2560×1600 120Hz 400nits，暂不清楚哪项规格正确。\n内部采用双风扇 + 后置散热器，大面积散热板覆盖处理器与内存，保障高负载下持续输出。 存储方面配备 1个PCIe Gen5 M.2插槽，最高可选8TB固态硬盘；电池容量96Wh。",
+  "published_at": "2026-10-23T16:22:47+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "11ad04f9e357247c29b4",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b.body",
+  "source_sha256": "44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b",
+  "fetched_at": "2026-10-23T22:03:38.736253+00:00"
+}

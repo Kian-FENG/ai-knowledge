@@ -5,6 +5,7 @@ Generated; published pages only. Do not hand-edit.
 ## company
 
 - `entity` [[reference/entities/arda|Arda]]
+- `entity` [[reference/entities/astralive|星忆智能：具身数据采集、处理与产品服务]]
 - `entity` [[reference/entities/blacksmith|Blacksmith]]
 - `entity` [[reference/entities/decart|Decart：优化栈DOS与实时世界模型]]
 - `entity` [[reference/entities/firefly-physical-safety|Firefly]]
@@ -13,6 +14,7 @@ Generated; published pages only. Do not hand-edit.
 - `entity` [[reference/entities/humxn|HUMXN：以专业工作流程与家政补贴采集AI训练数据]]
 - `entity` [[reference/entities/mosi|模思智能：OpenMOSS团队孵化的实时全模态交互公司]]
 - `entity` [[reference/entities/namespace|Namespace：编码 Agent 的开发与构建基础设施]]
+- `entity` [[reference/entities/nirva|Nirva：以个人反思为入口的AI可穿戴首饰]]
 - `entity` [[reference/entities/nous-research|Nous Research：Hermes Agent与开放模型研究]]
 - `entity` [[reference/entities/odyssey|Odyssey：交互世界模型与Odyssey-3研究预览]]
 - `entity` [[reference/entities/orchestra-bio|Orchestra Bio：已被OpenAI收购的药物研发协调平台]]

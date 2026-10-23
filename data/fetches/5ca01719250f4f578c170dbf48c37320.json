@@ -1,0 +1,26 @@
+{
+  "raw_path": "raw/2026-10-24/666394b87d6c7649ca0dfa19c2575705c72a88ae6a4deebb700bc54bf4dc6737.body",
+  "sha256": "666394b87d6c7649ca0dfa19c2575705c72a88ae6a4deebb700bc54bf4dc6737",
+  "source_url": "https://dsjj.cq.gov.cn/",
+  "original_name": "http-response.body",
+  "fetched_at": "2026-10-23T22:03:28.726171+00:00",
+  "source_id": "chongqing-dsjj",
+  "status": 200,
+  "headers": {
+    "Date": "Fri, 23 Oct 2026 22:02:29 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "close",
+    "Vary": "Accept-Encoding",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Strict-Transport-Security": "max-age=63072000; includeSubdomains; preload",
+    "X-Permitted-Cross-Domain-Policies": "master-only",
+    "X-Download-Options": "SAMEORIGIN",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Xss-Protection": "1; mode=block",
+    "Content-Security-Policy": "frame-ancestors https://*.gov.cn  http://*.gov.cn http://zwfw.cq.gov.cn http://wmcs.devdemo.trs.net.cn http://www.ceirp.com:8888  http://183.64.111.243:28080 http://znwd.cqgxqzwzx.com:9090 http://mzj.cq12349.cn https://www.sczwfw.gov.cn https://cqjjqzwzx.cn https://ggfw.rlsbj.cq.gov.cn http://cq.12348.gov.cn/ http://gsxt.scjgj.cq.gov.cn/"
+  },
+  "final_url": "https://dsjj.cq.gov.cn/",
+  "truncated": false,
+  "charset": "utf-8"
+}

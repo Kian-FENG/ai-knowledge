@@ -1,6 +1,6 @@
 ---
 id: source-openai-decisions-and-usage-tiers-20261006
-title: OpenAI Decisions API：公开beta、付费用量层级与GPT-Live原生集成
+title: OpenAI Decisions API：公开beta、语音委派与正式可用
 type: source
 domain:
 - products
@@ -8,9 +8,8 @@ domain:
 lifecycle: published
 tags: []
 created: '2026-10-07'
-updated: '2026-10-15'
-summary: OpenAI 在10月6日changelog宣布 Decisions API 公开 beta，当前仅支持 gpt-6-luna；对文本/图像返回条件概率、固定选项或rubric分数，正式可用仍计划未来数周。
-  10月15日新增GPT-Live原生Decisions委派，历史价格/配额未重新核价。
+updated: '2026-10-23'
+summary: OpenAI于10月22日将GPT-6 Luna支持的Decisions API从公开beta转为正式可用；相对库内10月6日beta和15日语音委派，新增正式供给、缓存与更大请求容量。
 evidence_kind: reported
 verification: source-checked
 sources:
@@ -18,18 +17,19 @@ sources:
 - https://developers.openai.com/api/docs/guides/decisions
 - https://developers.openai.com/api/docs/guides/rate-limits
 - https://developers.openai.com/api/docs/guides/decisions-voice
+- https://openai.com/index/decisions-api
 related: []
 aliases: []
-source: raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt
-url: https://developers.openai.com/api/docs/changelog
-published_at: '2026-10-06'
+source: raw/2026-10-24/32a3ac876f9f079f24dd12cf2ef809e4c965ac3c4f628cef8625caa058a23b9c.txt
+url: https://openai.com/index/decisions-api
+published_at: '2026-10-22T19:00:00+00:00'
 source_category: official
-raw_path: raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt
-fetched_at: '2026-10-07T01:21:34.915185+00:00'
-sha256: 00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280
-last_verified: '2026-10-15'
-reading_scope: 已读10月6日两项changelog、Decisions文档概述/问题类型/计费与可用性、rate-limits用量层级小节。文档是无日期的当前背景，不当作新发布；未调用API/测试速度，日期仅到日、时区未知。
-verification_note: 本轮仅核对10月15日changelog与decisions-voice所列小节；原10月6日价格和用量规则保留历史归因，未重新核价或运行API。
+raw_path: raw/2026-10-24/32a3ac876f9f079f24dd12cf2ef809e4c965ac3c4f628cef8625caa058a23b9c.txt
+fetched_at: '2026-10-23T22:08:47.626645+00:00'
+sha256: 32a3ac876f9f079f24dd12cf2ef809e4c965ac3c4f628cef8625caa058a23b9c
+last_verified: '2026-10-23'
+reading_scope: 官方公告产品概述、三种输出类型、语音集成和Build/evaluate报价段已读；RSS确认19:00 UTC。未运行演示/API，未审缓存写入完整条款或客户原始测速。浏览快照为所列主文选段。
+verification_note: Agent阅读所列来源并核对有限结论；reported保留披露主体归因，derived是研究推导，未独立复现。
 evidence:
 - source: raw/2026-10-07/00cef5a38ef36dc4dc618f5392694a4dc255a1ca818eb85e4792786ac5661280.txt
   locator: Changelog October 6两条；Decisions How decisions work / Choose a question
@@ -38,12 +38,16 @@ evidence:
 - source: raw/2026-10-16/5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b.txt
   locator: 10月15日changelog；decisions-voice概述、触发与Run actions；未运行代码。
   version: sha256:5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b
+- source: raw/2026-10-24/32a3ac876f9f079f24dd12cf2ef809e4c965ac3c4f628cef8625caa058a23b9c.txt
+  locator: 官方公告产品概述、三种输出类型、语音集成和Build/evaluate报价段已读；RSS确认19:00 UTC。未运行演示/API，未审缓存写入完整条款或客户原始测速。浏览快照为所列主文选段。
+  version: sha256:32a3ac876f9f079f24dd12cf2ef809e4c965ac3c4f628cef8625caa058a23b9c
+date_precision: timestamp
 reviewed_by: Codex
-reviewed_at: '2026-10-16'
-reviewed_content_sha256: a30406aa2e08fb02785592575a91ba3230f6d369be993ce2c2e739a62049211a
+reviewed_at: '2026-10-24'
+reviewed_content_sha256: 874993dd53ca569761deb447fd43227d9e9d85babd9fe12e6551020c17137f52
 ---
 
-# OpenAI Decisions API：公开beta、付费用量层级与GPT-Live原生集成
+# OpenAI Decisions API：公开beta、语音委派与正式可用
 
 ## Key Takeaways — 2026-10-06历史阅读版本
 
@@ -82,3 +86,17 @@ OpenAI API 10月15日changelog为gpt-live-1/gpt-6-luna与v1/live/sessions列出�
 判断：省去应用中转的一次往返有望改善交互响应，实时助手和设备控制可受益，但动作正确性仍依赖状态读回与权限。反例是转写抖动导致错误触发；观察端到端尾时延、取消/重复执行率和完整账单。
 
 新增证据：raw/2026-10-16/5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b.txt；sha256:5630d89fe634de54fde90578c147cf293c16460fef6866737e27f0c78dd3f31b。10月15日changelog；decisions-voice概述、触发与Run actions；未运行代码。 原有价格/层级仅代表10月6日阅读版本。
+
+## 2026-10-22：正式可用与缓存规则变化
+
+OpenAI于10月22日将GPT-6 Luna支持的Decisions API从公开beta转为正式可用；相对库内10月6日beta和15日语音委派，新增正式供给、缓存与更大请求容量。
+
+接口对文本、图像、原生JSON返回概率、固定选项或评分；单次上限从200增至400问，新增US/EU推理驻留。公告报价为USD0.10/百万输入token、缓存读取USD0.01/百万token，无输出token费；缓存写入与区域处理的完整条款未核，不能据此估算完整账单。
+
+厂商及客户的速度倍数缺少本项目可比较的完整负载，不采作实测；新缓存规则也意味着10月6日历史版本的“无缓存读写费”不能继续视为当前报价。
+
+判断：把重复分类、路由和动作评分抽成专用接口，可以减少复杂Agent每一步的等待和重复上下文费用，编排和实时交互受益。反例是概率校准不足或调用次数增长抵消单次节省。观察相同任务准确率、P95、缓存命中及含写入和区域费用的完整账单。
+
+[原始来源](https://openai.com/index/decisions-api)；原始版本 `raw/2026-10-24/32a3ac876f9f079f24dd12cf2ef809e4c965ac3c4f628cef8625caa058a23b9c.txt`，SHA-256 `32a3ac876f9f079f24dd12cf2ef809e4c965ac3c4f628cef8625caa058a23b9c`。
+
+官方公告产品概述、三种输出类型、语音集成和Build/evaluate报价段已读；RSS确认19:00 UTC。未运行演示/API，未审缓存写入完整条款或客户原始测速。浏览快照为所列主文选段。

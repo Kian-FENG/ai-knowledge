@@ -1,0 +1,18 @@
+{
+  "url": "https://www.theinformation.com/articles/instacart-exploring-sale",
+  "title": "Instacart Is Exploring a Sale",
+  "text": "Instacart is in talks to sell itself in a transaction that would cap the grocery delivery app’s 14-year run as a standalone company.\nCurrently valued at $12 billion, Instacart has been working with an investment bank to weigh its options and held at least preliminary conversations with DoorDash and Uber, according to people familiar with the matter, though talks with Uber are not ongoing, according to a person close to Uber. The potential buyer would acquire one of Silicon Valley’s best known consumer companies, which became a lifeline for many Americans during the Covid-19 lockdown.",
+  "published_at": "2026-10-23T19:54:46+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-23T21:18:40+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "3c062b2caba792e4fae3",
+  "source_id": "the-information",
+  "source_name": "The Information",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/b284d429e2dc3d9db10b4fcd022c6067a3a672cba42e3bef04f73cbcabef70fa.body",
+  "source_sha256": "b284d429e2dc3d9db10b4fcd022c6067a3a672cba42e3bef04f73cbcabef70fa",
+  "fetched_at": "2026-10-23T22:03:28.639934+00:00"
+}

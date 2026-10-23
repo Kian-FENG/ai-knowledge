@@ -1,0 +1,18 @@
+{
+  "url": "https://www.tomshardware.com/3d-printing/bambu-lab-teases-its-mysterious-h3c-tool-changer-3d-printer-features-nine-tools-and-a-drop-down-rack-slated-for-november-3-launch",
+  "title": "Bambu Lab teases its mysterious H3C tool changer 3D printer",
+  "text": "Bambu Lab’s long-anticipated tool changer will launch on November 3rd. Dubbed the H3C, the 3D printer has 9 tools held by a Vortex-like rack mounted on the front of the chamber. Tool changers are the wave of the future, as they can switch colors faster and with less waste than Bambu Lab’s current AMS system.\nUnfortunately, most of the information about the new 3D printer is shrouded in secrecy, but there are plenty of details that are already public knowledge. Bambu Lab is quite proud of this latest engineering feat, which you can see in the video below, and I’ll admit, I’m pretty impressed, too.\n(Image credit: Bambu Lab)\nHere’s what we can confirm about the H3C: It is a member of the H-line of flagship printers, which includes the H2S, H2D, and H2C. As you can imagine, it is most similar to its namesake, the H2C, which is a 7-tool induction-heated “nozzle swapper” with a motorized Vortex rack to hold tools not in use. The H2C is one of the larger Bambu Lab machines, with a 330 x 320 x 325mm build volume.\nThe 11-second-long teaser video shows the tool rack dropping down, along with a satisfying metallic snick. As you might imagine, tool heads that are stored above the build plate are not going to get in your way when you’re watching that first layer go down. This is an annoying problem with the Bondtech INDX system, which we reviewed paired up with a Prusa CORE One, which forces you to peer through the tool rack to see what's going on inside the printer. Visibility on the Bambu H3C is probably better.\nIf you type “H3C leak” on YouTube, you can find several YouTubers who do not have machines under review dissecting the clues sprinkled around the internet. One “AI-enhanced” image showed 10 spools, which I can now finally confirm is completely wrong. Today’s video clearly shows only nine colorful Bowden tools arching over the top of the printer. We’re not at liberty to say what’s holding the spools, but I think it’s safe to acknowledge that it's a very Bambu sort of system.\nThe H2 line has been touted as a home manufacturing hub, so you might wonder if the H3C is the same? Perhaps it is. I had an opportunity to talk to Dr. Tao at Formnext last year when the H2C was fresh, and he was very interested in creating multitasking machines that could do more than just 3D print.\nSadly, not everyone was impressed with adding a laser to the H2D, but since the Bambu Lab A2L has an optional blade cutting and embossing tool, we can safely assume that the notion of multitasking is alive and well. I once programmed an Ender 3 to pick up Sharpie markers, so just think about the things a much more sophisticated machine with a team of sharp engineers could program.\nI can’t wait to tell you more about the H3C. There are definitely a couple of surprising things about this printer that are going to come out of left field. We’ll let it all out on November 3rd.",
+  "published_at": "2026-10-23T13:00:00+00:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "d4718d98d8b722d75920",
+  "source_id": "toms-hardware",
+  "source_name": "Tom's Hardware",
+  "section": 5,
+  "raw_path": "raw/2026-10-24/10ea4d2aee558c50287c9360f79c78b6e6f4ffab75c18cd52c516bb460fcf46c.body",
+  "source_sha256": "10ea4d2aee558c50287c9360f79c78b6e6f4ffab75c18cd52c516bb460fcf46c",
+  "fetched_at": "2026-10-23T22:03:31.704355+00:00"
+}

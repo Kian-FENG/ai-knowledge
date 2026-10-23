@@ -1,0 +1,18 @@
+{
+  "url": "https://arxiv.org/abs/2610.29013",
+  "title": "Target Regeneration Shrinks the Gains of Draft-Training Objectives in Speculative Decoding",
+  "text": "arXiv:2610.29013v1 Announce Type: new\nAbstract: Speculative decoding accelerates large language models by verifying drafted tokens in parallel. New draft-training objectives are usually credited with the acceptance they add over cross-entropy on externally written responses, yet many pipelines let the target rewrite them. We ask how much of that gain survives. With a vision-language target and a block drafter, we train three objectives on four versions of one corpus: cross-entropy on corpus tokens, token-level distillation from the target, and distillation gated to positions that would survive verification. Distillation and the gate add large gains on external responses, but after greedy regeneration, distillation adds a smaller gain and the gate little or none. The shrinkage persists across data orders, position weights, verifiers, decoding temperatures and, for distillation, initializations and learning rates. Most of it remains at matched supervised length and at each objective's best measured training length. A second vision corpus shows the shrinkage, as does a text-only replication, for distillation also with an autoregressive drafter. Objective gains should therefore be measured against a target-regenerated baseline and across training lengths. Our code is available at https://github.com/js-lee-AI/TargetRegeneration.",
+  "published_at": null,
+  "announced_at": "2026-10-22T00:00:00-04:00",
+  "updated_at": null,
+  "date_basis": "announced",
+  "extraction": "abstract",
+  "date_precision": "timestamp",
+  "id": "3a279e3d6307111e15c2",
+  "source_id": "arxiv",
+  "source_name": "arXiv model and infra papers",
+  "section": 4,
+  "raw_path": "raw/2026-10-23/e4a342cf3284123fee89388a7421ab292865d7dcb1aea749884ab1174fcc1848.body",
+  "source_sha256": "e4a342cf3284123fee89388a7421ab292865d7dcb1aea749884ab1174fcc1848",
+  "fetched_at": "2026-10-22T22:00:22.348797+00:00"
+}

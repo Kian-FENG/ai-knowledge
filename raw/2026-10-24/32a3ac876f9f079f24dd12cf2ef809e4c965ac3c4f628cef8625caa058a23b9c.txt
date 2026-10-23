@@ -1,0 +1,6 @@
+Agent source extract; selected official main-text passages, not HTTP bytes. Published October 22, 2026; official RSS timestamp 19:00 UTC.
+Today, we’re making the Decisions API generally available. Built with GPT-6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers.
+Since public beta, we’ve added a native GPT-Live integration, prompt caching for reused context, and inference residency in the US and EU. Developers can also pass native JSON inputs, include images in question instructions, and ask up to 400 questions per request, twice the previous limit.
+The API returns one of three supported answer types—a probability, choice, or score.
+Decisions API costs $0.10 per million input tokens. Cached input costs $0.01 per million tokens. For 30-minute and 12-hour cached writes, read our pricing guide. You only pay for input tokens: there are no output-token charges. Regional processing is available in the US and EU, and Zero Data Retention is available to eligible customers.
+Scope: announcement, answer types, voice integration, build/evaluate and displayed prices read; demo not executed; linked detailed pricing terms and customer raw performance data not audited.

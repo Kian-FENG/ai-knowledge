@@ -1,0 +1,18 @@
+{
+  "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/",
+  "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+  "text": "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions...\nTeaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions when obstacles block the path ahead. Developing these capabilities connects several stages: creating assets and an environment, using physics simulation to model how the robot interacts with its environment, and training and evaluating…\nSource",
+  "published_at": "2026-10-23T14:58:32+00:00",
+  "announced_at": null,
+  "updated_at": "2026-10-23T14:58:36+00:00",
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "2322f2a38aa69878d2f2",
+  "source_id": "nvidia",
+  "source_name": "NVIDIA Technical Blog",
+  "section": 3,
+  "raw_path": "raw/2026-10-24/2c7dfe10f29e43bd0ded378803355b5a8aa90be4aa757d499bd989eb0de2d2cf.body",
+  "source_sha256": "2c7dfe10f29e43bd0ded378803355b5a8aa90be4aa757d499bd989eb0de2d2cf",
+  "fetched_at": "2026-10-23T22:03:18.593126+00:00"
+}

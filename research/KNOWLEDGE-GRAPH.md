@@ -348,3 +348,22 @@
 [[research/synthesis/agent-serving-state-and-portability-20261020|Agent服务竞争同时转向状态连续性与硬件可迁移性]]
 
 - [[research/synthesis/agent-distribution-attention-and-delivery-20261021|Agent竞争连接采购分发、注意力管理和可验收交付]]（2026-10-21日报综合）
+
+
+## 2026-10-22 日报：规模化成本与信任
+
+- [[reference/sources/openai-decisions-and-usage-tiers-20261006|OpenAI Decisions API：公开beta、语音委派与正式可用]]
+- [[reference/sources/claude-anthropic-managed-gcp-20261022|Claude新增Anthropic管理的Google Cloud接入，完整平台能力进入云承诺采购]]
+- [[reference/sources/uber-chatgpt-work-rollout-20261022|Uber将ChatGPT Work从千人试点扩展至逾三万员工的全公司推广]]
+- [[reference/sources/agent-skills-aaif-20261022|Anthropic将Agent Skills交由AAIF，跨平台工作流标准进入中立治理]]
+- [[reference/sources/nirva-funding-reported-20261022|Nirva获报道2500万美元新融资，AI首饰押注个人反思而非会议转写]]
+- [[reference/sources/claude-formal-verification-20261022|Anthropic与Theorem披露123库形式证明，保证范围仍受规格与机器模型约束]]
+- [[reference/sources/google-agent-compute-engine-20261022|Google公布Agent Compute Engine，以可暂停microVM承接持续Agent执行]]
+- [[reference/sources/sglang-unified-memory-20261022|SGLang详解混合模型统一缓存，淘汰收益依赖大块分配条件]]
+- [[reference/papers/target-regeneration-261029013|推测解码论文：目标模型重生成基线会缩小草稿训练目标的增益]]
+- [[reference/papers/target-probability-reuse-261029210|推测解码论文：目标概率何时可复用，取决于完整上下文与计算重叠]]
+- [[reference/sources/nvidia-minerva-observability-20261022|NVIDIA发布Minerva，将GPU有效供给的竞争延伸到故障与作业观测]]
+- [[reference/sources/astralive-data-stack-background-20260710|星忆智能官网背景：从采集设备到具身数据产品]]
+- [[reference/entities/nirva|Nirva：以个人反思为入口的AI可穿戴首饰]]
+- [[reference/entities/astralive|星忆智能：具身数据采集、处理与产品服务]]
+- [[research/synthesis/agent-scale-cost-and-trust-20261022|Agent规模化的成本与信任约束进入产品和基础设施]]

@@ -1,0 +1,18 @@
+{
+  "url": "https://news.mydrivers.com/1/1160/1160103.htm",
+  "title": "全球第二款！《地铁：2033重制版》低调实装DLSS 5：抢先《霍格沃茨》",
+  "text": "快科技10月23日消息，《地铁：2033重制版》于10月22日通过次世代更新原生引入英伟达DLSS 5支持，成为继9月上线的《NBA 2K27》之后，第二款正式搭载该技术的游戏。\n此次更新早于英伟达此前公布的两款DLSS 5集成计划，《霍格沃茨之遗》将于11月5日获得支持，《风起》则定于11月下旬。\n根据玩家的实测反馈，此次更新后游戏内已包含与《NBA 2K27》版本一致的DLSS 5 DLL文件，图形设置菜单中也新增了DLSS-NR选项。\n不过开发商4A Games在官方更新说明中并未提及DLSS 5，公告仅写明支持DLSS、AMD FSR与4A TSR，并介绍了4K材质、改进版PBR材质、屏幕空间全局光照、解锁帧率上限与空间音频等新增内容，同时明确表示本次更新未加入光线追踪。\n从技术定位看，DLSS 5与传统的DLSS超分辨率并非同一功能，DLSS 5通过AI基于游戏渲染画面修改光照与材质表现，而非单纯提升分辨率，该功能仅支持GeForce RTX 50系列GPU与RTX Spark系统。\n据《地铁：2033重制版》早期玩家反馈，开启DLSS 5后性能开销较为明显，但具体表现因GPU型号与画质设置而异。\n目前Steam、Epic和GOG平台的现有玩家可以免费获取该更新。",
+  "published_at": "2026-10-23T19:14:04+08:00",
+  "announced_at": null,
+  "updated_at": null,
+  "date_basis": "published",
+  "extraction": "feed-content",
+  "date_precision": "timestamp",
+  "id": "ae48dc4526ad25d38f32",
+  "source_id": "mydrivers",
+  "source_name": "快科技（驱动之家）",
+  "section": 1,
+  "raw_path": "raw/2026-10-24/44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b.body",
+  "source_sha256": "44be6c8cdc48f43c6369a7beb0fb163e14651462baf87b7bc3d1fbbacdf2836b",
+  "fetched_at": "2026-10-23T22:03:38.736253+00:00"
+}

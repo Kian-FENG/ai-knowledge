@@ -1411,3 +1411,39 @@ sources:
   enabled: true
   checked_at: '2026-10-22'
   note: CEO署名融资公告及官网页尾核对CI云产品归属；融资、ARR和估值保留各自口径，机器采集许可未核实。
+
+- id: nirva
+  name: Nirva Labs Official
+  url: https://www.nirva.life/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-23'
+  note: 官网首页和about已读；无新闻发布日期，机器采集许可未核。
+
+- id: astralive
+  name: 星忆智能 AstrAlive Official
+  url: https://www.xy-ai.tech/blog/
+  kind: web
+  group: official
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-23'
+  note: 官网首页和2026.07.10 v1.0产品主文已读；融资官方公告未取得，机器采集许可未核。
+
+- id: siliconangle-vc
+  name: SiliconANGLE Company Coverage
+  url: https://siliconangle.com/2026/10/22/nirva-raises-25m-to-make-ai-jewelry-with-perspective-that-listens-and-provides-insights/
+  kind: web
+  group: media
+  section: 1
+  fetch: browser
+  poll_hours: 24
+  enabled: true
+  checked_at: '2026-10-23'
+  note: 实际阅读Nirva报道全文主文；媒体归因，未取得公司或投资方融资原始公告；仅浏览，机器采集许可未核。

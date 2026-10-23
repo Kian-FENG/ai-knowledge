@@ -1,18 +1,18 @@
 {
-  "url": "https://openai.com/index/decisions-api",
   "title": "Build more responsive apps with the Decisions API",
-  "text": "Fast, focused, low-cost decisions for any application.",
-  "published_at": "2026-10-22T19:00:00+00:00",
-  "announced_at": null,
-  "updated_at": null,
+  "url": "https://openai.com/index/decisions-api",
+  "text": "Agent source extract; selected official main-text passages, not HTTP bytes. Published October 22, 2026; official RSS timestamp 19:00 UTC.\nToday, we’re making the Decisions API generally available. Built with GPT-6 Luna, the Decisions API focuses Luna’s intelligence on questions with bounded answers.\nSince public beta, we’ve added a native GPT-Live integration, prompt caching for reused context, and inference residency in the US and EU. Developers can also pass native JSON inputs, include images in question instructions, and ask up to 400 questions per request, twice the previous limit.\nThe API returns one of three supported answer types—a probability, choice, or score.\nDecisions API costs $0.10 per million input tokens. Cached input costs $0.01 per million tokens. For 30-minute and 12-hour cached writes, read our pricing guide. You only pay for input tokens: there are no output-token charges. Regional processing is available in the US and EU, and Zero Data Retention is available to eligible customers.\nScope: announcement, answer types, voice integration, build/evaluate and displayed prices read; demo not executed; linked detailed pricing terms and customer raw performance data not audited.",
   "date_basis": "published",
-  "extraction": "feed-content",
-  "date_precision": "timestamp",
+  "published_at": "2026-10-22T19:00:00+00:00",
+  "extraction": "full-text",
+  "imported": true,
+  "retrieval_method": "agent-source-extract",
   "id": "891b7e0bbf66f86d27b7",
   "source_id": "openai",
   "source_name": "OpenAI News",
   "section": 0,
-  "raw_path": "raw/2026-10-23/e0a24aafb423d2f6b64777a6d100c55372191791ce27b9801e942241d1a2b5c9.body",
-  "source_sha256": "e0a24aafb423d2f6b64777a6d100c55372191791ce27b9801e942241d1a2b5c9",
-  "fetched_at": "2026-10-22T22:00:11.480160+00:00"
+  "raw_path": "raw/2026-10-24/32a3ac876f9f079f24dd12cf2ef809e4c965ac3c4f628cef8625caa058a23b9c.txt",
+  "source_sha256": "32a3ac876f9f079f24dd12cf2ef809e4c965ac3c4f628cef8625caa058a23b9c",
+  "fetched_at": "2026-10-23T22:08:47.626645+00:00",
+  "date_precision": "timestamp"
 }

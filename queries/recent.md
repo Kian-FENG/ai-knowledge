@@ -2,6 +2,24 @@
 
 Generated; published pages only. Do not hand-edit.
 
+## 2026-10-23
+
+- `entity` [[reference/entities/astralive|星忆智能：具身数据采集、处理与产品服务]]
+- `entity` [[reference/entities/nirva|Nirva：以个人反思为入口的AI可穿戴首饰]]
+- `paper` [[reference/papers/target-probability-reuse-261029210|推测解码论文：目标概率何时可复用，取决于完整上下文与计算重叠]]
+- `paper` [[reference/papers/target-regeneration-261029013|推测解码论文：目标模型重生成基线会缩小草稿训练目标的增益]]
+- `source` [[reference/sources/agent-skills-aaif-20261022|Anthropic将Agent Skills交由AAIF，跨平台工作流标准进入中立治理]]
+- `source` [[reference/sources/astralive-data-stack-background-20260710|星忆智能官网背景：从采集设备到具身数据产品]]
+- `source` [[reference/sources/claude-anthropic-managed-gcp-20261022|Claude新增Anthropic管理的Google Cloud接入，完整平台能力进入云承诺采购]]
+- `source` [[reference/sources/claude-formal-verification-20261022|Anthropic与Theorem披露123库形式证明，保证范围仍受规格与机器模型约束]]
+- `source` [[reference/sources/google-agent-compute-engine-20261022|Google公布Agent Compute Engine，以可暂停microVM承接持续Agent执行]]
+- `source` [[reference/sources/nirva-funding-reported-20261022|Nirva获报道2500万美元新融资，AI首饰押注个人反思而非会议转写]]
+- `source` [[reference/sources/nvidia-minerva-observability-20261022|NVIDIA发布Minerva，将GPU有效供给的竞争延伸到故障与作业观测]]
+- `source` [[reference/sources/openai-decisions-and-usage-tiers-20261006|OpenAI Decisions API：公开beta、语音委派与正式可用]]
+- `source` [[reference/sources/sglang-unified-memory-20261022|SGLang详解混合模型统一缓存，淘汰收益依赖大块分配条件]]
+- `source` [[reference/sources/uber-chatgpt-work-rollout-20261022|Uber将ChatGPT Work从千人试点扩展至逾三万员工的全公司推广]]
+- `note` [[research/synthesis/agent-scale-cost-and-trust-20261022|Agent规模化的成本与信任约束进入产品和基础设施]]
+
 ## 2026-10-22
 
 - `entity` [[reference/entities/blacksmith|Blacksmith]]
@@ -92,7 +110,6 @@ Generated; published pages only. Do not hand-edit.
 - `source` [[reference/sources/flashinfer-v072-20261015|FlashInfer v0.7.2正式版扩展Rubin与Blackwell的MoE和注意力路径]]
 - `source` [[reference/sources/muse-spark-open-20261015|Meta发布Muse Spark Open权重，MaaS许可设收入门槛]]
 - `source` [[reference/sources/nemotron35-super-vl-20261015|NVIDIA发布Nemotron 3.5 Super VL，强调多模态专用Agent定制]]
-- `source` [[reference/sources/openai-decisions-and-usage-tiers-20261006|OpenAI Decisions API：公开beta、付费用量层级与GPT-Live原生集成]]
 - `source` [[reference/sources/rosalind-academic-plan-20261015|OpenAI向美国大学实验室开放Rosalind学术计划申请，最多30席免费12个月]]
 - `source` [[reference/sources/timestral-release-20261015|Mistral推出Timestral时序模型，最大209M并支持已知未来协变量]]
 - `source` [[reference/sources/tsmc-q3-results-20261015|台积电Q3营收467.2亿美元，Q4指引仍是未来展望]]
