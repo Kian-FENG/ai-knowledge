@@ -336,3 +336,5 @@ Git回执：日报已生成、本地研究提交`86dcbe9f8207bf736471ee7eee5d355
 - research/synthesis/agent-scale-cost-and-trust-20261022.md
 
 本批15页已审核发布：14新增、1既有Decisions来源更新；默认query/get_page及所有raw hash通过。249页结构、135来源配置和49离线测试全部通过。来源页曾被schema拦截的media分类已改为有效news后重新审核，无工具代码改动。11事件六栏与日期/生成/采集时区、去重、范围已人工审阅，待本次选择性Git提交推送。
+
+Git回执：研究提交`625d2cccc121fd8c083cf46a87da36f605abe9bf`已普通推送origin/main，独立ls-remote核对接收，ahead/behind0/0；日报已生成、本地已提交、远端已同步。实际聊天通知后写daily状态。1214个既有未提交文件保留，daily/index旧Oct5行未进入提交。

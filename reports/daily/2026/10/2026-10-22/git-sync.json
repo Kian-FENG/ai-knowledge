@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-22",
+  "report_generated": true,
+  "locally_committed": true,
+  "remote_synced": true,
+  "research_commit": "625d2cccc121fd8c083cf46a87da36f605abe9bf",
+  "remote": "origin",
+  "branch": "main",
+  "upstream": "origin/main",
+  "remote_url": "git@github.com:Kian-FENG/ai-knowledge.git",
+  "remote_commit_url": "https://github.com/Kian-FENG/ai-knowledge/commit/625d2cccc121fd8c083cf46a87da36f605abe9bf",
+  "verified_by": "git ls-remote origin refs/heads/main",
+  "verified_at": "2026-10-23T22:18:52.422455+00:00",
+  "ahead_behind": [
+    0,
+    0
+  ],
+  "baseline_dirty_files": 1214,
+  "task_commit_files": 699,
+  "unrelated_changes_preserved": true,
+  "notification_sent_at": "2026-10-23T22:18:52.422455+00:00",
+  "validation": {
+    "knowledge_pages": 249,
+    "source_configurations": 135,
+    "offline_tests": 49,
+    "default_query_get_page_raw_hash": 15
+  },
+  "coverage": {
+    "run_id": "20261023T220306-fab63e54",
+    "collect_sources": 131,
+    "ok": 81,
+    "needs_browser": 48,
+    "failed": 2,
+    "new_browser_sources_checked_after_collect": 3,
+    "candidate_articles": 310,
+    "leads": 41,
+    "undated_excluded": 10,
+    "arxiv_truncated": 142,
+    "failed_or_insufficient_source_ids": [
+      "alibaba-cloud",
+      "apple-newsroom",
+      "google-cloud-blog",
+      "huxiu",
+      "minimax",
+      "ms-nadella",
+      "nda",
+      "qwen",
+      "techmeme-snapshot",
+      "today"
+    ]
+  },
+  "scope": "Git remote only; no email or other external publishing."
+}

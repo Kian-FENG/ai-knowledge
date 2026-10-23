@@ -122,15 +122,20 @@
       "notified_at": "2026-10-22T22:19:14.554646+00:00",
       "research_commit": "86dcbe9f8207bf736471ee7eee5d355b76125b46",
       "git_remote_synced": true
+    },
+    "2026-10-22": {
+      "packet_sha256": "0a1092338f9fc8769fdfd634d3886b71491fddd51a84ebcee903c16b5305c544",
+      "editorial_sha256": "06357c5f33a3e2f316969e5c937e939016c8e11fbf04446ef4cc3af9d1d016d9",
+      "notified_at": "2026-10-23T22:18:52.422455+00:00",
+      "research_commit": "625d2cccc121fd8c083cf46a87da36f605abe9bf",
+      "git_remote_synced": true
     }
   },
   "failed_source_ids": [
     "alibaba-cloud",
     "apple-newsroom",
+    "google-cloud-blog",
     "huxiu",
-    "ithome",
-    "jiqizhixin",
-    "leiphone",
     "minimax",
     "ms-nadella",
     "nda",
@@ -138,19 +143,19 @@
     "techmeme-snapshot",
     "today"
   ],
-  "updated_at": "2026-10-22T22:19:14.554646+00:00",
+  "updated_at": "2026-10-23T22:18:52.422455+00:00",
   "git_sync": {
-    "date": "2026-10-21",
-    "research_commit": "86dcbe9f8207bf736471ee7eee5d355b76125b46",
+    "date": "2026-10-22",
+    "research_commit": "625d2cccc121fd8c083cf46a87da36f605abe9bf",
     "remote_synced": true,
-    "notified_at": "2026-10-22T22:19:14.554646+00:00"
+    "notified_at": "2026-10-23T22:18:52.422455+00:00"
   },
   "schedule_issue": {
     "status": "unresolved",
     "host_timezone": "America/New_York",
     "target_timezone": "America/Los_Angeles",
     "target_hour": 18,
-    "observed_trigger_utc": "2026-10-22T21:59:52+00:00",
-    "note": "cron本次仍约LA15点触发，按最近到期21日窗口补报；同一问题已通知，未擅自更改调度或窗口。"
+    "observed_trigger_utc": "2026-10-23T22:02:26+00:00",
+    "note": "本轮仍约LA15点运行，按最近到期22日窗口补报；窗口配置正确，未擅自更改调度。"
   }
 }
